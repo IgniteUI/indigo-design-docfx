@@ -18,7 +18,9 @@
             {
                 "files": [
                     "components/**.md",
-                    "components/**/toc.yml",
+                    "patterns/**.md",
+                    "style/**.md",
+                    "sidebar-toc/toc.yml",
                     "toc.yml",
                     "*.md"
                 ],
