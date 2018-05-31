@@ -1,4 +1,61 @@
-- name: Grids & Lists
+- name: Getting Started
+  href: getting-started.md
+
+- name: Components
   header: true
-- name: Data Grid
-  href: grid.md
+- name: Avatar
+  href: avatar.md
+- name: Badge
+  href: badge.md
+- name: Bottom Navigation
+  href: bottom-nav.md
+- name: Button Group
+  href: button-group.md
+- name: Button
+  href: button.md
+- name: Calendar
+  href: calendar.md
+- name: Carousel
+  href: carousel.md
+- name: Checkbox
+  href: checkbox.md
+- name: Dialog
+  href: dialog.md
+- name: Hyperlink
+  href: hyperlink.md
+- name: Icon
+  href: icon.md
+- name: Input
+  href: input.md
+- name: Navbar
+  href: navbar.md
+- name: Navigation Drawer
+  href: nav-drawer.md
+- name: Progress
+  href: progress.md
+- name: Radio Group
+  href: radio-group.md
+- name: Slider
+  href: slider.md
+- name: Snackbar
+  href: snackbar.md
+- name: Switch
+  href: switch.md
+- name: Tabs
+  href: tabs.md
+- name: Text
+  href: text.md
+- name: Time Picker
+  href: time-picker.md
+- name: Toast
+  href: toast.md
+
+- name: Patterns
+  header: true
+# - name: Forms
+#   href: forms.md
+#   new: true
+#     items:
+#       - name: Login
+#         href: login.md
+#         new: false

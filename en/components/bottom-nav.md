@@ -1,0 +1,65 @@
+---
+title: Bottom Navigation - Design System Component
+_description: The Bottom Navigation Component Symbol is used to design simple application-level navigation. 
+_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+---
+
+## Bottom Navigation
+
+Use the Bottom Navigation Component Symbol to implement application-level navigation by placing it at the bottom of the screen with up to five items that allow browsing between their associated views.
+The Bottom Navigation is visually identical to the [Ignite UI for Angular Bottom Navigation Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/tabbar.html)
+
+### Bottom Navigation Demo
+
+![](../images/bottom-nav_demo.png)
+
+### Items Amount
+
+The Bottom Navigation supports between two and five items. If you need to design application-level navigation with more than five items/views consider using the [Navigation Drawer](nav-drawer.md) instead.
+
+![](../images/bottom-nav_items2.png)
+![](../images/bottom-nav_items3.png)
+![](../images/bottom-nav_items4.png)
+![](../images/bottom-nav_items5.png)
+
+### Item Style
+
+The Bottom Navigation item contains either a combination of **icon+text** or just an icon. There is always one item in active (selected) state and the remaining items must be set to inactive.
+
+![](../images/bottom-nav_icon&text.png)
+![](../images/bottom-nav_icon.png)
+
+### Styling
+
+The Bottom Navigation comes with styling flexibility through the various overrides controling the background color, as well as the item label and icon colors.
+
+![](../images/bottom-nav_styling.png)
+
+## Usage
+
+The Bottom Navigation always appears on top of other content and the shadow it casts is a crucial visual element. Make sure that you always place its layer over those representing the screen content and under no circumstances should you remove the shadow it casts.
+
+| Do                                | Don't                               |
+| --------------------------------- | ----------------------------------- |
+| ![](../images/bottom-nav_do1.png) | ![](../images/bottom-nav_dont1.png) |
+| ![](../images/bottom-nav_do2.png) | ![](../images/bottom-nav_dont2.png) |
+
+## Code generation
+
+> [!WARNING]
+> Triggering `Detach from Symbol` on an instance of the Bottom Navigation in your design is very likely to result in loss of code generation capability for the Bottom Navigation.
+
+The Bottom Navigation symbol has a special `🕹️DataSource` field in its `Overrides` section. Use the curly braces notation _{notifications.count}_ to provide a reference for code generation to the database property, which should be used as a binding.
+The Bottom Navigation symbol has special `🕹️Event` fields, one for each item, in its `Overrides` section. Use the curly braces notation _{???}_ to provide a reference for code generation to the ...
+
+## Additional Resources
+
+Related topics:
+
+* [Navigation Drawer](nav-drawer.md)
+  <div class="divider--half"></div>
+
+Our community is active and always welcoming to new ideas.
+
+* [Design System **Forums**](https://www.infragistics.com/community/forums/f/ignite-ui-for-angular)
+* [Design System **GitHub**](https://github.com/IgniteUI/igniteui-angular)
