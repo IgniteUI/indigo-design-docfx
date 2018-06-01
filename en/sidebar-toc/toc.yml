@@ -1,0 +1,61 @@
+- name: Getting Started
+  href: ../getting-started.md
+
+- name: Components
+  header: true
+- name: Avatar
+  href: ../components/avatar.md
+- name: Badge
+  href: ../components/badge.md
+- name: Bottom Navigation
+  href: ../components/bottom-nav.md
+- name: Button Group
+  href: ../components/button-group.md
+- name: Button
+  href: ../components/button.md
+- name: Calendar
+  href: ../components/calendar.md
+- name: Carousel
+  href: ../components/carousel.md
+- name: Checkbox
+  href: ../components/checkbox.md
+- name: Dialog
+  href: ../components/dialog.md
+- name: Hyperlink
+  href: ../components/hyperlink.md
+- name: Icon
+  href: ../components/icon.md
+- name: Input
+  href: ../components/input.md
+- name: Navbar
+  href: ../components/navbar.md
+- name: Navigation Drawer
+  href: ../components/nav-drawer.md
+- name: Progress
+  href: ../components/progress.md
+- name: Radio Group
+  href: ../components/radio-group.md
+- name: Slider
+  href: ../components/slider.md
+- name: Snackbar
+  href: ../components/snackbar.md
+- name: Switch
+  href: ../components/switch.md
+- name: Tabs
+  href: ../components/tabs.md
+- name: Text
+  href: ../components/text.md
+- name: Time Picker
+  href: ../components/time-picker.md
+- name: Toast
+  href: ../components/toast.md
+
+- name: Patterns
+  header: true
+# - name: Forms
+#   href: forms.md
+#   new: true
+#     items:
+#       - name: Login
+#         href: login.md
+#         new: false
