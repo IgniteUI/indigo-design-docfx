@@ -60,7 +60,7 @@ So let's see how we can create the intricate layout for the product List Item ab
 
 With this List Item layout a lot of additional styling is possible based on the elements that have been inserted in it. For example we can set a color for the text of the pricing to emphasize it, and change the Badge background and Raised Button background colors.
 
-![](../images/list_item_custom_styled.png)
+![](../images/list_item_custom_layout_styled.png)
 
 ## Additional Resources
 
