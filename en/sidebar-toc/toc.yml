@@ -1,6 +1,17 @@
 - name: Getting Started
   href: ../getting-started.md
 
+- name: Styling
+  header: true
+- name: Colors
+  href: ../style/colors.md
+- name: Elevation
+  href: ../style/elevation.md
+- name: Material Icons
+  href: ../style/material-icons.md
+- name: Typography
+  href: ../style/typography.md
+
 - name: Components
   header: true
 - name: Avatar
@@ -15,18 +26,39 @@
   href: ../components/button.md
 - name: Calendar
   href: ../components/calendar.md
+- name: Cards
+  href: ../components/cards.md
+  items:
+    - name: Custom Card
+      href: ../components/cards-custom.md
 - name: Carousel
   href: ../components/carousel.md
 - name: Checkbox
   href: ../components/checkbox.md
 - name: Dialog
   href: ../components/dialog.md
+- name: Grid
+  href: ../components/grid.md
+  items:
+    - name: Grid Column Pinning
+      href: ../components/grid-column-pinning.md
+    - name: Grid Filter
+      href: ../components/grid-filter.md
+    - name: Grid Paging
+      href: ../components/grid-paging.md
+    - name: Grid Summaries
+      href: ../components/grid-summaries.md
 - name: Hyperlink
   href: ../components/hyperlink.md
 - name: Icon
   href: ../components/icon.md
 - name: Input
   href: ../components/input.md
+- name: List
+  href: ../components/list.md
+  items:
+    - name: Custom List Item
+      href: ../components/list-custom.md
 - name: Navbar
   href: ../components/navbar.md
 - name: Navigation Drawer
@@ -53,9 +85,9 @@
 - name: Patterns
   header: true
 # - name: Forms
-#   href: forms.md
+#   href: ../patterns/forms.md
 #   new: true
 #     items:
 #       - name: Login
-#         href: login.md
+#         href: ../patterns/login.md
 #         new: false
