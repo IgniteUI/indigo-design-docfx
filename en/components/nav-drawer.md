@@ -41,17 +41,17 @@ Navigation Drawer is always used as the main app navigation, therefore position 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Navigation Drawer will reduce the accuracy of code generation for the Navigation Drawer. Do this only if you need to create more items than provided and make sure you keep the `🚫igx-nav-drawer` and `🕹️DataSource` layers intact.
 
-The Navigation Drawer symbol has a special `🕹️DataSource` field in its `Overrides` section. Use the curly braces notation _{notifications.count}_ to provide a reference for code generation to the database property, which should be used as a binding.
+`🕹️DataSource`
+`🕹️Event`
 
 ## Additional Resources
 
 Related topics:
 
-* [Navbar](navbar.md)
-* [Bottom Navigation](bottom-nav.md)
+- [Navbar](navbar.md)
+- [Bottom Navigation](bottom-nav.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 
-* [Design System **Forums**](https://www.infragistics.com/community/forums/f/ignite-ui-for-angular)
-* [Design System **GitHub**](https://github.com/IgniteUI/igniteui-angular)
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

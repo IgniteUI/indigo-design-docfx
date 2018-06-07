@@ -3,6 +3,8 @@
 
 - name: Styling
   header: true
+- name: Overview
+  href: ../style/styling-overview.md
 - name: Colors
   href: ../style/colors.md
 - name: Elevation

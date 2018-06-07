@@ -55,10 +55,37 @@ Always choose Paragraph text color that makes a Hyperlink stand out if the two a
 
 ## Code generation
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Navigation Drawer will reduce the accuracy of code generation for the Navigation Drawer. Do this only if you need to create more items than provided and make sure you keep the `🚫igx-nav-drawer` and `🕹️DataSource` layers intact.
+The Paragraph is a small component with a couple of options to allow custom text and appearances.
+The size and style properties are configurable for the Paragraph component. The HTML tag will wrap with a “p” tag regardless of the configuration.
 
-The Navigation Drawer symbol has a special `🕹️DataSource` field in its `Overrides` section. Use the curly braces notation _{notifications.count}_ to provide a reference for code generation to the database property, which should be used as a binding.
+> [!WARNING]
+> Triggering `Detach from Symbol` on an instance of the Title or Paragraph Text in your design is very likely to result in loss of code generation capability for the Title or Paragraph Text.
+
+### Size
+
+Size is a nested property, which when supplied sets the Title or Paragraph Size.
+
+|           |                           |
+| --------- | ------------------------- |
+| Title     | H1, H2, H3, H4, H5, or H6 |
+| Paragraph | Body1, Body2, or Caption  |
+
+### Style
+
+The text is configurable with many different typography settings such as left, right, or center alignment. The appearance can be set to three shades of gray, green (success), warning aka. Warn (orange), primary (blue), secondary (ruby), white, black and error (red).
+
+### Text
+
+Text is a nested property, which configures the content rendered by the component.
+
+#### Non-Binding
+
+- Olympic Medals by Country
+
+#### Non-Binding
+
+- Olympic Medals for {country}
+- {olympicChartTitle}
 
 ## Additional Resources
 
@@ -66,5 +93,4 @@ Related topics:
 
 Our community is active and always welcoming to new ideas.
 
-* [Design System **Forums**](https://www.infragistics.com/community/forums/f/ignite-ui-for-angular)
-* [Design System **GitHub**](https://github.com/IgniteUI/igniteui-angular)
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

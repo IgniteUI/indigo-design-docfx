@@ -32,12 +32,11 @@ The Grid Filter dialog comes with styling flexibility through the various overri
 
 Related topics:
 
-* [Button](button.md)
-* [Grid](grid.md)
-* [Input](input.md)
+- [Button](button.md)
+- [Grid](grid.md)
+- [Input](input.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 
-* [Design System **Forums**](https://www.infragistics.com/community/forums/f/ignite-ui-for-angular)
-* [Design System **GitHub**](https://github.com/IgniteUI/igniteui-angular)
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

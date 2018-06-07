@@ -17,10 +17,10 @@ The Button is visually identical to the [Ignite UI for Angular Button Component]
 
 Four types of Buttons are supported:
 
-* A more prominent Raised Button with color fill and shadow that emphasizes an action and supports both **text** and combination of icon and text
-* A less prominent Flat Button that is typically used for less important actions and supports both **text** and combination of icon and text
-* An Icon Button for actions that are represented only with an Icon
-* A very prominent Floating Action Button (fab) with color fill and shadow that is used once per screen to strongly emphasize the main action
+- A more prominent Raised Button with color fill and shadow that emphasizes an action and supports both **text** and combination of icon and text
+- A less prominent Flat Button that is typically used for less important actions and supports both **text** and combination of icon and text
+- An Icon Button for actions that are represented only with an Icon
+- A very prominent Floating Action Button (fab) with color fill and shadow that is used once per screen to strongly emphasize the main action
 
 ![](../images/button_types.png)
 
@@ -46,29 +46,28 @@ When the content of a Button contains a label, it must be uppercase and with a t
 | ![](../images/button_do2.png) | ![](../images/button_dont2.png) |
 | ![](../images/button_do3.png) | ![](../images/button_dont3.png) |
 
-## Code generation
+## Code generation - TODO
 
 > [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Bottom Navigation in your design is very likely to result in loss of code generation capability for the Bottom Navigation.
+> Triggering `Detach from Symbol` on an instance of the Button in your design is very likely to result in loss of code generation capability for the Button.
 
-The Bottom Navigation symbol has a special `🕹️DataSource` field in its `Overrides` section. Use the curly braces notation _{notifications.count}_ to provide a reference for code generation to the database property, which should be used as a binding.
-The Bottom Navigation symbol has special `🕹️Event` fields, one for each item, in its `Overrides` section. Use the curly braces notation _{???}_ to provide a reference for code generation to the ...
+`🕹️DataSource`
+`🕹️Event`
 
 ## Additional Resources
 
 Related topics:
 
-* [Button Group](button-group.md)
-* [Card](card.md)
-* [Dialog](dialog.md)
-* [Snackbar](snackbar.md)
-* [Time Picker](time-picker.md)
-* [AV Player Pattern](av-player.md)
-* [File Upload Pattern](file-upload.md)
-* [Form Pattern](forms.md)
+- [Button Group](button-group.md)
+- [Card](card.md)
+- [Dialog](dialog.md)
+- [Snackbar](snackbar.md)
+- [Time Picker](time-picker.md)
+- [AV Player Pattern](av-player.md)
+- [File Upload Pattern](file-upload.md)
+- [Form Pattern](forms.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 
-* [Design System **Forums**](https://www.infragistics.com/community/forums/f/ignite-ui-for-angular)
-* [Design System **GitHub**](https://github.com/IgniteUI/igniteui-angular)
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

@@ -38,10 +38,36 @@ The Toast should always be centrally aligned on the horizontal and other placeme
 
 ## Code generation
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Navigation Drawer will reduce the accuracy of code generation for the Navigation Drawer. Do this only if you need to create more items than provided and make sure you keep the `🚫igx-nav-drawer` and `🕹️DataSource` layers intact.
+When colors or fonts are specified for the Toast, the Toast HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
 
-The Navigation Drawer symbol has a special `🕹️DataSource` field in its `Overrides` section. Use the curly braces notation _{notifications.count}_ to provide a reference for code generation to the database property, which should be used as a binding.
+> [!WARNING]
+> Triggering `Detach from Symbol` on an instance of the Toast in your design is very likely to result in loss of code generation capability for the Toast.
+
+### Text/Data Property Binding
+
+There are Text properties for the Message. When supplied they can be bound to a nested or non-nested data item.
+If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+
+#### Example Not Nested
+
+```typescript
+Customer {
+messageText: string;
+}
+Text would be: { messageText }
+```
+
+#### Example Nested
+
+```typescript
+Profile {
+messageText: number;
+}
+Customer {
+profile: Profile;
+}
+Text would be: {profile. messageText }
+```
 
 ## Additional Resources
 
@@ -49,5 +75,4 @@ Related topics:
 
 Our community is active and always welcoming to new ideas.
 
-* [Design System **Forums**](https://www.infragistics.com/community/forums/f/ignite-ui-for-angular)
-* [Design System **GitHub**](https://github.com/IgniteUI/igniteui-angular)
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

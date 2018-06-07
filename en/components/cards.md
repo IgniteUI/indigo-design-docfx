@@ -50,7 +50,7 @@ The Card Actions come in three distinct layouts: **Button Actions** with just a 
 
 ### Types
 
-The Card comes with styling flexibility through the various overrides available for header, content and actions areas such as text, icons and button colors.
+The Card is available in one of the following layouts:
 
 |                   |                                       |
 | ----------------- | ------------------------------------- |
@@ -64,6 +64,8 @@ The Card comes with styling flexibility through the various overrides available 
 | Square Card       | ![](../images/card_square.png)        |
 | Text Card         | ![](../images/card_text.png)          |
 | Timeline Card     | ![](../images/card_timeline.png)      |
+
+If none of them works for your design, you may create your own [Custom Cards](cards-custom.md).
 
 ### Styling
 
@@ -83,10 +85,10 @@ The Card usually works as an overview and entry point for more detailed informat
 ## Code generation
 
 > [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Bottom Navigation in your design is very likely to result in loss of code generation capability for the Bottom Navigation.
+> Triggering `Detach from Symbol` on an instance of the Card in your design is very likely to result in loss of code generation capability for the Card.
 
-The Bottom Navigation symbol has a special `🕹️DataSource` field in its `Overrides` section. Use the curly braces notation _{notifications.count}_ to provide a reference for code generation to the database property, which should be used as a binding.
-The Bottom Navigation symbol has special `🕹️Event` fields, one for each item, in its `Overrides` section. Use the curly braces notation _{???}_ to provide a reference for code generation to the ...
+`🕹️DataSource`
+`🕹️Event`
 
 ## Additional Resources
 
@@ -100,5 +102,4 @@ Related topics:
 
 Our community is active and always welcoming to new ideas.
 
-- [Design System **Forums**](https://www.infragistics.com/community/forums/f/ignite-ui-for-angular)
-- [Design System **GitHub**](https://github.com/IgniteUI/igniteui-angular)
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

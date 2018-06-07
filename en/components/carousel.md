@@ -31,10 +31,10 @@ The previous and next navigation buttons of the Carousel should always appear on
 ## Code generation
 
 > [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Bottom Navigation in your design is very likely to result in loss of code generation capability for the Bottom Navigation.
+> Triggering `Detach from Symbol` on an instance of the Carousel in your design is very likely to result in loss of code generation capability for the Carousel.
 
-The Bottom Navigation symbol has a special `🕹️DataSource` field in its `Overrides` section. Use the curly braces notation _{notifications.count}_ to provide a reference for code generation to the database property, which should be used as a binding.
-The Bottom Navigation symbol has special `🕹️Event` fields, one for each item, in its `Overrides` section. Use the curly braces notation _{???}_ to provide a reference for code generation to the ...
+`🕹️DataSource`
+`🕹️Event`
 
 ## Additional Resources
 
@@ -42,5 +42,4 @@ Related topics:
 
 Our community is active and always welcoming to new ideas.
 
-* [Design System **Forums**](https://www.infragistics.com/community/forums/f/ignite-ui-for-angular)
-* [Design System **GitHub**](https://github.com/IgniteUI/igniteui-angular)
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
