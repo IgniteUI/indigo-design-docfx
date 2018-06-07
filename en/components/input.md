@@ -63,11 +63,11 @@ The Input has rich support for prefix and suffix through text string or icon tha
 > [!INFO]
 > ↳ Layout
 >
-> * .../OnlyText/...
-> * .../Prefix + Suffix/Icons/...
-> * .../Prefix + Suffix/String/...
-> * .../Suffix/Icons/...
-> * .../Suffix/String/...
+> - .../OnlyText/...
+> - .../Prefix + Suffix/Icons/...
+> - .../Prefix + Suffix/String/...
+> - .../Suffix/Icons/...
+> - .../Suffix/String/...
 
 ### Styling
 
@@ -89,17 +89,17 @@ Use the box type of Input when placing forms on top of an image to improve reada
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Input in your design is very likely to result in loss of code generation capability for the Input.
 
-The Input symbol has a special `🕹️DataProperty` field in its `Overrides` section. Use the curly braces notation _{customer.name}_ to provide a reference for code generation to the database property, which should be used as a binding.
+`🕹️DataSource`
+`🕹️Event`
 
 ## Additional Resources
 
 Related topics:
 
-* [Form Pattern](forms.md)
-* [User Profile Pattern](userProfile.md)
+- [Form Pattern](forms.md)
+- [User Profile Pattern](userProfile.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 
-* [Design System **Forums**](https://www.infragistics.com/community/forums/f/ignite-ui-for-angular)
-* [Design System **GitHub**](https://github.com/IgniteUI/igniteui-angular)
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

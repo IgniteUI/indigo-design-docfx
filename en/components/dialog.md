@@ -37,11 +37,44 @@ When designing a custom content Dialog avoid placing buttons in the content sect
 
 ## Code generation
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Bottom Navigation in your design is very likely to result in loss of code generation capability for the Bottom Navigation.
+When colors or fonts are specified for the Dialog, the Dialog HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component). Currently changing of the button background color, button text style isn’t supported.
 
-The Bottom Navigation symbol has a special `🕹️DataSource` field in its `Overrides` section. Use the curly braces notation _{notifications.count}_ to provide a reference for code generation to the database property, which should be used as a binding.
-The Bottom Navigation symbol has special `🕹️Event` fields, one for each item, in its `Overrides` section. Use the curly braces notation _{???}_ to provide a reference for code generation to the ...
+> [!WARNING]
+> Triggering `Detach from Symbol` on an instance of the Dialog in your design is very likely to result in loss of code generation capability for the Dialog.
+
+### Text Binding
+
+There are Text properties for the Title, Message, Left Button, and Right Button. When supplied they can be bound to a nested or non-nested data item.
+If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+
+#### Example Not Nested
+
+```typescript
+Customer {
+titleText: string;
+}
+Text would be: {titleText}
+```
+
+#### Example Nested
+
+```typescript
+Profile {
+titleText: number;
+}
+Customer {
+profile: Profile;
+}
+Text would be: {profile. titleText }
+```
+
+### Buttons
+
+There are Left and Right buttons which can be set Flat or Raised. Currently Text Style and Background on the Buttons are ignored.
+
+### Event
+
+There is no event property for this control for the user to set. However, the onLeftButtonSelect and onRightButtonSelect events are automatically outputted when the corresponding button is rendered.
 
 ## Additional Resources
 
@@ -51,5 +84,4 @@ Related topics:
 
 Our community is active and always welcoming to new ideas.
 
-* [Design System **Forums**](https://www.infragistics.com/community/forums/f/ignite-ui-for-angular)
-* [Design System **GitHub**](https://github.com/IgniteUI/igniteui-angular)
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

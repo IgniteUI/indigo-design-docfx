@@ -41,20 +41,49 @@ Use the Badge to "stamp" another piece of UI such as an Avatar or a text title. 
 
 ## Code generation
 
+When colors or fonts are specified for the Badge, the Badge HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
+
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Badge in your design is very likely to result in loss of code generation capability for the Badge.
 
-The Badge symbol has a special `🕹️DataProperty` field in its `Overrides` section. Use the curly braces notation _{notifications.count}_ to provide a reference for code generation to the database property, which should be used as a binding.
-The Badge symbol has a special `🕹️Event` field in its `Overrides` section. Use the curly braces notation _{???}_ to provide a reference for code generation to the ...
+### Data Property Binding
+
+When supplied, the `🕹️DataProperty` binding can be non-nested or nested. This property data binds the Badge’s value. The value specifies the text displayed in the badge. When the type of the Badge is set to Icon the `🕹️DataProperty` is ignored.
+
+If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+
+#### Example Not Nested
+
+```typescript
+Customer {
+userRank: number;
+}
+DataProperty would be: {userRank}
+```
+
+#### Example Nested
+
+```typescript
+Profile {
+userRank: number;
+}
+Customer {
+profile: Profile;
+}
+DataProperty would be: {profile.userRank}
+```
+
+### Event Property
+
+When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an Angular click signature in the HTML.
 
 ## Additional Resources
 
 Related topics:
 
-* [Avatar + Badge](avatar+badge.md)
+- [Avatar + Badge](avatar+badge.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 
-* [Design System **Forums**](https://www.infragistics.com/community/forums/f/ignite-ui-for-angular)
-* [Design System **GitHub**](https://github.com/IgniteUI/igniteui-angular)
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

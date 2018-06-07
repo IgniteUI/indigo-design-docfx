@@ -44,22 +44,21 @@ The Bottom Navigation always appears on top of other content and the shadow it c
 | ![](../images/bottom-nav_do1.png) | ![](../images/bottom-nav_dont1.png) |
 | ![](../images/bottom-nav_do2.png) | ![](../images/bottom-nav_dont2.png) |
 
-## Code generation
+## Code generation - TODO
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Bottom Navigation in your design is very likely to result in loss of code generation capability for the Bottom Navigation.
 
-The Bottom Navigation symbol has a special `🕹️DataSource` field in its `Overrides` section. Use the curly braces notation _{notifications.count}_ to provide a reference for code generation to the database property, which should be used as a binding.
-The Bottom Navigation symbol has special `🕹️Event` fields, one for each item, in its `Overrides` section. Use the curly braces notation _{???}_ to provide a reference for code generation to the ...
+`🕹️DataSource`
+`🕹️Event`
 
 ## Additional Resources
 
 Related topics:
 
-* [Navigation Drawer](nav-drawer.md)
+- [Navigation Drawer](nav-drawer.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 
-* [Design System **Forums**](https://www.infragistics.com/community/forums/f/ignite-ui-for-angular)
-* [Design System **GitHub**](https://github.com/IgniteUI/igniteui-angular)
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

@@ -52,22 +52,21 @@ Always use Buttons with consistent style, avoid combining text Buttons with icon
 | ![](../images/button-group_do2.png) | ![](../images/button-group_dont2.png) |
 | ![](../images/button-group_do3.png) | ![](../images/button-group_dont3.png) |
 
-## Code generation
+## Code generation - TODO
 
 > [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Bottom Navigation in your design is very likely to result in loss of code generation capability for the Bottom Navigation.
+> Triggering `Detach from Symbol` on an instance of the Button Group in your design is very likely to result in loss of code generation capability for the Button Group.
 
-The Bottom Navigation symbol has a special `🕹️DataSource` field in its `Overrides` section. Use the curly braces notation _{notifications.count}_ to provide a reference for code generation to the database property, which should be used as a binding.
-The Bottom Navigation symbol has special `🕹️Event` fields, one for each item, in its `Overrides` section. Use the curly braces notation _{???}_ to provide a reference for code generation to the ...
+`🕹️DataSource`
+`🕹️Event`
 
 ## Additional Resources
 
 Related topics:
 
-* [Button](button.md)
+- [Button](button.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 
-* [Design System **Forums**](https://www.infragistics.com/community/forums/f/ignite-ui-for-angular)
-* [Design System **GitHub**](https://github.com/IgniteUI/igniteui-angular)
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

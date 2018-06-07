@@ -4,5 +4,6 @@ _description: The Material Icons Symbols in Styling ...
 _keywords: Design System, Sketch, Ignite UI for Angular, UI Library, Icons, Material
 ---
 
-- Use of icons - through Icon Component
-- Adding icons
+## Icon Component
+
+## Adding Material Icons

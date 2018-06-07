@@ -38,10 +38,9 @@ The Grid Summary Cell comes with basic styling flexibility through the various o
 
 Related topics:
 
-* [Grid](grid.md)
+- [Grid](grid.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 
-* [Design System **Forums**](https://www.infragistics.com/community/forums/f/ignite-ui-for-angular)
-* [Design System **GitHub**](https://github.com/IgniteUI/igniteui-angular)
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

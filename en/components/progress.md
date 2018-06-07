@@ -15,7 +15,7 @@ The Progress is visually identical to the [Ignite UI for Angular Linear Progress
 
 ### Type
 
-The Progress supports two layout types to fit the variety of use cases and layout requirements: a circular and a linear.
+The Progress supports two layout types to fit the variety of use cases and layout requirements: a Circular Bar and a Linear Bar.
 
 ![](../images/progress_circular.png)
 ![](../images/progress_linear.png)
@@ -24,11 +24,11 @@ The Progress supports two layout types to fit the variety of use cases and layou
 
 The Progress can be used in one of the following preset color combinations:
 
-* **default**
-* success utilizing the `success` theme color to show the progress
-* warn utilizing the `warn` theme color to show the progress
-* error utilizing the `error` theme color to show the progress
-* info utilizing the `info` theme color to show the progress
+- **default**
+- success utilizing the `success` theme color to show the progress
+- warn utilizing the `warn` theme color to show the progress
+- error utilizing the `error` theme color to show the progress
+- info utilizing the `info` theme color to show the progress
 
 ![](../images/progress_default.png)
 ![](../images/progress_success.png)
@@ -46,7 +46,7 @@ The Progress comes with styling flexibility through the various overrides for it
 
 ## Usage
 
-In a circular Progress always use the actual value for the text label and when adding more elaborate text in a linear Progress provide your best estimate for the state of completion of the task in time/files left, rather than displaying a generic string to the user.
+In a Circular Bar always use the actual value for the text label and when adding more elaborate text in a Linear Bar provide your best estimate for the state of completion of the task in time/files left, rather than displaying a generic string to the user.
 
 | Do                              | Don't                             |
 | ------------------------------- | --------------------------------- |
@@ -55,19 +55,67 @@ In a circular Progress always use the actual value for the text label and when a
 
 ## Code generation
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Navigation Drawer will reduce the accuracy of code generation for the Navigation Drawer. Do this only if you need to create more items than provided and make sure you keep the `🚫igx-nav-drawer` and `🕹️DataSource` layers intact.
+When colors or fonts are specified for the Progress, the Circular or Linear Bar HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
 
-The Navigation Drawer symbol has a special `🕹️DataSource` field in its `Overrides` section. Use the curly braces notation _{notifications.count}_ to provide a reference for code generation to the database property, which should be used as a binding.
+> [!WARNING]
+> Triggering `Detach from Symbol` on an instance of the Circular or Linear Bar in your design is very likely to result in loss of code generation capability for the Circular or Linear Bar.
+
+### Data Property Binding
+
+When supplied, the `🕹️DataProperty` binding can be non-nested or nested. This property data binds the Circular or Linear Bar’s progress value. The progress value specifies how much the progress is completed.
+
+If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+
+#### Example Not Nested
+
+```typescript
+Customer {
+imageName: String;
+}
+DataProperty would be: {imageName}
+```
+
+#### Example Nested
+
+```typescript
+Profile {
+imageName: String;
+}
+Customer {
+profile: Profile;
+}
+DataProperty would be: {profile.imageName}
+```
+
+### Linear Bar Text Style
+
+The Linear Bar Text Style is used to control the alignment and color of the text in the Linear Bar. If the Text Style is changed to ‘None’ then the text will be hidden in the Linear Bar. The generator will ignore the Bold option in the Text Style and will render the Linear Bar using the default font weight.
+
+### Linear Bar Text
+
+The Linear Bar Text may contain binding and non-binding. Examples:
+
+#### Non-Binding
+
+Downloading…
+
+#### Binding
+
+Download Progress: {progress}%
+
+Same rules apply as the Data Property Binding section above regarding nested and non-nested properties.
 
 ## Additional Resources
 
 Related topics:
 
-* [AV Player Pattern](av-player.md)
+- [AV Player Pattern](av-player.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 
-* [Design System **Forums**](https://www.infragistics.com/community/forums/f/ignite-ui-for-angular)
-* [Design System **GitHub**](https://github.com/IgniteUI/igniteui-angular)
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+
+```
+
+```

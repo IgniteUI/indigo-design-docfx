@@ -43,20 +43,37 @@ When many Checkboxes are necessary arrange them in a column group which makes it
 
 ## Code generation
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Bottom Navigation in your design is very likely to result in loss of code generation capability for the Bottom Navigation.
+When colors or the check state is specified for the Checkbox, the Checkbox HTML element will be wrapped in div. This is required by browsers to style a nested component (a component within another component).
 
-The Bottom Navigation symbol has a special `🕹️DataSource` field in its `Overrides` section. Use the curly braces notation _{notifications.count}_ to provide a reference for code generation to the database property, which should be used as a binding.
-The Bottom Navigation symbol has special `🕹️Event` fields, one for each item, in its `Overrides` section. Use the curly braces notation _{???}_ to provide a reference for code generation to the ...
+> [!WARNING]
+> Triggering `Detach from Symbol` on an instance of the Checkbox in your design is very likely to result in loss of code generation capability for the Checkbox.
+
+### Data Property Binding
+
+When supplied, the `🕹️DataProperty` binding can be non-nested or nested.
+If the property is a nest property, include the nested property chain, but don’t include the model object name. Examples:
+
+#### Example Not Nested
+
+```typescript
+Customer {
+Public checkState: boolean;
+}
+DataProperty in Sketch would be: {checkState}
+```
+
+### Event Property
+
+When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an Angular click signature in the HTML.
+EventProperty in Sketch would be: clickValue
 
 ## Additional Resources
 
 Related topics:
 
-* [Form Pattern](forms.md)
+- [Form Pattern](forms.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 
-* [Design System **Forums**](https://www.infragistics.com/community/forums/f/ignite-ui-for-angular)
-* [Design System **GitHub**](https://github.com/IgniteUI/igniteui-angular)
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

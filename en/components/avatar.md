@@ -17,9 +17,9 @@ The Avatar is visually identical to the [Ignite UI for Angular Avatar Component]
 
 The Avatar comes in three different sizes:
 
-* large - suitable for profile pages
-* medium - appropriate for custom menus and visualizations
-* small - easily embeddable in a contact list and similar repetative scenarios
+- large - suitable for profile pages
+- medium - appropriate for custom menus and visualizations
+- small - easily embeddable in a contact list and similar repetative scenarios
 
 ![](../images/avatar_sizes.png)
 
@@ -49,23 +49,58 @@ When using an Avatar with initials or icon pick their color carefully to assure 
 
 ## Code generation
 
+When colors are specified for the Avatar, the Avatar HTML element will be wrapped in div. This is required by browsers to style a nested component (a component within another component).
+
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Avatar in your design is very likely to result in loss of code generation capability for the Avatar.
 
-The Avatar symbol has a special `🕹️DataProperty` field in its `Overrides` section. Use the curly braces notation _{customer.name}_ to provide a reference for code generation to the database property, which should be used as a binding.
-The Avatar symbol has a special `🕹️Event` field in its `Overrides` section. Use the curly braces notation _{???}_ to provide a reference for code generation to the ...
+### Data Property Binding
+
+When supplied, the `🕹️DataProperty` binding can be non-nested or nested.
+
+If the property is a nest property, include the nested property chain, but don’t include the model object name. Examples:
+
+#### Example Not Nested
+
+```typescript
+Customer {
+  imageName: String;
+}
+DataProperty would be: {imageName}
+```
+
+#### Example Nested
+
+```typescript
+Profile {
+  imageName: String;
+}
+Customer {
+  profile: Profile;
+}
+DataProperty would be: {profile.imageName}
+```
+
+### Event Property
+
+When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an Angular click signature in the HTML.
+
+|                 |                                                                                                                                                                                                                                         |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Picture Avatar  | `🕹️DataProperty` – when supplied, this property can be used to data bind the image source. When provided, it will be the name of the property on the data object specified by the model object name provided in the generation request. |
+| Icon Avatar     | `🕹️DataProperty` – this property is ignored.                                                                                                                                                                                            |
+| Initials Avatar | `🕹️DataProperty` – when supplied, this property is used to databind the initials property.                                                                                                                                              |
 
 ## Additional Resources
 
 Related topics:
 
-* [Avatar + Badge](avatar+badge.md)
-* [Cards](cards.md)
-* [File Upload](fileUpload.md)
-* [User Profile](userProfile.md)
+- [Avatar + Badge](avatar+badge.md)
+- [Cards](cards.md)
+- [File Upload](fileUpload.md)
+- [User Profile](userProfile.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 
-* [Design System **Forums**](https://www.infragistics.com/community/forums/f/ignite-ui-for-angular)
-* [Design System **GitHub**](https://github.com/IgniteUI/igniteui-angular)
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

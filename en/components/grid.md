@@ -78,17 +78,21 @@ The most important thing about the Grid is the alignment of the data inside its 
 | --------------------------- | ----------------------------- |
 | ![](../images/grid_do1.png) | ![](../images/grid_dont1.png) |
 
+## Code generation
+
+`🕹️DataSource`
+`🕹️Event`
+
 ## Additional Resources
 
 Related topics:
 
-* [Grid Filter](grid-filter.md)
-* [Grid Paging](grid-paging.md)
-* [Grid Column Pinning](grid-column-pinning.md)
-* [Grid Summaries](grid-summaries.md)
+- [Grid Filter](grid-filter.md)
+- [Grid Paging](grid-paging.md)
+- [Grid Column Pinning](grid-column-pinning.md)
+- [Grid Summaries](grid-summaries.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 
-* [Design System **Forums**](https://www.infragistics.com/community/forums/f/ignite-ui-for-angular)
-* [Design System **GitHub**](https://github.com/IgniteUI/igniteui-angular)
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

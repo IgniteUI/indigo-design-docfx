@@ -34,20 +34,52 @@ Always choose a Hyperlink text color that makes it stand out in a paragraph. Avo
 
 ## Code generation
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Bottom Navigation in your design is very likely to result in loss of code generation capability for the Bottom Navigation.
+When colors or fonts are specified for the Hyperlink, they are applied directly to a CSS class that is applied to the hyperlink element.
 
-The Bottom Navigation symbol has a special `🕹️DataSource` field in its `Overrides` section. Use the curly braces notation _{notifications.count}_ to provide a reference for code generation to the database property, which should be used as a binding.
-The Bottom Navigation symbol has special `🕹️Event` fields, one for each item, in its `Overrides` section. Use the curly braces notation _{???}_ to provide a reference for code generation to the ...
+> [!WARNING]
+> Triggering `Detach from Symbol` on an instance of the Hyperlink in your design is very likely to result in loss of code generation capability for the Hyperlink.
+
+### LinkURL
+
+When supplied, the LinkURL binding can be non-nested or nested. This property data binds the Hyperlink’s href. The href specifies the link to navigate to when the Hyperlink is clicked.
+If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+
+#### Example Not Nested
+
+```typescript
+Customer {
+url: string;
+}
+LinkURL would be: {url}
+```
+
+#### Example Nested
+
+```typescript
+Profile {
+url: string;
+}
+Customer {
+profile: Profile;
+}
+LinkURL would be: {profile.url}
+```
+
+### Text
+
+When supplied the Text property is used to fill in the text to display for the Hyperlink.
+
+### Event Property
+
+When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an Angular click signature in the HTML.
 
 ## Additional Resources
 
 Related topics:
 
-* [Form Pattern](forms.md)
+- [Form Pattern](forms.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 
-* [Design System **Forums**](https://www.infragistics.com/community/forums/f/ignite-ui-for-angular)
-* [Design System **GitHub**](https://github.com/IgniteUI/igniteui-angular)
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
