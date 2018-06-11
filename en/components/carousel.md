@@ -6,8 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, 
 
 ## Carousel
 
-Use the Carousel Component Symbol to let the user navigate through a collection of images in a seqential fashion, moving to the previous/next one through the arrows on the sides.
-The Carousel is visually identical to the [Ignite UI for Angular Carousel Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/carousel.html)
+Use the Carousel Component to let the user navigate through a collection of images in a sequential fashion, moving to the previous/next one through the arrows on the sides. The Carousel is visually identical to the [Ignite UI for Angular Carousel Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/carousel.html)
 
 ### Carousel Demo
 
@@ -15,13 +14,13 @@ The Carousel is visually identical to the [Ignite UI for Angular Carousel Compon
 
 ### Styling
 
-The Carousel comes with styling flexibility through the various overrides controling the navigation button background and icon colors, the indicator colors and border colors and a slide image for the currently active slide. Remember that only one indicator may be active at a time.
+The Carousel comes with styling flexibility through the various overrides controlling the navigation button background and icon colors, the indicator colors, border colors, and a slide image for the currently active slide. You should keep in mind that only one indicator may be active at a time.
 
 ![](../images/carousel_styling.png)
 
 ## Usage
 
-The previous and next navigation buttons of the Carousel should always appear on top of the image slide and the indicators should have consistent styling, where only the active one should be emphasized.
+The previous and next navigation buttons of the Carousel should always appear on top of the image slide, and the indicators should have consistent styling, where only the active one should be emphasized.
 
 | Do                              | Don't                             |
 | ------------------------------- | --------------------------------- |
