@@ -6,8 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, 
 
 ## Bottom Navigation
 
-Use the Bottom Navigation Component Symbol to implement application-level navigation by placing it at the bottom of the screen with up to five items that allow browsing between their associated views.
-The Bottom Navigation is visually identical to the [Ignite UI for Angular Bottom Navigation Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/tabbar.html)
+Use the Bottom Navigation Component to implement application-level navigation by placing it at the bottom of the screen with up to five items that allow browsing between their associated views. The Bottom Navigation is visually identical to the [Ignite UI for Angular Bottom Navigation Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/tabbar.html)
 
 ### Bottom Navigation Demo
 
@@ -15,7 +14,7 @@ The Bottom Navigation is visually identical to the [Ignite UI for Angular Bottom
 
 ### Items Amount
 
-The Bottom Navigation supports between two and five items. If you need to design application-level navigation with more than five items/views consider using the [Navigation Drawer](nav-drawer.md) instead.
+The Bottom Navigation supports between two to five items. If you need to design application-level navigation with more than five items or views, consider using consider using the [Navigation Drawer](nav-drawer.md) instead.
 
 ![](../images/bottom-nav_items2.png)
 ![](../images/bottom-nav_items3.png)
@@ -24,7 +23,7 @@ The Bottom Navigation supports between two and five items. If you need to design
 
 ### Item Style
 
-The Bottom Navigation item contains either a combination of **icon+text** or just an icon. There is always one item in active (selected) state and the remaining items must be set to inactive.
+The Bottom Navigation item contains either a combination of **icon+text** or just an icon. There is always one item in active (selected) state, and the remaining items must be set to inactive.
 
 ![](../images/bottom-nav_icon&text.png)
 ![](../images/bottom-nav_icon.png)
@@ -37,7 +36,7 @@ The Bottom Navigation comes with styling flexibility through the various overrid
 
 ## Usage
 
-The Bottom Navigation always appears on top of other content and the shadow it casts is a crucial visual element. Make sure that you always place its layer over those representing the screen content and under no circumstances should you remove the shadow it casts.
+The Bottom Navigation always appears on top of other content, and the shadow it casts is a crucial visual element. Make sure that you always place its layer over those representing the screen content and under no circumstances should you remove the shadow it casts.
 
 | Do                                | Don't                               |
 | --------------------------------- | ----------------------------------- |
