@@ -46,22 +46,25 @@ If the property is a nested property, include the nested property chain, but don
 
 #### Example Not Nested
 
-```typescript
+```PseudoCode
 Customer {
 url: string;
 }
+
 LinkURL would be: {url}
 ```
 
 #### Example Nested
 
-```typescript
+```PseudoCode
 Profile {
 url: string;
 }
+
 Customer {
 profile: Profile;
 }
+
 LinkURL would be: {profile.url}
 ```
 

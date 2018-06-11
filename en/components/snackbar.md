@@ -43,22 +43,25 @@ If the property is a nested property, include the nested property chain, but don
 
 #### Example Not Nested
 
-```typescript
+```PseudoCode
 Customer {
 messageText: string;
 }
+
 Text would be: { messageText }
 ```
 
 #### Example Nested
 
-```typescript
+```PseudoCode
 Profile {
 messageText: number;
 }
+
 Customer {
 profile: Profile;
 }
+
 Text would be: {profile. messageText }
 ```
 

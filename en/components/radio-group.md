@@ -44,7 +44,7 @@ When extending a Radio Group with additional items make sure that they are all l
 ## Code generation
 
 > [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Radio Group will reduce the accuracy of code generation for the Radio Group. Do this only if you need to create more items than provided and make sure you keep the `🚫igx-radio-group`, `🕹️DataProperty` and `🕹️DataSource` layers intact.
+> Triggering `Detach from Symbol` on an instance of the Radio Group will reduce the accuracy of code generation for the Radio Group. Do this only if you need to create more items than provided and make sure you keep the `🚫radio-group`, `🕹️DataProperty` and `🕹️DataSource` layers intact.
 
 `🕹️DataSource`
 `🕹️Event`

@@ -54,10 +54,11 @@ If the property is a nest property, include the nested property chain, but donâ€
 
 #### Example Not Nested
 
-```typescript
+```PseudoCode
 Customer {
 Public checkState: boolean;
 }
+
 DataProperty in Sketch would be: {checkState}
 ```
 

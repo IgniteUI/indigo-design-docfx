@@ -61,7 +61,7 @@ If the property is a nest property, include the nested property chain, but donâ€
 
 #### Example Not Nested
 
-```Code
+```PseudoCode
 Customer {
   imageName: String;
 }
@@ -71,7 +71,7 @@ DataProperty would be: {imageName}
 
 #### Example Nested
 
-```Code
+```PseudoCode
 Profile {
   imageName: String;
 }

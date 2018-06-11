@@ -56,22 +56,25 @@ When supplied, the `🕹️DataSource` property binding can be non-nested or nes
 
 #### Example Not Nested
 
-```typescript
+```PseudoCode
 Customer {
 chartData: object[];
 }
+
 DataSource would be: {chartData}
 ```
 
 #### Example Nested
 
-```typescript
+```PseudoCode
 Profile {
 chartData: object[];
 }
+
 Customer {
 profile: Profile;
 }
+
 DataSource would be: {profile.chartData}
 ```
 
