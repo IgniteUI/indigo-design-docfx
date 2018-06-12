@@ -1,5 +1,5 @@
 {
-    "name": "design-system-docfx",
+    "name": "indigo-design-docfx",
     "version": "1.0.0",
     "description": "Documentation generator for Indigo Design.",
     "scripts": {
