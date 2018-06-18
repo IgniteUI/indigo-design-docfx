@@ -41,22 +41,25 @@ There are Text properties for the Message and Button. When supplied they can be 
 
 #### Example Not Nested
 
-```typescript
+```PseudoCode
 Customer {
 messageText: string;
 }
+
 Text would be: { messageText }
 ```
 
 #### Example Nested
 
-```typescript
+```PseudoCode
 Profile {
 messageText: number;
 }
+
 Customer {
 profile: Profile;
 }
+
 Text would be: {profile. messageText }
 ```
 

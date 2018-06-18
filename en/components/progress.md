@@ -67,22 +67,25 @@ If the property is a nested property, include the nested property chain, but don
 
 #### Example Not Nested
 
-```typescript
+```PseudoCode
 Customer {
 imageName: String;
 }
+
 DataProperty would be: {imageName}
 ```
 
 #### Example Nested
 
-```typescript
+```PseudoCode
 Profile {
 imageName: String;
 }
+
 Customer {
 profile: Profile;
 }
+
 DataProperty would be: {profile.imageName}
 ```
 

@@ -6,8 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, 
 
 ## Badge
 
-Use the Badge Component Symbol to draw attention to another interface element or to display a notification. It enhances the component to which it is attached with additional information, disclosed to the user upon iteracting with it.
-The Badge is visually identical to the [Ignite UI for Angular Badge Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/badge.html)
+Use the Badge Component Symbol to draw attention to another interface element or to display a notification. It enhances the component to which it is attached with additional information, disclosed to the user upon iteracting with it. The Badge is visually identical to the [Ignite UI for Angular Badge Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/badge.html)
 
 ### Badge Demo
 
@@ -27,13 +26,13 @@ The Badge can carry different types of content such as a **number** or an icon.
 
 ### Styling
 
-The Badge comes with styling flexibility through the various overrides controling the background and border colors, as well as the presence of a shadow that is casted on the underlying interface element.
+The Badge comes with styling flexibility through the various overrides controlling the background and border colors, as well as the presence of a shadow that is cast on the underlying interface element.
 
 ![](../images/badge_styling.png)
 
 ## Usage
 
-Use the Badge to "stamp" another piece of UI such as an Avatar or a text title. Avoid using the Badge on its own.
+Use the Badge to "stamp" another piece of UI, such as an Avatar or a text title and avoid using the Badge on its own.
 
 | Do                           | Don't                          |
 | ---------------------------- | ------------------------------ |
@@ -54,22 +53,25 @@ If the property is a nested property, include the nested property chain, but don
 
 #### Example Not Nested
 
-```typescript
+```PseudoCode
 Customer {
 userRank: number;
 }
+
 DataProperty would be: {userRank}
 ```
 
 #### Example Nested
 
-```typescript
+```PseudoCode
 Profile {
 userRank: number;
 }
+
 Customer {
 profile: Profile;
 }
+
 DataProperty would be: {profile.userRank}
 ```
 

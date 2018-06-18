@@ -6,8 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, 
 
 ## Dialog
 
-Use the Dialog Component Symbol to show a message or alert to the user, allowing him to take action accordingly or to present a form that requires immediate action before proceeding, such as a login. The Dialog is displayed modally, meaning that the user has to complete or close it before moving on.
-The Dialog is visually identical to the [Ignite UI for Angular Dialog Window Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/dialog.html)
+Use the Dialog Component to show a message or alert to the user, allowing him to take action accordingly or to present a form that requires immediate action before proceeding, such as a login. The Dialog is displayed modally, meaning that the user has to complete or close it before moving on. The Dialog is visually identical to the [Ignite UI for Angular Dialog Window Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/dialog.html)
 
 ### Dialog Demo
 
@@ -15,7 +14,7 @@ The Dialog is visually identical to the [Ignite UI for Angular Dialog Window Com
 
 ### Types
 
-The Dialog can be used to show an alert with only a confirming button, a message with cancellation and confirmation or as a containter for action that need immediate attention such as a user logging into his account.
+The Dialog can be used to show an alert with only a confirming button, a message with cancellation and confirmation, or as a container for action that needs immediate attention, such as a user logging into his account.
 
 ![](../images/dialog_alert.png)
 ![](../images/dialog_standard.png)
@@ -29,7 +28,7 @@ The Dialog comes with styling flexibility through the various overrides for its 
 
 ## Usage
 
-When designing a custom content Dialog avoid placing buttons in the content section and use the existing dialog buttons for your actions instead.
+When designing a custom content Dialog, avoid placing buttons in the content section and use the existing dialog buttons for your actions instead.
 
 | Do                            | Don't                           |
 | ----------------------------- | ------------------------------- |
@@ -49,22 +48,25 @@ If the property is a nested property, include the nested property chain, but don
 
 #### Example Not Nested
 
-```typescript
+```PseudoCode
 Customer {
 titleText: string;
 }
+
 Text would be: {titleText}
 ```
 
 #### Example Nested
 
-```typescript
+```PseudoCode
 Profile {
 titleText: number;
 }
+
 Customer {
 profile: Profile;
 }
+
 Text would be: {profile. titleText }
 ```
 

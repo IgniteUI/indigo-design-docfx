@@ -6,8 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, 
 
 ## Cards
 
-Use the Card Component Symbol to display information for a single object through images and text, allowing relevant quick actions to be triggered such as sharing, liking, bookmarking etc. The Card usually works as an overview and entry point for more detailed information and dashboards are created by combining different types of Cards.
-The Card is visually identical to the [Ignite UI for Angular Card Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/card.html)
+Use the Card Component to display information for a single object through images and text, allowing relevant quick actions to be triggered such as sharing, liking, bookmarking, etc. The Card usually works as an overview and entry point for more detailed information, and dashboards are created by combining different types of Cards. The Card is visually identical to the [Ignite UI for Angular Card Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/card.html)
 
 ### Card Demo
 
@@ -15,7 +14,7 @@ The Card is visually identical to the [Ignite UI for Angular Card Component](htt
 
 ### Areas
 
-The Card has three distinct areas: `header` holding a combination of title and subtitle, `content` holding images and paragraphs detailing the Card, and `actions` serving as a toolbar with quick actions related to the Card.
+The Card has three distinct areas: `header` which holds a combination of title and subtitle, `content` which holds images and paragraphs detailing the Card, and `actions` which serves as a toolbar with quick actions related to the Card.
 
 |         |                                       |
 | ------- | ------------------------------------- |
@@ -25,7 +24,7 @@ The Card has three distinct areas: `header` holding a combination of title and s
 
 ### Header
 
-The Card Header supports three distinct layouts: **Large Title** providing large title and a subtitle, Small Title providing small title and a subtitle, and Small Title Only providing small title and no subtitle.
+The Card Header supports three distinct layouts: **Large Title** which provides a large title and a subtitle, Small Title which provides a small title and a subtitle, and Small Title Only which provides a small title and no subtitle.
 
 ![](../images/card_headerL.png)
 ![](../images/card_headerS.png)
@@ -33,7 +32,7 @@ The Card Header supports three distinct layouts: **Large Title** providing large
 
 ### Content
 
-The Card Content supports five distinct layouts: **Array** for shorcuts like contacts, Image with or without a title, Map for showing geographical location, and Paragraph for a short description text.
+The Card Content supports five distinct layouts: **Array** for shortcuts like contacts, Image with or without a title, Map for showing geographical location, and Paragraph for a short description text.
 
 ![](../images/card_content_shortcuts.png)
 ![](../images/card_content_image.png)
@@ -69,13 +68,13 @@ If none of them works for your design, you may create your own [Custom Cards](ca
 
 ### Styling
 
-The Card comes with styling flexibility through the various overrides available for header, content and actions areas such as text, icons and button colors as well as the possibility to choose a card background color.
+The Card comes with styling flexibility through the various overrides available for header, content, and actions areas such as text, icons, and button colors, as well as the possibility to choose a Card background color.
 
 ![](../images/card_styling.png)
 
 ## Usage
 
-The Card usually works as an overview and entry point for more detailed information, therefore avoid to cram it with information. When creating card dashboards, size and arrange cards consistently in order to form a layout grid with equal horizontal and vertical gaps between cards.
+The Card usually works as an overview and entry point for more detailed information, therefore, you want to avoid clogging it with too much information. When creating card dashboards, size and arrange cards consistently in order to form a layout grid with equal horizontal and vertical gaps between cards.
 
 | Do                          | Don't                         |
 | --------------------------- | ----------------------------- |

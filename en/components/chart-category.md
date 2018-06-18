@@ -6,8 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, 
 
 ## Category Chart
 
-Use the Category Chart Component Symbol to wrap the density and complexity of data in a simple visual. Category Charts are often combined to create beautiful dashboards for related sets of data.
-The Category Chart is visually identical to the [Ignite UI for Angular Category Chart Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/categorychart.html)
+Use the Category Chart Component to wrap the density and complexity of data in a simple visual. Category Charts are often combined to create beautiful dashboards for related sets of data. The Category Chart is visually identical to the [Ignite UI for Angular Category Chart Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/categorychart.html)
 
 ### Category Chart Demo
 
@@ -15,7 +14,7 @@ The Category Chart is visually identical to the [Ignite UI for Angular Category 
 
 ### Tooltip
 
-The Category Chart comes with an override for the tooltip visibility: **Tooltip Off** that hides it and Tooltip On that shows it on top of the series.
+The Category Chart comes with an override for the tooltip visibility: **Tooltip Off** hides it and Tooltip On shows it on top of the series.
 
 ![](../images/chart_category_tooltip-off.png)
 ![](../images/chart_category_tooltip-on.png)
@@ -38,7 +37,7 @@ The Category Chart comes with flexibility for selecting the Chart type through v
 
 ## Usage
 
-Even though sometimes on needs to combine different types of series in the same chart, you should avoid stacking multiple Category Charts on top of one another. Use the Category Chart Component Symbol as if it were a simplified stencil for data visualization.
+Even though you might need to combine different types of series in the same chart, you should avoid stacking multiple Category Charts on top of one another. Use the Category Chart Component as if it were a simplified stencil for data visualization.
 
 | Do                                    | Don't                                   |
 | ------------------------------------- | --------------------------------------- |
@@ -57,22 +56,25 @@ When supplied, the `🕹️DataSource` property binding can be non-nested or nes
 
 #### Example Not Nested
 
-```typescript
+```PseudoCode
 Customer {
 chartData: object[];
 }
+
 DataSource would be: {chartData}
 ```
 
 #### Example Nested
 
-```typescript
+```PseudoCode
 Profile {
 chartData: object[];
 }
+
 Customer {
 profile: Profile;
 }
+
 DataSource would be: {profile.chartData}
 ```
 

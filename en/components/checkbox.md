@@ -6,8 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, 
 
 ## Checkbox
 
-Use the Checkbox Component Symbol to allow the user make a selection, which most often expresses a preference or agreement in a form.
-The Checkbox is visually identical to the [Ignite UI for Angular Checkbox Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/checkbox.html)
+Use the Checkbox Component to allow the user make a selection, which most often expresses a preference or agreement in a form. The Checkbox is visually identical to the [Ignite UI for Angular Checkbox Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/checkbox.html)
 
 ### Checkbox Demo
 
@@ -22,20 +21,20 @@ The Checkbox can be used styled in **dark** and light variants to assure good re
 
 ### State
 
-The Checkbox provides **on**, off and indeterminate selection states with additional variants for a disabled interaction state.
+The Checkbox provides **on**, off, and indeterminate selection states with additional variants for a disabled interaction state.
 
 ![](../images/checkbox_states.png)
 ![](../images/checkbox_selection.png)
 
 ### Styling
 
-The Checkbox comes with styling flexibility through the various overrides controling its check and fill colors, as well as the label text color.
+The Checkbox comes with styling flexibility through the various overrides controlling its check and fill colors, as well as the label text color.
 
 ![](../images/calendar_styling.png)
 
 ## Usage
 
-When many Checkboxes are necessary arrange them in a column group which makes it really easy to scan quickly through the list. Fewer checkboxes may also be aranged on a single line next to each other but avoid arrangements in multiple columns.
+When many Checkboxes are necessary, you'll want to arrange them in a column group which makes it really easy to scan quickly through the list. Fewer Checkboxes may also be arranged on a single line next to each other but you should avoid arrangements in multiple columns.
 
 | Do                              | Don't                             |
 | ------------------------------- | --------------------------------- |
@@ -55,10 +54,11 @@ If the property is a nest property, include the nested property chain, but donâ€
 
 #### Example Not Nested
 
-```typescript
+```PseudoCode
 Customer {
 Public checkState: boolean;
 }
+
 DataProperty in Sketch would be: {checkState}
 ```
 

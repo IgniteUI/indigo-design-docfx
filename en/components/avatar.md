@@ -6,8 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, 
 
 ## Avatar
 
-Use the Avatar Component Symbol as a graphical representation of a person through a profile picture, icon or string with his/her initials.
-The Avatar is visually identical to the [Ignite UI for Angular Avatar Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/avatar.html)
+Use the Avatar Component as a graphical representation of a person through a profile picture or image, an icon, or a string with initials. The Avatar is visually identical to the [Ignite UI for Angular Avatar Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/avatar.html)
 
 ### Avatar Demo
 
@@ -17,15 +16,15 @@ The Avatar is visually identical to the [Ignite UI for Angular Avatar Component]
 
 The Avatar comes in three different sizes:
 
-- large - suitable for profile pages
-- medium - appropriate for custom menus and visualizations
-- small - easily embeddable in a contact list and similar repetative scenarios
+- Large - Suitable for profile pages
+- Medium - Appropriate for custom menus and visualizations
+- Small - Easily embedded in a contact list and similar repetitive scenarios
 
 ![](../images/avatar_sizes.png)
 
 ### Type
 
-The Avatar can carry different types of content such as an **image**, a string with initials or an icon.
+The Avatar can carry different types of content such as an **image**, a string with initials, or an icon.
 
 ![](../images/avatar_content.png)
 
@@ -35,13 +34,13 @@ The avatar comes in two distinct types determined by its shape: a **round** and 
 
 ### Styling
 
-The Avatar comes with styling flexibility through the various overrides controling the background color, as well as initials and icon colors, where applicable.
+The Avatar comes with styling flexibility through the various overrides controlling the background color, as well as initials and icon colors, where applicable.
 
 ![](../images/avatar_styling.png)
 
 ## Usage
 
-When using an Avatar with initials or icon pick their color carefully to assure good contrast with the Avatar background color. Avoid colors with poor contrast like similar shades of the same color, or combinations that create chromatic aberrations.
+When using an Avatar with initials or icons, pick their colors carefully to assure good contrast with the Avatar background color. Avoid colors with poor contrast like similar shades of the same color or combinations that create chromatic aberrations.
 
 | Do                            | Don't                           |
 | ----------------------------- | ------------------------------- |
@@ -62,22 +61,25 @@ If the property is a nest property, include the nested property chain, but donâ€
 
 #### Example Not Nested
 
-```typescript
+```PseudoCode
 Customer {
   imageName: String;
 }
+
 DataProperty would be: {imageName}
 ```
 
 #### Example Nested
 
-```typescript
+```PseudoCode
 Profile {
   imageName: String;
 }
+
 Customer {
   profile: Profile;
 }
+
 DataProperty would be: {profile.imageName}
 ```
 
