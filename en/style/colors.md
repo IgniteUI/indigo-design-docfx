@@ -1,12 +1,12 @@
 ---
 title: Colors - Design System Styling
-_description: The Colors Symbols in Styling is the go to place for setting up a theme in Indigo Design. 
+_description: The Colors Symbols in Styling are the go to place for setting up a theme in Indigo Design. 
 _keywords: Design System, Sketch, Ignite UI for Angular, UI Library, Colors, Palettes
 ---
 
 ## Colors
 
-Use Colors to set up your theme's colors - `primary`, `secondary`, `success`, `warn`, `error`, `info`. The way Colors are set up in the Styling library is identical to the [Ignite UI for Angular Themes](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes.html)
+Use Colors to set up your theme's colors - `primary`, `secondary`, `success`, `warn`, `error`, `info`. The way Colors are set up in the Styling library is identical to the [Ignite UI for Angular Themes](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes.html).
 
 ![](../images/colors_palette.png)
 

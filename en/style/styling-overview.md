@@ -11,7 +11,9 @@ All Components themselves map to Ignite UI for Angular components. The theming e
 With the Sketch libraries, you're able to modify the NBL-Styling library to achieve the same results for both the Components and Patterns.
 
 ![](../images/theme_overview_default.png)
+
 ![](../images/theme_overview_dark.png)
+
 ![](../images/theme_overview_vibrant.png)
 
 ## NBL-Styling
