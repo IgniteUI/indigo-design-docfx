@@ -6,8 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, 
 
 ## Radio Group
 
-Use the Radio Group Component Symbol to allow exclusive selection for one item in a group. The items in the group are left aligned and come one after another laid out in a single column.
-The Radio Group is visually identical to the [Ignite UI for Angular Radio Button Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/radio_button.html)
+Use the Radio Group Component to allow exclusive selection for one item in a group. The items in the group are left aligned and come one after another laid out in a single column. The Radio Group is visually identical to the [Ignite UI for Angular Radio Button Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/radio_button.html)
 
 ### Radio Group Demo
 
@@ -34,7 +33,7 @@ The Radio Group comes with styling flexibility through the various overrides for
 
 ## Usage
 
-When extending a Radio Group with additional items make sure that they are all left aligned consistently one under another in a single column. Avoid layout in multiple columns as well as situations with more the one Radio being on at a time.
+When extending a Radio Group with additional items, make sure that they are all left-aligned consistently with one under another in a single column. Avoid layout in multiple columns, as well as situations with more the one Radio being on at a time.
 
 | Do                                | Don't                               |
 | --------------------------------- | ----------------------------------- |
