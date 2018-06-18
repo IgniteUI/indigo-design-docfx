@@ -6,8 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, 
 
 ## Navigation Drawer
 
-Use the Navigation Drawer Component Symbol to implement application-level navigation by placing it at left border of the screen with any number of items, allowing browsing between their associated views. It is usually used in combination with a [Navbar](navbar.md).
-The Navigation Drawer is visually identical to the [Ignite UI for Angular Navigation Drawer Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/navdrawer.html)
+Use the Navigation Drawer Component to implement application-level navigation by placing it at the left border of the screen with any number of items, allowing browsing between their associated views. It is usually used in combination with a [Navbar](navbar.md). The Navigation Drawer is visually identical to the [Ignite UI for Angular Navigation Drawer Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/navdrawer.html)
 
 ### Navigation Drawer Demo
 
@@ -15,7 +14,7 @@ The Navigation Drawer is visually identical to the [Ignite UI for Angular Naviga
 
 ### Style
 
-The Navigation Drawer supports a **default** style with icon and label for each item and a mini style with icons only. If your design contains five or less items/views you may pick between Navigation Drawer and [Bottom Navigation](bottom-nav.md).
+The Navigation Drawer supports a **default** style with icon and label for each item and a mini style with icons only. If your design contains five or less items/views, you may pick between Navigation Drawer and [Bottom Navigation](bottom-nav.md).
 
 ![](../images/nav-drawer_default.png)
 ![](../images/nav-drawer_mini.png)
@@ -28,7 +27,7 @@ The Navigation Drawer provides basic styling capabilities achievable through cha
 
 ## Usage
 
-Navigation Drawer is always used as the main app navigation, therefore position it from the very top to the very bottom across the whole left edge of the screen and avoid combining it with conflicting app navigation mechanisms such as the Bottom Navigation. Placing a Navigation Drawer on the right edge of the screen is considered inappropriate as the main navigation should be one of the first things that the user's eyes land on.
+Navigation Drawer is always used as the main app navigation, therefore, position it from the very top to the very bottom across the whole left edge of the screen and avoid combining it with conflicting app navigation mechanisms such as the Bottom Navigation. Placing a Navigation Drawer on the right edge of the screen is considered inappropriate, as the main navigation should be one of the first things that the user's eyes land on.
 
 | Do                                | Don't                               |
 | --------------------------------- | ----------------------------------- |
