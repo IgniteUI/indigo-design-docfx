@@ -6,8 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, 
 
 ## Navbar
 
-Use the Navbar Component Symbol to provide clarity for the user about his current position in the application and to implement application-level navigation. It is always situated at the top of the screen.
-The Navbar is visually identical to the [Ignite UI for Angular Navbar Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/navbar.html)
+Use the Navbar Component to provide clarity for the user about current position in the application and to implement application-level navigation. It is always situated at the top of the screen. The Navbar is visually identical to the [Ignite UI for Angular Navbar Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/navbar.html)
 
 ### Navbar Demo
 
@@ -15,7 +14,7 @@ The Navbar is visually identical to the [Ignite UI for Angular Navbar Component]
 
 ### Type
 
-The Navbar offers three layout configurations defined by the following types: **icon action and title**, text action and title, and only title.
+The Navbar offers three layout configurations defined by the following types: **icon action and title**, text action and title, and title.
 
 ![](../images/navbar_lefticon.png)
 ![](../images/navbar_lefttext.png)
@@ -23,7 +22,7 @@ The Navbar offers three layout configurations defined by the following types: **
 
 ### Action Icons
 
-Every Navbar can supports up to four action icons rendered right to left starting from the right edge of the screen that can trigger different simple events.
+Every Navbar can support up to four action icons, rendered right to left, starting from the right edge of the screen that can trigger different simple events.
 
 ![](../images/navbar_icon1.png)
 ![](../images/navbar_icon2.png)
@@ -32,7 +31,7 @@ Every Navbar can supports up to four action icons rendered right to left startin
 
 ### Styling
 
-The Navbar comes with basic styling capabilities achievable through changing the title, icon and background colors.
+The Navbar comes with basic styling capabilities achievable through changing the title, icon, and background colors.
 
 ![](../images/navbar_styling.png)
 
