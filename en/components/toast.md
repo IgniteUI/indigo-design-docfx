@@ -6,8 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, 
 
 ## Toast
 
-Use the Toast Component Symbol to show a short information message or notification, which is neither interactive nor possible to dismiss by the user. The Toast should be hidden automatically after a defined time interval.
-The Toast is visually identical to the [Ignite UI for Angular Toast Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/toast.html)
+Use the Toast Component to show a short information message or notification, which is neither interactive nor possible to dismiss by the user. The Toast should be hidden automatically after a defined time interval. The Toast is visually identical to the [Ignite UI for Angular Toast Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/toast.html)
 
 ### Toast Demo
 
@@ -15,7 +14,7 @@ The Toast is visually identical to the [Ignite UI for Angular Toast Component](h
 
 ### Position
 
-The Toast should be relatively positioned towards the bottom, center or top of the content its information concerns.
+The Toast should be relatively positioned towards the bottom, center, or top of the content its information concerns.
 
 ![](../images/toast_bottom.png)
 ![](../images/toast_center.png)
@@ -23,13 +22,13 @@ The Toast should be relatively positioned towards the bottom, center or top of t
 
 ### Styling
 
-The Toast comes with constrained styling possibilty allowing only to control the backgound and message text colors. However, it is highly advisable to choose between `white` and `grays.900` for the message text, whichever of the two gives better contrast with the background.
+The Toast comes with constrained styling possibility, allowing only control of the background and message text colors. However, it is highly advisable to choose between `white` and `grays.900` for the message text, whichever of the two gives better contrast with the background.
 
 ![](../images/toast_styling.png)
 
 ## Usage
 
-The Toast should always be centrally aligned on the horizontal and other placements should be avoided. Approach the Toast styling with care avoiding too distinct background colors and message text color that is neither white nor dark gray or black.
+The Toast should always be centrally aligned on the horizontal and other placements should be avoided. Approach the Toast styling with care, avoiding too distinct background colors and message text color that is neither white nor dark gray or black.
 
 | Do                           | Don't                          |
 | ---------------------------- | ------------------------------ |
@@ -45,8 +44,7 @@ When colors or fonts are specified for the Toast, the Toast HTML element will be
 
 ### Text/Data Property Binding
 
-There are Text properties for the Message. When supplied they can be bound to a nested or non-nested data item.
-If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+There are Text properties for the Message. When supplied, they can be bound to a nested or non-nested data item. If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
 
 #### Example Not Nested
 
