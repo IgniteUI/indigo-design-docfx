@@ -6,8 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, 
 
 ## Slider
 
-Use the Slider Component Symbol to allow the user to select a single value or specify a range of values by choosing values for both its ends.
-The Slider is visually identical to the [Ignite UI for Angular Slider Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/slider.html)
+Use the Slider Component to allow the user to select a single value or specify a range of values by choosing values for both its ends. The Slider is visually identical to the [Ignite UI for Angular Slider Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/slider.html)
 
 ### Slider Demo
 
@@ -29,14 +28,14 @@ The Slider can be used styled in **dark** or light theme to assure good readabil
 
 ### State
 
-The Slider supports **enabled** and disabled states reflecting the possibility to change the value(s).
+The Slider supports **enabled** and disabled states, reflecting the possibility to change the value(s).
 
 ![](../images/slider_enabled.png)
 ![](../images/slider_disabled.png)
 
 ### Styling
 
-The Slider comes with styling flexibility through the overrides for the label background, thumb, track and base track colors.
+The Slider comes with styling flexibility through the overrides for the label background, thumb, track, and base track colors.
 
 ![](../images/slider_styling.png)
 
