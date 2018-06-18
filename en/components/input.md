@@ -6,8 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, 
 
 ## Input
 
-Use the Input Component Symbol to collect user data such as strings and numbers fitting various contexts, dates and other values. Multiple inputs can be combined to craft easy-to-use and aesthetic forms.
-The Input is visually identical to the [Ignite UI for Angular Input Group Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/input_group.html)
+Use the Input Component to collect user data such as strings and numbers fitting various contexts, dates, and other values. Multiple inputs can be combined to craft easy-to-use and aesthetic forms. The Input is visually identical to the [Ignite UI for Angular Input Group Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/input_group.html)
 
 ### Input Demo
 
@@ -15,7 +14,7 @@ The Input is visually identical to the [Ignite UI for Angular Input Group Compon
 
 ### Types
 
-The Input come with or without a helper text and provides choice between four distinct types e.g. line style for a more airy or border style for a more structured perception on solid color backgrounds. The boxed style is most appropriate when the Input is placed on top of an vivid image to improve readibility of its content.
+The Input comes with or without a helper text and provides choice between four distinct types, e.g. line style for a more airy style or border style for a more structured perception on solid color backgrounds. The boxed style is most appropriate when the Input is placed on top of an vivid image to improve readability of its content.
 
 ![](../images/input_no-helper.png)
 ![](../images/input_helper.png)
@@ -38,7 +37,7 @@ The Input can be used styled in **dark** and light variants to assure good reada
 
 ### State
 
-When the user interacts with the Input, it goes through various states: **idle** with a placeholder in the place of the content, focused while the user is typing in it, filled once the user has finished adding content and moved on, and disabled when the input does not support any interaction. These flexibility enhancements afford a more dynamic interaction design that can seemlessly flow into high-fidelity prototyping.
+When the user interacts with the Input, it goes through various states: **idle** with a placeholder in the place of the content, focused while the user is typing in it, filled once the user has finished adding content and moved on, and disabled when the input does not support any interaction. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
 
 ![](../images/input_focused.png)
 `focused`
@@ -47,7 +46,7 @@ When the user interacts with the Input, it goes through various states: **idle**
 ![](../images/input_disabled.png)
 `disabled`
 
-Every experienced designer uses contraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Input is equipped for sophisticated designs that display success, warning and error visuals.
+Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Input is equipped for sophisticated designs that display success, warning, and error visuals.
 
 ![](../images/input_success.png)
 ![](../images/input_warning.png)
@@ -55,7 +54,7 @@ Every experienced designer uses contraints wisely to limit the user input and av
 
 ### Layout
 
-The Input has rich support for prefix and suffix through text string or icon that can in certain cases reduce the input effort for the user e.g. a @email.com suffix means both less keystrokes and more clarity of expected content, while a clock or calendar prefix may indicate that the Input is suitable to provide time or date as content.
+The Input has rich support for prefix and suffix through text string or icon that can, in certain cases, reduce the input effort for the user: e.g. an @email.com suffix means both less keystrokes and more clarity of expected content, while a clock or calendar prefix may indicate that the Input is suitable to provide time or date as content.
 
 ![](../images/input_prefix.png)
 ![](../images/input_suffix.png)
@@ -71,13 +70,13 @@ The Input has rich support for prefix and suffix through text string or icon tha
 
 ### Styling
 
-The Input comes with styling achievable through changing the primary, success, warning and error colors of your theme in the Styling library.
+The Input comes with styling achievable through changing the primary, success, warning, and error colors of your theme in the Styling library.
 
 ![](../images/input_styling.png)
 
 ## Usage
 
-Use the box type of Input when placing forms on top of an image to improve readability. When using an Input in warning or error state in your designs prefer the one with helper text and use the opportunity to provide guidance to the user.
+Use the box type of Input when placing forms on top of an image to improve readability. When using an Input in warning or error state in your designs, prefer the one with helper text and use the opportunity to provide guidance to the user.
 
 | Do                           | Don't                          |
 | ---------------------------- | ------------------------------ |
