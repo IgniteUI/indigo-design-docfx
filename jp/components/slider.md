@@ -1,65 +1,58 @@
----
-title: Slider - Design System Component
-_description: The Slider Component Symbol is used to allow the user to select a single value or a range. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Slider - デザイン システム コンポーネント
+_description: Slider コンポーネント シンボルは、ユーザーの単一の値や範囲の選択をサポートします。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Slider
 
-Use the Slider Component to allow the user to select a single value or specify a range of values by choosing values for both its ends. The Slider is visually identical to the [Ignite UI for Angular Slider Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/slider.html)
+Slider コンポーネント シンボルは、単一値の選択や両値の最後を選択して値範囲の指定が可能です。Slider は、[Ignite UI for Angular Slider コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/slider.html)と視覚的に同じものです。
 
-### Slider Demo
+### Slider デモ
 
 ![](../images/slider_demo.png)
 
-### Type
+### タイプ
 
-The Slider offers a variant with one thumb for selecting a single value and with two thumbs for specifying a range.
+Slider は、単一値の選択につまみと範囲を指定するための 2 つのつまみを提供します。
 
 ![](../images/slider_one-thumb.png)
 ![](../images/slider_two-thumb.png)
 
-### Theme
+### テーマ
 
-The Slider can be used styled in **dark** or light theme to assure good readability and contrast for both lighter and darker backgrounds.
+Slider は、ダーク/ライト系のテーマで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
 
 ![](../images/slider_dark.png)
 ![](../images/slider_light.png)
 
-### State
+### 状態
 
-The Slider supports **enabled** and disabled states, reflecting the possibility to change the value(s).
+Slider は、値の変更が可能かどうかを設定する**有効**/無効の状態をサポートします。
 
 ![](../images/slider_enabled.png)
 ![](../images/slider_disabled.png)
 
-### Styling
+### スタイル設定
 
-The Slider comes with styling flexibility through the overrides for the label background, thumb, track, and base track colors.
+Slider は、さまざまなオーバーライドでラベル背景、つまみ、トラック、ベース トラックの色を制御することにより柔軟にスタイル設定できます。
 
 ![](../images/slider_styling.png)
 
-## Usage
+## 使用方法
 
-The Slider track color should always have a higher emphasis than the track base color. Both single value and range Sliders should be consistently styled i.e. the label background should match the thumb and track color.
+Slider のトラック カラーは常にトラック ベース カラーより強調されます。単一値と範囲 Slider のスタイルを統一する必要があります (ラベル背景をつまみやトラックカラーとマッチするなど)。
 
-| Do                            | Don't                           |
+| いい例                            | 悪い例                           |
 | ----------------------------- | ------------------------------- |
 | ![](../images/slider_do1.png) | ![](../images/slider_dont1.png) |
 | ![](../images/slider_do2.png) | ![](../images/slider_dont2.png) |
 
-## Code generation
+## その他のリソース
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Slider in your design is very likely to result in loss of code generation capability for the Slider.
+関連トピック:
 
-`🕹️DataSource`
-`🕹️Event`
+コミュニティに参加して新しいアイデアをご提案ください。
 
-## Additional Resources
-
-Related topics:
-
-Our community is active and always welcoming to new ideas.
-
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

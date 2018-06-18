@@ -1,62 +1,63 @@
----
-title: Toast - Design System Component
-_description: The Toast Component Symbol is used to show a non-interactive information message or notification.
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Toast - デザイン システム コンポーネント
+_description: Toast コンポーネント シンボルは、非インタラクティブな情報メッセージや通知に使用します。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Toast
 
-Use the Toast Component to show a short information message or notification, which is neither interactive nor possible to dismiss by the user. The Toast should be hidden automatically after a defined time interval. The Toast is visually identical to the [Ignite UI for Angular Toast Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/toast.html)
+Toast コンポーネント シンボルは、非インタラクティブでユーザーが破棄できない短い情報メッセージや通知を表示します。Toast は、定義した時間間隔の後に自動的に非表示になります。Toast は、[Ignite UI for Angular Toast コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/toast.html)と視覚的に同じものです。
 
-### Toast Demo
+### Toast デモ
 
 ![](../images/toast_demo.png)
 
-### Position
+### 位置
 
-The Toast should be relatively positioned towards the bottom, center, or top of the content its information concerns.
+Toast は、情報に関連するコンテンツの上、下、中央に相対的に配置します。
 
 ![](../images/toast_bottom.png)
 ![](../images/toast_center.png)
 ![](../images/toast_top.png)
 
-### Styling
+### スタイル設定
 
-The Toast comes with constrained styling possibility, allowing only control of the background and message text colors. However, it is highly advisable to choose between `white` and `grays.900` for the message text, whichever of the two gives better contrast with the background.
+Toast は、スタイル設定に制限があり背景とメッセージ テキスト色のみ制御します。ただし、white と grays.900 のどちらかを選択することをお勧めします。メッセージ テキストは背景とのコントラストがより高い方を使用します。
 
 ![](../images/toast_styling.png)
 
-## Usage
+## 使用方法
 
-The Toast should always be centrally aligned on the horizontal and other placements should be avoided. Approach the Toast styling with care, avoiding too distinct background colors and message text color that is neither white nor dark gray or black.
+Toast は、常に水平に配置する必要があり、その他の配置はしないようにします。Toast のスタイルは、特徴のある背景色や白や濃い灰色のメッセージ テキストは使用しないようにします。
 
-| Do                           | Don't                          |
+| いい例                          | 悪い例                          |
 | ---------------------------- | ------------------------------ |
 | ![](../images/toast_do1.png) | ![](../images/toast_dont1.png) |
 | ![](../images/toast_do2.png) | ![](../images/toast_dont2.png) |
 
-## Code generation
+## コードの生成
 
-When colors or fonts are specified for the Toast, the Toast HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
+Toast の色やフォントを指定した場合、Toast HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
 
 > [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Toast in your design is very likely to result in loss of code generation capability for the Toast.
+> デザインの Toast のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Toast のためのコード生成機能が失われます。
 
-### Text/Data Property Binding
+### Text/Data プロパティ バインディング
 
-There are Text properties for the Message. When supplied, they can be bound to a nested or non-nested data item. If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+Message に Text プロパティがあります。ネストまたはネストなしのデータ項目にバインドできます。プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。例:
 
-#### Example Not Nested
+#### 例: ネストなし
 
 ```PseudoCode
 Customer {
 messageText: string;
 }
 
-Text would be: { messageText }
+Text: { messageText }
 ```
 
-#### Example Nested
+#### 例: ネストあり
 
 ```PseudoCode
 Profile {
@@ -67,13 +68,11 @@ Customer {
 profile: Profile;
 }
 
-Text would be: {profile. messageText }
+Text: {profile. messageText }
 ```
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+コミュニティに参加して新しいアイデアをご提案ください。
 
-Our community is active and always welcoming to new ideas.
-
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

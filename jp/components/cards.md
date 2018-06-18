@@ -1,55 +1,56 @@
----
-title: Cards - Design System Component
-_description: The Card Component Symbol contains images and text outlining a single object, enhanced with relevant actions.
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Cards - デザイン システム コンポーネント
+_description: Card コンポーネント シンボルは、シングル オブジェクトを説明するための関連操作で拡張した画像とテキストを含みます。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Cards
 
-Use the Card Component to display information for a single object through images and text, allowing relevant quick actions to be triggered such as sharing, liking, bookmarking, etc. The Card usually works as an overview and entry point for more detailed information, and dashboards are created by combining different types of Cards. The Card is visually identical to the [Ignite UI for Angular Card Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/card.html)
+Card コンポーネントシンボルは、画像とテキストで単一オブジェクトの情報を表示し、共有、リンク、ブックマークなどの関連するクイック操作をトリガーできます。Card は通常概要を提供し、詳細情報のエントリ ポイントとして、ダッシュボード、テキスト、画像、アイコン、ボタンなどを表示します。 Card は、[Ignite UI for Angular Card コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/card.html)と視覚的に同じものです。
 
-### Card Demo
+### Card デモ
 
 ![](../images/card_demo.png)
 
-### Areas
+### 領域
 
-The Card has three distinct areas: `header` which holds a combination of title and subtitle, `content` which holds images and paragraphs detailing the Card, and `actions` which serves as a toolbar with quick actions related to the Card.
+Card には 3 つの領域 (`header` - タイトルとサブタイトルの組み合わせ、`content` - Card の画像と段落、`actions` - Card に関連するクイック操作のあるツールバー) があります。
 
 |         |                                       |
 | ------- | ------------------------------------- |
-| header  | ![](../images/card_headerL.png)       |
-| content | ![](../images/card_content_image.png) |
-| actions | ![](../images/card_actions_icons.png) |
+| `header`  | ![](../images/card_headerL.png)       |
+| `content` | ![](../images/card_content_image.png) |
+| `actions` | ![](../images/card_actions_icons.png) |
 
-### Header
+### ヘッダー
 
-The Card Header supports three distinct layouts: **Large Title** which provides a large title and a subtitle, Small Title which provides a small title and a subtitle, and Small Title Only which provides a small title and no subtitle.
+Card ヘッダーは、3 種類のレイアウト (**Large Title** - 大きいタイトルとサブタイトル、Small Title - スモール タイトルとサブタイトル、Small Title - スモール タイトルのみ (サブタイトルなし) をサポートします。
 
 ![](../images/card_headerL.png)
 ![](../images/card_headerS.png)
 ![](../images/card_header_title.png)
 
-### Content
+### コンテンツ
 
-The Card Content supports five distinct layouts: **Array** for shortcuts like contacts, Image with or without a title, Map for showing geographical location, and Paragraph for a short description text.
+Card コンテンツは、5 種類のレイアウト (連絡先のようなショートカットの**配列**、タイトルあり/なしの画像、地理的な位置を表すマップ、短い説明のテキストの段落) をサポートします。
 
 ![](../images/card_content_shortcuts.png)
 ![](../images/card_content_image.png)
 ![](../images/card_content_map.png)
 ![](../images/card_content_paragraph.png)
 
-### Actions
+### 操作
 
-The Card Actions come in three distinct layouts: **Button Actions** with just a couple of Flat Buttons, Icon Actions with up to three icons, and Icon + Button Actions combining the two approaches.
+Card 操作は 3 種類のレイアウトをサポートします。Flat ボタン数個のみのある**ボタン操作**、アイコン操作 (アイコン 3 つ迄)、アイコンとボタン操作の 2 つの組み合わせ。
 
 ![](../images/card_actions_buttons.png)
 ![](../images/card_actions_icons.png)
 ![](../images/card_actions_mixed.png)
 
-### Types
+### タイプ
 
-The Card is available in one of the following layouts:
+Card で以下のレイアウトのうちの 1 つを利用できます。
 
 |                   |                                       |
 | ----------------- | ------------------------------------- |
@@ -64,34 +65,26 @@ The Card is available in one of the following layouts:
 | Text Card         | ![](../images/card_text.png)          |
 | Timeline Card     | ![](../images/card_timeline.png)      |
 
-If none of them works for your design, you may create your own [Custom Cards](cards-custom.md).
+デザインに合わない場合は、[カスタム カード](cards-custom.md)を作成できます。
 
-### Styling
+### スタイル設定
 
-The Card comes with styling flexibility through the various overrides available for header, content, and actions areas such as text, icons, and button colors, as well as the possibility to choose a Card background color.
+Card は、さまざまなオーバーライドでヘッダー、コンテンツ、テキスト、アイコン、ボタンの色などの操作領域の制御やカードの背景色の選択などスタイル設定に柔軟性があります。
 
 ![](../images/card_styling.png)
 
-## Usage
+## 使用方法
 
-The Card usually works as an overview and entry point for more detailed information, therefore, you want to avoid clogging it with too much information. When creating card dashboards, size and arrange cards consistently in order to form a layout grid with equal horizontal and vertical gaps between cards.
+Card はより詳細な情報についての概要やエントリ ポイントとなるため、情報をあまり入れすぎないようにします。カード ダッシュボードの作成時にカードを常にサイズ変更しながら配置し、カード間の水平と垂直のギャップを均等にしてレイアウト グリッドを形成します。
 
-| Do                          | Don't                         |
+| いい例                          | 悪い例                         |
 | --------------------------- | ----------------------------- |
 | ![](../images/card_do1.png) | ![](../images/card_dont1.png) |
 | ![](../images/card_do2.png) | ![](../images/card_dont2.png) |
 
-## Code generation
+## その他のリソース
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Card in your design is very likely to result in loss of code generation capability for the Card.
-
-`🕹️DataSource`
-`🕹️Event`
-
-## Additional Resources
-
-Related topics:
+関連トピック:
 
 - [Avatar](avatar.md)
 - [Button](button.md)
@@ -99,6 +92,6 @@ Related topics:
 - [Card Collection Pattern](card-collection.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

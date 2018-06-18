@@ -1,20 +1,21 @@
----
-title: Input - Design System Component
-_description: The Input Component Symbol allows the collection of user data such as strings, numbers and dates. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Input - デザイン システム コンポーネント
+_description: Input コンポーネント シンボルは、文字列、数値、日付などユーザー データのコレクションが使用できます。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Input
 
-Use the Input Component to collect user data such as strings and numbers fitting various contexts, dates, and other values. Multiple inputs can be combined to craft easy-to-use and aesthetic forms. The Input is visually identical to the [Ignite UI for Angular Input Group Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/input_group.html)
+Input コンポーネント シンボルは、さまざまなコンテキスト、日付、その他の値に合わせて使用する文字列や数値などのユーザー データを収集します。複数入力は、簡単に使用できるフォームに組み合わせることができます。Input は、[Ignite UI for Angular Input Group コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/input_group.html)と視覚的に同じものです。
 
-### Input Demo
+### Input デモ
 
 ![](../images/input_demo.png)
 
-### Types
+### タイプ
 
-The Input comes with or without a helper text and provides choice between four distinct types, e.g. line style for a more airy style or border style for a more structured perception on solid color backgrounds. The boxed style is most appropriate when the Input is placed on top of an vivid image to improve readability of its content.
+Input はヘルパー テキスト (あり/なし) で 4 つの異なるタイプから選択します。より軽い印象となる線スタイルまたは単色背景ではっきり認識される境界線スタイルなど。Boxed スタイルは、コンテンツを読みやすくするために Input をビビッドなイメージの上に配置したときに使用するのが最も適しています。
 
 ![](../images/input_no-helper.png)
 ![](../images/input_helper.png)
@@ -28,16 +29,16 @@ The Input comes with or without a helper text and provides choice between four d
 ![](../images/input_search.png)
 `search`
 
-### Variants
+### バリアント
 
-The Input can be used styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
+Input は、明暗バリアントで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
 
 ![](../images/input_dark.png)
 ![](../images/input_light.png)
 
-### State
+### 状態
 
-When the user interacts with the Input, it goes through various states: **idle** with a placeholder in the place of the content, focused while the user is typing in it, filled once the user has finished adding content and moved on, and disabled when the input does not support any interaction. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
+ユーザーが Input とインタラクティブに操作する際にさまざまな状態を経由します。コンテンツの代わりにプレースホルダーがある**アイドル**状態、ユーザーが入力中のフォーカス状態、ユーザーがコンテンツの追加を完了して次に進むときの塗りつぶし状態、入力がインタラクションをサポートしない無効状態。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 
 ![](../images/input_focused.png)
 `focused`
@@ -46,15 +47,15 @@ When the user interacts with the Input, it goes through various states: **idle**
 ![](../images/input_disabled.png)
 `disabled`
 
-Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Input is equipped for sophisticated designs that display success, warning, and error visuals.
+経験豊富なデザイナーは、ユーザー入力を制限して無効な状態を防止するために、検証スタイルを使用します。検証スタイルは、Input で成功、警告、エラーを表示する洗練されたデザインを提供します。
 
 ![](../images/input_success.png)
 ![](../images/input_warning.png)
 ![](../images/input_error.png)
 
-### Layout
+### レイアウト
 
-The Input has rich support for prefix and suffix through text string or icon that can, in certain cases, reduce the input effort for the user: e.g. an @email.com suffix means both less keystrokes and more clarity of expected content, while a clock or calendar prefix may indicate that the Input is suitable to provide time or date as content.
+Input には特定の場合に入力 (@email.com サフィックス) を軽減するテキスト文字列のプレフィックス/サフィックスやアイコンをサポートします。これによりキーストロークを減らし、予期されるコンテンツを明確にすることができます。カレンダーのプレフィックスでは、Input が日付や時間のコンテンツとして適しているかを示すことができます。
 
 ![](../images/input_prefix.png)
 ![](../images/input_suffix.png)
@@ -68,37 +69,29 @@ The Input has rich support for prefix and suffix through text string or icon tha
 > - .../Suffix/Icons/...
 > - .../Suffix/String/...
 
-### Styling
+### スタイル設定
 
-The Input comes with styling achievable through changing the primary, success, warning, and error colors of your theme in the Styling library.
+Input は、Styling ライブラリのテーマでプライマリ、成功、警告、エラーの色を変更できます。
 
 ![](../images/input_styling.png)
 
-## Usage
+## 使用方法
 
-Use the box type of Input when placing forms on top of an image to improve readability. When using an Input in warning or error state in your designs, prefer the one with helper text and use the opportunity to provide guidance to the user.
+Input のボックス タイプを使用して画像上にフォームを配置して読みやすくします。デザインの警告やエラー状態で Input を使用する際にヘルパーテキストを使用してユーザーにガイダンスを提供します。
 
-| Do                           | Don't                          |
+| いい例                         | 悪い例                          |
 | ---------------------------- | ------------------------------ |
 | ![](../images/input_do1.png) | ![](../images/input_dont1.png) |
 | ![](../images/input_do2.png) | ![](../images/input_dont2.png) |
 
-## Code generation
+## その他のリソース
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Input in your design is very likely to result in loss of code generation capability for the Input.
-
-`🕹️DataSource`
-`🕹️Event`
-
-## Additional Resources
-
-Related topics:
+関連トピック:
 
 - [Form Pattern](forms.md)
 - [User Profile Pattern](userProfile.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

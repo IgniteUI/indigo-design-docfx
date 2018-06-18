@@ -1,69 +1,70 @@
----
-title: Custom List Item - Design System Component
-_description: The List Items collection contains this special type of List Item that allows the creation of Custom layouts exactly how you would like them to be.
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Custom List Item - デザイン システム コンポーネント
+_description: List Items コレクションは、完全なカスタマイズ可能な Custom レイアウトを作成する List Item を含みます。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Custom List Item
 
-Use the Custom List Item Component to display the same type of information that you would in a normal List Item but with the complete freedom to arrange your layout exactly as you would like. The Custom List Item is achievable by writing the necessary customizations to the layout of the items of the [Ignite UI for Angular List Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/list.html)
+Custom List Item シンボルは、通常の List Item と同じタイプの情報を表示しますが、レイアウトを自由に変更できます。Custom List Item は、[Ignite UI for Angular List コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/list.html)のレイアウトにカスタム コードを使用します。
 
-### Custom List Item Demo
+### Custom List Item デモ
 
 ![](../images/list_item_custom_demo.png)
 
-### State
+### 状態
 
-The Custom List Item supports the following interactive states: inactive for the normal state and active for the selected state.
+Custom List Item はインアクティブ状態 (標準状態のインアクティブと選択状態のアクティブ) をサポートします。
 
 ![](../images/list_item_custom_inactive.png)
 ![](../images/list_item_custom_active.png)
 
-### Detach from Symbol
+### シンボルからデタッチ
 
-In order to customize List Item layouts, start by dragging a `List/Items/Custom` to your artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared _List/Items/Custom/~_ group, you should see the following:
+List Item レイアウトをカスタマイズするには、`List/Items/Custom` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下の方にある`シンボルからデタッチ` オプションを選択します。新しく表示される `List/Items/Custom/~` グループの下のレイヤー パネルには以下があります。
 
 > [!INFO]
-> | Layer | Use |
+> | レイヤー | 使用 |
 > | ----------------------------- | ---------------------------------------- |
-> | 🚫 igx-list-item/custom:~ | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-> | 💡Primary Action Group | Groups together the Primary Action layout elements |
-> | 💡Secondary Action Group | Groups together the Secondary Action layout elements |
-> | 🌈 Background | Defines the background color of the List Item |
+> | 🚫 igx-list-item/custom:~ | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
+> | 💡Primary Action Group | Primary Action レイアウト要素をグループ化 |
+> | 💡Secondary Action Group | Secondary Action レイアウト要素をグループ化 |
+> | 🌈 Background | List Item の背景色を定義 |
 
-#### Styling
+#### スタイル設定
 
-The Custom List Item has high-level styling flexibility similar to the normal List Item with a few overrides for the Secondary Actions and control over their text, icons, and buttons colors. Just like every List Item, it is possible to specify the Item background color through the overrides, as well.
+Custom List Item は、Secondary Actions のオーバーライドおよびテキスト、アイコン、ボタン色の制御の一般的な List Item 同様にスタイル設定に高い柔軟性があります。各 List Item 同様にオーバーライドで Item 背景色を指定できます。
 
 ![](../images/list_item_custom_styling.png)
 
-#### Layout
+#### レイアウト
 
-So, let's see how we can create the intricate layout for the product List Item above in three simple steps. Once we have dragged in an inactive Custom List Item in an empty Artboard, selected the `Detach from Symbol` and applied the basic styling available changing the background color, we should have something like this for a starting point.
+以下は、上記の製品 List Item の複雑なレイアウトを 3 つのシンプルなステップで作成する方法です。空 Artboard のインアクティブな Custom List Item をドラッグし、`シンボルからデタッチ`を選択して、背景色を変更する基本スタイルを適用します。開始ポイントにも同様に適用します。
 
 ![](../images/list_item_custom_layout0.png)
 
-1.  We will reuse the Header from the Primary Action Group but resize it to fit in the right half only and update the strings for the Title and Subtitle Text. In the Secondary Action Group, we will add a Raised Button position to it near the bottom right corner, updating its text and resizing accordingly to fit the new value. Lastly, let's remove the default Secondary Action, as we will not be needing Icons for our target custom layout.
+1.  Primary Action Group の Header を再利用しますが右半分のみに合わせてサイズ変更し、Title と Subtitile Text の文字列を更新します。Secondary Action Group で Raised Button 配置を右下近くに追加します。テキストの更新して新しい値に合わせてサイズ変更します。ターゲット カスタム レイアウトに Icons は必要ないため、最後にデフォルト Secondary Action を削除します。
 
 ![](../images/list_item_custom_layout1.png)
 
-2.  Next, we will insert a List/Items/Blocks/Content/Image in the Primary Action Group and add a Badge on top of it within the same group. Now, we have to size the image according to the Item size and select content for it. After modifying the Badge, as well by updating its Value Text and hiding its Border and Elevation, we should have something similar to this.
+2.  次に List/Items/Blocks/Content/Image を Primary Action Group に挿入し、同じグループ内で一番上に Badge を追加します。Item サイズに基づいて画像をサイズ変更し、コンテンツを選択します。Badge を変更して Value Text を更新した後に Border と Elevation を非表示にし、これと同様のものを取得します。
 
 ![](../images/list_item_custom_layout2.png)
 
-3.  In the last step, we will add a couple of Text/Title elements to the Primary Action Group: a larger H3 to display the price of the product and a smaller H6 to its right for complimentary text. After positioning them in the empty space between the Header and the Raised Button, we can make a final alignment adjustment to the Raised Button with which our target layout is complete.
+3.  前のステップでは Text/Title 要素を Primary Action Group に追加します。H3 で製品価格を表示し、その右 にH6 で追加のテキストを表示します。Header と Raised Button 間の空スペースに配置後、ターゲット レイアウトが完了した Raised Button の最終的な配置を調整できます。
 
 ![](../images/list_item_custom_layout3.png)
 
-#### Additional Styling
+#### 追加のスタイル
 
-With this List Item layout, a lot of additional styling is possible based on the elements that have been inserted in it. For example, we can set a color for the text of the pricing to emphasize it and change the Badge background and Raised Button background colors.
+List Item レイアウトでは、挿入されている要素に基づいてさまざまなスタイルを追加することが可能になります。たとえば、テキストの色を設定して強調したり、Badge 背景や Raised Button 背景の色を変更したりできます。
 
 ![](../images/list_item_custom_layout_styled.png)
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Badge](badge.md)
 - [Button](button.md)
@@ -71,6 +72,6 @@ Related topics:
 - [Lists Pattern](lists.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

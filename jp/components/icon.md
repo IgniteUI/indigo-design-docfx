@@ -1,20 +1,21 @@
----
-title: Icon - Design System Component
-_description: The Icon Component Symbol is used to provide subtle graphical indications to the user that also may trigger an interaction. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Icon - デザイン システム コンポーネント
+_description: Icon コンポーネント シンボルは、グラフィック インジケーターをユーザーに表示し、インタラクションをトリガーすることもできます。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Icon
 
-Use the Icon Component to provide subtle graphical information to the user that, in some cases, may also trigger simple interactions such as liking a product, saving an article for later, etc. You may choose between the already provided [Material Icons](https://material.io/tools/icons/) or add the ones you need to the list of available ones in the Styling library. The Icon is visually identical to the [Ignite UI for Angular Icon Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/icon.html)
+Icon コンポーネント シンボルは、製品に「いいね」などのシンプルなインタラクションをトリガーしてユーザーに情報をグラフィックで表示します。すでに提供されている [Material アイコン](https://material.io/tools/icons/)または Styling ライブラリで使用可能なアイコンをリストに追加します。Icon は、[Ignite UI for Angular Icon コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/icon.html)と視覚的に同じものです。
 
-### Icon Demo
+### Icon デモ
 
 ![](../images/icon_demo.png)
 
-### Size
+### サイズ
 
-The Icon comes in four different sizes:
+Icon のサイズは 4 つあります。
 
 - ExtraLarge
 - Large
@@ -23,31 +24,23 @@ The Icon comes in four different sizes:
 
 ![](../images/icon_sizes.png)
 
-### Styling
+### スタイル設定
 
-The Icon comes with styling flexibility through the overrides for selectable graphic and the color used to fill it.
+Icon は、さまざまなオーバーライドで選択可能なグラフィックや塗りつぶしの色を制御することにより柔軟にスタイル設定できます。
 
 ![](../images/icon_styling.png)
 
-## Usage
+## 使用方法
 
-Carefully pick the Icon color to assure good contrast with the background and definitely avoid similar shades of the same color or combinations that create chromatic aberrations.
+Icon の色は、背景とのコントラストが高い色を選択し、同色の似たような色合いや色収差を生じる組み合わせは避けるようにします。
 
-| Do                          | Don't                         |
+| いい例                          | 悪い例                         |
 | --------------------------- | ----------------------------- |
 | ![](../images/icon_do1.png) | ![](../images/icon_dont1.png) |
 
-## Code generation
+## その他のリソース
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Icon in your design is very likely to result in loss of code generation capability for the Icon.
-
-`🕹️DataSource`
-`🕹️Event`
-
-## Additional Resources
-
-Related topics:
+関連トピック:
 
 - [Bottom Navigation](bottom-nav.md)
 - [Card](card.md)
@@ -56,6 +49,6 @@ Related topics:
 - [Tabs](tabs.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

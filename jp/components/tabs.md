@@ -1,76 +1,69 @@
----
-title: Tabs - Design System Component
-_description: The Tabs Component Symbol is used to organize or switch between information.
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Tabs - デザイン システム コンポーネント
+_description: Tabs コンポーネント シンボルは、情報の体系化や切り替えに使用されます。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Tabs
 
-Use the Tabs Component to organize different views of the same information or switch between similar or related data sets. The Tabs is visually identical to the [Ignite UI for Angular Tabs Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/tabs.html)
+Tabs コンポーネント シンボルは、同じ情報を異なるビューに体系化や同様または関連のあるデータセット間の切り替えが可能です。Tab は、[Ignite UI for Angular Tabs コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/tabs.html)と視覚的に同じものです。
 
-### Tabs Demo
+### Tabs デモ
 
 ![](../images/tabs_demo.png)
 
-### Size
+### サイズ
 
-The Tabs come arranged in a bar and can be either tall, showing icons with text, or short, containing either text or icons but not both at the same time.
+バーに配置されたタブは、高さのあるテキストを使用したアイコン、または短いテキストまたはアイコンを含みますが同時に両方を含むことはありません。
 
 ![](../images/tabs_short.png)
 ![](../images/tabs_tall.png)
 
-### Responsive
+### レスポンシブ
 
-The Tabs can be **fixed** and can fill up the available horizontal space by adapting their width or fluid, where scrolling buttons are provided to scroll in larger numbers of tabs. This allows for the fitting of more content that could normally fit in the available space with the other mode.
+Tab は**固定**が可能で幅を変更して水平スペースを埋めることができます。フルードにも対応しており、通常より多くのコンテンツが収まり、スクロールボタンでより多くのタブを表示、スクロールできます。
 
 ![](../images/tabs_fixed.png)
 ![](../images/tabs_fluid.png)
 
-### Amount
+### 合計
 
-For the majority of scenarios, the Tabs need to contain between two and four tabs. If your case requires more than that, you may want to consider a fluid mode and represent only the tabs in view.
+多くのケースで Tabs に 2 項目 ～ 4 項目が必要になります。4 項目以上必要な場合、ビューでタブのみ表示するフルード モードを検討します。
 
 ![](../images/tabs_2.png)
 ![](../images/tabs_3.png)
 ![](../images/tabs_4.png)
 
-### Type
+### タイプ
 
-The short Tabs support **text** and icon content modes to decribe the item in each tab.
+短い Tabs は、各タブの項目を説明する**テキスト**とアイコンのコンテンツをサポートします。
 
 ![](../images/tabs_text.png)
 ![](../images/tabs_icons.png)
 
-### Styling
+### スタイル設定
 
-The Tabs provide basic styling capabilities achievable through changing the text and icon colors, the indicator color that marks the current selection, as well as the active/inactive background colors.
+Tabs は、テキストやアイコンの色、現在の選択をマークするインジケーターの色、アクティブ/インアクティブな背景色の変更が可能な基本的なスタイル設定が可能です。
 
 ![](../images/tabs_styling.png)
 
-## Usage
+## 使用方法
 
-The Tabs are appropriate for organizing information, and one should avoid using them as a way to design workflows and actions that come in a logical sequence, e.g. checkout process or configuration wizard. When using the short Tabs, never combine a text tab with an icon tab in the same bar. Choose one of the two content modes and use it consistently for all the items in the bar.
+Tab は情報の体系化に適しいますが、ワークフローのデザインやロジカルなシーケンスに基づいた操作には向いていません (チェックアウト プロセスや構成ウィザード) 。短い Tabs は、同じバーでテキスト タブとアイコンタブは組み合わすことはできません。2 つのコンテンツ モードのうち 1 つを選択してバーの常にすべての項目を使用します。
 
-| Do                          | Don't                         |
+| いい例                          | 悪い例                         |
 | --------------------------- | ----------------------------- |
 | ![](../images/tabs_do1.png) | ![](../images/tabs_dont1.png) |
 | ![](../images/tabs_do2.png) | ![](../images/tabs_dont2.png) |
 
-## Code generation
+## その他のリソース
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Tabs in your design is very likely to result in loss of code generation capability for the Tabs.
-
-`🕹️DataSource`
-`🕹️Event`
-
-## Additional Resources
-
-Related topics:
+関連トピック:
 
 - [Details](details.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

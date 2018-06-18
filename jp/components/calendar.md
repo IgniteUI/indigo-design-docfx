@@ -1,78 +1,72 @@
----
-title: Calendar - Design System Component
-_description: The Calendar Component Symbol is used as a visual representation of a date providing the necessary mechanisms for date picking. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Calendar - デザイン システム コンポーネント
+_description: Calendar コンポーネントシンボルは、日付選択に必要なメカニズムを提供する日付のビジュアル表現として使用します。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Calendar
 
-Use the Calendar Component to visually represent a date and provide consistent means for its selection (date picking) through a combination of views for months and years. The Calendar is also appropriate for picking and setting a date in fields of this type used in various forms. The Calendar is visually identical to the [Ignite UI for Angular Calendar Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/calendar.html) & [Ignite UI for Angular Date Picker Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/date_picker.html)
+Calendar コンポーネントシンボルは、日付を視覚的に表して年と月のコンビネーション表示で統一した選択 (日付選択) の手段をユーザーに提供します。Calendar は、さまざまなフォームで使用されるこのタイプのフィールドの日付を選択して設定する場合に適しています。Calendar は、[Ignite UI for Angular Calendar コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/calendar.html)および [Ignite UI for Angular Date Picker コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/date_picker.html)と視覚的に同じものです。
 
-### Calendar Demo
+### Calendar デモ
 
 ![](../images/calendar_demo.png)
 
-### Layout
+### レイアウト
 
-The Calendar supports horizontal and vertical date picking modes, as well as a base calendar rendering for a simplified display and browsing. The former two are mostly used as dialogs, while the latter is preferably inline with other content.
+Calendar は、水平方向および垂直方向の日付選択モードをサポートします。基本のカレンダーはシンプルな表示とブラウジングを提供します。上記 2 つのコンポーネントはダイアログに使用しますが 2 つ目は他のコンテンツでインラインすることをお勧めします。
 
 ![](../images/calendar_horizontal.png)
 ![](../images/calendar_vertical.png)
 ![](../images/calendar_base.png)
 
-### Buttons
+### ボタン
 
-The Calendar comes with two buttons: one for canceling the selection, which would discard any changes made to original date, and one for navigating to today's date. Upon setting both to none through the overrides, a button-less layout can be achieved.
+Calendar には 2 つのボタンがあります。1 つは選択されていた日付の変更を破棄するボタン、もう 1 つは今日に移動するためのボタンです。 Overrides で両方を none に設定してボタンレスのレイアウトを実現できます。
 
 ![](../images/calendar_buttons.png)
 ![](../images/calendar_nobuttons.png)
 
-### Content
+### コンテンツ
 
-The Calendar supports picking for all three major date portions: the year, the month, and the day. Three content modes are provided, each responsible for the picking of its respective date portion.
+Calendar では 3 つの主な日付部分 (年、月、日) の選択が可能です。コンテンツ モードが 3 つあり、各モードはそれぞれの日付部分を処理します。
 
 ![](../images/calendar_days.png)
 ![](../images/calendar_months.png)
 ![](../images/calendar_years.png)
 
-### Week Start
+### 週の初め
 
-The start of the week is configurable by selecting between the two most common scenarios for the first day: Sunday or Monday.
+週の初めは、最も一般的なシナリオ (日曜日または月曜日) から選択します。
 
 ![](../images/calendar_sun.png)
 ![](../images/calendar_mon.png)
 
-### Styling
+### スタイル設定
 
-The Calendar comes with styling flexibility through the various overrides controlling header background, title colors, and content month and year picker items, as well as text and background colors for the selected day, month, or year. These are applicable according to the configurations. The Cancel and Today buttons are [Flat Buttons](button.md) and can be styled accordingly.
+Calendar は、柔軟なスタイル設定が可能でさまざまなオーバーライドによりヘッダー背景、タイトル色、コンテンツの年月、年選択項目、選択した年/月/日のテキストや背景色を制御できます。Cancel と Today のボタンは、[Flat Buttons](button.md) で状況に応じたスタイル設定が可能です。
 
 ![](../images/calendar_styling.png)
 
-## Usage
+## 使用方法
 
-Show the horizontal and vertical Calendars as a dialog that dims the rest of the UI. Inline the base Calendar with the rest of the UI without any special additional visual effects.
+水平と垂直のカレンダーをダイアログで表示し、ダイアログ以外の UI は暗くなります。
+特別なビジュアル効果を追加せずに基本の Calendar を残りの UI とインライン表示します。
 
-| Do                              | Don't                             |
+| いい例                              | 悪い例                             |
 | ------------------------------- | --------------------------------- |
 | ![](../images/calendar_do1.png) | ![](../images/calendar_dont1.png) |
 | ![](../images/calendar_do2.png) | ![](../images/calendar_dont2.png) |
 
-## Code generation
+## その他のリソース
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Calendar in your design is very likely to result in loss of code generation capability for the Calendar.
-
-`🕹️DataSource`
-`🕹️Event`
-
-## Additional Resources
-
-Related topics:
+関連トピック:
 
 - [Time Picker](time-picker.md)
 - [Form Pattern](forms.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

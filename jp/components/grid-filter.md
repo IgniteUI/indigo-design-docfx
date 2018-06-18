@@ -1,40 +1,40 @@
+﻿---
+title: Grid フィルター - グリッド機能
+_description: Grid フィルター コンポーネント シンボルは、Grid 行でフィルタリング条件を指定するダイアログがあります。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, Grid 機能, UI ライブラリ, ウィジェット
+_language: ja
 ---
-title: Grid Filter - Grid Feature
-_description: The Grid Filter Component Symbol provides a dialog for specifying filtering criteria on a Grid column.
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, Grid Feature, UI Library, Widgets
----
 
-## Grid Filter
+## Grid フィルター
+Grid フィルター コンポーネントは、Grid 列でユーザーがフィルタリング条件を指定できます。一度に 1 列にのみ Grid フィルターを示し、ヘッダーのフィルター状態はアクティブに設定する必要があります (以下のフィルター状態を参照)。Grid フィルター機能は、[Ignite UI for Angular Grid　フィルター機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid_filtering.html)と視覚的に同じものです。
 
-Use the Grid Filter Component to let the user specify filtering criteria on a Grid column. Only one column at a time may show the Grid Filter, and its Header Filter State must be set to active (see Filter State below). The Grid Filter is visually identical to the dialog used for the [Ignite UI for Angular Grid Filtering Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid_filtering.html)
-
-### Grid Filter Demo
+### Grid フィルター デモ
 
 ![](../images/grid_filter_demo.png)
 
-### Filter State
+### フィルター状態
 
-The Grid Filter State found in the Header Cell provides choice between the three states of interaction with filtering: **inactive** state indicating the possibility to apply filtering on the column, active state for when the a dialog is visible to allow defining of the filtering criteria, and filtered state to indicate that a filter has been applied once the dialog is no longer visible.
+ヘッダー セルの Grid フィルター状態は、フィルタリングのインタラクションで選択できる 3 つの状態があります。**インアクティブ**状態は列でフィルタリングを適用可能であることを示します。アクティブ状態はフィルタリング条件を定義できるダイアログが表示されています。フィルター済み状態は、ダイアログが非表示になった後にフィルターが適用された状態を示します。
 
 ![](../images/grid_filter_state_inactive.png)
 ![](../images/grid_filter_state_active.png)
 ![](../images/grid_filter_state_filtered.png)
 
-### Styling
+### スタイル設定
 
-The Grid Filter State found in the Header Cell comes with styling flexibility through various overrides for the icon and active background colors. The Grid Filter dialog comes with styling flexibility through the various overrides for the dialog background color, as well as the available styling for the [Inputs](input.md) and [Flat Buttons](button.md) used.
+ヘッダー セルの Grid フィルター状態は、さまざまなオーバーライドでアイコンやアクティブな背景色などスタイル設定に柔軟性があります。Grid フィルター ダイアログは、さまざまなオーバーライドでダイアログの背景色などのスタイル設定に柔軟性があり、[Inputs](input.md) や [Flat Buttons](button.md) のスタイル設定も可能です。
 
 ![](../images/grid_filter_styling.png)
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Button](button.md)
 - [Grid](grid.md)
 - [Input](input.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

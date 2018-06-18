@@ -1,67 +1,68 @@
----
-title: Badge - Design System Component
-_description: The Badge Component Symbol is a small complimentary element that gives a subtle hint for additional information available. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Badge - デザイン システム コンポーネント
+_description: Badge コンポーネント シンボルは、追加情報のヒントを提供するコンプリメンタリ要素です。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Badge
 
-Use the Badge Component Symbol to draw attention to another interface element or to display a notification. It enhances the component to which it is attached with additional information, disclosed to the user upon iteracting with it. The Badge is visually identical to the [Ignite UI for Angular Badge Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/badge.html)
+Badge コンポーネント シンボルを使用して他のインターフェイス要素や通知を表示するために注意を促します。コンポーネントに対するインタラクションに応じてユーザーに追加情報を公開することにより  UX を向上できます。Badge は、[Ignite UI for Angular Badge コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/badge.html)と視覚的に同じものです。
 
-### Badge Demo
+### Badge デモ
 
 ![](../images/badge_demo.png)
 
-### Shape
+### 図形
 
-The Badge comes in two distinct shapes: round and square.
+Badge には、円形と四角形の 2 つの異なる図形があります。
 
 ![](../images/badge_shapes.png)
 
-### Type
+### タイプ
 
-The Badge can carry different types of content such as a **number** or an icon.
+Badge は、**数字**やアイコンなど、さまざまなタイプのコンテンツを使用できます。
 
 ![](../images/badge_type.png)
 
-### Styling
+### スタイル設定
 
-The Badge comes with styling flexibility through the various overrides controlling the background and border colors, as well as the presence of a shadow that is cast on the underlying interface element.
+Badge は、さまざまなオーバーライドで背景、境界線の色、元になるインターフェイス要素でキャストされた影の表示の制御などスタイル設定に柔軟性があります。
 
 ![](../images/badge_styling.png)
 
-## Usage
+## 使用方法
 
-Use the Badge to "stamp" another piece of UI, such as an Avatar or a text title and avoid using the Badge on its own.
+Badge を使用して Avatar やテキスト タイトルなどのその他の UI 部分に印を付けます。Badge をそれ自体には使用しないでください。
 
-| Do                           | Don't                          |
+| いい例                           | 悪い例                         |
 | ---------------------------- | ------------------------------ |
 | ![](../images/badge_do1.png) | ![](../images/badge_dont1.png) |
 
-## Code generation
+## コードの生成
 
-When colors or fonts are specified for the Badge, the Badge HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
+Badge に色を指定した場合、Badge HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
 
 > [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Badge in your design is very likely to result in loss of code generation capability for the Badge.
+> デザインの Badge のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Badge のためのコード生成機能が失われる結果となります。
 
-### Data Property Binding
+### データ プロパティ バインディング
 
-When supplied, the `🕹️DataProperty` binding can be non-nested or nested. This property data binds the Badge’s value. The value specifies the text displayed in the badge. When the type of the Badge is set to Icon the `🕹️DataProperty` is ignored.
+提供された場合、`🕹️DataProperty` バインドはネストあり/なしが可能です。このプロパティは Badge 値をデータ バインドします。値はバッジに表示されるテキストを指定します。Badge のタイプを Icon に設定した場合、`🕹️DataProperty` は無視されます。 
 
-If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。例:
 
-#### Example Not Nested
+#### 例: ネストなし
 
 ```PseudoCode
 Customer {
 userRank: number;
 }
 
-DataProperty would be: {userRank}
+DataProperty: {userRank}
 ```
 
-#### Example Nested
+#### 例: ネストあり
 
 ```PseudoCode
 Profile {
@@ -72,20 +73,20 @@ Customer {
 profile: Profile;
 }
 
-DataProperty would be: {profile.userRank}
+DataProperty: {profile.userRank}
 ```
 
-### Event Property
+### Event プロパティ
 
-When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an Angular click signature in the HTML.
+`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用されて HTML に Angular クリック シグネチャーを追加します。
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Avatar + Badge](avatar+badge.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

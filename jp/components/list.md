@@ -1,58 +1,59 @@
----
-title: List - Design System Component
-_description: The List Component Symbol provides means to browse and interact with a vertical collection of rows of data.
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: List - デザイン システム コンポーネント
+_description: List コンポーネント シンボルは、データ行の垂直コレクションをブラウスおよびインタラクションする方法を提供します。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## List
 
-Use the List Component to let the user browse and interact with a continuous, vertical collection of templatable items containing text, icons, and images, as well as components such as buttons and avatars among others. The List is visually identical to the [Ignite UI for Angular List Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/list.html)
+List コンポーネント シンボルは、ユーザーのブラウジングやテキスト、アイコン、画像、ボタンやアバターなどのコンポーネントを含むテンプレート項目の一連の垂直コレクションとのインタラクションを可能にします。List は、[Ignite UI for Angular List コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/list.html)と視覚的に同じものです。
 
-### List Demo
+### List デモ
 
 ![](../images/list_demo.png)
 
-### Detach from Symbol
+### シンボルからデタッチ
 
-The List is essentially a repeater of rows showing data as an indexed vertical collection of items. Therefore, the easiest way to use it is by dragging a `Generic List` to your artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared _List/Generic List_ group, you should see the following:
+List は、本来インデックス付きの垂直コレクションとしてデータを表示する行のリピーターです。従って `Generic List` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下にある`シンボルからデタッチ` オプションを選択します。I新しく表示される `List/Generic List` グループの下のレイヤー パネルには以下があります。
 
 > [!INFO]
-> | Layer | Use |
+> | レイヤー | 使用 |
 > | ----------------------------- | ------------------------------- |
-> | 🚫 igx-list | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-> | List Header | An instance of a list header item |
-> | 1 Item | An instance of a two-line list item |
-> | 2 Item | An instance of a two-line list item |
-> | 🌈 Background | Defines the background color of the list |
-> | 🕹️Data | Used by code generation for data binding |
+> | 🚫 igx-list | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
+> | List Header | リスト ヘッダー項目のインスタンス |
+> | 1 Item | 2 行リスト項目のインスタンス |
+> | 2 Item | 2 行リスト項目のインスタンス |
+> | 🌈 Background | リストの背景色を定義 |
+> | 🕹️Data | データ バインドのコード生成で使用されます。 |
 
-After detaching, you may insert additional headers or items either from the Sketch menu or simply by duplicating an existing symbol. Always place items and headers one after another with consistent horizontal width and alignment, making sure there are no vertical gaps between the items.
+デタッチ後に Sketch メニューから追加でヘッダーまたは項目を挿入、または既存のシンボルを複製します。常に項目とヘッダーを同じ水平幅と配置で次々に配置し、項目間に垂直のギャップがないようにします。
 
-### List Item Type
+### List 項目のタイプ
 
-The List Item comes in three preset Types: Header for defining the headings of groups, One-line for shorter items with only one line of text, and Two-line for taller items supporting primary and secondary text.
+List 項目には 3 つのプリセット タイプがあります。グループの見出しを定義する Header、1 行のテキストを含む短い項目の One-line、プライマリおよびセカンダリ テキストをサポートするより高さのある項目の Two-line。
 
 ![](../images/list_item_header.png)
 ![](../images/list_item_one-line.png)
 ![](../images/list_item_two-line.png)
 
-### List Item State
+### List 項目の状態
 
-The One-line and Two-line List Items support the following interactive states: **inactive** for the normal state and active for the selected state. The Header List Item is not selectable so it provides no support for such States.
+One-line および Two-line List 項目は**インアクティブ**状態 (標準状態のインアクティブと選択状態のアクティブ) をサポートします。Header List 項目は選択できないため、そのような States はサポートしません。
 
 ![](../images/list_item_inactive.png)
 ![](../images/list_item_active.png)
 
-### List Item Areas
+### List 項目の領域
 
-The List Item has two distinct areas: Primary Action with non-interactive content is laid out such as Avatar and text, and Secondary Action with quick actions related to the List Item. Any combination of a Primary and Secondary action forms a valid list item template that should be used consistently across the items of the List.
+List 項目は、2 つの異なる領域があります。Primary Action は、非インタラクティブなコンテンツで Avatar やテキストなどをレイアウトします。Secondary Action には List 項目に関連するクイック アクションがあります。Primary と Secondary 操作は有効なリスト項目テンプレートを形成し、常に List 項目全体で使用されます。
 
 ![](../images/list_item_primary.png)
 ![](../images/list_item_secondary.png)
 
-### List Item Primary Action
+### List 項目プライマリ アクション
 
-There are numerous interchangable List Item Primary Actions that are listed below.
+以下は置き換え可能な List 項目プライマリ アクションです。
 
 |                              |                                        |
 | ---------------------------- | -------------------------------------- |
@@ -67,9 +68,9 @@ There are numerous interchangable List Item Primary Actions that are listed belo
 | Label + Description          | ![](../images/list_item_primary9.png)  |
 | Label + Progress             | ![](../images/list_item_primary10.png) |
 
-### List Item Secondary Action
+### List 項目セコンダリ アクション
 
-There are also many interchangable List Item Secondary Actions that are listed below.
+以下は置き換え可能な List 項目セコンダリ アクションです。
 
 |                  |                                         |
 | ---------------- | --------------------------------------- |
@@ -81,30 +82,25 @@ There are also many interchangable List Item Secondary Actions that are listed b
 | Toggle           | ![](../images/list_item_secondary6.png) |
 | Two-line Numbers | ![](../images/list_item_secondary7.png) |
 
-### Styling
+### スタイル設定
 
-The List comes with styling flexibility through the overrides available for background color and the different elements used in the List Items, such as icons and text, as well as components like Avatar, Badge, Checkbox, Icon, Progress, Switch, etc. with their own styling capabilities.
+List は、さまざまなオーバーライドで背景色、アイコン、テキストなどの List 項目に使用するさまざまな要素、Avatar、Badge、Chechbox、Icon、Progress、Switch などのコンポーネントなどスタイル設定に柔軟性があります。
 
 ![](../images/list_styling.png)
 
-## Usage
+## 使用方法
 
-The List and List Items have their own design specifics, but most importantly, one should always remember that the List is a collection of similar items usually following a common template. Therefore, avoid combining multiple templates within the same list. Also, avoid hiding elements, and instead provide placeholders or empty elements if certain type of content is missing. Last but not least, pay special attention to the alignment of the elements constituting the template, as they must be able to form perceived vertical continuity.
+List および List 項目には固有のデザインがありますが、List は同様の項目のコレクションで、通常以下の共通テンプレートを使用します。従って同じリスト内で複数のテンプレートを組み合わせないようにします。要素を非表示にせずに、特定のコンテンツ タイプがない場合にプレースホルダーまたは空要素を表示します。テンプレートを構成する要素は垂直方向に継続的に形成する必要があるため、配置に注意が必要です。
 
-| Do                          | Don't                         |
+| いい例                          | 悪い例                         |
 | --------------------------- | ----------------------------- |
 | ![](../images/list_do1.png) | ![](../images/list_dont1.png) |
 | ![](../images/list_do2.png) | ![](../images/list_dont2.png) |
 | ![](../images/list_do3.png) | ![](../images/list_dont3.png) |
 
-## Code generation
+## その他のリソース
 
-`🕹️DataSource`
-`🕹️Event`
-
-## Additional Resources
-
-Related topics:
+関連トピック:
 
 - [Avatar](avatar.md)
 - [Badge](badge.md)
@@ -115,6 +111,6 @@ Related topics:
 - [Lists Pattern](lists.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

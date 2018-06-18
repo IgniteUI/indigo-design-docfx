@@ -1,60 +1,61 @@
----
-title: Hyperlink - Design System Component
-_description: The Hyperlink Component Symbol is used to allow the user follow a reference in a text paragraph. 
-_keywords: Design System, Sketch, Component, UI Library, Widgets
+﻿---
+title: Hyperlink - デザイン システム コンポーネント
+_description: Hyperlink コンポーネント シンボルは、テキスト段落で参照を使用できます。
+_keywords: デザイン システム, Sketch, コンポーネント, UI Library, ウィジェット
+_language: ja
 ---
 
 ## Hyperlink
 
-Use the Hyperlink Component to allow the user access additional information related to a styled piece of text in a paragraph like the mentioning of the Terms of Use or the Privacy Policy in a form.
+Hyperlink コンポーネント シンボルは、利用規約やプライバシー ポリシーなど段落のテキスト部分のスタイルに関する追加情報へのアクセスを提供します。
 
-### Hyperlink Demo
+### Hyperlink デモ
 
 ![](../images/hyperlink_demo.png)
 
-### Size
+### サイズ
 
-The Hyperlink comes in two different sizes matching the available sizes for paragraph text: a 16pt Body 1 and a 14pt Body 2.
+Hyperlink には段落のテキストに合わせて 2 サイズ (16pt Body 1 と 14pt Body 2) あります。
 
 ![](../images/hyperlink_sizes.png)
 
-### Styling
+### スタイル設定
 
-The Hyperlink can be styled through the Styling library by changing its default blue color to another one.
+Hyperlink は、デフォルトの青色と他の色に変更してスタイル ライブラリでスタイル設定できます。
 
 ![](../images/calendar_styling.png)
 
-## Usage
+## 使用方法
 
-Always choose a Hyperlink text color that makes it stand out in a paragraph. Avoid using the same color or similar nuances of it and pick a consistent color across your complete design.
+Hyperlink テキスト色には段落で目立つ色を選択します。同じ色や似たような色を使用しないようにして、全体的にデザインの色を統一します。
 
-| Do                               | Don't                              |
+| いい例                               | 悪い例                              |
 | -------------------------------- | ---------------------------------- |
 | ![](../images/hyperlink_do1.png) | ![](../images/hyperlink_dont1.png) |
 
-## Code generation
+## コードの生成
 
-When colors or fonts are specified for the Hyperlink, they are applied directly to a CSS class that is applied to the hyperlink element.
+ハイパーリンクに色やフォントを指定した場合、ハイパーリンク要素に適用される CSS クラスに直接適用されます。
 
 > [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Hyperlink in your design is very likely to result in loss of code generation capability for the Hyperlink.
+> デザインの Hyperlink のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Hyperlink のためのコード生成機能が失われます。
 
 ### LinkURL
 
-When supplied, the LinkURL binding can be non-nested or nested. This property data binds the Hyperlink’s href. The href specifies the link to navigate to when the Hyperlink is clicked.
-If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+LinkURL バインドはネストあり/なしが可能です。このプロパティは Hyperlink の href をデータ バインドします。href は、Hyperlink をクリックしたときに移動するためのリンクを指定します。
+プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。例:
 
-#### Example Not Nested
+#### 例: ネストなし
 
 ```PseudoCode
 Customer {
 url: string;
 }
 
-LinkURL would be: {url}
+LinkURL: {url}
 ```
 
-#### Example Nested
+#### 例: ネストあり
 
 ```PseudoCode
 Profile {
@@ -65,24 +66,24 @@ Customer {
 profile: Profile;
 }
 
-LinkURL would be: {profile.url}
+LinkURL: {profile.url}
 ```
 
-### Text
+### テキスト
 
-When supplied the Text property is used to fill in the text to display for the Hyperlink.
+Text プロパティは Hyperlink に表示するテキストを埋めるために使用されます。
 
-### Event Property
+### Event プロパティ
 
-When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an Angular click signature in the HTML.
+`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用されて HTML に Angular クリック シグネチャーを追加します。
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Form Pattern](forms.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

@@ -1,69 +1,62 @@
----
-title: Time Picker - Design System Component
-_description: The Time Picker Component Symbol is used as a visual representation of time providing the necessary mechanisms for time picking. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Time Picker - デザイン システム コンポーネント
+_description: Time Picker コンポーネント シンボルは、時間選択に必要なメカニズムを提供する時間のビジュアル表現として使用します。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Time Picker
 
-Use the Time Picker Component to represent a date's time portion (hours and minutes) visually and provide consistent means for its selection (time picking). The Time Picker is also appropriate for picking and setting time values in accordingly formatted date fields used in various forms. The Time Picker is visually identical to the [Ignite UI for Angular Time Picker Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/time_picker.html)
+Time Picker コンポーネント シンボルは、日付の時間部分 (時と分) を視覚的に表し、統一した選択手段を提供します。Time Picker は、さまざまなフォームで使用されるこのタイプのフィールドの日付を選択して設定する場合に適しています。Time Picker は、[Ignite UI for Angular Time Picker コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/time_picker.html)と視覚的に同じものです。
 
-### Time Picker Demo
+### Time Picker デモ
 
 ![](../images/timepicker_demo.png)
 
-### Layout
+### レイアウト
 
-The Time Picker supports Horizontal and Vertical time picking modes.
+Time Picker は、水平/垂直の方向の時間選択モードをサポートします。
 
 ![](../images/timepicker_horizontal.png)
 ![](../images/timepicker_vertical.png)
 
-### Buttons
+### ボタン
 
-The Time Picker comes with two buttons: one for canceling the selection, which would revert the time to the original one, and one for confirming the selection, which would save the changes made. Upon setting both to none through the Overrides, a buttonless layout can be achieved.
+Time Picker の 2 つのボタンは、時間を元の時間に戻す選択のキャンセル、変更を保存するための選択の確認に使用します。Overrides で両方を none に設定してボタンレスのレイアウトを実現できます。
 
 ![](../images/timepicker_buttons.png)
 ![](../images/timepicker_nobuttons.png)
 
-### Content
+### コンテンツ
 
-The Time Picker supports both 12 and 24 hour formats through two distinct content modes. Besides the hour and minute portion, the 12-hour content mode provides a meridiem portion, where selection between AM and PM is possible.
+Time Picker は、2 種類のコンテンツ モードで 12 時間と 24 時間をサポートします。時間と分の部分の他に 12 時間コンテンツ モードで AM と PM を選択できます。
 
 ![](../images/timepicker_12.png)
 ![](../images/timepicker_24.png)
 
-### Styling
+### スタイル設定
 
-The Time Picker comes with styling flexibility through the various overrides controlling header background and title colors, as well as text colors for the selected hour, minute, and meridiem (AM/PM). The Cancel and OK buttons are Flat Buttons and can be styled accordingly.
+Time Picker は、さまざまなオーバーライドでヘッダー背景、タイトル色、選択した時間、分、AM/PM のテキストの色の制御などスタイル設定に柔軟性があります。Cancel と OK のボタンは、Flat Buttons で状況に応じたスタイル設定が可能です。
 
 ![](../images/timepicker_styling.png)
 
-## Usage
+## 使用方法
 
-Show the Horizontal and Vertical Time Pickers as a dialog that dims the rest of the UI.
+水平と垂直の時間選択をダイアログで表示し、ダイアログ以外の UI は暗くなります。
 
-| Do                                | Don't                               |
+| いい例                                | 悪い例                               |
 | --------------------------------- | ----------------------------------- |
 | ![](../images/timepicker_do1.png) | ![](../images/timepicker_dont1.png) |
 | ![](../images/timepicker_do2.png) | ![](../images/timepicker_dont2.png) |
 
-## Code generation
+## その他のリソース
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Time Picker in your design is very likely to result in loss of code generation capability for the Time Picker.
-
-`🕹️DataSource`
-`🕹️Event`
-
-## Additional Resources
-
-Related topics:
+関連トピック:
 
 - [Calendar](calendar.md)
 - [Form Pattern](forms.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

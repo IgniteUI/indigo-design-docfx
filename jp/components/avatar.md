@@ -1,75 +1,76 @@
----
-title: Avatar - Design System Component
-_description: The Avatar Component Symbol is a graphical representation of personal information. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Avatar - デザイン システム コンポーネント
+_description: Avatar コンポーネント シンボルは、個人情報を画像で表します。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Avatar
 
-Use the Avatar Component as a graphical representation of a person through a profile picture or image, an icon, or a string with initials. The Avatar is visually identical to the [Ignite UI for Angular Avatar Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/avatar.html)
+Avatar コンポーネント シンボルは、プロフィール写真、アイコン、イニシャル (文字列) で人をグラフィックで表現するために使用します。Avatar は、 [Ignite UI for Angular Avatar コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/avatar.html)と視覚的に同じものです。
 
-### Avatar Demo
+### Avatar デモ
 
 ![](../images/avatar_demo.png)
 
-### Size
+### サイズ
 
-The Avatar comes in three different sizes:
+Avatar のサイズは 3 つあります。
 
-- Large - Suitable for profile pages
-- Medium - Appropriate for custom menus and visualizations
-- Small - Easily embedded in a contact list and similar repetitive scenarios
+- ラージ - プロフィール ページに適しています。
+- ミディアム - カスタム メニューや可視化に適しています。
+- スモール - コンタクト リストや繰り返しのシナリオに簡単に組み込めます。
 
 ![](../images/avatar_sizes.png)
 
-### Type
+### タイプ
 
-The Avatar can carry different types of content such as an **image**, a string with initials, or an icon.
+Avatar は、**画像**、イニシャルの文字列、アイコンなど、さまざまなタイプのコンテンツを使用できます。
 
 ![](../images/avatar_content.png)
 
-The avatar comes in two distinct types determined by its shape: a **round** and a square form.
+アバターは、**円形**と四角形の異なる 2 つの図形があります。
 
 ![](../images/avatar_type.png)
 
-### Styling
+### スタイル設定
 
-The Avatar comes with styling flexibility through the various overrides controlling the background color, as well as initials and icon colors, where applicable.
+Avatar は、さまざまなオーバーライドで背景色、イニシャルやアイコン色を制御することにより柔軟にスタイル設定できます。
 
 ![](../images/avatar_styling.png)
 
-## Usage
+## 使用方法
 
-When using an Avatar with initials or icons, pick their colors carefully to assure good contrast with the Avatar background color. Avoid colors with poor contrast like similar shades of the same color or combinations that create chromatic aberrations.
+Avatar でイニシャルやアイコンを使用する場合に Avatar 背景色とのコントラストの高い色を選択します。同色の同様の色合いや色収差を生じる組み合わせなど、コントラストの低い色は避けるようにします。
 
-| Do                            | Don't                           |
+| いい例                            | 悪い例                           |
 | ----------------------------- | ------------------------------- |
 | ![](../images/avatar_do1.png) | ![](../images/avatar_dont1.png) |
 
-## Code generation
+## コードの生成
 
-When colors are specified for the Avatar, the Avatar HTML element will be wrapped in div. This is required by browsers to style a nested component (a component within another component).
+Avatar の色を指定した場合、Avatar HTML 要素は div でラップされます。これはネスト コンポーネント (他のコンポーネント内のコンポーネント) をスタイル設定する際にブラウザーによって要求されます。
 
 > [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Avatar in your design is very likely to result in loss of code generation capability for the Avatar.
+> デザインの Avatar のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Avatar のためのコード生成機能が失われます。
 
-### Data Property Binding
+### データ プロパティ バインディング
 
-When supplied, the `🕹️DataProperty` binding can be non-nested or nested.
+提供された場合、`🕹️DataProperty` バインドはネストあり/なしが可能です。
 
-If the property is a nest property, include the nested property chain, but don’t include the model object name. Examples:
+プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。例:
 
-#### Example Not Nested
+#### 例: ネストなし
 
 ```PseudoCode
 Customer {
   imageName: String;
 }
 
-DataProperty would be: {imageName}
+DataProperty: {imageName}
 ```
 
-#### Example Nested
+#### 例: ネストあり
 
 ```PseudoCode
 Profile {
@@ -80,22 +81,21 @@ Customer {
   profile: Profile;
 }
 
-DataProperty would be: {profile.imageName}
+DataProperty: {profile.imageName}
 ```
 
-### Event Property
+### Event プロパティ
 
-When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an Angular click signature in the HTML.
+`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用されて HTML に Angular クリック シグネチャーを追加します。
 
-|                 |                                                                                                                                                                                                                                         |
-| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Picture Avatar  | `🕹️DataProperty` – when supplied, this property can be used to data bind the image source. When provided, it will be the name of the property on the data object specified by the model object name provided in the generation request. |
-| Icon Avatar     | `🕹️DataProperty` – this property is ignored.                                                                                                                                                                                            |
-| Initials Avatar | `🕹️DataProperty` – when supplied, this property is used to databind the initials property.                                                                                                                                              |
+| --------------- | ---------------- |
+| 写真アバター  | `🕹️DataProperty` – このプロパティは、画像ソースにデータ バインドするために使用できます。提供された場合、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名になります。 |
+| アイコン アバター     | `🕹️DataProperty` – このプロパティは無視されます。 |
+| イニシャル アバター | `🕹️DataProperty` – このプロパティは初期プロパティのバインドに使用します。 |
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Avatar + Badge](avatar+badge.md)
 - [Cards](cards.md)
@@ -103,6 +103,6 @@ Related topics:
 - [User Profile](userProfile.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

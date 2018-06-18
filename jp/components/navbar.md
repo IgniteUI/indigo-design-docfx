@@ -1,65 +1,58 @@
----
-title: Navbar - Design System Component
-_description: The Navbar Component Symbol is used to inform the user of his current position in the application and provide a mechanism for simple navigation. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Navbar - デザイン システム コンポーネント
+_description: Navbar コンポーネント シンボルは、アプリケーション内のユーザーの現在の位置を通知してシンプルなナビゲーション メカニズムを提供します。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Navbar
 
-Use the Navbar Component to provide clarity for the user about current position in the application and to implement application-level navigation. It is always situated at the top of the screen. The Navbar is visually identical to the [Ignite UI for Angular Navbar Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/navbar.html)
+Navbar コンポーネント シンボルは、アプリケーションでユーザーの現在の位置を明確にし、アプリケーション レベルのナビゲーションを向上します。常に画面の上に配置されます。Navbar は、[Ignite UI for Angular Navbar コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/navbar.html)と視覚的に同じものです。
 
-### Navbar Demo
+### Navbar デモ
 
 ![](../images/navbar_demo.png)
 
-### Type
+### タイプ
 
-The Navbar offers three layout configurations defined by the following types: **icon action and title**, text action and title, and title.
+Navbar は、3 つのレイアウト構成があり、**アイコン アクションとタイトル**、テキスト アクションとタイトル、タイトルのみで定義されます。
 
 ![](../images/navbar_lefticon.png)
 ![](../images/navbar_lefttext.png)
 ![](../images/navbar_noleft.png)
 
-### Action Icons
+### アクション アイコン
 
-Every Navbar can support up to four action icons, rendered right to left, starting from the right edge of the screen that can trigger different simple events.
+各 Navbar は、画面右端から左へ描画されるシンプルなイベントをトリガーする操作アイコンを 4 アイコンまでサポートします。
 
 ![](../images/navbar_icon1.png)
 ![](../images/navbar_icon2.png)
 ![](../images/navbar_icon3.png)
 ![](../images/navbar_icon4.png)
 
-### Styling
+### スタイル設定
 
-The Navbar comes with basic styling capabilities achievable through changing the title, icon, and background colors.
+Navbar には、タイトル、アイコン、背景色を変更する基本的なスタイル設定機能があります。
 
 ![](../images/navbar_styling.png)
 
-## Usage
+## 使用方法
 
-Navbar actions should be carefully used to avoid situations where they overlap with the title. This can be avoided by using a single more icon that triggers the appearance of a simple menu. If a more icon is specified within the actions, aggregate all actions you would normally place in the Navbar under it and avoid placing any standalone actions in the Navbar.
+Navbar 操作は、タイトルと重ならないようにシンプル メニューの表示をトリガーするアイコンを使用します。操作で他のアイコンを指定した場合、Navbar に通常配置するすべての操作をその下に統合し、 Navbar にスタンドアロンの操作を配置しないようにします。
 
-| Do                            | Don't                           |
+| いい例                            | 悪い例                           |
 | ----------------------------- | ------------------------------- |
 | ![](../images/navbar_do1.png) | ![](../images/navbar_dont1.png) |
 | ![](../images/navbar_do2.png) | ![](../images/navbar_dont2.png) |
 
-## Code generation
+## その他のリソース
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Navbar in your design is very likely to result in loss of code generation capability for the Navbar.
-
-`🕹️DataSource`
-`🕹️Event`
-
-## Additional Resources
-
-Related topics:
+関連トピック:
 
 - [Icon](icon.md)
 - [Navigation Drawer](bottom-nav.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

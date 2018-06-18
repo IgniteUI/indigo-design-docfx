@@ -1,62 +1,63 @@
----
-title: Dialog - Design System Component
-_description: The Dialog Component Symbol is used to show a message or alert to the user in a modal fashion. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Dialog - デザイン システム コンポーネント
+_description: Dialog コンポーネント シンボルは、メッセージや警告をモーダル形式でユーザーに表示します。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Dialog
 
-Use the Dialog Component to show a message or alert to the user, allowing him to take action accordingly or to present a form that requires immediate action before proceeding, such as a login. The Dialog is displayed modally, meaning that the user has to complete or close it before moving on. The Dialog is visually identical to the [Ignite UI for Angular Dialog Window Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/dialog.html)
+Dialog コンポーネント シンボルは、メッセージや警告をユーザーに表示、あるいはログインなど直ちに操作が必要なフォームを表示します。Dialog をモーダルに表示してユーザーが完了または閉じるまで次に進めないようにします。Dialog は、[Ignite UI for Angular Dialog Window コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/dialog.html)と視覚的に同じものです。
 
-### Dialog Demo
+### Dialog デモ
 
 ![](../images/dialog_demo.png)
 
-### Types
+### タイプ
 
-The Dialog can be used to show an alert with only a confirming button, a message with cancellation and confirmation, or as a container for action that needs immediate attention, such as a user logging into his account.
+Dialog 確認ボタンのみの警告を表示します。キャンセルや確認のメッセージ、あるいは直ちに対応が必要なユーザー ログインなどのコンテナーとして使用します。
 
 ![](../images/dialog_alert.png)
 ![](../images/dialog_standard.png)
 ![](../images/dialog_custom.png)
 
-### Styling
+### スタイル設定
 
-The Dialog comes with styling flexibility through the various overrides for its title and message, as well as the buttons at the bottom that individually styled as flat or raised with all the styling options that these two [Button](button.md) types provide.
+Dialog は、さまざまなオーバーライドでタイトルやメッセージ、2 種類の [Button](button.md) タイプで個別にスタイル設定したボタンを制御することにより柔軟にスタイル設定できます。
 
 ![](../images/dialog_styling.png)
 
-## Usage
+## 使用方法
 
-When designing a custom content Dialog, avoid placing buttons in the content section and use the existing dialog buttons for your actions instead.
+カスタム コンテンツ Dialog をデザインする場合、コンテンツ セクションに操作のためのボタンは配置せずに既存ダイアログ ボタンを使用します。
 
-| Do                            | Don't                           |
+| いい例                            | 悪い例                           |
 | ----------------------------- | ------------------------------- |
 | ![](../images/dialog_do1.png) | ![](../images/dialog_dont1.png) |
 
-## Code generation
+## コードの生成
 
-When colors or fonts are specified for the Dialog, the Dialog HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component). Currently changing of the button background color, button text style isn’t supported.
+Dialog の色を指定した場合、Dialog HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。ボタン背景色、ボタン テキスト スタイル、の変更はサポートされません。
 
 > [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Dialog in your design is very likely to result in loss of code generation capability for the Dialog.
+> デザインの Dialog のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Dialog のためのコード生成機能が失われる結果となります。
 
-### Text Binding
+### テキスト バインド
 
-There are Text properties for the Title, Message, Left Button, and Right Button. When supplied they can be bound to a nested or non-nested data item.
-If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+Title、Message、Left Button、および Right Button に Text プロパティがあります。ネストまたはネストなしのデータ項目にバインドできます。
+プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。例:
 
-#### Example Not Nested
+#### 例: ネストなし
 
 ```PseudoCode
 Customer {
 titleText: string;
 }
 
-Text would be: {titleText}
+Text: {titleText}
 ```
 
-#### Example Nested
+#### 例: ネストあり
 
 ```PseudoCode
 Profile {
@@ -67,23 +68,21 @@ Customer {
 profile: Profile;
 }
 
-Text would be: {profile. titleText }
+Text: {profile. titleText }
 ```
 
-### Buttons
+### ボタン
 
-There are Left and Right buttons which can be set Flat or Raised. Currently Text Style and Background on the Buttons are ignored.
+Flat または Raised に設定できる Left および Right ボタンがあります。ボタンの現在の Text Style と Background は無視されます。
 
-### Event
+### イベント
 
-There is no event property for this control for the user to set. However, the onLeftButtonSelect and onRightButtonSelect events are automatically outputted when the corresponding button is rendered.
+ユーザーが設定できるこのコントロールのイベント プロパティはありません。ただし、対応するボタンが描画されるときに `onLeftButtonSelect` と `onRightButtonSelect` イベントは自動的にアウトプットされます。
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+<div class="divider--half"></div>
 
-  <div class="divider--half"></div>
+コミュニティに参加して新しいアイデアをご提案ください。
 
-Our community is active and always welcoming to new ideas.
-
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

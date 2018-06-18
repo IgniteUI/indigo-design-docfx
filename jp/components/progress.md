@@ -1,33 +1,34 @@
----
-title: Progress - Design System Component
-_description: The Progress Component Symbol is used to provide a visual indication regarding the status, progress or completion of a task. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Progress - デザイン システム コンポーネント
+_description: Progress コンポーネント シンボルは、タスクの状態、進捗、完了をビジュアルで示すインジケーターです。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Progress
 
-Use the Progress Component to establish clarity and expectancy about the progression and completion of a task that takes longer to finish. The Progress component also works very well for scenarios where the completion of a larger workflow is dependent on the completion of a set of simpler and smaller tasks, such as order fulfillment or file upload/download. The Progress is visually identical to the [Ignite UI for Angular Linear Progress Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/linear_progress.html) & [Ignite UI for Angular Circular Progress Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/circular_progress.html)
+Progress コンポーネント シンボルは、タスクの進行状況について明確に示し、長くかかるタスクの完了予測を示します。Progress コンポーネントは、大きなワークフローの完了がよりシンプルで小さい一連のタスクの完了に依存している場合に適しています。Progress は、[Ignite UI for Angular Linear Progress コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/linear_progress.html)および [Ignite UI for Angular Circular Progress コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/circular_progress.html)と視覚的に同じものです。
 
-### Progress Demo
+### Progress デモ
 
 ![](../images/progress_demo.png)
 
-### Type
+### タイプ
 
-The Progress supports two layout types to fit the variety of use cases and layout requirements: a Circular Bar and a Linear Bar.
+Progress は、さまざまなユースケースやレイアウト要件に対応するための 2 つのレイアウト タイプ (Circular Bar および Linear Bar) をサポートします。
 
 ![](../images/progress_circular.png)
 ![](../images/progress_linear.png)
 
-### State
+### 状態
 
-The Progress can be used in one of the following preset color combinations:
+Progress は、以下のプリセット カラーの組み合わせの 1 つを使用できます。
 
 - **default**
-- success: utilizing the `success` theme color to show the progress
-- warn: utilizing the `warn` theme color to show the progress
-- error: utilizing the `error` theme color to show the progress
-- info: utilizing the `info` theme color to show the progress
+- success: `success` テーマ カラーを使用して進行状況を表示
+- warn: `warn` テーマ カラーを使用して進行状況を表示
+- error: `error` テーマ カラーを使用して進行状況を表示
+- info: `info` テーマ カラーを使用して進行状況を表示
 
 ![](../images/progress_default.png)
 ![](../images/progress_success.png)
@@ -35,47 +36,47 @@ The Progress can be used in one of the following preset color combinations:
 ![](../images/progress_error.png)
 ![](../images/progress_info.png)
 
-### Styling
+### スタイル設定
 
-The Progress comes with styling flexibility through the various overrides for its text, as well as changing the colors of stripes, fill, and track.
+Progress は、さまざまなオーバーライドでテキスト、ストリップ、塗りつぶし、トラックの色を制御することにより柔軟にスタイル設定できます。
 
 ![](../images/progress_striped.png)
 ![](../images/progress_clear.png)
 ![](../images/progress_twocolor.png)
 
-## Usage
+## 使用方法
 
-In a Circular Bar, always use the actual value for the text label and, when adding more elaborate text in a Linear Bar, provide your best estimate for the state of completion of the task in time/files left, rather than displaying a generic string to the user.
+Circular Bar は常にテキスト ラベルの実際の値を使用し、Linear Bar は一般的な文字列をユーザーに表示するのではなく、残りの時間とファイルに基づいてタスクの完了状況の正確な予測を提供します。
 
-| Do                              | Don't                             |
+| いい例                              | 悪い例                             |
 | ------------------------------- | --------------------------------- |
 | ![](../images/progress_do1.png) | ![](../images/progress_dont1.png) |
 | ![](../images/progress_do2.png) | ![](../images/progress_dont2.png) |
 
-## Code generation
+## コードの生成
 
-When colors or fonts are specified for the Progress, the Circular or Linear Bar HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
+Progress に色を指定した場合、Circular または Linear Bar 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
 
 > [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Circular or Linear Bar in your design is very likely to result in loss of code generation capability for the Circular or Linear Bar.
+> デザインの Circular または Linear Bar のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Circular または Linear Bar のためのコード生成機能が失われる結果となります。
 
-### Data Property Binding
+### データ プロパティ バインディング
 
-When supplied, the `🕹️DataProperty` binding can be non-nested or nested. This property data binds the Circular or Linear Bar’s progress value. The progress value specifies how much the progress is completed.
+提供された場合、`🕹️DataProperty` バインドはネストあり/なしが可能です。このプロパティ データは、Circular または Linear Bar の値をバインドします。進行状況の値は達成率を指定します。
 
-If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。例:
 
-#### Example Not Nested
+#### 例: ネストなし
 
 ```PseudoCode
 Customer {
 imageName: String;
 }
 
-DataProperty would be: {imageName}
+DataProperty: {imageName}
 ```
 
-#### Example Nested
+#### 例: ネストあり
 
 ```PseudoCode
 Profile {
@@ -86,38 +87,34 @@ Customer {
 profile: Profile;
 }
 
-DataProperty would be: {profile.imageName}
+DataProperty: {profile.imageName}
 ```
 
-### Linear Bar Text Style
+### リニアバー テキスト スタイル
 
-The Linear Bar Text Style is used to control the alignment and color of the text in the Linear Bar. If the Text Style is changed to ‘None’ then the text will be hidden in the Linear Bar. The generator will ignore the Bold option in the Text Style and will render the Linear Bar using the default font weight.
+リニア バー テキスト スタイルは、Linear Bar の配置とテキスト色の制御に使用します。Text Style を 'None' に変更した場合、テキストは Linear Bar で非表示になります。ジェネレーターは Text Style の Bold オプションを無視しますが、デフォルト フォント ウェイトを使用する Linear Bar を描画します。
 
-### Linear Bar Text
+### リニアバー テキスト
 
-The Linear Bar Text may contain binding and non-binding. Examples:
+リニア バー テキストは、バインディングと非バインディングを含むことができます。例:
 
-#### Non-Binding
+#### 非バインディング
 
-Downloading…
+ダウンロードしています...
 
-#### Binding
+#### バインディング
 
-Download Progress: {progress}%
+ダウンロード進行状況: {progress}%
 
-Same rules apply as the Data Property Binding section above regarding nested and non-nested properties.
+ネストあり/ネストなしのプロパティについて上記の Data Property Binding セクションと同様のルールが適用されます。
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [AV Player Pattern](av-player.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
-
-```
-
-```
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

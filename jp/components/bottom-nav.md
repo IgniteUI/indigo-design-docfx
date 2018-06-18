@@ -1,63 +1,56 @@
----
-title: Bottom Navigation - Design System Component
-_description: The Bottom Navigation Component Symbol is used to design simple application-level navigation. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Bottom Navigation - デザイン システム コンポーネント
+_description: Bottom Navigation コンポーネント シンボルは、シンプルなアプリケーション レベルのナビゲーションのデザインに使用します。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Bottom Navigation
 
-Use the Bottom Navigation Component to implement application-level navigation by placing it at the bottom of the screen with up to five items that allow browsing between their associated views. The Bottom Navigation is visually identical to the [Ignite UI for Angular Bottom Navigation Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/tabbar.html)
+Bottom Navigation コンポーネント シンボルは、関連ビュー間のブラウジングが可能な項目を 5 項目以下で画面下に配置してアプリケーション レベルのナビゲーションを実装します。Bottom Navigation は、[Ignite UI for Angular Bottom Navigation コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/tabbar.html)と視覚的に同じものです。
 
-### Bottom Navigation Demo
+### Bottom Navigation デモ
 
 ![](../images/bottom-nav_demo.png)
 
-### Items Amount
+### 項目数
 
-The Bottom Navigation supports between two to five items. If you need to design application-level navigation with more than five items or views, consider using consider using the [Navigation Drawer](nav-drawer.md) instead.
+Bottom Navigation は 2 項目 ～ 5 項目をサポートします。アプリケーション レベルで 5 項目/ビュー以上のナビゲーションをデザインする場合は、[Navigation Drawer](nav-drawer.md) の使用を検討してください。
 
 ![](../images/bottom-nav_items2.png)
 ![](../images/bottom-nav_items3.png)
 ![](../images/bottom-nav_items4.png)
 ![](../images/bottom-nav_items5.png)
 
-### Item Style
+### 項目のスタイル
 
-The Bottom Navigation item contains either a combination of **icon+text** or just an icon. There is always one item in active (selected) state, and the remaining items must be set to inactive.
+Bottom Navigation 項目には、**アイコンとテキスト**の組み合わせ、またはアイコンのみが含まれます。常にアクティブな状態の項目が 1 つあり、残りの項目はインアクティブに設定する必要があります。
 
 ![](../images/bottom-nav_icon&text.png)
 ![](../images/bottom-nav_icon.png)
 
-### Styling
+### スタイル設定
 
-The Bottom Navigation comes with styling flexibility through the various overrides controling the background color, as well as the item label and icon colors.
+Bottom Navigation は、さまざまなオーバーライドで背景色、項目ラベル、アイコン色を制御することにより柔軟にスタイル設定できます。
 
 ![](../images/bottom-nav_styling.png)
 
-## Usage
+## 使用方法
 
-The Bottom Navigation always appears on top of other content, and the shadow it casts is a crucial visual element. Make sure that you always place its layer over those representing the screen content and under no circumstances should you remove the shadow it casts.
+Bottom Navigation は常にその他のコンテンツの一番上に表示され、シャドウは大変重要な要素となります。レイヤーを画面コンテンツに配置し、シャドウは削除しないでください。
 
-| Do                                | Don't                               |
+| いい例                                | 悪い例                               |
 | --------------------------------- | ----------------------------------- |
 | ![](../images/bottom-nav_do1.png) | ![](../images/bottom-nav_dont1.png) |
 | ![](../images/bottom-nav_do2.png) | ![](../images/bottom-nav_dont2.png) |
 
-## Code generation - TODO
+## その他のリソース
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Bottom Navigation in your design is very likely to result in loss of code generation capability for the Bottom Navigation.
-
-`🕹️DataSource`
-`🕹️Event`
-
-## Additional Resources
-
-Related topics:
+関連トピック:
 
 - [Navigation Drawer](nav-drawer.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

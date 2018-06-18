@@ -1,70 +1,71 @@
----
-title: Category Chart - Design System Component
-_description: The Category Chart Component Symbol provides simple visual representations for dense complex data. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Category Chart - デザイン システム コンポーネント
+_description: Category Chart コンポーネント シンボルは、複雑なデータをシンプルに表示します。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Category Chart
 
-Use the Category Chart Component to wrap the density and complexity of data in a simple visual. Category Charts are often combined to create beautiful dashboards for related sets of data. The Category Chart is visually identical to the [Ignite UI for Angular Category Chart Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/categorychart.html)
+Category Chart コンポーネント シンボルは、密度をラップして複雑なデータをシンプルに表示します。Category Charts は、関連データ セットできれいなダッシュボードを作成するために組み合わせて使用します。Category Chart は、[Ignite UI for Angular Category Chart コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/categorychart.html)と視覚的に同じものです。
 
-### Category Chart Demo
+### Category Chart デモ
 
 ![](../images/category_chart_demo.png)
 
-### Tooltip
+### ツールチップ
 
-The Category Chart comes with an override for the tooltip visibility: **Tooltip Off** hides it and Tooltip On shows it on top of the series.
+Category Chart は、ツールチップ表示のオーバーライドが可能です。ツールチップを非表示にする **Tooltip Off**、シリーズの一番上に表示する Tooltip On。
 
 ![](../images/chart_category_tooltip-off.png)
 ![](../images/chart_category_tooltip-on.png)
 
-### Types
+### タイプ
 
-The Category Chart comes with flexibility for selecting the Chart type through various overrides such as:
+Category Chart は以下のようなさまざまなオーバーライドで Chart タイプを選択できる柔軟性があります。
 
 |             |                                               |
 | ----------- | --------------------------------------------- |
-| Area        | ![](../images/chart_category_area.png)        |
-| Column      | ![](../images/chart_category_column.png)      |
-| Line        | ![](../images/chart_category_line.png)        |
-| Point       | ![](../images/chart_category_point.png)       |
-| Spline      | ![](../images/chart_category_spline.png)      |
-| Spline Area | ![](../images/chart_category_spline-area.png) |
-| Step Area   | ![](../images/chart_category_step-area.png)   |
-| Step Line   | ![](../images/chart_category_step-line.png)   |
-| Waterfall   | ![](../images/chart_category_waterfall.png)   |
+| エリア        | ![](../images/chart_category_area.png)        |
+| 柱状      | ![](../images/chart_category_column.png)      |
+| 折れ線        | ![](../images/chart_category_line.png)        |
+| ポイント       | ![](../images/chart_category_point.png)       |
+| スプライン      | ![](../images/chart_category_spline.png)      |
+| スプライン エリア | ![](../images/chart_category_spline-area.png) |
+| ステップ エリア   | ![](../images/chart_category_step-area.png)   |
+| ステップ折れ線   | ![](../images/chart_category_step-line.png)   |
+| ウォーターフォール   | ![](../images/chart_category_waterfall.png)   |
 
-## Usage
+## 使用方法
 
-Even though you might need to combine different types of series in the same chart, you should avoid stacking multiple Category Charts on top of one another. Use the Category Chart Component as if it were a simplified stencil for data visualization.
+同じチャートの異なるタイプを組み合わせる場合、複数の Category Charts を互いに積み重ねないようにします。データ可視化の簡素化したステンシルのように Category Chart コンポーネント シンボルを使用します。
 
-| Do                                    | Don't                                   |
+| いい例                                   | 悪い例                                   |
 | ------------------------------------- | --------------------------------------- |
 | ![](../images/chart_category_do1.png) | ![](../images/chart_category_dont1.png) |
 
-## Code generation
+## コードの生成
 
-The Category Chart is a simple to use component with few options to set in order to get working.
+Category Chart は、いくつかのオプションを設定して簡単に使用できるコンポーネントです。
 
 > [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Category Chart in your design is very likely to result in loss of code generation capability for the Category Chart.
+> デザインの Category Chart のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Category Chart のためのコード生成機能が失われる結果となります。
 
-### Data Property Binding
+### データ プロパティ バインディング
 
-When supplied, the `🕹️DataSource` property binding can be non-nested or nested. This property data binds to the 'dataSource' Input on the Category Chart component so it can render the data in chart form.
+提供された場合、`🕹️DataSource` プロパティ バインドはネストあり/なしが可能です。このプロパティは、Category Chart コンポーネントの 'dataSource' Input にデータ バインドしてチャート形式のデータを描画します。
 
-#### Example Not Nested
+#### 例: ネストなし
 
 ```PseudoCode
 Customer {
 chartData: object[];
 }
 
-DataSource would be: {chartData}
+DataSource: {chartData}
 ```
 
-#### Example Nested
+#### 例: ネストあり
 
 ```PseudoCode
 Profile {
@@ -75,36 +76,34 @@ Customer {
 profile: Profile;
 }
 
-DataSource would be: {profile.chartData}
+DataSource: {profile.chartData}
 ```
 
-### Chart Dimensions
+### チャート ディメンション
 
-The Category Chart will generate with fixed dimensions obtained within the Sketch. The developer can then modify these dimensions as they see fit within the HTML. Valid values for the width and height are pixel values and percent values. Examples:
+Category Chart は Sketch 内で取得した固定ディメンションで生成します。ディメンションは HTMl 内にフィットするように変更できます。幅と高さの有効な値は、ピクセル値とパーセント値です。例:
 
-width=”300px” or width=”100%”
+`width=”300px”` または `width=”100%”`
 
-### Chart Type
+### チャート タイプ
 
-When supplied, it configures the chart to use the provided series type.
+チャートで指定したシリーズ タイプを使用するよう構成されます。
 
-### Chart Title
+### チャートのタイトル
 
-When supplied, it sets the title of the chart. The title may contain binding and non-binding text. Examples:
+提供されたときにチャートのタイトルを設定します。タイトルにバインドと非バインドのテキストが含まれる場合があります。例:
 
-#### Non-Binding
+#### 非バインディング
 
-- Olympic Medals by Country
+- 国別のオリンピック メダル数
 
-#### Binding
+#### バインディング
 
-- Olympic Medals for {country}
+- {country} のオリンピック メダル数
 - {olympicChartTitle}
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+コミュニティに参加して新しいアイデアをご提案ください。
 
-Our community is active and always welcoming to new ideas.
-
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

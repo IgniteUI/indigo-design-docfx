@@ -1,55 +1,56 @@
----
-title: Snackbar - Design System Component
-_description: The Snackbar Component Symbol is used to show a short notification or indicate the last action performed by the user.
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Snackbar - デザイン システム コンポーネント
+_description: Snackbar コンポーネント シンボルは、短い通知やユーザーの最近の操作を示すことができます。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Snackbar
 
-Use the Snackbar Component to show a short notification or provide indication for the most recent action such as adding or deleting a record in a listing, with the option to trigger a simple extra action such as undo. The Snackbar is visually identical to the [Ignite UI for Angular Snackbar Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/snackbar.html)
+Snackbar コンポーネント シンボルは、短い通知の表示やリストの記録の追加または削除など最近の操作の表示するためのオプションを提供します。オプションは、元に戻すなどのシンプルな追加操作をトリガーします。Snackbar は、[Ignite UI for Angular Snackbar コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/snackbar.html)と視覚的に同じものです。
 
-### Snackbar Demo
+### Snackbar デモ
 
 ![](../images/snackbar_demo.png)
 
-### Styling
+### スタイル設定
 
-The Snackbar comes with constrained styling flexibility, allowing only to change the text color of its action button.
+Snackbar は、スタイル設定に制限があり操作ボタンのテキスト色のみ変更できます。
 
 ![](../images/snackbar_styling.png)
 
-## Usage
+## 使用方法
 
-The Snackbar always appears on top of other content, so avoid placing on top of the main application navigation. Pick an emphasizing style for its action button that contrasts it with the message and avoid stacking multiple Snackbars in a column - show only the most recent one instead.
+Snackbar は、その他のコンテンツの一番上に表示されるため、アプリケーションのメイン ナビゲーション上には配置しないでください。メッセージとコントラストがある操作ボタンを強調するためのスタイルを選択し、最新のボタンのみ表示して列に複数の Snackbars を積み重ねないようにします。
 
-| Do                              | Don't                             |
+| いい例                              | 悪い例                             |
 | ------------------------------- | --------------------------------- |
 | ![](../images/snackbar_do1.png) | ![](../images/snackbar_dont1.png) |
 | ![](../images/snackbar_do2.png) | ![](../images/snackbar_dont2.png) |
 | ![](../images/snackbar_do3.png) | ![](../images/snackbar_dont3.png) |
 
-## Code generation
+## コードの生成
 
-When colors or fonts are specified for the Snackbar, the Snackbar HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
+Snackbar の色を指定した場合、Snackbar HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
 
 > [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Snackbar in your design is very likely to result in loss of code generation capability for the Snackbar.
+> デザインの Snackbar のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Snackbar のためのコード生成機能が失われます。
 
-### Text Binding
+### テキスト バインド
 
-There are Text properties for the Message and Button. When supplied they can be bound to a nested or non-nested data item. If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+Message と Button に Text プロパティがあります。ネストまたはネストなしのデータ項目にバインドできます。プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。例:
 
-#### Example Not Nested
+#### 例: ネストなし
 
 ```PseudoCode
 Customer {
 messageText: string;
 }
 
-Text would be: { messageText }
+Text: { messageText }
 ```
 
-#### Example Nested
+#### 例: ネストあり
 
 ```PseudoCode
 Profile {
@@ -60,17 +61,17 @@ Customer {
 profile: Profile;
 }
 
-Text would be: {profile. messageText }
+Text: {profile. messageText }
 ```
 
 ### Event
 
-When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an onAction signature in the HTML of the Snackbar.
+`🕹️Event` プロパティは、コンポーネント TypeScript のメソッドを作成するために使用し、Snackbar の HTML に onAction シグネチャーを追加します。
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

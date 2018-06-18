@@ -1,31 +1,33 @@
+﻿---
+title: Grid ページング - グリッド機能
+_description: Grid ページング コンポーネント シンボルには、現在の配置情報を提供するフッターがあり、Grid コンテンツのページ間をナビゲーションを可能にします。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, Grid 機能, UI ライブラリ, ウィジェット
+_language: ja
 ---
-title: Grid Paging - Grid Feature
-_description: The Grid Paging Component Symbol provides a footer that provides information about the current position and allows navigation between pages of content for the Grid. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, Grid Feature, UI Library, Widgets
----
 
-## Grid Paging
+## Grid のページング機能
 
-Use the Grid Paging Component to inform the user about his current position and allow navigation to the previous/next and first/last pages of content for the Grid. Position the Grid Paging immediately below the Grid without any gap between the two. The Grid Paging is visually identical to the [Ignite UI for Angular Grid Paging Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid_paging.html)
+Grid ページング コンポーネント シンボルは、ユーザーに現在の位置を通知して戻る/次へや最初/最後のページにナビゲーションを可能にします。Grid のすぐ下に間にギャップなしでグリッド ページングを配置します。
+Grid ページングは、[Ignite UI for Angular Grid ページング機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid_paging.html)と視覚的に同じものです。
 
-### Grid Paging Demo
+### Grid ページング デモ
 
 ![](../images/grid_paging_demo.png)
 
-### Styling
+### スタイル設定
 
-The Grid Paging comes with styling flexibility through the various overrides controlling its label and background colors, as well as the available styling for the Icon Buttons used for navigation.
+Grid ページングは、さまざまなオーバーライドでラベルや背景色などのスタイル設定に柔軟性があり、ナビゲーションに使用する Icon Buttons のスタイル設定も可能です。
 
 ![](../images/grid_paging_styling.png)
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Button](button.md)
 - [Grid](grid.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

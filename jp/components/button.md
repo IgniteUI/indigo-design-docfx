@@ -1,61 +1,54 @@
----
-title: Button - Design System Component
-_description: The Button Component Symbol is used to represent a simple action. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Button - デザイン システム コンポーネント
+_description: Button コンポーネント シンボルはシンプルなアクションを表すために使用します。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Button
 
-Use the Button Component to represent the trigger for a simple action that user can take. Buttons are used in cards, dialogs, forms, and many other components and patterns. The Button is visually identical to the [Ignite UI for Angular Button Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/button.html)
+Button コンポーネント シンボルは、シンプルなユーザー操作のためのトリガーを表します。Buttons は、カード、ダイアログ、フォーム、その他コンポーネントやパターンに使用します。Button は、[Ignite UI for Angular Button コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/button.html)と視覚的に同じものです。
 
-### Button Demo
+### Button デモ
 
 ![](../images/button_demo.png)
 
-### Type
+### タイプ
 
-Four types of Buttons are supported:
+4 つの Button タイプがあります。
 
-- A more prominent Raised Button with color fill and shadow that emphasizes an action and supports both **text** and combination of icon and text.
-- A less prominent Flat Button that is typically used for less important actions and supports both **text** and combination of icon and text.
-- An Icon Button for actions that are represented only with an Icon.
-- A very prominent Floating Action Button (fab) with color fill and shadow that is used once per screen to strongly emphasize the main action.
+- Raised Button は、操作を強調し、**テキスト**およびアイコンとテキストの組み合わせ、および塗りつぶしやシャドウをサポートします。
+- Flat Button は、通常あまり重要でない操作に使用し、**テキスト**およびアイコンとテキストの組み合わせをサポートします。
+- Icon Button は、操作をアイコンでのみ表されます。
+- Floating Action Button (fab) の塗りつぶしと影は、画面ごとに 1 回使用してメインの操作を強調します。
 
 ![](../images/button_types.png)
 
-### States
+### 状態
 
-Every type of button supports a **default**, hover, and disabled state. A button with an icon and label is also available in the default state.
+各ボタン タイプは**デフォルト**、ホバー、無効の状態をサポートします。アイコンやラベル付きのボタンはデフォルト状態でも利用できます。
 
 ![](../images/button_states.png)
 
-### Styling
+### スタイル設定
 
-The Buttons come with styling flexibility through the various overrides controlling the background, label, and icon colors.
+Button は、さまざまなオーバーライドで背景色、ラベル、アイコン色を制御することにより柔軟にスタイル設定できます。
 
 ![](../images/button_styling.png)
 
-## Usage
+## 使用方法
 
-When the content of a Button contains a label, it must be uppercase and with a thicker (usually Medium or Semi-bold) font treatment. When more than one Button is needed for a layout, size them with equal height and arrange them on the same horizontal plane next to each other with sufficient space on both sides to avoid erroneous taps and clicks. In such layouts, avoid combining the different types of buttons. Preferably, you'll want to choose one and use it consistently for all actions that belong in that section of the UI.
+Button のコンテンツにラベルを含む場合、大文字を太文字 (Medium または Semibold) を使用してください。Button がレイアウトで 1 つ以上必要な場合、同じ高さで揃え、互いに十分なスペースを保ちながら同じ水平面に配置することによりタップやクリックで発生する可能性のあるエラーを防止できます。このようなレイアウトの場合は、ボタン タイプは組み合わせないようにします。UI の特定のセクションにあるすべての操作に同じタイプを使用して統一感を持たせます。
 
-| Do                            | Don't                           |
+| いい例                            | 悪い例                           |
 | ----------------------------- | ------------------------------- |
 | ![](../images/button_do1.png) | ![](../images/button_dont1.png) |
 | ![](../images/button_do2.png) | ![](../images/button_dont2.png) |
 | ![](../images/button_do3.png) | ![](../images/button_dont3.png) |
 
-## Code generation - TODO
+## その他のリソース
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Button in your design is very likely to result in loss of code generation capability for the Button.
-
-`🕹️DataSource`
-`🕹️Event`
-
-## Additional Resources
-
-Related topics:
+関連トピック:
 
 - [Button Group](button-group.md)
 - [Card](card.md)
@@ -67,6 +60,6 @@ Related topics:
 - [Form Pattern](forms.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

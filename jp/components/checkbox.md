@@ -1,79 +1,78 @@
----
-title: Checkbox - Design System Component
-_description: The Checkbox Component Symbol is used to allow the user to mark a selection. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Checkbox - デザイン システム コンポーネント
+_description: Checkbox コンポーネント シンボルは、ユーザーが選択にマークできる機能を提供します。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Checkbox
 
-Use the Checkbox Component to allow the user make a selection, which most often expresses a preference or agreement in a form. The Checkbox is visually identical to the [Ignite UI for Angular Checkbox Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/checkbox.html)
+Checkbox コンポーネント シンボルは、設定の変更やフォームでの同意などに最もよく利用されます。Checkbox は、[Ignite UI for Angular Checkbox コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/checkbox.html)と視覚的に同じものです。
 
-### Checkbox Demo
+### Checkbox デモ
 
 ![](../images/checkbox_demo.png)
 
-### Theme
+### テーマ
 
-The Checkbox can be used styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
+Checkbox は、明暗バリアントで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
 
 ![](../images/checkbox_dark.png)
 ![](../images/checkbox_light.png)
 
-### State
+### 状態
 
-The Checkbox provides **on**, off, and indeterminate selection states with additional variants for a disabled interaction state.
+Checkbox は、**オン**/オフと不確定状態があり、追加のバリアントとしてインタラクション無効の状態があります。
 
 ![](../images/checkbox_states.png)
 ![](../images/checkbox_selection.png)
 
-### Styling
+### スタイル設定
 
-The Checkbox comes with styling flexibility through the various overrides controlling its check and fill colors, as well as the label text color.
+Checkbox は、さまざまなオーバーライドでチェック、色の塗りつぶし、ラベル テキストの色を制御することにより柔軟にスタイル設定できます。
 
 ![](../images/calendar_styling.png)
 
-## Usage
+## 使用方法
 
-When many Checkboxes are necessary, you'll want to arrange them in a column group which makes it really easy to scan quickly through the list. Fewer Checkboxes may also be arranged on a single line next to each other but you should avoid arrangements in multiple columns.
+多くの Checkboxes を列グループに配置する必要がある場合にリストをすばやく簡単にスキャンできます。チェックボックスは単一行に隣接して配置できますが、複数列に配置しないようにします。
 
-| Do                              | Don't                             |
+| いい例                             | 悪い例                             |
 | ------------------------------- | --------------------------------- |
 | ![](../images/checkbox_do1.png) | ![](../images/checkbox_dont1.png) |
 
-## Code generation
+## コードの生成
 
-When colors or the check state is specified for the Checkbox, the Checkbox HTML element will be wrapped in div. This is required by browsers to style a nested component (a component within another component).
+Checkbox の色またはチェック状態を指定した場合、Checkbox HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
 
 > [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Checkbox in your design is very likely to result in loss of code generation capability for the Checkbox.
+> デザインの　Checkbox のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Checkbox のためのコード生成機能が失われる結果となります。
 
-### Data Property Binding
+### データ プロパティ バインディング
 
-When supplied, the `🕹️DataProperty` binding can be non-nested or nested.
-If the property is a nest property, include the nested property chain, but don’t include the model object name. Examples:
+提供された場合、`🕹️DataProperty` バインドはネストあり/なしが可能です。プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。例:
 
-#### Example Not Nested
+#### 例: ネストなし
 
 ```PseudoCode
 Customer {
 Public checkState: boolean;
 }
 
-DataProperty in Sketch would be: {checkState}
+Sketch の DataProperty: {checkState}
 ```
 
-### Event Property
+### Event プロパティ
 
-When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an Angular click signature in the HTML.
-EventProperty in Sketch would be: clickValue
+`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用されて HTML に Angular クリック シグネチャーを追加します。Sketch の EventProperty: clickValue
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Form Pattern](forms.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

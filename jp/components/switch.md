@@ -1,71 +1,64 @@
----
-title: Switch - Design System Component
-_description: The Switch Component Symbol is used to allow the user to mark a selection.
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Switch - デザイン システム コンポーネント
+_description: Switch コンポーネント シンボルは、ユーザーが選択にマークできる機能を提供します。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Switch
 
-Use the Switch Component to allow the user make a selection, which most often expresses turning on/off a configuration in a list of settings. The Switch is visually identical to the [Ignite UI for Angular Switch Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/switch.html)
+Switch コンポーネント シンボルは、ユーザーが設定一覧でオン/オフするための構成です。Switch は、[Ignite UI for Angular Switch コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/switch.html)と視覚的に同じものです。
 
-### Switch Demo
+### Switch デモ
 
 ![](../images/switch_demo.png)
 
-### Theme
+### テーマ
 
-The Switch can be used styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
+Switch は、明暗バリアントで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
 
 ![](../images/switch_dark.png)
 ![](../images/switch_light.png)
 
-### Label use
+### ラベルの使用
 
-The Switch is used **with** or without label. In order to hide the label, set its text value to a blank/space character and reduce the width of the component to e.g. 38px.
+Switch はラベルなしで使用できます。ラベルを非表示にするためにテキスト値を空/スペース文字にしてコンポーネントの幅を小さくします(38px など)。
 
 ![](../images/switch_label.png)
 ![](../images/switch_no_label.png)
 
-### State
+### 状態
 
-The Checkbox provides **on** and off selection states with additional variants for a disabled interaction state.
+Switch は、オン/オフと選択状態があり、追加のバリアントとしてインタラクション無効の状態があります。
 
 ![](../images/switch_on.png)
 ![](../images/switch_on_disabled.png)
 ![](../images/switch_off.png)
 ![](../images/switch_off_disabled.png)
 
-### Styling
+### スタイル設定
 
-The Switch comes with styling flexibility, allowing control over the thumb and track colors. There is a fixed alpha value applied to the track to make it semi transparent.
+Switch は、つまみとトラック色を制御でき柔軟なスタイル設定が可能です。固定アルファ値がトラックに適用されて半透明になります。
 
 ![](../images/switch_styling.png)
 
-## Usage
+## 使用方法
 
-The Switch should appear to the right of the label describing the option, in regard to whose state it controls, in a list of settings. Avoid placing it near the left edge of the screen, and if that is absolutely necessary for a reason, please use a Checkbox instead. Also, use the same or very similar colors for the Switch thumb and track.
+Switch は、設定リストで状態を制御するオプションを説明するラベルの右に表示されます。画面の左端の近くに配置しないようにします。必須の場合は代わりに Checkbox を使用します。Switch つまみとトラックに同じまたは同様の色を使用します。
 
-| Do                            | Don't                           |
+| いい例                            | 悪い例                           |
 | ----------------------------- | ------------------------------- |
 | ![](../images/switch_do1.png) | ![](../images/switch_dont1.png) |
 | ![](../images/switch_do2.png) | ![](../images/switch_dont2.png) |
 | ![](../images/switch_do3.png) | ![](../images/switch_dont3.png) |
 
-## Code generation
+## その他のリソース
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Switch in your design is very likely to result in loss of code generation capability for the Switch.
-
-`🕹️DataSource`
-`🕹️Event`
-
-## Additional Resources
-
-Related topics:
+関連トピック:
 
 - [Lists](lists.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

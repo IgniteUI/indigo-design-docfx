@@ -1,28 +1,29 @@
+﻿---
+title: Grid 列ピン固定 - グリッド機能
+_description: Grid 列ピン固定コンポーネントは、スクロールのあるグリッドで最初の数列をピン固定するためのメカニズムです。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, Grid 機能, UI ライブラリ, ウィジェット
+_language: ja
 ---
-title: Grid Column Pinning - Grid Feature
-_description: The Grid Column Pinning is a mechanism to pin the first few columns of a scrollable Grid. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Grid Feature, UI Library, Widgets
----
 
-## Grid Column Pinning
+## Grid 列ピン固定
 
-Use the Grid Column Pinning Component to fix the first few columns of a scrollable Grid to the left. Now, when the user scrolls, all other columns move left and right except for the pinned ones. The pinned columns always appear on top of the scrollable ones. The Grid Column Pinning is visually identical to the [Ignite UI for Angular Grid Column Pinning Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid_column_pinning.html)
+Grid 列ピン固定は、ユーザーが列を右または左へスクロールする際に Grid の最初の数列を左に固定します。ピン固定列は常にスクロール可能な列の上に表示されます。Grid 列ピン固定はは、[Ignite UI for Angular Grid 列ピン固定は機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid_column_pinning.html) と視覚的に同じものです。
 
-### Grid Column Pinning Demo
+### Grid 列ピン固定デモ
 
 ![](../images/grid_column_pinning_demo.png)
 
-### Cell Right Border
+### セルの右境界線
 
-The Grid Column Pinning is achieved by changing the Right Border override to Pinned Line for the Header Cell and all Body Cells that constitute the right-most column of the pinned ones. In the demo above, this is done for all cells of the second column, resulting in the pinning of the two columns to the left.
+Grid 列固定は、固定列の右端の列で構成される Header Cell と Body Cells の Pinned Line に Right Border のオーバーライドを変更して固定できます。上記のデモは、2 行の 2 列目のすべてのセルで実行して左 2 列がピン固定されます。
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Grid](grid.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

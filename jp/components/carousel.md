@@ -1,44 +1,37 @@
----
-title: Carousel - Design System Component
-_description: The Carousel Component Symbol allows sequential browsing through a collection of images. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Carousel - デザイン システム コンポーネント
+_description: Carousel コンポーネント シンボルは画像コレクションの順次的なブラウジングが可能です。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Carousel
 
-Use the Carousel Component to let the user navigate through a collection of images in a sequential fashion, moving to the previous/next one through the arrows on the sides. The Carousel is visually identical to the [Ignite UI for Angular Carousel Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/carousel.html)
+Carousel コンポーネント シンボルは、横矢印キーを使用して画像コレクションの前や次の画像に順次的にナビゲーションできます。Carousel は、[Ignite UI for Angular Carousel コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/carousel.html)と視覚的に同じものです。
 
-### Carousel Demo
+### Carousel デモ
 
 ![](../images/carousel_demo.png)
 
-### Styling
+### スタイル設定
 
-The Carousel comes with styling flexibility through the various overrides controlling the navigation button background and icon colors, the indicator colors, border colors, and a slide image for the currently active slide. You should keep in mind that only one indicator may be active at a time.
+Carousel は、さまざまなオーバーライドでナビゲーションボタンの背景、アイコンの色、インジケーターの色、境界線の色、現在アクティブなスライドのスライド画像の制御などスタイル設定に柔軟性があります。一度に 1 インジケーターのみアクティブにできます。
 
 ![](../images/carousel_styling.png)
 
-## Usage
+## 使用方法
 
-The previous and next navigation buttons of the Carousel should always appear on top of the image slide, and the indicators should have consistent styling, where only the active one should be emphasized.
+Carousel の戻るおよび次へ移動するためのボタンは、常に画像スライドの一番上に表示されます。インジケーターのスタイルは統一し、アクティブな項目のみ強調します。
 
-| Do                              | Don't                             |
+| いい例                              | 悪い例                             |
 | ------------------------------- | --------------------------------- |
 | ![](../images/carousel_do1.png) | ![](../images/carousel_dont1.png) |
 | ![](../images/carousel_do2.png) | ![](../images/carousel_dont2.png) |
 
-## Code generation
+## その他のリソース
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Carousel in your design is very likely to result in loss of code generation capability for the Carousel.
+関連トピック:
 
-`🕹️DataSource`
-`🕹️Event`
+コミュニティに参加して新しいアイデアをご提案ください。
 
-## Additional Resources
-
-Related topics:
-
-Our community is active and always welcoming to new ideas.
-
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

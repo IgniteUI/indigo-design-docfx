@@ -1,81 +1,82 @@
----
-title: Custom Cards - Design System Component
-_description: The Cards collection contains this special type of Card that allows the creation of Custom layouts exactly how you would like them to be.
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Custom Cards - デザイン システム コンポーネント
+_description: Cards コレクションは、特別な Card タイプを含み、Custom レイアウトを作成できます。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Custom Cards
 
-Use the Custom Card Component to display the same type of information that you would in a normal Card but with the complete freedom to arrange your layout exactly as you would like. The Custom Card is achievable by writing the necessary customizations to layout of the [Ignite UI for Angular Card Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/card.html)
+Custom Card コンポーネントは、通常のカードと同じタイプの情報を表示しますが、レイアウトを自由に変更できます。Custom Card は、[Ignite UI for Angular Card コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/card.html)のレイアウトにカスタム コードを使用します。
 
-### Custom Card Demo
+### Custom Card デモ
 
 ![](../images/card_custom_demo.png)
 
-### Detach from Symbol
+### シンボルからデタッチ
 
-In order to customize Card layouts start by dragging a `Cards/Custom` to your Artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared _Cards/Custom_ group, you should see the following:
+Card レイアウトをカスタマイズするには、`Cards/Custom` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下の方にある `Detach from Symbol` オプションを選択します。新しく表示される `Cards/Custom` グループの下のレイヤー パネルには以下があります。
 
 > [!INFO]
-> | Layer | Use |
+> | レイヤー| 使用 |
 > | ----------------------------- | ---------------------------------------- |
-> | 🚫 igx-card/custom | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-> | Custom Card | Groups together the Card layout elements |
-> | &nbsp;&nbsp; Card Area | Groups together the Card layout elements |
-> | &nbsp;&nbsp; 🌈 Background | Defines the background color of the card |
-> | &nbsp;&nbsp; Mask | Gives the card its corner rounding by adjusting the `Radius` layer property|
-> | &nbsp;&nbsp; Elevation | Drops a slight shadow on the card collection background |
-> | 🕹️DataProperty | Used by code generation for data binding |
+> | 🚫 igx-card/custom | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
+> | Custom Card | Card レイアウト要素をグループ化 |
+> | &nbsp;&nbsp; Card Area | Card レイアウト要素をグループ化 |
+> | &nbsp;&nbsp; 🌈 Background | カードの背景色を定義 |
+> | &nbsp;&nbsp; Mask | `Radius` レイヤー プロパティを調整してカードの角を丸くします。|
+> | &nbsp;&nbsp; Elevation | カード コレクション背景に薄いシャドウをドロップします。 |
+> | 🕹️DataProperty | データ バインドのコード生成で使用されます。 |
 
-#### Styling
+#### スタイル設定
 
-The Custom Card has high-level styling flexibility that matches the normal Card through various overrides for text, icons, buttons, and background colors. The detaching of the symbol provides additional control over the corner rounding and elevation level.
+Custom Card は、スタイルに高い柔軟性があり、テキスト、ボタン、背景色などのさまざまなオーバーライドによって通常の Card とマッチすることができます。シンボルからでタッチを使用して角丸やエレベーション レベルなどを追加で制御できます。
 
 ![](../images/card_custom_styling.png)
 
 > [!INFO]
-> | Layer | Use |
+> | レイヤー | 使用 |
 > | ----------------------------- | ---------------------------------------- |
-> | Card Area | Groups together the Card layout elements |
-> | &nbsp;&nbsp; Header | Groups together the Card layout elements |
-> | &nbsp;&nbsp; Content | Groups together the Card layout elements |
-> | &nbsp;&nbsp; Actions | Groups together the Card layout elements |
+> | Card Area | Card レイアウト要素をグループ化 |
+> | &nbsp;&nbsp; Header | Card レイアウト要素をグループ化 |
+> | &nbsp;&nbsp; Content | Card レイアウト要素をグループ化 |
+> | &nbsp;&nbsp; Actions | Card レイアウト要素をグループ化 |
 
-#### Layout
+#### レイアウト
 
-Let's see how we can create the intricate layout for the weather forecast Card found above in five simple steps. We have dragged a Custom Card into an empty Artboard, selected the `Detach from Symbol`, and applied the available basic styling changes for the background color, corner radius, and elevation. Once that was completed, we had this for a starting point.
+以下は、上記の天気 Card の複雑なレイアウトを 5 つのシンプルなステップで作成する方法です。空 Artboard に Custom Card をドラッグし、`シンボルからデタッチ`を選択して、背景色、角の半径、開始ポイントに必要なエレベーションを変更してベーシック スタイルを適用します。
 
 ![](../images/card_custom_layout0.png)
 
-1.  We will reuse the Header Style and just update the strings for the Title and Subtitle Text. For now, let's ignore the Content group and move to the Actions Style, where we need to change it to Button Actions rather than the Icon Actions are default. Lastly, we will update the Left Button text and hide the Right Button by setting it to none.
+1.  Header Style を再利用して Title と Subtitle Text の文字列を更新します。Content グループは後にして Actions Style へ移動します。ここでは、デフォルトで含まれる Icon Actions ではなく Button Actions へ変更します。最後に Left Button テキストを更新し、none に設定して Right Button を非表示にします。
 
 ![](../images/card_custom_layout1.png)
 
-2.  Now, it is time to get back to the Content and create the layout for the weather forecast. We will start by inserting a Cards/Blocks/Header/Large Title (we can use any type of block in any Card area group), updating the title to a Size of H1, and resizing the symbol to correctly display both the title and subtitle. After updating the string values, you may delete the default paragraph, Content Style, and you should see an outcome similar to the example. As a note, deleting the default Content Style now will preserve the Content group since it now holds another element as well.
+2.  Content に戻り、天気予報のレイアウトを作成します。はじめに Cards/Blocks/Header/Large Title (Card 領域グループですべてのブロック タイプを使用可能) を挿入し、タイトルを H1 Size に更新して、シンボルをタイトルおよびサブタイトルの両方を表示するためにサイズ変更します。文字列値を更新後、デフォルト段落 Content Style を削除でき、次のようになります (デフォルト Content Style は他の要素も保持するため、Content グループを保存します)。
 
 ![](../images/card_custom_layout2.png)
 
-3.  The next item to add in the Content Group is a sun illustration. You can create your own by grouping an Oval shape with a few line shapes and fixing the group width and height in the properties panel to avoid distortions. Place the sun illustration to the right of the degrees title, and your layout should look like this.
+3.  次に太陽のイラストを Content Group に追加します。楕円形を数本の線形でグループ化してグループ幅と高さをプロパティ パネルで調整し、歪みを防止します。太陽イラストレーションを度タイトルの右に配置してレイアウトはこのようになります。
 
 ![](../images/card_custom_layout3.png)
 
-4.  Now, we have to add a One-thumb Slider Component and a Cards/Blocks/Content/Paragraph Text for the array of labels underneath. In order to achieve our target design, we have to select the Slider and set its Label Text Style and Label Background overrides to none, which will hide the label balloon. After inserting some label values in the Paragraph Text, you should be able to achieve something similar to this.
+4.  One-thumb Slider Component および Cards/Blocks/Content/Paragraph Text を下のラベル配列に追加します。ターゲットとするデザインにするために Slider を選択して Label Text Style および Label Background を none にオーバーライドし、ラベル バルーンを非表示にします。Paragraph Text にラベル値を挿入後、これと同様のことができます。
 
 ![](../images/card_custom_layout4.png)
 
-5.  It's time to design the detailed forecast area, and the easiest way to do that is by inserting the Cards/Blocks/Content/Paragraph Text twice: once for the weekdays and once for the degrees. In-between these two text columns, we will insert a Small Icon and duplicate it four more times to create a vertically aligned set, forming one more column. After choosing visualizations for them resonating with the forecast values, our target layout is complete.
+5.  ここでは詳細な予報領域をデザインします。最も簡単な方法は Cards/Blocks/Content/Paragraph Text を 2 回挿入する方法です。1 回は平日用、1 回は度用です。これら 2 列のテキスト間に Small Icon を挿入後 4 回複製して垂直に配置した列をもう 1 列形成します。予測値で可視化を選択後、ターゲット レイアウトの完了です。
 
 ![](../images/card_custom_layout5.png)
 
-#### Additional Styling
+#### 追加のスタイル
 
-With this Custom Card layout, extensive additional styling is possible based on the elements that have been inserted in the card. For example, we can set a color for the text of the temperature to emphasize it and set a subtler color for the complimentary information, such as the labels underneath the slider and the weekday labels paragraph.
+Custom Card レイアウトでは、カードに挿入されている要素に基づいてさまざまなスタイルを追加することが可能になります。たとえば気温の色を設定して強調し、スライダー ラベルや平日ラベルの段落などの追加情報に薄い色を設定できます。
 
 ![](../images/card_custom_layout_styled.png)
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Avatar](avatar.md)
 - [Button](button.md)
@@ -84,6 +85,6 @@ Related topics:
 - [Card Collection Pattern](card-collection.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

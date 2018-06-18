@@ -1,57 +1,50 @@
----
-title: Radio Group - Design System Component
-_description: The Radio Group Component Symbol is used to provide a mechanism for exclusive selection from a set of available options. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Radio Group -  デザイン システム コンポーネント
+_description: Radio Group コンポーネント シンボルは、一連のオプションで排他的な選択のメカニズムを提供します。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Radio Group
 
-Use the Radio Group Component to allow exclusive selection for one item in a group. The items in the group are left aligned and come one after another laid out in a single column. The Radio Group is visually identical to the [Ignite UI for Angular Radio Button Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/radio_button.html)
+Radio Group コンポーネント シンボルは、グループ項目で排他的な選択をサポートします。グループの項目は、左揃えで単一列に次々にレイアウトされます。Radio Group は、[Ignite UI for Angular Radio Button コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/radio_button.html)と視覚的に同じものです。
 
-### Radio Group Demo
+### Radio Group デモ
 
 ![](../images/radiogroup_demo.png)
 
-### Theme
+### テーマ
 
-The Radio Group can be used styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds. Make sure that all Radios are set to the same theme.
+Radio Group は、明暗バリアントでわかりやすく、背景に明暗のコントラストを付けてスタイル設定できます。すべての Radios を同じテーマに設定してださい。
 
 ![](../images/radiogroup_dark.png)
 ![](../images/radiogroup_light.png)
 
-### State
+### 状態
 
-Each Radio in the group provides **on** and off selection states with additional variants for a disabled interaction state.
+グループの各 Radio は、**オン**とオフ、そして追加のバリアントとしてインタラクション無効の状態があります。
 
 ![](../images/radiogroup_states.png)
 
-### Styling
+### スタイル設定
 
-The Radio Group comes with styling flexibility through the various overrides for each item's label style and color.
+Radio Group は、さまざまなオーバーライドで各項目のラベル スタイルや色を制御することにより柔軟にスタイル設定できます。
 
 ![](../images/radiogroup_styling.png)
 
-## Usage
+## 使用方法
 
-When extending a Radio Group with additional items, make sure that they are all left-aligned consistently with one under another in a single column. Avoid layout in multiple columns, as well as situations with more the one Radio being on at a time.
+Radio Group を追加項目で拡張する場合は、単一列で左寄せに統一してください。複数列のレイアウトや Radio を一度に 1 つ以上オンにしないようにします。
 
-| Do                                | Don't                               |
+| いい例                                | 悪い例                               |
 | --------------------------------- | ----------------------------------- |
 | ![](../images/radiogroup_do1.png) | ![](../images/radiogroup_dont1.png) |
 | ![](../images/radiogroup_do2.png) | ![](../images/radiogroup_dont2.png) |
 
-## Code generation
+## その他のリソース
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Radio Group will reduce the accuracy of code generation for the Radio Group. Do this only if you need to create more items than provided and make sure you keep the `🚫radio-group`, `🕹️DataProperty` and `🕹️DataSource` layers intact.
+関連トピック:
 
-`🕹️DataSource`
-`🕹️Event`
+コミュニティに参加して新しいアイデアをご提案ください。
 
-## Additional Resources
-
-Related topics:
-
-Our community is active and always welcoming to new ideas.
-
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

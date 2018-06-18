@@ -1,98 +1,93 @@
----
-title: Grid - Design System Component
-_description: The Grid Component Symbol provides means to diplay and interact with high-quantities of data structured in a tabular fashion. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Grid - デザイン システム コンポーネント
+_description: Grid コンポーネント シンボルは、表形式の大量のデータを表示しインタラクティブに操作できます。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Grid
 
-Use the Grid Component to let the user browse and interact with vast amount of complex data that is visually represented in tabular fashion and provide means for filtering, sorting, paging, etc. The Grid is visually identical to the [Ignite UI for Angular Grid Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid.html)
+Grid コンポーネントは大量の複雑なデータをタブ形式し、ユーザーがブラウズおよびインタラクティブに操作して、フィルタリング、並べ替え、ページングなどが可能です。Grid は、[Ignite UI for Angular Grid コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid.html)と視覚的に同じものです。
 
-### Grid Demo
+### Grid デモ
 
 ![](../images/grid_demo.png)
 
-### Detach from Symbol
+### シンボルからデタッチ
 
-The Grid is essentially a repeater of columns and rows showing data in a tabular fashion. Therefore, the easiest way to use it is by dragging a `Generic Grid` to your artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared
-_Grid/Generic Grid_ group, you should see the following:
+Grid は、基本的に表形式でデータを表示する列と行のリピーターです。T従って `Generic Grid` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下にある`シンボルからデタッチ` オプションを選択します。新しく表示される `Grid/Generic Grid` グループの下のレイヤー パネルには以下があります。
 
 > [!INFO]
-> | Layer | Use |
+> | レイヤー | 使用 |
 > | ----------------------------- | ------------------------------- |
-> | 🚫 igx-grid | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-> | Header | Contains all the cells in the header |
-> | Body | Contains all the cells in the body |
+> | 🚫 igx-grid | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
+> | Header | ヘッダーのすべてのセルを取得します。 |
+> | Body | ボディのすべてのセルを含みます。 |
 
-After detaching, you may add the number of headers you need to show all the dimensions of your data and as many records as you want to show in your design simply by duplicating the first row of data that you already have created.
+デタッチ後、すでに作成したデータの最初の行を複製し、多数のヘッダーを必要なだけ追加してデータのすべてのディメンションを表示できます。
 
-### Cell Types
+### セル タイプ
 
-The Grid provides three types of cells serving different data visualization purposes. The Header Cell is only one per column and appears at the top of the grid to display the textual description of the data in that particular column. The Body Cell is used to build the table displaying data records and may vary. The Summary Cell is used to create a section at the bottom of the Grid where column [Summaries](grid-summaries.md) are displayed for each dimension such as count, minimum, and maximum value.
+Grid は、異なるデータ可視化用に 3 タイプのセルがあります。Header Cell は、各列に 1 つでグリッドの一番上に表示され、特定の列のデータに関する説明をテキストで表示します。Body Cell は、データ レコードを表示するテーブルのビルドその他に使用されます。Summary Cell は、列[集計](grid-summaries.md)がカウント、最大、最小などの各ディメンションに表示される Grid の下のセクションを作成するために使用されます。
 
 ![](../images/grid_cell_header.png)
 ![](../images/grid_cell_body.png)
 ![](../images/grid_cell_summary.png)
 
-#
+# 項目 (ヘッダー セル)
 
-The Grid Header Cell supports the following layout combinations through the Items override: **No Icon** which shows only a header text, Icon which shows header text and filtering icon, and Icons which shows header text, filtering icon, and sorting icon.
+Grid Header Cell は、項目のオーバーライドで次のレイアウトの組み合わせをサポートします。ヘッダー テキストのみを表示する**アイコンはなく**、ヘッダー テキストとフィルター アイコンを表示するアイコン、ヘッダーテキストを表示するアイコン、フィルターアイコンと並べ替えアイコンがあります。
 
 ![](../images/grid_cell_header_no-icon.png)
 ![](../images/grid_cell_header_icon.png)
 ![](../images/grid_cell_header_icons.png)
 
-### State (Body Cell)
+### 状態 (本体セル)
 
-The Grid Body Cell supports the following interactive states: **Rest** for the normal state, CellSelected for the selected cell in cell selection mode, and RowSelected for the remaining cells on the row, where the selected cell belongs.
+Grid Body Cell は、以下のインタラクティブな状態をサポートします。標準状態の **Rest**、セル選択モードで選択したセルの CellSelected、選択セルのある行の残りのセルの RowSelected。
 
 ![](../images/grid_cell_body_rest.png)
 ![](../images/grid_cell_body_cell-selected.png)
 ![](../images/grid_cell_body_row-selected.png)
 
-### Cell Type
+### セル タイプ
 
-The Grid Header Cell provides presets for the three generic types of data that it needs to accommodate: **Number** for numeric values, Text for strings, and Checbox that is usually used as a template for the first column in order to allow selection of multiple rows.
+Grid Header Cell は、対応が必要な一般的なデータ型のプリセットが 3 つあります。数値のための **Number**、文字列の Text、最初の列の通常テンプレートとして使用される Checkbox、複数行の選択が可能にする最初の列のテンプレート。
 
 ![](../images/grid_cell_header_number.png)
 ![](../images/grid_cell_header_text.png)
 ![](../images/grid_cell_header_checkbox.png)
 
-The Grid Body Cell provides presets for the same generic types of data like the Header Cell.
+Grid Body Cell は、Header Cell などの同じ一般的なデータ型プリセットを提供します。
 
 ![](../images/grid_cell_body_number.png)
 ![](../images/grid_cell_body_text.png)
 ![](../images/grid_cell_body_checkbox.png)
 
-### Styling
+### スタイル設定
 
-The Grid comes with styling flexibility achievable through styling the individual cell text, icons, and background colors in the various states available, as well as the hiding of horizontal and vertical borders.
+Grid は、さまざま状態の各セル テキスト、アイコン、背景色のスタイル設定や水平および垂直の境界線の非表示など柔軟に変更できます。
 
 ![](../images/grid_styling.png)
 
-## Usage
+## 使用方法
 
-The most important thing about the Grid is the alignment of the data inside its Header and Body Cells. Text should always be aligned left, leaving variable empty space to the right, and numbers should always be aligned right, leaving variable empty space to the left.
+Grid の最も重要な点は、Header および Body Cells 内のデータの配置です。テキストは常に左揃えにして変数空スペースを右に残し、数値は常に右揃えにして変数空スペースを左に残します。
 
-| Do                          | Don't                         |
+| いい例                          | 悪い例                         |
 | --------------------------- | ----------------------------- |
 | ![](../images/grid_do1.png) | ![](../images/grid_dont1.png) |
 
-## Code generation
+## その他のリソース
 
-`🕹️DataSource`
-`🕹️Event`
+関連トピック:
 
-## Additional Resources
-
-Related topics:
-
-- [Grid Filter](grid-filter.md)
-- [Grid Paging](grid-paging.md)
-- [Grid Column Pinning](grid-column-pinning.md)
-- [Grid Summaries](grid-summaries.md)
+- [Grid フィルタリング](grid-filter.md)
+- [Grid ページング](grid-paging.md)
+- [Grid 列固定](grid-column-pinning.md)
+- [Grid 集計](grid-summaries.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

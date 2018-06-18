@@ -1,27 +1,28 @@
----
-title: Text - Design System Component
-_description: The Text Component Symbol is used to display non-interactive title or paragraph text.
-_keywords: Design System, Sketch, Component, UI Library, Widgets
+﻿---
+title: Text - デザイン システム コンポーネント
+_description: Text コンポーネント システムは、非インタラクティブなタイトルや段落テキストを表示します。
+_keywords: デザイン システム, Sketch, コンポーネント, UI Library, ウィジェット
+_language: ja
 ---
 
 ## Text
 
-Use the Text Component Symbol to display the content of a title or paragraph string that is not interactive, such as the content of a news article or blog post.
+Text コンポーネント シンボルは、ニュースやブログ ポストなどインタラクティブでない段落文字列のタイトル コンテンツを表示します。
 
-### Text Demo
+### Text デモ
 
 ![](../images/text_demo.png)
 
-### Title and Paragraph
+### Title と Paragraph
 
-Text comes in two distict variants for Titles and for Paragraphs.
+Text には、Titles と Paragraphs のためのバリアントがあります。
 
 ![](../images/text_title.png)
 ![](../images/text_paragraph.png)
 
-### Title Sizes
+### タイトル サイズ
 
-Text Titles come in six preset sizes from the largest H1 to the much smaller **H5** and H6.
+テキスト タイトルは、最小 H6 から最大 H1 の 6 つのプリセット サイズがあります。
 
 ![](../images/text_h1.png)
 ![](../images/text_h2.png)
@@ -30,67 +31,65 @@ Text Titles come in six preset sizes from the largest H1 to the much smaller **H
 ![](../images/text_h5.png)
 ![](../images/text_h6.png)
 
-### Paragraph Sizes
+### 段落サイズ
 
-Text Paragraphs come in three preset sizes: a larger **Body 1**, a smaller Body 2, and a tiny Caption used to annotate images and titles.
+テキスト段落には、ラージ **Body 1**、スモール Body 2、画像やタイトルの注釈に使用する極小キャプションがあります。
 
 ![](../images/text_b1.png)
 ![](../images/text_b2.png)
 ![](../images/text_caption.png)
 
-### Styling
+### スタイル設定
 
-Titles and Paragraphs come with constrained styling flexibility, allowing only to choose from the text weight and color presets available in the Typography portion of the Styling library.
+Titles と Paragraphs は、Styling ライブラリの Typography 部分で使用できるテキスト ウェイトや色プリセットのみから選択できます。
 
 ![](../images/text_styling.png)
 
-## Usage
+## 使用方法
 
-Always choose Paragraph text color that makes a Hyperlink stand out if the two are used together. Avoid using the same color or similar nuances of it and pick consistent Title and Paragraph colors across your complete design. Use the Paragraph Caption size only for one-line annotations and avoid using such tiny font sizes for longer, multi-line strings.
+Hyperlink を複数同時に使用する場合は、Hyperlink を目立つように Paragraph テキスト色を選択します。同じ色や似たような色を使用せずに全体的なデザインの色を統一します。1行注釈のみの段落キャプション サイズを使用し、複数行に及ぶより長い文字列に極小フォントサイズなどは使用しないようにします。
 
-| Do                          | Don't                         |
+| いい例                          | 悪い例                         |
 | --------------------------- | ----------------------------- |
 | ![](../images/text_do1.png) | ![](../images/text_dont1.png) |
 | ![](../images/text_do2.png) | ![](../images/text_dont2.png) |
 
-## Code generation
+## コードの生成
 
-The Paragraph is a small component with a couple of options to allow custom text and appearances.
-The size and style properties are configurable for the Paragraph component. The HTML tag will wrap with a “p” tag regardless of the configuration.
+Paragraph は、テキストと UI をカスタマイズできるオプションのあるコンポーネントです。
+Paragraph コンポーネントのサイズとスタイルのプロパティを設定できます。HTML タグは、設定に関係なく "p" タグとラップします。
 
 > [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Title or Paragraph Text in your design is very likely to result in loss of code generation capability for the Title or Paragraph Text.
+> デザインの Title または Paragraph Text のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Title または Paragraph Text のためのコード生成機能が失われる結果となります。
 
-### Size
+### サイズ
 
-Size is a nested property, which when supplied sets the Title or Paragraph Size.
+Size はネスト プロパティで Title または Paragraph Size.を設定します。
 
 |           |                           |
 | --------- | ------------------------- |
-| Title     | H1, H2, H3, H4, H5, or H6 |
-| Paragraph | Body1, Body2, or Caption  |
+| Title     | H1、H2、H3、H4、H5、または H6 |
+| Paragraph | Body1、Body2、または Caption  |
 
-### Style
+### スタイル設定
 
-The text is configurable with many different typography settings such as left, right, or center alignment. The appearance can be set to three shades of gray, green (success), and warning which are represented by Warn (orange), primary (blue), secondary (ruby), white, black and error (red).
+テキストは、右揃え、左揃え、中央揃えなどさまざまなタイポグラフィで構成可能です。外観は、灰色、緑色 (成功)、警告 (警告) の 3 色の色合いに設定できます。Warn (orange), primary (blue), secondary (ruby), white, black, error (red)。
 
 ### Text
 
-Text is a nested property, which configures the content rendered by the component.
+Text は、ネスト プロパティでコンポーネントで描画されるコンテンツを構成します。
 
-#### Non-Binding
+#### 非バインディング
 
-- Olympic Medals by Country
+- 国別のオリンピック メダル数
 
-#### Non-Binding
+#### 非バインディング
 
-- Olympic Medals for {country}
+- {country} のオリンピック メダル数
 - {olympicChartTitle}
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+コミュニティに参加して新しいアイデアをご提案ください。
 
-Our community is active and always welcoming to new ideas.
-
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

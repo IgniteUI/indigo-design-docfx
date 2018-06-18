@@ -1,70 +1,63 @@
----
-title: Button Group - Design System Component
-_description: The Button Group Component Symbol is used to represent a few simple actions that conceptually belong together. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Button Group - デザイン システム コンポーネント
+_description: Button Group コンポーネント シンボルは、同じコンセプトに属しているシンプルな操作を表すために使用します。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Button Group
 
-Use the Button Group Component to combine the triggers for a few related features into one interface element. It supports both exclusive selection, where only one of the buttons can remain pressed, and multiple selection, where more than one button can remain pressed. The Button Group is visually identical to the [Ignite UI for Angular Button Group Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/buttongroup.html)
+Button Group コンポーネント シンボルは、関連する機能のトリガーを 1 インターフェイス要素として組み合わせます。1 つのボタンのみ押すことができる排他的な選択と 1 つ以上のボタンを押したままにできる複数選択の両方をサポートします。Button Group は、[Ignite UI for Angular Button Group コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/buttongroup.html)と視覚的に同じものです。
 
-### Button Group Demo
+### Button Group デモ
 
 ![](../images/button-group_demo.png)
 
-### Layout
+### レイアウト
 
-The Button Group supports two layout directions: horizontal, where items are laid out left to right, and vertical, where their order is top to bottom.
+Button Group は、2 方向レイアウトをサポートし、左から右の水平方向、上から下の垂直に配置できます。
 
 ![](../images/button-group_horizontal.png)
 ![](../images/button-group_vertical.png)
 
-### Buttons Amount
+### ボタン数
 
-For the majority of scenarios, a Button Group needs between two to four items. If your case requires more than four items, you may want to consider designing a custom toolbar to encompass the rich set of actions you want to provide.
+多くのケースで Button Group に 2 項目 ～ 4 項目が必要になります。4 項目以上必要な場合は、一連のリッチな操作を提供できるカスタム ツールバーをデザインすることを検討してください。
 
 ![](../images/button-group_items2.png)
 ![](../images/button-group_items3.png)
 ![](../images/button-group_items4.png)
 
-### Button Type
+### ボタン タイプ
 
-Each Button within the Button Group contains either **text** or icon and can be set in one of the following states: **default**, disabled, hover, and selected. The selected state comes in three variants that need to reflect the Button position. This is because of the addition of a border that separates the selected button from the adjacent siblings.
+Button Group 内の各 Button には**テキスト**またはアイコンが含まれ、**デフォルト**、無効、ホバー、選択済みの状態で設定できます。選択済みの状態は、選択したボタンを分けるための追加の境界線があり、Button 配置に反映する必要のある 3 種類のバリアントが含まれます。
 
 ![](../images/button-group_text.png)
 ![](../images/button-group_icons.png)
 
-### Styling
+### スタイル設定
 
-The Button Group comes with styling flexibility through the various overrides controlling the background color, as well as the individual buttons' border, background, label, and icon colors.
+Button Group は、さまざまなオーバーライドで背景色、各ボタン境界線、背景、ラベル、アイコン色を制御することにより柔軟にスタイル設定できます。
 
 ![](../images/button-group_styling.png)
 
-## Usage
+## 使用方法
 
-Always use Buttons with consistent style and avoid combining text Buttons with icon Buttons within the same Button Group. Size the Button Group according to its content to avoid leaving too much empty space in the Buttons. Use the Button Group only to display simple and related actions, as it is not suitable for even simple navigation. If you're looking beyond these actions, [Tabs](tabs.md) are much more appropriate.
+Button のスタイルは統一させます。同じ Button グループ内でテキスト Button とアイコン Buttons を組合さないようにします。Button Group のサイズはコンテンツに基づいて変更することにより、Button に空スペースが多く残らないようにします。Button Group は、シンプルで関連のある操作のみの表示に使用します。簡単なナビゲーションにも適していないため、[Tabs](tabs.md) の使用をお勧めします。 
 
-| Do                                  | Don't                                 |
+| いい例                                  | 悪い例                                 |
 | ----------------------------------- | ------------------------------------- |
 | ![](../images/button-group_do1.png) | ![](../images/button-group_dont1.png) |
 | ![](../images/button-group_do2.png) | ![](../images/button-group_dont2.png) |
 | ![](../images/button-group_do3.png) | ![](../images/button-group_dont3.png) |
 
-## Code generation - TODO
+## その他のリソース
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Button Group in your design is very likely to result in loss of code generation capability for the Button Group.
-
-`🕹️DataSource`
-`🕹️Event`
-
-## Additional Resources
-
-Related topics:
+関連トピック:
 
 - [Button](button.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

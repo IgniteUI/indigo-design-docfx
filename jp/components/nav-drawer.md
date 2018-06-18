@@ -1,56 +1,49 @@
----
-title: Navigation Drawer - Design System Component
-_description: The Navigation Drawer Component Symbol is used to design both simple and complex application-level navigations. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+﻿---
+title: Navigation Drawer - デザイン システム コンポーネント
+_description: Navigation Drawer コンポーネント シンボルは、アプリケーション レベルでシンプルおよび複雑なナビゲーションのデザインをサポートします。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_language: ja
 ---
 
 ## Navigation Drawer
 
-Use the Navigation Drawer Component to implement application-level navigation by placing it at the left border of the screen with any number of items, allowing browsing between their associated views. It is usually used in combination with a [Navbar](navbar.md). The Navigation Drawer is visually identical to the [Ignite UI for Angular Navigation Drawer Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/navdrawer.html)
+Navigation Drawer コンポーネント シンボルは、複数の項目と画面左に境界線を配置して関連ビュー間のブラウジングを可能にするアプリケーション レベル ナビゲーションを実装します。通常 [Navbar](navbar.md) と組み合わせて使用します。 Navigation Drawer は、[Ignite UI for Angular Navigation Drawer コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/navdrawer.html)と視覚的に同じものです。
 
-### Navigation Drawer Demo
+### Navigation Drawer デモ
 
 ![](../images/nav-drawer_demo.png)
 
-### Style
+### スタイル
 
-The Navigation Drawer supports a **default** style with icon and label for each item and a mini style with icons only. If your design contains five or less items/views, you may pick between Navigation Drawer and [Bottom Navigation](bottom-nav.md).
+Navigation Drawer は、各項目にアイコンとラベルを含む**デフォルト** スタイルとアイコンのみ含むミニ スタイルがあります。デザインにある項目/ビューが 5 つ以下の場合、Navigation Drawer または [Bottom Navigation](bottom-nav.md) が適しています。
 
 ![](../images/nav-drawer_default.png)
 ![](../images/nav-drawer_mini.png)
 
-### Styling
+### スタイル設定
 
-The Navigation Drawer provides basic styling capabilities achievable through changing the label and icon colors, as well as the active/inactive background colors.
+Navigation Drawer には、ラベルやアイコンの色の変更、アクティブ/インアクティブな背景の色の変更など基本的なスタイル設定機能があります。
 
 ![](../images/nav-drawer_styling.png)
 
-## Usage
+## 使用方法
 
-Navigation Drawer is always used as the main app navigation, therefore, position it from the very top to the very bottom across the whole left edge of the screen and avoid combining it with conflicting app navigation mechanisms such as the Bottom Navigation. Placing a Navigation Drawer on the right edge of the screen is considered inappropriate, as the main navigation should be one of the first things that the user's eyes land on.
+Navigation Drawer は、アプリの主要ナビゲーションに使用するため、画面左端の一番上から一番下に配置します。Bottom Navigation など競合するアプリ ナビゲーション メカニズムと組み合わせないようにします。メイン ナビゲーションをユーザーに最初に表示する必要があるため、Navigation Drawer を画面の右端に配置するのは適していません。
 
-| Do                                | Don't                               |
+| いい例                                | 悪い例                               |
 | --------------------------------- | ----------------------------------- |
 | ![](../images/nav-drawer_do1.png) | ![](../images/nav-drawer_dont1.png) |
 | ![](../images/nav-drawer_do2.png) | ![](../images/nav-drawer_dont2.png) |
 | ![](../images/nav-drawer_do3.png) | ![](../images/nav-drawer_dont3.png) |
 
-## Code generation
+## その他のリソース
 
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Navigation Drawer will reduce the accuracy of code generation for the Navigation Drawer. Do this only if you need to create more items than provided and make sure you keep the `🚫igx-nav-drawer` and `🕹️DataSource` layers intact.
-
-`🕹️DataSource`
-`🕹️Event`
-
-## Additional Resources
-
-Related topics:
+関連トピック:
 
 - [Navbar](navbar.md)
 - [Bottom Navigation](bottom-nav.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
