@@ -6,7 +6,7 @@ _keywords: Design System, Sketch, Component, UI Library, Widgets
 
 ## Text
 
-Use the Text Component Symbol to display the content of a title or paragraph string that is not interactive such as the content of a news article or blog post.
+Use the Text Component Symbol to display the content of a title or paragraph string that is not interactive, such as the content of a news article or blog post.
 
 ### Text Demo
 
@@ -40,13 +40,13 @@ Text Paragraphs come in three preset sizes: a larger **Body 1**, a smaller Body 
 
 ### Styling
 
-Titles and Paragraphs come with constrained styling flexibility allowing only to choose from the text weight and color presets available in the Typography portion of the Styling library.
+Titles and Paragraphs come with constrained styling flexibility, allowing only to choose from the text weight and color presets available in the Typography portion of the Styling library.
 
 ![](../images/text_styling.png)
 
 ## Usage
 
-Always choose Paragraph text color that makes a Hyperlink stand out if the two are used together. Avoid using the same color or similar nuances of it and pick consistent Title and Paragraph colors across your complete design. Use the Paragraph Caption size only for one-line annotations, avoid using such tiny font sizes for longer, multi-line strings.
+Always choose Paragraph text color that makes a Hyperlink stand out if the two are used together. Avoid using the same color or similar nuances of it and pick consistent Title and Paragraph colors across your complete design. Use the Paragraph Caption size only for one-line annotations and avoid using such tiny font sizes for longer, multi-line strings.
 
 | Do                          | Don't                         |
 | --------------------------- | ----------------------------- |
@@ -72,7 +72,7 @@ Size is a nested property, which when supplied sets the Title or Paragraph Size.
 
 ### Style
 
-The text is configurable with many different typography settings such as left, right, or center alignment. The appearance can be set to three shades of gray, green (success), warning aka. Warn (orange), primary (blue), secondary (ruby), white, black and error (red).
+The text is configurable with many different typography settings such as left, right, or center alignment. The appearance can be set to three shades of gray, green (success), and warning which are represented by Warn (orange), primary (blue), secondary (ruby), white, black and error (red).
 
 ### Text
 
