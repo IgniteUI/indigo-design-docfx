@@ -6,8 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Component, Grid Feature
 
 ## Grid Paging
 
-Use the Grid Paging Component Symbol to inform the user about his current posiiton and allow navigation to the previous/next and first/last pages of content for the Grid. Position the Grid Paging immediately below the Grid without any gap between the two.
-The Grid Paging is visually identical to the [Ignite UI for Angular Grid Paging Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid_paging.html)
+Use the Grid Paging Component to inform the user about his current position and allow navigation to the previous/next and first/last pages of content for the Grid. Position the Grid Paging immediately below the Grid without any gap between the two. The Grid Paging is visually identical to the [Ignite UI for Angular Grid Paging Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid_paging.html)
 
 ### Grid Paging Demo
 
@@ -15,7 +14,7 @@ The Grid Paging is visually identical to the [Ignite UI for Angular Grid Paging 
 
 ### Styling
 
-The Grid Paging comes with styling flexibility through the various overrides controling its label and background colors, as well as the available styling for the [Icon Buttons](button.md) used for navigation.
+The Grid Paging comes with styling flexibility through the various overrides controlling its label and background colors, as well as the available styling for the Icon Buttons used for navigation.
 
 ![](../images/grid_paging_styling.png)
 

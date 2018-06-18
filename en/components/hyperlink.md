@@ -6,7 +6,7 @@ _keywords: Design System, Sketch, Component, UI Library, Widgets
 
 ## Hyperlink
 
-Use the Hyperlink Component Symbol to allow the user access additional information related to a styled piece of text in a paragraph such as the mentioning of the Terms of Use or the Privacy Policy in a form.
+Use the Hyperlink Component to allow the user access additional information related to a styled piece of text in a paragraph like the mentioning of the Terms of Use or the Privacy Policy in a form.
 
 ### Hyperlink Demo
 

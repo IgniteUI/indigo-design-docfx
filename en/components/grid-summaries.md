@@ -6,8 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Grid Feature, UI Librar
 
 ## Grid Summaries
 
-Use the Grid Summaries to show aggregated values calculated over all the data in the respective Grid column. This is achievable through the insertion of special cells called Summary at the bottom of the Grid to shape up a tabular area matching the Grid structure but containing a Label and Number containing information about the aggregate value.
-The Grid Paging is visually identical to the [Ignite UI for Angular Grid Paging Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid_paging.html)
+Use the Grid Summaries Component to show aggregated values calculated over all the data in the respective Grid column. This is achievable through the insertion of special cells called Summary at the bottom of the Grid to shape up a tabular area matching the Grid structure but containing a Label and Number containing information about the aggregate value. The Grid Paging is visually identical to the [Ignite UI for Angular Grid Paging Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid_paging.html)
 
 ### Grid Summaries Demo
 
@@ -15,7 +14,8 @@ The Grid Paging is visually identical to the [Ignite UI for Angular Grid Paging 
 
 ### State
 
-The Grid Summary Cell supports the following interactive states: **active** showing a summary Label and Number, inactive showing a grayed out Label and hiding the Number, and unavailable used to fill the gaps when one column has less Summaries than another.
+The Grid Summary Cell supports the following interactive states: **active** which shows a summary Label and Number, inactive which shows a grayed out Label and hides the Number, and unavailable
+which is used to fill the gaps when one column has less Summaries than another.
 
 ![](../images/grid_cell_summary_active.png)
 ![](../images/grid_cell_summary_inactive.png)
@@ -30,7 +30,7 @@ The Grid Summary Cell provides presets for the two generic types of data aggrega
 
 ### Styling
 
-The Grid Summary Cell comes with basic styling flexibility through the various overrides controling its label and number text colors, as well as the cell background color.
+The Grid Summary Cell comes with basic styling flexibility through the various overrides controlling its label and number text colors, as well as the cell background color.
 
 ![](../images/grid_summaries_styling.png)
 

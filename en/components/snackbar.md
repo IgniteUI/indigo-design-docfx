@@ -6,8 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, 
 
 ## Snackbar
 
-Use the Snackbar Component Symbol to show a short notification or provide indication for the most recent action such as adding or deleting a record in a listing, with the option to trigger a simple extra action such as undo.
-The Snackbar is visually identical to the [Ignite UI for Angular Snackbar Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/snackbar.html)
+Use the Snackbar Component to show a short notification or provide indication for the most recent action such as adding or deleting a record in a listing, with the option to trigger a simple extra action such as undo. The Snackbar is visually identical to the [Ignite UI for Angular Snackbar Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/snackbar.html)
 
 ### Snackbar Demo
 
@@ -15,7 +14,7 @@ The Snackbar is visually identical to the [Ignite UI for Angular Snackbar Compon
 
 ### Styling
 
-The Snackbar comes with constrained styling flexibility allowing only to change the text color of its action button.
+The Snackbar comes with constrained styling flexibility, allowing only to change the text color of its action button.
 
 ![](../images/snackbar_styling.png)
 
@@ -38,8 +37,7 @@ When colors or fonts are specified for the Snackbar, the Snackbar HTML element w
 
 ### Text Binding
 
-There are Text properties for the Message and Button. When supplied they can be bound to a nested or non-nested data item.
-If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+There are Text properties for the Message and Button. When supplied they can be bound to a nested or non-nested data item. If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
 
 #### Example Not Nested
 

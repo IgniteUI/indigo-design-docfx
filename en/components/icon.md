@@ -6,8 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, 
 
 ## Icon
 
-Use the Icon Component Symbol to provide subtle graphical information to the user that in some cases may also trigger simple interactions such as liking a product, saving an article for later etc. You may choose between the already provided [Material Icons](https://material.io/tools/icons/) or add the ones you need to the list of available ones in the Styling library.
-The Icon is visually identical to the [Ignite UI for Angular Icon Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/icon.html)
+Use the Icon Component to provide subtle graphical information to the user that, in some cases, may also trigger simple interactions such as liking a product, saving an article for later, etc. You may choose between the already provided [Material Icons](https://material.io/tools/icons/) or add the ones you need to the list of available ones in the Styling library. The Icon is visually identical to the [Ignite UI for Angular Icon Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/icon.html)
 
 ### Icon Demo
 
@@ -32,7 +31,7 @@ The Icon comes with styling flexibility through the overrides for selectable gra
 
 ## Usage
 
-Carefully pick the Icon color to assure good contrast with the background and definitely avoid similar shades of the same color, or combinations that create chromatic aberrations.
+Carefully pick the Icon color to assure good contrast with the background and definitely avoid similar shades of the same color or combinations that create chromatic aberrations.
 
 | Do                          | Don't                         |
 | --------------------------- | ----------------------------- |
