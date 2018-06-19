@@ -102,10 +102,15 @@ There are a few things to be aware of however.  This iteration of the code gener
 
 ## Additional Resources
 
+Related topics:
+
+- [Category Chart](../components/chart-category.md)
+  <div class="divider--half"></div>
+
+External Links:
+- [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular)
+- [Angular Routing & Navigation](https://angular.io/guide/router)
+
 Our community is active and always welcoming to new ideas.
 
 - [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
-
-External Links
-- [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular)
-- [Angular Routing & Navigation](https://angular.io/guide/router)
