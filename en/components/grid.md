@@ -34,7 +34,7 @@ The Grid provides three types of cells serving different data visualization purp
 ![](../images/grid_cell_body.png)
 ![](../images/grid_cell_summary.png)
 
-#
+### Items (Header Cell)
 
 The Grid Header Cell supports the following layout combinations through the Items override: **No Icon** which shows only a header text, Icon which shows header text and filtering icon, and Icons which shows header text, filtering icon, and sorting icon.
 
