@@ -46,20 +46,18 @@ When using an Avatar with initials or icons, pick their colors carefully to assu
 | ----------------------------- | ------------------------------- |
 | ![](../images/avatar_do1.png) | ![](../images/avatar_dont1.png) |
 
-## Code generation
+## Code Generation
 
-When colors are specified for the Avatar, the Avatar HTML element will be wrapped in div. This is required by browsers to style a nested component (a component within another component).
+When colors or fonts are specified for the Avatar, the Avatar HTML element will be wrapped in div. This is required by browsers to style a nested component (a component within another component).
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Avatar in your design is very likely to result in loss of code generation capability for the Avatar.
 
-### Data Property Binding
+### Data Bindings
 
-When supplied, the `🕹️DataProperty` binding can be non-nested or nested.
+Data bindings are specified by using curly brace syntax, example: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
 
-If the property is a nest property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Example Not Nested
+#### Not Nested
 
 ```PseudoCode
 Customer {
@@ -69,7 +67,7 @@ Customer {
 DataProperty would be: {imageName}
 ```
 
-#### Example Nested
+#### Nested
 
 ```PseudoCode
 Profile {
@@ -85,13 +83,13 @@ DataProperty would be: {profile.imageName}
 
 ### Event Property
 
-When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an Angular click signature in the HTML.
+When supplied, this property is used to create a method in the component TypeScript and add an Angular click signature in the HTML. When supplied the event must be specified using the curly braces format: {onEventName}
 
-|                 |                                                                                                                                                                                                                                         |
-| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Picture Avatar  | `🕹️DataProperty` – when supplied, this property can be used to data bind the image source. When provided, it will be the name of the property on the data object specified by the model object name provided in the generation request. |
-| Icon Avatar     | `🕹️DataProperty` – this property is ignored.                                                                                                                                                                                            |
-| Initials Avatar | `🕹️DataProperty` – when supplied, this property is used to databind the initials property.                                                                                                                                              |
+|                 |                                                                                                                                                                                                                                                                                                                             |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Picture Avatar  | `🕹️DataProperty` – when supplied, this property can be used to data bind the image source. When provided, it will be the name of the property on the data object specified by the model object name provided in the generation request.                                                                                     |
+| Icon Avatar     | `🕹️DataProperty` – this property is ignored.                                                                                                                                                                                                                                                                                |
+| Initials Avatar | `🕹️DataProperty` – when supplied, this property is used to databind the initials property. When provided, it will be the name of the property on the data object specified by the model object name provided in the generation request. The Avatar initials only renders two characters, this is a limitation of Ignite UI. |
 
 ## Additional Resources
 

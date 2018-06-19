@@ -55,37 +55,46 @@ Always choose Paragraph text color that makes a Hyperlink stand out if the two a
 
 ## Code generation
 
-The Paragraph is a small component with a couple of options to allow custom text and appearances.
-The size and style properties are configurable for the Paragraph component. The HTML tag will wrap with a “p” tag regardless of the configuration.
+When colors or fonts are specified for the Title or Paragraph, they are applied directly to a CSS class that is applied to the title or paragraph element.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Title or Paragraph Text in your design is very likely to result in loss of code generation capability for the Title or Paragraph Text.
 
-### Size
+### Data Bindings
 
-Size is a nested property, which when supplied sets the Title or Paragraph Size.
+Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
 
-|           |                           |
-| --------- | ------------------------- |
-| Title     | H1, H2, H3, H4, H5, or H6 |
-| Paragraph | Body1, Body2, or Caption  |
+#### Not Nested
 
-### Style
+```PseudoCode
+Customer {
+    imageName: String;
+}
 
-The text is configurable with many different typography settings such as left, right, or center alignment. The appearance can be set to three shades of gray, green (success), and warning which are represented by Warn (orange), primary (blue), secondary (ruby), white, black and error (red).
+DataProperty would be: {imageName}
+```
+
+#### Nested
+
+```PseudoCode
+Profile {
+    imageName: String;
+}
+
+Customer {
+    profile: Profile;
+}
+
+DataProperty would be: {profile.imageName}
+```
 
 ### Text
 
-Text is a nested property, which configures the content rendered by the component.
+The Text property may contain text, binding, or a combination of the two, examples:
 
-#### Non-Binding
-
-- Olympic Medals by Country
-
-#### Non-Binding
-
-- Olympic Medals for {country}
-- {olympicChartTitle}
+- Settings
+- {settingsLabel}
+- Important {labelText}
 
 ## Additional Resources
 

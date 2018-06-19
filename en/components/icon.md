@@ -37,13 +37,19 @@ Carefully pick the Icon color to assure good contrast with the background and de
 | --------------------------- | ----------------------------- |
 | ![](../images/icon_do1.png) | ![](../images/icon_dont1.png) |
 
-## Code generation
+## Code Generation
+
+When colors are specified for the Icon, the Icon HTML element will be wrapped in div. This is required by browsers to style a nested component (a component within another component).
+
+> [!INFO]
+> Important: There is an Icon Component in the NBL Components library and in the NBL Styles library. Only the Icon in the NBL Component library is rendered.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Icon in your design is very likely to result in loss of code generation capability for the Icon.
 
-`🕹️DataSource`
-`🕹️Event`
+### Event Property
+
+When supplied, this property is used to create a method in the component TypeScript and add an Angular click signature in the HTML. When supplied the event must be specified using the curly braces format: {onEventName}
 
 ## Additional Resources
 

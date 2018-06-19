@@ -54,6 +54,10 @@ The second approach describes the addition of file-specific colors, not availabl
 4.  Finally, let's do our housekeeping and remove the non-symbol rectangle with teal color and we are all set. The color you have added should appear as a local symbol in the list of colors under the Document category. It will also show up for the color overrides under `Document/Colors` for all instances of Components and Patterns in the current project, where color is applicable.
     ![](../images/colors_local3.png)
 
+## Code generation
+
+A color style object when added to a Sketch drawing is rendered as an HTML div with the corresponding color and size.
+
 ## Additional Resources
 
 Related topics:

@@ -52,42 +52,48 @@ In a Circular Bar, always use the actual value for the text label and, when addi
 | ![](../images/progress_do1.png) | ![](../images/progress_dont1.png) |
 | ![](../images/progress_do2.png) | ![](../images/progress_dont2.png) |
 
-## Code generation
+## Code Generation
 
-When colors or fonts are specified for the Progress, the Circular or Linear Bar HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
+When colors or fonts are specified for the Circular or Linear Bar, the Circular or Linear Bar HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Circular or Linear Bar in your design is very likely to result in loss of code generation capability for the Circular or Linear Bar.
 
-### Data Property Binding
+### Data Bindings
 
-When supplied, the `🕹️DataProperty` binding can be non-nested or nested. This property data binds the Circular or Linear Bar’s progress value. The progress value specifies how much the progress is completed.
+Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example: Admin: {isAdmin} . Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
 
-If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Example Not Nested
+#### Not Nested
 
 ```PseudoCode
 Customer {
-imageName: String;
+  imageName: String;
 }
 
 DataProperty would be: {imageName}
 ```
 
-#### Example Nested
+#### Nested
 
 ```PseudoCode
 Profile {
-imageName: String;
+  imageName: String;
 }
 
 Customer {
-profile: Profile;
+  profile: Profile;
 }
 
 DataProperty would be: {profile.imageName}
 ```
+
+### Data Property
+
+When supplied, the `🕹️DataProperty` value is used to set up a data binding to the Circular or Linear bar value property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided in the generation request.
+
+### State
+
+When the State property is off or disabled the control is not rendered.
 
 ### Linear Bar Text Style
 
@@ -95,17 +101,11 @@ The Linear Bar Text Style is used to control the alignment and color of the text
 
 ### Linear Bar Text
 
-The Linear Bar Text may contain binding and non-binding. Examples:
+The Text property may contain text, binding, or a combination of the two, examples:
 
-#### Non-Binding
-
-Downloading…
-
-#### Binding
-
-Download Progress: {progress}%
-
-Same rules apply as the Data Property Binding section above regarding nested and non-nested properties.
+- Settings
+- {settingsLabel}
+- Important {labelText}
 
 ## Additional Resources
 

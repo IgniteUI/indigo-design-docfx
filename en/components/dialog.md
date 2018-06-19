@@ -34,49 +34,56 @@ When designing a custom content Dialog, avoid placing buttons in the content sec
 | ----------------------------- | ------------------------------- |
 | ![](../images/dialog_do1.png) | ![](../images/dialog_dont1.png) |
 
-## Code generation
+## Code Generation
 
 When colors or fonts are specified for the Dialog, the Dialog HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component). Currently changing of the button background color, button text style isn’t supported.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Dialog in your design is very likely to result in loss of code generation capability for the Dialog.
 
-### Text Binding
+### Data Bindings
 
-There are Text properties for the Title, Message, Left Button, and Right Button. When supplied they can be bound to a nested or non-nested data item.
-If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
 
-#### Example Not Nested
+#### Not Nested
 
 ```PseudoCode
 Customer {
-titleText: string;
+  imageName: String;
 }
 
-Text would be: {titleText}
+DataProperty would be: {imageName}
 ```
 
-#### Example Nested
+#### Nested
 
 ```PseudoCode
 Profile {
-titleText: number;
+  imageName: String;
 }
 
 Customer {
-profile: Profile;
+  profile: Profile;
 }
 
-Text would be: {profile. titleText }
+DataProperty would be: {profile.imageName}
 ```
+
+### Text
+
+There are four Text properties for the Dialog, Title, Message, Left Button, and Right Button. These properties may contain text, binding, or a combination of the two, examples:
+
+- Settings
+- {settingsLabel}
+- Important {labelText}
 
 ### Buttons
 
-There are Left and Right buttons which can be set Flat or Raised. Currently Text Style and Background on the Buttons are ignored.
+There are Left and Right buttons. Each Button has a Type field that can be set Flat or Raised. Currently Text Style and Background on the Buttons are ignored.
 
 ### Event
 
-There is no event property for this control for the user to set. However, the onLeftButtonSelect and onRightButtonSelect events are automatically outputted when the corresponding button is rendered.
+There is no event property for this control for the user to set. Instead, the onLeftButtonSelect and onRightButtonSelect events are automatically outputted when the corresponding button is rendered.
 
 ## Additional Resources
 
