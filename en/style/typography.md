@@ -40,6 +40,46 @@ Once you update the `primary` and `secondary` colors as the first step for themi
 > [!INFO]
 > If you want to go one step further and e.g. use `grays.700` instead of `grays.600` besides following the process above to update the `grays.600` secton, you should also update the names of the affected layers to `Typography/.../grays.700`.
 
+## Code Generation
+
+A typography style object when added to a Sketch drawing is rendered as an HTML div with the corresponding text, color and size.
+
+### Data bindings
+
+Data bindings are specified by using curly brace syntax, example: {isAdmin}.Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+
+#### Not Nested
+
+```PseudoCode
+Customer {
+  imageName: String;
+}
+
+DataProperty would be: {imageName}
+```
+
+#### Nested
+
+```PseudoCode
+Profile {
+  imageName: String;
+}
+
+Customer {
+  profile: Profile;
+}
+
+DataProperty would be: {profile.imageName}
+```
+
+### Text
+
+The Text property may contain text, binding, or a combination of the two, examples:
+
+- Settings
+- {settingsLabel}
+- Important {labelText}
+
 ## Additional Resources
 
 Related topics:

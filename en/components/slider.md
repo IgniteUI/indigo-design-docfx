@@ -50,11 +50,50 @@ The Slider track color should always have a higher emphasis than the track base 
 
 ## Code generation
 
+When colors are specified for the Slider, the Slider HTML element will be wrapped in div. This is required by browsers to style a nested component (a component within another component).
+
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Slider in your design is very likely to result in loss of code generation capability for the Slider.
 
-`🕹️DataSource`
-`🕹️Event`
+### Data Bindings
+
+Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+
+#### Not Nested
+
+```PseudoCode
+Customer {
+    imageName: String;
+}
+
+DataProperty would be: {imageName}
+```
+
+#### Nested
+
+```PseudoCode
+Profile {
+    imageName: String;
+}
+
+Customer {
+    profile: Profile;
+}
+
+DataProperty would be: {profile.imageName}
+```
+
+### Reactive Forms
+
+When a model object name and `🕹️DataProperty` are provided, a TypeScript ngOnInit method with be populated with form builder code to create the Reactive Forms form. The `🕹️DataProperty` will be used to populate the formControlName property on the slider control.
+
+### DataProperty
+
+When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using Angular Reactive Forms to the slider value property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided in the generation request. For the one-thumb slider, the `🕹️DataProperty` must be a number property when supplied. For the two-thumb slider, the `🕹️DataProperty` must be an object or class that has a lower and upper property when supplied.
+
+### State
+
+When the State is disabled, or an individual part of the slider is not visible, the control is not rendered.
 
 ## Additional Resources
 

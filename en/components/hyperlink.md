@@ -32,49 +32,61 @@ Always choose a Hyperlink text color that makes it stand out in a paragraph. Avo
 | -------------------------------- | ---------------------------------- |
 | ![](../images/hyperlink_do1.png) | ![](../images/hyperlink_dont1.png) |
 
-## Code generation
+## Code Generation
 
 When colors or fonts are specified for the Hyperlink, they are applied directly to a CSS class that is applied to the hyperlink element.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Hyperlink in your design is very likely to result in loss of code generation capability for the Hyperlink.
 
-### LinkURL
+### Data Bindings
 
-When supplied, the LinkURL binding can be non-nested or nested. This property data binds the Hyperlink’s href. The href specifies the link to navigate to when the Hyperlink is clicked.
-If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+Data bindings are specified by using curly brace syntax, example: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
 
-#### Example Not Nested
+#### Not Nested
 
 ```PseudoCode
 Customer {
-url: string;
+  imageName: String;
 }
 
-LinkURL would be: {url}
+DataProperty would be: {imageName}
 ```
 
-#### Example Nested
+#### Nested
 
 ```PseudoCode
 Profile {
-url: string;
+  imageName: String;
 }
 
 Customer {
-profile: Profile;
+  profile: Profile;
 }
 
-LinkURL would be: {profile.url}
+DataProperty would be: {profile.imageName}
 ```
-
-### Text
-
-When supplied the Text property is used to fill in the text to display for the Hyperlink.
 
 ### Event Property
 
-When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an Angular click signature in the HTML.
+When supplied, this property is used to create a method in the component TypeScript and add an Angular click signature in the HTML. When supplied the event must be specified using the curly braces format: {onEventName}.
+
+### LinkURL
+
+The LinkURL accepts a URL or a binding. When supplied these values will be assigned to the href property on the HTML control.
+
+- Example URL: http://www.infragistics.com
+- Example binding: {companyWebsite}
+
+### Text
+
+The Text property may contain text, binding, or a combination of the two, examples:
+
+- Settings
+- {settingsLabel}
+- Important {labelText}
+
+When supplied the Text property is used to fill in the text to display for the Hyperlink.
 
 ## Additional Resources
 

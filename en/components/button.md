@@ -45,10 +45,56 @@ When the content of a Button contains a label, it must be uppercase and with a t
 | ![](../images/button_do2.png) | ![](../images/button_dont2.png) |
 | ![](../images/button_do3.png) | ![](../images/button_dont3.png) |
 
-## Code generation - TODO
+## Code Generation
+
+When colors or fonts are specified for the Button, the Button HTML element will be wrapped in div. This is required by browsers to style a nested component (a component within another component).
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Button in your design is very likely to result in loss of code generation capability for the Button.
+
+### Data Bindings
+
+Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+
+#### Not Nested
+
+```PseudoCode
+Customer {
+  imageName: String;
+}
+
+DataProperty would be: {imageName}
+```
+
+#### Nested
+
+```PseudoCode
+Profile {
+  imageName: String;
+}
+
+Customer {
+  profile: Profile;
+}
+
+DataProperty would be: {profile.imageName}
+```
+
+### Event Property
+
+When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an Angular click signature in the HTML. When supplied the event must be specified using the curly braces format: {onEventName}.
+
+### Sketch Elevations
+
+Button elevation changes in Sketch drawings are not rendered during code generation. Each button type has a default elevation that will be applied by the Ignite UI Component. Currently, this is a known limitation of the Ignite UI for Angular product that will be resolved in the upcoming releases.
+
+### Text
+
+The Text property may contain text, binding, or a combination of the two, examples:
+
+- Settings
+- {settingsLabel}
+- Important {labelText}
 
 `🕹️DataSource`
 `🕹️Event`

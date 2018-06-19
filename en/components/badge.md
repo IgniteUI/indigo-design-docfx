@@ -38,46 +38,60 @@ Use the Badge to "stamp" another piece of UI, such as an Avatar or a text title 
 | ---------------------------- | ------------------------------ |
 | ![](../images/badge_do1.png) | ![](../images/badge_dont1.png) |
 
-## Code generation
+## Code Generation
 
 When colors or fonts are specified for the Badge, the Badge HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Badge in your design is very likely to result in loss of code generation capability for the Badge.
 
-### Data Property Binding
+### Data Bindings
 
-When supplied, the `🕹️DataProperty` binding can be non-nested or nested. This property data binds the Badge’s value. The value specifies the text displayed in the badge. When the type of the Badge is set to Icon the `🕹️DataProperty` is ignored.
+Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
 
-If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Example Not Nested
+#### Not Nested
 
 ```PseudoCode
 Customer {
-userRank: number;
+  imageName: String;
 }
 
-DataProperty would be: {userRank}
+DataProperty would be: {imageName}
 ```
 
-#### Example Nested
+#### Nested
 
 ```PseudoCode
 Profile {
-userRank: number;
+  imageName: String;
 }
 
 Customer {
-profile: Profile;
+  profile: Profile;
 }
 
-DataProperty would be: {profile.userRank}
+DataProperty would be: {profile.imageName}
 ```
 
 ### Event Property
 
-When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an Angular click signature in the HTML.
+When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an Angular click signature in the HTML. When supplied the event must be specified using the curly braces format: {onEventName}.
+
+### Data Property
+
+When supplied, the `🕹️DataProperty` value is used to set up a data binding to the badge value property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided in the generation request. When the badge type is Icon, the `🕹️DataProperty` is ignored.
+
+### Type
+
+Determines if the badge is a number/text or an icon badge.
+
+### Text
+
+When the Type is set to Number the following is applied:
+
+- If a `🕹️DataProperty` is supplied the value will be data bound to the specified property.
+- If Text has a data binding, the value will be data bound to the specified property.
+- If Text has a value, the value will be set to the text.
 
 ## Additional Resources
 

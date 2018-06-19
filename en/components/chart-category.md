@@ -43,40 +43,44 @@ Even though you might need to combine different types of series in the same char
 | ------------------------------------- | --------------------------------------- |
 | ![](../images/chart_category_do1.png) | ![](../images/chart_category_dont1.png) |
 
-## Code generation
+## Code Generation
 
-The Category Chart is a simple to use component with few options to set in order to get working.
+The Category Chart is a simple to use component requiring only a few properties to be set.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Category Chart in your design is very likely to result in loss of code generation capability for the Category Chart.
 
-### Data Property Binding
+### Data Bindings
 
-When supplied, the `🕹️DataSource` property binding can be non-nested or nested. This property data binds to the 'dataSource' Input on the Category Chart component so it can render the data in chart form.
+Data bindings are specified by using curly brace syntax, example: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
 
-#### Example Not Nested
+#### Not Nested
 
 ```PseudoCode
 Customer {
-chartData: object[];
+    imageName: String;
 }
 
-DataSource would be: {chartData}
+DataProperty would be: {imageName}
 ```
 
-#### Example Nested
+#### Nested
 
 ```PseudoCode
 Profile {
-chartData: object[];
+    imageName: String;
 }
 
 Customer {
-profile: Profile;
+    profile: Profile;
 }
 
-DataSource would be: {profile.chartData}
+DataProperty would be: {profile.imageName}
 ```
+
+### Data Source
+
+When supplied, the `🕹️DataSource` property value is used to set up a binding to the chart dataSource property. Without a `🕹️DataSource` and valid data in the data source, the Category Chart cannot render at runtime.
 
 ### Chart Dimensions
 
@@ -86,20 +90,17 @@ width=”300px” or width=”100%”
 
 ### Chart Type
 
-When supplied, it configures the chart to use the provided series type.
+Configures the chart to use the provided series type. When Type is None, the chart will not render.
 
 ### Chart Title
 
-When supplied, it sets the title of the chart. The title may contain binding and non-binding text. Examples:
+The Title property may contain text, binding, or a combination of the two, examples:
 
-#### Non-Binding
+- Settings
+- {settingsLabel}
+- Important {labelText}
 
-- Olympic Medals by Country
-
-#### Binding
-
-- Olympic Medals for {country}
-- {olympicChartTitle}
+The Title is optional.
 
 ## Additional Resources
 

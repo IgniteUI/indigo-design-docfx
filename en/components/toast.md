@@ -35,40 +35,52 @@ The Toast should always be centrally aligned on the horizontal and other placeme
 | ![](../images/toast_do1.png) | ![](../images/toast_dont1.png) |
 | ![](../images/toast_do2.png) | ![](../images/toast_dont2.png) |
 
-## Code generation
+## Code Generation
 
-When colors or fonts are specified for the Toast, the Toast HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
+When colors are specified for the Toast, the Toast HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Toast in your design is very likely to result in loss of code generation capability for the Toast.
 
-### Text/Data Property Binding
+### Data Bindings
 
-There are Text properties for the Message. When supplied, they can be bound to a nested or non-nested data item. If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
 
-#### Example Not Nested
+#### Not Nested
 
 ```PseudoCode
 Customer {
-messageText: string;
+    imageName: String;
 }
 
-Text would be: { messageText }
+DataProperty would be: {imageName}
 ```
 
-#### Example Nested
+#### Nested
 
 ```PseudoCode
 Profile {
-messageText: number;
+    imageName: String;
 }
 
 Customer {
-profile: Profile;
+    profile: Profile;
 }
 
-Text would be: {profile. messageText }
+DataProperty would be: {profile.imageName}
 ```
+
+### Data Property
+
+When supplied, the `🕹️DataProperty` value is used to set up a data binding to the toast text property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided in the generation request. When supplied, this value overrides the Text property.
+
+### Text
+
+When supplied, the Text property may contain text, binding, or a combination of the two, examples:
+
+- Settings
+- {settingsLabel}
+- Important {labelText}
 
 ## Additional Resources
 

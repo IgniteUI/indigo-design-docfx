@@ -30,42 +30,50 @@ The Snackbar always appears on top of other content, so avoid placing on top of 
 
 ## Code generation
 
-When colors or fonts are specified for the Snackbar, the Snackbar HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
+When colors are specified for the Snackbar, the Snackbar HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Snackbar in your design is very likely to result in loss of code generation capability for the Snackbar.
 
-### Text Binding
+### Data Bindings
 
-There are Text properties for the Message and Button. When supplied they can be bound to a nested or non-nested data item. If the property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
 
-#### Example Not Nested
+#### Not Nested
 
 ```PseudoCode
 Customer {
-messageText: string;
+    imageName: String;
 }
 
-Text would be: { messageText }
+DataProperty would be: {imageName}
 ```
 
-#### Example Nested
+#### Nested
 
 ```PseudoCode
 Profile {
-messageText: number;
+    imageName: String;
 }
 
 Customer {
-profile: Profile;
+    profile: Profile;
 }
 
-Text would be: {profile. messageText }
+DataProperty would be: {profile.imageName}
 ```
 
 ### Event
 
-When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an onAction signature in the HTML of the Snackbar.
+When supplied the `🕹️Event` Event property is used to create a method in the component TypeScript and add an onAction signature in the HTML of the Snackbar. When supplied the event must be specified using the curly braces format: {onEventName}
+
+### Text
+
+There are Text properties for the Message and Button. These properties may contain text, binding, or a combination of the two, examples:
+
+- Settings
+- {settingsLabel}
+- Important {labelText}
 
 ## Additional Resources
 
