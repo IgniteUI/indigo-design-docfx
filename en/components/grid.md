@@ -1,6 +1,6 @@
 ---
 title: Grid - Design System Component
-_description: The Grid Component Symbol provides means to diplay and interact with high-quantities of data structured in a tabular fashion. 
+_description: The Grid Component Symbol provides means to display and interact with high-quantities of data structured in a tabular fashion. 
 _keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
 ---
 
