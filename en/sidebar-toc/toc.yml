@@ -100,11 +100,6 @@
   href: ../patterns/file-upload.md
 - name: Forms
   href: ../patterns/form.md
-#   new: true
-#     items:
-#       - name: Login
-#         href: ../patterns/login.md
-#         new: false
 - name: Gallery
   href: ../patterns/gallery.md
 - name: Image Manipulation
