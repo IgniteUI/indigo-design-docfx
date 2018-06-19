@@ -1,3 +1,9 @@
+---
+title: What to do after code generation
+_description: Changes developers need to make to their application after code generation.
+_keywords: Design System, Code Generation, Ignite UI for Angular, Component, UI Library, Widgets, Routing
+---
+
 # What to do after code generation
 
 ## Introduction
@@ -93,3 +99,13 @@ If you used the Infragistics VS Code Extension to update your project this will 
 The [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular) controls that are generated will visually look the same as the Sketch versions.  Any color changes made in Sketch will be generated as you would expect.  Developers will also have access to all the generated code, including SCSS, so styling changes can be made post-generation at any time.  Just keep in mind that if you need to regenerate components, any developer changes may be overriden.  The Infragistics VS Code Extension will prompt you about any files that are about to be overriden as a final precaution.
 
 There are a few things to be aware of however.  This iteration of the code generator currently does not apply any margins or padding to elements so spacing and positioning of elements may not match exactly with what is depicted in the Sketch file.  However we are working to improve this so keep an eye out for future updates.  For now developers can go into the generated SCSS and HTML and make changes to control positioning and spacing.
+
+## Additional Resources
+
+Our community is active and always welcoming to new ideas.
+
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+
+External Links
+- [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular)
+- [Angular Routing & Navigation](https://angular.io/guide/router)
