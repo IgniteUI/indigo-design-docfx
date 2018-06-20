@@ -33,7 +33,7 @@ In order to change the typeface, hold the `command` key and drag across the whol
 
 ### Changing colors of typography
 
-Once you update the `primary` and `secondary` colors as the first step for theming your applications, you will see that the text colors will not update automatically. In order to update the text colors as well, hold the `command` key and drag across the whole `primary` or `secondary` secton. This will select the text layers (otherwise you'll select the artboards). Now change the text color to your color of choice and after repeating this process for all necessary colors your theme will be up to speed.
+Once you update the `primary` and `secondary` colors as the first step for theming your applications, you will see that the text colors will not update automatically. In order to update the text colors as well, hold the `command` key and drag across the whole `primary` or `secondary` section. This will select the text layers (otherwise you'll select the artboards). Now, change the text color to your color of choice and, after repeating this process for all necessary colors, your theme will be up to speed.
 
 ![](../images/typography_primary.png)
 
