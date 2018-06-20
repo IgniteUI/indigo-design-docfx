@@ -1,14 +1,15 @@
+﻿---
+title: スタイル設定の概要 - デザイン システム スタイリング
+_description: Styling Library は、Components と Patterns 両方のテーマを定義するために必要な項目がすべて含まれます。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, UI ライブラリ, 色, パレット
+_language: ja
 ---
-title: Styling Overview - Design System Styling
-_description: The Styling Library contains everything for you to be able to define themes for both Components and Patterns.
-_keywords: Design System, Sketch, Ignite UI for Angular, UI Library, Colors, Palettes
----
 
-## The Theme Concept
+## テーマ コンセプト
 
-All Components themselves map to Ignite UI for Angular components. The theming engine of Infragistics' Angular product, through powerful SASS functions and mixins, allows for the creation of custom color themes that can restyle the whole product in just few lines of code.
+すべてのコンポーネントは、Ignite UI for Angular コンポーネントにマップします。Infragistics Angular 製品のテーマ エンジンは、パワフルな SASS 機能と mixins でカスタム色テーマの作成が可能で最小限のコードで製品全体のスタイルを変更できます。
 
-With the Sketch libraries, you're able to modify the NBL-Styling library to achieve the same results for both the Components and Patterns.
+Sketch ライブラリで NBL スタイル ライブラリを変更して Components と Patterns と同じ結果となります。
 
 ![](../images/theme_overview_default.png)
 
@@ -16,18 +17,18 @@ With the Sketch libraries, you're able to modify the NBL-Styling library to achi
 
 ![](../images/theme_overview_vibrant.png)
 
-## NBL-Styling
+## NBL-スタイリング
 
-NBL-Styling is the defacto representation of the theming engine. It is separated into four parts represented as different pages in the library: Icons, Colors, Typography and Elevations.
+NBL- テーマ エンジンの実際の表示です。4 つ (Icons、Colors、Typography、Elevations) に分かれてライブラリの異なるページとして表示されます。
 
-- [Material Icons](material-icons.md) - a collection of 100+ Material Icons, which you can easily extend
-- [Colors](colors.md) - a palette consisting of primary, secondary and special colors, as well as shades of gray and levels of opacity
-- [Typography](typography.md) - a collection of generic and component-specific text styles
-- [Elevation](elevation.md) - the familiar set of 24 shadows used in [Material Design](https://material.io/design/environment/elevation.html) based on umbra, penumbra, and ambient shadow colors.
+- [マテリアル アイコン](material-icons.md) - 100 個以上のマテリアル アイコンのコレクションは簡単に拡張できます。 
+- [Colors](colors.md) - パレットは、プライマリ、セカンダリ、特殊な色、灰色の陰影、不透明度で構成されます。
+- [Typography](typography.md) - ジェネリックとコンポーネント固有のテキスト スタイルのコレクション。
+- [Elevation](elevation.md) - [マテリアル デザイン](https://material.io/design/environment/elevation.html)で使用されるアンブラ、ペナンブラ、アンビエント、シャドウをベースにした 24 シャドウのセット。
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Material Icons](material-icons.md)
 - [Colors](colors.md)
@@ -35,6 +36,6 @@ Related topics:
 - [Elevation](elevation.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

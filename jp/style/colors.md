@@ -1,70 +1,71 @@
----
-title: Colors - Design System Styling
-_description: The Colors Symbols in Styling are the go to place for setting up a theme in Indigo Design. 
-_keywords: Design System, Sketch, Ignite UI for Angular, UI Library, Colors, Palettes
+﻿---
+title: 色 - デザイン システム スタイリング
+_description: スタイリングの色シンボルは、Indigo Design のテーマを設定できます。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, UI ライブラリ, 色, パレット
+_language: ja
 ---
 
 ## Colors
 
-Use Colors to set up your theme's colors - `primary`, `secondary`, `success`, `warn`, `error`, `info`. The way Colors are set up in the Styling library is identical to the [Ignite UI for Angular Themes](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes.html).
+Colors はテーマ色 (`primary`、`secondary`、`success`、`warn`、`error`、`info`) を設定します。Styling ライブラリで Colors を設定する方法は、[Ignite UI for Angular Themes](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes.html) と同じです。
 
 ![](../images/colors_palette.png)
 
-### Palette Generation
+### パレット生成
 
-To change the primary color, navigate to the `Colors` page in the Sketch file and change the `Primary 500` symbol to a color of your choice. You will immediately see that the whole primary palette update instantly. The same palette generation is available for the secondary color.
+プライマリ カラーを変更するには、Sketch ファイルの `Colors` ページに移動し、`Primary 500` シンボルを適切な色に変更します。プライマリ パレット全体が直ちに更新されます。同じパレット生成が二次色にも使用できます。
 
 ![](../images/colors_generation.png)
 
 > [!INFO]
-> Since the text colors are controlled by the `Typography` to fully update the default theme, you also need to manually change the colors in the `Typography` page as well. Once you change your `primary` color, make sure you change the `Primary` section in Typography to the very same color. The exact steps to achieve this can be found in [Typography](typography.md).
+> テキスト色は、デフォルト テーマをすべて更新する際に `Typography` で制御されるため、`Typography` ページの色を手動で変更する必要があります。プライマリ カラーを変更後、Typography の `Primary` セクションを同じ色に変更してください。手順の詳細は、[Typography](typography.md) をご確認ください。
 
-### Adding More Colors
+### 色の追加
 
-In the cases where one needs more colors, besides the ones in the palette, it is also possible to add custom colors and there are two approaches for doing so.
+更にi色が必要な場合、パレット以外にカスタム色を追加することも可能で 2 通りの方法があります。
 
-#### Global
+#### グローバル
 
-If you want your added colors to be available across all the projects that use the libraries follow these simple steps:
+ライブラリを使用するすべてのプロジェクトで追加した色を使用する場合、次の手順を使用します。
 
-1.  Open the Styling library, navigate to the `Colors` page and zoom to the empty `Custom` section underneath the `black`, `white` and `transparent` row of color symbols.
+1.  Styling ライブラリを開き、`Colors` へ移動して色シンボルの `black`/`white`/`transparent` の行の下の空の `Custom` セクションにズームします。
     ![](../images/colors_custom0.png)
 
-2.  Select the `Colors/black` symbol, and while holding the `option` key drag the symbol below, creating a copy of it.
+2.  `Colors/black` シンボルを選択、次に `option` キーを押しながら以下のシンボルにドラッグし、コピーを作成します。
     ![](../images/colors_custom1.png)
 
-3.  Now select the `Rectangle` layer, which happens to be the only layer of the `Colors/black copy` symbol, and change its Fill to a color of your choice e.g. #008080 (teal). Remember to also rename the symbol accordingly e.g. `Colors/teal`
+3.  `Colors/black` コピー シンボルの 唯一のレイヤーである `Rectangle` レイヤーを選択して、Fill の色を #008080 (teal) などに変更できます。`Colors/teal` などシンボルの名前も変更する必要があります。
     ![](../images/colors_custom2.png)
 
-4.  Save the changes to the library and now the color you have added should appear in the list of colors under the Styling library menu. It will also show up for the color overrides wherever colors are used in the Components and Patterns libraries.
+4.  ライブラリで変更を保存し、追加した色はライブラリ メニューの色リストに表示されます。Components および Patterns ライブラリで色が使用されている場所に色オーバーライドに表示されます。
 
-#### Local
+#### ローカル
 
-The second approach describes the addition of file-specific colors, not available across all projects, but only in the current one you are working. To achive that follow these simple steps:
+2 つ目の方法は、ファイル特有の色の追加です。すべてのプロジェクトで使用することはできませんが作業しているプロジェクトで使用できます。次の簡単な手順に従います。
 
-1.  Open an existing or new Sketch file and create a new page, naming it `Local Styles`. Then on the new page insert a `Colors/black` element from the Styling library.
+1.  既存の Sketch ファイルを開いて新しいページを作成し、ページ名を `Local Styles` にします。新しいページで Styling ライブラリから `Colors/black` 要素を挿入します。
     ![](../images/colors_local0.png)
 
-2.  Right click it and select `Detach from Symbol` to uncover this symbols only contained layer called `Rectangle`. Select the `Rectangle` layer and change its its Fill to a color of your choice e.g. #008080 (teal).
+2.  右クリックして`シンボルからデタッチ`を選択して `Rectangle` と呼ばれるレイヤーのみ含まれます。`Rectangle` レイヤーを選択して Fill の色を #008080 (teal) などに変更します。
     ![](../images/colors_local1.png)
 
-3.  Now select the group that was formed after selecting `Detach from Symbol` (it should be called `Colors/black`, just like the symbol instance before) and click the `Create Symbol` button from the main Sketch menu at the top to reinstantiate the modified color as an overridable color symbol. In the prompt that shall appear choose a name for your custom color e.g. `Colors/teal` and make sure the Symbols Page checkbox is unticked before clicking the OK button. This will create the symbol and you should see something like this.
+3.  `シンボルからデタッチ`を選択して作成したグループ (以前のシンボル インスタンスと同じように `Colors/black` と呼ばれる) を選択し、メイン Sketch トップ メニューから `Create Symbol` ボタンをクリックして変更した色を色シンボルをオーバライドとして再度インスタンスを作成します。Iカスタム色 (`Colors/teal` など) の名前を選択するプロンプトが表示されます。Symbols Page チェックボックスのチェックは、OK ボタンをクリックする前に外されます。シンボルが作成され、以下のようになります。
     ![](../images/colors_local2.png)
 
-4.  Finally, let's do our housekeeping and remove the non-symbol rectangle with teal color and we are all set. The color you have added should appear as a local symbol in the list of colors under the Document category. It will also show up for the color overrides under `Document/Colors` for all instances of Components and Patterns in the current project, where color is applicable.
+4.  シンボル以外のティール色の四角形を削除して完了です。追加した色は、Document カテゴリの色のリストでローカル シンボルとして表示されます。現在のプロジェクトで色が使用できる Components および Patterns のすべてのインスタンスの `Document/Colors` の色オーバーライドにも表示されます。
     ![](../images/colors_local3.png)
 
-## Code generation
+## コードの生成
 
-A color style object when added to a Sketch drawing is rendered as an HTML div with the corresponding color and size.
+Sketch 描画に追加される色スタイル オブジェクトは相対する色およびサイズの HTML div 要素として描画されます。
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Typography](typography.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
