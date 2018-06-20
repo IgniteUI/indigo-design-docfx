@@ -6,7 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Pattern, UI Library, Wi
 
 ## File Upload
 
-Use the File Upload Pattern to provide the uploading and insertion mechanisms for files, images or attachments.
+Use the File Upload Pattern to provide the uploading and insertion mechanisms for files, images, or attachments.
 
 ![](../images/file-upload_demo.png)
 
