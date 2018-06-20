@@ -21,12 +21,12 @@ The Custom List Item supports the following interactive states: inactive for the
 
 ### Detach from Symbol
 
-In order to customize List Item layouts, start by dragging a `List/Items/Custom` to your artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared _List/Items/Custom/~_ group, you should see the following:
+In order to customize List Item layouts, start by dragging a `List/Custom Item/State:inactive` to your artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared _List/Custom Item/State:inactive_ group, you should see the following:
 
 > [!INFO]
 > | Layer | Use |
 > | ----------------------------- | ---------------------------------------- |
-> | 🚫 igx-list-item/custom:~ | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
+> | 🚫 igx-list-item/custom:inactive | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
 > | 💡Primary Action Group | Groups together the Primary Action layout elements |
 > | 💡Secondary Action Group | Groups together the Secondary Action layout elements |
 > | 🌈 Background | Defines the background color of the List Item |
@@ -47,7 +47,7 @@ So, let's see how we can create the intricate layout for the product List Item a
 
 ![](../images/list_item_custom_layout1.png)
 
-2.  Next, we will insert a List/Items/Blocks/Content/Image in the Primary Action Group and add a Badge on top of it within the same group. Now, we have to size the image according to the Item size and select content for it. After modifying the Badge, as well by updating its Value Text and hiding its Border and Elevation, we should have something similar to this.
+2.  Next, we will insert a List/Custom Item/Blocks/Image Content in the Primary Action Group and add a Badge on top of it within the same group. Now, we have to size the image according to the Item size and select content for it. After modifying the Badge, as well by updating its Value Text and hiding its Border and Elevation, we should have something similar to this.
 
 ![](../images/list_item_custom_layout2.png)
 
