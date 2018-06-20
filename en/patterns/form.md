@@ -6,7 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Pattern, UI Library, Wi
 
 ## Form
 
-Use the Form Pattern to create meaningful application scenarios, where the collection of user input is necessary. The various data entry and display Components are used to constitute some of the most common and meaningful Forms.
+The Form Pattern comes with the styling flexibility provided by the Input, Checkbox, Button, Hyperlink, and Text that constitute its layout.
 
 ![](../images/form_demo.png)
 
@@ -14,7 +14,7 @@ The Form Pattern comes with the styling flexibility provided by the Input, Check
 
 ### Layout and Type
 
-The Form Pattern is split in two main areas an Inputs area with the main content for the various pieces of information that need to be filled in, and an Actions area, where actions are laid out in rows e.g. the "Terms of Use" or "Remember Me" Checbox, the "Forgot Password?" link, and the Buttons for submitting the form. The Actions area is organized into three rows of interchangable items that can be: Button, Checkbox, Link, Text Area, or Two Actions that appear as buttons by default, but can be any combination of the items mentioned before.
+The Form Pattern is split in two main areas: an Inputs area with the main content for the various pieces of information that need to be filled in, and an Actions area where actions are laid out in rows, e.g. the "Terms of Use" or "Remember Me" Checkbox, the "Forgot Password?" link, and the Buttons for submitting the form. The Actions area is organized into three rows of interchangeable items that can be: Button, Checkbox, Link, Text Area, or Two Actions that appear as buttons by default but can be any combination of the items mentioned before.
 
 ![](../images/form_content.png)
 
@@ -34,7 +34,7 @@ The Login Form also comes with a Horizontal layout which can be customized for a
 
 ##### Booking Forms
 
-There are four presets for Booking Forms, selectable through the Inputs override: **Dates + People**, which is rather generic, Dates + People + Rooms, which is appropriate for booking accommodation, Airports + Dates + People, which is best for booking airline tickets or other transportation, and Location + People + Rooms, which is again most suitable for booking an accommodation.
+There are four presets for Booking Forms, selectable through the Inputs override: Dates + People, which is rather generic; Dates + People + Rooms, which is appropriate for booking accommodation; Airports + Dates + People, which is best for booking airline tickets or other transportation; and Location + People + Rooms, which is again most suitable for booking an accommodation.
 
 ![](../images/form_booking.png)
 
@@ -46,7 +46,7 @@ There are two types of New Forms, selectable through the Inputs override: **Expe
 
 ##### Payment Forms
 
-There are two main types of Payment forms, one for Card payments and one for Cash Transfers, like when you wire money through your online banking. The Cash Transfer Form provides four different layouts, selectable through the Inputs override: **Currency Exchange**, which has the necessary fields for currency conversion, Donation, which is suitable for charities, Between Accounts, which is usually the case for people holding multiple accounts in the same bank, and Between Banks, which is the common scenario for transfering money to another account under your or someone else's name.
+There are two main types of Payment forms: one for Card payments and one for Cash Transfers, like when you wire money through your online banking. The Cash Transfer Form provides four different layouts, selectable through the Inputs override: **Currency Exchange**, which has the necessary fields for currency conversion; Donation, which is suitable for charities; Between Accounts, which is usually the case for people holding multiple accounts in the same bank; and Between Banks, which is the common scenario for transferring money to another account under your or someone else's name.
 
 ![](../images/form_card.png)
 ![](../images/form_cash.png)
