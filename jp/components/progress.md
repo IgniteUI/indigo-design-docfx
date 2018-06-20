@@ -55,58 +55,58 @@ Circular Bar は常にテキスト ラベルの実際の値を使用し、Linear
 
 ## コードの生成
 
-Progress に色を指定した場合、Circular または Linear Bar 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
+Circular または Linear Bar に色またはフォントを指定した場合、Circular または Linear Bar HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
 
 > [!WARNING]
 > デザインの Circular または Linear Bar のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Circular または Linear Bar のためのコード生成機能が失われる結果となります。
 
-### データ プロパティ バインディング
+### データ バインディング
 
-提供された場合、`🕹️DataProperty` バインドはネストあり/なしが可能です。このプロパティ データは、Circular または Linear Bar の値をバインドします。進行状況の値は達成率を指定します。
+データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
 
-プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。例:
-
-#### 例: ネストなし
+#### ネストなし
 
 ```PseudoCode
 Customer {
-imageName: String;
+  imageName: String;
 }
 
 DataProperty: {imageName}
 ```
 
-#### 例: ネストあり
+#### ネストあり
 
 ```PseudoCode
 Profile {
-imageName: String;
+  imageName: String;
 }
 
 Customer {
-profile: Profile;
+  profile: Profile;
 }
 
 DataProperty: {profile.imageName}
 ```
 
+### データ プロパティ
+
+`🕹️DataProperty` 値は Circular または Linear Bar 値プロパティへのデータ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` は、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトのプロパティ名です。
+
+### 状態
+
+State プロパティが off または無効に設定した場合、コントロールは描画されません。
+
 ### リニアバー テキスト スタイル
 
-リニア バー テキスト スタイルは、Linear Bar の配置とテキスト色の制御に使用します。Text Style を 'None' に変更した場合、テキストは Linear Bar で非表示になります。ジェネレーターは Text Style の Bold オプションを無視しますが、デフォルト フォント ウェイトを使用する Linear Bar を描画します。
+リニアバー テキスト スタイルは、Linear Bar の配置とテキスト色の制御に使用します。Text Style を "None" に変更した場合、テキストは Linear Bar で非表示になります。ジェネレーターは Text Style の Bold オプションを無視しますが、デフォルト フォント ウェイトを使用する Linear Bar を描画します。
 
-### リニアバー テキスト
+#### リニア バー テキスト
 
-リニア バー テキストは、バインディングと非バインディングを含むことができます。例:
+Text プロパティにテキスト、バインディング、または両方を含むことができます。例:
 
-#### 非バインディング
-
-ダウンロードしています...
-
-#### バインディング
-
-ダウンロード進行状況: {progress}%
-
-ネストあり/ネストなしのプロパティについて上記の Data Property Binding セクションと同様のルールが適用されます。
+- 設定
+- {settingsLabel}
+- 重要な {labelText}
 
 ## その他のリソース
 

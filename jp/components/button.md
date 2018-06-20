@@ -46,6 +46,57 @@ Button のコンテンツにラベルを含む場合、大文字を太文字 (Me
 | ![](../images/button_do2.png) | ![](../images/button_dont2.png) |
 | ![](../images/button_do3.png) | ![](../images/button_dont3.png) |
 
+## コードの生成
+
+Button の色またはフォントを指定した場合、Button HTML 要素は div でラップされます。これはネスト コンポーネント (他のコンポーネント内のコンポーネント) をスタイル設定する際にブラウザーによって要求されます。
+ 
+> [!WARNING]
+> デザインの Button のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Button のためのコード生成機能が失われる結果となります。
+ 
+### データ バインディング
+
+データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
+
+#### ネストなし
+
+```PseudoCode
+Customer {
+  imageName: String;
+}
+
+DataProperty: {imageName}
+```
+
+#### ネストあり
+
+```PseudoCode
+Profile {
+  imageName: String;
+}
+
+Customer {
+  profile: Profile;
+}
+
+DataProperty: {profile.imageName}
+```
+
+### Event プロパティ
+
+`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に Angular クリック シグネチャーを追加します。波括弧構文 ({onEventName}) を使用してイベントを指定する必要があります。
+
+### Sketch エレベーション
+
+Sketch 描画の Button エレベーション変更がコード生成で描画されません。各ボタン タイプにデフォルト エレベーションがあり、Ignite UI コンポーネントによって適用されます。これは Ignite UI for Angular 製品の既知の制限で、今後のリリースで修正予定です。
+
+### テキスト
+
+Text プロパティにテキスト、バインディング、または両方を含むことができます。例:
+
+- 設定
+- {settingsLabel}
+- 重要な {labelText}
+
 ## その他のリソース
 
 関連トピック:

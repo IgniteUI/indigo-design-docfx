@@ -52,6 +52,73 @@ Switch は、設定リストで状態を制御するオプションを説明す�
 | ![](../images/switch_do2.png) | ![](../images/switch_dont2.png) |
 | ![](../images/switch_do3.png) | ![](../images/switch_dont3.png) |
 
+## コードの生成
+
+Switch の色を指定した場合、Switch HTML 要素は div でラップされます。これはネスト コンポーネント (他のコンポーネント内のコンポーネント) をスタイル設定する際にブラウザーによって要求されます。
+
+> [!WARNING]
+> デザインの Switch のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Switch のためのコード生成機能が失われます。
+
+### データ バインディング
+
+データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
+
+#### ネストなし
+
+```PseudoCode
+Customer {
+  imageName: String;
+}
+
+DataProperty: {imageName}
+```
+
+#### ネストあり
+
+```PseudoCode
+Profile {
+  imageName: String;
+}
+
+Customer {
+  profile: Profile;
+}
+
+DataProperty: {profile.imageName}
+```
+
+### リアクティブ フォーム
+
+モデル オブジェクト名および `🕹️DataProperty` が提供される場合、Reactive Forms フォームを作成するためにフォーム ビルダー コードで TypeScript ngOnInit メソッドが生成されます。`🕹️DataProperty` はスイッチ コントロールの formControlName プロパティを設定します。
+
+### データ プロパティ
+
+`🕹️DataProperty` 値は Angular Reactive Forms を使用してスイッチの checked プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` は、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトのプロパティ名です。
+
+### 状態
+
+State プロパティが off または無効に設定した場合、コントロールは描画されません。
+
+### ラベルのスタイル
+
+Text Style が None の場合、コントロールのラベル テキストは描画されません。ラベル スタイルは、Switch の配置とテキスト色の制御に使用します。
+
+### テキスト
+
+Text プロパティにテキスト、バインディング、または両方を含むことができます。例:
+
+- 設定
+- {settingsLabel}
+- 重要な {labelText}
+
+### つまみ
+
+Thumb が None の場合、コントロールは描画されません。スイッチの丸つまみ部分の色を設定するプロパティ。
+
+### トラック
+
+Track が None の場合、コントロールは描画されません。スイッチのトラック部分の色を設定するプロパティ。
+
 ## その他のリソース
 
 関連トピック:

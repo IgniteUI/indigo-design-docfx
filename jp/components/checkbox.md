@@ -43,28 +43,62 @@ Checkbox は、さまざまなオーバーライドでチェック、色の塗�
 
 ## コードの生成
 
-Checkbox の色またはチェック状態を指定した場合、Checkbox HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
+Checkbox のチェック マーク、チェック ボックス色、またはチェック状態を指定した場合、Checkbox HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。また、State が off に設定されるか、無効される場合、コントロールは描画されません。
 
 > [!WARNING]
 > デザインの　Checkbox のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Checkbox のためのコード生成機能が失われる結果となります。
 
-### データ プロパティ バインディング
+### データ バインディング
 
-提供された場合、`🕹️DataProperty` バインドはネストあり/なしが可能です。プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。例:
+データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
 
-#### 例: ネストなし
+#### ネストなし
 
 ```PseudoCode
 Customer {
-Public checkState: boolean;
+  imageName: String;
 }
 
-Sketch の DataProperty: {checkState}
+DataProperty: {imageName}
 ```
 
-### Event プロパティ
+#### ネストあり
 
-`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用されて HTML に Angular クリック シグネチャーを追加します。Sketch の EventProperty: clickValue
+```PseudoCode
+Profile {
+  imageName: String;
+}
+
+Customer {
+  profile: Profile;
+}
+
+DataProperty: {profile.imageName}
+```
+
+### リアクティブ フォーム
+
+モデル オブジェクト名および `🕹️DataProperty` が提供される場合、Reactive Forms フォームを作成するためにフォーム ビルダー コードで TypeScript ngOnInit メソッドが生成されます。`🕹️DataProperty` はチェックボックス コントロールの formControlName プロパティを設定します。
+
+### DataProperty
+
+`🕹️DataProperty` 値は Angular Reactive Forms を使用してチェックボックスの checked プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。 `🕹️DataProperty` は、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトのプロパティ名です。
+
+### テーマ
+
+Theme はチェックボックスが使用するテーマを指定します。Dark および Light テーマがあります。Theme が None の場合、コントロールは描画しません。
+
+### 状態
+
+State は、デザインで別の状態にあるチックボックスを表します。State が On ではない場合、チェックボックスは描画しません。Sketch 描画からチェックボックスのプロパティを確認して設定するために On に設定した State が必要です。
+
+### テキスト
+
+Text プロパティにテキスト、バインディング、または両方を含むことができます。例:
+
+- 設定
+- {settingsLabel}
+- 重要な {labelText}
 
 ## その他のリソース
 

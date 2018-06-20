@@ -38,38 +38,50 @@ Toast は、常に水平に配置する必要があり、その他の配置は�
 
 ## コードの生成
 
-Toast の色やフォントを指定した場合、Toast HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
+Toast の色を指定した場合、Toast HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
 
 > [!WARNING]
 > デザインの Toast のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Toast のためのコード生成機能が失われます。
 
-### Text/Data プロパティ バインディング
+### データ バインディング
 
-Message に Text プロパティがあります。ネストまたはネストなしのデータ項目にバインドできます。プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。例:
+データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
 
-#### 例: ネストなし
+#### ネストなし
 
 ```PseudoCode
 Customer {
-messageText: string;
+    imageName: String;
 }
 
-Text: { messageText }
+DataProperty: {imageName}
 ```
 
-#### 例: ネストあり
+#### ネストあり
 
 ```PseudoCode
 Profile {
-messageText: number;
+    imageName: String;
 }
 
 Customer {
-profile: Profile;
+    profile: Profile;
 }
 
-Text: {profile. messageText }
+DataProperty: {profile.imageName}
 ```
+
+### データ プロパティ
+
+`🕹️DataProperty` 値は Toast のテキスト プロパティへのデータ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` は、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトのプロパティ名です。提供された場合、この値は Text プロパティをオーバーライドします。
+
+### テキスト
+
+提供された場合、Text プロパティにテキスト、バインディング、または両方を含むことができます。例:
+
+- 設定
+- {settingsLabel}
+- 重要な {labelText}
 
 ## その他のリソース
 

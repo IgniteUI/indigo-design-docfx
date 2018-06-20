@@ -42,42 +42,49 @@ Dialog の色を指定した場合、Dialog HTML 要素は div でラップさ�
 > [!WARNING]
 > デザインの Dialog のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Dialog のためのコード生成機能が失われる結果となります。
 
-### テキスト バインド
+### データ バインディング
 
-Title、Message、Left Button、および Right Button に Text プロパティがあります。ネストまたはネストなしのデータ項目にバインドできます。
-プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。例:
+データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
 
-#### 例: ネストなし
+#### ネストなし
 
 ```PseudoCode
 Customer {
-titleText: string;
+  imageName: String;
 }
 
-Text: {titleText}
+DataProperty: {imageName}
 ```
 
-#### 例: ネストあり
+#### ネストあり
 
 ```PseudoCode
 Profile {
-titleText: number;
+  imageName: String;
 }
 
 Customer {
-profile: Profile;
+  profile: Profile;
 }
 
-Text: {profile. titleText }
+DataProperty: {profile.imageName}
 ```
+
+### テキスト
+
+Title、Message、Left Button、および Right Button に 4 つの Text プロパティが Dialog にあります。このプロパティにテキスト、バインディング、または両方を含むことができます。例:
+
+- 設定
+- {settingsLabel}
+- 重要な {labelText}
 
 ### ボタン
 
-Flat または Raised に設定できる Left および Right ボタンがあります。ボタンの現在の Text Style と Background は無視されます。
+Left および Right ボタンがあります。各 Button の Type フィールドを Flat または Raised に設定できます。ボタンの現在の Text Style と Background は無視されます。
 
 ### イベント
 
-ユーザーが設定できるこのコントロールのイベント プロパティはありません。ただし、対応するボタンが描画されるときに `onLeftButtonSelect` と `onRightButtonSelect` イベントは自動的にアウトプットされます。
+ユーザーが設定できるこのコントロールのイベント プロパティはありません。その代わり、対応するボタンが描画されるときに `onLeftButtonSelect` と `onRightButtonSelect` イベントは自動的にアウトプットされます。
 
 ## その他のリソース
 

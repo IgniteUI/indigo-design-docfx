@@ -46,39 +46,53 @@ Badge に色を指定した場合、Badge HTML 要素は div でラップされ�
 > [!WARNING]
 > デザインの Badge のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Badge のためのコード生成機能が失われる結果となります。
 
-### データ プロパティ バインディング
+### データ バインディング
 
-提供された場合、`🕹️DataProperty` バインドはネストあり/なしが可能です。このプロパティは Badge 値をデータ バインドします。値はバッジに表示されるテキストを指定します。Badge のタイプを Icon に設定した場合、`🕹️DataProperty` は無視されます。 
+データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
 
-プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。例:
-
-#### 例: ネストなし
+#### ネストなし
 
 ```PseudoCode
 Customer {
-userRank: number;
+  imageName: String;
 }
 
-DataProperty: {userRank}
+DataProperty: {imageName}
 ```
 
-#### 例: ネストあり
+#### ネストあり
 
 ```PseudoCode
 Profile {
-userRank: number;
+  imageName: String;
 }
 
 Customer {
-profile: Profile;
+  profile: Profile;
 }
 
-DataProperty: {profile.userRank}
+DataProperty: {profile.imageName}
 ```
 
 ### Event プロパティ
 
-`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用されて HTML に Angular クリック シグネチャーを追加します。
+`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用されて HTML に Angular クリック シグネチャーを追加します。波括弧構文 ({onEventName}) を使用してイベントを指定する必要があります。
+
+### データ プロパティ
+
+`🕹️DataProperty` 値はバッジ値プロパティへのデータ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` は、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトのプロパティ名です。バッジ タイプを Icon に設定した場合、`🕹️DataProperty` は無視されます。
+
+### タイプ
+
+バッジが数値/テキストまたはアイコンかどうかを決定します。
+
+### テキスト
+
+Type を Number に設定する場合、以下が適用されます。
+
+- `🕹️DataProperty` が提供された場合、値は指定したプロパティにデータ バインドされます。
+- Text にデータ バインディングがある場合、値は指定したプロパティにデータ バインドされます。
+- Text に値がある場合、値はテキストに設定されます。
 
 ## その他のリソース
 
