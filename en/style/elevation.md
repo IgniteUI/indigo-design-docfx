@@ -6,11 +6,17 @@ _keywords: Design System, Sketch, Ignite UI for Angular, UI Library, Colors, Pal
 
 ## Elevation
 
-Elevations are used across Components and Patterns to establish shadows that floating elements, such as a Floating Action Button, Card or a Login Form, should cast on the underlying content and background. The Elevations in Styling are identical to the [Material Design Elevation](https://material.io/design/environment/elevation.html#) & [Ignite UI for Angular Shadows](https://www.infragistics.com/products/ignite-ui-angular/angular/components/shadows.html).
+Elevations are used across Components and Patterns to establish shadows that are floating elements, such as a Floating Action Button, Card, or a Login Form. These should cast on the underlying content and background. The Elevations in Styling are identical to the [Material Design Elevation](https://material.io/design/environment/elevation.html#) & [Ignite UI for Angular Shadows](https://www.infragistics.com/products/ignite-ui-angular/angular/components/shadows.html).
 
 ### Support for elevations
 
-There are 24 Elevations available in three distinct shapes: circle, which works best for circular elements like a Floating Action Button, rect, which is most suitable for a Dropdown or a Toggle Menu, and rounded rect for rectangular elements with corner rounding like a Card. The higher the number of the Elevation, the more prominent the shadow. Shadows come as a combination of three stacked shadow colors, umbra, penumbra and ambient, whose values match the Material Design definition.
+There are 24 Elevations available in three distinct shapes:
+
+- Circle - This works best for circular elements like a Floating Action Button.
+- Rect - This is most suitable for a Dropdown or a Toggle Menu.
+- Rounded Rect - This is for rectangular elements with corner rounding like a Card.
+
+The higher the number of the Elevation, the more prominent the shadow. Shadows come as a combination of three stacked shadow colors, umbra, penumbra, and ambient, whose values match the Material Design definition.
 
 ![](../images/elevation_people.png)
 
@@ -19,7 +25,7 @@ There are 24 Elevations available in three distinct shapes: circle, which works 
 
 ### Use of standalone elevations
 
-It is also possible to use Elevation on its own to lift one part of the content and draw more focus to it than the rest. In such scenarios simply drag the Elevation of your choice and match it to the size of the content you would like to enhance.
+It is also possible to use Elevation on its own to lift one part of the content and draw more focus to it than the rest. In such scenarios, simply drag the Elevation of your choice and match it to the size of the content you would like to enhance.
 
 ![](../images/elevation_standalone.png)
 
