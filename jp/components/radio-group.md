@@ -41,6 +41,63 @@ Radio Group を追加項目で拡張する場合は、単一列で左寄せに�
 | ![](../images/radiogroup_do1.png) | ![](../images/radiogroup_dont1.png) |
 | ![](../images/radiogroup_do2.png) | ![](../images/radiogroup_dont2.png) |
 
+## コードの生成
+
+Radio Group の色やフォントを指定した場合、Radio Group HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
+
+> [!WARNING]
+> Radio Group のインスタンスで`シンボルからデタッチ`をトリガーした場合、Radio Group のコード生成の精度を低下します。提供された項目以上に項目を作成する場合のみ行います。`🚫radio-group`、`🕹️DataProperty`、`🕹️DataSource` レイヤー インタクトを保持してください。
+ 
+### データ バインディング
+
+データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
+
+#### ネストなし
+
+```PseudoCode
+Customer {
+    imageName: String;
+}
+
+DataProperty: {imageName}
+```
+
+#### ネストあり
+
+```PseudoCode
+Profile {
+    imageName: String;
+}
+
+Customer {
+    profile: Profile;
+}
+
+DataProperty: {profile.imageName}
+```
+
+### リアクティブ フォーム
+
+モデル オブジェクト名および `🕹️DataProperty` が提供される場合、Reactive Forms フォームを作成するためにフォーム ビルダー コードで TypeScript ngOnInit メソッドが生成されます。`🕹️DataProperty` はラジオ ボタン コントロールの formControlName プロパティを設定します。
+
+### DataProperty
+
+`🕹️DataProperty` 値は Angular Reactive Forms を使用してラジオ ボタンの checked プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` は、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトのプロパティ名です。
+
+### DataSource
+
+提供される場合、`🕹️DataSource` 値が Radio Group のデータ ソース オブジェクトへのバインディングを設定するために使用されます。デフォルトで Radio Group ボタンの値およびラベルに割り当てる value および name プロパティがあるデータ ソースにバインドするために構成されます。`🕹️DataSource` プロパティはオプションです。
+
+`🕹️DataSource` が設定される場合、スタイルはグループの最初のラジオから取得されます。その他の Radio Button スタイル設定が無視されます。`🕹️DataSource` が使用される場合、Text プロパティも無視されます。
+
+### ラジオ ボタン
+
+グループの Radio Button の設定を決定します。`🕹️DataSource` を設定し、最初の Radio Button が None の場合、ラジオ グループは描画しません。Radio Button が None の場合、Radio Button を描画しません。Radio Button の Color が None の場合、Radio Button を描画しません。3 つの Radio Button がすべて None の場合、Radio Group を描画しません。
+
+### テキスト
+
+`🕹️DataSource` を設定した場合、Text プロパティは無視されます。Text が提供される場合、Radio Button の値およびラベルで使用されます。
+
 ## その他のリソース
 
 関連トピック:

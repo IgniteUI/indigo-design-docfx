@@ -36,37 +36,45 @@ Snackbar の色を指定した場合、Snackbar HTML 要素は div でラップ�
 > [!WARNING]
 > デザインの Snackbar のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Snackbar のためのコード生成機能が失われます。
 
-### テキスト バインド
+### データ バインディング
 
-Message と Button に Text プロパティがあります。ネストまたはネストなしのデータ項目にバインドできます。プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。例:
+データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
 
-#### 例: ネストなし
+#### ネストなし
 
 ```PseudoCode
 Customer {
-messageText: string;
+    imageName: String;
 }
 
-Text: { messageText }
+DataProperty: {imageName}
 ```
 
-#### 例: ネストあり
+#### ネストあり
 
 ```PseudoCode
 Profile {
-messageText: number;
+    imageName: String;
 }
 
 Customer {
-profile: Profile;
+    profile: Profile;
 }
 
-Text: {profile. messageText }
+DataProperty: {profile.imageName}
 ```
 
 ### Event
 
-`🕹️Event` プロパティは、コンポーネント TypeScript のメソッドを作成するために使用し、Snackbar の HTML に onAction シグネチャーを追加します。
+`🕹️Event` プロパティは、コンポーネント TypeScript のメソッドを作成するために使用し、Snackbar の HTML に onAction シグネチャーを追加します。イベントが波括弧構文 ({onEventName}) を使用して指定する必要があります。
+
+### テキスト
+
+Message と Button に Text プロパティがあります。このプロパティにテキスト、バインディング、または両方を含むことができます。例:
+
+- 設定
+- {settingsLabel}
+- 重要な {labelText}
 
 ## その他のリソース
 

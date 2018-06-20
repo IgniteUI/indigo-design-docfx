@@ -40,42 +40,54 @@ Hyperlink テキスト色には段落で目立つ色を選択します。同じ�
 > [!WARNING]
 > デザインの Hyperlink のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Hyperlink のためのコード生成機能が失われます。
 
-### LinkURL
+### データ バインディング
 
-LinkURL バインドはネストあり/なしが可能です。このプロパティは Hyperlink の href をデータ バインドします。href は、Hyperlink をクリックしたときに移動するためのリンクを指定します。
-プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。例:
+データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
 
-#### 例: ネストなし
+#### ネストなし
 
 ```PseudoCode
 Customer {
-url: string;
+  imageName: String;
 }
 
-LinkURL: {url}
+DataProperty: {imageName}
 ```
 
-#### 例: ネストあり
+#### ネストあり
 
 ```PseudoCode
 Profile {
-url: string;
+  imageName: String;
 }
 
 Customer {
-profile: Profile;
+  profile: Profile;
 }
 
-LinkURL: {profile.url}
+DataProperty: {profile.imageName}
 ```
-
-### テキスト
-
-Text プロパティは Hyperlink に表示するテキストを埋めるために使用されます。
 
 ### Event プロパティ
 
-`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用されて HTML に Angular クリック シグネチャーを追加します。
+このプロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に Angular クリック シグネチャーを追加します。波括弧構文 ({onEventName}) を使用してイベントを指定する必要があります。
+
+### LinkURL
+
+LinkURL を URL またはバインディングに設定します。提供される場合、この値は HTML コントロールの href プロパティに割り当てます。
+
+- URL の例: http://www.infragistics.com
+- バインディングの例: {companyWebsite}
+
+### テキスト
+
+Text プロパティにテキスト、バインディング、または両方を含むことができます。例:
+
+- 設定
+- {settingsLabel}
+- 重要な {labelText}
+
+Text プロパティは Hyperlink に表示するテキストを埋めるために使用されます。
 
 ## その他のリソース
 

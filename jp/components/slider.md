@@ -49,6 +49,53 @@ Slider のトラック カラーは常にトラック ベース カラーより�
 | ![](../images/slider_do1.png) | ![](../images/slider_dont1.png) |
 | ![](../images/slider_do2.png) | ![](../images/slider_dont2.png) |
 
+## コードの生成
+ 
+Slider の色を指定した場合、Slider HTML 要素は div でラップされます。これはネスト コンポーネント (他のコンポーネント内のコンポーネント) をスタイル設定する際にブラウザーによって要求されます。
+
+> [!WARNING]
+> デザインの Slider のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Slider のためのコード生成機能が失われます。
+
+### データ バインディング
+
+データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
+
+#### ネストなし
+
+```PseudoCode
+Customer {
+    imageName: String;
+}
+
+DataProperty: {imageName}
+```
+
+#### ネストあり
+
+```PseudoCode
+Profile {
+    imageName: String;
+}
+
+Customer {
+    profile: Profile;
+}
+
+DataProperty: {profile.imageName}
+```
+
+### リアクティブ フォーム
+
+モデル オブジェクト名および `🕹️DataProperty` が提供される場合、Reactive Forms フォームを作成するためにフォーム ビルダー コードで TypeScript ngOnInit メソッドが生成されます。`🕹️DataProperty` はスライダー コントロールの formControlName プロパティを設定します。
+
+### DataProperty
+
+`🕹️DataProperty` 値は Angular Reactive Forms を使用してスライダーの value プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` は、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトのプロパティ名です。単一つまみスライダーの場合、`🕹️DataProperty` を数値に設定する必要があります。2 つまみスライダーの場合、`🕹️DataProperty` を lower および upper プロパティを持つオブジェクトまたはクラスに設定する必要があります。
+
+### 状態
+
+State が無効またはスライダー部分が表示されない場合、コントロールは描画されません。
+
 ## その他のリソース
 
 関連トピック:

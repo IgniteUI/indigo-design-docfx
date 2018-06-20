@@ -46,38 +46,42 @@ Category Chart は以下のようなさまざまなオーバーライドで Char
 
 ## コードの生成
 
-Category Chart は、いくつかのオプションを設定して簡単に使用できるコンポーネントです。
+Category Chart は使用安いコンポーネントで、プロパティを少数のみ設定する必要があります。
 
 > [!WARNING]
 > デザインの Category Chart のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Category Chart のためのコード生成機能が失われる結果となります。
 
-### データ プロパティ バインディング
+### データ バインディング
 
-提供された場合、`🕹️DataSource` プロパティ バインドはネストあり/なしが可能です。このプロパティは、Category Chart コンポーネントの 'dataSource' Input にデータ バインドしてチャート形式のデータを描画します。
+データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
 
-#### 例: ネストなし
+#### ネストなし
 
 ```PseudoCode
 Customer {
-chartData: object[];
+  imageName: String;
 }
 
-DataSource: {chartData}
+DataSource: {imageName}
 ```
 
-#### 例: ネストあり
+#### ネストあり
 
 ```PseudoCode
 Profile {
-chartData: object[];
+  imageName: String;
 }
 
 Customer {
-profile: Profile;
+  profile: Profile;
 }
 
-DataSource: {profile.chartData}
+DataSource: {profile.imageName}
 ```
+
+### データ ソース
+
+`🕹️DataSource` プロパティ値はチャートの dataSource プロパティへのバインディングを設定するために使用されます。`🕹️DataSource` およびデータ ソースで有効なデータがない場合、Category Chart をランタイムに描画できません。
 
 ### チャート ディメンション
 
@@ -87,20 +91,17 @@ Category Chart は Sketch 内で取得した固定ディメンションで生成
 
 ### チャート タイプ
 
-チャートで指定したシリーズ タイプを使用するよう構成されます。
+チャートで指定したシリーズ タイプを使用するよう構成されます。Type が None の場合、チャートは描画しません。
 
 ### チャートのタイトル
 
-提供されたときにチャートのタイトルを設定します。タイトルにバインドと非バインドのテキストが含まれる場合があります。例:
+Title プロパティにテキスト、バインディング、または両方を含むことができます。例:
 
-#### 非バインディング
+- 設定
+- {settingsLabel}
+- 重要な {labelText}
 
-- 国別のオリンピック メダル数
-
-#### バインディング
-
-- {country} のオリンピック メダル数
-- {olympicChartTitle}
+Title はオプションです。
 
 ## その他のリソース
 

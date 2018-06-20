@@ -56,37 +56,46 @@ Hyperlink を複数同時に使用する場合は、Hyperlink を目立つよう
 
 ## コードの生成
 
-Paragraph は、テキストと UI をカスタマイズできるオプションのあるコンポーネントです。
-Paragraph コンポーネントのサイズとスタイルのプロパティを設定できます。HTML タグは、設定に関係なく "p" タグとラップします。
+Title または Paragraph に色やフォントを指定した場合、タイトルまたは段落要素に適用される CSS クラスに直接適用されます。
 
 > [!WARNING]
 > デザインの Title または Paragraph Text のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Title または Paragraph Text のためのコード生成機能が失われる結果となります。
 
-### サイズ
+### データ バインディング
 
-Size はネスト プロパティで Title または Paragraph Size.を設定します。
+データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
 
-|           |                           |
-| --------- | ------------------------- |
-| Title     | H1、H2、H3、H4、H5、または H6 |
-| Paragraph | Body1、Body2、または Caption  |
+#### ネストなし
 
-### スタイル設定
+```PseudoCode
+Customer {
+    imageName: String;
+}
 
-テキストは、右揃え、左揃え、中央揃えなどさまざまなタイポグラフィで構成可能です。外観は、灰色、緑色 (成功)、警告 (警告) の 3 色の色合いに設定できます。Warn (orange), primary (blue), secondary (ruby), white, black, error (red)。
+DataProperty: {imageName}
+```
 
-### Text
+#### ネストあり
 
-Text は、ネスト プロパティでコンポーネントで描画されるコンテンツを構成します。
+```PseudoCode
+Profile {
+    imageName: String;
+}
 
-#### 非バインディング
+Customer {
+    profile: Profile;
+}
 
-- 国別のオリンピック メダル数
+DataProperty: {profile.imageName}
+```
 
-#### 非バインディング
+### テキスト
 
-- {country} のオリンピック メダル数
-- {olympicChartTitle}
+Text プロパティにテキスト、バインディング、または両方を含むことができます。例:
+
+- 設定
+- {settingsLabel}
+- 重要な {labelText}
 
 ## その他のリソース
 
