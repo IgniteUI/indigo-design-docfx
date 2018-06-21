@@ -1,0 +1,27 @@
+﻿---
+title: AV - デザイン システム パターン
+_description: AV パターン シンボルはオーディオおよびビデオ再生を制御するインターフェイスを提供します。
+_keywords: デザイン システム, Sketch, Ignite UI for Angular, パターン, UI ライブラリ, ウィジェット
+_language: ja
+---
+
+## AV
+
+AV パターンは再生コントロールを持つオーディオまたはビデオ トラック表示と共に使用されます。
+
+![](../images/av_player_demo.png)
+![](../images/av_volume_demo.png)
+
+AV パターンのレイアウトに含まれる Icon Buttons および Linear Progress Bar のスタイル設定を使用できます。
+
+## その他のリソース
+
+関連トピック:
+
+- [Button](button.md)
+- [Progress](progress.md)
+  <div class="divider--half"></div>
+
+コミュニティに参加して新しいアイデアをご提案ください。
+
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
