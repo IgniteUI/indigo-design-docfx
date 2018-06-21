@@ -153,7 +153,7 @@ Determines the text to be displayed in the Label
 
 ### Input Text
 
-Determines the text to display in the Input value. If the `🕹️DataProperty` is set this is ignored.
+Determines the text to display in the Input value. If the `🕹️DataProperty` is set, this is ignored.
 
 ### Help Text
 
