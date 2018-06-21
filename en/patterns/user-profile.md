@@ -6,12 +6,12 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Pattern, UI Library, Wi
 
 ## User Profile
 
-Use the User Profile Pattern to display user-related information either as a full-screen detailed page, or as small indication that can be inserted in headers and toolbars.
+Use the User Profile Pattern to display user-related information, either as a full-screen detailed page or as a small indication that can be inserted in headers and toolbars.
 
 ![](../images/profile_demo.png)
 ![](../images/profile_small.png)
 
-An editable variant of the User Profile Pattern, nicely laid out with the appropriate Inputs, is also provided. The User Profile Pattern comes with the styling flexibility provided by the Avatar, Text and Inputs that constitute its layout.
+An editable variant of the User Profile Pattern, nicely laid out with the appropriate Inputs, is also provided. The User Profile Pattern comes with the styling flexibility provided by the Avatar, Text, and Inputs that constitute its layout.
 
 ## Additional Resources
 

@@ -14,7 +14,7 @@ The Details Pattern comes with the styling flexibility provided by the Badges, B
 
 ### Content Types
 
-The Details Pattern supports the following interchangable pieces of content that combined shape up its layout: Action Bar, Badge, Description, Metadata, Tabs, and Title and Price.
+The Details Pattern supports the following interchangeable pieces of content that, when combined, shape up its layout: Action Bar, Badge, Description, Metadata, Tabs, and Title and Price.
 
 ![](../images/details_content.png)
 

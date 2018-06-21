@@ -6,7 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Pattern, UI Library, Wi
 
 ## Card Collection
 
-Use the Card Collection Pattern to display assistant or news feeds, as well as timelines and multi-column boards.
+Use the Card Collection Pattern to display an assistant or news feeds, as well as timelines and multi-column boards.
 
 ![](../images/cardcol_demo_assistant.png)
 ![](../images/cardcol_demo_news.png)

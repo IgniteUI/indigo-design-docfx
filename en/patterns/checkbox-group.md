@@ -6,7 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Pattern, UI Library, Wi
 
 ## Checkbox Group
 
-Use the Checkbox Group Pattern to organize and layot a collection of Checkbox elements as a group e.g. to contain the answers for a multiple choice question.
+Use the Checkbox Group Pattern to organize and layout a collection of Checkbox elements as a group, e.g. to contain the answers for a multiple choice question.
 
 ![](../images/checkbox-group_demo.png)
 

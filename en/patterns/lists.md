@@ -6,7 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Pattern, UI Library, Wi
 
 ## Lists
 
-Use the Lists Pattern Symbols as presets for organized collections of data depicting common scenarios such as filterable settings, people, song playlists, products, searchable lists and settings.
+Use the Lists Pattern Symbols as presets for organized collections of data depicting common scenarios such as filterable settings, people, song playlists, products, searchable lists, and settings.
 
 ![](../images/lists_people.png)
 ![](../images/lists_products.png)

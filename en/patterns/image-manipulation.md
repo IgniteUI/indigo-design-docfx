@@ -6,7 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Pattern, UI Library, Wi
 
 ## Image Manipulation
 
-Use the Image Manipulation Pattern to provide a way to edit, update, modify or perform other quick actions on an image or Avatar containing a photo.
+Use the Image Manipulation Pattern to provide a way to edit, update, modify, or perform other quick actions on an image or Avatar containing a photo.
 
 ![](../images/image-manip_demo.png)
 
@@ -14,7 +14,7 @@ The Image Manipulation Pattern comes with the styling flexibility provided by th
 
 ## Layout
 
-The Image Manipulation Pattern supports both stadard images and Avatars that come in layouts with one or two Flat Buttons, FAB Button, or an Icon Button.
+The Image Manipulation Pattern supports both standard images and Avatars that come in layouts with one or two Flat Buttons, FAB Button, or an Icon Button.
 
 ![](../images/image-manip_layout.png)
 
