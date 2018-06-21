@@ -84,10 +84,6 @@ Now that you have added the Indigo Design Libraries, you are all set to start cr
 
 The last thing would be to select all layers for the form, including the white background and the shadow and group them together. With the newly formed Group selected fix both its width and height and fix it to the top from the Resizing panel on the right. This will not change the final look of our design, but will make it act responsive if the artboard is resized.
 
-### Working with the Overrides
-
-When using nested overrides to customize the look and feel of a Component, we have discovered that sometimes after tweaking overrides deep in the nesting hierarchy and then changing an override above with a different underlying structure, Sketch gets confused and assigns values to this structure that are by no means appropriate for or matching this new structure. If you run in such a situation, just make sure that you pick the correct value for each on the underlying overrides and leave the Component in a valid state. Otherwise, it will not only reflect an impossible configuration, but will be impossible to read for our code generation engine.
-
 ## Additional Resources
 
 Related topics:
