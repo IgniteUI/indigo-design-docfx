@@ -68,6 +68,13 @@ The Input has rich support for prefix and suffix through text string or icon tha
 > - .../Suffix/Icons/...
 > - .../Suffix/String/...
 
+### Calendar and Time Picker Inputs
+
+These two are special types of Input customized for the purposes of date and time selection. They have a consistent structure with the other Inputs, but the layout, which is fixed in a certain way for each state. The icons that appear at the prefix location are set to the Material Icons `calendar-today` and `access-time` and can not be changed via the overrides panel.
+
+![](../images/input_calendar.png)
+![](../images/input_time-picker.png)
+
 ### Styling
 
 The Input comes with styling achievable through changing the primary, success, warning, and error colors of your theme in the Styling library.
