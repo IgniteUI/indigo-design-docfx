@@ -6,7 +6,7 @@ _language: ja
 ---
 
 ## Grid フィルター
-Grid フィルター コンポーネントは、Grid 列でユーザーがフィルタリング条件を指定できます。一度に 1 列にのみ Grid フィルターを示し、ヘッダーのフィルター状態はアクティブに設定する必要があります (以下のフィルター状態を参照)。Grid フィルター機能は、[Ignite UI for Angular Grid　フィルター機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid_filtering.html)と視覚的に同じものです。
+Grid フィルター コンポーネントは、Grid 列でユーザーがフィルタリング条件を指定できます。一度に 1 列にのみ Grid フィルターを示し、ヘッダーのフィルター状態はアクティブに設定する必要があります (以下のフィルター状態を参照)。Grid フィルター機能は、[Ignite UI for Angular Grid フィルター機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid_filtering.html)と視覚的に同じものです。
 
 ### Grid フィルター デモ
 
