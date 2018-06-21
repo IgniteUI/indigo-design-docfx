@@ -6,11 +6,11 @@ _keywords: Design System, Sketch, Ignite UI for Angular, Pattern, UI Library, Wi
 
 ## Form
 
-The Form Pattern comes with the styling flexibility provided by the Input, Checkbox, Button, Hyperlink, and Text that constitute its layout.
+Use the Form Pattern to create meaningful application scenarios, where the collection of user input is necessary. The various data entry and display Components are used to constitute some of the most common and meaningful Forms.
 
 ![](../images/form_demo.png)
 
-The Form Pattern comes with the styling flexibility provided by the Input, Checkbox, Button, Hyperlink and Text that constitute its layout.
+The Form Pattern comes with the styling flexibility provided by the Input, Checkbox, Button, Hyperlink, and Text that constitute its layout.
 
 ### Layout and Type
 
