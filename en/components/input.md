@@ -68,6 +68,13 @@ The Input has rich support for prefix and suffix through text string or icon tha
 > - .../Suffix/Icons/...
 > - .../Suffix/String/...
 
+### Calendar and Time Picker Inputs
+
+These two are special types of Input customized for the purposes of date and time selection. They have a consistent structure with the other Inputs, but the layout, which is fixed in a certain way for each state. The icons that appear at the prefix location are set to the Material Icons `calendar-today` and `access-time` and can not be changed via the overrides panel.
+
+![](../images/input_calendar.png)
+![](../images/input_time-picker.png)
+
 ### Styling
 
 The Input comes with styling achievable through changing the primary, success, warning, and error colors of your theme in the Styling library.
@@ -85,11 +92,76 @@ Use the box type of Input when placing forms on top of an image to improve reada
 
 ## Code generation
 
+When colors or fonts are specified for the Input Group, the Input Group HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
+
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Input in your design is very likely to result in loss of code generation capability for the Input.
 
-`🕹️DataSource`
-`🕹️Event`
+Data binding are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax, example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is as nested property, include the nested property chain, but don’t include the model object name. Examples:
+
+#### Not Nested
+
+```PseudoCode
+Customer {
+  imageName: String;
+}
+
+DataProperty would be: {imageName}
+```
+
+#### Nested
+
+```PseudoCode
+Profile {
+  imageName: String;
+}
+
+Customer {
+  profile: Profile;
+}
+
+DataProperty would be: {profile.imageName}
+```
+
+### Event Property
+
+When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an Angular click signature in the HTML. Except for the Time Picker and Date/Calendar where it is the onValueChanged or onSelection instead. Searchbar does not support this. When supplied the event must be specified using the curly braces format: {onEventName} .
+
+### DataProperty
+
+When supplied, the `🕹️DataProperty` value is used to set up two-way data binding to the Input Group formControlName property. The `🕹️DataProperty` is optional. When provided, it will be the name of the property on the data object specified by the model object name provided in the generation request.
+
+### Input
+
+Determines the type of styling applied to the Input Group. When set to None, no control will be rendered. The Time Picker and Date/Calendar do not support this. Box, Border, Line, and Searchbar do not have this property as their base type are the values of this field.
+
+### Variant
+
+Determines if the theme is light or dark. The Time Picker and Date/Calendar do not support this. If set to None, the control will not be rendered.
+
+### State
+
+If set to None, the control will not be rendered.
+
+### Layout
+
+Determines the layout of the Input Group. When set to display Prefix and/or Suffix, text or icons can be displayed at the corresponding ends of the input. The Searchbar instead has a Left and Right Icons that can be turned on/off individually and does not support text in the Prefix/Suffix. The Time Picker and Date/Calendar do not support this. When set no None, the control will not be rendered.
+
+### Label
+
+Determines the text to be displayed in the Label
+
+### Input Text
+
+Determines the text to display in the Input value. If the `🕹️DataProperty` is set, this is ignored.
+
+### Help Text
+
+Determines the text to be displayed in the Hint of the Input Group. The Time Picker and Date/Calendar do not support this.
+
+### Search Hint
+
+Determines the text to display in the label of the Searchbar (only supported in Searchbar).
 
 ## Additional Resources
 
