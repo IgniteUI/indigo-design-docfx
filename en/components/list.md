@@ -54,32 +54,32 @@ The List Item has two distinct areas: Primary Action with non-interactive conten
 
 There are numerous interchangable List Item Primary Actions that are listed below.
 
-|                              |                                        |
-| ---------------------------- | -------------------------------------- |
-| Avatar + Description + Label | ![](../images/list_item_primary.png)   |
-| Avatar + Label               | ![](../images/list_item_primary2.png)  |
-| Avatar + Label + Description | ![](../images/list_item_primary3.png)  |
-| Description + Label          | ![](../images/list_item_primary4.png)  |
-| Icon + Description + Label   | ![](../images/list_item_primary5.png)  |
-| Icon + Label                 | ![](../images/list_item_primary6.png)  |
-| Icon + Label + Description   | ![](../images/list_item_primary7.png)  |
-| Label                        | ![](../images/list_item_primary8.png)  |
-| Label + Description          | ![](../images/list_item_primary9.png)  |
-| Label + Progress             | ![](../images/list_item_primary10.png) |
+|                              |                                        |                                                                                                                                            |
+| ---------------------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Avatar + Description + Label | ![](../images/list_item_primary.png)   |                                                                                                                                            |
+| Avatar + Label               | ![](../images/list_item_primary2.png)  |                                                                                                                                            |
+| Avatar + Label + Description | ![](../images/list_item_primary3.png)  |                                                                                                                                            |
+| Description + Label          | ![](../images/list_item_primary4.png)  |                                                                                                                                            |
+| Icon + Description + Label   | ![](../images/list_item_primary5.png)  |                                                                                                                                            |
+| Icon + Label                 | ![](../images/list_item_primary6.png)  |                                                                                                                                            |
+| Icon + Label + Description   | ![](../images/list_item_primary7.png)  |                                                                                                                                            |
+| Label                        | ![](../images/list_item_primary8.png)  |                                                                                                                                            |
+| Label + Description          | ![](../images/list_item_primary9.png)  |                                                                                                                                            |
+| Label + Progress             | ![](../images/list_item_primary10.png) | Progress in a Primary Action can not have underlying text, therefore, the Text Style is set to None and this setting should not be changed |
 
 ### List Item Secondary Action
 
 There are also many interchangable List Item Secondary Actions that are listed below.
 
-|                  |                                         |
-| ---------------- | --------------------------------------- |
-| Badge            | ![](../images/list_item_secondary.png)  |
-| Checkbox         | ![](../images/list_item_secondary2.png) |
-| Icons            | ![](../images/list_item_secondary3.png) |
-| Text             | ![](../images/list_item_secondary4.png) |
-| Text + Icons     | ![](../images/list_item_secondary5.png) |
-| Toggle           | ![](../images/list_item_secondary6.png) |
-| Two-line Numbers | ![](../images/list_item_secondary7.png) |
+|                  |                                         |                                                                                                                                       |
+| ---------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Badge            | ![](../images/list_item_secondary.png)  |                                                                                                                                       |
+| Checkbox         | ![](../images/list_item_secondary2.png) | Checkbox in a Secondary Action can not have a label, therefore, the Label Style is set to None and this setting should not be changed |
+| Icons            | ![](../images/list_item_secondary3.png) |                                                                                                                                       |
+| Text             | ![](../images/list_item_secondary4.png) |                                                                                                                                       |
+| Text + Icons     | ![](../images/list_item_secondary5.png) |                                                                                                                                       |
+| Toggle           | ![](../images/list_item_secondary6.png) | Switch in a Secondary Action can not have a label, therefore, the Label Style is set to None and this setting should not be changed   |
+| Two-line Numbers | ![](../images/list_item_secondary7.png) |                                                                                                                                       |
 
 ### Styling
 

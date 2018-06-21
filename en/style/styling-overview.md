@@ -6,7 +6,7 @@ _keywords: Design System, Sketch, Ignite UI for Angular, UI Library, Colors, Pal
 
 ## The Theme Concept
 
-All Components themselves map to Ignite UI for Angular components. The theming engine of Infragistics' Angular product, through powerful SASS functions and mixins, allows for the creation of custom color themes that can restyle the whole product in just few lines of code.
+All Components map to Ignite UI for Angular components. The theming engine of Infragistics' Angular product, through powerful sass functions and mixins, allows for the creation of custom color themes that can restyle the whole product in just a few lines of code.
 
 With the Sketch libraries, you're able to modify the NBL-Styling library to achieve the same results for both the Components and Patterns.
 
