@@ -7,7 +7,7 @@ _language: ja
 
 ## Grid 列ピン固定
 
-Grid 列ピン固定は、ユーザーが列を右または左へスクロールする際に Grid の最初の数列を左に固定します。ピン固定列は常にスクロール可能な列の上に表示されます。Grid 列ピン固定はは、[Ignite UI for Angular Grid 列ピン固定は機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid_column_pinning.html) と視覚的に同じものです。
+Grid 列ピン固定は、ユーザーが列を右または左へスクロールする際に Grid の最初の数列を左に固定します。ピン固定列は常にスクロール可能な列の上に表示されます。Grid 列ピン固定は、[Ignite UI for Angular Grid 列ピン固定機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid_column_pinning.html) と視覚的に同じものです。
 
 ### Grid 列ピン固定デモ
 
