@@ -30,9 +30,9 @@ In order to add the Libraries in Sketch follow these
 
 ### Creating your First Indigo Design Artboard
 
-Now that you have added the Indigo Design Libraries, you are all set to start crafting amazing experiences. Our first design will libraries will be for a simple registration screen with a Navbar, and a beautiful image for background on top of which we will design a simple form consisting of a little bit of Text, a few Inputs and a Button to submit the user details. So let's find out what a productivity boost the Indigo Design system brings to the table.
+Now that you have added the Indigo Design Libraries, you are all set to start crafting amazing experiences. Our first design will libraries will be for a simple registration screen with a Navbar, and a beautiful image for background on top of which we will design a simple form consisting of a little bit of Text, a few Inputs and a Button to submit the user details. So, let's find out what a productivity boost the Indigo Design system brings to the table.
 
-1.  Open up the Sketch app on your Mac and create a new file. Press the `A` key and from the right panel select an artboard size from the panel on the right. In this example we will be using an `iPhone 8` in portrait orientation, which will give us a 375 by 667 artboard to design for. If you don't see this preset arboard, choose `Apple Devices` from the dropdown at the top of the panel.
+1.  Open up the Sketch app on your Mac and create a new file. Press the `A` key and from the right panel select an artboard size from the panel on the right. In this example we will be using an `iPhone 8` in portrait orientation, which will give us a 375 by 667 artboard to design for. If you don't see this preset artboard, choose `Apple Devices` from the dropdown at the top of the panel.
 
 2.  From the insert menu, select `Indigo-Components`, then `Navigation` and `Navbar` positioning the Navbar at the top of the artboard and stretching it to take up the full witdth available. With the Navbar selected, fix its height and fix it to the left, top, and right from the resizing section in the right panel. Looking at the overrides section below we will change the `Type` to `~Title` and type "Sign Up" for the `Text` override below. Now let's drag to the artboard an image, which we will use as a background and make sure that it is positioned below the Navbar in the layers panel on the left, which should look like this:
 
@@ -46,13 +46,13 @@ Now that you have added the Indigo Design Libraries, you are all set to start cr
 ![](../images/getting-started1.png)
   <div class="divider--half"></div>
 
-3.  From the insert menu, select `Indigo-Styling`, then `Shadows/Rect` and `Elevate 18` positioning it above the background, but below the Navbar. Do the same to inser a `Colors/white` rectangle and resize and position it so that its borders are aligned with all the borders of the elevation. Now select both layers and size them to 280 by 400, putting them in the exact center of the artboard to serve as a surface on top of which our form will be laid out.
+3.  From the insert menu, select `Indigo-Styling`, then `Shadows/Rect` and `Elevate 18` positioning it above the background, but below the Navbar. Do the same to insert a `Colors/white` rectangle and resize and position it so that its borders are aligned with all the borders of the elevation. Now select both layers and size them to 280 by 400, putting them in the exact center of the artboard to serve as a surface on top of which our form will be laid out.
 
 ![](../images/getting-started2.png)
 
   <div class="divider--half"></div>
 
-4.  From the insert menu, select `Indigo-Components`, then `Text` and `Title` positioning it at the top of this surface with a 16px spacing on the left, top and right. The newly inserted layer should appear above the surface, but below the Navbar. Set the Size override to H4 and the Style to ~34/left/Primary and for the Text type in "Start Budgeting". The last thing to do with this layer is to set its height to 56px.
+4.  From the insert menu, select `Indigo-Components`, then `Text` and `Title` positioning it at the top of this surface with a 16px spacing on the left, top, and right. The newly inserted layer should appear above the surface, but below the Navbar. Set the Size override to H4 and the Style to ~34/left/Primary and for the Text type in "Start Budgeting". The last thing to do with this layer is to set its height to 56px.
 
 ![](../images/getting-started3.png)
 
@@ -64,7 +64,7 @@ Now that you have added the Indigo Design Libraries, you are all set to start cr
 
   <div class="divider--half"></div>
 
-6.  Now insert two more `Line` Inputs, positioning them one under the other, directly below the ones from the previous step. Change their State override to ~Dark/Filled as well and make them stretch across the full width with 16px spacing on both sides. Update the Labels to "Username" and "Password" and Input Texts to "Leaellynasaura" and "\*\*\*\*\*\*\*\*\*\*\*\*" accordingly.
+6.  Now, insert two more `Line` Inputs, positioning them one under the other, directly below the ones from the previous step. Change their State override to ~Dark/Filled as well and make them stretch across the full width with 16px spacing on both sides. Update the Labels to "Username" and "Password" and Input Texts to "Leaellynasaura" and "\*\*\*\*\*\*\*\*\*\*\*\*" accordingly.
 
 ![](../images/getting-started5.png)
 
