@@ -17,7 +17,7 @@ Custom Card コンポーネントは、通常のカードと同じタイプの�
 
 Card レイアウトをカスタマイズするには、`Cards/Custom` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下の方にある `Detach from Symbol` オプションを選択します。新しく表示される `Cards/Custom` グループの下のレイヤー パネルには以下があります。
 
-> [!INFO]
+> [!Note]
 > | レイヤー| 使用 |
 > | ----------------------------- | ---------------------------------------- |
 > | 🚫 igx-card/custom | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
@@ -34,7 +34,7 @@ Custom Card は、スタイルに高い柔軟性があり、テキスト、ボ�
 
 ![](../images/card_custom_styling.png)
 
-> [!INFO]
+> [!Note]
 > | レイヤー | 使用 |
 > | ----------------------------- | ---------------------------------------- |
 > | Card Area | Card レイアウト要素をグループ化 |
@@ -50,23 +50,23 @@ Custom Card は、スタイルに高い柔軟性があり、テキスト、ボ�
 
 1.  Header Style を再利用して Title と Subtitle Text の文字列を更新します。Content グループは後にして Actions Style へ移動します。ここでは、デフォルトで含まれる Icon Actions ではなく Button Actions へ変更します。最後に Left Button テキストを更新し、none に設定して Right Button を非表示にします。
 
-  ![](../images/card_custom_layout1.png)
+![](../images/card_custom_layout1.png)
 
 2.  Content に戻り、天気予報のレイアウトを作成します。はじめに Cards/Blocks/Header/Large Title (Card 領域グループですべてのブロック タイプを使用可能) を挿入し、タイトルを H1 Size に更新して、シンボルをタイトルおよびサブタイトルの両方を表示するためにサイズ変更します。文字列値を更新後、デフォルト段落 Content Style を削除でき、次のようになります (デフォルト Content Style は他の要素も保持するため、Content グループを保存します)。
 
-  ![](../images/card_custom_layout2.png)
+![](../images/card_custom_layout2.png)
 
 3.  次に太陽のイラストを Content Group に追加します。楕円形を数本の線形でグループ化してグループ幅と高さをプロパティ パネルで調整し、歪みを防止します。太陽イラストレーションを度タイトルの右に配置してレイアウトはこのようになります。
 
-  ![](../images/card_custom_layout3.png)
+![](../images/card_custom_layout3.png)
 
 4.  One-thumb Slider Component および Cards/Blocks/Content/Paragraph Text を下のラベル配列に追加します。ターゲットとするデザインにするために Slider を選択して Label Text Style および Label Background を none にオーバーライドし、ラベル バルーンを非表示にします。Paragraph Text にラベル値を挿入後、これと同様のことができます。
 
-  ![](../images/card_custom_layout4.png)
+![](../images/card_custom_layout4.png)
 
 5.  ここでは詳細な予報領域をデザインします。最も簡単な方法は Cards/Blocks/Content/Paragraph Text を 2 回挿入する方法です。1 回は平日用、1 回は度用です。これら 2 列のテキスト間に Small Icon を挿入後 4 回複製して垂直に配置した列をもう 1 列形成します。予測値で可視化を選択後、ターゲット レイアウトの完了です。
 
-  ![](../images/card_custom_layout5.png)
+![](../images/card_custom_layout5.png)
 
 #### 追加のスタイル
 

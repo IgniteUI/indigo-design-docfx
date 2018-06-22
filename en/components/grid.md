@@ -17,7 +17,7 @@ Use the Grid Component to let the user browse and interact with vast amount of c
 The Grid is essentially a repeater of columns and rows showing data in a tabular fashion. Therefore, the easiest way to use it is by dragging a `Generic Grid` to your artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared
 _Grid/Generic Grid_ group, you should see the following:
 
-> [!INFO]
+> [!Note]
 > | Layer | Use |
 > | ----------------------------- | ------------------------------- |
 > | 🚫 igx-grid | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |

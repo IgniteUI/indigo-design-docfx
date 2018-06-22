@@ -59,7 +59,7 @@ The Input has rich support for prefix and suffix through text string or icon tha
 ![](../images/input_prefix.png)
 ![](../images/input_suffix.png)
 
-> [!INFO]
+> [!Note]
 > ↳ Layout
 >
 > - .../OnlyText/...

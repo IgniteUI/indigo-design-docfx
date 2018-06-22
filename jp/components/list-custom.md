@@ -24,7 +24,7 @@ Custom List Item はインアクティブ状態 (標準状態のインアクテ�
 
 List Item レイアウトをカスタマイズするには、`List/Items/Custom` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下の方にある`シンボルからデタッチ` オプションを選択します。新しく表示される `List/Items/Custom/~` グループの下のレイヤー パネルには以下があります。
 
-> [!INFO]
+> [!Note]
 > | レイヤー | 使用 |
 > | ----------------------------- | ---------------------------------------- |
 > | 🚫 igx-list-item/custom:~ | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
@@ -46,15 +46,15 @@ Custom List Item は、Secondary Actions のオーバーライドおよびテキ
 
 1.  Primary Action Group の Header を再利用しますが右半分のみに合わせてサイズ変更し、Title と Subtitile Text の文字列を更新します。Secondary Action Group で Raised Button 配置を右下近くに追加します。テキストの更新して新しい値に合わせてサイズ変更します。ターゲット カスタム レイアウトに Icons は必要ないため、最後にデフォルト Secondary Action を削除します。
 
-  ![](../images/list_item_custom_layout1.png)
+![](../images/list_item_custom_layout1.png)
 
 2.  次に List/Items/Blocks/Content/Image を Primary Action Group に挿入し、同じグループ内で一番上に Badge を追加します。Item サイズに基づいて画像をサイズ変更し、コンテンツを選択します。Badge を変更して Value Text を更新した後に Border と Elevation を非表示にし、これと同様のものを取得します。
 
-  ![](../images/list_item_custom_layout2.png)
+![](../images/list_item_custom_layout2.png)
 
-3.  前のステップでは Text/Title 要素を Primary Action Group に追加します。H3 で製品価格を表示し、その右 にH6 で追加のテキストを表示します。Header と Raised Button 間の空スペースに配置後、ターゲット レイアウトが完了した Raised Button の最終的な配置を調整できます。
+3.  前のステップでは Text/Title 要素を Primary Action Group に追加します。H3 で製品価格を表示し、その右 に H6 で追加のテキストを表示します。Header と Raised Button 間の空スペースに配置後、ターゲット レイアウトが完了した Raised Button の最終的な配置を調整できます。
 
-  ![](../images/list_item_custom_layout3.png)
+![](../images/list_item_custom_layout3.png)
 
 #### 追加のスタイル
 

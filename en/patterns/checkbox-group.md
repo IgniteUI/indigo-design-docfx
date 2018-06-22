@@ -10,7 +10,7 @@ Use the Checkbox Group Pattern to organize and layout a collection of Checkbox e
 
 ![](../images/checkbox-group_demo.png)
 
-> [!INFO]
+> [!Note]
 > Trigger `Detach from Symbol` on an instance of the Checkbox Group Pattern only if you need to create more items than provided.
 
 The Checkbox Group Pattern comes with the styling flexibility provided by the Checkbox elements that constitute it.

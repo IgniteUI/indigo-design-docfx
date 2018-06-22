@@ -16,7 +16,7 @@ To change the primary color, navigate to the `Colors` page in the Sketch file an
 
 ![](../images/colors_generation.png)
 
-> [!INFO]
+> [!Note]
 > Since the text colors are controlled by the `Typography` to fully update the default theme, you also need to manually change the colors in the `Typography` page as well. Once you change your `primary` color, make sure you change the `Primary` section in Typography to the very same color. The exact steps to achieve this can be found in [Typography](typography.md).
 
 ### Adding More Colors

@@ -20,7 +20,7 @@ The higher the number of the Elevation, the more prominent the shadow. Shadows c
 
 ![](../images/elevation_people.png)
 
-> [!INFO]
+> [!Note]
 > Changing the Elevation in the Component overrides is possible in Sketch and will produce the expected outcome, but the same will not be achievable with Ignite UI for Angular yet.
 
 ### Use of standalone elevations

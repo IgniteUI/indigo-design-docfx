@@ -16,7 +16,7 @@ Use the Custom Card Component to display the same type of information that you w
 
 In order to customize Card layouts start by dragging a `Cards/Custom` to your Artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared _Cards/Custom_ group, you should see the following:
 
-> [!INFO]
+> [!Note]
 > | Layer | Use |
 > | ----------------------------- | ---------------------------------------- |
 > | 🚫 igx-card/custom | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
@@ -33,7 +33,7 @@ The Custom Card has high-level styling flexibility that matches the normal Card 
 
 ![](../images/card_custom_styling.png)
 
-> [!INFO]
+> [!Note]
 > | Layer | Use |
 > | ----------------------------- | ---------------------------------------- |
 > | Card Area | Groups together the Card layout elements |

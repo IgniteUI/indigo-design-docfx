@@ -23,7 +23,7 @@ The Custom List Item supports the following interactive states: inactive for the
 
 In order to customize List Item layouts, start by dragging a `List/Custom/Item` to your artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared _List/Custom/Item_ group, you should see the following:
 
-> [!INFO]
+> [!Note]
 > | Layer | Use |
 > | ----------------------------- | ---------------------------------------- |
 > | 🚫 igx-list-item/custom | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |

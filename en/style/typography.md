@@ -10,7 +10,7 @@ Use Typography to set up your theme's typeface and available sizes. Although we 
 
 ![](../images/typography_default.png)
 
-> [!INFO]
+> [!Note]
 > The Components library provides dedicated [Text](text.md) symbols for Titles and Paragraphs. Use these when creating intricate layouts for articles, blog posts etc. rather than the Styling library directly. Typography is meant to help you define a consistent theme and style for all the texts in your designs.
 
 ### Typography colors

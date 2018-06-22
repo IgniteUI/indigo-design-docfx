@@ -16,7 +16,7 @@ Use the List Component to let the user browse and interact with a continuous, ve
 
 The List is essentially a repeater of rows showing data as an indexed vertical collection of items. Therefore, the easiest way to use it is by dragging a `Generic List` to your artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared _List/Generic List_ group, you should see the following:
 
-> [!INFO]
+> [!Note]
 > | Layer | Use |
 > | ----------------------------- | ------------------------------- |
 > | 🚫 igx-list | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |

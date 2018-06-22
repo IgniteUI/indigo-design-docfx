@@ -60,7 +60,7 @@ Input には特定の場合に入力 (@email.com サフィックス) を軽減�
 ![](../images/input_prefix.png)
 ![](../images/input_suffix.png)
 
-> [!INFO]
+> [!Note]
 > ↳ Layout
 >
 > - .../OnlyText/...
@@ -79,7 +79,7 @@ Input は、Styling ライブラリのテーマでプライマリ、成功、警
 
 Input のボックス タイプを使用して画像上にフォームを配置して読みやすくします。デザインの警告やエラー状態で Input を使用する際にヘルパーテキストを使用してユーザーにガイダンスを提供します。
 
-| いい例                         | 悪い例                          |
+| いい例                       | 悪い例                         |
 | ---------------------------- | ------------------------------ |
 | ![](../images/input_do1.png) | ![](../images/input_dont1.png) |
 | ![](../images/input_do2.png) | ![](../images/input_dont2.png) |
