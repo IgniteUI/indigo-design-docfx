@@ -8,7 +8,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 Use the Avatar + Badge Pattern to complement the graphical representation that the Avatar provides with a short subtle message or indication for an alert or notification.
 
-![](../images/avatar+badge_demo.png)
+![](../images/avatar_badge_demo.png)
 
 The Avatar + Badge Pattern comes with the styling flexibility provided by the Avatar and Badge that constitute its layout.
 
@@ -24,7 +24,7 @@ The Avatar + Badge Pattern supports the same sizes that the Avatar does:
 
 The Badge can be positioned in any of the four corners of the Avatar as shown below through the help of an override.
 
-![](../images/avatar+badge_positions.png)
+![](../images/avatar_badge_positions.png)
 
 ## Additional Resources
 
