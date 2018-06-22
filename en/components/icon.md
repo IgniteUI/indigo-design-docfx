@@ -1,7 +1,7 @@
 ---
 title: Icon - Design System Component
 _description: The Icon Component Symbol is used to provide subtle graphical indications to the user that also may trigger an interaction. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Icon

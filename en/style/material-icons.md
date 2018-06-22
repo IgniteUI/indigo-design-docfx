@@ -1,7 +1,7 @@
 ---
 title: Material Icons - Design System Styling
 _description: The Material Icons Symbols in Styling replicate the skilfully crafted symbols for common actions familiar from Material Design.
-_keywords: Design System, Sketch, Ignite UI for Angular, UI Library, Icons, Material
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Material Icons

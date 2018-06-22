@@ -1,7 +1,7 @@
 ---
 title: Colors - Design System Styling
 _description: The Colors Symbols in Styling are the go to place for setting up a theme in Indigo Design. 
-_keywords: Design System, Sketch, Ignite UI for Angular, UI Library, Colors, Palettes
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Colors

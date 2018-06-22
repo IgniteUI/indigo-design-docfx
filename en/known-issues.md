@@ -1,7 +1,7 @@
 ---
 title: Known Issues - Design System
 _description: The issues and limitations that we are aware of with the guidance how to avoid or recover in case you run into them. 
-_keywords: Design System, Sketch, Ignite UI for Angular, UI Library, Colors, Palettes
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Known Issues

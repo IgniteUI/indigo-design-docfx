@@ -1,7 +1,7 @@
 ---
 title: Grid Filter - Grid Feature
 _description: The Grid Filter Component Symbol provides a dialog for specifying filtering criteria on a Grid column.
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, Grid Feature, UI Library, Widgets
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Grid Filter

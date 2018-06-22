@@ -1,7 +1,7 @@
 ---
 title: Form - Design System Pattern
 _description: The Form Pattern Symbols combine various data entry and display elements to provide meaningful application scenarios.
-_keywords: Design System, Sketch, Ignite UI for Angular, Pattern, UI Library, Widgets
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Form

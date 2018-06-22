@@ -1,7 +1,7 @@
 ---
 title: Elevation - Design System Styling
 _description: The Elevation Symbols in Styling are used to mimic the relative position between surfaces stacked on top of one another.
-_keywords: Design System, Sketch, Ignite UI for Angular, UI Library, Colors, Palettes
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Elevation
