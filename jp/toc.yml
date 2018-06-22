@@ -1,3 +1,5 @@
-﻿- name: ダウンロード
-  href: 'https://jp.infragistics.com/design'
+﻿- name: 購入
+  href: 'https://jp.infragistics.com/products/indigo-design/pricing'
+- name: サインアップ
+  href: 'app.indigo.design/register'
   cta: true

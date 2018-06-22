@@ -1,3 +1,5 @@
-- name: Download
-  href: 'https://www.infragistics.com/design'
+- name: How to Buy
+  href: 'https://www.infragistics.com/products/indigo-design/pricing'
+- name: Sign Up
+  href: 'app.indigo.design/register'
   cta: true
