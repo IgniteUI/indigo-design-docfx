@@ -89,7 +89,7 @@
 - name: AudioVideo
   href: ../patterns/av.md
 - name: Avatar + Badge
-  href: ../patterns/avatar+badge.md
+  href: ../patterns/avatar-badge.md
 - name: Card Collection
   href: ../patterns/card-collection.md
 - name: Checkbox Group
