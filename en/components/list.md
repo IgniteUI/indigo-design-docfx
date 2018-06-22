@@ -16,15 +16,14 @@ Use the List Component to let the user browse and interact with a continuous, ve
 
 The List is essentially a repeater of rows showing data as an indexed vertical collection of items. Therefore, the easiest way to use it is by dragging a `Generic List` to your artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared _List/Generic List_ group, you should see the following:
 
-> [!Note]
-> | Layer | Use |
-> | ----------------------------- | ------------------------------- |
-> | 🚫 igx-list | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-> | List Header | An instance of a list header item |
-> | 1 Item | An instance of a two-line list item |
-> | 2 Item | An instance of a two-line list item |
-> | 🌈 Background | Defines the background color of the list |
-> | 🕹️Data | Used by code generation for data binding |
+| Layer | Use |
+| ----------------------------- | ------------------------------- |
+| 🚫 igx-list | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
+| List Header | An instance of a list header item |
+| 1 Item | An instance of a two-line list item |
+| 2 Item | An instance of a two-line list item |
+| 🌈 Background | Defines the background color of the list |
+| 🕹️Data | Used by code generation for data binding |
 
 After detaching, you may insert additional headers or items either from the Sketch menu or simply by duplicating an existing symbol. Always place items and headers one after another with consistent horizontal width and alignment, making sure there are no vertical gaps between the items.
 
