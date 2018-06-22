@@ -37,7 +37,7 @@ Once you update the `primary` and `secondary` colors as the first step for themi
 
 ![](../images/typography_primary.png)
 
-> [!INFO]
+> [!Note]
 > If you want to go one step further and e.g. use `grays.700` instead of `grays.600` besides following the process above to update the `grays.600` secton, you should also update the names of the affected layers to `Typography/.../grays.700`.
 
 ## Code Generation

@@ -41,7 +41,7 @@ Carefully pick the Icon color to assure good contrast with the background and de
 
 When colors are specified for the Icon, the Icon HTML element will be wrapped in div. This is required by browsers to style a nested component (a component within another component).
 
-> [!INFO]
+> [!Note]
 > Important: There is an Icon Component in the NBL Components library and in the NBL Styles library. Only the Icon in the NBL Component library is rendered.
 
 > [!WARNING]

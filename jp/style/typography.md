@@ -38,7 +38,7 @@ _language: ja
 
 ![](../images/typography_primary.png)
 
-> [!INFO]
+> [!Note]
 > 以上の手順で、`grays.600` の代わりに `grays.700` を使用する場合、変更するレイヤーの名前を `Typography/../grays.700` に更新します。
 
 ## コードの生成
