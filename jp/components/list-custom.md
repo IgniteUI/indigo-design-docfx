@@ -22,15 +22,15 @@ Custom List Item はインアクティブ状態 (標準状態のインアクテ�
 
 ### シンボルからデタッチ
 
-List Item レイアウトをカスタマイズするには、`List/Items/Custom` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下の方にある`シンボルからデタッチ` オプションを選択します。新しく表示される `List/Items/Custom/~` グループの下のレイヤー パネルには以下があります。
+List Item レイアウトをカスタマイズするには、`List/Custom/Item` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下の方にある`シンボルからデタッチ` オプションを選択します。新しく表示される `List/Custom/Item` グループの下のレイヤー パネルには以下があります。
 
 > [!Note]
 > | レイヤー | 使用 |
 > | ----------------------------- | ---------------------------------------- |
-> | 🚫 igx-list-item/custom:~ | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
+> | 🚫 igx-list-item/custom | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
 > | 💡Primary Action Group | Primary Action レイアウト要素をグループ化 |
 > | 💡Secondary Action Group | Secondary Action レイアウト要素をグループ化 |
-> | 🌈 Background | List Item の背景色を定義 |
+> | 💡State | 項目の Background を含み、List Item がアクティブまたは非アクティブな状態にあるかどうかを定義します。 |
 
 #### スタイル設定
 
@@ -40,7 +40,7 @@ Custom List Item は、Secondary Actions のオーバーライドおよびテキ
 
 #### レイアウト
 
-以下は、上記の製品 List Item の複雑なレイアウトを 3 つのシンプルなステップで作成する方法です。空 Artboard のインアクティブな Custom List Item をドラッグし、`シンボルからデタッチ`を選択して、背景色を変更する基本スタイルを適用します。開始ポイントにも同様に適用します。
+以下は、上記の製品 List Item の複雑なレイアウトを 3 つのシンプルなステップで作成する方法です。空 Artboard の Custom List Item をドラッグし、`シンボルからデタッチ`を選択して、状態の背景色を変更する基本スタイルを適用します。開始ポイントにも同様に適用します。
 
 ![](../images/list_item_custom_layout0.png)
 
@@ -48,7 +48,7 @@ Custom List Item は、Secondary Actions のオーバーライドおよびテキ
 
   ![](../images/list_item_custom_layout1.png)
 
-2.  次に List/Items/Blocks/Content/Image を Primary Action Group に挿入し、同じグループ内で一番上に Badge を追加します。Item サイズに基づいて画像をサイズ変更し、コンテンツを選択します。Badge を変更して Value Text を更新した後に Border と Elevation を非表示にし、これと同様のものを取得します。
+2.  次に List/Custom/Blocks/Image Content を Primary Action Group に挿入し、同じグループ内で一番上に Badge を追加します。Item サイズに基づいて画像をサイズ変更し、コンテンツを選択します。Badge を変更して Value Text を更新した後に Border と Elevation を非表示にし、これと同様のものを取得します。
 
   ![](../images/list_item_custom_layout2.png)
 

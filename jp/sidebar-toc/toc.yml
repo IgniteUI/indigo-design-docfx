@@ -108,3 +108,6 @@
   href: ../patterns/lists.md
 - name: User Profile
   href: ../patterns/user-profile.md
+  
+- name: 既知の問題
+  href: ../known-issues.md
