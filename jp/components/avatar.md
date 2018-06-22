@@ -60,17 +60,16 @@ Avatar の色またはフォントを指定した場合、Avatar HTML 要素は 
 
 #### ネストなし
 
-```PseudoCode
+```typescript
 Customer {
   imageName: String;
 }
-
-DataProperty: {imageName}
 ```
+DataProperty: `{imageName}`
 
 #### ネストあり
 
-```PseudoCode
+```typescript
 Profile {
   imageName: String;
 }
@@ -78,9 +77,8 @@ Profile {
 Customer {
   profile: Profile;
 }
-
-DataProperty: {profile.imageName}
 ```
+DataProperty: `{profile.imageName}`
 
 ### Event プロパティ
 

@@ -51,17 +51,16 @@ Sketch 描画に追加されるタイポグラフィ スタイル オブジェ�
 
 #### ネストなし
 
-```PseudoCode
+```typescript
 Customer {
   imageName: String;
 }
-
-DataProperty: {imageName}
 ```
+DataProperty: `{imageName}`
 
 #### ネストあり
 
-```PseudoCode
+```typescript
 Profile {
   imageName: String;
 }
@@ -69,9 +68,8 @@ Profile {
 Customer {
   profile: Profile;
 }
-
-DataProperty: {profile.imageName}
 ```
+DataProperty: `{profile.imageName}`
 
 ### テキスト
 

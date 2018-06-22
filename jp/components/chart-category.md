@@ -57,17 +57,16 @@ Category Chart は使用安いコンポーネントで、プロパティを少�
 
 #### ネストなし
 
-```PseudoCode
+```typescript
 Customer {
   imageName: String;
 }
-
-DataSource: {imageName}
 ```
+DataProperty: `{imageName}`
 
 #### ネストあり
 
-```PseudoCode
+```typescript
 Profile {
   imageName: String;
 }
@@ -75,9 +74,8 @@ Profile {
 Customer {
   profile: Profile;
 }
-
-DataSource: {profile.imageName}
 ```
+DataProperty: `{profile.imageName}`
 
 ### データ ソース
 

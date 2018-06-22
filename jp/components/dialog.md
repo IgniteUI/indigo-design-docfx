@@ -48,17 +48,16 @@ Dialog の色を指定した場合、Dialog HTML 要素は div でラップさ�
 
 #### ネストなし
 
-```PseudoCode
+```typescript
 Customer {
   imageName: String;
 }
-
-DataProperty: {imageName}
 ```
+DataProperty: `{imageName}`
 
 #### ネストあり
 
-```PseudoCode
+```typescript
 Profile {
   imageName: String;
 }
@@ -66,9 +65,8 @@ Profile {
 Customer {
   profile: Profile;
 }
-
-DataProperty: {profile.imageName}
 ```
+DataProperty: `{profile.imageName}`
 
 ### テキスト
 

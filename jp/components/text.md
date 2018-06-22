@@ -67,27 +67,25 @@ Title または Paragraph に色やフォントを指定した場合、タイト
 
 #### ネストなし
 
-```PseudoCode
+```typescript
 Customer {
-    imageName: String;
+  imageName: String;
 }
-
-DataProperty: {imageName}
 ```
+DataProperty: `{imageName}`
 
 #### ネストあり
 
-```PseudoCode
+```typescript
 Profile {
-    imageName: String;
+  imageName: String;
 }
 
 Customer {
-    profile: Profile;
+  profile: Profile;
 }
-
-DataProperty: {profile.imageName}
 ```
+DataProperty: `{profile.imageName}`
 
 ### テキスト
 

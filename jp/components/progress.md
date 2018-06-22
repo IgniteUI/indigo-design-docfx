@@ -66,17 +66,16 @@ Circular または Linear Bar に色またはフォントを指定した場合�
 
 #### ネストなし
 
-```PseudoCode
+```typescript
 Customer {
   imageName: String;
 }
-
-DataProperty: {imageName}
 ```
+DataProperty: `{imageName}`
 
 #### ネストあり
 
-```PseudoCode
+```typescript
 Profile {
   imageName: String;
 }
@@ -84,9 +83,8 @@ Profile {
 Customer {
   profile: Profile;
 }
-
-DataProperty: {profile.imageName}
 ```
+DataProperty: `{profile.imageName}`
 
 ### データ プロパティ
 

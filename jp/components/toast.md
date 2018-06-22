@@ -49,27 +49,25 @@ Toast の色を指定した場合、Toast HTML 要素は div でラップされ�
 
 #### ネストなし
 
-```PseudoCode
+```typescript
 Customer {
-    imageName: String;
+  imageName: String;
 }
-
-DataProperty: {imageName}
 ```
+DataProperty: `{imageName}`
 
 #### ネストあり
 
-```PseudoCode
+```typescript
 Profile {
-    imageName: String;
+  imageName: String;
 }
 
 Customer {
-    profile: Profile;
+  profile: Profile;
 }
-
-DataProperty: {profile.imageName}
 ```
+DataProperty: `{profile.imageName}`
 
 ### データ プロパティ
 
