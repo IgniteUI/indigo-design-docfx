@@ -48,24 +48,19 @@ Let's see how we can create the intricate layout for the weather forecast Card f
 ![](../images/card_custom_layout0.png)
 
 1.  We will reuse the Header Style and just update the strings for the Title and Subtitle Text. For now, let's ignore the Content group and move to the Actions Style, where we need to change it to Button Actions rather than the Icon Actions are default. Lastly, we will update the Left Button text and hide the Right Button by setting it to none.
-
-![](../images/card_custom_layout1.png)
+    ![](../images/card_custom_layout1.png)
 
 2.  Now, it is time to get back to the Content and create the layout for the weather forecast. We will start by inserting a Cards/Blocks/Header/Large Title (we can use any type of block in any Card area group), updating the title to a Size of H1, and resizing the symbol to correctly display both the title and subtitle. After updating the string values, you may delete the default paragraph, Content Style, and you should see an outcome similar to the example. As a note, deleting the default Content Style now will preserve the Content group since it now holds another element as well.
-
-![](../images/card_custom_layout2.png)
+    ![](../images/card_custom_layout2.png)
 
 3.  The next item to add in the Content Group is a sun illustration. You can create your own by grouping an Oval shape with a few line shapes and fixing the group width and height in the properties panel to avoid distortions. Place the sun illustration to the right of the degrees title, and your layout should look like this.
-
-![](../images/card_custom_layout3.png)
+    ![](../images/card_custom_layout3.png)
 
 4.  Now, we have to add a One-thumb Slider Component and a Cards/Blocks/Content/Paragraph Text for the array of labels underneath. In order to achieve our target design, we have to select the Slider and set its Label Text Style and Label Background overrides to none, which will hide the label balloon. After inserting some label values in the Paragraph Text, you should be able to achieve something similar to this.
-
-![](../images/card_custom_layout4.png)
+    ![](../images/card_custom_layout4.png)
 
 5.  It's time to design the detailed forecast area, and the easiest way to do that is by inserting the Cards/Blocks/Content/Paragraph Text twice: once for the weekdays and once for the degrees. In-between these two text columns, we will insert a Small Icon and duplicate it four more times to create a vertically aligned set, forming one more column. After choosing visualizations for them resonating with the forecast values, our target layout is complete.
-
-![](../images/card_custom_layout5.png)
+    ![](../images/card_custom_layout5.png)
 
 #### Additional Styling
 
