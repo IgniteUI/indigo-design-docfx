@@ -1,7 +1,7 @@
 ---
 title: Colors - Design System Styling
 _description: The Colors Symbols in Styling are the go to place for setting up a theme in Indigo Design. 
-_keywords: Design System, Sketch, Ignite UI for Angular, UI Library, Colors, Palettes
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Colors
@@ -16,7 +16,7 @@ To change the primary color, navigate to the `Colors` page in the Sketch file an
 
 ![](../images/colors_generation.png)
 
-> [!INFO]
+> [!Note]
 > Since the text colors are controlled by the `Typography` to fully update the default theme, you also need to manually change the colors in the `Typography` page as well. Once you change your `primary` color, make sure you change the `Primary` section in Typography to the very same color. The exact steps to achieve this can be found in [Typography](typography.md).
 
 ### Adding More Colors

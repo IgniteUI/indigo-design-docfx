@@ -1,7 +1,7 @@
 ---
 title: Snackbar - Design System Component
 _description: The Snackbar Component Symbol is used to show a short notification or indicate the last action performed by the user.
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Snackbar
@@ -46,6 +46,7 @@ Customer {
   imageName: String;
 }
 ```
+
 DataProperty would be: `{imageName}`
 
 #### Nested
@@ -59,6 +60,7 @@ Customer {
   profile: Profile;
 }
 ```
+
 DataProperty would be: `{profile.imageName}`
 
 ### Event

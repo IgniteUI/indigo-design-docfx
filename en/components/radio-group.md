@@ -1,7 +1,7 @@
 ---
 title: Radio Group - Design System Component
 _description: The Radio Group Component Symbol is used to provide a mechanism for exclusive selection from a set of available options. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Radio Group
@@ -58,6 +58,7 @@ Customer {
   imageName: String;
 }
 ```
+
 DataProperty would be: `{imageName}`
 
 #### Nested
@@ -71,6 +72,7 @@ Customer {
   profile: Profile;
 }
 ```
+
 DataProperty would be: `{profile.imageName}`
 
 ### Reactive Forms

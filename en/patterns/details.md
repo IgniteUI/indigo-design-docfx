@@ -1,7 +1,7 @@
 ---
 title: Details - Design System Pattern
 _description: The Details Pattern Symbols combine varios components in order to display detailed information about application-scenario objects. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Pattern, UI Library, Widgets
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Details

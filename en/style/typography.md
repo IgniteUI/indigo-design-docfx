@@ -1,7 +1,7 @@
 ---
 title: Typography - Design System Styling
 _description: The Typography Symbols in Styling are the go to place for setting up the font-related aspects of a theme in Indigo Design. 
-_keywords: Design System, Sketch, Ignite UI for Angular, UI Library, Colors, Palettes
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Typography
@@ -10,7 +10,7 @@ Use Typography to set up your theme's typeface and available sizes. Although we 
 
 ![](../images/typography_default.png)
 
-> [!INFO]
+> [!Note]
 > The Components library provides dedicated [Text](text.md) symbols for Titles and Paragraphs. Use these when creating intricate layouts for articles, blog posts etc. rather than the Styling library directly. Typography is meant to help you define a consistent theme and style for all the texts in your designs.
 
 ### Typography colors
@@ -55,6 +55,7 @@ Customer {
   imageName: String;
 }
 ```
+
 DataProperty would be: `{imageName}`
 
 #### Nested
@@ -68,6 +69,7 @@ Customer {
   profile: Profile;
 }
 ```
+
 DataProperty would be: `{profile.imageName}`
 
 ### Text

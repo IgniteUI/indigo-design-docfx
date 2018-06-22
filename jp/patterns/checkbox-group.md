@@ -11,7 +11,7 @@ Checkbox Group パターンを使用すると、Checkbox 要素のコレクシ�
 
 ![](../images/checkbox-group_demo.png)
 
-> [!INFO]
+> [!Note]
 > 提供される項目より多い項目を作成する場合のみに Checkbox Group パターンのインスタンスで `Detach From Symbol` をトリガーします。
 
 Checkbox Group パターンは、含まれる Checkbox 要素のスタイル設定をカスタマイズできます。

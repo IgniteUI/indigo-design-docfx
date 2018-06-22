@@ -11,7 +11,7 @@ _language: ja
 
 ![](../images/typography_default.png)
 
-> [!INFO]
+> [!Note]
 > コンポーネント ライブラリは Title および Paragraph の [Text](text.md) シンボルを提供します。記事、ブログ投稿の高度なレイアウトの作成で直接にスタイリング ライブラリを使用する代わりにこのアイコンを使用します。タイポグラフィは、デザインのすべてのテキストで一貫性のあるテーマおよびスタイルを定義します。
 
 ### タイポグラフィ色
@@ -56,6 +56,7 @@ Customer {
   imageName: String;
 }
 ```
+
 DataProperty: `{imageName}`
 
 #### ネストあり
@@ -69,6 +70,7 @@ Customer {
   profile: Profile;
 }
 ```
+
 DataProperty: `{profile.imageName}`
 
 ### テキスト

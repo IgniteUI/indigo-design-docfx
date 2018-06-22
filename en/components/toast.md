@@ -1,7 +1,7 @@
 ---
 title: Toast - Design System Component
 _description: The Toast Component Symbol is used to show a non-interactive information message or notification.
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Toast
@@ -53,6 +53,7 @@ Customer {
   imageName: String;
 }
 ```
+
 DataProperty would be: `{imageName}`
 
 #### Nested
@@ -66,6 +67,7 @@ Customer {
   profile: Profile;
 }
 ```
+
 DataProperty would be: `{profile.imageName}`
 
 ### Data Property

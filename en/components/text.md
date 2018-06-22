@@ -1,7 +1,7 @@
 ---
 title: Text - Design System Component
 _description: The Text Component Symbol is used to display non-interactive title or paragraph text.
-_keywords: Design System, Sketch, Component, UI Library, Widgets
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Text
@@ -71,6 +71,7 @@ Customer {
   imageName: String;
 }
 ```
+
 DataProperty would be: `{imageName}`
 
 #### Nested
@@ -84,6 +85,7 @@ Customer {
   profile: Profile;
 }
 ```
+
 DataProperty would be: `{profile.imageName}`
 
 ### Text

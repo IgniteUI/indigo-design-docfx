@@ -1,7 +1,7 @@
 ---
 title: List - Design System Component
 _description: The List Component Symbol provides means to browse and interact with a vertical collection of rows of data.
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## List
@@ -16,7 +16,7 @@ Use the List Component to let the user browse and interact with a continuous, ve
 
 The List is essentially a repeater of rows showing data as an indexed vertical collection of items. Therefore, the easiest way to use it is by dragging a `Generic List` to your artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared _List/Generic List_ group, you should see the following:
 
-> [!INFO]
+> [!Note]
 > | Layer | Use |
 > | ----------------------------- | ------------------------------- |
 > | 🚫 igx-list | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |

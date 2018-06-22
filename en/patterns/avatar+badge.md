@@ -1,7 +1,7 @@
 ---
 title: Avatar + Badge - Design System Pattern
 _description: The Avatar + Badge Pattern Symbols combine an Avatar with a Badge in front of it to display notifications and alerts. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Pattern, UI Library, Widgets
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Avatar + Badge

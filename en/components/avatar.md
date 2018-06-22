@@ -1,7 +1,7 @@
 ---
 title: Avatar - Design System Component
 _description: The Avatar Component Symbol is a graphical representation of personal information. 
-_keywords: Design System, Sketch, Ignite UI for Angular, Component, UI Library, Widgets
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Avatar
@@ -64,6 +64,7 @@ Customer {
   imageName: String;
 }
 ```
+
 DataProperty would be: `{imageName}`
 
 #### Nested
@@ -77,17 +78,18 @@ Customer {
   profile: Profile;
 }
 ```
+
 DataProperty would be: `{profile.imageName}`
 
 ### Event Property
 
 When supplied, this property is used to create a method in the component TypeScript and add an Angular click signature in the HTML. When supplied the event must be specified using the curly braces format: {onEventName}
 
-|                 |                                                                                                                                                                                                                                                                                                                             |
-| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Picture Avatar  | `🕹️DataProperty` – when supplied, this property can be used to data bind the image source. When provided, it will be the name of the property on the data object specified by the model object name provided in the generation request.                                                                                     |
-| Icon Avatar     | `🕹️DataProperty` – this property is ignored.                                                                                                                                                                                                                                                                                |
-| Initials Avatar | `🕹️DataProperty` – when supplied, this property is used to databind the initials property. When provided, it will be the name of the property on the data object specified by the model object name provided in the generation request. The Avatar initials only renders two characters, this is a limitation of Ignite UI. |
+| Avatar Type     | `🕹️DataProperty`                                                                                                                                                                                                                                                                                         |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Picture Avatar  | When supplied, this property can be used to data bind the image source. When provided, it will be the name of the property on the data object specified by the model object name provided in the generation request.                                                                                     |
+| Icon Avatar     | This property is ignored.                                                                                                                                                                                                                                                                                |
+| Initials Avatar | When supplied, this property is used to databind the initials property. When provided, it will be the name of the property on the data object specified by the model object name provided in the generation request. The Avatar initials only renders two characters, this is a limitation of Ignite UI. |
 
 ## Additional Resources
 

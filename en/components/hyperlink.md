@@ -1,7 +1,7 @@
 ---
 title: Hyperlink - Design System Component
 _description: The Hyperlink Component Symbol is used to allow the user follow a reference in a text paragraph. 
-_keywords: Design System, Sketch, Component, UI Library, Widgets
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Hyperlink
@@ -50,6 +50,7 @@ Customer {
   imageName: String;
 }
 ```
+
 DataProperty would be: `{imageName}`
 
 #### Nested
@@ -63,6 +64,7 @@ Customer {
   profile: Profile;
 }
 ```
+
 DataProperty would be: `{profile.imageName}`
 
 ### Event Property

@@ -15,7 +15,7 @@ _language: ja
 
 ![](../images/elevation_people.png)
 
-> [!INFO]
+> [!Note]
 > Sketch でコンポーネントをオーバーライドしてエレベーションを変更することは可能ですが、現在 Ignite UI for Angular では実装されていません。
 
 ### スタンドアロン エレベーションの使用

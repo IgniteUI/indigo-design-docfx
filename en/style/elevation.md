@@ -1,7 +1,7 @@
 ---
 title: Elevation - Design System Styling
 _description: The Elevation Symbols in Styling are used to mimic the relative position between surfaces stacked on top of one another.
-_keywords: Design System, Sketch, Ignite UI for Angular, UI Library, Colors, Palettes
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Elevation
@@ -20,7 +20,7 @@ The higher the number of the Elevation, the more prominent the shadow. Shadows c
 
 ![](../images/elevation_people.png)
 
-> [!INFO]
+> [!Note]
 > Changing the Elevation in the Component overrides is possible in Sketch and will produce the expected outcome, but the same will not be achievable with Ignite UI for Angular yet.
 
 ### Use of standalone elevations
