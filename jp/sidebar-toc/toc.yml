@@ -35,6 +35,8 @@
       href: ../components/cards-custom.md
 - name: Carousel
   href: ../components/carousel.md
+- name: Category Chart
+  href: ../components/chart-category.md
 - name: Checkbox
   href: ../components/checkbox.md
 - name: Dialog
