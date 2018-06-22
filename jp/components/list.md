@@ -55,32 +55,32 @@ List 項目は、2 つの異なる領域があります。Primary Action は、�
 
 以下は置き換え可能な List 項目プライマリ アクションです。
 
-|                              |                                        |
-| ---------------------------- | -------------------------------------- |
-| Avatar + Description + Label | ![](../images/list_item_primary.png)   |
-| Avatar + Label               | ![](../images/list_item_primary2.png)  |
-| Avatar + Label + Description | ![](../images/list_item_primary3.png)  |
-| Description + Label          | ![](../images/list_item_primary4.png)  |
-| Icon + Description + Label   | ![](../images/list_item_primary5.png)  |
-| Icon + Label                 | ![](../images/list_item_primary6.png)  |
-| Icon + Label + Description   | ![](../images/list_item_primary7.png)  |
-| Label                        | ![](../images/list_item_primary8.png)  |
-| Label + Description          | ![](../images/list_item_primary9.png)  |
-| Label + Progress             | ![](../images/list_item_primary10.png) |
+|                              |                                        |                    |
+| ---------------------------- | -------------------------------------- | ------------------ |
+| Avatar + Description + Label | ![](../images/list_item_primary.png)   |                    |
+| Avatar + Label               | ![](../images/list_item_primary2.png)  |                    |
+| Avatar + Label + Description | ![](../images/list_item_primary3.png)  |                    |
+| Description + Label          | ![](../images/list_item_primary4.png)  |                    |
+| Icon + Description + Label   | ![](../images/list_item_primary5.png)  |                    |
+| Icon + Label                 | ![](../images/list_item_primary6.png)  |                    |
+| Icon + Label + Description   | ![](../images/list_item_primary7.png)  |                    |
+| Label                        | ![](../images/list_item_primary8.png)  |                    |
+| Label + Description          | ![](../images/list_item_primary9.png)  |                    |
+| Label + Progress             | ![](../images/list_item_primary10.png) | Primary Action の Progress に基本テキストを設定できないため、Text Style が None に設定され、この設定は変更できません。 |
 
 ### List 項目セコンダリ アクション
 
 以下は置き換え可能な List 項目セコンダリ アクションです。
 
-|                  |                                         |
-| ---------------- | --------------------------------------- |
-| Badge            | ![](../images/list_item_secondary.png)  |
-| Checkbox         | ![](../images/list_item_secondary2.png) |
-| Icons            | ![](../images/list_item_secondary3.png) |
-| Text             | ![](../images/list_item_secondary4.png) |
-| Text + Icons     | ![](../images/list_item_secondary5.png) |
-| Toggle           | ![](../images/list_item_secondary6.png) |
-| Two-line Numbers | ![](../images/list_item_secondary7.png) |
+|                  |                                         |                    |
+| ---------------- | --------------------------------------- | ------------------ |
+| Badge            | ![](../images/list_item_secondary.png)  |                    |
+| Checkbox         | ![](../images/list_item_secondary2.png) | Secondary Action の Checkbox にラベルを設定できないため、Label Style が None に設定され、この設定は変更できません。 |
+| Icons            | ![](../images/list_item_secondary3.png) |                    |
+| Text             | ![](../images/list_item_secondary4.png) |                    |
+| Text + Icons     | ![](../images/list_item_secondary5.png) |                    |
+| Toggle           | ![](../images/list_item_secondary6.png) | Secondary Action の Switch にラベルを設定できないため、Label Style が None に設定され、この設定は変更できません。 |
+| Two-line Numbers | ![](../images/list_item_secondary7.png) |                    |
 
 ### スタイル設定
 

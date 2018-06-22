@@ -11,7 +11,13 @@ _language: ja
 
 ### エレベーションのサポート
 
-24 レベルのエレベーションが 3 タイプの図形に利用でき、circle - Floating Action Button などの円形要素に適しています。rect - Dropdown または Toggle Menu に適しています。rounded rect - Card などの角丸がある矩形要素に適しています。エレベーションの数値が大きくなると、シャドウがより暗く表示されます。シャドウは umbra、penumbra、および ambient の 3 つが重なったシャドウ色の組み合わせで値はマテリアル デザインの定義と一致します。
+24 レベルのエレベーションが 3 タイプの図形に利用できます。
+
+- Circle - Floating Action Button などの円形要素に適しています。
+- Rect - Dropdown または Toggle Menu に適しています。
+- Rounded rect - Card などの角丸がある矩形要素に適しています。
+
+エレベーションの数値が大きくなると、シャドウがより暗く表示されます。シャドウは umbra、penumbra、および ambient の 3 つが重なったシャドウ色の組み合わせで値はマテリアル デザインの定義と一致します。
 
 ![](../images/elevation_people.png)
 

@@ -69,6 +69,13 @@ Input には特定の場合に入力 (@email.com サフィックス) を軽減�
 > - .../Suffix/Icons/...
 > - .../Suffix/String/...
 
+### Calendar および Time Picker 入力
+
+日付および時間選択のためにカスタマイズされた Input の 2 種類です。その他の Input コンポーネントと構造が統一されますが、レイアウトはそれぞれの状態に固定されます。プレフィックス位置に表示されるアイコンはマテリアル アイコンの `calendar-today` および `access-time` に設定され、オーバーライド パネルに変更できません。
+
+![](../images/input_calendar.png)
+![](../images/input_time-picker.png)
+
 ### スタイル設定
 
 Input は、Styling ライブラリのテーマでプライマリ、成功、警告、エラーの色を変更できます。
@@ -83,6 +90,79 @@ Input のボックス タイプを使用して画像上にフォームを配置�
 | ---------------------------- | ------------------------------ |
 | ![](../images/input_do1.png) | ![](../images/input_dont1.png) |
 | ![](../images/input_do2.png) | ![](../images/input_dont2.png) |
+
+## コードの生成
+ 
+Input Group の色やフォントを指定した場合、Input Group HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
+
+> [!WARNING]
+> デザインの Input のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Input のためのコード生成機能が失われます。
+
+データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
+
+#### ネストなし
+
+```typescript
+Customer {
+  imageName: String;
+}
+```
+
+DataProperty: `{imageName}`
+
+#### ネストあり
+
+```typescript
+Profile {
+  imageName: String;
+}
+
+Customer {
+  profile: Profile;
+}
+```
+
+DataProperty: `{profile.imageName}`
+
+### Event プロパティ
+
+`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に Angular クリック シグネチャを追加します。Time Picker および Date/Calendar の場合、onValueChanged または onSelection です。Searchbar はこれをサポートしません。波括弧構文 ({onEventName}) を使用してイベントを指定する必要があります。
+
+### DataProperty
+
+`🕹️DataProperty` 値は Input Group の formControlName プロパティへの two-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。提供された場合、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名になります。
+
+### 入力
+
+Input Group に適用されるスタイル設定のタイプを決定します。None に設定されると、コントロールは描画されません。Time Picker および Date/Calendar はこれをサポートしません。基本タイプがこのフィールドの値であるため、Box、Border、Line、および Searchbar にこのプロパティがありません。
+
+### バリアント
+
+テーマが明るいまたは暗いかどうかを決定します。Time Picker および Date/Calendar はこれをサポートしません。None に設定される場合、コントロールは描画されません。
+
+### 状態
+
+None に設定される場合、コントロールは描画されません。
+
+### レイアウト
+
+Input Group のレイアウトを決定します。Prefix または Suffix を表示に設定した場合、テキストまたはアイコンを入力の開始または終了に表示できます。代わりに、Searchbar に Left および Right Icons があり、アイコンを有効または無効にできます。Prefix/Suffix でテキストはサポートされません。Time Picker および Date/Calendar はこれをサポートしません。None に設定される場合、コントロールは描画されません。
+
+### ラベル
+
+Label に表示するテキストを決定します。
+
+### 入力テキスト
+
+入力値に表示するテキストを決定します。`🕹️DataProperty` が設定される場合、このプロパティは無視されます。
+
+### ヘルプ テキスト
+
+Input Group の Hint に表示するテキストを決定します。Time Picker および Date/Calendar はこれをサポートしません。
+
+### 検索ヒント
+
+Searchbar のラベルに表示するテキストを決定します。
 
 ## その他のリソース
 
