@@ -10,18 +10,23 @@ _language: ja
 Gallery パターンを使用すると、画像がアルバムに配置される画像グリッドを表示します。以下の画像サイズをサポートします。
 
 ![](../images/gallery_large.png)
+
 **Large** - 行ごとに 4 画像
 
 ![](../images/gallery_medium.png)
+
 Medium - 行ごとに 3 画像
 
 ![](../images/gallery_small.png)
+
 Small - 行ごとに 4 画像
 
 ![](../images/gallery_very-small.png)
+
 Very Small- 行ごとに 4 画像
 
 ![](../images/gallery_flexible.png)
+
 Flexible - 行ごとに 4 画像
 
 ## その他のリソース
