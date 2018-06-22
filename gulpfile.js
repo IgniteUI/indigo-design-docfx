@@ -44,8 +44,9 @@ gulp.task('serve', ['build'], () => {
     });
 
     gulp.watch(`${DOCFX_TEMPLATE}/**/*`, ['watch']);
-    gulp.watch([`${DOCFX_PATH}/**/*.md`, `${DOCFX_PATH}/components/**/*`, 
-        `${DOCFX_PATH}/patterns/**/*`, `${DOCFX_PATH}/style/**/*`], ['build']);
+    gulp.watch([`${DOCFX_PATH}/**/*.md`, `${DOCFX_PATH}/codegen/**/*`,
+        `${DOCFX_PATH}/components/**/*`, `${DOCFX_PATH}/patterns/**/*`, 
+        `${DOCFX_PATH}/style/**/*`], ['build']);
 });
 
 gulp.task('styles', () => {

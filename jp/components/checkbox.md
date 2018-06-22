@@ -54,17 +54,16 @@ Checkbox のチェック マーク、チェック ボックス色、またはチ
 
 #### ネストなし
 
-```PseudoCode
+```typescript
 Customer {
   imageName: String;
 }
-
-DataProperty: {imageName}
 ```
+DataProperty: `{imageName}`
 
 #### ネストあり
 
-```PseudoCode
+```typescript
 Profile {
   imageName: String;
 }
@@ -72,9 +71,8 @@ Profile {
 Customer {
   profile: Profile;
 }
-
-DataProperty: {profile.imageName}
 ```
+DataProperty: `{profile.imageName}`
 
 ### リアクティブ フォーム
 

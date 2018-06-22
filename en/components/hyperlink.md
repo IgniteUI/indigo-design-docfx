@@ -45,17 +45,16 @@ Data bindings are specified by using curly brace syntax, example: {isAdmin}. Dat
 
 #### Not Nested
 
-```PseudoCode
+```typescript
 Customer {
   imageName: String;
 }
-
-DataProperty would be: {imageName}
 ```
+DataProperty would be: `{imageName}`
 
 #### Nested
 
-```PseudoCode
+```typescript
 Profile {
   imageName: String;
 }
@@ -63,9 +62,8 @@ Profile {
 Customer {
   profile: Profile;
 }
-
-DataProperty would be: {profile.imageName}
 ```
+DataProperty would be: `{profile.imageName}`
 
 ### Event Property
 

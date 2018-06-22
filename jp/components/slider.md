@@ -62,27 +62,25 @@ Slider の色を指定した場合、Slider HTML 要素は div でラップさ�
 
 #### ネストなし
 
-```PseudoCode
+```typescript
 Customer {
-    imageName: String;
+  imageName: String;
 }
-
-DataProperty: {imageName}
 ```
+DataProperty: `{imageName}`
 
 #### ネストあり
 
-```PseudoCode
+```typescript
 Profile {
-    imageName: String;
+  imageName: String;
 }
 
 Customer {
-    profile: Profile;
+  profile: Profile;
 }
-
-DataProperty: {profile.imageName}
 ```
+DataProperty: `{profile.imageName}`
 
 ### リアクティブ フォーム
 

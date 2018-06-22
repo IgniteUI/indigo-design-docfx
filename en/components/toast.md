@@ -48,27 +48,25 @@ Data bindings are specified by using curly brace syntax, example: {isAdmin}. Tex
 
 #### Not Nested
 
-```PseudoCode
+```typescript
 Customer {
-    imageName: String;
+  imageName: String;
 }
-
-DataProperty would be: {imageName}
 ```
+DataProperty would be: `{imageName}`
 
 #### Nested
 
-```PseudoCode
+```typescript
 Profile {
-    imageName: String;
+  imageName: String;
 }
 
 Customer {
-    profile: Profile;
+  profile: Profile;
 }
-
-DataProperty would be: {profile.imageName}
 ```
+DataProperty would be: `{profile.imageName}`
 
 ### Data Property
 
