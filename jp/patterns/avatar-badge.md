@@ -9,7 +9,7 @@ _language: ja
 
 Avatar + Badge パターンは、Avatar にアラートまたは通知のメッセージやインジケーターを追加します。
 
-![](../images/avatar_badge_demo.png)
+<img src="../images/avatar_badge_demo.png" srcset="../images/avatar_badge_demo@2x.png 2x" />
 
 Avatar + Badge パターンは、レイアウトに含まれる Avatar および Badge のスタイル設定をカスタマイズできます。
 
@@ -25,7 +25,7 @@ Avatar + Badge パターンは Avatar と同じサイズをサポートします
 
 Badge はオーバーライドによって Avatar の 4 つ角のいずれかに配置できます。
 
-![](../images/avatar_badge_positions.png)
+<img src="../images/avatar_badge_positions.png" srcset="../images/avatar_badge_positions@2x.png 2x" />
 
 ## その他のリソース
 

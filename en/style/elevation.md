@@ -18,7 +18,7 @@ There are 24 Elevations available in three distinct shapes:
 
 The higher the number of the Elevation, the more prominent the shadow. Shadows come as a combination of three stacked shadow colors, umbra, penumbra, and ambient, whose values match the Material Design definition.
 
-![](../images/elevation_people.png)
+<img src="../images/elevation_people.png" srcset="../images/elevation_people@2x.png 2x" />
 
 > [!Note]
 > Changing the Elevation in the Component overrides is possible in Sketch and will produce the expected outcome, but the same will not be achievable with Ignite UI for Angular yet.
@@ -27,7 +27,7 @@ The higher the number of the Elevation, the more prominent the shadow. Shadows c
 
 It is also possible to use Elevation on its own to lift one part of the content and draw more focus to it than the rest. In such scenarios, simply drag the Elevation of your choice and match it to the size of the content you would like to enhance.
 
-![](../images/elevation_standalone.png)
+<img src="../images/elevation_standalone.png" srcset="../images/elevation_standalone@2x.png 2x" />
 
 ## Additional Resources
 

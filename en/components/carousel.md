@@ -10,13 +10,13 @@ Use the Carousel Component to let the user navigate through a collection of imag
 
 ### Carousel Demo
 
-![](../images/carousel_demo.png)
+<img src="../images/carousel_demo.png" srcset="../images/carousel_demo@2x.png 2x" />
 
 ### Styling
 
 The Carousel comes with styling flexibility through the various overrides controlling the navigation button background and icon colors, the indicator colors, border colors, and a slide image for the currently active slide. You should keep in mind that only one indicator may be active at a time.
 
-![](../images/carousel_styling.png)
+<img src="../images/carousel_styling.png" srcset="../images/carousel_styling@2x.png 2x" />
 
 ## Usage
 
@@ -24,8 +24,8 @@ The previous and next navigation buttons of the Carousel should always appear on
 
 | Do                              | Don't                             |
 | ------------------------------- | --------------------------------- |
-| ![](../images/carousel_do1.png) | ![](../images/carousel_dont1.png) |
-| ![](../images/carousel_do2.png) | ![](../images/carousel_dont2.png) |
+| <img src="../images/carousel_do1.png" srcset="../images/carousel_do1@2x.png 2x" /> | <img src="../images/carousel_dont1.png" srcset="../images/carousel_dont1@2x.png 2x" /> |
+| <img src="../images/carousel_do2.png" srcset="../images/carousel_do2@2x.png 2x" /> | <img src="../images/carousel_dont2.png" srcset="../images/carousel_dont2@2x.png 2x" /> |
 
 ## Code generation
 

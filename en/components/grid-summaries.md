@@ -10,29 +10,29 @@ Use the Grid Summaries Component to show aggregated values calculated over all t
 
 ### Grid Summaries Demo
 
-![](../images/grid_summaries_demo.png)
+<img src="../images/grid_summaries_demo.png" srcset="../images/grid_summaries_demo@2x.png 2x" />
 
 ### State
 
 The Grid Summary Cell supports the following interactive states: **active** which shows a summary Label and Number, inactive which shows a grayed out Label and hides the Number, and unavailable
 which is used to fill the gaps when one column has less Summaries than another.
 
-![](../images/grid_cell_summary_active.png)
-![](../images/grid_cell_summary_inactive.png)
-![](../images/grid_cell_summary_unavailable.png)
+<img src="../images/grid_cell_summary_active.png" srcset="../images/grid_cell_summary_active@2x.png 2x" />
+<img src="../images/grid_cell_summary_inactive.png" srcset="../images/grid_cell_summary_inactive@2x.png 2x" />
+<img src="../images/grid_cell_summary_unavailable.png" srcset="../images/grid_cell_summary_unavailable@2x.png 2x" />
 
 ### Type
 
 The Grid Summary Cell provides presets for the two generic types of data aggregates that it needs to accommodate: **Number** for numeric values and Text for strings.
 
-![](../images/grid_cell_summary_number.png)
-![](../images/grid_cell_summary_text.png)
+<img src="../images/grid_cell_summary_number.png" srcset="../images/grid_cell_summary_number@2x.png 2x" />
+<img src="../images/grid_cell_summary_text.png" srcset="../images/grid_cell_summary_text@2x.png 2x" />
 
 ### Styling
 
 The Grid Summary Cell comes with basic styling flexibility through the various overrides controlling its label and number text colors, as well as the cell background color.
 
-![](../images/grid_summaries_styling.png)
+<img src="../images/grid_summaries_styling.png" srcset="../images/grid_summaries_styling@2x.png 2x" />
 
 ## Additional Resources
 

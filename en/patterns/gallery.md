@@ -8,19 +8,19 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 Use the Gallery Pattern to display an image grid where the images can also be organized in albums. It also has support for varoius image sizes:
 
-![](../images/gallery_large.png)
+<img src="../images/gallery_large.png" srcset="../images/gallery_large@2x.png 2x" />
 **Large** - _4 images per row_
 
-![](../images/gallery_medium.png)
+<img src="../images/gallery_medium.png" srcset="../images/gallery_medium@2x.png 2x" />
 Medium - _3 images per row_
 
-![](../images/gallery_small.png)
+<img src="../images/gallery_small.png" srcset="../images/gallery_small@2x.png 2x" />
 Small - _4 images per row_
 
-![](../images/gallery_very-small.png)
+<img src="../images/gallery_very-small.png" srcset="../images/gallery_very-small@2x.png 2x" />
 Very Small- _4 images per row_
 
-![](../images/gallery_flexible.png)
+<img src="../images/gallery_flexible.png" srcset="../images/gallery_flexible@2x.png 2x" />
 Flexible - _4 images per row_
 
 ## Additional Resources

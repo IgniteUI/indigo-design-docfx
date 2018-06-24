@@ -10,39 +10,39 @@ Use the Text Component Symbol to display the content of a title or paragraph str
 
 ### Text Demo
 
-![](../images/text_demo.png)
+<img src="../images/text_demo.png" srcset="../images/text_demo@2x.png 2x" />
 
 ### Title and Paragraph
 
 Text comes in two distict variants for Titles and for Paragraphs.
 
-![](../images/text_title.png)
-![](../images/text_paragraph.png)
+<img src="../images/text_title.png" srcset="../images/text_title@2x.png 2x" />
+<img src="../images/text_paragraph.png" srcset="../images/text_paragraph@2x.png 2x" />
 
 ### Title Sizes
 
 Text Titles come in six preset sizes from the largest H1 to the much smaller **H5** and H6.
 
-![](../images/text_h1.png)
-![](../images/text_h2.png)
-![](../images/text_h3.png)
-![](../images/text_h4.png)
-![](../images/text_h5.png)
-![](../images/text_h6.png)
+<img src="../images/text_h1.png" srcset="../images/text_h1@2x.png 2x" />
+<img src="../images/text_h2.png" srcset="../images/text_h2@2x.png 2x" />
+<img src="../images/text_h3.png" srcset="../images/text_h3@2x.png 2x" />
+<img src="../images/text_h4.png" srcset="../images/text_h4@2x.png 2x" />
+<img src="../images/text_h5.png" srcset="../images/text_h5@2x.png 2x" />
+<img src="../images/text_h6.png" srcset="../images/text_h6@2x.png 2x" />
 
 ### Paragraph Sizes
 
 Text Paragraphs come in three preset sizes: a larger **Body 1**, a smaller Body 2, and a tiny Caption used to annotate images and titles.
 
-![](../images/text_b1.png)
-![](../images/text_b2.png)
-![](../images/text_caption.png)
+<img src="../images/text_b1.png" srcset="../images/text_b1@2x.png 2x" />
+<img src="../images/text_b2.png" srcset="../images/text_b2@2x.png 2x" />
+<img src="../images/text_caption.png" srcset="../images/text_caption@2x.png 2x" />
 
 ### Styling
 
 Titles and Paragraphs come with constrained styling flexibility, allowing only to choose from the text weight and color presets available in the Typography portion of the Styling library.
 
-![](../images/text_styling.png)
+<img src="../images/text_styling.png" srcset="../images/text_styling@2x.png 2x" />
 
 ## Usage
 
@@ -50,8 +50,8 @@ Always choose Paragraph text color that makes a Hyperlink stand out if the two a
 
 | Do                          | Don't                         |
 | --------------------------- | ----------------------------- |
-| ![](../images/text_do1.png) | ![](../images/text_dont1.png) |
-| ![](../images/text_do2.png) | ![](../images/text_dont2.png) |
+| <img src="../images/text_do1.png" srcset="../images/text_do1@2x.png 2x" /> | <img src="../images/text_dont1.png" srcset="../images/text_dont1@2x.png 2x" /> |
+| <img src="../images/text_do2.png" srcset="../images/text_do2@2x.png 2x" /> | <img src="../images/text_dont2.png" srcset="../images/text_dont2@2x.png 2x" /> |
 
 ## Code generation
 

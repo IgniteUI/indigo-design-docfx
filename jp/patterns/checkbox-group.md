@@ -9,7 +9,7 @@ _language: ja
 
 Checkbox Group パターンを使用すると、Checkbox 要素のコレクションをグループとして配置します。たとえば、複数選択質問の答えを含むグループを作成できます。
 
-![](../images/checkbox-group_demo.png)
+<img src="../images/checkbox-group_demo.png" srcset="../images/checkbox-group_demo@2x.png 2x" />
 
 > [!Note]
 > 提供される項目より多い項目を作成する場合のみに Checkbox Group パターンのインスタンスで `Detach From Symbol` をトリガーします。

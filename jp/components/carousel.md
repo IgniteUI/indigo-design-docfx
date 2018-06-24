@@ -11,13 +11,13 @@ Carousel コンポーネント シンボルは、横矢印キーを使用して�
 
 ### Carousel デモ
 
-![](../images/carousel_demo.png)
+<img src="../images/carousel_demo.png" srcset="../images/carousel_demo@2x.png 2x" />
 
 ### スタイル設定
 
 Carousel は、さまざまなオーバーライドでナビゲーションボタンの背景、アイコンの色、インジケーターの色、境界線の色、現在アクティブなスライドのスライド画像の制御などスタイル設定に柔軟性があります。一度に 1 インジケーターのみアクティブにできます。
 
-![](../images/carousel_styling.png)
+<img src="../images/carousel_styling.png" srcset="../images/carousel_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -25,8 +25,8 @@ Carousel の戻るおよび次へ移動するためのボタンは、常に画�
 
 | いい例                              | 悪い例                             |
 | ------------------------------- | --------------------------------- |
-| ![](../images/carousel_do1.png) | ![](../images/carousel_dont1.png) |
-| ![](../images/carousel_do2.png) | ![](../images/carousel_dont2.png) |
+| <img src="../images/carousel_do1.png" srcset="../images/carousel_do1@2x.png 2x" /> | <img src="../images/carousel_dont1.png" srcset="../images/carousel_dont1@2x.png 2x" /> |
+| <img src="../images/carousel_do2.png" srcset="../images/carousel_do2@2x.png 2x" /> | <img src="../images/carousel_dont2.png" srcset="../images/carousel_dont2@2x.png 2x" /> |
 
 ## その他のリソース
 

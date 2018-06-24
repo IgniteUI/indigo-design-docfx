@@ -8,7 +8,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 Use the File Upload Pattern to provide the uploading and insertion mechanisms for files, images, or attachments.
 
-![](../images/file-upload_demo.png)
+<img src="../images/file-upload_demo.png" srcset="../images/file-upload_demo@2x.png 2x" />
 
 The File Upload Pattern comes with the styling flexibility provided by the Avatar and Icon Button that constitute its layout.
 
@@ -16,13 +16,13 @@ The File Upload Pattern comes with the styling flexibility provided by the Avata
 
 The File Upload Pattern provides two types of previews for the uploaded file: an Avatar and a Document, shown in a standard image.
 
-![](../images/file-upload_type.png)
+<img src="../images/file-upload_type.png" srcset="../images/file-upload_type@2x.png 2x" />
 
 ### Content
 
 The File Upload Pattern supports the most common types of content that are usually uploaded or inserted as Documents: CSV, PDF, Presentation, Spreadsheet, and Text. Additionally, an Upload and Attach types are available to provide further flexibility for various appliction scenarios.
 
-![](../images/file-upload_content.png)
+<img src="../images/file-upload_content.png" srcset="../images/file-upload_content@2x.png 2x" />
 
 ## Additional Resources
 

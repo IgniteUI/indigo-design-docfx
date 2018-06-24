@@ -8,7 +8,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 Use the Details Pattern to display detailed information as a full-screen page usually depicting things such as articles, products, recipes etc.
 
-![](../images/details_demo.png)
+<img src="../images/details_demo.png" srcset="../images/details_demo@2x.png 2x" />
 
 The Details Pattern comes with the styling flexibility provided by the Badges, Buttons, Tabs, and Text elements that constitute it.
 
@@ -16,7 +16,7 @@ The Details Pattern comes with the styling flexibility provided by the Badges, B
 
 The Details Pattern supports the following interchangeable pieces of content that, when combined, shape up its layout: Action Bar, Badge, Description, Metadata, Tabs, and Title and Price.
 
-![](../images/details_content.png)
+<img src="../images/details_content.png" srcset="../images/details_content@2x.png 2x" />
 
 ## Additional Resources
 

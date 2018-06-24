@@ -9,7 +9,7 @@ _language: ja
 
 Icon Buttons、List Items、Cards などで全般的な操作を記号として表示するためにマテリアル アイコンを使用します。たとえば、Button ラベルでテキストの代わりにアイコンを使用します。マテリアル アイコンはスタイリングのカラー シンボルを使用します。デザインするアイコンのために定義済みの色を選択できます。スタイリング ライブラリに追加されるアイコンのセットは[マテリアル アイコン](https://material.io/tools/icons/?style=baseline)と同じ要素のサブセットで、[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) にサポートされます。
 
-![](../images/icons_demo.png)
+<img src="../images/icons_demo.png" srcset="../images/icons_demo@2x.png 2x" />
 
 > [!Note]
 > コンポーネント ライブラリは 4 つのアイコン サイズ (ExtraLarge、Large、Medium、および Small) で [Icon](icon.md) シンボルを提供します。記事、カスタム Card および List Item の高度なレイアウトを作成で直接スタイリング ライブラリを使用する代わりにこのアイコンを使用します。
@@ -41,7 +41,7 @@ Icon Buttons、List Items、Cards などで全般的な操作を記号として�
 
 1.  ブラウザーで[マテリアル デザイン アイコン ツール](https://material.io/tools/icons)に移動します。「`copyright`」などに使用するアイコンを検索し、SVG としてダウンロードして「`Action`」などのカテゴリを確認します。Sketch でスタイリング ライブラリを開き、左側にそのカテゴリがテキスト レイヤーとして存在するかどうかを確認します。存在しない場合は作成して、以下の手順を行います。「`Action`」カテゴリの `copyright` アイコンの例のように存在する場合、そのカテゴリの最も右側にあるアイコンを検索します。
 
-  ![](../images/icons_add1.png)
+  <img src="../images/icons_add1.png" srcset="../images/icons_add1@2x.png 2x" />
 
 2.  このアイコンのシンボルをコピーして右へ移動します。名前が「`...Copy`」と終了し、構造がシンボルのグループで以下のようになります。
 
@@ -52,15 +52,15 @@ Icon Buttons、List Items、Cards などで全般的な操作を記号として�
   | &nbsp;&nbsp; Shape      | アイコンの図形を定義         |
   | &nbsp;&nbsp; Shape      | 境界ボックスを定義する長方形 |
 
-  ![](../images/icons_add2.png)
+  <img src="../images/icons_add2.png" srcset="../images/icons_add2@2x.png 2x" />
 
 3.  既存のアイコン図形をダウンロードした SVG と置き換えます。アイコン図形の Shape レイヤーを選択し、`copyright` アイコンの SVG をその上にドラッグ アンド ドロップします。これはアイコン名の新しいグループをレイヤー パネルに作成します。このグループを展開し、アイコン図形をグループ以外で元のアイコン図形の上にドラッグします。
 
-  ![](../images/icons_add3.png)
+  <img src="../images/icons_add3.png" srcset="../images/icons_add3@2x.png 2x" />
 
 4.  新しいアイコン図形を移動した後、元のアイコン図形およびグループを削除します。`copyright` 記号のアイコン図形を選択し、境界線および塗りつぶしを削除して、マスクのみとして使用されることを確認します。グループを `copyright` に名前変更し、シンボルを `icons/action/copyright` に名前変更した後、このアイコンを使用できます。
 
-  ![](../images/icons_add4.png)
+  <img src="../images/icons_add4.png" srcset="../images/icons_add4@2x.png 2x" />
 
 ## その他のリソース
 

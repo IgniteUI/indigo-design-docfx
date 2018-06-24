@@ -11,7 +11,7 @@ Grid コンポーネントは大量の複雑なデータをタブ形式し、ユ
 
 ### Grid デモ
 
-![](../images/grid_demo.png)
+<img src="../images/grid_demo.png" srcset="../images/grid_demo@2x.png 2x" />
 
 ### シンボルからデタッチ
 
@@ -29,45 +29,45 @@ Grid は、基本的に表形式でデータを表示する列と行のリピー
 
 Grid は、異なるデータ可視化用に 3 タイプのセルがあります。Header Cell は、各列に 1 つでグリッドの一番上に表示され、特定の列のデータに関する説明をテキストで表示します。Body Cell は、データ レコードを表示するテーブルのビルドその他に使用されます。Summary Cell は、列[集計](grid-summaries.md)がカウント、最大、最小などの各ディメンションに表示される Grid の下のセクションを作成するために使用されます。
 
-![](../images/grid_cell_header.png)
-![](../images/grid_cell_body.png)
-![](../images/grid_cell_summary.png)
+<img src="../images/grid_cell_header.png" srcset="../images/grid_cell_header@2x.png 2x" />
+<img src="../images/grid_cell_body.png" srcset="../images/grid_cell_body@2x.png 2x" />
+<img src="../images/grid_cell_summary.png" srcset="../images/grid_cell_summary@2x.png 2x" />
 
 ### 項目 (ヘッダー セル)
 
 Grid Header Cell は、項目のオーバーライドで次のレイアウトの組み合わせをサポートします。ヘッダー テキストのみを表示する**アイコンはなく**、ヘッダー テキストとフィルター アイコンを表示するアイコン、ヘッダーテキストを表示するアイコン、フィルターアイコンと並べ替えアイコンがあります。
 
-![](../images/grid_cell_header_no-icon.png)
-![](../images/grid_cell_header_icon.png)
-![](../images/grid_cell_header_icons.png)
+<img src="../images/grid_cell_header_no-icon.png" srcset="../images/grid_cell_header_no-icon@2x.png 2x" />
+<img src="../images/grid_cell_header_icon.png" srcset="../images/grid_cell_header_icon@2x.png 2x" />
+<img src="../images/grid_cell_header_icons.png" srcset="../images/grid_cell_header_icons@2x.png 2x" />
 
 ### 状態 (本体セル)
 
 Grid Body Cell は、以下のインタラクティブな状態をサポートします。標準状態の **Rest**、セル選択モードで選択したセルの CellSelected、選択セルのある行の残りのセルの RowSelected。
 
-![](../images/grid_cell_body_rest.png)
-![](../images/grid_cell_body_cell-selected.png)
-![](../images/grid_cell_body_row-selected.png)
+<img src="../images/grid_cell_body_rest.png" srcset="../images/grid_cell_body_rest@2x.png 2x" />
+<img src="../images/grid_cell_body_cell-selected.png" srcset="../images/grid_cell_body_cell-selected@2x.png 2x" />
+<img src="../images/grid_cell_body_row-selected.png" srcset="../images/grid_cell_body_row-selected@2x.png 2x" />
 
 ### セル タイプ
 
 Grid Header Cell は、対応が必要な一般的なデータ型のプリセットが 3 つあります。数値のための **Number**、文字列の Text、最初の列の通常テンプレートとして使用される Checkbox、複数行の選択が可能にする最初の列のテンプレート。
 
-![](../images/grid_cell_header_number.png)
-![](../images/grid_cell_header_text.png)
-![](../images/grid_cell_header_checkbox.png)
+<img src="../images/grid_cell_header_number.png" srcset="../images/grid_cell_header_number@2x.png 2x" />
+<img src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />
+<img src="../images/grid_cell_header_checkbox.png" srcset="../images/grid_cell_header_checkbox@2x.png 2x" />
 
 Grid Body Cell は、Header Cell などの同じ一般的なデータ型プリセットを提供します。
 
-![](../images/grid_cell_body_number.png)
-![](../images/grid_cell_body_text.png)
-![](../images/grid_cell_body_checkbox.png)
+<img src="../images/grid_cell_body_number.png" srcset="../images/grid_cell_body_number@2x.png 2x" />
+<img src="../images/grid_cell_body_text.png" srcset="../images/grid_cell_body_text@2x.png 2x" />
+<img src="../images/grid_cell_body_checkbox.png" srcset="../images/grid_cell_body_checkbox@2x.png 2x" />
 
 ### スタイル設定
 
 Grid は、さまざま状態の各セル テキスト、アイコン、背景色のスタイル設定や水平および垂直の境界線の非表示など柔軟に変更できます。
 
-![](../images/grid_styling.png)
+<img src="../images/grid_styling.png" srcset="../images/grid_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -75,7 +75,7 @@ Grid の最も重要な点は、Header および Body Cells 内のデータの�
 
 | いい例                      | 悪い例                        |
 | --------------------------- | ----------------------------- |
-| ![](../images/grid_do1.png) | ![](../images/grid_dont1.png) |
+| <img src="../images/grid_do1.png" srcset="../images/grid_do1@2x.png 2x" /> | <img src="../images/grid_dont1.png" srcset="../images/grid_dont1@2x.png 2x" /> |
 
 ## その他のリソース
 

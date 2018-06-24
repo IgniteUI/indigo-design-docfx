@@ -11,34 +11,34 @@ Time Picker コンポーネント シンボルは、日付の時間部分 (時�
 
 ### Time Picker デモ
 
-![](../images/timepicker_demo.png)
+<img src="../images/timepicker_demo.png" srcset="../images/timepicker_demo@2x.png 2x" />
 
 ### レイアウト
 
 Time Picker は、水平/垂直の方向の時間選択モードをサポートします。
 
-![](../images/timepicker_horizontal.png)
-![](../images/timepicker_vertical.png)
+<img src="../images/timepicker_horizontal.png" srcset="../images/timepicker_horizontal@2x.png 2x" />
+<img src="../images/timepicker_vertical.png" srcset="../images/timepicker_vertical@2x.png 2x" />
 
 ### ボタン
 
 Time Picker の 2 つのボタンは、時間を元の時間に戻す選択のキャンセル、変更を保存するための選択の確認に使用します。Overrides で両方を none に設定してボタンレスのレイアウトを実現できます。
 
-![](../images/timepicker_buttons.png)
-![](../images/timepicker_nobuttons.png)
+<img src="../images/timepicker_buttons.png" srcset="../images/timepicker_buttons@2x.png 2x" />
+<img src="../images/timepicker_nobuttons.png" srcset="../images/timepicker_nobuttons@2x.png 2x" />
 
 ### コンテンツ
 
 Time Picker は、2 種類のコンテンツ モードで 12 時間と 24 時間をサポートします。時間と分の部分の他に 12 時間コンテンツ モードで AM と PM を選択できます。
 
-![](../images/timepicker_12.png)
-![](../images/timepicker_24.png)
+<img src="../images/timepicker_12.png" srcset="../images/timepicker_12@2x.png 2x" />
+<img src="../images/timepicker_24.png" srcset="../images/timepicker_24@2x.png 2x" />
 
 ### スタイル設定
 
 Time Picker は、さまざまなオーバーライドでヘッダー背景、タイトル色、選択した時間、分、AM/PM のテキストの色の制御などスタイル設定に柔軟性があります。Cancel と OK のボタンは、Flat Buttons で状況に応じたスタイル設定が可能です。
 
-![](../images/timepicker_styling.png)
+<img src="../images/timepicker_styling.png" srcset="../images/timepicker_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -46,8 +46,8 @@ Time Picker は、さまざまなオーバーライドでヘッダー背景、�
 
 | いい例                                | 悪い例                               |
 | --------------------------------- | ----------------------------------- |
-| ![](../images/timepicker_do1.png) | ![](../images/timepicker_dont1.png) |
-| ![](../images/timepicker_do2.png) | ![](../images/timepicker_dont2.png) |
+| <img src="../images/timepicker_do1.png" srcset="../images/timepicker_do1@2x.png 2x" /> | <img src="../images/timepicker_dont1.png" srcset="../images/timepicker_dont1@2x.png 2x" /> |
+| <img src="../images/timepicker_do2.png" srcset="../images/timepicker_do2@2x.png 2x" /> | <img src="../images/timepicker_dont2.png" srcset="../images/timepicker_dont2@2x.png 2x" /> |
 
 ## その他のリソース
 

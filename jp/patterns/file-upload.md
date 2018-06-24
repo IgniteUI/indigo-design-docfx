@@ -9,7 +9,7 @@ _language: ja
 
 File Upload パターンを使用すると、ファイル、画像、添付などのアップロードおよび挿入機能を提供します。
 
-![](../images/file-upload_demo.png)
+<img src="../images/file-upload_demo.png" srcset="../images/file-upload_demo@2x.png 2x" />
 
 File Upload パターンは、レイアウトに含まれる Avatar および Icon Button のスタイル設定をカスタマイズできます。
 
@@ -17,13 +17,13 @@ File Upload パターンは、レイアウトに含まれる Avatar および Ic
 
 File Upload パターンはアップロードしたファイルのプレビューのために 2 種類 (Avatar および規格の画像として表示される Document) あります。 
 
-![](../images/file-upload_type.png)
+<img src="../images/file-upload_type.png" srcset="../images/file-upload_type@2x.png 2x" />
 
 ### コンテンツ
 
 File Upload パターンは、アップロードまたは Document として挿入されるよく使用されるコンテンツ タイプ (CSV、PDF、Presentation、Spreadsheet Text) をサポートします。 また、様々なアプリケーション シナリオのカスタマイズ化を提供するために Upload および Attach タイプの利用が可能です。
 
-![](../images/file-upload_content.png)
+<img src="../images/file-upload_content.png" srcset="../images/file-upload_content@2x.png 2x" />
 
 ## その他のリソース
 

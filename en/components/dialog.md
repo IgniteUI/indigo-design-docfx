@@ -10,21 +10,21 @@ Use the Dialog Component to show a message or alert to the user, allowing him to
 
 ### Dialog Demo
 
-![](../images/dialog_demo.png)
+<img src="../images/dialog_demo.png" srcset="../images/dialog_demo@2x.png 2x" />
 
 ### Types
 
 The Dialog can be used to show an alert with only a confirming button, a message with cancellation and confirmation, or as a container for action that needs immediate attention, such as a user logging into his account.
 
-![](../images/dialog_alert.png)
-![](../images/dialog_standard.png)
-![](../images/dialog_custom.png)
+<img src="../images/dialog_alert.png" srcset="../images/dialog_alert@2x.png 2x" />
+<img src="../images/dialog_standard.png" srcset="../images/dialog_standard@2x.png 2x" />
+<img src="../images/dialog_custom.png" srcset="../images/dialog_custom@2x.png 2x" />
 
 ### Styling
 
 The Dialog comes with styling flexibility through the various overrides for its title and message, as well as the buttons at the bottom that individually styled as flat or raised with all the styling options that these two [Button](button.md) types provide.
 
-![](../images/dialog_styling.png)
+<img src="../images/dialog_styling.png" srcset="../images/dialog_styling@2x.png 2x" />
 
 ## Usage
 
@@ -32,7 +32,7 @@ When designing a custom content Dialog, avoid placing buttons in the content sec
 
 | Do                            | Don't                           |
 | ----------------------------- | ------------------------------- |
-| ![](../images/dialog_do1.png) | ![](../images/dialog_dont1.png) |
+| <img src="../images/dialog_do1.png" srcset="../images/dialog_do1@2x.png 2x" /> | <img src="../images/dialog_dont1.png" srcset="../images/dialog_dont1@2x.png 2x" /> |
 
 ## Code Generation
 

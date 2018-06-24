@@ -10,7 +10,7 @@ Use the Button Component to represent the trigger for a simple action that user 
 
 ### Button Demo
 
-![](../images/button_demo.png)
+<img src="../images/button_demo.png" srcset="../images/button_demo@2x.png 2x" />
 
 ### Type
 
@@ -21,19 +21,19 @@ Four types of Buttons are supported:
 - An Icon Button for actions that are represented only with an Icon.
 - A very prominent Floating Action Button (fab) with color fill and shadow that is used once per screen to strongly emphasize the main action.
 
-![](../images/button_types.png)
+<img src="../images/button_types.png" srcset="../images/button_types@2x.png 2x" />
 
 ### States
 
 Every type of button supports a **default**, hover, and disabled state. A button with an icon and label is also available in the default state.
 
-![](../images/button_states.png)
+<img src="../images/button_states.png" srcset="../images/button_states@2x.png 2x" />
 
 ### Styling
 
 The Buttons come with styling flexibility through the various overrides controlling the background, label, and icon colors.
 
-![](../images/button_styling.png)
+<img src="../images/button_styling.png" srcset="../images/button_styling@2x.png 2x" />
 
 ## Usage
 
@@ -41,9 +41,9 @@ When the content of a Button contains a label, it must be uppercase and with a t
 
 | Do                            | Don't                           |
 | ----------------------------- | ------------------------------- |
-| ![](../images/button_do1.png) | ![](../images/button_dont1.png) |
-| ![](../images/button_do2.png) | ![](../images/button_dont2.png) |
-| ![](../images/button_do3.png) | ![](../images/button_dont3.png) |
+| <img src="../images/button_do1.png" srcset="../images/button_do1@2x.png 2x" /> | <img src="../images/button_dont1.png" srcset="../images/button_dont1@2x.png 2x" /> |
+| <img src="../images/button_do2.png" srcset="../images/button_do2@2x.png 2x" /> | <img src="../images/button_dont2.png" srcset="../images/button_dont2@2x.png 2x" /> |
+| <img src="../images/button_do3.png" srcset="../images/button_do3@2x.png 2x" /> | <img src="../images/button_dont3.png" srcset="../images/button_dont3@2x.png 2x" /> |
 
 ## Code Generation
 

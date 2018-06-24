@@ -10,7 +10,7 @@ Use the Grid Component to let the user browse and interact with vast amount of c
 
 ### Grid Demo
 
-![](../images/grid_demo.png)
+<img src="../images/grid_demo.png" srcset="../images/grid_demo@2x.png 2x" />
 
 ### Detach from Symbol
 
@@ -29,45 +29,45 @@ After detaching, you may add the number of headers you need to show all the dime
 
 The Grid provides three types of cells serving different data visualization purposes. The Header Cell is only one per column and appears at the top of the grid to display the textual description of the data in that particular column. The Body Cell is used to build the table displaying data records and may vary. The Summary Cell is used to create a section at the bottom of the Grid where column [Summaries](grid-summaries.md) are displayed for each dimension such as count, minimum, and maximum value.
 
-![](../images/grid_cell_header.png)
-![](../images/grid_cell_body.png)
-![](../images/grid_cell_summary.png)
+<img src="../images/grid_cell_header.png" srcset="../images/grid_cell_header@2x.png 2x" />
+<img src="../images/grid_cell_body.png" srcset="../images/grid_cell_body@2x.png 2x" />
+<img src="../images/grid_cell_summary.png" srcset="../images/grid_cell_summary@2x.png 2x" />
 
 ### Items (Header Cell)
 
 The Grid Header Cell supports the following layout combinations through the Items override: **No Icon** which shows only a header text, Icon which shows header text and filtering icon, and Icons which shows header text, filtering icon, and sorting icon.
 
-![](../images/grid_cell_header_no-icon.png)
-![](../images/grid_cell_header_icon.png)
-![](../images/grid_cell_header_icons.png)
+<img src="../images/grid_cell_header_no-icon.png" srcset="../images/grid_cell_header_no-icon@2x.png 2x" />
+<img src="../images/grid_cell_header_icon.png" srcset="../images/grid_cell_header_icon@2x.png 2x" />
+<img src="../images/grid_cell_header_icons.png" srcset="../images/grid_cell_header_icons@2x.png 2x" />
 
 ### State (Body Cell)
 
 The Grid Body Cell supports the following interactive states: **Rest** for the normal state, CellSelected for the selected cell in cell selection mode, and RowSelected for the remaining cells on the row, where the selected cell belongs.
 
-![](../images/grid_cell_body_rest.png)
-![](../images/grid_cell_body_cell-selected.png)
-![](../images/grid_cell_body_row-selected.png)
+<img src="../images/grid_cell_body_rest.png" srcset="../images/grid_cell_body_rest@2x.png 2x" />
+<img src="../images/grid_cell_body_cell-selected.png" srcset="../images/grid_cell_body_cell-selected@2x.png 2x" />
+<img src="../images/grid_cell_body_row-selected.png" srcset="../images/grid_cell_body_row-selected@2x.png 2x" />
 
 ### Cell Type
 
 The Grid Header Cell provides presets for the three generic types of data that it needs to accommodate: **Number** for numeric values, Text for strings, and Checbox that is usually used as a template for the first column in order to allow selection of multiple rows.
 
-![](../images/grid_cell_header_number.png)
-![](../images/grid_cell_header_text.png)
-![](../images/grid_cell_header_checkbox.png)
+<img src="../images/grid_cell_header_number.png" srcset="../images/grid_cell_header_number@2x.png 2x" />
+<img src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />
+<img src="../images/grid_cell_header_checkbox.png" srcset="../images/grid_cell_header_checkbox@2x.png 2x" />
 
 The Grid Body Cell provides presets for the same generic types of data like the Header Cell.
 
-![](../images/grid_cell_body_number.png)
-![](../images/grid_cell_body_text.png)
-![](../images/grid_cell_body_checkbox.png)
+<img src="../images/grid_cell_body_number.png" srcset="../images/grid_cell_body_number@2x.png 2x" />
+<img src="../images/grid_cell_body_text.png" srcset="../images/grid_cell_body_text@2x.png 2x" />
+<img src="../images/grid_cell_body_checkbox.png" srcset="../images/grid_cell_body_checkbox@2x.png 2x" />
 
 ### Styling
 
 The Grid comes with styling flexibility achievable through styling the individual cell text, icons, and background colors in the various states available, as well as the hiding of horizontal and vertical borders.
 
-![](../images/grid_styling.png)
+<img src="../images/grid_styling.png" srcset="../images/grid_styling@2x.png 2x" />
 
 ## Usage
 
@@ -75,7 +75,7 @@ The most important thing about the Grid is the alignment of the data inside its 
 
 | Do                          | Don't                         |
 | --------------------------- | ----------------------------- |
-| ![](../images/grid_do1.png) | ![](../images/grid_dont1.png) |
+| <img src="../images/grid_do1.png" srcset="../images/grid_do1@2x.png 2x" /> | <img src="../images/grid_dont1.png" srcset="../images/grid_dont1@2x.png 2x" /> |
 
 ## Code generation
 

@@ -11,7 +11,7 @@ Custom Card コンポーネントは、通常のカードと同じタイプの�
 
 ### Custom Card デモ
 
-![](../images/card_custom_demo.png)
+<img src="../images/card_custom_demo.png" srcset="../images/card_custom_demo@2x.png 2x" />
 
 ### シンボルからデタッチ
 
@@ -31,7 +31,7 @@ Card レイアウトをカスタマイズするには、`Cards/Custom` をアー
 
 Custom Card は、スタイルに高い柔軟性があり、テキスト、ボタン、背景色などのさまざまなオーバーライドによって通常の Card とマッチすることができます。シンボルからでタッチを使用して角丸やエレベーション レベルなどを追加で制御できます。
 
-![](../images/card_custom_styling.png)
+<img src="../images/card_custom_styling.png" srcset="../images/card_custom_styling@2x.png 2x" />
 
 | レイヤー | 使用 |
 | ----------------------------- | ---------------------------------------- |
@@ -44,33 +44,33 @@ Custom Card は、スタイルに高い柔軟性があり、テキスト、ボ�
 
 以下は、上記の天気 Card の複雑なレイアウトを 5 つのシンプルなステップで作成する方法です。空 Artboard に Custom Card をドラッグし、`シンボルからデタッチ`を選択して、背景色、角の半径、開始ポイントに必要なエレベーションを変更してベーシック スタイルを適用します。
 
-![](../images/card_custom_layout0.png)
+<img src="../images/card_custom_layout0.png" srcset="../images/card_custom_layout0@2x.png 2x" />
 
 1.  Header Style を再利用して Title と Subtitle Text の文字列を更新します。Content グループは後にして Actions Style へ移動します。ここでは、デフォルトで含まれる Icon Actions ではなく Button Actions へ変更します。最後に Left Button テキストを更新し、none に設定して Right Button を非表示にします。
 
-  ![](../images/card_custom_layout1.png)
+  <img src="../images/card_custom_layout1.png" srcset="../images/card_custom_layout1@2x.png 2x" />
 
 2.  Content に戻り、天気予報のレイアウトを作成します。はじめに Cards/Blocks/Header/Large Title (Card 領域グループですべてのブロック タイプを使用可能) を挿入し、タイトルを H1 Size に更新して、シンボルをタイトルおよびサブタイトルの両方を表示するためにサイズ変更します。文字列値を更新後、デフォルト段落 Content Style を削除でき、次のようになります (デフォルト Content Style は他の要素も保持するため、Content グループを保存します)。
 
-  ![](../images/card_custom_layout2.png)
+  <img src="../images/card_custom_layout2.png" srcset="../images/card_custom_layout2@2x.png 2x" />
 
 3.  次に太陽のイラストを Content Group に追加します。楕円形を数本の線形でグループ化してグループ幅と高さをプロパティ パネルで調整し、歪みを防止します。太陽イラストレーションを度タイトルの右に配置してレイアウトはこのようになります。
 
-  ![](../images/card_custom_layout3.png)
+  <img src="../images/card_custom_layout3.png" srcset="../images/card_custom_layout3@2x.png 2x" />
 
 4.  One-thumb Slider Component および Cards/Blocks/Content/Paragraph Text を下のラベル配列に追加します。ターゲットとするデザインにするために Slider を選択して Label Text Style および Label Background を none にオーバーライドし、ラベル バルーンを非表示にします。Paragraph Text にラベル値を挿入後、これと同様のことができます。
 
-  ![](../images/card_custom_layout4.png)
+  <img src="../images/card_custom_layout4.png" srcset="../images/card_custom_layout4@2x.png 2x" />
 
 5.  ここでは詳細な予報領域をデザインします。最も簡単な方法は Cards/Blocks/Content/Paragraph Text を 2 回挿入する方法です。1 回は平日用、1 回は度用です。これら 2 列のテキスト間に Small Icon を挿入後 4 回複製して垂直に配置した列をもう 1 列形成します。予測値で可視化を選択後、ターゲット レイアウトの完了です。
 
-  ![](../images/card_custom_layout5.png)
+  <img src="../images/card_custom_layout5.png" srcset="../images/card_custom_layout5@2x.png 2x" />
 
 #### 追加のスタイル
 
 Custom Card レイアウトでは、カードに挿入されている要素に基づいてさまざまなスタイルを追加することが可能になります。たとえば気温の色を設定して強調し、スライダー ラベルや平日ラベルの段落などの追加情報に薄い色を設定できます。
 
-![](../images/card_custom_layout_styled.png)
+<img src="../images/card_custom_layout_styled.png" srcset="../images/card_custom_layout_styled@2x.png 2x" />
 
 ## その他のリソース
 

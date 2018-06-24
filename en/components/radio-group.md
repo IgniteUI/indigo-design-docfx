@@ -10,26 +10,26 @@ Use the Radio Group Component to allow exclusive selection for one item in a gro
 
 ### Radio Group Demo
 
-![](../images/radiogroup_demo.png)
+<img src="../images/radiogroup_demo.png" srcset="../images/radiogroup_demo@2x.png 2x" />
 
 ### Theme
 
 The Radio Group can be used styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds. Make sure that all Radios are set to the same theme.
 
-![](../images/radiogroup_dark.png)
-![](../images/radiogroup_light.png)
+<img src="../images/radiogroup_dark.png" srcset="../images/radiogroup_dark@2x.png 2x" />
+<img src="../images/radiogroup_light.png" srcset="../images/radiogroup_light@2x.png 2x" />
 
 ### State
 
 Each Radio in the group provides **on** and off selection states with additional variants for a disabled interaction state.
 
-![](../images/radiogroup_states.png)
+<img src="../images/radiogroup_states.png" srcset="../images/radiogroup_states@2x.png 2x" />
 
 ### Styling
 
 The Radio Group comes with styling flexibility through the various overrides for each item's label style and color.
 
-![](../images/radiogroup_styling.png)
+<img src="../images/radiogroup_styling.png" srcset="../images/radiogroup_styling@2x.png 2x" />
 
 ## Usage
 
@@ -37,8 +37,8 @@ When extending a Radio Group with additional items, make sure that they are all 
 
 | Do                                | Don't                               |
 | --------------------------------- | ----------------------------------- |
-| ![](../images/radiogroup_do1.png) | ![](../images/radiogroup_dont1.png) |
-| ![](../images/radiogroup_do2.png) | ![](../images/radiogroup_dont2.png) |
+| <img src="../images/radiogroup_do1.png" srcset="../images/radiogroup_do1@2x.png 2x" /> | <img src="../images/radiogroup_dont1.png" srcset="../images/radiogroup_dont1@2x.png 2x" /> |
+| <img src="../images/radiogroup_do2.png" srcset="../images/radiogroup_do2@2x.png 2x" /> | <img src="../images/radiogroup_dont2.png" srcset="../images/radiogroup_dont2@2x.png 2x" /> |
 
 ## Code generation
 

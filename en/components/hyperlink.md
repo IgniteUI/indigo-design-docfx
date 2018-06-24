@@ -10,19 +10,19 @@ Use the Hyperlink Component to allow the user access additional information rela
 
 ### Hyperlink Demo
 
-![](../images/hyperlink_demo.png)
+<img src="../images/hyperlink_demo.png" srcset="../images/hyperlink_demo@2x.png 2x" />
 
 ### Size
 
 The Hyperlink comes in two different sizes matching the available sizes for paragraph text: a 16pt Body 1 and a 14pt Body 2.
 
-![](../images/hyperlink_sizes.png)
+<img src="../images/hyperlink_sizes.png" srcset="../images/hyperlink_sizes@2x.png 2x" />
 
 ### Styling
 
 The Hyperlink can be styled through the Styling library by changing its default blue color to another one.
 
-![](../images/calendar_styling.png)
+<img src="../images/calendar_styling.png" srcset="../images/calendar_styling@2x.png 2x" />
 
 ## Usage
 
@@ -30,7 +30,7 @@ Always choose a Hyperlink text color that makes it stand out in a paragraph. Avo
 
 | Do                               | Don't                              |
 | -------------------------------- | ---------------------------------- |
-| ![](../images/hyperlink_do1.png) | ![](../images/hyperlink_dont1.png) |
+| <img src="../images/hyperlink_do1.png" srcset="../images/hyperlink_do1@2x.png 2x" /> | <img src="../images/hyperlink_dont1.png" srcset="../images/hyperlink_dont1@2x.png 2x" /> |
 
 ## Code Generation
 

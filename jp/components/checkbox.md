@@ -11,27 +11,27 @@ Checkbox コンポーネント シンボルは、設定の変更やフォーム�
 
 ### Checkbox デモ
 
-![](../images/checkbox_demo.png)
+<img src="../images/checkbox_demo.png" srcset="../images/checkbox_demo@2x.png 2x" />
 
 ### テーマ
 
 Checkbox は、明暗バリアントで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
 
-![](../images/checkbox_dark.png)
-![](../images/checkbox_light.png)
+<img src="../images/checkbox_dark.png" srcset="../images/checkbox_dark@2x.png 2x" />
+<img src="../images/checkbox_light.png" srcset="../images/checkbox_light@2x.png 2x" />
 
 ### 状態
 
 Checkbox は、**オン**/オフと不確定状態があり、追加のバリアントとしてインタラクション無効の状態があります。
 
-![](../images/checkbox_states.png)
-![](../images/checkbox_selection.png)
+<img src="../images/checkbox_states.png" srcset="../images/checkbox_states@2x.png 2x" />
+<img src="../images/checkbox_selection.png" srcset="../images/checkbox_selection@2x.png 2x" />
 
 ### スタイル設定
 
 Checkbox は、さまざまなオーバーライドでチェック、色の塗りつぶし、ラベル テキストの色を制御することにより柔軟にスタイル設定できます。
 
-![](../images/calendar_styling.png)
+<img src="../images/calendar_styling.png" srcset="../images/calendar_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -39,7 +39,7 @@ Checkbox は、さまざまなオーバーライドでチェック、色の塗�
 
 | いい例                             | 悪い例                             |
 | ------------------------------- | --------------------------------- |
-| ![](../images/checkbox_do1.png) | ![](../images/checkbox_dont1.png) |
+| <img src="../images/checkbox_do1.png" srcset="../images/checkbox_do1@2x.png 2x" /> | <img src="../images/checkbox_dont1.png" srcset="../images/checkbox_dont1@2x.png 2x" /> |
 
 ## コードの生成
 

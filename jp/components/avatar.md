@@ -11,7 +11,7 @@ Avatar コンポーネント シンボルは、プロフィール写真、アイ
 
 ### Avatar デモ
 
-![](../images/avatar_demo.png)
+<img src="../images/avatar_demo.png" srcset="../images/avatar_demo@2x.png 2x" />
 
 ### サイズ
 
@@ -21,23 +21,23 @@ Avatar のサイズは 3 つあります。
 - ミディアム - カスタム メニューや可視化に適しています。
 - スモール - コンタクト リストや繰り返しのシナリオに簡単に組み込めます。
 
-![](../images/avatar_sizes.png)
+<img src="../images/avatar_sizes.png" srcset="../images/avatar_sizes@2x.png 2x" />
 
 ### タイプ
 
 Avatar は、**画像**、イニシャルの文字列、アイコンなど、さまざまなタイプのコンテンツを使用できます。
 
-![](../images/avatar_content.png)
+<img src="../images/avatar_content.png" srcset="../images/avatar_content@2x.png 2x" />
 
 アバターは、**円形**と四角形の異なる 2 つの図形があります。
 
-![](../images/avatar_type.png)
+<img src="../images/avatar_type.png" srcset="../images/avatar_type@2x.png 2x" />
 
 ### スタイル設定
 
 Avatar は、さまざまなオーバーライドで背景色、イニシャルやアイコン色を制御することにより柔軟にスタイル設定できます。
 
-![](../images/avatar_styling.png)
+<img src="../images/avatar_styling.png" srcset="../images/avatar_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -45,7 +45,7 @@ Avatar でイニシャルやアイコンを使用する場合に Avatar 背景�
 
 | いい例                        | 悪い例                          |
 | ----------------------------- | ------------------------------- |
-| ![](../images/avatar_do1.png) | ![](../images/avatar_dont1.png) |
+| <img src="../images/avatar_do1.png" srcset="../images/avatar_do1@2x.png 2x" /> | <img src="../images/avatar_dont1.png" srcset="../images/avatar_dont1@2x.png 2x" /> |
 
 ## コードの生成
 

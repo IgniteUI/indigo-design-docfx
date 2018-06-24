@@ -10,7 +10,7 @@ Use the Card Component to display information for a single object through images
 
 ### Card Demo
 
-![](../images/card_demo.png)
+<img src="../images/card_demo.png" srcset="../images/card_demo@2x.png 2x" />
 
 ### Areas
 
@@ -18,34 +18,34 @@ The Card has three distinct areas: `header` which holds a combination of title a
 
 |         |                                       |
 | ------- | ------------------------------------- |
-| header  | ![](../images/card_headerL.png)       |
-| content | ![](../images/card_content_image.png) |
-| actions | ![](../images/card_actions_icons.png) |
+| header  | <img src="../images/card_headerL.png" srcset="../images/card_headerL@2x.png 2x" />       |
+| content | <img src="../images/card_content_image.png" srcset="../images/card_content_image@2x.png 2x" /> |
+| actions | <img src="../images/card_actions_icons.png" srcset="../images/card_actions_icons@2x.png 2x" /> |
 
 ### Header
 
 The Card Header supports three distinct layouts: **Large Title** which provides a large title and a subtitle, Small Title which provides a small title and a subtitle, and Small Title Only which provides a small title and no subtitle.
 
-![](../images/card_headerL.png)
-![](../images/card_headerS.png)
-![](../images/card_header_title.png)
+<img src="../images/card_headerL.png" srcset="../images/card_headerL@2x.png 2x" />
+<img src="../images/card_headerS.png" srcset="../images/card_headerS@2x.png 2x" />
+<img src="../images/card_header_title.png" srcset="../images/card_header_title@2x.png 2x" />
 
 ### Content
 
 The Card Content supports five distinct layouts: **Array** for shortcuts like contacts, Image with or without a title, Map for showing geographical location, and Paragraph for a short description text.
 
-![](../images/card_content_shortcuts.png)
-![](../images/card_content_image.png)
-![](../images/card_content_map.png)
-![](../images/card_content_paragraph.png)
+<img src="../images/card_content_shortcuts.png" srcset="../images/card_content_shortcuts@2x.png 2x" />
+<img src="../images/card_content_image.png" srcset="../images/card_content_image@2x.png 2x" />
+<img src="../images/card_content_map.png" srcset="../images/card_content_map@2x.png 2x" />
+<img src="../images/card_content_paragraph.png" srcset="../images/card_content_paragraph@2x.png 2x" />
 
 ### Actions
 
 The Card Actions come in three distinct layouts: **Button Actions** with just a couple of Flat Buttons, Icon Actions with up to three icons, and Icon + Button Actions combining the two approaches.
 
-![](../images/card_actions_buttons.png)
-![](../images/card_actions_icons.png)
-![](../images/card_actions_mixed.png)
+<img src="../images/card_actions_buttons.png" srcset="../images/card_actions_buttons@2x.png 2x" />
+<img src="../images/card_actions_icons.png" srcset="../images/card_actions_icons@2x.png 2x" />
+<img src="../images/card_actions_mixed.png" srcset="../images/card_actions_mixed@2x.png 2x" />
 
 ### Types
 
@@ -53,16 +53,16 @@ The Card is available in one of the following layouts:
 
 |                   |                                       |
 | ----------------- | ------------------------------------- |
-| Point of Interest | ![](../images/card_poi.png)           |
-| Audio Video Card  | ![](../images/card_av.png)            |
-| Normal Pin        | ![](../images/card_normal-pin.png)    |
-| Condensed Pin     | ![](../images/card_condensed-pin.png) |
-| Shortcuts         | ![](../images/card_shortcuts.png)     |
-| Simple Card       | ![](../images/card_simple.png)        |
-| Small Card        | ![](../images/card_small.png)         |
-| Square Card       | ![](../images/card_square.png)        |
-| Text Card         | ![](../images/card_text.png)          |
-| Timeline Card     | ![](../images/card_timeline.png)      |
+| Point of Interest | <img src="../images/card_poi.png" srcset="../images/card_poi@2x.png 2x" />           |
+| Audio Video Card  | <img src="../images/card_av.png" srcset="../images/card_av@2x.png 2x" />            |
+| Normal Pin        | <img src="../images/card_normal-pin.png" srcset="../images/card_normal-pin@2x.png 2x" />    |
+| Condensed Pin     | <img src="../images/card_condensed-pin.png" srcset="../images/card_condensed-pin@2x.png 2x" /> |
+| Shortcuts         | <img src="../images/card_shortcuts.png" srcset="../images/card_shortcuts@2x.png 2x" />     |
+| Simple Card       | <img src="../images/card_simple.png" srcset="../images/card_simple@2x.png 2x" />        |
+| Small Card        | <img src="../images/card_small.png" srcset="../images/card_small@2x.png 2x" />         |
+| Square Card       | <img src="../images/card_square.png" srcset="../images/card_square@2x.png 2x" />        |
+| Text Card         | <img src="../images/card_text.png" srcset="../images/card_text@2x.png 2x" />          |
+| Timeline Card     | <img src="../images/card_timeline.png" srcset="../images/card_timeline@2x.png 2x" />      |
 
 If none of them works for your design, you may create your own [Custom Cards](cards-custom.md).
 
@@ -70,7 +70,7 @@ If none of them works for your design, you may create your own [Custom Cards](ca
 
 The Card comes with styling flexibility through the various overrides available for header, content, and actions areas such as text, icons, and button colors, as well as the possibility to choose a Card background color.
 
-![](../images/card_styling.png)
+<img src="../images/card_styling.png" srcset="../images/card_styling@2x.png 2x" />
 
 ## Usage
 
@@ -78,8 +78,8 @@ The Card usually works as an overview and entry point for more detailed informat
 
 | Do                          | Don't                         |
 | --------------------------- | ----------------------------- |
-| ![](../images/card_do1.png) | ![](../images/card_dont1.png) |
-| ![](../images/card_do2.png) | ![](../images/card_dont2.png) |
+| <img src="../images/card_do1.png" srcset="../images/card_do1@2x.png 2x" /> | <img src="../images/card_dont1.png" srcset="../images/card_dont1@2x.png 2x" /> |
+| <img src="../images/card_do2.png" srcset="../images/card_do2@2x.png 2x" /> | <img src="../images/card_dont2.png" srcset="../images/card_dont2@2x.png 2x" /> |
 
 ## Code generation
 

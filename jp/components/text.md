@@ -11,39 +11,39 @@ Text コンポーネント シンボルは、ニュースやブログ ポスト�
 
 ### Text デモ
 
-![](../images/text_demo.png)
+<img src="../images/text_demo.png" srcset="../images/text_demo@2x.png 2x" />
 
 ### Title と Paragraph
 
 Text には、Titles と Paragraphs のためのバリアントがあります。
 
-![](../images/text_title.png)
-![](../images/text_paragraph.png)
+<img src="../images/text_title.png" srcset="../images/text_title@2x.png 2x" />
+<img src="../images/text_paragraph.png" srcset="../images/text_paragraph@2x.png 2x" />
 
 ### タイトル サイズ
 
 テキスト タイトルは、最小 H6 から最大 H1 の 6 つのプリセット サイズがあります。
 
-![](../images/text_h1.png)
-![](../images/text_h2.png)
-![](../images/text_h3.png)
-![](../images/text_h4.png)
-![](../images/text_h5.png)
-![](../images/text_h6.png)
+<img src="../images/text_h1.png" srcset="../images/text_h1@2x.png 2x" />
+<img src="../images/text_h2.png" srcset="../images/text_h2@2x.png 2x" />
+<img src="../images/text_h3.png" srcset="../images/text_h3@2x.png 2x" />
+<img src="../images/text_h4.png" srcset="../images/text_h4@2x.png 2x" />
+<img src="../images/text_h5.png" srcset="../images/text_h5@2x.png 2x" />
+<img src="../images/text_h6.png" srcset="../images/text_h6@2x.png 2x" />
 
 ### 段落サイズ
 
 テキスト段落には、ラージ **Body 1**、スモール Body 2、画像やタイトルの注釈に使用する極小キャプションがあります。
 
-![](../images/text_b1.png)
-![](../images/text_b2.png)
-![](../images/text_caption.png)
+<img src="../images/text_b1.png" srcset="../images/text_b1@2x.png 2x" />
+<img src="../images/text_b2.png" srcset="../images/text_b2@2x.png 2x" />
+<img src="../images/text_caption.png" srcset="../images/text_caption@2x.png 2x" />
 
 ### スタイル設定
 
 Titles と Paragraphs は、Styling ライブラリの Typography 部分で使用できるテキスト ウェイトや色プリセットのみから選択できます。
 
-![](../images/text_styling.png)
+<img src="../images/text_styling.png" srcset="../images/text_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -51,8 +51,8 @@ Hyperlink を複数同時に使用する場合は、Hyperlink を目立つよう
 
 | いい例                          | 悪い例                         |
 | --------------------------- | ----------------------------- |
-| ![](../images/text_do1.png) | ![](../images/text_dont1.png) |
-| ![](../images/text_do2.png) | ![](../images/text_dont2.png) |
+| <img src="../images/text_do1.png" srcset="../images/text_do1@2x.png 2x" /> | <img src="../images/text_dont1.png" srcset="../images/text_dont1@2x.png 2x" /> |
+| <img src="../images/text_do2.png" srcset="../images/text_do2@2x.png 2x" /> | <img src="../images/text_dont2.png" srcset="../images/text_dont2@2x.png 2x" /> |
 
 ## コードの生成
 

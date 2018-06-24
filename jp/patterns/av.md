@@ -9,8 +9,8 @@ _language: ja
 
 AV パターンは再生コントロールを持つオーディオまたはビデオ トラック表示と共に使用されます。
 
-![](../images/av_player_demo.png)
-![](../images/av_volume_demo.png)
+<img src="../images/av_player_demo.png" srcset="../images/av_player_demo@2x.png 2x" />
+<img src="../images/av_volume_demo.png" srcset="../images/av_volume_demo@2x.png 2x" />
 
 AV パターンのレイアウトに含まれる Icon Buttons および Linear Progress Bar のスタイル設定を使用できます。
 

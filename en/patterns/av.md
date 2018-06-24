@@ -8,8 +8,8 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 Use the AV Pattern to complement a represenatation of an audio or video track with playback controls.
 
-![](../images/av_player_demo.png)
-![](../images/av_volume_demo.png)
+<img src="../images/av_player_demo.png" srcset="../images/av_player_demo@2x.png 2x" />
+<img src="../images/av_volume_demo.png" srcset="../images/av_volume_demo@2x.png 2x" />
 
 The AV Pattern comes with the styling flexibility provided by the Icon Buttons and Linear Progress Bar that shape its layout.
 

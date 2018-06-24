@@ -11,7 +11,7 @@ Icon コンポーネント シンボルは、製品に「いいね」などの�
 
 ### Icon デモ
 
-![](../images/icon_demo.png)
+<img src="../images/icon_demo.png" srcset="../images/icon_demo@2x.png 2x" />
 
 ### サイズ
 
@@ -22,13 +22,13 @@ Icon のサイズは 4 つあります。
 - Medium
 - Small
 
-![](../images/icon_sizes.png)
+<img src="../images/icon_sizes.png" srcset="../images/icon_sizes@2x.png 2x" />
 
 ### スタイル設定
 
 Icon は、さまざまなオーバーライドで選択可能なグラフィックや塗りつぶしの色を制御することにより柔軟にスタイル設定できます。
 
-![](../images/icon_styling.png)
+<img src="../images/icon_styling.png" srcset="../images/icon_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -36,7 +36,7 @@ Icon の色は、背景とのコントラストが高い色を選択し、同色
 
 | いい例                      | 悪い例                        |
 | --------------------------- | ----------------------------- |
-| ![](../images/icon_do1.png) | ![](../images/icon_dont1.png) |
+| <img src="../images/icon_do1.png" srcset="../images/icon_do1@2x.png 2x" /> | <img src="../images/icon_dont1.png" srcset="../images/icon_dont1@2x.png 2x" /> |
 
 ## コードの生成
 
