@@ -58,6 +58,9 @@ The second approach describes the addition of file-specific colors, not availabl
 
 A color style object when added to a Sketch drawing is rendered as an HTML div with the corresponding color and size.
 
+TODO
+Explain how upon changing the primary/secondary/success/warn/error colors you need to create and use a matching palette after code generation is complete.
+
 ## Additional Resources
 
 Related topics:
