@@ -17,7 +17,7 @@ First, you will need to [Download the Indigo Design Sketch Libraries](TODO-add t
 - Indigo-Patterns - the library where components shape up meaningful patterns for productive application design. All you need to do, is cherry pick a few layouts and focus on designing a logical user journey and customizing the design to make it more appealing for your audience.
 
 > [!Note]
-> If you are part of a larger organization and collaborate with other designers or need to follow a certain compnay-wide guideline, we would advise you to put the libraries on a shared folder in the cloud, but one that also exists on your local drive and is synced via the could provided application. This will mean that any changes made to the libraries e.g. when you implement your custom company branding that needs to be used consistently across all your digital products, will propagate to everyone, who has access to this folder and has been using the libraries to create amazing experiences.
+> If you are part of a larger organization and collaborate with other designers or need to follow a certain company-wide guideline, we would advise you to put the libraries on a shared folder in the cloud, but one that also exists on your local drive and is synced via the could provided application. This will mean that any changes made to the libraries e.g. when you implement your custom company branding that needs to be used consistently across all your digital products, will propagate to everyone, who has access to this folder and has been using the libraries to create amazing experiences.
 
 In order to add the Libraries in Sketch follow these
 
@@ -60,6 +60,14 @@ Now that you have added the Indigo Design Libraries, you are all set to start cr
   <div class="divider--half"></div>
 
 4.  From the insert menu, select `Indigo-Components`, then `Text` and `Title` positioning it at the top of this surface with a 16px spacing on the left, top, and right. The newly inserted layer should appear above the surface, but below the Navbar. Set the Size override to H4 and the Style to ~34/left/Primary and for the Text type in "Start Budgeting". The last thing to do with this layer is to set its height to 56px.
+    | Layer | Description |
+    | ------------------------------ | -------------------------------------------- |
+    | iPhone 8 | The artboard |
+    | &nbsp;&nbsp; Navigation/Navbar | The Navbar that we have inserted |
+    | &nbsp;&nbsp; Text/Title | The form title |
+    | &nbsp;&nbsp; Colors/white | The form background |
+    | &nbsp;&nbsp; Shadows/Rect/Elevate 18 | The form elevation that will cast a shadow on the background image |
+    | &nbsp;&nbsp; Image | The image, which we will use as a background |
 
   <div class="divider--half"></div>
   ![](images/getting-started3.png)
@@ -80,6 +88,18 @@ Now that you have added the Indigo Design Libraries, you are all set to start cr
   <div class="divider--half"></div>
 
 6.  Now, insert two more `Line` Inputs, positioning them one under the other, directly below the ones from the previous step. Change their State override to ~Dark/Filled as well and make them stretch across the full width with 16px spacing on both sides. Update the Labels to "Username" and "Password" and Input Texts to "Leaellynasaura" and "\*\*\*\*\*\*\*\*\*\*\*\*" accordingly.
+    | Layer | Description |
+    | ------------------------------ | -------------------------------------------- |
+    | iPhone 8 | The artboard |
+    | &nbsp;&nbsp; Navigation/Navbar | The Navbar that we have inserted |
+    | &nbsp;&nbsp; Text/Title | The form title |
+    | &nbsp;&nbsp; Inputs/Input/Line | The First Name input |
+    | &nbsp;&nbsp; Inputs/Input/Line Copy | The Last Name input |
+    | &nbsp;&nbsp; Inputs/Input/Line | The Username input |
+    | &nbsp;&nbsp; Inputs/Input/Line Copy | The Password input |
+    | &nbsp;&nbsp; Colors/white | The form background |
+    | &nbsp;&nbsp; Shadows/Rect/Elevate 18 | The form elevation that will cast a shadow on the background image |
+    | &nbsp;&nbsp; Image | The image, which we will use as a background |
 
   <div class="divider--half"></div>
   ![](images/getting-started5.png)
@@ -100,6 +120,20 @@ Now that you have added the Indigo Design Libraries, you are all set to start cr
   <div class="divider--half"></div>
 
 8.  From the insert menu, select `Indigo-Components`, then `Text` and `Paragraph` positioning it below the button and changing its size so that there is a 16px spacing on all sides. Set the Size override to Body 2 and the Style to ~14/left/grays.700 and for the Text type in "By clicking on the "SIGN UP" button above, you accept our Terms of Use".
+    | Layer | Description |
+    | ------------------------------ | -------------------------------------------- |
+    | iPhone 8 | The artboard |
+    | &nbsp;&nbsp; Navigation/Navbar | The Navbar that we have inserted |
+    | &nbsp;&nbsp; Text/Title | The form Title |
+    | &nbsp;&nbsp; Inputs/Input/Line | The First Name Input |
+    | &nbsp;&nbsp; Inputs/Input/Line Copy | The Last Name Input |
+    | &nbsp;&nbsp; Inputs/Input/Line | The Username Input |
+    | &nbsp;&nbsp; Inputs/Input/Line Copy | The Password Input |
+    | &nbsp;&nbsp; Buttons/Raised | The SIGN UP Button |
+    | &nbsp;&nbsp; Text/Paragraph | The terms of use Paragraph |
+    | &nbsp;&nbsp; Colors/white | The form background |
+    | &nbsp;&nbsp; Shadows/Rect/Elevate 18 | The form elevation that will cast a shadow on the background image |
+    | &nbsp;&nbsp; Image | The image, which we will use as a background |
 
   <div class="divider--half"></div>
   ![](images/getting-started7.png)
