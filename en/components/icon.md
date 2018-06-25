@@ -10,7 +10,7 @@ Use the Icon Component to provide subtle graphical information to the user that,
 
 ### Icon Demo
 
-![](../images/icon_demo.png)
+<img src="../images/icon_demo.png" srcset="../images/icon_demo@2x.png 2x" />
 
 ### Size
 
@@ -21,13 +21,13 @@ The Icon comes in four different sizes:
 - Medium
 - Small
 
-![](../images/icon_sizes.png)
+<img src="../images/icon_sizes.png" srcset="../images/icon_sizes@2x.png 2x" />
 
 ### Styling
 
 The Icon comes with styling flexibility through the overrides for selectable graphic and the color used to fill it.
 
-![](../images/icon_styling.png)
+<img src="../images/icon_styling.png" srcset="../images/icon_styling@2x.png 2x" />
 
 ## Usage
 
@@ -35,7 +35,7 @@ Carefully pick the Icon color to assure good contrast with the background and de
 
 | Do                          | Don't                         |
 | --------------------------- | ----------------------------- |
-| ![](../images/icon_do1.png) | ![](../images/icon_dont1.png) |
+| <img src="../images/icon_do1.png" srcset="../images/icon_do1@2x.png 2x" /> | <img src="../images/icon_dont1.png" srcset="../images/icon_dont1@2x.png 2x" /> |
 
 ## Code Generation
 

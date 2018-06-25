@@ -11,21 +11,21 @@ Dialog コンポーネント シンボルは、メッセージや警告をユー
 
 ### Dialog デモ
 
-![](../images/dialog_demo.png)
+<img src="../images/dialog_demo.png" srcset="../images/dialog_demo@2x.png 2x" />
 
 ### タイプ
 
 Dialog 確認ボタンのみの警告を表示します。キャンセルや確認のメッセージ、あるいは直ちに対応が必要なユーザー ログインなどのコンテナーとして使用します。
 
-![](../images/dialog_alert.png)
-![](../images/dialog_standard.png)
-![](../images/dialog_custom.png)
+<img src="../images/dialog_alert.png" srcset="../images/dialog_alert@2x.png 2x" />
+<img src="../images/dialog_standard.png" srcset="../images/dialog_standard@2x.png 2x" />
+<img src="../images/dialog_custom.png" srcset="../images/dialog_custom@2x.png 2x" />
 
 ### スタイル設定
 
 Dialog は、さまざまなオーバーライドでタイトルやメッセージ、2 種類の [Button](button.md) タイプで個別にスタイル設定したボタンを制御することにより柔軟にスタイル設定できます。
 
-![](../images/dialog_styling.png)
+<img src="../images/dialog_styling.png" srcset="../images/dialog_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -33,7 +33,7 @@ Dialog は、さまざまなオーバーライドでタイトルやメッセー�
 
 | いい例                            | 悪い例                           |
 | ----------------------------- | ------------------------------- |
-| ![](../images/dialog_do1.png) | ![](../images/dialog_dont1.png) |
+| <img src="../images/dialog_do1.png" srcset="../images/dialog_do1@2x.png 2x" /> | <img src="../images/dialog_dont1.png" srcset="../images/dialog_dont1@2x.png 2x" /> |
 
 ## コードの生成
 

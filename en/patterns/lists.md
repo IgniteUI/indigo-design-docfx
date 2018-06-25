@@ -8,9 +8,9 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 Use the Lists Pattern Symbols as presets for organized collections of data depicting common scenarios such as filterable settings, people, song playlists, products, searchable lists, and settings.
 
-![](../images/lists_people.png)
-![](../images/lists_products.png)
-![](../images/lists_settings.png)
+<img src="../images/lists_people.png" srcset="../images/lists_people@2x.png 2x" />
+<img src="../images/lists_products.png" srcset="../images/lists_products@2x.png 2x" />
+<img src="../images/lists_settings.png" srcset="../images/lists_settings@2x.png 2x" />
 
 The Lists Pattern comes with the styling flexibility provided by the various types of List Items available and the Searchbar Input, where applicable.
 

@@ -11,54 +11,54 @@ Input コンポーネント シンボルは、さまざまなコンテキスト�
 
 ### Input デモ
 
-![](../images/input_demo.png)
+<img src="../images/input_demo.png" srcset="../images/input_demo@2x.png 2x" />
 
 ### タイプ
 
 Input はヘルパー テキスト (あり/なし) で 4 つの異なるタイプから選択します。より軽い印象となる線スタイルまたは単色背景ではっきり認識される境界線スタイルなど。Boxed スタイルは、コンテンツを読みやすくするために Input をビビッドなイメージの上に配置したときに使用するのが最も適しています。
 
-![](../images/input_no-helper.png)
-![](../images/input_helper.png)
+<img src="../images/input_no-helper.png" srcset="../images/input_no-helper@2x.png 2x" />
+<img src="../images/input_helper.png" srcset="../images/input_helper@2x.png 2x" />
 
-![](../images/input_line.png)
+<img src="../images/input_line.png" srcset="../images/input_line@2x.png 2x" />
 `line`
-![](../images/input_box.png)
+<img src="../images/input_box.png" srcset="../images/input_box@2x.png 2x" />
 `box`
-![](../images/input_border.png)
+<img src="../images/input_border.png" srcset="../images/input_border@2x.png 2x" />
 `border`
-![](../images/input_search.png)
+<img src="../images/input_search.png" srcset="../images/input_search@2x.png 2x" />
 `search`
 
 ### バリアント
 
 Input は、明暗バリアントで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
 
-![](../images/input_dark.png)
-![](../images/input_light.png)
+<img src="../images/input_dark.png" srcset="../images/input_dark@2x.png 2x" />
+<img src="../images/input_light.png" srcset="../images/input_light@2x.png 2x" />
 
 ### 状態
 
 ユーザーが Input とインタラクティブに操作する際にさまざまな状態を経由します。コンテンツの代わりにプレースホルダーがある**アイドル**状態、ユーザーが入力中のフォーカス状態、ユーザーがコンテンツの追加を完了して次に進むときの塗りつぶし状態、入力がインタラクションをサポートしない無効状態。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 
-![](../images/input_focused.png)
+<img src="../images/input_focused.png" srcset="../images/input_focused@2x.png 2x" />
 `focused`
-![](../images/input_filled.png)
+<img src="../images/input_filled.png" srcset="../images/input_filled@2x.png 2x" />
 `filled`
-![](../images/input_disabled.png)
+<img src="../images/input_disabled.png" srcset="../images/input_disabled@2x.png 2x" />
 `disabled`
 
 経験豊富なデザイナーは、ユーザー入力を制限して無効な状態を防止するために、検証スタイルを使用します。検証スタイルは、Input で成功、警告、エラーを表示する洗練されたデザインを提供します。
 
-![](../images/input_success.png)
-![](../images/input_warning.png)
-![](../images/input_error.png)
+<img src="../images/input_success.png" srcset="../images/input_success@2x.png 2x" />
+<img src="../images/input_warning.png" srcset="../images/input_warning@2x.png 2x" />
+<img src="../images/input_error.png" srcset="../images/input_error@2x.png 2x" />
 
 ### レイアウト
 
 Input には特定の場合に入力 (@email.com サフィックス) を軽減するテキスト文字列のプレフィックス/サフィックスやアイコンをサポートします。これによりキーストロークを減らし、予期されるコンテンツを明確にすることができます。カレンダーのプレフィックスでは、Input が日付や時間のコンテンツとして適しているかを示すことができます。
 
-![](../images/input_prefix.png)
-![](../images/input_suffix.png)
+<img src="../images/input_prefix.png" srcset="../images/input_prefix@2x.png 2x" />
+<img src="../images/input_suffix.png" srcset="../images/input_suffix@2x.png 2x" />
 
 > [!Note]
 > ↳ Layout
@@ -73,14 +73,14 @@ Input には特定の場合に入力 (@email.com サフィックス) を軽減�
 
 日付および時間選択のためにカスタマイズされた Input の 2 種類です。その他の Input コンポーネントと構造が統一されますが、レイアウトはそれぞれの状態に固定されます。プレフィックス位置に表示されるアイコンはマテリアル アイコンの `calendar-today` および `access-time` に設定され、オーバーライド パネルに変更できません。
 
-![](../images/input_calendar.png)
-![](../images/input_time-picker.png)
+<img src="../images/input_calendar.png" srcset="../images/input_calendar@2x.png 2x" />
+<img src="../images/input_time-picker.png" srcset="../images/input_time-picker@2x.png 2x" />
 
 ### スタイル設定
 
 Input は、Styling ライブラリのテーマでプライマリ、成功、警告、エラーの色を変更できます。
 
-![](../images/input_styling.png)
+<img src="../images/input_styling.png" srcset="../images/input_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -88,8 +88,8 @@ Input のボックス タイプを使用して画像上にフォームを配置�
 
 | いい例                       | 悪い例                         |
 | ---------------------------- | ------------------------------ |
-| ![](../images/input_do1.png) | ![](../images/input_dont1.png) |
-| ![](../images/input_do2.png) | ![](../images/input_dont2.png) |
+| <img src="../images/input_do1.png" srcset="../images/input_do1@2x.png 2x" /> | <img src="../images/input_dont1.png" srcset="../images/input_dont1@2x.png 2x" /> |
+| <img src="../images/input_do2.png" srcset="../images/input_do2@2x.png 2x" /> | <img src="../images/input_dont2.png" srcset="../images/input_dont2@2x.png 2x" /> |
 
 ## コードの生成
  

@@ -9,10 +9,10 @@ _language: ja
 
 Card Collection パターンを使用すると、アシスタントまたはニュース フィード、タイムライン、または複数列ボードを表示できます。
 
-![](../images/cardcol_demo_assistant.png)
-![](../images/cardcol_demo_news.png)
-![](../images/cardcol_demo_pins.png)
-![](../images/cardcol_demo_timeline.png)
+<img src="../images/cardcol_demo_assistant.png" srcset="../images/cardcol_demo_assistant@2x.png 2x" />
+<img src="../images/cardcol_demo_news.png" srcset="../images/cardcol_demo_news@2x.png 2x" />
+<img src="../images/cardcol_demo_pins.png" srcset="../images/cardcol_demo_pins@2x.png 2x" />
+<img src="../images/cardcol_demo_timeline.png" srcset="../images/cardcol_demo_timeline@2x.png 2x" />
 
 Card Collection パターンは Card の様々なタイプおよび (ある場合) Searchbar Input のスタイル設定をカスタマイズできます。
 

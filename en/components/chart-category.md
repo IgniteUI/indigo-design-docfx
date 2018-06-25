@@ -10,14 +10,14 @@ Use the Category Chart Component to wrap the density and complexity of data in a
 
 ### Category Chart Demo
 
-![](../images/category_chart_demo.png)
+<img src="../images/category_chart_demo.png" srcset="../images/category_chart_demo@2x.png 2x" />
 
 ### Tooltip
 
 The Category Chart comes with an override for the tooltip visibility: **Tooltip Off** hides it and Tooltip On shows it on top of the series.
 
-![](../images/chart_category_tooltip-off.png)
-![](../images/chart_category_tooltip-on.png)
+<img src="../images/chart_category_tooltip-off.png" srcset="../images/chart_category_tooltip-off@2x.png 2x" />
+<img src="../images/chart_category_tooltip-on.png" srcset="../images/chart_category_tooltip-on@2x.png 2x" />
 
 ### Types
 
@@ -25,15 +25,15 @@ The Category Chart comes with flexibility for selecting the Chart type through v
 
 |             |                                               |
 | ----------- | --------------------------------------------- |
-| Area        | ![](../images/chart_category_area.png)        |
-| Column      | ![](../images/chart_category_column.png)      |
-| Line        | ![](../images/chart_category_line.png)        |
-| Point       | ![](../images/chart_category_point.png)       |
-| Spline      | ![](../images/chart_category_spline.png)      |
-| Spline Area | ![](../images/chart_category_spline-area.png) |
-| Step Area   | ![](../images/chart_category_step-area.png)   |
-| Step Line   | ![](../images/chart_category_step-line.png)   |
-| Waterfall   | ![](../images/chart_category_waterfall.png)   |
+| Area        | <img src="../images/chart_category_area.png" srcset="../images/chart_category_area@2x.png 2x" />        |
+| Column      | <img src="../images/chart_category_column.png" srcset="../images/chart_category_column@2x.png 2x" />      |
+| Line        | <img src="../images/chart_category_line.png" srcset="../images/chart_category_line@2x.png 2x" />        |
+| Point       | <img src="../images/chart_category_point.png" srcset="../images/chart_category_point@2x.png 2x" />       |
+| Spline      | <img src="../images/chart_category_spline.png" srcset="../images/chart_category_spline@2x.png 2x" />      |
+| Spline Area | <img src="../images/chart_category_spline-area.png" srcset="../images/chart_category_spline-area@2x.png 2x" /> |
+| Step Area   | <img src="../images/chart_category_step-area.png" srcset="../images/chart_category_step-area@2x.png 2x" />   |
+| Step Line   | <img src="../images/chart_category_step-line.png" srcset="../images/chart_category_step-line@2x.png 2x" />   |
+| Waterfall   | <img src="../images/chart_category_waterfall.png" srcset="../images/chart_category_waterfall@2x.png 2x" />   |
 
 ## Usage
 
@@ -41,7 +41,7 @@ Even though you might need to combine different types of series in the same char
 
 | Do                                    | Don't                                   |
 | ------------------------------------- | --------------------------------------- |
-| ![](../images/chart_category_do1.png) | ![](../images/chart_category_dont1.png) |
+| <img src="../images/chart_category_do1.png" srcset="../images/chart_category_do1@2x.png 2x" /> | <img src="../images/chart_category_dont1.png" srcset="../images/chart_category_dont1@2x.png 2x" /> |
 
 ## Code Generation
 

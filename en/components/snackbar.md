@@ -10,13 +10,13 @@ Use the Snackbar Component to show a short notification or provide indication fo
 
 ### Snackbar Demo
 
-![](../images/snackbar_demo.png)
+<img src="../images/snackbar_demo.png" srcset="../images/snackbar_demo@2x.png 2x" />
 
 ### Styling
 
 The Snackbar comes with constrained styling flexibility, allowing only to change the text color of its action button.
 
-![](../images/snackbar_styling.png)
+<img src="../images/snackbar_styling.png" srcset="../images/snackbar_styling@2x.png 2x" />
 
 ## Usage
 
@@ -24,9 +24,9 @@ The Snackbar always appears on top of other content, so avoid placing on top of 
 
 | Do                              | Don't                             |
 | ------------------------------- | --------------------------------- |
-| ![](../images/snackbar_do1.png) | ![](../images/snackbar_dont1.png) |
-| ![](../images/snackbar_do2.png) | ![](../images/snackbar_dont2.png) |
-| ![](../images/snackbar_do3.png) | ![](../images/snackbar_dont3.png) |
+| <img src="../images/snackbar_do1.png" srcset="../images/snackbar_do1@2x.png 2x" /> | <img src="../images/snackbar_dont1.png" srcset="../images/snackbar_dont1@2x.png 2x" /> |
+| <img src="../images/snackbar_do2.png" srcset="../images/snackbar_do2@2x.png 2x" /> | <img src="../images/snackbar_dont2.png" srcset="../images/snackbar_dont2@2x.png 2x" /> |
+| <img src="../images/snackbar_do3.png" srcset="../images/snackbar_do3@2x.png 2x" /> | <img src="../images/snackbar_dont3.png" srcset="../images/snackbar_dont3@2x.png 2x" /> |
 
 ## Code generation
 

@@ -12,13 +12,13 @@ Grid ページングは、[Ignite UI for Angular Grid ページング機能](htt
 
 ### Grid ページング デモ
 
-![](../images/grid_paging_demo.png)
+<img src="../images/grid_paging_demo.png" srcset="../images/grid_paging_demo@2x.png 2x" />
 
 ### スタイル設定
 
 Grid ページングは、さまざまなオーバーライドでラベルや背景色などのスタイル設定に柔軟性があり、ナビゲーションに使用する Icon Buttons のスタイル設定も可能です。
 
-![](../images/grid_paging_styling.png)
+<img src="../images/grid_paging_styling.png" srcset="../images/grid_paging_styling@2x.png 2x" />
 
 ## その他のリソース
 

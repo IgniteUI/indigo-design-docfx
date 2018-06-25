@@ -11,11 +11,11 @@ _language: ja
 
 Sketch ライブラリで NBL スタイル ライブラリを変更して Components と Patterns と同じ結果となります。
 
-![](../images/theme_overview_default.png)
+<img src="../images/theme_overview_default.png" srcset="../images/theme_overview_default@2x.png 2x" />
 
-![](../images/theme_overview_dark.png)
+<img src="../images/theme_overview_dark.png" srcset="../images/theme_overview_dark@2x.png 2x" />
 
-![](../images/theme_overview_vibrant.png)
+<img src="../images/theme_overview_vibrant.png" srcset="../images/theme_overview_vibrant@2x.png 2x" />
 
 ## NBL-スタイリング
 

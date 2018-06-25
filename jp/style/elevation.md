@@ -19,7 +19,7 @@ _language: ja
 
 エレベーションの数値が大きくなると、シャドウがより暗く表示されます。シャドウは umbra、penumbra、および ambient の 3 つが重なったシャドウ色の組み合わせで値はマテリアル デザインの定義と一致します。
 
-![](../images/elevation_people.png)
+<img src="../images/elevation_people.png" srcset="../images/elevation_people@2x.png 2x" />
 
 > [!Note]
 > Sketch でコンポーネントをオーバーライドしてエレベーションを変更することは可能ですが、現在 Ignite UI for Angular では実装されていません。
@@ -28,7 +28,7 @@ _language: ja
 
 コンテンツ部分をフォーカスするためにエレベーションを使用できます。その場合、使用するエレベーションをドラッグして、対象のコンテンツのサイズと合わせます。
 
-![](../images/elevation_standalone.png)
+<img src="../images/elevation_standalone.png" srcset="../images/elevation_standalone@2x.png 2x" />
 
 ## その他のリソース
 

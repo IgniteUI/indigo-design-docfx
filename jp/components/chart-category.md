@@ -11,14 +11,14 @@ Category Chart コンポーネント シンボルは、密度をラップして�
 
 ### Category Chart デモ
 
-![](../images/category_chart_demo.png)
+<img src="../images/category_chart_demo.png" srcset="../images/category_chart_demo@2x.png 2x" />
 
 ### ツールチップ
 
 Category Chart は、ツールチップ表示のオーバーライドが可能です。ツールチップを非表示にする **Tooltip Off**、シリーズの一番上に表示する Tooltip On。
 
-![](../images/chart_category_tooltip-off.png)
-![](../images/chart_category_tooltip-on.png)
+<img src="../images/chart_category_tooltip-off.png" srcset="../images/chart_category_tooltip-off@2x.png 2x" />
+<img src="../images/chart_category_tooltip-on.png" srcset="../images/chart_category_tooltip-on@2x.png 2x" />
 
 ### タイプ
 
@@ -26,15 +26,15 @@ Category Chart は以下のようなさまざまなオーバーライドで Char
 
 |             |                                               |
 | ----------- | --------------------------------------------- |
-| エリア        | ![](../images/chart_category_area.png)        |
-| 柱状      | ![](../images/chart_category_column.png)      |
-| 折れ線        | ![](../images/chart_category_line.png)        |
-| ポイント       | ![](../images/chart_category_point.png)       |
-| スプライン      | ![](../images/chart_category_spline.png)      |
-| スプライン エリア | ![](../images/chart_category_spline-area.png) |
-| ステップ エリア   | ![](../images/chart_category_step-area.png)   |
-| ステップ折れ線   | ![](../images/chart_category_step-line.png)   |
-| ウォーターフォール   | ![](../images/chart_category_waterfall.png)   |
+| エリア        | <img src="../images/chart_category_area.png" srcset="../images/chart_category_area@2x.png 2x" />        |
+| 柱状      | <img src="../images/chart_category_column.png" srcset="../images/chart_category_column@2x.png 2x" />      |
+| 折れ線        | <img src="../images/chart_category_line.png" srcset="../images/chart_category_line@2x.png 2x" />        |
+| ポイント       | <img src="../images/chart_category_point.png" srcset="../images/chart_category_point@2x.png 2x" />       |
+| スプライン      | <img src="../images/chart_category_spline.png" srcset="../images/chart_category_spline@2x.png 2x" />      |
+| スプライン エリア | <img src="../images/chart_category_spline-area.png" srcset="../images/chart_category_spline-area@2x.png 2x" /> |
+| ステップ エリア   | <img src="../images/chart_category_step-area.png" srcset="../images/chart_category_step-area@2x.png 2x" />   |
+| ステップ折れ線   | <img src="../images/chart_category_step-line.png" srcset="../images/chart_category_step-line@2x.png 2x" />   |
+| ウォーターフォール   | <img src="../images/chart_category_waterfall.png" srcset="../images/chart_category_waterfall@2x.png 2x" />   |
 
 ## 使用方法
 
@@ -42,7 +42,7 @@ Category Chart は以下のようなさまざまなオーバーライドで Char
 
 | いい例                                   | 悪い例                                   |
 | ------------------------------------- | --------------------------------------- |
-| ![](../images/chart_category_do1.png) | ![](../images/chart_category_dont1.png) |
+| <img src="../images/chart_category_do1.png" srcset="../images/chart_category_do1@2x.png 2x" /> | <img src="../images/chart_category_dont1.png" srcset="../images/chart_category_dont1@2x.png 2x" /> |
 
 ## コードの生成
 

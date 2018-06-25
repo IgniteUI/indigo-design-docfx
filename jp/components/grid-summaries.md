@@ -11,28 +11,28 @@ Grid 集計は、すべてのデータで算出した集計値を各 Grid 列に
 
 ### Grid 集計デモ
 
-![](../images/grid_summaries_demo.png)
+<img src="../images/grid_summaries_demo.png" srcset="../images/grid_summaries_demo@2x.png 2x" />
 
 ### 状態
 
 Grid 集計セルは、以下のインタラクティブな状態をサポートします。**アクティブ**は Label および Number の概要を示します。インアクティブは、グレー アウトされたラベルを示します。Number を非表示にします。unavailable は 1 つの列に他の列より集計が少ない場合にギャップを埋めます。
 
-![](../images/grid_cell_summary_active.png)
-![](../images/grid_cell_summary_inactive.png)
-![](../images/grid_cell_summary_unavailable.png)
+<img src="../images/grid_cell_summary_active.png" srcset="../images/grid_cell_summary_active@2x.png 2x" />
+<img src="../images/grid_cell_summary_inactive.png" srcset="../images/grid_cell_summary_inactive@2x.png 2x" />
+<img src="../images/grid_cell_summary_unavailable.png" srcset="../images/grid_cell_summary_unavailable@2x.png 2x" />
 
 ### タイプ
 
 Grid 集計セルには一般的なタイプのプリセットが 2 タイプあり、数値の **Number** と文字列の Text に対応する必要があります。
 
-![](../images/grid_cell_summary_number.png)
-![](../images/grid_cell_summary_text.png)
+<img src="../images/grid_cell_summary_number.png" srcset="../images/grid_cell_summary_number@2x.png 2x" />
+<img src="../images/grid_cell_summary_text.png" srcset="../images/grid_cell_summary_text@2x.png 2x" />
 
 ### スタイル設定
 
 Grid 集計セルは、さまざまなオーバーライドでラベル、数値テキスト色、セルの背景色を制御することにより柔軟にスタイル設定できます。
 
-![](../images/grid_summaries_styling.png)
+<img src="../images/grid_summaries_styling.png" srcset="../images/grid_summaries_styling@2x.png 2x" />
 
 ## その他のリソース
 

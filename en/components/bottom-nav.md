@@ -10,29 +10,29 @@ Use the Bottom Navigation Component to implement application-level navigation by
 
 ### Bottom Navigation Demo
 
-![](../images/bottom-nav_demo.png)
+<img src="../images/bottom-nav_demo.png" srcset="../images/bottom-nav_demo@2x.png 2x" />
 
 ### Items Amount
 
 The Bottom Navigation supports between two to five items. If you need to design application-level navigation with more than five items or views, consider using consider using the [Navigation Drawer](nav-drawer.md) instead.
 
-![](../images/bottom-nav_items2.png)
-![](../images/bottom-nav_items3.png)
-![](../images/bottom-nav_items4.png)
-![](../images/bottom-nav_items5.png)
+<img src="../images/bottom-nav_items2.png" srcset="../images/bottom-nav_items2@2x.png 2x" />
+<img src="../images/bottom-nav_items3.png" srcset="../images/bottom-nav_items3@2x.png 2x" />
+<img src="../images/bottom-nav_items4.png" srcset="../images/bottom-nav_items4@2x.png 2x" />
+<img src="../images/bottom-nav_items5.png" srcset="../images/bottom-nav_items5@2x.png 2x" />
 
 ### Item Style
 
 The Bottom Navigation item contains either a combination of **icon+text** or just an icon. There is always one item in active (selected) state, and the remaining items must be set to inactive.
 
-![](../images/bottom-nav_icon&text.png)
-![](../images/bottom-nav_icon.png)
+<img src="../images/bottom-nav_icon&text.png" srcset="../images/bottom-nav_icon&text@2x.png 2x" />
+<img src="../images/bottom-nav_icon.png" srcset="../images/bottom-nav_icon@2x.png 2x" />
 
 ### Styling
 
 The Bottom Navigation comes with styling flexibility through the various overrides controling the background color, as well as the item label and icon colors.
 
-![](../images/bottom-nav_styling.png)
+<img src="../images/bottom-nav_styling.png" srcset="../images/bottom-nav_styling@2x.png 2x" />
 
 ## Usage
 
@@ -40,8 +40,8 @@ The Bottom Navigation always appears on top of other content, and the shadow it 
 
 | Do                                | Don't                               |
 | --------------------------------- | ----------------------------------- |
-| ![](../images/bottom-nav_do1.png) | ![](../images/bottom-nav_dont1.png) |
-| ![](../images/bottom-nav_do2.png) | ![](../images/bottom-nav_dont2.png) |
+| <img src="../images/bottom-nav_do1.png" srcset="../images/bottom-nav_do1@2x.png 2x" /> | <img src="../images/bottom-nav_dont1.png" srcset="../images/bottom-nav_dont1@2x.png 2x" /> |
+| <img src="../images/bottom-nav_do2.png" srcset="../images/bottom-nav_do2@2x.png 2x" /> | <img src="../images/bottom-nav_dont2.png" srcset="../images/bottom-nav_dont2@2x.png 2x" /> |
 
 ## Code generation - TODO
 

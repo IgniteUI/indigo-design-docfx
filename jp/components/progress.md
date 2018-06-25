@@ -11,14 +11,14 @@ Progress コンポーネント シンボルは、タスクの進行状況につ�
 
 ### Progress デモ
 
-![](../images/progress_demo.png)
+<img src="../images/progress_demo.png" srcset="../images/progress_demo@2x.png 2x" />
 
 ### タイプ
 
 Progress は、さまざまなユースケースやレイアウト要件に対応するための 2 つのレイアウト タイプ (Circular Bar および Linear Bar) をサポートします。
 
-![](../images/progress_circular.png)
-![](../images/progress_linear.png)
+<img src="../images/progress_circular.png" srcset="../images/progress_circular@2x.png 2x" />
+<img src="../images/progress_linear.png" srcset="../images/progress_linear@2x.png 2x" />
 
 ### 状態
 
@@ -30,19 +30,19 @@ Progress は、以下のプリセット カラーの組み合わせの 1 つを�
 - error: `error` テーマ カラーを使用して進行状況を表示
 - info: `info` テーマ カラーを使用して進行状況を表示
 
-![](../images/progress_default.png)
-![](../images/progress_success.png)
-![](../images/progress_warn.png)
-![](../images/progress_error.png)
-![](../images/progress_info.png)
+<img src="../images/progress_default.png" srcset="../images/progress_default@2x.png 2x" />
+<img src="../images/progress_success.png" srcset="../images/progress_success@2x.png 2x" />
+<img src="../images/progress_warn.png" srcset="../images/progress_warn@2x.png 2x" />
+<img src="../images/progress_error.png" srcset="../images/progress_error@2x.png 2x" />
+<img src="../images/progress_info.png" srcset="../images/progress_info@2x.png 2x" />
 
 ### スタイル設定
 
 Progress は、さまざまなオーバーライドでテキスト、ストリップ、塗りつぶし、トラックの色を制御することにより柔軟にスタイル設定できます。
 
-![](../images/progress_striped.png)
-![](../images/progress_clear.png)
-![](../images/progress_twocolor.png)
+<img src="../images/progress_striped.png" srcset="../images/progress_striped@2x.png 2x" />
+<img src="../images/progress_clear.png" srcset="../images/progress_clear@2x.png 2x" />
+<img src="../images/progress_twocolor.png" srcset="../images/progress_twocolor@2x.png 2x" />
 
 ## 使用方法
 
@@ -50,8 +50,8 @@ Circular Bar は常にテキスト ラベルの実際の値を使用し、Linear
 
 | いい例                              | 悪い例                             |
 | ------------------------------- | --------------------------------- |
-| ![](../images/progress_do1.png) | ![](../images/progress_dont1.png) |
-| ![](../images/progress_do2.png) | ![](../images/progress_dont2.png) |
+| <img src="../images/progress_do1.png" srcset="../images/progress_do1@2x.png 2x" /> | <img src="../images/progress_dont1.png" srcset="../images/progress_dont1@2x.png 2x" /> |
+| <img src="../images/progress_do2.png" srcset="../images/progress_do2@2x.png 2x" /> | <img src="../images/progress_dont2.png" srcset="../images/progress_dont2@2x.png 2x" /> |
 
 ## コードの生成
 

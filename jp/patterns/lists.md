@@ -9,9 +9,9 @@ _language: ja
 
 Lists パターン シンボルは、フィルター可能な設定、人、ミュージック プレイリスト、製品、検索可能なリスト、設定などの全般的なシナリオを表示するデータ コレクションのプリセットとして使用できます。
 
-![](../images/lists_people.png)
-![](../images/lists_products.png)
-![](../images/lists_settings.png)
+<img src="../images/lists_people.png" srcset="../images/lists_people@2x.png 2x" />
+<img src="../images/lists_products.png" srcset="../images/lists_products@2x.png 2x" />
+<img src="../images/lists_settings.png" srcset="../images/lists_settings@2x.png 2x" />
 
 Lists パターンは List Item の様々なタイプおよび (ある場合) Searchbar Input のスタイル設定をカスタマイズできます。
 

@@ -10,21 +10,21 @@ Use the Grid Filter Component to let the user specify filtering criteria on a Gr
 
 ### Grid Filter Demo
 
-![](../images/grid_filter_demo.png)
+<img src="../images/grid_filter_demo.png" srcset="../images/grid_filter_demo@2x.png 2x" />
 
 ### Filter State
 
 The Grid Filter State found in the Header Cell provides choice between the three states of interaction with filtering: **inactive** state indicating the possibility to apply filtering on the column, active state for when the a dialog is visible to allow defining of the filtering criteria, and filtered state to indicate that a filter has been applied once the dialog is no longer visible.
 
-![](../images/grid_filter_state_inactive.png)
-![](../images/grid_filter_state_active.png)
-![](../images/grid_filter_state_filtered.png)
+<img src="../images/grid_filter_state_inactive.png" srcset="../images/grid_filter_state_inactive@2x.png 2x" />
+<img src="../images/grid_filter_state_active.png" srcset="../images/grid_filter_state_active@2x.png 2x" />
+<img src="../images/grid_filter_state_filtered.png" srcset="../images/grid_filter_state_filtered@2x.png 2x" />
 
 ### Styling
 
 The Grid Filter State found in the Header Cell comes with styling flexibility through various overrides for the icon and active background colors. The Grid Filter dialog comes with styling flexibility through the various overrides for the dialog background color, as well as the available styling for the [Inputs](input.md) and [Flat Buttons](button.md) used.
 
-![](../images/grid_filter_styling.png)
+<img src="../images/grid_filter_styling.png" srcset="../images/grid_filter_styling@2x.png 2x" />
 
 ## Additional Resources
 

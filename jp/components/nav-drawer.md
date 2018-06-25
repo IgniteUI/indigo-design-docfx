@@ -11,20 +11,20 @@ Navigation Drawer コンポーネント シンボルは、複数の項目と画�
 
 ### Navigation Drawer デモ
 
-![](../images/nav-drawer_demo.png)
+<img src="../images/nav-drawer_demo.png" srcset="../images/nav-drawer_demo@2x.png 2x" />
 
 ### スタイル
 
 Navigation Drawer は、各項目にアイコンとラベルを含む**デフォルト** スタイルとアイコンのみ含むミニ スタイルがあります。デザインにある項目/ビューが 5 つ以下の場合、Navigation Drawer または [Bottom Navigation](bottom-nav.md) が適しています。
 
-![](../images/nav-drawer_default.png)
-![](../images/nav-drawer_mini.png)
+<img src="../images/nav-drawer_default.png" srcset="../images/nav-drawer_default@2x.png 2x" />
+<img src="../images/nav-drawer_mini.png" srcset="../images/nav-drawer_mini@2x.png 2x" />
 
 ### スタイル設定
 
 Navigation Drawer には、ラベルやアイコンの色の変更、アクティブ/インアクティブな背景の色の変更など基本的なスタイル設定機能があります。
 
-![](../images/nav-drawer_styling.png)
+<img src="../images/nav-drawer_styling.png" srcset="../images/nav-drawer_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -32,9 +32,9 @@ Navigation Drawer は、アプリの主要ナビゲーションに使用する�
 
 | いい例                                | 悪い例                               |
 | --------------------------------- | ----------------------------------- |
-| ![](../images/nav-drawer_do1.png) | ![](../images/nav-drawer_dont1.png) |
-| ![](../images/nav-drawer_do2.png) | ![](../images/nav-drawer_dont2.png) |
-| ![](../images/nav-drawer_do3.png) | ![](../images/nav-drawer_dont3.png) |
+| <img src="../images/nav-drawer_do1.png" srcset="../images/nav-drawer_do1@2x.png 2x" /> | <img src="../images/nav-drawer_dont1.png" srcset="../images/nav-drawer_dont1@2x.png 2x" /> |
+| <img src="../images/nav-drawer_do2.png" srcset="../images/nav-drawer_do2@2x.png 2x" /> | <img src="../images/nav-drawer_dont2.png" srcset="../images/nav-drawer_dont2@2x.png 2x" /> |
+| <img src="../images/nav-drawer_do3.png" srcset="../images/nav-drawer_do3@2x.png 2x" /> | <img src="../images/nav-drawer_dont3.png" srcset="../images/nav-drawer_dont3@2x.png 2x" /> |
 
 ## その他のリソース
 

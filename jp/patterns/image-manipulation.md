@@ -9,7 +9,7 @@ _language: ja
 
 Image Manipulation パターンを使用すると、画像または写真を含む Avatar を編集、更新、変更、またはその他のクイック アクションを実行できます。
 
-![](../images/image-manip_demo.png)
+<img src="../images/image-manip_demo.png" srcset="../images/image-manip_demo@2x.png 2x" />
 
 Image Manipulation パターンは、レイアウトに含まれる Avatar および複数の Button のスタイル設定をカスタマイズできます。
 
@@ -17,7 +17,7 @@ Image Manipulation パターンは、レイアウトに含まれる Avatar お�
 
 Image Manipulation パターンは 1 ～ 2 Flat Button、FAB Button、または Icon Button を含むレイアウトで規格の画像および Avatar をサポートします。
 
-![](../images/image-manip_layout.png)
+<img src="../images/image-manip_layout.png" srcset="../images/image-manip_layout@2x.png 2x" />
 
 ## その他のリソース
 

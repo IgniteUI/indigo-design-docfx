@@ -10,21 +10,21 @@ Use the Toast Component to show a short information message or notification, whi
 
 ### Toast Demo
 
-![](../images/toast_demo.png)
+<img src="../images/toast_demo.png" srcset="../images/toast_demo@2x.png 2x" />
 
 ### Position
 
 The Toast should be relatively positioned towards the bottom, center, or top of the content its information concerns.
 
-![](../images/toast_bottom.png)
-![](../images/toast_center.png)
-![](../images/toast_top.png)
+<img src="../images/toast_bottom.png" srcset="../images/toast_bottom@2x.png 2x" />
+<img src="../images/toast_center.png" srcset="../images/toast_center@2x.png 2x" />
+<img src="../images/toast_top.png" srcset="../images/toast_top@2x.png 2x" />
 
 ### Styling
 
 The Toast comes with constrained styling possibility, allowing only control of the background and message text colors. However, it is highly advisable to choose between `white` and `grays.900` for the message text, whichever of the two gives better contrast with the background.
 
-![](../images/toast_styling.png)
+<img src="../images/toast_styling.png" srcset="../images/toast_styling@2x.png 2x" />
 
 ## Usage
 
@@ -32,8 +32,8 @@ The Toast should always be centrally aligned on the horizontal and other placeme
 
 | Do                           | Don't                          |
 | ---------------------------- | ------------------------------ |
-| ![](../images/toast_do1.png) | ![](../images/toast_dont1.png) |
-| ![](../images/toast_do2.png) | ![](../images/toast_dont2.png) |
+| <img src="../images/toast_do1.png" srcset="../images/toast_do1@2x.png 2x" /> | <img src="../images/toast_dont1.png" srcset="../images/toast_dont1@2x.png 2x" /> |
+| <img src="../images/toast_do2.png" srcset="../images/toast_do2@2x.png 2x" /> | <img src="../images/toast_dont2.png" srcset="../images/toast_dont2@2x.png 2x" /> |
 
 ## Code Generation
 

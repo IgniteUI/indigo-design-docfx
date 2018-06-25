@@ -10,27 +10,27 @@ Use the Checkbox Component to allow the user make a selection, which most often 
 
 ### Checkbox Demo
 
-![](../images/checkbox_demo.png)
+<img src="../images/checkbox_demo.png" srcset="../images/checkbox_demo@2x.png 2x" />
 
 ### Theme
 
 The Checkbox can be used styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
 
-![](../images/checkbox_dark.png)
-![](../images/checkbox_light.png)
+<img src="../images/checkbox_dark.png" srcset="../images/checkbox_dark@2x.png 2x" />
+<img src="../images/checkbox_light.png" srcset="../images/checkbox_light@2x.png 2x" />
 
 ### State
 
 The Checkbox provides **on**, off, and indeterminate selection states with additional variants for a disabled interaction state.
 
-![](../images/checkbox_states.png)
-![](../images/checkbox_selection.png)
+<img src="../images/checkbox_states.png" srcset="../images/checkbox_states@2x.png 2x" />
+<img src="../images/checkbox_selection.png" srcset="../images/checkbox_selection@2x.png 2x" />
 
 ### Styling
 
 The Checkbox comes with styling flexibility through the various overrides controlling its check and fill colors, as well as the label text color.
 
-![](../images/calendar_styling.png)
+<img src="../images/calendar_styling.png" srcset="../images/calendar_styling@2x.png 2x" />
 
 ## Usage
 
@@ -38,7 +38,7 @@ When many Checkboxes are necessary, you'll want to arrange them in a column grou
 
 | Do                              | Don't                             |
 | ------------------------------- | --------------------------------- |
-| ![](../images/checkbox_do1.png) | ![](../images/checkbox_dont1.png) |
+| <img src="../images/checkbox_do1.png" srcset="../images/checkbox_do1@2x.png 2x" /> | <img src="../images/checkbox_dont1.png" srcset="../images/checkbox_dont1@2x.png 2x" /> |
 
 ## Code Generation
 

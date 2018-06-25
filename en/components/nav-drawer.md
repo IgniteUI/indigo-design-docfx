@@ -10,20 +10,20 @@ Use the Navigation Drawer Component to implement application-level navigation by
 
 ### Navigation Drawer Demo
 
-![](../images/nav-drawer_demo.png)
+<img src="../images/nav-drawer_demo.png" srcset="../images/nav-drawer_demo@2x.png 2x" />
 
 ### Style
 
 The Navigation Drawer supports a **default** style with icon and label for each item and a mini style with icons only. If your design contains five or less items/views, you may pick between Navigation Drawer and [Bottom Navigation](bottom-nav.md).
 
-![](../images/nav-drawer_default.png)
-![](../images/nav-drawer_mini.png)
+<img src="../images/nav-drawer_default.png" srcset="../images/nav-drawer_default@2x.png 2x" />
+<img src="../images/nav-drawer_mini.png" srcset="../images/nav-drawer_mini@2x.png 2x" />
 
 ### Styling
 
 The Navigation Drawer provides basic styling capabilities achievable through changing the label and icon colors, as well as the active/inactive background colors.
 
-![](../images/nav-drawer_styling.png)
+<img src="../images/nav-drawer_styling.png" srcset="../images/nav-drawer_styling@2x.png 2x" />
 
 ## Usage
 
@@ -31,9 +31,9 @@ Navigation Drawer is always used as the main app navigation, therefore, position
 
 | Do                                | Don't                               |
 | --------------------------------- | ----------------------------------- |
-| ![](../images/nav-drawer_do1.png) | ![](../images/nav-drawer_dont1.png) |
-| ![](../images/nav-drawer_do2.png) | ![](../images/nav-drawer_dont2.png) |
-| ![](../images/nav-drawer_do3.png) | ![](../images/nav-drawer_dont3.png) |
+| <img src="../images/nav-drawer_do1.png" srcset="../images/nav-drawer_do1@2x.png 2x" /> | <img src="../images/nav-drawer_dont1.png" srcset="../images/nav-drawer_dont1@2x.png 2x" /> |
+| <img src="../images/nav-drawer_do2.png" srcset="../images/nav-drawer_do2@2x.png 2x" /> | <img src="../images/nav-drawer_dont2.png" srcset="../images/nav-drawer_dont2@2x.png 2x" /> |
+| <img src="../images/nav-drawer_do3.png" srcset="../images/nav-drawer_do3@2x.png 2x" /> | <img src="../images/nav-drawer_dont3.png" srcset="../images/nav-drawer_dont3@2x.png 2x" /> |
 
 ## Code generation
 
