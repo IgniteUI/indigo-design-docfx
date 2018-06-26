@@ -8,7 +8,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 All Components map to Ignite UI for Angular components. The theming engine of Infragistics' Angular product, through powerful sass functions and mixins, allows for the creation of custom color themes that can restyle the whole product in just a few lines of code.
 
-With the Sketch libraries, you're able to modify the NBL-Styling library to achieve the same results for both the Components and Patterns.
+With the Sketch libraries, you're able to modify the Indigo-Styling library to achieve the same results for both the Components and Patterns.
 
 ![](../images/theme_overview_default.png)
 
@@ -16,9 +16,9 @@ With the Sketch libraries, you're able to modify the NBL-Styling library to achi
 
 ![](../images/theme_overview_vibrant.png)
 
-## NBL-Styling
+## Indigo-Styling
 
-NBL-Styling is the defacto representation of the theming engine. It is separated into four parts represented as different pages in the library: Icons, Colors, Typography and Elevations.
+Indigo-Styling is the defacto representation of the theming engine. It is separated into four parts represented as different pages in the library: Icons, Colors, Typography and Elevations.
 
 - [Material Icons](material-icons.md) - a collection of 100+ Material Icons, which you can easily extend
 - [Colors](colors.md) - a palette consisting of primary, secondary and special colors, as well as shades of gray and levels of opacity
