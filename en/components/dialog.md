@@ -77,13 +77,25 @@ There are four Text properties for the Dialog, Title, Message, Left Button, and 
 - {settingsLabel}
 - Important {labelText}
 
+### Dialog Naming
+
+Dialog components are hidden at runtime until code opens them. The code generator uses the name given to the dialog in Sketch, to assign a name to the dialog in the HTML. For example, if the dialog was named: Dialog (will be changed to lower case) in Sketch the below bold #dialog will be added to the tag.
+
+<igx-dialog **#dialog**
+
+### Dialog Cancel Button
+
+The code generator will add standard cancel button code to the HTML if no `🕹️Event` is specified for the LEFT button and the LEFT button text is Cancel (case insensitive comparison). In the below example, the name of the dialog was Dialog, the following will be added to the dialog HTML.
+
+(onLeftButtonSelect)="dialog.close()"
+
 ### Buttons
 
 There are Left and Right buttons. Each Button has a Type field that can be set Flat or Raised. Currently Text Style and Background on the Buttons are ignored.
 
-### Event
+### Button Event
 
-There is no event property for this control for the user to set. Instead, the onLeftButtonSelect and onRightButtonSelect events are automatically outputted when the corresponding button is rendered.
+Each button has an `🕹️Event` property. If supplied, onLeftButtonSelect and onRightButtonSelect events are outputted when the corresponding button is rendered. Additionally, the JavaScript $event argument will be added to the HTML signature and TypeScript method signature.
 
 ## Additional Resources
 

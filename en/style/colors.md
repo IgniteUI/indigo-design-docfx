@@ -58,6 +58,8 @@ The second approach describes the addition of file-specific colors, not availabl
 
 A color style object when added to a Sketch drawing is rendered as an HTML div with the corresponding color and size.
 
+Once you have set up your branding by adjusting the nuances of the `primary`, `secondary`, `success`, `warn`, `error`, and `info` color symbols, you probably want to achieve the same look for your generated code. Thanks to the robust theming in [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular), this is possible with only a few lines of code. For a detailed walkthrough on how to create and add a color palette, check out the [Theming Topic](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes.html#generating-color-palettes). Just remember to insert the correct HEX values from Colors in the Styling Library.
+
 ## Additional Resources
 
 Related topics:
