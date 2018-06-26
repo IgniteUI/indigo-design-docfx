@@ -43,10 +43,9 @@ The Time Picker comes with styling flexibility through the various overrides con
 
 Show the Horizontal and Vertical Time Pickers as a dialog that dims the rest of the UI.
 
-| Do                                | Don't                               |
-| --------------------------------- | ----------------------------------- |
+| Do                                                                                     | Don't                                                                                      |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | <img src="../images/timepicker_do1.png" srcset="../images/timepicker_do1@2x.png 2x" /> | <img src="../images/timepicker_dont1.png" srcset="../images/timepicker_dont1@2x.png 2x" /> |
-| <img src="../images/timepicker_do2.png" srcset="../images/timepicker_do2@2x.png 2x" /> | <img src="../images/timepicker_dont2.png" srcset="../images/timepicker_dont2@2x.png 2x" /> |
 
 ## Code generation
 
