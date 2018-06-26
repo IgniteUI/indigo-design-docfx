@@ -95,7 +95,7 @@ There are Left and Right buttons. Each Button has a Type field that can be set F
 
 ### Button Event
 
-Each button has an `🕹️Event` property. If supplied, onLeftButtonSelect and onRightButtonSelect events are outputted when the corresponding button is rendered. Additionlly, the JavaScript $event argument will be added to the HTML signature and TypeScript method signature.
+Each button has an `🕹️Event` property. If supplied, onLeftButtonSelect and onRightButtonSelect events are outputted when the corresponding button is rendered. Additionally, the JavaScript $event argument will be added to the HTML signature and TypeScript method signature.
 
 ## Additional Resources
 
