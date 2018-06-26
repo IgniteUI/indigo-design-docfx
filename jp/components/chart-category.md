@@ -11,7 +11,7 @@ Category Chart コンポーネント シンボルは、密度をラップして�
 
 ### Category Chart デモ
 
-<img src="../images/category_chart_demo.png" srcset="../images/category_chart_demo@2x.png 2x" />
+<img src="../images/chart_category_demo.png" srcset="../images/chart_category_demo@2x.png 2x" />
 
 ### ツールチップ
 
@@ -24,24 +24,24 @@ Category Chart は、ツールチップ表示のオーバーライドが可能�
 
 Category Chart は以下のようなさまざまなオーバーライドで Chart タイプを選択できる柔軟性があります。
 
-|             |                                               |
-| ----------- | --------------------------------------------- |
-| エリア        | <img src="../images/chart_category_area.png" srcset="../images/chart_category_area@2x.png 2x" />        |
-| 柱状      | <img src="../images/chart_category_column.png" srcset="../images/chart_category_column@2x.png 2x" />      |
-| 折れ線        | <img src="../images/chart_category_line.png" srcset="../images/chart_category_line@2x.png 2x" />        |
-| ポイント       | <img src="../images/chart_category_point.png" srcset="../images/chart_category_point@2x.png 2x" />       |
-| スプライン      | <img src="../images/chart_category_spline.png" srcset="../images/chart_category_spline@2x.png 2x" />      |
-| スプライン エリア | <img src="../images/chart_category_spline-area.png" srcset="../images/chart_category_spline-area@2x.png 2x" /> |
-| ステップ エリア   | <img src="../images/chart_category_step-area.png" srcset="../images/chart_category_step-area@2x.png 2x" />   |
-| ステップ折れ線   | <img src="../images/chart_category_step-line.png" srcset="../images/chart_category_step-line@2x.png 2x" />   |
-| ウォーターフォール   | <img src="../images/chart_category_waterfall.png" srcset="../images/chart_category_waterfall@2x.png 2x" />   |
+|                    |                                                                                                                |
+| ------------------ | -------------------------------------------------------------------------------------------------------------- |
+| エリア             | <img src="../images/chart_category_area.png" srcset="../images/chart_category_area@2x.png 2x" />               |
+| 柱状               | <img src="../images/chart_category_column.png" srcset="../images/chart_category_column@2x.png 2x" />           |
+| 折れ線             | <img src="../images/chart_category_line.png" srcset="../images/chart_category_line@2x.png 2x" />               |
+| ポイント           | <img src="../images/chart_category_point.png" srcset="../images/chart_category_point@2x.png 2x" />             |
+| スプライン         | <img src="../images/chart_category_spline.png" srcset="../images/chart_category_spline@2x.png 2x" />           |
+| スプライン エリア  | <img src="../images/chart_category_spline-area.png" srcset="../images/chart_category_spline-area@2x.png 2x" /> |
+| ステップ エリア    | <img src="../images/chart_category_step-area.png" srcset="../images/chart_category_step-area@2x.png 2x" />     |
+| ステップ折れ線     | <img src="../images/chart_category_step-line.png" srcset="../images/chart_category_step-line@2x.png 2x" />     |
+| ウォーターフォール | <img src="../images/chart_category_waterfall.png" srcset="../images/chart_category_waterfall@2x.png 2x" />     |
 
 ## 使用方法
 
 同じチャートの異なるタイプを組み合わせる場合、複数の Category Charts を互いに積み重ねないようにします。データ可視化の簡素化したステンシルのように Category Chart コンポーネント シンボルを使用します。
 
-| いい例                                   | 悪い例                                   |
-| ------------------------------------- | --------------------------------------- |
+| いい例                                                                                         | 悪い例                                                                                             |
+| ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | <img src="../images/chart_category_do1.png" srcset="../images/chart_category_do1@2x.png 2x" /> | <img src="../images/chart_category_dont1.png" srcset="../images/chart_category_dont1@2x.png 2x" /> |
 
 ## コードの生成
@@ -62,6 +62,7 @@ Customer {
   imageName: String;
 }
 ```
+
 DataProperty: `{imageName}`
 
 #### ネストあり
@@ -75,6 +76,7 @@ Customer {
   profile: Profile;
 }
 ```
+
 DataProperty: `{profile.imageName}`
 
 ### データ ソース

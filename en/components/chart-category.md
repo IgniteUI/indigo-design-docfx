@@ -10,7 +10,7 @@ Use the Category Chart Component to wrap the density and complexity of data in a
 
 ### Category Chart Demo
 
-<img src="../images/category_chart_demo.png" srcset="../images/category_chart_demo@2x.png 2x" />
+<img src="../images/chart_category_demo.png" srcset="../images/chart_category_demo@2x.png 2x" />
 
 ### Tooltip
 
@@ -23,24 +23,24 @@ The Category Chart comes with an override for the tooltip visibility: **Tooltip 
 
 The Category Chart comes with flexibility for selecting the Chart type through various overrides such as:
 
-|             |                                               |
-| ----------- | --------------------------------------------- |
-| Area        | <img src="../images/chart_category_area.png" srcset="../images/chart_category_area@2x.png 2x" />        |
-| Column      | <img src="../images/chart_category_column.png" srcset="../images/chart_category_column@2x.png 2x" />      |
-| Line        | <img src="../images/chart_category_line.png" srcset="../images/chart_category_line@2x.png 2x" />        |
-| Point       | <img src="../images/chart_category_point.png" srcset="../images/chart_category_point@2x.png 2x" />       |
-| Spline      | <img src="../images/chart_category_spline.png" srcset="../images/chart_category_spline@2x.png 2x" />      |
+|             |                                                                                                                |
+| ----------- | -------------------------------------------------------------------------------------------------------------- |
+| Area        | <img src="../images/chart_category_area.png" srcset="../images/chart_category_area@2x.png 2x" />               |
+| Column      | <img src="../images/chart_category_column.png" srcset="../images/chart_category_column@2x.png 2x" />           |
+| Line        | <img src="../images/chart_category_line.png" srcset="../images/chart_category_line@2x.png 2x" />               |
+| Point       | <img src="../images/chart_category_point.png" srcset="../images/chart_category_point@2x.png 2x" />             |
+| Spline      | <img src="../images/chart_category_spline.png" srcset="../images/chart_category_spline@2x.png 2x" />           |
 | Spline Area | <img src="../images/chart_category_spline-area.png" srcset="../images/chart_category_spline-area@2x.png 2x" /> |
-| Step Area   | <img src="../images/chart_category_step-area.png" srcset="../images/chart_category_step-area@2x.png 2x" />   |
-| Step Line   | <img src="../images/chart_category_step-line.png" srcset="../images/chart_category_step-line@2x.png 2x" />   |
-| Waterfall   | <img src="../images/chart_category_waterfall.png" srcset="../images/chart_category_waterfall@2x.png 2x" />   |
+| Step Area   | <img src="../images/chart_category_step-area.png" srcset="../images/chart_category_step-area@2x.png 2x" />     |
+| Step Line   | <img src="../images/chart_category_step-line.png" srcset="../images/chart_category_step-line@2x.png 2x" />     |
+| Waterfall   | <img src="../images/chart_category_waterfall.png" srcset="../images/chart_category_waterfall@2x.png 2x" />     |
 
 ## Usage
 
 Even though you might need to combine different types of series in the same chart, you should avoid stacking multiple Category Charts on top of one another. Use the Category Chart Component as if it were a simplified stencil for data visualization.
 
-| Do                                    | Don't                                   |
-| ------------------------------------- | --------------------------------------- |
+| Do                                                                                             | Don't                                                                                              |
+| ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | <img src="../images/chart_category_do1.png" srcset="../images/chart_category_do1@2x.png 2x" /> | <img src="../images/chart_category_dont1.png" srcset="../images/chart_category_dont1@2x.png 2x" /> |
 
 ## Code Generation
