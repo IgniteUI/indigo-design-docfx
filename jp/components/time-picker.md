@@ -47,7 +47,6 @@ Time Picker は、さまざまなオーバーライドでヘッダー背景、�
 | いい例                                | 悪い例                               |
 | --------------------------------- | ----------------------------------- |
 | <img src="../images/timepicker_do1.png" srcset="../images/timepicker_do1@2x.png 2x" /> | <img src="../images/timepicker_dont1.png" srcset="../images/timepicker_dont1@2x.png 2x" /> |
-| <img src="../images/timepicker_do2.png" srcset="../images/timepicker_do2@2x.png 2x" /> | <img src="../images/timepicker_dont2.png" srcset="../images/timepicker_dont2@2x.png 2x" /> |
 
 ## その他のリソース
 
