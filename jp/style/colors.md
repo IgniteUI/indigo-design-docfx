@@ -66,6 +66,8 @@ Colors はテーマ色 (`primary`、`secondary`、`success`、`warn`、`error`�
 
 Sketch 描画に追加される色スタイル オブジェクトは相対する色およびサイズの HTML div 要素として描画されます。
 
+ブランディング用に `primary`、`secondary`、`success`、`warn`、`error`、および `info` 色シンボルをカスタマイズすると、生成されたコードに同様の外観を保存します。[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) のテーマでコードによって実装できます。カラー パレットを作成して追加する方法の詳細については、「[テーマ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes.html#generating-color-palettes)」トピックをご覧ください。スタイリング ライブラリから Colors の正しい HEX 値を挿入してください。
+
 ## その他のリソース
 
 関連トピック:

@@ -76,9 +76,21 @@ Title、Message、Left Button、および Right Button に 4 つの Text プロ�
 - {settingsLabel}
 - 重要な {labelText}
 
-### ボタン
+### Dialog に名前を付ける
 
-Left および Right ボタンがあります。各 Button の Type フィールドを Flat または Raised に設定できます。ボタンの現在の Text Style と Background は無視されます。
+Dialog コンポーネントは、コードによって開かれるまでランタイムでは非表示です。コード ジェネレーターは Sketch でダイアログの名前を使用して HTML でダイアログに名前を割り当てます。たとえば、ダイアログが Sketch で Dialog と名前つけた場合、以下の太字 `#dialog` がタグに追加されます。
+
+<igx-dialog **#dialog**
+
+### ダイアログのキャンセル ボタン
+
+LEFT ボタンに `🕹️Event` を指定せず、LEFT ボタン テキストが "Cancel" (大文字と小文字を区別しない) の場合、コード ジェネレーターは規格の [キャンセル] ボタン コードを HTML に追加します。以下の例では、ダイアログの名前が Dialog であるため、以下がダイアログの HTML に追加されます。
+
+`(onLeftButtonSelect)="dialog.close()"`
+
+### ボタン イベント
+
+各ボタンに `🕹️Event` プロパティがあります。提供された場合、対応するボタンが描画されるときに onLeftButtonSelect と onRightButtonSelect イベントが出力されます。また、JavaScript の $event 引数は HTML 定義および TypeScript メソッド定義に追加されます。
 
 ### イベント
 

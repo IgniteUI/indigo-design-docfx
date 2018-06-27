@@ -55,6 +55,15 @@ Indigo Design ライブラリを追加後、デザインを開始できます。
 
 4.  `Insert` メニューから `Indigo-Components` > `Text` > `Title` を選択します。このサーフェイス上に配置し、左、上、右に 16px スペースを設定します。新しく挿入したレイヤーがサーフェイス上で NavBar の下に表示されます。`Size` オーバーライドを `H4` に設定し、`Style` を `~34/left/Primary` に設定し、`Text` を "Start Budgeting" に設定します。最後に、このレイヤーの高さを 56px に設定します。
 
+    | レイヤー | 説明 |
+    | ------------------------------ | -------------------------------------------- |
+    | iPhone 8 | アートボード |
+    | &nbsp;&nbsp; Navigation/Navbar | 挿入した Navbar |
+    | &nbsp;&nbsp; Text/Title | フォームのタイトル |
+    | &nbsp;&nbsp; Colors/white | フォームの背景 |
+    | &nbsp;&nbsp; Shadows/Rect/Elevate 18 | 背景画像上にシャドウを表示するフォームのエレベーション |
+    | &nbsp;&nbsp; Image | 背景として使用する画像 |
+
   <img src="images/getting-started3.png" srcset="images/getting-started3@2x.png 2x" />
 
   <div class="divider--half"></div>
@@ -67,6 +76,19 @@ Indigo Design ライブラリを追加後、デザインを開始できます。
 
 6.  2 つの Line Input を挿入します。以前の手順の入力の下に配置します。`State` オーバーライドを `~Dark/Filled` に設定し、幅全体に引き伸ばし、左右のスペースを 16px に設定します。`Label` を "Username" および "Password" に設定し、`Input Text` を "Leaellynasaura" および "\*\*\*\*\*\*\*\*\*\*\*\*" に設定します。
 
+    | レイヤー | 説明 |
+    | ------------------------------ | -------------------------------------------- |
+    | iPhone 8 | アートボード |
+    | &nbsp;&nbsp; Navigation/Navbar | 挿入した Navbar |
+    | &nbsp;&nbsp; Text/Title | フォームのタイトル |
+    | &nbsp;&nbsp; Inputs/Input/Line | 名の入力フィールド |
+    | &nbsp;&nbsp; Inputs/Input/Line Copy | 姓の入力フィールド |
+    | &nbsp;&nbsp; Inputs/Input/Line | ユーザー名の入力フィールド |
+    | &nbsp;&nbsp; Inputs/Input/Line Copy | パスワードの入力フィールド |
+    | &nbsp;&nbsp; Colors/white | フォームの背景 |
+    | &nbsp;&nbsp; Shadows/Rect/Elevate 18 | 背景画像にシャドウを表示するフォームのエレベーション |
+    | &nbsp;&nbsp; Image | 背景として使用する画像 |
+
   <img src="images/getting-started5.png" srcset="images/getting-started5@2x.png 2x" />
 
   <div class="divider--half"></div>
@@ -78,6 +100,21 @@ Indigo Design ライブラリを追加後、デザインを開始できます。
   <div class="divider--half"></div>
 
 8.  `Insert` メニューから `Indigo-Components` > `Text` > `Paragraph` を選択し、ボタンの下に配置し、すべての側に 16px スペースを設定するためにサイズ変更します。`Size` オーバーライドを `Body 2` に設定し、`Style` を `~14/left/grays.700` に設定します。`Text` を「By clicking on the "SIGN UP" button above, you accept our Terms of Use」に設定します。
+
+    | レイヤー | 説明 |
+    | ------------------------------ | -------------------------------------------- |
+    | iPhone 8 | アートボード |
+    | &nbsp;&nbsp; Navigation/Navbar | 挿入した Navbar |
+    | &nbsp;&nbsp; Text/Title | フォームのタイトル |
+    | &nbsp;&nbsp; Inputs/Input/Line | 名の入力フィールド |
+    | &nbsp;&nbsp; Inputs/Input/Line Copy | 姓の入力フィールド |
+    | &nbsp;&nbsp; Inputs/Input/Line | ユーザー名の入力フィールド |
+    | &nbsp;&nbsp; Inputs/Input/Line Copy | パスワードの入力フィールド |
+    | &nbsp;&nbsp; Buttons/Raised |[サインアップ] ボタン |
+    | &nbsp;&nbsp; Text/Paragraph | 利用規約の段落 |
+    | &nbsp;&nbsp; Colors/white | フォームの背景 |
+    | &nbsp;&nbsp; Shadows/Rect/Elevate 18 | 背景画像にシャドウを表示するフォームのエレベーション |
+    | &nbsp;&nbsp; Image | 背景として使用する画像 |
 
   <img src="images/getting-started7.png" srcset="images/getting-started7@2x.png 2x" />
 

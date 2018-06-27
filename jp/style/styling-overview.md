@@ -9,7 +9,7 @@ _language: ja
 
 すべてのコンポーネントは、Ignite UI for Angular コンポーネントにマップします。Infragistics Angular 製品のテーマ エンジンは、パワフルな SASS 機能と mixins でカスタム色テーマの作成が可能で最小限のコードで製品全体のスタイルを変更できます。
 
-Sketch ライブラリで NBL スタイル ライブラリを変更して Components と Patterns と同じ結果となります。
+Sketch ライブラリで Indigo スタイル ライブラリを変更して Components と Patterns と同じ結果となります。
 
 <img src="../images/theme_overview_default.png" srcset="../images/theme_overview_default@2x.png 2x" />
 
@@ -17,9 +17,9 @@ Sketch ライブラリで NBL スタイル ライブラリを変更して Compon
 
 <img src="../images/theme_overview_vibrant.png" srcset="../images/theme_overview_vibrant@2x.png 2x" />
 
-## NBL-スタイリング
+## Indigo スタイリング
 
-NBL- テーマ エンジンの実際の表示です。4 つ (Icons、Colors、Typography、Elevations) に分かれてライブラリの異なるページとして表示されます。
+Indigo スタイリングはテーマ エンジンの実際の表示です。4 つ (Icons、Colors、Typography、Elevations) に分かれてライブラリの異なるページとして表示されます。
 
 - [マテリアル アイコン](material-icons.md) - 100 個以上のマテリアル アイコンのコレクションは簡単に拡張できます。 
 - [Colors](colors.md) - パレットは、プライマリ、セカンダリ、特殊な色、灰色の陰影、不透明度で構成されます。
