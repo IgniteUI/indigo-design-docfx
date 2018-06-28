@@ -8,6 +8,10 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 This topic describes the process of downloading and adding the Indigo Design Libraries into Sketch and how to craft your first design using and customizing the Components necessary for building a registration screen.
 
+### Typeface prerequisites
+
+All text in the Indigo Design Libraries is scribed in styles of the [Titillium Web Font](https://fonts.google.com/specimen/Titillium+Web) to match the typeface of [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular). Before you get in the game with Indigo.Design, you may need to install Titillium Web on your device first and you can do so by following the link above. In the libraries we are using only the `ExtraLight`, `Regular`, and `SemiBold` font weights.
+
 ### Downloading and Adding the Libraries in Sketch
 
 First, you will need to [Download the Indigo Design Sketch Libraries](TODO-add the link) to yours drive. You will get three Sketch files:
@@ -144,6 +148,9 @@ Now that you have added the Indigo Design Libraries, you are all set to start cr
   <div class="divider--half"></div>
 
 The last thing would be to select all layers for the form, including the white background and the shadow and group them together. With the newly formed Group selected fix both its width and height and fix it to the top from the Resizing panel on the right. This will not change the final look of our design, but will make it act responsive if the artboard is resized.
+
+> [!WARNING]
+> As you were making progress on the tasks above, you may have spotted the `_Overrides` category, appearing in the insert menu above the various Components and Patterns available. This category contains internal symbols, which we have used to develop the preset states and layouts, through which the amazing flexibility and customization that come with Indigo.Design are possible. Anything that you may see under `_Overrides` is actually available through the component it is intended for, so please ignore this category and restrain yourself from using anything that is inside for your designs.
 
 ## Additional Resources
 
