@@ -9,6 +9,10 @@ _language: ja
 
 このトピックは、Indigo Design ライブラリをダウンロードして Sketch に追加する方法の処理を説明します。登録画面の作成でコンポーネントでカスタマイズして最初のデザインを作成する方法についても説明します。
 
+### 書体の前提条件
+
+Indigo Design Libraries のすべてのテキストは、[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) の書体と一致させるために [Titillium Web Font](https://fonts.google.com/specimen/Titillium+Web) を使用します。Indigo.Design を使用する前に Titillium Web をデバイス上でインストールする必要があります。上記のリンクからインストールできます。ライブラリで `ExtraLight`、`Regular`、および `SemiBold` フォントの太さを使用しています。
+
 ### ライブラリのダウンロードおよび Sketch への追加
 
 最初に Indigo Design Sketch ライブラリをコンピューターにダウンロードします。Sketch の 3 ファイルがダウンロードされます。
@@ -121,6 +125,9 @@ Indigo Design ライブラリを追加後、デザインを開始できます。
   <div class="divider--half"></div>
 
 最後に白い背景およびシャドウを含んでフォームのすべてのレイヤーを選択して、グループ化します。新しく作成した Group を選択し、幅および高さを固定し、右側の Resizing パネルで上に固定します。これはデザインの外観を変更しませんが、アートボードがサイズ変更される場合にレスポンシブに表示します。
+
+> [!WARNING]
+> 上記のタスクを実行するときに、さまざまなコンポーネントおよびパターンの上にある Insert メニューに `_Overrides` カテゴリが表示されます。このカテゴリは内部シンボルを含みます。このシンボルを使用してプリセット状態およびレイアウトを実装しました。これによって Indigo.Design のカスタマイズ化を許可します。`_Overrides` カテゴリに表示される項目は相対するコンポーネントで利用できます。このカテゴリはデザインの操作で使用しないでください。
 
 ## その他のリソース
 
