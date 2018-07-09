@@ -29,14 +29,14 @@ The previous and next navigation buttons of the Carousel should always appear on
 
 ## Code generation
 
-When colors are specified for the Carousel’s navigation buttons, the Carousel HTML element will be wrapped in a div. this is required by browsers to style a nested component (a component within another component).
+When colors are specified for the Carousel’s navigation buttons, the Carousel HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Carousel in your design is very likely to result in loss of code generation capability for the Carousel.
 
 ### Data Bindings
 
-Data bindings are specified by using curly brace syntax, example: {slideDeck}. Data bindings can be non-nested or nested. If the target property is as nested property, include the nested property chain, but don’t include the model object name. Examples:
+Data bindings are specified by using curly brace syntax, example: {slideDeck}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
 
 #### Not Nested
 
