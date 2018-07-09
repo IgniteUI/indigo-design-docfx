@@ -22,18 +22,53 @@ The Carousel comes with styling flexibility through the various overrides contro
 
 The previous and next navigation buttons of the Carousel should always appear on top of the image slide, and the indicators should have consistent styling, where only the active one should be emphasized.
 
-| Do                              | Don't                             |
-| ------------------------------- | --------------------------------- |
+| Do                                                                                 | Don't                                                                                  |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | <img src="../images/carousel_do1.png" srcset="../images/carousel_do1@2x.png 2x" /> | <img src="../images/carousel_dont1.png" srcset="../images/carousel_dont1@2x.png 2x" /> |
 | <img src="../images/carousel_do2.png" srcset="../images/carousel_do2@2x.png 2x" /> | <img src="../images/carousel_dont2.png" srcset="../images/carousel_dont2@2x.png 2x" /> |
 
 ## Code generation
 
+When colors are specified for the Carousel’s navigation buttons, the Carousel HTML element will be wrapped in a div. this is required by browsers to style a nested component (a component within another component).
+
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Carousel in your design is very likely to result in loss of code generation capability for the Carousel.
 
-`🕹️DataSource`
-`🕹️Event`
+### Data Bindings
+
+Data bindings are specified by using curly brace syntax, example: {slideDeck}. Data bindings can be non-nested or nested. If the target property is as nested property, include the nested property chain, but don’t include the model object name. Examples:
+
+#### Not Nested
+
+```typescript
+SlideDeck {
+    slideDeck: string[] = [];
+}
+```
+
+DataSource would be: `{slideDeck}`
+
+#### Nested
+
+```typescript
+Profile {
+    slideDeck: string[] = [];
+}
+
+SlideDeck {
+    profile: Profile;
+}
+```
+
+DataSource would be: `{profile.slideDeck}`
+
+### Data Source
+
+When supplied, the `🕹️DataSource` value is used to set up binding to the Carousel. The data source must be a string array of image names to display. The `🕹️DataSource` property is optional. When the `🕹️DataSource` is supplied, Slide styles are gathered from the first Slide in the group. Other Slide styles are ignored.
+
+### Sketch Elevations
+
+Button and Slide elevation changes in Sketch drawings are not rendered during code generation.  Each button type has a default elevation that will be applied by the Ignite UI Component. Currently, this is a known limitation of the Ignite UI for Angular product that will be resolved in the upcoming releases.
 
 ## Additional Resources
 
