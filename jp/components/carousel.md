@@ -28,6 +28,49 @@ Carousel の戻るおよび次へ移動するためのボタンは、常に画�
 | <img src="../images/carousel_do1.png" srcset="../images/carousel_do1@2x.png 2x" /> | <img src="../images/carousel_dont1.png" srcset="../images/carousel_dont1@2x.png 2x" /> |
 | <img src="../images/carousel_do2.png" srcset="../images/carousel_do2@2x.png 2x" /> | <img src="../images/carousel_dont2.png" srcset="../images/carousel_dont2@2x.png 2x" /> |
 
+## コード生成
+ 
+Carousel のナビゲーション ボタンの色を指定した場合、Carousel HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
+
+> [!WARNING]
+> デザインの Carousel のインスタンスで`シンボルからでタッチ`をトリガーすると、ほとんどの場合で Carousel のためのコード生成機能が失われる結果となります。
+
+### データ バインディング
+
+データ バインディングは波括弧構文によって指定されます。例: {slideDeck}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
+
+#### ネストなし
+
+```typescript
+SlideDeck {
+    slideDeck: string[] = [];
+}
+```
+
+DataSource: `{slideDeck}`
+
+#### ネストあり
+
+```typescript
+Profile {
+    slideDeck: string[] = [];
+}
+
+SlideDeck {
+    profile: Profile;
+}
+```
+
+DataSource: `{profile.slideDeck}`
+
+### データ ソース
+
+`🕹️DataSource` 値は Carousel へのバインディングを設定するために使用されます。データ ソースは表示する画像名の文字列配列が必要です。`🕹️DataSource` プロパティはオプションです。`🕹️DataSource` が指定される場合、Slide スタイルはグループの最初の Slide から取得されます。その他の Slide スタイルが無視されます。
+
+### Sketch エレベーション
+
+Sketch 描画の Button および Slide エレベーション変更がコード生成で描画されません。各ボタン タイプにデフォルト エレベーションがあり、Ignite UI コンポーネントによって適用されます。これは Ignite UI for Angular 製品の既知の制限で、今後のリリースで修正予定です。
+
 ## その他のリソース
 
 関連トピック:
