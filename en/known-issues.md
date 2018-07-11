@@ -18,7 +18,7 @@ With [Sketch 51](https://www.sketchapp.com/updates/#version-51) a new concept fo
 
 > [!WARNING]
 > The Indigo.Design UI Kit currently does not support Text Styles and Layer Styles for code generation. Any elements using this functionality will not be generated.
-> <img src="../images/categorychart-overrides.png" />
+> <img src="../images/library_styles.png" />
 
 > [!INFO]
 > The next release will feature improvements to the Typography along the lines of recent updates to the Material Guidelines and full support for Text Styles and Layer Styles in the UI Kit and for code generation.
