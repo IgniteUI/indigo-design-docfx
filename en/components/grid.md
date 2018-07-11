@@ -83,7 +83,7 @@ When colors or fonts are specified for the Grid, the Grid HTML element will be w
 
 ### Data Bindings
 
-Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not DataProperty or DataSource) also support string interpolation syntax example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not DataProperty or DataSource) also support string interpolation syntax. Example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
 
 #### Not Nested
 
@@ -115,7 +115,7 @@ When supplied, the `🕹️DataSource` value is used to set up the data source f
 
 ### Header
 
-When supplied, the Headers help determine the number of columns to be rendered. It will try and pair a Header with a Body(Cell) that is below it to form the column. If no matching Body can be found a column will be created based on the information that can be gathered from the Header. When a pair is found information will be gathered from the Header first then the Body/Cell.
+When supplied, the Headers help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell) that is below it to form the column. If no matching Body can be found a column will be created based on the information that can be gathered from the Header. When a pair is found information will be gathered from the Header first then the Body/Cell.
 
 #### Text
 
@@ -131,7 +131,7 @@ When supplied enables sorting on the specified column.
 
 #### Filter State
 
-When supplied enables the sorting on the specified column.
+When supplied enables filtering on the specified column.
 
 #### Type
 
@@ -139,7 +139,7 @@ When supplied this is used to determine the type of the column (string, number, 
 
 ### Body/Cell
 
-When supplied, the Bodies(cells) help determine the number of columns to be rendered. It will try and pair a Header with a Body(Cell). If no matching Header can be found a column will be created based on the information that can be gathered from the Body/Cell. When a pair is found information will be gathered from the Header first then the Body/Cell.
+When supplied, the Bodies (cells) help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell). If no matching Header can be found a column will be created based on the information that can be gathered from the Body/Cell. When a pair is found information will be gathered from the Header first then the Body/Cell.
 
 #### DataProperty
 
