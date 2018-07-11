@@ -40,6 +40,9 @@ When one or more Summary objects is added to the Sketch diagram, those summaries
 
 <img src="../images/grid_summaries_codegen.png" />
 
+> [!Note]
+> There is an issue with the Ignite UI Summary Theme rendering, the background color function does not render the color, instead the Header color gets rendered. When this is corrected the correct color from the Sketch drawing will be rendered properly.
+
 ## Additional Resources
 
 Related topics:
