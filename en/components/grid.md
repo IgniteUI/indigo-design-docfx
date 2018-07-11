@@ -17,11 +17,11 @@ Use the Grid Component to let the user browse and interact with vast amount of c
 The Grid is essentially a repeater of columns and rows showing data in a tabular fashion. Therefore, the easiest way to use it is by dragging a `Generic Grid` to your artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared
 _Grid/Generic Grid_ group, you should see the following:
 
-| Layer | Use |
-| ----------------------------- | ------------------------------- |
+| Layer       | Use                                                                                                                                                  |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 🚫 igx-grid | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| Header | Contains all the cells in the header |
-| Body | Contains all the cells in the body |
+| Header      | Contains all the cells in the header                                                                                                                 |
+| Body        | Contains all the cells in the body                                                                                                                   |
 
 After detaching, you may add the number of headers you need to show all the dimensions of your data and as many records as you want to show in your design simply by duplicating the first row of data that you already have created.
 
@@ -73,14 +73,81 @@ The Grid comes with styling flexibility achievable through styling the individua
 
 The most important thing about the Grid is the alignment of the data inside its Header and Body Cells. Text should always be aligned left, leaving variable empty space to the right, and numbers should always be aligned right, leaving variable empty space to the left.
 
-| Do                          | Don't                         |
-| --------------------------- | ----------------------------- |
+| Do                                                                         | Don't                                                                          |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | <img src="../images/grid_do1.png" srcset="../images/grid_do1@2x.png 2x" /> | <img src="../images/grid_dont1.png" srcset="../images/grid_dont1@2x.png 2x" /> |
 
 ## Code generation
 
-`🕹️DataSource`
-`🕹️Event`
+When colors or fonts are specified for the Grid, the Grid HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component). The grid has to be a detached symbol to be able to be used. The width of the grid is determined be adding up the widths of the columns. And the height of the grid is set to null so as to render rows properly even if the container for the grid doesn’t have a height set.
+
+### Data Bindings
+
+Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not DataProperty or DataSource) also support string interpolation syntax. Example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+
+#### Not Nested
+
+```typescript
+Customer {
+  imageName: String;
+}
+```
+
+DataProperty would be: `{imageName}`
+
+#### Nested
+
+```typescript
+Profile {
+  imageName: String;
+}
+
+Customer {
+  profile: Profile;
+}
+```
+
+DataProperty would be: `{profile.imageName}`
+
+### DataSource
+
+When supplied, the `🕹️DataSource` value is used to set up the data source for the grid and needs to be an array of objects, where each column name is a property on the object. If the data source is not supplied the grid will only render the column headers.
+
+### Header
+
+When supplied, the Headers help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell) that is below it to form the column. If no matching Body can be found a column will be created based on the information that can be gathered from the Header. When a pair is found information will be gathered from the Header first then the Body/Cell.
+
+#### Text
+
+The Header Text property may contain text, binding, or a combination of the two, examples:
+
+- Settings
+- {settingsLabel}
+- Important {labelText}
+
+#### Sorting
+
+When supplied enables sorting on the specified column.
+
+#### Filter State
+
+When supplied enables filtering on the specified column.
+
+#### Type
+
+When supplied this is used to determine the type of the column (string, number, Boolean).
+
+### Body/Cell
+
+When supplied, the Bodies (cells) help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell). If no matching Header can be found a column will be created based on the information that can be gathered from the Body/Cell. When a pair is found information will be gathered from the Header first then the Body/Cell.
+
+#### DataProperty
+
+When supplied, the `🕹️DataProperty` is used to setup the field of the column, which should correspond to a field in the `🕹️DataSource`.
+
+#### Type
+
+When supplied this is used to determine the type of the column (string, number, Boolean).
 
 ## Additional Resources
 

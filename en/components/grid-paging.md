@@ -18,6 +18,10 @@ The Grid Paging comes with styling flexibility through the various overrides con
 
 <img src="../images/grid_paging_styling.png" srcset="../images/grid_paging_styling@2x.png 2x" />
 
+## Code generation
+
+When a Paging object is added to the Sketch diagram paging will be enabled for the grid. Styles will be used to setup the paging colors.
+
 ## Additional Resources
 
 Related topics:
