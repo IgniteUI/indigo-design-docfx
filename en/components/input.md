@@ -85,8 +85,8 @@ The Input comes with styling achievable through changing the primary, success, w
 
 Use the box type of Input when placing forms on top of an image to improve readability. When using an Input in warning or error state in your designs, prefer the one with helper text and use the opportunity to provide guidance to the user.
 
-| Do                           | Don't                          |
-| ---------------------------- | ------------------------------ |
+| Do                                                                           | Don't                                                                            |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | <img src="../images/input_do1.png" srcset="../images/input_do1@2x.png 2x" /> | <img src="../images/input_dont1.png" srcset="../images/input_dont1@2x.png 2x" /> |
 | <img src="../images/input_do2.png" srcset="../images/input_do2@2x.png 2x" /> | <img src="../images/input_dont2.png" srcset="../images/input_dont2@2x.png 2x" /> |
 
@@ -101,67 +101,65 @@ Data binding are specified by using curly brace syntax, example: {isAdmin}. Text
 
 #### Not Nested
 
-```PseudoCode
+```typescript
 Customer {
-  imageName: String;
+imageName: String;
 }
-
-DataProperty would be: {imageName}
 ```
+
+DataProperty would be: `{imageName}`
 
 #### Nested
 
-```PseudoCode
+```typescript
 Profile {
-  imageName: String;
+imageName: String;
 }
 
 Customer {
-  profile: Profile;
+profile: Profile;
 }
-
-DataProperty would be: {profile.imageName}
 ```
+
+DataProperty would be: `{profile.imageName}`
 
 ### Event Property
 
-When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an Angular click signature in the HTML. Except for the Time Picker and Date/Calendar where it is the onValueChanged or onSelection instead. Searchbar does not support this. When supplied the event must be specified using the curly braces format: {onEventName} .
+When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an Angular click signature in the HTML for the input’s icons. When supplied the event must be specified using the curly braces format: {onEventName}.
 
 ### DataProperty
 
-When supplied, the `🕹️DataProperty` value is used to set up two-way data binding to the Input Group formControlName property. The `🕹️DataProperty` is optional. When provided, it will be the name of the property on the data object specified by the model object name provided in the generation request.
+When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using Angular Reactive Forms to the input value property. The `🕹️DataProperty` is optional. When provided, it will be the name of the property on the data object specified by the model object name provided in the generation request.
 
-### Input
+### Inputs (Except Searchbar)
 
-Determines the type of styling applied to the Input Group. When set to None, no control will be rendered. The Time Picker and Date/Calendar do not support this. Box, Border, Line, and Searchbar do not have this property as their base type are the values of this field.
+#### Layout
 
-### Variant
+Determines the layout of the Input Group. When set to display Prefix and/or Suffix, text or icons can be displayed at the corresponding ends of the Input.
 
-Determines if the theme is light or dark. The Time Picker and Date/Calendar do not support this. If set to None, the control will not be rendered.
+#### Label
 
-### State
+Determines the text to be displayed in the Label.
 
-If set to None, the control will not be rendered.
+#### Input Text
 
-### Layout
+Determines the text to display in the Input value. If the DataProperty is set this is ignored. In the Line, Box, or Border Inputs if this field contains only `*` characters the type of the input will be set to password.
 
-Determines the layout of the Input Group. When set to display Prefix and/or Suffix, text or icons can be displayed at the corresponding ends of the input. The Searchbar instead has a Left and Right Icons that can be turned on/off individually and does not support text in the Prefix/Suffix. The Time Picker and Date/Calendar do not support this. When set no None, the control will not be rendered.
-
-### Label
-
-Determines the text to be displayed in the Label
-
-### Input Text
-
-Determines the text to display in the Input value. If the `🕹️DataProperty` is set, this is ignored.
-
-### Help Text
+#### Help Text
 
 Determines the text to be displayed in the Hint of the Input Group. The Time Picker and Date/Calendar do not support this.
 
-### Search Hint
+### Searchbar
 
-Determines the text to display in the label of the Searchbar (only supported in Searchbar).
+The Searchbar has Left and Right Icons that can be turned on/off individually and each have an Event that can be assigned. The Searchbar has a Search Hint that displays in the label of the Searchbar.
+
+### Text Values
+
+The above Label, Input, Help Text, and Search Hint properties may contain text, binding, or a combination of the two, examples:
+
+- Settings
+- {settingsLabel}
+- Important {labelText}
 
 ## Additional Resources
 
