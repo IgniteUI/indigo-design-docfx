@@ -34,6 +34,12 @@ The Grid Summary Cell comes with basic styling flexibility through the various o
 
 <img src="../images/grid_summaries_styling.png" srcset="../images/grid_summaries_styling@2x.png 2x" />
 
+## Code generation
+
+When one or more Summary objects is added to the Sketch diagram, those summaries will be generated for each associated column. The developer is responsible for setting up a class for custom summary calculations, which is explained in more detail in this [Ignite UI for Angular docs](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid_summaries.html). Code generation applies the Sketch Summary styles to the SCSS. If summary classes have not yet been set up, when the project runs in the browser, the default column summaries are rendered based on the column type as shown in the below image.
+
+<img src="../images/grid_summaries_codegen.png" />
+
 ## Additional Resources
 
 Related topics:
