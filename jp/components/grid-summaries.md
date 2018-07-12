@@ -34,6 +34,12 @@ Grid 集計セルは、さまざまなオーバーライドでラベル、数値
 
 <img src="../images/grid_summaries_styling.png" srcset="../images/grid_summaries_styling@2x.png 2x" />
 
+## コードの生成
+
+Sketch ダイアグラムに Summary オブジェクトが 1 つ以上追加された場合、それらの集計が各関連する列で生成されます。開発者がカスタム集計計算のクラスを設定する必要があります。詳細については、この [Ignite UI for Angular ヘルプ トピック](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid_summaries.html)を参照してください。コード生成は Sketch の Summary スタイルを SCSS に適用します。集計クラスが設定されていない場合、プロジェクトをブラウザーで実行するときにデフォルトの列集計が以下の画像のように列型に基づいて描画されます。
+
+<img src="../images/grid_summaries_codegen.png" />
+
 ## その他のリソース
 
 関連トピック:
