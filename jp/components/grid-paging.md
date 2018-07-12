@@ -20,6 +20,10 @@ Grid ページングは、さまざまなオーバーライドでラベルや背
 
 <img src="../images/grid_paging_styling.png" srcset="../images/grid_paging_styling@2x.png 2x" />
 
+## コードの生成
+
+Sketch ダイアグラムに Paging オブジェクトが追加された場合、ページングがグリッドで有効にされます。スタイルはページング色を設定するために使用されます。
+
 ## その他のリソース
 
 関連トピック:
