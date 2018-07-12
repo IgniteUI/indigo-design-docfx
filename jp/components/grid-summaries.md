@@ -40,6 +40,9 @@ Sketch ダイアグラムに Summary オブジェクトが 1 つ以上追加さ�
 
 <img src="../images/grid_summaries_codegen.png" />
 
+> [!Note]
+> Ignite UI Summary Theme の描画に問題があり、背景色機能で色が描画されませんが、Header 色は描画されます。修正後に Sketch 描画に設定した正しい色で描画されます。
+
 ## その他のリソース
 
 関連トピック:

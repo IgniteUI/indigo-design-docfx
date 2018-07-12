@@ -126,43 +126,41 @@ DataProperty: `{profile.imageName}`
 
 ### Event プロパティ
 
-`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に Angular クリック シグネチャを追加します。Time Picker および Date/Calendar の場合、onValueChanged または onSelection です。Searchbar はこれをサポートしません。波括弧構文 ({onEventName}) を使用してイベントを指定する必要があります。
+`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に入力アイコンのために Angular クリック シグネチャを追加します。波括弧構文 ({onEventName}) を使用してイベントを指定する必要があります。
 
 ### DataProperty
 
-`🕹️DataProperty` 値は Input Group の formControlName プロパティへの two-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。提供された場合、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名になります。
+`🕹️DataProperty` 値は Angular Reactive Forms を使用して入力の value プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。提供された場合、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名になります。
 
-### 入力
+### 入力 (Searchbar 以外)
 
-Input Group に適用されるスタイル設定のタイプを決定します。None に設定されると、コントロールは描画されません。Time Picker および Date/Calendar はこれをサポートしません。基本タイプがこのフィールドの値であるため、Box、Border、Line、および Searchbar にこのプロパティがありません。
+#### レイアウト
 
-### バリアント
+Input Group のレイアウトを決定します。Prefix または Suffix を表示に設定した場合、テキストまたはアイコンを入力の開始または終了に表示できます。
 
-テーマが明るいまたは暗いかどうかを決定します。Time Picker および Date/Calendar はこれをサポートしません。None に設定される場合、コントロールは描画されません。
-
-### 状態
-
-None に設定される場合、コントロールは描画されません。
-
-### レイアウト
-
-Input Group のレイアウトを決定します。Prefix または Suffix を表示に設定した場合、テキストまたはアイコンを入力の開始または終了に表示できます。代わりに、Searchbar に Left および Right Icons があり、アイコンを有効または無効にできます。Prefix/Suffix でテキストはサポートされません。Time Picker および Date/Calendar はこれをサポートしません。None に設定される場合、コントロールは描画されません。
-
-### ラベル
+#### ラベル
 
 Label に表示するテキストを決定します。
 
-### 入力テキスト
+#### 入力テキスト
 
-入力値に表示するテキストを決定します。`🕹️DataProperty` が設定される場合、このプロパティは無視されます。
+入力値に表示するテキストを決定します。DataProperty が設定される場合、このプロパティは無視されます。Line、Box、または Border 入力でこのフィールドが `*` 文字のみを含む場合、入力のタイプが password に設定されます。
 
-### ヘルプ テキスト
+#### ヘルプ テキスト
 
 Input Group の Hint に表示するテキストを決定します。Time Picker および Date/Calendar はこれをサポートしません。
 
-### 検索ヒント
+### 検索バー
 
-Searchbar のラベルに表示するテキストを決定します。
+Searchbar に Left および Right Icons があり、アイコンを有効または無効にできます。各アイコンに Event を割り当てることができます。Searchbar のラベルに表示する Search Hint があります。
+
+### テキスト値
+
+上記の Label、Input、Help Text、および Search Hint プロパティにテキスト、バインディング、または両方を含むことができます。例:
+
+- 設定
+- {settingsLabel}
+- 重要な {labelText}
 
 ## その他のリソース
 
