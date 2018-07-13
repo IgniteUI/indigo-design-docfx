@@ -110,6 +110,18 @@
   href: ../patterns/lists.md
 - name: User Profile
   href: ../patterns/user-profile.md
-  
+
+- name: More Resources
+  header: true
+- name: Best Layout Practices
+  href: ../best-layout-practices.md
 - name: 既知の問題
   href: ../known-issues.md
+
+- name: Code Generation
+  header: true
+- name: Layout Generation
+  href: ../codegen/layout-codegen.md
+- name: After Code Generation
+  href: ../codegen/after-codegen.md
+  
