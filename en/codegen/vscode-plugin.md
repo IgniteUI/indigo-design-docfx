@@ -64,7 +64,7 @@ Here is how the extension will update your project:
 * Create Angular components from selected sketch components.
     * These will have the generated code.
 * Create modules around these components.
-* Create basic routes in the modules for each component to make them navigatable. (if configured, see Settings section)
+* Create basic routes in the modules for each component to make them navigatable.  For more information about how to configure routes, see the `basicRoutes` configuration in the Settings section below.
 * Updates project to use default theme for [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular).
 
 ## After Code Generation
