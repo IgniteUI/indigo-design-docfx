@@ -82,25 +82,25 @@ Sorting by the Y axis allows code generation to group elements with the same or 
 
 In the below drawing, the two “Row A” buttons demonstrate this. The two “Row B” buttons are another example. The below drawing will yield HTML with three divs. One parent div, one child div for “Row A”, and one child div for “Row B.” No div will be created for “Row C” because there is only one child in the row, so there is no reason to create an additional div.
 
-<img src="../images/layout_codegen3.png" />
+<img src="../images/layout_codegen_people3.png" />
 
 In the below image, two groups (divs) will be dynamically generated, one for the city, state, and zip, and one of the two buttons. Since name is the only child on the row, no div will be created.
 Since their parent is the artboard (a parent could also be in a single group as well), when creating the CSS class names for the generated divs, the parent name will be used to derive the CSS class names. Given the below example, the city, state, and zip group CSS name will be “form” and the buttons group will be named “form-1”.
 
-<img src="../images/layout_codegen4.png" />
+<img src="../images/layout_codegen_people4.png" />
 
 If elements are grouped in a Sketch drawing as below, code generation will apply the same layout group process to each group. In the below image, each element within the group it belongs to has the same or similar Y axis value and will be rendered in the same div. In the end there will be one div for Address and one div for Buttons.
 
-<img src="../images/layout_codegen5.png" />
+<img src="../images/layout_codegen_people5.png" />
 
 In the below image, the Buttons group has three buttons. Two have the same or similar Y axis values and one is positioned below them. Code generation will create a Buttons div, a div for the CANCEL and SAVE buttons, and will render the DELETE button as a child of the Buttons div.
 
-<img src="../images/layout_codegen6.png" />
+<img src="../images/layout_codegen_people6.png" />
 
 When layout groups are created for an element not in a group, if there is a Group that would be added to the dynamically generated div (row), the generated layout will be incorrect. On the image below, the top Artboard demonstrates the correct grouping to ensure predictable layout. Battleship and Actions are grouped together in the ImageButtons Group.
 The bottom Artboard has incorrect grouping because the Battleship element is horizontally aligned with the Actions Group, but they are not grouped together. This rule only applies to elements in line with another Group.
 
-<img src="../images/layout_codegen7.png" />
+<img src="../images/layout_codegen_people7.png" />
 
 ## Generated HTML
 
@@ -112,7 +112,7 @@ Code generation creates HTML div’s for two independent reasons:
 
 This is the source Sketch drawing that was used to generate the HTML and CSS in the image below this one.
 
-<img src="../images/layout_codegen8.png" />
+<img src="../images/layout_codegen_people8.png" />
 
 In the below image, the green tinted divs are layout divs, the yellow/green tinted divs are the Ignite UI Theming divs.
 
@@ -124,7 +124,7 @@ In the below image, the green tinted divs are layout divs, the yellow/green tint
 | delete         | Provides Theme CSS for the Delete button.                                                                                                                                                                                                           |
 | actions-1      | This is the last CSS class name created, hence the “-1” after the name. This div was created because of the Sketch “Actions” group element. This group becomes a parent div for its children and renders them according the above layout procedure. |
 
-<img src="../images/layout_codegen9.png" />
+<img src="../images/layout_codegen_people9.png" />
 
 ## Group Background Color
 
@@ -133,7 +133,7 @@ Sketch designers like to use rectangles with a fill as backgrounds for groups or
 > [!WARNING]
 > If the Color element is intended to be the background color it must be pinned left, top, right, and bottom, otherwise it will be treated as an element and margin errors or exceptions will occur.
 
-<img src="../images/layout_codegen10.png" />
+<img src="../images/layout_codegen_people10.png" />
 
 ## Height
 
