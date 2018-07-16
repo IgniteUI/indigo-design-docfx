@@ -46,15 +46,15 @@ If you are working with an existing Angular project and it is already using the 
 
 It all starts with a sketch.  Once a designer has completed their sketch they can upload it to the [Indigo.Design](https://next.indigo.design) website.  From there the designer can publish their work and create usability studies or open it up for commenting.  When the work is published Indigo.Design will provide a link to allow others to view your work.  That link can also be used by this extension.
 
-![](https://dl.infragistics.com/tools/extensions/codegen/step1.gif)
+![](../images/step1.gif)
 
 With the share link the developer can see the various screens that make up the intended application.  From here the developer can select pieces of the screen that they want to generate code for.  Normally you would not generate the entire screen because the design will have duplicated elements on each screen.  We will refer to this as the application 'chrome'. Chrome refers to the parts of an application that do not change from screen to screen, such as navigation menus at the top of the page or even navigation drawers that would slide in from the side.
 
-![](https://dl.infragistics.com/tools/extensions/codegen/chrome.png)
+![](../images/chrome.png)
 
 These elements should not be generated as they will be consistent elements across all screens of the application.  They only need to be written once to surround areas of the application that will be changing frequently through `<router-outlet>`.  Developers can use `<router-outlet>` in Angular to specify where content will be changing on the page.  This changing content is what you would generate code for.  Here's what that selection might look like:
 
-![](https://dl.infragistics.com/tools/extensions/codegen/step2.gif)
+![](../images/step2.gif)
 
 Once things have been configured the way you like it is time to generate some code!  Click on the "Generate Code Assets" button and this will begin the process.
 
