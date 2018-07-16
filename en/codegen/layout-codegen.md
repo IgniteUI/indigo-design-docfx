@@ -82,25 +82,25 @@ Sorting by the Y axis allows code generation to group elements with the same or 
 
 In the below drawing, the two “Row A” buttons demonstrate this. The two “Row B” buttons are another example. The below drawing will yield HTML with three divs. One parent div, one child div for “Row A”, and one child div for “Row B.” No div will be created for “Row C” because there is only one child in the row, so there is no reason to create an additional div.
 
-<img src="../images/layout_codegen1.png" />
+<img src="../images/layout_codegen3.png" />
 
 In the below image, two groups (divs) will be dynamically generated, one for the city, state, and zip, and one of the two buttons. Since name is the only child on the row, no div will be created.
 Since their parent is the artboard (a parent could also be in a single group as well), when creating the CSS class names for the generated divs, the parent name will be used to derive the CSS class names. Given the below example, the city, state, and zip group CSS name will be “form” and the buttons group will be named “form-1”.
 
-<img src="../images/layout_codegen2.png" />
+<img src="../images/layout_codegen4.png" />
 
 If elements are grouped in a Sketch drawing as below, code generation will apply the same layout group process to each group. In the below image, each element within the group it belongs to has the same or similar Y axis value and will be rendered in the same div. In the end there will be one div for Address and one div for Buttons.
 
-<img src="../images/layout_codegen3.png" />
+<img src="../images/layout_codegen5.png" />
 
 In the below image, the Buttons group has three buttons. Two have the same or similar Y axis values and one is positioned below them. Code generation will create a Buttons div, a div for the CANCEL and SAVE buttons, and will render the DELETE button as a child of the Buttons div.
 
-<img src="../images/layout_codegen4.png" />
+<img src="../images/layout_codegen6.png" />
 
 When layout groups are created for an element not in a group, if there is a Group that would be added to the dynamically generated div (row), the generated layout will be incorrect. On the image below, the top Artboard demonstrates the correct grouping to ensure predictable layout. Battleship and Actions are grouped together in the ImageButtons Group.
 The bottom Artboard has incorrect grouping because the Battleship element is horizontally aligned with the Actions Group, but they are not grouped together. This rule only applies to elements in line with another Group.
 
-<img src="../images/layout_codegen5.png" />
+<img src="../images/layout_codegen7.png" />
 
 ## Generated HTML
 
@@ -112,7 +112,7 @@ Code generation creates HTML div’s for two independent reasons:
 
 This is the source Sketch drawing that was used to generate the HTML and CSS in the image below this one.
 
-<img src="../images/layout_codegen6.png" />
+<img src="../images/layout_codegen8.png" />
 
 In the below image, the green tinted divs are layout divs, the yellow/green tinted divs are the Ignite UI Theming divs.
 
@@ -124,7 +124,7 @@ In the below image, the green tinted divs are layout divs, the yellow/green tint
 | delete         | Provides Theme CSS for the Delete button.                                                                                                                                                                                                           |
 | actions-1      | This is the last CSS class name created, hence the “-1” after the name. This div was created because of the Sketch “Actions” group element. This group becomes a parent div for its children and renders them according the above layout procedure. |
 
-<img src="../images/layout_codegen7.png" />
+<img src="../images/layout_codegen9.png" />
 
 ## Group Background Color
 
@@ -133,7 +133,7 @@ Sketch designers like to use rectangles with a fill as backgrounds for groups or
 > [!WARNING]
 > If the Color element is intended to be the background color it must be pinned left, top, right, and bottom, otherwise it will be treated as an element and margin errors or exceptions will occur.
 
-<img src="../images/layout_codegen8.png" />
+<img src="../images/layout_codegen10.png" />
 
 ## Height
 
@@ -258,7 +258,7 @@ The below centering logic only applies to a Sketch Group and no other elements. 
 All groups that are set up to center must have content. Content could be another group or any other element, except a background color, a background color does not count as an element.
 In the below image you can see the selected group, “Inner No Children” only has a Color element set up as the background, so this group will not render. However, if that same Color element was not set up as the background color, it would render the color in the centered group it belongs to.
 
-<img src="../images/layout_codegen9.png" />
+<img src="../images/layout_codegen11.png" />
 
 > [!INFO]
 > If a Group was selected as the component for code generation and has fix height or width, the below centering logic does not apply because centering is performed by the parent in layout.
@@ -267,24 +267,24 @@ In the below image you can see the selected group, “Inner No Children” only 
 
 If an element has a fixed height, top/bottom margins are equal (+-3px), and element is not pinned to the top or bottom, center element vertically in parent.
 
-<img src="../images/layout_codegen10.png" />
+<img src="../images/layout_codegen12.png" />
 
 ### Horizontal
 
 If an element has a fixed width, left/right margins are equal (+-3px), and element is not pinned to the left or right, center object horizontally in parent.
 
-<img src="../images/layout_codegen11.png" />
+<img src="../images/layout_codegen13.png" />
 
 ### Both
 
 If an element has fixed height and width, top/bottom and left/right distances are equal (+-3px), and nothing is pinned left or right, top or bottom, center object in parent.
 
-<img src="../images/layout_codegen12.png" />
+<img src="../images/layout_codegen14.png" />
 
 To center horizontally and vertically, the Group being centered must be the only direct child in the parent element as shown in the below image. This rule is in place because the parent of the element being centered uses flex box to center the child element.
 The exception to the only child rule, is an Indigo-Styling Color can be used as a background for the parent as shown below. Colors used this way must have the exact height and width of the parent and must be pinned left, top, right, and bottom (not shown).
 
-<img src="../images/layout_codegen13.png" />
+<img src="../images/layout_codegen15.png" />
 
 ### Pinning Overlapping Objects
 
@@ -293,7 +293,7 @@ If this absolute positioning is enforced, no other pinning or alignment rules ar
 In the below image we can see that in both groups, the badge overlaps the avatar and the badge is pinned bottom-right, so this element will be positioned using absolute positioning from its parent group.
 In the second example, a third element (button) has been added to the group. The button will be positioned using other positioning rules and is not part of the absolute positioning of the badge. While this second scenario is supported, it is recommended that the elements that require overlapping absolute positioning are the only ones in the group.
 
-<img src="../images/layout_codegen14.png" />
+<img src="../images/layout_codegen16.png" />
 
 ### Aligning or Pinning Right
 
@@ -339,11 +339,11 @@ Add the required Dialog, Toast, and Snackbar to the drawing, configure them as y
 The hiding of element in the object panel has no effect on code generation, code generation will generate all elements here, hidden or not.
 Dialog, Toast, and Snackbar elements will be placed at the bottom of the components HTML and not mixed in with other elements as they have dynamic runtime placement when brought into view.
 
-<img src="../images/layout_codegen15.png" />
+<img src="../images/layout_codegen17.png" />
 
 The below image is an example of a designer state drawing, this drawing should not be used for code generation as it has an extra color element to simulate the gray overlay that the Dialog would place at runtime.
 
-<img src="../images/layout_codegen16.png" />
+<img src="../images/layout_codegen18.png" />
 
 ## Limitations
 
