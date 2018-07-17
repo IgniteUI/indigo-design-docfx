@@ -105,7 +105,7 @@ The bottom Artboard has incorrect grouping because the Battleship element is hor
 ## Generated HTML
 
 Every attempt is made to generate CSS that can be understood and modified.
-Code generation creates HTML div’s for two independent reasons:
+Code generation creates HTML divs for two independent reasons:
 
 - To group elements in either a column or row for Flexbox layout
 - To apply theme CSS to a nested child component
@@ -182,9 +182,8 @@ For all other elements, when height is fixed, the height will be fixed, and the 
 When calculating widths for elements there are several Sketch settings that impact this. In addition, when the settings are not set, different elements will have different rules applied to them based on the type of element they are, and if they are a single child in a row, or in a group of children in a row.
 In the below table, single child in a row means a single child in a row calculated by the layout engine as in the previous examples.
 
-##### General Layout Rules
-
-##### (exceptions are explained below this table)
+**General Layout Rules**
+**exceptions are explained below this table**
 
 | Sketch Layout Settings                            | Width                                                                                                                                                                                                         |
 | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
