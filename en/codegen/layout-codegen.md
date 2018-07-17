@@ -128,10 +128,8 @@ In the below image, the green tinted divs are layout divs, the yellow/green tint
 
 ## Group Background Color
 
-Sketch designers like to use rectangles with a fill as backgrounds for groups or artboards. For this Beta release this can easily be accomplished using an Indigo-Styling Color element as shown below. Colors used this way must have the exact height and width of the parent and must be pinned left, top, right, and bottom as shown below. Note the usage of color elements in the Artboard and Group below to achieve the desired results.
-
-> [!WARNING]
-> If the Color element is intended to be the background color it must be pinned left, top, right, and bottom, otherwise it will be treated as an element and margin errors or exceptions will occur.
+Sketch designers like to use rectangles with a fill as backgrounds for groups or artboards. For this Beta release this can easily be accomplished using an Indigo-Styling Color element as shown below. Colors used this way must have a height and width +- 3 of the parent shown below. Note the usage of color elements in the Artboard and Group below to achieve the desired results.
+Pinning of the top, left, right, bottom is optional, a background color will be created if the above margin rule is followed.
 
 <img src="../images/layout_codegen_people10.png" />
 
@@ -280,11 +278,6 @@ If an element has a fixed width, left/right margins are equal (+-3px), and eleme
 If an element has fixed height and width, top/bottom and left/right distances are equal (+-3px), and nothing is pinned left or right, top or bottom, center object in parent.
 
 <img src="../images/layout_codegen14.png" />
-
-To center horizontally and vertically, the Group being centered must be the only direct child in the parent element as shown in the below image. This rule is in place because the parent of the element being centered uses flex box to center the child element.
-The exception to the only child rule, is an Indigo-Styling Color can be used as a background for the parent as shown below. Colors used this way must have the exact height and width of the parent and must be pinned left, top, right, and bottom (not shown).
-
-<img src="../images/layout_codegen15.png" />
 
 ### Pinning Overlapping Objects
 
