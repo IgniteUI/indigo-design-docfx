@@ -27,6 +27,11 @@ Badge はオーバーライドによって Avatar の 4 つ角のいずれかに
 
 <img src="../images/avatar_badge_positions.png" srcset="../images/avatar_badge_positions@2x.png 2x" />
 
+> [!WARNING]
+> ...
+
+<img src="../images/avatar_badge_detach.png" />
+
 ## その他のリソース
 
 関連トピック:
