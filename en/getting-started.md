@@ -32,6 +32,12 @@ In order to add the Libraries in Sketch follow these
 5.  Now that they all show up in the list in the Preferences dialog, make sure that they all are checked and close it .
 6.  If the Libraries have been added successfully, they will all show up in the `Symbols` section of the `Insert` menu in Sketch.
 
+### Customization through Overrides
+
+The Indigo.Design UI Kit comes with massive customization flexibility built. This was achieved in the libraries through the mechanism of nesting `Symbols` that get exposed as `Overrides` in a project consuming a Sketch library. Once you start inserting Indigo.Design Components in your project, you will immediately see the `Overrides` section in the right Sketch panel, just underneath the `Prototyping` section. On the image below you can exlore the available overrides for the [Badge](badge.md) through which you can change its type from number to icon, or configure the number color and value. There are also dropdowns for selecting the border and background colors, where only legit values are made possible for selection. At the very bottom there are special properties that are used for code generation to create the necessary data bindings in the generated Angular app. Each Component has its own and specific properties inside the `Overrides` panel and many of the topics in this help section explain the possible values and provide the necessary guidance on using them.
+
+<img src="images/getting-started-overrides.png" />
+
 ### Creating your First Indigo Design Artboard
 
 Now that you have added the Indigo Design Libraries, you are all set to start crafting amazing experiences. Our first design will libraries will be for a simple registration screen with a Navbar, and a beautiful image for background on top of which we will design a simple form consisting of a little bit of Text, a few Inputs and a Button to submit the user details. So, let's find out what a productivity boost the Indigo Design system brings to the table.
