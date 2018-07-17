@@ -1,5 +1,9 @@
 ﻿- name: 購入
   href: 'https://jp.infragistics.com/products/indigo-design/pricing'
+- name: ログイン
+  href: 'https://cloud.indigo.design/login'
+  cta: true
+  ctaSecondary: true
 - name: サインアップ
   href: 'https://cloud.indigo.design/register'
   cta: true

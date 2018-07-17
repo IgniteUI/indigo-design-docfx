@@ -1,5 +1,9 @@
 - name: How to Buy
   href: 'https://www.infragistics.com/products/indigo-design/pricing'
-- name: Sign Up
+- name: Sign In
+  href: 'https://cloud.indigo.design/login'
+  cta: true
+  ctaSecondary: true
+- name: Sign Up For Free
   href: 'https://cloud.indigo.design/register'
   cta: true
