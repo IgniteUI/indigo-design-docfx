@@ -30,17 +30,17 @@ Normally Angular components are sized or resized by their parent at runtime. How
 
 ### Theme Colors and Code Generation
 
-Code generation supports reading color selections from Sketch drawings and applying those colors using the Ignite UI Theme API’s for the Ignite UI Component. The below section, “Ignite UI Theme Created Divs” addresses the requirement to wrap all Ignite UI Components in a div for the theme colors to be applied by the browser.
+Code generation supports reading color selections from Sketch drawings and applying those colors using the Ignite UI Theme APIs for the Ignite UI Component. The below section, “Ignite UI Theme Created Divs” addresses the requirement to wrap all Ignite UI Components in a div for the theme colors to be applied by the browser.
 Since code generation does not know in advance if a color in Sketch is the default one or not, it emits all colors from the Sketch drawing. This provides predictable code generation from an Ignite UI Component perspective. Note, this adds to the outputted CSS and HTML as required.
-However, if the designer matches their color palette to the default color palette that the web developer is using, emitting the theme coloring CSS and extra div’s in the HTML is unnecessary because Ignite UI Components will pick up their coloring from their default palette.
+However, if the designer matches their color palette to the default color palette that the web developer is using, emitting the theme coloring CSS and extra divs in the HTML is unnecessary because Ignite UI Components will pick up their coloring from their default palette.
 To have code generation bypass emitting all Theme colors, the code generation option “Only Use Ignite UI Theme Colors” should be selected. This will emit much cleaner HTML without all the divs required to support theme coloring. Note, when using this option, none of the color selections will be code generated for the Ignite UI Components.
 
 ### After Component Code Generation – Before Rendering in The Browser
 
 Developers need to perform the following edits of generated components before rendering in the browser:
 
-- If the HTML has formControlName elements, the formGroup comment under the `<form>` tag must be uncommented: <!-- [formGroup]="customerForm"  -->
-- In the TypeScript, check for <!-- // TODO – uncomment--> and uncomment the FormGroup comment if you have one.
+- If the HTML has formControlName elements, the formGroup comment under the `<form>` tag must be uncommented: `<!-- [formGroup]="customerForm" -->`
+- In the TypeScript, check for `<!-- // TODO – uncomment-->` and uncomment the FormGroup comment if you have one.
 - In the TypeScript, check the `ngOnInit` method and uncomment the form code.
 
 ## Sketch Element Names
@@ -61,7 +61,7 @@ The case of the name is used to split the name into words separated by a dash. S
 | firstname    | firstname                |
 | First Name   | first-name               |
 
-## Ignite UI Theme Created Div’s
+## Ignite UI Theme Created Divs
 
 In Angular, when a component has nested child components, the local CSS values in the parent component cannot be directly applied to a child component. To get around this, Angular provides a solution which requires that child components be wrapped in their own div and the CSS be applied to that wrapper div.
 Code generation will wrap Ignite UI components in a div when theme colors or fonts are being specified. This allows code generation to leverage the default palette set up by the developer for the project. [Ignite UI Theming](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes/index.html) makes it very easy for the project to take on new branding simply by changing the color palette.
@@ -97,7 +97,7 @@ In the below image, the Buttons group has three buttons. Two have the same or si
 
 <img src="../images/layout_codegen_people6.png" />
 
-When layout groups are created for an element not in a group, if there is a Group that would be added to the dynamically generated div (row), the generated layout will be incorrect. On the image below, the top Artboard demonstrates the correct grouping to ensure predictable layout. Battleship and Actions are grouped together in the ImageButtons Group.
+When layout groups are created for an element not in a group, if there is a Group that would be added to the dynamically generated div (row), the generated layout will be incorrect. In the image below, the top Artboard demonstrates the correct grouping to ensure predictable layout. Battleship and Actions are grouped together in the ImageButtons Group.
 The bottom Artboard has incorrect grouping because the Battleship element is horizontally aligned with the Actions Group, but they are not grouped together. This rule only applies to elements in line with another Group.
 
 <img src="../images/layout_codegen_people7.png" />
@@ -118,7 +118,7 @@ In the below image, the green tinted divs are layout divs, the yellow/green tint
 
 | Div Class Name | Purpose                                                                                                                                                                                                                                             |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| actions        | Is the first created div. This nested div was dynamically created to layout the Cancel and Save button in a flex row.                                                                                                                               |
+| actions        | This is the first created div. This nested div was dynamically created to layout the Cancel and Save button in a flex row.                                                                                                                          |
 | cancel         | Provides Theme CSS for the Cancel button.                                                                                                                                                                                                           |
 | save           | Provides Theme CSS for the Save button.                                                                                                                                                                                                             |
 | delete         | Provides Theme CSS for the Delete button.                                                                                                                                                                                                           |
@@ -173,7 +173,7 @@ For code generation, the following controls will render using the default height
 - Title
 - Typography
 
-The Grid height is always set to null in the HTML like this: [height]="null" to ensure the grid rows are visible at runtime.
+The Grid height is always set to null in the HTML like this: `[height]="null"` to ensure the grid rows are visible at runtime.
 Category Chart height is always fixed to match with height in Sketch. This will be changed in the future to accomodate improvements in Ignite UI for Angular.
 Image always uses fixed height from Sketch.
 For all other elements, when height is not fixed or the top and bottom are pinned, the height will be set to 100% in CSS.
@@ -255,13 +255,13 @@ When a Sketch group has a fixed width, that width value will be applied, otherwi
 ### Centering
 
 The below centering logic only applies to a Sketch Group and no other elements. Further, the Group must be a child of the Artboard or Group that was selected for code generation.  
-All groups that are set up to center must have content. Content could be another group or any other element, except a background color, a background color does not count as an element.
+All groups that are set up to center must have content. Content could be another group or any other element, except a background color, because it does not count as an element.
 In the below image you can see the selected group, “Inner No Children” only has a Color element set up as the background, so this group will not render. However, if that same Color element was not set up as the background color, it would render the color in the centered group it belongs to.
 
 <img src="../images/layout_codegen11.png" />
 
 > [!INFO]
-> If a Group was selected as the component for code generation and has fix height or width, the below centering logic does not apply because centering is performed by the parent in layout.
+> If a Group was selected as the component for code generation and has fixed height or width, the below centering logic does not apply because centering is performed by the parent in layout.
 
 ### Vertical
 

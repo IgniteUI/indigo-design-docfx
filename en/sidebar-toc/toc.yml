@@ -124,3 +124,5 @@
   href: ../codegen/layout-codegen.md
 - name: After Code Generation
   href: ../codegen/after-codegen.md
+- name: Code Generator Plugin for VS Code
+  href: ../codegen/vscode-plugin.md
