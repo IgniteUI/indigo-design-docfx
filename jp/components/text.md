@@ -31,6 +31,17 @@ Text には、Titles と Paragraphs のためのバリアントがあります�
 <img src="../images/text_h5.png" srcset="../images/text_h5@2x.png 2x" />
 <img src="../images/text_h6.png" srcset="../images/text_h6@2x.png 2x" />
 
+Title の挿入後、そのサイズに基づいて高さを設定してください。
+
+| サイズ | ピクセル単位の高さ |
+| -- | ----- |
+| H1 | 172px |
+| H2 | 86px |
+| H3 | 70px |
+| H4 | 56px |
+| H5 | 38px |
+| H6 | 34px |
+
 ### 段落サイズ
 
 テキスト段落には、ラージ **Body 1**、スモール Body 2、画像やタイトルの注釈に使用する極小キャプションがあります。
@@ -38,6 +49,14 @@ Text には、Titles と Paragraphs のためのバリアントがあります�
 <img src="../images/text_b1.png" srcset="../images/text_b1@2x.png 2x" />
 <img src="../images/text_b2.png" srcset="../images/text_b2@2x.png 2x" />
 <img src="../images/text_caption.png" srcset="../images/text_caption@2x.png 2x" />
+
+Paragraph の挿入後、そのサイズおよびテキスト コンテンツの長さに基づいて高さを設定してください。Paragraph が複数行にまたがる場合、以下の表の値を行数でかけ算します。
+
+| サイズ | ピクセル単位の高さ |
+| ------- | ------------ |
+| Body 1 | 26px |
+| Body 2 | 22px |
+| Caption | 22px |
 
 ### スタイル設定
 
@@ -59,7 +78,7 @@ Hyperlink を複数同時に使用する場合は、Hyperlink を目立つよう
 Title または Paragraph に色やフォントを指定した場合、タイトルまたは段落要素に適用される CSS クラスに直接適用されます。
 
 > [!WARNING]
-> デザインの Title または Paragraph Text のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Title または Paragraph Text のためのコード生成機能が失われる結果となります。
+> デザインの Title または Paragraph Text のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Title または Paragraph Text のためのコード生成機能が失われる結果となります。コード生成で Sketch のレイアウトと一致させるには、コンテンツを描画するために必要な高さを Title および Paragraph に設定してください。
 
 ### データ バインディング
 
