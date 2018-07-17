@@ -46,19 +46,23 @@ Colors はテーマ色 (`primary`、`secondary`、`success`、`warn`、`error`�
 
 2 つ目の方法は、ファイル特有の色の追加です。すべてのプロジェクトで使用することはできませんが作業しているプロジェクトで使用できます。次の簡単な手順に従います。
 
-1.  既存の Sketch ファイルを開いて新しいページを作成し、ページ名を `Local Styles` にします。新しいページで Styling ライブラリから `Colors/black` 要素を挿入します。
+1.  既存の Sketch ファイルを開いて新しいページを作成し、ページ名を `Local Styles` にします。
+
+    <img src="../images/colors_local_page.png" />
+
+2.  新しいページで Styling ライブラリから `Colors/black` 要素を挿入します。
 
     <img src="../images/colors_local0.png" srcset="../images/colors_local0@2x.png 2x" />
 
-2.  右クリックして`シンボルからデタッチ`を選択して `Rectangle` と呼ばれるレイヤーのみ含まれます。`Rectangle` レイヤーを選択して Fill の色を #008080 (teal) などに変更します。
+3.  右クリックして`シンボルからデタッチ`を選択して `Rectangle` と呼ばれるレイヤーのみ含まれます。`Rectangle` レイヤーを選択して Fill の色を #008080 (teal) などに変更します。
 
     <img src="../images/colors_local1.png" srcset="../images/colors_local1@2x.png 2x" />
 
-3.  `シンボルからデタッチ`を選択して作成したグループ (以前のシンボル インスタンスと同じように `Colors/black` と呼ばれる) を選択し、メイン Sketch トップ メニューから `Create Symbol` ボタンをクリックして変更した色を色シンボルをオーバライドとして再度インスタンスを作成します。カスタム色 (`Colors/teal` など) の名前を選択するプロンプトが表示されます。Symbols Page チェックボックスのチェックは、OK ボタンをクリックする前に外されます。シンボルが作成され、以下のようになります。
+4.  `シンボルからデタッチ`を選択して作成したグループ (以前のシンボル インスタンスと同じように `Colors/black` と呼ばれる) を選択し、メイン Sketch トップ メニューから `Create Symbol` ボタンをクリックして変更した色を色シンボルをオーバライドとして再度インスタンスを作成します。カスタム色 (`Colors/teal` など) の名前を選択するプロンプトが表示されます。Symbols Page チェックボックスのチェックは、OK ボタンをクリックする前に外されます。シンボルが作成され、以下のようになります。
 
     <img src="../images/colors_local2.png" srcset="../images/colors_local2@2x.png 2x" />
 
-4.  シンボル以外のティール色の四角形を削除して完了です。追加した色は、Document カテゴリの色のリストでローカル シンボルとして表示されます。現在のプロジェクトで色が使用できる Components および Patterns のすべてのインスタンスの `Document/Colors` の色オーバーライドにも表示されます。
+5.  シンボル以外のティール色の四角形を削除して完了です。追加した色は、Document カテゴリの色のリストでローカル シンボルとして表示されます。現在のプロジェクトで色が使用できる Components および Patterns のすべてのインスタンスの `Document/Colors` の色オーバーライドにも表示されます。
 
     <img src="../images/colors_local3.png" srcset="../images/colors_local3@2x.png 2x" />
 
