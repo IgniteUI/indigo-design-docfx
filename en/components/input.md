@@ -131,7 +131,11 @@ When supplied the `🕹️Event` property is used to create a method in the comp
 
 When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using Angular Reactive Forms to the input value property. The `🕹️DataProperty` is optional. When provided, it will be the name of the property on the data object specified by the model object name provided in the generation request.
 
-### Inputs (Except Searchbar)
+### Inputs Date and Time
+
+Currently the theme and color values assigned in Sketch are not part of the generated code because Ignite UI for Angular does not provide theming support for these types of Inputs yet.
+
+### Inputs (Except Searchbar, Date and Time)
 
 #### Layout
 
