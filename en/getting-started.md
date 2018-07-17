@@ -40,7 +40,7 @@ The Indigo.Design UI Kit comes with massive customization flexibility built. Thi
 
 ### Creating your First Indigo Design Artboard
 
-Now that you have added the Indigo Design Libraries, you are all set to start crafting amazing experiences. Our first design will libraries will be for a simple registration screen with a Navbar, and a beautiful image for background on top of which we will design a simple form consisting of a little bit of Text, a few Inputs and a Button to submit the user details. So, let's find out what a productivity boost the Indigo Design system brings to the table.
+Now that you have added the Indigo Design Libraries, you are all set to start crafting amazing experiences. Our first design will be for a simple registration screen with a Navbar, and a beautiful image for background on top of which we will design a simple form consisting of a little bit of Text, a few Inputs and a Button to submit the user details. So, let's find out what a productivity boost the Indigo Design system brings to the table.
 
 1.  Open up the Sketch app on your Mac and create a new file. Press the `A` key and from the right panel select an artboard size from the panel on the right. In this example we will be using an `iPhone 8` in portrait orientation, which will give us a 375 by 667 artboard to design for. If you don't see this preset artboard, choose `Apple Devices` from the dropdown at the top of the panel.
 

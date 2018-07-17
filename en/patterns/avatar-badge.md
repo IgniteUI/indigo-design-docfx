@@ -27,7 +27,7 @@ The Badge can be positioned in any of the four corners of the Avatar as shown be
 <img src="../images/avatar_badge_positions.png" srcset="../images/avatar_badge_positions@2x.png 2x" />
 
 > [!WARNING]
-> After inserting an Avatar + Badge layout and choosing the position `Override` that takes care of the Pattern layout, you should trigger `Detach from Symbol`. This will break it up to the Components that are used to create the Pattern in order to be able to generate it as Angular code.
+> After inserting an Avatar + Badge layout and choosing the position `Override` that takes care of the Pattern layout, you should trigger `Detach from Symbol`. This will break it up to the Components that are used to create the Pattern in order to be able to generate it as Angular code. The Badge and the Avatar, however, must stay intact and not be detached!
 
 <img src="../images/avatar_badge_detach.png" />
 

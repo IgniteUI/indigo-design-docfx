@@ -19,6 +19,11 @@ Details Pattern はレイアウトに含まれる以下の利用可能な要素�
 
 <img src="../images/details_content.png" srcset="../images/details_content@2x.png 2x" />
 
+> [!WARNING]
+> ...
+
+<img src="../images/details_detach.png" />
+
 ## その他のリソース
 
 関連トピック:

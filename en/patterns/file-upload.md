@@ -24,6 +24,11 @@ The File Upload Pattern supports the most common types of content that are usual
 
 <img src="../images/file-upload_content.png" srcset="../images/file-upload_content@2x.png 2x" />
 
+> [!WARNING]
+> After inserting a File Upload layout and choosing the type and content `Override` settings that take care of the Pattern layout and default content preset, you should trigger `Detach from Symbol`. You should repeat this action two more times on the `💡Type` and `💡Content` symbols that will be unveiled progressively in order to be able to generate it as Angular code. The Components that lay out the detached `💡Content`, however, must stay intact and not be detached!
+
+<img src="../images/file_upload_detach.png" />
+
 ## Additional Resources
 
 Related topics:

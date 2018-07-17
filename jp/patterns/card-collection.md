@@ -16,6 +16,11 @@ Card Collection パターンを使用すると、アシスタントまたはニ�
 
 Card Collection パターンは Card の様々なタイプおよび (ある場合) Searchbar Input のスタイル設定をカスタマイズできます。
 
+> [!WARNING]
+> ...
+
+<img src="../images/card_collection_detach.png" />
+
 ## その他のリソース
 
 関連トピック:

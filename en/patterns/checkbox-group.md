@@ -15,6 +15,11 @@ Use the Checkbox Group Pattern to organize and layout a collection of Checkbox e
 
 The Checkbox Group Pattern comes with the styling flexibility provided by the Checkbox elements that constitute it.
 
+> [!WARNING]
+> After inserting a Checkbox Group layout, you should trigger `Detach from Symbol` to break it up to the individual Checkboxes that are used to create the Pattern in order to be able to generate it as Angular code. The Checkboxes, however, must stay intact and not be detached!
+
+<img src="../images/checkbox_group_detach.png" />
+
 ## Additional Resources
 
 Related topics:

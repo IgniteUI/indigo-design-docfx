@@ -16,6 +16,11 @@ Checkbox Group パターンを使用すると、Checkbox 要素のコレクシ�
 
 Checkbox Group パターンは、含まれる Checkbox 要素のスタイル設定をカスタマイズできます。
 
+> [!WARNING]
+> ...
+
+<img src="../images/checkbox_group_detach.png" />
+
 ## その他のリソース
 
 関連トピック:
