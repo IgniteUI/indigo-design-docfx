@@ -10,7 +10,8 @@ This topic describes the process of downloading and adding the Indigo Design Lib
 
 ### Typeface prerequisites
 
-All text in the Indigo Design Libraries is scribed in styles of the [Titillium Web Font](https://fonts.google.com/specimen/Titillium+Web) to match the typeface of [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular). Before you get in the game with Indigo.Design, you may need to install Titillium Web on your device first and you can do so by following the link above. In the libraries we are using only the `ExtraLight`, `Regular`, and `SemiBold` font weights.
+> [!Note]
+> All text in the Indigo Design Libraries is scribed in styles of the [Titillium Web Font](https://fonts.google.com/specimen/Titillium+Web) to match the typeface of [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular). Before you get in the game with Indigo.Design, you may need to install Titillium Web on your device first and you can do so by following the link above. In the libraries we are using only the `ExtraLight`, `Regular`, and `SemiBold` font weights.
 
 ### Downloading and Adding the Libraries in Sketch
 
