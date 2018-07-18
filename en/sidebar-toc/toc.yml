@@ -1,6 +1,23 @@
 - name: Getting Started
   href: ../getting-started.md
+- name: Creating Your First Artboard
+  href: ../creating-an-artboard.md
 
+- name: Prototyping
+  header: true
+- name: Creating Your First Prototype
+  href: ../prototyping/creating-a-prototype.md
+- name: Interaction Options
+  href: ../prototyping/interaction-options.md
+- name: Exchanging Ideas Through Commenting
+  href: ../prototyping/commenting.md
+- name: Collaborating with Workspaces
+  href: ../prototyping/workspaces.md
+- name: Setting up a Usability Study
+  href: ../prototyping/setting-up-a-usability-study.md
+- name: Usability Study Results Overview
+  href: ../prototyping/usability-study-results-overview.md
+  
 - name: Styling
   header: true
 - name: Overview
