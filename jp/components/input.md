@@ -132,7 +132,11 @@ DataProperty: `{profile.imageName}`
 
 `🕹️DataProperty` 値は Angular Reactive Forms を使用して入力の value プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。提供された場合、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名になります。
 
-### 入力 (Searchbar 以外)
+### 日付と時刻の入力
+
+Sketch で割り当てるテーマおよび色値は生成されたコードに含まれません。現在 Ignite UI for Angular は、このような入力タイプのテーマをサポートしていません。
+
+### 入力 (検索バー、日付、および時刻以外)
 
 #### レイアウト
 
