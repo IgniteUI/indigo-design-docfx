@@ -11,7 +11,8 @@ _language: ja
 
 ### 書体の前提条件
 
-Indigo Design Libraries のすべてのテキストは、[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) の書体と一致させるために [Titillium Web Font](https://fonts.google.com/specimen/Titillium+Web) を使用します。Indigo.Design を使用する前に Titillium Web をデバイス上でインストールする必要があります。上記のリンクからインストールできます。ライブラリで `ExtraLight`、`Regular`、および `SemiBold` フォントの太さを使用しています。
+> [!Note]
+> Indigo Design Libraries のすべてのテキストは、[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) の書体と一致させるために [Titillium Web Font](https://fonts.google.com/specimen/Titillium+Web) を使用します。Indigo.Design を使用する前に Titillium Web をデバイス上でインストールする必要があります。上記のリンクからインストールできます。ライブラリで `ExtraLight`、`Regular`、および `SemiBold` フォントの太さを使用しています。
 
 ### ライブラリのダウンロードおよび Sketch への追加
 
