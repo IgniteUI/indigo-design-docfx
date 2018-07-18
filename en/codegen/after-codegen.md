@@ -105,6 +105,7 @@ There are a few things to be aware of however. This iteration of the code genera
 Related topics:
 
 - [Category Chart](../components/chart-category.md)
+- [Indigo.Design Code Generator for VS Code](vscode-plugin.md)
   <div class="divider--half"></div>
 
 External Links:

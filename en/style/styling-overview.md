@@ -10,15 +10,17 @@ All Components map to Ignite UI for Angular components. The theming engine of In
 
 With the Sketch libraries, you're able to modify the Indigo-Styling library to achieve the same results for both the Components and Patterns.
 
-<img src="../images/theme_overview_default.png" srcset="../images/theme_overview_default@2x.png 2x" />
+<img src="../images/theme_overview_default.png" />
 
-<img src="../images/theme_overview_dark.png" srcset="../images/theme_overview_dark@2x.png 2x" />
+<img src="../images/theme_overview_dark.png" />
 
-<img src="../images/theme_overview_vibrant.png" srcset="../images/theme_overview_vibrant@2x.png 2x" />
+<img src="../images/theme_overview_vibrant.png" />
 
 ## Indigo-Styling
 
 Indigo-Styling is the defacto representation of the theming engine. It is separated into four parts represented as different pages in the library: Icons, Colors, Typography and Elevations.
+
+<img src="../images/styling_structure.png"/>
 
 - [Material Icons](material-icons.md) - a collection of 100+ Material Icons, which you can easily extend
 - [Colors](colors.md) - a palette consisting of primary, secondary and special colors, as well as shades of gray and levels of opacity
