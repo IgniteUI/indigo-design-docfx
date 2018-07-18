@@ -107,6 +107,7 @@ Infragistics VS Code 拡張機能をプロジェクトを更新するために�
 関連トピック:
 
 - [Category Chart](../components/chart-category.md)
+- [Indigo.Design VS Code のコード ジェネレーター](vscode-plugin.md)
   <div class="divider--half"></div>
 
 外部のリンク:
