@@ -7,13 +7,13 @@ _language: ja
 
 ## Colors
 
-Colors はテーマ色 (`primary`、`secondary`、`success`、`warn`、`error`、`info`) を設定します。Styling ライブラリで Colors を設定する方法は、[Ignite UI for Angular Themes](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes.html) と同じです。
+スタイリング ライブラリ ファイルから Colors はテーマ色 (`primary`、`secondary`、`success`、`warn`、`error`、`info`) を設定します。Styling ライブラリで Colors を設定する方法は、[Ignite UI for Angular Themes](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes.html) と同じです。
 
 <img src="../images/colors_palette.png" srcset="../images/colors_palette@2x.png 2x" />
 
 ### パレット生成
 
-プライマリ カラーを変更するには、Sketch ファイルの `Colors` ページに移動し、`Primary 500` シンボルを適切な色に変更します。プライマリ パレット全体が直ちに更新されます。同じパレット生成が二次色にも使用できます。
+プライマリ カラーを変更するには、Indigo-Styling の `Colors` ページに移動し、`Primary 500` シンボルを適切な色に変更します。プライマリ パレット全体が直ちに更新されます。同じパレット生成が二次色にも使用できます。
 
 <img src="../images/colors_generation.png" srcset="../images/colors_generation@2x.png 2x" />
 
@@ -40,7 +40,7 @@ Colors はテーマ色 (`primary`、`secondary`、`success`、`warn`、`error`�
 
     <img src="../images/colors_custom2.png" srcset="../images/colors_custom2@2x.png 2x" />
 
-4.  ライブラリで変更を保存し、追加した色はライブラリ メニューの色リストに表示されます。Components および Patterns ライブラリで色が使用されている場所に色オーバーライドに表示されます。
+4.  ライブラリで変更を保存し、追加した色は `Insert` メニューの `Indigo-Styling/Colors` で色リストに表示されます。Components および Patterns ライブラリで色が使用されている場所に色オーバーライドに表示されます。
 
 #### ローカル
 
