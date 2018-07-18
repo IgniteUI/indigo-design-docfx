@@ -16,7 +16,7 @@ Use the Card Collection Pattern to display an assistant or news feeds, as well a
 The Card Collection Pattern comes with the styling flexibility provided by the various types of Cards available and the Searchbar Input, where applicable.
 
 > [!WARNING]
-> After inserting any of the Card Collection layouts available, you should trigger `Detach from Symbol` to break it down to the Components that are used to create the Pattern in order to be able to generate it as Angular code. The individual Cards, however, must stay intact and not be detached!
+> After inserting any of the Card Collection Patterns available, you should trigger `Detach from Symbol` to break it down to the Components that are used to create the layout in order to be able to generate it as Angular code. The individual Cards, however, must stay intact and not be detached!
 
 <img src="../images/card_collection_detach.png" />
 

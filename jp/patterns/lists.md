@@ -15,6 +15,11 @@ Lists パターン シンボルは、フィルター可能な設定、人、ミ�
 
 Lists パターンは List Item の様々なタイプおよび (ある場合) Searchbar Input のスタイル設定をカスタマイズできます。
 
+> [!WARNING]
+> ...
+
+<img src="../images/lists_detach.png" />
+
 ## その他のリソース
 
 関連トピック:
