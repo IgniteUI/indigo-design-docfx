@@ -14,6 +14,11 @@ User Profile パターンを使用すると、全画面表示の詳細ページ�
 
 User Profile パターンの編集可能なバリアントもあります。User Profile パターンは、レイアウトに含まれる Avatar、Text、および Input のスタイル設定をカスタマイズできます。
 
+> [!WARNING]
+> ...
+
+<img src="../images/profile_detach.png" />
+
 ## その他のリソース
 
 関連トピック:

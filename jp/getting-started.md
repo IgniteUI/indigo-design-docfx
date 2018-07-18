@@ -34,25 +34,31 @@ _language: ja
 5.  Preferences ダイアログのリストで表示されることを確認し、すべてチェックしてダイアログを閉じます。
 6.  ライブラリが正しく追加された場合、Sketch の `Insert` メニューの `Symbols` セクションに表示されます。
 
+### オーバーライドを使用してカスタマイズ化
+
+Indigo.Design UI Kit は定義済みのカスタマイズ化を提供します。ライブラリでネストされた `Symbol` があり、Sketch ライブラリを使用するプロジェクトで `Overrides` として公開されます。プロジェクトに Indigo.Design コンポーネントを挿入した後、右側の Sketch パネルで `Overrides` セクションが `Prototyping` オプションの下に表示されます。以下の画像は [Badge](badge.md) の利用可能なオーバーライドを表示します。このオーバーライドで型を数値からアイコンに変更するか、数値色および値を構成できます。有効な値のみを含む境界線色および背景色を選択するドロップダウンもあります。下側にコード生成で使用される特別なプロパティがあります。このプロパティは生成された Angular アプリケーションの必要なデータ バインディングを作成します。各コンポーネントは `Overrides` パネルに一意のプロパティがあります。このヘルプ セクションのトピックはそのプロパティの利用可能な値を説明し、使用ガイダンスを提供します。
+
+<img src="images/getting-started-overrides.png" />
+
 ### Indigo Design はじめてのアートボードを作成
 
 Indigo Design ライブラリを追加後、デザインを開始できます。最初のデザインはシンプルな登録画面です。この画面で Navbar、背景の画像、Text、複数の Inputs、ユーザー詳細を送信するための Button を含むフォームを作成します。このフォームを作成すると Indigo デザイン システムを使用した作業を開始しましょう。
 
 1.  Mac で Sketch アプリケーションを開いて、新しいファイルを作成します。`A` キーを押して、右パネルからアートボードのサイズを選択します。この例で縦長の向きの `iPhone 8` を使用します。これは 375 x 667 アートボードを作成します。このプリセット アートボードが表示されない場合、パネルの上のドロップダウンから `Apple Devices` を選択します。
 
-2.  `Insert` メニューで `Indigo-Components` > `Navigation` > `Navbar` を選択します。Navbar をアートボードの上側に配置し、利用可能な幅に引き伸ばします。Navbar が選択される状態で右パネルのサイズ変更セクションで高さを固定し、左、上、右に固定します。下のオーバーライド セクションで `Type` を `~Title` に変更し、`Text` オーバーライドに "Sign Up" を入力します。次に背景として使用する画像をアートボードにドラッグします。左側のレイヤー パネルの Navbar の下に配置します。以下のようになります。
+2.  `Insert` メニューで `Indigo-Components` > `Navigation` > `Navbar` を選択します。Navbar をアートボードの上側に配置し、利用可能な幅に引き伸ばします。Navbar が選択される状態で右パネルのサイズ変更セクションで高さを固定し、左、上、右に固定します。下のオーバーライド セクションで `Type` を `~Title` に変更し、`Text` オーバーライドに "Sign Up" を入力します。`Indigo-Styling/Colors` から `primary.100` 色のインスタンスを背景として挿入します。レイヤー パネルで Navbar の下に配置し、アートボードで Navbar の下の領域に全体のサイズに合わせてサイズ変更します。レイヤーは以下のようになります。
 
-| レイヤー                       | 説明                   |
-| ------------------------------ | ---------------------- |
-| iPhone 8                       | アートボード           |
-| &nbsp;&nbsp; Navigation/Navbar | 挿入した Navbar        |
-| &nbsp;&nbsp; Image             | 背景として使用する画像 |
+  | レイヤー                          | 説明                                  |
+  | ------------------------------ | -------------------------------------------- |
+  | iPhone 8                       | アートボード                                 |
+  | &nbsp;&nbsp; Navigation/Navbar | 挿入した Navbar             |
+  | &nbsp;&nbsp; Colors/primary.100 | 背景色 |
 
   <div class="divider--half"></div>
   <img src="images/getting-started1.png" srcset="images/getting-started1@2x.png 2x" />
   <div class="divider--half"></div>
 
-3.  `Insert` メニューから `Indigo-Styling` > `Shadows/Rect` > `Elevate 18` を選択します。背景の上で Navbar の下に配置します。同じように `Colors/white` 長方形を挿入します。境界線がエレベーションの境界線と一致するためにサイズ変更して配置します。両方のレイヤーを選択してサイズを 280 x 400 に設定します。これでアートボードの中央に配置し、フォームのサーフェイスになります。
+3.  `Insert` メニューから `Indigo-Styling` > `Colors/white` を選択し、白い長方形を背景の上に配置します。サイズを 280 x 398 に設定し、フォームのサーフェイスになるためにアートボードの中央に配置します。
 
   <img src="images/getting-started2.png" srcset="images/getting-started2@2x.png 2x" />
 
@@ -60,14 +66,13 @@ Indigo Design ライブラリを追加後、デザインを開始できます。
 
 4.  `Insert` メニューから `Indigo-Components` > `Text` > `Title` を選択します。このサーフェイス上に配置し、左、上、右に 16px スペースを設定します。新しく挿入したレイヤーがサーフェイス上で NavBar の下に表示されます。`Size` オーバーライドを `H4` に設定し、`Style` を `~34/left/Primary` に設定し、`Text` を "Start Budgeting" に設定します。最後に、このレイヤーの高さを 56px に設定します。
 
-    | レイヤー                             | 説明                                                   |
-    | ------------------------------------ | ------------------------------------------------------ |
-    | iPhone 8                             | アートボード                                           |
-    | &nbsp;&nbsp; Navigation/Navbar       | 挿入した Navbar                                        |
-    | &nbsp;&nbsp; Text/Title              | フォームのタイトル                                     |
-    | &nbsp;&nbsp; Colors/white            | フォームの背景                                         |
-    | &nbsp;&nbsp; Shadows/Rect/Elevate 18 | 背景画像上にシャドウを表示するフォームのエレベーション |
-    | &nbsp;&nbsp; Image                   | 背景として使用する画像                                 |
+    | レイヤー | 説明 |
+    | ------------------------------ | -------------------------------------------- |
+    | iPhone 8 | アートボード |
+    | &nbsp;&nbsp; Navigation/Navbar | 挿入した Navbar |
+    | &nbsp;&nbsp; Text/Title | フォームのタイトル |
+    | &nbsp;&nbsp; Colors/white | フォームの背景 |
+    | &nbsp;&nbsp; Colors/primary.100 | 背景色 |
 
   <img src="images/getting-started3.png" srcset="images/getting-started3@2x.png 2x" />
 
@@ -79,26 +84,25 @@ Indigo Design ライブラリを追加後、デザインを開始できます。
 
   <div class="divider--half"></div>
 
-6.  2 つの Line Input を挿入します。以前の手順の入力の下に配置します。`State` オーバーライドを `~Dark/Filled` に設定し、幅全体に引き伸ばし、左右のスペースを 16px に設定します。`Label` を "Username" および "Password" に設定し、`Input Text` を "Leaellynasaura" および "\*\*\*\*\*\*\*\*\*\*\*\*" に設定します。
+6.  2 つの `Line` 入力を挿入し、上下に配置し、16px 垂直スペースを設定します。`State` オーバーライドを `~Dark/Filled` に設定し、幅全体に引き伸ばし、左右のスペースを 16px に設定します。`Label` を "Username" および "Password" に設定し、`Input Text` を "Leaellynasaura" および "\*\*\*\*\*\*\*\*\*\*\*\*" に設定します。
 
-    | レイヤー                             | 説明                                                 |
-    | ------------------------------------ | ---------------------------------------------------- |
-    | iPhone 8                             | アートボード                                         |
-    | &nbsp;&nbsp; Navigation/Navbar       | 挿入した Navbar                                      |
-    | &nbsp;&nbsp; Text/Title              | フォームのタイトル                                   |
-    | &nbsp;&nbsp; Inputs/Input/Line       | 名の入力フィールド                                   |
-    | &nbsp;&nbsp; Inputs/Input/Line Copy  | 姓の入力フィールド                                   |
-    | &nbsp;&nbsp; Inputs/Input/Line       | ユーザー名の入力フィールド                           |
-    | &nbsp;&nbsp; Inputs/Input/Line Copy  | パスワードの入力フィールド                           |
-    | &nbsp;&nbsp; Colors/white            | フォームの背景                                       |
-    | &nbsp;&nbsp; Shadows/Rect/Elevate 18 | 背景画像にシャドウを表示するフォームのエレベーション |
-    | &nbsp;&nbsp; Image                   | 背景として使用する画像                               |
+    | レイヤー | 説明 |
+    | ------------------------------ | -------------------------------------------- |
+    | iPhone 8 | アートボード |
+    | &nbsp;&nbsp; Navigation/Navbar | 挿入した Navbar |
+    | &nbsp;&nbsp; Text/Title | フォームのタイトル |
+    | &nbsp;&nbsp; Inputs/Input/Line | 名の入力フィールド |
+    | &nbsp;&nbsp; Inputs/Input/Line Copy | 姓の入力フィールド |
+    | &nbsp;&nbsp; Inputs/Input/Line | ユーザー名の入力フィールド |
+    | &nbsp;&nbsp; Inputs/Input/Line Copy | パスワードの入力フィールド |
+    | &nbsp;&nbsp; Colors/white | フォームの背景 |
+    | &nbsp;&nbsp; Colors/primary.100 | 背景色 |
 
   <img src="images/getting-started5.png" srcset="images/getting-started5@2x.png 2x" />
 
   <div class="divider--half"></div>
 
-7.  `Insert` メニューから `Indigo-Components` > `Buttons` > `Raised` を選択し、作成したフォームの下に配置します。左に 16px を設定し、上の Inputs から 0px を設定し、右に 16px に設定します。`Text` を "SIGN UP" に設定し、`Background` を `Colors/info` に設定します。
+7.  `Insert` メニューから `Indigo-Components` > `Buttons` > `Raised` を選択し、作成したフォームの下に配置します。左に 16px を設定し、上の Inputs から 16px を設定し、右に 16px に設定します。`Text` を "SIGN UP" に設定し、`Background` を `Colors/info` に設定します。
 
   <img src="images/getting-started6.png" srcset="images/getting-started6@2x.png 2x" />
 
@@ -106,26 +110,25 @@ Indigo Design ライブラリを追加後、デザインを開始できます。
 
 8.  `Insert` メニューから `Indigo-Components` > `Text` > `Paragraph` を選択し、ボタンの下に配置し、すべての側に 16px スペースを設定するためにサイズ変更します。`Size` オーバーライドを `Body 2` に設定し、`Style` を `~14/left/grays.700` に設定します。`Text` を「By clicking on the "SIGN UP" button above, you accept our Terms of Use」に設定します。
 
-    | レイヤー                             | 説明                                                 |
-    | ------------------------------------ | ---------------------------------------------------- |
-    | iPhone 8                             | アートボード                                         |
-    | &nbsp;&nbsp; Navigation/Navbar       | 挿入した Navbar                                      |
-    | &nbsp;&nbsp; Text/Title              | フォームのタイトル                                   |
-    | &nbsp;&nbsp; Inputs/Input/Line       | 名の入力フィールド                                   |
-    | &nbsp;&nbsp; Inputs/Input/Line Copy  | 姓の入力フィールド                                   |
-    | &nbsp;&nbsp; Inputs/Input/Line       | ユーザー名の入力フィールド                           |
-    | &nbsp;&nbsp; Inputs/Input/Line Copy  | パスワードの入力フィールド                           |
-    | &nbsp;&nbsp; Buttons/Raised          | [サインアップ] ボタン                                |
-    | &nbsp;&nbsp; Text/Paragraph          | 利用規約の段落                                       |
-    | &nbsp;&nbsp; Colors/white            | フォームの背景                                       |
-    | &nbsp;&nbsp; Shadows/Rect/Elevate 18 | 背景画像にシャドウを表示するフォームのエレベーション |
-    | &nbsp;&nbsp; Image                   | 背景として使用する画像                               |
+    | レイヤー | 説明 |
+    | ------------------------------ | -------------------------------------------- |
+    | iPhone 8 | アートボード |
+    | &nbsp;&nbsp; Navigation/Navbar | 挿入した Navbar |
+    | &nbsp;&nbsp; Text/Title | フォームのタイトル |
+    | &nbsp;&nbsp; Inputs/Input/Line | 名の入力フィールド |
+    | &nbsp;&nbsp; Inputs/Input/Line Copy | 姓の入力フィールド |
+    | &nbsp;&nbsp; Inputs/Input/Line | ユーザー名の入力フィールド |
+    | &nbsp;&nbsp; Inputs/Input/Line Copy | パスワードの入力フィールド |
+    | &nbsp;&nbsp; Buttons/Raised |[サインアップ] ボタン |
+    | &nbsp;&nbsp; Text/Paragraph | 利用規約の段落 |
+    | &nbsp;&nbsp; Colors/white | フォームの背景 |
+    | &nbsp;&nbsp; Colors/primary.100 | 背景色 |
 
   <img src="images/getting-started7.png" srcset="images/getting-started7@2x.png 2x" />
 
   <div class="divider--half"></div>
 
-最後に白い背景およびシャドウを含んでフォームのすべてのレイヤーを選択して、グループ化します。新しく作成した Group を選択し、幅および高さを固定し、右側の Resizing パネルで上に固定します。これはデザインの外観を変更しませんが、アートボードがサイズ変更される場合にレスポンシブに表示します。
+最後に白い背景を含んでフォームのすべてのレイヤーを選択して、グループ化します。新しく作成した Group を選択し、幅および高さを固定し、中央に配置します。これはデザインの外観を変更しませんが、アートボードがサイズ変更される場合にレスポンシブに表示します。
 
 > [!WARNING]
 > 上記のタスクを実行するときに、さまざまなコンポーネントおよびパターンの上にある Insert メニューに `_Overrides` カテゴリが表示されます。このカテゴリは内部シンボルを含みます。このシンボルを使用してプリセット状態およびレイアウトを実装しました。これによって Indigo.Design のカスタマイズ化を許可します。`_Overrides` カテゴリに表示される項目は相対するコンポーネントで利用できます。このカテゴリはデザインの操作で使用しないでください。

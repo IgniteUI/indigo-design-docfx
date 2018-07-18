@@ -52,6 +52,11 @@ Inputs オーバーライドで選択可能な新規フォームの 2 種類が�
 <img src="../images/form_card.png" srcset="../images/form_card@2x.png 2x" />
 <img src="../images/form_cash.png" srcset="../images/form_cash@2x.png 2x" />
 
+> [!WARNING]
+> ...
+
+<img src="../images/form_detach.png" />
+
 ## その他のリソース
 
 関連トピック:

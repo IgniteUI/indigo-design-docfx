@@ -88,7 +88,7 @@
 
 - name: パターン
   header: true
-- name: AudioVideo
+- name: Audio / Video
   href: ../patterns/av.md
 - name: Avatar + Badge
   href: ../patterns/avatar-badge.md
@@ -110,6 +110,20 @@
   href: ../patterns/lists.md
 - name: User Profile
   href: ../patterns/user-profile.md
-  
+
+- name: その他のリソース
+  header: true
+- name: レイアウトのベスト プラクティス
+  href: ../best-layout-practices.md
 - name: 既知の問題
   href: ../known-issues.md
+
+- name: コードの生成
+  header: true
+- name: レイアウトの生成
+  href: ../codegen/layout-codegen.md
+- name: コード生成後の手順
+  href: ../codegen/after-codegen.md
+- name: VS Code のコード ジェネレーター プラグイン
+  href: ../codegen/vscode-plugin.md
+  

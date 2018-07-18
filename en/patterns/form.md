@@ -51,6 +51,11 @@ There are two main types of Payment forms: one for Card payments and one for Cas
 <img src="../images/form_card.png" srcset="../images/form_card@2x.png 2x" />
 <img src="../images/form_cash.png" srcset="../images/form_cash@2x.png 2x" />
 
+> [!WARNING]
+> After inserting any of the Form Patterns available, you should trigger `Detach from Symbol` to break it down to the Inputs and Actions layout areas. After choosing the most appropriate layouts for these two areas from the `Override` section, you should trigger `Detach from Symbol` on each area. The last thing you should detach are the individual `Items` under Actions. The Input Components under Inputs and the various Components under each detached Action Item must stay intact and not be detached!
+
+<img src="../images/form_detach.png" />
+
 ## Additional Resources
 
 Related topics:

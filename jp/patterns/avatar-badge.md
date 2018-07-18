@@ -27,6 +27,11 @@ Badge はオーバーライドによって Avatar の 4 つ角のいずれかに
 
 <img src="../images/avatar_badge_positions.png" srcset="../images/avatar_badge_positions@2x.png 2x" />
 
+> [!WARNING]
+> Avatar + Badge レイアウトを挿入してパターンのレイアウトに相対する `Position Badge` の `Override` を選択した後、`Detach from Symbol` をトリガーします。Angular コードとして生成するには、パターンを作成したコンポーネントに分割します。ただし、Badge および Avatar をデタッチしないでください。
+
+<img src="../images/avatar_badge_detach.png" />
+
 ## その他のリソース
 
 関連トピック:

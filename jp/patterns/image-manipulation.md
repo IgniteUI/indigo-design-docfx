@@ -19,6 +19,11 @@ Image Manipulation パターンは 1 ～ 2 Flat Button、FAB Button、または 
 
 <img src="../images/image-manip_layout.png" srcset="../images/image-manip_layout@2x.png 2x" />
 
+> [!WARNING]
+> ...
+
+<img src="../images/image_manipulation_detach.png" />
+
 ## その他のリソース
 
 関連トピック:
