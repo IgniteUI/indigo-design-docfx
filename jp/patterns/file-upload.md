@@ -26,7 +26,7 @@ File Upload パターンは、アップロードまたは Document として挿�
 <img src="../images/file-upload_content.png" srcset="../images/file-upload_content@2x.png 2x" />
 
 > [!WARNING]
-> ...
+> File Upload レイアウトを挿入してパターンのレイアウトおよびデフォルトのコンテンツ プリセットに相対する `💡Type` および `💡Content` `Override` を選択した後、`Detach from Symbol` をトリガーします。Angular コードとして生成するために `💡Type` および `💡Content` シンボルでこの操作を 2 回繰り返します。ただし、デタッチされた `💡Content` に配置されるコンポーネントをデタッチしないでください。
 
 <img src="../images/file_upload_detach.png" />
 

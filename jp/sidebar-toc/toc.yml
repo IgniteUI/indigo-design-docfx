@@ -111,19 +111,19 @@
 - name: User Profile
   href: ../patterns/user-profile.md
 
-- name: More Resources
+- name: その他のリソース
   header: true
-- name: Best Layout Practices
+- name: レイアウトのベスト プラクティス
   href: ../best-layout-practices.md
 - name: 既知の問題
   href: ../known-issues.md
 
-- name: Code Generation
+- name: コードの生成
   header: true
-- name: Layout Generation
+- name: レイアウトの生成
   href: ../codegen/layout-codegen.md
-- name: After Code Generation
+- name: コード生成後の手順
   href: ../codegen/after-codegen.md
-  - name: Code Generator Plugin for VS Code
+- name: VS Code のコード ジェネレーター プラグイン
   href: ../codegen/vscode-plugin.md
   

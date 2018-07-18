@@ -17,7 +17,7 @@ Checkbox Group パターンを使用すると、Checkbox 要素のコレクシ�
 Checkbox Group パターンは、含まれる Checkbox 要素のスタイル設定をカスタマイズできます。
 
 > [!WARNING]
-> ...
+> Checkbox Group レイアウトを挿入した後、Angular コードとして生成するには、パターンを作成した Checkbox コンポーネントに分割するために `Detach from Symbol` をトリガーします。ただし、各 Checkbox コンポーネントをデタッチしないでください。
 
 <img src="../images/checkbox_group_detach.png" />
 
