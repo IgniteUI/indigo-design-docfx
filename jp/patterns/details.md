@@ -20,7 +20,7 @@ Details Pattern はレイアウトに含まれる以下の利用可能な要素�
 <img src="../images/details_content.png" srcset="../images/details_content@2x.png 2x" />
 
 > [!WARNING]
-> Details レイアウトを挿入した後、パターンを作成したセクションに分割するために `Detach from Symbol` をトリガーします。適切なセクション コンテンツ タイプを `Overrides` パネルから選択した後、Angular コードとして生成するために各セクションのために `Detach from Symbol` をトリガーします。ただし、デタッチされたセクションに配置されるコンポーネントをデタッチしないでください。
+> Details パターンを挿入した後、レイアウトを作成したセクションに分割するために `Detach from Symbol` をトリガーします。適切なセクション コンテンツ タイプを `Overrides` パネルから選択した後、Angular コードとして生成するために各セクションのために `Detach from Symbol` をトリガーします。ただし、デタッチされたセクションに配置されるコンポーネントをデタッチしないでください。
 
 <img src="../images/details_detach.png" />
 

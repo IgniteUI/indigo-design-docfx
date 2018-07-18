@@ -15,7 +15,7 @@ AV パターンは再生コントロールを持つオーディオまたはビ�
 AV パターンのレイアウトに含まれる Icon Buttons および Linear Progress Bar のスタイル設定を使用できます。
 
 > [!WARNING]
-> AV レイアウトを挿入した後、Angular コードとして生成するには、パターンを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。
+> AV パターンを挿入した後、Angular コードとして生成するには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。
 
 <img src="../images/av_player_detach.png" />
 <img src="../images/av_volume_detach.png" />
