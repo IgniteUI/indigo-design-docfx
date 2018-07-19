@@ -15,7 +15,7 @@ This topic describes the process of downloading and adding the Indigo Design Lib
 
 ### Downloading and Adding the Libraries in Sketch
 
-First, you will need to [Download the Indigo Design Sketch Libraries](TODO-add the link) to yours drive. You will get three Sketch files:
+First, you will need to [Download the Indigo Design Sketch Libraries](https://cloud.indigo.design/resources) to yours drive. You will get three Sketch files:
 
 - Indigo-Styling - the library with all the styling assets such as [Colors](colors.md), [Elevation](elevation.md), [Material Icons](material-icons.md), and [Typography](typography.md). These will allow you to create your own custom themes and brand your designs in the most pleasing and aesthetic way possible.
 - Indigo-Components - the library containing a vast set of Components to layout your intricate design ideas and eventaully, after a few design iterations, generate code assets from. Through the overrides section you can choose from numerous presets compatible with [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular) and our code generation engine.
