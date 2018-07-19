@@ -252,8 +252,8 @@ When a Sketch group has a fixed width, that width value will be applied, otherwi
 ### Centering
 
 The below centering logic only applies to a Sketch Group and no other elements. Further, the Group must be a child of the Artboard or Group that was selected for code generation.  
-All groups that are set up to center must have content. Content could be another group or any other element, except a background color, because it does not count as an element.
-In the below image you can see the selected group, “Inner No Children” only has a Color element set up as the background, so this group will not render. However, if that same Color element was not set up as the background color, it would render the color in the centered group it belongs to.
+All groups that are set up to center must have content. Content could be another group or any other element, _except a background color, because it does not count as an element_.
+In the below image you can see the selected group, “Inner No Children” only has a Color element _set up as the background_, so this group will not render. However, if that same Color element was not set up as the background color, it would render the color in the centered group it belongs to.
 
 <img src="../images/layout_codegen11.png" />
 
@@ -343,7 +343,7 @@ For the Beta release of Code Generation, native Sketch objects such as text, vec
 All text that needs to be generated using this Beta needs to use the Typography symbols from the Indigo-Styling library.
 Designers should use elements from the Indigo-Components and Indigo-Styling libraries only.
 From Indigo-Styling only the Color and Typography element added to an Artboard are supported. The others are ignored for this Beta.
-Sketch Image is supported. The image will be rendered with a fixed height and width of the image in sketch. Note, if the image width extends past the viewable artboard, code generation will not clip the image.
+Sketch Image is supported. The image will be rendered with a fixed height and width of the image in Sketch. Note, if the image width extends past the viewable artboard, code generation will not clip the image. If the Image needs to be pinned or centered, wrap the Image in a Sketch Group and perform the pinning and centering there.
 For this Beta release of code generation and Indigo.Design UI Kit, text elements do not always have a pixel perfect vertical alignment. This is limitation that we hope to resolve in the future. Developers will need to examine the generated component at runtime and make a slight CSS margin-top adjustment.
 
 On a rare occasion Sketch allows child elements to extend past the parent Group bounding box. If an error is returned stating that a margin was negative, have the designer perform the following to correct:
