@@ -15,7 +15,7 @@ User Profile パターンを使用すると、全画面表示の詳細ページ�
 User Profile パターンの編集可能なバリアントもあります。User Profile パターンは、レイアウトに含まれる Avatar、Text、および Input のスタイル設定をカスタマイズできます。
 
 > [!WARNING]
-> ...
+> 利用可能な Profile パターンを挿入し、パターン レイアウトを処理する挿入したパターンに基づいて `💡State` または `💡Type` の `Override` 設定を選択した後、`Detach from Symbol` をトリガーします。パターンを Angular コードとして生成するために `💡State` または `💡Type` シンボルでこの操作を繰り返します。ただし、デタッチされた `💡State` または `💡Type` に配置される様々なコンポーネントをデタッチしないでください。
 
 <img src="../images/profile_detach.png" />
 

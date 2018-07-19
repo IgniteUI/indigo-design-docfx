@@ -53,7 +53,7 @@ Inputs オーバーライドで選択可能な新規フォームの 2 種類が�
 <img src="../images/form_cash.png" srcset="../images/form_cash@2x.png 2x" />
 
 > [!WARNING]
-> ...
+> 利用可能な Form パターンを挿入後、Inputs および Actions レイアウト領域に分割するために `Detach from Symbol` をトリガーします。`Override` セクションから 2 つの領域の適切なレイアウトを選択後、各領域で `Detach from Symbol` をトリガーします。最後に Actions の下の `Items` をデタッチします。Inputs の下の Input コンポーネントおよび各デタッチされた Action Item の下の Components をデタッチしないでください。
 
 <img src="../images/form_detach.png" />
 
