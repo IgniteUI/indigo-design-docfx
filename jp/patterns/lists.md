@@ -16,7 +16,7 @@ Lists パターン シンボルは、フィルター可能な設定、人、ミ�
 Lists パターンは List Item の様々なタイプおよび (ある場合) Searchbar Input のスタイル設定をカスタマイズできます。
 
 > [!WARNING]
-> ...
+> 利用可能な任意の List パターンを挿入後、Angular コードとして生成するには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。Products または Settings などの List タイプは List のタイプの選択のための `Override` プロパティを提供します。タイプを選択した後、`💡Type` で `Detach from Symbol` をトリガーします。各 List Item、背景、およびデータ バインディング レイヤーはデタッチしないでください。
 
 <img src="../images/lists_detach.png" />
 
