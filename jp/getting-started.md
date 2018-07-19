@@ -16,7 +16,7 @@ _language: ja
 
 ### ライブラリのダウンロードおよび Sketch への追加
 
-最初に Indigo Design Sketch ライブラリをコンピューターにダウンロードします。Sketch の 3 ファイルがダウンロードされます。
+最初に [Indigo Design Sketch ライブラリ](https://cloud.indigo.design/resources)をコンピューターにダウンロードします。Sketch の 3 ファイルがダウンロードされます。
 
 - Indigo-Styling - [Colors](colors.md)、[Elevation](elevation.md)、[Material Icons](material-icons.md)、および [Typography](typography.md) などのすべてのスタイル アセットを含むライブラリ。このライブラリを使用してカスタム テーマを作成し、デザインをブランディングに合わせてカスタマイズできます。
 - Indigo-Components - デザインに含むコンポーネントのライブラリ。デザインの完了後、このコンポーネントからコードを生成できます。Overrides セクションで [Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) およびコード生成エンジンと互換性のあるプリセットを選択できます。
