@@ -16,11 +16,7 @@ As you may have already seen in the other topics `Detach from Symbol` usually re
 
 With [Sketch 51](https://www.sketchapp.com/updates/#version-51) a new concept for Library Styles has been introduced that will boost your productivity with Styling and Typography.
 
-> [!WARNING]
-> The Indigo.Design UI Kit currently does not support Text Styles and Layer Styles for code generation. Any elements using this functionality will not be generated.
-> <img src="../images/library_styles.png" />
-
-> [!INFO]
+> [!Note]
 > The next release will feature improvements to the Typography along the lines of recent updates to the Material Guidelines and full support for Text Styles and Layer Styles in the UI Kit and for code generation.
 
 ### Getting Invalid Overrides
@@ -42,7 +38,7 @@ In Sketch, there are two ways to insert images:
 
 Since code generation does not currently render Sketch shapes, use only the first method with Indigo.Design. The image will be generated with the dimensions defined in the Sketch file, and will not be responsive.
 
-> [!INFO]
+> [!Note]
 > The next release will feature an Image Component that will generate code for responsive images.
 
 ## Additional Resources
