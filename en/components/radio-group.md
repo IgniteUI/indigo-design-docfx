@@ -45,7 +45,7 @@ When extending a Radio Group with additional items, make sure that they are all 
 When colors or fonts are specified for the Radio Group, the Radio Group HTML element will be wrapped in a div. this is required by browsers to style a nested component (a component within another component).
 
 > [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Radio Group will reduce the accuracy of code generation for the Radio Group. This is most notable for the layout of the individual Radio Buttons and one will be able to notice the difference in the verticl margins between them, when comparing his Sketch drawing and the generated layout in Angular. Use the `Detach from Symbol` only if it is absolutely necessary to create more items than provided, otherwise just hide them setting them to none, and make sure you keep the `🚫radio-group`, `🕹️DataProperty` and `🕹️DataSource` layers intact. Once the code is generated, the margins should be adjusted in the CSS to match the design.
+> Triggering `Detach from Symbol` on an instance of the Radio Group will reduce the accuracy of code generation for the Radio Group. This is most notable for the layout of the individual Radio Buttons and one will be able to notice the difference in the vertical margins between them, when comparing his Sketch drawing and the generated layout in Angular. Use the `Detach from Symbol` only if it is absolutely necessary to create more items than provided, otherwise just hide them by setting them to none, and make sure you keep the `🚫radio-group`, `🕹️DataProperty` and `🕹️DataSource` layers intact. Once the code is generated, the margins should be adjusted in the CSS to match the design.
 
 ### Data Bindings
 
