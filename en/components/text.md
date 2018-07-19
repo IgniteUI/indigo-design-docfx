@@ -33,12 +33,12 @@ Text Titles come in six preset sizes from the largest H1 to the much smaller **H
 After inserting a Title, make sure to give it a correct height for the chosen size.
 | Size | Pixel Height |
 | -- | ----- |
-| H1 | 172px |
-| H2 | 86px |
-| H3 | 70px |
-| H4 | 56px |
-| H5 | 38px |
-| H6 | 34px |
+| H1 | 170px |
+| H2 | 85px |
+| H3 | 68px |
+| H4 | 42px |
+| H5 | 36px |
+| H6 | 31px |
 
 ### Paragraph Sizes
 
@@ -51,9 +51,9 @@ Text Paragraphs come in three preset sizes: a larger **Body 1**, a smaller Body 
 After inserting a Paragraph, make sure to give it a correct height for the chosen size and according to the length of the text content. If the Paragraph spans multiple lines of text multiply the value from the table below with the number of lines you have.
 | Size | Pixel Height |
 | ------- | ------------ |
-| Body 1 | 26px |
-| Body 2 | 22px |
-| Caption | 22px |
+| Body 1 | 24px |
+| Body 2 | 21px |
+| Caption | 19px |
 
 ### Styling
 
