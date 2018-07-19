@@ -15,14 +15,16 @@ The reason a whole Artboard is rarely selected for code generation is that Sketc
 The below two images are examples of what a developer would select for code generation.
 
 In the below image the developer would select the Sketch Group `peopleEdit` for code generation. The other elements are chrome used by the designer to show the application and components in context.
+
 <img src="../images/layout_codegen_people1.png" />
 
 In the below image the developer would select the Sketch Groups `peopleList` and `peopleDetails` for code generation, ignoring the navigation chrome elements.
+
 <img src="../images/layout_codegen_people2.png" />
 
 ### Component Sizing
 
-> [!INFO]
+> [!Note]
 > Artboards in Sketch do not have fixed height or fixed width settings so this section on Component Sizing only applies to a Group that has been selected for code generation.
 
 When a Group is selected for component code generation and the Group has a fixed height and or a fixed width, those fixed size values will be added to the generated component CSS.
@@ -77,7 +79,7 @@ Sketch designers can group elements to get the Sketch and code generation behavi
 For each container element (Artboard or Group) code generation sorts all child elements by their Y axis value and then their X axis value. For each Group that is a child of an Artboard or a Group, the same processing will occur for that Group.
 Sorting by the Y axis allows code generation to group elements with the same or similar Y axis value into Flexbox rows. “Same or similar Y axis value” means elements that intersect each other on the horizontal axis.
 
-> [!INFO]
+> [!Note]
 > Items in a code generated row will have the pinned right and pinned bottom attributes set to false. Designers requiring blocks of elements to be pinned right or bottom, need to put those elements inside a Sketch group and pin the group as required.
 
 In the below drawing, the two “Row A” buttons demonstrate this. The two “Row B” buttons are another example. The below drawing will yield HTML with three divs. One parent div, one child div for “Row A”, and one child div for “Row B.” No div will be created for “Row C” because there is only one child in the row, so there is no reason to create an additional div.
@@ -257,7 +259,7 @@ In the below image you can see the selected group, “Inner No Children” only 
 
 <img src="../images/layout_codegen11.png" />
 
-> [!INFO]
+> [!Note]
 > If a Group was selected as the component for code generation and has fixed height or width, the below centering logic does not apply because centering is performed by the parent in layout.
 
 ### Vertical
