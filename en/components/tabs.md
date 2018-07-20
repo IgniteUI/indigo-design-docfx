@@ -51,18 +51,69 @@ The Tabs provide basic styling capabilities achievable through changing the text
 
 The Tabs are appropriate for organizing information, and one should avoid using them as a way to design workflows and actions that come in a logical sequence, e.g. checkout process or configuration wizard. When using the short Tabs, never combine a text tab with an icon tab in the same bar. Choose one of the two content modes and use it consistently for all the items in the bar.
 
-| Do                          | Don't                         |
-| --------------------------- | ----------------------------- |
+| Do                                                                         | Don't                                                                          |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | <img src="../images/tabs_do1.png" srcset="../images/tabs_do1@2x.png 2x" /> | <img src="../images/tabs_dont1.png" srcset="../images/tabs_dont1@2x.png 2x" /> |
 | <img src="../images/tabs_do2.png" srcset="../images/tabs_do2@2x.png 2x" /> | <img src="../images/tabs_dont2.png" srcset="../images/tabs_dont2@2x.png 2x" /> |
 
 ## Code generation
 
+When colors or fonts are specified for the Tabs, the Tabs HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component). Styles for the active tab are gathered from the first active tab parsed. Other tab styles are gathered from the first inactive tab parsed.
+
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Tabs in your design is very likely to result in loss of code generation capability for the Tabs.
 
-`🕹️DataSource`
-`🕹️Event`
+### Data Bindings
+
+Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+
+#### Not Nested
+
+```typescript
+Customer {
+  imageName: String;
+}
+```
+
+DataProperty would be: `{imageName}`
+
+#### Nested
+
+```typescript
+Profile {
+  imageName: String;
+}
+
+Customer {
+  profile: Profile;
+}
+```
+
+DataProperty would be: `{profile.imageName}`
+
+### Event Property
+
+When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an `onTabItemSelected` signature in the HTML. When supplied the event must be specified using the curly braces format: `{onEventName}`.
+
+### Responsive
+
+When supplied, the Responsive determines the sizing mode of the tabs. When None is set the Tabs will not render.
+
+### Tabs Amount
+
+When supplied, the Tabs Amount determines the number of tabs to be rendered. When None is set the Tabs will not render.
+
+### Type
+
+When supplied, the Type determines if the tab will render an Icon or Text. Only used for the short tabs. If the Type on all Tabs is set to None the Tabs control will not render.
+
+### Text
+
+The Text properties may contain text, binding, or a combination of the two, examples:
+
+- Settings
+- {settingsLabel}
+- Important {labelText}
 
 ## Additional Resources
 
