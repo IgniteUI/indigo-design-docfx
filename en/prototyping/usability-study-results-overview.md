@@ -12,12 +12,12 @@ Once you [set up your usability study][1] and there are some participants, you c
 * [Task report][a-2]
 * [Session recording viewer][a-3]
 
-## (a-1) Study overview report
+## Study overview report
 
 It shows information for all the tasks in your study.
 
 <div class="divider--half"></div>
-<img src="images/Usability_Study_Results_Overview_1.png" srcset="images/Usability_Study_Results_Overview_1@2x.png 2x" />
+<img src="../images/Usability_Study_Results_Overview_1.png" srcset="../images/Usability_Study_Results_Overview_1@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -32,12 +32,12 @@ For each task you can see:
 
 Clicking on a task will show a detailed report.
 
-##  (a-2) Task report
+## Task report
 
 It shows the metrics for each participant.
 
 <div class="divider--half"></div>
-<img src="images/Usability_Study_Results_Overview_2.png" srcset="images/Usability_Study_Results_Overview_2@2x.png 2x" />
+<img src="../images/Usability_Study_Results_Overview_2.png" srcset="../images/Usability_Study_Results_Overview_2@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -59,7 +59,7 @@ if there's a *Play* option listed for the participant, you can watch a recording
 For most tasks, participants can complete the task any way they want, not just following the flow recorded when creating the task. For these tasks the report shows different categories of flows.
 
 <div class="divider--half"></div>
-<img src="images/Usability_Study_Results_Overview_3.png" srcset="images/Usability_Study_Results_Overview_3@2x.png 2x" />
+<img src="../images/Usability_Study_Results_Overview_3.png" srcset="../images/Usability_Study_Results_Overview_3@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -71,10 +71,10 @@ For most tasks, participants can complete the task any way they want, not just f
 * **Unique flow:** different from the recorded flow and used by only 1 participant
 
 
-##  (a-3) Session recording viewer
+## Session recording viewer
 
 <div class="divider--half"></div>
-<img src="images/Understanding_The_Usability_Study_Report_3.png" srcset="images/Understanding_The_Usability_Study_Report_3@2x.png 2x" />
+<img src="../images/Understanding_The_Usability_Study_Report_3.png" srcset="../images/Understanding_The_Usability_Study_Report_3@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -92,7 +92,7 @@ Use markers to jump straight to the portion you're interested in.
 ### Navigation
 
 <div class="divider--half"></div>
-<img src="images/Understanding_The_Usability_Study_Report_4.png" srcset="images/Understanding_The_Usability_Study_Report_4@2x.png 2x" />
+<img src="../images/Understanding_The_Usability_Study_Report_4.png" srcset="../images/Understanding_The_Usability_Study_Report_4@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -108,7 +108,7 @@ Switch between participants or tasks using the dropdown and navigation on top or
 As you are reviewing the video, you can add notes to record your observations. This will add a note marker to the timeline. You can uncheck the checkbox with the timestamp and the marker won't be added.
 
 <div class="divider--half"></div>
-<img src="images/Understanding_The_Usability_Study_Report_5.png" srcset="images/Understanding_The_Usability_Study_Report_5@2x.png 2x" />
+<img src="../images/Understanding_The_Usability_Study_Report_5.png" srcset="../images/Understanding_The_Usability_Study_Report_5@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -122,7 +122,7 @@ If the usability study belongs to a group workspace, members will have access to
 To download the video, click on the gear icon in the bottom right corner and select download.
 
 <div class="divider--half"></div>
-<img src="images/Understanding_The_Usability_Study_Report_6.png" srcset="images/Understanding_The_Usability_Study_Report_6@2x.png 2x" />
+<img src="../images/Understanding_The_Usability_Study_Report_6.png" srcset="../images/Understanding_The_Usability_Study_Report_6@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>

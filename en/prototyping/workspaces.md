@@ -24,7 +24,7 @@ Or watch our videos on [how to create group workspaces][video-1] and [how to col
 Expand the workspaces dropdown and click the `Create a group workspace` option.
 
 <div class="divider--half"></div>
-<img src="images/Workspaces_1.png" srcset="images/Workspaces_1@2x.png 2x" />
+<img src="../images/Workspaces_1.png" srcset="../images/Workspaces_1@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -38,7 +38,7 @@ If you already share workspaces with them, they'll show up on a list. You can se
 Otherwise, they'll get an invite to join the workspace via email.
 
 <div class="divider--half"></div>
-<img src="images/Workspaces_2.png" srcset="images/Workspaces_2@2x.png 2x" />
+<img src="../images/Workspaces_2.png" srcset="../images/Workspaces_2@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -56,7 +56,7 @@ You'll see all the prototypes belonging to that workspace.
 Once you select a workspace, any prototypes you create and publish will belong to that workspace. 
 
 <div class="divider--half"></div>
-<img src="images/Workspaces_3.png" srcset="images/Workspaces_3@2x.png 2x" />
+<img src="../images/Workspaces_3.png" srcset="../images/Workspaces_3@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -70,7 +70,7 @@ Once you select a workspace, any prototypes you create and publish will belong t
 Select the workspace from the workspaces dropdown and click on the gear icon.
 
 <div class="divider--half"></div>
-<img src="images/Workspaces_4.png" srcset="images/Workspaces_4@2x.png 2x" />
+<img src="../images/Workspaces_4.png" srcset="../images/Workspaces_4@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>

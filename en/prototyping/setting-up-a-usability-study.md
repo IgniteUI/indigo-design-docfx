@@ -9,7 +9,7 @@ _keywords: UX Design, Prototyping, Commenting, Usability studies, User testing
 At the end of this topic you'll have a usability study based on a published prototype. Learn about [how to create and publish a prototype][topic-1].
 
 <div class="divider--half"></div>
-<img src="images/Setting_Up_a_Usability_Study_1.png" srcset="images/Setting_Up_a_Usability_Study_1@2x.png 2x" />
+<img src="../images/Setting_Up_a_Usability_Study_1.png" srcset="../images/Setting_Up_a_Usability_Study_1@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -33,7 +33,7 @@ You can also check out our video tutorial.
 1. Select the published prototype to see its details.
 
     <div class="divider--half"></div>
-    <img src="images/Setting_Up_a_Usability_Study_2.png" srcset="images/Setting_Up_a_Usability_Study_2@2x.png 2x" />
+    <img src="../images/Setting_Up_a_Usability_Study_2.png" srcset="../images/Setting_Up_a_Usability_Study_2@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -48,7 +48,7 @@ You can also check out our video tutorial.
     For the thank you page content you can suggest future actions for participants completing the study. For example, asking them to go complete a post-study survey.
 
     <div class="divider--half"></div>
-    <img src="images/Setting_Up_a_Usability_Study_3.png" srcset="images/Setting_Up_a_Usability_Study_3@2x.png 2x" />
+    <img src="../images/Setting_Up_a_Usability_Study_3.png" srcset="../images/Setting_Up_a_Usability_Study_3@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -64,7 +64,7 @@ You need at least one task to start a study.
 1. To add a task, click on `Add a new task`. Then, add a description.
 
     <div class="divider--half"></div>
-    <img src="images/Setting_Up_a_Usability_Study_4.png" srcset="images/Setting_Up_a_Usability_Study_4@2x.png 2x" />
+    <img src="../images/Setting_Up_a_Usability_Study_4.png" srcset="../images/Setting_Up_a_Usability_Study_4@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -83,7 +83,7 @@ You need at least one task to start a study.
     By default, you'll view the start state first. Depending on the task, you may select any state as the starting point.
 
     <div class="divider--half"></div>
-    <img src="images/Setting_Up_a_Usability_Study_5.png" srcset="images/Setting_Up_a_Usability_Study_5@2x.png 2x" />
+    <img src="../images/Setting_Up_a_Usability_Study_5.png" srcset="../images/Setting_Up_a_Usability_Study_5@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -106,7 +106,7 @@ You need at least one task to start a study.
 ### (a-4) 4. Invite participants
 
 <div class="divider--half"></div>
-<img src="images/Setting_Up_a_Usability_Study_6.png" srcset="images/Setting_Up_a_Usability_Study_6@2x.png 2x" />
+<img src="../images/Setting_Up_a_Usability_Study_6.png" srcset="../images/Setting_Up_a_Usability_Study_6@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
