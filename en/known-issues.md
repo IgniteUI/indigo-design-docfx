@@ -41,6 +41,20 @@ Since code generation does not currently render Sketch shapes, use only the firs
 > [!Note]
 > The next release will feature an Image Component that will generate code for responsive images.
 
+### Currently Not Supported
+
+The following Sketch components are not implemented for code generation just yet:
+
+* Button Group
+* Bottom Navigation
+* Cards
+* Navigation -> NavBar
+* Navigation -> NavDrawer
+* Calendar
+
+> [!Note]
+> Future releases will include these components.
+
 ## Additional Resources
 
 Related topics:
