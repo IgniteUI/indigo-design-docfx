@@ -1,0 +1,37 @@
+---
+title: Installing the Indigo.Design Visual Studio Code Extension
+_description: Installing the Visual Studio Code Generator Extension for Angular Code Generation in Indigo.Design.
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+---
+
+### Installing the Extension
+
+Before you can install the VS Code Extension, please make sure you have Visual Studio Code installed.  To generate code and run Angular apps, you also need Node.js installed.  You can get both from the links here:
+
+1) NodeJS:  Download and install from https://nodejs.org/en/download/ 
+2) Visual Studio Code: Download and install from https://code.visualstudio.com/download 
+
+#### Step-by-Step 
+
+
+	1) Unzip the package to your hard drive 
+
+	3) Once Visual Studio Code is open, select "View" then "Extensions" from the main menu
+	
+	<img src="../images/vs-code-extension-drop-down.png" />
+
+	4) In the Extensions pane, click the More Options button (the three horizontal dots) in the upper right
+
+	5) Select "Install from VSIX" from the dropdown menu 
+	
+	<img src="../images/vs-code-install-vsix.png" />
+
+	6) Browse to the location of the unzipped file you downloaded to select the VS Code Extension
+	
+	<img src="../images/vs-code-select-vsix.png" />
+
+The extension is now installed on your machine.
+
+	<img src="../images/vs-code-generator-installed.png" />
+	
+	
