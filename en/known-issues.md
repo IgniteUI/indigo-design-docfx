@@ -38,6 +38,8 @@ In Sketch, there are two ways to insert images:
 
 Since code generation does not currently render Sketch shapes, use only the first method with Indigo.Design. The image will be generated with the dimensions defined in the Sketch file, and will not be responsive.
 
+Also in this version, images that are used as backgrounds for content will not be code generated as a background but as a normal image element.  Image elements in HTML are inline-block elements so they will not render behind the content but instead beside the content.  For now developers will have to adjust the generated code to convert the image to a background but we will address this in future versions.
+
 > [!Note]
 > The next release will feature an Image Component that will generate code for responsive images.
 
