@@ -57,6 +57,65 @@ Tab は情報の体系化に適しいますが、ワークフローのデザイ�
 | <img src="../images/tabs_do1.png" srcset="../images/tabs_do1@2x.png 2x" /> | <img src="../images/tabs_dont1.png" srcset="../images/tabs_dont1@2x.png 2x" /> |
 | <img src="../images/tabs_do2.png" srcset="../images/tabs_do2@2x.png 2x" /> | <img src="../images/tabs_dont2.png" srcset="../images/tabs_dont2@2x.png 2x" /> |
 
+## コードの生成
+ 
+Tabs の色またはフォントを指定した場合、Tabs HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。アクティブ タブのスタイル設定が最初の解析されたアクティブ タブから取得されます。その他のタブのスタイル設定が最初の解析された非アクティブ タブから取得されます。
+
+> [!WARNING]
+> デザインの Tabs のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Tabs のためのコード生成機能が失われる結果となります。
+
+### データ バインディング
+
+データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
+
+#### ネストなし
+
+```typescript
+Customer {
+  imageName: String;
+}
+```
+
+DataProperty: `{imageName}`
+
+#### ネストあり
+
+```typescript
+Profile {
+  imageName: String;
+}
+
+Customer {
+  profile: Profile;
+}
+```
+
+DataProperty: `{profile.imageName}`
+
+### Event プロパティ
+
+`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に `onTabItemSelected` シグネチャを追加します。波括弧構文 `({onEventName})` を使用してイベントを指定する必要があります。
+
+### レスポンシブ
+
+Responsive プロパティが提供された場合、タブのサイズ モードを決定します。None に設定される場合、タブは描画しません。
+
+### タブの量
+
+Tabs Amount プロパティが提供された場合、描画するタブ数を決定します。None に設定される場合、タブは描画しません。
+
+### 型
+
+Type プロパティが提供された場合、タブがアイコンまたはテキストを描画するかどうかを決定します。短いタブのみに使用されます。すべてのタブの Type を None に設定した場合、タブ コントロールを描画しません。
+
+### テキスト
+
+Text プロパティには、テキスト、バインディング、またはその両方を含むことができます。例:
+
+- 設定
+- {settingsLabel}
+- 重要な {labelText}
+
 ## その他のリソース
 
 関連トピック:
