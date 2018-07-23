@@ -17,6 +17,7 @@
             },
             {
                 "files": [
+                    "prototyping/**.md",
                     "codegen/**.md",
                     "components/**.md",
                     "patterns/**.md",
