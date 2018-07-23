@@ -92,7 +92,13 @@ The Google's Material Icon set should also be included as many of the Ignite UI 
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 ```
 
-If you used the Infragistics VS Code Extension to update your project this will have already been done for you. If it sees that these imports do not exist in your `styles.scss` file then it will include a new file called `ig.scss` in the project and the project will now reference this along with `styles.scss`.
+All of our sketch components use the [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) font so it is recommended that you include this font as well.
+
+```scss
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+```
+
+If you used the Infragistics VS Code Extension to update your project this will have already been done for you. If it notices that these imports do not exist in your `styles.scss` file then it will include a new file called `ig.scss` in the project and the project will be updated to reference this along with `styles.scss`.
 
 ### Styling
 
