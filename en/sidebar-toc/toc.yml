@@ -120,6 +120,8 @@
 
 - name: Code Generation
   header: true
+- name: Installing the Visual Studio Code Extension
+  href: ../codegen/installing-vs-code-extension.md
 - name: Layout Generation
   href: ../codegen/layout-codegen.md
 - name: After Code Generation
