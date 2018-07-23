@@ -45,7 +45,7 @@ Also in this version, images that are used as backgrounds for content will not b
 
 ### Currently Not Supported
 
-The following Sketch components are not implemented for code generation just yet:
+The following Indigo.Design components are not implemented for code generation yet:
 
 * Button Group
 * Bottom Navigation
@@ -54,8 +54,20 @@ The following Sketch components are not implemented for code generation just yet
 * Navigation -> NavDrawer
 * Calendar
 
+The following Sketch components are not implemented for code generation yet:
+
+* Shape
+* Vector
+* Pencil
+* Text
+* Mask
+
 > [!Note]
 > Future releases will include these components.
+
+### Form Patterns and Code Generation
+
+If you use a Form from the Indigo.Design Patterns library and have detached the symbols all the way down to the base level Indigo.Design components we will be able to code generate these however Button text will not display the same as they appear in the Sketch.  We are working to resolve this but for now developers will need to adjust the text after the code is generated.
 
 ## Additional Resources
 
