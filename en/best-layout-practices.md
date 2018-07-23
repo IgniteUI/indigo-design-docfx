@@ -1,14 +1,14 @@
 ---
-title: Best Layout Practices - Design System
+title: Layout Best Practices - Design System
 _description: Best practices regarding layout creation in Sketch and resizing configurations that result in the desired responsive behavior both in Sketch and Angular apps after code generation. 
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Best Layout Practices
+## Layout Best Practices
 
 This topic provides design guidance regarding the positioning of Components in your app layouts and the setting of proper resizing rules to assure proper responsive app design. By sticking to the recommendations below you will be able to effortlessly generate an Angular app with the responsive behavior specified in Sketch.
 
-> [!INFO]
+> [!Note]
 > Inputs, Radio Buttons, Sliders, Checkboxes, Hyperlinks, Switches, Progress Bars, Toasts, Snackbars, Avatars, Dialogs, Icons, and Title and Paragraph Texts have a preset height that is controlled by the layout of the component or its font size in the case of text-based components. It is recommended to use the default height of each of these components and fix it in Sketch since it will work fine for the vast majority of scenarios.
 
 <img src="images/one_fix_height.png" srcset="images/one_fix_height@2x.png 2x" />
