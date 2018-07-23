@@ -1,3 +1,5 @@
+- name: Overview
+  header: true
 - name: Getting Started
   href: ../getting-started.md
 - name: Creating Your First Artboard
