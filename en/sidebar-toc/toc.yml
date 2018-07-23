@@ -4,9 +4,9 @@
   href: ../getting-started.md
 - name: Creating Your First Artboard
   href: ../creating-an-artboard.md
- - name: Best Layout Practices
+- name: Best Layout Practices
   href: ../best-layout-practices.md
- - name: Installing the VS Code Extension
+- name: Installing the VS Code Extension
   href: ../codegen/installing-vs-code-extension.md
   
 - name: Prototyping
