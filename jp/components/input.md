@@ -130,7 +130,7 @@ DataProperty: `{profile.imageName}`
 
 ### DataProperty
 
-`🕹️DataProperty` 値は Angular Reactive Forms を使用して入力の value プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。提供された場合、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名になります。
+`🕹️DataProperty` 値は Angular Reactive Forms を使用して入力の value プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名になります。
 
 ### 日付と時刻の入力
 

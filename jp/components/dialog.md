@@ -90,7 +90,7 @@ LEFT ボタンに `🕹️Event` を指定せず、LEFT ボタン テキスト�
 
 ### ボタン イベント
 
-各ボタンに `🕹️Event` プロパティがあります。提供された場合、対応するボタンが描画されるときに onLeftButtonSelect と onRightButtonSelect イベントが出力されます。また、JavaScript の $event 引数は HTML 定義および TypeScript メソッド定義に追加されます。
+各ボタンに `🕹️Event` プロパティがあります。対応するボタンが描画されるときに onLeftButtonSelect と onRightButtonSelect イベントが出力されます。また、JavaScript の $event 引数は HTML 定義および TypeScript メソッド定義に追加されます。
 
 ### イベント
 
