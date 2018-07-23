@@ -1,8 +1,14 @@
+- name: Overview
+  header: true
 - name: Getting Started
   href: ../getting-started.md
 - name: Creating Your First Artboard
   href: ../creating-an-artboard.md
-
+ - name: Best Layout Practices
+  href: ../best-layout-practices.md
+ - name: Installing the VS Code Extension
+  href: ../codegen/installing-vs-code-extension.md
+  
 - name: Prototyping
   header: true
 - name: Creating Your First Prototype
@@ -128,20 +134,16 @@
 - name: User Profile
   href: ../patterns/user-profile.md
 
-- name: More Resources
-  header: true
-- name: Best Layout Practices
-  href: ../best-layout-practices.md
-- name: Known Issues
-  href: ../known-issues.md
-
 - name: Code Generation
   header: true
-- name: Installing the Visual Studio Code Extension
-  href: ../codegen/installing-vs-code-extension.md
 - name: Layout Generation
   href: ../codegen/layout-codegen.md
 - name: After Code Generation
   href: ../codegen/after-codegen.md
-- name: Code Generator Plugin for VS Code
+- name: Using the Code Generator Plugin
   href: ../codegen/vscode-plugin.md
+
+- name: More Resources
+  header: true
+- name: Known Issues
+  href: ../known-issues.md
