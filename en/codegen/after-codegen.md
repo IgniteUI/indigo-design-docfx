@@ -39,7 +39,7 @@ RouterModule.forChild(routes);
 
 So with a [RouterOutlet](https://angular.io/api/router/RouterOutlet) in place you can run the application using `npm start` in terminal and then navigate to the website in your browser, appending the name of the component to the url.
 
-<img src="../images/address-nav.png" srcset="../images/address-nav@2x.png 2x" />
+<img src="../images/address-nav.png" />
 
 This gives a good starting point for developers. From here it is expected that developers will change the routes to fit their application criteria. It is also expected that developers will write some code to trigger navigation based on certain actions such as a button click.
 
@@ -95,7 +95,7 @@ The Google's Material Icon set should also be included as many of the Ignite UI 
 All of our sketch components use the [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) font so it is recommended that you include this font as well.
 
 ```scss
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
 ```
 
 If you used the Infragistics VS Code Extension to update your project this will have already been done for you. If it notices that these imports do not exist in your `styles.scss` file then it will include a new file called `ig.scss` in the project and the project will be updated to reference this along with `styles.scss`.

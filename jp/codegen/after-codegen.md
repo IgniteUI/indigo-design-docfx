@@ -40,7 +40,7 @@ RouterModule.forChild(routes);
 
 [RouterOutlet](https://angular.io/api/router/RouterOutlet) を追加した後、ターミナルで `npm start` を使用してアプリケーションを実行します。ブラウザーで URL にコンポーネント名を追加してサイトに移動します。
 
-<img src="../images/address-nav.png" srcset="../images/address-nav@2x.png 2x" />
+<img src="../images/address-nav.png" />
 
 ここが開発の開始ポイントとなります。ここから開発者がアプリケーション要件に合わせるためにルートを変更できます。ボタン クリックなどの操作に基づいてナビゲーションをトリガーするコードを追加します。
 
