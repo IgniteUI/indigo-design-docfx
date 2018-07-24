@@ -1,147 +1,152 @@
 - name: Overview
   header: true
 - name: Getting Started
-  href: ../getting-started.md
+  href: ../getting-started-alt.md
+- name: Video Tutorials
+  href: ../video-tutorials.md
+  
+- name: Using the Design System
+  header: true
 - name: Creating Your First Artboard
   href: ../creating-an-artboard.md
-- name: Best Layout Practices
+- name: Styling
+  header: true
+  items:
+    - name: Overview
+      href: ../style/styling-overview.md
+    - name: Colors
+      href: ../style/colors.md
+    - name: Elevation
+      href: ../style/elevation.md
+    - name: Material Icons
+      href: ../style/material-icons.md
+    - name: Typography
+      href: ../style/typography.md
+- name: Components
+  header: true
+  items:
+    - name: Avatar
+      href: ../components/avatar.md
+    - name: Badge
+      href: ../components/badge.md
+    - name: Bottom Navigation
+      href: ../components/bottom-nav.md
+    - name: Button Group
+      href: ../components/button-group.md
+    - name: Button
+      href: ../components/button.md
+    - name: Calendar
+      href: ../components/calendar.md
+    - name: Cards
+      href: ../components/cards.md
+      items:
+        - name: Custom Card
+          href: ../components/cards-custom.md
+    - name: Carousel
+      href: ../components/carousel.md
+    - name: Category Chart
+      href: ../components/chart-category.md
+    - name: Checkbox
+      href: ../components/checkbox.md
+    - name: Dialog
+      href: ../components/dialog.md
+    - name: Grid
+      href: ../components/grid.md
+      items:
+        - name: Grid Column Pinning
+          href: ../components/grid-column-pinning.md
+        - name: Grid Filter
+          href: ../components/grid-filter.md
+        - name: Grid Paging
+          href: ../components/grid-paging.md
+        - name: Grid Summaries
+          href: ../components/grid-summaries.md
+    - name: Hyperlink
+      href: ../components/hyperlink.md
+    - name: Icon
+      href: ../components/icon.md
+    - name: Input
+      href: ../components/input.md
+    - name: List
+      href: ../components/list.md
+      items:
+        - name: Custom List Item
+          href: ../components/list-custom.md
+    - name: Navbar
+      href: ../components/navbar.md
+    - name: Navigation Drawer
+      href: ../components/nav-drawer.md
+    - name: Progress
+      href: ../components/progress.md
+    - name: Radio Group
+      href: ../components/radio-group.md
+    - name: Slider
+      href: ../components/slider.md
+    - name: Snackbar
+      href: ../components/snackbar.md
+    - name: Switch
+      href: ../components/switch.md
+    - name: Tabs
+      href: ../components/tabs.md
+    - name: Text
+      href: ../components/text.md
+    - name: Time Picker
+      href: ../components/time-picker.md
+    - name: Toast
+      href: ../components/toast.md
+- name: Patterns
+  header: true
+  items:
+    - name: Audio / Video
+      href: ../patterns/av.md
+    - name: Avatar + Badge
+      href: ../patterns/avatar-badge.md
+    - name: Card Collection
+      href: ../patterns/card-collection.md
+    - name: Checkbox Group
+      href: ../patterns/checkbox-group.md
+    - name: Details
+      href: ../patterns/details.md
+    - name: File Upload
+      href: ../patterns/file-upload.md
+    - name: Forms
+      href: ../patterns/form.md
+    - name: Gallery
+      href: ../patterns/gallery.md
+    - name: Image Manipulation
+      href: ../patterns/image-manipulation.md
+    - name: Lists
+      href: ../patterns/lists.md
+    - name: User Profile
+      href: ../patterns/user-profile.md
+- name: Responsive layouts
   href: ../best-layout-practices.md
-- name: Installing the VS Code Extension
-  href: ../codegen/installing-vs-code-extension.md
-  
-- name: Prototyping
+
+- name: Prototypes & Usability Studies
   header: true
 - name: Creating Your First Prototype
   href: ../prototyping/creating-a-prototype.md
-- name: Interaction Options
+- name: Additional Interaction Options
   href: ../prototyping/interaction-options.md
-- name: Exchanging Ideas Through Commenting
+- name: Commenting on Prototypes
   href: ../prototyping/commenting.md
 - name: Collaborating with Workspaces
   href: ../prototyping/workspaces.md
 - name: Setting up a Usability Study
   href: ../prototyping/setting-up-a-usability-study.md
-- name: Usability Study Results Overview
+- name: Reviewing Usability Study Results 
   href: ../prototyping/usability-study-results-overview.md
   
-- name: Styling
-  header: true
-- name: Overview
-  href: ../style/styling-overview.md
-- name: Colors
-  href: ../style/colors.md
-- name: Elevation
-  href: ../style/elevation.md
-- name: Material Icons
-  href: ../style/material-icons.md
-- name: Typography
-  href: ../style/typography.md
-
-- name: Components
-  header: true
-- name: Avatar
-  href: ../components/avatar.md
-- name: Badge
-  href: ../components/badge.md
-- name: Bottom Navigation
-  href: ../components/bottom-nav.md
-- name: Button Group
-  href: ../components/button-group.md
-- name: Button
-  href: ../components/button.md
-- name: Calendar
-  href: ../components/calendar.md
-- name: Cards
-  href: ../components/cards.md
-  items:
-    - name: Custom Card
-      href: ../components/cards-custom.md
-- name: Carousel
-  href: ../components/carousel.md
-- name: Category Chart
-  href: ../components/chart-category.md
-- name: Checkbox
-  href: ../components/checkbox.md
-- name: Dialog
-  href: ../components/dialog.md
-- name: Grid
-  href: ../components/grid.md
-  items:
-    - name: Grid Column Pinning
-      href: ../components/grid-column-pinning.md
-    - name: Grid Filter
-      href: ../components/grid-filter.md
-    - name: Grid Paging
-      href: ../components/grid-paging.md
-    - name: Grid Summaries
-      href: ../components/grid-summaries.md
-- name: Hyperlink
-  href: ../components/hyperlink.md
-- name: Icon
-  href: ../components/icon.md
-- name: Input
-  href: ../components/input.md
-- name: List
-  href: ../components/list.md
-  items:
-    - name: Custom List Item
-      href: ../components/list-custom.md
-- name: Navbar
-  href: ../components/navbar.md
-- name: Navigation Drawer
-  href: ../components/nav-drawer.md
-- name: Progress
-  href: ../components/progress.md
-- name: Radio Group
-  href: ../components/radio-group.md
-- name: Slider
-  href: ../components/slider.md
-- name: Snackbar
-  href: ../components/snackbar.md
-- name: Switch
-  href: ../components/switch.md
-- name: Tabs
-  href: ../components/tabs.md
-- name: Text
-  href: ../components/text.md
-- name: Time Picker
-  href: ../components/time-picker.md
-- name: Toast
-  href: ../components/toast.md
-
-- name: Patterns
-  header: true
-- name: Audio / Video
-  href: ../patterns/av.md
-- name: Avatar + Badge
-  href: ../patterns/avatar-badge.md
-- name: Card Collection
-  href: ../patterns/card-collection.md
-- name: Checkbox Group
-  href: ../patterns/checkbox-group.md
-- name: Details
-  href: ../patterns/details.md
-- name: File Upload
-  href: ../patterns/file-upload.md
-- name: Forms
-  href: ../patterns/form.md
-- name: Gallery
-  href: ../patterns/gallery.md
-- name: Image Manipulation
-  href: ../patterns/image-manipulation.md
-- name: Lists
-  href: ../patterns/lists.md
-- name: User Profile
-  href: ../patterns/user-profile.md
-
 - name: Code Generation
   header: true
-- name: Layout Generation
-  href: ../codegen/layout-codegen.md
-- name: After Code Generation
-  href: ../codegen/after-codegen.md
+- name: Installing the VS Code Extension
+  href: ../codegen/installing-vs-code-extension.md
 - name: Using the Code Generator Plugin
   href: ../codegen/vscode-plugin.md
+- name: After Code Generation
+  href: ../codegen/after-codegen.md
+- name: Layout Generation
+  href: ../codegen/layout-codegen.md
 
 - name: More Resources
   header: true
