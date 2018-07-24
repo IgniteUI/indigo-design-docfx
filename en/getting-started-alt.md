@@ -44,5 +44,5 @@ You can generate code for Angular apps directly from published prototypes. To do
 
 Learn more: 
 
-* [Generating code from prototypes](../codegen/vscode-plugin.md)
+* [Generating code from prototypes](../codegen/installing-vs-code-extension.md)
 
