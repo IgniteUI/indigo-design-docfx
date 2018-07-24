@@ -9,7 +9,7 @@ _keywords: Ignite UI for Angular, Angular, Native Angular Components Suite, Nati
 <div class="feature feature--hero">
     <div class="feature__image feature__image">
         <h3> An overview on Indigo.Design</h3>
-        <iframe width="720" height="405" src="https://www.youtube.com/embed/4KCptCeNVFg" frameborder="0" allowfullscreen></iframe>
+        <iframe width="720" height="405" src="https://www.youtube.com/embed/4KCptCeNVFg" frameborder="0" allowfullscreen</iframe>
     </div>
 </div>
 <hr />
@@ -42,7 +42,7 @@ _keywords: Ignite UI for Angular, Angular, Native Angular Components Suite, Nati
             <h4>Getting started with prototypes</h4>
             <iframe width="360" height="203" src="https://www.youtube.com/embed/4KCptCeNVFg" frameborder="0" allowfullscreen></iframe>
         </div>
-     </div>
+    </div>
 </section>
 
 ### Code Generation
@@ -51,31 +51,31 @@ _keywords: Ignite UI for Angular, Angular, Native Angular Components Suite, Nati
     <div class="feature">
         <div class="feature__image feature__image">
             <h4>Installing Indigo.Design Visual Studio extension</h4>
-            <iframe width="800" height="203" src="https://www.youtube.com/embed/4KCptCeNVFg" frameborder="0" allowfullscreen></iframe>
+            <iframe width="360" height="203" src="https://www.youtube.com/embed/4KCptCeNVFg" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="feature__image feature__image">
             <h4>Code generation in Visual Studio Code</h4>
-            <iframe width="800" height="203" src="https://www.youtube.com/embed/4KCptCeNVFg" frameborder="0" allowfullscreen></iframe>
+            <iframe width="360" height="203" src="https://www.youtube.com/embed/4KCptCeNVFg" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="feature__image feature__image">
             <h4>Getting started with Angular download package</h4>
-            <iframe width="800" height="203" src="https://www.youtube.com/embed/4KCptCeNVFg" frameborder="0" allowfullscreen></iframe>
+            <iframe width="360" height="203" src="https://www.youtube.com/embed/4KCptCeNVFg" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="feature__image feature__image">
             <h4>Getting started with Anguar & Ignite UI CLI</h4>
-            <iframe width="800" height="203" src="https://www.youtube.com/embed/4KCptCeNVFg" frameborder="0" allowfullscreen></iframe>
+            <iframe width="360" height="203" src="https://www.youtube.com/embed/4KCptCeNVFg" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="feature__image feature__image">
             <h4>Building your first app with Ignite UI for Angular CLI</h4>
-            <iframe width="800" height="203" src="https://www.youtube.com/embed/4KCptCeNVFg" frameborder="0" allowfullscreen></iframe>
+            <iframe width="360" height="203" src="https://www.youtube.com/embed/4KCptCeNVFg" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="feature__image feature__image">
             <h4>Building & running Budget App</h4>
-            <iframe width="800" height="203" src="https://www.youtube.com/embed/4KCptCeNVFg" frameborder="0" allowfullscreen></iframe>
+            <iframe width="360" height="203" src="https://www.youtube.com/embed/4KCptCeNVFg" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="feature__image feature__image">
             <h4>Building and running People App</h4>
-            <iframe width="720" height="203" src="https://www.youtube.com/embed/4KCptCeNVFg" frameborder="0" allowfullscreen></iframe>
+            <iframe width="360" height="203" src="https://www.youtube.com/embed/4KCptCeNVFg" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 </section>
