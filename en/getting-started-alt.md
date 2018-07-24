@@ -24,7 +24,6 @@ The design system consists of three Sketch libraries files that work together to
 
 Learn more: 
 
-* [Installing & Using Sketch UI Kit](../install-use-sketchUIKit.md)
 * [Create your first Sketch artboard](../creating-an-artboard.md)
 
 #### 2. Prototyping & Usability Testing
