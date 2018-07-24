@@ -9,7 +9,7 @@
   header: true
 - name: Creating Your First Artboard
   href: ../creating-an-artboard.md
-- Styling
+- name: Styling
   header: true
   items:
     - name: Overview
@@ -22,7 +22,7 @@
       href: ../style/material-icons.md
     - name: Typography
       href: ../style/typography.md
-- Components
+- name: Components
   header: true
   items:
     - name: Avatar
@@ -94,7 +94,7 @@
       href: ../components/time-picker.md
     - name: Toast
       href: ../components/toast.md
-- Patterns
+- name: Patterns
   header: true
   items:
     - name: Audio / Video
@@ -119,7 +119,7 @@
       href: ../patterns/lists.md
     - name: User Profile
       href: ../patterns/user-profile.md
-- Responsive layouts
+- name: Responsive layouts
   href: ../best-layout-practices.md
 
 - name: Prototypes & Usability Studies
