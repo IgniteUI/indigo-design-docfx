@@ -140,7 +140,7 @@ Pick any of these durations for transitions between screens.
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 
-[topic-1]: creating-a-prototype
+[topic-1]: creating-a-prototype.md
 
 [a-1]: #hotspots
 [a-2]: #user-actions

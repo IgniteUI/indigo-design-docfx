@@ -55,7 +55,8 @@ You can also check out our video tutorial.
     <div class="divider--half"></div>
     <div class="divider--half"></div>
 
-<div class="tip">Select `Usability Studies` in the navigation bar while signed in to see and manage all your studies.</div>
+> [!Note]
+>Select `Usability Studies` in the navigation bar while signed in to see and manage all your studies.
 
 ### (a-3) 3. Define tasks
 
@@ -124,8 +125,8 @@ When you are happy with the number of participants, you can close the study to p
 
 Read about [usability studies results][topic-2].
 
-[topic-1]: create-a-prototype
-[topic-2]: usability-study-results-overview
+[topic-1]: create-a-prototype.md
+[topic-2]: usability-study-results-overview.md
 
 [a-1]: #1-create-a-usability-study
 [a-2]: #2-define-tasks

@@ -47,7 +47,7 @@ You can also add a Sketch project and Sketch Artboards will become screens.
 1. Select a screen to load it on the panel on the left.
 2. Click and drag over an area of the screen to create a hotspot.  
     <div class="divider--half"></div>
-    <img src="../images/Creating_A_Prototype_3.png" srcset="../images/Creating_A_Prototype_3@2x.png 2x" />
+    <img src="../images/Interaction_Options_Hotspot_Tooltip.png" srcset="../images/Interaction_Options_Hotspot_Tooltip@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -82,7 +82,7 @@ You can also add a Sketch project and Sketch Artboards will become screens.
 Click on the interaction to display the interaction panel. Use it to change the user action that triggers the navigation, the animation for the transition, and the duration of the transition. 
 
 <div class="divider--half"></div>
-<img src="../images/Creating_A_Prototype_7.png" srcset="../images/Creating_A_Prototype_7@2x.png 2x" />
+<img src="../images/Interaction_Options_Interaction_Panel.png" srcset="../images/Interaction_Options_Interaction_Panel@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -134,5 +134,4 @@ You're ready to have reviewers comment on your prototype and to have users valid
 [a-4]: #4-preview-the-prototype
 [a-5]: #5-publish
 
-[topic-1]: interaction-options
-
+[topic-1]: interaction-options.md

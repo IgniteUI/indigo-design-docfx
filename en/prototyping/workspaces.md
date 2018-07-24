@@ -55,15 +55,8 @@ You'll see all the prototypes belonging to that workspace.
 
 Once you select a workspace, any prototypes you create and publish will belong to that workspace. 
 
-<div class="divider--half"></div>
-<img src="../images/Workspaces_3.png" srcset="../images/Workspaces_3@2x.png 2x" />
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-
-<div class="tip">You can choose any prototype and use the `Copy to workspace` action to make a copy of that share in a different workspace.</div>
+> [!Note]
+>You can choose any prototype and use the `Copy to workspace` action to make a copy of that share in a different workspace.
 
 ### Managing group workspaces
 
@@ -112,11 +105,7 @@ There's a new participant in a workspace usability study | Subscribe to notifica
 [a-4]: #managing-group-workspaces
 [a-5]: #configuring-notifications
 
-[1]: http://www.indigodesigned.com/
-[2]: http://www.infragistics.com/legal/privacy/
-[3]: http://www.infragistics.com/legal/Indigo-studio/license/
-
-[topic-1]: setting-up-a-usability-study
+[topic-1]: setting-up-a-usability-study.md
 
 [video-1]: https://www.youtube.com/watch?v=gLEf0IkYBFg
 [video-2]: https://www.youtube.com/watch?v=CdJS0gzPTPQ  
