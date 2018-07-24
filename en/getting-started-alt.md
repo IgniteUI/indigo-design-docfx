@@ -40,7 +40,7 @@ Learn more:
 * [Set up a usability test](../prototyping/setting-up-a-usability-study.md)
 
 #### 3. Generate Code for Angular Apps
-You can generate code for Angular apps directly from published prototypes. To do this, you will need a share URL for the prototype, and use the Indigo.Design code generator. The code generator is available as an extension for VS code, and it generate code using the [Ignite UI for Angular UI framework](link).
+You can generate code for Angular apps directly from published prototypes. To do this, you will need a share URL for the prototype, and use the Indigo.Design code generator. The code generator is available as an extension for VS code, and it generate code using the [Ignite UI for Angular UI framework](https://www.infragistics.com/products/ignite-ui-angular).
 
 Learn more: 
 
