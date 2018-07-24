@@ -50,7 +50,7 @@ RouterModule.forChild(routes);
 
 以下は処理の例です。
 
-Sketch で、デザイナーが Nebula UI Category Chart コンポーネントをアートボードに追加します。
+Sketch で、デザイナーが Category Chart コンポーネントをアートボードに追加します。
 
 <img src="../images/categorychart-overrides.png" srcset="../images/categorychart-overrides@2x.png 2x" />
 
