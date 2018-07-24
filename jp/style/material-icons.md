@@ -66,7 +66,7 @@ Icon Buttons、List Items、Cards などで全般的な操作を記号として�
 
 関連トピック:
 
-- [Icon](icon.md) コンポーネント
+- [Icon](../components/icon.md) コンポーネント
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

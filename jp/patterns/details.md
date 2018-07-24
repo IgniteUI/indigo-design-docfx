@@ -28,10 +28,10 @@ Details Pattern はレイアウトに含まれる以下の利用可能な要素�
 
 関連トピック:
 
-- [Badge](badge.md)
-- [Button](button.md)
-- [Tabs](tabs.md)
-- [Text](text.md)
+- [Badge](../components/badge.md)
+- [Button](../components/button.md)
+- [Tabs](../components/tabs.md)
+- [Text](../components/text.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

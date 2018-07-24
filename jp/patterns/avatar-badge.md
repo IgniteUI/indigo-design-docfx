@@ -36,8 +36,8 @@ Badge はオーバーライドによって Avatar の 4 つ角のいずれかに
 
 関連トピック:
 
-- [Avatar](avatar.md)
-- [Badge](badge.md)
+- [Avatar](../components/avatar.md)
+- [Badge](../components/badge.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

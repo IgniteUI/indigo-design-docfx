@@ -27,8 +27,8 @@ The Image Manipulation Pattern supports both standard images and Avatars that co
 
 Related topics:
 
-- [Avatar](avatar.md)
-- [Button](button.md)
+- [Avatar](../components/avatar.md)
+- [Button](../components/button.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

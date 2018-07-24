@@ -33,9 +33,9 @@ It is also possible to use Elevation on its own to lift one part of the content 
 
 Related topics:
 
-- [Button](button.md)
-- [Card](cards.md)
-- [Forms](forms.md)
+- [Button](../components/button.md)
+- [Card](../components/cards.md)
+- [Forms](../patterns/form.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

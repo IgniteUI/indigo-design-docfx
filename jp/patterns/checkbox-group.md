@@ -25,7 +25,7 @@ Checkbox Group パターンは、含まれる Checkbox 要素のスタイル設�
 
 関連トピック:
 
-- [Checkbox](checkbox.md)
+- [Checkbox](../components/checkbox.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

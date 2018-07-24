@@ -23,8 +23,8 @@ The AV Pattern comes with the styling flexibility provided by the Icon Buttons a
 
 Related topics:
 
-- [Button](button.md)
-- [Progress](progress.md)
+- [Button](../components/button.md)
+- [Progress](../components/progress.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

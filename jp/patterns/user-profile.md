@@ -23,9 +23,9 @@ User Profile パターンの編集可能なバリアントもあります。User
 
 関連トピック:
 
-- [Avatar](avatar.md)
-- [Text](text.md)
-- [Input](input.md)
+- [Avatar](../components/avatar.md)
+- [Text](../components/text.md)
+- [Input](../components/input.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

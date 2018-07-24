@@ -24,7 +24,7 @@ Use the Grid Pattern symbol as an alternative starting point when designing a ta
 
 Related topics:
 
-- [Grid](grid.md)
+- [Grid](../components/grid.md)
 
 Our community is active and always welcoming to new ideas.
 

@@ -25,8 +25,8 @@ Card Collection パターンは Card の様々なタイプおよび (ある場�
 
 関連トピック:
 
-- [Cards](cards.md)
-- [Input](input.md)
+- [Cards](../components/cards.md)
+- [Input](../components/input.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

@@ -28,8 +28,8 @@ Image Manipulation パターンは 1 ～ 2 Flat Button、FAB Button、または 
 
 関連トピック:
 
-- [Avatar](avatar.md)
-- [Button](button.md)
+- [Avatar](../components/avatar.md)
+- [Button](../components/button.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

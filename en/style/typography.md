@@ -84,9 +84,9 @@ The Text property may contain text, binding, or a combination of the two, exam
 
 Related topics:
 
-- [Avatar](avatar.md)
-- [Hyperlink](hyperlink.md)
-- [Text](text.md)
+- [Avatar](../components/avatar.md)
+- [Hyperlink](../components/hyperlink.md)
+- [Text](../components/text.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
