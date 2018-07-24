@@ -7,8 +7,6 @@
   
 - name: Using the Design System
   header: true
-- Installing & Using Sketch UI Kit
-  href: ../install-use-sketchUIKit.md
 - Creating Your First Artboard
   href:../creating-an-artboard.md
 - Styling
