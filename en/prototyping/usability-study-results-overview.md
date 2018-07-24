@@ -137,10 +137,7 @@ Watch some of the videos we have on usability studies.
 * [Take part in a usability study](https://www.youtube.com/watch?v=dfrxhBW5NFQ?rel=0&autoplay=1)
 * [View usability study results](https://www.youtube.com/watch?v=00P6DwMbYMM?rel=0&autoplay=1)
 
-
 [1]: https://www.youtube.com/watch?v=vilyDL4fDT0
-[2]: https://indigodesigned.com/api/shares/qv6uzwx9jwu3/files/project/Money%20App.zip
-[3]: https://indigodesigned.com/
 
 [a-1]: #study-overview-report 
 [a-2]: #task-report
