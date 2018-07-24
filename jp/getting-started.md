@@ -18,7 +18,7 @@ _language: ja
 
 最初に [Indigo Design Sketch ライブラリ](https://cloud.indigo.design/resources)をコンピューターにダウンロードします。Sketch の 3 ファイルがダウンロードされます。
 
-- Indigo-Styling - [Colors](colors.md)、[Elevation](elevation.md)、[Material Icons](material-icons.md)、および [Typography](typography.md) などのすべてのスタイル アセットを含むライブラリ。このライブラリを使用してカスタム テーマを作成し、デザインをブランディングに合わせてカスタマイズできます。
+- Indigo-Styling - [Colors](style/colors.md)、[Elevation](style/elevation.md)、[Material Icons](style/material-icons.md)、および [Typography](style/typography.md) などのすべてのスタイル アセットを含むライブラリ。このライブラリを使用してカスタム テーマを作成し、デザインをブランディングに合わせてカスタマイズできます。
 - Indigo-Components - デザインに含むコンポーネントのライブラリ。デザインの完了後、このコンポーネントからコードを生成できます。Overrides セクションで [Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) およびコード生成エンジンと互換性のあるプリセットを選択できます。
 - Indigo-Patterns - アプリケーション レイアウトをガイドするコンポーネントに含まれるパターンのライブラリ。複数のレイアウトを選択してデザインをカスタマイズします。
 
@@ -36,7 +36,7 @@ _language: ja
 
 ### オーバーライドを使用してカスタマイズ化
 
-Indigo.Design UI Kit は定義済みのカスタマイズ化を提供します。ライブラリでネストされた `Symbol` があり、Sketch ライブラリを使用するプロジェクトで `Overrides` として公開されます。プロジェクトに Indigo.Design コンポーネントを挿入した後、右側の Sketch パネルで `Overrides` セクションが `Prototyping` オプションの下に表示されます。以下の画像は [Badge](badge.md) の利用可能なオーバーライドを表示します。このオーバーライドで型を数値からアイコンに変更するか、数値色および値を構成できます。有効な値のみを含む境界線色および背景色を選択するドロップダウンもあります。下側にコード生成で使用される特別なプロパティがあります。このプロパティは生成された Angular アプリケーションの必要なデータ バインディングを作成します。各コンポーネントは `Overrides` パネルに一意のプロパティがあります。このヘルプ セクションのトピックはそのプロパティの利用可能な値を説明し、使用ガイダンスを提供します。
+Indigo.Design UI Kit は定義済みのカスタマイズ化を提供します。ライブラリでネストされた `Symbol` があり、Sketch ライブラリを使用するプロジェクトで `Overrides` として公開されます。プロジェクトに Indigo.Design コンポーネントを挿入した後、右側の Sketch パネルで `Overrides` セクションが `Prototyping` オプションの下に表示されます。以下の画像は [Badge](components/badge.md) の利用可能なオーバーライドを表示します。このオーバーライドで型を数値からアイコンに変更するか、数値色および値を構成できます。有効な値のみを含む境界線色および背景色を選択するドロップダウンもあります。下側にコード生成で使用される特別なプロパティがあります。このプロパティは生成された Angular アプリケーションの必要なデータ バインディングを作成します。各コンポーネントは `Overrides` パネルに一意のプロパティがあります。このヘルプ セクションのトピックはそのプロパティの利用可能な値を説明し、使用ガイダンスを提供します。
 
 <img src="images/getting-started-overrides.png" />
 
@@ -137,11 +137,11 @@ Indigo Design ライブラリを追加後、デザインを開始できます。
 
 関連トピック:
 
-- [Button](button.md)
-- [Input](input.md)
-- [Navbar](navbar.md)
-- [Text](text.md)
-- [Styling](styling-overview.md)
+- [Button](components/button.md)
+- [Input](components/input.md)
+- [Navbar](components/navbar.md)
+- [Text](components/text.md)
+- [Styling](style/styling-overview.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
