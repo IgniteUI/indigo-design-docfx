@@ -174,10 +174,10 @@ Component または Pattern の左に距離が空いている場合、属して�
 
 関連トピック:
 
-- [Input](input.md)
-- [Bottom Navigation](bottom-nav.md)
-- [Navbar](navbar.md)
-- [Navigation Drawer](nav-drawer.md)
+- [Input](components/input.md)
+- [Bottom Navigation](components/bottom-nav.md)
+- [Navbar](components/navbar.md)
+- [Navigation Drawer](components/nav-drawer.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

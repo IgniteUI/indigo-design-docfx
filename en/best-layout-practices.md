@@ -105,7 +105,7 @@ In order for each element to keep its width in two-element horizontal layouts, i
 **The left Input is pinned left and the right one is pinned right. None of the widths need to be fixed except for the width of the group they are put into.**
 <img src="images/two_horizontal_fix_do.png" srcset="images/two_horizontal_fix_do@2x.png 2x" />
 
-> [!INFO]
+> [!Note]
 > Proportionally changing the width of elements in a responsive layout is possible, as long as the elements are placed in a group and neither their individual widths are fixed, nor that of the group.
 
 **The left Input is pinned left and the right one is pinned right but none of the widths are fixed. Both elements will scale proportionally, but so will the margin between them in Sketch. However, the generated code respects the margin and sets it to the value at the time of export, scaling proportionally only the actual elements when the group they belong to changes its width.**
@@ -140,7 +140,7 @@ In order for a layout to keep its margins on all sides related to the group or a
 **The group will always preserve its left, right, top and bottom margins of 16px each and change its size accordingly. The content inside the group will adapt according to the rules specified for each element, in this case the Inputs will preserve their height, top margin of 0px and margins in between along the vertical axis.**
 <img src="images/all_margins.png" srcset="images/all_margins@2x.png 2x" />
 
-> [!INFO]
+> [!Note]
 > Specific components, usually navigation elements such as Bottom Navigation, Navbar, Navigation Drawer and others, have three of their sides pinned and a width or height fixed along the direction of the unpinned side, according to the Components desired location in the app layout.
 
 <img src="images/all_margins_nav.png" srcset="images/all_margins_nav@2x.png 2x" />
@@ -149,10 +149,10 @@ In order for a layout to keep its margins on all sides related to the group or a
 
 Related topics:
 
-- [Input](input.md)
-- [Bottom Navigation](bottom-nav.md)
-- [Navbar](navbar.md)
-- [Navigation Drawer](nav-drawer.md)
+- [Input](components/input.md)
+- [Bottom Navigation](components/bottom-nav.md)
+- [Navbar](components/navbar.md)
+- [Navigation Drawer](components/nav-drawer.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
