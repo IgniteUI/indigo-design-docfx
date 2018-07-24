@@ -24,8 +24,8 @@ The Card Collection Pattern comes with the styling flexibility provided by the v
 
 Related topics:
 
-- [Cards](cards.md)
-- [Input](input.md)
+- [Cards](../components/cards.md)
+- [Input](../components/input.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

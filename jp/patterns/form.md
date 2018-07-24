@@ -61,11 +61,11 @@ Inputs オーバーライドで選択可能な新規フォームの 2 種類が�
 
 関連トピック:
 
-- [Button](button.md)
-- [Checkbox](checkbox.md)
-- [Hyperlink](hyperlink.md)
-- [Input](input.md)
-- [Text](text.md)
+- [Button](../components/button.md)
+- [Checkbox](../components/checkbox.md)
+- [Hyperlink](../components/hyperlink.md)
+- [Input](../components/input.md)
+- [Text](../components/text.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

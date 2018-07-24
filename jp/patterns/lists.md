@@ -24,8 +24,8 @@ Lists パターンは List Item の様々なタイプおよび (ある場合) Se
 
 関連トピック:
 
-- [Input](input.md)
-- [List](list.md)
+- [Input](../components/input.md)
+- [List](../components/list.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

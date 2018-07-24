@@ -35,8 +35,8 @@ The Badge can be positioned in any of the four corners of the Avatar as shown be
 
 Related topics:
 
-- [Avatar](avatar.md)
-- [Badge](badge.md)
+- [Avatar](../components/avatar.md)
+- [Badge](../components/badge.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

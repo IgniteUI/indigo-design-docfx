@@ -24,7 +24,7 @@ The Checkbox Group Pattern comes with the styling flexibility provided by the Ch
 
 Related topics:
 
-- [Checkbox](checkbox.md)
+- [Checkbox](../components/checkbox.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

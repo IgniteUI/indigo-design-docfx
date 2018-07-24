@@ -25,8 +25,8 @@ The Lists Pattern comes with the styling flexibility provided by the various typ
 
 Related topics:
 
-- [Input](input.md)
-- [List](list.md)
+- [Input](../components/input.md)
+- [List](../components/list.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

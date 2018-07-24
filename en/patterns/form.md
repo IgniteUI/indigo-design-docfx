@@ -60,11 +60,11 @@ There are two main types of Payment forms: one for Card payments and one for Cas
 
 Related topics:
 
-- [Button](button.md)
-- [Checkbox](checkbox.md)
-- [Hyperlink](hyperlink.md)
-- [Input](input.md)
-- [Text](text.md)
+- [Button](../components/button.md)
+- [Checkbox](../components/checkbox.md)
+- [Hyperlink](../components/hyperlink.md)
+- [Input](../components/input.md)
+- [Text](../components/text.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

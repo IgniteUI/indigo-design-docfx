@@ -24,8 +24,8 @@ AV パターンのレイアウトに含まれる Icon Buttons および Linear P
 
 関連トピック:
 
-- [Button](button.md)
-- [Progress](progress.md)
+- [Button](../components/button.md)
+- [Progress](../components/progress.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

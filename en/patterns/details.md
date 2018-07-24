@@ -27,10 +27,10 @@ The Details Pattern supports the following interchangeable pieces of content tha
 
 Related topics:
 
-- [Badge](badge.md)
-- [Button](button.md)
-- [Tabs](tabs.md)
-- [Text](text.md)
+- [Badge](../components/badge.md)
+- [Button](../components/button.md)
+- [Tabs](../components/tabs.md)
+- [Text](../components/text.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

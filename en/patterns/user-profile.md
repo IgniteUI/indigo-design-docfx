@@ -22,9 +22,9 @@ An editable variant of the User Profile Pattern, nicely laid out with the approp
 
 Related topics:
 
-- [Avatar](avatar.md)
-- [Text](text.md)
-- [Input](input.md)
+- [Avatar](../components/avatar.md)
+- [Text](../components/text.md)
+- [Input](../components/input.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

@@ -25,7 +25,7 @@ _language: ja
 
 関連トピック:
 
-- [Grid](grid.md)
+- [Grid](../components/grid.md)
 
 コミュニティに参加して新しいアイデアをご提案ください。
 

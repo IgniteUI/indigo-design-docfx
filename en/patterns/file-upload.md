@@ -33,8 +33,8 @@ The File Upload Pattern supports the most common types of content that are usual
 
 Related topics:
 
-- [Avatar](avatar.md)
-- [Button](button.md)
+- [Avatar](../components/avatar.md)
+- [Button](../components/button.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
