@@ -85,9 +85,9 @@ Text プロパティにテキスト、バインディング、または両方を
 
 関連トピック:
 
-- [Avatar](avatar.md)
-- [Hyperlink](hyperlink.md)
-- [Text](text.md)
+- [Avatar](../components/avatar.md)
+- [Hyperlink](../components/hyperlink.md)
+- [Text](../components/text.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

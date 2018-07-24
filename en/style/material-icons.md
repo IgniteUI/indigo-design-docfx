@@ -60,7 +60,7 @@ With the preset collection of icons, you can design beautiful apps and pick the 
 
 Related topics:
 
-- The [Icon](icon.md) Component
+- The [Icon](../components/icon.md) Component
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

@@ -34,9 +34,9 @@ _language: ja
 
 関連トピック:
 
-- [Button](button.md)
-- [Card](cards.md)
-- [Forms](forms.md)
+- [Button](../components/button.md)
+- [Card](../components/cards.md)
+- [Forms](../patterns/form.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
