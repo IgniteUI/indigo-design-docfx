@@ -61,6 +61,7 @@ The following Sketch components are not implemented for code generation yet:
 * Pencil
 * Text
 * Mask
+* Elevation
 
 > [!Note]
 > Future releases will include these components.
@@ -68,6 +69,16 @@ The following Sketch components are not implemented for code generation yet:
 ### Form Patterns and Code Generation
 
 If you use a Form from the Indigo.Design Patterns library and have detached the symbols all the way down to the base level Indigo.Design components we will be able to code generate these however Button text will not display the same as they appear in the Sketch.  We are working to resolve this but for now developers will need to adjust the text after the code is generated.
+
+### Proportional widths not completed
+
+As this is not completed we give each element 100% width instead of calculating a specific percent based on thier width realtive to other row elements:
+[Proportional Width Sizing](https://github.com/IgniteUI/indigo-design-docfx/blob/master/en/codegen/layout-codegen.md#proportional-width-sizing)
+
+### Overlapping sketch elemnts currently not supported
+
+For this release we are not support elements whose boundaries overlap other elements. With reguards to the following topic we will position the elements next to each other instead.
+[Pinning Overlapping Objects](https://github.com/IgniteUI/indigo-design-docfx/blob/master/en/codegen/layout-codegen.md#pinning-overlapping-objects)
 
 ## Additional Resources
 
