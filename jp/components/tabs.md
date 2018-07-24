@@ -120,7 +120,7 @@ Text プロパティには、テキスト、バインディング、またはそ
 
 関連トピック:
 
-- [Details](details.md)
+- [Details](../patterns/details.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

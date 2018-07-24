@@ -76,7 +76,7 @@ Component または Pattern を属するグループまたはアートボード�
 
 <img src="images/one_horizontal_nofix_do1.png" srcset="images/one_horizontal_nofix_do1@2x.png 2x" />
 
-**Input は、左右のマージンを保持し親の幅が変更されたときに正しく拡張します。ただし、Input はグループに配置する方がより適切な柔軟性のある幅動作となり、グループで右または左マージンに設定します。 **
+**Input は、左右のマージンを保持し親の幅が変更されたときに正しく拡張します。ただし、Input はグループに配置する方がより適切な柔軟性のある幅動作となり、グループで右または左マージンに設定します。**
 
 <img src="images/one_horizontal_nofix_caution.png" srcset="images/one_horizontal_nofix_caution@2x.png 2x" />
 
@@ -124,7 +124,7 @@ Component または Pattern の幅を保持するために、固定幅を設定�
 
 <img src="images/two_horizontal_fix_do.png" srcset="images/two_horizontal_fix_do@2x.png 2x" />
 
-> [!INFO]
+> [!Note]
 > グループに要素を配置して各幅が固定されていない、またはグループの幅も固定されていない場合、レスポンシブ レイアウトで比例的に要素の幅を変更することができます。
 
 **左 Input は左にピン固定、右 Input は右にピン固定されますが、幅は固定されません。両要素が比例的にスケールされますが、Sketch 要素間のマージンも同様にスケールされます。ただし、生成されたコードはマージンを優先し、エクスポート時にそれを値に設定して、属しているグループの幅が変更された時に実際の要素のみを比例的に拡張します。**
@@ -135,7 +135,7 @@ Component または Pattern の幅を保持するために、固定幅を設定�
 
 レスポンシブな状況で複数要素のレイアウトを正しく動作させるには必要に応じてグループ化し、レイアウトを構成する要素とグループに定義したルールを適用します。
 
-**左 Input は、高さを固定し左にピン固定しますが、右 Input は高さを固定して右にピン固定されます。両方ともグループに配置されます。Button と Hyperlink は幅と高さの両方が固定され、個別のグループに配置されます。 **
+**左 Input は、高さを固定し左にピン固定しますが、右 Input は高さを固定して右にピン固定されます。両方ともグループに配置されます。Button と Hyperlink は幅と高さの両方が固定され、個別のグループに配置されます。**
 
 <img src="images/many_horizontal_nofix_do1.png" srcset="images/many_horizontal_nofix_do1@2x.png 2x" />
 
@@ -165,7 +165,7 @@ Component または Pattern の左に距離が空いている場合、属して�
 
 <img src="images/all_margins.png" srcset="images/all_margins@2x.png 2x" />
 
-> [!INFO]
+> [!Note]
 > 特定のコンポーネントでは、Bottom Navigation、Navbar、Navigation Drawer、その他の要素で 3 方向ピン固定し、アプリ レイアウトの Components の望ましい配置に基づいて幅や高さをピン固定していない方向に沿って固定します。
 
 <img src="images/all_margins_nav.png" srcset="images/all_margins_nav@2x.png 2x" />
@@ -174,12 +174,12 @@ Component または Pattern の左に距離が空いている場合、属して�
 
 関連トピック:
 
-- [Input](input.md)
-- [Bottom Navigation](bottom-nav.md)
-- [Navbar](navbar.md)
-- [Navigation Drawer](nav-drawer.md)
+- [Input](components/input.md)
+- [Bottom Navigation](components/bottom-nav.md)
+- [Navbar](components/navbar.md)
+- [Navigation Drawer](components/nav-drawer.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

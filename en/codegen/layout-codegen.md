@@ -74,7 +74,7 @@ Code generation reads Sketch files and uses the layout properties defined by nat
 Code generation respects and uses Sketch groups when creating the layout. Code generation renders HTML CSS that uses [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). Flexbox lays out elements in either a column or row.
 Sketch container elements such as a group or an artboard are rendered as divs with flex CSS applied to them.
 
-Please see the [Best Layout Practices](best-layout-practices.md) for getting _predictable layout_ from code generation. This guidance explains many layout scenarios Sketch designers create every day. It helps to reduce the friction between Sketch layout requirements and HTML CSS layout. The purpose of the guidance is to explain how code generation processes the Sketch file layout.
+Please see the [Best Layout Practices](../best-layout-practices.md) for getting _predictable layout_ from code generation. This guidance explains many layout scenarios Sketch designers create every day. It helps to reduce the friction between Sketch layout requirements and HTML CSS layout. The purpose of the guidance is to explain how code generation processes the Sketch file layout.
 Sketch designers can group elements to get the Sketch and code generation behavior they require.
 For each container element (Artboard or Group) code generation sorts all child elements by their Y axis value and then their X axis value. For each Group that is a child of an Artboard or a Group, the same processing will occur for that Group.
 Sorting by the Y axis allows code generation to group elements with the same or similar Y axis value into Flexbox rows. “Same or similar Y axis value” means elements that intersect each other on the horizontal axis.
