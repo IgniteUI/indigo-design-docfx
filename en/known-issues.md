@@ -72,13 +72,13 @@ If you use a Form from the Indigo.Design Patterns library and have detached the 
 
 ### Proportional widths not completed
 
-As this is not completed we give each element 100% width instead of calculating a specific percent based on thier width realtive to other row elements:
-[Proportional Width Sizing](https://github.com/IgniteUI/indigo-design-docfx/blob/master/en/codegen/layout-codegen.md#proportional-width-sizing)
+As this is not completed we give each element 100% width instead of calculating a specific percent based on their width relative to other row elements:
+[Proportional Width Sizing](codegen/layout-codegen.md#proportional-width-sizing)
 
-### Overlapping sketch elemnts currently not supported
+### Overlapping sketch elements currently not supported
 
-For this release we are not support elements whose boundaries overlap other elements. With reguards to the following topic we will position the elements next to each other instead.
-[Pinning Overlapping Objects](https://github.com/IgniteUI/indigo-design-docfx/blob/master/en/codegen/layout-codegen.md#pinning-overlapping-objects)
+For this release we are not supporting elements whose boundaries overlap other elements. With regards to the following topic we will position the elements next to each other instead.
+[Pinning Overlapping Objects](codegen/layout-codegen.md#pinning-overlapping-objects)
 
 ## Additional Resources
 
