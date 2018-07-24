@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 ## Getting Started
 Indigo.Design is a unified platform for visual design, UX prototyping, code generation and app development. It’s aimed at design and development teams looking to deliver pixel perfect apps as quickly as possible, without losing focus on UX.
 
-![How-this-works](../images/indigo-design-how-it-works.png)
+<img src="../images/Indigo-Design-how-it-works.png"/>
 
 ### How does this work?
 Indigo.Design offers three key capabilities to support the design to development workflow:
