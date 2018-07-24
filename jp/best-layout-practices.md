@@ -9,7 +9,7 @@ _language: ja
 
 このトピックはアプリケーション レイアウトでコンポーネントの配置およびレスポンシブ アプリ デザインを実装するためにサイズ変更ルールの設定に関連するデザイン ガイダンスを提供します。以下のおすすめは、Sketch で指定したレスポンシブ動作を含む Angular アプリを生成できます。
 
-> [!INFO]
+> [!Note]
 > Input、Radio Button、Slider、Checkbox、Hyperlink、Switch、Progress Bar、Toast、Snackbar、Avatar、Dialog、Icon、およひ Title / Paragraph Text はコンポーネントのレイアウトまたはテキスト コンポーネントの場合にフォント サイズによって制限されるプリセット高さがあります。全般的なシナリオで正しく操作するため、このコンポーネントのデフォルト高さを使用して Sketch で固定してください。
 
 <img src="images/one_fix_height.png" srcset="images/one_fix_height@2x.png 2x" />
