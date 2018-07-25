@@ -27,7 +27,7 @@ The design system consists of three Sketch libraries files that work together to
 
 Learn more: 
 
-* [Create your first Sketch artboard](../creating-an-artboard.md)
+* [Create your first Sketch artboard](creating-an-artboard.md)
 
 #### 2. Prototyping & Usability Testing
 
@@ -35,13 +35,13 @@ To get feedback on your designs, use cloud.indigo.design to import the Sketch do
 
 Learn more: 
 
-* [Create prototypes in the cloud](../prototyping/creating-a-prototype.md)
+* [Create prototypes in the cloud](./prototyping/creating-a-prototype.md)
 
 If you want to watch how users use your prototype to complete specific tasks, and also collect metrics like time on task and completion rate, set up a usability test using the published prototype.
 
 Learn more: 
 
-* [Set up a usability test](../prototyping/setting-up-a-usability-study.md)
+* [Set up a usability test](./prototyping/setting-up-a-usability-study.md)
 
 #### 3. Generate Code for Angular Apps
 
@@ -49,5 +49,5 @@ You can generate code for Angular apps directly from published prototypes. To do
 
 Learn more: 
 
-* [Generating code from prototypes](../codegen/installing-vs-code-extension.md)
+* [Generating code from prototypes](./codegen/installing-vs-code-extension.md)
 
