@@ -77,8 +77,6 @@ There are Text properties for the Message and Button. These properties may conta
 
 ## Additional Resources
 
-Related topics:
-
 Our community is active and always welcoming to new ideas.
 
 - [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

@@ -99,8 +99,6 @@ When the `🕹️DataSource` is set the Text property is ignored. When the Text 
 
 ## Additional Resources
 
-Related topics:
-
 Our community is active and always welcoming to new ideas.
 
 - [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

@@ -90,7 +90,7 @@ When supplied the Text property is used to fill in the text to display for the H
 
 ## Additional Resources
 
-Related topics:
+Related topic:
 
 - [Form Pattern](../patterns/form.md)
   <div class="divider--half"></div>

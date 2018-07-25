@@ -4,15 +4,9 @@ _description: Real-time commenting for published Indigo.Design prototypes
 _keywords: UX Design, Prototyping, Commenting
 ---
 
-## In brief
+## Creating Your First Prototype
 
 Create a prototype and publish it to validate flows with stakeholders and users.
-
-1. [Create a new prototype][a-1]
-2. [Add screens][a-2]
-3. [Add interactions][a-3]
-4. *(Optional)* [Preview the prototype][a-4]
-5. [Publish][a-5]
 
 ## Step by step
 

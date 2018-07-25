@@ -1,23 +1,14 @@
 ---
-title: Collaborating with Group Workspaces
+title: Collaborating with Workspaces
 _description: Collaborate with your teammates on prototypes and usability studies using group workspaces.
 _keywords: UX Design, Prototyping, Commenting, Usability studies, User testing
 ---
 
-##  Overview
+##  Collabrating with Workspaces
 
 Use group workspaces to collaborate with your teammates on the same prototypes and usability studies. Members can publish and replace any design in the workspace. And if a member leaves, the rest will still have access to what's in the workspace.
 
-Read this topic to learn more about:
-
-* [Creating a group workspace][a-1]
-* [Accessing a workspace][a-2]
-* [Publishing to a group workspace][a-3]
-* [Managing group workspaces][a-4]
-* [Configuring eifications][a-5]
-
-</br>
-Or watch our videos on [how to create group workspaces][video-1] and [how to collaborate using group workspaces][video-2].
+Watch our videos on [how to create group workspaces][video-1] and [how to collaborate using group workspaces][video-2].
 
 ### Creating a group workspace
 

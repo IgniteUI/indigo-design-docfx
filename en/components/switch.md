@@ -120,7 +120,7 @@ If the Track is None the control is not rendered. A property that sets the color
 
 ## Additional Resources
 
-Related topics:
+Related topic:
 
 - [Lists Pattern](../patterns/lists.md)
   <div class="divider--half"></div>

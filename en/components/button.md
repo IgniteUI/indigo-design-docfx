@@ -104,13 +104,13 @@ The Text property may contain text, binding, or a combination of the two, exam
 Related topics:
 
 - [Button Group](button-group.md)
-- [Card](card.md)
+- [Cards](cards.md)
 - [Dialog](dialog.md)
 - [Snackbar](snackbar.md)
 - [Time Picker](time-picker.md)
 - [AV Player Pattern](../patterns/av.md)
 - [File Upload Pattern](../patterns/file-upload.md)
-- [Form Pattern](../patterns/forms.md)
+- [Form Pattern](../patterns/form.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

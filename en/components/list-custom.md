@@ -43,12 +43,15 @@ So, let's see how we can create the intricate layout for the product List Item a
 <img src="../images/list_item_custom_layout0.png" srcset="../images/list_item_custom_layout0@2x.png 2x" />
 
 1.  We will reuse the Header from the Primary Action Group but resize it to fit in the right half only and update the strings for the Title and Subtitle Text. In the Secondary Action Group, we will add a Raised Button position to it near the bottom right corner, updating its text and resizing accordingly to fit the new value. Lastly, let's remove the default Secondary Action, as we will not be needing Icons for our target custom layout.
+
     <img src="../images/list_item_custom_layout1.png" srcset="../images/list_item_custom_layout1@2x.png 2x" />
 
 2.  Next, we will insert a List/Custom/Blocks/Image Content in the Primary Action Group and add a Badge on top of it within the same group. Now, we have to size the image according to the Item size and select content for it. After modifying the Badge, as well by updating its Value Text and hiding its Border and Elevation, we should have something similar to this.
+
     <img src="../images/list_item_custom_layout2.png" srcset="../images/list_item_custom_layout2@2x.png 2x" />
 
 3.  In the last step, we will add a couple of Text/Title elements to the Primary Action Group: a larger H3 to display the price of the product and a smaller H6 to its right for complimentary text. After positioning them in the empty space between the Header and the Raised Button, we can make a final alignment adjustment to the Raised Button with which our target layout is complete.
+
     <img src="../images/list_item_custom_layout3.png" srcset="../images/list_item_custom_layout3@2x.png 2x" />
 
 #### Additional Styling

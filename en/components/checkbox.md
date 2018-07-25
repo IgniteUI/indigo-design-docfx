@@ -101,7 +101,7 @@ The Text property may contain text, binding, or a combination of the two, exam
 
 ## Additional Resources
 
-Related topics:
+Related topic:
 
 - [Form Pattern](../patterns/form.md)
   <div class="divider--half"></div>

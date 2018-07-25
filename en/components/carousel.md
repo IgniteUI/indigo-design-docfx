@@ -72,7 +72,9 @@ Button and Slide elevation changes in Sketch drawings are not rendered during co
 
 ## Additional Resources
 
-Related topics:
+Related topic:
+
+- [Grid](grid.md)
 
 Our community is active and always welcoming to new ideas.
 

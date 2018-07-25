@@ -4,7 +4,7 @@ _description: Quick overview on how the extension works and how to use it.
 _keywords: Design System, Code Generation, Ignite UI for Angular, Component, UI Library, Widgets, Routing, VS Code, Extension
 ---
 
-## Indigo.Design Code Generator for VS Code
+## Using the Code Generator Plugin
 
 This topic describes the Visual Studio Code extension that we have built to make code generation as easy as possible for developers. With this extension developers can generate actual, runnable code for Angular projects directly from within Visual Studio Code. Designers can take their Sketch files and publish them to the cloud with [Indigo.Design](https://next.indigo.design) and then provide developers with a share link. Developers can take this share link, provide it directly to this extension and generate code off the design saving them tons of time that would otherwise be spent manually building modules and writing HTML, CSS and Typescript for components.
 
@@ -143,7 +143,7 @@ To resolve this move the `sourceRoot` value to the `root` property and then dele
 
 ## Additional Resources
 
-Related topics:
+Related topic:
 
 - [What to do after code generation](after-codegen.md)
   <div class="divider--half"></div>
