@@ -10,7 +10,7 @@ _keywords: Ignite UI for Angular, Angular, Native Angular Components Suite, Nati
 
 <section class="feature__container">
     <div class="feature__image">
-        <iframe width="720" height="405" src="https://www.youtube.com/embed/4KCptCeNVFg" frameborder="0" allowfullscreen></iframe>
+        <iframe width="720" height="405" src="https://www.youtube.com/embed/6X-4x5iGgCA" frameborder="0" allowfullscreen></iframe>
     </div>
 </section>
 
