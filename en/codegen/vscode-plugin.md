@@ -52,6 +52,9 @@ It all starts with a sketch. Once a designer has completed their sketch they can
 
 ![](../images/step1.gif)
 
+> [!Note]
+> When you run this extension for the first time it will perform some setup in the background.  This setup can take up to 45 seconds to complete.  If you notice that it is taking much longer than this, please see the Troubleshooting section at the bottom.
+
 With the share link the developer can see the various screens that make up the intended application. From here the developer can select pieces of the screen that they want to generate code for. Normally you would not generate the entire screen because the design will have duplicated elements on each screen. We will refer to this as the application 'chrome'. Chrome refers to the parts of an application that do not change from screen to screen, such as navigation menus at the top of the page or even navigation drawers that would slide in from the side.
 
 ![](../images/chrome.png)
