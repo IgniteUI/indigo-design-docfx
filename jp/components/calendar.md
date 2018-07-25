@@ -54,8 +54,8 @@ Calendar は、柔軟なスタイル設定が可能でさまざまなオーバ�
 水平と垂直のカレンダーをダイアログで表示し、ダイアログ以外の UI は暗くなります。
 特別なビジュアル効果を追加せずに基本の Calendar を残りの UI とインライン表示します。
 
-| いい例                              | 悪い例                             |
-| ------------------------------- | --------------------------------- |
+| いい例                                                                             | 悪い例                                                                                 |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | <img src="../images/calendar_do1.png" srcset="../images/calendar_do1@2x.png 2x" /> | <img src="../images/calendar_dont1.png" srcset="../images/calendar_dont1@2x.png 2x" /> |
 | <img src="../images/calendar_do2.png" srcset="../images/calendar_do2@2x.png 2x" /> | <img src="../images/calendar_dont2.png" srcset="../images/calendar_dont2@2x.png 2x" /> |
 
@@ -64,7 +64,7 @@ Calendar は、柔軟なスタイル設定が可能でさまざまなオーバ�
 関連トピック:
 
 - [Time Picker](time-picker.md)
-- [Form Pattern](forms.md)
+- [Form Pattern](../patterns/form.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

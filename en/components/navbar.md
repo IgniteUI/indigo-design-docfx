@@ -39,8 +39,8 @@ The Navbar comes with basic styling capabilities achievable through changing the
 
 Navbar actions should be carefully used to avoid situations where they overlap with the title. This can be avoided by using a single more icon that triggers the appearance of a simple menu. If a more icon is specified within the actions, aggregate all actions you would normally place in the Navbar under it and avoid placing any standalone actions in the Navbar.
 
-| Do                            | Don't                           |
-| ----------------------------- | ------------------------------- |
+| Do                                                                             | Don't                                                                              |
+| ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | <img src="../images/navbar_do1.png" srcset="../images/navbar_do1@2x.png 2x" /> | <img src="../images/navbar_dont1.png" srcset="../images/navbar_dont1@2x.png 2x" /> |
 | <img src="../images/navbar_do2.png" srcset="../images/navbar_do2@2x.png 2x" /> | <img src="../images/navbar_dont2.png" srcset="../images/navbar_dont2@2x.png 2x" /> |
 
@@ -57,7 +57,7 @@ Navbar actions should be carefully used to avoid situations where they overlap w
 Related topics:
 
 - [Icon](icon.md)
-- [Navigation Drawer](bottom-nav.md)
+- [Navigation Drawer](nav-drawer.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

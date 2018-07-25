@@ -169,8 +169,8 @@ The above Label, Input, Help Text, and Search Hint properties may contain text
 
 Related topics:
 
-- [Form Pattern](forms.md)
-- [User Profile Pattern](userProfile.md)
+- [Form Pattern](../patterns/form.md)
+- [User Profile Pattern](../patterns/user-profile.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

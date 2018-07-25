@@ -42,8 +42,8 @@ The Avatar comes with styling flexibility through the various overrides controll
 
 When using an Avatar with initials or icons, pick their colors carefully to assure good contrast with the Avatar background color. Avoid colors with poor contrast like similar shades of the same color or combinations that create chromatic aberrations.
 
-| Do                            | Don't                           |
-| ----------------------------- | ------------------------------- |
+| Do                                                                             | Don't                                                                              |
+| ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | <img src="../images/avatar_do1.png" srcset="../images/avatar_do1@2x.png 2x" /> | <img src="../images/avatar_dont1.png" srcset="../images/avatar_dont1@2x.png 2x" /> |
 
 ## Code Generation
@@ -95,10 +95,10 @@ When supplied, this property is used to create a method in the component TypeScr
 
 Related topics:
 
-- [Avatar + Badge](avatar+badge.md)
+- [Avatar + Badge](../patterns/avatar-badge.md)
 - [Cards](cards.md)
-- [File Upload](fileUpload.md)
-- [User Profile](userProfile.md)
+- [File Upload](../patterns/file-upload.md)
+- [User Profile](../patterns/user-profile.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

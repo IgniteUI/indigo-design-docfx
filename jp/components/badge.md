@@ -7,7 +7,7 @@ _language: ja
 
 ## Badge
 
-Badge コンポーネント シンボルを使用して他のインターフェイス要素や通知を表示するために注意を促します。コンポーネントに対するインタラクションに応じてユーザーに追加情報を公開することにより  UX を向上できます。Badge は、[Ignite UI for Angular Badge コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/badge.html)と視覚的に同じものです。
+Badge コンポーネント シンボルを使用して他のインターフェイス要素や通知を表示するために注意を促します。コンポーネントに対するインタラクションに応じてユーザーに追加情報を公開することにより UX を向上できます。Badge は、[Ignite UI for Angular Badge コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/badge.html)と視覚的に同じものです。
 
 ### Badge デモ
 
@@ -35,8 +35,8 @@ Badge は、さまざまなオーバーライドで背景、境界線の色、�
 
 Badge を使用して Avatar やテキスト タイトルなどのその他の UI 部分に印を付けます。Badge をそれ自体には使用しないでください。
 
-| いい例                           | 悪い例                         |
-| ---------------------------- | ------------------------------ |
+| いい例                                                                       | 悪い例                                                                           |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | <img src="../images/badge_do1.png" srcset="../images/badge_do1@2x.png 2x" /> | <img src="../images/badge_dont1.png" srcset="../images/badge_dont1@2x.png 2x" /> |
 
 ## コードの生成
@@ -57,6 +57,7 @@ Customer {
   imageName: String;
 }
 ```
+
 DataProperty: `{imageName}`
 
 #### ネストあり
@@ -70,6 +71,7 @@ Customer {
   profile: Profile;
 }
 ```
+
 DataProperty: `{profile.imageName}`
 
 ### Event プロパティ
@@ -96,7 +98,7 @@ Type を Number に設定する場合、以下が適用されます。
 
 関連トピック:
 
-- [Avatar + Badge](avatar+badge.md)
+- [Avatar + Badge](../patterns/avatar-badge.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

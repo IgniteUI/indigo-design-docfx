@@ -36,8 +36,8 @@ The Checkbox comes with styling flexibility through the various overrides contro
 
 When many Checkboxes are necessary, you'll want to arrange them in a column group which makes it really easy to scan quickly through the list. Fewer Checkboxes may also be arranged on a single line next to each other but you should avoid arrangements in multiple columns.
 
-| Do                              | Don't                             |
-| ------------------------------- | --------------------------------- |
+| Do                                                                                 | Don't                                                                                  |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | <img src="../images/checkbox_do1.png" srcset="../images/checkbox_do1@2x.png 2x" /> | <img src="../images/checkbox_dont1.png" srcset="../images/checkbox_dont1@2x.png 2x" /> |
 
 ## Code Generation
@@ -103,7 +103,7 @@ The Text property may contain text, binding, or a combination of the two, exam
 
 Related topics:
 
-- [Form Pattern](forms.md)
+- [Form Pattern](../patterns/form.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

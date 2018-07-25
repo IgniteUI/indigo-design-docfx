@@ -52,8 +52,8 @@ The Calendar comes with styling flexibility through the various overrides contro
 
 Show the horizontal and vertical Calendars as a dialog that dims the rest of the UI. Inline the base Calendar with the rest of the UI without any special additional visual effects.
 
-| Do                              | Don't                             |
-| ------------------------------- | --------------------------------- |
+| Do                                                                                 | Don't                                                                                  |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | <img src="../images/calendar_do1.png" srcset="../images/calendar_do1@2x.png 2x" /> | <img src="../images/calendar_dont1.png" srcset="../images/calendar_dont1@2x.png 2x" /> |
 | <img src="../images/calendar_do2.png" srcset="../images/calendar_do2@2x.png 2x" /> | <img src="../images/calendar_dont2.png" srcset="../images/calendar_dont2@2x.png 2x" /> |
 
@@ -70,7 +70,7 @@ Show the horizontal and vertical Calendars as a dialog that dims the rest of the
 Related topics:
 
 - [Time Picker](time-picker.md)
-- [Form Pattern](forms.md)
+- [Form Pattern](../patterns/form.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

@@ -16,15 +16,15 @@ Use the Custom Card Component to display the same type of information that you w
 
 In order to customize Card layouts start by dragging a `Cards/Custom` to your Artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared _Cards/Custom_ group, you should see the following:
 
-| Layer | Use |
-| ----------------------------- | ---------------------------------------- |
-| 🚫 igx-card/custom | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| Custom Card | Groups together the Card layout elements |
-| &nbsp;&nbsp; Card Area | Groups together the Card layout elements |
-| &nbsp;&nbsp; 🌈 Background | Defines the background color of the card |
-| &nbsp;&nbsp; Mask | Gives the card its corner rounding by adjusting the `Radius` layer property|
-| &nbsp;&nbsp; Elevation | Drops a slight shadow on the card collection background |
-| 🕹️DataProperty | Used by code generation for data binding |
+| Layer                      | Use                                                                                                                                                  |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🚫 igx-card/custom         | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
+| Custom Card                | Groups together the Card layout elements                                                                                                             |
+| &nbsp;&nbsp; Card Area     | Groups together the Card layout elements                                                                                                             |
+| &nbsp;&nbsp; 🌈 Background | Defines the background color of the card                                                                                                             |
+| &nbsp;&nbsp; Mask          | Gives the card its corner rounding by adjusting the `Radius` layer property                                                                          |
+| &nbsp;&nbsp; Elevation     | Drops a slight shadow on the card collection background                                                                                              |
+| 🕹️DataProperty             | Used by code generation for data binding                                                                                                             |
 
 #### Styling
 
@@ -32,10 +32,10 @@ The Custom Card has high-level styling flexibility that matches the normal Card 
 
 <img src="../images/card_custom_styling.png" srcset="../images/card_custom_styling@2x.png 2x" />
 
-| Layer | Use |
-| ----------------------------- | ---------------------------------------- |
-| Card Area | Groups together the Card layout elements |
-| &nbsp;&nbsp; Header | Groups together the Card layout elements |
+| Layer                | Use                                      |
+| -------------------- | ---------------------------------------- |
+| Card Area            | Groups together the Card layout elements |
+| &nbsp;&nbsp; Header  | Groups together the Card layout elements |
 | &nbsp;&nbsp; Content | Groups together the Card layout elements |
 | &nbsp;&nbsp; Actions | Groups together the Card layout elements |
 
@@ -74,7 +74,7 @@ Related topics:
 - [Button](button.md)
 - [Icon](icon.md)
 - [Slider](slider.md)
-- [Card Collection Pattern](card-collection.md)
+- [Card Collection Pattern](../patterns/card-collection.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

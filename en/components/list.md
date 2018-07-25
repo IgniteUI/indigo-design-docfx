@@ -166,7 +166,7 @@ Related topics:
 - [Icon](icon.md)
 - [Progress](progress.md)
 - [Switch](switch.md)
-- [Lists Pattern](lists.md)
+- [Lists Pattern](../patterns/lists.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

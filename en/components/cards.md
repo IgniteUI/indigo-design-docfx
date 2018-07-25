@@ -16,9 +16,9 @@ Use the Card Component to display information for a single object through images
 
 The Card has three distinct areas: `header` which holds a combination of title and subtitle, `content` which holds images and paragraphs detailing the Card, and `actions` which serves as a toolbar with quick actions related to the Card.
 
-|         |                                       |
-| ------- | ------------------------------------- |
-| header  | <img src="../images/card_headerL.png" srcset="../images/card_headerL@2x.png 2x" />       |
+|         |                                                                                                |
+| ------- | ---------------------------------------------------------------------------------------------- |
+| header  | <img src="../images/card_headerL.png" srcset="../images/card_headerL@2x.png 2x" />             |
 | content | <img src="../images/card_content_image.png" srcset="../images/card_content_image@2x.png 2x" /> |
 | actions | <img src="../images/card_actions_icons.png" srcset="../images/card_actions_icons@2x.png 2x" /> |
 
@@ -51,18 +51,18 @@ The Card Actions come in three distinct layouts: **Button Actions** with just a 
 
 The Card is available in one of the following layouts:
 
-|                   |                                       |
-| ----------------- | ------------------------------------- |
-| Point of Interest | <img src="../images/card_poi.png" srcset="../images/card_poi@2x.png 2x" />           |
-| Audio Video Card  | <img src="../images/card_av.png" srcset="../images/card_av@2x.png 2x" />            |
-| Normal Pin        | <img src="../images/card_normal-pin.png" srcset="../images/card_normal-pin@2x.png 2x" />    |
+|                   |                                                                                                |
+| ----------------- | ---------------------------------------------------------------------------------------------- |
+| Point of Interest | <img src="../images/card_poi.png" srcset="../images/card_poi@2x.png 2x" />                     |
+| Audio Video Card  | <img src="../images/card_av.png" srcset="../images/card_av@2x.png 2x" />                       |
+| Normal Pin        | <img src="../images/card_normal-pin.png" srcset="../images/card_normal-pin@2x.png 2x" />       |
 | Condensed Pin     | <img src="../images/card_condensed-pin.png" srcset="../images/card_condensed-pin@2x.png 2x" /> |
-| Shortcuts         | <img src="../images/card_shortcuts.png" srcset="../images/card_shortcuts@2x.png 2x" />     |
-| Simple Card       | <img src="../images/card_simple.png" srcset="../images/card_simple@2x.png 2x" />        |
-| Small Card        | <img src="../images/card_small.png" srcset="../images/card_small@2x.png 2x" />         |
-| Square Card       | <img src="../images/card_square.png" srcset="../images/card_square@2x.png 2x" />        |
-| Text Card         | <img src="../images/card_text.png" srcset="../images/card_text@2x.png 2x" />          |
-| Timeline Card     | <img src="../images/card_timeline.png" srcset="../images/card_timeline@2x.png 2x" />      |
+| Shortcuts         | <img src="../images/card_shortcuts.png" srcset="../images/card_shortcuts@2x.png 2x" />         |
+| Simple Card       | <img src="../images/card_simple.png" srcset="../images/card_simple@2x.png 2x" />               |
+| Small Card        | <img src="../images/card_small.png" srcset="../images/card_small@2x.png 2x" />                 |
+| Square Card       | <img src="../images/card_square.png" srcset="../images/card_square@2x.png 2x" />               |
+| Text Card         | <img src="../images/card_text.png" srcset="../images/card_text@2x.png 2x" />                   |
+| Timeline Card     | <img src="../images/card_timeline.png" srcset="../images/card_timeline@2x.png 2x" />           |
 
 If none of them works for your design, you may create your own [Custom Cards](cards-custom.md).
 
@@ -76,8 +76,8 @@ The Card comes with styling flexibility through the various overrides available 
 
 The Card usually works as an overview and entry point for more detailed information, therefore, you want to avoid clogging it with too much information. When creating card dashboards, size and arrange cards consistently in order to form a layout grid with equal horizontal and vertical gaps between cards.
 
-| Do                          | Don't                         |
-| --------------------------- | ----------------------------- |
+| Do                                                                         | Don't                                                                          |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | <img src="../images/card_do1.png" srcset="../images/card_do1@2x.png 2x" /> | <img src="../images/card_dont1.png" srcset="../images/card_dont1@2x.png 2x" /> |
 | <img src="../images/card_do2.png" srcset="../images/card_do2@2x.png 2x" /> | <img src="../images/card_dont2.png" srcset="../images/card_dont2@2x.png 2x" /> |
 
@@ -96,7 +96,7 @@ Related topics:
 - [Avatar](avatar.md)
 - [Button](button.md)
 - [Icon](icon.md)
-- [Card Collection Pattern](card-collection.md)
+- [Card Collection Pattern](../patterns/card-collection.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
