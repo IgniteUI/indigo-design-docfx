@@ -26,28 +26,24 @@ The design system consists of three Sketch libraries files that work together to
 * `Indigo-Patterns.sketch` contains common UI patterns that are composed using `Indigo-Components`
 
 Learn more: 
-
-* [Create your first Sketch artboard](creating-an-artboard.md)
+[Create your first Sketch artboard](creating-an-artboard.md)
 
 #### 2. Prototyping & Usability Testing
 
 To get feedback on your designs, use cloud.indigo.design to import the Sketch document and share it as an interactive prototype. This will allow your stakeholders to view your prototype on any device and give feedback via comments.
 
 Learn more: 
-
-* [Create prototypes in the cloud](./prototyping/creating-a-prototype.md)
+[Create prototypes in the cloud](./prototyping/creating-a-prototype.md)
 
 If you want to watch how users use your prototype to complete specific tasks, and also collect metrics like time on task and completion rate, set up a usability test using the published prototype.
 
 Learn more: 
-
-* [Set up a usability test](./prototyping/setting-up-a-usability-study.md)
+[Set up a usability test](./prototyping/setting-up-a-usability-study.md)
 
 #### 3. Generate Code for Angular Apps
 
 You can generate code for Angular apps directly from published prototypes. To do this, you will need a share URL for the prototype, and use the Indigo.Design code generator. The code generator is available as an extension for VS code, and it generate code using the [Ignite UI for Angular UI framework](https://www.infragistics.com/products/ignite-ui-angular).
 
 Learn more: 
-
-* [Generating code from prototypes](./codegen/installing-vs-code-extension.md)
+[Generating code from prototypes](./codegen/installing-vs-code-extension.md)
 
