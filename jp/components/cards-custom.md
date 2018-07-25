@@ -17,15 +17,15 @@ Custom Card コンポーネントは、通常のカードと同じタイプの�
 
 Card レイアウトをカスタマイズするには、`Cards/Custom` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下の方にある `Detach from Symbol` オプションを選択します。新しく表示される `Cards/Custom` グループの下のレイヤー パネルには以下があります。
 
-| レイヤー| 使用 |
-| ----------------------------- | ---------------------------------------- |
-| 🚫 igx-card/custom | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
-| Custom Card | Card レイアウト要素をグループ化 |
-| &nbsp;&nbsp; Card Area | Card レイアウト要素をグループ化 |
-| &nbsp;&nbsp; 🌈 Background | カードの背景色を定義 |
-| &nbsp;&nbsp; Mask | `Radius` レイヤー プロパティを調整してカードの角を丸くします。|
-| &nbsp;&nbsp; Elevation | カード コレクション背景に薄いシャドウをドロップします。 |
-| 🕹️DataProperty | データ バインドのコード生成で使用されます。 |
+| レイヤー                   | 使用                                                                                                                           |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| 🚫 igx-card/custom         | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
+| Custom Card                | Card レイアウト要素をグループ化                                                                                                |
+| &nbsp;&nbsp; Card Area     | Card レイアウト要素をグループ化                                                                                                |
+| &nbsp;&nbsp; 🌈 Background | カードの背景色を定義                                                                                                           |
+| &nbsp;&nbsp; Mask          | `Radius` レイヤー プロパティを調整してカードの角を丸くします。                                                                 |
+| &nbsp;&nbsp; Elevation     | カード コレクション背景に薄いシャドウをドロップします。                                                                        |
+| 🕹️DataProperty             | データ バインドのコード生成で使用されます。                                                                                    |
 
 #### スタイル設定
 
@@ -33,10 +33,10 @@ Custom Card は、スタイルに高い柔軟性があり、テキスト、ボ�
 
 <img src="../images/card_custom_styling.png" srcset="../images/card_custom_styling@2x.png 2x" />
 
-| レイヤー | 使用 |
-| ----------------------------- | ---------------------------------------- |
-| Card Area | Card レイアウト要素をグループ化 |
-| &nbsp;&nbsp; Header | Card レイアウト要素をグループ化 |
+| レイヤー             | 使用                            |
+| -------------------- | ------------------------------- |
+| Card Area            | Card レイアウト要素をグループ化 |
+| &nbsp;&nbsp; Header  | Card レイアウト要素をグループ化 |
 | &nbsp;&nbsp; Content | Card レイアウト要素をグループ化 |
 | &nbsp;&nbsp; Actions | Card レイアウト要素をグループ化 |
 
@@ -80,7 +80,7 @@ Custom Card レイアウトでは、カードに挿入されている要素に�
 - [Button](button.md)
 - [Icon](icon.md)
 - [Slider](slider.md)
-- [Card Collection Pattern](card-collection.md)
+- [Card Collection Pattern](../patterns/card-collection.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

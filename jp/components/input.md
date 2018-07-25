@@ -86,13 +86,13 @@ Input は、Styling ライブラリのテーマでプライマリ、成功、警
 
 Input のボックス タイプを使用して画像上にフォームを配置して読みやすくします。デザインの警告やエラー状態で Input を使用する際にヘルパーテキストを使用してユーザーにガイダンスを提供します。
 
-| いい例                       | 悪い例                         |
-| ---------------------------- | ------------------------------ |
+| いい例                                                                       | 悪い例                                                                           |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | <img src="../images/input_do1.png" srcset="../images/input_do1@2x.png 2x" /> | <img src="../images/input_dont1.png" srcset="../images/input_dont1@2x.png 2x" /> |
 | <img src="../images/input_do2.png" srcset="../images/input_do2@2x.png 2x" /> | <img src="../images/input_dont2.png" srcset="../images/input_dont2@2x.png 2x" /> |
 
 ## コードの生成
- 
+
 Input Group の色やフォントを指定した場合、Input Group HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
 
 > [!WARNING]
@@ -170,8 +170,8 @@ Searchbar に Left および Right Icons があり、アイコンを有効また
 
 関連トピック:
 
-- [Form Pattern](forms.md)
-- [User Profile Pattern](userProfile.md)
+- [Form Pattern](../patterns/form.md)
+- [User Profile Pattern](../patterns/user-profile.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

@@ -34,8 +34,8 @@ The Badge comes with styling flexibility through the various overrides controlli
 
 Use the Badge to "stamp" another piece of UI, such as an Avatar or a text title and avoid using the Badge on its own.
 
-| Do                           | Don't                          |
-| ---------------------------- | ------------------------------ |
+| Do                                                                           | Don't                                                                            |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | <img src="../images/badge_do1.png" srcset="../images/badge_do1@2x.png 2x" /> | <img src="../images/badge_dont1.png" srcset="../images/badge_dont1@2x.png 2x" /> |
 
 ## Code Generation
@@ -97,7 +97,7 @@ When the Type is set to Number the following is applied:
 
 Related topics:
 
-- [Avatar + Badge](avatar+badge.md)
+- [Avatar + Badge](../patterns/avatar-badge.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

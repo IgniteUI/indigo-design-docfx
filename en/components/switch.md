@@ -45,8 +45,8 @@ The Switch comes with styling flexibility, allowing control over the thumb and t
 
 The Switch should appear to the right of the label describing the option, in regard to whose state it controls, in a list of settings. Avoid placing it near the left edge of the screen, and if that is absolutely necessary for a reason, please use a Checkbox instead. Also, use the same or very similar colors for the Switch thumb and track.
 
-| Do                            | Don't                           |
-| ----------------------------- | ------------------------------- |
+| Do                                                                             | Don't                                                                              |
+| ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | <img src="../images/switch_do1.png" srcset="../images/switch_do1@2x.png 2x" /> | <img src="../images/switch_dont1.png" srcset="../images/switch_dont1@2x.png 2x" /> |
 | <img src="../images/switch_do2.png" srcset="../images/switch_do2@2x.png 2x" /> | <img src="../images/switch_dont2.png" srcset="../images/switch_dont2@2x.png 2x" /> |
 | <img src="../images/switch_do3.png" srcset="../images/switch_do3@2x.png 2x" /> | <img src="../images/switch_dont3.png" srcset="../images/switch_dont3@2x.png 2x" /> |
@@ -122,7 +122,7 @@ If the Track is None the control is not rendered. A property that sets the color
 
 Related topics:
 
-- [Lists](lists.md)
+- [Lists Pattern](../patterns/lists.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

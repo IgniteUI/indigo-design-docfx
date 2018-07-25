@@ -28,8 +28,8 @@ The Hyperlink can be styled through the Styling library by changing its default 
 
 Always choose a Hyperlink text color that makes it stand out in a paragraph. Avoid using the same color or similar nuances of it and pick a consistent color across your complete design.
 
-| Do                               | Don't                              |
-| -------------------------------- | ---------------------------------- |
+| Do                                                                                   | Don't                                                                                    |
+| ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
 | <img src="../images/hyperlink_do1.png" srcset="../images/hyperlink_do1@2x.png 2x" /> | <img src="../images/hyperlink_dont1.png" srcset="../images/hyperlink_dont1@2x.png 2x" /> |
 
 ## Code Generation
@@ -92,7 +92,7 @@ When supplied the Text property is used to fill in the text to display for the H
 
 Related topics:
 
-- [Form Pattern](forms.md)
+- [Form Pattern](../patterns/form.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

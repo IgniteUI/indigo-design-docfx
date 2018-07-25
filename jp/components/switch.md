@@ -46,8 +46,8 @@ Switch は、つまみとトラック色を制御でき柔軟なスタイル設�
 
 Switch は、設定リストで状態を制御するオプションを説明するラベルの右に表示されます。画面の左端の近くに配置しないようにします。必須の場合は代わりに Checkbox を使用します。Switch つまみとトラックに同じまたは同様の色を使用します。
 
-| いい例                            | 悪い例                           |
-| ----------------------------- | ------------------------------- |
+| いい例                                                                         | 悪い例                                                                             |
+| ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | <img src="../images/switch_do1.png" srcset="../images/switch_do1@2x.png 2x" /> | <img src="../images/switch_dont1.png" srcset="../images/switch_dont1@2x.png 2x" /> |
 | <img src="../images/switch_do2.png" srcset="../images/switch_do2@2x.png 2x" /> | <img src="../images/switch_dont2.png" srcset="../images/switch_dont2@2x.png 2x" /> |
 | <img src="../images/switch_do3.png" srcset="../images/switch_do3@2x.png 2x" /> | <img src="../images/switch_dont3.png" srcset="../images/switch_dont3@2x.png 2x" /> |
@@ -70,6 +70,7 @@ Customer {
   imageName: String;
 }
 ```
+
 DataProperty: `{imageName}`
 
 #### ネストあり
@@ -83,6 +84,7 @@ Customer {
   profile: Profile;
 }
 ```
+
 DataProperty: `{profile.imageName}`
 
 ### リアクティブ フォーム
@@ -121,7 +123,7 @@ Track が None の場合、コントロールは描画されません。スイ�
 
 関連トピック:
 
-- [Lists](lists.md)
+- [Lists Pattern](../patterns/lists.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

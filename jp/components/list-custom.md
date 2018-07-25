@@ -24,12 +24,12 @@ Custom List Item はインアクティブ状態 (標準状態のインアクテ�
 
 List Item レイアウトをカスタマイズするには、`List/Custom/Item` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下の方にある`シンボルからデタッチ` オプションを選択します。新しく表示される `List/Custom/Item` グループの下のレイヤー パネルには以下があります。
 
-| レイヤー | 使用 |
-| ----------------------------- | ---------------------------------------- |
-| 🚫 igx-list-item/custom | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
-| 💡Primary Action Group | Primary Action レイアウト要素をグループ化 |
-| 💡Secondary Action Group | Secondary Action レイアウト要素をグループ化 |
-| 💡State | 項目の Background を含み、List Item がアクティブまたは非アクティブな状態にあるかどうかを定義します。 |
+| レイヤー                 | 使用                                                                                                                           |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| 🚫 igx-list-item/custom  | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
+| 💡Primary Action Group   | Primary Action レイアウト要素をグループ化                                                                                      |
+| 💡Secondary Action Group | Secondary Action レイアウト要素をグループ化                                                                                    |
+| 💡State                  | 項目の Background を含み、List Item がアクティブまたは非アクティブな状態にあるかどうかを定義します。                           |
 
 #### スタイル設定
 
@@ -68,7 +68,7 @@ List Item レイアウトでは、挿入されている要素に基づいてさ�
 - [Badge](badge.md)
 - [Button](button.md)
 - [Text](text.md)
-- [Lists Pattern](lists.md)
+- [Lists Pattern](../patterns/lists.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

@@ -47,8 +47,8 @@ The Progress comes with styling flexibility through the various overrides for it
 
 In a Circular Bar, always use the actual value for the text label and, when adding more elaborate text in a Linear Bar, provide your best estimate for the state of completion of the task in time/files left, rather than displaying a generic string to the user.
 
-| Do                              | Don't                             |
-| ------------------------------- | --------------------------------- |
+| Do                                                                                 | Don't                                                                                  |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | <img src="../images/progress_do1.png" srcset="../images/progress_do1@2x.png 2x" /> | <img src="../images/progress_dont1.png" srcset="../images/progress_dont1@2x.png 2x" /> |
 | <img src="../images/progress_do2.png" srcset="../images/progress_do2@2x.png 2x" /> | <img src="../images/progress_dont2.png" srcset="../images/progress_dont2@2x.png 2x" /> |
 
@@ -111,7 +111,7 @@ The Text property may contain text, binding, or a combination of the two, exam
 
 Related topics:
 
-- [AV Player Pattern](av-player.md)
+- [AV Player Pattern](../patterns/av.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

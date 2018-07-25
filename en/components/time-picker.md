@@ -60,7 +60,7 @@ Show the Horizontal and Vertical Time Pickers as a dialog that dims the rest of 
 Related topics:
 
 - [Calendar](calendar.md)
-- [Form Pattern](forms.md)
+- [Form Pattern](../patterns/form.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

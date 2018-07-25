@@ -23,12 +23,12 @@ The Custom List Item supports the following interactive states: inactive for the
 
 In order to customize List Item layouts, start by dragging a `List/Custom/Item` to your artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared _List/Custom/Item_ group, you should see the following:
 
-| Layer | Use |
-| ----------------------------- | ---------------------------------------- |
-| 🚫 igx-list-item/custom | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| 💡Primary Action Group | Groups together the Primary Action layout elements |
-| 💡Secondary Action Group | Groups together the Secondary Action layout elements |
-| 💡State | Contains the item Background and defines whether the List Item is in an active or inactive state |
+| Layer                    | Use                                                                                                                                                  |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🚫 igx-list-item/custom  | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
+| 💡Primary Action Group   | Groups together the Primary Action layout elements                                                                                                   |
+| 💡Secondary Action Group | Groups together the Secondary Action layout elements                                                                                                 |
+| 💡State                  | Contains the item Background and defines whether the List Item is in an active or inactive state                                                     |
 
 #### Styling
 
@@ -64,7 +64,7 @@ Related topics:
 - [Badge](badge.md)
 - [Button](button.md)
 - [Text](text.md)
-- [Lists Pattern](lists.md)
+- [Lists Pattern](../patterns/lists.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
