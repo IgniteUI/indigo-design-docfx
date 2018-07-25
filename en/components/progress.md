@@ -109,7 +109,7 @@ The Text property may contain text, binding, or a combination of the two, exam
 
 ## Additional Resources
 
-Related topics:
+Related topic:
 
 - [AV Player Pattern](../patterns/av.md)
   <div class="divider--half"></div>

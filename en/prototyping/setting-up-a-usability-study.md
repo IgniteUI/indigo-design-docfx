@@ -4,7 +4,7 @@ _description: Create user studies based on published prototypes
 _keywords: UX Design, Prototyping, Commenting, Usability studies, User testing
 ---
 
-## Teaser
+## Setting up a Usability Study
 
 At the end of this topic you'll have a usability study based on a published prototype. Learn about [how to create and publish a prototype][topic-1].
 
@@ -20,15 +20,9 @@ You can also check out our video tutorial.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vilyDL4fDT0?list=PLZ4rRHIJepBuVK59H1W6cOg6foOD5wqii" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-
-## In Brief
-1. [Create a usability study][a-1].
-2. [Define tasks][a-2].
-3. [Invite participants][a-3].
-
 ##  Step by step
 
-### (a-2) 2. Create a usability study
+### Create a usability study
 
 1. Select the published prototype to see its details.
 
@@ -58,7 +52,7 @@ You can also check out our video tutorial.
 > [!Note]
 >Select `Usability Studies` in the navigation bar while signed in to see and manage all your studies.
 
-### (a-3) 3. Define tasks
+### Define tasks
 
 You need at least one task to start a study.
 
@@ -104,7 +98,7 @@ You need at least one task to start a study.
 > [!Note]
 >You can restrict interactions with the prototype so participants can only follow steps you defined when recording the task flow. To do this, use the `Disable interactions outside the recorded task flow` checkbox.
 
-### (a-4) 4. Invite participants
+### Invite participants
 
 <div class="divider--half"></div>
 <img src="../images/Setting_Up_a_Usability_Study_6.png" srcset="../images/Setting_Up_a_Usability_Study_6@2x.png 2x" />

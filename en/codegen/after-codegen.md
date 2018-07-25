@@ -1,10 +1,10 @@
 ---
-title: What to do after code generation
+title: After code generation
 _description: Changes developers need to make to their application after code generation.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## What to do after code generation
+## After code generation
 
 ### Introduction
 

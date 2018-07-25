@@ -99,10 +99,6 @@ Each button has an `🕹️Event` property. If supplied, onLeftButtonSelect and 
 
 ## Additional Resources
 
-Related topics:
-
-  <div class="divider--half"></div>
-
 Our community is active and always welcoming to new ideas.
 
 - [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

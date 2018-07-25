@@ -1,10 +1,10 @@
 ---
-title: Usability study results overview
+title: Reviewing Usability Study Results
 _description: Understand usability study results, including the study overview report, the task report, and the session recording viewer
 _keywords: UX Design, Prototyping, Commenting, Usability studies, User testing
 ---
 
-## Understanding usability studies results
+## Reviewing Usability Study Results
 
 Once you [set up your usability study][1] and there are some participants, you can view the results in different ways.
 

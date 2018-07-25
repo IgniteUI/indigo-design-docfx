@@ -4,7 +4,7 @@ _description: Real-time commenting for published Indigo.Design prototypes
 _keywords: UX Design, Prototyping, Commenting
 ---
 
-##  Overview
+##  Commenting on Prototypes
 
 Prototypes you publish have support for real-time commenting. 
 

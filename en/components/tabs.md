@@ -117,7 +117,7 @@ The Text properties may contain text, binding, or a combination of the two, ex
 
 ## Additional Resources
 
-Related topics:
+Related topic:
 
 - [Details](../patterns/details.md)
   <div class="divider--half"></div>

@@ -84,8 +84,6 @@ When supplied, the Text property may contain text, binding, or a combination o
 
 ## Additional Resources
 
-Related topics:
-
 Our community is active and always welcoming to new ideas.
 
 - [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

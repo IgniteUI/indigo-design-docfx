@@ -18,7 +18,7 @@ The Grid Column Pinning is achieved by changing the Right Border override to Pin
 
 ## Additional Resources
 
-Related topics:
+Related topic:
 
 - [Grid](grid.md)
   <div class="divider--half"></div>

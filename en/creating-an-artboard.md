@@ -4,7 +4,7 @@ _description: How to Sketch Artboard for a registration screen using Indigo Desi
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Teaser
+## Creating Your First Artboard
 
 At the end of this topic you'll have a Sketch Artboard for a registration screen using Indigo Design Libraries.
 
@@ -20,17 +20,11 @@ At the end of this topic you'll have a Sketch Artboard for a registration screen
 
 If the [Titillium Web Font][1] isn't installed on your computer, please do it before starting. All texts in the Indigo Design Libraries use it.
 
-## In brief
-
-1.  [Add the Indigo Design Libraries in Sketch][a-1]
-2.  [Create an Artboard][a-2]
-3.  [Add and customize components][a-3]
-
 ## Step by step
 
 ### 1. Add the Indigo Design Libraries in Sketch.
 
-1.  Download the [Indigo Design Libraries][].
+1.  Download the [Indigo Design Libraries](https://cloud.indigo.design/home).
 
     It contains 3 Sketch files:
 
@@ -213,12 +207,13 @@ These are the steps to recreate the screen in the example.
 ## Additional Resources
 
 Related topics:
+- [Button](../components/button.md)
 
-- [Button](button.md)
-- [Input](input.md)
-- [Navbar](navbar.md)
-- [Text](text.md)
-- [Styling](styling-overview.md)
+- [Button](../components/button.md)
+- [Input](../components/input.md)
+- [Navbar](../components/navbar.md)
+- [Text](../components/text.md)
+- [Styling](../style/styling-overview.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

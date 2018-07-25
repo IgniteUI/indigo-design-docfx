@@ -357,8 +357,6 @@ On a rare occasion Sketch allows child elements to extend past the parent Group 
 
 ## Additional Resources
 
-Related topics:
-
 External Links:
 
 - [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)

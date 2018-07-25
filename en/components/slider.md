@@ -97,8 +97,6 @@ When the State is disabled, or an individual part of the slider is not visible, 
 
 ## Additional Resources
 
-Related topics:
-
 Our community is active and always welcoming to new ideas.
 
 - [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

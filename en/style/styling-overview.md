@@ -4,7 +4,7 @@ _description: The Styling Library contains everything for you to be able to defi
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## The Theme Concept
+## Overview
 
 All Components map to Ignite UI for Angular components. The theming engine of Infragistics' Angular product, through powerful sass functions and mixins, allows for the creation of custom color themes that can restyle the whole product in just a few lines of code.
 

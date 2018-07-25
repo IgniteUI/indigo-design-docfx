@@ -56,7 +56,7 @@ When supplied, this property is used to create a method in the component TypeScr
 Related topics:
 
 - [Bottom Navigation](bottom-nav.md)
-- [Card](card.md)
+- [Card](cards.md)
 - [Navbar](navbar.md)
 - [Navigation Drawer](nav-drawer.md)
 - [Tabs](tabs.md)
