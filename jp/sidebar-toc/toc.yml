@@ -1,5 +1,9 @@
-﻿- name: はじめに
+﻿- name: 概要
+  header: true
+- name: はじめに
   href: ../getting-started.md
+- name: ビデオ チュートリアル (英語)
+  href: ../video-tutorials.md
 
 - name: スタイル設定
   header: true
