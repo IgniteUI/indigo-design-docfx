@@ -31,7 +31,7 @@ Dialog は、さまざまなオーバーライドでタイトルやメッセー�
 
 カスタム コンテンツ Dialog をデザインする場合、コンテンツ セクションに操作のためのボタンは配置せずに既存ダイアログ ボタンを使用します。
 
-| いい例                            | 悪い例                           |
+| 良い例                            | 悪い例                           |
 | ----------------------------- | ------------------------------- |
 | <img src="../images/dialog_do1.png" srcset="../images/dialog_do1@2x.png 2x" /> | <img src="../images/dialog_dont1.png" srcset="../images/dialog_dont1@2x.png 2x" /> |
 

@@ -68,7 +68,7 @@ Titles と Paragraphs は、Styling ライブラリの Typography 部分で使�
 
 Hyperlink を複数同時に使用する場合は、Hyperlink を目立つように Paragraph テキスト色を選択します。同じ色や似たような色を使用せずに全体的なデザインの色を統一します。1 行注釈のみの段落キャプション サイズを使用し、複数行に及ぶより長い文字列に極小フォントサイズなどは使用しないようにします。
 
-| いい例                                                                     | 悪い例                                                                         |
+| 良い例                                                                     | 悪い例                                                                         |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | <img src="../images/text_do1.png" srcset="../images/text_do1@2x.png 2x" /> | <img src="../images/text_dont1.png" srcset="../images/text_dont1@2x.png 2x" /> |
 | <img src="../images/text_do2.png" srcset="../images/text_do2@2x.png 2x" /> | <img src="../images/text_dont2.png" srcset="../images/text_dont2@2x.png 2x" /> |

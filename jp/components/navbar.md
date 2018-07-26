@@ -40,7 +40,7 @@ Navbar には、タイトル、アイコン、背景色を変更する基本的�
 
 Navbar 操作は、タイトルと重ならないようにシンプル メニューの表示をトリガーするアイコンを使用します。操作で他のアイコンを指定した場合、Navbar に通常配置するすべての操作をその下に統合し、 Navbar にスタンドアロンの操作を配置しないようにします。
 
-| いい例                                                                         | 悪い例                                                                             |
+| 良い例                                                                         | 悪い例                                                                             |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | <img src="../images/navbar_do1.png" srcset="../images/navbar_do1@2x.png 2x" /> | <img src="../images/navbar_dont1.png" srcset="../images/navbar_dont1@2x.png 2x" /> |
 | <img src="../images/navbar_do2.png" srcset="../images/navbar_do2@2x.png 2x" /> | <img src="../images/navbar_dont2.png" srcset="../images/navbar_dont2@2x.png 2x" /> |

@@ -31,7 +31,7 @@ Toast は、スタイル設定に制限があり背景とメッセージ テキ�
 
 Toast は、常に水平に配置する必要があり、その他の配置はしないようにします。Toast のスタイルは、特徴のある背景色や白や濃い灰色のメッセージ テキストは使用しないようにします。
 
-| いい例                          | 悪い例                          |
+| 良い例                          | 悪い例                          |
 | ---------------------------- | ------------------------------ |
 | <img src="../images/toast_do1.png" srcset="../images/toast_do1@2x.png 2x" /> | <img src="../images/toast_dont1.png" srcset="../images/toast_dont1@2x.png 2x" /> |
 | <img src="../images/toast_do2.png" srcset="../images/toast_do2@2x.png 2x" /> | <img src="../images/toast_dont2.png" srcset="../images/toast_dont2@2x.png 2x" /> |

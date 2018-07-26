@@ -48,7 +48,7 @@ Progress は、さまざまなオーバーライドでテキスト、ストリ�
 
 Circular Bar は常にテキスト ラベルの実際の値を使用し、Linear Bar は一般的な文字列をユーザーに表示するのではなく、残りの時間とファイルに基づいてタスクの完了状況の正確な予測を提供します。
 
-| いい例                                                                             | 悪い例                                                                                 |
+| 良い例                                                                             | 悪い例                                                                                 |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | <img src="../images/progress_do1.png" srcset="../images/progress_do1@2x.png 2x" /> | <img src="../images/progress_dont1.png" srcset="../images/progress_dont1@2x.png 2x" /> |
 | <img src="../images/progress_do2.png" srcset="../images/progress_do2@2x.png 2x" /> | <img src="../images/progress_dont2.png" srcset="../images/progress_dont2@2x.png 2x" /> |
