@@ -7,7 +7,7 @@ _language: ja
 
 ## VS Code の Indigo.Design コード ジェネレーター
 
-このトピックは、開発者のためにコード生成を簡単になる Visual Studio Code 拡張機能を説明します。Visual Studio Code でこの拡張機能を使用すると、開発者が実際実行可能な Angular プロジェクトのコードを直接に生成できます。デザイナーが Sketch ファイルを [Indigo.Design](https://next.indigo.design) でクラウドに公開し、共有リンクを開発者に送信します。開発者がこの共有リンクを拡張機能に入力し、デザインからコードを生成します。手動的にコンポーネントのモジュール、HTML、CSS、および TypeScript を書く必要がありません。
+このトピックは、開発者のためにコード生成を簡単になる Visual Studio Code 拡張機能を説明します。Visual Studio Code でこの拡張機能を使用すると、開発者が実際実行可能な Angular プロジェクトのコードを直接に生成できます。デザイナーが Sketch ファイルを [Indigo.Design](https://cloud.indigo.design) でクラウドに公開し、共有リンクを開発者に送信します。開発者がこの共有リンクを拡張機能に入力し、デザインからコードを生成します。手動的にコンポーネントのモジュール、HTML、CSS、および TypeScript を書く必要がありません。
 
 ### 要件
 
@@ -45,7 +45,7 @@ Angular CLI が拡張機能に使用するコンポーネントの生成で CSS 
 
 ## 操作方法
 
-Sketch ファイルから開始します。デザイナーが Sketch ファイルを完了した後、[Indigo.Design](https://next.indigo.design) サイトにアップロードします。アップロード後にファイルを公開し、ユーザビリティ スタディの作成やコメントを有効にできます。ファイルの公開時に Indigo.Design は共有リンクを提供します。この拡張機能はそのリンクを使用できます。
+Sketch ファイルから開始します。デザイナーが Sketch ファイルを完了した後、[Indigo.Design](https://cloud.indigo.design) サイトにアップロードします。アップロード後にファイルを公開し、ユーザビリティ スタディの作成やコメントを有効にできます。ファイルの公開時に Indigo.Design は共有リンクを提供します。この拡張機能はそのリンクを使用できます。
 
 ![](../images/step1.gif)
 
