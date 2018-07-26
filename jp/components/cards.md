@@ -77,7 +77,7 @@ Card は、さまざまなオーバーライドでヘッダー、コンテンツ
 
 Card はより詳細な情報についての概要やエントリ ポイントとなるため、情報をあまり入れすぎないようにします。カード ダッシュボードの作成時にカードを常にサイズ変更しながら配置し、カード間の水平と垂直のギャップを均等にしてレイアウト グリッドを形成します。
 
-| いい例                                                                     | 悪い例                                                                         |
+| 良い例                                                                     | 悪い例                                                                         |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | <img src="../images/card_do1.png" srcset="../images/card_do1@2x.png 2x" /> | <img src="../images/card_dont1.png" srcset="../images/card_dont1@2x.png 2x" /> |
 | <img src="../images/card_do2.png" srcset="../images/card_do2@2x.png 2x" /> | <img src="../images/card_dont2.png" srcset="../images/card_dont2@2x.png 2x" /> |

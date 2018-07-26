@@ -23,7 +23,7 @@ Carousel は、さまざまなオーバーライドでナビゲーションボ�
 
 Carousel の戻るおよび次へ移動するためのボタンは、常に画像スライドの一番上に表示されます。インジケーターのスタイルは統一し、アクティブな項目のみ強調します。
 
-| いい例                              | 悪い例                             |
+| 良い例                              | 悪い例                             |
 | ------------------------------- | --------------------------------- |
 | <img src="../images/carousel_do1.png" srcset="../images/carousel_do1@2x.png 2x" /> | <img src="../images/carousel_dont1.png" srcset="../images/carousel_dont1@2x.png 2x" /> |
 | <img src="../images/carousel_do2.png" srcset="../images/carousel_do2@2x.png 2x" /> | <img src="../images/carousel_dont2.png" srcset="../images/carousel_dont2@2x.png 2x" /> |

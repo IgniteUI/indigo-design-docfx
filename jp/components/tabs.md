@@ -52,7 +52,7 @@ Tabs は、テキストやアイコンの色、現在の選択をマークする
 
 Tab は情報の体系化に適しいますが、ワークフローのデザインやロジカルなシーケンスに基づいた操作には向いていません (チェックアウト プロセスや構成ウィザード) 。短い Tabs は、同じバーでテキスト タブとアイコンタブは組み合わすことはできません。2 つのコンテンツ モードのうち 1 つを選択してバーの常にすべての項目を使用します。
 
-| いい例                          | 悪い例                         |
+| 良い例                          | 悪い例                         |
 | --------------------------- | ----------------------------- |
 | <img src="../images/tabs_do1.png" srcset="../images/tabs_do1@2x.png 2x" /> | <img src="../images/tabs_dont1.png" srcset="../images/tabs_dont1@2x.png 2x" /> |
 | <img src="../images/tabs_do2.png" srcset="../images/tabs_do2@2x.png 2x" /> | <img src="../images/tabs_dont2.png" srcset="../images/tabs_dont2@2x.png 2x" /> |

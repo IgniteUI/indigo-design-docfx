@@ -45,7 +45,7 @@ Button Group は、さまざまなオーバーライドで背景色、各ボタ�
 
 Button のスタイルは統一させます。同じ Button グループ内でテキスト Button とアイコン Buttons を組合さないようにします。Button Group のサイズはコンテンツに基づいて変更することにより、Button に空スペースが多く残らないようにします。Button Group は、シンプルで関連のある操作のみの表示に使用します。簡単なナビゲーションにも適していないため、[Tabs](tabs.md) の使用をお勧めします。 
 
-| いい例                                  | 悪い例                                 |
+| 良い例                                  | 悪い例                                 |
 | ----------------------------------- | ------------------------------------- |
 | <img src="../images/button-group_do1.png" srcset="../images/button-group_do1@2x.png 2x" /> | <img src="../images/button-group_dont1.png" srcset="../images/button-group_dont1@2x.png 2x" /> |
 | <img src="../images/button-group_do2.png" srcset="../images/button-group_do2@2x.png 2x" /> | <img src="../images/button-group_dont2.png" srcset="../images/button-group_dont2@2x.png 2x" /> |

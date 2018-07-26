@@ -36,7 +36,7 @@ Radio Group は、さまざまなオーバーライドで各項目のラベル �
 
 Radio Group を追加項目で拡張する場合は、単一列で左寄せに統一してください。複数列のレイアウトや Radio を一度に 1 つ以上オンにしないようにします。
 
-| いい例                                | 悪い例                               |
+| 良い例                                | 悪い例                               |
 | --------------------------------- | ----------------------------------- |
 | <img src="../images/radiogroup_do1.png" srcset="../images/radiogroup_do1@2x.png 2x" /> | <img src="../images/radiogroup_dont1.png" srcset="../images/radiogroup_dont1@2x.png 2x" /> |
 | <img src="../images/radiogroup_do2.png" srcset="../images/radiogroup_do2@2x.png 2x" /> | <img src="../images/radiogroup_dont2.png" srcset="../images/radiogroup_dont2@2x.png 2x" /> |

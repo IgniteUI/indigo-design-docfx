@@ -44,7 +44,7 @@ Slider は、さまざまなオーバーライドでラベル背景、つまみ�
 
 Slider のトラック カラーは常にトラック ベース カラーより強調されます。単一値と範囲 Slider のスタイルを統一する必要があります (ラベル背景をつまみやトラックカラーとマッチするなど)。
 
-| いい例                            | 悪い例                           |
+| 良い例                            | 悪い例                           |
 | ----------------------------- | ------------------------------- |
 | <img src="../images/slider_do1.png" srcset="../images/slider_do1@2x.png 2x" /> | <img src="../images/slider_dont1.png" srcset="../images/slider_dont1@2x.png 2x" /> |
 | <img src="../images/slider_do2.png" srcset="../images/slider_do2@2x.png 2x" /> | <img src="../images/slider_dont2.png" srcset="../images/slider_dont2@2x.png 2x" /> |

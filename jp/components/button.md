@@ -40,7 +40,7 @@ Button は、さまざまなオーバーライドで背景色、ラベル、ア�
 
 Button のコンテンツにラベルを含む場合、大文字を太文字 (Medium または Semibold) を使用してください。Button がレイアウトで 1 つ以上必要な場合、同じ高さで揃え、互いに十分なスペースを保ちながら同じ水平面に配置することによりタップやクリックで発生する可能性のあるエラーを防止できます。このようなレイアウトの場合は、ボタン タイプは組み合わせないようにします。UI の特定のセクションにあるすべての操作に同じタイプを使用して統一感を持たせます。
 
-| いい例                                                                         | 悪い例                                                                             |
+| 良い例                                                                         | 悪い例                                                                             |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | <img src="../images/button_do1.png" srcset="../images/button_do1@2x.png 2x" /> | <img src="../images/button_dont1.png" srcset="../images/button_dont1@2x.png 2x" /> |
 | <img src="../images/button_do2.png" srcset="../images/button_do2@2x.png 2x" /> | <img src="../images/button_dont2.png" srcset="../images/button_dont2@2x.png 2x" /> |
