@@ -93,6 +93,12 @@ Ignite UI for Angular を Angular プロジェクトで使用するために Ign
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 ```
 
+すべての Sketch コンポーネントは [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) フォントを使用するため、このフォントを含んでください。
+
+```scss
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+```
+
 Infragistics VS Code 拡張機能をプロジェクトを更新するために使用した場合は、自動的に追加されます。このインポートが `styles.scss` ファイルに存在しない場合、拡張機能はプロジェクトで `ig.scss` と呼ばれる新しいファイルを含み、プロジェクトはこのファイルおよび `styles.scss` ファイルに参照します。
 
 ### スタイル設定

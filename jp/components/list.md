@@ -97,6 +97,66 @@ List および List 項目には固有のデザインがありますが、List �
 | <img src="../images/list_do2.png" srcset="../images/list_do2@2x.png 2x" /> | <img src="../images/list_dont2.png" srcset="../images/list_dont2@2x.png 2x" /> |
 | <img src="../images/list_do3.png" srcset="../images/list_do3@2x.png 2x" /> | <img src="../images/list_dont3.png" srcset="../images/list_dont3@2x.png 2x" /> |
 
+## コード生成
+
+List の色またはフォントを指定した場合、List HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。リストを使用するためにデタッチ シンボルに設定する必要があります。
+
+### データ バインディング
+
+データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。例:
+
+#### ネストなし
+
+```typescript
+Customer {
+  imageName: String;
+}
+```
+
+DataProperty: `{imageName}`
+
+#### ネストあり
+
+```typescript
+Profile {
+  imageName: String;
+}
+
+Customer {
+  profile: Profile;
+}
+```
+
+DataProperty: `{profile.imageName}`
+
+### DataSource
+
+`🕹️DataSource` 値は List のデータ ソースを設定するために使用されます。データを表示するためにオブジェクト (行) の配列にバインドします。データ ソースが設定されない場合、リストはヘッダーおよびデザイン ファイルに設定されるリスト項目の数を描画します。データ ソースが設定される場合、スタイルおよびレイアウトは最初のリスト項目から取得されます。
+
+### リスト ヘッダー
+
+リストのヘッダーを構成します。
+
+### リスト項目
+
+リスト項目は List の List Item コレクションを構成します。各 List Item はリスト項目をレイアウト/設定するコントロールを含みます。リスト項目はプライマリおよびセコンダリ アクション セクションに分割されます。
+
+### プライマリ アクション
+
+プライマリ アクションのレイアウトを決定します。Avatar、Linear Progress Bar、または Icon を含むことができます。更に 2 つの Text を含むことができます。(使用方法については上記の説明を参照してください)。
+
+### セカンダリ アクション
+
+セコンダリ アクションのレイアウトを決定します。2 つ以下の Icon、2 つ以下の Text、Checkbox、Badge、Switch、または Text および Icon を含むことができます。(使用方法については上記の説明を参照してください)。
+
+### テキスト
+
+Text プロパティには、テキスト、バインディング、またはその両方を含むことができます。例:
+
+- 設定
+- {settingsLabel}
+- 重要な {labelText}
+
 ## その他のリソース
 
 関連トピック:

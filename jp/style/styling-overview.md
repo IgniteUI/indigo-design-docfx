@@ -5,7 +5,7 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, UI ライ�
 _language: ja
 ---
 
-## テーマ コンセプト
+## 概要
 
 すべてのコンポーネントは、Ignite UI for Angular コンポーネントにマップします。Infragistics Angular 製品のテーマ エンジンは、パワフルな SASS 機能と mixins でカスタム色テーマの作成が可能で最小限のコードで製品全体のスタイルを変更できます。
 

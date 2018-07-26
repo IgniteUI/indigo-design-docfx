@@ -102,13 +102,13 @@ Text プロパティにテキスト、バインディング、または両方を
 関連トピック:
 
 - [Button Group](button-group.md)
-- [Card](card.md)
+- [Cards](cards.md)
 - [Dialog](dialog.md)
 - [Snackbar](snackbar.md)
 - [Time Picker](time-picker.md)
 - [AV Player Pattern](../patterns/av.md)
 - [File Upload Pattern](../patterns/file-upload.md)
-- [Form Pattern](../patterns/forms.md)
+- [Form Pattern](../patterns/form.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
