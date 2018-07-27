@@ -66,9 +66,9 @@ The following Sketch components are not implemented for code generation yet:
 > [!Note]
 > Future releases will include these components.
 
-### Form Patterns and Code Generation
+### Indigo-Patterns Sketch Library and Code Generation
 
-If you use a Form from the Indigo.Design Patterns library and have detached the symbols all the way down to the base level Indigo.Design components we will be able to code generate these however Button text will not display the same as they appear in the Sketch.  We are working to resolve this but for now developers will need to adjust the text after the code is generated.
+The Patterns library is not currently supported for code generation.  If your Sketch file contains any elements from the Indigo-Patterns library they will not display inside the [Code Generator Plugin](codegen/vscode-plugin.md) for VS Code. We will be adding support in a later release.
 
 ### Proportional widths not completed
 
