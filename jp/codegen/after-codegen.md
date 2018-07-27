@@ -93,7 +93,7 @@ Ignite UI for Angular を Angular プロジェクトで使用するために Ign
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 ```
 
-すべての Sketch コンポーネントは [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) フォントを使用するため、このフォントを含んでください。
+すべての Sketch コンポーネントは [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) フォントを使用するため、このフォントを含む必要があります。
 
 ```scss
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web');

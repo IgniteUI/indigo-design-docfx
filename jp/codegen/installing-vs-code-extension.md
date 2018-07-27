@@ -36,7 +36,7 @@ VS Code 拡張機能をインストールする前に、Visual Studio Code が�
 
     <div class="divider--half"></div>
 
-拡張がコンピューター上でインストール済みになりました。
+拡張機能がコンピューター上でインストール済みになりました。
 
 <img src="../images/vs-code-generator-installed.png" />
 
