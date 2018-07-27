@@ -1,6 +1,6 @@
 ---
 title: Interaction options
-_description: Find out about hotpots, user action, navigation, and transitions
+_description: Find out about hotspots, user action, navigation, and transitions
 _keywords: UX Design, Prototyping, Commenting, Interactions
 ---
 
