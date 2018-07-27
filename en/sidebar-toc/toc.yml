@@ -108,6 +108,8 @@
       href: ../patterns/file-upload.md
     - name: Forms
       href: ../patterns/form.md
+    - name: Full Grid
+      href: ../patterns/full-grid.md
     - name: Gallery
       href: ../patterns/gallery.md
     - name: Image Manipulation
