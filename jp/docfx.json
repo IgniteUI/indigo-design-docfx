@@ -17,6 +17,7 @@
                     "codegen/**.md",
                     "components/**.md",
                     "patterns/**.md",
+                    "prototyping/**.md",
                     "style/**.md",
                     "sidebar-toc/toc.yml",
                     "toc.yml",
