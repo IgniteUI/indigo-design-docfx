@@ -94,4 +94,4 @@ _language: ja
 
 参加者数が必要数に達したらテストを終了し、それ以降参加を受け付けないようにもできます。
 
-ユーザビリティ テストの結果については、[このトピック](usability-study-results-overview.md) を参照してください。
+ユーザビリティ テストの結果については、[このトピック](usability-study-results-overview.md)を参照してください。
