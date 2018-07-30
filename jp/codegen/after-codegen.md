@@ -19,7 +19,7 @@ ng new my-app --style=scss
 
 ### ルーティング
 
-Infragistics VS Code 拡張機能を使用してプロジェクトを更新した場合、基本のルートが生成されたモジュールに追加されました。このルートは生成されたコンポーネントをナビゲーションのために準備します。ただし、新しい Angular アプリケーションでナビゲートされたコンテンツへ移動する場所がないため、最初に [RouterOutlet](https://angular.io/api/router/RouterOutlet) をアプリケーションに追加する必要があります。このコードをアプリケーションのメイン ページである **app.component.html** ファイルに追加します。
+Infragistics VS Code 拡張機能を使用してプロジェクトを更新した場合、基本のルートが生成されたモジュールに追加されました。このルートは生成されたコンポーネントをナビゲーション用に準備します。ただし、新しい Angular アプリケーションでナビゲートされたコンテンツへ移動する場所がないため、最初に [RouterOutlet](https://angular.io/api/router/RouterOutlet) をアプリケーションに追加する必要があります。このコードをアプリケーションのメイン ページである **app.component.html** ファイルに追加します。
 
 例:
 
@@ -54,7 +54,7 @@ Sketch で、デザイナーが Category Chart コンポーネントをアート
 
 <img src="../images/categorychart-overrides.png" srcset="../images/categorychart-overrides@2x.png 2x" />
 
-オーバーライドで DataSource オーバーライドがあります。指定した値は [Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) コントロールにバインドするプロパティをジェネレーターに指定します。この場合、Sketch のチャートは `igx-category-chart` に変換し、`dataSource` 入力は `olympicMedalData` にバインドします。
+オーバーライドには DataSource オーバーライドがあります。指定した値は [Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) コントロールにバインドするプロパティをジェネレーターに指定します。この場合、Sketch のチャートは `igx-category-chart` に変換し、`dataSource` 入力は `olympicMedalData` にバインドします。
 
 ```html
 <igx-category-chart [dataSource]="olympicMedalData" ...
@@ -103,7 +103,7 @@ Infragistics VS Code 拡張機能をプロジェクトを更新するために�
 
 ### スタイル設定
 
-生成された [Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) コントロールは Sketch バージョンと同じ外観があります。Sketch で実行された色変更は予期されるように生成されます。開発者は SCSS を含み、すべての生成されたコードにアクセスできます。スタイル変更は生成後も実行できます。コンポーネントを再生成する必要がある場合、開発者の変更はオーバーライドされます。Infragistics VS Code 拡張機能はオーバーライドするファイルについて通知します。
+生成された [Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) コントロールは Sketch バージョンと同じ外観になります。Sketch で実行された色変更も同様にコードに生成されます。開発者は SCSS を含み、すべての生成されたコードにアクセスできます。スタイル変更は生成後も実行できます。コンポーネントを再生成する必要がある場合、開発者の変更はオーバーライドされます。Infragistics VS Code 拡張機能はオーバーライドするファイルについて通知します。
 
 ここでは、以下に注意してください。コード ジェネレーターの現在リリースは要素にマージンまたはパディングを適用しません。要素のスペースおよび配置は Sketch ファイルと一致しない場合があります。この機能は今後拡張予定ですが、現時点では生成した SCSS および HTML でコントロールの配置およびスペースを変更できます。
 
