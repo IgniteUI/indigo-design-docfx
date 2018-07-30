@@ -19,11 +19,11 @@ _language: ja
 
 ## 詳細手順
 
-### 1. Indigo Design ライブラリを Sketch に追加します。
+### 1. Indigo Design ライブラリを Sketch に追加
 
 1.  [Indigo Design ライブラリ](https://cloud.indigo.design/home)をダウンロードします。
 
-    3 つの Sketch ファイルを含みます:
+    以下の 3 つの Sketch ファイルを含みます:
 
     - **Indigo-Styling**  
       Colors、Elevation、Material Icons、および Typography などのすべてのスタイル アセット。
@@ -51,7 +51,7 @@ _language: ja
 
 ライブラリが正しく追加された場合、Sketch の **Insert** メニューの **Symbols** セクションに表示されます。
 
-### 2. アートボードを作成します。
+### 2. アートボードの作成
 
 1.  Mac で Sketch アプリケーションで新しいファイルを作成します。
 2.  アートボードのサイズを選択します。
@@ -66,7 +66,7 @@ _language: ja
 
 Insert メニューを使用して Indigo Design ライブラリからコンポーネントを追加して、右パネルでカスタマイズできます。
 
-これは例の画面を作成する手順です。
+以下は例の画面を作成する手順です。
 
 1.  **Navbar を追加します。**
 

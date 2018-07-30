@@ -7,7 +7,7 @@ _language: ja
 
 ## Grid
 
-Grid コンポーネントは大量の複雑なデータをタブ形式し、ユーザーがブラウズおよびインタラクティブに操作して、フィルタリング、並べ替え、ページングなどが可能です。Grid は、[Ignite UI for Angular Grid コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid.html)と視覚的に同じものです。
+Grid コンポーネントは大量の複雑なデータをタブ形式で表示し、ユーザーがブラウジングやインタラクティブに操作することにより、フィルタリング、並べ替え、ページングなどが可能です。Grid は、[Ignite UI for Angular Grid コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid.html)と視覚的に同じものです。
 
 ### Grid デモ
 
@@ -27,7 +27,7 @@ Grid は、基本的に表形式でデータを表示する列と行のリピー
 
 ### セル タイプ
 
-Grid は、異なるデータ可視化用に 3 タイプのセルがあります。Header Cell は、各列に 1 つでグリッドの一番上に表示され、特定の列のデータに関する説明をテキストで表示します。Body Cell は、データ レコードを表示するテーブルのビルドその他に使用されます。Summary Cell は、列[集計](grid-summaries.md)がカウント、最大、最小などの各ディメンションに表示される Grid の下のセクションを作成するために使用されます。
+Grid は、異なるデータ可視化用に 3 タイプのセルがあります。Header Cell は、各列に 1 つ、グリッドの一番上に表示され、特定の列のデータに関する説明をテキストで表示します。Body Cell は、データ レコードを表示するテーブルのビルドその他に使用されます。Summary Cell は、列[集計](grid-summaries.md)がカウント、最大、最小などの各ディメンションに表示される Grid の下のセクションを作成するために使用されます。
 
 <img src="../images/grid_cell_header.png" srcset="../images/grid_cell_header@2x.png 2x" />
 <img src="../images/grid_cell_body.png" srcset="../images/grid_cell_body@2x.png 2x" />
@@ -43,7 +43,7 @@ Grid Header Cell は、項目のオーバーライドで次のレイアウトの
 
 ### 状態 (本体セル)
 
-Grid Body Cell は、以下のインタラクティブな状態をサポートします。標準状態の **Rest**、セル選択モードで選択したセルの CellSelected、選択セルのある行の残りのセルの RowSelected。
+Grid Body Cell は、以下のインタラクティブな状態 (標準状態の **Rest**、セル選択モードで選択したセルの CellSelected、選択セルのある行の残りのセルの RowSelected) をサポートします。
 
 <img src="../images/grid_cell_body_rest.png" srcset="../images/grid_cell_body_rest@2x.png 2x" />
 <img src="../images/grid_cell_body_cell-selected.png" srcset="../images/grid_cell_body_cell-selected@2x.png 2x" />
@@ -51,7 +51,7 @@ Grid Body Cell は、以下のインタラクティブな状態をサポート�
 
 ### セル タイプ
 
-Grid Header Cell は、対応が必要な一般的なデータ型のプリセットが 3 つあります。数値のための **Number**、文字列の Text、最初の列の通常テンプレートとして使用される Checkbox、複数行の選択が可能にする最初の列のテンプレート。
+Grid Header Cell は、対応が必要な一般的なデータ型のプリセットが 3 つ (数値のための **Number**、文字列の Text、最初の列の通常テンプレートとして使用される Checkbox、複数行の選択が可能にする最初の列のテンプレート。) あります。
 
 <img src="../images/grid_cell_header_number.png" srcset="../images/grid_cell_header_number@2x.png 2x" />
 <img src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />
@@ -79,7 +79,7 @@ Grid の最も重要な点は、Header および Body Cells 内のデータの�
 
 ## コード生成
 
-Grid の色またはフォントを指定した場合、Grid HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。グリッドを使用するためにデタッチ シンボルに設定する必要があります。グリッドの幅が列の幅を合計して決定されます。グリッドのコンテナーに高さを設定しない場合も行を正しく描画するためにグリッドの高さが null 値に設定されます。
+Grid の色またはフォントを指定した場合、Grid HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が必要になります。グリッドを使用するためにデタッチ シンボルに設定する必要があります。グリッドの幅が列の幅を合計して決定されます。グリッドのコンテナーに高さを設定しない場合も行を正しく描画するためにグリッドの高さが null 値に設定されます。
 
 ### データ バインディング
 
@@ -115,7 +115,7 @@ DataProperty: `{profile.imageName}`
 
 ### ヘッダー
 
-Headers が提供された場合、描画する列数を決定します。Header を下にある Body (Cell) と一致させるために列を作成します。一致する Body が見つからない場合、列は Header の情報に基づいて作成されます。一致が見つかった場合、情報が Header から取得され、次に Body/Cell から取得されます。
+Headers が提供された場合、描画する列数を決定します。Header を下にある Body (Cell) と一致させるために列を作成します。一致する Body が見つからない場合、列は Header の情報に基づいて作成され、一致が見つかった場合は、情報が Header から取得され、次に Body/Cell から取得されます。
 
 #### テキスト
 

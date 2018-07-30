@@ -7,9 +7,9 @@ _language: ja
 
 ## 概要
 
-すべてのコンポーネントは、Ignite UI for Angular コンポーネントにマップします。Infragistics Angular 製品のテーマ エンジンは、パワフルな SASS 機能と mixins でカスタム色テーマの作成が可能で最小限のコードで製品全体のスタイルを変更できます。
+すべてのコンポーネントは、Ignite UI for Angular コンポーネントにマップできます。Infragistics Angular 製品のテーマ エンジンは、パワフルな SASS 機能と mixins でカスタム色テーマの作成が可能で最小限のコードで製品全体のスタイルを変更できます。
 
-Sketch ライブラリで Indigo スタイル ライブラリを変更して Components と Patterns と同じ結果となります。
+Sketch ライブラリで Indigo スタイル ライブラリを変更した場合、Components と Patterns と同じ結果となります。
 
 <img src="../images/theme_overview_default.png" />
 
