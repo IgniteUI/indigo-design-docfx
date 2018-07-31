@@ -51,7 +51,7 @@ Grid Body Cell は、以下のインタラクティブな状態 (標準状態の
 
 ### セル タイプ
 
-Grid Header Cell は、対応が必要な一般的なデータ型のプリセットが 3 つ (数値のための **Number**、文字列の Text、最初の列の通常テンプレートとして使用される Checkbox、複数行の選択が可能にする最初の列のテンプレート。) あります。
+Grid Header Cell は、対応が必要な一般的なデータ型のプリセットが 3 つ (数値のための **Number**、文字列の Text、最初の列の通常テンプレートとして使用される Checkbox、複数行の選択が可能にする最初の列のテンプレート) あります。
 
 <img src="../images/grid_cell_header_number.png" srcset="../images/grid_cell_header_number@2x.png 2x" />
 <img src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />
