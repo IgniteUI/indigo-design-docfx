@@ -9,12 +9,12 @@ _language: ja
 
 このトピックはインタラクションについて説明します。以下は主なトピックです。
 
-* [ホットスポット](#ホットスポット)
-* [ユーザー操作](#ユーザー操作)
-* [ナビゲーション](#ナビゲーション)
-* [トランジション](#トランジション)
+- [ホットスポット](#ホットスポット)
+- [ユーザー操作](#ユーザー操作)
+- [ナビゲーション](#ナビゲーション)
+- [トランジション](#トランジション)
 
-<img src="../images/Interaction_Options_1.png" srcset="../images/Interaction_Options_1@2x.png 2x" />
+<img src="../images/Interaction_Options_1.png" />
 
 <div class="divider--half"></div>
 
@@ -28,7 +28,7 @@ _language: ja
 
 ホットスポットの作成は、スクリーンのポイント上にクリック + ドラッグします。
 
-<img src="../images/Interaction_Options_Hotspot_Tooltip.png" srcset="../images/Interaction_Options_Hotspot_Tooltip@2x.png 2x" />
+<img src="../images/Interaction_Options_Hotspot_Tooltip.png" />
 
 <div class="divider--half"></div>
 
@@ -39,7 +39,7 @@ _language: ja
 プロトタイプの複数のスクリーンで繰り返しインタラクションを使用できます。
 手順は、ホットスポットを作成、次にインタラクションを追加して複製します。
 
-<img src="../images/Interaction_Options_Hotspot_Duplicate.png" srcset="../images/Interaction_Options_Hotspot_Duplicate@2x.png 2x" />
+<img src="../images/Interaction_Options_Hotspot_Duplicate.png" />
 
 <div class="divider--half"></div>
 
@@ -50,10 +50,11 @@ _language: ja
 ### ユーザー操作とは?
 
 以下のインタラクションが可能です。
-* タップ
-* スワイプ
-* 長押し
-* ダブル タップ
+
+- タップ
+- スワイプ
+- 長押し
+- ダブル タップ
 
 ## ナビゲーション
 
@@ -63,7 +64,7 @@ _language: ja
 
 よく利用されているインタラクションは、プロトタイプ内の他のスクリーンへの移動です。
 
-<img src="../images/Interaction_Options_Navigate.png" srcset="../images/Interaction_Options_Navigate@2x.png 2x" />
+<img src="../images/Interaction_Options_Navigate.png" />
 
 <div class="divider--half"></div>
 
@@ -71,7 +72,7 @@ _language: ja
 
 プロトタイプのナビゲーション履歴で前のスクリーンへ移動します。
 
-<img src="../images/Interaction_Options_GoBack.png" srcset="../images/Interaction_Options_GoBack@2x.png 2x" />
+<img src="../images/Interaction_Options_GoBack.png" />
 
 <div class="divider--half"></div>
 
@@ -79,7 +80,7 @@ _language: ja
 
 プロトタイプ以外の URL へ移動します。
 
-<img src="../images/Interaction_Options_OpenURL.png" srcset="../images/Interaction_Options_OpenURL@2x.png 2x" />
+<img src="../images/Interaction_Options_OpenURL.png" />
 
 <div class="divider--half"></div>
 
@@ -87,13 +88,13 @@ _language: ja
 
 プロトタイプのスクリーン間のトランジションに使用するアニメーションを選択します。アニメーション トランジションを使用しないという選択もできます。
 
-* なし
-* フェード
-* 反転
-* スライド
-* プッシュ
+- なし
+- フェード
+- 反転
+- スライド
+- プッシュ
 
-<img src="../images/Interaction_Options_Interaction_Panel.png" srcset="../images/Interaction_Options_Interaction_Panel@2x.png 2x" />
+<img src="../images/Interaction_Options_Interaction_Panel.png" />
 
 <div class="divider--half"></div>
 
@@ -103,10 +104,10 @@ _language: ja
 
 スクリーン間をトランジションする期間を選択します。
 
-* 遅い: 450 ミリ秒
-* 標準: 300 ミリ秒
-* 速い: 150 ミリ秒
+- 遅い: 450 ミリ秒
+- 標準: 300 ミリ秒
+- 速い: 150 ミリ秒
 
-<img src="../images/Interaction_Options_Durations.png" srcset="../images/Interaction_Options_Durations@2x.png 2x" />
+<img src="../images/Interaction_Options_Durations.png" />
 
 <div class="divider--half"></div>

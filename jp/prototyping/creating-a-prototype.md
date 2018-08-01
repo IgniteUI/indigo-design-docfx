@@ -32,21 +32,22 @@ Sketch プロジェクトを追加して Sketch アートボードをスクリ�
 
 ### 3. インタラクションの追加
 
-1. スクリーンを選択して左のパネルに読み込みます。
-2. スクリーン領域上にクリックしてドラッグすると、ホットスポットを作成します。
+1.  スクリーンを選択して左のパネルに読み込みます。
+2.  スクリーン領域上にクリックしてドラッグすると、ホットスポットを作成します。
 
-    <img src="../images/Interaction_Options_Hotspot_Tooltip.png" srcset="../images/Interaction_Options_Hotspot_Tooltip@2x.png 2x" />
+    <img src="../images/Interaction_Options_Hotspot_Tooltip.png" />
 
     <div class="divider--half"></div>
-	
-3. [インタラクションの追加] ボタンをクリックします。
+
+3.  [インタラクションの追加] ボタンをクリックします。
 
     <img src="../images/Creating_A_Prototype_4.png" srcset="../images/Creating_A_Prototype_4@2x.png 2x" />
 
     <div class="divider--half"></div>
 
-	コネクターが表示されます。
-4. 右側のパネルでスクリーンの 1 つを選択してクリックします。
+    コネクターが表示されます。
+
+4.  右側のパネルでスクリーンの 1 つを選択してクリックします。
 
     <img src="../images/Creating_A_Prototype_5.png" srcset="../images/Creating_A_Prototype_5@2x.png 2x" />
 
@@ -60,7 +61,7 @@ Sketch プロジェクトを追加して Sketch アートボードをスクリ�
 
 インタラクションをクリックしてインタラクション パネルを表示します。ナビゲーションをトリガーするユーザー操作、トランジションのアニメーション、トランジションの期間を変更するために使用します。
 
-<img src="../images/Interaction_Options_Interaction_Panel.png" srcset="../images/Interaction_Options_Interaction_Panel@2x.png 2x" />
+<img src="../images/Interaction_Options_Interaction_Panel.png" />
 
 <div class="divider--half"></div>
 
@@ -69,15 +70,17 @@ Sketch プロジェクトを追加して Sketch アートボードをスクリ�
 必要なインタラクションをすべて追加してプロトタイプを完了させます。
 
 ### 4. プロトタイプのプレビュー
-1. [実行] ボタンをクリックします。
+
+1.  [実行] ボタンをクリックします。
 
     <img src="../images/Creating_A_Prototype_8.png" srcset="../images/Creating_A_Prototype_8@2x.png 2x" />
 
     <div class="divider--half"></div>
 
     プレビュー モードを開きます。
-2. プロトタイプをインタラクティブに操作します。
-3. [閉じる] ボタンをクリックします。
+
+2.  プロトタイプをインタラクティブに操作します。
+3.  [閉じる] ボタンをクリックします。
 
     <img src="../images/Creating_A_Prototype_9.png" srcset="../images/Creating_A_Prototype_9@2x.png 2x" />
 
@@ -85,13 +88,14 @@ Sketch プロジェクトを追加して Sketch アートボードをスクリ�
 
     デザイナーに戻ります。
 
-###  5. プロトタイプの公開
+### 5. プロトタイプの公開
 
-1. [公開] ボタンをクリックします。
+1.  [公開] ボタンをクリックします。
 
     <img src="../images/Creating_A_Prototype_10.png" srcset="../images/Creating_A_Prototype_10@2x.png 2x" />
 
     <div class="divider--half"></div>
-2. プロトタイプを共有して表示するためのリンクを取得します。
+
+2.  プロトタイプを共有して表示するためのリンクを取得します。
 
 レビューアーがプロトタイプにコメントしたり、ユーザーがユーザビリティ テストでフローを確認したりできます。
