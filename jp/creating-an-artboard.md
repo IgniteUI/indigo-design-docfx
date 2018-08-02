@@ -88,8 +88,8 @@ Insert メニューを使用して Indigo Design ライブラリからコンポ�
 
 3.  **フォームの背景を追加します。**
 
-    1.  Insert メニューから Colors/white を選択して長方形を追加します。シャドウと同じサイズに設定し、配置します。
-    2.  両方のレイヤーを選択します。サイズを 280 x 400 に設定します。
+    1.  Insert メニューから Colors/white を選択して長方形を追加します。
+    2.  サイズを 280 x 400 に設定します。
     3.  アートボードの中心に配置します。
 
     <img src="images/getting-started2.png" srcset="images/getting-started2@2x.png 2x" />
@@ -164,6 +164,7 @@ Insert メニューを使用して Indigo Design ライブラリからコンポ�
 ## その他のリソース
 
 関連トピック:
+
 - [Button](../components/button.md)
 - [Input](../components/input.md)
 - [Navbar](../components/navbar.md)
