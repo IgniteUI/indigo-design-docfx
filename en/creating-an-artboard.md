@@ -107,9 +107,9 @@ These are the steps to recreate the screen in the example.
 
 3.  **Add the background for the form.**
 
-    1.  From the Insert menu, select Colors/white to add the rectangle. Make it the same size as the shadow and align them.
-    2.  Select both layers. Set their size to 280 by 400.
-    3.  Place them in the center of the artboard.
+    1.  From the Insert menu, select Colors/white to add the rectangle.
+    2.  Set its size to 280 by 400.
+    3.  Place it in the center of the artboard.
 
     <div class="divider--half"></div>
     <img src="images/getting-started2.png" srcset="images/getting-started2@2x.png 2x" />
@@ -207,6 +207,7 @@ These are the steps to recreate the screen in the example.
 ## Additional Resources
 
 Related topics:
+
 - [Button](../components/button.md)
 
 - [Button](../components/button.md)
