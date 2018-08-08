@@ -98,8 +98,8 @@
       href: ../patterns/av.md
     - name: Avatar + Badge
       href: ../patterns/avatar-badge.md
-    - name: Card Collection
-      href: ../patterns/card-collection.md
+    # - name: Card Collection
+    #   href: ../patterns/card-collection.md
     - name: Checkbox Group
       href: ../patterns/checkbox-group.md
     - name: Details
@@ -110,8 +110,8 @@
       href: ../patterns/form.md
     - name: Full Grid
       href: ../patterns/full-grid.md
-    - name: Gallery
-      href: ../patterns/gallery.md
+    # - name: Gallery
+    #   href: ../patterns/gallery.md
     - name: Image Manipulation
       href: ../patterns/image-manipulation.md
     - name: Lists
