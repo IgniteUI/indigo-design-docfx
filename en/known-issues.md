@@ -66,10 +66,6 @@ The following Sketch components are not implemented for code generation yet:
 > [!Note]
 > Future releases will include these components.
 
-### Indigo-Patterns Sketch Library and Code Generation
-
-The Patterns library is not currently supported for code generation.  If your Sketch file contains any elements from the Indigo-Patterns library they will not display inside the [Code Generator Plugin](codegen/vscode-plugin.md) for VS Code. We will be adding support in a later release.
-
 ### Proportional widths not completed
 
 As this is not completed we give each element 100% width instead of calculating a specific percent based on their width relative to other row elements:
