@@ -19,7 +19,7 @@ The Details Pattern supports the following interchangeable pieces of content tha
 <img src="../images/details_content.png" srcset="../images/details_content@2x.png 2x" />
 
 > [!WARNING]
-> After inserting a Details Pattern, you should trigger `Detach from Symbol` to break it down to the individual sections that are used to create the Pattern layout. After selecting the proper section content type from the `Overrides` panel, you should trigger `Detach from Symbol` on each individual section in order to be able to generate it as Angular code. The Components that lay out the detached sections, however, must stay intact and not be detached!
+> After inserting a Details Pattern, you should trigger `Detach from Symbol` to break it down to the individual Components that are used to create the Pattern layout in order to be able to generate Angular code. The individual Components, however, must stay intact and not be detached!
 
 <img src="../images/details_detach.png" />
 
