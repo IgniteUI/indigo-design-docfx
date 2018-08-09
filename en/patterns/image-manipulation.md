@@ -19,7 +19,7 @@ The Image Manipulation Pattern supports both standard images and Avatars that co
 <img src="../images/image-manip_layout.png" srcset="../images/image-manip_layout@2x.png 2x" />
 
 > [!WARNING]
-> After inserting an Image Manipulation Pattern and choosing the `💡Type` and `💡Layout` `Override` settings that take care of the Component displaying the image and the layout of manipulation actions, you should trigger `Detach from Symbol`. You should repeat this action two more times on the `💡Type` and `💡Layout` symbols that will be unveiled progressively in order to be able to generate it as Angular code. The Components that lay out the detached `💡Content`, however, must stay intact and not be detached!
+> After inserting an Image Manipulation Pattern you should trigger `Detach from Symbol` in order to be able to generate Angular code. The individual Components, however, must stay intact and not be detached!
 
 <img src="../images/image_manipulation_detach.png" />
 
