@@ -20,7 +20,7 @@ Image Manipulation パターンは 1 ～ 2 Flat Button、FAB Button、または 
 <img src="../images/image-manip_layout.png" srcset="../images/image-manip_layout@2x.png 2x" />
 
 > [!WARNING]
-> Image Manipulation パターンを挿入して画像および操作アクションのレイアウトの表示を処理する Component の `💡Type` および `💡Layout` の `Override` 設定を選択した後、`Detach from Symbol` をトリガーします。Angular コードとして生成するために `💡Type` および `💡Layout` シンボルでこの操作を 2 回繰り返します。ただし、デタッチされた `💡Content` に配置されるコンポーネントはデタッチしないでください。
+> Image Manipulation パターンを挿入した後、Angular コードとして生成するには、`Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。
 
 <img src="../images/image_manipulation_detach.png" />
 

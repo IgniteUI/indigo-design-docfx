@@ -21,12 +21,12 @@ File Upload パターンはアップロードしたファイルのプレビュ�
 
 ### コンテンツ
 
-File Upload パターンは、アップロードまたは Document として挿入されるよく使用されるコンテンツ タイプ (CSV、PDF、Presentation、Spreadsheet Text) をサポートします。 また、様々なアプリケーション シナリオのカスタマイズ化を提供するために Upload および Attach タイプの利用が可能です。
+Document 型の File Upload パターンは、アップロードまたは Document として挿入によく使用されるコンテンツ タイプ (CSV、PDF、Presentation、Spreadsheet Text) をサポートします。また、様々なアプリケーション シナリオでカスタマイズを有効にするために Upload および Attach プリセットの利用が可能です。
 
 <img src="../images/file-upload_content.png" srcset="../images/file-upload_content@2x.png 2x" />
 
 > [!WARNING]
-> File Upload パターンを挿入してパターンのレイアウトおよびデフォルトのコンテンツ プリセットに相対する `💡Type` および `💡Content` `Override` を選択した後、`Detach from Symbol` をトリガーします。Angular コードとして生成するために `💡Type` および `💡Content` シンボルでこの操作を 2 回繰り返します。ただし、デタッチされた `💡Content` に配置されるコンポーネントをデタッチしないでください。
+> File Upload パターンを挿入した後、Angular コードとして生成するには、`Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。
 
 <img src="../images/file_upload_detach.png" />
 

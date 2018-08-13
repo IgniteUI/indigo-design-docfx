@@ -7,7 +7,7 @@ _language: ja
 
 ## Full Grid
 
-テーブルのデザイン時に Grid パターン シンボルを代わりの開始点として使用します。すべての機能が構成されたコンポーネント ライブラリで提供される Grid コンポーネントを提供します。
+テーブルのデザイン時に Full Grid パターン シンボルを代わりの開始点として使用します。すべての機能が構成されたコンポーネント ライブラリで提供される Grid コンポーネントを提供します。
 
 - 並べ替え
 - フィルタリング
@@ -17,9 +17,9 @@ _language: ja
 <img src="../images/grids_demo.png" srcset="../images/grids_demo@2x.png 2x" />
 
 > [!WARNING]
-> Full Grid パターンを挿入した後、Angular コードとして生成するには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。
+> Full Grid パターンを挿入した後、Angular コードとして生成するには、レイアウトを作成したコンポーネントおよび Grid シンボルに分割するために `Detach from Symbol` をトリガーします。ただし、各コンポーネントおよび Grid シンボルをデタッチしないでください。
 
-<img src="../images/form_detach.png" />
+<img src="../images/grids_detach.png" />
 
 ## その他のリソース
 

@@ -23,12 +23,17 @@ Avatar + Badge パターンは Avatar と同じサイズをサポートします
 
 ### 位置
 
-Badge はオーバーライドによって Avatar の 4 つ角のいずれかに配置できます。
+Badge は Avatar の 4 つ角のいずれかに配置できます。
+
+- 左下
+- 右下
+- 左上
+- 右上
 
 <img src="../images/avatar_badge_positions.png" srcset="../images/avatar_badge_positions@2x.png 2x" />
 
 > [!WARNING]
-> Avatar + Badge パターンを挿入してパターン レイアウトを処理する `Position Badge` の `Override` を選択した後、挿入した Pattern で最初に `Detach from Symbol` をトリガーし、もう一度 `Position Badge` シンボルにトリガーします。Angular コードとして生成するには、パターンを作成したコンポーネントに分割します。ただし、Badge および Avatar をデタッチしないでください。
+> Avatar + Badge パターンを挿入した後、`Detach from Symbol` をトリガーします。Angular コードとして生成するには、パターンを作成したコンポーネントに分割します。ただし、Badge および Avatar をデタッチしないでください。
 
 <img src="../images/avatar_badge_detach.png" />
 
