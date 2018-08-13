@@ -68,7 +68,7 @@ The Input has rich support for prefix and suffix through text string or icon tha
 > - .../Suffix/Icons/...
 > - .../Suffix/String/...
 
-### Calendar and Time Picker Inputs
+### Date Picker and Time Picker Inputs
 
 These two are special types of Input customized for the purposes of date and time selection. They have a consistent structure with the other Inputs, but the layout, which is fixed in a certain way for each state. The icons that appear at the prefix location are set to the Material Icons `calendar-today` and `access-time` and can not be changed via the overrides panel.
 
@@ -151,7 +151,7 @@ Determines the text to display in the Input value. If the DataProperty is set th
 
 #### Help Text
 
-Determines the text to be displayed in the Hint of the Input Group. The Time Picker and Date/Calendar do not support this.
+Determines the text to be displayed in the Hint of the Input Group. Date Picker and Time Picker do not support this.
 
 ### Searchbar
 
