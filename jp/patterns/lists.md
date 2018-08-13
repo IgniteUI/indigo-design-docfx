@@ -7,16 +7,15 @@ _language: ja
 
 ## Lists
 
-Lists パターン シンボルは、フィルター可能な設定、人、ミュージック プレイリスト、製品、検索可能なリスト、設定などの全般的なシナリオを表示するデータ コレクションのプリセットとして使用できます。
+Lists パターン シンボルは、フィルター可能な設定、人、ミュージック プレイリスト、検索可能なリスト、設定などの全般的なシナリオを表示するデータ コレクションのプリセットとして使用できます。
 
 <img src="../images/lists_people.png" srcset="../images/lists_people@2x.png 2x" />
-<img src="../images/lists_products.png" srcset="../images/lists_products@2x.png 2x" />
 <img src="../images/lists_settings.png" srcset="../images/lists_settings@2x.png 2x" />
 
 Lists パターンは List Item の様々なタイプおよび (ある場合) Searchbar Input のスタイル設定をカスタマイズできます。
 
 > [!WARNING]
-> 利用可能な任意の List パターンを挿入後、Angular コードとして生成するには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。Products または Settings などの List タイプは List のタイプの選択のための `Override` プロパティを提供します。タイプを選択した後、`💡Type` で `Detach from Symbol` をトリガーします。各 List Item、背景、およびデータ バインディング レイヤーはデタッチしないでください。
+> 利用可能な任意の List パターンを挿入後、Angular コードとして生成するには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。各 List Item、背景、およびデータ バインディング レイヤーはデタッチしないでください。
 
 <img src="../images/lists_detach.png" />
 
