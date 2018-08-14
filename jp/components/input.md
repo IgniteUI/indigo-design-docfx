@@ -69,7 +69,7 @@ Input には特定の場合に入力 (@email.com サフィックス) を軽減�
 > - .../Suffix/Icons/...
 > - .../Suffix/String/...
 
-### Calendar および Time Picker 入力
+### Date Picker および Time Picker 入力
 
 日付および時間選択のためにカスタマイズされた Input の 2 種類です。その他の Input コンポーネントと構造が統一されますが、レイアウトはそれぞれの状態に固定されます。プレフィックス位置に表示されるアイコンはマテリアル アイコンの `calendar-today` および `access-time` に設定され、オーバーライド パネルに変更できません。
 
@@ -152,7 +152,7 @@ Label に表示するテキストを決定します。
 
 #### ヘルプ テキスト
 
-Input Group の Hint に表示するテキストを決定します。Time Picker および Date/Calendar はこれをサポートしません。
+Input Group の Hint に表示するテキストを決定します。Date Picker および Time Picker はこれをサポートしません。
 
 ### 検索バー
 
