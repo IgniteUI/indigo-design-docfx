@@ -119,7 +119,7 @@ When you are happy with the number of participants, you can close the study to p
 
 Read about [usability studies results][topic-2].
 
-[topic-1]: create-a-prototype.md
+[topic-1]: creating-a-prototype.md
 [topic-2]: usability-study-results-overview.md
 
 [a-1]: #1-create-a-usability-study
