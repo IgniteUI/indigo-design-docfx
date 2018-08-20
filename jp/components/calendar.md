@@ -49,7 +49,6 @@ Calendar は、柔軟なスタイル設定が可能でさまざまなオーバ�
 | 良い例                                                                             | 悪い例                                                                                 |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | <img src="../images/calendar_do1.png" srcset="../images/calendar_do1@2x.png 2x" /> | <img src="../images/calendar_dont1.png" srcset="../images/calendar_dont1@2x.png 2x" /> |
-| <img src="../images/calendar_do2.png" srcset="../images/calendar_do2@2x.png 2x" /> | <img src="../images/calendar_dont2.png" srcset="../images/calendar_dont2@2x.png 2x" /> |
 
 ## その他のリソース
 
