@@ -64,18 +64,18 @@ _language: ja
             <br>
         </div>
         <div class="feature__image feature__image">
-            <iframe width="400" height="225" src="https://www.youtube.com/embed/QiAHkU-ijnU" frameborder="0" allowfullscreen></iframe>
-            <p>Angular ダウンロード パッケージを使用した作業の開始 (英語)</p>
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/yKKtcRcxDdM" frameborder="0" allowfullscreen></iframe>
+            <p>Angular ダウンロード パッケージを使用した作業の開始</p>
             <br>
         </div>
         <div class="feature__image feature__image">
-            <iframe width="400" height="225" src="https://www.youtube.com/embed/lsEY90yYQIs" frameborder="0" allowfullscreen></iframe>
-            <p>Angular と Ignite UI CLI を使用した作業の開始 (英語)</p>
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/VWvJGQYRnsE" frameborder="0" allowfullscreen></iframe>
+            <p>Angular と Ignite UI CLI を使用した作業の開始</p>
             <br>
         </div>
         <div class="feature__image feature__image">
-            <iframe width="400" height="225" src="https://www.youtube.com/embed/QK_NsdtdA70" frameborder="0" allowfullscreen></iframe>
-            <p>はじめての Ignite UI for Angular CLI アプリ開発 (英語)</p>
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/qIcDCmFagoo" frameborder="0" allowfullscreen></iframe>
+            <p>はじめての Ignite UI for Angular CLI アプリ開発</p>
             <br>
         </div>
         <div class="feature__image feature__image">
