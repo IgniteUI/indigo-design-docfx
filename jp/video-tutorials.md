@@ -54,8 +54,8 @@ _language: ja
 <section class="feature__container">
     <div class="feature">
         <div class="feature__image feature__image">
-            <iframe width="400" height="225" src="https://www.youtube.com/embed/3s_ffvSGjY0" frameborder="0" allowfullscreen></iframe>
-            <p>Indigo.Design Visual Studio 拡張機能のインストール (英語)</p>
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/LHqc2upE3nU" frameborder="0" allowfullscreen></iframe>
+            <p>Indigo.Design Visual Studio 拡張機能のインストール</p>
             <br>
         </div>
         <div class="feature__image feature__image">
@@ -79,13 +79,13 @@ _language: ja
             <br>
         </div>
         <div class="feature__image feature__image">
-            <iframe width="400" height="225" src="https://www.youtube.com/embed/TZW-W1F1snk" frameborder="0" allowfullscreen></iframe>
-            <p>Budget App の開発と実行 (英語)</p>
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/t1osRBOAfIE" frameborder="0" allowfullscreen></iframe>
+            <p>Budget App の開発と実行</p>
             <br>
         </div>
         <div class="feature__image feature__image">
-            <iframe width="400" height="225" src="https://www.youtube.com/embed/3j8ui9DDMmo" frameborder="0" allowfullscreen></iframe>
-            <p>People App の開発と実行 (英語)</p>
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/U1_ayPovTbk" frameborder="0" allowfullscreen></iframe>
+            <p>People App の開発と実行</p>
             <br>
         </div>
     </div>
