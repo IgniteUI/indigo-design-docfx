@@ -29,7 +29,7 @@ _keywords: Ignite UI for Angular, Angular, Native Angular Components Suite, Nati
             <br>
         </div>
         <div class="feature__image">
-            <iframe width="400" height="225" src="https://www.youtube.com/embed/x6jSSH4vjRA frameborder="0" allowfullscreen></iframe>
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/x6jSSH4vjRA" frameborder="0" allowfullscreen></iframe>
             <p>Creating Responsive layouts</p>
             <br>
         </div>
