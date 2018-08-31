@@ -43,13 +43,60 @@ The Bottom Navigation always appears on top of other content, and the shadow it 
 | <img src="../images/bottom-nav_do1.png" srcset="../images/bottom-nav_do1@2x.png 2x" /> | <img src="../images/bottom-nav_dont1.png" srcset="../images/bottom-nav_dont1@2x.png 2x" /> |
 | <img src="../images/bottom-nav_do2.png" srcset="../images/bottom-nav_do2@2x.png 2x" /> | <img src="../images/bottom-nav_dont2.png" srcset="../images/bottom-nav_dont2@2x.png 2x" /> |
 
-## Code generation - TODO
+## Code generation
+
+When colors or fonts are specified for the Bottom Navigation, the Bottom Nav HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Bottom Navigation in your design is very likely to result in loss of code generation capability for the Bottom Navigation.
 
-`🕹️DataSource`
-`🕹️Event`
+### Data Bindings
+
+Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example:  Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+
+#### Not Nested
+
+```typescript
+Customer {
+  imageName: String;
+} 
+```
+
+DataProperty would be: `{imageName}`
+
+#### Nested
+
+```typescript
+Profile {
+  imageName: String; 
+} 
+
+Customer {
+  profile: Profile;
+}
+```
+
+DataProperty would be: `{profile.imageName}`
+
+### Event
+
+When supplied the `🕹️Event` override is used to create a method in the component TypeScript and add an onClick signature in the HTML.
+
+### Items Amount
+
+This override determines the number of tabs/items to be displayed.
+
+### Tab
+
+This override will determined the type of tab that will be generated.  It can be an icon or an icon with text. 
+
+### Text
+
+This override is only shown for Icon + Text tabs.  It specifies what text is shown within the tab.  It may contain plain text, binding text, or a combination of the two, examples: 
+
+* Settings
+* {settingsLabel}
+* Important {labelText}
 
 ## Additional Resources
 
