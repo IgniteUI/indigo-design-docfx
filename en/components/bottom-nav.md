@@ -1,6 +1,6 @@
 ---
 title: Bottom Navigation - Design System Component
-_description: The Bottom Navigation Component Symbol is used to design simple application-level navigation. 
+_description: The Bottom Navigation Component Symbol is used to design simple application-level navigation.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
@@ -38,8 +38,8 @@ The Bottom Navigation comes with styling flexibility through the various overrid
 
 The Bottom Navigation always appears on top of other content, and the shadow it casts is a crucial visual element. Make sure that you always place its layer over those representing the screen content and under no circumstances should you remove the shadow it casts.
 
-| Do                                | Don't                               |
-| --------------------------------- | ----------------------------------- |
+| Do                                                                                     | Don't                                                                                      |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | <img src="../images/bottom-nav_do1.png" srcset="../images/bottom-nav_do1@2x.png 2x" /> | <img src="../images/bottom-nav_dont1.png" srcset="../images/bottom-nav_dont1@2x.png 2x" /> |
 | <img src="../images/bottom-nav_do2.png" srcset="../images/bottom-nav_do2@2x.png 2x" /> | <img src="../images/bottom-nav_dont2.png" srcset="../images/bottom-nav_dont2@2x.png 2x" /> |
 
@@ -52,14 +52,14 @@ When colors or fonts are specified for the Bottom Navigation, the Bottom Nav HTM
 
 ### Data Bindings
 
-Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example:  Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
+Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
 
 #### Not Nested
 
 ```typescript
 Customer {
   imageName: String;
-} 
+}
 ```
 
 DataProperty would be: `{imageName}`
@@ -68,8 +68,8 @@ DataProperty would be: `{imageName}`
 
 ```typescript
 Profile {
-  imageName: String; 
-} 
+  imageName: String;
+}
 
 Customer {
   profile: Profile;
@@ -88,15 +88,15 @@ This override determines the number of tabs/items to be displayed.
 
 ### Tab
 
-This override will determined the type of tab that will be generated.  It can be an icon or an icon with text. 
+This override will determine the type of tab that will be generated. It can be an icon or an icon with text.
 
 ### Text
 
-This override is only shown for Icon + Text tabs.  It specifies what text is shown within the tab.  It may contain plain text, binding text, or a combination of the two, examples: 
+This override is only shown for Icon + Text tabs. It specifies what text is shown within the tab. It may contain plain text, binding text, or a combination of the two, examples:
 
-* Settings
-* {settingsLabel}
-* Important {labelText}
+- Settings
+- {settingsLabel}
+- Important {labelText}
 
 ## Additional Resources
 
