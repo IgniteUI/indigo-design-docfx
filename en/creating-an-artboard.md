@@ -208,13 +208,11 @@ These are the steps to recreate the screen in the example.
 
 Related topics:
 
-- [Button](../components/button.md)
-
-- [Button](../components/button.md)
-- [Input](../components/input.md)
-- [Navbar](../components/navbar.md)
-- [Text](../components/text.md)
-- [Styling](../style/styling-overview.md)
+- [Button](components/button.md)
+- [Input](components/input.md)
+- [Navbar](components/navbar.md)
+- [Text](components/text.md)
+- [Styling](style/styling-overview.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
