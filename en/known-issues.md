@@ -36,19 +36,19 @@ In Sketch, there are two ways to insert images:
 1.  Drag & drop an image onto an artboard
 2.  Draw a Rectangle and set its Fill to be an image
 
-Since code generation does not currently render Sketch shapes, use only the first method with Indigo.Design. The image will be generated with the dimensions defined in the Sketch file, and will not be responsive.
+Both of these are supported however the image will be generated with the dimensions defined in the Sketch file, and will not be responsive.
 
-Also in this version, images that are used as backgrounds for content will not be code generated as a background but as a normal image element.  Image elements in HTML are inline-block elements so they will not render behind the content but instead beside the content.  For now developers will have to adjust the generated code to convert the image to a background but we will address this in future versions.
+Images that were created using the first method above and are used as backgrounds will not be code generated as a background but as a normal image element.
+
+Images that were created using the second method above and are used as backgrounds will be code generated as a background.
 
 > [!Note]
-> The next release will feature an Image Component that will generate code for responsive images.
+> A future release will feature an Image Component that will generate code for responsive images.
 
 ### Currently Not Supported
 
 The following Indigo.Design components are not implemented for code generation yet:
 
-* Button Group
-* Bottom Navigation
 * Cards
 * Navigation -> NavBar
 * Navigation -> NavDrawer
@@ -56,7 +56,12 @@ The following Indigo.Design components are not implemented for code generation y
 
 The following Sketch components are not implemented for code generation yet:
 
-* Shape
+* Shapes
+    * Line
+    * Arrow
+    * Star
+    * Polygon
+    * Triangle
 * Vector
 * Pencil
 * Text
@@ -70,11 +75,6 @@ The following Sketch components are not implemented for code generation yet:
 
 As this is not completed we give each element 100% width instead of calculating a specific percent based on their width relative to other row elements:
 [Proportional Width Sizing](codegen/layout-codegen.md#proportional-width-sizing)
-
-### Overlapping sketch elements currently not supported
-
-For this release we are not supporting elements whose boundaries overlap other elements. With regards to the following topic we will position the elements next to each other instead.
-[Pinning Overlapping Objects](codegen/layout-codegen.md#pinning-overlapping-objects)
 
 ## Additional Resources
 
