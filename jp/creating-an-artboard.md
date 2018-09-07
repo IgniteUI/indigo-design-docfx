@@ -165,11 +165,11 @@ Insert メニューを使用して Indigo Design ライブラリからコンポ�
 
 関連トピック:
 
-- [Button](../components/button.md)
-- [Input](../components/input.md)
-- [Navbar](../components/navbar.md)
-- [Text](../components/text.md)
-- [Styling](../style/styling-overview.md)
+- [Button](components/button.md)
+- [Input](components/input.md)
+- [Navbar](components/navbar.md)
+- [Text](components/text.md)
+- [Styling](style/styling-overview.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
