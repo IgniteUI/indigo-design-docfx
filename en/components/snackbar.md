@@ -63,7 +63,7 @@ Customer {
 
 DataProperty would be: `{profile.imageName}`
 
-### Event
+### Event Property
 
 When supplied the `🕹️Event` Event property is used to create a method in the component TypeScript and add an onAction signature in the HTML of the Snackbar. When supplied the event must be specified using the curly braces format: {onEventName}
 

@@ -75,15 +75,13 @@ Customer {
 
 DataProperty would be: `{profile.imageName}`
 
-### Reactive Forms
+### Data Property
 
-When a model object name and `🕹️DataProperty` are provided, a TypeScript ngOnInit method with be populated with form builder code to create the Reactive Forms form. The `🕹️DataProperty` will be used to populate the formControlName property on the radio button control.
+When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using [Angular Reactive Forms](https://angular.io/guide/reactive-forms) to the radio button checked property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided in the generation request.
 
-### DataProperty
+When a model object name and `🕹️DataProperty` are provided, the TypeScript `ngOnInit` method with be populated with form builder code to create the Reactive Forms form. The `🕹️DataProperty` will be used to populate the formControlName property on the radio button control.
 
-When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using Angular Reactive Forms to the radio button checked property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided in the generation request.
-
-### DataSource
+### Data Source Property
 
 When supplied, the `🕹️DataSource` value is used to set up binding to a data source object for the Radio Group. By Default it is setup to bind to a data source that has value and name properties to assign to the value and label of the Radio Group buttons. The `🕹️DataSource` property is optional.
 

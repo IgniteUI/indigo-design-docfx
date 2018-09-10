@@ -85,21 +85,21 @@ Customer {
 
 DataProperty would be: `{profile.imageName}`
 
-### Event
+### Event Property
 
-When supplied the `🕹️Event` override is used to create a method in the component TypeScript and add an onClick signature in the HTML. When supplied the event must be specified using the curly braces format: {onEventName}.
+When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an onClick signature in the HTML. When supplied the event must be specified using the curly braces format: {onEventName}.
 
 ### Buttons Amount 
 
-This override determines the number of buttons to be displayed in the group.
+This property determines the number of buttons to be displayed in the group.
 
 ### Button 
 
-This override will determine what type of button to display. It can be an icon or text button.
+This property will determine what type of button to display. It can be an icon or text button.
 
 ### Text 
 
-This override is displayed for text buttons only. It specifies what text is shown within the button. It may contain plain text, binding text, or a combination of the two, examples:
+This property is displayed for text buttons only. It specifies what text is shown within the button. It may contain plain text, binding text, or a combination of the two, examples:
 
 * Settings  
 * {settingsLabel}  

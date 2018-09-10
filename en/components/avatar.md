@@ -85,11 +85,13 @@ DataProperty would be: `{profile.imageName}`
 
 When supplied, this property is used to create a method in the component TypeScript and add an Angular click signature in the HTML. When supplied the event must be specified using the curly braces format: {onEventName}
 
+### Data Property
+
 | Avatar Type     | `🕹️DataProperty`                                                                                                                                                                                                                                                                                         |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Picture Avatar  | When supplied, this property can be used to data bind the image source. When provided, it will be the name of the property on the data object specified by the model object name provided in the generation request.                                                                                     |
+| Picture Avatar  | When supplied, this property can be used to data bind the image source. When provided, it will be the name of the property on the data object specified by the model object name provided during code generation.                                                                                     |
 | Icon Avatar     | This property is ignored.                                                                                                                                                                                                                                                                                |
-| Initials Avatar | When supplied, this property is used to databind the initials property. When provided, it will be the name of the property on the data object specified by the model object name provided in the generation request. The Avatar initials only renders two characters, this is a limitation of Ignite UI. |
+| Initials Avatar | When supplied, this property is used to databind the initials property. When provided, it will be the name of the property on the data object specified by the model object name provided during code generation. The Avatar initials only renders two characters, this is a limitation of Ignite UI. |
 
 ## Additional Resources
 

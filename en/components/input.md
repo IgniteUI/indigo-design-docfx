@@ -127,9 +127,11 @@ DataProperty would be: `{profile.imageName}`
 
 When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an Angular click signature in the HTML for the input’s icons. When supplied the event must be specified using the curly braces format: {onEventName}.
 
-### DataProperty
+This property is currently only supported on the Searchbar component.  The Searchbar can have two icons and each icon has an `🕹️Event` property that can be set.
 
-When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using Angular Reactive Forms to the input value property. The `🕹️DataProperty` is optional. When provided, it will be the name of the property on the data object specified by the model object name provided in the generation request.
+### Data Property
+
+When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using [Angular Reactive Forms](https://angular.io/guide/reactive-forms) to the input value property. The `🕹️DataProperty` is optional however when provided, it will be the name of the property on the data object specified by the model object name provided during code generation.  As such, it is required that if the  `🕹️DataProperty` is used that the developer must specify a model object name otherwise it will be ignored.
 
 ### Inputs Date and Time
 
@@ -147,7 +149,7 @@ Determines the text to be displayed in the Label.
 
 #### Input Text
 
-Determines the text to display in the Input value. If the DataProperty is set this is ignored. In the Line, Box, or Border Inputs if this field contains only `*` characters the type of the input will be set to password.
+Determines the text to display in the Input value. If the `🕹️DataProperty` is set this is ignored. In the Line, Box, or Border Inputs if this field contains only `*` characters the type of the input will be set to password.
 
 #### Help Text
 
