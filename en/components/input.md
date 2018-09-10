@@ -131,7 +131,7 @@ This property is currently only supported on the Searchbar component.  The Searc
 
 ### Data Property
 
-When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using [Angular Reactive Forms](https://angular.io/guide/reactive-forms) to the input value property. The `🕹️DataProperty` is optional however when provided, it will be the name of the property on the data object specified by the Model Object Name provided during code generation.  As such, it is required that if the  `🕹️DataProperty` is used that the developer must specify a Model Object Name otherwise it will be ignored.
+When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using [Angular Reactive Forms](https://angular.io/guide/reactive-forms) to the input value property. The `🕹️DataProperty` is optional however when provided, it will be the name of the property on the data object specified by the model object name provided during code generation.  As such, it is required that if the  `🕹️DataProperty` is used that the developer must specify a model object name otherwise it will be ignored.
 
 ### Inputs Date and Time
 

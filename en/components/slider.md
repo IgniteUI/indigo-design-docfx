@@ -85,7 +85,7 @@ DataProperty would be: `{profile.imageName}`
 
 ### Data Property
 
-When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using [Angular Reactive Forms](https://angular.io/guide/reactive-forms) to the slider value property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the Model Object Name provided during code generation.
+When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using [Angular Reactive Forms](https://angular.io/guide/reactive-forms) to the slider value property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided during code generation.
 
 For the one-thumb slider, the `🕹️DataProperty` must be a number property when supplied.
 
