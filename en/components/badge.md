@@ -79,7 +79,9 @@ When supplied the `🕹️Event` property is used to create a method in the comp
 
 ### Data Property
 
-When supplied, the `🕹️DataProperty` value is used to set up a data binding to the badge value property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided in the generation request. When the badge type is Icon, the `🕹️DataProperty` is ignored.
+When supplied, the `🕹️DataProperty` value is used to set up a data binding to the badge value property. It is the name of the property on the data object specified by the Model Object Name provided during code generation. As such, it is required that if the `🕹️DataProperty` is used that the Model Object Name must be specified otherwise it will be ignored.
+
+When the badge type is Icon, the `🕹️DataProperty` is ignored.
 
 ### Type
 

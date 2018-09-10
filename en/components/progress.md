@@ -89,7 +89,7 @@ DataProperty would be: `{profile.imageName}`
 
 ### Data Property
 
-When supplied, the `🕹️DataProperty` value is used to set up a data binding to the Circular or Linear bar value property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided in the generation request.
+When supplied, the `🕹️DataProperty` value is used to set up a data binding to the Circular or Linear bar value property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the Model Object Name provided during code generation.
 
 ### State
 

@@ -128,7 +128,7 @@ Customer {
 
 DataProperty would be: `{profile.imageName}`
 
-### DataSource
+### Data Source Property
 
 When supplied, the `🕹️DataSource` value is used to set up the data source of the List. You will want to bind it to an array of object(rows) for data to display. If the data source is not supplied, the list will render the header and the number of list items supplied in the design file. When the data source is supplied styles and layout will be grabbed from the first list item.
 

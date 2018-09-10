@@ -78,21 +78,21 @@ Customer {
 
 DataProperty would be: `{profile.imageName}`
 
-### Event
+### Event Property
 
-When supplied the `🕹️Event` override is used to create a method in the component TypeScript and add an onClick signature in the HTML.
+When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an `onTabSelected` signature in the HTML.
 
 ### Items Amount
 
-This override determines the number of tabs/items to be displayed.
+This property determines the number of tabs/items to be displayed.
 
 ### Tab
 
-This override will determine the type of tab that will be generated. It can be an icon or an icon with text.
+This property will determine the type of tab that will be generated. It can be an icon or an icon with text.
 
 ### Text
 
-This override is only shown for Icon + Text tabs. It specifies what text is shown within the tab. It may contain plain text, binding text, or a combination of the two, examples:
+This property is only shown for Icon + Text tabs. It specifies what text is shown within the tab. It may contain plain text, binding text, or a combination of the two, examples:
 
 - Settings
 - {settingsLabel}

@@ -78,9 +78,9 @@ Customer {
 
 DataProperty would be: `{profile.imageName}`
 
-### Data Source
+### Data Source Property
 
-When supplied, the `🕹️DataSource` property value is used to set up a binding to the chart dataSource property. Without a `🕹️DataSource` and valid data in the data source, the Category Chart cannot render at runtime.
+When supplied, the `🕹️DataSource` value is used to set up a binding to the chart dataSource property. Without a `🕹️DataSource` and valid data in the data source, the Category Chart cannot render at runtime.
 
 ### Chart Dimensions
 

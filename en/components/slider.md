@@ -83,13 +83,15 @@ Customer {
 
 DataProperty would be: `{profile.imageName}`
 
-### Reactive Forms
+### Data Property
 
-When a model object name and `🕹️DataProperty` are provided, a TypeScript ngOnInit method with be populated with form builder code to create the Reactive Forms form. The `🕹️DataProperty` will be used to populate the formControlName property on the slider control.
+When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using [Angular Reactive Forms](https://angular.io/guide/reactive-forms) to the slider value property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the Model Object Name provided during code generation.
 
-### DataProperty
+For the one-thumb slider, the `🕹️DataProperty` must be a number property when supplied.
 
-When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using Angular Reactive Forms to the slider value property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided in the generation request. For the one-thumb slider, the `🕹️DataProperty` must be a number property when supplied. For the two-thumb slider, the `🕹️DataProperty` must be an object or class that has a lower and upper property when supplied.
+For the two-thumb slider, the `🕹️DataProperty` must be an object or class that has a lower and upper property when supplied.
+
+When a model object name and `🕹️DataProperty` are provided, the TypeScript `ngOnInit` method with be populated with form builder code to create the Reactive Forms form. The `🕹️DataProperty` will be used to populate the formControlName property on the slider control.
 
 ### State
 
