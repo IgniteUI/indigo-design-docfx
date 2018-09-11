@@ -63,7 +63,7 @@ SlideDeck {
 
 DataSource: `{profile.slideDeck}`
 
-### データ ソース
+### データ ソース プロパティ
 
 `🕹️DataSource` 値は Carousel へのバインディングを設定するために使用されます。データ ソースは表示する画像名の文字列配列が必要です。`🕹️DataSource` プロパティはオプションです。`🕹️DataSource` が指定される場合、Slide スタイルはグループの最初の Slide から取得されます。その他の Slide スタイルが無視されます。
 
