@@ -79,9 +79,9 @@ Customer {
 
 DataProperty: `{profile.imageName}`
 
-### データ ソース
+### データ ソース プロパティ
 
-`🕹️DataSource` プロパティ値はチャートの dataSource プロパティへのバインディングを設定するために使用されます。`🕹️DataSource` およびデータ ソースで有効なデータがない場合、Category Chart をランタイムに描画できません。
+`🕹️DataSource` 値はチャートの dataSource プロパティへのバインディングを設定するために使用されます。`🕹️DataSource` およびデータ ソースで有効なデータがない場合、Category Chart をランタイムに描画できません。
 
 ### チャート ディメンション
 

@@ -90,7 +90,7 @@ DataProperty: `{profile.imageName}`
 
 ### データ プロパティ
 
-`🕹️DataProperty` 値は Circular または Linear Bar 値プロパティへのデータ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` は、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトのプロパティ名です。
+`🕹️DataProperty` 値は Circular または Linear Bar 値プロパティへのデータ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` はコード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名です。
 
 ### 状態
 

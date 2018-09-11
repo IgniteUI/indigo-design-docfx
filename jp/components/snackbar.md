@@ -62,7 +62,7 @@ Customer {
 ```
 DataProperty: `{profile.imageName}`
 
-### Event
+### Event プロパティ
 
 `🕹️Event` プロパティは、コンポーネント TypeScript のメソッドを作成するために使用し、Snackbar の HTML に onAction シグネチャーを追加します。イベントが波括弧構文 ({onEventName}) を使用して指定する必要があります。
 
