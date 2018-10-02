@@ -39,6 +39,8 @@ In order to change the typeface, hold the `command` key and drag across the whol
 
 Once you update the `primary` and `secondary` colors as the first step for theming your applications, you will see that the text colors for typography will not update automatically. In order to update the text colors as well, hold the `command` key and drag across the whole `primary` or `secondary` section. This will select the individual text layers (otherwise you'll select the symbols). Now, change the text color to your color of choice and there is only one more step before your theme is up to speed, updating all Text Styles that have been affected through the change of color or typeface-related properties. To do so, select each text layer click on its style to drop the menu down and select the `Update Layer Style` option like you did for the colors. This should be repeated for all remaining text elements that have been changed.
 
+<img src="../images/typography_primary.png" srcset="../images/typography_primary@2x.png 2x" />
+
 ## Code Generation
 
 A typography style object when added to a Sketch drawing is rendered as an HTML div with the corresponding text, color and size.

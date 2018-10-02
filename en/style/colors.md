@@ -14,7 +14,7 @@ Use Colors from the Styling library file to set up your theme's colors - `primar
 
 To change the primary color, navigate to the `Colors` page in Indigo-Styling and while holding the `command` key select all the primary color variants. Then, find the Fills section in the right panel and click on the bottom one, which bears the main color component in order to change its value to another color. This will automatically update all primary variants to assure consistent look with Ignite UI for Angular.
 
-<img src="../images/colors_fills.png"/>
+<img src="../images/colors-fills.png"/>
 
 > [!Warn]
 > The two fills above are used for color variant generation and their values must always be kept as they are. Failing to comply with this guidance will result in inconsistencies and unpredictable code generation results.
