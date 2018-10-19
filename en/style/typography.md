@@ -11,7 +11,7 @@ Use Typography to set up your theme's typeface and available sizes. Although we 
 <img src="../images/typography_default.png" srcset="../images/typography_default@2x.png 2x" />
 
 > [!Note]
-> The Components library provides dedicated [Text](text.md) symbols for Titles and Paragraphs. Use these when creating intricate layouts for articles, blog posts etc. rather than the Styling library directly. Typography is meant to help you define a consistent theme and style for all the texts in your designs.
+> The Components library provides dedicated [Text](../components/text.md) symbols for Titles and Paragraphs. Use these when creating intricate layouts for articles, blog posts etc. rather than the Styling library directly. Typography is meant to help you define a consistent theme and style for all the texts in your designs.
 
 ### Typography colors
 
@@ -21,7 +21,7 @@ Typography comes in multiple preset colors such as: `grays.900`, `grays.600`, `w
 
 ### Component specific typography
 
-Components, such as [Avatar](avatar.md), [Hyperlink](hyperlink.md), and [Text](text.md), use component-specific Typography to accommodate the specifics of the styling used by the respective component e.g. the Avatar needs a larger variety of colors, while the Hyperlink comes with an underlined text.
+Components, such as [Avatar](../components/avatar.md), [Hyperlink](../components/hyperlink.md), and [Text](../components/text.md), use component-specific Typography to accommodate the specifics of the styling used by the respective component e.g. the Avatar needs a larger variety of colors, while the Hyperlink comes with an underlined text.
 
 <img src="../images/typography_specific.png" srcset="../images/typography_specific@2x.png 2x" />
 

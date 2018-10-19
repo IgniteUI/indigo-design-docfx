@@ -11,7 +11,7 @@ Use the Material Icons to symbolize common actions in Icon Buttons, List Items, 
 <img src="../images/icons_demo.png" srcset="../images/icons_demo@2x.png 2x" />
 
 > [!Note]
-> The Components library provides dedicated [Icon](icon.md) symbol for four icon sizes: ExtraLarge, Large, Medium and Small. Use these when creating intricate layouts for articles, custom Cards and List Items etc. rather than the Styling library directly.
+> The Components library provides dedicated [Icon](../components/icon.md) symbol for four icon sizes: ExtraLarge, Large, Medium and Small. Use these when creating intricate layouts for articles, custom Cards and List Items etc. rather than the Styling library directly.
 
 ### Available Material Icons
 
