@@ -1,106 +1,65 @@
 ---
-title: Avatar - Design System Component
-_description: The Avatar Component Symbol is a graphical representation of personal information. 
+title: Dropdown - Design System Component
+_description: The Dropdown Component Symbol allows selection of an item from a collection.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Avatar
+## Dropdown
 
-Use the Avatar Component as a graphical representation of a person through a profile picture or image, an icon, or a string with initials. The Avatar is visually identical to the [Ignite UI for Angular Avatar Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/avatar.html)
+Use the Dropdown Component to let the user select an item from a collection that is displayed upon user interaction in a scrollable list. Only one item can be selected at a time and if your scenario allows for multiple selection, you should use the [Combo](combo.md). The Dropdown is visually identical to the [Ignite UI for Angular Dropdown Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/drop_down.html)
 
-### Avatar Demo
+### Dropdown Demo
 
-<img src="../images/avatar_demo.png" srcset="../images/avatar_demo@2x.png 2x" />
-
-### Size
-
-The Avatar comes in three different sizes:
-
-- Large - Suitable for profile pages
-- Medium - Appropriate for custom menus and visualizations
-- Small - Easily embedded in a contact list and similar repetitive scenarios
-
-<img src="../images/avatar_sizes.png" srcset="../images/avatar_sizes@2x.png 2x" />
+<img src="../images/dropdown_demo.png" srcset="../images/dropdown_demo@2x.png 2x" />
 
 ### Type
 
-The Avatar can carry different types of content such as an **image**, a string with initials, or an icon.
+The Dropdown comes in the appropriate sizing for desktop and mobile usage.
 
-<img src="../images/avatar_content.png" srcset="../images/avatar_content@2x.png 2x" />
+<img src="../images/dropdown_desktop.png" srcset="../images/dropdown_desktop@2x.png 2x" />
+<img src="../images/dropdown_mobile.png" srcset="../images/dropdown_mobile@2x.png 2x" />
 
-The avatar comes in two distinct types determined by its shape: a **round** and a square form.
+### Items
 
-<img src="../images/avatar_type.png" srcset="../images/avatar_type@2x.png 2x" />
+The Dropdown supports two types of items header and item. Through headers it is possible to organize the other items in groups.
+
+<img src="../images/dropdown_header.png" srcset="../images/dropdown_header@2x.png 2x" />
+<img src="../images/dropdown_item.png" srcset="../images/dropdown_item@2x.png 2x" />
+
+### Item States
+
+The Dropdown items support five different states: disabled, **idle**, focused, selected and focused&selected.
+
+<img src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
+<img src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
+<img src="../images/dropdown_item_focused.png" srcset="../images/dropdown_item_focused@2x.png 2x" />
+<img src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" />
+<img src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" />
 
 ### Styling
 
-The Avatar comes with styling flexibility through the various overrides controlling the background color, as well as initials and icon colors, where applicable.
+The Dropdown comes with styling flexibility through an override controlling the background color, as well as various overrides related to the items it contains such as item and header background and text colors.
 
-<img src="../images/avatar_styling.png" srcset="../images/avatar_styling@2x.png 2x" />
+<img src="../images/dropdown_styling.png" srcset="../images/dropdown_styling@2x.png 2x" />
 
 ## Usage
 
-When using an Avatar with initials or icons, pick their colors carefully to assure good contrast with the Avatar background color. Avoid colors with poor contrast like similar shades of the same color or combinations that create chromatic aberrations.
+When using the Dropdown you should always show it on top of the content that follows the item which triggers its display. Dopdowns don't push content like accordions do.
 
-| Do                                                                             | Don't                                                                              |
-| ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| <img src="../images/avatar_do1.png" srcset="../images/avatar_do1@2x.png 2x" /> | <img src="../images/avatar_dont1.png" srcset="../images/avatar_dont1@2x.png 2x" /> |
+| Do                                                                                 | Don't                                                                                  |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| <img src="../images/dropdown_do1.png" srcset="../images/dropdown_do1@2x.png 2x" /> | <img src="../images/dropdown_dont1.png" srcset="../images/dropdown_dont1@2x.png 2x" /> |
 
 ## Code Generation
 
-When colors or fonts are specified for the Avatar, the Avatar HTML element will be wrapped in div. This is required by browsers to style a nested component (a component within another component).
-
 > [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Avatar in your design is very likely to result in loss of code generation capability for the Avatar.
-
-### Data Bindings
-
-Data bindings are specified by using curly brace syntax, example: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Not Nested
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty would be: `{imageName}`
-
-#### Nested
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty would be: `{profile.imageName}`
-
-### Event Property
-
-When supplied, this property is used to create a method in the component TypeScript and add an Angular click signature in the HTML. When supplied the event must be specified using the curly braces format: {onEventName}
-
-### Data Property
-
-| Avatar Type     | `🕹️DataProperty`                                                                                                                                                                                                                                                                                         |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Picture Avatar  | When supplied, this property can be used to data bind the image source. When provided, it will be the name of the property on the data object specified by the model object name provided during code generation.                                                                                     |
-| Icon Avatar     | This property is ignored.                                                                                                                                                                                                                                                                                |
-| Initials Avatar | When supplied, this property is used to databind the initials property. When provided, it will be the name of the property on the data object specified by the model object name provided during code generation. The Avatar initials only renders two characters, this is a limitation of Ignite UI. |
+> Triggering `Detach from Symbol` on an instance of the Dropdown in your design is very likely to result in loss of code generation capability for the Dropdown.
 
 ## Additional Resources
 
 Related topics:
 
-- [Avatar + Badge](../patterns/avatar-badge.md)
-- [Cards](cards.md)
-- [File Upload](../patterns/file-upload.md)
-- [User Profile](../patterns/user-profile.md)
+- [Combo](combo.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
