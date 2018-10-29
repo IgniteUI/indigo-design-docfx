@@ -160,6 +160,8 @@
   href: ../codegen/after-codegen.md
 - name: Layout Generation
   href: ../codegen/layout-codegen.md
+- name: Data Binding
+  href: ../codegen/data-binding.md
 
 - name: More Resources
   header: true
