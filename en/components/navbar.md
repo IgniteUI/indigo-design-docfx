@@ -1,6 +1,6 @@
 ---
 title: Navbar - Design System Component
-_description: The Navbar Component Symbol is used to inform the user of his current position in the application and provide a mechanism for simple navigation. 
+_description: The Navbar Component Symbol is used to inform the user of his current position in the application and provide a mechanism for simple navigation.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
@@ -46,11 +46,34 @@ Navbar actions should be carefully used to avoid situations where they overlap w
 
 ## Code generation
 
+When colors or fonts are specifiec for the NavBar, the NavBar’s HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
+
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Navbar in your design is very likely to result in loss of code generation capability for the Navbar.
 
-`🕹️DataSource`
-`🕹️Event`
+### Event
+
+When supplied from the Action Button the `🕹️Event` property is used to create a method in the component TypeScript and add an onAction signature in the HTML. When supplied from the Action Icons the `🕹️Event` property is used to create an method in the component TypeScript and add an onClick signature in the HTML. When supplied the event must be specified using the curly braces format: {onEventName}.
+
+### Type
+
+When supplied will determine the type of NavBar to display. If set to None, the control will not render.
+
+### Action Button Icon
+
+When supplied determines the Icon to be used for the Action Button on the left of the NavBar control. The color selected for this Icon will determine the color used for all Icons on this control.
+
+### Title
+
+When supplied will display text inside the title area of the NavBar. The Title properties may contain text, binding, or a combination of the two, examples:
+
+- Settings
+- {settingsLabel}
+- Important {labelText}
+
+### Action Icons
+
+When suppled up to 4 icons will appear on the right side of the NavBar.
 
 ## Additional Resources
 
