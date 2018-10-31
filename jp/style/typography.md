@@ -12,7 +12,7 @@ _language: ja
 <img src="../images/typography_default.png" srcset="../images/typography_default@2x.png 2x" />
 
 > [!Note]
-> コンポーネント ライブラリは Title および Paragraph の [Text](text.md) シンボルを提供します。記事、ブログ投稿の高度なレイアウトの作成で直接にスタイリング ライブラリを使用する代わりにこのアイコンを使用します。タイポグラフィは、デザインのすべてのテキストで一貫性のあるテーマおよびスタイルを定義します。
+> コンポーネント ライブラリは Title および Paragraph の [Text](../components/text.md) シンボルを提供します。記事、ブログ投稿の高度なレイアウトの作成で直接にスタイリング ライブラリを使用する代わりにこのアイコンを使用します。タイポグラフィは、デザインのすべてのテキストで一貫性のあるテーマおよびスタイルを定義します。
 
 ### タイポグラフィ色
 
@@ -22,7 +22,7 @@ _language: ja
 
 ### コンポーネント固有のタイポグラフィ
 
-[Avatar](avatar.md)、[Hyperlink](hyperlink.md)、[Text](text.md) などのコンポーネントは仕様のコンポーネント固有のタイポグラフィを使用します。たとえば、Avatar は複数の色を使用し、Hyperlink は下線テキストを使用します。
+[Avatar](../components/avatar.md)、[Hyperlink](../components/hyperlink.md)、[Text](../components/text.md) などのコンポーネントは仕様のコンポーネント固有のタイポグラフィを使用します。たとえば、Avatar は複数の色を使用し、Hyperlink は下線テキストを使用します。
 
 <img src="../images/typography_specific.png" srcset="../images/typography_specific@2x.png 2x" />
 
