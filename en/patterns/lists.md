@@ -6,6 +6,9 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 ## Lists
 
+> [!Note]
+> With Indigo.Design UI Kits version 1.1.0 the patterns under Lists are no longer available due to an issue in Sketch 52. The issue is related to the many changes Sketch 52 brings along, which ultimately causes the Sketch app to crash. Once the Sketch team resolves this issue, we will push an update to the patterns library including the lists that were available before. In the mean time you can use the List Component and template and style any type of list that you would like as the Components have been fully tested and work fine.
+
 Use the Lists Pattern Symbols as presets for organized collections of data depicting common scenarios such as filterable settings, people, song playlists, searchable lists, and settings.
 
 <img src="../images/lists_people.png" srcset="../images/lists_people@2x.png 2x" />

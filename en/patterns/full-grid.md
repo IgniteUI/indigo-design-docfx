@@ -1,10 +1,13 @@
 ---
 title: Full Grid - Design System Pattern
-_description: The Full Grid Pattern Symbol represents a full-blown Grid Component. 
+_description: The Full Grid Pattern Symbol represents a full-blown Grid Component.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Full Grid
+
+> [!Note]
+> With Indigo.Design UI Kits version 1.1.0 the Full Grid Pattern under Grids is no longer available due to an issue in Sketch 52. The issue is related to the many changes Sketch 52 brings along, which ultimately causes the Sketch app to render an invalid element with pieces that are not resolved to symbols correctly. Once the Sketch team resolves this issue, we will push an update to the patterns library including the Full Grid. In the mean time you can use the Grid Component and construct any data table as the Components have been fully tested and work fine.
 
 Use the Full Grid Pattern symbol as an alternative starting point when designing a table. It provides a full-blown contentwise and stylewise Grid Component that comes with all the Grid functionality, provided in the Components Library such as:
 
