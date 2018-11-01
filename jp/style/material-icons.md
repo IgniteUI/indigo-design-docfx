@@ -12,7 +12,7 @@ Icon Buttons、List Items、Cards などで全般的な操作を記号として�
 <img src="../images/icons_demo.png" srcset="../images/icons_demo@2x.png 2x" />
 
 > [!Note]
-> コンポーネント ライブラリは 4 つのアイコン サイズ (ExtraLarge、Large、Medium、および Small) で [Icon](icon.md) シンボルを提供します。記事、カスタム Card および List Item の高度なレイアウトを作成で直接スタイリング ライブラリを使用する代わりにこのアイコンを使用します。
+> コンポーネント ライブラリは 4 つのアイコン サイズ (ExtraLarge、Large、Medium、および Small) で [Icon](../components/icon.md) シンボルを提供します。記事、カスタム Card および List Item の高度なレイアウトを作成で直接スタイリング ライブラリを使用する代わりにこのアイコンを使用します。
 
 ### マテリアル アイコン
 
