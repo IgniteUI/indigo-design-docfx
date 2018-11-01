@@ -45,54 +45,44 @@ The Bottom Navigation always appears on top of other content, and the shadow it 
 
 ## Code generation
 
-When colors or fonts are specified for the Bottom Navigation, the Bottom Nav HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
+Due to the limitations of Sketch there is no way to associate content with specific tabs in the Bottom Navigation component. Therefore, it is not a good idea to generate an entire Artboard that has a Bottom Navigation component in it. Instead you should generate the Bottom Navigation component by itself and then generate the desired tab content separately into different Angular components. Once your tab content is in separate Angular components you can come back to the Bottom Navigation component and manually reference the generated tab content within each tab.
+
+<img src="../images/bottom-nav_limitation.png" />
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Bottom Navigation in your design is very likely to result in loss of code generation capability for the Bottom Navigation.
 
-### Data Bindings
-
-Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Not Nested
-
-```typescript
-Customer {
-  imageName: String;
-}
+```html
+<igx-bottom-nav>
+    <igx-tab-panel>
+        <!-- Manually add this component reference -->
+        <app-tab1></app-tab1>
+    </igx-tab-panel>
+    <igx-tab-panel>
+        <!-- Manually add this component reference -->
+        <app-tab2></app-tab2>
+    </igx-tab-panel>
+</igx-bottom-nav>
 ```
 
-DataProperty would be: `{imageName}`
+> [!Note]
+> Tab content is not rendered with “height: 100%” so it will not fill the entire page. It will only use the space required by the content.
 
-#### Nested
+### Event
 
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty would be: `{profile.imageName}`
-
-### Event Property
-
-When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an `onTabSelected` signature in the HTML.
+When supplied the `🕹️Event` override is used to create a method in the component TypeScript and add an `onClick` signature in the HTML. When supplied the `🕹️Event` must be specified using the curly braces format: `{onEventName}`.
 
 ### Items Amount
 
-This property determines the number of tabs/items to be displayed.
+This override determines the number of tabs/items to be displayed.
 
 ### Tab
 
-This property will determine the type of tab that will be generated. It can be an icon or an icon with text.
+This override will determined the type of tab that will be generated. It can be an icon or an icon with text.
 
 ### Text
 
-This property is only shown for Icon + Text tabs. It specifies what text is shown within the tab. It may contain plain text, binding text, or a combination of the two, examples:
+This override is only shown for Icon + Text tabs. It specifies what text is shown within the tab. It may contain plain text, binding text, or a combination of the two.
 
 - Settings
 - {settingsLabel}
