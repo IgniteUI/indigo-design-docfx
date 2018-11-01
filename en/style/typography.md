@@ -10,6 +10,13 @@ Use Typography to set up your theme's typeface and available sizes. Although we 
 
 <img src="../images/typography_default.png" srcset="../images/typography_default@2x.png 2x" />
 
+With the introduction of Library Styles in Sketch and our support for Shared Typography Styles, there is a vast selection of type presets. Headline, subtitle, body, caption and overline tyles can be applied to a native Sketch `Text` element, or dragged to an arboard from the `Text Styles` section of the `Insert` menu. Use these when creating intricate layouts for articles, blog posts etc.
+
+> [!Warn]
+> There is also a collection of `Internal` styles used within Components for validation scenarios, special components such as the Button and Hyperlink and data-dense scenarios like the Grid. These styles are not supposed to be inserted in your interface directly, but exist to assure typograpic consistency for the Components within which they are used.
+
+Typography in Indigo-Styling, is meant to help you define a consistent theme and style for all the texts in your designs.
+
 ### Typography colors
 
 Typography comes in multiple preset colors such as: `primary`, `secondary`, `active` corresponding to `grays.900`, `inactive` corresponding to `grays.700`, `disabled` corresponding to `grays.500` and `white`. There is also one additional set of specialty colors, containing Typography variations for strings that need to be in `success`, `warn`, and `error` colors, as well as a some additional nuances used by the Components in the following section.
@@ -17,6 +24,8 @@ Typography comes in multiple preset colors such as: `primary`, `secondary`, `act
 <img src="../images/typography_colors.png" srcset="../images/typography_colors@2x.png 2x" />
 
 ### Component specific typography
+
+Components, such as [Avatar](avatar.md) and [Hyperlink](hyperlink.md) use component-specific Typography to accommodate the specifics of the styling used by the respective component e.g. the Avatar needs a larger variety of colors, while the Hyperlink comes with an underlined text.
 
 <img src="../images/typography_specific.png" srcset="../images/typography_specific@2x.png 2x" />
 
