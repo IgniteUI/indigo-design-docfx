@@ -1,6 +1,6 @@
 ---
 title: Category Chart - Design System Component
-_description: The Category Chart Component Symbol provides simple visual representations for dense complex data. 
+_description: The Category Chart Component Symbol provides simple visual representations for dense complex data.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
@@ -34,6 +34,14 @@ The Category Chart comes with flexibility for selecting the Chart type through v
 | Step Area   | <img src="../images/chart_category_step-area.png" srcset="../images/chart_category_step-area@2x.png 2x" />     |
 | Step Line   | <img src="../images/chart_category_step-line.png" srcset="../images/chart_category_step-line@2x.png 2x" />     |
 | Waterfall   | <img src="../images/chart_category_waterfall.png" srcset="../images/chart_category_waterfall@2x.png 2x" />     |
+
+### Series Amount
+
+This override provides flexibility to select between one and **three** series that will be rendered.
+
+<img src="../images/chart_category_one_series.png" srcset="../images/chart_category_one_series@2x.png 2x" />
+<img src="../images/chart_category_two_series.png" srcset="../images/chart_category_two_series@2x.png 2x" />
+<img src="../images/chart_category_three_series.png" srcset="../images/chart_category_three_series@2x.png 2x" />
 
 ## Usage
 

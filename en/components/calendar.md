@@ -1,6 +1,6 @@
 ---
 title: Calendar - Design System Component
-_description: The Calendar Component Symbol is used as a visual representation of a date providing the necessary mechanisms for date picking. 
+_description: The Calendar Component Symbol is used as a visual representation of a date providing the necessary mechanisms for date picking.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
@@ -43,7 +43,7 @@ The Calendar comes with styling flexibility through the various overrides contro
 
 ## Usage
 
-Inline the horizontal, vertical or base Calendars with the rest of the UI without additional visual effects such as Elevations.
+Use the horizontal, vertical or base Calendars as inline elements with the rest of the UI without additional visual effects such as Elevations.
 
 | Do                                                                                 | Don't                                                                                  |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |

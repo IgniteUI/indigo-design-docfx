@@ -119,7 +119,7 @@
     - name: User Profile
       href: ../patterns/user-profile.md
 - name: レスポンシブ レイアウト
-  href: ../best-layout-practices.md  
+  href: ../best-layout-practices.md
 
 - name: プロトタイプとユーザビリティ テスト
   header: true
@@ -133,9 +133,9 @@
   href: ../prototyping/workspaces.md
 - name: ユーザビリティ テストの作成
   href: ../prototyping/setting-up-a-usability-study.md
-- name: ユーザビリティ テスト結果のレビュー 
+- name: ユーザビリティ テスト結果のレビュー
   href: ../prototyping/usability-study-results-overview.md
-  
+
 - name: コードの生成
   header: true
 - name: VS Code 拡張機能のインストール
@@ -146,9 +146,10 @@
   href: ../codegen/after-codegen.md
 - name: レイアウトの生成
   href: ../codegen/layout-codegen.md
+- name: Data Binding
+  href: ../codegen/data-binding.md
 
 - name: その他のリソース
   header: true
 - name: 既知の問題
   href: ../known-issues.md
-  

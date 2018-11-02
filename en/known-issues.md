@@ -50,7 +50,6 @@ Images that were created using the second method above and are used as backgroun
 The following Indigo.Design components are not implemented for code generation yet:
 
 * Cards
-* Navigation -> NavBar
 * Navigation -> NavDrawer
 * Calendar
 
@@ -64,7 +63,6 @@ The following Sketch components are not implemented for code generation yet:
     * Triangle
 * Vector
 * Pencil
-* Text
 * Mask
 * Elevation
 

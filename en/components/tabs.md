@@ -58,38 +58,28 @@ The Tabs are appropriate for organizing information, and one should avoid using 
 
 ## Code generation
 
-When colors or fonts are specified for the Tabs, the Tabs HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component). Styles for the active tab are gathered from the first active tab parsed. Other tab styles are gathered from the first inactive tab parsed.
+Due to the limitations of Sketch there is no way to associate content with specific tabs in the Tab component. Therefore it is not a good idea to generate an entire Artboard that has a Tab component inside it. Instead you should generate the Tab component by itself and then generate the desired tab content separately into different Angular components. Once your tab content is in separate Angular components you can come back to the Tab component and manually reference the generated tab content within each tab.
+
+<img src="../images/tabs_limitation.png" />
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Tabs in your design is very likely to result in loss of code generation capability for the Tabs.
 
-### Data Bindings
-
-Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Not Nested
-
-```typescript
-Customer {
-  imageName: String;
-}
+```html
+<igx-tabs>
+    <igx-tabs-group>
+        <!-- Manually add this component reference -->
+        <app-tab1></app-tab1>
+    </igx-tabs-group>
+    <igx-tabs-group>
+        <!-- Manually add this component reference -->
+        <app-tab2></app-tab2>
+    </igx-tabs-group>
+</igx-tabs>
 ```
 
-DataProperty would be: `{imageName}`
-
-#### Nested
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty would be: `{profile.imageName}`
+> [!Note]
+> Tab content is not rendered with “height: 100%” so it will not fill the entire page. It will only use the space required by the content.
 
 ### Event Property
 

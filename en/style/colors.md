@@ -1,6 +1,6 @@
 ---
 title: Colors - Design System Styling
-_description: The Colors Symbols in Styling are the go to place for setting up a theme in Indigo Design. 
+_description: The Colors Symbols in Styling are the go to place for setting up a theme in Indigo Design.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
@@ -12,9 +12,22 @@ Use Colors from the Styling library file to set up your theme's colors - `primar
 
 ### Palette Generation
 
-To change the primary color, navigate to the `Colors` page in Indigo-Styling and change the `Primary 500` symbol to a color of your choice. You will immediately see the whole primary palette instantly update. The same palette generation is available for the secondary color.
+To change the primary color, navigate to the `Colors` page in Indigo-Styling and while holding the `command` key select all the primary color variants. Then, find the Fills section in the right panel and click on the bottom one, which bears the main color component in order to change its value to another color. This will automatically update all primary variants to assure consistent look with Ignite UI for Angular.
+
+<img src="../images/colors-fills.png"/>
+
+> [!Warn]
+> The two fills above are used for color variant generation and their values must always be kept as they are. Failing to comply with this guidance will result in inconsistencies and unpredictable code generation results.
+
+Upon changing the bottom fill, you will see the whole primary palette instantly update. The same palette generation is available for the secondary color.
 
 <img src="../images/colors_generation.png" srcset="../images/colors_generation@2x.png 2x" />
+
+With the introduction of Library Styles in Sketch and our support for Shared Color Styles there is one more step that you need to do i.e. to update all respective color styles that have changed with the selection of a new primary/secondary color. In order to do that upon selecting an individual color element, you should be able to observe the following inconsistency.
+
+<img src="../images/colors_styles_update.png"/>
+
+To fix that click on the `primary.100*` style to drop the menu down and select the `Update Layer Style` option. This should be repeated for all remaining variants and for the secondary ones as well if they have been changed too.
 
 > [!Note]
 > Since the text colors are controlled by the `Typography`, to fully update the default theme, you also need to manually change the colors in the `Typography` page as well. Once you change your `primary` color, make sure you change the `Primary` section in Typography to the very same color. The exact steps to achieve this can be found in [Typography](typography.md).
