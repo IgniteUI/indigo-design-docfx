@@ -36,42 +36,14 @@ When designing a custom content Dialog, avoid placing buttons in the content sec
 
 ## Code Generation
 
-When colors or fonts are specified for the Dialog, the Dialog HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component). Currently changing of the button background color, button text style isn’t supported.
+This section describes some important overrides and how they affect code generation.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Dialog in your design is very likely to result in loss of code generation capability for the Dialog.
 
-### Data Bindings
-
-Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Not Nested
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty would be: `{imageName}`
-
-#### Nested
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty would be: `{profile.imageName}`
-
 ### Text
 
-There are four Text properties for the Dialog, Title, Message, Left Button, and Right Button. These properties may contain text, binding, or a combination of the two, examples:
+There are four Text properties for the Dialog, Title, Message, Left Button, and Right Button. These properties may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
 
 - Settings
 - {settingsLabel}
@@ -79,15 +51,19 @@ There are four Text properties for the Dialog, Title, Message, Left Button, and 
 
 ### Dialog Naming
 
-Dialog components are hidden at runtime until code opens them. The code generator uses the name given to the dialog in Sketch, to assign a name to the dialog in the HTML. For example, if the dialog was named: Dialog (will be changed to lower case) in Sketch the below bold #dialog will be added to the tag.
+Dialog components are hidden at runtime until code opens them. The code generator uses the name given to the dialog in Sketch, to assign a name to the dialog in the HTML. For example, if the dialog was named "ErrorDialog" in Sketch then the below HTML will be generated.
 
-<igx-dialog **#dialog**
+```html
+<igx-dialog #errordialog>
+```
 
 ### Dialog Cancel Button
 
-The code generator will add standard cancel button code to the HTML if no `🕹️Event` is specified for the LEFT button and the LEFT button text is Cancel (case insensitive comparison). In the below example, the name of the dialog was Dialog, the following will be added to the dialog HTML.
+The code generator will add standard cancel button code to the HTML if no `🕹️Event` is specified for the LEFT button and the LEFT button text is Cancel (case insensitive comparison). In the below example, the name of the dialog was "ErrorDialog", the following will be added to the dialog HTML.
 
-(onLeftButtonSelect)="dialog.close()"
+``` html
+<igx-dialog #errordialog (onLeftButtonSelect)="errordialog.close()">
+```
 
 ### Buttons
 
@@ -98,6 +74,11 @@ There are Left and Right buttons. Each Button has a Type field that can be set F
 Each button has an `🕹️Event` property. If supplied, onLeftButtonSelect and onRightButtonSelect events are outputted when the corresponding button is rendered. Additionally, the JavaScript $event argument will be added to the HTML signature and TypeScript method signature.
 
 ## Additional Resources
+
+Related topics:
+
+- [Data Binding](../codegen/data-binding.md)
+  <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 

@@ -108,24 +108,26 @@ When using the Chips Area follow the suggestions for the individual Chip compone
 
 ## Code Generation
 
+This section describes some important overrides and how they affect code generation.
+
 > [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Chip in your design is very likely to result in loss of code generation capability for the Chip. The Chips Area on the other hand must be detached for code generation to work properly.
+> Triggering `Detach from Symbol` on an instance of the Chip in your design is very likely to result in loss of code generation capability for the Chip. The Chips Area, on the other hand, **must** be detached for code generation to work properly.
 
 ### Chip State
 
-This override controls the state of the Chip. During code generation it primarily controls how the Chip theme is generated. The Chip Component inside the Ignite UI for Angular product has different states it can be in and as a result its theme has a number of parameters which control the theming for these states. The value of this override will determine what Ignite UI theme parameters will be set.
+This override controls the state of the Chip. During code generation it primarily controls how the Chip theme is generated. The Chip component inside the Ignite UI for Angular product has different states it can be in and as a result its theme has a number of parameters which control the theming for these states. The value of this override will determine what Ignite UI theme parameters will be set.
 
 ### Chip Selection Icon
 
-This override controls what icon glyph is used when the Chip is selected. During code generation, an Ignite UI for Angular Icon component will be generated inside an `ng-template` and this template will be used for the Chip components `selectIcon` property.
+This override controls what icon is used when the Chip is selected. During code generation, an Ignite UI for Angular Icon component will be generated inside an `ng-template` and this template will be used for the Chip components `selectIcon` property.
 
 ### Chip Remove Icon
 
-This override controls what icon glyph is used as the remove button for this Chip. During code generation, an Ignite UI for Angular Icon component will be generated inside an `ng-template` and this template will be used for the Chip components `removeIcon` property.
+This override controls what icon is used as the remove button for this Chip. During code generation, an Ignite UI for Angular Icon component will be generated inside an `ng-template` and this template will be used for the Chip components `removeIcon` property.
 
 ### Chip Text
 
-This override controls the text used inside the Chip. It is possible to provide a binding to this override so that during code generation it will create the proper HTML to facility data binding.
+This override controls the text used inside the Chip. It is possible to provide a [binding](../codegen/data-binding.md) to this override so that during code generation it will create the proper HTML to facilitate data binding.
 
 No Binding:
 
@@ -148,6 +150,7 @@ This override places an icon at the end of the Chip content. During code generat
 This override is used to hook up a function to the Chip’s `onSelection` event. During code generation, it will generate an empty function in the component’s TypeScript whose name is the value of the override and it will hook that function to the Chip’s `onSelection` event in HTML. It would end up looking like this:
 
 In Sketch:
+
 <img src="../images/chip_event.png" srcset="../images/chip_event@2x.png 2x" />
 
 HTML:
@@ -192,6 +195,7 @@ This override controls what icon glyph is used between Chips inside the Chips Ar
 Related topics:
 
 - [Grid](grid.md)
+- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

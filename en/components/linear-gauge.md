@@ -48,12 +48,14 @@ To create an easy to the eye and crisp data visualization pick colors for the Ne
 
 ## Code Generation
 
+This section describes some important overrides and how they affect code generation.
+
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Linear Gauge in your design is very likely to result in loss of code generation capability for the Linear Gauge.
 
 ### Minimum Value
 
-This override controls the minimum value displayed by the Linear Gauge. It supports data binding as well as direct setting of a number. If a binding is used the bound property must result in a number at runtime. If no binding is used the value must be a number. If the value provided is not in the correct format the Linear Gauge will be generated without a minimum value set and the control default will be used.
+This override controls the minimum value displayed by the Linear Gauge. It supports [data binding](../codegen/data-binding.md) as well as direct setting of a number. If a binding is used the bound property must result in a number at runtime. If no binding is used the value must be a number. If the value provided is not in the correct format the Linear Gauge will be generated without a minimum value set and the control default will be used.
 
 Binding:
 
@@ -65,7 +67,7 @@ No binding:
 
 ### Maximum Value
 
-This override controls the maximum value displayed by the Linear Gauge. It supports data binding as well as direct setting of a number. If a binding is used the bound property must result in a number at runtime. If no binding is used the value must be a number. If the value provided is not in the correct format the Linear Gauge will be generated without a maximum value set and the control default will be used.
+This override controls the maximum value displayed by the Linear Gauge. It supports [data binding](../codegen/data-binding.md) as well as direct setting of a number. If a binding is used the bound property must result in a number at runtime. If no binding is used the value must be a number. If the value provided is not in the correct format the Linear Gauge will be generated without a maximum value set and the control default will be used.
 
 Binding:
 
@@ -83,7 +85,7 @@ You may not want the ranges to use the auto-generated start and end values, howe
 
 ### ValueDataProperty
 
-This override controls the needle value displayed by the Linear Gauge. It only supports data binding so provided values must be in the correct format.
+This override controls the needle value displayed by the Linear Gauge. It only supports [data binding](../codegen/data-binding.md) so provided values must be in the correct format.
 
 <img src="../images/linear_gauge_valueprop.png"/>
 
@@ -96,6 +98,7 @@ Related topics:
 - [Bullet Graph](bullet-graph.md)
 - [Category Chart](chart-category.md)
 - [Radial Gauge](radial-gauge.md)
+- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

@@ -48,38 +48,10 @@ When using an Avatar with initials or icons, pick their colors carefully to assu
 
 ## Code Generation
 
-When colors or fonts are specified for the Avatar, the Avatar HTML element will be wrapped in div. This is required by browsers to style a nested component (a component within another component).
+This section describes some important overrides and how they affect code generation.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Avatar in your design is very likely to result in loss of code generation capability for the Avatar.
-
-### Data Bindings
-
-Data bindings are specified by using curly brace syntax, example: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Not Nested
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty would be: `{imageName}`
-
-#### Nested
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty would be: `{profile.imageName}`
 
 ### Event Property
 
@@ -89,9 +61,9 @@ When supplied, this property is used to create a method in the component TypeScr
 
 | Avatar Type     | `🕹️DataProperty`                                                                                                                                                                                                                                                                                         |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Picture Avatar  | When supplied, this property can be used to data bind the image source. When provided, it will be the name of the property on the data object specified by the model object name provided during code generation.                                                                                     |
+| Picture Avatar  | When supplied, this property can be used to [data bind](../codegen/data-binding.md) the image source. When provided, it will be the name of the property on the data object specified by the model object name provided during code generation.                                                                                     |
 | Icon Avatar     | This property is ignored.                                                                                                                                                                                                                                                                                |
-| Initials Avatar | When supplied, this property is used to databind the initials property. When provided, it will be the name of the property on the data object specified by the model object name provided during code generation. The Avatar initials only renders two characters, this is a limitation of Ignite UI. |
+| Initials Avatar | When supplied, this property is used to [data bind](../codegen/data-binding.md) the initials property. When provided, it will be the name of the property on the data object specified by the model object name provided during code generation. The Avatar initials only renders two characters, this is a limitation of Ignite UI. |
 
 ## Additional Resources
 
@@ -101,6 +73,7 @@ Related topics:
 - [Cards](cards.md)
 - [File Upload](../patterns/file-upload.md)
 - [User Profile](../patterns/user-profile.md)
+- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

@@ -53,42 +53,14 @@ Even though you might need to combine different types of series in the same char
 
 ## Code Generation
 
-The Category Chart is a simple to use component requiring only a few properties to be set.
+This section describes some important overrides and how they affect code generation.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Category Chart in your design is very likely to result in loss of code generation capability for the Category Chart.
 
-### Data Bindings
-
-Data bindings are specified by using curly brace syntax, example: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Not Nested
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty would be: `{imageName}`
-
-#### Nested
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty would be: `{profile.imageName}`
-
 ### Data Source Property
 
-When supplied, the `🕹️DataSource` value is used to set up a binding to the chart dataSource property. Without a `🕹️DataSource` and valid data in the data source, the Category Chart cannot render at runtime.
+When supplied, the `🕹️DataSource` value is used to set up a [binding](../codegen/data-binding.md) to the chart dataSource property. Without a `🕹️DataSource` and valid data in the data source, the Category Chart cannot render at runtime.
 
 ### Chart Dimensions
 
@@ -102,7 +74,7 @@ Configures the chart to use the provided series type. When Type is None, the cha
 
 ### Chart Title
 
-The Title property may contain text, binding, or a combination of the two, examples:
+The Title property may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
 
 - Settings
 - {settingsLabel}
@@ -111,6 +83,11 @@ The Title property may contain text, binding, or a combination of the two, exa
 The Title is optional.
 
 ## Additional Resources
+
+Related topic:
+
+- [Data Binding](../codegen/data-binding.md)
+  <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 

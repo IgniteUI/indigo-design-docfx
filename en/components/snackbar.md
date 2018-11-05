@@ -30,38 +30,10 @@ The Snackbar always appears on top of other content, so avoid placing on top of 
 
 ## Code generation
 
-When colors are specified for the Snackbar, the Snackbar HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
+This section describes some important overrides and how they affect code generation.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Snackbar in your design is very likely to result in loss of code generation capability for the Snackbar.
-
-### Data Bindings
-
-Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Not Nested
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty would be: `{imageName}`
-
-#### Nested
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty would be: `{profile.imageName}`
 
 ### Event Property
 
@@ -69,13 +41,18 @@ When supplied the `🕹️Event` Event property is used to create a method in th
 
 ### Text
 
-There are Text properties for the Message and Button. These properties may contain text, binding, or a combination of the two, examples:
+There are Text properties for the Message and Button. These properties may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
 
 - Settings
 - {settingsLabel}
 - Important {labelText}
 
 ## Additional Resources
+
+Related topics:
+
+- [Data Binding](../codegen/data-binding.md)
+  <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 

@@ -81,6 +81,8 @@ Due to the limitations of Sketch there is no way to associate content with speci
 > [!Note]
 > Tab content is not rendered with “height: 100%” so it will not fill the entire page. It will only use the space required by the content.
 
+This section describes some important overrides and how they affect code generation.
+
 ### Event Property
 
 When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an `onTabItemSelected` signature in the HTML. When supplied the event must be specified using the curly braces format: `{onEventName}`.
@@ -99,7 +101,7 @@ When supplied, the Type determines if the tab will render an Icon or Text. Only 
 
 ### Text
 
-The Text properties may contain text, binding, or a combination of the two, examples:
+The Text properties may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
 
 - Settings
 - {settingsLabel}
@@ -110,6 +112,7 @@ The Text properties may contain text, binding, or a combination of the two, ex
 Related topic:
 
 - [Details](../patterns/details.md)
+- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

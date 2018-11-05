@@ -42,42 +42,14 @@ When extending a Radio Group with additional items, make sure that they are all 
 
 ## Code generation
 
-When colors or fonts are specified for the Radio Group, the Radio Group HTML element will be wrapped in a div. this is required by browsers to style a nested component (a component within another component).
+This section describes some important overrides and how they affect code generation.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Radio Group will reduce the accuracy of code generation for the Radio Group. This is most notable for the layout of the individual Radio Buttons and one will be able to notice the difference in the vertical margins between them, when comparing his Sketch drawing and the generated layout in Angular. Use the `Detach from Symbol` only if it is absolutely necessary to create more items than provided, otherwise just hide them by setting them to none, and make sure you keep the `🚫radio-group`, `🕹️DataProperty` and `🕹️DataSource` layers intact. Once the code is generated, the margins should be adjusted in the CSS to match the design.
 
-### Data Bindings
-
-Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax, example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is as nested property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Not Nested
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty would be: `{imageName}`
-
-#### Nested
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty would be: `{profile.imageName}`
-
 ### Data Property
 
-When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using [Angular Reactive Forms](https://angular.io/guide/reactive-forms) to the radio button checked property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided in the generation request.
+When supplied, the `🕹️DataProperty` value is used to set up a two-way [data binding](../codegen/data-binding.md) using [Angular Reactive Forms](https://angular.io/guide/reactive-forms) to the radio button checked property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided in the generation request.
 
 When a model object name and `🕹️DataProperty` are provided, the TypeScript `ngOnInit` method with be populated with form builder code to create the Reactive Forms form. The `🕹️DataProperty` will be used to populate the formControlName property on the radio button control.
 
@@ -96,6 +68,11 @@ Determines the settings for the Radio Buttons in the group. If the `🕹️DataS
 When the `🕹️DataSource` is set the Text property is ignored. When the Text is supplied, it will be used for the value and label of the Radio Button.
 
 ## Additional Resources
+
+Related topics:
+
+- [Data Binding](../codegen/data-binding.md)
+  <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 
