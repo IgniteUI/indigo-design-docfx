@@ -7,7 +7,7 @@ _language: ja
 
 ## Badge
 
-Badge コンポーネント シンボルを使用して他のインターフェイス要素や通知を表示するために注意を促します。コンポーネントに対するインタラクションに応じてユーザーに追加情報を公開することにより  UX を向上できます。Badge は、[Ignite UI for Angular Badge コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/badge.html)と視覚的に同じものです。
+Badge コンポーネント シンボルを使用して他のインターフェイス要素や通知を表示するために注意を促します。コンポーネントに対するインタラクションに応じてユーザーに追加情報を公開することにより UX を向上できます。Badge は、[Ignite UI for Angular Badge コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/badge.html)と視覚的に同じものです。
 
 ### Badge デモ
 
@@ -35,8 +35,8 @@ Badge は、さまざまなオーバーライドで背景、境界線の色、�
 
 Badge を使用して Avatar やテキスト タイトルなどのその他の UI 部分に印を付けます。Badge をそれ自体には使用しないでください。
 
-| いい例                           | 悪い例                         |
-| ---------------------------- | ------------------------------ |
+| 良い例                                                                       | 悪い例                                                                           |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | <img src="../images/badge_do1.png" srcset="../images/badge_do1@2x.png 2x" /> | <img src="../images/badge_dont1.png" srcset="../images/badge_dont1@2x.png 2x" /> |
 
 ## コードの生成
@@ -57,6 +57,7 @@ Customer {
   imageName: String;
 }
 ```
+
 DataProperty: `{imageName}`
 
 #### ネストあり
@@ -70,6 +71,7 @@ Customer {
   profile: Profile;
 }
 ```
+
 DataProperty: `{profile.imageName}`
 
 ### Event プロパティ
@@ -78,7 +80,9 @@ DataProperty: `{profile.imageName}`
 
 ### データ プロパティ
 
-`🕹️DataProperty` 値はバッジ値プロパティへのデータ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` は、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトのプロパティ名です。バッジ タイプを Icon に設定した場合、`🕹️DataProperty` は無視されます。
+`🕹️DataProperty` 値はバッジ値プロパティへのデータ バインディングを設定するために使用されます。コード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名です。そのため、`🕹️DataProperty` が使用される場合、モデル オブジェクト名を指定する必要があります。指定されない場合、無視されます。
+
+バッジ タイプを Icon に設定した場合、`🕹️DataProperty` は無視されます。
 
 ### タイプ
 
@@ -96,7 +100,7 @@ Type を Number に設定する場合、以下が適用されます。
 
 関連トピック:
 
-- [Avatar + Badge](avatar+badge.md)
+- [Avatar + Badge](../patterns/avatar-badge.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

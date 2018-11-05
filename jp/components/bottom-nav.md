@@ -39,10 +39,65 @@ Bottom Navigation は、さまざまなオーバーライドで背景色、項�
 
 Bottom Navigation は常にその他のコンテンツの一番上に表示され、シャドウは大変重要な要素となります。レイヤーを画面コンテンツに配置し、シャドウは削除しないでください。
 
-| いい例                                | 悪い例                               |
+| 良い例                                | 悪い例                               |
 | --------------------------------- | ----------------------------------- |
 | <img src="../images/bottom-nav_do1.png" srcset="../images/bottom-nav_do1@2x.png 2x" /> | <img src="../images/bottom-nav_dont1.png" srcset="../images/bottom-nav_dont1@2x.png 2x" /> |
 | <img src="../images/bottom-nav_do2.png" srcset="../images/bottom-nav_do2@2x.png 2x" /> | <img src="../images/bottom-nav_dont2.png" srcset="../images/bottom-nav_dont2@2x.png 2x" /> |
+
+## コードの生成
+
+Bottom Navigation の色またはフォントを指定した場合、Bottom Navigation HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が必要になります。
+
+> [!WARNING]
+> デザインの Bottom Navigation のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Bottom Navigation のためのコード生成機能が失われる結果となります。
+
+### データ バインディング
+
+データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。例:
+
+#### ネストなし
+
+```typescript
+Customer {
+  imageName: String;
+}
+```
+
+DataProperty: `{imageName}`
+
+#### ネストあり
+
+```typescript
+Profile {
+  imageName: String;
+}
+
+Customer {
+  profile: Profile;
+}
+```
+
+DataProperty: `{profile.imageName}`
+
+### Event プロパティ
+
+`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に `onTabSelected` シグネチャを追加します。
+
+### 項目数
+
+このプロパティは表示されるタブまたは項目の数を決定します。
+
+### タブ
+
+このプロパティは生成されるタブのタイプを決定します。アイコンまたはテキストとアイコンが可能です。
+
+### テキスト
+
+このプロパティはアイコンとテキストを含むタブのみに表示されます。タブで表示されるテキストを指定します。プレーン テキスト、バインディング テキスト、または両方を含むことができます。例:
+
+- 設定
+- {settingsLabel}
+- 重要な {labelText}
 
 ## その他のリソース
 

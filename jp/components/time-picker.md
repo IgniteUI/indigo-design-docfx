@@ -44,8 +44,8 @@ Time Picker は、さまざまなオーバーライドでヘッダー背景、�
 
 水平と垂直の時間選択をダイアログで表示し、ダイアログ以外の UI は暗くなります。
 
-| いい例                                | 悪い例                               |
-| --------------------------------- | ----------------------------------- |
+| 良い例                                                                                 | 悪い例                                                                                     |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | <img src="../images/timepicker_do1.png" srcset="../images/timepicker_do1@2x.png 2x" /> | <img src="../images/timepicker_dont1.png" srcset="../images/timepicker_dont1@2x.png 2x" /> |
 
 ## その他のリソース
@@ -53,7 +53,7 @@ Time Picker は、さまざまなオーバーライドでヘッダー背景、�
 関連トピック:
 
 - [Calendar](calendar.md)
-- [Form Pattern](forms.md)
+- [Form Pattern](../patterns/form.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

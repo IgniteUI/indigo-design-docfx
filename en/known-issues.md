@@ -16,11 +16,7 @@ As you may have already seen in the other topics `Detach from Symbol` usually re
 
 With [Sketch 51](https://www.sketchapp.com/updates/#version-51) a new concept for Library Styles has been introduced that will boost your productivity with Styling and Typography.
 
-> [!WARNING]
-> The Indigo.Design UI Kit currently does not support Text Styles and Layer Styles for code generation. Any elements using this functionality will not be generated.
-> <img src="../images/library_styles.png" />
-
-> [!INFO]
+> [!Note]
 > The next release will feature improvements to the Typography along the lines of recent updates to the Material Guidelines and full support for Text Styles and Layer Styles in the UI Kit and for code generation.
 
 ### Getting Invalid Overrides
@@ -40,10 +36,43 @@ In Sketch, there are two ways to insert images:
 1.  Drag & drop an image onto an artboard
 2.  Draw a Rectangle and set its Fill to be an image
 
-Since code generation does not currently render Sketch shapes, use only the first method with Indigo.Design. The image will be generated with the dimensions defined in the Sketch file, and will not be responsive.
+Both of these are supported however the image will be generated with the dimensions defined in the Sketch file, and will not be responsive.
 
-> [!INFO]
-> The next release will feature an Image Component that will generate code for responsive images.
+Images that were created using the first method above and are used as backgrounds will not be code generated as a background but as a normal image element.
+
+Images that were created using the second method above and are used as backgrounds will be code generated as a background.
+
+> [!Note]
+> A future release will feature an Image Component that will generate code for responsive images.
+
+### Currently Not Supported
+
+The following Indigo.Design components are not implemented for code generation yet:
+
+* Cards
+* Navigation -> NavDrawer
+* Calendar
+
+The following Sketch components are not implemented for code generation yet:
+
+* Shapes
+    * Line
+    * Arrow
+    * Star
+    * Polygon
+    * Triangle
+* Vector
+* Pencil
+* Mask
+* Elevation
+
+> [!Note]
+> Future releases will include these components.
+
+### Proportional widths not completed
+
+As this is not completed we give each element 100% width instead of calculating a specific percent based on their width relative to other row elements:
+[Proportional Width Sizing](codegen/layout-codegen.md#proportional-width-sizing)
 
 ## Additional Resources
 

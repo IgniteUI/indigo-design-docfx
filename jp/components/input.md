@@ -69,7 +69,7 @@ Input には特定の場合に入力 (@email.com サフィックス) を軽減�
 > - .../Suffix/Icons/...
 > - .../Suffix/String/...
 
-### Calendar および Time Picker 入力
+### Date Picker および Time Picker 入力
 
 日付および時間選択のためにカスタマイズされた Input の 2 種類です。その他の Input コンポーネントと構造が統一されますが、レイアウトはそれぞれの状態に固定されます。プレフィックス位置に表示されるアイコンはマテリアル アイコンの `calendar-today` および `access-time` に設定され、オーバーライド パネルに変更できません。
 
@@ -86,13 +86,13 @@ Input は、Styling ライブラリのテーマでプライマリ、成功、警
 
 Input のボックス タイプを使用して画像上にフォームを配置して読みやすくします。デザインの警告やエラー状態で Input を使用する際にヘルパーテキストを使用してユーザーにガイダンスを提供します。
 
-| いい例                       | 悪い例                         |
-| ---------------------------- | ------------------------------ |
+| 良い例                                                                       | 悪い例                                                                           |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | <img src="../images/input_do1.png" srcset="../images/input_do1@2x.png 2x" /> | <img src="../images/input_dont1.png" srcset="../images/input_dont1@2x.png 2x" /> |
 | <img src="../images/input_do2.png" srcset="../images/input_do2@2x.png 2x" /> | <img src="../images/input_dont2.png" srcset="../images/input_dont2@2x.png 2x" /> |
 
 ## コードの生成
- 
+
 Input Group の色やフォントを指定した場合、Input Group HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
 
 > [!WARNING]
@@ -128,11 +128,17 @@ DataProperty: `{profile.imageName}`
 
 `🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に入力アイコンのために Angular クリック シグネチャを追加します。波括弧構文 ({onEventName}) を使用してイベントを指定する必要があります。
 
-### DataProperty
+このプロパティは現在 Searchbar コンポーネントのみにサポートされます。Searchbar に 2 つのアイコンを設定できます。各アイコンに設定可能な `🕹️Event` プロパティがあります。
 
-`🕹️DataProperty` 値は Angular Reactive Forms を使用して入力の value プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。提供された場合、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名になります。
+### データ プロパティ
 
-### 入力 (Searchbar 以外)
+`🕹️DataProperty` 値は [Angular Reactive Forms](https://angular.io/guide/reactive-forms) を使用して入力の value プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションですが、指定される場合、コード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名になります。そのため、`🕹️DataProperty` が使用される場合、開発者がモデル オブジェクト名を指定する必要があります。指定されない場合、無視されます。
+
+### 日付と時刻の入力
+
+Sketch で割り当てるテーマおよび色値は生成されたコードに含まれません。現在 Ignite UI for Angular は、このような入力タイプのテーマをサポートしていません。
+
+### 入力 (検索バー、日付、および時刻以外)
 
 #### レイアウト
 
@@ -144,11 +150,11 @@ Label に表示するテキストを決定します。
 
 #### 入力テキスト
 
-入力値に表示するテキストを決定します。DataProperty が設定される場合、このプロパティは無視されます。Line、Box、または Border 入力でこのフィールドが `*` 文字のみを含む場合、入力のタイプが password に設定されます。
+入力値に表示するテキストを決定します。`🕹️DataProperty` が設定される場合、このプロパティは無視されます。Line、Box、または Border 入力でこのフィールドが `*` 文字のみを含む場合、入力のタイプが password に設定されます。
 
 #### ヘルプ テキスト
 
-Input Group の Hint に表示するテキストを決定します。Time Picker および Date/Calendar はこれをサポートしません。
+Input Group の Hint に表示するテキストを決定します。Date Picker および Time Picker はこれをサポートしません。
 
 ### 検索バー
 
@@ -166,8 +172,8 @@ Searchbar に Left および Right Icons があり、アイコンを有効また
 
 関連トピック:
 
-- [Form Pattern](forms.md)
-- [User Profile Pattern](userProfile.md)
+- [Form Pattern](../patterns/form.md)
+- [User Profile Pattern](../patterns/user-profile.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

@@ -37,8 +37,8 @@ Checkbox は、さまざまなオーバーライドでチェック、色の塗�
 
 多くの Checkboxes を列グループに配置する必要がある場合にリストをすばやく簡単にスキャンできます。チェックボックスは単一行に隣接して配置できますが、複数列に配置しないようにします。
 
-| いい例                             | 悪い例                             |
-| ------------------------------- | --------------------------------- |
+| 良い例                                                                             | 悪い例                                                                                 |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | <img src="../images/checkbox_do1.png" srcset="../images/checkbox_do1@2x.png 2x" /> | <img src="../images/checkbox_dont1.png" srcset="../images/checkbox_dont1@2x.png 2x" /> |
 
 ## コードの生成
@@ -46,7 +46,7 @@ Checkbox は、さまざまなオーバーライドでチェック、色の塗�
 Checkbox のチェック マーク、チェック ボックス色、またはチェック状態を指定した場合、Checkbox HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。また、State が off に設定されるか、無効される場合、コントロールは描画されません。
 
 > [!WARNING]
-> デザインの　Checkbox のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Checkbox のためのコード生成機能が失われる結果となります。
+> デザインの　 Checkbox のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Checkbox のためのコード生成機能が失われる結果となります。
 
 ### データ バインディング
 
@@ -59,6 +59,7 @@ Customer {
   imageName: String;
 }
 ```
+
 DataProperty: `{imageName}`
 
 #### ネストあり
@@ -72,15 +73,14 @@ Customer {
   profile: Profile;
 }
 ```
+
 DataProperty: `{profile.imageName}`
 
-### リアクティブ フォーム
+### データ プロパティ
 
-モデル オブジェクト名および `🕹️DataProperty` が提供される場合、Reactive Forms フォームを作成するためにフォーム ビルダー コードで TypeScript ngOnInit メソッドが生成されます。`🕹️DataProperty` はチェックボックス コントロールの formControlName プロパティを設定します。
+`🕹️DataProperty` 値は [Angular Reactive Forms](https://angular.io/guide/reactive-forms) を使用してチェックボックスの checked プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` はコード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名です。
 
-### DataProperty
-
-`🕹️DataProperty` 値は Angular Reactive Forms を使用してチェックボックスの checked プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。 `🕹️DataProperty` は、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトのプロパティ名です。
+モデル オブジェクト名および `🕹️DataProperty` が両方提供される場合、Reactive Forms フォームを作成するためにフォーム ビルダー コードで TypeScript `ngOnInit` メソッドが生成されます。`🕹️DataProperty` はチェックボックス コントロールの formControlName プロパティを設定します。
 
 ### テーマ
 
@@ -102,7 +102,7 @@ Text プロパティにテキスト、バインディング、または両方を
 
 関連トピック:
 
-- [Form Pattern](forms.md)
+- [Form Pattern](../patterns/form.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

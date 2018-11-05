@@ -1,6 +1,6 @@
 ---
 title: Input - Design System Component
-_description: The Input Component Symbol allows the collection of user data such as strings, numbers and dates. 
+_description: The Input Component Symbol allows the collection of user data such as strings, numbers and dates.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
@@ -14,17 +14,20 @@ Use the Input Component to collect user data such as strings and numbers fitting
 
 ### Types
 
-The Input comes with or without a helper text and provides choice between four distinct types, e.g. line style for a more airy style or border style for a more structured perception on solid color backgrounds. The boxed style is most appropriate when the Input is placed on top of an vivid image to improve readability of its content.
+The Input comes with or without a helper text and provides choice between three distinct types, e.g. line style for a more airy style or border style for a more structured perception on solid color backgrounds. The boxed style is most appropriate when the Input is placed on top of an vivid image to improve readability of its content.
 
 <img src="../images/input_no-helper.png" srcset="../images/input_no-helper@2x.png 2x" />
 <img src="../images/input_helper.png" srcset="../images/input_helper@2x.png 2x" />
 
 <img src="../images/input_line.png" srcset="../images/input_line@2x.png 2x" />
 `line`
+
 <img src="../images/input_box.png" srcset="../images/input_box@2x.png 2x" />
 `box`
+
 <img src="../images/input_border.png" srcset="../images/input_border@2x.png 2x" />
 `border`
+
 <img src="../images/input_search.png" srcset="../images/input_search@2x.png 2x" />
 `search`
 
@@ -39,10 +42,15 @@ The Input can be used styled in **dark** and light variants to assure good reada
 
 When the user interacts with the Input, it goes through various states: **idle** with a placeholder in the place of the content, focused while the user is typing in it, filled once the user has finished adding content and moved on, and disabled when the input does not support any interaction. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
 
+<img src="../images/input_idle.png" srcset="../images/input_idle@2x.png 2x" />
+`idle`
+
 <img src="../images/input_focused.png" srcset="../images/input_focused@2x.png 2x" />
 `focused`
+
 <img src="../images/input_filled.png" srcset="../images/input_filled@2x.png 2x" />
 `filled`
+
 <img src="../images/input_disabled.png" srcset="../images/input_disabled@2x.png 2x" />
 `disabled`
 
@@ -68,7 +76,7 @@ The Input has rich support for prefix and suffix through text string or icon tha
 > - .../Suffix/Icons/...
 > - .../Suffix/String/...
 
-### Calendar and Time Picker Inputs
+### Date Picker and Time Picker Inputs
 
 These two are special types of Input customized for the purposes of date and time selection. They have a consistent structure with the other Inputs, but the layout, which is fixed in a certain way for each state. The icons that appear at the prefix location are set to the Material Icons `calendar-today` and `access-time` and can not be changed via the overrides panel.
 
@@ -127,11 +135,17 @@ DataProperty would be: `{profile.imageName}`
 
 When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an Angular click signature in the HTML for the input’s icons. When supplied the event must be specified using the curly braces format: {onEventName}.
 
-### DataProperty
+This property is currently only supported on the Searchbar component. The Searchbar can have two icons and each icon has an `🕹️Event` property that can be set.
 
-When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using Angular Reactive Forms to the input value property. The `🕹️DataProperty` is optional. When provided, it will be the name of the property on the data object specified by the model object name provided in the generation request.
+### Data Property
 
-### Inputs (Except Searchbar)
+When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using [Angular Reactive Forms](https://angular.io/guide/reactive-forms) to the input value property. The `🕹️DataProperty` is optional however when provided, it will be the name of the property on the data object specified by the model object name provided during code generation. As such, it is required that if the `🕹️DataProperty` is used that the developer must specify a model object name otherwise it will be ignored.
+
+### Inputs Date and Time
+
+Currently the theme and color values assigned in Sketch are not part of the generated code because Ignite UI for Angular does not provide theming support for these types of Inputs yet.
+
+### Inputs (Except Searchbar, Date and Time)
 
 #### Layout
 
@@ -143,11 +157,11 @@ Determines the text to be displayed in the Label.
 
 #### Input Text
 
-Determines the text to display in the Input value. If the DataProperty is set this is ignored. In the Line, Box, or Border Inputs if this field contains only `*` characters the type of the input will be set to password.
+Determines the text to display in the Input value. If the `🕹️DataProperty` is set this is ignored. In the Line, Box, or Border Inputs if this field contains only `*` characters the type of the input will be set to password.
 
 #### Help Text
 
-Determines the text to be displayed in the Hint of the Input Group. The Time Picker and Date/Calendar do not support this.
+Determines the text to be displayed in the Hint of the Input Group. Date Picker and Time Picker do not support this.
 
 ### Searchbar
 
@@ -165,8 +179,8 @@ The above Label, Input, Help Text, and Search Hint properties may contain text
 
 Related topics:
 
-- [Form Pattern](forms.md)
-- [User Profile Pattern](userProfile.md)
+- [Form Pattern](../patterns/form.md)
+- [User Profile Pattern](../patterns/user-profile.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

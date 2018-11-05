@@ -50,13 +50,60 @@ Always use Buttons with consistent style and avoid combining text Buttons with i
 | <img src="../images/button-group_do2.png" srcset="../images/button-group_do2@2x.png 2x" /> | <img src="../images/button-group_dont2.png" srcset="../images/button-group_dont2@2x.png 2x" /> |
 | <img src="../images/button-group_do3.png" srcset="../images/button-group_do3@2x.png 2x" /> | <img src="../images/button-group_dont3.png" srcset="../images/button-group_dont3@2x.png 2x" /> |
 
-## Code generation - TODO
+## Code generation
+
+When colors or fonts are specified for the Button Group, the Button Group HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Button Group in your design is very likely to result in loss of code generation capability for the Button Group.
 
-`🕹️DataSource`
-`🕹️Event`
+### Data Bindings
+
+Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example:  Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples: 
+
+#### Not Nested
+
+```typescript
+Customer { 
+  imageName: String; 
+}
+```
+
+DataProperty would be: `{imageName}`
+
+#### Nested
+
+```typescript
+Profile { 
+  imageName: String; 
+} 
+
+Customer { 
+  profile: Profile; 
+} 
+```
+
+DataProperty would be: `{profile.imageName}`
+
+### Event Property
+
+When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an onClick signature in the HTML. When supplied the event must be specified using the curly braces format: {onEventName}.
+
+### Buttons Amount 
+
+This property determines the number of buttons to be displayed in the group.
+
+### Button 
+
+This property will determine what type of button to display. It can be an icon or text button.
+
+### Text 
+
+This property is displayed for text buttons only. It specifies what text is shown within the button. It may contain plain text, binding text, or a combination of the two, examples:
+
+* Settings  
+* {settingsLabel}  
+* Important {labelText} 
 
 ## Additional Resources
 

@@ -1,7 +1,7 @@
 ---
 title: Avatar + Badge - Design System Pattern
 _description: The Avatar + Badge Pattern Symbols combine an Avatar with a Badge in front of it to display notifications and alerts. 
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Avatar + Badge
@@ -22,16 +22,26 @@ The Avatar + Badge Pattern supports the same sizes that the Avatar does:
 
 ### Position
 
-The Badge can be positioned in any of the four corners of the Avatar as shown below through the help of an override.
+The Badge comes positioned in one of the four corners of the Avatar as shown below.
+
+- Bottom Left
+- Bottom Right
+- Top Left
+- Top Right
 
 <img src="../images/avatar_badge_positions.png" srcset="../images/avatar_badge_positions@2x.png 2x" />
+
+> [!WARNING]
+> After inserting an Avatar + Badge Pattern you should trigger `Detach from Symbol`. This will break it down to the Components that are used to create the Pattern in order to be able to generate it as Angular code. The Badge and the Avatar, however, must stay intact and not be detached!
+
+<img src="../images/avatar_badge_detach.png" />
 
 ## Additional Resources
 
 Related topics:
 
-- [Avatar](avatar.md)
-- [Badge](badge.md)
+- [Avatar](../components/avatar.md)
+- [Badge](../components/badge.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

@@ -10,18 +10,14 @@ Elevations are used across Components and Patterns to establish shadows that are
 
 ### Support for elevations
 
-There are 24 Elevations available in three distinct shapes:
-
-- Circle - This works best for circular elements like a Floating Action Button.
-- Rect - This is most suitable for a Dropdown or a Toggle Menu.
-- Rounded Rect - This is for rectangular elements with corner rounding like a Card.
-
-The higher the number of the Elevation, the more prominent the shadow. Shadows come as a combination of three stacked shadow colors, umbra, penumbra, and ambient, whose values match the Material Design definition.
+There are 24 Elevations available and the higher the number of the Elevation, the more prominent the shadow. Shadows come as a combination of three stacked shadow colors, umbra, penumbra, and ambient, whose values match the Material Design definition.
 
 <img src="../images/elevation_people.png" srcset="../images/elevation_people@2x.png 2x" />
 
+With the introduction of Library Styles in Sketch and our support for Shared Elevation Styles, we have applied the appropriate style to the correct layer inside of the Component, which is most often a Mask layer, or a specially designated `Elevation` native Sketch rectangle.
+
 > [!Note]
-> Changing the Elevation in the Component overrides is possible in Sketch and will produce the expected outcome, but the same will not be achievable with Ignite UI for Angular yet.
+> Changing the Elevation in a Component by changing its style is possible in Sketch and will produce the expected outcome, but the same will not be achievable with Ignite UI for Angular yet.
 
 ### Use of standalone elevations
 
@@ -33,9 +29,9 @@ It is also possible to use Elevation on its own to lift one part of the content 
 
 Related topics:
 
-- [Button](button.md)
-- [Card](cards.md)
-- [Forms](forms.md)
+- [Button](../components/button.md)
+- [Card](../components/cards.md)
+- [Forms](../patterns/form.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

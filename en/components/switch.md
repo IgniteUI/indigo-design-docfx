@@ -45,8 +45,8 @@ The Switch comes with styling flexibility, allowing control over the thumb and t
 
 The Switch should appear to the right of the label describing the option, in regard to whose state it controls, in a list of settings. Avoid placing it near the left edge of the screen, and if that is absolutely necessary for a reason, please use a Checkbox instead. Also, use the same or very similar colors for the Switch thumb and track.
 
-| Do                            | Don't                           |
-| ----------------------------- | ------------------------------- |
+| Do                                                                             | Don't                                                                              |
+| ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | <img src="../images/switch_do1.png" srcset="../images/switch_do1@2x.png 2x" /> | <img src="../images/switch_dont1.png" srcset="../images/switch_dont1@2x.png 2x" /> |
 | <img src="../images/switch_do2.png" srcset="../images/switch_do2@2x.png 2x" /> | <img src="../images/switch_dont2.png" srcset="../images/switch_dont2@2x.png 2x" /> |
 | <img src="../images/switch_do3.png" srcset="../images/switch_do3@2x.png 2x" /> | <img src="../images/switch_dont3.png" srcset="../images/switch_dont3@2x.png 2x" /> |
@@ -86,13 +86,11 @@ Customer {
 
 DataProperty would be: `{profile.imageName}`
 
-### Reactive Forms
-
-When a model object name and `🕹️DataProperty` are provided, a TypeScript ngOnInit method with be populated with form builder code to create the Reactive Forms form. The `🕹️DataProperty` will be used to populate the formControlName property on the switch control.
-
 ### Data Property
 
-When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using Angular Reactive Forms to the switch checked property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided in the generation request.
+When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using [Angular Reactive Forms](https://angular.io/guide/reactive-forms) to the switch checked property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided during code generation.
+
+When a model object name and `🕹️DataProperty` are provided, the TypeScript `ngOnInit` method with be populated with form builder code to create the Reactive Forms form. The `🕹️DataProperty` will be used to populate the formControlName property on the switch control.
 
 ### State
 
@@ -120,9 +118,9 @@ If the Track is None the control is not rendered. A property that sets the color
 
 ## Additional Resources
 
-Related topics:
+Related topic:
 
-- [Lists](lists.md)
+- [Lists Pattern](../patterns/lists.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

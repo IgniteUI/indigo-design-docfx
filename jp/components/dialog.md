@@ -31,7 +31,7 @@ Dialog は、さまざまなオーバーライドでタイトルやメッセー�
 
 カスタム コンテンツ Dialog をデザインする場合、コンテンツ セクションに操作のためのボタンは配置せずに既存ダイアログ ボタンを使用します。
 
-| いい例                            | 悪い例                           |
+| 良い例                            | 悪い例                           |
 | ----------------------------- | ------------------------------- |
 | <img src="../images/dialog_do1.png" srcset="../images/dialog_do1@2x.png 2x" /> | <img src="../images/dialog_dont1.png" srcset="../images/dialog_dont1@2x.png 2x" /> |
 
@@ -90,7 +90,7 @@ LEFT ボタンに `🕹️Event` を指定せず、LEFT ボタン テキスト�
 
 ### ボタン イベント
 
-各ボタンに `🕹️Event` プロパティがあります。提供された場合、対応するボタンが描画されるときに onLeftButtonSelect と onRightButtonSelect イベントが出力されます。また、JavaScript の $event 引数は HTML 定義および TypeScript メソッド定義に追加されます。
+各ボタンに `🕹️Event` プロパティがあります。対応するボタンが描画されるときに onLeftButtonSelect と onRightButtonSelect イベントが出力されます。また、JavaScript の $event 引数は HTML 定義および TypeScript メソッド定義に追加されます。
 
 ### イベント
 

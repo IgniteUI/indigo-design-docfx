@@ -40,8 +40,8 @@ Button は、さまざまなオーバーライドで背景色、ラベル、ア�
 
 Button のコンテンツにラベルを含む場合、大文字を太文字 (Medium または Semibold) を使用してください。Button がレイアウトで 1 つ以上必要な場合、同じ高さで揃え、互いに十分なスペースを保ちながら同じ水平面に配置することによりタップやクリックで発生する可能性のあるエラーを防止できます。このようなレイアウトの場合は、ボタン タイプは組み合わせないようにします。UI の特定のセクションにあるすべての操作に同じタイプを使用して統一感を持たせます。
 
-| いい例                            | 悪い例                           |
-| ----------------------------- | ------------------------------- |
+| 良い例                                                                         | 悪い例                                                                             |
+| ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | <img src="../images/button_do1.png" srcset="../images/button_do1@2x.png 2x" /> | <img src="../images/button_dont1.png" srcset="../images/button_dont1@2x.png 2x" /> |
 | <img src="../images/button_do2.png" srcset="../images/button_do2@2x.png 2x" /> | <img src="../images/button_dont2.png" srcset="../images/button_dont2@2x.png 2x" /> |
 | <img src="../images/button_do3.png" srcset="../images/button_do3@2x.png 2x" /> | <img src="../images/button_dont3.png" srcset="../images/button_dont3@2x.png 2x" /> |
@@ -49,10 +49,10 @@ Button のコンテンツにラベルを含む場合、大文字を太文字 (Me
 ## コードの生成
 
 Button の色またはフォントを指定した場合、Button HTML 要素は div でラップされます。これはネスト コンポーネント (他のコンポーネント内のコンポーネント) をスタイル設定する際にブラウザーによって要求されます。
- 
+
 > [!WARNING]
 > デザインの Button のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Button のためのコード生成機能が失われる結果となります。
- 
+
 ### データ バインディング
 
 データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
@@ -64,6 +64,7 @@ Customer {
   imageName: String;
 }
 ```
+
 DataProperty: `{imageName}`
 
 #### ネストあり
@@ -77,6 +78,7 @@ Customer {
   profile: Profile;
 }
 ```
+
 DataProperty: `{profile.imageName}`
 
 ### Event プロパティ
@@ -100,13 +102,13 @@ Text プロパティにテキスト、バインディング、または両方を
 関連トピック:
 
 - [Button Group](button-group.md)
-- [Card](card.md)
+- [Cards](cards.md)
 - [Dialog](dialog.md)
 - [Snackbar](snackbar.md)
 - [Time Picker](time-picker.md)
-- [AV Player Pattern](av-player.md)
-- [File Upload Pattern](file-upload.md)
-- [Form Pattern](forms.md)
+- [AV Player Pattern](../patterns/av.md)
+- [File Upload Pattern](../patterns/file-upload.md)
+- [Form Pattern](../patterns/form.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

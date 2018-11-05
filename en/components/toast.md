@@ -72,7 +72,7 @@ DataProperty would be: `{profile.imageName}`
 
 ### Data Property
 
-When supplied, the `🕹️DataProperty` value is used to set up a data binding to the toast text property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided in the generation request. When supplied, this value overrides the Text property.
+When supplied, the `🕹️DataProperty` value is used to set up a data binding to the toast text property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided during code generation. When supplied, this value overrides the Text property.
 
 ### Text
 
@@ -83,8 +83,6 @@ When supplied, the Text property may contain text, binding, or a combination o
 - Important {labelText}
 
 ## Additional Resources
-
-Related topics:
 
 Our community is active and always welcoming to new ideas.
 

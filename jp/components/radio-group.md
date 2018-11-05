@@ -36,7 +36,7 @@ Radio Group は、さまざまなオーバーライドで各項目のラベル �
 
 Radio Group を追加項目で拡張する場合は、単一列で左寄せに統一してください。複数列のレイアウトや Radio を一度に 1 つ以上オンにしないようにします。
 
-| いい例                                | 悪い例                               |
+| 良い例                                | 悪い例                               |
 | --------------------------------- | ----------------------------------- |
 | <img src="../images/radiogroup_do1.png" srcset="../images/radiogroup_do1@2x.png 2x" /> | <img src="../images/radiogroup_dont1.png" srcset="../images/radiogroup_dont1@2x.png 2x" /> |
 | <img src="../images/radiogroup_do2.png" srcset="../images/radiogroup_do2@2x.png 2x" /> | <img src="../images/radiogroup_dont2.png" srcset="../images/radiogroup_dont2@2x.png 2x" /> |
@@ -46,7 +46,7 @@ Radio Group を追加項目で拡張する場合は、単一列で左寄せに�
 Radio Group の色やフォントを指定した場合、Radio Group HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
 
 > [!WARNING]
-> Radio Group のインスタンスで`シンボルからデタッチ`をトリガーした場合、Radio Group のコード生成の精度を低下します。提供された項目以上に項目を作成する場合のみ行います。`🚫radio-group`、`🕹️DataProperty`、`🕹️DataSource` レイヤー インタクトを保持してください。
+> Radio Group のインスタンスで`シンボルからデタッチ`をトリガーした場合、Radio Group のコード生成の精度を低下します。Sketch 描画および Angular の生成されたレイアウトを比較すると、垂直マージンの違いが Radio Button コンポーネントに表示されます。提供された項目より多く項目を作成する必要がある場合のみ `Detach from Symbol` を使用します。それ以外の場合、none に設定してラジオ ボタンを非表示にし、`🚫radio-group`、`🕹️DataProperty`、および `🕹️DataSource` レイヤーをデタッチしないでください。コードが生成された後、デザインと一致するためにマージンを CSS で調整します。
  
 ### データ バインディング
 
@@ -74,15 +74,13 @@ Customer {
 ```
 DataProperty: `{profile.imageName}`
 
-### リアクティブ フォーム
+### データ プロパティ
 
-モデル オブジェクト名および `🕹️DataProperty` が提供される場合、Reactive Forms フォームを作成するためにフォーム ビルダー コードで TypeScript ngOnInit メソッドが生成されます。`🕹️DataProperty` はラジオ ボタン コントロールの formControlName プロパティを設定します。
+`🕹️DataProperty` 値は [Angular Reactive Forms](https://angular.io/guide/reactive-forms) を使用してラジオ ボタンの checked プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` は、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトのプロパティ名です。
 
-### DataProperty
+モデル オブジェクト名および `🕹️DataProperty` が提供される場合、Reactive Forms フォームを作成するためにフォーム ビルダー コードで TypeScript `ngOnInit` メソッドが生成されます。`🕹️DataProperty` はラジオ ボタン コントロールの formControlName プロパティを設定します。
 
-`🕹️DataProperty` 値は Angular Reactive Forms を使用してラジオ ボタンの checked プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` は、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトのプロパティ名です。
-
-### DataSource
+### データ ソース プロパティ
 
 提供される場合、`🕹️DataSource` 値が Radio Group のデータ ソース オブジェクトへのバインディングを設定するために使用されます。デフォルトで Radio Group ボタンの値およびラベルに割り当てる value および name プロパティがあるデータ ソースにバインドするために構成されます。`🕹️DataSource` プロパティはオプションです。
 
@@ -97,8 +95,6 @@ DataProperty: `{profile.imageName}`
 `🕹️DataSource` を設定した場合、Text プロパティは無視されます。Text が提供される場合、Radio Button の値およびラベルで使用されます。
 
 ## その他のリソース
-
-関連トピック:
 
 コミュニティに参加して新しいアイデアをご提案ください。
 

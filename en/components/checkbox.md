@@ -36,8 +36,8 @@ The Checkbox comes with styling flexibility through the various overrides contro
 
 When many Checkboxes are necessary, you'll want to arrange them in a column group which makes it really easy to scan quickly through the list. Fewer Checkboxes may also be arranged on a single line next to each other but you should avoid arrangements in multiple columns.
 
-| Do                              | Don't                             |
-| ------------------------------- | --------------------------------- |
+| Do                                                                                 | Don't                                                                                  |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | <img src="../images/checkbox_do1.png" srcset="../images/checkbox_do1@2x.png 2x" /> | <img src="../images/checkbox_dont1.png" srcset="../images/checkbox_dont1@2x.png 2x" /> |
 
 ## Code Generation
@@ -75,13 +75,11 @@ Customer {
 
 DataProperty would be: `{profile.imageName}`
 
-### Reactive Forms
+### Data Property
 
-When a model object name and `🕹️DataProperty` are provided, a TypeScript ngOnInit method with be populated with form builder code to create the Reactive Forms form. The `🕹️DataProperty` will be used to populate the formControlName property on the checkbox control.
+When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using [Angular Reactive Forms](https://angular.io/guide/reactive-forms) to the checkbox's checked property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided during code generation.
 
-### DataProperty
-
-When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using Angular Reactive Forms to the checkbox checked property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided in the generation request.
+When both a model object name and `🕹️DataProperty` are provided, the TypeScript `ngOnInit` method with be populated with form builder code to create the Reactive Forms form. The `🕹️DataProperty` will be used to populate the formControlName property on the checkbox control.
 
 ### Theme
 
@@ -101,9 +99,9 @@ The Text property may contain text, binding, or a combination of the two, exam
 
 ## Additional Resources
 
-Related topics:
+Related topic:
 
-- [Form Pattern](forms.md)
+- [Form Pattern](../patterns/form.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

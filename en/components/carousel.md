@@ -62,7 +62,7 @@ SlideDeck {
 
 DataSource would be: `{profile.slideDeck}`
 
-### Data Source
+### Data Source Property
 
 When supplied, the `🕹️DataSource` value is used to set up binding to the Carousel. The data source must be a string array of image names to display. The `🕹️DataSource` property is optional. When the `🕹️DataSource` is supplied, Slide styles are gathered from the first Slide in the group. Other Slide styles are ignored.
 
@@ -72,7 +72,9 @@ Button and Slide elevation changes in Sketch drawings are not rendered during co
 
 ## Additional Resources
 
-Related topics:
+Related topic:
+
+- [Grid](grid.md)
 
 Our community is active and always welcoming to new ideas.
 

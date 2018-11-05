@@ -16,15 +16,15 @@ Use the Custom Card Component to display the same type of information that you w
 
 In order to customize Card layouts start by dragging a `Cards/Custom` to your Artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared _Cards/Custom_ group, you should see the following:
 
-| Layer | Use |
-| ----------------------------- | ---------------------------------------- |
-| 🚫 igx-card/custom | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| Custom Card | Groups together the Card layout elements |
-| &nbsp;&nbsp; Card Area | Groups together the Card layout elements |
-| &nbsp;&nbsp; 🌈 Background | Defines the background color of the card |
-| &nbsp;&nbsp; Mask | Gives the card its corner rounding by adjusting the `Radius` layer property|
-| &nbsp;&nbsp; Elevation | Drops a slight shadow on the card collection background |
-| 🕹️DataProperty | Used by code generation for data binding |
+| Layer                      | Use                                                                                                                                                  |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🚫 igx-card/custom         | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
+| Custom Card                | Groups together the Card layout elements                                                                                                             |
+| &nbsp;&nbsp; Card Area     | Groups together the Card layout elements                                                                                                             |
+| &nbsp;&nbsp; 🌈 Background | Defines the background color of the card                                                                                                             |
+| &nbsp;&nbsp; Mask          | Gives the card its corner rounding by adjusting the `Radius` layer property                                                                          |
+| &nbsp;&nbsp; Elevation     | Drops a slight shadow on the card collection background                                                                                              |
+| 🕹️DataProperty             | Used by code generation for data binding                                                                                                             |
 
 #### Styling
 
@@ -32,10 +32,10 @@ The Custom Card has high-level styling flexibility that matches the normal Card 
 
 <img src="../images/card_custom_styling.png" srcset="../images/card_custom_styling@2x.png 2x" />
 
-| Layer | Use |
-| ----------------------------- | ---------------------------------------- |
-| Card Area | Groups together the Card layout elements |
-| &nbsp;&nbsp; Header | Groups together the Card layout elements |
+| Layer                | Use                                      |
+| -------------------- | ---------------------------------------- |
+| Card Area            | Groups together the Card layout elements |
+| &nbsp;&nbsp; Header  | Groups together the Card layout elements |
 | &nbsp;&nbsp; Content | Groups together the Card layout elements |
 | &nbsp;&nbsp; Actions | Groups together the Card layout elements |
 
@@ -46,18 +46,23 @@ Let's see how we can create the intricate layout for the weather forecast Card f
 <img src="../images/card_custom_layout0.png" srcset="../images/card_custom_layout0@2x.png 2x" />
 
 1.  We will reuse the Header Style and just update the strings for the Title and Subtitle Text. For now, let's ignore the Content group and move to the Actions Style, where we need to change it to Button Actions rather than the Icon Actions are default. Lastly, we will update the Left Button text and hide the Right Button by setting it to none.
+
     <img src="../images/card_custom_layout1.png" srcset="../images/card_custom_layout1@2x.png 2x" />
 
 2.  Now, it is time to get back to the Content and create the layout for the weather forecast. We will start by inserting a Cards/Blocks/Header/Large Title (we can use any type of block in any Card area group), updating the title to a Size of H1, and resizing the symbol to correctly display both the title and subtitle. After updating the string values, you may delete the default paragraph, Content Style, and you should see an outcome similar to the example. As a note, deleting the default Content Style now will preserve the Content group since it now holds another element as well.
+
     <img src="../images/card_custom_layout2.png" srcset="../images/card_custom_layout2@2x.png 2x" />
 
 3.  The next item to add in the Content Group is a sun illustration. You can create your own by grouping an Oval shape with a few line shapes and fixing the group width and height in the properties panel to avoid distortions. Place the sun illustration to the right of the degrees title, and your layout should look like this.
+
     <img src="../images/card_custom_layout3.png" srcset="../images/card_custom_layout3@2x.png 2x" />
 
 4.  Now, we have to add a One-thumb Slider Component and a Cards/Blocks/Content/Paragraph Text for the array of labels underneath. In order to achieve our target design, we have to select the Slider and set its Label Text Style and Label Background overrides to none, which will hide the label balloon. After inserting some label values in the Paragraph Text, you should be able to achieve something similar to this.
+
     <img src="../images/card_custom_layout4.png" srcset="../images/card_custom_layout4@2x.png 2x" />
 
 5.  It's time to design the detailed forecast area, and the easiest way to do that is by inserting the Cards/Blocks/Content/Paragraph Text twice: once for the weekdays and once for the degrees. In-between these two text columns, we will insert a Small Icon and duplicate it four more times to create a vertically aligned set, forming one more column. After choosing visualizations for them resonating with the forecast values, our target layout is complete.
+
     <img src="../images/card_custom_layout5.png" srcset="../images/card_custom_layout5@2x.png 2x" />
 
 #### Additional Styling
@@ -74,7 +79,7 @@ Related topics:
 - [Button](button.md)
 - [Icon](icon.md)
 - [Slider](slider.md)
-- [Card Collection Pattern](card-collection.md)
+- [Card Collection Pattern](../patterns/card-collection.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

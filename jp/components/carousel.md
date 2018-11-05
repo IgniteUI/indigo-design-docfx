@@ -23,7 +23,7 @@ Carousel は、さまざまなオーバーライドでナビゲーションボ�
 
 Carousel の戻るおよび次へ移動するためのボタンは、常に画像スライドの一番上に表示されます。インジケーターのスタイルは統一し、アクティブな項目のみ強調します。
 
-| いい例                              | 悪い例                             |
+| 良い例                              | 悪い例                             |
 | ------------------------------- | --------------------------------- |
 | <img src="../images/carousel_do1.png" srcset="../images/carousel_do1@2x.png 2x" /> | <img src="../images/carousel_dont1.png" srcset="../images/carousel_dont1@2x.png 2x" /> |
 | <img src="../images/carousel_do2.png" srcset="../images/carousel_do2@2x.png 2x" /> | <img src="../images/carousel_dont2.png" srcset="../images/carousel_dont2@2x.png 2x" /> |
@@ -63,7 +63,7 @@ SlideDeck {
 
 DataSource: `{profile.slideDeck}`
 
-### データ ソース
+### データ ソース プロパティ
 
 `🕹️DataSource` 値は Carousel へのバインディングを設定するために使用されます。データ ソースは表示する画像名の文字列配列が必要です。`🕹️DataSource` プロパティはオプションです。`🕹️DataSource` が指定される場合、Slide スタイルはグループの最初の Slide から取得されます。その他の Slide スタイルが無視されます。
 

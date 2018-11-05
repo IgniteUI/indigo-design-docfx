@@ -109,7 +109,7 @@ Customer {
 
 DataProperty would be: `{profile.imageName}`
 
-### DataSource
+### Data Source Property
 
 When supplied, the `🕹️DataSource` value is used to set up the data source for the grid and needs to be an array of objects, where each column name is a property on the object. If the data source is not supplied the grid will only render the column headers.
 
@@ -141,7 +141,7 @@ When supplied this is used to determine the type of the column (string, number, 
 
 When supplied, the Bodies (cells) help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell). If no matching Header can be found a column will be created based on the information that can be gathered from the Body/Cell. When a pair is found information will be gathered from the Header first then the Body/Cell.
 
-#### DataProperty
+#### Data Property
 
 When supplied, the `🕹️DataProperty` is used to setup the field of the column, which should correspond to a field in the `🕹️DataSource`.
 
@@ -157,6 +157,7 @@ Related topics:
 - [Grid Paging](grid-paging.md)
 - [Grid Column Pinning](grid-column-pinning.md)
 - [Grid Summaries](grid-summaries.md)
+- [Full Grid Pattern](../patterns/full-grid.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

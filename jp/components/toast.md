@@ -31,7 +31,7 @@ Toast は、スタイル設定に制限があり背景とメッセージ テキ�
 
 Toast は、常に水平に配置する必要があり、その他の配置はしないようにします。Toast のスタイルは、特徴のある背景色や白や濃い灰色のメッセージ テキストは使用しないようにします。
 
-| いい例                          | 悪い例                          |
+| 良い例                          | 悪い例                          |
 | ---------------------------- | ------------------------------ |
 | <img src="../images/toast_do1.png" srcset="../images/toast_do1@2x.png 2x" /> | <img src="../images/toast_dont1.png" srcset="../images/toast_dont1@2x.png 2x" /> |
 | <img src="../images/toast_do2.png" srcset="../images/toast_do2@2x.png 2x" /> | <img src="../images/toast_dont2.png" srcset="../images/toast_dont2@2x.png 2x" /> |
@@ -71,11 +71,11 @@ DataProperty: `{profile.imageName}`
 
 ### データ プロパティ
 
-`🕹️DataProperty` 値は Toast のテキスト プロパティへのデータ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` は、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトのプロパティ名です。提供された場合、この値は Text プロパティをオーバーライドします。
+`🕹️DataProperty` 値は Toast のテキスト プロパティへのデータ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` はコード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名です。この値は Text プロパティをオーバーライドします。
 
 ### テキスト
 
-提供された場合、Text プロパティにテキスト、バインディング、または両方を含むことができます。例:
+Text プロパティにテキスト、バインディング、または両方を含むことができます。例:
 
 - 設定
 - {settingsLabel}

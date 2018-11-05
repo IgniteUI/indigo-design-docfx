@@ -23,7 +23,7 @@ Snackbar は、スタイル設定に制限があり操作ボタンのテキス�
 
 Snackbar は、その他のコンテンツの一番上に表示されるため、アプリケーションのメイン ナビゲーション上には配置しないでください。メッセージとコントラストがある操作ボタンを強調するためのスタイルを選択し、最新のボタンのみ表示して列に複数の Snackbars を積み重ねないようにします。
 
-| いい例                              | 悪い例                             |
+| 良い例                              | 悪い例                             |
 | ------------------------------- | --------------------------------- |
 | <img src="../images/snackbar_do1.png" srcset="../images/snackbar_do1@2x.png 2x" /> | <img src="../images/snackbar_dont1.png" srcset="../images/snackbar_dont1@2x.png 2x" /> |
 | <img src="../images/snackbar_do2.png" srcset="../images/snackbar_do2@2x.png 2x" /> | <img src="../images/snackbar_dont2.png" srcset="../images/snackbar_dont2@2x.png 2x" /> |
@@ -62,7 +62,7 @@ Customer {
 ```
 DataProperty: `{profile.imageName}`
 
-### Event
+### Event プロパティ
 
 `🕹️Event` プロパティは、コンポーネント TypeScript のメソッドを作成するために使用し、Snackbar の HTML に onAction シグネチャーを追加します。イベントが波括弧構文 ({onEventName}) を使用して指定する必要があります。
 

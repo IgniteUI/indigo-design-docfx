@@ -17,9 +17,9 @@ Card コンポーネントシンボルは、画像とテキストで単一オブ
 
 Card には 3 つの領域 (`header` - タイトルとサブタイトルの組み合わせ、`content` - Card の画像と段落、`actions` - Card に関連するクイック操作のあるツールバー) があります。
 
-|         |                                       |
-| ------- | ------------------------------------- |
-| `header`  | <img src="../images/card_headerL.png" srcset="../images/card_headerL@2x.png 2x" />       |
+|           |                                                                                                |
+| --------- | ---------------------------------------------------------------------------------------------- |
+| `header`  | <img src="../images/card_headerL.png" srcset="../images/card_headerL@2x.png 2x" />             |
 | `content` | <img src="../images/card_content_image.png" srcset="../images/card_content_image@2x.png 2x" /> |
 | `actions` | <img src="../images/card_actions_icons.png" srcset="../images/card_actions_icons@2x.png 2x" /> |
 
@@ -52,18 +52,18 @@ Card 操作は 3 種類のレイアウトをサポートします。Flat ボタ�
 
 Card で以下のレイアウトのうちの 1 つを利用できます。
 
-|                   |                                       |
-| ----------------- | ------------------------------------- |
-| Point of Interest | <img src="../images/card_poi.png" srcset="../images/card_poi@2x.png 2x" />           |
-| Audio Video Card  | <img src="../images/card_av.png" srcset="../images/card_av@2x.png 2x" />            |
-| Normal Pin        | <img src="../images/card_normal-pin.png" srcset="../images/card_normal-pin@2x.png 2x" />    |
+|                   |                                                                                                |
+| ----------------- | ---------------------------------------------------------------------------------------------- |
+| Point of Interest | <img src="../images/card_poi.png" srcset="../images/card_poi@2x.png 2x" />                     |
+| Audio Video Card  | <img src="../images/card_av.png" srcset="../images/card_av@2x.png 2x" />                       |
+| Normal Pin        | <img src="../images/card_normal-pin.png" srcset="../images/card_normal-pin@2x.png 2x" />       |
 | Condensed Pin     | <img src="../images/card_condensed-pin.png" srcset="../images/card_condensed-pin@2x.png 2x" /> |
-| Shortcuts         | <img src="../images/card_shortcuts.png" srcset="../images/card_shortcuts@2x.png 2x" />     |
-| Simple Card       | <img src="../images/card_simple.png" srcset="../images/card_simple@2x.png 2x" />        |
-| Small Card        | <img src="../images/card_small.png" srcset="../images/card_small@2x.png 2x" />         |
-| Square Card       | <img src="../images/card_square.png" srcset="../images/card_square@2x.png 2x" />        |
-| Text Card         | <img src="../images/card_text.png" srcset="../images/card_text@2x.png 2x" />          |
-| Timeline Card     | <img src="../images/card_timeline.png" srcset="../images/card_timeline@2x.png 2x" />      |
+| Shortcuts         | <img src="../images/card_shortcuts.png" srcset="../images/card_shortcuts@2x.png 2x" />         |
+| Simple Card       | <img src="../images/card_simple.png" srcset="../images/card_simple@2x.png 2x" />               |
+| Small Card        | <img src="../images/card_small.png" srcset="../images/card_small@2x.png 2x" />                 |
+| Square Card       | <img src="../images/card_square.png" srcset="../images/card_square@2x.png 2x" />               |
+| Text Card         | <img src="../images/card_text.png" srcset="../images/card_text@2x.png 2x" />                   |
+| Timeline Card     | <img src="../images/card_timeline.png" srcset="../images/card_timeline@2x.png 2x" />           |
 
 デザインに合わない場合は、[カスタム カード](cards-custom.md)を作成できます。
 
@@ -77,8 +77,8 @@ Card は、さまざまなオーバーライドでヘッダー、コンテンツ
 
 Card はより詳細な情報についての概要やエントリ ポイントとなるため、情報をあまり入れすぎないようにします。カード ダッシュボードの作成時にカードを常にサイズ変更しながら配置し、カード間の水平と垂直のギャップを均等にしてレイアウト グリッドを形成します。
 
-| いい例                          | 悪い例                         |
-| --------------------------- | ----------------------------- |
+| 良い例                                                                     | 悪い例                                                                         |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | <img src="../images/card_do1.png" srcset="../images/card_do1@2x.png 2x" /> | <img src="../images/card_dont1.png" srcset="../images/card_dont1@2x.png 2x" /> |
 | <img src="../images/card_do2.png" srcset="../images/card_do2@2x.png 2x" /> | <img src="../images/card_dont2.png" srcset="../images/card_dont2@2x.png 2x" /> |
 
@@ -89,7 +89,7 @@ Card はより詳細な情報についての概要やエントリ ポイント�
 - [Avatar](avatar.md)
 - [Button](button.md)
 - [Icon](icon.md)
-- [Card Collection Pattern](card-collection.md)
+- [Card Collection Pattern](../patterns/card-collection.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

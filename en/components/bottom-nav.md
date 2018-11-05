@@ -1,6 +1,6 @@
 ---
 title: Bottom Navigation - Design System Component
-_description: The Bottom Navigation Component Symbol is used to design simple application-level navigation. 
+_description: The Bottom Navigation Component Symbol is used to design simple application-level navigation.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
@@ -38,18 +38,55 @@ The Bottom Navigation comes with styling flexibility through the various overrid
 
 The Bottom Navigation always appears on top of other content, and the shadow it casts is a crucial visual element. Make sure that you always place its layer over those representing the screen content and under no circumstances should you remove the shadow it casts.
 
-| Do                                | Don't                               |
-| --------------------------------- | ----------------------------------- |
+| Do                                                                                     | Don't                                                                                      |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | <img src="../images/bottom-nav_do1.png" srcset="../images/bottom-nav_do1@2x.png 2x" /> | <img src="../images/bottom-nav_dont1.png" srcset="../images/bottom-nav_dont1@2x.png 2x" /> |
 | <img src="../images/bottom-nav_do2.png" srcset="../images/bottom-nav_do2@2x.png 2x" /> | <img src="../images/bottom-nav_dont2.png" srcset="../images/bottom-nav_dont2@2x.png 2x" /> |
 
-## Code generation - TODO
+## Code generation
+
+Due to the limitations of Sketch there is no way to associate content with specific tabs in the Bottom Navigation component. Therefore, it is not a good idea to generate an entire Artboard that has a Bottom Navigation component in it. Instead you should generate the Bottom Navigation component by itself and then generate the desired tab content separately into different Angular components. Once your tab content is in separate Angular components you can come back to the Bottom Navigation component and manually reference the generated tab content within each tab.
+
+<img src="../images/bottom-nav_limitation.png" />
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Bottom Navigation in your design is very likely to result in loss of code generation capability for the Bottom Navigation.
 
-`🕹️DataSource`
-`🕹️Event`
+```html
+<igx-bottom-nav>
+    <igx-tab-panel>
+        <!-- Manually add this component reference -->
+        <app-tab1></app-tab1>
+    </igx-tab-panel>
+    <igx-tab-panel>
+        <!-- Manually add this component reference -->
+        <app-tab2></app-tab2>
+    </igx-tab-panel>
+</igx-bottom-nav>
+```
+
+> [!Note]
+> Tab content is not rendered with “height: 100%” so it will not fill the entire page. It will only use the space required by the content.
+
+### Event
+
+When supplied the `🕹️Event` override is used to create a method in the component TypeScript and add an `onClick` signature in the HTML. When supplied the `🕹️Event` must be specified using the curly braces format: `{onEventName}`.
+
+### Items Amount
+
+This override determines the number of tabs/items to be displayed.
+
+### Tab
+
+This override will determined the type of tab that will be generated. It can be an icon or an icon with text.
+
+### Text
+
+This override is only shown for Icon + Text tabs. It specifies what text is shown within the tab. It may contain plain text, binding text, or a combination of the two.
+
+- Settings
+- {settingsLabel}
+- Important {labelText}
 
 ## Additional Resources
 

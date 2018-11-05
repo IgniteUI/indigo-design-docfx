@@ -39,8 +39,8 @@ The Buttons come with styling flexibility through the various overrides controll
 
 When the content of a Button contains a label, it must be uppercase and with a thicker (usually Medium or Semi-bold) font treatment. When more than one Button is needed for a layout, size them with equal height and arrange them on the same horizontal plane next to each other with sufficient space on both sides to avoid erroneous taps and clicks. In such layouts, avoid combining the different types of buttons. Preferably, you'll want to choose one and use it consistently for all actions that belong in that section of the UI.
 
-| Do                            | Don't                           |
-| ----------------------------- | ------------------------------- |
+| Do                                                                             | Don't                                                                              |
+| ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | <img src="../images/button_do1.png" srcset="../images/button_do1@2x.png 2x" /> | <img src="../images/button_dont1.png" srcset="../images/button_dont1@2x.png 2x" /> |
 | <img src="../images/button_do2.png" srcset="../images/button_do2@2x.png 2x" /> | <img src="../images/button_dont2.png" srcset="../images/button_dont2@2x.png 2x" /> |
 | <img src="../images/button_do3.png" srcset="../images/button_do3@2x.png 2x" /> | <img src="../images/button_dont3.png" srcset="../images/button_dont3@2x.png 2x" /> |
@@ -104,13 +104,13 @@ The Text property may contain text, binding, or a combination of the two, exam
 Related topics:
 
 - [Button Group](button-group.md)
-- [Card](card.md)
+- [Cards](cards.md)
 - [Dialog](dialog.md)
 - [Snackbar](snackbar.md)
 - [Time Picker](time-picker.md)
-- [AV Player Pattern](av-player.md)
-- [File Upload Pattern](file-upload.md)
-- [Form Pattern](forms.md)
+- [AV Player Pattern](../patterns/av.md)
+- [File Upload Pattern](../patterns/file-upload.md)
+- [Form Pattern](../patterns/form.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

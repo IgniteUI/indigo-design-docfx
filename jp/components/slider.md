@@ -44,7 +44,7 @@ Slider は、さまざまなオーバーライドでラベル背景、つまみ�
 
 Slider のトラック カラーは常にトラック ベース カラーより強調されます。単一値と範囲 Slider のスタイルを統一する必要があります (ラベル背景をつまみやトラックカラーとマッチするなど)。
 
-| いい例                            | 悪い例                           |
+| 良い例                            | 悪い例                           |
 | ----------------------------- | ------------------------------- |
 | <img src="../images/slider_do1.png" srcset="../images/slider_do1@2x.png 2x" /> | <img src="../images/slider_dont1.png" srcset="../images/slider_dont1@2x.png 2x" /> |
 | <img src="../images/slider_do2.png" srcset="../images/slider_do2@2x.png 2x" /> | <img src="../images/slider_dont2.png" srcset="../images/slider_dont2@2x.png 2x" /> |
@@ -82,13 +82,16 @@ Customer {
 ```
 DataProperty: `{profile.imageName}`
 
-### リアクティブ フォーム
+### データ プロパティ
 
-モデル オブジェクト名および `🕹️DataProperty` が提供される場合、Reactive Forms フォームを作成するためにフォーム ビルダー コードで TypeScript ngOnInit メソッドが生成されます。`🕹️DataProperty` はスライダー コントロールの formControlName プロパティを設定します。
+`🕹️DataProperty` 値は [Angular Reactive Forms](https://angular.io/guide/reactive-forms) を使用してスライダーの value プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` はコード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名です。
 
-### DataProperty
+単一つまみスライダーの場合、`🕹️DataProperty` を数値に設定する必要があります。
 
-`🕹️DataProperty` 値は Angular Reactive Forms を使用してスライダーの value プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` は、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトのプロパティ名です。単一つまみスライダーの場合、`🕹️DataProperty` を数値に設定する必要があります。2 つまみスライダーの場合、`🕹️DataProperty` を lower および upper プロパティを持つオブジェクトまたはクラスに設定する必要があります。
+2 つまみスライダーの場合、`🕹️DataProperty` を lower および upper プロパティを持つオブジェクトまたはクラスに設定する必要があります。
+
+モデル オブジェクト名および `🕹️DataProperty` が提供される場合、Reactive Forms フォームを作成するためにフォーム ビルダー コードで TypeScript `ngOnInit` メソッドが生成されます。
+`🕹️DataProperty` はスライダー コントロールの formControlName プロパティを設定します。
 
 ### 状態
 

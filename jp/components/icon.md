@@ -34,7 +34,7 @@ Icon は、さまざまなオーバーライドで選択可能なグラフィッ
 
 Icon の色は、背景とのコントラストが高い色を選択し、同色の似たような色合いや色収差を生じる組み合わせは避けるようにします。
 
-| いい例                      | 悪い例                        |
+| 良い例                      | 悪い例                        |
 | --------------------------- | ----------------------------- |
 | <img src="../images/icon_do1.png" srcset="../images/icon_do1@2x.png 2x" /> | <img src="../images/icon_dont1.png" srcset="../images/icon_dont1@2x.png 2x" /> |
 
@@ -57,7 +57,7 @@ Icon の色を指定した場合、Icon HTML 要素は div でラップされま
 関連トピック:
 
 - [Bottom Navigation](bottom-nav.md)
-- [Card](card.md)
+- [Card](cards.md)
 - [Navbar](navbar.md)
 - [Navigation Drawer](nav-drawer.md)
 - [Tabs](tabs.md)

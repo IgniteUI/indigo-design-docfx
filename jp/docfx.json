@@ -17,6 +17,7 @@
                     "codegen/**.md",
                     "components/**.md",
                     "patterns/**.md",
+                    "prototyping/**.md",
                     "style/**.md",
                     "sidebar-toc/toc.yml",
                     "toc.yml",
@@ -44,6 +45,7 @@
         "postProcessors": ["SetEnvironmentVariables"],
         "noLangKeyword": false,
         "keepFileLink": false,
-        "cleanupCacheHistory": false
+        "cleanupCacheHistory": false,
+        "disableGitFeatures": true
     }
 }

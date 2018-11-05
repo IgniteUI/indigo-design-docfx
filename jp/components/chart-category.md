@@ -40,7 +40,7 @@ Category Chart は以下のようなさまざまなオーバーライドで Char
 
 同じチャートの異なるタイプを組み合わせる場合、複数の Category Charts を互いに積み重ねないようにします。データ可視化の簡素化したステンシルのように Category Chart コンポーネント シンボルを使用します。
 
-| いい例                                                                                         | 悪い例                                                                                             |
+| 良い例                                                                                         | 悪い例                                                                                             |
 | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | <img src="../images/chart_category_do1.png" srcset="../images/chart_category_do1@2x.png 2x" /> | <img src="../images/chart_category_dont1.png" srcset="../images/chart_category_dont1@2x.png 2x" /> |
 
@@ -79,9 +79,9 @@ Customer {
 
 DataProperty: `{profile.imageName}`
 
-### データ ソース
+### データ ソース プロパティ
 
-`🕹️DataSource` プロパティ値はチャートの dataSource プロパティへのバインディングを設定するために使用されます。`🕹️DataSource` およびデータ ソースで有効なデータがない場合、Category Chart をランタイムに描画できません。
+`🕹️DataSource` 値はチャートの dataSource プロパティへのバインディングを設定するために使用されます。`🕹️DataSource` およびデータ ソースで有効なデータがない場合、Category Chart をランタイムに描画できません。
 
 ### チャート ディメンション
 

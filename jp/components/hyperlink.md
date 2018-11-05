@@ -29,8 +29,8 @@ Hyperlink は、デフォルトの青色と他の色に変更してスタイル 
 
 Hyperlink テキスト色には段落で目立つ色を選択します。同じ色や似たような色を使用しないようにして、全体的にデザインの色を統一します。
 
-| いい例                               | 悪い例                              |
-| -------------------------------- | ---------------------------------- |
+| 良い例                                                                               | 悪い例                                                                                   |
+| ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
 | <img src="../images/hyperlink_do1.png" srcset="../images/hyperlink_do1@2x.png 2x" /> | <img src="../images/hyperlink_dont1.png" srcset="../images/hyperlink_dont1@2x.png 2x" /> |
 
 ## コードの生成
@@ -51,6 +51,7 @@ Customer {
   imageName: String;
 }
 ```
+
 DataProperty: `{imageName}`
 
 #### ネストあり
@@ -64,6 +65,7 @@ Customer {
   profile: Profile;
 }
 ```
+
 DataProperty: `{profile.imageName}`
 
 ### Event プロパティ
@@ -91,7 +93,7 @@ Text プロパティは Hyperlink に表示するテキストを埋めるため�
 
 関連トピック:
 
-- [Form Pattern](forms.md)
+- [Form Pattern](../patterns/form.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

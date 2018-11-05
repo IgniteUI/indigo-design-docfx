@@ -45,7 +45,7 @@ When one or more Summary objects is added to the Sketch diagram, those summaries
 
 ## Additional Resources
 
-Related topics:
+Related topic:
 
 - [Grid](grid.md)
   <div class="divider--half"></div>

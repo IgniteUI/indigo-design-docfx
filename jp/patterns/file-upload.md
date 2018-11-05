@@ -15,22 +15,27 @@ File Upload パターンは、レイアウトに含まれる Avatar および Ic
 
 ### タイプ
 
-File Upload パターンはアップロードしたファイルのプレビューのために 2 種類 (Avatar および規格の画像として表示される Document) あります。 
+File Upload パターンはアップロードしたファイルのプレビューのために 2 種類 (Avatar および規格の画像として表示される Document) あります。
 
 <img src="../images/file-upload_type.png" srcset="../images/file-upload_type@2x.png 2x" />
 
 ### コンテンツ
 
-File Upload パターンは、アップロードまたは Document として挿入されるよく使用されるコンテンツ タイプ (CSV、PDF、Presentation、Spreadsheet Text) をサポートします。 また、様々なアプリケーション シナリオのカスタマイズ化を提供するために Upload および Attach タイプの利用が可能です。
+Document 型の File Upload パターンは、アップロードまたは Document として挿入によく使用されるコンテンツ タイプ (CSV、PDF、Presentation、Spreadsheet Text) をサポートします。また、様々なアプリケーション シナリオでカスタマイズを有効にするために Upload および Attach プリセットの利用が可能です。
 
 <img src="../images/file-upload_content.png" srcset="../images/file-upload_content@2x.png 2x" />
+
+> [!WARNING]
+> File Upload パターンを挿入した後、Angular コードとして生成するには、`Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。
+
+<img src="../images/file_upload_detach.png" />
 
 ## その他のリソース
 
 関連トピック:
 
-- [Avatar](avatar.md)
-- [Button](button.md)
+- [Avatar](../components/avatar.md)
+- [Button](../components/button.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

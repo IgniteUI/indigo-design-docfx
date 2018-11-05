@@ -19,12 +19,17 @@ Image Manipulation パターンは 1 ～ 2 Flat Button、FAB Button、または 
 
 <img src="../images/image-manip_layout.png" srcset="../images/image-manip_layout@2x.png 2x" />
 
+> [!WARNING]
+> Image Manipulation パターンを挿入した後、Angular コードとして生成するには、`Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。
+
+<img src="../images/image_manipulation_detach.png" />
+
 ## その他のリソース
 
 関連トピック:
 
-- [Avatar](avatar.md)
-- [Button](button.md)
+- [Avatar](../components/avatar.md)
+- [Button](../components/button.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

@@ -19,14 +19,19 @@ Details Pattern はレイアウトに含まれる以下の利用可能な要素�
 
 <img src="../images/details_content.png" srcset="../images/details_content@2x.png 2x" />
 
+> [!WARNING]
+> Details パターンを挿入した後、Angular コードとして生成するには、パターン レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。
+
+<img src="../images/details_detach.png" />
+
 ## その他のリソース
 
 関連トピック:
 
-- [Badge](badge.md)
-- [Button](button.md)
-- [Tabs](tabs.md)
-- [Text](text.md)
+- [Badge](../components/badge.md)
+- [Button](../components/button.md)
+- [Tabs](../components/tabs.md)
+- [Text](../components/text.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

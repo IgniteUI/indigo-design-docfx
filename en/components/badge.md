@@ -34,8 +34,8 @@ The Badge comes with styling flexibility through the various overrides controlli
 
 Use the Badge to "stamp" another piece of UI, such as an Avatar or a text title and avoid using the Badge on its own.
 
-| Do                           | Don't                          |
-| ---------------------------- | ------------------------------ |
+| Do                                                                           | Don't                                                                            |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | <img src="../images/badge_do1.png" srcset="../images/badge_do1@2x.png 2x" /> | <img src="../images/badge_dont1.png" srcset="../images/badge_dont1@2x.png 2x" /> |
 
 ## Code Generation
@@ -79,7 +79,9 @@ When supplied the `🕹️Event` property is used to create a method in the comp
 
 ### Data Property
 
-When supplied, the `🕹️DataProperty` value is used to set up a data binding to the badge value property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided in the generation request. When the badge type is Icon, the `🕹️DataProperty` is ignored.
+When supplied, the `🕹️DataProperty` value is used to set up a data binding to the badge value property. It is the name of the property on the data object specified by the model object name provided during code generation. As such, it is required that if the `🕹️DataProperty` is used that the model object name must be specified otherwise it will be ignored.
+
+When the badge type is Icon, the `🕹️DataProperty` is ignored.
 
 ### Type
 
@@ -97,7 +99,7 @@ When the Type is set to Number the following is applied:
 
 Related topics:
 
-- [Avatar + Badge](avatar+badge.md)
+- [Avatar + Badge](../patterns/avatar-badge.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

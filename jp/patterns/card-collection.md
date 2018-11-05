@@ -16,12 +16,17 @@ Card Collection パターンを使用すると、アシスタントまたはニ�
 
 Card Collection パターンは Card の様々なタイプおよび (ある場合) Searchbar Input のスタイル設定をカスタマイズできます。
 
+> [!WARNING]
+> 利用可能な任意の Card Collection パターンを挿入した後、Angular コードとして生成するには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。ただし、各 Card コンポーネントをデタッチしないでください。
+
+<img src="../images/card_collection_detach.png" />
+
 ## その他のリソース
 
 関連トピック:
 
-- [Cards](cards.md)
-- [Input](input.md)
+- [Cards](../components/cards.md)
+- [Input](../components/input.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

@@ -48,8 +48,8 @@ Progress は、さまざまなオーバーライドでテキスト、ストリ�
 
 Circular Bar は常にテキスト ラベルの実際の値を使用し、Linear Bar は一般的な文字列をユーザーに表示するのではなく、残りの時間とファイルに基づいてタスクの完了状況の正確な予測を提供します。
 
-| いい例                              | 悪い例                             |
-| ------------------------------- | --------------------------------- |
+| 良い例                                                                             | 悪い例                                                                                 |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | <img src="../images/progress_do1.png" srcset="../images/progress_do1@2x.png 2x" /> | <img src="../images/progress_dont1.png" srcset="../images/progress_dont1@2x.png 2x" /> |
 | <img src="../images/progress_do2.png" srcset="../images/progress_do2@2x.png 2x" /> | <img src="../images/progress_dont2.png" srcset="../images/progress_dont2@2x.png 2x" /> |
 
@@ -71,6 +71,7 @@ Customer {
   imageName: String;
 }
 ```
+
 DataProperty: `{imageName}`
 
 #### ネストあり
@@ -84,11 +85,12 @@ Customer {
   profile: Profile;
 }
 ```
+
 DataProperty: `{profile.imageName}`
 
 ### データ プロパティ
 
-`🕹️DataProperty` 値は Circular または Linear Bar 値プロパティへのデータ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` は、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトのプロパティ名です。
+`🕹️DataProperty` 値は Circular または Linear Bar 値プロパティへのデータ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` はコード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名です。
 
 ### 状態
 
@@ -110,7 +112,7 @@ Text プロパティにテキスト、バインディング、または両方を
 
 関連トピック:
 
-- [AV Player Pattern](av-player.md)
+- [AV Player Pattern](../patterns/av.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

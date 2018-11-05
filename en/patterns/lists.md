@@ -1,25 +1,32 @@
 ---
 title: Lists - Design System Pattern
 _description: The Lists Pattern Symbols depict varios scenarios that use lists to organize some common collections of information.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 ## Lists
 
-Use the Lists Pattern Symbols as presets for organized collections of data depicting common scenarios such as filterable settings, people, song playlists, products, searchable lists, and settings.
+> [!Note]
+> With Indigo.Design UI Kits version 1.1.0 the patterns under Lists are no longer available due to an issue in Sketch 52. The issue is related to the many changes Sketch 52 brings along, which ultimately causes the Sketch app to crash. Once the Sketch team resolves this issue, we will push an update to the patterns library including the lists that were available before. In the mean time you can use the List Component and template and style any type of list that you would like as the Components have been fully tested and work fine.
+
+Use the Lists Pattern Symbols as presets for organized collections of data depicting common scenarios such as filterable settings, people, song playlists, searchable lists, and settings.
 
 <img src="../images/lists_people.png" srcset="../images/lists_people@2x.png 2x" />
-<img src="../images/lists_products.png" srcset="../images/lists_products@2x.png 2x" />
 <img src="../images/lists_settings.png" srcset="../images/lists_settings@2x.png 2x" />
 
 The Lists Pattern comes with the styling flexibility provided by the various types of List Items available and the Searchbar Input, where applicable.
+
+> [!WARNING]
+> After inserting any of the Lists available as a Pattern, you should trigger `Detach from Symbol` to break it down to the Components that are used to create the layout in order to be able to generate it as Angular code. The individual List Items, as well as the background and data binding layers must stay intact and not be detached!
+
+<img src="../images/lists_detach.png" />
 
 ## Additional Resources
 
 Related topics:
 
-- [Input](input.md)
-- [List](list.md)
+- [Input](../components/input.md)
+- [List](../components/list.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
