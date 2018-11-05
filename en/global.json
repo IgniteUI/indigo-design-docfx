@@ -1,4 +1,9 @@
 {
     "_navBarTitle": "Indigo.Design",
-    "_navBarTitleHref": "https://www.infragistics.com/design"
+    "_navBarTitleHref": "https://www.infragistics.com/design",
+    "_currentBaseUrl": "https://www.infragistics.com/products/indigo-design/help/",
+    "_hasKRLang": false,
+    "_ENBaseUrl": "https://www.infragistics.com/products/indigo-design/help/",
+    "_JABaseUrl": "https://jp.infragistics.com/products/indigo-design/help/",
+    "_KRBaseUrl": "https://kr.infragistics.com/products/indigo-design/help/"
 }
