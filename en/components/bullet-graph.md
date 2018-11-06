@@ -38,12 +38,14 @@ When creating data visualizations and information dashboards pick carefully betw
 
 ## Code Generation
 
+This section describes some important overrides and how they affect code generation.
+
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Bullet Graph in your design is very likely to result in loss of code generation capability for the Bullet Graph.
 
 ### Minimum Value
 
-This override controls the minimum value displayed by the Bullet Graph. It supports data binding as well as direct setting of a number. If a binding is used the bound property must result in a number at runtime. If no binding is used the value must be a number. If the value provided is not in the correct format the Bullet Gauge will be generated without a minimum value set and the control default will be used.
+This override controls the minimum value displayed by the Bullet Graph. It supports [data binding](../codegen/data-binding.md) as well as direct setting of a number. If a binding is used the bound property must result in a number at runtime. If no binding is used the value must be a number. If the value provided is not in the correct format the Bullet Gauge will be generated without a minimum value set and the control default will be used.
 
 Binding:
 
@@ -55,7 +57,7 @@ No binding:
 
 ### Maximum Value
 
-This override controls the maximum value displayed by the Bullet Graph. It supports data binding as well as direct setting of a number. If a binding is used the bound property must result in a number at runtime. If no binding is used the value must be a number. If the value provided is not in the correct format the Bullet Graph will be generated without a maximum value set and the control default will be used.
+This override controls the maximum value displayed by the Bullet Graph. It supports [data binding](../codegen/data-binding.md) as well as direct setting of a number. If a binding is used the bound property must result in a number at runtime. If no binding is used the value must be a number. If the value provided is not in the correct format the Bullet Graph will be generated without a maximum value set and the control default will be used.
 
 Binding:
 
@@ -77,7 +79,7 @@ This override controls the current value of the Bullet Graph.
 
 <img src="../images/bullet_graph_value.png"/>
 
-It only supports data binding so provided values must be in the correct format.
+It only supports [data binding](../codegen/data-binding.md) so provided values must be in the correct format.
 
 <img src="../images/linear_gauge_valueprop.png"/>
 
@@ -89,7 +91,7 @@ This override controls the target value of the Bullet Graph.
 
 <img src="../images/bullet_graph_target_value.png"/>
 
-It only supports data binding so provided values must be in the correct format.
+It only supports [data binding](../codegen/data-binding.md) so provided values must be in the correct format.
 
 <img src="../images/linear_gauge_valueprop.png"/>
 
@@ -101,6 +103,7 @@ Related topics:
 
 - [Linear Gauge](linear-gauge.md)
 - [Category Chart](chart-category.md)
+- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

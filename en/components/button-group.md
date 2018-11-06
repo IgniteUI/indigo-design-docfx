@@ -52,38 +52,10 @@ Always use Buttons with consistent style and avoid combining text Buttons with i
 
 ## Code generation
 
-When colors or fonts are specified for the Button Group, the Button Group HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
+This section describes some important overrides and how they affect code generation.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Button Group in your design is very likely to result in loss of code generation capability for the Button Group.
-
-### Data Bindings
-
-Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example:  Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples: 
-
-#### Not Nested
-
-```typescript
-Customer { 
-  imageName: String; 
-}
-```
-
-DataProperty would be: `{imageName}`
-
-#### Nested
-
-```typescript
-Profile { 
-  imageName: String; 
-} 
-
-Customer { 
-  profile: Profile; 
-} 
-```
-
-DataProperty would be: `{profile.imageName}`
 
 ### Event Property
 
@@ -99,7 +71,7 @@ This property will determine what type of button to display. It can be an icon o
 
 ### Text 
 
-This property is displayed for text buttons only. It specifies what text is shown within the button. It may contain plain text, binding text, or a combination of the two, examples:
+This property is displayed for text buttons only. It specifies what text is shown within the button. It may contain plain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
 
 * Settings  
 * {settingsLabel}  
@@ -110,6 +82,7 @@ This property is displayed for text buttons only. It specifies what text is show
 Related topics:
 
 - [Button](button.md)
+- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

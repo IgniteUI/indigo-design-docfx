@@ -37,52 +37,29 @@ The Toast should always be centrally aligned on the horizontal and other placeme
 
 ## Code Generation
 
-When colors are specified for the Toast, the Toast HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
+This section describes some important overrides and how they affect code generation.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Toast in your design is very likely to result in loss of code generation capability for the Toast.
 
-### Data Bindings
-
-Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Not Nested
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty would be: `{imageName}`
-
-#### Nested
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty would be: `{profile.imageName}`
-
 ### Data Property
 
-When supplied, the `🕹️DataProperty` value is used to set up a data binding to the toast text property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided during code generation. When supplied, this value overrides the Text property.
+When supplied, the `🕹️DataProperty` value is used to set up a [data binding](../codegen/data-binding.md) to the toast text property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided during code generation. When supplied, this value overrides the Text property.
 
 ### Text
 
-When supplied, the Text property may contain text, binding, or a combination of the two, examples:
+When supplied, the Text property may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
 
 - Settings
 - {settingsLabel}
 - Important {labelText}
 
 ## Additional Resources
+
+Related topic:
+
+- [Data Binding](../codegen/data-binding.md)
+  <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 

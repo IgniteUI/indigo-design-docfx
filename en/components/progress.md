@@ -54,42 +54,14 @@ In a Circular Bar, always use the actual value for the text label and, when addi
 
 ## Code Generation
 
-When colors or fonts are specified for the Circular or Linear Bar, the Circular or Linear Bar HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
+This section describes some important overrides and how they affect code generation.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Circular or Linear Bar in your design is very likely to result in loss of code generation capability for the Circular or Linear Bar.
 
-### Data Bindings
-
-Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example: Admin: {isAdmin} . Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Not Nested
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty would be: `{imageName}`
-
-#### Nested
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty would be: `{profile.imageName}`
-
 ### Data Property
 
-When supplied, the `🕹️DataProperty` value is used to set up a data binding to the Circular or Linear bar value property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided during code generation.
+When supplied, the `🕹️DataProperty` value is used to set up a [data binding](../codegen/data-binding.md) to the Circular or Linear bar value property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided during code generation.
 
 ### State
 
@@ -101,7 +73,7 @@ The Linear Bar Text Style is used to control the alignment and color of the text
 
 ### Linear Bar Text
 
-The Text property may contain text, binding, or a combination of the two, examples:
+The Text property may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
 
 - Settings
 - {settingsLabel}
@@ -112,12 +84,9 @@ The Text property may contain text, binding, or a combination of the two, exam
 Related topic:
 
 - [AV Player Pattern](../patterns/av.md)
+- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 
 - [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
-
-```
-
-```

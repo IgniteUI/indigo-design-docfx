@@ -39,10 +39,10 @@ Carefully pick the Icon color to assure good contrast with the background and de
 
 ## Code Generation
 
-When colors are specified for the Icon, the Icon HTML element will be wrapped in div. This is required by browsers to style a nested component (a component within another component).
+This section describes some important overrides and how they affect code generation.
 
 > [!Note]
-> Important: There is an Icon Component in the NBL Components library and in the NBL Styles library. Only the Icon in the NBL Component library is rendered.
+> Important: There is an Icon component in the Indigo-Components library and in the Indigo-Styling library. Only the Icon in the Indigo-Components library is rendered.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Icon in your design is very likely to result in loss of code generation capability for the Icon.

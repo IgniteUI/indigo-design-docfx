@@ -34,38 +34,10 @@ Always choose a Hyperlink text color that makes it stand out in a paragraph. Avo
 
 ## Code Generation
 
-When colors or fonts are specified for the Hyperlink, they are applied directly to a CSS class that is applied to the hyperlink element.
+This section describes some important overrides and how they affect code generation.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Hyperlink in your design is very likely to result in loss of code generation capability for the Hyperlink.
-
-### Data Bindings
-
-Data bindings are specified by using curly brace syntax, example: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Not Nested
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty would be: `{imageName}`
-
-#### Nested
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty would be: `{profile.imageName}`
 
 ### Event Property
 
@@ -73,14 +45,14 @@ When supplied, this property is used to create a method in the component TypeScr
 
 ### LinkURL
 
-The LinkURL accepts a URL or a binding. When supplied these values will be assigned to the href property on the HTML control.
+The LinkURL accepts a URL or a [binding](../codegen/data-binding.md). When supplied these values will be assigned to the href property on the HTML control.
 
 - Example URL: http://www.infragistics.com
 - Example binding: {companyWebsite}
 
 ### Text
 
-The Text property may contain text, binding, or a combination of the two, examples:
+The Text property may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
 
 - Settings
 - {settingsLabel}
@@ -93,6 +65,7 @@ When supplied the Text property is used to fill in the text to display for the H
 Related topic:
 
 - [Form Pattern](../patterns/form.md)
+- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

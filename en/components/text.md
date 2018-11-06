@@ -72,48 +72,25 @@ Always choose Paragraph text color that makes a Hyperlink stand out if the two a
 
 ## Code generation
 
-When colors or fonts are specified for the Title or Paragraph, they are applied directly to a CSS class that is applied to the title or paragraph element.
+This section describes some important overrides and how they affect code generation.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Title or Paragraph Text in your design is very likely to result in loss of code generation capability for the Title or Paragraph Text. For code generation to be able to match your layout in Sketch, make sure that your Titles and Paragraphs have a proper height that is just as much as the content needs to render.
 
-### Data Bindings
-
-Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Not Nested
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty would be: `{imageName}`
-
-#### Nested
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty would be: `{profile.imageName}`
-
 ### Text
 
-The Text property may contain text, binding, or a combination of the two, examples:
+The Text property may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
 
 - Settings
 - {settingsLabel}
 - Important {labelText}
 
 ## Additional Resources
+
+Related topic:
+
+- [Data Binding](../codegen/data-binding.md)
+  <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 

@@ -29,42 +29,14 @@ The previous and next navigation buttons of the Carousel should always appear on
 
 ## Code generation
 
-When colors are specified for the Carousel’s navigation buttons, the Carousel HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
+This section describes some important overrides and how they affect code generation.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Carousel in your design is very likely to result in loss of code generation capability for the Carousel.
 
-### Data Bindings
-
-Data bindings are specified by using curly brace syntax, example: {slideDeck}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Not Nested
-
-```typescript
-SlideDeck {
-    slideDeck: string[] = [];
-}
-```
-
-DataSource would be: `{slideDeck}`
-
-#### Nested
-
-```typescript
-Profile {
-    slideDeck: string[] = [];
-}
-
-SlideDeck {
-    profile: Profile;
-}
-```
-
-DataSource would be: `{profile.slideDeck}`
-
 ### Data Source Property
 
-When supplied, the `🕹️DataSource` value is used to set up binding to the Carousel. The data source must be a string array of image names to display. The `🕹️DataSource` property is optional. When the `🕹️DataSource` is supplied, Slide styles are gathered from the first Slide in the group. Other Slide styles are ignored.
+When supplied, the `🕹️DataSource` value is used to set up [binding](../codegen/data-binding.md) to the Carousel. The data source must be a string array of image names to display. The `🕹️DataSource` property is optional. When the `🕹️DataSource` is supplied, Slide styles are gathered from the first Slide in the group. Other Slide styles are ignored.
 
 ### Sketch Elevations
 
@@ -75,6 +47,7 @@ Button and Slide elevation changes in Sketch drawings are not rendered during co
 Related topic:
 
 - [Grid](grid.md)
+- [Data Binding](../codegen/data-binding.md)
 
 Our community is active and always welcoming to new ideas.
 

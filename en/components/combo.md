@@ -102,18 +102,18 @@ When using the Combo its input and dropdown should have the same width and their
 
 ## Code Generation
 
-When colors or fonts are specified for the Combo, the Combo HTML element will be wrapped in a div. This is required by browser to style as nested component (a component within another component).
+This section describes some important overrides and how they affect code generation.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Dropdown in your design is very likely to result in loss of code generation capability for the Dropdown.
 
 ### DataSource
 
-When supplied, the `🕹️DataSource` value is used to setup the Data Source of the Combo. You can bind to an array of items (string or number) or array of objects. If the `🕹️DataSource` is not supplied the Combo drop down will not have any values to select from.
+When supplied, the `🕹️DataSource` value is used to setup the Data Source of the Combo. You can [bind](../codegen/data-binding.md) to an array of items (string or number) or array of objects. If the `🕹️DataSource` is not supplied the Combo drop down will not have any values to select from.
 
 ### ValueDataProperty and DisplayDataProperty
 
-When supplied, the `🕹️ValueDataProperty` and `🕹️DisplayDataProperty` are used to setup the `valueKey` and `displayKey` fields of the Combo. These fields are used when binding to a `🕹️DataSource` that is an array of objects. If only one is supplied it will be used for both fields. If neither is supplied and the `🕹️DataSource` is an array of objects, the Combo will not know how to display the data provided.
+When supplied, the `🕹️ValueDataProperty` and `🕹️DisplayDataProperty` are used to setup the `valueKey` and `displayKey` fields of the Combo. These fields are used when [binding](../codegen/data-binding.md) to a `🕹️DataSource` that is an array of objects. If only one is supplied it will be used for both fields. If neither is supplied and the `🕹️DataSource` is an array of objects, the Combo will not know how to display the data provided.
 
 ### Variant
 
@@ -133,7 +133,7 @@ Not supported in the Combo.
 
 ### Combo Text
 
-When supplied, the Combo Text will be used as a place holder text in the Combo input until a value is selected. May contain text, binding, or a combination of the two, examples:
+When supplied, the Combo Text will be used as a place holder text in the Combo input until a value is selected. May contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
 
 - Settings
 - {settingsLabel}
@@ -146,6 +146,7 @@ Related topics:
 - [Dropdown](dropdown.md)
 - [Form Pattern](../patterns/form.md)
 - [Input](input.md)
+- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
