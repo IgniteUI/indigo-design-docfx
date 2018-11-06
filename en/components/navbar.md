@@ -46,7 +46,7 @@ Navbar actions should be carefully used to avoid situations where they overlap w
 
 ## Code generation
 
-When colors or fonts are specifiec for the NavBar, the NavBar’s HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
+This section describes some important overrides and how they affect code generation.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Navbar in your design is very likely to result in loss of code generation capability for the Navbar.
@@ -65,7 +65,7 @@ When supplied determines the Icon to be used for the Action Button on the left o
 
 ### Title
 
-When supplied will display text inside the title area of the NavBar. The Title properties may contain text, binding, or a combination of the two, examples:
+When supplied will display text inside the title area of the NavBar. The Title properties may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
 
 - Settings
 - {settingsLabel}
@@ -81,6 +81,7 @@ Related topics:
 
 - [Icon](icon.md)
 - [Navigation Drawer](nav-drawer.md)
+- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

@@ -100,36 +100,10 @@ Use the box type of Input when placing forms on top of an image to improve reada
 
 ## Code generation
 
-When colors or fonts are specified for the Input Group, the Input Group HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component).
+This section describes some important overrides and how they affect code generation.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Input in your design is very likely to result in loss of code generation capability for the Input.
-
-Data binding are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹️DataSource`) also support string interpolation syntax, example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is as nested property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Not Nested
-
-```typescript
-Customer {
-imageName: String;
-}
-```
-
-DataProperty would be: `{imageName}`
-
-#### Nested
-
-```typescript
-Profile {
-imageName: String;
-}
-
-Customer {
-profile: Profile;
-}
-```
-
-DataProperty would be: `{profile.imageName}`
 
 ### Event Property
 
@@ -139,7 +113,7 @@ This property is currently only supported on the Searchbar component. The Search
 
 ### Data Property
 
-When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using [Angular Reactive Forms](https://angular.io/guide/reactive-forms) to the input value property. The `🕹️DataProperty` is optional however when provided, it will be the name of the property on the data object specified by the model object name provided during code generation. As such, it is required that if the `🕹️DataProperty` is used that the developer must specify a model object name otherwise it will be ignored.
+When supplied, the `🕹️DataProperty` value is used to set up a two-way [data binding](../codegen/data-binding.md) using [Angular Reactive Forms](https://angular.io/guide/reactive-forms) to the input value property. The `🕹️DataProperty` is optional however when provided, it will be the name of the property on the data object specified by the model object name provided during code generation. As such, it is required that if the `🕹️DataProperty` is used that the developer must specify a model object name otherwise it will be ignored.
 
 ### Inputs Date and Time
 
@@ -169,7 +143,7 @@ The Searchbar has Left and Right Icons that can be turned on/off individually an
 
 ### Text Values
 
-The above Label, Input, Help Text, and Search Hint properties may contain text, binding, or a combination of the two, examples:
+The above Label, Input, Help Text, and Search Hint properties may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
 
 - Settings
 - {settingsLabel}
@@ -181,6 +155,7 @@ Related topics:
 
 - [Form Pattern](../patterns/form.md)
 - [User Profile Pattern](../patterns/user-profile.md)
+- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

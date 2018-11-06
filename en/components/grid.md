@@ -79,35 +79,13 @@ The most important thing about the Grid is the alignment of the data inside its 
 
 ## Code generation
 
-When colors or fonts are specified for the Grid, the Grid HTML element will be wrapped in a div. This is required by browsers to style a nested component (a component within another component). The grid has to be a detached symbol to be able to be used. The width of the grid is determined be adding up the widths of the columns. And the height of the grid is set to null so as to render rows properly even if the container for the grid doesn’t have a height set.
+This section describes some important overrides and how they affect code generation.
 
-### Data Bindings
+> [!WARNING]
+> The grid **must** be a detached symbol to be able to be used.
 
-Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not DataProperty or DataSource) also support string interpolation syntax. Example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Not Nested
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty would be: `{imageName}`
-
-#### Nested
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty would be: `{profile.imageName}`
+> [!NOTE]
+> The width of the grid is determined be adding up the widths of the columns. And the height of the grid is set to null so as to render rows properly even if the container for the grid doesn’t have a height set.
 
 ### Data Source Property
 
@@ -115,11 +93,11 @@ When supplied, the `🕹️DataSource` value is used to set up the data source f
 
 ### Header
 
-When supplied, the Headers help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell) that is below it to form the column. If no matching Body can be found a column will be created based on the information that can be gathered from the Header. When a pair is found information will be gathered from the Header first then the Body/Cell.
+When supplied, the Headers help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell) that is below it to form the column. If no matching Body can be found a column will be created based on the information that can be gathered from the Header. When a pair is found, information will be gathered from the Header first then the Body/Cell.
 
 #### Text
 
-The Header Text property may contain text, binding, or a combination of the two, examples:
+The Header Text property may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
 
 - Settings
 - {settingsLabel}
@@ -158,6 +136,7 @@ Related topics:
 - [Grid Column Pinning](grid-column-pinning.md)
 - [Grid Summaries](grid-summaries.md)
 - [Full Grid Pattern](../patterns/full-grid.md)
+- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

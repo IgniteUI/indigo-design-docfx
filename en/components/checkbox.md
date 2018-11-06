@@ -42,42 +42,14 @@ When many Checkboxes are necessary, you'll want to arrange them in a column grou
 
 ## Code Generation
 
-When check mark, check box colors or the check state is specified for the Checkbox, the Checkbox HTML element will be wrapped in div. This is required by browsers to style a nested component (a component within another component). In addition, when the State is turned off or disabled the control is not rendered.
+This section describes some important overrides and how they affect code generation.
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Checkbox in your design is very likely to result in loss of code generation capability for the Checkbox.
 
-### Data Bindings
-
-Data bindings are specified by using curly brace syntax, example: {isAdmin}. Text fields (not `🕹️DataProperty` or `🕹DataSource`) also support string interpolation syntax example: Admin: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Not Nested
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty would be: `{imageName}`
-
-#### Nested
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty would be: `{profile.imageName}`
-
 ### Data Property
 
-When supplied, the `🕹️DataProperty` value is used to set up a two-way data binding using [Angular Reactive Forms](https://angular.io/guide/reactive-forms) to the checkbox's checked property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided during code generation.
+When supplied, the `🕹️DataProperty` value is used to set up a two-way [data binding](../codegen/data-binding.md) using [Angular Reactive Forms](https://angular.io/guide/reactive-forms) to the checkbox's checked property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided during code generation.
 
 When both a model object name and `🕹️DataProperty` are provided, the TypeScript `ngOnInit` method with be populated with form builder code to create the Reactive Forms form. The `🕹️DataProperty` will be used to populate the formControlName property on the checkbox control.
 
@@ -87,11 +59,11 @@ Theme specified the theme the checkbox will use, either Dark or Light theme. Whe
 
 ### State
 
-The State is used by the designer to represent checkboxes in different states in the design. If the State is not On, the checkbox will not render. An On State is require to be able to discover the check and fill properties from the Sketch drawing for the checkbox.
+The State is used by the designer to represent checkboxes in different states in the design. If the State is **not** On, the checkbox will not render. An On State is required to be able to discover the check and fill properties from the Sketch drawing for the checkbox.
 
 ### Text
 
-The Text property may contain text, binding, or a combination of the two, examples:
+The Text property may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
 
 - Settings
 - {settingsLabel}
@@ -102,6 +74,7 @@ The Text property may contain text, binding, or a combination of the two, exam
 Related topic:
 
 - [Form Pattern](../patterns/form.md)
+- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
