@@ -121,11 +121,9 @@ These are the steps to recreate the screen in the example.
 
 4.  **Add the title of the form.**
 
-    1.  From the Insert menu, select Indigo-Components / Text / Title.
-    2.  Place it at the top of the white rectangle, with 16px spacing on the left, top, and right.
-    3.  In the Overrides section, set the Size to H4 and the Style to ~34/left/Primary.
-    4.  Set the Text to "Start Budgeting".
-    5.  Set the height to 56px.
+    1.  From the Text Styles at the bottom of the Insert menu, select Indigo-Styling / H4 Headline / Primary Style.
+    2.  Place it at the top of the white rectangle, with 16px spacing on the left and top.
+    3.  Set the Text to "Start Budgeting" and adjust its width to provide a 16px on the right as well.
 
     <div class="divider--half"></div>
     <img src="images/getting-started3.png" srcset="images/getting-started3@2x.png 2x" />
@@ -137,7 +135,7 @@ These are the steps to recreate the screen in the example.
 
 5.  **Add the inputs for first and last name.**
 
-    1.  From the Insert menu, select Indigo-Components / Inputs/Input / Line.
+    1.  From the Insert menu, select Indigo-Components / Inputs / Input / Line.
     2.  Place it below the title. Leave 16px on the left, and 0px from the Title
     3.  Set its width to 116px.
     4.  Duplicate this input.
@@ -186,11 +184,10 @@ These are the steps to recreate the screen in the example.
 
 8.  **Add the terms acceptance text.**
 
-    1.  From the Insert menu, select Indigo-Components / Text / Paragraph.
+    1.  From the Text Styles at the bottom of the Insert menu, select Indigo-Styling / Body 2 / Inactive Style.
     2.  Place it below the button.
-    3.  Change its size so that there is a 16px spacing on all sides.
-    4.  Set the Size to Body 2 and the Style to ~14/left/grays.700.
-    5.  Set the Text to "By clicking on the "SIGN UP" button above, you accept our Terms of Use".
+    3.  Set the Text to "By clicking on the "SIGN UP" button above, you accept our Terms of Use".
+    4.  Change its size so that there is a 16px spacing on all sides.
 
     <div class="divider--half"></div>
     <img src="images/getting-started7.png" srcset="images/getting-started7@2x.png 2x" />
