@@ -22,7 +22,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 
 ## 詳細手順
 
-### 1.Indigo Design ライブラリを Sketch に追加。
+### 1.Indigo Design ライブラリを Sketch に追加
 
 1.  [Indigo Design ライブラリ](https://cloud.indigo.design/home)をダウンロードします。
 
@@ -38,7 +38,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
     - **Indigo-Patterns**  
       アプリケーション レイアウトをガイドするコンポーネントに含まれるパターンのライブラリ。
 
-2.  Mac で Sketch アプリケーションを開き、Apple メニューから Sketch 項目をクリックして Preferences 、を選択します。
+2.  Mac で Sketch アプリケーションを開き、Apple メニューから Sketch 項目をクリックして Preferences を選択します。
 
   <div class="divider--half"></div>
   <img src="images/Creating_An_Artboard_2.png" srcset="images/Creating_An_Artboard_2@2x.png 2x" />
@@ -73,7 +73,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
   <div class="divider--half"></div>
   <div class="divider--half"></div>
 
-### 3.コンポーネントを追加してカスタマイズします。
+### 3.コンポーネントを追加してカスタマイズ
 
 Insert メニューを使用して Indigo Design ライブラリからコンポーネントを追加して、右パネルでカスタマイズできます。
 
@@ -94,7 +94,7 @@ Insert メニューを使用して Indigo Design ライブラリからコンポ�
     <div class="divider--half"></div>
     <div class="divider--half"></div>
 
-2.  **background color を追加します。**  
+2.  **背景色を追加します。**  
      Styling の primary.100 色をアートボードへドラッグします。左側のレイヤー パネルで Navbar の下に配置して必要に応じてサイズ変更します。
 
     <div class="divider--half"></div>
