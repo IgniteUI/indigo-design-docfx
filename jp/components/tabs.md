@@ -1,13 +1,13 @@
-﻿---
+---
 title: Tabs - デザイン システム コンポーネント
 _description: Tabs コンポーネント シンボルは、情報の体系化や切り替えに使用されます。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
-## Tabs
+## タブ
 
-Tabs コンポーネント シンボルは、同じ情報を異なるビューに体系化や同様または関連のあるデータセット間の切り替えが可能です。Tab は、[Ignite UI for Angular Tabs コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/tabs.html)と視覚的に同じものです。
+Tabs コンポーネントは、同じ情報を異なるビューに体系化、同様または関連のあるデータセット間の切り替えが可能です。Tab は、[Ignite UI for Angular Tabs コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/tabs.html)と視覚的に同じものです。
 
 ### Tabs デモ
 
@@ -15,21 +15,21 @@ Tabs コンポーネント シンボルは、同じ情報を異なるビュー�
 
 ### サイズ
 
-バーに配置されたタブは、高さのあるテキストを使用したアイコン、または短いテキストまたはアイコンを含みますが同時に両方を含むことはありません。
+バーに配置されたタブは、高さのあるテキストを使用したアイコン、または短いテキストやアイコンを含みますが同時に両方、含むことはありません。
 
 <img src="../images/tabs_short.png" srcset="../images/tabs_short@2x.png 2x" />
 <img src="../images/tabs_tall.png" srcset="../images/tabs_tall@2x.png 2x" />
 
 ### レスポンシブ
 
-Tab は**固定**が可能で幅を変更して水平スペースを埋めることができます。フルードにも対応しており、通常より多くのコンテンツが収まり、スクロールボタンでより多くのタブを表示、スクロールできます。
+Tab を**固定**し、多数のタブでスクロール ボタンが提供される空いている水平スペースを幅またはフルードを使用して埋めることができます。この機能jは、他のモードで使用可能なスペースに入れた場合よりも多くのコンテンツを入れることができます。
 
 <img src="../images/tabs_fixed.png" srcset="../images/tabs_fixed@2x.png 2x" />
 <img src="../images/tabs_fluid.png" srcset="../images/tabs_fluid@2x.png 2x" />
 
-### 合計
+### 量
 
-多くのケースで Tabs に 2 項目 ～ 4 項目が必要になります。4 項目以上必要な場合、ビューでタブのみ表示するフルード モードを検討します。
+多くのケースで Tabs に 2 つ ～ 4 つのタブが必要になります。4 つ以上必要な場合、ビューでタブのみ表示するフルード モードを検討します。
 
 <img src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" />
 <img src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
@@ -50,51 +50,43 @@ Tabs は、テキストやアイコンの色、現在の選択をマークする
 
 ## 使用方法
 
-Tab は情報の体系化に適しいますが、ワークフローのデザインやロジカルなシーケンスに基づいた操作には向いていません (チェックアウト プロセスや構成ウィザード) 。短い Tabs は、同じバーでテキスト タブとアイコンタブは組み合わすことはできません。2 つのコンテンツ モードのうち 1 つを選択してバーの常にすべての項目を使用します。
+Tab は情報の体系化に適してますが、ワークフローのデザインやロジカル シーケンスに基づいた操作には向いていません (チェックアウト プロセスや構成ウィザード)。短い Tab を使用してアイコン タブとテキスト タブを同じメニューで組み合わせることはできません。2 つのコンテンツ モードのうち 1 つを選択し、バーのすべての項目に継続して使用します。
 
-| 良い例                          | 悪い例                         |
-| --------------------------- | ----------------------------- |
-| <img src="../images/tabs_do1.png" srcset="../images/tabs_do1@2x.png 2x" /> | <img src="../images/tabs_dont1.png" srcset="../images/tabs_dont1@2x.png 2x" /> |
-| <img src="../images/tabs_do2.png" srcset="../images/tabs_do2@2x.png 2x" /> | <img src="../images/tabs_dont2.png" srcset="../images/tabs_dont2@2x.png 2x" /> |
+| 良い例                                                                         |悪い例                                                                          |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| <img src="../images/tabs_do1.png" srcset="../images/tabs_do1@2x.png 2x" />|<img src="../images/tabs_dont1.png" srcset="../images/tabs_dont1@2x.png 2x" /> |
+| <img src="../images/tabs_do2.png" srcset="../images/tabs_do2@2x.png 2x" />|<img src="../images/tabs_dont2.png" srcset="../images/tabs_dont2@2x.png 2x" /> |
 
 ## コードの生成
- 
-Tabs の色またはフォントを指定した場合、Tabs HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。アクティブ タブのスタイル設定が最初の解析されたアクティブ タブから取得されます。その他のタブのスタイル設定が最初の解析された非アクティブ タブから取得されます。
+
+Sketch の制限によって Tab コンポーネントの特定のタブとコンテンツを関連付けすることはできません。Tab コンポーネントを含む Artboard 全体の生成はお勧めしません。代わりに Tab コンポーネントを生成してから個々のタブ コンテンツをそれぞれの Angular コンポーネントに生成してください。タブ コンテンツをそれぞれ Angular コンポーネントに生成後、Tab コンポーネントで各タブ内で生成したタブ コンテンツに手動で参照できます。
+
+<img src="../images/tabs_limitation.png" />
 
 > [!WARNING]
-> デザインの Tabs のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Tabs のためのコード生成機能が失われる結果となります。
+> デザインの Tab インスタンスで `Detach from Symbol` をトリガーした場合、ほとんどの場合でツールチップのコード生成が機能しなくなります。
 
-### データ バインディング
-
-データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
-
-#### ネストなし
-
-```typescript
-Customer {
-  imageName: String;
-}
+```html
+<igx-tabs>
+    <igx-tabs-group>
+        <!-- Manually add this component reference -->
+        <app-tab1></app-tab1>
+    </igx-tabs-group>
+    <igx-tabs-group>
+        <!-- Manually add this component reference -->
+        <app-tab2></app-tab2>
+    </igx-tabs-group>
+</igx-tabs>
 ```
 
-DataProperty: `{imageName}`
+> [!Note]
+> Tab コンテンツは height: 100% で描画されないため、ページ全体は埋まりません。コンテンツに必要なスペースのみ使用します。
 
-#### ネストあり
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty: `{profile.imageName}`
+このセクションは、重要なオーバーライドとコード生成について説明します。
 
 ### Event プロパティ
 
-`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に `onTabItemSelected` シグネチャを追加します。波括弧構文 `({onEventName})` を使用してイベントを指定する必要があります。
+`Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に onTabItemSelected シグネチャを追加します。波括弧構文 `{onEventName}` を使用してイベントを指定する必要があります。
 
 ### レスポンシブ
 
@@ -102,15 +94,15 @@ Responsive プロパティが提供された場合、タブのサイズ モー�
 
 ### タブの量
 
-Tabs Amount プロパティが提供された場合、描画するタブ数を決定します。None に設定される場合、タブは描画しません。
+Tabs Amount は描画するタブ数を決定します。None に設定される場合、タブは描画しません。
 
-### 型
+### タイプ
 
 Type プロパティが提供された場合、タブがアイコンまたはテキストを描画するかどうかを決定します。短いタブのみに使用されます。すべてのタブの Type を None に設定した場合、タブ コントロールを描画しません。
 
 ### テキスト
 
-Text プロパティには、テキスト、バインディング、またはその両方を含むことができます。例:
+Text プロパティには、テキスト、[テキストのバインド](../codegen/data-binding.md)、またはその両方を含むことができます。例:
 
 - 設定
 - {settingsLabel}
@@ -121,8 +113,9 @@ Text プロパティには、テキスト、バインディング、またはそ
 関連トピック:
 
 - [Details](../patterns/details.md)
+- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)

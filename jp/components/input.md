@@ -1,13 +1,13 @@
-﻿---
+---
 title: Input - デザイン システム コンポーネント
 _description: Input コンポーネント シンボルは、文字列、数値、日付などユーザー データのコレクションが使用できます。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
-## Input
+## 入力
 
-Input コンポーネント シンボルは、さまざまなコンテキスト、日付、その他の値に合わせて使用する文字列や数値などのユーザー データを収集します。複数入力は、簡単に使用できるフォームに組み合わせることができます。Input は、[Ignite UI for Angular Input Group コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/input_group.html)と視覚的に同じものです。
+Input コンポーネントは、さまざまなコンテキスト、日付、その他の値に合わせて使用する文字列や数値などのユーザー データを収集します。複数入力は、簡単に使用できるフォームに組み合わせることができます。Input は、[Ignite UI for Angular Input Group](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/input_group.html) コンポーネントと視覚的に同じものです。
 
 ### Input デモ
 
@@ -15,23 +15,26 @@ Input コンポーネント シンボルは、さまざまなコンテキスト�
 
 ### タイプ
 
-Input はヘルパー テキスト (あり/なし) で 4 つの異なるタイプから選択します。より軽い印象となる線スタイルまたは単色背景ではっきり認識される境界線スタイルなど。Boxed スタイルは、コンテンツを読みやすくするために Input をビビッドなイメージの上に配置したときに使用するのが最も適しています。
+Input はヘルパー テキスト (あり/なし) で 3 つの異なるタイプから選択します。より軽い印象となる線スタイルまたは単色背景ではっきり認識される境界線スタイル、など。Boxed スタイルは、コンテンツを読みやすくするために Input を鮮明な画像の上に配置したときに使用するのが最も適しています。
 
 <img src="../images/input_no-helper.png" srcset="../images/input_no-helper@2x.png 2x" />
 <img src="../images/input_helper.png" srcset="../images/input_helper@2x.png 2x" />
 
 <img src="../images/input_line.png" srcset="../images/input_line@2x.png 2x" />
 `line`
+
 <img src="../images/input_box.png" srcset="../images/input_box@2x.png 2x" />
 `box`
+
 <img src="../images/input_border.png" srcset="../images/input_border@2x.png 2x" />
 `border`
+
 <img src="../images/input_search.png" srcset="../images/input_search@2x.png 2x" />
 `search`
 
 ### バリアント
 
-Input は、明暗バリアントで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
+Input は、**明暗**バリアントで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
 
 <img src="../images/input_dark.png" srcset="../images/input_dark@2x.png 2x" />
 <img src="../images/input_light.png" srcset="../images/input_light@2x.png 2x" />
@@ -40,10 +43,15 @@ Input は、明暗バリアントで分かりやすく、背景に明暗のコ�
 
 ユーザーが Input とインタラクティブに操作する際にさまざまな状態を経由します。コンテンツの代わりにプレースホルダーがある**アイドル**状態、ユーザーが入力中のフォーカス状態、ユーザーがコンテンツの追加を完了して次に進むときの塗りつぶし状態、入力がインタラクションをサポートしない無効状態。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 
+<img src="../images/input_idle.png" srcset="../images/input_idle@2x.png 2x" />
+`idle`
+
 <img src="../images/input_focused.png" srcset="../images/input_focused@2x.png 2x" />
 `focused`
+
 <img src="../images/input_filled.png" srcset="../images/input_filled@2x.png 2x" />
 `filled`
+
 <img src="../images/input_disabled.png" srcset="../images/input_disabled@2x.png 2x" />
 `disabled`
 
@@ -86,53 +94,27 @@ Input は、Styling ライブラリのテーマでプライマリ、成功、警
 
 Input のボックス タイプを使用して画像上にフォームを配置して読みやすくします。デザインの警告やエラー状態で Input を使用する際にヘルパーテキストを使用してユーザーにガイダンスを提供します。
 
-| 良い例                                                                       | 悪い例                                                                           |
+| 良い例                                                                           |悪い例                                                                            |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| <img src="../images/input_do1.png" srcset="../images/input_do1@2x.png 2x" /> | <img src="../images/input_dont1.png" srcset="../images/input_dont1@2x.png 2x" /> |
-| <img src="../images/input_do2.png" srcset="../images/input_do2@2x.png 2x" /> | <img src="../images/input_dont2.png" srcset="../images/input_dont2@2x.png 2x" /> |
+| <img src="../images/input_do1.png" srcset="../images/input_do1@2x.png 2x" />|<img src="../images/input_dont1.png" srcset="../images/input_dont1@2x.png 2x" /> |
+| <img src="../images/input_do2.png" srcset="../images/input_do2@2x.png 2x" />|<img src="../images/input_dont2.png" srcset="../images/input_dont2@2x.png 2x" /> |
 
 ## コードの生成
 
-Input Group の色やフォントを指定した場合、Input Group HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
+このセクションは、オーバーライドとコード生成にどのような影響があるかについて説明します。
 
 > [!WARNING]
-> デザインの Input のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Input のためのコード生成機能が失われます。
-
-データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
-
-#### ネストなし
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty: `{imageName}`
-
-#### ネストあり
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty: `{profile.imageName}`
+> デザインの Input のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Input のためのコード生成機能が失われます。
 
 ### Event プロパティ
 
-`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に入力アイコンのために Angular クリック シグネチャを追加します。波括弧構文 ({onEventName}) を使用してイベントを指定する必要があります。
+`Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に入力アイコンのために Angular クリック シグネチャを追加します。波括弧構文 ({onEventName}) を使用してイベントを指定する必要があります。
 
-このプロパティは現在 Searchbar コンポーネントのみにサポートされます。Searchbar に 2 つのアイコンを設定できます。各アイコンに設定可能な `🕹️Event` プロパティがあります。
+このプロパティは現在 Searchbar コンポーネントのみにサポートされます。Searchbar に 2 つのアイコンを設定できます。各アイコンに設定可能な `Event` プロパティがあります。
 
 ### データ プロパティ
 
-`🕹️DataProperty` 値は [Angular Reactive Forms](https://angular.io/guide/reactive-forms) を使用して入力の value プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションですが、指定される場合、コード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名になります。そのため、`🕹️DataProperty` が使用される場合、開発者がモデル オブジェクト名を指定する必要があります。指定されない場合、無視されます。
+`DataProperty` 値は [Angular Reactive Forms](https://angular.io/guide/reactive-forms) を使用して入力の value プロパティへの 2-way [データ バインディング](../codegen/data-binding.md)を設定するために使用されます。`DataProperty` はオプションですが、指定される場合、コード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名になります。そのため、`DataProperty` が使用される場合、開発者がモデル オブジェクト名を指定する必要があります。指定されない場合、無視されます。
 
 ### 日付と時刻の入力
 
@@ -150,7 +132,7 @@ Label に表示するテキストを決定します。
 
 #### 入力テキスト
 
-入力値に表示するテキストを決定します。`🕹️DataProperty` が設定される場合、このプロパティは無視されます。Line、Box、または Border 入力でこのフィールドが `*` 文字のみを含む場合、入力のタイプが password に設定されます。
+入力値に表示するテキストを決定します。`DataProperty` が設定される場合、このプロパティは無視されます。Line、Box、または Border 入力でこのフィールドが `*` 文字のみを含む場合、入力のタイプが password に設定されます。
 
 #### ヘルプ テキスト
 
@@ -162,7 +144,7 @@ Searchbar に Left および Right Icons があり、アイコンを有効また
 
 ### テキスト値
 
-上記の Label、Input、Help Text、および Search Hint プロパティにテキスト、バインディング、または両方を含むことができます。例:
+上記の Label、Input、Help Text、および Search Hint プロパティにテキスト、[バインディング テキスト](../codegen/data-binding.md)、またはその両方を含むことができます。例:
 
 - 設定
 - {settingsLabel}
@@ -174,6 +156,7 @@ Searchbar に Left および Right Icons があり、アイコンを有効また
 
 - [Form Pattern](../patterns/form.md)
 - [User Profile Pattern](../patterns/user-profile.md)
+- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
