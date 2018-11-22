@@ -78,7 +78,7 @@ Hyperlink を複数同時に使用する場合は、Hyperlink を目立つよう
 Title または Paragraph に色やフォントを指定した場合、タイトルまたは段落要素に適用される CSS クラスに直接適用されます。
 
 > [!WARNING]
-> デザインの Title または Paragraph Text のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Title または Paragraph Text のためのコード生成機能が失われる結果となります。コード生成で Sketch のレイアウトと一致させるには、コンテンツを描画するために必要な高さを Title および Paragraph に設定してください。
+> デザインの Title または Paragraph Text のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Title または Paragraph Text のためのコード生成機能が失われる結果となります。コード生成で Sketch のレイアウトと一致させるには、コンテンツを描画するために必要な高さを Title および Paragraph に設定してください。
 
 ### データ バインディング
 

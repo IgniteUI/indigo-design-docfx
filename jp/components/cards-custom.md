@@ -42,7 +42,7 @@ Custom Card は、スタイルに高い柔軟性があり、テキスト、ボ�
 
 #### レイアウト
 
-以下は、上記の天気 Card の複雑なレイアウトを 5 つのシンプルなステップで作成する方法です。空 Artboard に Custom Card をドラッグし、`シンボルからデタッチ`を選択して、背景色、角の半径、開始ポイントに必要なエレベーションを変更してベーシック スタイルを適用します。
+以下は、上記の天気 Card の複雑なレイアウトを 5 つのシンプルなステップで作成する方法です。空 Artboard に Custom Card をドラッグし、`Detach from Symbol` を選択して、背景色、角の半径、開始ポイントに必要なエレベーションを変更してベーシック スタイルを適用します。
 
 <img src="../images/card_custom_layout0.png" srcset="../images/card_custom_layout0@2x.png 2x" />
 
