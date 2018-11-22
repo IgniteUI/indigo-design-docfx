@@ -58,7 +58,7 @@ Circular Bar は常にテキスト ラベルの実際の値を使用し、Linear
 Circular または Linear Bar に色またはフォントを指定した場合、Circular または Linear Bar HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
 
 > [!WARNING]
-> デザインの Circular または Linear Bar のインスタンスで`シンボルからデタッチ`をトリガーすると、ほとんどの場合で Circular または Linear Bar のためのコード生成機能が失われる結果となります。
+> デザインの Circular または Linear Bar のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Circular または Linear Bar のためのコード生成機能が失われる結果となります。
 
 ### データ バインディング
 

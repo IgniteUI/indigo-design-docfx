@@ -54,11 +54,11 @@ _language: ja
 
     <img src="../images/colors_local0.png" srcset="../images/colors_local0@2x.png 2x" />
 
-3.  右クリックして`シンボルからデタッチ`を選択して `Rectangle` と呼ばれるレイヤーのみ含まれます。`Rectangle` レイヤーを選択して Fill の色を #008080 (teal) などに変更します。
+3.  右クリックして `Detach from Symbol` を選択して `Rectangle` と呼ばれるレイヤーのみ含まれます。`Rectangle` レイヤーを選択して Fill の色を #008080 (teal) などに変更します。
 
     <img src="../images/colors_local1.png" srcset="../images/colors_local1@2x.png 2x" />
 
-4.  `シンボルからデタッチ`を選択して作成したグループ (以前のシンボル インスタンスと同じように `Colors/black` と呼ばれる) を選択し、メイン Sketch トップ メニューから `Create Symbol` ボタンをクリックして変更した色を色シンボルをオーバライドとして再度インスタンスを作成します。カスタム色 (`Colors/teal` など) の名前を選択するプロンプトが表示されます。Symbols Page チェックボックスのチェックは、OK ボタンをクリックする前に外されます。シンボルが作成され、以下のようになります。
+4.  `Detach from Symbol` を選択して作成したグループ (以前のシンボル インスタンスと同じように `Colors/black` と呼ばれる) を選択し、メイン Sketch トップ メニューから `Create Symbol` ボタンをクリックして変更した色を色シンボルをオーバライドとして再度インスタンスを作成します。カスタム色 (`Colors/teal` など) の名前を選択するプロンプトが表示されます。Symbols Page チェックボックスのチェックは、OK ボタンをクリックする前に外されます。シンボルが作成され、以下のようになります。
 
     <img src="../images/colors_local2.png" srcset="../images/colors_local2@2x.png 2x" />
 

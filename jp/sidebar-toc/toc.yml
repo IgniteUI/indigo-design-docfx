@@ -42,12 +42,26 @@
           href: ../components/cards-custom.md
     - name: Carousel
       href: ../components/carousel.md
-    - name: Category Chart
-      href: ../components/chart-category.md
+    - name: Data Visualization
+      items:
+        - name: Bullet Graph
+          href: ../components/bullet-graph.md
+        - name: Category Chart
+          href: ../components/chart-category.md
+        - name: Linear Gauge
+          href: ../components/linear-gauge.md
+        - name: Radial Gauge
+          href: ../components/radial-gauge.md
     - name: Checkbox
       href: ../components/checkbox.md
+    - name: Chip and Chips Area
+      href: ../components/chips.md
+    - name: Combo
+      href: ../components/combo.md
     - name: Dialog
       href: ../components/dialog.md
+    - name: Dropdown
+      href: ../components/dropdown.md
     - name: Grid
       href: ../components/grid.md
       items:
@@ -146,7 +160,7 @@
   href: ../codegen/after-codegen.md
 - name: レイアウトの生成
   href: ../codegen/layout-codegen.md
-- name: Data Binding
+- name: データ バインディング
   href: ../codegen/data-binding.md
 
 - name: その他のリソース
