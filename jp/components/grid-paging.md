@@ -5,7 +5,7 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポ�
 _language: ja
 ---
 
-## Grid のページング機能
+## グリッド ページング
 
 Grid ページング コンポーネント シンボルは、ユーザーに現在の位置を通知して戻る/次へや最初/最後のページにナビゲーションを可能にします。Grid のすぐ下に間にギャップなしでグリッド ページングを配置します。
 Grid ページングは、[Ignite UI for Angular Grid ページング機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid_paging.html)と視覚的に同じものです。

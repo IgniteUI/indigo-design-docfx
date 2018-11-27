@@ -5,7 +5,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## ブレット グラフ
+## Bullet Graph
 
 Bullet Graph コンポーネントをデータ可視化に使用し、カラーコードされた下部の範囲で描かれたコンテキスト内の目標値を示します。Bullet Graph は、[Ignite UI for Angular Bullet Graph コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/bulletgraph.html)と視覚的に同じです。
 
@@ -31,7 +31,7 @@ Bullet Graph のスタイル設定は高い柔軟性があり、背景色の制�
 
 ## 使用方法
 
-データ可視化時に情報ダッシュボードは目標値かどうかに基づいて Bullet Graph と Linear Gauge のどちらかを選択します。Graphs と Gauges は両方とも現在の値のみ表示し、過去の値を表示する方法はありません。アプリケーションでそのようなデータが必要な場合は[Category Chart](chart-category.md) を検討してください。わかりやすく、鮮明なデータ可視化を簡単に作成するために Value や Target Value Brushes  の色は範囲や背景と十分なコントラストのある色にし、読みづらい、解釈しづい結果となる同色のバリアントは使用しないようにします。
+データ可視化時に情報ダッシュボードは目標値かどうかに基づいて Bullet Graph と Linear Gauge のどちらかを選択します。Graphs と Gauges は両方とも現在の値のみ表示し、過去の値を表示する方法はありません。アプリケーションでそのようなデータが必要な場合は [Category Chart](chart-category.md) を検討してください。わかりやすく、鮮明なデータ可視化を簡単に作成するために Value や Target Value Brushes の色は範囲や背景と十分なコントラストのある色にし、読みづらい、解釈しづい結果となる同色のバリアントは使用しないようにします。
 
 | 良い例                                                                                       |悪い例                                                                                        |
 | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
