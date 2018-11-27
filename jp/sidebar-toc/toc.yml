@@ -7,7 +7,7 @@
 
 - name: デザイン システムの使用
   header: true
-- name: 最初のアートボードを作成
+- name: はじめてのアートボードを作成
   href: ../creating-an-artboard.md
 - name: スタイル設定
   items:
@@ -100,12 +100,12 @@
       href: ../components/switch.md
     - name: Tabs
       href: ../components/tabs.md
-    - name: Text
-      href: ../components/text.md
     - name: Time Picker
       href: ../components/time-picker.md
     - name: Toast
       href: ../components/toast.md
+    - name: Tooltip
+      href: ../components/tooltip.md
 - name: パターン
   items:
     - name: Audio / Video
@@ -141,16 +141,16 @@
   href: ../prototyping/creating-a-prototype.md
 - name: インタラクション オプション
   href: ../prototyping/interaction-options.md
-- name: コメントでアイデアを交換
+- name: プロトタイプにコメントを追加
   href: ../prototyping/commenting.md
 - name: ワークスペースでのコラボレーション
   href: ../prototyping/workspaces.md
-- name: ユーザビリティ テストの作成
+- name: ユーザビリティ テストの設定
   href: ../prototyping/setting-up-a-usability-study.md
-- name: ユーザビリティ テスト結果のレビュー
+- name: ユーザビリティ テスト結果をレビュー
   href: ../prototyping/usability-study-results-overview.md
 
-- name: コードの生成
+- name: コード生成
   header: true
 - name: VS Code 拡張機能のインストール
   href: ../codegen/installing-vs-code-extension.md

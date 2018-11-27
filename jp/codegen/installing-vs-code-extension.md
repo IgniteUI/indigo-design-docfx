@@ -9,7 +9,7 @@ _language: ja
 
 VS Code 拡張機能をインストールする前に、Visual Studio Code がインストールされていることを確認してください。コードを生成し、Angular アプリケーションを実行するには、Node.js もインストールしてください。このリンクから取得できます。
 
-1.  NodeJS: [ダウンロード](https://nodejs.org/en/download/)してインストール
+1.  NodeJS: [ダウンロード](https://nodejs.org/ja/download/)してインストール
 2.  Visual Studio Code: [ダウンロード](https://code.visualstudio.com/download)してインストール
 
 ## 詳細手順
