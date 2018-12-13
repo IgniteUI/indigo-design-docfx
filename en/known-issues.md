@@ -52,6 +52,7 @@ The following Indigo.Design components are not implemented for code generation y
 * Cards
 * Navigation -> NavDrawer
 * Calendar
+* Dropdown
 
 The following Sketch components are not implemented for code generation yet:
 
