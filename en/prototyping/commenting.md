@@ -16,9 +16,9 @@ Prototypes you publish have support for real-time commenting.
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 
-Anyone you share the prototype link with can use the commenting panel in the prototype viewer and also subscribe to receive email notifications when new comments are added to the share.
+Anyone you share the prototype link with can use the commenting panel in the prototype viewer and also subscribe to receive email notifications when new comments are added to the prototype.
 
-To enable comments for your share you can use the settings section in the commenting panel of the prototype viewer toolbar, or the review and commenting options in the detail panel of your share.
+To enable comments for your prototype you can use the settings section in the commenting panel of the prototype viewer toolbar, or the review and commenting options in the detail panel of your prototype.
 
 <div class="divider--half"></div>
 <img src="../images/Commenting_2.png" srcset="../images/Commenting_2@2x.png 2x" />
