@@ -47,7 +47,7 @@ You'll see all the prototypes belonging to that workspace.
 Once you select a workspace, any prototypes you create and publish will belong to that workspace. 
 
 > [!Note]
->You can choose any prototype and use the `Copy to workspace` action to make a copy of that share in a different workspace.
+>You can choose any prototype and use the `Copy to workspace` action to make a copy of that prototype in a different workspace.
 
 ### Managing group workspaces
 
@@ -79,10 +79,10 @@ When do I get it? | How do I configure it?
 You're invited to a workspace | It's sent automatically. 
 You're added to a workspace |  It's sent automatically.
 Someone publishes to the workspace | Enable workspace notifications.
-Someone replaces a share | Enable workspace notifications.
-Someone deletes a share | Enable workspace notifications.
+Someone replaces a prototype | Enable workspace notifications.
+Someone deletes a prototype | Enable workspace notifications.
 Someone archives the workspace | Enable workspace notifications.
-There are new comments on a workspace share | Subscribe to notifications for the share.
+There are new comments on a workspace prototype | Subscribe to notifications for the prototype.
 There's a new participant in a workspace usability study | Subscribe to notifications for the usability study.
 
 ##  Learn More

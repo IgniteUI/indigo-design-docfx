@@ -12,7 +12,7 @@ Create a prototype and publish it to validate flows with stakeholders and users.
 
 ### 1. Create a new prototype
 
-Select the item with the plus icon from your share list to create a new prototype.
+Select the item with the plus icon from your prototype and library list to create a new prototype.
 
 <div class="divider--half"></div>
 <img src="../images/Creating_A_Prototype_1.png" srcset="../images/Creating_A_Prototype_1@2x.png 2x" />
