@@ -13,7 +13,7 @@ _language: ja
 
 ### 1. 新しいプロトタイプの作成
 
-共有リストから + アイコンの項目を選択し、新しいプロトタイプを作成します。
+プロトタイプとライブラリのリストから + アイコンの項目を選択し、新しいプロトタイプを作成します。
 
 <img src="../images/Creating_A_Prototype_1.png" srcset="../images/Creating_A_Prototype_1@2x.png 2x" />
 
