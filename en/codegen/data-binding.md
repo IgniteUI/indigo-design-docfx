@@ -35,4 +35,4 @@ In Sketch you could specify that you want to bind to the `street` property in `A
 
 <img src="../images/nested.png"/>
 
-This binding is assuming that `User` is going to be the model object name specified in the [Indigo.Design Code Generator](TODO) extension during code generation. It is important to note that wherever data binding is supported nested properties are also supported.
+This binding is assuming that `User` is going to be the model object name specified in the [Indigo.Design Code Generator](vscode-plugin.md) extension during code generation. It is important to note that wherever data binding is supported nested properties are also supported.
