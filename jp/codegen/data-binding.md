@@ -35,4 +35,4 @@ Sketch では、ネスト プロパティを使用して `Address` の `street` 
 
 <img src="../images/nested.png"/>
 
-このバインドは、`User` がコード生成時に [Indigo.Design Code Generator](TODO) 拡張子で指定したモデル オブジェクト名になります。データ バインディングがネスト プロパティをサポートするかどうかも重要です。
+このバインドは、`User` がコード生成時に [Indigo.Design Code Generator](vscode-plugin.md) 拡張子で指定したモデル オブジェクト名になります。データ バインディングがネスト プロパティをサポートするかどうかも重要です。
