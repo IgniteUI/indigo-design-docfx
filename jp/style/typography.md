@@ -22,7 +22,7 @@ _language: ja
 
 ### コンポーネント固有のタイポグラフィ
 
-[Avatar](../components/avatar.md)、[Hyperlink](../components/hyperlink.md)、[Text](../components/text.md) などのコンポーネントは仕様のコンポーネント固有のタイポグラフィを使用します。たとえば、Avatar は複数の色を使用し、Hyperlink は下線テキストを使用します。
+[Avatar](../components/avatar.md)、[Hyperlink](../components/hyperlink.md) などのコンポーネントは仕様のコンポーネント固有のタイポグラフィを使用します。たとえば、Avatar は複数の色を使用し、Hyperlink は下線テキストを使用します。
 
 <img src="../images/typography_specific.png" srcset="../images/typography_specific@2x.png 2x" />
 
