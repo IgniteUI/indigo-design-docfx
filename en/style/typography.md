@@ -25,7 +25,7 @@ Typography comes in multiple preset colors such as: `primary`, `secondary`, `act
 
 ### Component specific typography
 
-Components, such as [Avatar](avatar.md) and [Hyperlink](hyperlink.md) use component-specific Typography to accommodate the specifics of the styling used by the respective component e.g. the Avatar needs a larger variety of colors, while the Hyperlink comes with an underlined text.
+Components, such as [Avatar](../components/avatar.md) and [Hyperlink](../components/hyperlink.md) use component-specific Typography to accommodate the specifics of the styling used by the respective component e.g. the Avatar needs a larger variety of colors, while the Hyperlink comes with an underlined text.
 
 <img src="../images/typography_specific.png" srcset="../images/typography_specific@2x.png 2x" />
 
