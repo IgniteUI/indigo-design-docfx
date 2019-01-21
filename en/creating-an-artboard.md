@@ -214,7 +214,7 @@ Related topics:
 
 Our community is active and always welcoming to new ideas.
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+
 
 [a-1]: #1-add-the-indigo-design-libraries-in-sketch
 [a-2]: #2-create-an-artboard
