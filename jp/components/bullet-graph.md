@@ -109,4 +109,4 @@ Bullet Graph のスタイル設定は高い柔軟性があり、背景色の制�
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

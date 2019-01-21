@@ -103,4 +103,4 @@ State が無効またはスライダー部分が表示されない場合、コ�
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

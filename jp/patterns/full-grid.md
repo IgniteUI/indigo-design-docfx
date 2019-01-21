@@ -29,4 +29,4 @@ _language: ja
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

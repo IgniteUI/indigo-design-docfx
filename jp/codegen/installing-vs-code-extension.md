@@ -55,4 +55,4 @@ VS Code 拡張機能をインストールする前に、Visual Studio Code が�
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

@@ -98,4 +98,4 @@ Text プロパティは Hyperlink に表示するテキストを埋めるため�
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

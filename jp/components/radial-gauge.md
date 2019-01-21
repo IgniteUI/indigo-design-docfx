@@ -112,4 +112,4 @@ Radial Gauge で最大値の制御をオーバーライドします。[データ
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

@@ -46,4 +46,4 @@ Navigation Drawer は、アプリの主要ナビゲーションに使用する�
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

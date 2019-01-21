@@ -101,4 +101,4 @@ Sketch の制限によって Bottom Navigation コンポーネントの特定の
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

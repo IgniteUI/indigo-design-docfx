@@ -82,4 +82,4 @@ Sketch で画像を挿入する方法が 2 つあります。
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

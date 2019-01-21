@@ -71,4 +71,4 @@ Icon Buttons、List Items、Cards などで全般的な操作を記号として�
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

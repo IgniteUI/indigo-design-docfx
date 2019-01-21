@@ -162,4 +162,4 @@ Bodies (セル) が提供された場合、描画する列の数を決定しま�
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+
