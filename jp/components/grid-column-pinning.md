@@ -26,4 +26,4 @@ Grid 列固定は、固定列の右端の列で構成される Header Cell と B
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

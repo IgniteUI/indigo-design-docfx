@@ -69,4 +69,4 @@ Form パターンはログインと登録、予約、アドレス、支払、お
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

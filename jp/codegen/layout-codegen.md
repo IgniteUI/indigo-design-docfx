@@ -365,4 +365,4 @@ Sketch 画像はサポートされます。画像は、Sketch で固定した高
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

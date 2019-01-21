@@ -36,4 +36,4 @@ Details Pattern はレイアウトに含まれる以下の利用可能な要素�
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

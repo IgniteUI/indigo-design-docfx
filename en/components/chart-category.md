@@ -91,4 +91,4 @@ Related topic:
 
 Our community is active and always welcoming to new ideas.
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+

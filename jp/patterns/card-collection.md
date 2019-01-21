@@ -31,4 +31,4 @@ Card Collection パターンは Card の様々なタイプおよび (ある場�
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

@@ -152,4 +152,3 @@ Combo テキストは、値が選択されるまで Combo 入力でプレース 
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)

@@ -40,4 +40,4 @@ Indigo スタイリングはテーマ エンジンの実際の表示です。4 �
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

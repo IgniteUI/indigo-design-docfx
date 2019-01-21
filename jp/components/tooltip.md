@@ -51,4 +51,4 @@ Tooltip には、背景色の制御をオーバライドすることにより柔
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

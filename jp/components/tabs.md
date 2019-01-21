@@ -118,4 +118,4 @@ Text プロパティには、テキスト、[テキストのバインド](../cod
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+

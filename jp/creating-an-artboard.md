@@ -214,7 +214,7 @@ Insert メニューを使用して Indigo Design ライブラリからコンポ�
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+
 
 [a-1]: #1-add-the-indigo-design-libraries-in-sketch
 [a-2]: #2-create-an-artboard

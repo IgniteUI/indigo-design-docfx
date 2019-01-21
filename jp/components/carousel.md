@@ -77,4 +77,4 @@ Sketch 描画の Button および Slide エレベーション変更がコード�
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

@@ -87,4 +87,4 @@ NavBar のタイトル領域内に表示されます。Title プロパティに�
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+

@@ -65,4 +65,4 @@ Icon の色を指定した場合、Icon HTML 要素は div でラップされま
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

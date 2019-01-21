@@ -50,4 +50,4 @@ When displaying Tooltip for a given element it is important how the tooltip is p
 
 Our community is active and always welcoming to new ideas.
 
-- [Indigo Design **GitHub**](https://github.com/IgniteUI/design-system-docfx)
+

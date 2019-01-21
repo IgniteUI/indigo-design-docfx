@@ -94,4 +94,4 @@ Card はより詳細な情報についての概要やエントリ ポイント�
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

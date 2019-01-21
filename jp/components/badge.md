@@ -105,4 +105,4 @@ Type を Number に設定する場合、以下が適用されます。
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

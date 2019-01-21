@@ -29,4 +29,4 @@ Lists パターンは List Item の様々なタイプおよび (ある場合) Se
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

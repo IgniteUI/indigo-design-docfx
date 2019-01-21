@@ -81,4 +81,4 @@ Sketch 描画に追加される色スタイル オブジェクトは相対する
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

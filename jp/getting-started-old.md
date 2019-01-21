@@ -146,4 +146,4 @@ Indigo Design ライブラリを追加後、デザインを開始できます。
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+

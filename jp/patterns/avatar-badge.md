@@ -47,4 +47,4 @@ Badge は Avatar の 4 つ角のいずれかに配置できます。
 
 コミュニティに参加して新しいアイデアをご提案ください。
 
-- [Indigo Design **GitHub** (英語)](https://github.com/IgniteUI/design-system-docfx)
+
