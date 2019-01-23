@@ -9,6 +9,8 @@
   header: true
 - name: はじめてのアートボードを作成
   href: ../creating-an-artboard.md
+- name: Sync and Themes Plugin
+  href: ../sync-themes-plugin.md
 - name: スタイル設定
   items:
     - name: 概要
