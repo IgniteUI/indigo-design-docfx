@@ -114,7 +114,7 @@ Code generation creates HTML divs for two independent reasons:
 
 This is the source Sketch drawing that was used to generate the HTML and CSS in the image below this one.
 
-<img src="../images/layout_codegen_people8.png" />
+<img src="../images/layout_codegen_people6.png" />
 
 In the below image, the green tinted divs are layout divs, the yellow/green tinted divs are the Ignite UI Theming divs.
 
