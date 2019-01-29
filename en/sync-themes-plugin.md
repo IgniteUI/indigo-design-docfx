@@ -119,10 +119,13 @@ After selecting **Publish**, you will be shown the link of your prototype in the
 
 **4. Syncing with Indigo.Design cloud**
 
-During the ongoing design process, the user may sync his prototype design with the Indigo.Cloud. In order to do this, he has to select **Sync prototype** from the plugin menu. That will open a dialog with loading indicator. When Syncing is completed, a success screen will confirm it. 
+During the ongoing design process, the user may sync his prototype design with the Indigo.Cloud. In order to do this, he has to select **Sync prototype** from the plugin menu. 
  
 <img src="images/Sync_themes_plugin_Sync.png" srcset="images/Sync_themes_plugin_Sync@2x.png 2x" />
 
+It will open a dialog with loading indicator. When Syncing is completed, if successful a success screen will confirm it.
+
+<img src="images/Sync_themes_plugin_Success.png" srcset="images/Sync_themes_plugin_Success@2x.png 2x" />
 
 ## Additional Resources
 
