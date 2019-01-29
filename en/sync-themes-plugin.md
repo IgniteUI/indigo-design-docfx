@@ -10,7 +10,7 @@ The Indigo.Design Sketch Plugin allows users to create new themes and edit exist
 
 ## 1. Installing the Indigo.Design plugin
 
-Indigo.Design Plugin is bundled together with the Sketch UI kits, available for download after signing up on <a href="indigo.design">Indigo.Design</a> page. After signing in, you will enter <a href="https://cloud.indigo.design">Indigo.Design cloud</a>. There you can download both the Indigo.Design Plugin and the Sketch UI kits by selecting the button named **Download Indigo.Design assets**.
+The Indigo.Design Plugin is bundled together with the Sketch UI kits, and is available for download on [Indigo.Design Cloud](https://cloud.indigo.design) after signing in from the dialog that shows upon clicking the `Download Indigo.Design assets` button in the bottom left. Once you download the archive and open it, double click on the Sketch plugin file and the Indigo.Design plugin will be installed.
 
 <img src="images/Sync_themes_plugin_Download.png" srcset="images/Sync_themes_plugin_Download@2x.png 2x" />
 
