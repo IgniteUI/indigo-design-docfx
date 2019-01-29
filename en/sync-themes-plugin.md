@@ -10,9 +10,7 @@ The Indigo.Design Sketch Plugin allows users to create new themes and edit exist
 
 ### 1. Installing the Indigo.Design Plugin
 
-where to [download]() from (a link to cloud homepage to make people sign up)
-
-double click to install
+where to [download]() from (a link to cloud homepage to make people sign up) and double click to install.
 
 ### 2. Themes with the Indigo.Design Plugin
 
@@ -72,7 +70,59 @@ If you choose to edit the existing theme before applying, you are allowed to ren
 >
 > <img src="images/Sync_themes_plugin_difference.png" srcset="images/Sync_themes_plugin_difference@2x.png 2x" />
 
-### 3. Publish and Sync to the cloud with the Indigo.Design Plugin
+### 3. Publish and syncing prototype to the cloud with the Indigo.Design Plugin
+
+When you, as an end user, are ready to publish your design to Indigo.Design cloud, you have to go to the Sketch plugin menu and select Indigo.Design, then Publish prototype. You will be asked to log in to your Indigo.Design account or create a new one. When logged in, you have to select whether to create a new prototype or replace existing one. 
+
+<img src="images/Sync_themes_plugin_Publish.png" srcset="images/Sync_themes_plugin_Publish@2x.png 2x" />
+
+
+**1. Publishing new prototype**
+
+When logged in your Indigo.Design account, you will be asked to choose whether to create a new prototype or replace existing one where the current design will be published. On the **New prototype** tab, the user will be asked to:
+- choose screen size type for his current prototype, depending on the device for which the design was made
+- whether the prototype is Personal or Team owned and managed; if it belongs to a Team, then you have to specify which team
+- next the user has to give name for that prototype; by default the name is set to the name of the artboard (of the current design)
+- fourth step, which is not required, is to write a short brief description
+- as a user you can also set a Password in the next step
+- finally the user has options to select whether Hotspots and interactions to be highlighted and whether to allow comments on the design.
+Finally the user has to select Publish. 
+
+<img src="images/Sync_themes_plugin_New_prototype.png" srcset="images/Sync_themes_plugin_New_prototype@2x.png 2x" />
+
+
+**2. Replace existing prototype**
+
+Instead of publishing new prototype, the user may select overriding (replacing) an existing prototype. Then, he has to select the second tab **Replace prototype**. 
+Prototypes here can be filtered - whether they are Personal or belongs to a Team. In addition, there is a search input provided. More options action (on the right of each prototype thumbnail) gives the user options to:
+- choose screen size type for his current prototype, depending on the device for which the design was made
+- rename the prototype
+- whether the prototype is Personal or Team owned and managed
+- write a short brief description
+- set a password
+- edit the review and commenting options 
+After the user chooses the prototype that would be replaced, he has to select Publish.
+
+<img src="images/Sync_themes_plugin_Replace_prototype.png" srcset="images/Sync_themes_plugin_Replace_prototype@2x.png 2x" />
+
+
+**3. Completed publishing of prototype**
+
+After selecting **Publish**, you will be shown the link of your prototype in the Indigo Cloud plus options to:
+- view it workspace - you can view your prototype in the Indigo Cloud (in a browser window)
+- create usability study - from here, you can start Usability Study in the Indigo Cloud (opened in a browser window)
+- copy the Indigo Cloud link of your prototype 
+- finish the publishing process by selecting Done which closes the plugin dialog
+
+<img src="images/Sync_themes_plugin_Published_prototype.png" srcset="images/Sync_themes_plugin_Published_prototype@2x.png 2x" />
+
+
+**4. Syncing with Indigo.Design cloud**
+
+During the ongoing design process, the user may sync his prototype design with the Indigo.Cloud. In order to do this, he has to select **Sync prototype** from the plugin menu. That will open a dialog with loading indicator. When Syncing is completed, a success screen will confirm it. 
+ 
+<img src="images/Sync_themes_plugin_Sync.png" srcset="images/Sync_themes_plugin_Sync@2x.png 2x" />
+
 
 ## Additional Resources
 
