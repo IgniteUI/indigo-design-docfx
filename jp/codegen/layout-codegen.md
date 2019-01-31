@@ -115,7 +115,7 @@ Battleship 要素が水平方向に Actions Group と配置されますが、グ
 
 これは、以下の画像の HTML および CSS を生成するために使用されるソースの Sketch 描画です。
 
-<img src="../images/layout_codegen_people8.png" />
+<img src="../images/layout_codegen_people6.png" />
 
 以下の画像で、緑の div はレイアウト div で、黄の div は Ignite UI Theming の div です。
 
