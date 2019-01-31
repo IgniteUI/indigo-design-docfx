@@ -1,139 +1,140 @@
 ---
-title: Indigo.Design Sketch Plugin
-_description: The Indigo.Design Sketch Plugin allows users to manipulate the theme of the UI Kit, publish and keep their projects synced to the Indigo.Design Cloud.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Sketch Theme, Theme Editor
+title: Indigo.Design Sketch プラグイン
+_description: Indigo.Design Sketch プラグインは、UI キットのテーマの設定、公開、プロジェクトの Indigo.Design Cloud との同期が可能です。
+_keywords: デザイン システム, Design Systems UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design システム, Sketch からコードをエクスポート, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI キット, Sketch テーマ, テーマ エディター
+_language: ja
 ---
 
-## Indigo.Design Plugin
+## Indigo.Design プラグイン
 
-The Indigo.Design Sketch Plugin allows users to create new themes and edit existing ones when using the Indigo.Design UI Kit for Sketch. Users can adjust the `primary`, `secondary`, `error`, `success`, `warn`, and `info` colors, as well as properties of the Typography according to their brand characteristics. The plugin also lets users effortlessly publish their projects to the Indigo.Design Cloud and sync them up regularlty thereafter, when making changes and updates.
+Indigo.Design Sketch プラグインは、Indigo.Design UI Kit for Sketch を使用した新しいテーマの作成や既存のテーマの編集が可能です。`primary`、`secondary`、`error`、`success`、`warn`、`info` の色やブランディングに合わせたタイポグラフィのプロパティの調整ができます。プラグインはプロジェクトを簡単に Indigo.Design クラウドに公開し、変更や更新の際に定期的に同期させることができます。
 
-## 1. Installing the Indigo.Design plugin
+## 1.Indigo.Design プラグインのインストール
 
-Indigo.Design Plugin is bundled together with the Sketch UI kits, available for download after signing up on <a href="indigo.design">Indigo.Design</a> page. After signing in, you will enter <a href="https://cloud.indigo.design">Indigo.Design cloud</a>. There you can download both the Indigo.Design Plugin and the Sketch UI kits by selecting the button named **Download Indigo.Design assets**.
+Indigo.Design プラグインは、Sketch UI キットとバンドルされています。アカウントをお持ちでない場合は、<a href="indigo.design">Indigo.Design</a> ページでサインアップしてください。サインアップ後、<a href="https://cloud.indigo.design">Indigo.Design クラウド</a>にサインインします。**Indigo.Design アセットのダウンロード** ボタンをクリックして Indigo.Design プラグインと Sketch UI キットの両方をダウンロードできます。
 
 <img src="images/Sync_themes_plugin_Download.png" srcset="images/Sync_themes_plugin_Download@2x.png 2x" />
 
-## 2. Themes
+## 2.テーマ
 
-This section provides guidance and shows some best practices regarding the creation and application of themes in Sketch projects created with the Indigo.Design UI Kit. By sticking to the recommendations below you will be able to apply your brand assets, such as typography and colors, to your project and libraries. The result of this small effort is that all UI Components will consistently represent your brand in one or more projects.
+このセクションでは、Indigo.Design UI Kit で作成した Sketch プロジェクトでテーマを作成する際のベスト プラクティスについて説明します。以下の方法に従ってタイポグラフィや色などブランディング アセットをプロジェクトやライブラリに適用できます。複数のプロジェクト内のすべての UI コンポーネントで統一したブランディングを表現できます。
 
-### Launching theme configuration
+### テーマ構成の起動
 
-Navigate to the `Plugins` menu in Sketch and under `Indigo.Design` select `Themes`. In the modal that will be shown, you may choose one of the preset themes and tweak it as per your needs or create a new one.
+Sketch の `Plugins` メニューの `Indigo.Design` から `Themes` を選択します。モーダルで表示されるテーマの 1 つを選択して必要に応じて調整、あるいは新しいテーマを作成します。
 
 <img src="images/Sync_themes_plugin_Launching_the_plugin.png" srcset="images/Sync_themes_plugin_Launching_the_plugin@2x.png 2x" />
 
-### Creating a new theme
+### テーマの新規作成
 
-If you, want to build a theme from your brand and add it to your theme collection, select `New Theme` and adjust the colors and typographies to match your needs. The default values you will see initially match the [default theme](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes/examples.html#default-theme) in [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular).
+ブランディングに基づいてテーマをビルドし、テーマ コレクションに追加する場合は、`新しいテーマ`を選択して色やタイポグラフィを必要に応じて調整します。デフォルトの値は、[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) の [デフォルトのテーマ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes/examples.html#default-theme)と同じです。
 
 <img src="images/Sync_themes_plugin_Start_New_Theme.png" srcset="images/Sync_themes_plugin_Start_New_Theme@2x.png 2x" />
 
-#### 1. Naming your new theme
+#### 1.新しいテーマに名前を付ける
 
-Before you edit the Colors and Typography properties don't forget to specify the name of the theme. Picking a unique and descriptive name will make things easier once your list of preset themes starts to grow.
+Colors や Typography プロパティを編集する前にテーマの名前を指定します。テーマの説明となる名前を付けるとテーマが増えたときにわかりやすく便利です。
 
 <img src="images/Sync_themes_plugin_Naming_your_New_Theme.png" srcset="images/Sync_themes_plugin_Naming_your_New_Theme@2x.png 2x" />
 
-#### 2. Choosing brand and special colors
+#### 2.ブランディングと色の選択
 
-In order to specify the two palettes at the top you are allowed to set only their base values: `Primary 500` and `Secondary 500` since the rest of the shades will be generated automatically for you. Most of the time you will use these palettes with your brand colors. As to `Error`, `Success`, `Warning`, and `Info` colors we strongly recommend to take in mind the users' perception of the application for displaying errors, success messages, warnings, and informative content. The default colors provided, are found to be meaningful and appropriate for the majority of these cases. Colors are easily adjustable by clicking on them and providing either a HEX/RGB value or picking the color manually.
+上部にある 2 つのパレットを指定する場合、残りのシェードが自動的に生成されるためベース値 `Primary 500` と `Secondary 500` のみ設定できます。ほとんどの場合、ブランディング カラーのパレットを使用します。`Error`、`Success`、`Warning`、`Info` の色に関しては、アプリケーションに対するユーザーの知覚を考慮することをお勧めします。デフォルトの色は、ほとんどのケースにマッチする色になっています。テーマをクリックし、HEX/RGB 値を入力、または色を選択して簡単に調整できます。
 
 <img src="images/Sync_themes_plugin_Specify_colors.png" srcset="images/Sync_themes_plugin_Specify_colors@2x.png 2x" />
 
-#### 3. Selecting typography
+#### 3.タイポグラフィの選択
 
-Typeface properties can be adjusted from the `Typography` tab. A limited set of configurations are available, such as first and foremost choosing the font family to be used as a `Base Typeface`. Additionally one may want to tweak the font weight for each provided text style, which is also possible through the plugin. These text styles are applied not only to lines and paragraphs of text, but also on Components that may display text internally such as the Chipa among others.
+Typeface プロパティは、`Typography` タブで設定できます。`ベース タイプフェイス` としてよく使用されるフォントファミリなどが設定できます。追加で各テキスト スタイルのフォントの太さを調整する場合もプラグインで行うことができます。テキストのスタイルは線や段落、更に Chipa など内部にテキストを表示するコンポーネントにも適用されます。
 
 <img src="images/Sync_themes_plugin_Specify_typography.png" srcset="images/Sync_themes_plugin_Specify_typography@2x.png 2x" />
 
-#### 4. Saving and applying your theme
+#### 4.テーマの保存と適用
 
-Оnce you click Save and Apply, your theme will be saved and appear in the list of predefined themes. Also, your libraries will be updated and styles will propagate to your current project, a process that usually takes a few seconds to complete, depending on the libraries and size of the Sketch file opened.
+[保存] > [適用] をクリックするとテーマは保存されて定義済みテーマの一覧に表示されます。ライブラリが更新されてスタイルが現在のプロジェクトにプロパゲートされると、ライブラリと Sketch ファイルのサイズにもよりますが処理は通常数秒で終わります。
 
 <img src="images/Sync_themes_plugin_Saving_and_Applying_New_Theme.png" srcset="images/Sync_themes_plugin_Saving_and_Applying_New_Theme@2x.png 2x" />
 
-### Using an existing theme
+### 既存のテーマの使用
 
-If creating a theme is that easy, it is even easier to use and reuse one of the existing themes: default provided by us or custom added by you if you have played around with the plugin a bit already. Besides one-click theme utilization, you are also able to tweak a theme before applying it, or in order to clean up the collection in your plugin - delete it.
+テーマの作成は簡単ですが、既存テーマ (デフォルトまたはカスタム) の再利用はより簡単です。テーマは 1 クリックで選択できる以外に適用する前に調整することも可能です。あるいはプラグインのコレクションをクリーンアップするために削除することもできます。
 
 <img src="images/Sync_themes_plugin_existing_theme.png" srcset="images/Sync_themes_plugin_existing_theme@2x.png 2x" />
 
-#### Editing a theme
+#### テーマの編集
 
-If you choose to tweak an existing theme before applying it, you may configure one or more of the entities described in the theme creation section above according to your needs.
+既存のテーマを適用する前に調整する場合は、上記『テーマの作成』セクションで説明したエントリをいくつか設定できます。
 
 <img src="images/Sync_themes_plugin_Editing_theme_name_colors_typography.png" srcset="images/Sync_themes_plugin_Editing_theme_name_colors_typography@2x.png 2x" />
 
 > [!Note]
-> Make sure that your brand colors and the generated palettes for `Primary` and `Secondary` are sufficiently destinguishable enough from `Error`, `Success`, `Warning`, and `Info` colors.
+> `Error`、`Success`、`Warning`、`Info` の色がブランディング カラーや `Primary` と `Secondary` のために生成したパレットと区別できるようにします。
 >
 > <img src="images/Sync_themes_plugin_difference.png" srcset="images/Sync_themes_plugin_difference@2x.png 2x" />
 
-## 3. Publish and sync prototypes to the cloud
+## 3.クラウドへのプロトタイプの公開と同期
 
-When you are ready to publish your work as a prototype to the Indigo.Design Cloud, navigate to the `Plugins` menu in Sketch, select `Indigo.Design`, and then `Publish Prototype`. The first time you run the cloud integration functionality of the plugin, you will be asked to log in with your Indigo.Design account. Next, you will encounter the first step of publishing a prototype: selecting whether to create new or replace an existing one.
+Indigo.Design クラウドにプロトタイプを公開する準備ができたら Sketch の `Plugins` メニューから `Indigo.Design` > `Publish Prototype` を選択します。プラグインのクラウド インテグレーション機能をはじめて実行する場合、Indigo.Design アカウントでログインする必要があります。プロトタイプを公開する際場合、はじめに新しいプロトタイプを作成するか既存のプロトタイプを置き換えるかを選択してください。
 
 <img src="images/Sync_themes_plugin_Publish.png" srcset="images/Sync_themes_plugin_Publish@2x.png 2x" />
 
-#### 1. Publishing new prototype
+#### 1.新しいプロトタイプの公開
 
-You have a Sketch project that you feel is robust enough to share with others. You can publish it to the Indigo.Design Cloud and share for some early feedback to begin with. This is achievable in the `New prototype` tab, where you may:
+共有したい Sketch プロジェクトがある場合、Indigo.Design クラウドへ公開して早い段階でフィードバックをもらうことができます。`New prototype` タブで実行でき、以下が可能です。
 
-- choose device type and resolution - by default they should match the size of your artboards
-- select whether the prototype should be published to a personal or team workspace and which one
-- provide a name for the prototype - by default it will match the Sketch project file name
-- optionally write a brief description
-- password-protect your prototype
-- choose to highlight hotspots and interactions
-- allow comments on the design
+- デバイス タイプと解像度の選択 (デフォルトでアートボードと一致する必要があります)
+- プロトタイプをパーソナルまたはチーム ワークスペースに公開するかどうかを選択
+- プロトタイプの名前を提供 (デフォルトで Sketch プロジェクト ファイルの名前と一致)
+- 簡単な説明文の追加 (オプション)
+- プロトタイプのパスワード保護
+- ホットスポットとインタラクションの強調表示を選択
+- デザインにコメントを許可
 
-Once you click the Publish button, the project is uploaded to the Indigo.Design Cloud and you will get a link to it, which you may share for feedback or use to [generate code](codegen/vscode-plugin.md).
+[公開] ボタンをクリックするとプロジェクトが Indigo.Design Cloud へアップロードされます。これによりフィードバックをもらったり[コードを生成](codegen/vscode-plugin.md)したりすることができます。
 
 <img src="images/Sync_themes_plugin_New_prototype.png" srcset="images/Sync_themes_plugin_New_prototype@2x.png 2x" />
 
-#### 2. Update an existing prototype
+#### 2.既存プロトタイプの更新
 
-Instead of publishing a new prototype, you may want to update an existing one by replacing its screens in the cloud with more recent ones. To achieve this, you should navigate to the `Replace prototype` tab. Here you may search and filter prototypes e.g. by their belonging to your personal or to a team wrokspace. You may also alter the prototype configurations that were defined at the time of creation:
+新しいプロトタイプを公開する他、クラウドにあるスクリーンをより新しいスクリーンと置き換えて既存のプロトタイプを更新することもできます。`プロトタイプの置き換え`タブへ移動し、プロトタイプの検索やフィルタリングができます (パーソナルまたはチームワークスペースにある場合など)。作成時に定義したプロトタイプの構成を変更することもできます。
 
-- device type and resolution
-- name
-- workspace
-- brief description
-- password
-- highlights on hotspots and interactions
-- comments
+- デバイスタイプと解像度
+- 名前
+- ワークスペース
+- 簡単な説明
+- パスワード
+- ホットスポットとインタラクションのハイライト
+- コメント
 
 <img src="images/Sync_themes_plugin_Replace_prototype.png" srcset="images/Sync_themes_plugin_Replace_prototype@2x.png 2x" />
 
-#### 3. Prototype publish is completed
+#### 3.プロトタイプの公開
 
-Once the prototype is successfully published to the cloud, you will be handed the link to it plus options to:
+プロトタイプがクラウドへ正しく公開されるとリンクの他に以下のオプションがあります。
 
-- view it in the workspace it belongs to, which will opent it up in a browser window
-- create usability study, which will initialize a [remote usability study](prototyping/setting-up-a-usability-study.md) and open it in a browser window for further configuration
-- copy the prototype link to your clipboard in case you want to send it over email or use it to generate code
+- ブラウザ ウィンドウでワークスペースを閲覧
+- ユーザビリティ テストを作成し、[リモート ユーザービリティ テスト](prototyping/setting-up-a-usability-study.md) を初期化してブラウザーで開く
+- クリップボードにプロトタイプのリンクをコピーしてメールで送信、またはコードを生成
 
-Once you click on Done the plugin dialog will close and you can continue designing in Sketch.
+プラグイン ダイアログで完了をクリックすると引き続き Sketch でデザインできます。
 
 <img src="images/Sync_themes_plugin_Published_prototype.png" srcset="images/Sync_themes_plugin_Published_prototype@2x.png 2x" />
 
-#### 4. Syncing a prototype
+#### 4.プロトタイプの同期
 
-After the initial publish of a prototype, while your creative process continue to flow, you will likely want to tweak some things push some pixels and keep your published prototype in sync. To achieve this, select `Sync Prototype` from the plugin menu instead.
+プロトタイプを最初に公開した後もデザイン フローが継続されるため、細かな調整や公開したプロトタイプと同期する必要があります。プラグイン メニューから `プロトタイプの同期` を選択します。
 
 <img src="images/Sync_themes_plugin_Sync.png" srcset="images/Sync_themes_plugin_Sync@2x.png 2x" />
 
-This will publish your current project to the last prototype that you have published by opening a dialog informing you about the progress of this process. Once the prototype is synced successfully you will be notified and the plugin dialog will automatically close after a few seconds allowing you to continue iterating your idea.
+これにより現在のプロジェクトを前回公開したプロトタイプへ公開します。進捗状況がダイアログで表示されます。プロトタイプが正しく同期されると通知が表示されて、数秒後にダイアログが自動的に閉じられます。
 
 <img src="images/Sync_themes_plugin_Success.png" srcset="images/Sync_themes_plugin_Success@2x.png 2x" />
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
-- [Colors](../style/colors.md)
-- [Typography](../style/typography.md)
+- [色](../style/colors.md)
+- [タイポグラフィ](../style/typography.md)
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
