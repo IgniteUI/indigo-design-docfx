@@ -7,7 +7,7 @@ _language: ja
 
 ## Indigo.Design プラグイン
 
-Indigo.Design Sketch プラグインは、Indigo.Design UI Kit for Sketch を使用した新しいテーマの作成や既存のテーマの編集が可能です。`プライマリ`、`セカンダリ`、`エラー`、`成功`、`警告`、`情報` の色やブランディングに合わせたタイポグラフィのプロパティの調整ができます。プラグインはプロジェクトを簡単に Indigo.Design クラウドに公開し、変更や更新の際に定期的に同期させることができます。
+Indigo.Design Sketch プラグインは、Indigo.Design UI Kit for Sketch を使用した新しいテーマの作成や既存のテーマの編集が可能です。`primary` (プライマリ), `secondary` (セカンダリ), `error` (エラー), `success` (成功), `warn` (警告), `info`(情報) の色やブランディングに合わせたタイポグラフィのプロパティの調整ができます。プラグインはプロジェクトを簡単に Indigo.Design クラウドに公開し、変更や更新の際に定期的に同期させることができます。
 
 ## 1.Indigo.Design プラグインのインストール
 
@@ -39,7 +39,7 @@ Colors や Typography プロパティを編集する前にテーマの名前を�
 
 #### 2.ブランディングと色の選択
 
-上部にある 2 つのパレットを指定する場合、残りのシェードが自動的に生成されるためベース値 `Primary 500` と `Secondary 500` のみ設定できます。ほとんどの場合、ブランディング カラーのパレットを使用します。`エラー`、`成功`、`警告`、`情報` の色に関しては、アプリケーションに対するユーザーの知覚を考慮することをお勧めします。デフォルトの色は、ほとんどのケースにマッチする色になっています。テーマをクリックし、HEX/RGB 値を入力、または色を選択して簡単に調整できます。
+上部にある 2 つのパレットを指定する場合、残りのシェードが自動的に生成されるためベース値 `Primary 500` と `Secondary 500` のみ設定できます。ほとんどの場合、ブランディング カラーのパレットを使用します。`error` (エラー), `success` (成功), `warn` (警告), `info`(情報) の色に関しては、アプリケーションに対するユーザーの知覚を考慮することをお勧めします。デフォルトの色は、ほとんどのケースにマッチする色になっています。テーマをクリックし、HEX/RGB 値を入力、または色を選択して簡単に調整できます。
 
 <img src="images/Sync_themes_plugin_Specify_colors.png" srcset="images/Sync_themes_plugin_Specify_colors@2x.png 2x" />
 
@@ -68,7 +68,7 @@ Typeface プロパティは、`Typography` タブで設定できます。`ベー
 <img src="images/Sync_themes_plugin_Editing_theme_name_colors_typography.png" srcset="images/Sync_themes_plugin_Editing_theme_name_colors_typography@2x.png 2x" />
 
 > [!Note]
-> `エラー`、`成功`、`警告`、`情報` の色がブランディング カラーや `プライマリ` と `セカンダリ` のために生成したパレットと区別できるようにします。
+> `error` (エラー), `success` (成功), `warn` (警告), `info`(情報) の色がブランディング カラーや `プライマリ` と `セカンダリ` のために生成したパレットと区別できるようにします。
 >
 > <img src="images/Sync_themes_plugin_difference.png" srcset="images/Sync_themes_plugin_difference@2x.png 2x" />
 
