@@ -15,7 +15,7 @@ Bottom Navigation コンポーネント は、関連ビュー間のブラウジ�
 
 ### 項目数
 
-Bottom Navigation は 2 項目 ～ 5 項目をサポートします。アプリケーション レベルで 5 項目以上のナビゲーションまたはビューをデザインする場合は、[Navigation Drawer](nav-drawer.md) の使用を検討してください。
+Bottom Navigation は 2 項目 ～ 5 項目をサポートします。アプリケーション testレベルで 5 項目以上のナビゲーションまたはビューをデザインする場合は、[Navigation Drawer](nav-drawer.md) の使用を検討してください。
 
 <img src="../images/bottom-nav_items2.png" srcset="../images/bottom-nav_items2@2x.png 2x" />
 <img src="../images/bottom-nav_items3.png" srcset="../images/bottom-nav_items3@2x.png 2x" />
