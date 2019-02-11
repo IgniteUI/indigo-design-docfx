@@ -1,6 +1,6 @@
 ---
 title: Known Issues - Design System
-_description: The issues and limitations that we are aware of with the guidance how to avoid or recover in case you run into them. 
+_description: The issues and limitations that we are aware of with the guidance how to avoid or recover in case you run into them.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
@@ -49,23 +49,23 @@ Images that were created using the second method above and are used as backgroun
 
 The following Indigo.Design components are not implemented for code generation yet:
 
-* Cards
-* Navigation -> NavDrawer
-* Calendar
-* Dropdown
+- Cards
+- Navigation -> NavDrawer
+- Calendar
+- Dropdown
 
 The following Sketch components are not implemented for code generation yet:
 
-* Shapes
-    * Line
-    * Arrow
-    * Star
-    * Polygon
-    * Triangle
-* Vector
-* Pencil
-* Mask
-* Elevation
+- Shapes
+  - Line
+  - Arrow
+  - Star
+  - Polygon
+  - Triangle
+- Vector
+- Pencil
+- Mask
+- Elevation
 
 > [!Note]
 > Future releases will include these components.
@@ -75,10 +75,4 @@ The following Sketch components are not implemented for code generation yet:
 As this is not completed we give each element 100% width instead of calculating a specific percent based on their width relative to other row elements:
 [Proportional Width Sizing](codegen/layout-codegen.md#proportional-width-sizing)
 
-## Additional Resources
-
-Related topics:
-
 Our community is active and always welcoming to new ideas.
-
-

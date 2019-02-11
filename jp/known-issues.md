@@ -50,24 +50,23 @@ Sketch で画像を挿入する方法が 2 つあります。
 
 以下の Indigo.Design コンポーネントはまだコード生成で実装されていません。
 
-* Cards
-* Navigation -> NavDrawer
-* Calendar
-* Dropdown
+- Cards
+- Navigation -> NavDrawer
+- Calendar
+- Dropdown
 
 以下の Sketch コンポーネントはまだコード生成で実装されていません。
 
-* Shape
-	* Line
-	* Arrow
-	* Star
-	* Polygon
-	* Triangle
-* Vector
-* Pencil
-* Text
-* Mask
-* Elevation
+- Shapes
+  - Line
+  - Arrow
+  - Star
+  - Polygon
+  - Triangle
+- Vector
+- Pencil
+- Mask
+- Elevation
 
 > [!Note]
 > 以後のリリースはこのコンポーネントのコード生成を含む予定があります。
