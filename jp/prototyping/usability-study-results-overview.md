@@ -17,7 +17,7 @@ _language: ja
 
 テストのすべてのタスクの情報を示します。
 
-<img src="../images/Usability_Study_Results_Overview_1.png" srcset="../images/Usability_Study_Results_Overview_1@2x.png 2x" />
+<img src="../images/usability_study_results_overview_1.png" srcset="../images/usability_study_results_overview_1@2x.png 2x" />
 
 <div class="divider--half"></div>
 
@@ -32,7 +32,7 @@ _language: ja
 
 各参加者のメトリックを示します。
 
-<img src="../images/Usability_Study_Results_Overview_2.png" srcset="../images/Usability_Study_Results_Overview_2@2x.png 2x" />
+<img src="../images/usability_study_results_overview_2.png" srcset="../images/usability_study_results_overview_2@2x.png 2x" />
 
 <div class="divider--half"></div>
 
@@ -48,7 +48,7 @@ _language: ja
 
 参加者は、ほとんどのタスクにおいてタスク作成時の記録されたフローのみでなく、好きな手順でもタスクを完了できます。これらのタスクのレポートは、フローの異なるフロー カテゴリを示します。
 
-<img src="../images/Usability_Study_Results_Overview_3.png" srcset="../images/Usability_Study_Results_Overview_3@2x.png 2x" />
+<img src="../images/usability_study_results_overview_3.png" srcset="../images/usability_study_results_overview_3@2x.png 2x" />
 
 <div class="divider--half"></div>
 
@@ -58,7 +58,7 @@ _language: ja
 
 ## セッション記録ビューア―
 
-<img src="../images/Understanding_The_Usability_Study_Report_3.png" srcset="../images/Understanding_The_Usability_Study_Report_3@2x.png 2x" />
+<img src="../images/understanding_the_usability_study_report_3.png" srcset="../images/understanding_the_usability_study_report_3@2x.png 2x" />
 
 <div class="divider--half"></div>
 
@@ -72,7 +72,7 @@ _language: ja
 
 ### ナビゲーション
 
-<img src="../images/Understanding_The_Usability_Study_Report_4.png" srcset="../images/Understanding_The_Usability_Study_Report_4@2x.png 2x" />
+<img src="../images/understanding_the_usability_study_report_4.png" srcset="../images/understanding_the_usability_study_report_4@2x.png 2x" />
 
 <div class="divider--half"></div>
 
@@ -84,7 +84,7 @@ _language: ja
 
 ビデオをレビューする際に記録にメモを追加できます。タイムラインにメモ マーカーを追加できます。タイム スタンプのチェック ボックスを解除するとマーカーは追加されません。
 
-<img src="../images/Understanding_The_Usability_Study_Report_5.png" srcset="../images/Understanding_The_Usability_Study_Report_5@2x.png 2x" />
+<img src="../images/understanding_the_usability_study_report_5.png" srcset="../images/understanding_the_usability_study_report_5@2x.png 2x" />
 
 <div class="divider--half"></div>
 
@@ -94,7 +94,7 @@ _language: ja
 
 右下のギア アイコンをクリックしてダウンロードを選択しビデオをダウンロードします。
 
-<img src="../images/Understanding_The_Usability_Study_Report_6.png" srcset="../images/Understanding_The_Usability_Study_Report_6@2x.png 2x" />
+<img src="../images/understanding_the_usability_study_report_6.png" srcset="../images/understanding_the_usability_study_report_6@2x.png 2x" />
 
 <div class="divider--half"></div>
 

@@ -41,7 +41,7 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
 2.  Open up the Sketch app on your Mac, click on the Sketch item from the Apple Menu, and select Preferences.
 
   <div class="divider--half"></div>
-  <img src="images/Creating_An_Artboard_2.png" srcset="images/Creating_An_Artboard_2@2x.png 2x" />
+  <img src="images/creating_an_artboard_2.png" srcset="images/creating_an_artboard_2@2x.png 2x" />
   <div class="divider--half"></div>
   <div class="divider--half"></div>
   <div class="divider--half"></div>

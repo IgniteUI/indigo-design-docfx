@@ -9,7 +9,7 @@ _language: ja
 
 公開したプロトタイプに基づいてユーサビリティ テストを作成します。プロトタイプの作成と公開については、[このトピック](creating-a-prototype.md)を参照してください。 
 
-<img src="../images/Setting_Up_a_Usability_Study_1.png" srcset="../images/Setting_Up_a_Usability_Study_1@2x.png 2x" />
+<img src="../images/setting_up_a_usability_study_1.png" srcset="../images/setting_up_a_usability_study_1@2x.png 2x" />
 
 <div class="divider--half"></div>
 
@@ -23,7 +23,7 @@ _language: ja
 
 1. 公開したプロトタイプを選択して詳細を表示します。
 
-    <img src="../images/Setting_Up_a_Usability_Study_2.png" srcset="../images/Setting_Up_a_Usability_Study_2@2x.png 2x" />
+    <img src="../images/setting_up_a_usability_study_2.png" srcset="../images/setting_up_a_usability_study_2@2x.png 2x" />
 
     <div class="divider--half"></div>
 
@@ -34,7 +34,7 @@ _language: ja
     ウェルカム メッセージはテストを始める前に参加者に表示されるメッセージです。
     お礼文は、参加者がテストを完了した後に送信されます。たとえば、テスト後にアンケートの回答を促すこともできます。
 
-    <img src="../images/Setting_Up_a_Usability_Study_3.png" srcset="../images/Setting_Up_a_Usability_Study_3@2x.png 2x" />
+    <img src="../images/setting_up_a_usability_study_3.png" srcset="../images/setting_up_a_usability_study_3@2x.png 2x" />
 
     <div class="divider--half"></div>
 
@@ -47,7 +47,7 @@ _language: ja
 
 1. タスクを追加するために`新しいタスクの追加`をクリックします。説明を追加します。
 
-    <img src="../images/Setting_Up_a_Usability_Study_4.png" srcset="../images/Setting_Up_a_Usability_Study_4@2x.png 2x" />
+    <img src="../images/setting_up_a_usability_study_4.png" srcset="../images/setting_up_a_usability_study_4@2x.png 2x" />
 
     <div class="divider--half"></div>
 
@@ -62,7 +62,7 @@ _language: ja
 
     デフォルトで最初に開始状態が表示されます。タスクに基づいて開始ポイントとしてステートを選択できます。
 
-    <img src="../images/Setting_Up_a_Usability_Study_5.png" srcset="../images/Setting_Up_a_Usability_Study_5@2x.png 2x" />
+    <img src="../images/setting_up_a_usability_study_5.png" srcset="../images/setting_up_a_usability_study_5@2x.png 2x" />
 
     <div class="divider--half"></div>
 
@@ -81,7 +81,7 @@ _language: ja
 
 ### 参加者の招待
 
-<img src="../images/Setting_Up_a_Usability_Study_6.png" srcset="../images/Setting_Up_a_Usability_Study_6@2x.png 2x" />
+<img src="../images/setting_up_a_usability_study_6.png" srcset="../images/setting_up_a_usability_study_6@2x.png 2x" />
 
 <div class="divider--half"></div>
 

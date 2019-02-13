@@ -41,7 +41,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 2.  Mac で Sketch アプリケーションを開き、Apple メニューから Sketch 項目をクリックして Preferences を選択します。
 
   <div class="divider--half"></div>
-  <img src="images/Creating_An_Artboard_2.png" srcset="images/Creating_An_Artboard_2@2x.png 2x" />
+  <img src="images/creating_an_artboard_2.png" srcset="images/creating_an_artboard_2@2x.png 2x" />
   <div class="divider--half"></div>
   <div class="divider--half"></div>
   <div class="divider--half"></div>
