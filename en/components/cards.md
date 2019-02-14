@@ -18,7 +18,7 @@ The Card has three distinct areas: `header` which holds a combination of title a
 
 |         |                                                                                                |
 | ------- | ---------------------------------------------------------------------------------------------- |
-| header  | <img src="../images/card_headerL.png" srcset="../images/card_headerL@2x.png 2x" />             |
+| header  | <img src="../images/card_headerl.png" srcset="../images/card_headerl@2x.png 2x" />             |
 | content | <img src="../images/card_content_image.png" srcset="../images/card_content_image@2x.png 2x" /> |
 | actions | <img src="../images/card_actions_icons.png" srcset="../images/card_actions_icons@2x.png 2x" /> |
 
@@ -26,8 +26,8 @@ The Card has three distinct areas: `header` which holds a combination of title a
 
 The Card Header supports three distinct layouts: **Large Title** which provides a large title and a subtitle, Small Title which provides a small title and a subtitle, and Small Title Only which provides a small title and no subtitle.
 
-<img src="../images/card_headerL.png" srcset="../images/card_headerL@2x.png 2x" />
-<img src="../images/card_headerS.png" srcset="../images/card_headerS@2x.png 2x" />
+<img src="../images/card_headerl.png" srcset="../images/card_headerl@2x.png 2x" />
+<img src="../images/card_headers.png" srcset="../images/card_headers@2x.png 2x" />
 <img src="../images/card_header_title.png" srcset="../images/card_header_title@2x.png 2x" />
 
 ### Content

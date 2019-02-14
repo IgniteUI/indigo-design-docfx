@@ -13,7 +13,7 @@ Indigo.Design は、ビジュアル デザイン、UX プロトタイプ、コ�
 
 Indigo.Design はデザインから開発までのワークフローをサポートする 3 つの機能を提供します。
 
-<img src="images/Indigo-Design-how-it-works.png" />
+<img src="images/indigo-design-how-it-works.png" />
 
 1.  Sketch で `Indigo.Design` システムを使用してデザインを作成
 2.  プロトタイプを共有し、`cloud.indigo.design` でユーザーとテストしてコラボレーション

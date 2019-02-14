@@ -19,7 +19,7 @@ Card には 3 つの領域 (`header` - タイトルとサブタイトルの組�
 
 |           |                                                                                                |
 | --------- | ---------------------------------------------------------------------------------------------- |
-| `header`  | <img src="../images/card_headerL.png" srcset="../images/card_headerL@2x.png 2x" />             |
+| `header`  | <img src="../images/card_headerl.png" srcset="../images/card_headerL@2x.png 2x" />             |
 | `content` | <img src="../images/card_content_image.png" srcset="../images/card_content_image@2x.png 2x" /> |
 | `actions` | <img src="../images/card_actions_icons.png" srcset="../images/card_actions_icons@2x.png 2x" /> |
 
@@ -27,8 +27,8 @@ Card には 3 つの領域 (`header` - タイトルとサブタイトルの組�
 
 Card ヘッダーは、3 種類のレイアウト (**Large Title** - 大きいタイトルとサブタイトル、Small Title - スモール タイトルとサブタイトル、Small Title - スモール タイトルのみ (サブタイトルなし) をサポートします。
 
-<img src="../images/card_headerL.png" srcset="../images/card_headerL@2x.png 2x" />
-<img src="../images/card_headerS.png" srcset="../images/card_headerS@2x.png 2x" />
+<img src="../images/card_headerl.png" srcset="../images/card_headerL@2x.png 2x" />
+<img src="../images/card_headers.png" srcset="../images/card_headerS@2x.png 2x" />
 <img src="../images/card_header_title.png" srcset="../images/card_header_title@2x.png 2x" />
 
 ### コンテンツ
