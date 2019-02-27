@@ -18,7 +18,7 @@ Before you can install the VS Code Extension, please make sure you have Visual S
 2.  Once Visual Studio Code is open, select "View" then "Extensions" from the main menu
 
     <div class="divider--half"></div>
-    <img src="../images/vs-code-extension-drop-down.png" />
+    <img class="responsive-img" src="../images/vs-code-extension-drop-down.png" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -30,7 +30,7 @@ Before you can install the VS Code Extension, please make sure you have Visual S
 4.  Select "Install from VSIX" from the dropdown menu
 
     <div class="divider--half"></div>
-    <img src="../images/vs-code-install-vsix.png" />
+    <img class="responsive-img" src="../images/vs-code-install-vsix.png" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -39,7 +39,7 @@ Before you can install the VS Code Extension, please make sure you have Visual S
 
 5.  Browse to the location of the unzipped file you downloaded to select the VS Code Extension
     <div class="divider--half"></div>
-    <img src="../images/vs-code-select-vsix.png" />
+    <img class="responsive-img" src="../images/vs-code-select-vsix.png" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -48,7 +48,7 @@ Before you can install the VS Code Extension, please make sure you have Visual S
 
 The extension is now installed on your machine.
 
-<img src="../images/vs-code-generator-installed.png" />
+<img class="responsive-img" src="../images/vs-code-generator-installed.png" />
 
 ## Additional Resources
 

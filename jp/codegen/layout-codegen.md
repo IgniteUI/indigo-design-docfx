@@ -17,11 +17,11 @@ _language: ja
 
 以下の画像で `peopleEdit` の Sketch Group がコード生成のために選択されます。その他の要素はアプリケーションおよびコンポーネントをコンテキストに表示するクロームです。
 
-<img src="../images/layout_codegen_people1.png" />
+<img class="responsive-img" src="../images/layout_codegen_people1.png" />
 
 以下の画像で `peopleList` および `peopleDetails` の Sketch Group を選択し、ナビゲーションのクローム要素を無視します。
 
-<img src="../images/layout_codegen_people2.png" />
+<img class="responsive-img" src="../images/layout_codegen_people2.png" />
 
 ### コンポーネントのサイズ
 
@@ -85,25 +85,25 @@ Y 軸の並べ替えは、コード生成が同じまたは近い Y 軸値を持
 
 以下の描画で、2 つの「Row A」ボタンがこの動作を紹介します。2 つの「Row B」ボタンはその他の例です。以下の描画は 3 つの div を含む HTML になります。1 つは親 div で、1 つは「Row A」の子 div で、1 つは「Row B」の子 div です。「Row C」の行に単一の子があるため、div が作成されません。
 
-<img src="../images/layout_codegen_people3.png" />
+<img class="responsive-img" src="../images/layout_codegen_people3.png" />
 
 以下の画像で 2 つのグループ (div) が動的に生成されます。1 つは州、市、郵便番号を含み、もう一方は 2 つのボタンを含みます。名前が行の単一の子であるため、div は作成されません。
 親がアートボード (親も単一のグループにあることが可能) のため、生成された div の CSS クラス名の生成で、親名は CSS クラス名の生成で使用されます。以下の例で、州、市、郵便番号を含むグループの CSS 名は "form" で、ボタンのグループの名前は "form-1" になります。
 
-<img src="../images/layout_codegen_people4.png" />
+<img class="responsive-img" src="../images/layout_codegen_people4.png" />
 
 以下のように要素が Sketch 描画でグループ化される場合、コード生成が各グループに同じレイアウト グループ処理を適用します。以下の画像で、グループ内の要素が同じまたは近い Y 軸値があり、同じ div に描画されます。結果は Address の div および Buttons の div があります。
 
-<img src="../images/layout_codegen_people5.png" />
+<img class="responsive-img" src="../images/layout_codegen_people5.png" />
 
 以下の画像で Buttons グループは 3 つのボタンを含みます。2 つのボタンは同じまたは同様の Y 軸値があり、その他のボタンは下に配置されます。コード生成は Buttons div、CANCEL および SAVE ボタンの div を作成し、DELETE ボタンを Buttons div の子として描画します。
 
-<img src="../images/layout_codegen_people6.png" />
+<img class="responsive-img" src="../images/layout_codegen_people6.png" />
 
 レイアウト グループがグループに含まれない要素のために作成された場合に動的に生成された div (行) に追加される Group があると、生成されたレイアウトは無効になります。以下の画像では、上部の Artboard で一貫性のあるレイアウトを生成するために正しくグループ化されています。Battleship および Actions は ImageButtons グループにグループ化されます。
 Battleship 要素が水平方向に Actions Group と配置されますが、グループ化されないため、下の Artboard に無効なグループ化があります。このルールはその他の Group と行に配置される要素のみに適用します。
 
-<img src="../images/layout_codegen_people7.png" />
+<img class="responsive-img" src="../images/layout_codegen_people7.png" />
 
 ## 生成された HTML
 
@@ -115,7 +115,7 @@ Battleship 要素が水平方向に Actions Group と配置されますが、グ
 
 これは、以下の画像の HTML および CSS を生成するために使用されるソースの Sketch 描画です。
 
-<img src="../images/layout_codegen_people6.png" />
+<img class="responsive-img" src="../images/layout_codegen_people6.png" />
 
 以下の画像で、緑の div はレイアウト div で、黄の div は Ignite UI Theming の div です。
 
@@ -127,14 +127,14 @@ Battleship 要素が水平方向に Actions Group と配置されますが、グ
 | delete         |Delete ボタンに Theme CSS を提供します。                                                                                                                                                                                                           |
 | actions-1      |これは最後に作成された CSS クラス名です。そのため、-1 が名前に追加されます。この div は Sketch の Actions グループ要素のために作成されます。このグループは子の親 div になり、子を上記のレイアウト手順によって描画します。 |
 
-<img src="../images/layout_codegen_people9.png" />
+<img class="responsive-img" src="../images/layout_codegen_people9.png" />
 
 ## グループの背景色
 
 Sketch デザイナーはグループまたはアートボードの背景として塗りつぶされた長方形を使用します。このベータ版では Indigo-Styling Color 要素を以下のように使用できます。このように使用される色の高さおよび幅を親に対して +- 3 に設定する必要があります。以下の Artboard および Group の色要素の使用に注意してください。
 上下左右へのピン固定はオプションです。上記のマージン ルールが適用される場合に背景色が作成されます。
 
-<img src="../images/layout_codegen_people10.png" />
+<img class="responsive-img" src="../images/layout_codegen_people10.png" />
 
 ## 高さ
 
@@ -190,9 +190,9 @@ Image は常に Sketch の固定の高さを使用します。
 
 | Sketch のレイアウト設定                            |幅                                                                                                                                                                                                         |
 | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="../images/layout_codegen_table1.png" />|デフォルトの状態です。要素が行で単一の子の場合、幅は 100% です。要素が複数の要素がある行にある場合、以下比例的な幅サイズ変更ルールが適用されます。 |
-| <img src="../images/layout_codegen_table2.png" />|幅は固定されます。                                                                                                                                                                                          |
-| <img src="../images/layout_codegen_table3.png" />|要素が行で単一の子である場合、その幅は 100% です。要素が複数の要素がある行にある場合、以下比例的な幅サイズ変更ルールが適用されます。                           |
+| <img class="responsive-img" src="../images/layout_codegen_table1.png" />|デフォルトの状態です。要素が行で単一の子の場合、幅は 100% です。要素が複数の要素がある行にある場合、以下比例的な幅サイズ変更ルールが適用されます。 |
+| <img class="responsive-img" src="../images/layout_codegen_table2.png" />|幅は固定されます。                                                                                                                                                                                          |
+| <img class="responsive-img" src="../images/layout_codegen_table3.png" />|要素が行で単一の子である場合、その幅は 100% です。要素が複数の要素がある行にある場合、以下比例的な幅サイズ変更ルールが適用されます。                           |
 
 ### サイズ変更の例外
 
@@ -258,7 +258,7 @@ Sketch グループに固定幅がある場合、その幅値が適用されま�
 中央揃えに設定されるすべてのグループにコンテンツがある必要があります。コンテンツはその他のグループまたはその他の要素が可能です。背景色が要素ではないため、コンテンツは背景色にできません。
 以下の画像で選択されたグループ ("Inner No Children") に背景色として Color 要素があるため、このグループは描画しません。ただし、同じ Color 要素が背景色として設定されない場合、含まれるグループの中央に色を描画します。
 
-<img src="../images/layout_codegen11.png" />
+<img class="responsive-img" src="../images/layout_codegen11.png" />
 
 > [!Note]
 > Group がコード生成のためのコンポーネントとして選択され、固定高さまたは幅が設定される場合、中央揃えがレイアウトの親によって実行されるため、以下の中央揃えロジックは適用しません。
@@ -267,19 +267,19 @@ Sketch グループに固定幅がある場合、その幅値が適用されま�
 
 要素の高さが固定され、上下のマージンが等しく (+-3px)、要素が上下にピン固定される場合、要素が親と垂直に中央揃えになります。
 
-<img src="../images/layout_codegen12.png" />
+<img class="responsive-img" src="../images/layout_codegen12.png" />
 
 ### 水平方向
 
 要素の幅が固定され、左右のマージンが等しく (+-3px)、要素が左右にピン固定される場合、要素が親と水平に中央揃えになります。
 
-<img src="../images/layout_codegen13.png" />
+<img class="responsive-img" src="../images/layout_codegen13.png" />
 
 ### 両方
 
 要素の高さと幅が固定され、左右と上下の距離が等しく (+-3px)、左右にピン固定される要素がない場合、オブジェクトが親と中央揃えになります。
 
-<img src="../images/layout_codegen14.png" />
+<img class="responsive-img" src="../images/layout_codegen14.png" />
 
 ### 重複するオブジェクトのピン固定
 
@@ -288,7 +288,7 @@ Sketch グループに固定幅がある場合、その幅値が適用されま�
 以下の画像の両方のグループで確認でき、バッジはアバターと重複してバッジが右下にピン固定されることにより、この要素は親グループからの絶対位置を使用して配置されます。
 2 つ目の例では、3 つ目の要素 (ボタン) がグループに追加されています。ボタンはその他の配置ルールを使用して配置され、バッジの絶対位置の一部ではありません。2 番目の場合はサポートされますが、絶対位置の重複を要求する要素のみがグループに含まれる必要があります。
 
-<img src="../images/layout_codegen16.png" />
+<img class="responsive-img" src="../images/layout_codegen16.png" />
 
 ### 右に整列またはピン固定
 
@@ -334,11 +334,11 @@ Artboard を複数のステートで表示するためのデザイナーの要�
 オブジェクト パネルの要素の非表示はコード生成に影響がありません。コード生成は非表示かどうかに関係なくすべての要素をここに生成します。
 Dialog、Toast、Snackbar 要素をコンポーネント HTML の下に配置し、ビューに入るのが動的なランタイム配置であるためその他の要素と混同されません。
 
-<img src="../images/layout_codegen17.png" />
+<img class="responsive-img" src="../images/layout_codegen17.png" />
 
 以下の画像はデザイナー状態の描画の例です。ダイアログがランタイムで配置するグレー オーバーレイをシミュレートするための別の色要素があるため、この描画はコード生成に使用しないでください。
 
-<img src="../images/layout_codegen18.png" />
+<img class="responsive-img" src="../images/layout_codegen18.png" />
 
 ## 制限
 

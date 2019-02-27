@@ -15,7 +15,7 @@ _language: ja
 
 ワークスペース ドロップダウンを展開して`グループ ワークスペースの作成`オプションをクリックします。
 
-<img src="../images/workspaces_1.png" srcset="../images/workspaces_1@2x.png 2x" />
+<img class="responsive-img" src="../images/workspaces_1.png" srcset="../images/workspaces_1@2x.png 2x" />
 
 <div class="divider--half"></div>
 
@@ -24,7 +24,7 @@ _language: ja
 メンバーを追加するには、メール アドレスを入力します。
 メンバーとワークスペースを既に共有している場合、そのメンバーがリストに表示されます。リストから選択して直ちにメンバーに追加できます。それ以外の場合、ワークスペースに参加するための招待メールが送信されます。
 
-<img src="../images/workspaces_2.png" srcset="../images/workspaces_2@2x.png 2x" />
+<img class="responsive-img" src="../images/workspaces_2.png" srcset="../images/workspaces_2@2x.png 2x" />
 
 <div class="divider--half"></div>
 
@@ -43,7 +43,7 @@ _language: ja
 
 ワークスペース ドロップダウンからワークスペースを選択し、ギア アイコンをクリックします。
 
-<img src="../images/workspaces_4.png" srcset="../images/workspaces_4@2x.png 2x" />
+<img class="responsive-img" src="../images/workspaces_4.png" srcset="../images/workspaces_4@2x.png 2x" />
 
 <div class="divider--half"></div>
 

@@ -14,12 +14,12 @@ _language: ja
 - 集計
 - ページング
 
-<img src="../images/grids_demo.png" srcset="../images/grids_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/grids_demo.png" srcset="../images/grids_demo@2x.png 2x" />
 
 > [!WARNING]
 > Full Grid パターンを挿入した後、Angular コードとして生成するには、レイアウトを作成したコンポーネントおよび Grid シンボルに分割するために `Detach from Symbol` をトリガーします。ただし、各コンポーネントおよび Grid シンボルをデタッチしないでください。
 
-<img src="../images/grids_detach.png" />
+<img class="responsive-img" src="../images/grids_detach.png" />
 
 ## その他のリソース
 

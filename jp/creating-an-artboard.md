@@ -9,7 +9,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 このトピックは、Indigo Design ライブラリを使用して登録画面の Sketch アートボードを作成する方法を紹介します。
 
 <div class="divider--half"></div>
-<img src="images/getting-started7.png" srcset="images/getting-started7@2x.png 2x" />
+<img class="responsive-img" src="images/getting-started7.png" srcset="images/getting-started7@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -41,7 +41,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 2.  Mac で Sketch アプリケーションを開き、Apple メニューから Sketch 項目をクリックして Preferences を選択します。
 
   <div class="divider--half"></div>
-  <img src="images/creating_an_artboard_2.png" srcset="images/creating_an_artboard_2@2x.png 2x" />
+  <img class="responsive-img" src="images/creating_an_artboard_2.png" srcset="images/creating_an_artboard_2@2x.png 2x" />
   <div class="divider--half"></div>
   <div class="divider--half"></div>
   <div class="divider--half"></div>
@@ -66,7 +66,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
     この例は縦長の向き (375x667) の iPhone 8 に対象します。このプリセット アートボードが表示されない場合、パネルの上のドロップダウンから Apple Devices を選択します。
 
   <div class="divider--half"></div>
-  <img src="images/getting-started-artboard.png" />
+  <img class="responsive-img" src="images/getting-started-artboard.png" />
   <div class="divider--half"></div>
   <div class="divider--half"></div>
   <div class="divider--half"></div>
@@ -87,7 +87,7 @@ Insert メニューを使用して Indigo Design ライブラリからコンポ�
     4.  Overrides セクションで Type を ~Title に設定し、Text を Sign Up に設定します。
 
     <div class="divider--half"></div>
-    <img src="images/getting-started0.png" srcset="images/getting-started0@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-started0.png" srcset="images/getting-started0@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -98,7 +98,7 @@ Insert メニューを使用して Indigo Design ライブラリからコンポ�
      Styling の primary.100 色をアートボードへドラッグします。左側のレイヤー パネルで Navbar の下に配置して必要に応じてサイズ変更します。
 
     <div class="divider--half"></div>
-    <img src="images/getting-started1.png" srcset="images/getting-started1@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-started1.png" srcset="images/getting-started1@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -112,7 +112,7 @@ Insert メニューを使用して Indigo Design ライブラリからコンポ�
     3.  アートボードの中央に配置します。
 
     <div class="divider--half"></div>
-    <img src="images/getting-started2.png" srcset="images/getting-started2@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-started2.png" srcset="images/getting-started2@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -126,7 +126,7 @@ Insert メニューを使用して Indigo Design ライブラリからコンポ�
     3.  テキストを "Start Budgeting" に設定し、幅 16px を右側に設定します。 
 
     <div class="divider--half"></div>
-    <img src="images/getting-started3.png" srcset="images/getting-started3@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-started3.png" srcset="images/getting-started3@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -144,7 +144,7 @@ Insert メニューを使用して Indigo Design ライブラリからコンポ�
     7.  Label を "First Name" および "Last Name" に設定し、Input Text を "Eliza" および "Morales" に設定します。
 
     <div class="divider--half"></div>
-    <img src="images/getting-started4.png" srcset="images/getting-started4@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-started4.png" srcset="images/getting-started4@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -160,7 +160,7 @@ Insert メニューを使用して Indigo Design ライブラリからコンポ�
     5.  Label を "Username" および "Password" に設定し、Input Text を "Leaellynasaura" および  "\*\*\*\*\*\*\*\*\*\*\*\*" に設定します。
 
     <div class="divider--half"></div>
-    <img src="images/getting-started5.png" srcset="images/getting-started5@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-started5.png" srcset="images/getting-started5@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -175,7 +175,7 @@ Insert メニューを使用して Indigo Design ライブラリからコンポ�
     4.  Text を "SIGN UP" に設定します。
 
     <div class="divider--half"></div>
-    <img src="images/getting-started6.png" srcset="images/getting-started6@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-started6.png" srcset="images/getting-started6@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -190,7 +190,7 @@ Insert メニューを使用して Indigo Design ライブラリからコンポ�
     4.  サイズ変更してすべての側面に 16px スペースをつくります。
 
     <div class="divider--half"></div>
-    <img src="images/getting-started7.png" srcset="images/getting-started7@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-started7.png" srcset="images/getting-started7@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>

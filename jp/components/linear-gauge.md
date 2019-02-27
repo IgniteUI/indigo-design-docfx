@@ -13,29 +13,29 @@ Linear Gauge コンポーネントをデータ可視化に使用して、カラ�
 
 ### Linear Gauge のデモ
 
-<img src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
 
 ### 針のタイプ
 
 Linear Gauge は、現在の値を示す針の形 (**needle**、trapezoid、triangle) を制御するさまざまなオーバライドをサポートします。
 
-<img src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
-<img src="../images/linear_gauge_trapezoid.png" srcset="../images/linear_gauge_trapezoid@2x.png 2x" />
-<img src="../images/linear_gauge_triangle.png" srcset="../images/linear_gauge_triangle@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_trapezoid.png" srcset="../images/linear_gauge_trapezoid@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_triangle.png" srcset="../images/linear_gauge_triangle@2x.png 2x" />
 
 ### 範囲のサイズ
 
 Linear Gauge は、リニア済みの 3 つの範囲 (2 つ、**3 つ**、4 つ) 設定があります。
 
-<img src="../images/linear_gauge_two_ranges.png" srcset="../images/linear_gauge_two_ranges@2x.png 2x" />
-<img src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
-<img src="../images/linear_gauge_four_ranges.png" srcset="../images/linear_gauge_four_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_two_ranges.png" srcset="../images/linear_gauge_two_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_four_ranges.png" srcset="../images/linear_gauge_four_ranges@2x.png 2x" />
 
 ### スタイル設定
 
 Linear Gauge のスタイル設定は高い柔軟性があり、背景色の制御をオーバーライドやブラシ範囲 (Needle Brush、Tick Brush、Minor Tick Brush、Range Brushes のコレクション) があります。
 
-<img src="../images/linear_gauge_styling.png" srcset="../images/linear_gauge_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_styling.png" srcset="../images/linear_gauge_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -44,8 +44,8 @@ Linear Gauge のスタイル設定は高い柔軟性があり、背景色の制�
 
 | 良い例                                                                                         |悪い例                                                                                          |
 | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
-| <img src="../images/linear_gauge_do1.png" srcset="../images/linear_gauge_do1@2x.png 2x" />|<img src="../images/linear_gauge_dont1.png" srcset="../images/linear_gauge_dont1@2x.png 2x" /> |
-| <img src="../images/linear_gauge_do2.png" srcset="../images/linear_gauge_do2@2x.png 2x" />|<img src="../images/linear_gauge_dont2.png" srcset="../images/linear_gauge_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/linear_gauge_do1.png" srcset="../images/linear_gauge_do1@2x.png 2x" />|<img class="responsive-img" src="../images/linear_gauge_dont1.png" srcset="../images/linear_gauge_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/linear_gauge_do2.png" srcset="../images/linear_gauge_do2@2x.png 2x" />|<img class="responsive-img" src="../images/linear_gauge_dont2.png" srcset="../images/linear_gauge_dont2@2x.png 2x" /> |
 
 ## コードの生成
 
@@ -60,11 +60,11 @@ Linear Gauge のスタイル設定は高い柔軟性があり、背景色の制�
 
 バインディング:
 
-<img src="../images/linear_gauge_bind_min.png"/>
+<img class="responsive-img" src="../images/linear_gauge_bind_min.png"/>
 
 非バインディング:
 
-<img src="../images/linear_gauge_nobind_min.png"/>
+<img class="responsive-img" src="../images/linear_gauge_nobind_min.png"/>
 
 ### 最大値
 
@@ -72,11 +72,11 @@ Linear Gauge のスタイル設定は高い柔軟性があり、背景色の制�
 
 バインディング:
 
-<img src="../images/linear_gauge_bind_max.png"/>
+<img class="responsive-img" src="../images/linear_gauge_bind_max.png"/>
 
 非バインディング:
 
-<img src="../images/linear_gauge_nobind_max.png"/>
+<img class="responsive-img" src="../images/linear_gauge_nobind_max.png"/>
 
 ### 範囲のサイズ
 
@@ -88,7 +88,7 @@ Linear Gauge のスタイル設定は高い柔軟性があり、背景色の制�
 
 このオーバーライドは、Linear Gauge で針値を制御します。[データ バインディング](../codegen/data-binding.md) のみサポートするため、値は正しい書式にする必要があります。
 
-<img src="../images/linear_gauge_valueprop.png"/>
+<img class="responsive-img" src="../images/linear_gauge_valueprop.png"/>
 
 バインド プロパティはランタイムの結果が数値である必要があります。
 

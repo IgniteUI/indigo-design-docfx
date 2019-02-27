@@ -10,42 +10,42 @@ Use the Tabs Component to organize different views of the same information or sw
 
 ### Tabs Demo
 
-<img src="../images/tabs_demo.png" srcset="../images/tabs_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_demo.png" srcset="../images/tabs_demo@2x.png 2x" />
 
 ### Size
 
 The Tabs come arranged in a bar and can be either tall, showing icons with text, or short, containing either text or icons but not both at the same time.
 
-<img src="../images/tabs_short.png" srcset="../images/tabs_short@2x.png 2x" />
-<img src="../images/tabs_tall.png" srcset="../images/tabs_tall@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_short.png" srcset="../images/tabs_short@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_tall.png" srcset="../images/tabs_tall@2x.png 2x" />
 
 ### Responsive
 
 The Tabs can be **fixed** and can fill up the available horizontal space by adapting their width or fluid, where scrolling buttons are provided to scroll in larger numbers of tabs. This allows for the fitting of more content that could normally fit in the available space with the other mode.
 
-<img src="../images/tabs_fixed.png" srcset="../images/tabs_fixed@2x.png 2x" />
-<img src="../images/tabs_fluid.png" srcset="../images/tabs_fluid@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_fixed.png" srcset="../images/tabs_fixed@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_fluid.png" srcset="../images/tabs_fluid@2x.png 2x" />
 
 ### Amount
 
 For the majority of scenarios, the Tabs need to contain between two and four tabs. If your case requires more than that, you may want to consider a fluid mode and represent only the tabs in view.
 
-<img src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" />
-<img src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
-<img src="../images/tabs_4.png" srcset="../images/tabs_4@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_4.png" srcset="../images/tabs_4@2x.png 2x" />
 
 ### Type
 
 The short Tabs support **text** and icon content modes to decribe the item in each tab.
 
-<img src="../images/tabs_text.png" srcset="../images/tabs_text@2x.png 2x" />
-<img src="../images/tabs_icons.png" srcset="../images/tabs_icons@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_text.png" srcset="../images/tabs_text@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_icons.png" srcset="../images/tabs_icons@2x.png 2x" />
 
 ### Styling
 
 The Tabs provide basic styling capabilities achievable through changing the text and icon colors, the indicator color that marks the current selection, as well as the active/inactive background colors.
 
-<img src="../images/tabs_styling.png" srcset="../images/tabs_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_styling.png" srcset="../images/tabs_styling@2x.png 2x" />
 
 ## Usage
 
@@ -53,14 +53,14 @@ The Tabs are appropriate for organizing information, and one should avoid using 
 
 | Do                                                                         | Don't                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| <img src="../images/tabs_do1.png" srcset="../images/tabs_do1@2x.png 2x" /> | <img src="../images/tabs_dont1.png" srcset="../images/tabs_dont1@2x.png 2x" /> |
-| <img src="../images/tabs_do2.png" srcset="../images/tabs_do2@2x.png 2x" /> | <img src="../images/tabs_dont2.png" srcset="../images/tabs_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/tabs_do1.png" srcset="../images/tabs_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/tabs_dont1.png" srcset="../images/tabs_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/tabs_do2.png" srcset="../images/tabs_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/tabs_dont2.png" srcset="../images/tabs_dont2@2x.png 2x" /> |
 
 ## Code generation
 
 Due to the limitations of Sketch there is no way to associate content with specific tabs in the Tab component. Therefore it is not a good idea to generate an entire Artboard that has a Tab component inside it. Instead you should generate the Tab component by itself and then generate the desired tab content separately into different Angular components. Once your tab content is in separate Angular components you can come back to the Tab component and manually reference the generated tab content within each tab.
 
-<img src="../images/tabs_limitation.png" />
+<img class="responsive-img" src="../images/tabs_limitation.png" />
 
 > [!WARNING]
 > Triggering `Detach from Symbol` on an instance of the Tabs in your design is very likely to result in loss of code generation capability for the Tabs.

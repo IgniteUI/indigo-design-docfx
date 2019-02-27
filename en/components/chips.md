@@ -10,7 +10,7 @@ Use the Chip Component as a compact visual shown in an obround to display tags a
 
 ### Chip Demo
 
-<img src="../images/chip_demo.png" srcset="../images/chip_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_demo.png" srcset="../images/chip_demo@2x.png 2x" />
 
 ### Chip Density
 
@@ -20,54 +20,54 @@ The Chip comes in three density variants:
 - Cosy - Appropriate for short areas such as the recipient field of an email message composer
 - Compact - Best for data dense scenarios such the values for a cell in the Grid
 
-<img src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
-<img src="../images/chip_cosy.png" srcset="../images/chip_cosy@2x.png 2x" />
-<img src="../images/chip_compact.png" srcset="../images/chip_compact@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_cosy.png" srcset="../images/chip_cosy@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_compact.png" srcset="../images/chip_compact@2x.png 2x" />
 
 ### Chip State
 
 When the user interacts with the Chip, it goes through various states: **idle**, selected when the user has performed selective action, and focused while the user is navigating through the tab index. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
 
-<img src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
 `idle`
 
-<img src="../images/chip_idle_selected.png" srcset="../images/chip_idle_selected@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_idle_selected.png" srcset="../images/chip_idle_selected@2x.png 2x" />
 `idle when selected`
 
-<img src="../images/chip_focus.png" srcset="../images/chip_focus@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_focus.png" srcset="../images/chip_focus@2x.png 2x" />
 `focus`
 
-<img src="../images/chip_focus_selected.png" srcset="../images/chip_focus_selected@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_focus_selected.png" srcset="../images/chip_focus_selected@2x.png 2x" />
 `focus when selected`
 
 Additional states are available in case you want to make the Chip removable and add a special icon at the far right of the element that deletes the Chip upon clicking or tapping it.
 
-<img src="../images/chip_idle_removable.png" srcset="../images/chip_idle_removable@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_idle_removable.png" srcset="../images/chip_idle_removable@2x.png 2x" />
 `idle and removable`
 
-<img src="../images/chip_idle_selected_removable.png" srcset="../images/chip_idle_selected_removable@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_idle_selected_removable.png" srcset="../images/chip_idle_selected_removable@2x.png 2x" />
 `idle and removable when selected`
 
-<img src="../images/chip_focus_removable.png" srcset="../images/chip_focus_removable@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_focus_removable.png" srcset="../images/chip_focus_removable@2x.png 2x" />
 `focus and removable`
 
-<img src="../images/chip_focus_selected_removable.png" srcset="../images/chip_focus_selected_removable@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_focus_selected_removable.png" srcset="../images/chip_focus_selected_removable@2x.png 2x" />
 `focus and removable when selected`
 
 ### Chip Content
 
 The Chip has rich support for prefix and suffix icons that can be used to convey additional meaning through the provided content states: **OnlyText**, Prefix, Prefix+Suffix, Suffix.
 
-<img src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
-<img src="../images/chip_prefix.png" srcset="../images/chip_prefix@2x.png 2x" />
-<img src="../images/chip_prefix_suffix.png" srcset="../images/chip_prefix_suffix@2x.png 2x" />
-<img src="../images/chip_suffix.png" srcset="../images/chip_suffix@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_prefix.png" srcset="../images/chip_prefix@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_prefix_suffix.png" srcset="../images/chip_prefix_suffix@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_suffix.png" srcset="../images/chip_suffix@2x.png 2x" />
 
 ### Chip Styling
 
 The Chip comes with styling flexibility through the various overrides controlling the border and background colors, as well as the text and prefix, suffix, remove icon colors, where applicable.
 
-<img src="../images/chip_styling.png" srcset="../images/chip_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_styling.png" srcset="../images/chip_styling@2x.png 2x" />
 
 ## Chips Area
 
@@ -75,20 +75,20 @@ Use the Chips Area Component to organize a collection of Chips. The Chips Area i
 
 ### Chips Area Demo
 
-<img src="../images/chips_area_demo.png" srcset="../images/chips_area_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/chips_area_demo.png" srcset="../images/chips_area_demo@2x.png 2x" />
 
 ### Chips Area Type
 
 The Chips Area is available in two distict types: a standard one, where the Chips represent an unrelated collection and a connected one, where the Chips appear in a predefined sequence.
 
-<img src="../images/chips_area_standard.png" srcset="../images/chips_area_standard@2x.png 2x" />
-<img src="../images/chips_area_connected.png" srcset="../images/chips_area_connected@2x.png 2x" />
+<img class="responsive-img" src="../images/chips_area_standard.png" srcset="../images/chips_area_standard@2x.png 2x" />
+<img class="responsive-img" src="../images/chips_area_connected.png" srcset="../images/chips_area_connected@2x.png 2x" />
 
 ### Chips Area Styling
 
 The Chips Area comes with the inherent styling flexibility of the Chips, but, where applicable, also allows changing the collor and glyph of the connector icon.
 
-<img src="../images/chips_area_styling.png" srcset="../images/chips_area_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/chips_area_styling.png" srcset="../images/chips_area_styling@2x.png 2x" />
 
 ## Usage
 
@@ -96,15 +96,15 @@ When using a Chip adjust it size so that the text content appears on a single li
 
 | Do                                                                         | Don't                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| <img src="../images/chip_do1.png" srcset="../images/chip_do1@2x.png 2x" /> | <img src="../images/chip_dont1.png" srcset="../images/chip_dont1@2x.png 2x" /> |
-| <img src="../images/chip_do1.png" srcset="../images/chip_do1@2x.png 2x" /> | <img src="../images/chip_dont2.png" srcset="../images/chip_dont2@2x.png 2x" /> |
-| <img src="../images/chip_do3.png" srcset="../images/chip_do3@2x.png 2x" /> | <img src="../images/chip_dont3.png" srcset="../images/chip_dont3@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/chip_do1.png" srcset="../images/chip_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/chip_dont1.png" srcset="../images/chip_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/chip_do1.png" srcset="../images/chip_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/chip_dont2.png" srcset="../images/chip_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/chip_do3.png" srcset="../images/chip_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/chip_dont3.png" srcset="../images/chip_dont3@2x.png 2x" /> |
 
 When using the Chips Area follow the suggestions for the individual Chip components above and when using a connected Chips Area don't configure the individual chips as actions, they are supposed to be entitites related in some way e.g. an ordered list of people.
 
 | Do                                                                                     | Don't                                                                                      |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| <img src="../images/chips_area_do1.png" srcset="../images/chips_area_do1@2x.png 2x" /> | <img src="../images/chips_area_dont1.png" srcset="../images/chips_area_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/chips_area_do1.png" srcset="../images/chips_area_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/chips_area_dont1.png" srcset="../images/chips_area_dont1@2x.png 2x" /> |
 
 ## Code Generation
 
@@ -131,11 +131,11 @@ This override controls the text used inside the Chip. It is possible to provide 
 
 No Binding:
 
-<img src="../images/chip_nobind.png" srcset="../images/chip_nobind@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_nobind.png" srcset="../images/chip_nobind@2x.png 2x" />
 
 Binding:
 
-<img src="../images/chip_bind.png" srcset="../images/chip_bind@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_bind.png" srcset="../images/chip_bind@2x.png 2x" />
 
 ### Prefix Icon
 
@@ -151,7 +151,7 @@ This override is used to hook up a function to the Chip’s `onSelection` event.
 
 In Sketch:
 
-<img src="../images/chip_event.png" srcset="../images/chip_event@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_event.png" srcset="../images/chip_event@2x.png 2x" />
 
 HTML:
 
@@ -174,7 +174,7 @@ The Chips Area must be detached in order for it to be code generated properly. W
 
 This override tells code generation that you want to generate this Chips Area based on some data. The value specified here should be the TypeScript property that contains this data. It should be an array or list of some type. During code generation, it will generate an Angular `ngFor` directive which will iterate over the TypeScript property and create Ignite UI for Angular Chip components.
 
-<img src="../images/chip_area_datasource.png" srcset="../images/chip_area_datasource@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_area_datasource.png" srcset="../images/chip_area_datasource@2x.png 2x" />
 
 HTML:
 

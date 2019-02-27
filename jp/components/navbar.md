@@ -11,30 +11,30 @@ Navbar コンポーネントは、アプリケーションでユーザーの現�
 
 ### Navbar デモ
 
-<img src="../images/navbar_demo.png" srcset="../images/navbar_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_demo.png" srcset="../images/navbar_demo@2x.png 2x" />
 
 ### タイプ
 
 Navbar は、3 つのレイアウト構成があり、**アイコン アクションとタイトル**、テキスト アクションとタイトル、タイトルで定義されます。
 
-<img src="../images/navbar_lefticon.png" srcset="../images/navbar_lefticon@2x.png 2x" />
-<img src="../images/navbar_lefttext.png" srcset="../images/navbar_lefttext@2x.png 2x" />
-<img src="../images/navbar_noleft.png" srcset="../images/navbar_noleft@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_lefticon.png" srcset="../images/navbar_lefticon@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_lefttext.png" srcset="../images/navbar_lefttext@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_noleft.png" srcset="../images/navbar_noleft@2x.png 2x" />
 
 ### アクション アイコン
 
 各 Navbar は、画面右端から左へ、描画されるシンプルなイベントをトリガーする操作アイコンを 4 アイコンまでサポートします。
 
-<img src="../images/navbar_icon1.png" srcset="../images/navbar_icon1@2x.png 2x" />
-<img src="../images/navbar_icon2.png" srcset="../images/navbar_icon2@2x.png 2x" />
-<img src="../images/navbar_icon3.png" srcset="../images/navbar_icon3@2x.png 2x" />
-<img src="../images/navbar_icon4.png" srcset="../images/navbar_icon4@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_icon1.png" srcset="../images/navbar_icon1@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_icon2.png" srcset="../images/navbar_icon2@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_icon3.png" srcset="../images/navbar_icon3@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_icon4.png" srcset="../images/navbar_icon4@2x.png 2x" />
 
 ### スタイル設定
 
 Navbar には、タイトル、アイコ、ン、背景色を変更する基本的なスタイル設定機能があります。
 
-<img src="../images/navbar_styling.png" srcset="../images/navbar_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_styling.png" srcset="../images/navbar_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -42,8 +42,8 @@ Navbar 操作は、タイトルと重ならないように使用してくださ�
 
 | 良い例                                                                             |悪い例                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| <img src="../images/navbar_do1.png" srcset="../images/navbar_do1@2x.png 2x" />|<img src="../images/navbar_dont1.png" srcset="../images/navbar_dont1@2x.png 2x" /> |
-| <img src="../images/navbar_do2.png" srcset="../images/navbar_do2@2x.png 2x" />|<img src="../images/navbar_dont2.png" srcset="../images/navbar_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/navbar_do1.png" srcset="../images/navbar_do1@2x.png 2x" />|<img class="responsive-img" src="../images/navbar_dont1.png" srcset="../images/navbar_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/navbar_do2.png" srcset="../images/navbar_do2@2x.png 2x" />|<img class="responsive-img" src="../images/navbar_dont2.png" srcset="../images/navbar_dont2@2x.png 2x" /> |
 
 ## コードの生成
 

@@ -40,7 +40,7 @@ RouterModule.forChild(routes);
 
 [RouterOutlet](https://angular.io/api/router/RouterOutlet) を追加した後、ターミナルで `npm start` を使用してアプリケーションを実行します。ブラウザーで URL にコンポーネント名を追加してサイトに移動します。
 
-<img src="../images/address-nav.png" />
+<img class="responsive-img" src="../images/address-nav.png" />
 
 ここが開発の開始ポイントとなります。ここから開発者がアプリケーション要件に合わせるためにルートを変更できます。ボタン クリックなどの操作に基づいてナビゲーションをトリガーするコードを追加します。
 
@@ -52,7 +52,7 @@ RouterModule.forChild(routes);
 
 Sketch で、デザイナーが Nebula UI Category Chart コンポーネントをアートボードに追加します。
 
-<img src="../images/categorychart-overrides.png" srcset="../images/categorychart-overrides@2x.png 2x" />
+<img class="responsive-img" src="../images/categorychart-overrides.png" srcset="../images/categorychart-overrides@2x.png 2x" />
 
 オーバーライドには DataSource オーバーライドがあります。指定した値は[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) コントロールにバインドするプロパティをジェネレーターに指定します。この場合、Sketch のチャートは `igx-category-chart` に変換し、`dataSource` 入力は `olympicMedalData` にバインドします。
 

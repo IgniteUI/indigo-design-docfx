@@ -11,29 +11,29 @@ Bottom Navigation コンポーネント は、関連ビュー間のブラウジ�
 
 ### Bottom Navigation デモ
 
-<img src="../images/bottom-nav_demo.png" srcset="../images/bottom-nav_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/bottom-nav_demo.png" srcset="../images/bottom-nav_demo@2x.png 2x" />
 
 ### 項目数
 
 Bottom Navigation は 2 項目 ～ 5 項目をサポートします。アプリケーション レベルで 5 項目以上のナビゲーションまたはビューをデザインする場合は、[Navigation Drawer](nav-drawer.md) の使用を検討してください。
 
-<img src="../images/bottom-nav_items2.png" srcset="../images/bottom-nav_items2@2x.png 2x" />
-<img src="../images/bottom-nav_items3.png" srcset="../images/bottom-nav_items3@2x.png 2x" />
-<img src="../images/bottom-nav_items4.png" srcset="../images/bottom-nav_items4@2x.png 2x" />
-<img src="../images/bottom-nav_items5.png" srcset="../images/bottom-nav_items5@2x.png 2x" />
+<img class="responsive-img" src="../images/bottom-nav_items2.png" srcset="../images/bottom-nav_items2@2x.png 2x" />
+<img class="responsive-img" src="../images/bottom-nav_items3.png" srcset="../images/bottom-nav_items3@2x.png 2x" />
+<img class="responsive-img" src="../images/bottom-nav_items4.png" srcset="../images/bottom-nav_items4@2x.png 2x" />
+<img class="responsive-img" src="../images/bottom-nav_items5.png" srcset="../images/bottom-nav_items5@2x.png 2x" />
 
 ### 項目のスタイル
 
 Bottom Navigation 項目には、**アイコンとテキスト**の組み合わせ、またはアイコンのみが含まれます。常にアクティブな状態の項目が 1 つ、あり、残りの項目はインアクティブに設定する必要があります。
 
-<img src="../images/bottom-nav_icon&text.png" srcset="../images/bottom-nav_icon&text@2x.png 2x" />
-<img src="../images/bottom-nav_icon.png" srcset="../images/bottom-nav_icon@2x.png 2x" />
+<img class="responsive-img" src="../images/bottom-nav_icon&text.png" srcset="../images/bottom-nav_icon&text@2x.png 2x" />
+<img class="responsive-img" src="../images/bottom-nav_icon.png" srcset="../images/bottom-nav_icon@2x.png 2x" />
 
 ### スタイル設定
 
 Bottom Navigation は、さまざまなオーバーライドで背景色、項目ラベル、アイコン色を制御することにより柔軟にスタイル設定できます。
 
-<img src="../images/bottom-nav_styling.png" srcset="../images/bottom-nav_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/bottom-nav_styling.png" srcset="../images/bottom-nav_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -41,14 +41,14 @@ Bottom Navigation は常にその他のコンテンツの一番上に表示さ�
 
 | 良い例                                                                                     |悪い例                                                                                      |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| <img src="../images/bottom-nav_do1.png" srcset="../images/bottom-nav_do1@2x.png 2x" />|<img src="../images/bottom-nav_dont1.png" srcset="../images/bottom-nav_dont1@2x.png 2x" /> |
-| <img src="../images/bottom-nav_do2.png" srcset="../images/bottom-nav_do2@2x.png 2x" />|<img src="../images/bottom-nav_dont2.png" srcset="../images/bottom-nav_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/bottom-nav_do1.png" srcset="../images/bottom-nav_do1@2x.png 2x" />|<img class="responsive-img" src="../images/bottom-nav_dont1.png" srcset="../images/bottom-nav_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/bottom-nav_do2.png" srcset="../images/bottom-nav_do2@2x.png 2x" />|<img class="responsive-img" src="../images/bottom-nav_dont2.png" srcset="../images/bottom-nav_dont2@2x.png 2x" /> |
 
 ## コードの生成
 
 Sketch の制限によって Bottom Navigation コンポーネントの特定のタブとコンテンツを関連付けることはできません。Bottom Navigation コンポーネントを含む Artboard 全体の生成はお勧めしません。代わりに Bottom Navigation コンポーネントを生成してから個々のタブ コンテンツをそれぞれの Angular コンポーネントに生成してください。タブ コンテンツをそれぞれ Angular コンポーネントに生成後、Bottom Navigation コンポーネントで各タブ内で生成したタブ コンテンツに手動で参照できます。
 
-<img src="../images/bottom-nav_limitation.png" />
+<img class="responsive-img" src="../images/bottom-nav_limitation.png" />
 
 > [!WARNING]
 > デザインの Bottom Navigation のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Bottom Navigation のためのコード生成機能が失われる結果となります。

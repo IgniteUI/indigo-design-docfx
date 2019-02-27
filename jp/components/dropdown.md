@@ -11,37 +11,37 @@ Dropdown コンポーネントでは、ユーザーがスクロール可能な�
 
 ### Dropdown デモ
 
-<img src="../images/dropdown_demo.png" srcset="../images/dropdown_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_demo.png" srcset="../images/dropdown_demo@2x.png 2x" />
 
 ### タイプ
 
 Dropdown は、デスクトップとモバイルで使用時に適切なサイズで提供されます。
 
-<img src="../images/dropdown_desktop.png" srcset="../images/dropdown_desktop@2x.png 2x" />
-<img src="../images/dropdown_mobile.png" srcset="../images/dropdown_mobile@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_desktop.png" srcset="../images/dropdown_desktop@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_mobile.png" srcset="../images/dropdown_mobile@2x.png 2x" />
 
 ### 項目
 
 Dropdown は、項目ヘッダーと項目の 2 つのタイプをサポートします。ヘッダーでグループの他の項目を体系化できます。
 
-<img src="../images/dropdown_header.png" srcset="../images/dropdown_header@2x.png 2x" />
-<img src="../images/dropdown_item.png" srcset="../images/dropdown_item@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_header.png" srcset="../images/dropdown_header@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item.png" srcset="../images/dropdown_item@2x.png 2x" />
 
 ### 項目の状態
 
 Dropdown 項目は、5 つの状態をサポートします。disabled, **idle**、focused、selected、focused&selected。
 
-<img src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
-<img src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
-<img src="../images/dropdown_item_focused.png" srcset="../images/dropdown_item_focused@2x.png 2x" />
-<img src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" />
-<img src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_focused.png" srcset="../images/dropdown_item_focused@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" />
 
 ### スタイル設定
 
 Dropdown は、背景色を制御するオーバーライドによるスタイル設定、項目やヘッダー背景、テキスト色を含む項目に関連するさなざまなオーバーライドに高い柔軟性があります。
 
-<img src="../images/dropdown_styling.png" srcset="../images/dropdown_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_styling.png" srcset="../images/dropdown_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -49,7 +49,7 @@ Dropdown 使用時は、表示をトリガーする項目に従ってコンテ�
 
 | 良い例                                                                                 |悪い例                                                                                  |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| <img src="../images/dropdown_do1.png" srcset="../images/dropdown_do1@2x.png 2x" />|<img src="../images/dropdown_dont1.png" srcset="../images/dropdown_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/dropdown_do1.png" srcset="../images/dropdown_do1@2x.png 2x" />|<img class="responsive-img" src="../images/dropdown_dont1.png" srcset="../images/dropdown_dont1@2x.png 2x" /> |
 
 ## コードの生成
 

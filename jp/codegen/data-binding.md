@@ -6,11 +6,11 @@ Ignite UI for Angular コンポーネントの多くはデータ バインディ
 
 データ バインドは Sketch でプロパティ名を波括弧で囲んで指定します。コード生成に波括弧間のコンテンツがデータ バインディングに使用するプロパティであることを通知します。このプロパティを使用して適切な HTML を生成します。
 
-<img src="../images/binding.png"/>
+<img class="responsive-img" src="../images/binding.png"/>
 
 特定のオーバーライドは補間文字列をサポートします。補間文字列は標準テキストをデータバインド テキストと組み合わせます。この場合もバインドするプロパティの周りに波括弧は必要です。文字列補間がサポートされるかどうかは、使用するコンポーネントのヘルプを確認してください。たとえば、テキスト表示プロパティは文字列補間をサポートしますがデータソース プロパティはサポートされません。
 
-<img src="../images/interpolation.png"/>
+<img class="responsive-img" src="../images/interpolation.png"/>
 
 > [!NOTE]
 > テキスト プロパティの一部で文字列補間がサポートされません。使用する各コンポーネントのヘルプでバインドをサポートするオーバーライドを確認してください。
@@ -33,6 +33,6 @@ export class User {
 
 Sketch では、ネスト プロパティを使用して `Address` の `street` プロパティにバインドを指定できます。
 
-<img src="../images/nested.png"/>
+<img class="responsive-img" src="../images/nested.png"/>
 
 このバインドは、`User` がコード生成時に [Indigo.Design Code Generator](vscode-plugin.md) 拡張子で指定したモデル オブジェクト名になります。データ バインディングがネスト プロパティをサポートするかどうかも重要です。

@@ -11,42 +11,42 @@ Tabs コンポーネントは、同じ情報を異なるビューに体系化、
 
 ### Tabs デモ
 
-<img src="../images/tabs_demo.png" srcset="../images/tabs_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_demo.png" srcset="../images/tabs_demo@2x.png 2x" />
 
 ### サイズ
 
 バーに配置されたタブは、高さのあるテキストを使用したアイコン、または短いテキストやアイコンを含みますが同時に両方、含むことはありません。
 
-<img src="../images/tabs_short.png" srcset="../images/tabs_short@2x.png 2x" />
-<img src="../images/tabs_tall.png" srcset="../images/tabs_tall@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_short.png" srcset="../images/tabs_short@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_tall.png" srcset="../images/tabs_tall@2x.png 2x" />
 
 ### レスポンシブ
 
 Tab を**固定**し、多数のタブでスクロール ボタンが提供される空いている水平スペースを幅またはフルードを使用して埋めることができます。この機能jは、他のモードで使用可能なスペースに入れた場合よりも多くのコンテンツを入れることができます。
 
-<img src="../images/tabs_fixed.png" srcset="../images/tabs_fixed@2x.png 2x" />
-<img src="../images/tabs_fluid.png" srcset="../images/tabs_fluid@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_fixed.png" srcset="../images/tabs_fixed@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_fluid.png" srcset="../images/tabs_fluid@2x.png 2x" />
 
 ### 量
 
 多くのケースで Tabs に 2 つ ～ 4 つのタブが必要になります。4 つ以上必要な場合、ビューでタブのみ表示するフルード モードを検討します。
 
-<img src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" />
-<img src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
-<img src="../images/tabs_4.png" srcset="../images/tabs_4@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_4.png" srcset="../images/tabs_4@2x.png 2x" />
 
 ### タイプ
 
 短い Tabs は、各タブの項目を説明する**テキスト**とアイコンのコンテンツをサポートします。
 
-<img src="../images/tabs_text.png" srcset="../images/tabs_text@2x.png 2x" />
-<img src="../images/tabs_icons.png" srcset="../images/tabs_icons@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_text.png" srcset="../images/tabs_text@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_icons.png" srcset="../images/tabs_icons@2x.png 2x" />
 
 ### スタイル設定
 
 Tabs は、テキストやアイコンの色、現在の選択をマークするインジケーターの色、アクティブ/インアクティブな背景色の変更が可能な基本的なスタイル設定が可能です。
 
-<img src="../images/tabs_styling.png" srcset="../images/tabs_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_styling.png" srcset="../images/tabs_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -54,14 +54,14 @@ Tab は情報の体系化に適してますが、ワークフローのデザイ�
 
 | 良い例                                                                         |悪い例                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| <img src="../images/tabs_do1.png" srcset="../images/tabs_do1@2x.png 2x" />|<img src="../images/tabs_dont1.png" srcset="../images/tabs_dont1@2x.png 2x" /> |
-| <img src="../images/tabs_do2.png" srcset="../images/tabs_do2@2x.png 2x" />|<img src="../images/tabs_dont2.png" srcset="../images/tabs_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/tabs_do1.png" srcset="../images/tabs_do1@2x.png 2x" />|<img class="responsive-img" src="../images/tabs_dont1.png" srcset="../images/tabs_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/tabs_do2.png" srcset="../images/tabs_do2@2x.png 2x" />|<img class="responsive-img" src="../images/tabs_dont2.png" srcset="../images/tabs_dont2@2x.png 2x" /> |
 
 ## コードの生成
 
 Sketch の制限によって Tab コンポーネントの特定のタブとコンテンツを関連付けすることはできません。Tab コンポーネントを含む Artboard 全体の生成はお勧めしません。代わりに Tab コンポーネントを生成してから個々のタブ コンテンツをそれぞれの Angular コンポーネントに生成してください。タブ コンテンツをそれぞれ Angular コンポーネントに生成後、Tab コンポーネントで各タブ内で生成したタブ コンテンツに手動で参照できます。
 
-<img src="../images/tabs_limitation.png" />
+<img class="responsive-img" src="../images/tabs_limitation.png" />
 
 > [!WARNING]
 > デザインの Tab インスタンスで `Detach from Symbol` をトリガーした場合、ほとんどの場合でツールチップのコード生成が機能しなくなります。

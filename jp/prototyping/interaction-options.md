@@ -14,7 +14,7 @@ _language: ja
 - [ナビゲーション](#ナビゲーション)
 - [トランジション](#トランジション)
 
-<img src="../images/interaction_options_1.png" />
+<img class="responsive-img" src="../images/interaction_options_1.png" />
 
 <div class="divider--half"></div>
 
@@ -28,7 +28,7 @@ _language: ja
 
 ホットスポットの作成は、スクリーンのポイント上にクリック + ドラッグします。
 
-<img src="../images/Interaction_Options_Hotspot_Tooltip.png" />
+<img class="responsive-img" src="../images/Interaction_Options_Hotspot_Tooltip.png" />
 
 <div class="divider--half"></div>
 
@@ -39,7 +39,7 @@ _language: ja
 プロトタイプの複数のスクリーンで繰り返しインタラクションを使用できます。
 手順は、ホットスポットを作成、次にインタラクションを追加して複製します。
 
-<img src="../images/interaction_options_hotspot_duplicate.png" />
+<img class="responsive-img" src="../images/interaction_options_hotspot_duplicate.png" />
 
 <div class="divider--half"></div>
 
@@ -64,7 +64,7 @@ _language: ja
 
 よく利用されているインタラクションは、プロトタイプ内の他のスクリーンへの移動です。
 
-<img src="../images/interaction_options_navigate.png" />
+<img class="responsive-img" src="../images/interaction_options_navigate.png" />
 
 <div class="divider--half"></div>
 
@@ -72,7 +72,7 @@ _language: ja
 
 プロトタイプのナビゲーション履歴で前のスクリーンへ移動します。
 
-<img src="../images/interaction_options_goback.png" />
+<img class="responsive-img" src="../images/interaction_options_goback.png" />
 
 <div class="divider--half"></div>
 
@@ -80,7 +80,7 @@ _language: ja
 
 プロトタイプ以外の URL へ移動します。
 
-<img src="../images/interaction_options_openurl.png" />
+<img class="responsive-img" src="../images/interaction_options_openurl.png" />
 
 <div class="divider--half"></div>
 
@@ -94,7 +94,7 @@ _language: ja
 - スライド
 - プッシュ
 
-<img src="../images/Interaction_Options_Interaction_Panel.png" />
+<img class="responsive-img" src="../images/Interaction_Options_Interaction_Panel.png" />
 
 <div class="divider--half"></div>
 
@@ -108,6 +108,6 @@ _language: ja
 - 標準: 300 ミリ秒
 - 速い: 150 ミリ秒
 
-<img src="../images/interaction_options_durations.png" />
+<img class="responsive-img" src="../images/interaction_options_durations.png" />
 
 <div class="divider--half"></div>

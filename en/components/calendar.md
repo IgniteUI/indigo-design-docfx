@@ -10,36 +10,36 @@ Use the Calendar Component to visually represent a date and provide consistent m
 
 ### Calendar Demo
 
-<img src="../images/calendar_demo.png" srcset="../images/calendar_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/calendar_demo.png" srcset="../images/calendar_demo@2x.png 2x" />
 
 ### Layout
 
 The Calendar supports horizontal and vertical layouts, as well as a base calendar rendering for a simplified display and browsing.
 
-<img src="../images/calendar_horizontal.png" srcset="../images/calendar_horizontal@2x.png 2x" />
-<img src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
-<img src="../images/calendar_base.png" srcset="../images/calendar_base@2x.png 2x" />
+<img class="responsive-img" src="../images/calendar_horizontal.png" srcset="../images/calendar_horizontal@2x.png 2x" />
+<img class="responsive-img" src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
+<img class="responsive-img" src="../images/calendar_base.png" srcset="../images/calendar_base@2x.png 2x" />
 
 ### Content
 
 The Calendar supports picking for all three major date portions: the year, the month, and the day. Three content modes are provided, each responsible for the picking of its respective date portion.
 
-<img src="../images/calendar_days.png" srcset="../images/calendar_days@2x.png 2x" />
-<img src="../images/calendar_months.png" srcset="../images/calendar_months@2x.png 2x" />
-<img src="../images/calendar_years.png" srcset="../images/calendar_years@2x.png 2x" />
+<img class="responsive-img" src="../images/calendar_days.png" srcset="../images/calendar_days@2x.png 2x" />
+<img class="responsive-img" src="../images/calendar_months.png" srcset="../images/calendar_months@2x.png 2x" />
+<img class="responsive-img" src="../images/calendar_years.png" srcset="../images/calendar_years@2x.png 2x" />
 
 ### Week Start
 
 The start of the week is configurable by selecting between the two most common scenarios for the first day: Sunday or Monday.
 
-<img src="../images/calendar_sun.png" srcset="../images/calendar_sun@2x.png 2x" />
-<img src="../images/calendar_mon.png" srcset="../images/calendar_mon@2x.png 2x" />
+<img class="responsive-img" src="../images/calendar_sun.png" srcset="../images/calendar_sun@2x.png 2x" />
+<img class="responsive-img" src="../images/calendar_mon.png" srcset="../images/calendar_mon@2x.png 2x" />
 
 ### Styling
 
 The Calendar comes with styling flexibility through the various overrides controlling header background, title colors, and content month and year picker items, as well as text and background colors for the selected day, month, or year. These are applicable according to the configurations.
 
-<img src="../images/calendar_styling.png" srcset="../images/calendar_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/calendar_styling.png" srcset="../images/calendar_styling@2x.png 2x" />
 
 ## Usage
 
@@ -47,7 +47,7 @@ Use the horizontal, vertical or base Calendars as inline elements with the rest 
 
 | Do                                                                                 | Don't                                                                                  |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| <img src="../images/calendar_do1.png" srcset="../images/calendar_do1@2x.png 2x" /> | <img src="../images/calendar_dont1.png" srcset="../images/calendar_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/calendar_do1.png" srcset="../images/calendar_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/calendar_dont1.png" srcset="../images/calendar_dont1@2x.png 2x" /> |
 
 ## Code generation
 

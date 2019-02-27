@@ -9,7 +9,7 @@ _keywords: UX Design, Prototyping, Commenting
 Prototypes you publish have support for real-time commenting. 
 
 <div class="divider--half"></div>
-<img src="../images/Commenting_1.png" srcset="../images/Commenting_1@2x.png 2x" />
+<img class="responsive-img" src="../images/Commenting_1.png" srcset="../images/Commenting_1@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -21,7 +21,7 @@ Anyone you share the prototype link with can use the commenting panel in the pro
 To enable comments for your prototype you can use the settings section in the commenting panel of the prototype viewer toolbar, or the review and commenting options in the detail panel of your prototype.
 
 <div class="divider--half"></div>
-<img src="../images/Commenting_2.png" srcset="../images/Commenting_2@2x.png 2x" />
+<img class="responsive-img" src="../images/Commenting_2.png" srcset="../images/Commenting_2@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>

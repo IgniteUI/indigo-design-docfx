@@ -11,26 +11,26 @@ Radio Group コンポーネント シンボルは、グループ項目で排他�
 
 ### Radio Group デモ
 
-<img src="../images/radiogroup_demo.png" srcset="../images/radiogroup_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/radiogroup_demo.png" srcset="../images/radiogroup_demo@2x.png 2x" />
 
 ### テーマ
 
 Radio Group は、明暗バリアントでわかりやすく、背景に明暗のコントラストを付けてスタイル設定できます。すべての Radios を同じテーマに設定してださい。
 
-<img src="../images/radiogroup_dark.png" srcset="../images/radiogroup_dark@2x.png 2x" />
-<img src="../images/radiogroup_light.png" srcset="../images/radiogroup_light@2x.png 2x" />
+<img class="responsive-img" src="../images/radiogroup_dark.png" srcset="../images/radiogroup_dark@2x.png 2x" />
+<img class="responsive-img" src="../images/radiogroup_light.png" srcset="../images/radiogroup_light@2x.png 2x" />
 
 ### 状態
 
 グループの各 Radio は、**オン**とオフ、そして追加のバリアントとしてインタラクション無効の状態があります。
 
-<img src="../images/radiogroup_states.png" srcset="../images/radiogroup_states@2x.png 2x" />
+<img class="responsive-img" src="../images/radiogroup_states.png" srcset="../images/radiogroup_states@2x.png 2x" />
 
 ### スタイル設定
 
 Radio Group は、さまざまなオーバーライドで各項目のラベル スタイルや色を制御することにより柔軟にスタイル設定できます。
 
-<img src="../images/radiogroup_styling.png" srcset="../images/radiogroup_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/radiogroup_styling.png" srcset="../images/radiogroup_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -38,8 +38,8 @@ Radio Group を追加項目で拡張する場合は、単一列で左寄せに�
 
 | 良い例                                | 悪い例                               |
 | --------------------------------- | ----------------------------------- |
-| <img src="../images/radiogroup_do1.png" srcset="../images/radiogroup_do1@2x.png 2x" /> | <img src="../images/radiogroup_dont1.png" srcset="../images/radiogroup_dont1@2x.png 2x" /> |
-| <img src="../images/radiogroup_do2.png" srcset="../images/radiogroup_do2@2x.png 2x" /> | <img src="../images/radiogroup_dont2.png" srcset="../images/radiogroup_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/radiogroup_do1.png" srcset="../images/radiogroup_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/radiogroup_dont1.png" srcset="../images/radiogroup_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/radiogroup_do2.png" srcset="../images/radiogroup_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/radiogroup_dont2.png" srcset="../images/radiogroup_dont2@2x.png 2x" /> |
 
 ## コードの生成
 

@@ -13,21 +13,21 @@ Bullet Graph コンポーネントをデータ可視化に使用し、カラー�
 
 ### ブレット グラフ デモ
 
-<img src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />
 
 ### 範囲のサイズ
 
 Bullet Graph は、定義済みの 3 つの範囲 (2 つ、**3 つ**、4 つ) 設定があります。
 
-<img src="../images/bullet_graph_two_ranges.png" srcset="../images/bullet_graph_two_ranges@2x.png 2x" />
-<img src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />
-<img src="../images/bullet_graph_four_ranges.png" srcset="../images/bullet_graph_four_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/bullet_graph_two_ranges.png" srcset="../images/bullet_graph_two_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/bullet_graph_four_ranges.png" srcset="../images/bullet_graph_four_ranges@2x.png 2x" />
 
 ### スタイル設定
 
 Bullet Graph のスタイル設定は高い柔軟性があり、背景色の制御をオーバーライドやブラシ範囲 (Value Brush、Target Value Brush、Tick Brush、Minor Tick Brush、Range Brushes のコレクション) があります。
 
-<img src="../images/bullet_graph_styling.png" srcset="../images/bullet_graph_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/bullet_graph_styling.png" srcset="../images/bullet_graph_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -35,7 +35,7 @@ Bullet Graph のスタイル設定は高い柔軟性があり、背景色の制�
 
 | 良い例                                                                                       |悪い例                                                                                        |
 | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| <img src="../images/bullet_graph_do.png" srcset="../images/bullet_graph_do@2x.png 2x" />|<img src="../images/bullet_graph_dont.png" srcset="../images/bullet_graph_dont@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/bullet_graph_do.png" srcset="../images/bullet_graph_do@2x.png 2x" />|<img class="responsive-img" src="../images/bullet_graph_dont.png" srcset="../images/bullet_graph_dont@2x.png 2x" /> |
 
 ## コードの生成
 
@@ -50,11 +50,11 @@ Bullet Graph のスタイル設定は高い柔軟性があり、背景色の制�
 
 バインディング:
 
-<img src="../images/linear_gauge_bind_min.png"/>
+<img class="responsive-img" src="../images/linear_gauge_bind_min.png"/>
 
 非バインディング:
 
-<img src="../images/linear_gauge_nobind_min.png"/>
+<img class="responsive-img" src="../images/linear_gauge_nobind_min.png"/>
 
 ### 最大値
 
@@ -62,11 +62,11 @@ Bullet Graph のスタイル設定は高い柔軟性があり、背景色の制�
 
 バインディング:
 
-<img src="../images/linear_gauge_bind_max.png"/>
+<img class="responsive-img" src="../images/linear_gauge_bind_max.png"/>
 
 非バインディング:
 
-<img src="../images/linear_gauge_nobind_max.png"/>
+<img class="responsive-img" src="../images/linear_gauge_nobind_max.png"/>
 
 ### 範囲のサイズ
 
@@ -78,11 +78,11 @@ Bullet Graph のスタイル設定は高い柔軟性があり、背景色の制�
 
 このオーバーライドは、Bullet Graph で表示する現在値を制御します。
 
-<img src="../images/bullet_graph_value.png"/>
+<img class="responsive-img" src="../images/bullet_graph_value.png"/>
 
 [データ バインディング](../codegen/data-binding.md) のみサポートするため、値は正しい書式にする必要があります。
 
-<img src="../images/linear_gauge_valueprop.png"/>
+<img class="responsive-img" src="../images/linear_gauge_valueprop.png"/>
 
 バインド プロパティはランタイムの結果が数値である必要があります。
 
@@ -90,11 +90,11 @@ Bullet Graph のスタイル設定は高い柔軟性があり、背景色の制�
 
 このオーバーライドは、Bullet Graph で表示するターゲット値を制御します。
 
-<img src="../images/bullet_graph_target_value.png"/>
+<img class="responsive-img" src="../images/bullet_graph_target_value.png"/>
 
 [データ バインディング](../codegen/data-binding.md) のみサポートするため、値は正しい書式にする必要があります。
 
-<img src="../images/linear_gauge_valueprop.png"/>
+<img class="responsive-img" src="../images/linear_gauge_valueprop.png"/>
 
 バインド プロパティはランタイムの結果が数値である必要があります。
 

@@ -19,7 +19,7 @@ VS Code 拡張機能をインストールする前に、Visual Studio Code が�
 2.  Visual Studio Code を開いて、メイン メニューで「表示」> 「拡張機能」を選択します。
 
     <div class="divider--half"></div>
-    <img src="../images/vs-code-extension-drop-down.png" />
+    <img class="responsive-img" src="../images/vs-code-extension-drop-down.png" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -31,7 +31,7 @@ VS Code 拡張機能をインストールする前に、Visual Studio Code が�
 4.  ドロップダウン メニューから「VSIX からインストール」を選択します。
 
     <div class="divider--half"></div>
-    <img src="../images/vs-code-install-vsix.png" />
+    <img class="responsive-img" src="../images/vs-code-install-vsix.png" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -40,7 +40,7 @@ VS Code 拡張機能をインストールする前に、Visual Studio Code が�
 
 5.  ダウンロードして解凍したファイルの場所に参照し、VS Code 拡張機能を選択します。
     <div class="divider--half"></div>
-    <img src="../images/vs-code-select-vsix.png" />
+    <img class="responsive-img" src="../images/vs-code-select-vsix.png" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -49,7 +49,7 @@ VS Code 拡張機能をインストールする前に、Visual Studio Code が�
 
 拡張機能がコンピューター上でインストール済みになりました。
 
-<img src="../images/vs-code-generator-installed.png" />
+<img class="responsive-img" src="../images/vs-code-generator-installed.png" />
 
 ## その他のリソース
 

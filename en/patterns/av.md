@@ -8,16 +8,16 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 Use the AV Pattern to complement a represenatation of an audio or video track with playback controls.
 
-<img src="../images/av_player_demo.png" srcset="../images/av_player_demo@2x.png 2x" />
-<img src="../images/av_volume_demo.png" srcset="../images/av_volume_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/av_player_demo.png" srcset="../images/av_player_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/av_volume_demo.png" srcset="../images/av_volume_demo@2x.png 2x" />
 
 The AV Pattern comes with the styling flexibility provided by the Icon Buttons and Linear Progress Bar that shape its layout.
 
 > [!WARNING]
 > After inserting an AV Pattern, you should trigger `Detach from Symbol` to break it down to the Components that are used to create the layout in order to be able to generate it as Angular code. The individual Components, however, must stay intact and not be detached!
 
-<img src="../images/av_player_detach.png" />
-<img src="../images/av_volume_detach.png" />
+<img class="responsive-img" src="../images/av_player_detach.png" />
+<img class="responsive-img" src="../images/av_volume_detach.png" />
 
 ## Additional Resources
 

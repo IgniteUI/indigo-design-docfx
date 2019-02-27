@@ -16,12 +16,12 @@ Use the Full Grid Pattern symbol as an alternative starting point when designing
 - Summaries
 - Paging
 
-<img src="../images/grids_demo.png" srcset="../images/grids_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/grids_demo.png" srcset="../images/grids_demo@2x.png 2x" />
 
 > [!WARNING]
 > After inserting the Full Grid Pattern, you should trigger `Detach from Symbol` to break it down to the Components and Grid symbols that are used to create the layout in order to be able to generate it as Angular code. The individual Components and Grid symbols, however, must stay intact and not be detached!
 
-<img src="../images/grids_detach.png" />
+<img class="responsive-img" src="../images/grids_detach.png" />
 
 ## Additional Resources
 

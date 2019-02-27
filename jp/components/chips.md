@@ -11,7 +11,7 @@ Chip コンポーネントは、タグや連絡先 (メール受信者など) �
 
 ### Chip デモ
 
-<img src="../images/chip_demo.png" srcset="../images/chip_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_demo.png" srcset="../images/chip_demo@2x.png 2x" />
 
 ### Chip 密度
 
@@ -21,54 +21,54 @@ Chip は 3 つの密度バリアントがサポートされます。
 - Cosy - 電子メール作成ツールの受信者フィールドなど短い領域に適しています。
 - Compact - グリッド セルの値などデータが密集したシナリオに最適です。
 
-<img src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
-<img src="../images/chip_cosy.png" srcset="../images/chip_cosy@2x.png 2x" />
-<img src="../images/chip_compact.png" srcset="../images/chip_compact@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_cosy.png" srcset="../images/chip_cosy@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_compact.png" srcset="../images/chip_compact@2x.png 2x" />
 
 ### チップの状態
 
 ユーザーが Chip とインタラクションした際にさまざまな状態になります。ユーザーが選択的なアクションを実行したとき **idle**, selected になり、ユーザーがタブ インデックスをナビゲーションしているときはフォーカスされます。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 
-<img src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
 `idle`
 
-<img src="../images/chip_idle_selected.png" srcset="../images/chip_idle_selected@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_idle_selected.png" srcset="../images/chip_idle_selected@2x.png 2x" />
 `idle when selected`
 
-<img src="../images/chip_focus.png" srcset="../images/chip_focus@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_focus.png" srcset="../images/chip_focus@2x.png 2x" />
 `focus`
 
-<img src="../images/chip_focus_selected.png" srcset="../images/chip_focus_selected@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_focus_selected.png" srcset="../images/chip_focus_selected@2x.png 2x" />
 `focus when selected`
 
 Chip を削除可能にする場合はその他の状態も利用でき、 クリックまたはタップによって Chip を削除する要素の右端に特別なアイコンを追加します。
 
-<img src="../images/chip_idle_removable.png" srcset="../images/chip_idle_removable@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_idle_removable.png" srcset="../images/chip_idle_removable@2x.png 2x" />
 `idle and removable`
 
-<img src="../images/chip_idle_selected_removable.png" srcset="../images/chip_idle_selected_removable@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_idle_selected_removable.png" srcset="../images/chip_idle_selected_removable@2x.png 2x" />
 `idle and removable when selected`
 
-<img src="../images/chip_focus_removable.png" srcset="../images/chip_focus_removable@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_focus_removable.png" srcset="../images/chip_focus_removable@2x.png 2x" />
 `focus and removable`
 
-<img src="../images/chip_focus_selected_removable.png" srcset="../images/chip_focus_selected_removable@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_focus_selected_removable.png" srcset="../images/chip_focus_selected_removable@2x.png 2x" />
 `focus and removable when selected`
 
 ### Chip コンテンツ
 
 Chip は、コンテンツ状態 (**OnlyText**, Prefix, Prefix+Suffix, Suffix) を使用して付加情報を伝えるために使用できるプレフィックスとサフィックス アイコンをサポートします。
 
-<img src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
-<img src="../images/chip_prefix.png" srcset="../images/chip_prefix@2x.png 2x" />
-<img src="../images/chip_prefix_suffix.png" srcset="../images/chip_prefix_suffix@2x.png 2x" />
-<img src="../images/chip_suffix.png" srcset="../images/chip_suffix@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_prefix.png" srcset="../images/chip_prefix@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_prefix_suffix.png" srcset="../images/chip_prefix_suffix@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_suffix.png" srcset="../images/chip_suffix@2x.png 2x" />
 
 ### Chip のスタイル設定
 
 Chip は、さまざまなオーバーライドで境界線と背景色、テキスト、Prefix、Suffix、削除したアイコン色を制御することにより柔軟にスタイル設定できます。
 
-<img src="../images/chip_styling.png" srcset="../images/chip_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_styling.png" srcset="../images/chip_styling@2x.png 2x" />
 
 ## Chips 領域
 
@@ -76,20 +76,20 @@ Chip 領域コンポーネントを使用して Chips のコレクションを�
 
 ### Chips 領域デモ
 
-<img src="../images/chips_area_demo.png" srcset="../images/chips_area_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/chips_area_demo.png" srcset="../images/chips_area_demo@2x.png 2x" />
 
 ### Chips 領域タイプ
 
 Chips 領域は 2 つの異なるタイプがあり、Chip に関連のないコレクションを表す標準タイプ、Chips が定義済された順序で表示される接続したコレクションを表します。
 
-<img src="../images/chips_area_standard.png" srcset="../images/chips_area_standard@2x.png 2x" />
-<img src="../images/chips_area_connected.png" srcset="../images/chips_area_connected@2x.png 2x" />
+<img class="responsive-img" src="../images/chips_area_standard.png" srcset="../images/chips_area_standard@2x.png 2x" />
+<img class="responsive-img" src="../images/chips_area_connected.png" srcset="../images/chips_area_connected@2x.png 2x" />
 
 ### Chips 領域のスタイル設定
 
 Chips 領域は Chips の継承スタイルがサポートされますが、コネクター アイコンの色とグリフも変更できます。
 
-<img src="../images/chips_area_styling.png" srcset="../images/chips_area_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/chips_area_styling.png" srcset="../images/chips_area_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -97,15 +97,15 @@ Chips をサイズ調整してテキスト コンテンツがを一行に表示�
 
 | 良い例                                                                         |悪い例                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| <img src="../images/chip_do1.png" srcset="../images/chip_do1@2x.png 2x" />|<img src="../images/chip_dont1.png" srcset="../images/chip_dont1@2x.png 2x" /> |
-| <img src="../images/chip_do1.png" srcset="../images/chip_do1@2x.png 2x" />|<img src="../images/chip_dont2.png" srcset="../images/chip_dont2@2x.png 2x" /> |
-| <img src="../images/chip_do3.png" srcset="../images/chip_do3@2x.png 2x" />|<img src="../images/chip_dont3.png" srcset="../images/chip_dont3@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/chip_do1.png" srcset="../images/chip_do1@2x.png 2x" />|<img class="responsive-img" src="../images/chip_dont1.png" srcset="../images/chip_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/chip_do1.png" srcset="../images/chip_do1@2x.png 2x" />|<img class="responsive-img" src="../images/chip_dont2.png" srcset="../images/chip_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/chip_do3.png" srcset="../images/chip_do3@2x.png 2x" />|<img class="responsive-img" src="../images/chip_dont3.png" srcset="../images/chip_dont3@2x.png 2x" /> |
 
 When using the Chips Area follow the suggestions for the individual Chip components above and when using a connected Chips Area don't configure the individual chips as actions, they are supposed to be entitites related in some way e.g. an ordered list of people.
 
 | 良い例                                                                                     |悪い例                                                                                      |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| <img src="../images/chips_area_do1.png" srcset="../images/chips_area_do1@2x.png 2x" />|<img src="../images/chips_area_dont1.png" srcset="../images/chips_area_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/chips_area_do1.png" srcset="../images/chips_area_do1@2x.png 2x" />|<img class="responsive-img" src="../images/chips_area_dont1.png" srcset="../images/chips_area_dont1@2x.png 2x" /> |
 
 ## コードの生成
 
@@ -132,11 +132,11 @@ When using the Chips Area follow the suggestions for the individual Chip compone
 
 非バインディング:
 
-<img src="../images/chip_nobind.png" srcset="../images/chip_nobind@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_nobind.png" srcset="../images/chip_nobind@2x.png 2x" />
 
 バインディング:
 
-<img src="../images/chip_bind.png" srcset="../images/chip_bind@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_bind.png" srcset="../images/chip_bind@2x.png 2x" />
 
 ### プレフィックス アイコン
 
@@ -152,7 +152,7 @@ When using the Chips Area follow the suggestions for the individual Chip compone
 
 Sketch:
 
-<img src="../images/chip_event.png" srcset="../images/chip_event@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_event.png" srcset="../images/chip_event@2x.png 2x" />
 
 HTML:
 
@@ -175,7 +175,7 @@ Chip 領域は正しくコード生成するためにデタッチする必要が
 
 いくつかのデータに基づいてこの Chip 領域を生成する旨をコード生成に通知します。指定された値は、TypeScript プロパティである必要があります。配列またはタイプのリストです。コード生成時に Angular `ngFor` ディレクティブを生成し、TypeScript プロパティを繰り返して Ignite UI for Angular Chip コンポーネントを作成します。
 
-<img src="../images/chip_area_datasource.png" srcset="../images/chip_area_datasource@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_area_datasource.png" srcset="../images/chip_area_datasource@2x.png 2x" />
 
 HTML:
 

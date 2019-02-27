@@ -11,13 +11,13 @@ Snackbar コンポーネント シンボルは、短い通知の表示やリス�
 
 ### Snackbar デモ
 
-<img src="../images/snackbar_demo.png" srcset="../images/snackbar_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/snackbar_demo.png" srcset="../images/snackbar_demo@2x.png 2x" />
 
 ### スタイル設定
 
 Snackbar は、スタイル設定に制限があり操作ボタンのテキスト色のみ変更できます。
 
-<img src="../images/snackbar_styling.png" srcset="../images/snackbar_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/snackbar_styling.png" srcset="../images/snackbar_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -25,9 +25,9 @@ Snackbar は、その他のコンテンツの一番上に表示されるため�
 
 | 良い例                              | 悪い例                             |
 | ------------------------------- | --------------------------------- |
-| <img src="../images/snackbar_do1.png" srcset="../images/snackbar_do1@2x.png 2x" /> | <img src="../images/snackbar_dont1.png" srcset="../images/snackbar_dont1@2x.png 2x" /> |
-| <img src="../images/snackbar_do2.png" srcset="../images/snackbar_do2@2x.png 2x" /> | <img src="../images/snackbar_dont2.png" srcset="../images/snackbar_dont2@2x.png 2x" /> |
-| <img src="../images/snackbar_do3.png" srcset="../images/snackbar_do3@2x.png 2x" /> | <img src="../images/snackbar_dont3.png" srcset="../images/snackbar_dont3@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/snackbar_do1.png" srcset="../images/snackbar_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/snackbar_dont1.png" srcset="../images/snackbar_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/snackbar_do2.png" srcset="../images/snackbar_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/snackbar_dont2.png" srcset="../images/snackbar_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/snackbar_do3.png" srcset="../images/snackbar_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/snackbar_dont3.png" srcset="../images/snackbar_dont3@2x.png 2x" /> |
 
 ## コードの生成
 

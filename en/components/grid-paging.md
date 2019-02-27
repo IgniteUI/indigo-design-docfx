@@ -10,13 +10,13 @@ Use the Grid Paging Component to inform the user about his current position and 
 
 ### Grid Paging Demo
 
-<img src="../images/grid_paging_demo.png" srcset="../images/grid_paging_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_paging_demo.png" srcset="../images/grid_paging_demo@2x.png 2x" />
 
 ### Styling
 
 The Grid Paging comes with styling flexibility through the various overrides controlling its label and background colors, as well as the available styling for the Icon Buttons used for navigation.
 
-<img src="../images/grid_paging_styling.png" srcset="../images/grid_paging_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_paging_styling.png" srcset="../images/grid_paging_styling@2x.png 2x" />
 
 ## Code generation
 
