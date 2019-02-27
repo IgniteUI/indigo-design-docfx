@@ -12,38 +12,38 @@ For scenarios where a target value is critically important for understanding and
 
 ### Radial Gauge Demo
 
-<img src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 
 ### Needle Type
 
 The Radial Gauge provides various overrides that control the shape of the needle, which indicates the current value: **needle**, trapezoid, and triangle.
 
-<img src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
-<img src="../images/radial_gauge_trapezoid.png" srcset="../images/radial_gauge_trapezoid@2x.png 2x" />
-<img src="../images/radial_gauge_triangle.png" srcset="../images/radial_gauge_triangle@2x.png 2x" />
+<img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/radial_gauge_trapezoid.png" srcset="../images/radial_gauge_trapezoid@2x.png 2x" />
+<img class="responsive-img" src="../images/radial_gauge_triangle.png" srcset="../images/radial_gauge_triangle@2x.png 2x" />
 
 ### Dial Type
 
 The Radial Gauge provides various overrides that control the dial, on which ranges appear: **full**, half, inside, and outside.
 
-<img src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
-<img src="../images/radial_gauge_half.png" srcset="../images/radial_gauge_half@2x.png 2x" />
-<img src="../images/radial_gauge_inside.png" srcset="../images/radial_gauge_inside@2x.png 2x" />
-<img src="../images/radial_gauge_outside.png" srcset="../images/radial_gauge_outside@2x.png 2x" />
+<img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/radial_gauge_half.png" srcset="../images/radial_gauge_half@2x.png 2x" />
+<img class="responsive-img" src="../images/radial_gauge_inside.png" srcset="../images/radial_gauge_inside@2x.png 2x" />
+<img class="responsive-img" src="../images/radial_gauge_outside.png" srcset="../images/radial_gauge_outside@2x.png 2x" />
 
 ### Ranges Amount
 
 The Radial Gauge comes with three preset range configurations: two, **three**, and four ranges.
 
-<img src="../images/radial_gauge_two_ranges.png" srcset="../images/radial_gauge_two_ranges@2x.png 2x" />
-<img src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
-<img src="../images/radial_gauge_four_ranges.png" srcset="../images/radial_gauge_four_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/radial_gauge_two_ranges.png" srcset="../images/radial_gauge_two_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/radial_gauge_four_ranges.png" srcset="../images/radial_gauge_four_ranges@2x.png 2x" />
 
 ### Styling
 
 The Radial Gauge comes with styling flexibility through the various overrides controlling the background color and a range of brushes including: Needle Brush and a collection of Range Brushes, as well as Tick Brush and Minor Tick Brush that are available only for inside and outside dial types.
 
-<img src="../images/radial_gauge_styling.png" srcset="../images/radial_gauge_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/radial_gauge_styling.png" srcset="../images/radial_gauge_styling@2x.png 2x" />
 
 ## Usage
 
@@ -52,7 +52,7 @@ To create an easy to the eye and crisp data visualization pick colors for the Ne
 
 | Do                                                                                       | Don't                                                                                        |
 | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| <img src="../images/radial_gauge_do.png" srcset="../images/radial_gauge_do@2x.png 2x" /> | <img src="../images/radial_gauge_dont.png" srcset="../images/radial_gauge_dont@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/radial_gauge_do.png" srcset="../images/radial_gauge_do@2x.png 2x" /> | <img class="responsive-img" src="../images/radial_gauge_dont.png" srcset="../images/radial_gauge_dont@2x.png 2x" /> |
 
 ## Code Generation
 
@@ -67,11 +67,11 @@ This override controls the minimum value displayed by the Radial Gauge. It suppo
 
 Binding:
 
-<img src="../images/linear_gauge_bind_min.png"/>
+<img class="responsive-img" src="../images/linear_gauge_bind_min.png"/>
 
 No binding:
 
-<img src="../images/linear_gauge_nobind_min.png"/>
+<img class="responsive-img" src="../images/linear_gauge_nobind_min.png"/>
 
 ### Maximum Value
 
@@ -79,11 +79,11 @@ This override controls the maximum value displayed by the Radial Gauge. It suppo
 
 Binding:
 
-<img src="../images/linear_gauge_bind_max.png"/>
+<img class="responsive-img" src="../images/linear_gauge_bind_max.png"/>
 
 No binding:
 
-<img src="../images/linear_gauge_nobind_max.png"/>
+<img class="responsive-img" src="../images/linear_gauge_nobind_max.png"/>
 
 ### Ranges Amount
 
@@ -95,7 +95,7 @@ You may not want the ranges to use the auto-generated start and end values, howe
 
 This override controls the needle value displayed by the Radial Gauge. It only supports [data binding](../codegen/data-binding.md) so provided values must be in the correct format.
 
-<img src="../images/linear_gauge_valueprop.png"/>
+<img class="responsive-img" src="../images/linear_gauge_valueprop.png"/>
 
 The bound property **must** result in a number at runtime.
 

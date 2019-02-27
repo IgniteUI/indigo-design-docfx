@@ -11,7 +11,7 @@ Grid 列ピン固定は、ユーザーが列を右または左へスクロール
 
 ### Grid 列ピン固定デモ
 
-<img src="../images/grid_column_pinning_demo.png" srcset="../images/grid_column_pinning_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_column_pinning_demo.png" srcset="../images/grid_column_pinning_demo@2x.png 2x" />
 
 ### セルの右境界線
 

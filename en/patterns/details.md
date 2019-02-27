@@ -8,7 +8,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 Use the Details Pattern to display detailed information as a full-screen page usually depicting things such as articles, products, recipes etc.
 
-<img src="../images/details_demo.png" srcset="../images/details_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/details_demo.png" srcset="../images/details_demo@2x.png 2x" />
 
 The Details Pattern comes with the styling flexibility provided by the Badges, Buttons, Tabs, and Text elements that constitute it.
 
@@ -16,12 +16,12 @@ The Details Pattern comes with the styling flexibility provided by the Badges, B
 
 The Details Pattern supports the following interchangeable pieces of content that, when combined, shape up its layout: Action Bar, Badge, Description, Metadata, Tabs, and Title and Price.
 
-<img src="../images/details_content.png" srcset="../images/details_content@2x.png 2x" />
+<img class="responsive-img" src="../images/details_content.png" srcset="../images/details_content@2x.png 2x" />
 
 > [!WARNING]
 > After inserting a Details Pattern, you should trigger `Detach from Symbol` to break it down to the individual Components that are used to create the Pattern layout in order to be able to generate Angular code. The individual Components, however, must stay intact and not be detached!
 
-<img src="../images/details_detach.png" />
+<img class="responsive-img" src="../images/details_detach.png" />
 
 ## Additional Resources
 

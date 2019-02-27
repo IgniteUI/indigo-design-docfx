@@ -10,25 +10,25 @@ Use the Badge Component Symbol to draw attention to another interface element or
 
 ### Badge Demo
 
-<img src="../images/badge_demo.png" srcset="../images/badge_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/badge_demo.png" srcset="../images/badge_demo@2x.png 2x" />
 
 ### Shape
 
 The Badge comes in two distinct shapes: round and square.
 
-<img src="../images/badge_shapes.png" srcset="../images/badge_shapes@2x.png 2x" />
+<img class="responsive-img" src="../images/badge_shapes.png" srcset="../images/badge_shapes@2x.png 2x" />
 
 ### Type
 
 The Badge can carry different types of content such as a **number** or an icon.
 
-<img src="../images/badge_type.png" srcset="../images/badge_type@2x.png 2x" />
+<img class="responsive-img" src="../images/badge_type.png" srcset="../images/badge_type@2x.png 2x" />
 
 ### Styling
 
 The Badge comes with styling flexibility through the various overrides controlling the background and border colors, as well as the presence of a shadow that is cast on the underlying interface element.
 
-<img src="../images/badge_styling.png" srcset="../images/badge_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/badge_styling.png" srcset="../images/badge_styling@2x.png 2x" />
 
 ## Usage
 
@@ -36,7 +36,7 @@ Use the Badge to "stamp" another piece of UI, such as an Avatar or a text title 
 
 | Do                                                                           | Don't                                                                            |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| <img src="../images/badge_do1.png" srcset="../images/badge_do1@2x.png 2x" /> | <img src="../images/badge_dont1.png" srcset="../images/badge_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/badge_do1.png" srcset="../images/badge_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/badge_dont1.png" srcset="../images/badge_dont1@2x.png 2x" /> |
 
 ## Code Generation
 

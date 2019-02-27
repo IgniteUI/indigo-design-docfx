@@ -9,17 +9,17 @@ _language: ja
 
 Card Collection パターンを使用すると、アシスタントまたはニュース フィード、タイムライン、または複数列ボードを表示できます。
 
-<img src="../images/cardcol_demo_assistant.png" srcset="../images/cardcol_demo_assistant@2x.png 2x" />
-<img src="../images/cardcol_demo_news.png" srcset="../images/cardcol_demo_news@2x.png 2x" />
-<img src="../images/cardcol_demo_pins.png" srcset="../images/cardcol_demo_pins@2x.png 2x" />
-<img src="../images/cardcol_demo_timeline.png" srcset="../images/cardcol_demo_timeline@2x.png 2x" />
+<img class="responsive-img" src="../images/cardcol_demo_assistant.png" srcset="../images/cardcol_demo_assistant@2x.png 2x" />
+<img class="responsive-img" src="../images/cardcol_demo_news.png" srcset="../images/cardcol_demo_news@2x.png 2x" />
+<img class="responsive-img" src="../images/cardcol_demo_pins.png" srcset="../images/cardcol_demo_pins@2x.png 2x" />
+<img class="responsive-img" src="../images/cardcol_demo_timeline.png" srcset="../images/cardcol_demo_timeline@2x.png 2x" />
 
 Card Collection パターンは Card の様々なタイプおよび (ある場合) Searchbar Input のスタイル設定をカスタマイズできます。
 
 > [!WARNING]
 > 利用可能な任意の Card Collection パターンを挿入した後、Angular コードとして生成するには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。ただし、各 Card コンポーネントをデタッチしないでください。
 
-<img src="../images/card_collection_detach.png" />
+<img class="responsive-img" src="../images/card_collection_detach.png" />
 
 ## その他のリソース
 

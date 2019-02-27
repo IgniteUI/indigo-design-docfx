@@ -9,7 +9,7 @@ _language: ja
 
 Image Manipulation パターンを使用すると、画像または写真を含む Avatar を編集、更新、変更、またはその他のクイック アクションを実行できます。
 
-<img src="../images/image-manip_demo.png" srcset="../images/image-manip_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/image-manip_demo.png" srcset="../images/image-manip_demo@2x.png 2x" />
 
 Image Manipulation パターンは、レイアウトに含まれる Avatar および複数の Button のスタイル設定をカスタマイズできます。
 
@@ -17,12 +17,12 @@ Image Manipulation パターンは、レイアウトに含まれる Avatar お�
 
 Image Manipulation パターンは 1 ～ 2 Flat Button、FAB Button、または Icon Button を含むレイアウトで規格の画像および Avatar をサポートします。
 
-<img src="../images/image-manip_layout.png" srcset="../images/image-manip_layout@2x.png 2x" />
+<img class="responsive-img" src="../images/image-manip_layout.png" srcset="../images/image-manip_layout@2x.png 2x" />
 
 > [!WARNING]
 > Image Manipulation パターンを挿入した後、Angular コードとして生成するには、`Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。
 
-<img src="../images/image_manipulation_detach.png" />
+<img class="responsive-img" src="../images/image_manipulation_detach.png" />
 
 ## その他のリソース
 

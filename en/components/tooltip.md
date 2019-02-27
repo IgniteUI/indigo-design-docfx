@@ -10,27 +10,27 @@ Use the Tooltip Component to show additional information that describes another 
 
 ### Tooltip Demo
 
-<img src="../images/tooltip_demo.png" srcset="../images/tooltip_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/tooltip_demo.png" srcset="../images/tooltip_demo@2x.png 2x" />
 
 ### Type
 
 The Tooltip comes in appropriate sizing for desktop and mobile usage.
 
-<img src="../images/tooltip_desktop.png" srcset="../images/tooltip_desktop@2x.png 2x" />
-<img src="../images/tooltip_mobile.png" srcset="../images/tooltip_mobile@2x.png 2x" />
+<img class="responsive-img" src="../images/tooltip_desktop.png" srcset="../images/tooltip_desktop@2x.png 2x" />
+<img class="responsive-img" src="../images/tooltip_mobile.png" srcset="../images/tooltip_mobile@2x.png 2x" />
 
 ### Variant
 
 The Tooltip has **dark** variant, suiatable for lighter interfaces underneath and a light variant that is more appropriate for usage on top of darker ones.
 
-<img src="../images/tooltip_dark.png" srcset="../images/tooltip_dark@2x.png 2x" />
-<img src="../images/tooltip_light.png" srcset="../images/tooltip_light@2x.png 2x" />
+<img class="responsive-img" src="../images/tooltip_dark.png" srcset="../images/tooltip_dark@2x.png 2x" />
+<img class="responsive-img" src="../images/tooltip_light.png" srcset="../images/tooltip_light@2x.png 2x" />
 
 ### Styling
 
 The Tooltip comes with styling flexibility through the overrides controlling its background color.
 
-<img src="../images/tooltip_styling.png" srcset="../images/tooltip_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/tooltip_styling.png" srcset="../images/tooltip_styling@2x.png 2x" />
 
 ## Usage
 
@@ -38,8 +38,8 @@ When displaying Tooltip for a given element it is important how the tooltip is p
 
 | Do                                                                               | Don't                                                                                |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| <img src="../images/tooltip_do1.png" srcset="../images/tooltip_do1@2x.png 2x" /> | <img src="../images/tooltip_dont1.png" srcset="../images/tooltip_dont1@2x.png 2x" /> |
-| <img src="../images/tooltip_do2.png" srcset="../images/tooltip_do2@2x.png 2x" /> | <img src="../images/tooltip_dont2.png" srcset="../images/tooltip_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/tooltip_do1.png" srcset="../images/tooltip_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/tooltip_dont1.png" srcset="../images/tooltip_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/tooltip_do2.png" srcset="../images/tooltip_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/tooltip_dont2.png" srcset="../images/tooltip_dont2@2x.png 2x" /> |
 
 ## Code Generation
 

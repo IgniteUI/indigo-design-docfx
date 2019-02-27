@@ -11,27 +11,27 @@ Tooltip コンポーネントを使用して追加情報を表示し、ユーザ
 
 ### ツールチップ デモ
 
-<img src="../images/tooltip_demo.png" srcset="../images/tooltip_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/tooltip_demo.png" srcset="../images/tooltip_demo@2x.png 2x" />
 
 ### タイプ
 
 ツールチップは、デスクトップとモバイルで使用時に適切なサイズで提供されます。
 
-<img src="../images/tooltip_desktop.png" srcset="../images/tooltip_desktop@2x.png 2x" />
-<img src="../images/tooltip_mobile.png" srcset="../images/tooltip_mobile@2x.png 2x" />
+<img class="responsive-img" src="../images/tooltip_desktop.png" srcset="../images/tooltip_desktop@2x.png 2x" />
+<img class="responsive-img" src="../images/tooltip_mobile.png" srcset="../images/tooltip_mobile@2x.png 2x" />
 
 ### バリアント
 
 Tooltip の **dark** バリアントは、より明るい色のインターフェイスの下の使用が適しています。**light** バリアントはより暗い色のインターフェイスの上の使用が適しています。
 
-<img src="../images/tooltip_dark.png" srcset="../images/tooltip_dark@2x.png 2x" />
-<img src="../images/tooltip_light.png" srcset="../images/tooltip_light@2x.png 2x" />
+<img class="responsive-img" src="../images/tooltip_dark.png" srcset="../images/tooltip_dark@2x.png 2x" />
+<img class="responsive-img" src="../images/tooltip_light.png" srcset="../images/tooltip_light@2x.png 2x" />
 
 ### スタイル設定
 
 Tooltip には、背景色の制御をオーバライドすることにより柔軟にスタイル設定ができる機能があります。
 
-<img src="../images/tooltip_styling.png" srcset="../images/tooltip_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/tooltip_styling.png" srcset="../images/tooltip_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -39,8 +39,8 @@ Tooltip には、背景色の制御をオーバライドすることにより柔
 
 | 良い例                                                                               |悪い例                                                                                |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| <img src="../images/tooltip_do1.png" srcset="../images/tooltip_do1@2x.png 2x" />|<img src="../images/tooltip_dont1.png" srcset="../images/tooltip_dont1@2x.png 2x" /> |
-| <img src="../images/tooltip_do2.png" srcset="../images/tooltip_do2@2x.png 2x" />|<img src="../images/tooltip_dont2.png" srcset="../images/tooltip_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/tooltip_do1.png" srcset="../images/tooltip_do1@2x.png 2x" />|<img class="responsive-img" src="../images/tooltip_dont1.png" srcset="../images/tooltip_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/tooltip_do2.png" srcset="../images/tooltip_do2@2x.png 2x" />|<img class="responsive-img" src="../images/tooltip_dont2.png" srcset="../images/tooltip_dont2@2x.png 2x" /> |
 
 ## コードの生成
 

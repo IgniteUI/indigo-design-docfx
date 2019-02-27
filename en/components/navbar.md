@@ -10,30 +10,30 @@ Use the Navbar Component to provide clarity for the user about current position 
 
 ### Navbar Demo
 
-<img src="../images/navbar_demo.png" srcset="../images/navbar_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_demo.png" srcset="../images/navbar_demo@2x.png 2x" />
 
 ### Type
 
 The Navbar offers three layout configurations defined by the following types: **icon action and title**, text action and title, and title.
 
-<img src="../images/navbar_lefticon.png" srcset="../images/navbar_lefticon@2x.png 2x" />
-<img src="../images/navbar_lefttext.png" srcset="../images/navbar_lefttext@2x.png 2x" />
-<img src="../images/navbar_noleft.png" srcset="../images/navbar_noleft@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_lefticon.png" srcset="../images/navbar_lefticon@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_lefttext.png" srcset="../images/navbar_lefttext@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_noleft.png" srcset="../images/navbar_noleft@2x.png 2x" />
 
 ### Action Icons
 
 Every Navbar can support up to four action icons, rendered right to left, starting from the right edge of the screen that can trigger different simple events.
 
-<img src="../images/navbar_icon1.png" srcset="../images/navbar_icon1@2x.png 2x" />
-<img src="../images/navbar_icon2.png" srcset="../images/navbar_icon2@2x.png 2x" />
-<img src="../images/navbar_icon3.png" srcset="../images/navbar_icon3@2x.png 2x" />
-<img src="../images/navbar_icon4.png" srcset="../images/navbar_icon4@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_icon1.png" srcset="../images/navbar_icon1@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_icon2.png" srcset="../images/navbar_icon2@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_icon3.png" srcset="../images/navbar_icon3@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_icon4.png" srcset="../images/navbar_icon4@2x.png 2x" />
 
 ### Styling
 
 The Navbar comes with basic styling capabilities achievable through changing the title, icon, and background colors.
 
-<img src="../images/navbar_styling.png" srcset="../images/navbar_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_styling.png" srcset="../images/navbar_styling@2x.png 2x" />
 
 ## Usage
 
@@ -41,8 +41,8 @@ Navbar actions should be carefully used to avoid situations where they overlap w
 
 | Do                                                                             | Don't                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| <img src="../images/navbar_do1.png" srcset="../images/navbar_do1@2x.png 2x" /> | <img src="../images/navbar_dont1.png" srcset="../images/navbar_dont1@2x.png 2x" /> |
-| <img src="../images/navbar_do2.png" srcset="../images/navbar_do2@2x.png 2x" /> | <img src="../images/navbar_dont2.png" srcset="../images/navbar_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/navbar_do1.png" srcset="../images/navbar_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/navbar_dont1.png" srcset="../images/navbar_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/navbar_do2.png" srcset="../images/navbar_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/navbar_dont2.png" srcset="../images/navbar_dont2@2x.png 2x" /> |
 
 ## Code generation
 

@@ -11,7 +11,7 @@ Button コンポーネント シンボルは、シンプルなユーザー操作
 
 ### Button デモ
 
-<img src="../images/button_demo.png" srcset="../images/button_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/button_demo.png" srcset="../images/button_demo@2x.png 2x" />
 
 ### タイプ
 
@@ -22,19 +22,19 @@ Button コンポーネント シンボルは、シンプルなユーザー操作
 - Icon Button は、操作をアイコンでのみ表されます。
 - Floating Action Button (fab) の塗りつぶしと影は、画面ごとに 1 回使用してメインの操作を強調します。
 
-<img src="../images/button_types.png" srcset="../images/button_types@2x.png 2x" />
+<img class="responsive-img" src="../images/button_types.png" srcset="../images/button_types@2x.png 2x" />
 
 ### 状態
 
 各ボタン タイプは**デフォルト**、ホバー、無効の状態をサポートします。アイコンやラベル付きのボタンはデフォルト状態でも利用できます。
 
-<img src="../images/button_states.png" srcset="../images/button_states@2x.png 2x" />
+<img class="responsive-img" src="../images/button_states.png" srcset="../images/button_states@2x.png 2x" />
 
 ### スタイル設定
 
 Button は、さまざまなオーバーライドで背景色、ラベル、アイコン色を制御することにより柔軟にスタイル設定できます。
 
-<img src="../images/button_styling.png" srcset="../images/button_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/button_styling.png" srcset="../images/button_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -42,9 +42,9 @@ Button のコンテンツにラベルを含む場合、大文字を太文字 (Me
 
 | 良い例                                                                         | 悪い例                                                                             |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| <img src="../images/button_do1.png" srcset="../images/button_do1@2x.png 2x" /> | <img src="../images/button_dont1.png" srcset="../images/button_dont1@2x.png 2x" /> |
-| <img src="../images/button_do2.png" srcset="../images/button_do2@2x.png 2x" /> | <img src="../images/button_dont2.png" srcset="../images/button_dont2@2x.png 2x" /> |
-| <img src="../images/button_do3.png" srcset="../images/button_do3@2x.png 2x" /> | <img src="../images/button_dont3.png" srcset="../images/button_dont3@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/button_do1.png" srcset="../images/button_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/button_dont1.png" srcset="../images/button_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/button_do2.png" srcset="../images/button_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/button_dont2.png" srcset="../images/button_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/button_do3.png" srcset="../images/button_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/button_dont3.png" srcset="../images/button_dont3@2x.png 2x" /> |
 
 ## コードの生成
 

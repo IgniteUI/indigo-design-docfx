@@ -11,21 +11,21 @@ Toast コンポーネント シンボルは、非インタラクティブでユ�
 
 ### Toast デモ
 
-<img src="../images/toast_demo.png" srcset="../images/toast_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/toast_demo.png" srcset="../images/toast_demo@2x.png 2x" />
 
 ### 位置
 
 Toast は、情報に関連するコンテンツの上、下、中央に相対的に配置します。
 
-<img src="../images/toast_bottom.png" srcset="../images/toast_bottom@2x.png 2x" />
-<img src="../images/toast_center.png" srcset="../images/toast_center@2x.png 2x" />
-<img src="../images/toast_top.png" srcset="../images/toast_top@2x.png 2x" />
+<img class="responsive-img" src="../images/toast_bottom.png" srcset="../images/toast_bottom@2x.png 2x" />
+<img class="responsive-img" src="../images/toast_center.png" srcset="../images/toast_center@2x.png 2x" />
+<img class="responsive-img" src="../images/toast_top.png" srcset="../images/toast_top@2x.png 2x" />
 
 ### スタイル設定
 
 Toast は、スタイル設定に制限があり背景とメッセージ テキスト色のみ制御します。ただし、white と grays.900 のどちらかを選択することをお勧めします。メッセージ テキストは背景とのコントラストがより高い方を使用します。
 
-<img src="../images/toast_styling.png" srcset="../images/toast_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/toast_styling.png" srcset="../images/toast_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -33,8 +33,8 @@ Toast は、常に水平に配置する必要があり、その他の配置は�
 
 | 良い例                          | 悪い例                          |
 | ---------------------------- | ------------------------------ |
-| <img src="../images/toast_do1.png" srcset="../images/toast_do1@2x.png 2x" /> | <img src="../images/toast_dont1.png" srcset="../images/toast_dont1@2x.png 2x" /> |
-| <img src="../images/toast_do2.png" srcset="../images/toast_do2@2x.png 2x" /> | <img src="../images/toast_dont2.png" srcset="../images/toast_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/toast_do1.png" srcset="../images/toast_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/toast_dont1.png" srcset="../images/toast_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/toast_do2.png" srcset="../images/toast_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/toast_dont2.png" srcset="../images/toast_dont2@2x.png 2x" /> |
 
 ## コードの生成
 

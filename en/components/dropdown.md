@@ -10,37 +10,37 @@ Use the Dropdown Component to let the user select an item from a collection that
 
 ### Dropdown Demo
 
-<img src="../images/dropdown_demo.png" srcset="../images/dropdown_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_demo.png" srcset="../images/dropdown_demo@2x.png 2x" />
 
 ### Type
 
 The Dropdown comes in the appropriate sizing for desktop and mobile usage.
 
-<img src="../images/dropdown_desktop.png" srcset="../images/dropdown_desktop@2x.png 2x" />
-<img src="../images/dropdown_mobile.png" srcset="../images/dropdown_mobile@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_desktop.png" srcset="../images/dropdown_desktop@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_mobile.png" srcset="../images/dropdown_mobile@2x.png 2x" />
 
 ### Items
 
 The Dropdown supports two types of items header and item. Through headers it is possible to organize the other items in groups.
 
-<img src="../images/dropdown_header.png" srcset="../images/dropdown_header@2x.png 2x" />
-<img src="../images/dropdown_item.png" srcset="../images/dropdown_item@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_header.png" srcset="../images/dropdown_header@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item.png" srcset="../images/dropdown_item@2x.png 2x" />
 
 ### Item States
 
 The Dropdown items support five different states: disabled, **idle**, focused, selected and focused&selected.
 
-<img src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
-<img src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
-<img src="../images/dropdown_item_focused.png" srcset="../images/dropdown_item_focused@2x.png 2x" />
-<img src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" />
-<img src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_focused.png" srcset="../images/dropdown_item_focused@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" />
 
 ### Styling
 
 The Dropdown comes with styling flexibility through an override controlling the background color, as well as various overrides related to the items it contains such as item and header background and text colors.
 
-<img src="../images/dropdown_styling.png" srcset="../images/dropdown_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_styling.png" srcset="../images/dropdown_styling@2x.png 2x" />
 
 ## Usage
 
@@ -48,7 +48,7 @@ When using the Dropdown you should always show it on top of the content that fol
 
 | Do                                                                                 | Don't                                                                                  |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| <img src="../images/dropdown_do1.png" srcset="../images/dropdown_do1@2x.png 2x" /> | <img src="../images/dropdown_dont1.png" srcset="../images/dropdown_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/dropdown_do1.png" srcset="../images/dropdown_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/dropdown_dont1.png" srcset="../images/dropdown_dont1@2x.png 2x" /> |
 
 ## Code Generation
 

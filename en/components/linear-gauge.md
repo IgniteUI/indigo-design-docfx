@@ -12,29 +12,29 @@ For scenarios where a target value is critically important for understanding and
 
 ### Linear Gauge Demo
 
-<img src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
 
 ### Needle Type
 
 The Linear Gauge provides various overrides that control the shape of the needle, which indicates the current value: **needle**, trapezoid, and triangle.
 
-<img src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
-<img src="../images/linear_gauge_trapezoid.png" srcset="../images/linear_gauge_trapezoid@2x.png 2x" />
-<img src="../images/linear_gauge_triangle.png" srcset="../images/linear_gauge_triangle@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_trapezoid.png" srcset="../images/linear_gauge_trapezoid@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_triangle.png" srcset="../images/linear_gauge_triangle@2x.png 2x" />
 
 ### Ranges Amount
 
 The Linear Gauge comes with three preset range configurations: two, **three**, and four ranges.
 
-<img src="../images/linear_gauge_two_ranges.png" srcset="../images/linear_gauge_two_ranges@2x.png 2x" />
-<img src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
-<img src="../images/linear_gauge_four_ranges.png" srcset="../images/linear_gauge_four_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_two_ranges.png" srcset="../images/linear_gauge_two_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_four_ranges.png" srcset="../images/linear_gauge_four_ranges@2x.png 2x" />
 
 ### Styling
 
 The Linear Gauge comes with styling flexibility through the various overrides controlling the background color and a range of brushes including: Needle Brush, Tick Brush, Minor Tick Brush, and a collection of Range Brushes.
 
-<img src="../images/linear_gauge_styling.png" srcset="../images/linear_gauge_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_styling.png" srcset="../images/linear_gauge_styling@2x.png 2x" />
 
 ## Usage
 
@@ -43,8 +43,8 @@ To create an easy to the eye and crisp data visualization pick colors for the Ne
 
 | Do                                                                                         | Don't                                                                                          |
 | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
-| <img src="../images/linear_gauge_do1.png" srcset="../images/linear_gauge_do1@2x.png 2x" /> | <img src="../images/linear_gauge_dont1.png" srcset="../images/linear_gauge_dont1@2x.png 2x" /> |
-| <img src="../images/linear_gauge_do2.png" srcset="../images/linear_gauge_do2@2x.png 2x" /> | <img src="../images/linear_gauge_dont2.png" srcset="../images/linear_gauge_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/linear_gauge_do1.png" srcset="../images/linear_gauge_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/linear_gauge_dont1.png" srcset="../images/linear_gauge_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/linear_gauge_do2.png" srcset="../images/linear_gauge_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/linear_gauge_dont2.png" srcset="../images/linear_gauge_dont2@2x.png 2x" /> |
 
 ## Code Generation
 
@@ -59,11 +59,11 @@ This override controls the minimum value displayed by the Linear Gauge. It suppo
 
 Binding:
 
-<img src="../images/linear_gauge_bind_min.png"/>
+<img class="responsive-img" src="../images/linear_gauge_bind_min.png"/>
 
 No binding:
 
-<img src="../images/linear_gauge_nobind_min.png"/>
+<img class="responsive-img" src="../images/linear_gauge_nobind_min.png"/>
 
 ### Maximum Value
 
@@ -71,11 +71,11 @@ This override controls the maximum value displayed by the Linear Gauge. It suppo
 
 Binding:
 
-<img src="../images/linear_gauge_bind_max.png"/>
+<img class="responsive-img" src="../images/linear_gauge_bind_max.png"/>
 
 No binding:
 
-<img src="../images/linear_gauge_nobind_max.png"/>
+<img class="responsive-img" src="../images/linear_gauge_nobind_max.png"/>
 
 ### Ranges Amount
 
@@ -87,7 +87,7 @@ You may not want the ranges to use the auto-generated start and end values, howe
 
 This override controls the needle value displayed by the Linear Gauge. It only supports [data binding](../codegen/data-binding.md) so provided values must be in the correct format.
 
-<img src="../images/linear_gauge_valueprop.png"/>
+<img class="responsive-img" src="../images/linear_gauge_valueprop.png"/>
 
 The bound property **must** result in a number at runtime.
 

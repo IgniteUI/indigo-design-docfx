@@ -11,25 +11,25 @@ Badge コンポーネント シンボルを使用して他のインターフェ�
 
 ### Badge デモ
 
-<img src="../images/badge_demo.png" srcset="../images/badge_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/badge_demo.png" srcset="../images/badge_demo@2x.png 2x" />
 
 ### 図形
 
 Badge には、円形と四角形の 2 つの異なる図形があります。
 
-<img src="../images/badge_shapes.png" srcset="../images/badge_shapes@2x.png 2x" />
+<img class="responsive-img" src="../images/badge_shapes.png" srcset="../images/badge_shapes@2x.png 2x" />
 
 ### タイプ
 
 Badge は、**数字**やアイコンなど、さまざまなタイプのコンテンツを使用できます。
 
-<img src="../images/badge_type.png" srcset="../images/badge_type@2x.png 2x" />
+<img class="responsive-img" src="../images/badge_type.png" srcset="../images/badge_type@2x.png 2x" />
 
 ### スタイル設定
 
 Badge は、さまざまなオーバーライドで背景、境界線の色、元になるインターフェイス要素でキャストされた影の表示の制御などスタイル設定に柔軟性があります。
 
-<img src="../images/badge_styling.png" srcset="../images/badge_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/badge_styling.png" srcset="../images/badge_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -37,7 +37,7 @@ Badge を使用して Avatar やテキスト タイトルなどのその他の U
 
 | 良い例                                                                       | 悪い例                                                                           |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| <img src="../images/badge_do1.png" srcset="../images/badge_do1@2x.png 2x" /> | <img src="../images/badge_dont1.png" srcset="../images/badge_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/badge_do1.png" srcset="../images/badge_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/badge_dont1.png" srcset="../images/badge_dont1@2x.png 2x" /> |
 
 ## コードの生成
 

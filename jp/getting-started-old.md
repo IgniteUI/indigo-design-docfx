@@ -38,7 +38,7 @@ _language: ja
 
 Indigo.Design UI Kit は定義済みのカスタマイズ化を提供します。ライブラリでネストされた `Symbol` があり、Sketch ライブラリを使用するプロジェクトで `Overrides` として公開されます。プロジェクトに Indigo.Design コンポーネントを挿入した後、右側の Sketch パネルで `Overrides` セクションが `Prototyping` オプションの下に表示されます。以下の画像は [Badge](components/badge.md) の利用可能なオーバーライドを表示します。このオーバーライドで型を数値からアイコンに変更するか、数値色および値を構成できます。有効な値のみを含む境界線色および背景色を選択するドロップダウンもあります。下側にコード生成で使用される特別なプロパティがあります。このプロパティは生成された Angular アプリケーションの必要なデータ バインディングを作成します。各コンポーネントは `Overrides` パネルに一意のプロパティがあります。このヘルプ セクションのトピックはそのプロパティの利用可能な値を説明し、使用ガイダンスを提供します。
 
-<img src="images/getting-started-overrides.png" />
+<img class="responsive-img" src="images/getting-started-overrides.png" />
 
 ### Indigo Design はじめてのアートボードを作成
 
@@ -55,12 +55,12 @@ Indigo Design ライブラリを追加後、デザインを開始できます。
   | &nbsp;&nbsp; Colors/primary.100 | 背景色 |
 
   <div class="divider--half"></div>
-  <img src="images/getting-started1.png" srcset="images/getting-started1@2x.png 2x" />
+  <img class="responsive-img" src="images/getting-started1.png" srcset="images/getting-started1@2x.png 2x" />
   <div class="divider--half"></div>
 
 3.  `Insert` メニューから `Indigo-Styling` > `Colors/white` を選択し、白い長方形を背景の上に配置します。サイズを 280 x 398 に設定し、フォームのサーフェイスになるためにアートボードの中央に配置します。
 
-  <img src="images/getting-started2.png" srcset="images/getting-started2@2x.png 2x" />
+  <img class="responsive-img" src="images/getting-started2.png" srcset="images/getting-started2@2x.png 2x" />
 
   <div class="divider--half"></div>
 
@@ -74,13 +74,13 @@ Indigo Design ライブラリを追加後、デザインを開始できます。
     | &nbsp;&nbsp; Colors/white | フォームの背景 |
     | &nbsp;&nbsp; Colors/primary.100 | 背景色 |
 
-  <img src="images/getting-started3.png" srcset="images/getting-started3@2x.png 2x" />
+  <img class="responsive-img" src="images/getting-started3.png" srcset="images/getting-started3@2x.png 2x" />
 
   <div class="divider--half"></div>
 
 5.  `Insert` メニューから `Indigo-Components` > `Inputs/Input` > `Line` を選択します。キャンバスおよびレイヤー パネルでタイトルの下に配置します。左に 16px を設定し、上の Title から 0px を設定し、幅を 116px に設定します。この入力を複製し、既存の入力の右に配置します。左側および右側に 16px スペースを設定します。両方の Input を選択し、`State` オーバーライドを `~Dark/Filled` に設定します。次に左の Input のラベルを "First Name" に設定し、`Input Text` を "Eliza" に設定します。右の Input のラベルを "Last Name" に設定し、`Input Text` を "Morales" に設定します。以下のようになります。
 
-  <img src="images/getting-started4.png" srcset="images/getting-started4@2x.png 2x" />
+  <img class="responsive-img" src="images/getting-started4.png" srcset="images/getting-started4@2x.png 2x" />
 
   <div class="divider--half"></div>
 
@@ -98,13 +98,13 @@ Indigo Design ライブラリを追加後、デザインを開始できます。
     | &nbsp;&nbsp; Colors/white | フォームの背景 |
     | &nbsp;&nbsp; Colors/primary.100 | 背景色 |
 
-  <img src="images/getting-started5.png" srcset="images/getting-started5@2x.png 2x" />
+  <img class="responsive-img" src="images/getting-started5.png" srcset="images/getting-started5@2x.png 2x" />
 
   <div class="divider--half"></div>
 
 7.  `Insert` メニューから `Indigo-Components` > `Buttons` > `Raised` を選択し、作成したフォームの下に配置します。左に 16px を設定し、上の Inputs から 16px を設定し、右に 16px に設定します。`Text` を "SIGN UP" に設定し、`Background` を `Colors/info` に設定します。
 
-  <img src="images/getting-started6.png" srcset="images/getting-started6@2x.png 2x" />
+  <img class="responsive-img" src="images/getting-started6.png" srcset="images/getting-started6@2x.png 2x" />
 
   <div class="divider--half"></div>
 
@@ -124,7 +124,7 @@ Indigo Design ライブラリを追加後、デザインを開始できます。
     | &nbsp;&nbsp; Colors/white | フォームの背景 |
     | &nbsp;&nbsp; Colors/primary.100 | 背景色 |
 
-  <img src="images/getting-started7.png" srcset="images/getting-started7@2x.png 2x" />
+  <img class="responsive-img" src="images/getting-started7.png" srcset="images/getting-started7@2x.png 2x" />
 
   <div class="divider--half"></div>
 

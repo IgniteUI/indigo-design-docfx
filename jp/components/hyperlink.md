@@ -11,19 +11,19 @@ Hyperlink コンポーネント シンボルは、利用規約やプライバシ
 
 ### Hyperlink デモ
 
-<img src="../images/hyperlink_demo.png" srcset="../images/hyperlink_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/hyperlink_demo.png" srcset="../images/hyperlink_demo@2x.png 2x" />
 
 ### サイズ
 
 Hyperlink には段落のテキストに合わせて 2 サイズ (16pt Body 1 と 14pt Body 2) あります。
 
-<img src="../images/hyperlink_sizes.png" srcset="../images/hyperlink_sizes@2x.png 2x" />
+<img class="responsive-img" src="../images/hyperlink_sizes.png" srcset="../images/hyperlink_sizes@2x.png 2x" />
 
 ### スタイル設定
 
 Hyperlink は、デフォルトの青色と他の色に変更してスタイル ライブラリでスタイル設定できます。
 
-<img src="../images/calendar_styling.png" srcset="../images/calendar_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/calendar_styling.png" srcset="../images/calendar_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -31,7 +31,7 @@ Hyperlink テキスト色には段落で目立つ色を選択します。同じ�
 
 | 良い例                                                                               | 悪い例                                                                                   |
 | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
-| <img src="../images/hyperlink_do1.png" srcset="../images/hyperlink_do1@2x.png 2x" /> | <img src="../images/hyperlink_dont1.png" srcset="../images/hyperlink_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/hyperlink_do1.png" srcset="../images/hyperlink_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/hyperlink_dont1.png" srcset="../images/hyperlink_dont1@2x.png 2x" /> |
 
 ## コードの生成
 

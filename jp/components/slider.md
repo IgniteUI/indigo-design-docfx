@@ -11,34 +11,34 @@ Slider コンポーネント シンボルは、単一値の選択や両値の最
 
 ### Slider デモ
 
-<img src="../images/slider_demo.png" srcset="../images/slider_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/slider_demo.png" srcset="../images/slider_demo@2x.png 2x" />
 
 ### タイプ
 
 Slider は、単一値の選択につまみと範囲を指定するための 2 つのつまみを提供します。
 
-<img src="../images/slider_one-thumb.png" srcset="../images/slider_one-thumb@2x.png 2x" />
-<img src="../images/slider_two-thumb.png" srcset="../images/slider_two-thumb@2x.png 2x" />
+<img class="responsive-img" src="../images/slider_one-thumb.png" srcset="../images/slider_one-thumb@2x.png 2x" />
+<img class="responsive-img" src="../images/slider_two-thumb.png" srcset="../images/slider_two-thumb@2x.png 2x" />
 
 ### テーマ
 
 Slider は、ダーク/ライト系のテーマで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
 
-<img src="../images/slider_dark.png" srcset="../images/slider_dark@2x.png 2x" />
-<img src="../images/slider_light.png" srcset="../images/slider_light@2x.png 2x" />
+<img class="responsive-img" src="../images/slider_dark.png" srcset="../images/slider_dark@2x.png 2x" />
+<img class="responsive-img" src="../images/slider_light.png" srcset="../images/slider_light@2x.png 2x" />
 
 ### 状態
 
 Slider は、値の変更が可能かどうかを設定する**有効**/無効の状態をサポートします。
 
-<img src="../images/slider_enabled.png" srcset="../images/slider_enabled@2x.png 2x" />
-<img src="../images/slider_disabled.png" srcset="../images/slider_disabled@2x.png 2x" />
+<img class="responsive-img" src="../images/slider_enabled.png" srcset="../images/slider_enabled@2x.png 2x" />
+<img class="responsive-img" src="../images/slider_disabled.png" srcset="../images/slider_disabled@2x.png 2x" />
 
 ### スタイル設定
 
 Slider は、さまざまなオーバーライドでラベル背景、つまみ、トラック、ベース トラックの色を制御することにより柔軟にスタイル設定できます。
 
-<img src="../images/slider_styling.png" srcset="../images/slider_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/slider_styling.png" srcset="../images/slider_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -46,8 +46,8 @@ Slider のトラック カラーは常にトラック ベース カラーより�
 
 | 良い例                            | 悪い例                           |
 | ----------------------------- | ------------------------------- |
-| <img src="../images/slider_do1.png" srcset="../images/slider_do1@2x.png 2x" /> | <img src="../images/slider_dont1.png" srcset="../images/slider_dont1@2x.png 2x" /> |
-| <img src="../images/slider_do2.png" srcset="../images/slider_do2@2x.png 2x" /> | <img src="../images/slider_dont2.png" srcset="../images/slider_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/slider_do1.png" srcset="../images/slider_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/slider_dont1.png" srcset="../images/slider_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/slider_do2.png" srcset="../images/slider_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/slider_dont2.png" srcset="../images/slider_dont2@2x.png 2x" /> |
 
 ## コードの生成
  

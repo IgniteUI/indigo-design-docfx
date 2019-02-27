@@ -12,49 +12,49 @@ Use the Combo Component to let the user select one or more items from a collecti
 
 The Combo has two pieces: an input containing the current selection and a dropdown that is shown in order to select one or more items.
 
-<img src="../images/combo_demo.png" srcset="../images/combo_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_demo.png" srcset="../images/combo_demo@2x.png 2x" />
 
 ### Combo Input Type
 
 Just like the standard [Input](input.md), the Combo input provides selection between a line type for a more airy style, border type for a more structured perception on solid color backgrounds, and a boxed type that is most appropriate when placed on top of an vivid image to improve readability.
 
-<img src="../images/combo_demo.png" srcset="../images/combo_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_demo.png" srcset="../images/combo_demo@2x.png 2x" />
 `line`
 
-<img src="../images/combo_border.png" srcset="../images/combo_border@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_border.png" srcset="../images/combo_border@2x.png 2x" />
 `border`
 
-<img src="../images/combo_box.png" srcset="../images/combo_box@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_box.png" srcset="../images/combo_box@2x.png 2x" />
 `box`
 
 ### Combo Input Variant
 
 Just like the standard [Input](input.md), the Combo input can be used styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
 
-<img src="../images/combo_demo.png" srcset="../images/combo_demo@2x.png 2x" />
-<img src="../images/combo_light.png" srcset="../images/combo_light@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_demo.png" srcset="../images/combo_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_light.png" srcset="../images/combo_light@2x.png 2x" />
 
 ### State
 
 When the user interacts with the Combo, its input goes through various states: **idle** with a placeholder in the place of the content, focused when the dropdown is open, filled once the user has finished with selection and moved on, and disabled when the Combo does not support any interaction. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
 
-<img src="../images/combo_idle.png" srcset="../images/combo_idle@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_idle.png" srcset="../images/combo_idle@2x.png 2x" />
 `idle`
 
-<img src="../images/combo_focused.png" srcset="../images/combo_focused@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_focused.png" srcset="../images/combo_focused@2x.png 2x" />
 `focused`
 
-<img src="../images/combo_filled.png" srcset="../images/combo_filled@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_filled.png" srcset="../images/combo_filled@2x.png 2x" />
 `filled`
 
-<img src="../images/combo_disabled.png" srcset="../images/combo_disabled@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_disabled.png" srcset="../images/combo_disabled@2x.png 2x" />
 `disabled`
 
 Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Combo is consistent with the stadard [Input](input.md) and equipped for sophisticated designs that display success, warning, and error visuals.
 
-<img src="../images/combo_success.png" srcset="../images/combo_success@2x.png 2x" />
-<img src="../images/combo_warning.png" srcset="../images/combo_warning@2x.png 2x" />
-<img src="../images/combo_error.png" srcset="../images/combo_error@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_success.png" srcset="../images/combo_success@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_warning.png" srcset="../images/combo_warning@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_error.png" srcset="../images/combo_error@2x.png 2x" />
 
 ### Layout
 
@@ -64,32 +64,32 @@ The Combo input has only one layout option but to assure consistency with the st
 
 The dropdown used for the Combo comes with the appropriate sizing for desktop and mobile use similarly to the normal [Dropdown](dropdown.md) component.
 
-<img src="../images/combo_desktop.png" srcset="../images/combo_desktop@2x.png 2x" />
-<img src="../images/combo_mobile.png" srcset="../images/combo_mobile@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_desktop.png" srcset="../images/combo_desktop@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_mobile.png" srcset="../images/combo_mobile@2x.png 2x" />
 
 ### Combo Dropdown Items
 
 The dropdown used for the Combo supports three types of items: header, item and multiselect item. Through headers it is possible to organize the other items in groups.
 
-<img src="../images/combo_header.png" srcset="../images/combo_header@2x.png 2x" />
-<img src="../images/combo_item.png" srcset="../images/combo_item@2x.png 2x" />
-<img src="../images/combo_multiselect_item.png" srcset="../images/combo_multiselect_item@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_header.png" srcset="../images/combo_header@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_item.png" srcset="../images/combo_item@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_multiselect_item.png" srcset="../images/combo_multiselect_item@2x.png 2x" />
 
 ### Combo Dropdown Item States
 
 The dropdown items within the Combo support five different states: disabled, **idle**, focused, selected and focused&selected.
 
-<img src="../images/combo_item_disabled.png" srcset="../images/combo_item_disabled@2x.png 2x" />
-<img src="../images/combo_item_idle.png" srcset="../images/combo_item_idle@2x.png 2x" />
-<img src="../images/combo_item_focused.png" srcset="../images/combo_item_focused@2x.png 2x" />
-<img src="../images/combo_item_selected.png" srcset="../images/combo_item_selected@2x.png 2x" />
-<img src="../images/combo_item_selected_focused.png" srcset="../images/combo_item_selected_focused@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_item_disabled.png" srcset="../images/combo_item_disabled@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_item_idle.png" srcset="../images/combo_item_idle@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_item_focused.png" srcset="../images/combo_item_focused@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_item_selected.png" srcset="../images/combo_item_selected@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_item_selected_focused.png" srcset="../images/combo_item_selected_focused@2x.png 2x" />
 
 ### Styling
 
 The Combo comes with the combined styling flexibility of its input and dropdown pieces. There are overrides controlling the input texts' color and bottom line style and color, as well as dropdown background color, and various overrides related to the items in the Combo dropdown such as item and header background and text colors.
 
-<img src="../images/combo_styling.png" srcset="../images/combo_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_styling.png" srcset="../images/combo_styling@2x.png 2x" />
 
 ## Usage
 
@@ -97,8 +97,8 @@ When using the Combo its input and dropdown should have the same width and their
 
 | Do                                                                           | Don't                                                                            |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| <img src="../images/combo_do1.png" srcset="../images/combo_do1@2x.png 2x" /> | <img src="../images/combo_dont1.png" srcset="../images/combo_dont1@2x.png 2x" /> |
-| <img src="../images/combo_do2.png" srcset="../images/combo_do2@2x.png 2x" /> | <img src="../images/combo_dont2.png" srcset="../images/combo_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/combo_do1.png" srcset="../images/combo_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_dont1.png" srcset="../images/combo_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/combo_do2.png" srcset="../images/combo_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_dont2.png" srcset="../images/combo_dont2@2x.png 2x" /> |
 
 ## Code Generation
 

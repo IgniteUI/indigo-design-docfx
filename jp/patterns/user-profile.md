@@ -9,15 +9,15 @@ _language: ja
 
 User Profile パターンを使用すると、全画面表示の詳細ページまたはヘッダーまたはツールバーに挿入する小さいインジケーターでユーザーに関連する情報を表示します。
 
-<img src="../images/profile_demo.png" srcset="../images/profile_demo@2x.png 2x" />
-<img src="../images/profile_small.png" srcset="../images/profile_small@2x.png 2x" />
+<img class="responsive-img" src="../images/profile_demo.png" srcset="../images/profile_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/profile_small.png" srcset="../images/profile_small@2x.png 2x" />
 
 User Profile パターンの編集可能なバリアントもあります。User Profile パターンは、レイアウトに含まれる Avatar、Text、および Input のスタイル設定をカスタマイズできます。
 
 > [!WARNING]
 > 利用可能なプロファイル パターンを挿入した後、パターンを Angular コードとして生成するには、`Detach from Symbol` をトリガーします。含まれるコンポーネントをデタッチしないでください。
 
-<img src="../images/profile_detach.png" />
+<img class="responsive-img" src="../images/profile_detach.png" />
 
 ## その他のリソース
 
