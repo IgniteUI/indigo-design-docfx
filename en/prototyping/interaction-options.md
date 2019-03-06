@@ -14,7 +14,7 @@ In this topic you can find information about interactions. These are the main co
 - [Transitions][a-4]
 
 <div class="divider--half"></div>
-<img src="../images/interaction_options_1.png" />
+<img src="../images/interaction_options_1.png" srcset="../images/interaction_options_1@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -32,7 +32,7 @@ Hotspots are areas in your screens users can then interact with to trigger navig
 To create a hotspot, CLICK + DRAG over any point in your screen.
 
 <div class="divider--half"></div>
-<img src="../images/interaction_options_hotspot_tooltip.png" />
+<img src="../images/interaction_options_hotspot_tooltip.png" srcset="../images/interaction_options_hotspot_tooltip@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -47,7 +47,7 @@ Sometimes there's an interaction that you want to repeat across several screens 
 To do that, create a hotspot, add an interaction, and then duplicate it.
 
 <div class="divider--half"></div>
-<img src="../images/interaction_options_hotspot_duplicate.png" />
+<img src="../images/interaction_options_hotspot_duplicate.png" srcset="../images/interaction_options_hotspot_duplicate@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -76,7 +76,7 @@ What happens in the prototype once the user interacts with it?
 The most frequent interaction is to navigate to another screen in the prototype.
 
 <div class="divider--half"></div>
-<img src="../images/interaction_options_navigate.png" />
+<img src="../images/interaction_options_navigate.png" srcset="../images/interaction_options_navigate@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -88,7 +88,7 @@ The most frequent interaction is to navigate to another screen in the prototype.
 Navigate to the previous screen in the navigation history for the prototype.
 
 <div class="divider--half"></div>
-<img src="../images/interaction_options_goback.png" />
+<img src="../images/interaction_options_goback.png" srcset="../images/interaction_options_goback@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -100,7 +100,7 @@ Navigate to the previous screen in the navigation history for the prototype.
 Navigate to any URL outside the prototype.
 
 <div class="divider--half"></div>
-<img src="../images/interaction_options_openurl.png" />
+<img src="../images/interaction_options_openurl.png" srcset="../images/interaction_options_openurl@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -118,7 +118,7 @@ Pick an animation for transitions between screens in your prototype, or choose n
 - Push
 
 <div class="divider--half"></div>
-<img src="../images/interaction_options_interaction_panel.png" />
+<img src="../images/interaction_options_interaction_panel.png" srcset="../images/interaction_options_interaction_panel@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -136,7 +136,7 @@ Pick any of these durations for transitions between screens.
 - Fast: 150 milliseconds
 
 <div class="divider--half"></div>
-<img src="../images/interaction_options_durations.png" />
+<img src="../images/interaction_options_durations.png" srcset="../images/interaction_options_durations@2x.png 2x"  />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>

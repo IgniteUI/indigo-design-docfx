@@ -42,7 +42,7 @@ You can also add a Sketch project and Sketch Artboards will become screens.
 1.  Select a screen to load it on the panel on the left.
 2.  Click and drag over an area of the screen to create a hotspot.
     <div class="divider--half"></div>
-    <img src="../images/interaction_options_hotspot_iooltip.png" />
+    <img src="../images/interaction_options_hotspot_tooltip.png" srcset="../images/interaction_options_hotspot_tooltip@2x.png 2x"/>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -77,7 +77,7 @@ You can also add a Sketch project and Sketch Artboards will become screens.
 Click on the interaction to display the interaction panel. Use it to change the user action that triggers the navigation, the animation for the transition, and the duration of the transition.
 
 <div class="divider--half"></div>
-<img src="../images/interaction_options_interaction_panel.png" />
+<img src="../images/interaction_options_interaction_panel.png" srcset="../images/interaction_options_interaction_panel@2x.png 2x"/>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
