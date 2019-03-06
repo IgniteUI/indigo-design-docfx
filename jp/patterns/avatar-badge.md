@@ -9,7 +9,7 @@ _language: ja
 
 Avatar + Badge パターンは、Avatar にアラートまたは通知のメッセージやインジケーターを追加します。
 
-<img src="../images/avatar_badge_demo.png" srcset="../images/avatar_badge_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/avatar_badge_demo.png" srcset="../images/avatar_badge_demo@2x.png 2x" />
 
 Avatar + Badge パターンは、レイアウトに含まれる Avatar および Badge のスタイル設定をカスタマイズできます。
 
@@ -30,12 +30,12 @@ Badge は Avatar の 4 つ角のいずれかに配置できます。
 - 左上
 - 右上
 
-<img src="../images/avatar_badge_positions.png" srcset="../images/avatar_badge_positions@2x.png 2x" />
+<img class="responsive-img" src="../images/avatar_badge_positions.png" srcset="../images/avatar_badge_positions@2x.png 2x" />
 
 > [!WARNING]
 > Avatar + Badge パターンを挿入した後、`Detach from Symbol` をトリガーします。Angular コードとして生成するには、パターンを作成したコンポーネントに分割します。ただし、Badge および Avatar をデタッチしないでください。
 
-<img src="../images/avatar_badge_detach.png" />
+<img class="responsive-img" src="../images/avatar_badge_detach.png" />
 
 ## その他のリソース
 

@@ -10,14 +10,14 @@ Use the Progress Component to establish clarity and expectancy about the progres
 
 ### Progress Demo
 
-<img src="../images/progress_demo.png" srcset="../images/progress_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_demo.png" srcset="../images/progress_demo@2x.png 2x" />
 
 ### Type
 
 The Progress supports two layout types to fit the variety of use cases and layout requirements: a Circular Bar and a Linear Bar.
 
-<img src="../images/progress_circular.png" srcset="../images/progress_circular@2x.png 2x" />
-<img src="../images/progress_linear.png" srcset="../images/progress_linear@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_circular.png" srcset="../images/progress_circular@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_linear.png" srcset="../images/progress_linear@2x.png 2x" />
 
 ### State
 
@@ -29,19 +29,19 @@ The Progress can be used in one of the following preset color combinations:
 - error: utilizing the `error` theme color to show the progress
 - info: utilizing the `info` theme color to show the progress
 
-<img src="../images/progress_default.png" srcset="../images/progress_default@2x.png 2x" />
-<img src="../images/progress_success.png" srcset="../images/progress_success@2x.png 2x" />
-<img src="../images/progress_warn.png" srcset="../images/progress_warn@2x.png 2x" />
-<img src="../images/progress_error.png" srcset="../images/progress_error@2x.png 2x" />
-<img src="../images/progress_info.png" srcset="../images/progress_info@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_default.png" srcset="../images/progress_default@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_success.png" srcset="../images/progress_success@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_warn.png" srcset="../images/progress_warn@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_error.png" srcset="../images/progress_error@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_info.png" srcset="../images/progress_info@2x.png 2x" />
 
 ### Styling
 
 The Progress comes with styling flexibility through the various overrides for its text, as well as changing the colors of stripes, fill, and track.
 
-<img src="../images/progress_striped.png" srcset="../images/progress_striped@2x.png 2x" />
-<img src="../images/progress_clear.png" srcset="../images/progress_clear@2x.png 2x" />
-<img src="../images/progress_twocolor.png" srcset="../images/progress_twocolor@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_striped.png" srcset="../images/progress_striped@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_clear.png" srcset="../images/progress_clear@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_twocolor.png" srcset="../images/progress_twocolor@2x.png 2x" />
 
 ## Usage
 
@@ -49,8 +49,8 @@ In a Circular Bar, always use the actual value for the text label and, when addi
 
 | Do                                                                                 | Don't                                                                                  |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| <img src="../images/progress_do1.png" srcset="../images/progress_do1@2x.png 2x" /> | <img src="../images/progress_dont1.png" srcset="../images/progress_dont1@2x.png 2x" /> |
-| <img src="../images/progress_do2.png" srcset="../images/progress_do2@2x.png 2x" /> | <img src="../images/progress_dont2.png" srcset="../images/progress_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/progress_do1.png" srcset="../images/progress_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/progress_dont1.png" srcset="../images/progress_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/progress_do2.png" srcset="../images/progress_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/progress_dont2.png" srcset="../images/progress_dont2@2x.png 2x" /> |
 
 ## Code Generation
 

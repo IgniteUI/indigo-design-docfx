@@ -10,36 +10,36 @@ Use the Switch Component to allow the user make a selection, which most often ex
 
 ### Switch Demo
 
-<img src="../images/switch_demo.png" srcset="../images/switch_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_demo.png" srcset="../images/switch_demo@2x.png 2x" />
 
 ### Theme
 
 The Switch can be used styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
 
-<img src="../images/switch_dark.png" srcset="../images/switch_dark@2x.png 2x" />
-<img src="../images/switch_light.png" srcset="../images/switch_light@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_dark.png" srcset="../images/switch_dark@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_light.png" srcset="../images/switch_light@2x.png 2x" />
 
 ### Label use
 
 The Switch is used **with** or without label. In order to hide the label, set its text value to a blank/space character and reduce the width of the component to e.g. 38px.
 
-<img src="../images/switch_label.png" srcset="../images/switch_label@2x.png 2x" />
-<img src="../images/switch_no_label.png" srcset="../images/switch_no_label@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_label.png" srcset="../images/switch_label@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_no_label.png" srcset="../images/switch_no_label@2x.png 2x" />
 
 ### State
 
 The Checkbox provides **on** and off selection states with additional variants for a disabled interaction state.
 
-<img src="../images/switch_on.png" srcset="../images/switch_on@2x.png 2x" />
-<img src="../images/switch_on_disabled.png" srcset="../images/switch_on_disabled@2x.png 2x" />
-<img src="../images/switch_off.png" srcset="../images/switch_off@2x.png 2x" />
-<img src="../images/switch_off_disabled.png" srcset="../images/switch_off_disabled@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_on.png" srcset="../images/switch_on@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_on_disabled.png" srcset="../images/switch_on_disabled@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_off.png" srcset="../images/switch_off@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_off_disabled.png" srcset="../images/switch_off_disabled@2x.png 2x" />
 
 ### Styling
 
 The Switch comes with styling flexibility, allowing control over the thumb and track colors. There is a fixed alpha value applied to the track to make it semi transparent.
 
-<img src="../images/switch_styling.png" srcset="../images/switch_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_styling.png" srcset="../images/switch_styling@2x.png 2x" />
 
 ## Usage
 
@@ -47,9 +47,9 @@ The Switch should appear to the right of the label describing the option, in reg
 
 | Do                                                                             | Don't                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| <img src="../images/switch_do1.png" srcset="../images/switch_do1@2x.png 2x" /> | <img src="../images/switch_dont1.png" srcset="../images/switch_dont1@2x.png 2x" /> |
-| <img src="../images/switch_do2.png" srcset="../images/switch_do2@2x.png 2x" /> | <img src="../images/switch_dont2.png" srcset="../images/switch_dont2@2x.png 2x" /> |
-| <img src="../images/switch_do3.png" srcset="../images/switch_do3@2x.png 2x" /> | <img src="../images/switch_dont3.png" srcset="../images/switch_dont3@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/switch_do1.png" srcset="../images/switch_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/switch_dont1.png" srcset="../images/switch_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/switch_do2.png" srcset="../images/switch_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/switch_dont2.png" srcset="../images/switch_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/switch_do3.png" srcset="../images/switch_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/switch_dont3.png" srcset="../images/switch_dont3@2x.png 2x" /> |
 
 ## Code Generation
 

@@ -11,17 +11,17 @@ _language: ja
 
 Sketch ライブラリで Indigo スタイル ライブラリを変更した場合、Components と Patterns と同じ結果となります。
 
-<img src="../images/theme_overview_default.png" />
+<img class="responsive-img" src="../images/theme_overview_default.png" />
 
-<img src="../images/theme_overview_dark.png" />
+<img class="responsive-img" src="../images/theme_overview_dark.png" />
 
-<img src="../images/theme_overview_vibrant.png" />
+<img class="responsive-img" src="../images/theme_overview_vibrant.png" />
 
 ## Indigo スタイリング
 
 Indigo スタイリングはテーマ エンジンの実際の表示です。4 つ (Icons、Colors、Typography、Elevations) に分かれてライブラリの異なるページとして表示されます。
 
-<img src="../images/styling_structure.png"/>
+<img class="responsive-img" src="../images/styling_structure.png"/>
 
 - [マテリアル アイコン](material-icons.md) - 100 個以上のマテリアル アイコンのコレクションは簡単に拡張できます。
 - [Colors](colors.md) - パレットは、プライマリ、セカンダリ、特殊な色、灰色の陰影、不透明度で構成されます。

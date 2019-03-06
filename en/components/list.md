@@ -10,7 +10,7 @@ Use the List Component to let the user browse and interact with a continuous, ve
 
 ### List Demo
 
-<img src="../images/list_demo.png" srcset="../images/list_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/list_demo.png" srcset="../images/list_demo@2x.png 2x" />
 
 ### Detach from Symbol
 
@@ -31,23 +31,23 @@ After detaching, you may insert additional headers or items either from the Sket
 
 The List Item comes in three preset Types: Header for defining the headings of groups, One-line for shorter items with only one line of text, and Two-line for taller items supporting primary and secondary text.
 
-<img src="../images/list_item_header.png" srcset="../images/list_item_header@2x.png 2x" />
-<img src="../images/list_item_one-line.png" srcset="../images/list_item_one-line@2x.png 2x" />
-<img src="../images/list_item_two-line.png" srcset="../images/list_item_two-line@2x.png 2x" />
+<img class="responsive-img" src="../images/list_item_header.png" srcset="../images/list_item_header@2x.png 2x" />
+<img class="responsive-img" src="../images/list_item_one-line.png" srcset="../images/list_item_one-line@2x.png 2x" />
+<img class="responsive-img" src="../images/list_item_two-line.png" srcset="../images/list_item_two-line@2x.png 2x" />
 
 ### List Item State
 
 The One-line and Two-line List Items support the following interactive states: **inactive** for the normal state and active for the selected state. The Header List Item is not selectable so it provides no support for such States.
 
-<img src="../images/list_item_inactive.png" srcset="../images/list_item_inactive@2x.png 2x" />
-<img src="../images/list_item_active.png" srcset="../images/list_item_active@2x.png 2x" />
+<img class="responsive-img" src="../images/list_item_inactive.png" srcset="../images/list_item_inactive@2x.png 2x" />
+<img class="responsive-img" src="../images/list_item_active.png" srcset="../images/list_item_active@2x.png 2x" />
 
 ### List Item Areas
 
 The List Item has two distinct areas: Primary Action with non-interactive content is laid out such as Avatar and text, and Secondary Action with quick actions related to the List Item. Any combination of a Primary and Secondary action forms a valid list item template that should be used consistently across the items of the List.
 
-<img src="../images/list_item_primary.png" srcset="../images/list_item_primary@2x.png 2x" />
-<img src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />
+<img class="responsive-img" src="../images/list_item_primary.png" srcset="../images/list_item_primary@2x.png 2x" />
+<img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />
 
 ### List Item Primary Action
 
@@ -55,16 +55,16 @@ There are numerous interchangable List Item Primary Actions that are listed belo
 
 |                              |                                                                                                  |                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Avatar + Description + Label | <img src="../images/list_item_primary.png" srcset="../images/list_item_primary@2x.png 2x" />     |                                                                                                                                            |
-| Avatar + Label               | <img src="../images/list_item_primary2.png" srcset="../images/list_item_primary2@2x.png 2x" />   |                                                                                                                                            |
-| Avatar + Label + Description | <img src="../images/list_item_primary3.png" srcset="../images/list_item_primary3@2x.png 2x" />   |                                                                                                                                            |
-| Description + Label          | <img src="../images/list_item_primary4.png" srcset="../images/list_item_primary4@2x.png 2x" />   |                                                                                                                                            |
-| Icon + Description + Label   | <img src="../images/list_item_primary5.png" srcset="../images/list_item_primary5@2x.png 2x" />   |                                                                                                                                            |
-| Icon + Label                 | <img src="../images/list_item_primary6.png" srcset="../images/list_item_primary6@2x.png 2x" />   |                                                                                                                                            |
-| Icon + Label + Description   | <img src="../images/list_item_primary7.png" srcset="../images/list_item_primary7@2x.png 2x" />   |                                                                                                                                            |
-| Label                        | <img src="../images/list_item_primary8.png" srcset="../images/list_item_primary8@2x.png 2x" />   |                                                                                                                                            |
-| Label + Description          | <img src="../images/list_item_primary9.png" srcset="../images/list_item_primary9@2x.png 2x" />   |                                                                                                                                            |
-| Label + Progress             | <img src="../images/list_item_primary10.png" srcset="../images/list_item_primary10@2x.png 2x" /> | Progress in a Primary Action can not have underlying text, therefore, the Text Style is set to None and this setting should not be changed |
+| Avatar + Description + Label | <img class="responsive-img" src="../images/list_item_primary.png" srcset="../images/list_item_primary@2x.png 2x" />     |                                                                                                                                            |
+| Avatar + Label               | <img class="responsive-img" src="../images/list_item_primary2.png" srcset="../images/list_item_primary2@2x.png 2x" />   |                                                                                                                                            |
+| Avatar + Label + Description | <img class="responsive-img" src="../images/list_item_primary3.png" srcset="../images/list_item_primary3@2x.png 2x" />   |                                                                                                                                            |
+| Description + Label          | <img class="responsive-img" src="../images/list_item_primary4.png" srcset="../images/list_item_primary4@2x.png 2x" />   |                                                                                                                                            |
+| Icon + Description + Label   | <img class="responsive-img" src="../images/list_item_primary5.png" srcset="../images/list_item_primary5@2x.png 2x" />   |                                                                                                                                            |
+| Icon + Label                 | <img class="responsive-img" src="../images/list_item_primary6.png" srcset="../images/list_item_primary6@2x.png 2x" />   |                                                                                                                                            |
+| Icon + Label + Description   | <img class="responsive-img" src="../images/list_item_primary7.png" srcset="../images/list_item_primary7@2x.png 2x" />   |                                                                                                                                            |
+| Label                        | <img class="responsive-img" src="../images/list_item_primary8.png" srcset="../images/list_item_primary8@2x.png 2x" />   |                                                                                                                                            |
+| Label + Description          | <img class="responsive-img" src="../images/list_item_primary9.png" srcset="../images/list_item_primary9@2x.png 2x" />   |                                                                                                                                            |
+| Label + Progress             | <img class="responsive-img" src="../images/list_item_primary10.png" srcset="../images/list_item_primary10@2x.png 2x" /> | Progress in a Primary Action can not have underlying text, therefore, the Text Style is set to None and this setting should not be changed |
 
 ### List Item Secondary Action
 
@@ -72,19 +72,19 @@ There are also many interchangable List Item Secondary Actions that are listed b
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| Badge            | <img src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />   |                                                                                                                                       |
-| Checkbox         | <img src="../images/list_item_secondary2.png" srcset="../images/list_item_secondary2@2x.png 2x" /> | Checkbox in a Secondary Action can not have a label, therefore, the Label Style is set to None and this setting should not be changed |
-| Icons            | <img src="../images/list_item_secondary3.png" srcset="../images/list_item_secondary3@2x.png 2x" /> |                                                                                                                                       |
-| Text             | <img src="../images/list_item_secondary4.png" srcset="../images/list_item_secondary4@2x.png 2x" /> |                                                                                                                                       |
-| Text + Icons     | <img src="../images/list_item_secondary5.png" srcset="../images/list_item_secondary5@2x.png 2x" /> |                                                                                                                                       |
-| Toggle           | <img src="../images/list_item_secondary6.png" srcset="../images/list_item_secondary6@2x.png 2x" /> | Switch in a Secondary Action can not have a label, therefore, the Label Style is set to None and this setting should not be changed   |
-| Two-line Numbers | <img src="../images/list_item_secondary7.png" srcset="../images/list_item_secondary7@2x.png 2x" /> |                                                                                                                                       |
+| Badge            | <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />   |                                                                                                                                       |
+| Checkbox         | <img class="responsive-img" src="../images/list_item_secondary2.png" srcset="../images/list_item_secondary2@2x.png 2x" /> | Checkbox in a Secondary Action can not have a label, therefore, the Label Style is set to None and this setting should not be changed |
+| Icons            | <img class="responsive-img" src="../images/list_item_secondary3.png" srcset="../images/list_item_secondary3@2x.png 2x" /> |                                                                                                                                       |
+| Text             | <img class="responsive-img" src="../images/list_item_secondary4.png" srcset="../images/list_item_secondary4@2x.png 2x" /> |                                                                                                                                       |
+| Text + Icons     | <img class="responsive-img" src="../images/list_item_secondary5.png" srcset="../images/list_item_secondary5@2x.png 2x" /> |                                                                                                                                       |
+| Toggle           | <img class="responsive-img" src="../images/list_item_secondary6.png" srcset="../images/list_item_secondary6@2x.png 2x" /> | Switch in a Secondary Action can not have a label, therefore, the Label Style is set to None and this setting should not be changed   |
+| Two-line Numbers | <img class="responsive-img" src="../images/list_item_secondary7.png" srcset="../images/list_item_secondary7@2x.png 2x" /> |                                                                                                                                       |
 
 ### Styling
 
 The List comes with styling flexibility through the overrides available for background color and the different elements used in the List Items, such as icons and text, as well as components like Avatar, Badge, Checkbox, Icon, Progress, Switch, etc. with their own styling capabilities.
 
-<img src="../images/list_styling.png" srcset="../images/list_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/list_styling.png" srcset="../images/list_styling@2x.png 2x" />
 
 ## Usage
 
@@ -92,9 +92,9 @@ The List and List Items have their own design specifics, but most importantly, o
 
 | Do                                                                         | Don't                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| <img src="../images/list_do1.png" srcset="../images/list_do1@2x.png 2x" /> | <img src="../images/list_dont1.png" srcset="../images/list_dont1@2x.png 2x" /> |
-| <img src="../images/list_do2.png" srcset="../images/list_do2@2x.png 2x" /> | <img src="../images/list_dont2.png" srcset="../images/list_dont2@2x.png 2x" /> |
-| <img src="../images/list_do3.png" srcset="../images/list_do3@2x.png 2x" /> | <img src="../images/list_dont3.png" srcset="../images/list_dont3@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/list_do1.png" srcset="../images/list_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/list_dont1.png" srcset="../images/list_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/list_do2.png" srcset="../images/list_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/list_dont2.png" srcset="../images/list_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/list_do3.png" srcset="../images/list_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/list_dont3.png" srcset="../images/list_dont3@2x.png 2x" /> |
 
 ## Code generation
 

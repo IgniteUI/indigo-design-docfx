@@ -39,7 +39,7 @@ RouterModule.forChild(routes);
 
 So with a [RouterOutlet](https://angular.io/api/router/RouterOutlet) in place you can run the application using `npm start` in terminal and then navigate to the website in your browser, appending the name of the component to the url.
 
-<img src="../images/address-nav.png" />
+<img class="responsive-img" src="../images/address-nav.png" />
 
 This gives a good starting point for developers. From here it is expected that developers will change the routes to fit their application criteria. It is also expected that developers will write some code to trigger navigation based on certain actions such as a button click.
 
@@ -51,7 +51,7 @@ Here is an example of how the process works.
 
 In Sketch, the designer places a Nebula UI Category Chart component into the artboard.
 
-<img src="../images/categorychart-overrides.png" srcset="../images/categorychart-overrides@2x.png 2x" />
+<img class="responsive-img" src="../images/categorychart-overrides.png" srcset="../images/categorychart-overrides@2x.png 2x" />
 
 In the overrides there is a DataSource override listed and the value specified inside is what tells the generator what property it should bind the [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular) control to. In this case the chart in Sketch will turn into an `igx-category-chart` and its `dataSource` Input will bind to `olympicMedalData`.
 

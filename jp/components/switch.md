@@ -11,36 +11,36 @@ Switch コンポーネント シンボルは、ユーザーが設定一覧でオ
 
 ### Switch デモ
 
-<img src="../images/switch_demo.png" srcset="../images/switch_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_demo.png" srcset="../images/switch_demo@2x.png 2x" />
 
 ### テーマ
 
 Switch は、明暗バリアントで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
 
-<img src="../images/switch_dark.png" srcset="../images/switch_dark@2x.png 2x" />
-<img src="../images/switch_light.png" srcset="../images/switch_light@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_dark.png" srcset="../images/switch_dark@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_light.png" srcset="../images/switch_light@2x.png 2x" />
 
 ### ラベルの使用
 
 Switch はラベルなしで使用できます。ラベルを非表示にするためにテキスト値を空/スペース文字にしてコンポーネントの幅を小さくします(38px など)。
 
-<img src="../images/switch_label.png" srcset="../images/switch_label@2x.png 2x" />
-<img src="../images/switch_no_label.png" srcset="../images/switch_no_label@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_label.png" srcset="../images/switch_label@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_no_label.png" srcset="../images/switch_no_label@2x.png 2x" />
 
 ### 状態
 
 Switch は、オン/オフと選択状態があり、追加のバリアントとしてインタラクション無効の状態があります。
 
-<img src="../images/switch_on.png" srcset="../images/switch_on@2x.png 2x" />
-<img src="../images/switch_on_disabled.png" srcset="../images/switch_on_disabled@2x.png 2x" />
-<img src="../images/switch_off.png" srcset="../images/switch_off@2x.png 2x" />
-<img src="../images/switch_off_disabled.png" srcset="../images/switch_off_disabled@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_on.png" srcset="../images/switch_on@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_on_disabled.png" srcset="../images/switch_on_disabled@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_off.png" srcset="../images/switch_off@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_off_disabled.png" srcset="../images/switch_off_disabled@2x.png 2x" />
 
 ### スタイル設定
 
 Switch は、つまみとトラック色を制御でき柔軟なスタイル設定が可能です。固定アルファ値がトラックに適用されて半透明になります。
 
-<img src="../images/switch_styling.png" srcset="../images/switch_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_styling.png" srcset="../images/switch_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -48,9 +48,9 @@ Switch は、設定リストで状態を制御するオプションを説明す�
 
 | 良い例                                                                         | 悪い例                                                                             |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| <img src="../images/switch_do1.png" srcset="../images/switch_do1@2x.png 2x" /> | <img src="../images/switch_dont1.png" srcset="../images/switch_dont1@2x.png 2x" /> |
-| <img src="../images/switch_do2.png" srcset="../images/switch_do2@2x.png 2x" /> | <img src="../images/switch_dont2.png" srcset="../images/switch_dont2@2x.png 2x" /> |
-| <img src="../images/switch_do3.png" srcset="../images/switch_do3@2x.png 2x" /> | <img src="../images/switch_dont3.png" srcset="../images/switch_dont3@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/switch_do1.png" srcset="../images/switch_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/switch_dont1.png" srcset="../images/switch_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/switch_do2.png" srcset="../images/switch_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/switch_dont2.png" srcset="../images/switch_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/switch_do3.png" srcset="../images/switch_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/switch_dont3.png" srcset="../images/switch_dont3@2x.png 2x" /> |
 
 ## コードの生成
 

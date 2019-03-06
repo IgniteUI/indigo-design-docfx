@@ -8,7 +8,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 Use the Avatar + Badge Pattern to complement the graphical representation that the Avatar provides with a short subtle message or indication for an alert or notification.
 
-<img src="../images/avatar_badge_demo.png" srcset="../images/avatar_badge_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/avatar_badge_demo.png" srcset="../images/avatar_badge_demo@2x.png 2x" />
 
 The Avatar + Badge Pattern comes with the styling flexibility provided by the Avatar and Badge that constitute its layout.
 
@@ -29,12 +29,12 @@ The Badge comes positioned in one of the four corners of the Avatar as shown bel
 - Top Left
 - Top Right
 
-<img src="../images/avatar_badge_positions.png" srcset="../images/avatar_badge_positions@2x.png 2x" />
+<img class="responsive-img" src="../images/avatar_badge_positions.png" srcset="../images/avatar_badge_positions@2x.png 2x" />
 
 > [!WARNING]
 > After inserting an Avatar + Badge Pattern you should trigger `Detach from Symbol`. This will break it down to the Components that are used to create the Pattern in order to be able to generate it as Angular code. The Badge and the Avatar, however, must stay intact and not be detached!
 
-<img src="../images/avatar_badge_detach.png" />
+<img class="responsive-img" src="../images/avatar_badge_detach.png" />
 
 ## Additional Resources
 

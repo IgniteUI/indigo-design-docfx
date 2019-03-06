@@ -9,7 +9,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 At the end of this topic you'll have a Sketch Artboard for a registration screen using Indigo Design Libraries.
 
 <div class="divider--half"></div>
-<img src="images/getting-started7.png" srcset="images/getting-started7@2x.png 2x" />
+<img class="responsive-img" src="images/getting-started7.png" srcset="images/getting-started7@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -41,7 +41,7 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
 2.  Open up the Sketch app on your Mac, click on the Sketch item from the Apple Menu, and select Preferences.
 
   <div class="divider--half"></div>
-  <img src="images/creating_an_artboard_2.png" srcset="images/creating_an_artboard_2@2x.png 2x" />
+  <img class="responsive-img" src="images/creating_an_artboard_2.png" srcset="images/creating_an_artboard_2@2x.png 2x" />
   <div class="divider--half"></div>
   <div class="divider--half"></div>
   <div class="divider--half"></div>
@@ -66,7 +66,7 @@ If you added the Libraries successfully, they will show up in the **Symbols** se
     This example is for an iPhone 8 in portrait orientation (375x667). If you don't see this preset artboard, choose Apple Devices from the dropdown at the top of the panel.
 
   <div class="divider--half"></div>
-  <img src="images/getting-started-artboard.png" />
+  <img class="responsive-img" src="images/getting-started-artboard.png" />
   <div class="divider--half"></div>
   <div class="divider--half"></div>
   <div class="divider--half"></div>
@@ -87,7 +87,7 @@ These are the steps to recreate the screen in the example.
     4.  In the Overrides section, set the Type to ~Title and the Text to "Sign Up".
 
     <div class="divider--half"></div>
-    <img src="images/getting-started0.png" srcset="images/getting-started0@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-started0.png" srcset="images/getting-started0@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -98,7 +98,7 @@ These are the steps to recreate the screen in the example.
      Drag a primary.100 color from Styling onto the artboard. Make sure it's below the Navbar in the layers panel on the left and resize it accordingly.
 
     <div class="divider--half"></div>
-    <img src="images/getting-started1.png" srcset="images/getting-started1@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-started1.png" srcset="images/getting-started1@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -112,7 +112,7 @@ These are the steps to recreate the screen in the example.
     3.  Place it in the center of the artboard.
 
     <div class="divider--half"></div>
-    <img src="images/getting-started2.png" srcset="images/getting-started2@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-started2.png" srcset="images/getting-started2@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -126,7 +126,7 @@ These are the steps to recreate the screen in the example.
     3.  Set the Text to "Start Budgeting" and adjust its width to provide a 16px on the right as well.
 
     <div class="divider--half"></div>
-    <img src="images/getting-started3.png" srcset="images/getting-started3@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-started3.png" srcset="images/getting-started3@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -144,7 +144,7 @@ These are the steps to recreate the screen in the example.
     7.  Set the Labels to "First Name" and "Last Name", and the Input Texts to "Eliza" and "Morales".
 
     <div class="divider--half"></div>
-    <img src="images/getting-started4.png" srcset="images/getting-started4@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-started4.png" srcset="images/getting-started4@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -160,7 +160,7 @@ These are the steps to recreate the screen in the example.
     5.  Set their Labels to "Username" and "Password" and their Input Texts to "Leaellynasaura" and "\*\*\*\*\*\*\*\*\*\*\*\*".
 
     <div class="divider--half"></div>
-    <img src="images/getting-started5.png" srcset="images/getting-started5@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-started5.png" srcset="images/getting-started5@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -175,7 +175,7 @@ These are the steps to recreate the screen in the example.
     4.  Set the Text to "SIGN UP".
 
     <div class="divider--half"></div>
-    <img src="images/getting-started6.png" srcset="images/getting-started6@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-started6.png" srcset="images/getting-started6@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -190,7 +190,7 @@ These are the steps to recreate the screen in the example.
     4.  Change its size so that there is a 16px spacing on all sides.
 
     <div class="divider--half"></div>
-    <img src="images/getting-started7.png" srcset="images/getting-started7@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-started7.png" srcset="images/getting-started7@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>

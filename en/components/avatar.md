@@ -10,7 +10,7 @@ Use the Avatar Component as a graphical representation of a person through a pro
 
 ### Avatar Demo
 
-<img src="../images/avatar_demo.png" srcset="../images/avatar_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/avatar_demo.png" srcset="../images/avatar_demo@2x.png 2x" />
 
 ### Size
 
@@ -20,23 +20,23 @@ The Avatar comes in three different sizes:
 - Medium - Appropriate for custom menus and visualizations
 - Small - Easily embedded in a contact list and similar repetitive scenarios
 
-<img src="../images/avatar_sizes.png" srcset="../images/avatar_sizes@2x.png 2x" />
+<img class="responsive-img" src="../images/avatar_sizes.png" srcset="../images/avatar_sizes@2x.png 2x" />
 
 ### Type
 
 The Avatar can carry different types of content such as an **image**, a string with initials, or an icon.
 
-<img src="../images/avatar_content.png" srcset="../images/avatar_content@2x.png 2x" />
+<img class="responsive-img" src="../images/avatar_content.png" srcset="../images/avatar_content@2x.png 2x" />
 
 The avatar comes in two distinct types determined by its shape: a **round** and a square form.
 
-<img src="../images/avatar_type.png" srcset="../images/avatar_type@2x.png 2x" />
+<img class="responsive-img" src="../images/avatar_type.png" srcset="../images/avatar_type@2x.png 2x" />
 
 ### Styling
 
 The Avatar comes with styling flexibility through the various overrides controlling the background color, as well as initials and icon colors, where applicable.
 
-<img src="../images/avatar_styling.png" srcset="../images/avatar_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/avatar_styling.png" srcset="../images/avatar_styling@2x.png 2x" />
 
 ## Usage
 
@@ -44,7 +44,7 @@ When using an Avatar with initials or icons, pick their colors carefully to assu
 
 | Do                                                                             | Don't                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| <img src="../images/avatar_do1.png" srcset="../images/avatar_do1@2x.png 2x" /> | <img src="../images/avatar_dont1.png" srcset="../images/avatar_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/avatar_do1.png" srcset="../images/avatar_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/avatar_dont1.png" srcset="../images/avatar_dont1@2x.png 2x" /> |
 
 ## Code Generation
 

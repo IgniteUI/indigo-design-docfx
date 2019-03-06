@@ -10,35 +10,35 @@ Use the Button Group Component to combine the triggers for a few related feature
 
 ### Button Group Demo
 
-<img src="../images/button-group_demo.png" srcset="../images/button-group_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/button-group_demo.png" srcset="../images/button-group_demo@2x.png 2x" />
 
 ### Layout
 
 The Button Group supports two layout directions: horizontal, where items are laid out left to right, and vertical, where their order is top to bottom.
 
-<img src="../images/button-group_horizontal.png" srcset="../images/button-group_horizontal@2x.png 2x" />
-<img src="../images/button-group_vertical.png" srcset="../images/button-group_vertical@2x.png 2x" />
+<img class="responsive-img" src="../images/button-group_horizontal.png" srcset="../images/button-group_horizontal@2x.png 2x" />
+<img class="responsive-img" src="../images/button-group_vertical.png" srcset="../images/button-group_vertical@2x.png 2x" />
 
 ### Buttons Amount
 
 For the majority of scenarios, a Button Group needs between two to four items. If your case requires more than four items, you may want to consider designing a custom toolbar to encompass the rich set of actions you want to provide.
 
-<img src="../images/button-group_items2.png" srcset="../images/button-group_items2@2x.png 2x" />
-<img src="../images/button-group_items3.png" srcset="../images/button-group_items3@2x.png 2x" />
-<img src="../images/button-group_items4.png" srcset="../images/button-group_items4@2x.png 2x" />
+<img class="responsive-img" src="../images/button-group_items2.png" srcset="../images/button-group_items2@2x.png 2x" />
+<img class="responsive-img" src="../images/button-group_items3.png" srcset="../images/button-group_items3@2x.png 2x" />
+<img class="responsive-img" src="../images/button-group_items4.png" srcset="../images/button-group_items4@2x.png 2x" />
 
 ### Button Type
 
 Each Button within the Button Group contains either **text** or icon and can be set in one of the following states: **default**, disabled, hover, and selected. The selected state comes in three variants that need to reflect the Button position. This is because of the addition of a border that separates the selected button from the adjacent siblings.
 
-<img src="../images/button-group_text.png" srcset="../images/button-group_text@2x.png 2x" />
-<img src="../images/button-group_icons.png" srcset="../images/button-group_icons@2x.png 2x" />
+<img class="responsive-img" src="../images/button-group_text.png" srcset="../images/button-group_text@2x.png 2x" />
+<img class="responsive-img" src="../images/button-group_icons.png" srcset="../images/button-group_icons@2x.png 2x" />
 
 ### Styling
 
 The Button Group comes with styling flexibility through the various overrides controlling the background color, as well as the individual buttons' border, background, label, and icon colors.
 
-<img src="../images/button-group_styling.png" srcset="../images/button-group_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/button-group_styling.png" srcset="../images/button-group_styling@2x.png 2x" />
 
 ## Usage
 
@@ -46,9 +46,9 @@ Always use Buttons with consistent style and avoid combining text Buttons with i
 
 | Do                                  | Don't                                 |
 | ----------------------------------- | ------------------------------------- |
-| <img src="../images/button-group_do1.png" srcset="../images/button-group_do1@2x.png 2x" /> | <img src="../images/button-group_dont1.png" srcset="../images/button-group_dont1@2x.png 2x" /> |
-| <img src="../images/button-group_do2.png" srcset="../images/button-group_do2@2x.png 2x" /> | <img src="../images/button-group_dont2.png" srcset="../images/button-group_dont2@2x.png 2x" /> |
-| <img src="../images/button-group_do3.png" srcset="../images/button-group_do3@2x.png 2x" /> | <img src="../images/button-group_dont3.png" srcset="../images/button-group_dont3@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/button-group_do1.png" srcset="../images/button-group_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/button-group_dont1.png" srcset="../images/button-group_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/button-group_do2.png" srcset="../images/button-group_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/button-group_dont2.png" srcset="../images/button-group_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/button-group_do3.png" srcset="../images/button-group_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/button-group_dont3.png" srcset="../images/button-group_dont3@2x.png 2x" /> |
 
 ## Code generation
 

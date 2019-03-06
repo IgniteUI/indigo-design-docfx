@@ -10,7 +10,7 @@ Use the Grid Column Pinning Component to fix the first few columns of a scrollab
 
 ### Grid Column Pinning Demo
 
-<img src="../images/grid_column_pinning_demo.png" srcset="../images/grid_column_pinning_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_column_pinning_demo.png" srcset="../images/grid_column_pinning_demo@2x.png 2x" />
 
 ### Cell Right Border
 

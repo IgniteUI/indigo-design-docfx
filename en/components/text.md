@@ -10,25 +10,25 @@ Use the Text Component Symbol to display the content of a title or paragraph str
 
 ### Text Demo
 
-<img src="../images/text_demo.png" srcset="../images/text_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/text_demo.png" srcset="../images/text_demo@2x.png 2x" />
 
 ### Title and Paragraph
 
 Text comes in two distict variants for Titles and for Paragraphs.
 
-<img src="../images/text_title.png" srcset="../images/text_title@2x.png 2x" />
-<img src="../images/text_paragraph.png" srcset="../images/text_paragraph@2x.png 2x" />
+<img class="responsive-img" src="../images/text_title.png" srcset="../images/text_title@2x.png 2x" />
+<img class="responsive-img" src="../images/text_paragraph.png" srcset="../images/text_paragraph@2x.png 2x" />
 
 ### Title Sizes
 
 Text Titles come in six preset sizes from the largest H1 to the much smaller **H5** and H6.
 
-<img src="../images/text_h1.png" srcset="../images/text_h1@2x.png 2x" />
-<img src="../images/text_h2.png" srcset="../images/text_h2@2x.png 2x" />
-<img src="../images/text_h3.png" srcset="../images/text_h3@2x.png 2x" />
-<img src="../images/text_h4.png" srcset="../images/text_h4@2x.png 2x" />
-<img src="../images/text_h5.png" srcset="../images/text_h5@2x.png 2x" />
-<img src="../images/text_h6.png" srcset="../images/text_h6@2x.png 2x" />
+<img class="responsive-img" src="../images/text_h1.png" srcset="../images/text_h1@2x.png 2x" />
+<img class="responsive-img" src="../images/text_h2.png" srcset="../images/text_h2@2x.png 2x" />
+<img class="responsive-img" src="../images/text_h3.png" srcset="../images/text_h3@2x.png 2x" />
+<img class="responsive-img" src="../images/text_h4.png" srcset="../images/text_h4@2x.png 2x" />
+<img class="responsive-img" src="../images/text_h5.png" srcset="../images/text_h5@2x.png 2x" />
+<img class="responsive-img" src="../images/text_h6.png" srcset="../images/text_h6@2x.png 2x" />
 
 After inserting a Title, make sure to give it a correct height for the chosen size.
 | Size | Pixel Height |
@@ -44,9 +44,9 @@ After inserting a Title, make sure to give it a correct height for the chosen si
 
 Text Paragraphs come in three preset sizes: a larger **Body 1**, a smaller Body 2, and a tiny Caption used to annotate images and titles.
 
-<img src="../images/text_b1.png" srcset="../images/text_b1@2x.png 2x" />
-<img src="../images/text_b2.png" srcset="../images/text_b2@2x.png 2x" />
-<img src="../images/text_caption.png" srcset="../images/text_caption@2x.png 2x" />
+<img class="responsive-img" src="../images/text_b1.png" srcset="../images/text_b1@2x.png 2x" />
+<img class="responsive-img" src="../images/text_b2.png" srcset="../images/text_b2@2x.png 2x" />
+<img class="responsive-img" src="../images/text_caption.png" srcset="../images/text_caption@2x.png 2x" />
 
 After inserting a Paragraph, make sure to give it a correct height for the chosen size and according to the length of the text content. If the Paragraph spans multiple lines of text multiply the value from the table below with the number of lines you have.
 | Size | Pixel Height |
@@ -59,7 +59,7 @@ After inserting a Paragraph, make sure to give it a correct height for the chose
 
 Titles and Paragraphs come with constrained styling flexibility, allowing only to choose from the text weight and color presets available in the Typography portion of the Styling library.
 
-<img src="../images/text_styling.png" srcset="../images/text_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/text_styling.png" srcset="../images/text_styling@2x.png 2x" />
 
 ## Usage
 
@@ -67,8 +67,8 @@ Always choose Paragraph text color that makes a Hyperlink stand out if the two a
 
 | Do                                                                         | Don't                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| <img src="../images/text_do1.png" srcset="../images/text_do1@2x.png 2x" /> | <img src="../images/text_dont1.png" srcset="../images/text_dont1@2x.png 2x" /> |
-| <img src="../images/text_do2.png" srcset="../images/text_do2@2x.png 2x" /> | <img src="../images/text_dont2.png" srcset="../images/text_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/text_do1.png" srcset="../images/text_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/text_dont1.png" srcset="../images/text_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/text_do2.png" srcset="../images/text_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/text_dont2.png" srcset="../images/text_dont2@2x.png 2x" /> |
 
 ## Code generation
 

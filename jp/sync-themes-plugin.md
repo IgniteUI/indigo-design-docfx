@@ -13,7 +13,7 @@ Indigo.Design Sketch プラグインは、Indigo.Design UI Kit for Sketch を使
 
 Indigo.Design プラグインは、Sketch UI キットとバンドルされています。アカウントをお持ちでない場合は、<a href="indigo.design">Indigo.Design</a> ページでサインアップしてください。サインアップ後、<a href="https://cloud.indigo.design">Indigo.Design クラウド</a>にサインインします。**Indigo.Design アセットのダウンロード** ボタンをクリックして Indigo.Design プラグインと Sketch UI キットの両方をダウンロードできます。
 
-<img src="images/Sync_themes_plugin_Download.png" srcset="images/Sync_themes_plugin_Download@2x.png 2x" />
+<img class="responsive-img" src="images/Sync_themes_plugin_Download.png" srcset="images/Sync_themes_plugin_Download@2x.png 2x" />
 
 ## 2.テーマ
 
@@ -23,60 +23,60 @@ Indigo.Design プラグインは、Sketch UI キットとバンドルされて�
 
 Sketch の `Plugins` メニューの `Indigo.Design` から `Themes` を選択します。モーダルで表示されるテーマの 1 つを選択して必要に応じて調整、あるいは新しいテーマを作成します。
 
-<img src="images/Sync_themes_plugin_Launching_the_plugin.png" srcset="images/Sync_themes_plugin_Launching_the_plugin@2x.png 2x" />
+<img class="responsive-img" src="images/Sync_themes_plugin_Launching_the_plugin.png" srcset="images/Sync_themes_plugin_Launching_the_plugin@2x.png 2x" />
 
 ### テーマの新規作成
 
 ブランディングに基づいてテーマをビルドし、テーマ コレクションに追加する場合は、`新しいテーマ`を選択して色やタイポグラフィを必要に応じて調整します。デフォルトの値は、[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) の [デフォルトのテーマ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes/examples.html#default-theme)と同じです。
 
-<img src="images/Sync_themes_plugin_Start_New_Theme.png" srcset="images/Sync_themes_plugin_Start_New_Theme@2x.png 2x" />
+<img class="responsive-img" src="images/Sync_themes_plugin_Start_New_Theme.png" srcset="images/Sync_themes_plugin_Start_New_Theme@2x.png 2x" />
 
 #### 1.新しいテーマに名前を付ける
 
 Colors や Typography プロパティを編集する前にテーマの名前を指定します。テーマの説明となる名前を付けるとテーマが増えたときにわかりやすく便利です。
 
-<img src="images/Sync_themes_plugin_Naming_your_New_Theme.png" srcset="images/Sync_themes_plugin_Naming_your_New_Theme@2x.png 2x" />
+<img class="responsive-img" src="images/Sync_themes_plugin_Naming_your_New_Theme.png" srcset="images/Sync_themes_plugin_Naming_your_New_Theme@2x.png 2x" />
 
 #### 2.ブランディングと色の選択
 
 上部にある 2 つのパレットを指定する場合、残りのシェードが自動的に生成されるためベース値 `Primary 500` と `Secondary 500` のみ設定できます。ほとんどの場合、ブランディング カラーのパレットを使用します。`error` (エラー), `success` (成功), `warn` (警告), `info`(情報) の色に関しては、アプリケーションに対するユーザーの知覚を考慮することをお勧めします。デフォルトの色は、ほとんどのケースにマッチする色になっています。テーマをクリックし、HEX/RGB 値を入力、または色を選択して簡単に調整できます。
 
-<img src="images/Sync_themes_plugin_Specify_colors.png" srcset="images/Sync_themes_plugin_Specify_colors@2x.png 2x" />
+<img class="responsive-img" src="images/Sync_themes_plugin_Specify_colors.png" srcset="images/Sync_themes_plugin_Specify_colors@2x.png 2x" />
 
 #### 3.タイポグラフィの選択
 
 Typeface プロパティは、`Typography` タブで設定できます。`ベース タイプフェイス` としてよく使用されるフォントファミリなどが設定できます。追加で各テキスト スタイルのフォントの太さを調整する場合もプラグインで行うことができます。テキストのスタイルは線や段落、更に Chipa など内部にテキストを表示するコンポーネントにも適用されます。
 
-<img src="images/Sync_themes_plugin_Specify_typography.png" srcset="images/Sync_themes_plugin_Specify_typography@2x.png 2x" />
+<img class="responsive-img" src="images/Sync_themes_plugin_Specify_typography.png" srcset="images/Sync_themes_plugin_Specify_typography@2x.png 2x" />
 
 #### 4.テーマの保存と適用
 
 [保存] をクリックするとテーマが保存され、定義済みテーマの一覧に表示されます。ライブラリが更新されてスタイルが現在のプロジェクトにプロパゲートされると、ライブラリと Sketch ファイルのサイズにもよりますが処理は通常数秒で終わります。
 
-<img src="images/Sync_themes_plugin_Saving_and_Applying_New_Theme.png" srcset="images/Sync_themes_plugin_Saving_and_Applying_New_Theme@2x.png 2x" />
+<img class="responsive-img" src="images/Sync_themes_plugin_Saving_and_Applying_New_Theme.png" srcset="images/Sync_themes_plugin_Saving_and_Applying_New_Theme@2x.png 2x" />
 
 ### 既存のテーマの使用
 
 テーマの作成は簡単ですが、既存テーマ (デフォルトまたはカスタム) の再利用はより簡単です。テーマは 1 クリックで選択できる以外に適用する前に調整することも可能です。あるいはプラグインのコレクションをクリーンアップするために削除することもできます。
 
-<img src="images/Sync_themes_plugin_existing_theme.png" srcset="images/Sync_themes_plugin_existing_theme@2x.png 2x" />
+<img class="responsive-img" src="images/Sync_themes_plugin_existing_theme.png" srcset="images/Sync_themes_plugin_existing_theme@2x.png 2x" />
 
 #### テーマの編集
 
 既存のテーマを適用する前に調整する場合は、上記『テーマの作成』セクションで説明したエントリをいくつか設定できます。
 
-<img src="images/Sync_themes_plugin_Editing_theme_name_colors_typography.png" srcset="images/Sync_themes_plugin_Editing_theme_name_colors_typography@2x.png 2x" />
+<img class="responsive-img" src="images/Sync_themes_plugin_Editing_theme_name_colors_typography.png" srcset="images/Sync_themes_plugin_Editing_theme_name_colors_typography@2x.png 2x" />
 
 > [!Note]
 > `error` (エラー), `success` (成功), `warn` (警告), `info`(情報) の色がブランディング カラーや `プライマリ` と `セカンダリ` のために生成したパレットと区別できるようにします。
 >
-> <img src="images/Sync_themes_plugin_difference.png" srcset="images/Sync_themes_plugin_difference@2x.png 2x" />
+> <img class="responsive-img" src="images/Sync_themes_plugin_difference.png" srcset="images/Sync_themes_plugin_difference@2x.png 2x" />
 
 ## 3.クラウドへのプロトタイプの公開と同期
 
 Indigo.Design クラウドにプロトタイプを公開する準備ができたら Sketch の `Plugins` メニューから `Indigo.Design` > `Publish Prototype` を選択します。プラグインのクラウド インテグレーション機能をはじめて実行する場合、Indigo.Design アカウントでログインする必要があります。プロトタイプを公開する際場合、はじめに新しいプロトタイプを作成するか既存のプロトタイプを置き換えるかを選択してください。
 
-<img src="images/Sync_themes_plugin_Publish.png" srcset="images/Sync_themes_plugin_Publish@2x.png 2x" />
+<img class="responsive-img" src="images/Sync_themes_plugin_Publish.png" srcset="images/Sync_themes_plugin_Publish@2x.png 2x" />
 
 #### 1.新しいプロトタイプの公開
 
@@ -92,7 +92,7 @@ Indigo.Design クラウドにプロトタイプを公開する準備ができた
 
 [公開] ボタンをクリックするとプロジェクトが Indigo.Design Cloud へアップロードされます。これによりフィードバックをもらったり[コードを生成](codegen/vscode-plugin.md)したりすることができます。
 
-<img src="images/Sync_themes_plugin_New_prototype.png" srcset="images/Sync_themes_plugin_New_prototype@2x.png 2x" />
+<img class="responsive-img" src="images/Sync_themes_plugin_New_prototype.png" srcset="images/Sync_themes_plugin_New_prototype@2x.png 2x" />
 
 #### 2.既存プロトタイプの更新
 
@@ -106,7 +106,7 @@ Indigo.Design クラウドにプロトタイプを公開する準備ができた
 - ホットスポットとインタラクションのハイライト
 - コメント
 
-<img src="images/Sync_themes_plugin_Replace_prototype.png" srcset="images/Sync_themes_plugin_Replace_prototype@2x.png 2x" />
+<img class="responsive-img" src="images/Sync_themes_plugin_Replace_prototype.png" srcset="images/Sync_themes_plugin_Replace_prototype@2x.png 2x" />
 
 #### 3.プロトタイプの公開
 
@@ -118,17 +118,17 @@ Indigo.Design クラウドにプロトタイプを公開する準備ができた
 
 プラグイン ダイアログで完了をクリックすると引き続き Sketch でデザインできます。
 
-<img src="images/Sync_themes_plugin_Published_prototype.png" srcset="images/Sync_themes_plugin_Published_prototype@2x.png 2x" />
+<img class="responsive-img" src="images/Sync_themes_plugin_Published_prototype.png" srcset="images/Sync_themes_plugin_Published_prototype@2x.png 2x" />
 
 #### 4.プロトタイプの同期
 
 プロトタイプを最初に公開した後もデザイン フローが継続されるため、細かな調整や公開したプロトタイプと同期する必要があります。プラグイン メニューから `プロトタイプの同期` を選択します。
 
-<img src="images/Sync_themes_plugin_Sync.png" srcset="images/Sync_themes_plugin_Sync@2x.png 2x" />
+<img class="responsive-img" src="images/Sync_themes_plugin_Sync.png" srcset="images/Sync_themes_plugin_Sync@2x.png 2x" />
 
 これにより現在のプロジェクトを前回公開したプロトタイプへ公開します。進捗状況がダイアログで表示されます。プロトタイプが正しく同期されると通知が表示されて、数秒後にダイアログが自動的に閉じられます。
 
-<img src="images/Sync_themes_plugin_Success.png" srcset="images/Sync_themes_plugin_Success@2x.png 2x" />
+<img class="responsive-img" src="images/Sync_themes_plugin_Success.png" srcset="images/Sync_themes_plugin_Success@2x.png 2x" />
 
 ## その他のリソース
 

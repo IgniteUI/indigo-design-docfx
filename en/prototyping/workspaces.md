@@ -15,7 +15,7 @@ Watch our videos on [how to create group workspaces][video-1] and [how to collab
 Expand the workspaces dropdown and click the `Create a group workspace` option.
 
 <div class="divider--half"></div>
-<img src="../images/workspaces_1.png" srcset="../images/workspaces_1@2x.png 2x" />
+<img class="responsive-img" src="../images/workspaces_1.png" srcset="../images/workspaces_1@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -29,7 +29,7 @@ If you already share workspaces with them, they'll show up on a list. You can se
 Otherwise, they'll get an invite to join the workspace via email.
 
 <div class="divider--half"></div>
-<img src="../images/workspaces_2.png" srcset="../images/workspaces_2@2x.png 2x" />
+<img class="responsive-img" src="../images/workspaces_2.png" srcset="../images/workspaces_2@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -54,7 +54,7 @@ Once you select a workspace, any prototypes you create and publish will belong t
 Select the workspace from the workspaces dropdown and click on the gear icon.
 
 <div class="divider--half"></div>
-<img src="../images/workspaces_4.png" srcset="../images/workspaces_4@2x.png 2x" />
+<img class="responsive-img" src="../images/workspaces_4.png" srcset="../images/workspaces_4@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>

@@ -8,24 +8,24 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 Use Colors from the Styling library file to set up your theme's colors - `primary`, `secondary`, `success`, `warn`, `error`, `info`. The way Colors are set up in the Styling library is identical to the [Ignite UI for Angular Themes](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes.html).
 
-<img src="../images/colors_palette.png" srcset="../images/colors_palette@2x.png 2x" />
+<img class="responsive-img" src="../images/colors_palette.png" srcset="../images/colors_palette@2x.png 2x" />
 
 ### Palette Generation
 
 To change the primary color, navigate to the `Colors` page in Indigo-Styling and while holding the `command` key select all the primary color variants. Then, find the Fills section in the right panel and click on the bottom one, which bears the main color component in order to change its value to another color. This will automatically update all primary variants to assure consistent look with Ignite UI for Angular.
 
-<img src="../images/colors-fills.png"/>
+<img class="responsive-img" src="../images/colors-fills.png"/>
 
 > [!Warn]
 > The two fills above are used for color variant generation and their values must always be kept as they are. Failing to comply with this guidance will result in inconsistencies and unpredictable code generation results.
 
 Upon changing the bottom fill, you will see the whole primary palette instantly update. The same palette generation is available for the secondary color.
 
-<img src="../images/colors_generation.png" srcset="../images/colors_generation@2x.png 2x" />
+<img class="responsive-img" src="../images/colors_generation.png" srcset="../images/colors_generation@2x.png 2x" />
 
 With the introduction of Library Styles in Sketch and our support for Shared Color Styles there is one more step that you need to do i.e. to update all respective color styles that have changed with the selection of a new primary/secondary color. In order to do that upon selecting an individual color element, you should be able to observe the following inconsistency.
 
-<img src="../images/colors_styles_update.png"/>
+<img class="responsive-img" src="../images/colors_styles_update.png"/>
 
 To fix that click on the `primary.100*` style to drop the menu down and select the `Update Layer Style` option. This should be repeated for all remaining variants and for the secondary ones as well if they have been changed too.
 
@@ -42,15 +42,15 @@ If you want your added colors to be available across all the projects that use t
 
 1.  Open the Styling library, navigate to the `Colors` page, and zoom to the empty `Custom` section underneath the `black`, `white`, and `transparent` row of color symbols.
 
-    <img src="../images/colors_custom0.png" srcset="../images/colors_custom0@2x.png 2x" />
+    <img class="responsive-img" src="../images/colors_custom0.png" srcset="../images/colors_custom0@2x.png 2x" />
 
 2.  Select the `Colors/black` symbol and, while holding the `option` key drag the symbol below, create a copy of it.
 
-    <img src="../images/colors_custom1.png" srcset="../images/colors_custom1@2x.png 2x" />
+    <img class="responsive-img" src="../images/colors_custom1.png" srcset="../images/colors_custom1@2x.png 2x" />
 
 3.  Now, select the `Rectangle` layer, which happens to be the only layer of the `Colors/black copy` symbol, and change its Fill to a color of your choice e.g. #008080 (teal). Remember to also rename the symbol accordingly e.g. `Colors/teal`.
 
-    <img src="../images/colors_custom2.png" srcset="../images/colors_custom2@2x.png 2x" />
+    <img class="responsive-img" src="../images/colors_custom2.png" srcset="../images/colors_custom2@2x.png 2x" />
 
 4.  Save the changes to the library and now the color you have added should appear in the list of colors under `Indigo-Styling/Colors` in the `Insert` menu. It will also show up for the color overrides wherever colors are used in the Components and Patterns libraries.
 
@@ -60,23 +60,23 @@ The second approach describes the addition of file-specific colors, not availabl
 
 1.  Open an existing or new Sketch file and create a new page, naming it `Local Styles`.
 
-    <img src="../images/colors_local_page.png" />
+    <img class="responsive-img" src="../images/colors_local_page.png" />
 
 2.  Then, on the new page, insert a `Colors/black` element from the Styling library.
 
-    <img src="../images/colors_local0.png" srcset="../images/colors_local0@2x.png 2x" />
+    <img class="responsive-img" src="../images/colors_local0.png" srcset="../images/colors_local0@2x.png 2x" />
 
 3.  Right click it and select `Detach from Symbol` to uncover this symbols-only contained layer called `Rectangle`. Select the `Rectangle` layer and change its Fill to a color of your choice e.g. #008080 (teal).
 
-    <img src="../images/colors_local1.png" srcset="../images/colors_local1@2x.png 2x" />
+    <img class="responsive-img" src="../images/colors_local1.png" srcset="../images/colors_local1@2x.png 2x" />
 
 4.  Now, select the group that was formed after selecting `Detach from Symbol` (it should be called `Colors/black`, just like the symbol instance before) and click the `Create Symbol` button from the main Sketch menu at the top to reinstate the modified color as an overridable color symbol. In the prompt that will appear, choose a name for your custom color e.g. `Colors/teal` and make sure the Symbols Page checkbox is unselected before clicking the OK button. This will create the symbol and you should see something like this.
 
-    <img src="../images/colors_local2.png" srcset="../images/colors_local2@2x.png 2x" />
+    <img class="responsive-img" src="../images/colors_local2.png" srcset="../images/colors_local2@2x.png 2x" />
 
 5.  Finally, let's do our housekeeping and remove the non-symbol rectangle with teal color, and we are all set. The color you have added should appear as a local symbol in the list of colors under the Document category. It will also show up for the color overrides under `Document/Colors` for all instances of Components and Patterns in the current project, where color is applicable.
 
-    <img src="../images/colors_local3.png" srcset="../images/colors_local3@2x.png 2x" />
+    <img class="responsive-img" src="../images/colors_local3.png" srcset="../images/colors_local3@2x.png 2x" />
 
 ## Code generation
 

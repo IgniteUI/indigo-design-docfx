@@ -10,34 +10,34 @@ Use the Slider Component to allow the user to select a single value or specify a
 
 ### Slider Demo
 
-<img src="../images/slider_demo.png" srcset="../images/slider_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/slider_demo.png" srcset="../images/slider_demo@2x.png 2x" />
 
 ### Type
 
 The Slider offers a variant with one thumb for selecting a single value and with two thumbs for specifying a range.
 
-<img src="../images/slider_one-thumb.png" srcset="../images/slider_one-thumb@2x.png 2x" />
-<img src="../images/slider_two-thumb.png" srcset="../images/slider_two-thumb@2x.png 2x" />
+<img class="responsive-img" src="../images/slider_one-thumb.png" srcset="../images/slider_one-thumb@2x.png 2x" />
+<img class="responsive-img" src="../images/slider_two-thumb.png" srcset="../images/slider_two-thumb@2x.png 2x" />
 
 ### Theme
 
 The Slider can be used styled in **dark** or light theme to assure good readability and contrast for both lighter and darker backgrounds.
 
-<img src="../images/slider_dark.png" srcset="../images/slider_dark@2x.png 2x" />
-<img src="../images/slider_light.png" srcset="../images/slider_light@2x.png 2x" />
+<img class="responsive-img" src="../images/slider_dark.png" srcset="../images/slider_dark@2x.png 2x" />
+<img class="responsive-img" src="../images/slider_light.png" srcset="../images/slider_light@2x.png 2x" />
 
 ### State
 
 The Slider supports **enabled** and disabled states, reflecting the possibility to change the value(s).
 
-<img src="../images/slider_enabled.png" srcset="../images/slider_enabled@2x.png 2x" />
-<img src="../images/slider_disabled.png" srcset="../images/slider_disabled@2x.png 2x" />
+<img class="responsive-img" src="../images/slider_enabled.png" srcset="../images/slider_enabled@2x.png 2x" />
+<img class="responsive-img" src="../images/slider_disabled.png" srcset="../images/slider_disabled@2x.png 2x" />
 
 ### Styling
 
 The Slider comes with styling flexibility through the overrides for the label background, thumb, track, and base track colors.
 
-<img src="../images/slider_styling.png" srcset="../images/slider_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/slider_styling.png" srcset="../images/slider_styling@2x.png 2x" />
 
 ## Usage
 
@@ -45,8 +45,8 @@ The Slider track color should always have a higher emphasis than the track base 
 
 | Do                            | Don't                           |
 | ----------------------------- | ------------------------------- |
-| <img src="../images/slider_do1.png" srcset="../images/slider_do1@2x.png 2x" /> | <img src="../images/slider_dont1.png" srcset="../images/slider_dont1@2x.png 2x" /> |
-| <img src="../images/slider_do2.png" srcset="../images/slider_do2@2x.png 2x" /> | <img src="../images/slider_dont2.png" srcset="../images/slider_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/slider_do1.png" srcset="../images/slider_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/slider_dont1.png" srcset="../images/slider_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/slider_do2.png" srcset="../images/slider_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/slider_dont2.png" srcset="../images/slider_dont2@2x.png 2x" /> |
 
 ## Code generation
 

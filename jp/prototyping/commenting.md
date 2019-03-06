@@ -9,7 +9,7 @@ _language: ja
 
 公開したプロトタイプは、リアルタイムのコメントをサポートします。
 
-<img src="../images/Commenting_1.png" srcset="../images/Commenting_1@2x.png 2x" />
+<img class="responsive-img" src="../images/Commenting_1.png" srcset="../images/Commenting_1@2x.png 2x" />
 
 <div class="divider--half"></div>
 
@@ -17,7 +17,7 @@ _language: ja
 
 プロトタイプのコメントを有効にするには、プロトタイプ ビューアー ツールバーのコメント パネルの設定セクション、またはプロトタイプの詳細パネルにあるコメント オプションを使用します。
 
-<img src="../images/Commenting_2.png" srcset="../images/Commenting_2@2x.png 2x" />
+<img class="responsive-img" src="../images/Commenting_2.png" srcset="../images/Commenting_2@2x.png 2x" />
 
 <div class="divider--half"></div>
 
