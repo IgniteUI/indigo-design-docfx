@@ -54,7 +54,7 @@ If you are working with an existing Angular project and it is already using the 
 It all starts with a sketch. Once a designer has completed their sketch they can upload it to the [Indigo.Design](https://cloud.indigo.design) website. From there the designer can publish their work and create usability studies or open it up for commenting. When the work is published Indigo.Design will provide a link to allow others to view your work. That link can also be used by this extension.
 
 
-<img class="responsive-img" src="../images/step1.gif" srcset="../images/interaction_options_1@2x.png 2x" />
+<img class="responsive-img" src="../images/step1.gif" />
 
 > [!Note]
 > When you run this extension for the **first time** it will perform some setup in the background.  This setup can take up to 45 seconds to complete.  If you notice that it is taking much longer than this, please see the Troubleshooting section at the bottom.
@@ -62,12 +62,12 @@ It all starts with a sketch. Once a designer has completed their sketch they can
 With the share link the developer can see the various screens that make up the intended application. From here the developer can select pieces of the screen that they want to generate code for. Normally you would not generate the entire screen because the design will have duplicated elements on each screen. We will refer to this as the application 'chrome'. Chrome refers to the parts of an application that do not change from screen to screen, such as navigation menus at the top of the page or even navigation drawers that would slide in from the side.
 
 
-<img class="responsive-img" src="../images/chrome.png" srcset="../images/interaction_options_1@2x.png 2x" />
+<img class="responsive-img" src="../images/chrome.png" />
 
 These elements should not be generated as they will be consistent elements across all screens of the application. They only need to be written once to surround areas of the application that will be changing frequently through `<router-outlet>`. Developers can use `<router-outlet>` in Angular to specify where content will be changing on the page. This changing content is what you would generate code for. Here's what that selection might look like:
 
 
-<img class="responsive-img" src="../images/step2.gif" srcset="../images/interaction_options_1@2x.png 2x" />
+<img class="responsive-img" src="../images/step2.gif" />
 
 Once things have been configured the way you like it is time to generate some code! Click on the "Generate Code Assets" button and this will begin the process.
 
