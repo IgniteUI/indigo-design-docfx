@@ -69,6 +69,8 @@ npm start -- --lang jp
 
 The command takes an adittional argument --lang [ en | jp ] to serve either the English or Japanese version.
 
+Note: if you get an error when starting the server, it could be related to this [bug](https://github.com/IgniteUI/igniteui-docfx/issues/735). Please run `choco install docfx --version 2.26.4.0 --force` for a working project.
+
 ## Building the Static Site
 
 For instance, for English:
