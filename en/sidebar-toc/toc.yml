@@ -72,7 +72,7 @@
           href: ../components/grid-toolbar.md
         - name: Grid Export
           href: ../components/grid-export.md
-        - name: Grid Grouping
+        - name: Grid Group By
           href: ../components/grid-grouping.md
         - name: Grid Column Pinning
           href: ../components/grid-column-pinning.md
