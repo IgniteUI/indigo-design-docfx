@@ -1,16 +1,16 @@
 ---
-title: Grid - Design System Component
-_description: The Grid Component Symbol provides means to display and interact with high-quantities of data structured in a tabular fashion.
+title: Hierarchical Grid - Design System Component
+_description: The Hierarchical Grid Component provides means to display and interact with hierarchicaly related large quantities of tabular data.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Grid
+## Hierarchical Grid
 
 Use the Grid Component to let the user browse and interact with vast amount of complex data that is visually represented in tabular fashion and provide means for filtering, sorting, paging, etc. The Grid is visually identical to the [Ignite UI for Angular Grid Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid.html)
 
-### Grid Demo
+### Hierarchical Grid Demo
 
-<img class="responsive-img" src="../images/grid_demo.png" srcset="../images/grid_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/hierarchical_grid_demo.png" srcset="../images/hierarchical_grid_demo@2x.png 2x" />
 
 ### Detach from Symbol
 
@@ -131,6 +131,7 @@ When supplied this is used to determine the type of the column (string, number, 
 
 Related topics:
 
+- [Grid](grid.md)
 - [Grid Toolbar](grid-toolbar.md)
 - [Grid Export](grid-export.md)
 - [Grid Grouping](grid-grouping.md)
@@ -147,8 +148,6 @@ Related topics:
 - [Grid Paging](grid-paging.md)
 - [Grid Summaries](grid-summaries.md)
 - [Hierarchical Grid](hierarchical-grid.md)
-- [Tree Grid](tree-grid.md)
-- [Grid Patterns](../patterns/full-grid.md)
 - [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 

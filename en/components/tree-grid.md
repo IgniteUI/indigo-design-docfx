@@ -1,16 +1,16 @@
 ---
-title: Grid - Design System Component
-_description: The Grid Component Symbol provides means to display and interact with high-quantities of data structured in a tabular fashion. 
+title: Tree Grid - Design System Component
+_description: The Tree Grid Component provides means to display and interact with hierarchical data in a tabular fashion.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Grid
+## Tree Grid
 
 Use the Grid Component to let the user browse and interact with vast amount of complex data that is visually represented in tabular fashion and provide means for filtering, sorting, paging, etc. The Grid is visually identical to the [Ignite UI for Angular Grid Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid.html)
 
-### Grid Demo
+### Tree Grid Demo
 
-<img class="responsive-img" src="../images/grid_demo.png" srcset="../images/grid_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_demo.png" srcset="../images/tree_grid_demo@2x.png 2x" />
 
 ### Detach from Symbol
 
@@ -73,8 +73,8 @@ The Grid comes with styling flexibility achievable through styling the individua
 
 The most important thing about the Grid is the alignment of the data inside its Header and Body Cells. Text should always be aligned left, leaving variable empty space to the right, and numbers should always be aligned right, leaving variable empty space to the left.
 
-| Do                                                                         | Don't                                                                          |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| Do                                                                                                | Don't                                                                                                 |
+| ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/grid_do1.png" srcset="../images/grid_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/grid_dont1.png" srcset="../images/grid_dont1@2x.png 2x" /> |
 
 ## Code generation
@@ -131,14 +131,24 @@ When supplied this is used to determine the type of the column (string, number, 
 
 Related topics:
 
-- [Grid Filter](grid-filter.md)
-- [Grid Paging](grid-paging.md)
+- [Grid](grid.md)
+- [Grid Toolbar](grid-toolbar.md)
+- [Grid Export](grid-export.md)
+- [Grid Grouping](grid-grouping.md)
 - [Grid Column Pinning](grid-column-pinning.md)
+- [Grid Column Hiding](grid-column-hiding.md)
+- [Grid Column Moving](grid-column-moving.md)
+- [Grid Column Resizing](grid-column-resizing.md)
+- [Grid Sorting](grid-sorting.md)
+- [Grid Row Filter](grid-row-filter.md)
+- [Grid Excel Style Filter](grid-excel-style-filter.md)
+- [Grid Row Selection](grid-row-selection.md)
+- [Grid Editing](grid-editing.md)
+- [Grid Display Density](grid-display-density.md)
+- [Grid Paging](grid-paging.md)
 - [Grid Summaries](grid-summaries.md)
-- [Full Grid Pattern](../patterns/full-grid.md)
+- [Hierarchical Grid](hierarchical-grid.md)
 - [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
-
