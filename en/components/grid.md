@@ -105,15 +105,25 @@ This section describes some important overrides and how they affect code generat
 > The grid **must** be a detached symbol to be able to be used.
 
 > [!NOTE]
-> The width of the grid is determined be adding up the widths of the columns. And the height of the grid is set to null so as to render rows properly even if the container for the grid doesn’t have a height set.
+> The height of the grid is set to `100%` as the default.
 
 ### Data Source Property
 
 When supplied, the `🕹️DataSource` value is used to set up the data source for the grid and needs to be an array of objects, where each column name is a property on the object. If the data source is not supplied the grid will only render the column headers.
 
+### Primary Key
+
+When supplied, the `🕹️PrimaryKey` is used to set the `primaryKey` property on the grid.  The value of this property should be the name of a property in the data source that contains unique values.  This property is especially important if you wish to use the [row editing banner](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/row_editing.html) in the grid.
+
 ### Header
 
 When supplied, the Headers help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell) that is below it to form the column. If no matching Body can be found a column will be created based on the information that can be gathered from the Header. When a pair is found, information will be gathered from the Header first then the Body/Cell.
+
+The Header has some sizing options available to it.  If you pin each header cell to the left and right in Sketch it will force the column to generate with a percentage width in HTML.  This will allow the column to grow or shrink depending on the size of the Grid.  Alternatively, you can fix the Header cell width which will generate a fixed column of that size.
+
+#### Type
+
+When supplied this is used to determine the type of the column (string, number, Boolean).
 
 #### Text
 
@@ -123,17 +133,26 @@ The Header Text property may contain text, [binding text](../codegen/data-bind
 - {settingsLabel}
 - Important {labelText}
 
-#### Sorting
+#### Feature Left & Feature Right
 
-When supplied enables sorting on the specified column.
+These overrides control what features are enabled for the individual columns.  The following values are available:
 
-#### Filter State
+- None (Default)
+- Filtering ([Excel Style Filtering](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/excel_style_filtering.html))
+- Pinning
+- Sorting
 
-When supplied enables filtering on the specified column.
+#### Column Moving
 
-#### Type
+This override determines whether the column is movable or not by the user.
 
-When supplied this is used to determine the type of the column (string, number, Boolean).
+#### Column Resizing
+
+This override determines whether the column is resizable or not by the user.
+
+#### Column Hiding
+
+This override determines whether the column is hidden or not.
 
 ### Body/Cell
 
