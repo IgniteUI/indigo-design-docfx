@@ -11,7 +11,6 @@
   href: ../creating-an-artboard.md
 - name: Sync and Themes Plugin
   href: ../sync-themes-plugin.md
-  new: true
 - name: Styling
   items:
     - name: Overview
@@ -67,41 +66,57 @@
       href: ../components/dropdown.md
     - name: Grid
       href: ../components/grid.md
+      new: true
       items:
         - name: Grid Toolbar
           href: ../components/grid-toolbar.md
+          new: true
         - name: Grid Export
           href: ../components/grid-export.md
+          new: true
         - name: Grid Group By
           href: ../components/grid-grouping.md
+          new: true
         - name: Grid Column Pinning
           href: ../components/grid-column-pinning.md
+          new: true
         - name: Grid Column Hiding
           href: ../components/grid-column-hiding.md
+          new: true
         - name: Grid Column Moving
           href: ../components/grid-column-moving.md
+          new: true
         - name: Grid Column Resizing
           href: ../components/grid-column-resizing.md
+          new: true
         - name: Grid Sorting
           href: ../components/grid-sorting.md
+          new: true
         - name: Grid Row Filter
           href: ../components/grid-row-filter.md
+          new: true
         - name: Grid Excel Style Filter
           href: ../components/grid-excel-style-filter.md
+          new: true
         - name: Grid Row Selection
           href: ../components/grid-row-selection.md
+          new: true
         - name: Grid Editing
           href: ../components/grid-editing.md
+          new: true
         - name: Grid Display Density
           href: ../components/grid-display-density.md
+          new: true
         - name: Grid Paging
           href: ../components/grid-paging.md
+          new: true
         - name: Grid Summaries
           href: ../components/grid-summaries.md
     - name: Hyperlink
       href: ../components/hyperlink.md
     - name: Hierarchical Grid
       href: ../components/hierarchical-grid.md
+      new: true
     - name: Icon
       href: ../components/icon.md
     - name: Input
@@ -135,6 +150,7 @@
       href: ../components/tooltip.md
     - name: Tree Grid
       href: ../components/tree-grid.md
+      new: true
 - name: Patterns
   items:
     - name: Audio / Video

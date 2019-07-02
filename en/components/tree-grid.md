@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 ## Tree Grid
 
-Use the Grid Component to let the user browse and interact with vast amount of complex data that is visually represented in tabular fashion and provide means for filtering, sorting, paging, etc. The Grid is visually identical to the [Ignite UI for Angular Grid Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid.html)
+Use the Tree Grid Component to let the user browse and interact with vast amount of hierarchical data that is visually represented in tabular fashion. It also supports the features available for the [Grid](grid.md). The Tree Grid is visually identical to the [Ignite UI for Angular Tree Grid Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/treegrid/tree_grid.html)
 
 ### Tree Grid Demo
 
@@ -14,118 +14,53 @@ Use the Grid Component to let the user browse and interact with vast amount of c
 
 ### Detach from Symbol
 
-The Grid is essentially a repeater of columns and rows showing data in a tabular fashion. Therefore, the easiest way to use it is by dragging a `Generic Grid` to your artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared
-_Grid/Generic Grid_ group, you should see the following:
+Similarly to the Grid, the Tree Grid is essentially a repeater of columns and rows showing hierarchical data in a flat, tabular fashion. Therefore, the easiest way to use it is by dragging a `Tree Grid/Comfortable` to your artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared group, you should see the following:
 
-| Layer       | Use                                                                                                                                                  |
-| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 igx-grid | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| Header      | Contains all the cells in the header                                                                                                                 |
-| Body        | Contains all the cells in the body                                                                                                                   |
+| Layer                        | Use                                                                                                                                                  |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🚫 igx-tree-grid/comfortable | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
+| Header                       | Contains all the cells in the header                                                                                                                 |
+| Body                         | Contains all the cells in the body                                                                                                                   |
+| 🕹️DataSource                 | Reference for the data source that the Grid will be bound to that is used by the code generation engine                                              |
+| 🕹️PrimaryKey                 | Reference for the column with the primary keys of the records that is required by some Grid features and is used by the code generation engine       |
+| 🕹️ChildKey                   | Reference for the column with the child keys of the records used to establish the hierarchy of the data in the Tree Grid                             |
 
-After detaching, you may add the number of headers you need to show all the dimensions of your data and as many records as you want to show in your design simply by duplicating the first row of data that you already have created.
+After detaching, you may add the number of headers you need to show all the dimensions of your data and as many records as you want to show in your design simply by duplicating the first row of data that you already have created within each of the grids that you have.
 
 ### Cell Types
 
-The Grid provides three types of cells serving different data visualization purposes. The Header Cell is only one per column and appears at the top of the grid to display the textual description of the data in that particular column. The Body Cell is used to build the table displaying data records and may vary. The Summary Cell is used to create a section at the bottom of the Grid where column [Summaries](grid-summaries.md) are displayed for each dimension such as count, minimum, and maximum value.
+The Tree Grid extends the three types of regular Grid cells Header, Body and Summary with a Tree Column Cell, which is used to create and organize the hierarchy. It is always used as the first Body Cell in every row and comes with a predefined icon and action for collapsing/expanding the row.
 
-<img class="responsive-img" src="../images/grid_cell_header.png" srcset="../images/grid_cell_header@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_cell_body.png" srcset="../images/grid_cell_body@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_cell_summary.png" srcset="../images/grid_cell_summary@2x.png 2x" />
+To understand how regular Header, Body and Summary cells can be used for different types of data and configured to enable the various Tree Grid features, please refer to the [general Grid topic](grid.md).
 
-### Items (Header Cell)
+### Tree Column Cell Depth
 
-The Grid Header Cell supports the following layout combinations through the Items override: **No Icon** which shows only a header text, Icon which shows header text and filtering icon, and Icons which shows header text, filtering icon, and sorting icon.
+The Tree Column Cell provides visual indication for the level of the data hierarchy via the `Depth` override, which can be set to **Level1**, Level2 or Level3.
 
-<img class="responsive-img" src="../images/grid_cell_header_no-icon.png" srcset="../images/grid_cell_header_no-icon@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_cell_header_icon.png" srcset="../images/grid_cell_header_icon@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_cell_header_icons.png" srcset="../images/grid_cell_header_icons@2x.png 2x" />
-
-### State (Body Cell)
-
-The Grid Body Cell supports the following interactive states: **Rest** for the normal state, CellSelected for the selected cell in cell selection mode, and RowSelected for the remaining cells on the row, where the selected cell belongs.
-
-<img class="responsive-img" src="../images/grid_cell_body_rest.png" srcset="../images/grid_cell_body_rest@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_cell_body_cell-selected.png" srcset="../images/grid_cell_body_cell-selected@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_cell_body_row-selected.png" srcset="../images/grid_cell_body_row-selected@2x.png 2x" />
-
-### Cell Type
-
-The Grid Header Cell provides presets for the three generic types of data that it needs to accommodate: **Number** for numeric values, Text for strings, and Checbox that is usually used as a template for the first column in order to allow selection of multiple rows.
-
-<img class="responsive-img" src="../images/grid_cell_header_number.png" srcset="../images/grid_cell_header_number@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_cell_header_checkbox.png" srcset="../images/grid_cell_header_checkbox@2x.png 2x" />
-
-The Grid Body Cell provides presets for the same generic types of data like the Header Cell.
-
-<img class="responsive-img" src="../images/grid_cell_body_number.png" srcset="../images/grid_cell_body_number@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_cell_body_text.png" srcset="../images/grid_cell_body_text@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_cell_body_checkbox.png" srcset="../images/grid_cell_body_checkbox@2x.png 2x" />
+<img class="responsive-img" src="../images/tgrid_cell_body_tree1.png" srcset="../images/tgrid_cell_body_tree1@2x.png 2x" />
+<img class="responsive-img" src="../images/tgrid_cell_body_tree2.png" srcset="../images/tgrid_cell_body_tree2@2x.png 2x" />
+<img class="responsive-img" src="../images/tgrid_cell_body_tree3.png" srcset="../images/tgrid_cell_body_tree3@2x.png 2x" />
 
 ### Styling
 
-The Grid comes with styling flexibility achievable through styling the individual cell text, icons, and background colors in the various states available, as well as the hiding of horizontal and vertical borders.
+The Tree Grid comes with styling flexibility achievable through styling the individual cell text, icons, and background colors in the various states available, as well as the hiding of horizontal and vertical borders.
 
-<img class="responsive-img" src="../images/grid_styling.png" srcset="../images/grid_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/tgrid_styling.png" srcset="../images/tgrid_styling@2x.png 2x" />
 
 ## Usage
 
-The most important thing about the Grid is the alignment of the data inside its Header and Body Cells. Text should always be aligned left, leaving variable empty space to the right, and numbers should always be aligned right, leaving variable empty space to the left.
+Similarly to the Grid, the most important thing about the Tree Grid is the alignment of the data inside its Header and Body Cells. Text should always be aligned left, leaving variable empty space to the right, and numbers should always be aligned right, leaving variable empty space to the left.
 
 | Do                                                                                                | Don't                                                                                                 |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| <img class="responsive-img" src="../images/grid_do1.png" srcset="../images/grid_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/grid_dont1.png" srcset="../images/grid_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/grid_do2.png" srcset="../images/grid_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/grid_dont2.png" srcset="../images/grid_dont2@2x.png 2x" /> |
 
 ## Code generation
 
 This section describes some important overrides and how they affect code generation.
 
 > [!WARNING]
-> The grid **must** be a detached symbol to be able to be used.
-
-> [!NOTE]
-> The width of the grid is determined be adding up the widths of the columns. And the height of the grid is set to null so as to render rows properly even if the container for the grid doesn’t have a height set.
-
-### Data Source Property
-
-When supplied, the `🕹️DataSource` value is used to set up the data source for the grid and needs to be an array of objects, where each column name is a property on the object. If the data source is not supplied the grid will only render the column headers.
-
-### Header
-
-When supplied, the Headers help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell) that is below it to form the column. If no matching Body can be found a column will be created based on the information that can be gathered from the Header. When a pair is found, information will be gathered from the Header first then the Body/Cell.
-
-#### Text
-
-The Header Text property may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
-
-- Settings
-- {settingsLabel}
-- Important {labelText}
-
-#### Sorting
-
-When supplied enables sorting on the specified column.
-
-#### Filter State
-
-When supplied enables filtering on the specified column.
-
-#### Type
-
-When supplied this is used to determine the type of the column (string, number, Boolean).
-
-### Body/Cell
-
-When supplied, the Bodies (cells) help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell). If no matching Header can be found a column will be created based on the information that can be gathered from the Body/Cell. When a pair is found information will be gathered from the Header first then the Body/Cell.
-
-#### Data Property
-
-When supplied, the `🕹️DataProperty` is used to setup the field of the column, which should correspond to a field in the `🕹️DataSource`.
-
-#### Type
-
-When supplied this is used to determine the type of the column (string, number, Boolean).
+> The tree grid **must** be a detached symbol to be able to be used.
 
 ## Additional Resources
 
