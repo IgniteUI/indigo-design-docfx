@@ -23,7 +23,7 @@ The Grid has three `Excel Style Filter` symbols under `Features`, one for each D
 <img class="responsive-img" src="../images/grid_excel_style_filter_densities.png" srcset="../images/grid_excel_style_filter_densities@2x.png 2x" />
 
 > [!Note]
-> Make sure to pick a Display Density variant that matches the Grid Display Density since it is the one that is inherited by all features of the Grid.
+> Make sure to pick a Display Density variant for the Excel Style Filter overlay that matches the Grid Display Density since it is the one that is inherited by all features of the Grid.
 
 #### Overlay Customization
 
