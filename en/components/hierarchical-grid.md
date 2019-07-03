@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 ## Hierarchical Grid
 
-Use the Hierarchical Grid Component to let the user browse and interact with vast amount of complex data organized into separate tables hierarchically related to one another. Each grid in the hierarchy represents its own data in tabular fashion and provides the same features as the [Grid](grid.md). The Hierarchical Grid is visually identical to the [Ignite UI for Angular Hierarchical Grid Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/hierarchicalgrid/hierarchical_grid.html)
+Use the Hierarchical Grid Component to let the user browse and interact with vast amount of complex data organized into separate tables hierarchically related one to another. Each grid in the hierarchy represents its own data in tabular fashion and provides the same features as the [Grid](grid.md). The Hierarchical Grid is visually identical to the [Ignite UI for Angular Hierarchical Grid Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/hierarchicalgrid/hierarchical_grid.html)
 
 ### Hierarchical Grid Demo
 

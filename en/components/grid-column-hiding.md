@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 ## Grid Column Hiding
 
-Use the Grid Column Hiding to hide certain columns from the Grid. The easiest way to provide an interface for making columns visible again is by adding a Toolbar, which by default contains a button that lets you configure the visibility of columns for the whole grid. The Grid Column Hiding is identical to the [Ignite UI for Angular Grid Column Hiding Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/column_hiding.html)
+Use the Grid Column Hiding to hide certain columns from the Grid. The easiest way to provide an interface for making columns visible again is by adding a Toolbar, which by default contains a button (combined with combo) that lets you configure the visibility of columns for the whole grid. The Grid Column Hiding is identical to the [Ignite UI for Angular Grid Column Hiding Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/column_hiding.html)
 
 ### Grid Column Hiding Demo
 
