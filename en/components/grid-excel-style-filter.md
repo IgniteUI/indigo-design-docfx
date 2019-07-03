@@ -27,11 +27,11 @@ The Grid has three `Excel Style Filter` symbols under `Features`, one for each D
 
 #### Overlay Customization
 
-The Excel Style Filter overlay lets you configure the Column name to reflect the column that triggered it, as well as, the list of unique values at the bottom with their on/off state and item Text. The other features are not configurable.
+The Excel Style Filter overlay lets you configure the Column name to reflect the column that triggered it as well as the list of unique values at the bottom with their on/off state and item Text. The other features are not configurable.
 
 #### Sorting, Moving, Hiding and Pinning
 
-The Excel Style Filter interface provides additional functionality besides filtering such as Sorting, Column Moving, Column Hiding and Column Pinning. There are no overrides for these features, therefore they are not configurable. If any of them are enabled on the column via the Header Cell (see how to enable them in their respective topic) the user interface elements for the feature will be shown in the Excel Style Filter interface according to the Grid Display Density that is being used.
+The Excel Style Filter interface provides additional functionality besides filtering such as Sorting, Column Moving, Column Hiding and Column Pinning. There are no overrides for these features, therefore they are not configurable. If any of them are enabled on the column via the Header Cell (see how to enable them in their respective topic) the user interface elements for the feature will be shown in the Excel Style Filter interface according to the Grid Display Density that is being applied.
 
 ## Code generation
 

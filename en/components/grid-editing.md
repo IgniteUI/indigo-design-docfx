@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 ## Grid Editing
 
-Use Grid Editing to allow the user to update certain values either cell by cell, or one row at a time. Both Cell and Row Editing are visually identical to the [Ignite UI for Angular Grid Editing Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/editing.html)
+Use Grid Editing to allow the user to update certain values either cell by cell or one row at a time. Both Cell and Row Editing are visually identical to the [Ignite UI for Angular Grid Editing Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/editing.html)
 
 ### Cell Editing
 
@@ -16,7 +16,7 @@ The Grid Cell Editing happens cell by cell and is configured via the Body Cell t
 
 ### Row Editing
 
-The Grid Row Editing happens one row at a time and is configured via the Body Cells that belong to the edited row by setting their `Grid Feature` override to `RowEditing/Cell`. This will introduce a second override `Editing State`allowing you to specify the cell in focus by setting it to `Cell:focus`, bear in mund that you should set all other cells on this row to `Cell:no focus`. Also, this marks that editing is possible on the Grid without specifying for which columns as far as code generation is concerned.
+The Grid Row Editing happens one row at a time and is configured via the Body Cells that belong to the edited row by setting their `Grid Feature` override to `RowEditing/Cell`. This will introduce a second override `Editing State`allowing you to specify the cell in focus by setting it to `Cell:focus`, bear in mind that you should set all other cells on this row to `Cell:no focus`. Also, this marks that editing is possible on the Grid without specifying for which columns as far as code generation is concerned.
 
 <img class="responsive-img" src="../images/grid_row_edit.png" srcset="../images/grid_row_edit@2x.png 2x" />
 

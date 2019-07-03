@@ -62,6 +62,76 @@ This section describes some important overrides and how they affect code generat
 > [!WARNING]
 > The tree grid **must** be a detached symbol to be able to be used.
 
+> [!NOTE]
+> The height of the tree grid is set to `100%` as the default.
+
+### Data Source Property
+
+When supplied, the `🕹️DataSource` value is used to set up the data source for the grid and needs to be an array of objects, where each column name is a property on the object. If the data source is not supplied the grid will only render the column headers.
+
+### Primary Key
+
+When supplied, the `🕹️PrimaryKey` is used to set the `primaryKey` property on the grid.  The value of this property should be the name of a property in the data source that contains unique values.  This property is especially important if you wish to use the [row editing banner](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/row_editing.html) in the grid.
+
+### Child Key
+
+The `🕹️ChildKey` serves a dual purpose in the tree grid.  If only the `🕹️DataSource` and the `🕹️ChildKey` are set then the tree grid will expect that the `🕹️ChildKey` points to an array of child data within each object of the data source.  For a better explanation please see our Angular tree grid [documentation](https://www.infragistics.com/products/ignite-ui-angular/angular/components/treegrid/tree_grid.html#child-collection).
+
+If the `🕹️DataSource`, `🕹️PrimaryKey` and `🕹️ChildKey` are all set then the tree grid will be expecting your data to be configured a little differently.  You can see more about this [here](https://www.infragistics.com/products/ignite-ui-angular/angular/components/treegrid/tree_grid.html#primary-and-foreign-keys).  In short, for this configuration `🕹️ChildKey` is meant to be the `foreignKey` while `🕹️PrimaryKey` is the `primaryKey`.
+
+Which configuration you use depends on the structure of your data.
+
+### Header
+
+When supplied, the Headers help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell) that is below it to form the column. If no matching Body can be found a column will be created based on the information that can be gathered from the Header. When a pair is found, information will be gathered from the Header first then the Body/Cell.
+
+The Header has some sizing options available to it.  If you pin each header cell to the left and right in Sketch it will force the column to generate with a percentage width in HTML.  This will allow the column to grow or shrink depending on the size of the Grid.  Alternatively, you can fix the Header cell width which will generate a fixed column of that size.
+
+#### Type
+
+When supplied this is used to determine the type of the column (string, number, Boolean).
+
+#### Text
+
+The Header Text property may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
+
+- Settings
+- {settingsLabel}
+- Important {labelText}
+
+#### Feature Left & Feature Right
+
+These overrides control what features are enabled for the individual columns.  The following values are available:
+
+- None (Default)
+- Filtering ([Excel Style Filtering](https://www.infragistics.com/products/ignite-ui-angular/angular/components/hierarchicalgrid/excel_style_filtering.html))
+- Pinning
+- Sorting
+
+#### Column Moving
+
+This override determines whether the column is movable or not by the user.
+
+#### Column Resizing
+
+This override determines whether the column is resizable or not by the user.
+
+#### Column Hiding
+
+This override determines whether the column is hidden or not.
+
+### Body/Cell
+
+When supplied, the Bodies (cells) help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell). If no matching Header can be found a column will be created based on the information that can be gathered from the Body/Cell. When a pair is found information will be gathered from the Header first then the Body/Cell.
+
+#### Data Property
+
+When supplied, the `🕹️DataProperty` is used to setup the field of the column, which should correspond to a field in the `🕹️DataSource`.
+
+#### Type
+
+When supplied this is used to determine the type of the column (string, number, Boolean).
+
 ## Additional Resources
 
 Related topics:

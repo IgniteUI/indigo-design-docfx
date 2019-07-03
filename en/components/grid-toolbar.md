@@ -20,7 +20,34 @@ The Grid Toolbar comes with styling flexibility through the various overrides fo
 
 ## Code generation
 
+> [!WARNING]
+> Do **not** `Detach from Symbol` on an instance of the Toolbar in your design or else it won't generate properly.
+
 Make sure to place the Toolbar within the group defining the Grid as a sibling to the Header and Body groups.
+
+### Title
+
+This override controls the text to display in the Toolbar.
+
+### Action 1, 2 and 3
+
+These overrides are used to control what actions are available in the toolbar.  The following are the available options:
+
+#### ButtonExport
+
+This option adds the [Export](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#features) button to the toolbar which directly enables the `Export to Excel` and `Export to CSV` features of the grid.
+
+#### ButtonHiding
+
+This option adds the [Column Hiding](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/column_hiding.html) button to the toolbar.  This is a UI element that allows the user to manipulate which columns are visible and which are hidden.
+
+#### ButtonPinning
+
+This option adds the [Column Pinning](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#features) button to the toolbar.  This is a UI element that allows the user to manipulate which columns are pinned.
+
+#### Switch, Icon & Button
+
+These 3 options are considered [custom content](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#custom-content-template) since they do not come with the Toolbar by default.  In order to render these inside the Toolbar, code generation will produce an `ng-template` that contains these components for the Toolbar to use.
 
 ## Additional Resources
 
