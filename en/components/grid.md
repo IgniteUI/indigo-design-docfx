@@ -83,6 +83,18 @@ The Grid Body Cell provides presets for the same generic types of data like the 
 <img class="responsive-img" src="../images/grid_cell_body_checkbox.png" srcset="../images/grid_cell_body_checkbox@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_icon.png" srcset="../images/grid_cell_body_icon@2x.png 2x" />
 
+### Grid Horizontal Scrolling
+
+One way to achieve certain Grid dimensions, either as an absolute width or in relation to a parent group/container, is by adding a mask within the main group for the Grid. Simply insert a rectangle without any style and set its dimensions according to your needs, in the image below we have a Grid that is always exactly 800px wide.
+
+<img class="responsive-img" src="../images/grid_horizontal_scroll_rect.png" srcset="../images/grid_horizontal_scroll_rect@2x.png 2x" />
+
+You may fix the width and height of the rectangle, change its name to `Mask` and position it just above the special symbol `🕹️DataSource` in the layers panel. Then right click on top of it and select the `Mask` option near the bottom of the contextual menu.
+
+<img class="responsive-img" src="../images/grid_horizontal_scroll_masked.png" srcset="../images/grid_horizontal_scroll_masked@2x.png 2x" />
+
+Now your Grid group will take the dimensions of the Mask and you may use it in your layout in the same way as you would use a Grid without horizontal scrolling. When code for this component is generated it will automatically add a horizontal scrollbar respecting the mask dimensions as dimension for your Grid.
+
 ### Styling
 
 The Grid comes with styling flexibility achievable through styling the individual cell text, icons, and background colors in the various states available, as well as the hiding of horizontal and vertical borders.
@@ -113,13 +125,13 @@ When supplied, the `🕹️DataSource` value is used to set up the data source f
 
 ### Primary Key
 
-When supplied, the `🕹️PrimaryKey` is used to set the `primaryKey` property on the grid.  The value of this property should be the name of a property in the data source that contains unique values.  This property is especially important if you wish to use the [row editing banner](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/row_editing.html) in the grid.
+When supplied, the `🕹️PrimaryKey` is used to set the `primaryKey` property on the grid. The value of this property should be the name of a property in the data source that contains unique values. This property is especially important if you wish to use the [row editing banner](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/row_editing.html) in the grid.
 
 ### Header
 
 When supplied, the Headers help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell) that is below it to form the column. If no matching Body can be found a column will be created based on the information that can be gathered from the Header. When a pair is found, information will be gathered from the Header first then the Body/Cell.
 
-The Header has some sizing options available to it.  If you pin each header cell to the left and right in Sketch it will force the column to generate with a percentage width in HTML.  This will allow the column to grow or shrink depending on the size of the Grid.  Alternatively, you can fix the Header cell width which will generate a fixed column of that size.
+The Header has some sizing options available to it. If you pin each header cell to the left and right in Sketch it will force the column to generate with a percentage width in HTML. This will allow the column to grow or shrink depending on the size of the Grid. Alternatively, you can fix the Header cell width which will generate a fixed column of that size.
 
 #### Type
 
@@ -135,7 +147,7 @@ The Header Text property may contain text, [binding text](../codegen/data-bind
 
 #### Feature Left & Feature Right
 
-These overrides control what features are enabled for the individual columns.  The following values are available:
+These overrides control what features are enabled for the individual columns. The following values are available:
 
 - None (Default)
 - Filtering ([Excel Style Filtering](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/excel_style_filtering.html))
