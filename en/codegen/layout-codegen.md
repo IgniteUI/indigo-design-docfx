@@ -173,11 +173,16 @@ For code generation, the following controls will render using the default height
 - Title
 - Typography
 
-The Grid height is always set to null in the HTML like this: `[height]="null"` to ensure the grid rows are visible at runtime.
-Category Chart height is always fixed to match with height in Sketch. This will be changed in the future to accomodate improvements in Ignite UI for Angular.
-Image always uses fixed height from Sketch.
-For all other elements, when height is not fixed or the top and bottom are pinned, the height will be set to 100% in CSS.
-For all other elements, when height is fixed, the height will be fixed, and the value assigned in CSS.
+> [!Note]
+> The Grid, Hierarchical Grid and Tree Grid height will default to `[height]="'100%'"` in HTML to ensure that grid rows are visible at runtime.  Alternatively if the height is fixed in Sketch it will generate a pixel height (i.e.: `[height]="'100px'"`).
+
+> [!Note]
+> Category Chart height is always fixed to match with height in Sketch.
+
+> [!Note]
+> Image always uses fixed height from Sketch.
+
+For all other elements not listed above, when height is not fixed or the top and bottom are pinned, the height will be set to 100% in CSS. When the height is fixed the height in CSS will be set to the pixel size defined in Sketch.
 
 ## Width
 
@@ -206,6 +211,8 @@ The following controls will render using the default width provided by the contr
 - Carousel
 - Checkbox
 - Dialog
+- Grid
+- Hierarchical Grid
 - Hyperlink
 - Linear Progress
 - Nav Bar
@@ -216,6 +223,7 @@ The following controls will render using the default width provided by the contr
 - Switch
 - Time Picker
 - Title
+- Tree Grid
 - Typography
 
 The following controls will always render using the default width provided by the control’s HTML, irrespective of any Sketch sizing or pinning:
@@ -225,10 +233,14 @@ The following controls will always render using the default width provided by th
 - Icon
 - Toast
 
-Snackbar is always rendered with a width of 100%.
-Category Chart width is always fixed to match with width in Sketch. This will be changed in the future to accomodate improvements in Ignite UI for Angular.
-Image always uses fixed width from Sketch.
-The Grid is always rendered with a fixed width equal to the sum of the column widths.
+> [!Note]
+> Snackbar is always rendered with a width of 100%.
+
+> [!Note]
+> Category Chart width is always fixed to match the width in Sketch.
+
+> [!Note]
+> Image is always fixed to match the width in Sketch.
 
 ### Fixed Sizing
 
