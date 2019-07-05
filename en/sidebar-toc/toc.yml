@@ -24,6 +24,9 @@
       href: ../style/material-icons.md
     - name: Typography
       href: ../style/typography.md
+    - name: Illustrations
+      href: ../style/illustrations.md
+      new: true
 - name: Components
   items:
     - name: Avatar
