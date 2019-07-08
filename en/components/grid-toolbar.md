@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 ## Grid Toolbar
 
-Use the Grid Toolbar to define actions that affect the appearance and behaviour of the whole grid. By default the Toolbar will contain actions for showing/hiding and pinning/unpinning of columns, as well as Exporting the Grid content in various formats. The Grid Toolbar is visually identical to the [Ignite UI for Angular Grid Toolbar Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html)
+Use the Grid Toolbar to define actions that affect the appearance and behavior of the whole grid. By default the Toolbar will contain actions for showing/hiding and pinning/unpinning of columns, as well as Exporting the Grid content in various formats. The Grid Toolbar is visually identical to the [Ignite UI for Angular Grid Toolbar Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html)
 
 ### Grid Toolbar Demo
 
@@ -31,7 +31,7 @@ This override controls the text to display in the Toolbar.
 
 ### Action 1, 2 and 3
 
-These overrides are used to control what actions are available in the toolbar.  The following are the available options:
+These overrides are used to control what actions are available in the toolbar. The following are the available options:
 
 #### ButtonExport
 
@@ -39,15 +39,15 @@ This option adds the [Export](https://www.infragistics.com/products/ignite-ui-an
 
 #### ButtonHiding
 
-This option adds the [Column Hiding](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/column_hiding.html) button to the toolbar.  This is a UI element that allows the user to manipulate which columns are visible and which are hidden.
+This option adds the [Column Hiding](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/column_hiding.html) button to the toolbar. This is a UI element that allows the user to manipulate which columns are visible and which are hidden.
 
 #### ButtonPinning
 
-This option adds the [Column Pinning](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#features) button to the toolbar.  This is a UI element that allows the user to manipulate which columns are pinned.
+This option adds the [Column Pinning](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#features) button to the toolbar. This is a UI element that allows the user to manipulate which columns are pinned.
 
 #### Switch, Icon & Button
 
-These 3 options are considered [custom content](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#custom-content-template) since they do not come with the Toolbar by default.  In order to render these inside the Toolbar, code generation will produce an `ng-template` that contains these components for the Toolbar to use.
+Switch, Icon & Button options are considered [custom content](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#custom-content-template) since they do not come with the Toolbar by default. In order to render these inside the Toolbar, code generation will produce an `ng-template` that contains these components for the Toolbar to use.
 
 ## Additional Resources
 

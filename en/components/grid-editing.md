@@ -22,7 +22,7 @@ The Grid Row Editing happens one row at a time and is configured via the Body Ce
 
 ### Editing Row Banner
 
-The Grid has an `Editing Row Banner` symbol under `Features` that represents a summary area with the number of edits made on the row and a pair of actions for cancelling and confirming the edits made on the row. Adding this symbol has only a visual effect on your design to make it appear more realistic, if you want to switch the Row Editing feature, configure the Cells of the row accordingly.
+The Grid has an `Editing Row Banner` symbol under `Features` that represents a summary area with the number of edits made on the row and a pair of actions for cancelling and confirming the edits made on the row. Adding this symbol has only a visual effect on your design to make it more realistic, if you want to switch the Row Editing feature, configure the Cells of the row accordingly.
 
 ## Code generation
 

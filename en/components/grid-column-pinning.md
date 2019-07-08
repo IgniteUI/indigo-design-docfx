@@ -18,7 +18,9 @@ In order to pin a column use either the `Feature Left` or `Feature Right` overri
 
 ### Cell Right Border
 
-The right-most pinned column should have its `Right Border` override to indicate `Pinned Line` both for the Header and all Body Cells. In the demo above, this is done for all cells of the second column since both the Row Selectors and the Subject column are pinned.
+The right-most pinned column should have its `Right Border` override to indicate `Pinned Line` both for the Header and all Body Cells of the column. This shown on the image below for all cells of the second column since both the Row Selectors and the Subject columns are pinned.
+
+<img class="responsive-img" src="../images/grid_column_pinning_demo.png" srcset="../images/grid_column_pinning_demo@2x.png 2x" />
 
 ## Additional Resources
 
