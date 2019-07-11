@@ -20,6 +20,7 @@
     "dotenv": "^4.0.0",
     "extend": "^3.0.2",
     "fstream": "^1.0.12",
+    "graceful-fs": "^4.2.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-sass": "^3.1.0",
@@ -29,6 +30,7 @@
     "mem": "^5.1.1",
     "tar": "^4.4.10",
     "tunnel-agent": "^0.6.0",
+    "vinyl-fs": "^3.0.3",
     "yargs": "^10.0.3"
   }
 }
