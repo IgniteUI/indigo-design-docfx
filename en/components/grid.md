@@ -24,11 +24,11 @@ The Grid is essentially a repeater of columns and rows showing data in a tabular
 | 🕹️PrimaryKey                             | Reference for the column with the primary keys of the records that is required by some Grid features and is used by the code generation engine       |
 | 🕹️DataSource                             | Reference for the data source that the Grid will be bound to that is used by the code generation engine                                              |
 
-After detaching, you may alter the number of headers you need in order to show all the dimensions of your data and insert as many visible records as you want to show in your design simply by duplicating the one of the rows of data that you already have.
+After detaching, you may alter the number of headers you need, in order to show all the dimensions of your data and insert as many visible records as you want to show in your design simply by duplicating one of the rows of data that you already have.
 
 ### Cell Types
 
-The Grid provides three types of cells serving different data visualization purposes. The Header Cell is only one per column and appears at the top of the grid to display the textual description of the data in that particular column. The Body Cell is used to build the table displaying data records and may vary. The Summary Cell is used to create a section at the bottom of the Grid where column [Summaries](grid-summaries.md) are displayed for each dimension such as count, minimum, and maximum value.
+The Grid provides three types of cells serving different data visualization purposes. The Header Cell is only one per column and appears at the top of the grid to display the textual description of the data in that particular column. The Body Cell is used to build the content table displaying data records and its type may vary. The Summary Cell is used to create a section at the bottom of the Grid where [Summaries](grid-summaries.md) columns are displayed for each dimension such as count, minimum, and maximum value.
 
 <img class="responsive-img" src="../images/grid_cell_header.png" srcset="../images/grid_cell_header@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body.png" srcset="../images/grid_cell_body@2x.png 2x" />
@@ -48,7 +48,7 @@ Header, Body and Summary Cells support the the three display density variants of
 
 ### Items and Features (Header Cell)
 
-The Grid Header Cell supports various layout combinations through the `Items` override and different feature configuration via the `Feature Left` and `Feature Right` overrides. Moreover there are a number of additional overrides that are not visible but enable different column features on the Grid, such as [Editing](grid-editing.md), [Moving](grid-column-moving.md), [Resizing](grid-column-resizing.md), and [Hiding](grid-column-hiding.md).
+The Grid Header Cell supports various layout combinations through the `Items` override and different feature configurations via the `Feature Left` and `Feature Right` overrides. Moreover there are a number of additional overrides that are not visible but enable different column features on the Grid, such as [Editing](grid-editing.md), [Moving](grid-column-moving.md), [Resizing](grid-column-resizing.md), and [Hiding](grid-column-hiding.md).
 
 <img class="responsive-img" src="../images/grid_cell_header_no-icon.png" srcset="../images/grid_cell_header_no-icon@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_icon.png" srcset="../images/grid_cell_header_icon@2x.png 2x" />
@@ -57,6 +57,7 @@ The Grid Header Cell supports various layout combinations through the `Items` ov
 ### State and Grid Feature (Body Cell)
 
 The Grid Body Cell supports the following interactive states: **inactive** for the normal state and active for the focused/selected cell.
+_Default value is styled with_ **bold** _text._
 
 <img class="responsive-img" src="../images/grid_cell_body_cell-inactive.png" srcset="../images/grid_cell_body_cell-inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_cell-active.png" srcset="../images/grid_cell_body_cell-active@2x.png 2x" />
@@ -82,6 +83,18 @@ The Grid Body Cell provides presets for the same generic types of data like the 
 <img class="responsive-img" src="../images/grid_cell_body_text.png" srcset="../images/grid_cell_body_text@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_checkbox.png" srcset="../images/grid_cell_body_checkbox@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_icon.png" srcset="../images/grid_cell_body_icon@2x.png 2x" />
+
+### Grid Horizontal Scrolling
+
+One way to achieve certain Grid dimensions, either as an absolute width or in relation to a parent group/container, is by adding a mask within the main group for the Grid. Simply insert a rectangle without any style and set its dimensions according to your needs, in the image below we have a Grid that is always exactly 800px wide.
+
+<img class="responsive-img" src="../images/grid_horizontal_scroll_rect.png" srcset="../images/grid_horizontal_scroll_rect@2x.png 2x" />
+
+You may fix the width and height of the rectangle, change its name to `Mask` and position it just above the special symbol `🕹️DataSource` in the layers panel. Then right click on top of it and select the `Mask` option near the bottom of the contextual menu.
+
+<img class="responsive-img" src="../images/grid_horizontal_scroll_masked.png" srcset="../images/grid_horizontal_scroll_masked@2x.png 2x" />
+
+Now your Grid group will take the dimensions of the Mask and you may use it in your layout in the same way as you would use a Grid without horizontal scrolling. When code for this component is generated it will automatically add a horizontal scrollbar respecting the mask dimensions as dimension for your Grid.
 
 ### Styling
 
@@ -109,17 +122,17 @@ This section describes some important overrides and how they affect code generat
 
 ### Data Source Property
 
-When supplied, the `🕹️DataSource` value is used to set up the data source for the grid and needs to be an array of objects, where each column name is a property on the object. If the data source is not supplied the grid will only render the column headers.
+When supplied, the `🕹️DataSource` value is used to set up the data source for the grid and needs to be an array of objects, where each column name is a property on the object. If the data source is not supplied, the grid will only render the column headers.
 
 ### Primary Key
 
-When supplied, the `🕹️PrimaryKey` is used to set the `primaryKey` property on the grid.  The value of this property should be the name of a property in the data source that contains unique values.  This property is especially important if you wish to use the [row editing banner](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/row_editing.html) in the grid.
+When supplied, the `🕹️PrimaryKey` is used to set the `primaryKey` property on the grid. The value of this property should be the name of a property in the data source that contains unique values. This property is especially important if you wish to use the [row editing banner](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/row_editing.html) in the grid.
 
 ### Header
 
-When supplied, the Headers help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell) that is below it to form the column. If no matching Body can be found a column will be created based on the information that can be gathered from the Header. When a pair is found, information will be gathered from the Header first then the Body/Cell.
+When supplied, the Headers help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell) that is below it to form the column. If no matching Body can be found, a column will be created based on the information that can be gathered from the Header. When a pair is found, information will be gathered from the Header first then the Body/Cell.
 
-The Header has some sizing options available to it.  If you pin each header cell to the left and right in Sketch it will force the column to generate with a percentage width in HTML.  This will allow the column to grow or shrink depending on the size of the Grid.  Alternatively, you can fix the Header cell width which will generate a fixed column of that size.
+The Header has some sizing options available to it. If you pin each header cell to the left and right in Sketch, it will force the column to generate with a percentage width in HTML. This will allow the column to grow or shrink depending on the size of the Grid. Alternatively, you can fix the Header cell width which will generate a fixed column of that size.
 
 #### Type
 
@@ -135,7 +148,7 @@ The Header Text property may contain text, [binding text](../codegen/data-bind
 
 #### Feature Left & Feature Right
 
-These overrides control what features are enabled for the individual columns.  The following values are available:
+These overrides control what features are enabled for the individual columns. The following values are available:
 
 - None (Default)
 - Filtering ([Excel Style Filtering](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/excel_style_filtering.html))

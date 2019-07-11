@@ -15,6 +15,7 @@ Use Grid Sorting to indicate the ordering of records in ascending and descending
 ### Header Cell Feature
 
 In order to indicate a column as sortable use either the `Feature Left` or `Feature Right` overrides and set it to `Sorting`. Then you can set the `Sorting State` to Ascending, Descending or **Unsorted** to indicate the sort order. Of course, you would probably want to manipulate the column values to reflect the selected ordering.
+_Default value is styled with_ **bold** _text._
 
 ## Additional Resources
 

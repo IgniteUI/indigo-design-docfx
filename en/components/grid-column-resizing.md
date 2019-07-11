@@ -15,10 +15,11 @@ Use the Grid Column Resizing to indicate that the columns of the Grid are resiza
 ### Header Cell
 
 In order to indicate that a column is resizable, configure the `Column Resizing` override of the Grid Header Cell for the column by changing the default value from **Not Resizable** to Resizable. Also, this is what marks the column as resizable as far as code generation is concerned.
+_Default value is styled with_ **bold** _text._
 
 ### Column Resizing Indicator Feature
 
-The Grid has a `Column Resizing Indicator` symbol under `Features` that represents a highlight border of the whole column where resizing occurs. Adding this symbol has only a visual effect on your design to make it appear more realistic, if you want to switch the Column Resizing feature, configure the Header Cells accordingly.
+The Grid has a `Column Resizing Indicator` symbol under `Features` that represents a highlight border of the whole column where resizing occurs. Adding this symbol has only a visual effect on your design to make it more realistic, if you want to switch the Column Resizing feature, configure the Header Cells accordingly.
 
 ## Code generation
 

@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 ## Grid Excel Style Filter
 
-Use the Grid Excel Style Filter to let the user specify a set of Grid features on the column: filtering by unique value or miltiple conditions, sorting, column moving, hiding and pinning. Only one column at a time may show the Excel Style Filter, and its Header Filter State must be set to active (see Header Cell below). The Grid Excel Style Filter is visually identical to the dialog used for the [Ignite UI for Angular Grid Excel Style Filtering Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/excel_style_filtering.html)
+Use the Grid Excel Style Filter to let the user specify a set of Grid features on the column: filtering by unique value or multiple conditions, sorting, column moving, hiding and pinning. Only one column at a time may show the Excel Style Filter, and its Header Filter State must be set to active (see Header Cell below). The Grid Excel Style Filter is visually identical to the dialog used for the [Ignite UI for Angular Grid Excel Style Filtering Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/excel_style_filtering.html)
 
 ### Grid Excel Style Filter Demo
 
@@ -18,7 +18,7 @@ In order to indicate that a column has active Excel Style Filter (the overlay fo
 
 ### Excel Style Filter Feature
 
-The Grid has three `Excel Style Filter` symbols under `Features`, one for each Display Density, that represent the overlay shown for the affected column. Adding this symbol has only a visual effect on your design to make it appear more realistic, if you want to switch the Excel Style Filter feature, configure the Header Cells accordingly.
+The Grid has three `Excel Style Filter` symbols under `Features`, one for each Display Density, that represent the overlay shown for the affected column. Adding this symbol has only a visual effect on your design to make it more realistic, if you want to switch the Excel Style Filter feature, configure the Header Cells accordingly.
 
 <img class="responsive-img" src="../images/grid_excel_style_filter_densities.png" srcset="../images/grid_excel_style_filter_densities@2x.png 2x" />
 
