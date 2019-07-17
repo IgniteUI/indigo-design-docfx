@@ -162,22 +162,40 @@
       href: ../patterns/avatar-badge.md
     # - name: Card Collection
     #   href: ../patterns/card-collection.md
+    - name: Bar
+      href: ../patterns/bar.md
     - name: Checkbox Group
       href: ../patterns/checkbox-group.md
+    - name: Data Visualizations
+      href: ../patterns/data-visualizations.md
     - name: Details
       href: ../patterns/details.md
     - name: File Upload
       href: ../patterns/file-upload.md
     - name: Forms
       href: ../patterns/form.md
-    - name: Full Grid
-      href: ../patterns/full-grid.md
-    # - name: Gallery
-    #   href: ../patterns/gallery.md
+    - name: Grid
+      href: ../patterns/grid.md
+    - name: Hierarchical Grid
+      href: ../patterns/hierarchical-grid.md
+    - name: Icon + Title
+      href: ../patterns/icon-title.md
     - name: Image Manipulation
       href: ../patterns/image-manipulation.md
     - name: Lists
       href: ../patterns/lists.md
+    - name: Menu
+      href: ../patterns/menu.md
+    - name: Onboarding
+      href: ../patterns/onboarding.md
+    - name: Pricing Plan
+      href: ../patterns/pricing-plan.md
+    - name: Scheduler
+      href: ../patterns/scheduler.md
+    - name: Tiles
+      href: ../patterns/tiles.md
+    - name: Tree Grid
+      href: ../patterns/tree-grid.md
     - name: User Profile
       href: ../patterns/user-profile.md
 - name: Responsive layouts
