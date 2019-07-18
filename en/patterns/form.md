@@ -18,6 +18,8 @@ The Log In Forms come in a "simpler" layout with meaningful content and actions,
 
 <img class="responsive-img" src="../images/form_login-simple.png" srcset="../images/form_login-simple@2x.png 2x" />
 <img class="responsive-img" src="../images/form_login-social.png" srcset="../images/form_login-social@2x.png 2x" />
+<img class="responsive-img" src="../images/form_illustrated_forgot_password.png" srcset="../images/form_illustrated_forgot_password@2x.png 2x" />
+<img class="responsive-img" src="../images/form_illustrated_account_type.png" srcset="../images/form_illustrated_account_type@2x.png 2x" />
 
 The Registration Forms also come in a "simpler" layout with meaningful content and actions and a more elaborate layout with additional actions for registration via social media profiles.
 
