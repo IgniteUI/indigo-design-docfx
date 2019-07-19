@@ -12,16 +12,23 @@ Use the Details Pattern to display detailed information as a full-screen page us
 
 The Details Pattern comes with the styling flexibility provided by the Badges, Buttons, Tabs, and Text elements that constitute it.
 
-### Content Types
+### Icon + Title 
 
-The Details Pattern supports the following interchangeable pieces of content that, when combined, shape up its layout: Action Bar, Badge, Description, Metadata, Tabs, and Title and Price.
+Use the Icon + Title Pattern to present a single element from a set of elements through avatar with featured icon or image, title and rich-text description. It can be used for various scenarios, such as product feature description and single step of wizard sequence.
 
-<img class="responsive-img" src="../images/details_content.png" srcset="../images/details_content@2x.png 2x" />
+<img class="responsive-img" src="../images/icon_title.png" srcset="../images/icon_title@2x.png 2x" />
+
+The Details: Icon + Title Pattern comes with the styling flexibility provided by the Avatar with Icon or Image, Title and Text components that constitute its layout.
+
+
 
 > [!WARNING]
 > After inserting a Details Pattern, you should trigger `Detach from Symbol` to break it down to the individual Components that are used to create the Pattern layout in order to be able to generate Angular code. The individual Components, however, must stay intact and not be detached!
 
 <img class="responsive-img" src="../images/details_detach.png" />
+
+<img class="responsive-img" src="../images/icon_title_detach.png" />
+
 
 ## Additional Resources
 
