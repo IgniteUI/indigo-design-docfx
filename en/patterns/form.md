@@ -50,6 +50,9 @@ There are two main types of Payment forms: one for Card payments and one for Tra
 <img class="responsive-img" src="../images/form_card.png" srcset="../images/form_card@2x.png 2x" />
 <img class="responsive-img" src="../images/form_cash.png" srcset="../images/form_cash@2x.png 2x" />
 
+> [!Note]
+> Illustrations nested inside the Pattern Symbols cannot be code generated and Illustration itself has to be inserted manually.
+
 > [!WARNING]
 > After inserting any of the Form Patterns available, you should trigger `Detach from Symbol` in order to be able to generate it as Angular code. The individual Components, however, must stay intact and not be detached!
 

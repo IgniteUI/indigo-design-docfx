@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 ## Grid
 
-Use the Grid Pattern symbol as an alternative starting point when designing a tabular data layout. It provides a full-blown contentwise and stylewise Grid Component that comes with all the Grid functionality, provided in the Components Library.
+Use any of the Grid Pattern symbols as an alternative starting point when designing a tabular data layout. It provides a full-blown contentwise and stylewise Grid Component that comes with all the Grid functionality, provided in the Components Library.
 
 Below is illustrated the Grid Pattern with Excel Style Filter, Sorting and Display Density
 <img class="responsive-img" src="../images/grid.png" srcset="../images/grid@2x.png 2x" />

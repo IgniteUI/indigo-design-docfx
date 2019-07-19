@@ -12,9 +12,9 @@ Use the Details Pattern to display detailed information as a full-screen page us
 
 The Details Pattern comes with the styling flexibility provided by the Badges, Buttons, Tabs, and Text elements that constitute it.
 
-### Details: Icon + Title 
+### Icon + Title 
 
-Use the Details: Icon + Title Pattern to present a single element from a set of elements through avatar with featured icon or image, title and rich-text description. It can be used for various scenarios, such as product feature description and single step of wizard sequence.
+Use the Icon + Title Pattern to present a single element from a set of elements through avatar with featured icon or image, title and rich-text description. It can be used for various scenarios, such as product feature description and single step of wizard sequence.
 
 <img class="responsive-img" src="../images/icon_title.png" srcset="../images/icon_title@2x.png 2x" />
 

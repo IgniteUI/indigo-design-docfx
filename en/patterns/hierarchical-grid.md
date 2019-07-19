@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 ## Hierarchical Grid
 
-Use the Hierarchical Grid Pattern symbol as a starting point when designing a complex Hierarchical Grid with nested child Grids and some of its features. It provides a parent Grid and nested child Grid with a selected cell and visual representation of the connection between the parent and child grids. On Hierarchical Grid can be applied all the Grid functionality, provided in the Components Library.
+Use the Hierarchical Grid Pattern symbol as a starting point when designing a complex Hierarchical Grid with nested child Grids and some of its features. It provides a parent Grid and nested child Grid with an active cell and visual representation of the connection between the parent and child grids. On Hierarchical Grid can be applied all the Grid functionality, provided in the Components Library.
 
 <img class="responsive-img" src="../images/hierarchical_grid.png" srcset="../images/hierarchical_grid@2x.png 2x" />
 
