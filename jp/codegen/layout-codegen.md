@@ -174,11 +174,16 @@ Sketch 描画のシナリオでレイアウトの CSS 生成時に Sketch およ
 - Title
 - Typography
 
-Grid の高さが常に HTML で null に設定されます: `[height]="null"` これは、グリッドの行がランタイムに表示されることを確認します。
-Category Chart の高さは常に Sketch の高さと一致するために固定されます。今後 Ignite UI for Angular の機能拡張に合わせて変更する場合があります。
-Image は常に Sketch の固定の高さを使用します。
-すべての他の要素で、高さを固定せず、上下がピン固定される場合、高さは CSS で 100% に設定されます。
-すべての他の要素で、高さを固定し、高さ固定で CSS に設定されます。
+> [!Note]
+> The Grid, Hierarchical Grid and Tree Grid height will default to `[height]="'100%'"` in HTML to ensure that grid rows are visible at runtime.  Alternatively if the height is fixed in Sketch it will generate a pixel height (i.e.: `[height]="'100px'"`).
+
+> [!Note]
+> Category Chart height is always fixed to match with height in Sketch.
+
+> [!Note]
+> Image always uses fixed height from Sketch.
+
+For all other elements not listed above, when height is not fixed or the top and bottom are pinned, the height will be set to 100% in CSS. When the height is fixed the height in CSS will be set to the pixel size defined in Sketch.
 
 ## 幅
 
@@ -207,6 +212,8 @@ Image は常に Sketch の固定の高さを使用します。
 - Carousel
 - Checkbox
 - Dialog
+- Grid
+- Hierarchical Grid
 - Hyperlink
 - Linear Progress
 - Nav Bar
@@ -217,6 +224,7 @@ Image は常に Sketch の固定の高さを使用します。
 - Switch
 - Time Picker
 - Title
+- Tree Grid
 - Typography
 
 以下のコントロールは常に、Sketch のサイズ設定またはピン固定に関係なく、コントロールの HTML によって提供されるデフォルト幅を使用して描画します。
@@ -226,10 +234,14 @@ Image は常に Sketch の固定の高さを使用します。
 - Icon
 - Toast
 
-Snackbar は常に 100% 幅と描画されます。
-Category Chart の幅は常に Sketch での幅と一致するために固定されます。今後 Ignite UI for Angular の機能拡張に合わせて変更する場合があります。
-Image は常に Sketch からの固定幅を使用します。
-Grid は常に列幅の合計に等しい固定幅で描画されます。
+> [!Note]
+> Snackbar is always rendered with a width of 100%.
+
+> [!Note]
+> Category Chart width is always fixed to match the width in Sketch.
+
+> [!Note]
+> Image is always fixed to match the width in Sketch.
 
 ### 固定サイズ
 
