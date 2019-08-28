@@ -9,6 +9,5 @@
     "_JABaseUrl": "https://jp.infragistics.com/products/indigo-design/help/",
     "_KRBaseUrl": "https://kr.infragistics.com/products/indigo-design/help/",
     "_gitHubBtnLbl": "ページを開く:",
-    "_themeUsage": false,
-    "_demosBaseUrlVar": "{environment:demosBaseUrl}"
+    "_themeUsage": false
 }
