@@ -1,52 +1,52 @@
 ---
-title: Grid Excel Style Filter - Grid Feature
-_description: The Grid Excel Style Filter provides an overlay for column manipulations such as sorting, filtering, column moving, hiding and pinning.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+title: グリッド Excel スタイル フィルター - グリッド機能
+_description: グリッド Excel スタイル フィルターは、並べ替え、フィルタリング、列移動、非表示、ピン固定などの列操作のオーバーレイを提供します。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 ---
 
-## Grid Excel Style Filter
+## グリッド Excel スタイル フィルター
 
-Use the Grid Excel Style Filter to let the user specify a set of Grid features on the column: filtering by unique value or multiple conditions, sorting, column moving, hiding and pinning. Only one column at a time may show the Excel Style Filter, and its Header Filter State must be set to active (see Header Cell below). The Grid Excel Style Filter is visually identical to the dialog used for the [Ignite UI for Angular Grid Excel Style Filtering Feature](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/excel_style_filtering.html)
+グリッド Excel スタイル フィルターは、ユーザーが列に一連のグリッド機能を指定できるために使用します：一意の値または複数の条件でフィルタリングする、並べ替え、列移動、列非表示、ピン固定。一度に 1 列にのみ Excel スタイル フィルターを示し、ヘッダー フィルター状態はアクティブに設定する必要があります (以下ヘッダー セル参照)。グリッド Excel スタイル フィルターは、[Ignite UI for Angular Grid グリッド Excel スタイル フィルタリング機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/excel_style_filtering.html) と視覚的に同じものです。
 
-### Grid Excel Style Filter Demo
+### グリッド Exel スタイル フィルター デモ
 
 <img class="responsive-img" src="../images/grid_excel_style_filter_demo.png" srcset="../images/grid_excel_style_filter_demo@2x.png 2x" />
 
-### Header Cell
+### ヘッダー セル
 
-In order to indicate that a column has active Excel Style Filter (the overlay for it is visible) you first need to set the `Feature Left` or `Feature Right` override to `Filtering` and then configure the next override in the panel `Filtering State` to `Filtering/Active`. If you want to indicate that a column has Excel Style Filtering enabled you can use either the `Filtering/Inactive` state indicating that no filtering conditions are applied on this column, or the `Filtering/Filtered` state indicating that filtering conditions have been applied and the overlay for the column has been closed.
+列に Excel スタイル フィルターがアクティブであることを示するには (フィルターのオーバーレイが表示されます)、`Feature Left` または `Feature Right` のオーバーライドを `Filtering` に設定し、`フィルタリング状態`パネルで次のオーバーライドを `Filtering/Active` に設定する必要があります。列で Excel スタイル フィルタリングが有効が有効にされたことを示すため、フィルタリング条件がこの列に適用されていないことを示す `Filtering/Inactive` 状態、またはフィルタリング条件が適用され、列のオーバーレイが閉じられたことを示す `Filtering/Inactive` 状態を使用できます。
 
-### Excel Style Filter Feature
+### Excel スタイル フィルター機能
 
-The Grid has three `Excel Style Filter` symbols under `Features`, one for each Display Density, that represent the overlay shown for the affected column. Adding this symbol has only a visual effect on your design to make it more realistic, if you want to switch the Excel Style Filter feature, configure the Header Cells accordingly.
+グリッドには、 `機能` の下に3つの `Excel スタイル フィルター`記号があり、各表示密度に1つずつ、影響を受ける列に表示されるオーバーレイを表します。この記号を追加すると、デザインに視覚的な効果があるのみで、よりリアルになります。Excel スタイル フィルター機能を切り替えたい場合は、ヘッダー セルを構成します。
 
 <img class="responsive-img" src="../images/grid_excel_style_filter_densities.png" srcset="../images/grid_excel_style_filter_densities@2x.png 2x" />
 
 > [!Note]
-> Make sure to pick a Display Density variant for the Excel Style Filter overlay that matches the Grid Display Density since it is the one that is inherited by all features of the Grid.
+> グリッドのすべての機能に継承されるため、Grid 表示密度に一致する Excel スタイル フィルタ オーバーレイの表示密度バリアントを選択してください。
 
-#### Overlay Customization
+#### オーバーレイのカスタマイズ
 
-The Excel Style Filter overlay lets you configure the Column name to reflect the column that triggered it as well as the list of unique values at the bottom with their on/off state and item Text. The other features are not configurable.
+Excel スタイル フィルターオーバーレイを使用すると、列名を構成して、その列をトリガーした列および On/Off 状態と項目テキストを含む下部の一意の値のリストを反映できます。他の機能は構成できません。
 
-#### Sorting, Moving, Hiding and Pinning
+#### 並べ替え、移動、非表示、ピン固定
 
-The Excel Style Filter interface provides additional functionality besides filtering such as Sorting, Column Moving, Column Hiding and Column Pinning. There are no overrides for these features, therefore they are not configurable. If any of them are enabled on the column via the Header Cell (see how to enable them in their respective topic) the user interface elements for the feature will be shown in the Excel Style Filter interface according to the Grid Display Density that is being applied.
+Excel スタイル フィルターのインターフェイスは、並べ替え、列移動、列非表示、列ピン固定などのフィルタリング以外の追加機能を提供します。これらの機能のオーバーライドはないため、構成できません。それらのいずれかがヘッダー セルを介して列で有効になっている場合 (それぞれのトピックで有効にする方法を参照)、機能のユーザーインターフェイス要素は適用されている Grid 表示密度に従って Excel スタイル フィルターインターフェイスに表示されます 。
 
-## Code generation
+## コードの生成
 
-Make sure to place the Excel Style Filter within the group defining the Grid as a sibling to the Header and Body groups.
+Excel スタイル フィルターは、ヘッダーグループと本文グループの兄弟としてグリッドを定義するグループ内に配置してください。
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Grid](grid.md)
-- [Display Density](grid-display-density.md)
-- [Display Density](grid-sorting.md)
-- [Display Density](grid-column-moving.md)
-- [Display Density](grid-column-hiding.md)
-- [Display Density](grid-column-pinning.md)
+- [表示密度](grid-display-density.md)
+- [表示密度](grid-sorting.md)
+- [表示密度](grid-column-moving.md)
+- [表示密度](grid-column-hiding.md)
+- [表示密度](grid-column-pinning.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。

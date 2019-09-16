@@ -1,31 +1,31 @@
 ---
-title: Grid Column Hiding - Grid Feature
-_description: The Grid Column Hiding is a mechanism to hide and show columns of the Grid.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+title: Grid 列非表示 - グリッド機能
+_description: Grid 列非表示はグリッドの列を非表示または表示するための構造です。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 ---
 
-## Grid Column Hiding
+## Grid 列非表示
 
-Use the Grid Column Hiding to hide certain columns from the Grid. The easiest way to provide an interface for making columns visible again is by adding a Toolbar, which by default contains a button (combined with combo) that lets you configure the visibility of columns for the whole grid. The Grid Column Hiding is identical to the [Ignite UI for Angular Grid Column Hiding Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/column_hiding.html)
+Grid 列非表示は、グリッドから特定の列を非表示にするために使用します。列を再び表示するためのインターフェイスを提供する最も簡単な方法は、ツールバーを追加することです。ツールバーには、デフォルトで グリッド全体の列の表示を構成できるボタン (コンボと組み合わせ) が含まれます。Grid 列非表示は、[Ignite UI for Angular Grid 列非表示機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/column_hiding.html) と視覚的に同じものです。
 
-### Grid Column Hiding Demo
+### Grid 列非表示デモ
 
 <img class="responsive-img" src="../images/grid_column_hiding_demo.png" srcset="../images/grid_column_hiding_demo@2x.png 2x" />
 
-### Toolbar and Header Cell
+### ツールバーとヘッダー セル
 
-The Grid Column Hiding can be achieved by adding a Toolbar with a Column Hiding action that enables the feature for the whole grid. However, in order to mark certain columns as hidable, you need to configure the `Column Hiding` override on the Grid Header Cell for the respective column and set it to Hidden. The override's default value is **Visible**.
+Grid の列非表示は、グリッド全体の機能を有効にする列非表示アクションのツールバーを追加することで実現できます。ただし、特定の列を非表示としてマークするには、各列のグリッド ヘッダー セルで `列の非表示` のオーバーライドを設定し、非表示に設定する必要があります。このプロパティのデフォルト設定は、**Visible** です。
 
-## Code generation
+## コードの生成
 
-If a Toolbar is added make sure to place it within the group defining the Grid as a sibling to the Header and Body groups.
+ツールバーを追加する場合、ヘッダーグループと本文グループの兄弟としてグリッドを定義するグループ内に配置してください。
 
-## Additional Resources
+## その他のリソース
 
-Related topic:
+関連トピック:
 
 - [Grid](grid.md)
-- [Grid Toolbar](grid-toolbar.md)
+- [Grid ツールバー](grid-toolbar.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。

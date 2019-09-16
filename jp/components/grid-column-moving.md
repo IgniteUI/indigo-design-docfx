@@ -1,35 +1,35 @@
 ---
-title: Grid Column Moving - Grid Feature
-_description: The Grid Column Moving is a mechanism to rearrange the columns of the Grid.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+title: Grid 列移動 - グリッド機能
+_description: Grid 列移動は、グリッドの列を再配置するための構造です。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 ---
 
-## Grid Column Moving
+## Grid 列移動
 
-Use the Grid Column Moving to indicate that the columns of the Grid are movable and can be rearranged by dragging the Header Cell and dropping it to the desired location. The Grid Column Moving is visually identical to the [Ignite UI for Angular Grid Column Moving Feature](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/column_moving.html)
+Grid 列移動は、グリッドの列が移動可能であり、ヘッダー セルをドラッグして目的の場所にドロップすることで再配置できることを示すために使用します。Grid 列移動は、[Ignite UI for Angular Grid 列移動機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/column_moving.html) と視覚的に同じものです。
 
-### Grid Column Moving Demo
+### Grid 列移動デモ
 
 <img class="responsive-img" src="../images/grid_column_moving_demo.png" srcset="../images/grid_column_moving_demo@2x.png 2x" />
 
-### Header Cell
+### ヘッダー セル
 
-In order to indicate that a column is movable, configure the `Column Moving` override of the Grid Header Cell for the column by changing the default value from **Not Movable** to Movable. Also, this is what marks the column as movable as far as code generation is concerned.
-_Default value is styled with_ **bold** _text._
+列が移動可能であることを示するには、デフォルト値を **Not Movable** から Movable に変更すると、列のグリッド ヘッダー セルの`列移動`のオーバーライドを設定します。また、コード生成には、これにより列を移動可能としてマークします。
+_デフォルト値は、**太字**テキストでスタイル設定されます。_
 
-### Column Moving Feature
+### 列移動機能
 
-The Grid has a `Column Moving` symbol under `Features` that represents the ghost Header Cell shown for the dragged column. Adding this symbol has only a visual effect on your design to make it more realistic, if you want to switch the Column Moving feature, configure the Header Cells accordingly.
+Grid の`機能`の下には、ドラッグされた列に表示されるゴースト ヘッダー セルを表す`列移動`記号があります。この記号を追加すると、デザインに視覚的な効果のみでよりリアルになります。列移動機能を切り替えたい場合は、ヘッダー セルを構成します。
 
-## Code generation
+## コードの生成
 
-If the `Column Moving` symbol is added make sure to place it within the group defining the Grid as a sibling to the Header and Body groups.
+`列移動`記号を追加する場合、ヘッダー グループと本文グループの兄弟としてグリッドを定義するグループ内に配置してください。
 
-## Additional Resources
+## その他のリソース
 
-Related topic:
+関連トピック:
 
 - [Grid](grid.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
