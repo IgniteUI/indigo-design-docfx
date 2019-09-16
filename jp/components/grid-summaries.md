@@ -7,7 +7,8 @@ _language: ja
 
 ## グリッド集計
 
-Grid 集計は、すべてのデータで算出した集計値を各 Grid 列に示します。Grid の下にある特定のセル集計を挿入して表領域を Grid 構造と一致させますが、含まれるラベルと数値は集計値の情報を含みます。Grid 集計は、[Ignite UI for Angular Grid 集計機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid_summaries.html)と視覚的に同じものです。
+Use the Grid Summaries Component to show aggregated values calculated over all the data in the respective Grid column. This is achievable through the insertion of special cells called Summary at the bottom of the Grid to shape up a tabular area matching the Grid structure but containing a Label and Number containing information about the aggregate value. The Grid Summaries is visually identical to the [Ignite UI for Angular Grid Summary Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/summaries.html)
+
 
 ### Grid 集計デモ
 
