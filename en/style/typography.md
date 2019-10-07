@@ -12,7 +12,7 @@ Use Typography to set up your theme's typeface and available sizes. Although we 
 
 With the introduction of Library Styles in Sketch and our support for Shared Typography Styles, there is a vast selection of type presets. Headline, subtitle, body, caption and overline tyles can be applied to a native Sketch `Text` element, or dragged to an arboard from the `Text Styles` section of the `Insert` menu. Use these when creating intricate layouts for articles, blog posts etc.
 
-> [!Warn]
+> [!Warning]
 > There is also a collection of `Internal` styles used within Components for validation scenarios, special components such as the Button and Hyperlink and data-dense scenarios like the Grid. These styles are not supposed to be inserted in your interface directly, but exist to assure typograpic consistency for the Components within which they are used.
 
 Typography in Indigo-Styling, is meant to help you define a consistent theme and style for all the texts in your designs.
@@ -91,5 +91,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
-
