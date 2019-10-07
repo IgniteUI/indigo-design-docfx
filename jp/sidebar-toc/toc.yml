@@ -17,12 +17,15 @@
       href: ../style/styling-overview.md
     - name: Colors
       href: ../style/colors.md
-    - name: Elevation
+    - name: エレベーション
       href: ../style/elevation.md
-    - name: Material Icons
+    - name: マテリアル アイコン
       href: ../style/material-icons.md
-    - name: Typography
+    - name: タイポグラフィ
       href: ../style/typography.md
+    - name: 図
+      href: ../style/illustrations.md
+      new: true
 - name: コンポーネント
   items:
     - name: Avatar
