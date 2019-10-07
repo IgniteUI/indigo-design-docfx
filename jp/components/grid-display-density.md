@@ -1,35 +1,35 @@
 ---
-title: Grid Display Density - Grid Feature
-_description: The Grid Display Density provides denser and more airy layout variants for its various elements and content.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+title: Grid 表示密度 - グリッド機能
+_description: Grid 表示密度は、さまざまな要素とコンテンツのためより密度が高いおよび軽いレイアウトのバリエーションを提供します。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 ---
 
-## Grid Display Density
+## Grid 表示密度
 
-The Grid comes in three prebuilt variants according to the three densities supported comfortable, cosy and compact, where the first one is the most airy layout and the last one is the most dense one. The Grid Display Density is visually identical to the [Ignite UI for Angular Grid Display Density Feature](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/display_density.html).
+Grid には、comfortable、cosy、compact の 3 つのサポートされる密度に従って、3 つのビルド済みバリアントがあります。最初のバリエーションは最もライトなレイアウトで、最後のレイアウトは最も密度が高くなります。Grid 表示密度は、[Ignite UI for Angular Grid 表示密度機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/display_density.html) と視覚的に同じものです。
 
-The more data a grid has to display, the denser its layout needs to be. This also leaves less and less whitespace in the layout of all its elements including the header and body cells, overlays and dialogs, as well as elements that are attached to the grid above or below the main content like the Toolbar and the Summaries.
+グリッドに表示するデータが多いほど、レイアウトの密度が高くなります。これにより、Header や Body Cells、オーバーレイ、ダイアログなどのすべての要素のレイアウトに空白が次第に減少し、ツールバーや集計などメインコンテンツの上または下にグリッドに添付される要素も減少します。
 
-### Grid Density - Comfortable
+### Grid 表示密度 - Comfortable
 
 <img class="responsive-img" src="../images/grid_density_comfortable.png" srcset="../images/grid_density_comfortable@2x.png 2x" />
 
-### Grid Density - Cosy
+### Grid 表示密度 - Cosy
 
 <img class="responsive-img" src="../images/grid_density_cosy.png" srcset="../images/grid_density_cosy@2x.png 2x" />
 
-### Grid Density - Compact
+### Grid 表示密度 - Compact
 
 <img class="responsive-img" src="../images/grid_density_compact.png" srcset="../images/grid_density_compact@2x.png 2x" />
 
 > [!Note]
-> When working with Display Density make sure that all your Grid elements and features use the same Display Density type.
+> 表示密度を使用する場合は、すべてのグリッド要素と機能が同じ表示密度タイプを使用することを確認してください。
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Grid](grid.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。

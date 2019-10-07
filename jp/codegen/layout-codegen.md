@@ -175,15 +175,15 @@ Sketch 描画のシナリオでレイアウトの CSS 生成時に Sketch およ
 - Typography
 
 > [!Note]
-> The Grid, Hierarchical Grid and Tree Grid height will default to `[height]="'100%'"` in HTML to ensure that grid rows are visible at runtime.  Alternatively if the height is fixed in Sketch it will generate a pixel height (i.e.: `[height]="'100px'"`).
+> HTML で Grid、Hierarchical Grid および Tree Grid の高さのデフォルトは `[height]="'100%'"` です。これは、グリッドの行がランタイムに表示されることを確認します。あるいは、Sketch の高さが固定された場合、ピクセル単位の高さを生成します (例: `[height]="'100px'"`)。
 
 > [!Note]
-> Category Chart height is always fixed to match with height in Sketch.
+> Category Chart の高さは常に Sketch の高さと一致するために固定されます。
 
 > [!Note]
-> Image always uses fixed height from Sketch.
+> Image は常に Sketch の固定の高さを使用します。
 
-For all other elements not listed above, when height is not fixed or the top and bottom are pinned, the height will be set to 100% in CSS. When the height is fixed the height in CSS will be set to the pixel size defined in Sketch.
+すべての他の要素で、高さを固定せず、上下ピン固定される場合、高さは CSS で 100% に設定されます。高さが固定された場合、CSS の高さは Sketch で定義されたピクセル サイズに設定されます。
 
 ## 幅
 
@@ -235,13 +235,13 @@ For all other elements not listed above, when height is not fixed or the top and
 - Toast
 
 > [!Note]
-> Snackbar is always rendered with a width of 100%.
+> Snackbar は常に 100% 幅と描画されます。
 
 > [!Note]
-> Category Chart width is always fixed to match the width in Sketch.
+> Category Chart の幅は常に Sketch での幅と一致するために固定されます。
 
 > [!Note]
-> Image is always fixed to match the width in Sketch.
+> Sketch で画像は固定されるため常に幅と一致します。
 
 ### 固定サイズ
 
