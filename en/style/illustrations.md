@@ -18,7 +18,7 @@ Each illustration provides specific level of customization via applying another 
 
 ## Code generation
 
-> [!Warn]
+> [!Warning]
 > Illustration don't generate a code asset in the current version of Indigo.Design. This has been noted as a [known issue](../known-issues.md) and is something that will be implemented in the upcoming releases.
 
 ## Additional Resources

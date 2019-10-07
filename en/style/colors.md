@@ -16,7 +16,7 @@ To change the primary color, navigate to the `Colors` page in Indigo-Styling and
 
 <img class="responsive-img" src="../images/colors-fills.png"/>
 
-> [!Warn]
+> [!Warning]
 > The two fills above are used for color variant generation and their values must always be kept as they are. Failing to comply with this guidance will result in inconsistencies and unpredictable code generation results.
 
 Upon changing the bottom fill, you will see the whole primary palette instantly update. The same palette generation is available for the secondary color.
@@ -92,5 +92,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
-
