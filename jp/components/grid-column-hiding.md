@@ -2,6 +2,7 @@
 title: Grid 列非表示 - グリッド機能
 _description: Grid 列非表示はグリッドの列を非表示または表示するための構造です。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_language: ja
 ---
 
 ## Grid 列非表示
@@ -18,7 +19,7 @@ Grid の列非表示は、グリッド全体の機能を有効にする列非表
 
 ## コードの生成
 
-ツールバーを追加する場合、ヘッダーグループと本文グループの兄弟としてグリッドを定義するグループ内に配置してください。
+ツールバーを追加する場合、ヘッダーグループと本体グループの兄弟としてグリッドを定義するグループ内に配置してください。
 
 ## その他のリソース
 

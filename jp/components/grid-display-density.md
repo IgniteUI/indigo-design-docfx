@@ -2,6 +2,7 @@
 title: Grid 表示密度 - グリッド機能
 _description: Grid 表示密度は、さまざまな要素とコンテンツのためより密度が高いおよび軽いレイアウトのバリエーションを提供します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_language: ja
 ---
 
 ## Grid 表示密度

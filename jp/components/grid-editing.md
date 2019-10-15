@@ -2,6 +2,7 @@
 title: Grid 編集 - グリッド機能
 _description: Grid 編集は、グリッドに表示されるレコードの値を更新できます。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_language: ja
 ---
 
 ## Grid 編集
@@ -10,13 +11,13 @@ Grid 編集は、ユーザーが特定の値をセルごとまたは一度に 1 
 
 ### セルの編集
 
-Grid セルの編集はセルごとに行われ、`Grid 機能`のオーバーライドで編集モードに表示する Body Cell で構成されます。`Editing/Cell` に設定すると、このモードに遵守する編集可能なグリッドが作成されます。また、コード生成には、これにより編集可能な列をマークします。
+Grid セルの編集はセルごとに行われ、`Grid Features`のオーバーライドで編集モードに表示する Body Cell で構成されます。`Editing/Cell` に設定すると、このモードに遵守する編集可能なグリッドが作成されます。また、コード生成には、これにより編集可能な列をマークします。
 
 <img class="responsive-img" src="../images/grid_cell_edit.png" srcset="../images/grid_cell_edit@2x.png 2x" />
 
 ### 行の編集
 
-Grid 行編集は一度に 1 行ずつ行われ、`Grid 機能`のオーバーライドを `RowEditing/Cell` に設定すると、編集された行に属する Body Cells で構成されます。これにより、2 番目のオーバーライド `Editing State` が導入され、`Cell:focus` に設定することで、フォーカスされるセルを指定できます。この行の他のすべてのセルを `Cell:no focus` に設定する必要があることにご注意ください。またコード生成では、列を指定せずにグリッドで編集が可能です。
+Grid 行編集は一度に 1 行ずつ行われ、`Grid Features`のオーバーライドを `RowEditing/Cell` に設定すると、編集された行に属する Body Cells で構成されます。これにより、2 番目のオーバーライド `Editing State` が導入され、`Cell:focus` に設定することで、フォーカスされるセルを指定できます。この行の他のすべてのセルを `Cell:no focus` に設定する必要があることにご注意ください。またコード生成では、列を指定せずにグリッドで編集が可能です。
 
 <img class="responsive-img" src="../images/grid_row_edit.png" srcset="../images/grid_row_edit@2x.png 2x" />
 

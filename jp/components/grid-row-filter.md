@@ -1,34 +1,35 @@
 ---
-title: Grid Row Filter - Grid Feature
-_description: The Grid Row Filter allows the definition of filtering criteria on a Grid column.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+title: Grid 行フィルター - グリッド機能
+_description: Grid 行フィルターを使用すると、グリッド列のフィルタリング条件を定義できます。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_language: ja
 ---
 
-## Grid Row Filter
+## Grid 行フィルター
 
-Use the Grid Row Filter to specify filtering criteria on a Grid column via a special type of Header Cell that contains Chips with the filtering conditions. The Grid Row Filter is visually identical to[Ignite UI for Angular Grid Filtering Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/filtering.html)
+Grid 行フィルターを使用して、フィルタリング条件を持つ Chip を含む特別なタイプのヘッダー セルを介して Grid 列のフィルタリング基準を指定します。Grid 行フィルターは、[Ignite UI for Angular Grid フィルタリング機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/filtering.html) と視覚的に同じものです。
 
-### Grid Row Filter Demo
+### Grid 行フィルターのデモ
 
 <img class="responsive-img" src="../images/grid_row_filter_demo.png" srcset="../images/grid_row_filter_demo@2x.png 2x" />
 
-### Row Filter Header
+### 行フィルター ヘッダー
 
-In order to indicate that a Grid is filterable via a Row Filter, add a second Header row with Row Filter Header Cells for each of the columns of the Grid within the `Header` group.
+Grid が行フィルターでフィルタリング可能であることを示すために、`ヘッダー` グループ内の Grid の各列に行フィルター ヘッダー セルを持つ 2 番目のヘッダー行を追加します。
 
-### Filter State
+### Filter State (フィルター済み)
 
-The Row Filter Header Cells come with a `Filter State` override that lets you configure whether a filtering condition has been applied on a given column when set to Filtered or no filtering condition is applied, which also happens to be the default state **Empty**.
+行フィルター ヘッダー セルに `Filter State` のオーバーライドが設定せれます。このオーバーライドはフィルター済みに設定された場合、特定の列にフィルター条件があるかないか構成できます。フィルター条件が設定されない場合、デフォールト状態である**空**と一致します。
 
-## Code generation
+## コードの生成
 
-Make sure to place the Row Filter Header Cells within the `Header` group of the Grid as siblings to the normal Header Cells.
+通常のヘッダー セルの兄弟として、Grid の`ヘッダー`グループ内に行フィルター ヘッダー セルを配置してください。
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Grid](grid.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。

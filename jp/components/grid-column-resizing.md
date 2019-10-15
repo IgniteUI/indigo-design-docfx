@@ -2,6 +2,7 @@
 title: Grid 列サイズ変更 - グリッド機能
 _description: Grid 列サイズ変更は、グリッドの列の幅を調整する構造です。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_language: ja
 ---
 
 ## Grid 列サイズ変更
@@ -23,7 +24,7 @@ _デフォルト値は、_**太字**_テキストでスタイル設定されま�
 
 ## コードの生成
 
-`列サイズ変更インジケーター` 記号を追加する場合、ヘッダーグループと本文グループの兄弟として グリッドを定義するグループ内に配置してください。
+`列サイズ変更インジケーター` 記号を追加する場合、ヘッダーグループと本体グループの兄弟として グリッドを定義するグループ内に配置してください。
 
 ## その他のリソース
 

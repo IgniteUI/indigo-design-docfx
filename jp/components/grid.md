@@ -1,85 +1,85 @@
 ﻿---
 title: Grid - デザイン システム コンポーネント
-_description: The Grid Component Symbol provides means to display and interact with high-quantities of data structured in a tabular fashion. 
+_description: Grid コンポーネント シンボルは、表形式の大量のデータを表示し、インタラクティブに操作できます。
 _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
 _language: ja
 ---
 
-## Grid
+## Grid (グリッド)
 
-Use the Grid Component to let the user browse and interact with vast amount of complex data that is visually represented in tabular fashion and provide means for filtering, sorting, paging, and much more. The Grid is visually identical to the [Ignite UI for Angular Grid Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid.html)
+グリッド コンポーネントは大量の複雑なデータをタブ形式で表示し、ユーザーがブラウジングやインタラクティブに操作することにより、フィルタリング、並べ替え、ページングなどが可能です。Grid は、[Ignite UI for Angular Grid コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid.html) と視覚的に同じものです。
 
-### Grid デモ
+### グリッドのデモ
 
 <img class="responsive-img" src="../images/grid_demo.png" srcset="../images/grid_demo@2x.png 2x" />
 
-### シンボルからデタッチ
+### Detach from Symbol (シンボルからデタッチ)
 
-The Grid is essentially a repeater of columns and rows showing data in a tabular fashion. Therefore, the easiest way to use it is by dragging one of the predefined grids to your artboard - there are three presets available for the three [display densities](grid-display-density.md) supported. Once in your artboard, by right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu you should see the following in your layers panel under the newly appeared group:
+グリッドは、基本的に表形式でデータを表示する列と行のリピーターです。したがって、最も簡単な使用方法は、定義済みのグリッドの 1 つをアートボードにドラッグすることです。サポートされる 3 つの[表示密度](grid-display-density.md) に 3 つのプリセットがあります。アートボードを開いた後、その上を右クリックし、コンテキスト メニューの下部にある `Detach from Symbol` オプションを選択すると、新しく表示されたグループの下のレイヤー パネルに次のように表示されます。
 
-| Layer                                    | Use                                                                                                                                                  |
+| レイヤー                                    | 使用                                                                                                                                                  |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 igx-grid/_(comfortable/cosy/compact)_ | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| Header                                   | Contains all the cells in the header                                                                                                                 |
-| Body                                     | Contains all the cells in the body                                                                                                                   |
-| 🕹️PrimaryKey                             | Reference for the column with the primary keys of the records that is required by some Grid features and is used by the code generation engine       |
-| 🕹️DataSource                             | Reference for the data source that the Grid will be bound to that is used by the code generation engine                                              |
+| 🚫 igx-grid/_(comfortable/cosy/compact)_ | 禁止されたアイコンで開始する特定のロックされたレイヤー。 このレイヤーはコード生成に必要なため、削除または変更しないでください |
+| Header                                   | ヘッダーのすべてのセルを取得します                                                                                                             |
+| Body                                     | 本体のすべてのセルを含みます                                                                                                                 |
+| 🕹️PrimaryKey                             | 一部のグリッド機能で必要であり、コード生成エンジンで使用されるレコードの主キーを持つ列の参照       |
+| 🕹️DataSource                             | コード生成エンジンによって使用され、グリッドにバインドされるデータ ソースの参照                                             |
 
-After detaching, you may alter the number of headers you need in order to show all the dimensions of your data and insert as many visible records as you want to show in your design simply by duplicating the one of the rows of data that you already have.
+デタッチ後、既存のデータ行の 1 つを複製するだけで、データのすべてのディメンションを表示するために必要なヘッダーの数を変更できます。デザインに表示したい表示レコード (数に制限がない) を挿入することもできます。
 
 
 ### セル タイプ
 
-Grid は、異なるデータ可視化用に 3 タイプのセルがあります。Header Cell は、各列に 1 つ、グリッドの一番上に表示され、特定の列のデータに関する説明をテキストで表示します。Body Cell は、データ レコードを表示するテーブルのビルドその他に使用されます。Summary Cell は、列[集計](grid-summaries.md)がカウント、最大、最小などの各ディメンションに表示される Grid の下のセクションを作成するために使用されます。
+グリッドは、異なるデータ可視化用に 3 タイプのセルがあります。Header Cell (ヘッダー セル) は、各列に 1 つ、グリッドの一番上に表示され、特定の列のデータに関する説明をテキストで表示します。Body Cell (本体セル) は、データ レコードを表示するテーブルのビルドその他に使用されます。Summary Cell (集計セル) は、列[集計](grid-summaries.md)がカウント、最大、最小などの各ディメンションに表示されるグリッドの下のセクションを作成するために使用されます。
 
 <img class="responsive-img" src="../images/grid_cell_header.png" srcset="../images/grid_cell_header@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body.png" srcset="../images/grid_cell_body@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_summary.png" srcset="../images/grid_cell_summary@2x.png 2x" />
 
-There is also one special sub-type of Header Cell, the Row Filter Header Cell that is used to create an additional Header row at the bottom of the Header in order to enable the [Row Filtering](grid-row-filter.md) functionality.
+ヘッダー セルには、行フィルター ヘッダー セルという特別なサブタイプが 1 つあります。行フィルターヘッダーセルを使用して、[行フィルター](grid-row-filter.md) 機能を有効にするためにヘッダーの下部に追加のヘッダー行を作成します。
 
 <img class="responsive-img" src="../images/grid_cell_header_filter.png" srcset="../images/grid_cell_header_filter@2x.png 2x" />
 
-### Cell Display Density
+### セル 表示密度
 
-Header, Body and Summary Cells support the the three display density variants of the Grid and come with distinct symbols for each one as can be seen for the Body Cells below:
+ヘッダー、本体、および 集計セルは、グリッドの 3 つの表示密度バリアントをサポートします。以下のボディ セルに見られるように、それぞれに異なるシンボルが付いています:
 
 <img class="responsive-img" src="../images/grid_cell_body_comfortable.png" srcset="../images/grid_cell_body_comfortable@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_cosy.png" srcset="../images/grid_cell_body_cosy@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_compact.png" srcset="../images/grid_cell_body_compact@2x.png 2x" />
 
-### Items and Features (Header Cell)
+### 項目と機能 (ヘッダー セル)
 
-The Grid Header Cell supports various layout combinations through the `Items` override and different feature configuration via the `Feature Left` and `Feature Right` overrides. Moreover there are a number of additional overrides that are not visible but enable different column features on the Grid, such as [Editing](grid-editing.md), [Moving](grid-column-moving.md), [Resizing](grid-column-resizing.md), and [Hiding](grid-column-hiding.md).
+Grid ヘッダー セルは、`Items` のオーバーライドでさまざまなレイアウトの組み合わせをサポートします。また、`Feature Left` および `Feature Right` のオーバーライドを介して機能の複数の構成をサポートします。さらに、[編集](grid-editing.md)、[移動](grid-column-moving.md)、[サイズ変更](grid-column-resizing.md)、[非表示](rid-column-hiding.md) など、表示されていないがグリッドの異なる列機能を有効にする追加のオーバーライドがあります。
 
 
 <img class="responsive-img" src="../images/grid_cell_header_no-icon.png" srcset="../images/grid_cell_header_no-icon@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_icon.png" srcset="../images/grid_cell_header_icon@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_icons.png" srcset="../images/grid_cell_header_icons@2x.png 2x" />
 
-### State and Grid Feature (Body Cell)
+### 状態とグリッド機能 (本体セル)
 
-The Grid Body Cell supports the following interactive states: **inactive** for the normal state and active for the focused/selected cell.
+Grid 本体セルは、以下のインタラクティブな状態をサポートします: 標準状態の **Inactive**、フォーカスのある/選択されたセルでは Active です。
 
 <img class="responsive-img" src="../images/grid_cell_body_cell-inactive.png" srcset="../images/grid_cell_body_cell-inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_cell-active.png" srcset="../images/grid_cell_body_cell-active@2x.png 2x" />
 
-The Grid Body Cell has styling support for some of the Grid features defined through the headers via the `Grid Feature` override that gives access to cells styled for regular cells, editable cells and cells that belong to a selected row.
+Grid 本体セルは、ヘッダーを介して `Grid Feature` のオーバーライドによって定義されるいくつかのグリッド機能のスタイル設定サポートがあります。通常のセル、編集可能なセル、および選択した行に属するセルにスタイル設定されたセルへのアクセスを提供します。
 
 <img class="responsive-img" src="../images/grid_cell_body_row-selected.png" srcset="../images/grid_cell_body_row-selected@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_editing_cell.png" srcset="../images/grid_cell_body_editing_cell@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_row-editing-nofocus.png" srcset="../images/grid_cell_body_row-editing-nofocus@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_row-editing-focus.png" srcset="../images/grid_cell_body_row-editing-focus@2x.png 2x" />
 
-### Cell Type
+### セル タイプ
 
-The Grid Header Cell provides presets for the three generic types of data that the Grid needs to accommodate: **Number** for numeric values, Text for strings, and Checbox that is usually used for columns with boolean data or as a template for the first column in order to allow selection of multiple rows.
+Grid ヘッダー セルは、グリッドの対応に必要な一般的なデータ型のプリセットが 3 つあります。数値に使用する **Number**、文字列の Text、ブールデータを含む列に使用されるまたは複数行の選択を可能にするための最初の列のテンプレートとして使用される Checkbox。
 
 <img class="responsive-img" src="../images/grid_cell_header_number.png" srcset="../images/grid_cell_header_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_checkbox.png" srcset="../images/grid_cell_header_checkbox@2x.png 2x" />
 
-The Grid Body Cell provides presets for the same generic types of data like the Header Cell with an additional icon type to visualize simple graphics.
+Grid 本体セルは、ヘッダー セルの同じ一般的なデータ型のプリセットを提供し、単純なグラフィックスを視覚化する追加のアイコンタイプを含みます。
 
 <img class="responsive-img" src="../images/grid_cell_body_number.png" srcset="../images/grid_cell_body_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_text.png" srcset="../images/grid_cell_body_text@2x.png 2x" />
@@ -89,113 +89,113 @@ The Grid Body Cell provides presets for the same generic types of data like the 
 
 ### スタイル設定
 
-Grid は、さまざま状態の各セル テキスト、アイコン、背景色のスタイル設定や水平および垂直の境界線の非表示など柔軟に変更できます。
+グリッドは、さまざま状態の各セル テキスト、アイコン、背景色のスタイル設定や水平および垂直の境界線の非表示など柔軟に変更できます。
 
 <img class="responsive-img" src="../images/grid_styling.png" srcset="../images/grid_styling@2x.png 2x" />
 
 ## 使用方法
 
-Grid の最も重要な点は、Header および Body Cells 内のデータの配置です。テキストは常に左揃えにして変数空スペースを右に残し、数値は常に右揃えにして変数空スペースを左に残します。
+グリッドの最も重要な点は、ヘッダーおよび本体セル内のデータの配置です。テキストは常に左揃えにして変数空スペースを右に残し、数値は常に右揃えにして変数空スペースを左に残します。
 
-| Do                                                                                                | Don't                                                                                                 |
+| 良い例                                                                                                | 悪い例                                                                                               |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/grid_do1.png" srcset="../images/grid_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/grid_dont1.png" srcset="../images/grid_dont1@2x.png 2x" /> |
 
 
-## Code generation
+## コードの生成
 
-This section describes some important overrides and how they affect code generation.
+このセクションは、オーバーライドとコード生成にどのような影響があるかについて説明します。
 
 > [!WARNING]
-> The grid **must** be a detached symbol to be able to be used.
+> グリッドを使用するためにデタッチ シンボルに設定する**必要**があります。
 
 > [!NOTE]
-> The height of the grid is set to `100%` as the default.
+> グリッドの高さはデフォルトで `100％` に設定されています。
 
-### Data Source Property
+### データ ソース プロパティ
 
-When supplied, the `🕹️DataSource` value is used to set up the data source for the grid and needs to be an array of objects, where each column name is a property on the object. If the data source is not supplied the grid will only render the column headers.
+提供された場合、`🕹️DataSource` 値はグリッドのデータ ソースを構成するために使用されます。各列名がオブジェクトのプロパティであるオブジェクトの配列に設定する必要があります。データ ソースが設定されない場合、グリッドは列ヘッダーのみを描画します。
 
-### Primary Key
+### プライマリ キー
 
-When supplied, the `🕹️PrimaryKey` is used to set the `primaryKey` property on the grid.  The value of this property should be the name of a property in the data source that contains unique values.  This property is especially important if you wish to use the [row editing banner](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/row_editing.html) in the grid.
+提供された場合、 `🕹️PrimaryKey` 値は グリッドの `primaryKey`プロパティを設定するために使用されます。このプロパティの値は、一意の値を含むデータ ソース内のプロパティ名にする必要があります。このプロパティは、グリッドで[行編集バナー](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/row_editing.html)を使用する場合に特に重要です。
 
-### Header
+### Header (ヘッダー)
 
-When supplied, the Headers help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell) that is below it to form the column. If no matching Body can be found a column will be created based on the information that can be gathered from the Header. When a pair is found, information will be gathered from the Header first then the Body/Cell.
+提供された場合、ヘッダーは描画する列数を決定します。ヘッダーを下にある本体 (セル) と一致させるために列を作成します。一致する本体が見つからない場合、列はヘッダーの情報に基づいて作成されます。一致が見つかった場合、情報がヘッダーから取得され、次に本体/セルから取得されます。
 
-The Header has some sizing options available to it.  If you pin each header cell to the left and right in Sketch it will force the column to generate with a percentage width in HTML.  This will allow the column to grow or shrink depending on the size of the Grid.  Alternatively, you can fix the Header cell width which will generate a fixed column of that size.
+ヘッダーには、いくつかのサイズ変更オプションがあります。Sketch で各ヘッダーセ ルを左右にピン固定すると、HTML で列 (パーセント幅) が生成されます。これにより、グリッドのサイズに応じて列を拡大または縮小できます。あるいは、ヘッダー セルの幅を固定すると、そのサイズの固定列を生成します。
 
-#### Type
+#### タイプ
 
-When supplied this is used to determine the type of the column (string, number, Boolean).
+設定された場合、列の型 (string、number、Boolean) を決定するために使用されます。
 
-#### Text
+#### テキスト
 
-The Header Text property may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
+ヘッダーの Text プロパティにテキスト、[バインディング テキスト](../codegen/data-binding.md)、または両方を含むことができます。例:
 
 - Settings
 - {settingsLabel}
 - Important {labelText}
 
-#### Feature Left & Feature Right
+#### Feature Left および Feature Right
 
-These overrides control what features are enabled for the individual columns.  The following values are available:
+これらのオーバーライドは、個々の列で有効にする機能を制御します。以下の値を使用できます。
 
-- None (Default)
-- Filtering ([Excel Style Filtering](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/excel_style_filtering.html))
-- Pinning
-- Sorting
+- None (デフォルト)
+- フィルタリング ([Excel スタイル フィルタリング](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/excel_style_filtering.html))
+- ピン固定
+- 並べ替え
 
-#### Column Moving
+#### Column Moving (列移動)
 
-This override determines whether the column is movable or not by the user.
+このオーバーライドは、ユーザーが列を移動できるかどうかを決定します。
 
-#### Column Resizing
+#### Column Resizing (列サイズ変更)
 
-This override determines whether the column is resizable or not by the user.
+このオーバーライドは、ユーザーが列のサイズを変更できるかどうかを決定します。
 
-#### Column Hiding
+#### Column Hiding (列非表示)
 
-This override determines whether the column is hidden or not.
+このオーバーライドは、列が非表示かどうかを決定します。
 
-### Body/Cell
+### Body/Cell (本体/セル)
 
-When supplied, the Bodies (cells) help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell). If no matching Header can be found a column will be created based on the information that can be gathered from the Body/Cell. When a pair is found information will be gathered from the Header first then the Body/Cell.
+提供された場合、本体 (セル) は描画する列の数を決定します。ヘッダーを本体 (セル) と一致しようとします。一致するヘッダーが見つからない場合、列は本体/セルの情報に基づいて作成されます。一致が見つかった場合、情報がヘッダーから取得され、次に本体/セルから取得されます。
 
-#### Data Property
+#### データ プロパティ
 
-When supplied, the `🕹️DataProperty` is used to setup the field of the column, which should correspond to a field in the `🕹️DataSource`.
+提供された場合、 `🕹️DataProperty` は列のフィールドを構成するために使用されます。列のフィールドは `🕹️DataSource` のフィールドに相対します。.
 
-#### Type
+#### タイプ
 
-When supplied this is used to determine the type of the column (string, number, Boolean).
+設定された場合、列の型 (string、number、Boolean) を決定するために使用されます。
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
-- [Grid Toolbar](grid-toolbar.md)
-- [Grid Export](grid-export.md)
-- [Grid Grouping](grid-grouping.md)
-- [Grid Column Pinning](grid-column-pinning.md)
-- [Grid Column Hiding](grid-column-hiding.md)
-- [Grid Column Moving](grid-column-moving.md)
-- [Grid Column Resizing](grid-column-resizing.md)
-- [Grid Sorting](grid-sorting.md)
-- [Grid Row Filter](grid-row-filter.md)
-- [Grid Excel Style Filter](grid-excel-style-filter.md)
-- [Grid Row Selection](grid-row-selection.md)
-- [Grid Editing](grid-editing.md)
-- [Grid Display Density](grid-display-density.md)
-- [Grid Paging](grid-paging.md)
-- [Grid Summaries](grid-summaries.md)
+- [Grid ツールバー](grid-toolbar.md)
+- [Grid エクスポート](grid-export.md)
+- [Grid グループ化](grid-grouping.md)
+- [Grid 列ピン固定](grid-column-pinning.md)
+- [Grid 列非表示](grid-column-hiding.md)
+- [Grid 列移動機能](grid-column-moving.md)
+- [Grid 列サイズ変更](grid-column-resizing.md)
+- [Grid 並べ替え](grid-sorting.md)
+- [Grid 行フィルター](grid-row-filter.md)
+- [Grid Excel スタイル フィルター](grid-excel-style-filter.md)
+- [Grid 行選択](grid-row-selection.md)
+- [Grid 編集](grid-editing.md)
+- [Grid 表示密度](grid-display-density.md)
+- [Grid ページング](grid-paging.md)
+- [Grid 集計](grid-summaries.md)
 - [Hierarchical Grid](hierarchical-grid.md)
 - [Tree Grid](tree-grid.md)
-- [Grid Patterns](../patterns/full-grid.md)
-- [Data Binding](../codegen/data-binding.md)
+- [Grid パターン](../patterns/full-grid.md)
+- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
 

@@ -1,159 +1,158 @@
 ---
-title: Tree Grid - Design System Component
-_description: The Tree Grid Component provides means to display and interact with hierarchical data in a tabular fashion.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+title: Tree Grid - デザイン システム コンポーネント
+_description: Tree Grid コンポーネント は、表形式の階層データを表示および操作する手段を提供します。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 ---
 
-## Tree Grid
+## Tree Grid (ツリー グリッド)
 
-Use the Tree Grid Component to let the user browse and interact with vast amount of hierarchical data that is visually represented in tabular fashion. It also supports the features available for the [Grid](grid.md). The Tree Grid is visually identical to the [Ignite UI for Angular Tree Grid Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/treegrid/tree_grid.html)
+ツリー グリッド コンポーネントを使用して、ユーザーがタブ形式で表示される大量の階層なデータをブラウズおよびインタラクティブに操作できるようにしす。[Grid](grid.md) で利用可能な機能もサポートします。ツリー グリッドは、[Ignite UI for Angular ツリー グリッド コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/treegrid/tree_grid.html) と視覚的に同じものです。
 
-### Tree Grid Demo
+### ツリー グリッドのデモ
 
 <img class="responsive-img" src="../images/tree_grid_demo.png" srcset="../images/tree_grid_demo@2x.png 2x" />
 
-### Detach from Symbol
+### Detach from Symbol (シンボルからデタッチ)
 
-Similarly to the Grid, the Tree Grid is essentially a repeater of columns and rows showing hierarchical data in a flat, tabular fashion. Therefore, the easiest way to use it is by dragging a `Tree Grid/Comfortable` to your artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared group, you should see the following:
+グリッドと同様に、ツリー グリッドは、基本的にフラット、表形式で階層データを表示する列と行のリピーターです。したがって、最も簡単な使用方法は、`Tree Grid/Comfortable` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下にあるシ `Detach from Symbol` オプションを選択します。新しく表示されるグループの下のレイヤー パネルには以下があります。
 
-| Layer                        | Use                                                                                                                                                  |
+| レイヤー                        | 使用                                                                                                                                                  |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 igx-tree-grid/comfortable | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| Header                       | Contains all the cells in the header                                                                                                                 |
-| Body                         | Contains all the cells in the body                                                                                                                   |
-| 🕹️DataSource                 | Reference for the data source that the Grid will be bound to that is used by the code generation engine                                              |
-| 🕹️PrimaryKey                 | Reference for the column with the primary keys of the records that is required by some Grid features and is used by the code generation engine       |
-| 🕹️ChildKey                   | Reference for the column with the child keys of the records used to establish the hierarchy of the data in the Tree Grid                             |
+| 🚫 igx-tree-grid/comfortable | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください |
+| Header                       | ヘッダーのすべてのセルを取得します                                                                                                              |
+| Body                         | 本体のすべてのセルを含みます                                                                                                                |
+| 🕹️DataSource                 | コード生成エンジンによって使用され、グリッドにバインドされるデータ ソースの参照                                            |
+| 🕹️PrimaryKey                 | 一部のグリッド機能で必要であり、コード生成エンジンで使用されるレコードの主キーを持つ列の参照      |
+| 🕹️ChildKey                   | ツリー グリッド内のデータの階層を確立するために使用されるレコードの子キーを持つ列の参照                            |
 
-After detaching, you may add the number of headers you need to show all the dimensions of your data and as many records as you want to show in your design simply by duplicating the first row of data that you already have created within each of the grids that you have.
+デタッチ後、既存の各グリッド内にすでに作成したデータの最初の行を複製し、デザインに表示したいレコード (数に制限がない) および多数のヘッダーを必要なだけ追加してデータのすべてのディメンションを表示できます。
 
-### Cell Types
+### セル タイプ
 
-The Tree Grid extends the three types of regular Grid cells Header, Body and Summary with a Tree Column Cell, which is used to create and organize the hierarchy. It is always used as the first Body Cell in every row and comes with a predefined icon and action for collapsing/expanding the row.
+ツリー グリッドは、3種類の通常のグリッド セル Header (ヘッダー)、Body (本体) および Summary (集計) を、階層を整理するために使用される Tree Column Cell (ツリー 列セル) で拡張します。これは常にすべての行の最初の本体/ セルとして使用され、行を折りたたむ/展開するための定義済みのアイコンとアクションが付属しています。
 
-To understand how regular Header, Body and Summary cells can be used for different types of data and configured to enable the various Tree Grid features, please refer to the [general Grid topic](grid.md).
+通常の Header、Body 、Summary セルをさまざまなタイプのデータに使用し、さまざまなツリー グリッド機能を有効にするように構成する方法を理解するには、[Grid](grid.md) トピックを参照してください。
 
-### Tree Column Cell Depth
+### Tree Column Cell の深さ
 
-The Tree Column Cell provides visual indication for the level of the data hierarchy via the `Depth` override, which can be set to **Level1**, Level2 or Level3.
+Tree Column Cell は、`Depth` のオーバーライドでデータ階層のレベルを視覚的に示します。これは、**Level1**、Level2、または Level3 に設定できます。
 
 <img class="responsive-img" src="../images/tgrid_cell_body_tree1.png" srcset="../images/tgrid_cell_body_tree1@2x.png 2x" />
 <img class="responsive-img" src="../images/tgrid_cell_body_tree2.png" srcset="../images/tgrid_cell_body_tree2@2x.png 2x" />
 <img class="responsive-img" src="../images/tgrid_cell_body_tree3.png" srcset="../images/tgrid_cell_body_tree3@2x.png 2x" />
 
-### Styling
+### スタイル設定
 
-The Tree Grid comes with styling flexibility achievable through styling the individual cell text, icons, and background colors in the various states available, as well as the hiding of horizontal and vertical borders.
+ツリー グリッド は、さまざま状態の各セル テキスト、アイコン、背景色のスタイル設定や水平および垂直の境界線の非表示など柔軟に変更できます。
 
 <img class="responsive-img" src="../images/tgrid_styling.png" srcset="../images/tgrid_styling@2x.png 2x" />
 
-## Usage
+## 使用方法
 
-Similarly to the Grid, the most important thing about the Tree Grid is the alignment of the data inside its Header and Body Cells. Text should always be aligned left, leaving variable empty space to the right, and numbers should always be aligned right, leaving variable empty space to the left.
+グリッドと同様に、ツリー グリッドの最も重要な点は、ヘッダーおよび本体セル内のデータの配置です。テキストは常に左揃えにして変数空スペースを右に残し、数値は常に右揃えにして変数空スペースを左に残します。
 
-| Do                                                                                                | Don't                                                                                                 |
+| 良い例                                                                                                | 悪い例                                                                                                 |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/grid_do2.png" srcset="../images/grid_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/grid_dont2.png" srcset="../images/grid_dont2@2x.png 2x" /> |
 
-## Code generation
+## コードの生成
 
-This section describes some important overrides and how they affect code generation.
+このセクションは、オーバーライドとコード生成にどのような影響があるかについて説明します。
 
 > [!WARNING]
-> The tree grid **must** be a detached symbol to be able to be used.
+> ツリー グリッドを使用するためにデタッチ シンボルに設定する**必要**があります。
 
 > [!NOTE]
-> The height of the tree grid is set to `100%` as the default.
+> ツリー グリッドの高さはデフォルトで `100％` に設定されています。
 
-### Data Source Property
+### データ ソース プロパティ
 
-When supplied, the `🕹️DataSource` value is used to set up the data source for the grid and needs to be an array of objects, where each column name is a property on the object. If the data source is not supplied the grid will only render the column headers.
+提供された場合、 `🕹️DataSource` 値はグリッドのデータ ソースを構成するために使用されます。各列名がオブジェクトのプロパティであるオブジェクトの配列に設定する必要があります。
 
-### Primary Key
+### プライマリ キー
 
-When supplied, the `🕹️PrimaryKey` is used to set the `primaryKey` property on the grid.  The value of this property should be the name of a property in the data source that contains unique values.  This property is especially important if you wish to use the [row editing banner](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/row_editing.html) in the grid.
+提供された場合、 `🕹️PrimaryKey` 値は グリッドの `primaryKey` プロパティを設定するために使用されます。このプロパティの値は、一意の値を含むデータ ソース内のプロパティ名にする必要があります。このプロパティは、グリッドで[行編集バナー](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/row_editing.html)を使用する場合に特に重要です。
 
-### Child Key
+### 子キー
 
-The `🕹️ChildKey` serves a dual purpose in the tree grid.  If only the `🕹️DataSource` and the `🕹️ChildKey` are set then the tree grid will expect that the `🕹️ChildKey` points to an array of child data within each object of the data source.  For a better explanation please see our Angular tree grid [documentation](https://www.infragistics.com/products/ignite-ui-angular/angular/components/treegrid/tree_grid.html#child-collection).
+`🕹️ChildKey` は、ツリー グリッドで 2 つの目的を果たします。 `🕹️DataSource` と `🕹️ChildKey` のみが設定されている場合、ツリー グリッドは `🕹️ChildKey` がデータ ソースの各オブジェクト内の子データの配列を指していると予期します。説明については、[Angular ツリー グリッド](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/treegrid/tree_grid.html#子コレクション) を参照してください。
 
-If the `🕹️DataSource`, `🕹️PrimaryKey` and `🕹️ChildKey` are all set then the tree grid will be expecting your data to be configured a little differently.  You can see more about this [here](https://www.infragistics.com/products/ignite-ui-angular/angular/components/treegrid/tree_grid.html#primary-and-foreign-keys).  In short, for this configuration `🕹️ChildKey` is meant to be the `foreignKey` while `🕹️PrimaryKey` is the `primaryKey`.
+If the `🕹️DataSource`、 `🕹️PrimaryKey` および `🕹️ChildKey` がすべて設定されている場合、ツリー グリッドはデータが若干異なるように設定されることを予期します。詳細については、[こちら](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/treegrid/tree_grid.html#プライマリと外部キー) をご覧ください。つまり、この設定では、`🕹️ChildKey` は `foreignKey` であり、`🕹️PrimaryKey` は `primaryKey` です。
+使用する構成は、データの構造に依存します。
 
-Which configuration you use depends on the structure of your data.
+### ヘッダー
 
-### Header
+提供された場合、ヘッダーは描画する列数を決定します。ヘッダーを下にある本体 (セル) と一致させるために列を作成します。一致する本体が見つからない場合、列はヘッダーの情報に基づいて作成されます。一致が見つかった場合、情報がヘッダーから取得され、次に本体/セルから取得されます。
 
-When supplied, the Headers help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell) that is below it to form the column. If no matching Body can be found a column will be created based on the information that can be gathered from the Header. When a pair is found, information will be gathered from the Header first then the Body/Cell.
+ヘッダーには、いくつかのサイズ変更オプションがあります。Sketch で各ヘッダー セルを左右にピン固定すると、HTML で列 (パーセント幅) が生成されます。これにより、グリッドのサイズに応じて列を拡大または縮小できます。あるいは、ヘッダー セルの幅を固定すると、そのサイズの固定列を生成します。
 
-The Header has some sizing options available to it.  If you pin each header cell to the left and right in Sketch it will force the column to generate with a percentage width in HTML.  This will allow the column to grow or shrink depending on the size of the Grid.  Alternatively, you can fix the Header cell width which will generate a fixed column of that size.
+#### タイプ
 
-#### Type
+設定された場合、列の型 (string、number、Boolean) を決定するために使用されます。
 
-When supplied this is used to determine the type of the column (string, number, Boolean).
+#### テキスト
 
-#### Text
-
-The Header Text property may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
+ヘッダーの Text プロパティにテキスト、[バインディング テキスト](../codegen/data-binding.md)、または両方を含むことができます。例:
 
 - Settings
 - {settingsLabel}
 - Important {labelText}
 
-#### Feature Left & Feature Right
+#### Feature Left および Feature Right
 
-These overrides control what features are enabled for the individual columns.  The following values are available:
+これらのオーバーライドは、個々の列で有効にする機能を制御します。
 
-- None (Default)
-- Filtering ([Excel Style Filtering](https://www.infragistics.com/products/ignite-ui-angular/angular/components/hierarchicalgrid/excel_style_filtering.html))
-- Pinning
-- Sorting
+- None (デフォルト)
+- フィルタリング ([Excel スタイル フィルタリング](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/hierarchicalgrid/excel_style_filtering.html))
+- ピン固定
+- 並べ替え
 
-#### Column Moving
+#### Column Moving (列移動)
 
-This override determines whether the column is movable or not by the user.
+このオーバーライドは、ユーザーが列を移動できるかどうかを決定します。
 
-#### Column Resizing
+#### Column Resizing (列サイズ変更)
 
-This override determines whether the column is resizable or not by the user.
+このオーバーライドは、ユーザーが列のサイズを変更できるかどうかを決定します。
 
-#### Column Hiding
+#### Column Hiding (列非表示)
 
-This override determines whether the column is hidden or not.
+このオーバーライドは、列が非表示かどうかを決定します。
 
-### Body/Cell
+### Body/Cell (本体/セル)
 
-When supplied, the Bodies (cells) help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell). If no matching Header can be found a column will be created based on the information that can be gathered from the Body/Cell. When a pair is found information will be gathered from the Header first then the Body/Cell.
+提供された場合、本体 (セル) は描画する列の数を決定します。ヘッダーを本体 (セル) と一致させようとします。一致するヘッダーが見つからない場合、列は本体/セルの情報に基づいて作成されます。一致が見つかった場合、情報がヘッダーから取得され、次に本体/セルから取得されます。
 
-#### Data Property
+#### データ プロパティ
 
-When supplied, the `🕹️DataProperty` is used to setup the field of the column, which should correspond to a field in the `🕹️DataSource`.
+提供された場合、`🕹️DataProperty` は列のフィールドを構成するために使用されます。列のフィールドは  `🕹️DataSource` のフィールドに相対します。
 
-#### Type
+#### タイプ
 
-When supplied this is used to determine the type of the column (string, number, Boolean).
+設定された場合、列の型 (string、number、Boolean) を決定するために使用されます。
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Grid](grid.md)
-- [Grid Toolbar](grid-toolbar.md)
-- [Grid Export](grid-export.md)
-- [Grid Grouping](grid-grouping.md)
-- [Grid Column Pinning](grid-column-pinning.md)
-- [Grid Column Hiding](grid-column-hiding.md)
-- [Grid Column Moving](grid-column-moving.md)
-- [Grid Column Resizing](grid-column-resizing.md)
-- [Grid Sorting](grid-sorting.md)
-- [Grid Row Filter](grid-row-filter.md)
-- [Grid Excel Style Filter](grid-excel-style-filter.md)
-- [Grid Row Selection](grid-row-selection.md)
-- [Grid Editing](grid-editing.md)
-- [Grid Display Density](grid-display-density.md)
-- [Grid Paging](grid-paging.md)
-- [Grid Summaries](grid-summaries.md)
+- [Grid ツールバー](grid-toolbar.md)
+- [Grid エクスポート](grid-export.md)
+- [Grid グループ化](grid-grouping.md)
+- [Grid 列ピン固定](grid-column-pinning.md)
+- [Grid 列非表示](grid-column-hiding.md)
+- [Grid 列移動機能](grid-column-moving.md)
+- [Grid 列サイズ変更](grid-column-resizing.md)
+- [Grid 並べ替え](grid-sorting.md)
+- [Grid 行フィルター](grid-row-filter.md)
+- [Grid Excel スタイル フィルター](grid-excel-style-filter.md)
+- [Grid 行選択](grid-row-selection.md)
+- [Grid 編集](grid-editing.md)
+- [Grid 表示密度](grid-display-density.md)
+- [Grid ページング](grid-paging.md)
+- [Grid 集計](grid-summaries.md)
 - [Hierarchical Grid](hierarchical-grid.md)
-- [Data Binding](../codegen/data-binding.md)
+- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。

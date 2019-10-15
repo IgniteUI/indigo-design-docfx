@@ -1,31 +1,32 @@
 ---
-title: Grid Export - Grid Feature
-_description: The Grid Export provides the means to export the Grid to Excel or CSV.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+title: Grid エクスポート - グリッド機能
+_description: Grid エクスポートは、Grid を Excel または CSV にエクスポートする手段を提供します。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_language: ja
 ---
 
-## Grid Export
+## Grid エクスポート
 
-Use the Grid Export to allow users to export Excel and CSV files from the Grid. The Grid Export is visually identical to the second sample in the [Ignite UI for Angular Grid Toolbar Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html) and behaves similarly to [Ignite UI for Angular Grid Export to Excel Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/export_excel.html).
+Grid エクスポートは、ユーザーがのエクスポートは、Grid から Excel および CSV ファイルをエクスポートするために使用できます。Grid エクスポートは、[Ignite UI for Angular Grid ツールバー 機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html) の 2番目のサンプルと視覚的に同一であり、[Ignite UI for の Excel エクスポート機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/export_excel.html) と同様に動作します。
 
-### Grid Export Demo
+### Grid エクスポートのデモ
 
 <img class="responsive-img" src="../images/grid_export_demo.png" srcset="../images/grid_export_demo@2x.png 2x" />
 
-### Toolbar
+### ツールバー
 
-The Grid Export is achieved by adding a Toolbar with an Export action that enables the feature for the whole grid.
+Grid のエクスポートは、Grid 全体の機能を有効にするエクスポート 操作を備えた Toolbar を追加することで実現されます。
 
-## Code generation
+## コードの生成
 
-Make sure to place the Toolbar within the group defining the Grid as a sibling to the Header and Body groups.
+ツールバーは、ヘッダーグループと本体グループの兄弟としてグリッドを定義するグループ内に配置してください。
 
-## Additional Resources
+## その他のリソース
 
 Related topics:
 
 - [Grid](grid.md)
-- [Grid Toolbar](grid-toolbar.md)
+- [Grid ツールバー](grid-toolbar.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。

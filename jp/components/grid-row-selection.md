@@ -1,30 +1,31 @@
 ---
-title: Grid Row Selection - Grid Feature
-_description: The Grid Row Selection provides a mechanism for selecting a full record shown in the Grid.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+title: Grid 行選択ー - グリッド機能
+_description: Grid 行選択は、Grid に表示される完全なレコードを選択するメカニズムを提供します。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_language: ja
 ---
 
-## Grid Row Selection
+## Grid 行選択
 
-Use the Grid Row Selection to select complete rows at once via a special selection column with checkboxes that appears as the leftmost column of the Grid. The Grid Row Selection is visually identical to the Row Selection mode of the [Ignite UI for Angular Grid Selection Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/selection.html#grid-row-selection)
+Grid 行選択を使用して、Grid の左端の列として表示されるチェックボックスのある特別な選択列を介して完全な行を一度に選択します。Grid 行選択は、[Ignite UI for Angular Grid 選択機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/selection.html#grid-行選択) と視覚的に同じものです。
 
-### Grid Row Selection Demo
+### Grid 行選択ーのデモ
 
 <img class="responsive-img" src="../images/grid_row_selection_demo.png" srcset="../images/grid_row_selection_demo@2x.png 2x" />
 
-### Row Selection Column
+### 行選択列
 
-The Grid Row Selection can be achieved through the creation of an additional column to the left of the first one and configuring the `Type` of its Header and Body cells to `Checkbox`. For selected rows, the state of the checkbox has to be set to `On`.
+Grid 行選択は、最初の列の左側に追加の列を作成し、そのヘッダーと本体セルの `Type` を `Checkbox` に設定することで実現できます。選択した行では、チェックボックスの状態を `On` に設定する必要があります。
 
-### Row Selection Cells
+### 行選択セル
 
-The Grid provides a special type of Body Cells for selected rows available via the `Grid Feature` override. Once you set it to `RowSelected/Cell` a distinguishabe style will be applied indicating the cell belonging to a selected row.
+グリッドは、`Grid Feature` オーバーライドを介して利用可能な選択された行に特別なタイプの本体セルを提供します。`RowSelected/Cell` に設定すると、選択した行に属するセルを示す区別可能なスタイルが適用されます。
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック
 
 - [Grid](grid.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。

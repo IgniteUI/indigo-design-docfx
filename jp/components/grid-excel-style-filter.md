@@ -2,6 +2,7 @@
 title: グリッド Excel スタイル フィルター - グリッド機能
 _description: グリッド Excel スタイル フィルターは、並べ替え、フィルタリング、列移動、非表示、ピン固定などの列操作のオーバーレイを提供します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_language: ja
 ---
 
 ## グリッド Excel スタイル フィルター
@@ -14,7 +15,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 
 ### ヘッダー セル
 
-列に Excel スタイル フィルターがアクティブであることを示するには (フィルターのオーバーレイが表示されます)、`Feature Left` または `Feature Right` のオーバーライドを `Filtering` に設定し、`フィルタリング状態`パネルで次のオーバーライドを `Filtering/Active` に設定する必要があります。列で Excel スタイル フィルタリングが有効が有効にされたことを示すため、フィルタリング条件がこの列に適用されていないことを示す `Filtering/Inactive` 状態、またはフィルタリング条件が適用され、列のオーバーレイが閉じられたことを示す `Filtering/Inactive` 状態を使用できます。
+列に Excel スタイル フィルターがアクティブであることを示するには (フィルターのオーバーレイが表示されます)、`Feature Left` または `Feature Right` のオーバーライドを `Filtering` に設定し、`Filtering State`パネルで次のオーバーライドを `Filtering/Active` に設定する必要があります。列で Excel スタイル フィルタリングが有効が有効にされたことを示すため、フィルタリング条件がこの列に適用されていないことを示す `Filtering/Inactive` 状態、またはフィルタリング条件が適用され、列のオーバーレイが閉じられたことを示す `Filtering/Inactive` 状態を使用できます。
 
 ### Excel スタイル フィルター機能
 
@@ -35,7 +36,7 @@ Excel スタイル フィルターのインターフェイスは、並べ替え�
 
 ## コードの生成
 
-Excel スタイル フィルターは、ヘッダーグループと本文グループの兄弟としてグリッドを定義するグループ内に配置してください。
+Excel スタイル フィルターは、ヘッダーグループと本体グループの兄弟としてグリッドを定義するグループ内に配置してください。
 
 ## その他のリソース
 
@@ -43,10 +44,10 @@ Excel スタイル フィルターは、ヘッダーグループと本文グル�
 
 - [Grid](grid.md)
 - [表示密度](grid-display-density.md)
-- [表示密度](grid-sorting.md)
-- [表示密度](grid-column-moving.md)
-- [表示密度](grid-column-hiding.md)
-- [表示密度](grid-column-pinning.md)
+- [並べ替え](grid-sorting.md)
+- [列移動](grid-column-moving.md)
+- [列非表示](grid-column-hiding.md)
+- [列ピン固定](grid-column-pinning.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

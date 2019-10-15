@@ -1,151 +1,152 @@
 ---
-title: Hierarchical Grid - Design System Component
-_description: The Hierarchical Grid Component provides means to display and interact with hierarchically related sets of tabular data.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+title: Hierarchical Grid - デザイン システム コンポーネント
+_description: Hierarchical Grid コンポーネントは、階層的に関連する表形式データのセットを表示および操作する手段を提供します。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_language: ja
 ---
 
-## Hierarchical Grid
+## Hierarchical Grid (階層グリッド)
 
-Use the Hierarchical Grid Component to let the user browse and interact with vast amount of complex data organized into separate tables hierarchically related one to another. Each grid in the hierarchy represents its own data in tabular fashion and provides the same features as the [Grid](grid.md). The Hierarchical Grid is visually identical to the [Ignite UI for Angular Hierarchical Grid Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/hierarchicalgrid/hierarchical_grid.html)
+階層グリッド コンポーネントを使用して、ユーザーが個別のテーブルに編成された大量の複雑なデータ (階層的に関連する) をブラウスおよびインタラクションできるようにします。階層内の各グリッドは、データを表形式で表示し、[Grid](grid.md) と同じ機能を提供します。階層グリッドは、[Ignite UI for Angular 階層グリッド コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/hierarchicalgrid/hierarchical_grid.html) と視覚的に同じものです。
 
-### Hierarchical Grid Demo
+### 階層グリッドのデモ
 
 <img class="responsive-img" src="../images/hierarchical_grid_demo.png" srcset="../images/hierarchical_grid_demo@2x.png 2x" />
 
-### Detach from Symbol
+### Detach from Symbol (シンボルからデタッチ)
 
-Similarly to the Grid, the Hierarchical Grid is essentially a repeater of columns, rows and nested grids forming a visual hierarchy. Therefore, the easiest way to use it is by dragging a `Hierarchical Grid/Comfortable` to your artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared group, you should see the following:
+グリッドと同様に、階層グリッドは基本的に、視覚的な階層を形成する列、行、ネストされたグリッドのリピーターです。したがって、最も簡単な使用方法は、`Hierarchical Grid/Comfortable` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下にある `Detach from Symbol` オプションを選択します。新しく表示されるグループの下のレイヤー パネルには以下があります。
 
-| Layer                                | Use                                                                                                                                                  |
+| レイヤー                                | 使用                                                                                                                                                 |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 igx-hierarchical-grid/comfortable | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| 🌈 Drill Indication                  | A symbol that is used for indicating selection                                                                                                       |
-| Header                               | Contains all the cells in the header                                                                                                                 |
-| Body                                 | Contains all the cells in the body and a nested Grid with basic structure                                                                            |
-| 🌈 Background                        | Defines the background color of the Hierarchical Grid                                                                                                |
-| 🕹️PrimaryKey                         | Reference for the column with the primary keys of the records that is required by some Grid features and is used by the code generation engine       |
-| 🕹️DataSource                         | Reference for the data source that the Grid will be bound to that is used by the code generation engine                                              |
+| 🚫 igx-hierarchical-grid/comfortable | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
+| 🌈 Drill Indication                 | 選択を示すために使用される記号                                                                                                     |
+| Header                               | ヘッダーのすべてのセルを取得します                                                                                                           |
+| Body                                 | 本体のすべてのセルと、基本構造のネストされたグリッドを含みます                                                                       |
+| 🌈 Background                        | 階層グリッドの背景色を定義します                                                                                         |
+| 🕹️PrimaryKey                         | 一部のグリッド機能で必要であり、コード生成エンジンで使用されるレコードの主キーを持つ列の参照       |
+| 🕹️DataSource                         | コード生成エンジンによって使用され、グリッドにバインドされるデータ ソースの参照                                           |
 
-After detaching, you may add the number of headers you need to show all the dimensions of your data and as many records as you want to show in your design simply by duplicating the first row of data that you already have created within each of the grids that you have. In case you need to show more of the hierarchy, you may also nest additional grids within the body of the parent one that they belong to.
+デタッチ後、既存の各グリッド内にすでに作成したデータの最初の行を複製し、デザインに表示したいレコード (数に制限がない) および多数のヘッダーを必要なだけ追加してデータのすべてのディメンションを表示できます。より多くの階層を表示する必要がある場合は、追加のグリッドを、それらが属する親グリッドの本体内にネストすることもできます。
 
-### Cell Types
+### セル タイプ
 
-The Hierarchical Grid extends the three types of regular Grid cells Header, Body and Summary with two additional ones that are used to organize the hierarchy. The CollapseAll cell is always used as the first Header Cell and comes with a predefined icon and action for collapsing/expanding all of the belonging records of the Grid in whose Header it appears. The Expand cell is always used as the first Body Cell in every row and comes with a predefined icon and action for collapsing/expanding the row.
+階層グリッドは、3種類の通常のグリッド セル Header (ヘッダー)、Body (本体) および Summary (集計) を、階層を整理するために使用される 2 つの追加で拡張します。CollapseAll (すべてを折りたたむ) セルは常に最初のヘッダー セルとして使用され、ヘッダーが表示されるグリッドのすべての所属レコードを折りたたむ/展開するための定義済みのアイコンとアクションが付属しています。Expand (展開) セルは常にすべての行の最初の本体/ セルとして使用され、行を折りたたむ/展開するための定義済みのアイコンとアクションが付属しています。
 
 <img class="responsive-img" src="../images/hgrid_cell_header.png" srcset="../images/hgrid_cell_header@2x.png 2x" />
 <img class="responsive-img" src="../images/hgrid_cell_body.png" srcset="../images/hgrid_cell_body@2x.png 2x" />
 
-To understand how regular Header, Body and Summary cells can be used for different types of data and configured to enable the various Hierarchical Grid features, please refer to the [general Grid topic](grid.md).
+通常の Header、Body 、Summary セルをさまざまなタイプのデータに使用し、さまざまな階層グリッド機能を有効にするように構成する方法を理解するには、[Grid]（grid.md）トピックを参照してください。
 
-### Nested Grids
+### ネストされたグリッド
 
-Since the Hierarchical Grid can contain a number of nested grids in all kinds of hierarchical order, each of the child grids, excluding the root level parent grid, should utilize a special layer named`🚫 igx-hierarchical-grid/island` in the place of the root-level special layer `🚫 igx-hierarchical-grid...`. The preset already comes with one nested grid in the body of the root-level grid and you may use it as the source for creating your layouts and hierarchies.
+階層グリッドには、あらゆる種類の階層順序で多数のネストされたグリッドを含めることができるため、各子グリッド (ルート レベルの親グリッド以外) は、ルート レベルの特別なレイヤー `🚫 igx-hierarchical-grid ...` の代わりに `🚫 igx-hierarchical-grid/island`という特別なレイヤーを使用する必要があります。プリセットには、ルート レベル グリッドの本体に 1 つのネストされたグリッドが付属しており、レイアウトおよび階層を作成するためのソースとして使用できます。
 
-### Styling
+### スタイル設定
 
-The Hierarchical Grid comes with styling flexibility achievable through styling the individual cell text, icons, and background colors in the various states available, as well as the hiding of horizontal and vertical borders. It is also possible to style the Drill Indication and Grid background.
+階層グリッドは、さまざま状態の各セル テキスト、アイコン、背景色のスタイル設定や水平および垂直の境界線の非表示など柔軟に変更できます。ドリル インジケーターとグリッドの背景をスタイル設定することもできます。
 
 <img class="responsive-img" src="../images/hgrid_styling.png" srcset="../images/hgrid_styling@2x.png 2x" />
 
-## Usage
+## 使用方法
 
-Similarly to the Grid, the most important thing about the Hierarchical Grid is the alignment of the data inside its Header and Body Cells. Text should always be aligned left, leaving variable empty space to the right, and numbers should always be aligned right, leaving variable empty space to the left.
+グリッドと同様に、階層グリッドの最も重要な点は、ヘッダーおよび本体セル内のデータの配置です。テキストは常に左揃えにして変数空スペースを右に残し、数値は常に右揃えにして変数空スペースを左に残します。
 
-| Do                                                                                                | Don't                                                                                                 |
+| 良い例                                                                                                | 悪い例                                                                                                |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/grid_do1.png" srcset="../images/grid_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/grid_dont1.png" srcset="../images/grid_dont1@2x.png 2x" /> |
 
-## Code generation
+## コードの生成
 
-This section describes some important overrides and how they affect code generation.
+このセクションは、オーバーライドとコード生成にどのような影響があるかについて説明します。
 
 > [!WARNING]
-> The hierarchical grid **must** be a detached symbol to be able to be used.
+> 階層グリッドを使用するためにデタッチ シンボルに設定する**必要**があります。
 
 > [!NOTE]
-> The height of the hierarchical grid is set to `100%` as the default.
+> 階層グリッドの高さはデフォルトで `100％` に設定されています。
 
-### Data Source Property
+### データソース プロパティ
 
-When supplied, the `🕹️DataSource` value is used to set up the data source for the grid and needs to be an array of objects, where each column name is a property on the object. If the data source is not supplied the grid will only render the column headers.
+提供された場合、`🕹️DataSource` 値はグリッドのデータ ソースを構成するために使用されます。各列名がオブジェクトのプロパティであるオブジェクトの配列に設定する必要があります。データ ソースが設定されない場合、グリッドは列ヘッダーのみを描画します。
 
-### Primary Key
+### プライマリ キー
 
-When supplied, the `🕹️PrimaryKey` is used to set the `primaryKey` property on the grid.  The value of this property should be the name of a property in the data source that contains unique values.  This property is especially important if you wish to use the [row editing banner](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/row_editing.html) in the grid.
+提供された場合、`🕹️PrimaryKey` 値は グリッドの `primaryKey` プロパティを設定するために使用されます。このプロパティの値は、一意の値を含むデータ ソース内のプロパティ名にする必要があります。このプロパティは、グリッドで[行編集バナー](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/row_editing.html)を使用する場合に特に重要です。
 
-### Header
+### ヘッダー
 
-When supplied, the Headers help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell) that is below it to form the column. If no matching Body can be found a column will be created based on the information that can be gathered from the Header. When a pair is found, information will be gathered from the Header first then the Body/Cell.
+提供された場合、ヘッダーは描画する列数を決定します。ヘッダーを下にある本体 (セル) と一致させるために列を作成します。一致する本体が見つからない場合、列はヘッダーの情報に基づいて作成されます。一致が見つかった場合、情報がヘッダーから取得され、次に 本体/セルから取得されます。
 
-The Header has some sizing options available to it.  If you pin each header cell to the left and right in Sketch it will force the column to generate with a percentage width in HTML.  This will allow the column to grow or shrink depending on the size of the Grid.  Alternatively, you can fix the Header cell width which will generate a fixed column of that size.
+ヘッダーには、いくつかのサイズ変更オプションがあります。Sketch で各ヘッダーセ ルを左右にピン固定すると、HTML で列 (パーセント幅) が生成されます。これにより、グリッドのサイズに応じて列を拡大または縮小できます。あるいは、ヘッダー セルの幅を固定すると、そのサイズの固定列を生成します。
 
-#### Type
+#### タイプ
 
-When supplied this is used to determine the type of the column (string, number, Boolean).
+設定された場合、列の型 (string、number、Boolean) を決定するために使用されます。
 
-#### Text
+#### テキスト
 
-The Header Text property may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
+ヘッダーの Text プロパティにテキスト、[バインディング テキスト](../codegen/data-binding.md)、または両方を含むことができます。例:
 
 - Settings
 - {settingsLabel}
 - Important {labelText}
 
-#### Feature Left & Feature Right
+#### Feature Left および Feature Right
 
-These overrides control what features are enabled for the individual columns.  The following values are available:
+これらのオーバーライドは、個々の列で有効にする機能を制御します。以下の値を使用できます。
 
-- None (Default)
-- Filtering ([Excel Style Filtering](https://www.infragistics.com/products/ignite-ui-angular/angular/components/hierarchicalgrid/excel_style_filtering.html))
-- Pinning
-- Sorting
+- None (デフォルト)
+- フィルタリング ([Excel スタイル フィルタリング](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/hierarchicalgrid/excel_style_filtering.html))
+- ピン固定
+- 並べ替え
 
-#### Column Moving
+#### Column Moving (列移動)
 
-This override determines whether the column is movable or not by the user.
+このオーバーライドは、ユーザーが列を移動できるかどうかを決定します。
 
-#### Column Resizing
+#### Column Resizing (列サイズ変更)
 
-This override determines whether the column is resizable or not by the user.
+このオーバーライドは、ユーザーが列のサイズを変更できるかどうかを決定します。
 
-#### Column Hiding
+#### Column Hiding (列非表示)
 
-This override determines whether the column is hidden or not.
+このオーバーライドは、列が非表示かどうかを決定します。
 
-### Body/Cell
+### Body/Cell (本体/セル)
 
-When supplied, the Bodies (cells) help determine the number of columns to be rendered. It will try and pair a Header with a Body (Cell). If no matching Header can be found a column will be created based on the information that can be gathered from the Body/Cell. When a pair is found information will be gathered from the Header first then the Body/Cell.
+提供された場合、本体 (セル) は描画する列の数を決定します。ヘッダーを本体 (セル) と一致しようとします。一致するヘッダーが見つからない場合、列は本体/セルの情報に基づいて作成されます。一致が見つかった場合、情報がヘッダーから取得され、次に本体/セルから取得されます。
 
-#### Data Property
+#### データ プロパティ
 
-When supplied, the `🕹️DataProperty` is used to setup the field of the column, which should correspond to a field in the `🕹️DataSource`.
+提供された場合、`🕹️DataProperty` は列のフィールドを構成するために使用されます。列のフィールドは `🕹️DataSource` のフィールドに相対します。
 
-#### Type
+#### タイプ
 
-When supplied this is used to determine the type of the column (string, number, Boolean).
+設定された場合、列の型 (string、number、Boolean) を決定するために使用されます。
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Grid](grid.md)
-- [Grid Toolbar](grid-toolbar.md)
-- [Grid Export](grid-export.md)
-- [Grid Grouping](grid-grouping.md)
-- [Grid Column Pinning](grid-column-pinning.md)
-- [Grid Column Hiding](grid-column-hiding.md)
-- [Grid Column Moving](grid-column-moving.md)
-- [Grid Column Resizing](grid-column-resizing.md)
-- [Grid Sorting](grid-sorting.md)
-- [Grid Row Filter](grid-row-filter.md)
-- [Grid Excel Style Filter](grid-excel-style-filter.md)
-- [Grid Row Selection](grid-row-selection.md)
-- [Grid Editing](grid-editing.md)
-- [Grid Display Density](grid-display-density.md)
-- [Grid Paging](grid-paging.md)
-- [Grid Summaries](grid-summaries.md)
+- [Grid ツールバー](grid-toolbar.md)
+- [Grid エクスポート](grid-export.md)
+- [Grid グループ化](grid-grouping.md)
+- [Grid 列ピン固定](grid-column-pinning.md)
+- [Grid 列非表示](grid-column-hiding.md)
+- [Grid 列移動機能](grid-column-moving.md)
+- [Grid 列サイズ変更](grid-column-resizing.md)
+- [Grid 並べ替え](grid-sorting.md)
+- [Grid 行フィルター](grid-row-filter.md)
+- [Grid Excel スタイル フィルター](grid-excel-style-filter.md)
+- [Grid 行選択](grid-row-selection.md)
+- [Grid 編集](grid-editing.md)
+- [Grid 表示密度](grid-display-density.md)
+- [Grid ページング](grid-paging.md)
+- [Grid 集計](grid-summaries.md)
 - [Hierarchical Grid](hierarchical-grid.md)
-- [Data Binding](../codegen/data-binding.md)
+- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。

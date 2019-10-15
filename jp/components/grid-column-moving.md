@@ -2,6 +2,7 @@
 title: Grid 列移動 - グリッド機能
 _description: Grid 列移動は、グリッドの列を再配置するための構造です。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_language: ja
 ---
 
 ## Grid 列移動

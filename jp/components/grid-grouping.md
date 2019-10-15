@@ -1,35 +1,36 @@
 ---
-title: Grid Group By - Grid Feature
-_description: The Grid Group By allows hierarchical organization of the Grid records according to common values for a selected column.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+title: Grid グループ化 - グリッド機能
+_description: Grid グループ化 を使用すると、選択した列の共通値に従って Grid レコードを階層的に編成できます。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_language: ja
 ---
 
-## Grid Group By
+## Grid グループ化
 
-Use Grid Group By to organize data records in a hierarchical collection of groups defined by the matching values within a given column. The order of Group By conditions is represented in a special area above the Grid Header and special rows are inserted between Grid records to mark the beginnig of a new group. The Grid Group By is visually identical to the [Ignite UI for Angular Grid Group By Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/groupby.html)
+Grid グループ化 を使用して、特定の列内の一致する値によって定義されたグループの階層コレクションでデータ レコードを整理します。グループ化の条件の順序は、Grid ヘッダーの上の特別な領域に表され、新しいグループの開始をマークするために、Grid レコードの間に特別な行が挿入されます。Grid グループ化は、[Ignite UI for Angular Grid のグループ化](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/groupby.html) と視覚的に同じものです。
 
-### Grid Group By Demo
+### Grid グループ化のデモ
 
 <img class="responsive-img" src="../images/grid_group_by_demo.png" srcset="../images/grid_group_by_demo@2x.png 2x" />
 
-### Group Area
+### グループ化領域
 
-The Grid has a `Group Area` symbol under `Features` that specifies the columns that are used to establish the hierarchical grouping of records and the order in which these groups will be nested. Once you insert it, you may perform `Detach from Symbol` and inside you will find a [Chips Area](chips.md) that can be configured in a way that define how Group By is applied on the Grid.
+Grid には、`機能`の下に`グループ領域`記号があり、レコードの階層グループを確立するために使用される列と、これらのグループがネストされる順序を指定します。挿入すると、`Detach from Symbol`を実行できます。内部には、グループ化がグリッドに適用される方法を定義する方法で構成できる[Chips 領域](chips.md) があります。
 
-### GroupBy Row
+### 行でグループ化
 
-The Grid has a `GroupBy Row` symbol under `Features` that represents a special row in the Grid that is like a heading preceding the grouped records with some summary information about their amount within the group. Adding this symbol has only a visual effect on your design to make it more realistic, if you want to switch the GroupBy feature, insert and configure accordingly a `Group Area`.
+グリッドには、`機能`の下にある`行でグループ化`シンボルがあります。これは、グループ化されたレコードの前にある見出しのようなグリッド内の特別な行を表します。グループ化機能を切り替えたい場合は、このシンボルを追加してもデザインに視覚的な効果があるだけで、よりリアルになります。それに応じて、`グループ エリア`を挿入して設定します。
 
-## Code generation
+## コードの生成
 
-If the `GrouBy Row` symbol is added make sure to place it within the group defining the Grid as a sibling to the Header and Body groups and to detach it in order to customize how grouping is applied.
+`行でグループ化`シンボルが追加される場合、グループを適用する方法をカスタマイズするために、ヘッダーとボディ グループの兄弟としてグリッドを定義するグループ内に配置し、それをデタッチします。
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Grid](grid.md)
 - [Chips](chips.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。

@@ -1,14 +1,13 @@
 ﻿---
 title: Grid ページング - グリッド機能
-_description: The Grid Paging Component Symbol provides a footer that provides information about the Grid page where the user is currently on and allows navigation between pages of content for the Grid. 
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Paging
----
+_description: Grid ページング コンポーネント シンボルには、ユーザーが現在いる Grid ページの情報を提供するフッターがあり、Grid コンテンツのページ間をナビゲーションを可能にします。 
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
 ## グリッド ページング
 
-Use the Grid Paging Component to inform the user about his current position (on which Grid page the user is currently on) and allow navigation to the previous/next and first/last pages of the Grid content. Position the Grid Paging immediately below the Grid without any gap between the two. The Grid Paging is visually identical to the [Ignite UI for Angular Grid Paging Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid_paging.html)
+Grid ページング コンポーネントを使用して、ユーザーに現在の位置 (ユーザーが現在いるグリッドページ) を通知し、Grid コンテンツの前/次および最初/最後のページへのナビゲーションを許可します。Grid のすぐ下にギャップなしでグリッド ページングを配置します。Grid ページングは、[Ignite UI for Angular Grid ページング機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid_paging.html) と視覚的に同じものです。
 
 ### Grid ページング デモ
 

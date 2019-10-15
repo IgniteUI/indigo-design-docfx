@@ -1,62 +1,63 @@
 ---
-title: Grid Toolbar - Grid Feature
-_description: The Grid Toolbar Symbol provides a header with actions affecting the whole Grid.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+title: Grid ツール バー - グリッド機能
+_description: TGrid ツールバー シンボルは、グリッド全体に影響するアクションを持つヘッダーを提供します。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_language: ja
 ---
 
-## Grid Toolbar
+## Grid ツールバー
 
-Use the Grid Toolbar to define actions that affect the appearance and behavior of the whole grid. By default the Toolbar will contain actions for showing/hiding and pinning/unpinning of columns, as well as Exporting the Grid content in various formats. The Grid Toolbar is visually identical to the [Ignite UI for Angular Grid Toolbar Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html)
+Grid ツールバーは、グリッド全体の外観と動作に影響するアクションを定義するために使用します。デフォルトでは、ツールバーに列の表示/非表示、ピン固定/ピン固定解除、および Grid コンテンツをさまざまな形式でエクスポートするためのアクションが含まれます。Grid ページングは、[Ignite UI for Angular Grid ツールバー機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html) と視覚的に同じものです。
 
-### Grid Toolbar Demo
+### Grid ツールバーのデモ
 
 <img class="responsive-img" src="../images/grid_toolbar_demo.png" srcset="../images/grid_toolbar_demo@2x.png 2x" />
 
-### Styling
+### スタイル設定
 
-The Grid Toolbar comes with styling flexibility through the various overrides for its Actions, as well as its title style and background color.
+Grid ツールバーには、アクションのさまざまなオーバーライド、タイトル スタイルおよび背景色により、スタイル設定は高い柔軟性があります。
 
 <img class="responsive-img" src="../images/grid_toolbar_styling.png" srcset="../images/grid_toolbar_styling@2x.png 2x" />
 
-## Code generation
+## コードの生成
 
 > [!WARNING]
-> Do **not** `Detach from Symbol` on an instance of the Toolbar in your design or else it won't generate properly.
+> デザイン内のツールバーのインスタンスで `Detach from Symbol` をしないでください。そうでない場合、正しく生成されません。
 
-Make sure to place the Toolbar within the group defining the Grid as a sibling to the Header and Body groups.
+ツールバーは、ヘッダーグループと本体グループの兄弟としてグリッドを定義するグループ内に配置してください。
 
-### Title
+### Title (タイトル)
 
-This override controls the text to display in the Toolbar.
+このオーバーライドは ツール バー 内で表示するテキストを制御します。
 
-### Action 1, 2 and 3
+### Action 1, 2 および 3 (アクション 1、2 および 3)
 
-These overrides are used to control what actions are available in the toolbar. The following are the available options:
+これらのオーバーライドは、ツールバーで使用可能なアクションをコントロールするために使用されます。次が使用可能なオプションです。
 
 #### ButtonExport
 
-This option adds the [Export](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#features) button to the toolbar which directly enables the `Export to Excel` and `Export to CSV` features of the grid.
+このオプションはツールバーに[エクスポート](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#機能) ボタンを追加し、グリッドの `Excel へエクスポート`および `CSV へエクスポート`機能を直接有効にします。
 
 #### ButtonHiding
 
-This option adds the [Column Hiding](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/column_hiding.html) button to the toolbar. This is a UI element that allows the user to manipulate which columns are visible and which are hidden.
+このオプションはツールバーに [列非表示](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/column_hiding.html)  ボタンを追加します。これは、ユーザーがどの列を表示にするかまたは非表示にするかを操作できる UI 要素です。
 
 #### ButtonPinning
 
-This option adds the [Column Pinning](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#features) button to the toolbar. This is a UI element that allows the user to manipulate which columns are pinned.
+このオプションはツールバーに [列ピン固定](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#機能) ボタンを追加します。これは、ユーザーがどの列をピン固定にするかを操作できる UI 要素です。
 
-#### Switch, Icon & Button
+#### Switch, Icon & Button (スイッチ、アイコン、ボタン)
 
-Switch, Icon & Button options are considered [custom content](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#custom-content-template) since they do not come with the Toolbar by default. In order to render these inside the Toolbar, code generation will produce an `ng-template` that contains these components for the Toolbar to use.
+スイッチ、アイコン、ボタンのオプションは[カスタム コンテンツ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#カスタム-コンテンツ-テンプレート)と見なされます。 デフォルトでは、ツールバーに含まれていません。これらをツールバー内で描画するために、コード生成はツールバーが使用するこれらのコンポーネントを含む `ng-template` を生成します。
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Grid](grid.md)
-- [Grid Column Hiding](grid-column-hiding.md)
-- [GridGrid Column Pinning](grid-column-pinning.md)
-- [Grid Export](grid-export.md)
+- [Grid 列非表示](grid-column-hiding.md)
+- [Grid 列ピン固定](grid-column-pinning.md)
+- [Grid エクスポート](grid-export.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
