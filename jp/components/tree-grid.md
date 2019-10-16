@@ -2,6 +2,7 @@
 title: Tree Grid - デザイン システム コンポーネント
 _description: Tree Grid コンポーネント は、表形式の階層データを表示および操作する手段を提供します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_language: ja
 ---
 
 ## Tree Grid (ツリー グリッド)
