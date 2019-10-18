@@ -80,7 +80,7 @@
         - name: Grid 列ピン固定
           href: ../components/grid-column-pinning.md
           new: true
-        -  name: Grid 列非表示
+        - name: Grid 列非表示
           href: ../components/grid-column-hiding.md
           new: true
         - name: Grid 列移動
