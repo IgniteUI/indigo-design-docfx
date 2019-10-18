@@ -66,17 +66,57 @@
       href: ../components/dropdown.md
     - name: Grid
       href: ../components/grid.md
+      new: true
       items:
+        - name: Grid ツールバー
+          href: ../components/grid-toolbar.md
+          new: true
+        - name: Grid エクスポート
+          href: ../components/grid-export.md
+          new: true
+        - name: Grid グループ化
+          href: ../components/grid-grouping.md
+          new: true
         - name: Grid 列ピン固定
           href: ../components/grid-column-pinning.md
-        - name: Grid フィルター
-          href: ../components/grid-filter.md
+          new: true
+          name: Grid 列非表示
+          href: ../components/grid-column-hiding.md
+          new: true
+        - name: Grid 列移動
+          href: ../components/grid-column-moving.md
+          new: true
+        - name: Grid 列サイズ変更
+          href: ../components/grid-column-resizing.md
+          new: true
+        - name: Grid 並べ替え
+          href: ../components/grid-sorting.md
+          new: true
+        - name: Grid 行フィルター
+          href: ../components/grid-row-filter.md
+          new: true
+        - name: Grid Excel スタイル フィルター
+          href: ../components/grid-excel-style-filter.md
+          new: true
+        - name: Grid 行選択
+          href: ../components/grid-row-selection.md
+          new: true
+        - name: Grid 編集
+          href: ../components/grid-editing.md
+          new: true
+        - name: Grid 表示密度
+          href: ../components/grid-display-density.md
+          new: true
         - name: Grid ページング
           href: ../components/grid-paging.md
+          new: true
         - name: Grid 集計
           href: ../components/grid-summaries.md
     - name: Hyperlink
       href: ../components/hyperlink.md
+      - name: Hierarchical Grid
+      href: ../components/hierarchical-grid.md
+      new: true
     - name: Icon
       href: ../components/icon.md
     - name: Input
@@ -108,6 +148,9 @@
       href: ../components/toast.md
     - name: Tooltip
       href: ../components/tooltip.md
+      - name: Tree Grid
+      href: ../components/tree-grid.md
+      new: true
 - name: パターン
   items:
     - name: Audio / Video

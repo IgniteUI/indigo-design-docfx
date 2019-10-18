@@ -142,7 +142,7 @@ If the `🕹️DataSource`、 `🕹️PrimaryKey` および `🕹️ChildKey` �
 - [Grid グループ化](grid-grouping.md)
 - [Grid 列ピン固定](grid-column-pinning.md)
 - [Grid 列非表示](grid-column-hiding.md)
-- [Grid 列移動機能](grid-column-moving.md)
+- [Grid 列移動](grid-column-moving.md)
 - [Grid 列サイズ変更](grid-column-resizing.md)
 - [Grid 並べ替え](grid-sorting.md)
 - [Grid 行フィルター](grid-row-filter.md)
