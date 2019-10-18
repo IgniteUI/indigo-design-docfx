@@ -80,7 +80,7 @@
         - name: Grid 列ピン固定
           href: ../components/grid-column-pinning.md
           new: true
-          name: Grid 列非表示
+        -  name: Grid 列非表示
           href: ../components/grid-column-hiding.md
           new: true
         - name: Grid 列移動
@@ -114,7 +114,7 @@
           href: ../components/grid-summaries.md
     - name: Hyperlink
       href: ../components/hyperlink.md
-      - name: Hierarchical Grid
+    - name: Hierarchical Grid
       href: ../components/hierarchical-grid.md
       new: true
     - name: Icon
@@ -148,7 +148,7 @@
       href: ../components/toast.md
     - name: Tooltip
       href: ../components/tooltip.md
-      - name: Tree Grid
+    - name: Tree Grid
       href: ../components/tree-grid.md
       new: true
 - name: パターン
