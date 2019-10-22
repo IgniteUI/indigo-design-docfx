@@ -95,9 +95,9 @@ If the `🕹️DataSource`、 `🕹️PrimaryKey` および `🕹️ChildKey` �
 
 ヘッダーの Text プロパティにテキスト、[バインディング テキスト](../codegen/data-binding.md)、または両方を含むことができます。例:
 
-- Settings
+- 設定
 - {settingsLabel}
-- Important {labelText}
+- 重要な {labelText}
 
 #### Feature Left および Feature Right
 
