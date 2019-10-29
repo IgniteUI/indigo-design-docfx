@@ -1,151 +1,173 @@
 ﻿---
 title: Grid - デザイン システム コンポーネント
-_description: Grid コンポーネント シンボルは、表形式の大量のデータを表示しインタラクティブに操作できます。
+_description: Grid コンポーネント シンボルは、表形式の大量のデータを表示し、インタラクティブに操作できます。
 _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
 _language: ja
 ---
 
-## Grid
+## Grid (グリッド)
 
-Grid コンポーネントは大量の複雑なデータをタブ形式で表示し、ユーザーがブラウジングやインタラクティブに操作することにより、フィルタリング、並べ替え、ページングなどが可能です。Grid は、[Ignite UI for Angular Grid コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid.html)と視覚的に同じものです。
+グリッド コンポーネントは大量の複雑なデータをタブ形式で表示し、ユーザーがブラウジングやインタラクティブに操作することにより、フィルタリング、並べ替え、ページングなどが可能です。Grid は、[Ignite UI for Angular Grid コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid.html) と視覚的に同じものです。
 
-### Grid デモ
+### グリッドのデモ
 
 <img class="responsive-img" src="../images/grid_demo.png" srcset="../images/grid_demo@2x.png 2x" />
 
-### シンボルからデタッチ
+### Detach from Symbol (シンボルからデタッチ)
 
-Grid は、基本的に表形式でデータを表示する列と行のリピーターです。従って `Generic Grid` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下にある `Detach from Symbol`  オプションを選択します。新しく表示される `Grid/Generic Grid` グループの下のレイヤー パネルには以下があります。
+グリッドは、基本的に表形式でデータを表示する列と行のリピーターです。したがって、最も簡単な使用方法は、定義済みのグリッドの 1 つをアートボードにドラッグすることです。サポートされる 3 つの[表示密度](grid-display-density.md) に 3 つのプリセットがあります。アートボードを開いた後、その上を右クリックし、コンテキスト メニューの下部にある `Detach from Symbol` オプションを選択すると、新しく表示されたグループの下のレイヤー パネルに次のように表示されます。
 
-| レイヤー    | 使用                                                                                                                           |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| 🚫 igx-grid | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
-| Header      | ヘッダーのすべてのセルを取得します。                                                                                           |
-| Body        | ボディのすべてのセルを含みます。                                                                                               |
+| レイヤー                                    | 使用                                                                                                                                                  |
+| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🚫 igx-grid/_(comfortable/cosy/compact)_ | 禁止されたアイコンで開始する特定のロックされたレイヤー。 このレイヤーはコード生成に必要なため、削除または変更しないでください |
+| Header                                   | ヘッダーのすべてのセルを取得します                                                                                                             |
+| Body                                     | 本体のすべてのセルを含みます                                                                                                                 |
+| 🕹️PrimaryKey                             | 一部のグリッド機能で必要であり、コード生成エンジンで使用されるレコードの主キーを持つ列の参照       |
+| 🕹️DataSource                             | コード生成エンジンによって使用され、グリッドにバインドされるデータ ソースの参照                                             |
 
-デタッチ後、すでに作成したデータの最初の行を複製し、多数のヘッダーを必要なだけ追加してデータのすべてのディメンションを表示できます。
+デタッチ後、既存のデータ行の 1 つを複製するだけで、データのすべてのディメンションを表示するために必要なヘッダーの数を変更できます。デザインに表示したい表示レコード (数に制限がない) を挿入することもできます。
+
 
 ### セル タイプ
 
-Grid は、異なるデータ可視化用に 3 タイプのセルがあります。Header Cell は、各列に 1 つ、グリッドの一番上に表示され、特定の列のデータに関する説明をテキストで表示します。Body Cell は、データ レコードを表示するテーブルのビルドその他に使用されます。Summary Cell は、列[集計](grid-summaries.md)がカウント、最大、最小などの各ディメンションに表示される Grid の下のセクションを作成するために使用されます。
+グリッドは、異なるデータ可視化用に 3 タイプのセルがあります。Header Cell (ヘッダー セル) は、各列に 1 つ、グリッドの一番上に表示され、特定の列のデータに関する説明をテキストで表示します。Body Cell (本体セル) は、データ レコードを表示するテーブルのビルドその他に使用されます。Summary Cell (集計セル) は、列[集計](grid-summaries.md)がカウント、最大、最小などの各ディメンションに表示されるグリッドの下のセクションを作成するために使用されます。
 
 <img class="responsive-img" src="../images/grid_cell_header.png" srcset="../images/grid_cell_header@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body.png" srcset="../images/grid_cell_body@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_summary.png" srcset="../images/grid_cell_summary@2x.png 2x" />
 
-### 項目 (ヘッダー セル)
+ヘッダー セルには、行フィルター ヘッダー セルという特別なサブタイプが 1 つあります。行フィルターヘッダーセルを使用して、[行フィルター](grid-row-filter.md) 機能を有効にするためにヘッダーの下部に追加のヘッダー行を作成します。
 
-Grid Header Cell は、項目のオーバーライドで次のレイアウトの組み合わせをサポートします。ヘッダー テキストのみを表示する**アイコンはなく**、ヘッダー テキストとフィルター アイコンを表示するアイコン、ヘッダーテキストを表示するアイコン、フィルターアイコンと並べ替えアイコンがあります。
+<img class="responsive-img" src="../images/grid_cell_header_filter.png" srcset="../images/grid_cell_header_filter@2x.png 2x" />
+
+### セル 表示密度
+
+ヘッダー、本体、および 集計セルは、グリッドの 3 つの表示密度バリアントをサポートします。以下のボディ セルに見られるように、それぞれに異なるシンボルが付いています:
+
+<img class="responsive-img" src="../images/grid_cell_body_comfortable.png" srcset="../images/grid_cell_body_comfortable@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_body_cosy.png" srcset="../images/grid_cell_body_cosy@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_body_compact.png" srcset="../images/grid_cell_body_compact@2x.png 2x" />
+
+### 項目と機能 (ヘッダー セル)
+
+Grid ヘッダー セルは、`Items` のオーバーライドでさまざまなレイアウトの組み合わせをサポートします。また、`Feature Left` および `Feature Right` のオーバーライドを介して機能の複数の構成をサポートします。さらに、[編集](grid-editing.md)、[移動](grid-column-moving.md)、[サイズ変更](grid-column-resizing.md)、[非表示](rid-column-hiding.md) など、表示されていないがグリッドの異なる列機能を有効にする追加のオーバーライドがあります。
+
 
 <img class="responsive-img" src="../images/grid_cell_header_no-icon.png" srcset="../images/grid_cell_header_no-icon@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_icon.png" srcset="../images/grid_cell_header_icon@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_icons.png" srcset="../images/grid_cell_header_icons@2x.png 2x" />
 
-### 状態 (本体セル)
+### 状態とグリッド機能 (本体セル)
 
-Grid Body Cell は、以下のインタラクティブな状態 (標準状態の **Rest**、セル選択モードで選択したセルの CellSelected、選択セルのある行の残りのセルの RowSelected) をサポートします。
+Grid 本体セルは、以下のインタラクティブな状態をサポートします: 標準状態の **Inactive**、フォーカスのある/選択されたセルでは Active です。
 
-<img class="responsive-img" src="../images/grid_cell_body_rest.png" srcset="../images/grid_cell_body_rest@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_cell_body_cell-selected.png" srcset="../images/grid_cell_body_cell-selected@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_body_cell-inactive.png" srcset="../images/grid_cell_body_cell-inactive@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_body_cell-active.png" srcset="../images/grid_cell_body_cell-active@2x.png 2x" />
+
+Grid 本体セルは、ヘッダーを介して `Grid Feature` のオーバーライドによって定義されるいくつかのグリッド機能のスタイル設定サポートがあります。通常のセル、編集可能なセル、および選択した行に属するセルにスタイル設定されたセルへのアクセスを提供します。
+
 <img class="responsive-img" src="../images/grid_cell_body_row-selected.png" srcset="../images/grid_cell_body_row-selected@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_body_editing_cell.png" srcset="../images/grid_cell_body_editing_cell@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_body_row-editing-nofocus.png" srcset="../images/grid_cell_body_row-editing-nofocus@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_body_row-editing-focus.png" srcset="../images/grid_cell_body_row-editing-focus@2x.png 2x" />
 
 ### セル タイプ
 
-Grid Header Cell は、対応が必要な一般的なデータ型のプリセットが 3 つ (数値のための **Number**、文字列の Text、最初の列の通常テンプレートとして使用される Checkbox、複数行の選択が可能にする最初の列のテンプレート) あります。
+Grid ヘッダー セルは、グリッドの対応に必要な一般的なデータ型のプリセットが 3 つあります。数値に使用する **Number**、文字列の Text、ブールデータを含む列に使用されるまたは複数行の選択を可能にするための最初の列のテンプレートとして使用される Checkbox。
 
 <img class="responsive-img" src="../images/grid_cell_header_number.png" srcset="../images/grid_cell_header_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_checkbox.png" srcset="../images/grid_cell_header_checkbox@2x.png 2x" />
 
-Grid Body Cell は、Header Cell などの同じ一般的なデータ型プリセットを提供します。
+Grid 本体セルは、ヘッダー セルの同じ一般的なデータ型のプリセットを提供し、単純なグラフィックスを視覚化する追加のアイコンタイプを含みます。
 
 <img class="responsive-img" src="../images/grid_cell_body_number.png" srcset="../images/grid_cell_body_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_text.png" srcset="../images/grid_cell_body_text@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_checkbox.png" srcset="../images/grid_cell_body_checkbox@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_body_icon.png" srcset="../images/grid_cell_body_icon@2x.png 2x" />
+
 
 ### スタイル設定
 
-Grid は、さまざま状態の各セル テキスト、アイコン、背景色のスタイル設定や水平および垂直の境界線の非表示など柔軟に変更できます。
+グリッドは、さまざま状態の各セル テキスト、アイコン、背景色のスタイル設定や水平および垂直の境界線の非表示など柔軟に変更できます。
 
 <img class="responsive-img" src="../images/grid_styling.png" srcset="../images/grid_styling@2x.png 2x" />
 
 ## 使用方法
 
-Grid の最も重要な点は、Header および Body Cells 内のデータの配置です。テキストは常に左揃えにして変数空スペースを右に残し、数値は常に右揃えにして変数空スペースを左に残します。
+グリッドの最も重要な点は、ヘッダーおよび本体セル内のデータの配置です。テキストは常に左揃えにして変数空スペースを右に残し、数値は常に右揃えにして変数空スペースを左に残します。
 
-| 良い例                                                                     | 悪い例                                                                         |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| 良い例                                                                                                | 悪い例                                                                                               |
+| ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/grid_do1.png" srcset="../images/grid_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/grid_dont1.png" srcset="../images/grid_dont1@2x.png 2x" /> |
 
-## コード生成
 
-Grid の色またはフォントを指定した場合、Grid HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が必要になります。グリッドを使用するためにデタッチ シンボルに設定する必要があります。グリッドの幅が列の幅を合計して決定されます。グリッドのコンテナーに高さを設定しない場合も行を正しく描画するためにグリッドの高さが null 値に設定されます。
+## コードの生成
 
-### データ バインディング
+このセクションは、オーバーライドとコード生成にどのような影響があるかについて説明します。
 
-データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (DataProperty および DataSource 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
+> [!WARNING]
+> グリッドを使用するためにデタッチ シンボルに設定する**必要**があります。
 
-#### ネストなし
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty: `{imageName}`
-
-#### ネストあり
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty: `{profile.imageName}`
+> [!NOTE]
+> グリッドの高さはデフォルトで `100％` に設定されています。
 
 ### データ ソース プロパティ
 
-`🕹️DataSource` 値が提供された場合、グリッドのデータ ソースを構成するために使用されます。各列名がオブジェクトのプロパティであるオブジェクトの配列に設定する必要があります。データ ソースが設定されない場合、グリッドは列ヘッダーのみを描画します。
+提供された場合、`🕹️DataSource` 値はグリッドのデータ ソースを構成するために使用されます。各列名がオブジェクトのプロパティであるオブジェクトの配列に設定する必要があります。データ ソースが設定されない場合、グリッドは列ヘッダーのみを描画します。
 
-### ヘッダー
+### プライマリ キー
 
-Headers が提供された場合、描画する列数を決定します。Header を下にある Body (Cell) と一致させるために列を作成します。一致する Body が見つからない場合、列は Header の情報に基づいて作成され、一致が見つかった場合は、情報が Header から取得され、次に Body/Cell から取得されます。
+提供された場合、 `🕹️PrimaryKey` 値は グリッドの `primaryKey`プロパティを設定するために使用されます。このプロパティの値は、一意の値を含むデータ ソース内のプロパティ名にする必要があります。このプロパティは、グリッドで[行編集バナー](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/row_editing.html)を使用する場合に特に重要です。
+
+### Header (ヘッダー)
+
+提供された場合、ヘッダーは描画する列数を決定します。ヘッダーを下にある本体 (セル) と一致させるために列を作成します。一致する本体が見つからない場合、列はヘッダーの情報に基づいて作成されます。一致が見つかった場合、情報がヘッダーから取得され、次に本体/セルから取得されます。
+
+ヘッダーには、いくつかのサイズ変更オプションがあります。Sketch で各ヘッダーセ ルを左右にピン固定すると、HTML で列 (パーセント幅) が生成されます。これにより、グリッドのサイズに応じて列を拡大または縮小できます。あるいは、ヘッダー セルの幅を固定すると、そのサイズの固定列を生成します。
+
+#### タイプ
+
+設定された場合、列の型 (string、number、Boolean) を決定するために使用されます。
 
 #### テキスト
 
-Header の Text プロパティにテキスト、バインディング、または両方を含むことができます。例:
+ヘッダーの Text プロパティにテキスト、[バインディング テキスト](../codegen/data-binding.md)、または両方を含むことができます。例:
 
 - 設定
 - {settingsLabel}
 - 重要な {labelText}
 
-#### 並べ替え
+#### Feature Left および Feature Right
 
-設定された場合、指定された列での並べ替えを有効にします。
+これらのオーバーライドは、個々の列で有効にする機能を制御します。以下の値を使用できます。
 
-#### フィルター状態
+- None (デフォルト)
+- フィルタリング ([Excel スタイル フィルタリング](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/excel_style_filtering.html))
+- ピン固定
+- 並べ替え
 
-設定された場合、指定された列でのフィルタリングを有効にします。
+#### Column Moving (列移動)
 
-#### 型
+このオーバーライドは、ユーザーが列を移動できるかどうかを決定します。
 
-設定された場合、列の型 (string、number、Boolean) を決定するために使用されます。
+#### Column Resizing (列サイズ変更)
 
-### 本体/セル
+このオーバーライドは、ユーザーが列のサイズを変更できるかどうかを決定します。
 
-Bodies (セル) が提供された場合、描画する列の数を決定します。Header を Body (Cell) と一致しようとします。一致する Header が見つからない場合、列は Body/Cell の情報に基づいて作成されます。一致が見つかった場合、情報が Header から取得され、次に Body/Cell から取得されます。
+#### Column Hiding (列非表示)
+
+このオーバーライドは、列が非表示かどうかを決定します。
+
+### Body/Cell (本体/セル)
+
+提供された場合、本体 (セル) は描画する列の数を決定します。ヘッダーを本体 (セル) と一致しようとします。一致するヘッダーが見つからない場合、列は本体/セルの情報に基づいて作成されます。一致が見つかった場合、情報がヘッダーから取得され、次に本体/セルから取得されます。
 
 #### データ プロパティ
 
-`🕹️DataProperty` が提供された場合、列のフィールドを構成するために使用されます。列のフィールドは `🕹️DataSource` のフィールドに相対します。
+提供された場合、 `🕹️DataProperty` は列のフィールドを構成するために使用されます。列のフィールドは `🕹️DataSource` のフィールドに相対します。.
 
-#### 型
+#### タイプ
 
 設定された場合、列の型 (string、number、Boolean) を決定するために使用されます。
 
@@ -153,11 +175,25 @@ Bodies (セル) が提供された場合、描画する列の数を決定しま�
 
 関連トピック:
 
-- [Grid フィルタリング](grid-filter.md)
+- [Grid ツールバー](grid-toolbar.md)
+- [Grid エクスポート](grid-export.md)
+- [Grid グループ化](grid-grouping.md)
+- [Grid 列ピン固定](grid-column-pinning.md)
+- [Grid 列非表示](grid-column-hiding.md)
+- [Grid 列移動](grid-column-moving.md)
+- [Grid 列サイズ変更](grid-column-resizing.md)
+- [Grid 並べ替え](grid-sorting.md)
+- [Grid 行フィルター](grid-row-filter.md)
+- [Grid Excel スタイル フィルター](grid-excel-style-filter.md)
+- [Grid 行選択](grid-row-selection.md)
+- [Grid 編集](grid-editing.md)
+- [Grid 表示密度](grid-display-density.md)
 - [Grid ページング](grid-paging.md)
-- [Grid 列固定](grid-column-pinning.md)
 - [Grid 集計](grid-summaries.md)
-- [Full Grid Pattern](../patterns/full-grid.md)
+- [Hierarchical Grid](hierarchical-grid.md)
+- [Tree Grid](tree-grid.md)
+- [Grid パターン](../patterns/full-grid.md)
+- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
