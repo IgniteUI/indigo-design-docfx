@@ -78,7 +78,7 @@ Tree Column Cell は、`Depth` のオーバーライドでデータ階層のレ�
 
 `🕹️ChildKey` は、ツリー グリッドで 2 つの目的を果たします。 `🕹️DataSource` と `🕹️ChildKey` のみが設定されている場合、ツリー グリッドは `🕹️ChildKey` がデータ ソースの各オブジェクト内の子データの配列を指していると予期します。説明については、[Angular ツリー グリッド](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/treegrid/tree_grid.html#子コレクション) を参照してください。
 
-If the `🕹️DataSource`、 `🕹️PrimaryKey` および `🕹️ChildKey` がすべて設定されている場合、ツリー グリッドはデータが若干異なるように設定されることを予期します。詳細については、[こちら](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/treegrid/tree_grid.html#プライマリと外部キー) をご覧ください。つまり、この設定では、`🕹️ChildKey` は `foreignKey` であり、`🕹️PrimaryKey` は `primaryKey` です。
+`🕹️DataSource`、 `🕹️PrimaryKey` および `🕹️ChildKey` がすべて設定されている場合、ツリー グリッドはデータが若干異なるように設定されることを予期します。詳細については、[こちら](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/treegrid/tree_grid.html#プライマリと外部キー) をご覧ください。つまり、この設定では、`🕹️ChildKey` は `foreignKey` であり、`🕹️PrimaryKey` は `primaryKey` です。
 使用する構成は、データの構造に依存します。
 
 ### ヘッダー

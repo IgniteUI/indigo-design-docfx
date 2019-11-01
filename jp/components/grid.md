@@ -27,10 +27,9 @@ _language: ja
 
 デタッチ後、既存のデータ行の 1 つを複製するだけで、データのすべてのディメンションを表示するために必要なヘッダーの数を変更できます。デザインに表示したい表示レコード (数に制限がない) を挿入することもできます。
 
-
 ### セル タイプ
 
-グリッドは、異なるデータ可視化用に 3 タイプのセルがあります。Header Cell (ヘッダー セル) は、各列に 1 つ、グリッドの一番上に表示され、特定の列のデータに関する説明をテキストで表示します。Body Cell (本体セル) は、データ レコードを表示するテーブルのビルドその他に使用されます。Summary Cell (集計セル) は、列[集計](grid-summaries.md)がカウント、最大、最小などの各ディメンションに表示されるグリッドの下のセクションを作成するために使用されます。
+グリッドは、異なるデータ可視化用に 3 タイプのセルがあります。Header Cell (ヘッダー セル) は、各列に 1 つ、グリッドの一番上に表示され、特定の列のデータに関する説明をテキストで表示します。Body Cell (本体セル) は、データ レコードを表示するコンテンツ テーブルのビルドを作成するために使用され、そのタイプは異なる場合があります。Summary Cell (集計セル) は、[集計](grid-summaries.md) 列がカウント、最大、最小などの各ディメンションに表示される Grid の下のセクションを作成するために使用されます。
 
 <img class="responsive-img" src="../images/grid_cell_header.png" srcset="../images/grid_cell_header@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body.png" srcset="../images/grid_cell_body@2x.png 2x" />
@@ -60,6 +59,7 @@ Grid ヘッダー セルは、`Items` のオーバーライドでさまざまな
 ### 状態とグリッド機能 (本体セル)
 
 Grid 本体セルは、以下のインタラクティブな状態をサポートします: 標準状態の **Inactive**、フォーカスのある/選択されたセルでは Active です。
+デフォルト値は、**太字**テキストでスタイル設定されます。
 
 <img class="responsive-img" src="../images/grid_cell_body_cell-inactive.png" srcset="../images/grid_cell_body_cell-inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_cell-active.png" srcset="../images/grid_cell_body_cell-active@2x.png 2x" />
@@ -86,6 +86,17 @@ Grid 本体セルは、ヘッダー セルの同じ一般的なデータ型の�
 <img class="responsive-img" src="../images/grid_cell_body_checkbox.png" srcset="../images/grid_cell_body_checkbox@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_icon.png" srcset="../images/grid_cell_body_icon@2x.png 2x" />
 
+### グリッドの水平スクロール
+
+絶対幅として、または親グループ/コンテナに関連する特定のグリッド ディメンションを達成する 1 つの方法は、グリッドのメイン グループ内にマスクを追加することです。スタイル設定なしで長方形を挿入し、必要に応じてそのサイズを設定します。下の画像では、常に正確に 800px 幅のグリッドがあります。
+
+<img class="responsive-img" src="../images/grid_horizontal_scroll_rect.png" srcset="../images/grid_horizontal_scroll_rect@2x.png 2x" />
+
+長方形の幅と高さを固定し、名前を `Mask` に変更し、レイヤー パネルの特別なシンボル `🕹️DataSource` のすぐ上に配置します。次に、長方形の上を右クリックし、コンテキスト メニューの下部にある `マスク` オプションを選択します。
+
+<img class="responsive-img" src="../images/grid_horizontal_scroll_masked.png" srcset="../images/grid_horizontal_scroll_masked@2x.png 2x" />
+
+これでグリッド グループがマスクのディメンションを取得し、水平スクロールなしでグリッドを使用することと同じ方法でレイアウトで使用できます。このコンポーネントのコードが生成されると、グリッドのディメンションとしてマスクのディメンションを基準する水平スクロールバーが自動的に追加されます。
 
 ### スタイル設定
 
@@ -100,7 +111,6 @@ Grid 本体セルは、ヘッダー セルの同じ一般的なデータ型の�
 | 良い例                                                                                                | 悪い例                                                                                               |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/grid_do1.png" srcset="../images/grid_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/grid_dont1.png" srcset="../images/grid_dont1@2x.png 2x" /> |
-
 
 ## コードの生成
 
@@ -197,5 +207,3 @@ Grid 本体セルは、ヘッダー セルの同じ一般的なデータ型の�
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
-

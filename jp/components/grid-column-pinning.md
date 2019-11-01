@@ -19,7 +19,9 @@ Grid 列ピン固定は、スクロール可能なグリッドで最初の数列
 
 ### セルの右境界線
 
-右端の列には、ヘッダーとすべての本体セルの両方に対して Pinned Line を示す `Right Border` のオーバーライドが必要です。上記のデモは、行セレクターと件名列は両方ともピン固定されているため、2 行の 2 列目のすべてのセルで実行されます。
+右端の列には、ヘッダーと列のすべての本体セルの両方に対して `Pinned Line` を示す `Right Border` のオーバーライドが必要です。行セレクターと件名列は両方ともピン固定されているため、2 行の 2 列目のすべてのセルで実行されます。これは下の画像に表示されています。
+
+<img class="responsive-img" src="../images/grid_column_pinning_demo.png" srcset="../images/grid_column_pinning_demo@2x.png 2x" />
 
 ## その他のリソース
 
