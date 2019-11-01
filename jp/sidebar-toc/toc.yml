@@ -23,7 +23,7 @@
       href: ../style/material-icons.md
     - name: タイポグラフィ
       href: ../style/typography.md
-    - name: 図
+    - name: Illustrations
       href: ../style/illustrations.md
       new: true
 - name: コンポーネント
@@ -162,24 +162,53 @@
       href: ../patterns/avatar-badge.md
     # - name: Card Collection
     #   href: ../patterns/card-collection.md
+    - name: Bar
+      href: ../patterns/bar.md
+      new: true
     - name: Checkbox Group
       href: ../patterns/checkbox-group.md
+    - name: Data Visualizations
+      href: ../patterns/data-visualizations.md
+      new: true
     - name: Details
       href: ../patterns/details.md
+      new: true
     - name: File Upload
       href: ../patterns/file-upload.md
     - name: Forms
       href: ../patterns/form.md
-    - name: Full Grid
-      href: ../patterns/full-grid.md
-    # - name: Gallery
-    #   href: ../patterns/gallery.md
+    - name: Grid
+      href: ../patterns/grid.md
+      new: true
+    - name: Hierarchical Grid
+      href: ../patterns/hierarchical-grid.md
+      new: true
     - name: Image Manipulation
       href: ../patterns/image-manipulation.md
     - name: Lists
       href: ../patterns/lists.md
+      new: true
+    - name: Menu
+      href: ../patterns/menu.md
+      new: true
+    - name: Onboarding
+      href: ../patterns/onboarding.md
+      new: true
+    - name: Pricing Plan
+      href: ../patterns/pricing-plan.md
+      new: true
+    - name: Scheduler
+      href: ../patterns/scheduler.md
+      new: true
+    - name: Tiles
+      href: ../patterns/tiles.md
+      new: true
+    - name: Tree Grid
+      href: ../patterns/tree-grid.md
+      new: true
     - name: User Profile
       href: ../patterns/user-profile.md
+      new: true
 - name: レスポンシブ レイアウト
   href: ../best-layout-practices.md
 
