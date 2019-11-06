@@ -19,6 +19,8 @@ Form パターンはログインと登録、予約、アドレス、支払、お
 
 <img class="responsive-img" src="../images/form_login-simple.png" srcset="../images/form_login-simple@2x.png 2x" />
 <img class="responsive-img" src="../images/form_login-social.png" srcset="../images/form_login-social@2x.png 2x" />
+<img class="responsive-img" src="../images/form_illustrated_forgot_password.png" srcset="../images/form_illustrated_forgot_password@2x.png 2x" />
+<img class="responsive-img" src="../images/form_illustrated_account_type.png" srcset="../images/form_illustrated_account_type@2x.png 2x" />
 
 登録フォームは簡易なコンテンツおよび操作を持つレイアウトがあり、またはより複雑なレイアウトと追加の操作を持つソーシャル メディア プロファイルの登録フォームがあります。
 
@@ -50,6 +52,9 @@ Form パターンはログインと登録、予約、アドレス、支払、お
 
 <img class="responsive-img" src="../images/form_card.png" srcset="../images/form_card@2x.png 2x" />
 <img class="responsive-img" src="../images/form_cash.png" srcset="../images/form_cash@2x.png 2x" />
+
+> [!Note]
+> パターン シンボル内にネストされた図はコード生成できず、図自体を手動で挿入する必要があります。
 
 > [!WARNING]
 > 利用可能なフォーム パターンを挿入した後、Angular コードとして生成するには、`Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。
