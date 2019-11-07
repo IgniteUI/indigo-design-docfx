@@ -1,6 +1,6 @@
 ﻿---
 title: カラー - デザイン システム スタイリング
-_description: スタイリングのカラーシンボルは、Indigo Design のテーマを設定できます。
+_description: スタイリングのカラー シンボルは、Indigo Design のテーマを設定できます。
 _keywords: デザイン システム, Sketch, Ignite UI for Angular, UI ライブラリ, カラー, パレット
 _language: ja
 ---
