@@ -5,7 +5,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## Avatar
+## Avatar (アバター)
 
 Avatar コンポーネント は、プロファイル写真や画像、アイコン、イニシャル (文字列) で人をグラフィックで表現するために使用します。Avatar は、[Ignite UI for Angular Avatar コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/avatar.html) と視覚的に同じものです。
 

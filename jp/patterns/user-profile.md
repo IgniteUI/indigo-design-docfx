@@ -5,7 +5,7 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, パター�
 _language: ja
 ---
 
-## User Profile
+## User Profile (ユーザー プロファイル)
 
 User Profile パターンを使用すると、全画面表示の詳細ページまたはヘッダーまたはツールバーに挿入する小さいインジケーターでユーザーに関連する情報を表示します。
 

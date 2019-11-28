@@ -7,7 +7,7 @@ _language: ja
 
 ## Hierarchical Grid (階層グリッド)
 
-ネストされた子グリッドを持つ複雑な Hierarchical Grid とその機能を設計する場合は、開始ポイントとして Hierarchical Grid パターンシ ンボルを使用します。アクティブ セルと、親グリッドと子グリッド間の接続の視覚的表現を備えた、親グリッドとネストされた子グリッドを提供します。コンポーネント ライブラリで提供されるすべてのグリッド機能は階層グリッドで適用できます。
+ネストされた子グリッドを持つ複雑な Hierarchical Grid とその機能を設計する場合は、開始ポイントとして Hierarchical Grid パターン　シンボルを使用します。アクティブ セルと、親グリッドと子グリッド間の接続の視覚的表現を備えた、親グリッドとネストされた子グリッドを提供します。コンポーネント ライブラリで提供されるすべてのグリッド機能は階層グリッドで適用できます。
 
 <img class="responsive-img" src="../images/hierarchical_grid.png" srcset="../images/hierarchical_grid@2x.png 2x" />
 

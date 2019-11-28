@@ -5,7 +5,7 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, パター�
 _language: ja
 ---
 
-## Card Collection
+## Card Collection (カード コレクション)
 
 Card Collection パターンを使用すると、アシスタントまたはニュース フィード、タイムライン、または複数列ボードを表示できます。
 

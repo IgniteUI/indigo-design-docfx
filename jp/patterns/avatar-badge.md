@@ -5,7 +5,7 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, パター�
 _language: ja
 ---
 
-## Avatar + Badge
+## Avatar + Badge (アバター + バッジ)
 
 Avatar + Badge パターンは、Avatar にアラートまたは通知のメッセージやインジケーターを追加します。
 

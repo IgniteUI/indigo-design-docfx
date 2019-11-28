@@ -5,7 +5,7 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, パター�
 _language: ja
 ---
 
-## Image Manipulation
+## Image Manipulation (イメージ マニピュレイション)
 
 Image Manipulation パターンを使用すると、画像または写真を含む Avatar を編集、更新、変更、またはその他のクイック アクションを実行できます。
 
