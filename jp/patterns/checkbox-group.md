@@ -5,7 +5,7 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, パター�
 _language: ja
 ---
 
-## Checkbox Group
+## Checkbox Group (チェックボックス グループ)
 
 Checkbox Group パターンを使用すると、Checkbox 要素のコレクションをグループとして配置します。たとえば、複数選択質問の答えを含むグループを作成できます。
 

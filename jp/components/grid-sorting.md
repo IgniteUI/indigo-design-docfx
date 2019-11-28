@@ -5,7 +5,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## Grid 並べ替え
+## 並べ替え
 
 Grid 並べ替えを使用して、特定の列内の値に従って昇順および降順でレコードの順序を示します。Grid 並べ替えは、[Ignite UI for Angular Grid 並べ替え機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/sorting.html) と視覚的に同じものです。
 

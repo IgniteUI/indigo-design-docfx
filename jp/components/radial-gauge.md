@@ -5,7 +5,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## Radial Gauge
+## Radial Gauge (ラジアル ゲージ)
 
 Radial Gauge コンポーネントを円形のデータ可視化を使用し、カラーコードされた下部の範囲で描かれたコンテキスト内の値を表示します。Radial Gauge は、[Ignite UI for Angular ラジアルゲージ コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/radialgauge.html)と視覚的に同じものです。
 

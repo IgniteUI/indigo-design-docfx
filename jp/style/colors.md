@@ -5,7 +5,7 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, UI ライ�
 _language: ja
 ---
 
-## Colors
+## カラー
 
 スタイリング ライブラリ ファイルから Colors はテーマ カラー (`primary`、`secondary`、`success`、`warn`、`error`、`info`) を設定します。Styling ライブラリで Colors を設定する方法は、[Ignite UI for Angular Themes](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes.html) と同じです。
 

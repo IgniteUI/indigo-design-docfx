@@ -5,7 +5,7 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, パター�
 _language: ja
 ---
 
-## Details
+## Details (ディテール)
 
 Details パターンを使用すると、記事、製品、レシピなどを全画面表示ページで詳細情報を表示します。
 

@@ -5,7 +5,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## Grid 列移動
+## 列移動
 
 Grid 列移動は、グリッドの列が移動可能であり、ヘッダー セルをドラッグして目的の場所にドロップすることで再配置できることを示すために使用します。Grid 列移動は、[Ignite UI for Angular Grid 列移動機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/column_moving.html) と視覚的に同じものです。
 

@@ -5,7 +5,7 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, パター�
 _language: ja
 ---
 
-## File Upload
+## File Upload (ファイル アップロード)
 
 File Upload パターンを使用すると、ファイル、画像、添付などのアップロードおよび挿入機能を提供します。
 

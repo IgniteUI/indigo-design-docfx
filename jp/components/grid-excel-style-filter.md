@@ -5,7 +5,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## グリッド Excel スタイル フィルター
+## Excel スタイル フィルター
 
 グリッド Excel スタイル フィルターは、ユーザーが列に一連のグリッド機能を指定できるために使用します：一意の値または複数の条件でフィルタリングする、並べ替え、列移動、列非表示、ピン固定。一度に 1 列にのみ Excel スタイル フィルターを示し、ヘッダー フィルター状態はアクティブに設定する必要があります (以下ヘッダー セル参照)。グリッド Excel スタイル フィルターは、[Ignite UI for Angular Grid グリッド Excel スタイル フィルタリング機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/excel_style_filtering.html) と視覚的に同じものです。
 

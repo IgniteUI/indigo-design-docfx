@@ -5,7 +5,7 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポ�
 _language: ja
 ---
 
-## Icon
+## Icon (アイコン)
 
 Icon コンポーネント シンボルは、製品に「いいね」などのシンプルなインタラクションをトリガーしてユーザーに情報をグラフィックで表示します。すでに提供されている [Material アイコン](https://material.io/tools/icons/)または Styling ライブラリで使用可能なアイコンをリストに追加します。Icon は、[Ignite UI for Angular Icon コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/icon.html)と視覚的に同じものです。
 

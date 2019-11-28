@@ -5,7 +5,7 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポ�
 _language: ja
 ---
 
-## Custom Cards
+## Custom Cards (カスタム カード)
 
 Custom Card コンポーネントは、通常のカードと同じタイプの情報を表示しますが、レイアウトを自由に変更できます。Custom Card は、[Ignite UI for Angular Card コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/card.html)のレイアウトにカスタム コードを使用します。
 

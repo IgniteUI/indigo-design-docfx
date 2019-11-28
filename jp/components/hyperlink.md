@@ -5,7 +5,7 @@ _keywords: デザイン システム, Sketch, コンポーネント, UI Library,
 _language: ja
 ---
 
-## Hyperlink
+## Hyperlink (ハイパーリンク)
 
 Hyperlink コンポーネント シンボルは、利用規約やプライバシー ポリシーなど段落のテキスト部分のスタイルに関する追加情報へのアクセスを提供します。
 
