@@ -72,7 +72,7 @@ Chip は、さまざまなオーバーライドで境界線と背景色、テキ
 
 ## Chips 領域
 
-Chip 領域コンポーネントを使用して Chips のコレクションを体系化します。Chip 領域は Ignite UI for Angular で使用されるコンテナ領域と同一でヘルプの [Ignite UI for Angular Chip Component](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/chip.html) トピックで説明します。
+Chip 領域コンポーネントを使用して Chips のコレクションを体系化します。Chip 領域は Ignite UI for Angular で使用されるコンテナ領域と同一でヘルプの [Ignite UI for Angular Chip コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/chip.html) トピックで説明します。
 
 ### Chips 領域デモ
 
