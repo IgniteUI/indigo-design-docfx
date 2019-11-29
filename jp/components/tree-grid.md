@@ -93,7 +93,7 @@ Tree Column Cell は、`Depth` のオーバーライドでデータ階層のレ�
 
 #### テキスト
 
-ヘッダーの Text プロパティにテキスト、[バインディング テキスト](../codegen/data-binding.md)、または両方を含むことができます。例:
+ヘッダーの Text プロパティにテキスト、[テキストのバインディング](../codegen/data-binding.md)、または両方を含むことができます。例:
 
 - 設定
 - {settingsLabel}

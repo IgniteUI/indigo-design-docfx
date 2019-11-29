@@ -89,7 +89,7 @@ Card はより詳細な情報についての概要やエントリ ポイント�
 - [Avatar](avatar.md)
 - [Button](button.md)
 - [Icon](icon.md)
-- [Card Collection Pattern](../patterns/card-collection.md)
+- [Card Collection パターン](../patterns/card-collection.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

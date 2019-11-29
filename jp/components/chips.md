@@ -128,7 +128,7 @@ Chips Area を使用する場合は、上記の各 Chip コンポーネントの
 
 ### Chip Text
 
-このオーバーライドは Chip 内で使用するテキストを制御します。[バインド](../codegen/data-binding.md)をオーバーライドに使用し、コード生成時に適切な HTML を作成してデータ バインディングをサポートします。
+このオーバーライドは Chip 内で使用するテキストを制御します。[バインディング](../codegen/data-binding.md)をオーバーライドに使用し、コード生成時に適切な HTML を作成してデータ バインディングをサポートします。
 
 非バインディング:
 
@@ -196,7 +196,7 @@ HTML:
 関連トピック:
 
 - [Grid](grid.md)
-- [Data Binding](../codegen/data-binding.md)
+- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

@@ -36,6 +36,14 @@ Navigation Drawer は、アプリの主要ナビゲーションに使用する�
 | <img class="responsive-img" src="../images/nav-drawer_do2.png" srcset="../images/nav-drawer_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/nav-drawer_dont2.png" srcset="../images/nav-drawer_dont2@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/nav-drawer_do3.png" srcset="../images/nav-drawer_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/nav-drawer_dont3.png" srcset="../images/nav-drawer_dont3@2x.png 2x" /> |
 
+## コード生成
+
+> [!WARNING]
+> Navigation Drawer のインスタンスで `Detach from Symbol` をトリガーした場合、Navigation Drawer のコード生成の精度を低下します。更に項目を作成する場合のみ行います。`🚫igx-nav-drawer` および `🕹️DataSource` レイヤー インタクトを保持してください。
+
+`🕹️DataSource`
+`🕹️Event`
+
 ## その他のリソース
 
 関連トピック:

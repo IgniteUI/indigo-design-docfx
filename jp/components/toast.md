@@ -38,50 +38,29 @@ Toast は、常に水平に配置する必要があり、その他の配置は�
 
 ## コードの生成
 
-Toast の色を指定した場合、Toast HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
+このセクションは、オーバーライドとコード生成にどのような影響があるかについて説明します。
 
 > [!WARNING]
 > デザインの Toast のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Toast のためのコード生成機能が失われます。
 
-### データ バインディング
-
-データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
-
-#### ネストなし
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-DataProperty: `{imageName}`
-
-#### ネストあり
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-DataProperty: `{profile.imageName}`
-
 ### データ プロパティ
 
-`🕹️DataProperty` 値は Toast のテキスト プロパティへのデータ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` はコード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名です。この値は Text プロパティをオーバーライドします。
+`🕹️DataProperty` 値は Toast のテキスト プロパティへの[データ バインディング](../codegen/data-binding.md)を設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` はコード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名です。この値は Text プロパティをオーバーライドします。
 
 ### テキスト
 
-Text プロパティにテキスト、バインディング、または両方を含むことができます。例:
+Text プロパティにテキスト、[テキストのバインディング](../codegen/data-binding.md)、または両方を含むことができます。例:
 
 - 設定
 - {settingsLabel}
 - 重要な {labelText}
 
 ## その他のリソース
+
+関連トピック:
+
+- [データ バインディング](../codegen/data-binding.md)
+  <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
 

@@ -48,37 +48,9 @@ Checkbox のチェック マーク、チェック ボックス色、またはチ
 > [!WARNING]
 > デザインの　 Checkbox のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Checkbox のためのコード生成機能が失われる結果となります。
 
-### データ バインディング
-
-データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
-
-#### ネストなし
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty: `{imageName}`
-
-#### ネストあり
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty: `{profile.imageName}`
-
 ### データ プロパティ
 
-`🕹️DataProperty` 値は [Angular Reactive Forms](https://angular.io/guide/reactive-forms) を使用してチェックボックスの checked プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` はコード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名です。
+`🕹️DataProperty` 値は [Angular Reactive Forms](https://angular.io/guide/reactive-forms) を使用してチェックボックスの checked プロパティへの双方向[データ バインディング](../codegen/data-binding.md)を設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` はコード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名です。
 
 モデル オブジェクト名および `🕹️DataProperty` が両方提供される場合、Reactive Forms フォームを作成するためにフォーム ビルダー コードで TypeScript `ngOnInit` メソッドが生成されます。`🕹️DataProperty` はチェックボックス コントロールの formControlName プロパティを設定します。
 
@@ -92,7 +64,7 @@ State は、デザインで別の状態にあるチックボックスを表し�
 
 ### テキスト
 
-Text プロパティにテキスト、バインディング、または両方を含むことができます。例:
+Text プロパティにテキスト、[テキストのバインディング](../codegen/data-binding.md)、または両方を含むことができます。例:
 
 - 設定
 - {settingsLabel}
@@ -102,7 +74,8 @@ Text プロパティにテキスト、バインディング、または両方を
 
 関連トピック:
 
-- [Form Pattern](../patterns/form.md)
+- [Form パターン](../patterns/form.md)
+- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

@@ -7,7 +7,7 @@ _language: ja
 
 ## Category Chart (カテゴリ チャート)
 
-Category Chart コンポーネント は、密度をラップして複雑なデータをシンプルに表示します。Category Charts は、関連データ セットできれいなダッシュボードを作成するために組み合わせて使用します。Category Chart は、[Ignite UI for Angular Category Chart コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/categorychart.html)と視覚的に同じものです。
+Category Chart コンポーネント は、密度をラップして複雑なデータをシンプルに表示します。Category Charts は、関連データ セットできれいなダッシュボードを作成するために組み合わせて使用します。Category Chart は、[Ignite UI for Angular Category Chart コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/category-chart.html)と視覚的に同じものです。
 
 ### Category Chart デモ
 
@@ -75,7 +75,7 @@ width=”300px” or width=”100%”
 
 ### チャートのタイトル
 
-Title プロパティには、テキスト、[テキストのバインド](../codegen/data-binding.md)、またはその両方を含むことができます。例:
+Title プロパティには、テキスト、[テキストのバインディング](../codegen/data-binding.md)、またはその両方を含むことができます。例:
 
 - 設定
 - {settingsLabel}
@@ -87,7 +87,7 @@ Title はオプションです。
 
 関連トピック:
 
-- [Data Binding](../codegen/data-binding.md)
+- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

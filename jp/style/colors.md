@@ -7,7 +7,7 @@ _language: ja
 
 ## カラー
 
-スタイリング ライブラリ ファイルから Colors はテーマ カラー (`primary`、`secondary`、`success`、`warn`、`error`、`info`) を設定します。Styling ライブラリで Colors を設定する方法は、[Ignite UI for Angular Themes](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes.html) と同じです。
+スタイリング ライブラリ ファイルから Colors はテーマ カラー (`primary`、`secondary`、`success`、`warn`、`error`、`info`) を設定します。Styling ライブラリで Colors を設定する方法は、[Ignite UI for Angular テーマ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes.html) と同じです。
 
 <img class="responsive-img" src="../images/colors_palette.png" srcset="../images/colors_palette@2x.png 2x" />
 
@@ -18,7 +18,7 @@ _language: ja
 <img class="responsive-img" src="../images/colors_generation.png" srcset="../images/colors_generation@2x.png 2x" />
 
 > [!Note]
-> テキストカラーは、デフォルト テーマをすべて更新する際に `Typography` で制御されるため、`Typography` ページのカラーを手動で変更する必要があります。プライマリ カラーを変更後、Typography の `Primary` セクションを同じカラーに変更してください。手順の詳細は、[Typography](typography.md) をご確認ください。
+> テキストカラーは、デフォルト テーマをすべて更新する際に `Typography` で制御されるため、`Typography` ページのカラーを手動で変更する必要があります。プライマリ カラーを変更後、Typography の `Primary` セクションを同じカラーに変更してください。手順の詳細は、[タイポグラフィ](typography.md) をご確認ください。
 
 ### カラーの追加
 
@@ -70,13 +70,13 @@ _language: ja
 
 Sketch 描画に追加されるカラー スタイル オブジェクトは相対するカラーおよびサイズの HTML div 要素として描画されます。
 
-ブランディング用に `primary`、`secondary`、`success`、`warn`、`error`、および `info` カラー シンボルをカスタマイズすると、生成されたコードに同様の外観を保存します。[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) のテーマでコードによって実装できます。カラー パレットを作成して追加する方法の詳細については、「[テーマ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes.html#generating-color-palettes)」トピックをご覧ください。スタイリング ライブラリから Colors の正しい HEX 値を挿入してください。
+ブランディング用に `primary`、`secondary`、`success`、`warn`、`error`、および `info` カラー シンボルをカスタマイズすると、生成されたコードに同様の外観を保存します。[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) のテーマでコードによって実装できます。カラー パレットを作成して追加する方法の詳細については、「[テーマ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes.html#色パレットの生成)」トピックをご覧ください。スタイリング ライブラリから Colors の正しい HEX 値を挿入してください。
 
 ## その他のリソース
 
 関連トピック:
 
-- [Typography](typography.md)
+- [タイポグラフィ](typography.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

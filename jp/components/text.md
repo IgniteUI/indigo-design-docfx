@@ -80,43 +80,20 @@ Title または Paragraph に色やフォントを指定した場合、タイト
 > [!WARNING]
 > デザインの Title または Paragraph Text のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Title または Paragraph Text のためのコード生成機能が失われる結果となります。コード生成で Sketch のレイアウトと一致させるには、コンテンツを描画するために必要な高さを Title および Paragraph に設定してください。
 
-### データ バインディング
-
-データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
-
-#### ネストなし
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty: `{imageName}`
-
-#### ネストあり
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty: `{profile.imageName}`
-
 ### テキスト
 
-Text プロパティにテキスト、バインディング、または両方を含むことができます。例:
+Text プロパティにテキスト、[テキストのバインディング](../codegen/data-binding.md)、または両方を含むことができます。例:
 
 - 設定
 - {settingsLabel}
 - 重要な {labelText}
 
 ## その他のリソース
+
+関連トピック:
+
+- [データ バインディング](../codegen/data-binding.md)
+  <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
 

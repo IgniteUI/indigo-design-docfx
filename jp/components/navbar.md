@@ -66,7 +66,7 @@ NavBar コントロールの左側にある Action Button に使用するアイ�
 
 ### タイトル
 
-NavBar のタイトル領域内に表示されます。Title プロパティには、テキスト、[テキストのバインド](../codegen/data-binding.md)、またはその両方を含むことができます。例:
+NavBar のタイトル領域内に表示されます。Title プロパティには、テキスト、[テキストのバインディング](../codegen/data-binding.md)、またはその両方を含むことができます。例:
 
 - 設定
 - {settingsLabel}
@@ -82,7 +82,7 @@ NavBar のタイトル領域内に表示されます。Title プロパティに�
 
 - [Icon](icon.md)
 - [Navigation Drawer](nav-drawer.md)
-- [Data Binding](../codegen/data-binding.md)
+- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

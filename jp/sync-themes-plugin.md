@@ -27,7 +27,7 @@ Sketch の `Plugins` メニューの `Indigo.Design` から `Themes` を選択�
 
 ### テーマの新規作成
 
-ブランディングに基づいてテーマをビルドし、テーマ コレクションに追加する場合は、`新しいテーマ`を選択して色やタイポグラフィを必要に応じて調整します。デフォルトの値は、[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) の [デフォルトのテーマ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes/examples.html#default-theme)と同じです。
+ブランディングに基づいてテーマをビルドし、テーマ コレクションに追加する場合は、`新しいテーマ`を選択して色やタイポグラフィを必要に応じて調整します。デフォルトの値は、[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) の [デフォルトのテーマ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes/examples.html#デフォルト-テーマ)と同じです。
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Start_New_Theme.png" srcset="images/Sync_themes_plugin_Start_New_Theme@2x.png 2x" />
 
@@ -134,7 +134,7 @@ Indigo.Design クラウドにプロトタイプを公開する準備ができた
 
 関連トピック:
 
-- [色](../style/colors.md)
-- [タイポグラフィ](../style/typography.md)
+- [カラー](./style/colors.md)
+- [タイポグラフィ](./style/typography.md)
 
 コミュニティに参加して新しいアイデアをご提案ください。
