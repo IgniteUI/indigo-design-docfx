@@ -7,7 +7,7 @@ _language: ja
 
 ## グリッド集計
 
-Grid 集計のコンポーネントは、各グリッド列のすべてのデータで算出された集計値を示すために使用します。グリッドの下にある特定のセル集計を挿入して表領域をグリッド構造と一致させますが、含まれる Label と Number は集計値の情報を含みます。Grid 集計は、[Ignite UI for Angular Grid 集計機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/summaries.html) と視覚的に同じものです。
+Grid 集計のコンポーネントは、各グリッド列のすべてのデータで算出された集計値を示すために使用します。グリッドの下にある特定のセル集計を挿入して表領域をグリッド構造と一致させますが、含まれる Label と Number は集計値の情報を含みます。Grid 集計は、[Ignite UI for Angular Grid 集計機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/summaries.html)と視覚的に同じものです。
 
 
 ### Grid 集計デモ

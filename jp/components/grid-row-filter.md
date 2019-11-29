@@ -7,7 +7,7 @@ _language: ja
 
 ## 行フィルター
 
-Grid 行フィルターを使用して、フィルタリング条件を持つ Chip を含む特別なタイプのヘッダー セルを介して Grid 列のフィルタリング基準を指定します。Grid 行フィルターは、[Ignite UI for Angular Grid フィルタリング機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/filtering.html) と視覚的に同じものです。
+Grid 行フィルターを使用して、フィルタリング条件を持つ Chip を含む特別なタイプのヘッダー セルを介して Grid 列のフィルタリング基準を指定します。Grid 行フィルターは、[Ignite UI for Angular Grid フィルタリング機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/filtering.html)と視覚的に同じものです。
 
 ### Grid 行フィルターのデモ
 

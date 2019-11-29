@@ -7,7 +7,7 @@ _language: ja
 
 ## グリッド ページング
 
-Grid ページング コンポーネントを使用して、ユーザーに現在の位置 (ユーザーが現在いるグリッドページ) を通知し、Grid コンテンツの前/次および最初/最後のページへのナビゲーションを許可します。Grid のすぐ下にギャップなしでグリッド ページングを配置します。Grid ページングは、[Ignite UI for Angular Grid ページング機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid_paging.html) と視覚的に同じものです。
+Grid ページング コンポーネントを使用して、ユーザーに現在の位置 (ユーザーが現在いるグリッドページ) を通知し、Grid コンテンツの前/次および最初/最後のページへのナビゲーションを許可します。Grid のすぐ下にギャップなしでグリッド ページングを配置します。Grid ページングは、[Ignite UI for Angular Grid ページング機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid_paging.html)と視覚的に同じものです。
 
 ### Grid ページング デモ
 

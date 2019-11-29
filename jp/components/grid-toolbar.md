@@ -7,7 +7,7 @@ _language: ja
 
 ## ツールバー
 
-Grid ツールバーは、グリッド全体の外観と動作に影響するアクションを定義するために使用します。デフォルトでは、ツールバーに列の表示/非表示、ピン固定/ピン固定解除、および Grid コンテンツをさまざまな形式でエクスポートするためのアクションが含まれます。Grid ページングは、[Ignite UI for Angular Grid ツールバー機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html) と視覚的に同じものです。
+Grid ツールバーは、グリッド全体の外観と動作に影響するアクションを定義するために使用します。デフォルトでは、ツールバーに列の表示/非表示、ピン固定/ピン固定解除、および Grid コンテンツをさまざまな形式でエクスポートするためのアクションが含まれます。Grid ページングは、[Ignite UI for Angular Grid ツールバー機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html)と視覚的に同じものです。
 
 ### Grid ツールバーのデモ
 
@@ -15,22 +15,22 @@ Grid ツールバーは、グリッド全体の外観と動作に影響するア
 
 ### スタイル設定
 
-Grid ツールバーには、アクションのさまざまなオーバーライド、タイトル スタイルおよび背景色により、スタイル設定は高い柔軟性があります。
+Grid ツールバーは、操作のオーバーライド、タイトルのスタイルや背景色などのスタイル設定に高い柔軟性があります。
 
 <img class="responsive-img" src="../images/grid_toolbar_styling.png" srcset="../images/grid_toolbar_styling@2x.png 2x" />
 
 ## コードの生成
 
 > [!WARNING]
-> デザイン内のツールバーのインスタンスで `Detach from Symbol` をしないでください。そうでない場合、正しく生成されません。
+> デザイン内のツールバーのインスタンスで `Detach from Symbol` を行わないでください。正しく生成されなくなります。
 
 ツールバーは、ヘッダーグループと本体グループの兄弟としてグリッドを定義するグループ内に配置してください。
 
-### Title (タイトル)
+### Title
 
 このオーバーライドは ツール バー 内で表示するテキストを制御します。
 
-### Action 1, 2 および 3 (アクション 1、2 および 3)
+### Action 1, 2 および 3
 
 これらのオーバーライドは、ツールバーで使用可能なアクションをコントロールするために使用されます。次が使用可能なオプションです。
 
@@ -46,7 +46,7 @@ Grid ツールバーには、アクションのさまざまなオーバーライ
 
 このオプションはツールバーに [列ピン固定](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#機能) ボタンを追加します。これは、ユーザーがどの列をピン固定にするかを操作できる UI 要素です。
 
-#### Switch, Icon & Button (スイッチ、アイコン、ボタン)
+#### Switch, Icon & Button
 
 スイッチ、アイコン、ボタンのオプションは[カスタム コンテンツ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#カスタム-コンテンツ-テンプレート)と見なされます。 デフォルトでは、ツールバーに含まれていません。これらをツールバー内で描画するために、コード生成はツールバーが使用するこれらのコンポーネントを含む `ng-template` を生成します。
 
