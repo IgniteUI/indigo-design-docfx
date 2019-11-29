@@ -81,6 +81,7 @@ Text プロパティにテキスト、[テキストのバインディング](../
 - [AV Player パターン](../patterns/av.md)
 - [File Upload パターン](../patterns/file-upload.md)
 - [Form パターン](../patterns/form.md)
+- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

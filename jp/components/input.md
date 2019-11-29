@@ -114,7 +114,7 @@ Input のボックス タイプを使用して画像上にフォームを配置�
 
 ### データ プロパティ
 
-`🕹️DataProperty` 値は [Angular Reactive Forms](https://angular.io/guide/reactive-forms) を使用して入力の value プロパティへの 2-way [データ バインディング](../codegen/data-binding.md)を設定するために使用されます。`🕹️DataProperty` はオプションですが、指定される場合、コード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名になります。そのため、`🕹️DataProperty` が使用される場合、開発者がモデル オブジェクト名を指定する必要があります。指定されない場合、無視されます。
+`🕹️DataProperty` 値は [Angular Reactive Forms](https://angular.io/guide/reactive-forms) を使用して入力の value プロパティへの双方向[データ バインディング](../codegen/data-binding.md)を設定するために使用されます。`🕹️DataProperty` はオプションですが、指定される場合、コード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名になります。そのため、`🕹️DataProperty` が使用される場合、開発者がモデル オブジェクト名を指定する必要があります。指定されない場合、無視されます。
 
 ### 日付と時刻の入力
 
