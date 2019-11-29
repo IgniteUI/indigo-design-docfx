@@ -56,35 +56,9 @@ Slider の色を指定した場合、Slider HTML 要素は div でラップさ�
 > [!WARNING]
 > デザインの Slider のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Slider のためのコード生成機能が失われます。
 
-### データ バインディング
-
-データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
-
-#### ネストなし
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-DataProperty: `{imageName}`
-
-#### ネストあり
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-DataProperty: `{profile.imageName}`
-
 ### データ プロパティ
 
-`🕹️DataProperty` 値は [Angular Reactive Forms](https://angular.io/guide/reactive-forms) を使用してスライダーの value プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` はコード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名です。
+`🕹️DataProperty` 値は [Angular Reactive Forms](https://angular.io/guide/reactive-forms) を使用してスライダーの value プロパティへの双方向[データ バインディング](../codegen/data-binding.md)を設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` はコード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名です。
 
 単一つまみスライダーの場合、`🕹️DataProperty` を数値に設定する必要があります。
 
@@ -100,6 +74,9 @@ State が無効またはスライダー部分が表示されない場合、コ�
 ## その他のリソース
 
 関連トピック:
+
+- [データ バインディング](../codegen/data-binding.md)
+  <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
 

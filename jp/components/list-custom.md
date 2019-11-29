@@ -68,7 +68,7 @@ List Item レイアウトでは、挿入されている要素に基づいてさ�
 - [Badge](badge.md)
 - [Button](button.md)
 - [Text](text.md)
-- [Lists Pattern](../patterns/lists.md)
+- [Lists パターン](../patterns/lists.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

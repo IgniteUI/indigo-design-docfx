@@ -46,41 +46,13 @@ Badge に色を指定した場合、Badge HTML 要素は div でラップされ�
 > [!WARNING]
 > デザインの Badge のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Badge のためのコード生成機能が失われる結果となります。
 
-### データ バインディング
-
-データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
-
-#### ネストなし
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty: `{imageName}`
-
-#### ネストあり
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty: `{profile.imageName}`
-
 ### Event プロパティ
 
 `🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用されて HTML に Angular クリック シグネチャーを追加します。波括弧構文 ({onEventName}) を使用してイベントを指定する必要があります。
 
 ### データ プロパティ
 
-`🕹️DataProperty` 値はバッジ値プロパティへのデータ バインディングを設定するために使用されます。コード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名です。そのため、`🕹️DataProperty` が使用される場合、モデル オブジェクト名を指定する必要があります。指定されない場合、無視されます。
+`🕹️DataProperty` 値はバッジ値プロパティへの[データ バインディング](../codegen/data-binding.md)を設定するために使用されます。コード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名です。そのため、`🕹️DataProperty` が使用される場合、モデル オブジェクト名を指定する必要があります。指定されない場合、無視されます。
 
 バッジ タイプを Icon に設定した場合、`🕹️DataProperty` は無視されます。
 
@@ -92,8 +64,8 @@ DataProperty: `{profile.imageName}`
 
 Type を Number に設定する場合、以下が適用されます。
 
-- `🕹️DataProperty` が提供された場合、値は指定したプロパティにデータ バインドされます。
-- Text にデータ バインディングがある場合、値は指定したプロパティにデータ バインドされます。
+- `🕹️DataProperty` が提供された場合、値は指定したプロパティに[データ バインディング](../codegen/data-binding.md)されます。
+- Text にデータ バインディングがある場合、値は指定したプロパティにデータ バインディングされます。
 - Text に値がある場合、値はテキストに設定されます。
 
 ## その他のリソース
@@ -101,6 +73,7 @@ Type を Number に設定する場合、以下が適用されます。
 関連トピック:
 
 - [Avatar + Badge](../patterns/avatar-badge.md)
+- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

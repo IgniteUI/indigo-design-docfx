@@ -33,39 +33,11 @@ Carousel の戻るおよび次へ移動するためのボタンは、常に画�
 Carousel のナビゲーション ボタンの色を指定した場合、Carousel HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
 
 > [!WARNING]
-> デザインの Carousel のインスタンスで`シンボルからでタッチ`をトリガーすると、ほとんどの場合で Carousel のためのコード生成機能が失われる結果となります。
-
-### データ バインディング
-
-データ バインディングは波括弧構文によって指定されます。例: {slideDeck}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
-
-#### ネストなし
-
-```typescript
-SlideDeck {
-    slideDeck: string[] = [];
-}
-```
-
-DataSource: `{slideDeck}`
-
-#### ネストあり
-
-```typescript
-Profile {
-    slideDeck: string[] = [];
-}
-
-SlideDeck {
-    profile: Profile;
-}
-```
-
-DataSource: `{profile.slideDeck}`
+> デザインの Carousel のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Carousel のためのコード生成機能が失われる結果となります。
 
 ### データ ソース プロパティ
 
-`🕹️DataSource` 値は Carousel へのバインディングを設定するために使用されます。データ ソースは表示する画像名の文字列配列が必要です。`🕹️DataSource` プロパティはオプションです。`🕹️DataSource` が指定される場合、Slide スタイルはグループの最初の Slide から取得されます。その他の Slide スタイルが無視されます。
+`🕹️DataSource` 値は Carousel への[バインディング](../codegen/data-binding.md)を設定するために使用されます。データ ソースは表示する画像名の文字列配列が必要です。`🕹️DataSource` プロパティはオプションです。`🕹️DataSource` が指定される場合、Slide スタイルはグループの最初の Slide から取得されます。その他の Slide スタイルが無視されます。
 
 ### Sketch エレベーション
 
@@ -74,6 +46,9 @@ Sketch 描画の Button および Slide エレベーション変更がコード�
 ## その他のリソース
 
 関連トピック:
+
+- [Grid](grid.md)
+- [データ バインディング](../codegen/data-binding.md)
 
 コミュニティに参加して新しいアイデアをご提案ください。
 

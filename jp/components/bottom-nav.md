@@ -85,7 +85,7 @@ Sketch の制限によって Bottom Navigation コンポーネントの特定の
 
 ### テキスト
 
-このオーバーライドはアイコンとテキストを含むタブのみに表示されます。タブで表示されるテキストを指定します。プレーン テキスト、[バインディング テキスト](../codegen/data-binding.md)、または両方を含むことができます。例:
+このオーバーライドはアイコンとテキストを含むタブのみに表示されます。タブで表示されるテキストを指定します。プレーン テキスト、[テキストのバインディング](../codegen/data-binding.md)、または両方を含むことができます。例:
 
 - 設定
 - {settingsLabel}
@@ -96,7 +96,7 @@ Sketch の制限によって Bottom Navigation コンポーネントの特定の
 関連トピック:
 
 - [Navigation Drawer](nav-drawer.md)
-- [Data Binding](../codegen/data-binding.md)
+- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

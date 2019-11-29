@@ -7,7 +7,7 @@ _language: ja
 
 ## Bullet Graph (ブレット グラフ)
 
-Bullet Graph コンポーネントをデータ可視化に使用し、カラーコードされた下部の範囲で描かれたコンテキスト内の目標値を示します。Bullet Graph は、[Ignite UI for Angular Bullet Graph コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/bulletgraph.html)と視覚的に同じです。
+Bullet Graph コンポーネントをデータ可視化に使用し、カラーコードされた下部の範囲で描かれたコンテキスト内の目標値を示します。Bullet Graph は、[Ignite UI for Angular Bullet Graph コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/bullet-graph.html)と視覚的に同じです。
 
 目標値がない場合や不適切な場合は、[Linear Gauge](linear-gauge.md) を代わりに使用します。
 
@@ -46,7 +46,7 @@ Bullet Graph のスタイル設定は高い柔軟性があり、背景色の制�
 
 ### 最小値
 
-このオーバーライドは、ブレット グラフで最小値を制御します。[データ バインド](../codegen/data-binding.md)と直接的な数値の設定ををサポートします。バインドで bound プロパティを使用する場合、ランタイムの結果が数値になる必要があります。バインドを使用しない場合は値が数値である必要があります。値が正しい書式でない場合、最小値を設定せずに Bullet Gauge を生成でき、コントロールのデフォルト値が使用されます。
+このオーバーライドは、ブレット グラフで最小値を制御します。[データ バインディング](../codegen/data-binding.md)と直接的な数値の設定ををサポートします。バインドで bound プロパティを使用する場合、ランタイムの結果が数値になる必要があります。バインドを使用しない場合は値が数値である必要があります。値が正しい書式でない場合、最小値を設定せずに Bullet Gauge を生成でき、コントロールのデフォルト値が使用されます。
 
 バインディング:
 
@@ -58,7 +58,7 @@ Bullet Graph のスタイル設定は高い柔軟性があり、背景色の制�
 
 ### 最大値
 
-このオーバーライドは、ブレット グラフで表示する最小値を制御します。[データ バインド](../codegen/data-binding.md)と直接的な数値の設定ををサポートします。バインドで bound プロパティを使用する場合、ランタイムの結果が数値になる必要があります。バインドを使用しない場合は値が数値である必要があります。値が正しい書式でない場合、最大値を設定せずに Bullet Graph を生成でき、コントロールのデフォルト値が使用されます。
+このオーバーライドは、ブレット グラフで表示する最小値を制御します。[データ バインディング](../codegen/data-binding.md)と直接的な数値の設定ををサポートします。バインドで bound プロパティを使用する場合、ランタイムの結果が数値になる必要があります。バインドを使用しない場合は値が数値である必要があります。値が正しい書式でない場合、最大値を設定せずに Bullet Graph を生成でき、コントロールのデフォルト値が使用されます。
 
 バインディング:
 
@@ -104,7 +104,7 @@ Bullet Graph のスタイル設定は高い柔軟性があり、背景色の制�
 
 - [Linear Gauge](linear-gauge.md)
 - [Category Chart](chart-category.md)
-- [Data Binding](../codegen/data-binding.md)
+- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

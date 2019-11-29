@@ -86,7 +86,7 @@ Sketch の制限によって Tab コンポーネントの特定のタブとコ�
 
 ### Event プロパティ
 
-`Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に onTabItemSelected シグネチャを追加します。波括弧構文 `{onEventName}` を使用してイベントを指定する必要があります。
+`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に `onTabItemSelected` シグネチャを追加します。波括弧構文 `{onEventName}` を使用してイベントを指定する必要があります。
 
 ### レスポンシブ
 
@@ -113,7 +113,7 @@ Text プロパティには、テキスト、[テキストのバインド](../cod
 関連トピック:
 
 - [Details](../patterns/details.md)
-- [Data Binding](../codegen/data-binding.md)
+- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

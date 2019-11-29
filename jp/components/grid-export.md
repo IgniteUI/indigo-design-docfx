@@ -7,7 +7,7 @@ _language: ja
 
 ## エクスポート
 
-Grid エクスポートは、ユーザーがのエクスポートは、Grid から Excel および CSV ファイルをエクスポートするために使用できます。Grid エクスポートは、[Ignite UI for Angular Grid ツールバー 機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html) の 2番目のサンプルと視覚的に同一であり、[Ignite UI for の Excel エクスポート機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/export_excel.html) と同様に動作します。
+Grid エクスポートは、ユーザーがのエクスポートは、Grid から Excel および CSV ファイルをエクスポートするために使用できます。Grid エクスポートは、[Ignite UI for Angular Grid ツールバー 機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html)の 2番目のサンプルと視覚的に同一であり、[Ignite UI for の Excel エクスポート機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/export_excel.html)と同様に動作します。
 
 ### Grid エクスポートのデモ
 

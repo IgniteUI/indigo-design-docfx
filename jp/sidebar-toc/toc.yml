@@ -59,7 +59,7 @@
           href: ../components/radial-gauge.md
     - name: Checkbox
       href: ../components/checkbox.md
-    - name: Chip and Chips Area
+    - name: Chip と Chips Area
       href: ../components/chips.md
     - name: Combo
       href: ../components/combo.md
@@ -71,49 +71,49 @@
       href: ../components/grid.md
       new: true
       items:
-        - name: Grid ツールバー
+        - name: ツールバー
           href: ../components/grid-toolbar.md
           new: true
-        - name: Grid エクスポート
+        - name: エクスポート
           href: ../components/grid-export.md
           new: true
-        - name: Grid グループ化
+        - name: グループ化
           href: ../components/grid-grouping.md
           new: true
-        - name: Grid 列ピン固定
+        - name: 列ピン固定
           href: ../components/grid-column-pinning.md
           new: true
-        - name: Grid 列非表示
+        - name: 列非表示
           href: ../components/grid-column-hiding.md
           new: true
-        - name: Grid 列移動
+        - name: 列移動
           href: ../components/grid-column-moving.md
           new: true
-        - name: Grid 列サイズ変更
+        - name: 列サイズ変更
           href: ../components/grid-column-resizing.md
           new: true
-        - name: Grid 並べ替え
+        - name: 並べ替え
           href: ../components/grid-sorting.md
           new: true
-        - name: Grid 行フィルター
+        - name: 行フィルター
           href: ../components/grid-row-filter.md
           new: true
-        - name: Grid Excel スタイル フィルター
+        - name: Excel スタイル フィルター
           href: ../components/grid-excel-style-filter.md
           new: true
-        - name: Grid 行選択
+        - name: 行選択
           href: ../components/grid-row-selection.md
           new: true
-        - name: Grid 編集
+        - name: 編集
           href: ../components/grid-editing.md
           new: true
-        - name: Grid 表示密度
+        - name: 表示密度
           href: ../components/grid-display-density.md
           new: true
-        - name: Grid ページング
+        - name: ページング
           href: ../components/grid-paging.md
           new: true
-        - name: Grid 集計
+        - name: 集計
           href: ../components/grid-summaries.md
     - name: Hyperlink
       href: ../components/hyperlink.md
@@ -214,7 +214,7 @@
 
 - name: プロトタイプとユーザビリティ テスト
   header: true
-- name: 最初のプロトタイプを作成
+- name: はじめてのプロトタイプ作成
   href: ../prototyping/creating-a-prototype.md
 - name: インタラクション オプション
   href: ../prototyping/interaction-options.md

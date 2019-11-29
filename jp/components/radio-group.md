@@ -47,36 +47,10 @@ Radio Group の色やフォントを指定した場合、Radio Group HTML 要素
 
 > [!WARNING]
 > Radio Group のインスタンスで `Detach from Symbol` をトリガーした場合、Radio Group のコード生成の精度を低下します。Sketch 描画および Angular の生成されたレイアウトを比較すると、垂直マージンの違いが Radio Button コンポーネントに表示されます。提供された項目より多く項目を作成する必要がある場合のみ `Detach from Symbol` を使用します。それ以外の場合、none に設定してラジオ ボタンを非表示にし、`🚫radio-group`、`🕹️DataProperty`、および `🕹️DataSource` レイヤーをデタッチしないでください。コードが生成された後、デザインと一致するためにマージンを CSS で調整します。
- 
-### データ バインディング
-
-データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
-
-#### ネストなし
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-DataProperty: `{imageName}`
-
-#### ネストあり
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-DataProperty: `{profile.imageName}`
 
 ### データ プロパティ
 
-`🕹️DataProperty` 値は [Angular Reactive Forms](https://angular.io/guide/reactive-forms) を使用してラジオ ボタンの checked プロパティへの 2-way データ バインディングを設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` は、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトのプロパティ名です。
+`🕹️DataProperty` 値は [Angular Reactive Forms](https://angular.io/guide/reactive-forms) を使用してラジオ ボタンの checked プロパティへの双方向[データ バインディング](../codegen/data-binding.md)を設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` は、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトのプロパティ名です。
 
 モデル オブジェクト名および `🕹️DataProperty` が提供される場合、Reactive Forms フォームを作成するためにフォーム ビルダー コードで TypeScript `ngOnInit` メソッドが生成されます。`🕹️DataProperty` はラジオ ボタン コントロールの formControlName プロパティを設定します。
 
@@ -95,6 +69,11 @@ DataProperty: `{profile.imageName}`
 `🕹️DataSource` を設定した場合、Text プロパティは無視されます。Text が提供される場合、Radio Button の値およびラベルで使用されます。
 
 ## その他のリソース
+
+関連トピック:
+
+- [データ バインディング](../codegen/data-binding.md)
+  <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
 

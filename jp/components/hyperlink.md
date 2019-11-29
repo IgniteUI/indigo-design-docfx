@@ -40,48 +40,20 @@ Hyperlink テキスト色には段落で目立つ色を選択します。同じ�
 > [!WARNING]
 > デザインの Hyperlink のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Hyperlink のためのコード生成機能が失われます。
 
-### データ バインディング
-
-データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
-
-#### ネストなし
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty: `{imageName}`
-
-#### ネストあり
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty: `{profile.imageName}`
-
 ### Event プロパティ
 
 このプロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に Angular クリック シグネチャーを追加します。波括弧構文 ({onEventName}) を使用してイベントを指定する必要があります。
 
 ### LinkURL
 
-LinkURL を URL またはバインディングに設定します。提供される場合、この値は HTML コントロールの href プロパティに割り当てます。
+LinkURL を URL または[バインディング](../codegen/data-binding.md)に設定します。提供される場合、この値は HTML コントロールの href プロパティに割り当てます。
 
 - URL の例: http://www.infragistics.com
 - バインディングの例: {companyWebsite}
 
 ### テキスト
 
-Text プロパティにテキスト、バインディング、または両方を含むことができます。例:
+Text プロパティにテキスト、[テキストのバインディング](../codegen/data-binding.md)、または両方を含むことができます。例:
 
 - 設定
 - {settingsLabel}
@@ -93,7 +65,8 @@ Text プロパティは Hyperlink に表示するテキストを埋めるため�
 
 関連トピック:
 
-- [Form Pattern](../patterns/form.md)
+- [Form パターン](../patterns/form.md)
+- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

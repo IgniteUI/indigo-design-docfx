@@ -24,18 +24,18 @@ Indigo スタイリングはテーマ エンジンの実際の表示です。4 �
 <img class="responsive-img" src="../images/styling_structure.png"/>
 
 - [マテリアル アイコン](material-icons.md) - 100 個以上のマテリアル アイコンのコレクションは簡単に拡張できます。
-- [Colors](colors.md) - パレットは、プライマリ、セカンダリ、特殊な色、灰色の陰影、不透明度で構成されます。
-- [Typography](typography.md) - ジェネリックとコンポーネント固有のテキスト スタイルのコレクション。
-- [Elevation](elevation.md) - [マテリアル デザイン](https://material.io/design/environment/elevation.html)で使用されるアンブラ、ペナンブラ、アンビエント、シャドウをベースにした 24 シャドウのセット。
+- [カラー](colors.md) - パレットは、プライマリ、セカンダリ、特殊な色、灰色の陰影、不透明度で構成されます。
+- [タイポグラフィ](typography.md) - ジェネリックとコンポーネント固有のテキスト スタイルのコレクション。
+- [エレベーション](elevation.md) - [マテリアル デザイン](https://material.io/design/environment/elevation.html)で使用されるアンブラ、ペナンブラ、アンビエント、シャドウをベースにした 24 シャドウのセット。
 
 ## その他のリソース
 
 関連トピック:
 
-- [Material Icons](material-icons.md)
-- [Colors](colors.md)
-- [Typography](typography.md)
-- [Elevation](elevation.md)
+- [マテリアル アイコン](material-icons.md)
+- [カラー](colors.md)
+- [タイポグラフィ](typography.md)
+- [エレベーション](elevation.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

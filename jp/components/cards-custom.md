@@ -25,7 +25,7 @@ Card レイアウトをカスタマイズするには、`Cards/Custom` をアー
 | &nbsp;&nbsp; 🌈 Background | カードの背景色を定義                                                                                                           |
 | &nbsp;&nbsp; Mask          | `Radius` レイヤー プロパティを調整してカードの角を丸くします。                                                                 |
 | &nbsp;&nbsp; Elevation     | カード コレクション背景に薄いシャドウをドロップします。                                                                        |
-| 🕹️DataProperty             | データ バインドのコード生成で使用されます。                                                                                    |
+| 🕹️DataProperty             | データ バインディングのコード生成で使用されます。                                                                                    |
 
 #### スタイル設定
 
@@ -80,7 +80,7 @@ Custom Card レイアウトでは、カードに挿入されている要素に�
 - [Button](button.md)
 - [Icon](icon.md)
 - [Slider](slider.md)
-- [Card Collection Pattern](../patterns/card-collection.md)
+- [Card Collection パターン](../patterns/card-collection.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

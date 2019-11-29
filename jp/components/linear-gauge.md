@@ -7,7 +7,7 @@ _language: ja
 
 ## Linear Gauge (リニア ゲージ)
 
-Linear Gauge コンポーネントをデータ可視化に使用して、カラーコードされた下部の範囲で描かれたコンテキスト内の値を表示します。Linear Gauge は、[Ignite UI for Angular Linear Gauge コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/lineargauge.html)と視覚的に同じものです。
+Linear Gauge コンポーネントをデータ可視化に使用して、カラーコードされた下部の範囲で描かれたコンテキスト内の値を表示します。Linear Gauge は、[Ignite UI for Angular Linear Gauge コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/linear-gauge.html)と視覚的に同じものです。
 
 ターゲット値が情報の理解や解釈に非常に重要である場合、代わりに [Bullet Graph](bullet-graph.md) を使用します。
 
@@ -39,8 +39,8 @@ Linear Gauge のスタイル設定は高い柔軟性があり、背景色の制�
 
 ## 使用方法
 
-データ可視化や情報ダッシュボードの作成時では、、シナリオにターゲット値があるかないかに基づいて Bullet Graph と Linear Gauge のいずれかを選択し、スクリーンのスペースに基づいて Linear と Radial Gauge のいずれかを選択します。Graphs と Gauges は両方とも現在の値のみ表示し、過去の値を表示する方法はありません。アプリケーションでそのようなデータが必要な場合は[Category Chart](chart-category.md) を検討してください。
-わかりやすく、鮮明なデータ可視化を簡単に作成するために Needle の色は範囲や背景と十分なコントラストのある色にし、読みにくい、解釈しずらい結果となる同じ色のバリアントは使用しないようにします。[Radial Gauge](radial-gauge) とは異なり、Linear Gauge コンポーネントは周りにより多くの空スペースが必要なため、Linear Gauges のコレクションを密集して配置しないようにします。
+データ可視化や情報ダッシュボードの作成時では、、シナリオにターゲット値があるかないかに基づいて Bullet Graph と Linear Gauge のいずれかを選択し、スクリーンのスペースに基づいて Linear と Radial Gauge のいずれかを選択します。Graphs と Gauges は両方とも現在の値のみ表示し、過去の値を表示する方法はありません。アプリケーションでそのようなデータが必要な場合は [Category Chart](chart-category.md) を検討してください。
+わかりやすく、鮮明なデータ可視化を簡単に作成するために Needle の色は範囲や背景と十分なコントラストのある色にし、読みにくい、解釈しずらい結果となる同じ色のバリアントは使用しないようにします。[Radial Gauge](radial-gauge.md) とは異なり、Linear Gauge コンポーネントは周りにより多くの空スペースが必要なため、Linear Gauges のコレクションを密集して配置しないようにします。
 
 | 良い例                                                                                         |悪い例                                                                                          |
 | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
@@ -56,7 +56,7 @@ Linear Gauge のスタイル設定は高い柔軟性があり、背景色の制�
 
 ### 最小値
 
-このオーバーライドは、Linear Gauge で最小値を制御します。[データ バインド](../codegen/data-binding.md)と直接的な数値の設定ををサポートします。バインドで bound プロパティを使用する場合、ランタイムの結果が数値になる必要があります。バインドを使用しない場合は値が数値である必要があります。値が正しい書式でない場合、最小値を設定せずに Linear Gauge を生成でき、コントロールのデフォルト値が使用されます。
+このオーバーライドは、Linear Gauge で最小値を制御します。[データ バインディング](../codegen/data-binding.md)と直接的な数値の設定ををサポートします。バインドで bound プロパティを使用する場合、ランタイムの結果が数値になる必要があります。バインドを使用しない場合は値が数値である必要があります。値が正しい書式でない場合、最小値を設定せずに Linear Gauge を生成でき、コントロールのデフォルト値が使用されます。
 
 バインディング:
 
@@ -68,7 +68,7 @@ Linear Gauge のスタイル設定は高い柔軟性があり、背景色の制�
 
 ### 最大値
 
-このオーバーライドは、Linear Gauge で最大値を制御します。[データ バインド](../codegen/data-binding.md)と直接的な数値の設定ををサポートします。バインドで bound プロパティを使用する場合、ランタイムの結果が数値になる必要があります。バインドを使用しない場合は値が数値である必要があります。値が正しい書式でない場合、最大値を設定せずに Linear Gauge を生成でき、コントロールのデフォルト値が使用されます。
+このオーバーライドは、Linear Gauge で最大値を制御します。[データ バインディング](../codegen/data-binding.md)と直接的な数値の設定ををサポートします。バインドで bound プロパティを使用する場合、ランタイムの結果が数値になる必要があります。バインドを使用しない場合は値が数値である必要があります。値が正しい書式でない場合、最大値を設定せずに Linear Gauge を生成でき、コントロールのデフォルト値が使用されます。
 
 バインディング:
 
@@ -96,10 +96,10 @@ Linear Gauge のスタイル設定は高い柔軟性があり、背景色の制�
 
 関連トピック:
 
-- ブレット グラフ
+- [Bullet Graph](bullet-graph.md)
 - [Category Chart](chart-category.md)
 - [Radial Gauge](radial-gauge.md)
-- [Data Binding](../codegen/data-binding.md)
+- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

@@ -7,7 +7,7 @@ _language: ja
 
 ## Combo (コンボ)
 
-Combo コンポーネントでは、ユーザーがスクロール可能なリストでユーザー インタラクションに応じて表示されるコレクションから項目を選択できます。単一項目のみに制約する場合は、[Dropdown](dropdown.md)を代わりに使用してください。Combo は、[Ignite UI for Angular Combo コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/combo.html)と視覚的に同じです。
+Combo コンポーネントでは、ユーザーがスクロール可能なリストでユーザー インタラクションに応じて表示されるコレクションから項目を選択できます。単一項目のみに制約する場合は、[Dropdown](dropdown.md) を代わりに使用してください。Combo は、[Ignite UI for Angular Combo コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/combo.html)と視覚的に同じです。
 
 ### Combo デモ
 
@@ -134,7 +134,7 @@ Combo ではサポートされません。
 
 ### Combo テキスト
 
-Combo テキストは、値が選択されるまで Combo 入力でプレース ホルダー テキストとして使用されます。テキスト、[バインディング テキスト](../codegen/data-binding.md)、またはその両方を含むことができます。例:
+Combo テキストは、値が選択されるまで Combo 入力でプレース ホルダー テキストとして使用されます。テキスト、[テキストのバインディング](../codegen/data-binding.md)、またはその両方を含むことができます。例:
 
 - 設定
 - {settingsLabel}
@@ -145,9 +145,9 @@ Combo テキストは、値が選択されるまで Combo 入力でプレース 
 関連トピック:
 
 - [Dropdown](dropdown.md)
-- [Form Pattern](../patterns/form.md)
+- [Form パターン](../patterns/form.md)
 - [Input](input.md)
-- [Data Binding](../codegen/data-binding.md)
+- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

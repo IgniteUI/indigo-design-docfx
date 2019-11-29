@@ -7,7 +7,7 @@ _language: ja
 
 ## Radial Gauge (ラジアル ゲージ)
 
-Radial Gauge コンポーネントを円形のデータ可視化を使用し、カラーコードされた下部の範囲で描かれたコンテキスト内の値を表示します。Radial Gauge は、[Ignite UI for Angular ラジアルゲージ コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/radialgauge.html)と視覚的に同じものです。
+Radial Gauge コンポーネントを円形のデータ可視化を使用し、カラーコードされた下部の範囲で描かれたコンテキスト内の値を表示します。Radial Gauge は、[Ignite UI for Angular Radial Gauge コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/radial-gauge.html)と視覚的に同じものです。
 
 ターゲット値が情報の理解や解釈に非常に重要である場合、代わりに [Bullet Graph](bullet-graph.md) を使用します。
 
@@ -48,8 +48,8 @@ Radial Gauge のスタイル設定は高い柔軟性があり、背景色の制�
 
 ## 使用方法
 
-データ可視化や情報ダッシュボードの作成時では、スクリーンスペースの量に基づいて Linear と Radial Gauges のいずれかを選択します。Gauges は現在の値のみ表示し、過去の値を表示する方法はありません。アプリケーションでそのようなデータが必要な場合は[Category Chart](chart-category.md) を検討してください。
-わかりやすく、鮮明なデータ可視化を簡単に作成するために Needle の色は範囲や背景と十分なコントラストのある色にし、読みにくい、解釈しずらい結果となる同じ色のバリアントは使用しないようにします。[Linear Gauge](linear-gauge) とは異なり、Radial Gauge コンポーネントは空スペースが十分あるため必要な情報を維持しながら Radial Gauges のコレクションを並べて配置できます。
+データ可視化や情報ダッシュボードの作成時では、スクリーンスペースの量に基づいて Linear と Radial Gauges のいずれかを選択します。Gauges は現在の値のみ表示し、過去の値を表示する方法はありません。アプリケーションでそのようなデータが必要な場合は [Category Chart](chart-category.md) を検討してください。
+わかりやすく、鮮明なデータ可視化を簡単に作成するために Needle の色は範囲や背景と十分なコントラストのある色にし、読みにくい、解釈しずらい結果となる同じ色のバリアントは使用しないようにします。[Linear Gauge](linear-gauge.md) とは異なり、Radial Gauge コンポーネントは空スペースが十分あるため必要な情報を維持しながら Radial Gauges のコレクションを並べて配置できます。
 
 | 良い例                                                                                       |悪い例                                                                                        |
 | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
@@ -64,7 +64,7 @@ Radial Gauge のスタイル設定は高い柔軟性があり、背景色の制�
 
 ### 最小値
 
-このオーバーライドは、Radial Gauge で最小値を制御します。[データ バインド](../codegen/data-binding.md)と直接的な数値の設定ををサポートします。バインドで bound プロパティを使用する場合、ランタイムの結果が数値になる必要があります。バインドを使用しない場合は値が数値である必要があります。値が正しい書式でない場合、最小値を設定せずに Radial Gauge を生成でき、コントロールのデフォルト値が使用されます。
+このオーバーライドは、Radial Gauge で最小値を制御します。[データ バインディング](../codegen/data-binding.md)と直接的な数値の設定ををサポートします。バインドで bound プロパティを使用する場合、ランタイムの結果が数値になる必要があります。バインドを使用しない場合は値が数値である必要があります。値が正しい書式でない場合、最小値を設定せずに Radial Gauge を生成でき、コントロールのデフォルト値が使用されます。
 
 バインディング
 
@@ -76,7 +76,7 @@ Radial Gauge のスタイル設定は高い柔軟性があり、背景色の制�
 
 ### 最大値
 
-Radial Gauge で最大値の制御をオーバーライドします。[データ バインド](../codegen/data-binding.md)と直接的な数値の設定ををサポートします。バインドで bound プロパティを使用する場合、ランタイムの結果が数値になる必要があります。バインドを使用しない場合は値が数値である必要があります。指定した値が正しい書式でない場合、最大値を設定せずに Radial Gauge を生成し、コントロールのデフォルト値が使用されます。
+Radial Gauge で最大値の制御をオーバーライドします。[データ バインディング](../codegen/data-binding.md)と直接的な数値の設定ををサポートします。バインドで bound プロパティを使用する場合、ランタイムの結果が数値になる必要があります。バインドを使用しない場合は値が数値である必要があります。指定した値が正しい書式でない場合、最大値を設定せずに Radial Gauge を生成し、コントロールのデフォルト値が使用されます。
 
 バインディング
 
@@ -107,7 +107,7 @@ Radial Gauge で最大値の制御をオーバーライドします。[データ
 - [Bullet Graph](bullet-graph.md)
 - [Category Chart](chart-category.md)
 - [Linear Gauge](linear-gauge.md)
-- [Data Binding](../codegen/data-binding.md)
+- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

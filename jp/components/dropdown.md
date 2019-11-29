@@ -7,7 +7,7 @@ _language: ja
 
 ## Dropdown (ドロップダウン)
 
-Dropdown コンポーネントでは、ユーザーがスクロール可能なリストでユーザー インタラクションに応じて表示されるコレクションから項目を選択できます。一度に 1 項目のみ選択でき、複数選択を許容する場合は [Combo](combo.md) を使用します。ドロップダウン は、[Ignite UI for Angular ドロップダウン コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/drop_down.html)と視覚的に同じです。
+Dropdown コンポーネントでは、ユーザーがスクロール可能なリストでユーザー インタラクションに応じて表示されるコレクションから項目を選択できます。一度に 1 項目のみ選択でき、複数選択を許容する場合は [Combo](combo.md) を使用します。ドロップダウン は、[Ignite UI for Angular Dropdown コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/drop_down.html)と視覚的に同じです。
 
 ### Dropdown デモ
 

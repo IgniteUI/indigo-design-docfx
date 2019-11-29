@@ -7,7 +7,7 @@ _language: ja
 
 ## Pricing Table (プライシング テーブル)
 
-Pricing Plan シンボルをプリセットとして使用して、製品またはサブスクリプション プランのさまざまな料金プランを表示します。各料金プランには、プラン名、料金、含まれているか含まれていない機能のリスト、および call-to-action ボタンが含まれています。Pricing Plan シンボルには、含まれているおよび含まれていないの 2 つの種類があります。
+Pricing Plan シンボルをプリセットとして使用して、製品またはサブスクリプション プランのさまざまな料金プランを表示します。各料金プランには、プラン名、料金、含まれているか含まれていない機能のリスト、および call-to-action ボタンが含まれています。Pricing Plan シンボルには、2 つのタイプ (お買い得 あり/なし) があります。
 
 <img class="responsive-img" src="../images/pricing_plan.png" srcset="../images/pricing_plan@2x.png 2x" />
 

@@ -53,34 +53,6 @@ Button の色またはフォントを指定した場合、Button HTML 要素は 
 > [!WARNING]
 > デザインの Button のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Button のためのコード生成機能が失われる結果となります。
 
-### データ バインディング
-
-データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。テキスト フィールド (`🕹️DataProperty` および `🕹️DataSource` 以外) も文字列補間構文をサポートします。例: 管理者: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
-
-#### ネストなし
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty: `{imageName}`
-
-#### ネストあり
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty: `{profile.imageName}`
-
 ### Event プロパティ
 
 `🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に Angular クリック シグネチャーを追加します。波括弧構文 ({onEventName}) を使用してイベントを指定する必要があります。
@@ -91,7 +63,7 @@ Sketch 描画の Button エレベーション変更がコード生成で描画�
 
 ### テキスト
 
-Text プロパティにテキスト、バインディング、または両方を含むことができます。例:
+Text プロパティにテキスト、[テキストのバインディング](../codegen/data-binding.md)、または両方を含むことができます。例:
 
 - 設定
 - {settingsLabel}
@@ -106,9 +78,10 @@ Text プロパティにテキスト、バインディング、または両方を
 - [Dialog](dialog.md)
 - [Snackbar](snackbar.md)
 - [Time Picker](time-picker.md)
-- [AV Player Pattern](../patterns/av.md)
-- [File Upload Pattern](../patterns/file-upload.md)
-- [Form Pattern](../patterns/form.md)
+- [AV Player パターン](../patterns/av.md)
+- [File Upload パターン](../patterns/file-upload.md)
+- [Form パターン](../patterns/form.md)
+- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

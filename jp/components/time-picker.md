@@ -53,15 +53,15 @@ Time Picker は、さまざまなオーバーライドでヘッダー背景、�
 > [!WARNING]
 > デザインの Time Picker のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Time Picker のためのコード生成機能が失われる結果となります。
 
-`DataSource`
-`Event`
+`🕹️DataSource`
+`🕹️Event`
 
 ## その他のリソース
 
 関連トピック:
 
 - [Calendar](calendar.md)
-- [Form Pattern](../patterns/form.md)
+- [Form パターン](../patterns/form.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

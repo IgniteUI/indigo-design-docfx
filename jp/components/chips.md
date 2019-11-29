@@ -1,6 +1,6 @@
 ---
-title: Chip と Chips 領域 - Design System コンポーネント
-_description: Chip Component シンボルはインタラクティブでコンパクトな表示です。Chips 領域コンポーネント シンボルを使用して Chips のコンポーネントのコレクションを表します。
+title: Chip と Chips Area - Design System コンポーネント
+_description: Chip Component シンボルはインタラクティブでコンパクトな表示です。Chips Area コンポーネント シンボルを使用して Chips のコンポーネントのコレクションを表します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
@@ -70,24 +70,24 @@ Chip は、さまざまなオーバーライドで境界線と背景色、テキ
 
 <img class="responsive-img" src="../images/chip_styling.png" srcset="../images/chip_styling@2x.png 2x" />
 
-## Chips 領域
+## Chips Area
 
-Chip 領域コンポーネントを使用して Chips のコレクションを体系化します。Chip 領域は Ignite UI for Angular で使用されるコンテナ領域と同一でヘルプの [Ignite UI for Angular Chip コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/chip.html) トピックで説明します。
+Chips Area コンポーネントを使用して Chips のコレクションを体系化します。Chips Area は Ignite UI for Angular で使用されるコンテナ領域と同一でヘルプの [Ignite UI for Angular Chip コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/chip.html) トピックで説明します。
 
-### Chips 領域デモ
+### Chips Area デモ
 
 <img class="responsive-img" src="../images/chips_area_demo.png" srcset="../images/chips_area_demo@2x.png 2x" />
 
-### Chips 領域タイプ
+### Chips Area タイプ
 
-Chips 領域は 2 つの異なるタイプがあり、Chip に関連のないコレクションを表す標準タイプ、Chips が定義済された順序で表示される接続したコレクションを表します。
+Chips Area は 2 つの異なるタイプがあり、Chip に関連のないコレクションを表す標準タイプ、Chips が定義済された順序で表示される接続したコレクションを表します。
 
 <img class="responsive-img" src="../images/chips_area_standard.png" srcset="../images/chips_area_standard@2x.png 2x" />
 <img class="responsive-img" src="../images/chips_area_connected.png" srcset="../images/chips_area_connected@2x.png 2x" />
 
-### Chips 領域のスタイル設定
+### Chips Area のスタイル設定
 
-Chips 領域は Chips の継承スタイルがサポートされますが、コネクター アイコンの色とグリフも変更できます。
+Chips Area は Chips の継承スタイルがサポートされますが、コネクター アイコンの色とグリフも変更できます。
 
 <img class="responsive-img" src="../images/chips_area_styling.png" srcset="../images/chips_area_styling@2x.png 2x" />
 
@@ -101,7 +101,7 @@ Chips をサイズ調整してテキスト コンテンツがを一行に表示�
 | <img class="responsive-img" src="../images/chip_do1.png" srcset="../images/chip_do1@2x.png 2x" />|<img class="responsive-img" src="../images/chip_dont2.png" srcset="../images/chip_dont2@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/chip_do3.png" srcset="../images/chip_do3@2x.png 2x" />|<img class="responsive-img" src="../images/chip_dont3.png" srcset="../images/chip_dont3@2x.png 2x" /> |
 
-チップ領域を使用する場合は、上記の各 Chip コンポーネントの提案に従ってください。また、接続した チップ領域を使用する場合、各チップはアクションとして設定せずに、関連するエンティティ (人の順序付きリストなど) にする必要があります。
+Chips Area を使用する場合は、上記の各 Chip コンポーネントの提案に従ってください。また、接続した Chips Area を使用する場合、各チップはアクションとして設定せずに、関連するエンティティ (人の順序付きリストなど) にする必要があります。
 
 | 良い例                                                                                     |悪い例                                                                                      |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
@@ -112,7 +112,7 @@ Chips をサイズ調整してテキスト コンテンツがを一行に表示�
 このセクションは、オーバーライドとコード生成にどのような影響があるかについて説明します。
 
 > [!WARNING]
-> デザインの Chip インスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で チップ のためのコード生成機能が失われます。右側の Chips 領域はコードジェネレーションでデタッチする必要があります。
+> デザインの Chip インスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で チップ のためのコード生成機能が失われます。右側の Chips Area はコードジェネレーションでデタッチする必要があります。
 
 ### チップの状態
 
@@ -128,7 +128,7 @@ Chips をサイズ調整してテキスト コンテンツがを一行に表示�
 
 ### Chip Text
 
-このオーバーライドは Chip 内で使用するテキストを制御します。[バインド](../codegen/data-binding.md)をオーバーライドに使用し、コード生成時に適切な HTML を作成してデータ バインディングをサポートします。
+このオーバーライドは Chip 内で使用するテキストを制御します。[バインディング](../codegen/data-binding.md)をオーバーライドに使用し、コード生成時に適切な HTML を作成してデータ バインディングをサポートします。
 
 非バインディング:
 
@@ -167,13 +167,13 @@ mySelectEvent(event): void {
 }
 ```
 
-### Chip 領域デタッチ シンボル
+### Chips Area デタッチ シンボル
 
-Chip 領域は正しくコード生成するためにデタッチする必要があります。デタッチ時に多数の子要素が含まれます。これらの要素は DataSource 要素とともに個々の Chip 要素になります。接続状態のチップの Chip 領域にコネクター要素が表示されます。各 Chip は上記の Chip と同じオーバライドです。コネクターのオーバーライドおよび要素は以下です。
+Chips Area は正しくコード生成するためにデタッチする必要があります。デタッチ時に多数の子要素が含まれます。これらの要素は DataSource 要素とともに個々の Chip 要素になります。接続状態のチップの Chips Area にコネクター要素が表示されます。各 Chip は上記の Chip と同じオーバライドです。コネクターのオーバーライドおよび要素は以下です。
 
-### Chips 領域の DataSource
+### Chips Area の DataSource
 
-いくつかのデータに基づいてこの Chip 領域を生成する旨をコード生成に通知します。指定された値は、TypeScript プロパティである必要があります。配列またはタイプのリストです。コード生成時に Angular `ngFor` ディレクティブを生成し、TypeScript プロパティを繰り返して Ignite UI for Angular Chip コンポーネントを作成します。
+複数のデータに基づいて Chips Area を生成する旨をコード生成に通知します。指定された値は、TypeScript プロパティである必要があります。配列またはタイプのリストです。コード生成時に Angular `ngFor` ディレクティブを生成し、TypeScript プロパティを繰り返して Ignite UI for Angular Chip コンポーネントを作成します。
 
 <img class="responsive-img" src="../images/chip_area_datasource.png" srcset="../images/chip_area_datasource@2x.png 2x" />
 
@@ -187,7 +187,7 @@ HTML:
 </igx-chip-area
 ```
 
-### Chips 領域コネクター アイコン
+### Chips Area コネクター アイコン
 
 このオーバーライドは、Chips Area 内の Chips 間で使用するアイコン グリフを制御します。コード生成時に Ignite UI for Angular Icon コンポーネントを生成します。Icon で使用する Ignite UI for Angular Icon テーマも生成し、Sketch で指定した色が Angular でも保たれます。
 
@@ -196,7 +196,7 @@ HTML:
 関連トピック:
 
 - [Grid](grid.md)
-- [Data Binding](../codegen/data-binding.md)
+- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

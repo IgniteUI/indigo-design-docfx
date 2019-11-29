@@ -7,7 +7,7 @@ _language: ja
 
 ## グループ化
 
-Grid グループ化 を使用して、特定の列内の一致する値によって定義されたグループの階層コレクションでデータ レコードを整理します。グループ化の条件の順序は、Grid ヘッダーの上の特別な領域に表され、新しいグループの開始をマークするために、Grid レコードの間に特別な行が挿入されます。Grid グループ化は、[Ignite UI for Angular Grid のグループ化](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/groupby.html) と視覚的に同じものです。
+Grid グループ化 を使用して、特定の列内の一致する値によって定義されたグループの階層コレクションでデータ レコードを整理します。グループ化の条件の順序は、Grid ヘッダーの上の特別な領域に表され、新しいグループの開始をマークするために、Grid レコードの間に特別な行が挿入されます。Grid グループ化は、[Ignite UI for Angular Grid のグループ化](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/groupby.html)と視覚的に同じものです。
 
 ### Grid グループ化のデモ
 
@@ -15,7 +15,7 @@ Grid グループ化 を使用して、特定の列内の一致する値によ�
 
 ### グループ化領域
 
-Grid には、`機能`の下に`グループ領域`シンボルがあり、レコードの階層グループを確立するために使用される列と、これらのグループがネストされる順序を指定します。挿入すると、`Detach from Symbol` を実行できます。内部には、グループ化がグリッドに適用される方法を定義する方法で構成できる[Chips 領域](chips.md) があります。
+Grid には、`機能`の下に`グループ領域`シンボルがあり、レコードの階層グループを確立するために使用される列と、これらのグループがネストされる順序を指定します。挿入すると、`Detach from Symbol` を実行できます。内部には、グループ化がグリッドに適用される方法を定義する方法で構成できる[Chips Area](chips.md) があります。
 
 ### 行でグループ化
 

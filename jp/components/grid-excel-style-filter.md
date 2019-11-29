@@ -7,19 +7,19 @@ _language: ja
 
 ## Excel スタイル フィルター
 
-グリッド Excel スタイル フィルターは、ユーザーが列に一連のグリッド機能を指定できるために使用します：一意の値または複数の条件でフィルタリングする、並べ替え、列移動、列非表示、ピン固定。一度に 1 列にのみ Excel スタイル フィルターを示し、ヘッダー フィルター状態はアクティブに設定する必要があります (以下ヘッダー セル参照)。グリッド Excel スタイル フィルターは、[Ignite UI for Angular Grid グリッド Excel スタイル フィルタリング機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/excel_style_filtering.html) と視覚的に同じものです。
+グリッド Excel スタイル フィルターは、ユーザーが列に一連のグリッド機能を指定できる機能です。一意の値または複数の条件でフィルタリング、並べ替え、列移動、列非表示、ピン固定。一度に 1 列にのみ Excel スタイル フィルターを示し、ヘッダー フィルター状態はアクティブに設定する必要があります (以下ヘッダー セル参照)。このフィルターは、[Ignite UI for Angular Grid グリッド Excel スタイル フィルタリング機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/excel_style_filtering.html)と視覚的に同じものです。
 
-### グリッド Exel スタイル フィルター デモ
+### Exel スタイル フィルター デモ
 
 <img class="responsive-img" src="../images/grid_excel_style_filter_demo.png" srcset="../images/grid_excel_style_filter_demo@2x.png 2x" />
 
 ### ヘッダー セル
 
-列に Excel スタイル フィルターがアクティブであることを示するには (フィルターのオーバーレイが表示されます)、`Feature Left` または `Feature Right` のオーバーライドを `Filtering` に設定し、`Filtering State`パネルで次のオーバーライドを `Filtering/Active` に設定する必要があります。列で Excel スタイル フィルタリングが有効が有効にされたことを示すため、フィルタリング条件がこの列に適用されていないことを示す `Filtering/Inactive` 状態、またはフィルタリング条件が適用され、列のオーバーレイが閉じられたことを示す `Filtering/Inactive` 状態を使用できます。
+列に Excel スタイル フィルターがアクティブであることを示すには (フィルターのオーバーレイが表示されます)、`Feature Left` または `Feature Right` のオーバーライドを `Filtering` に設定し、`Filtering State`パネルで次のオーバーライドを `Filtering/Active` に設定する必要があります。列で Excel スタイル フィルタリングが有効が有効にされたことを示すため、フィルタリング条件がこの列に適用されていないことを示す `Filtering/Inactive` 状態、またはフィルタリング条件が適用され、列のオーバーレイが閉じられたことを示す `Filtering/Inactive` 状態を使用できます。
 
 ### Excel スタイル フィルター機能
 
-グリッドには、 `機能` の下に3つの `Excel スタイル フィルター`シンボルがあり、各表示密度に1つずつ、影響を受ける列に表示されるオーバーレイを表します。このシンボルを追加すると、デザインに視覚的な効果があるのみで、よりリアルになります。Excel スタイル フィルター機能を切り替えたい場合は、ヘッダー セルを構成します。
+グリッドには、 `機能` の下に3つの `Excel スタイル フィルター`シンボルがあり、各表示密度に1つずつ、影響を受ける列に表示されるオーバーレイを表します。このシンボルを追加すると、デザインに視覚的な効果があるのみですが、よりリアルになります。Excel スタイル フィルター機能を切り替えたい場合は、ヘッダー セルを構成します。
 
 <img class="responsive-img" src="../images/grid_excel_style_filter_densities.png" srcset="../images/grid_excel_style_filter_densities@2x.png 2x" />
 
