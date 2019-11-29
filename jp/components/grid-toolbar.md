@@ -7,7 +7,7 @@ _language: ja
 
 ## ツールバー
 
-Grid ツールバーは、グリッド全体の外観と動作に影響するアクションを定義するために使用します。デフォルトでは、ツールバーに列の表示/非表示、ピン固定/ピン固定解除、および Grid コンテンツをさまざまな形式でエクスポートするためのアクションが含まれます。Grid ページングは、[Ignite UI for Angular Grid ツールバー機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html)と視覚的に同じものです。
+Grid ツールバーは、グリッド全体の外観と動作に影響するアクションを定義するために使用します。デフォルトでは、ツールバーに列の表示/非表示、ピン固定/ピン固定解除、および Grid コンテンツをさまざまな形式でエクスポートするためのアクションが含まれます。Grid ツールバーは、[Ignite UI for Angular Grid ツールバー機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html)と視覚的に同じものです。
 
 ### Grid ツールバーのデモ
 
