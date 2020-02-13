@@ -49,7 +49,7 @@ _language: ja
 
 ### 項目と機能 (ヘッダー セル)
 
-Grid ヘッダー セルは、`Items` のオーバーライドでさまざまなレイアウトの組み合わせをサポートします。また、`Feature Left` および `Feature Right` のオーバーライドを介して機能の複数の構成をサポートします。さらに、[編集](grid-editing.md)、[移動](grid-column-moving.md)、[サイズ変更](grid-column-resizing.md)、[非表示](rid-column-hiding.md) など、表示されていないがグリッドの異なる列機能を有効にする追加のオーバーライドがあります。
+Grid ヘッダー セルは、`Items` のオーバーライドでさまざまなレイアウトの組み合わせをサポートします。また、`Feature Left` および `Feature Right` のオーバーライドを介して機能の複数の構成をサポートします。さらに、[編集](grid-editing.md)、[移動](grid-column-moving.md)、[サイズ変更](grid-column-resizing.md)、[非表示](grid-column-hiding.md) など、表示されていないがグリッドの異なる列機能を有効にする追加のオーバーライドがあります。
 
 
 <img class="responsive-img" src="../images/grid_cell_header_no-icon.png" srcset="../images/grid_cell_header_no-icon@2x.png 2x" />
