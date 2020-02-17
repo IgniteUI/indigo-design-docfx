@@ -200,7 +200,7 @@ Related topics:
 - [Grid Summaries](grid-summaries.md)
 - [Hierarchical Grid](hierarchical-grid.md)
 - [Tree Grid](tree-grid.md)
-- [Grid Patterns](../patterns/full-grid.md)
+- [Grid Patterns](../patterns/grid.md)
 - [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 

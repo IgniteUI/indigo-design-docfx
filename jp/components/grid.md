@@ -202,7 +202,7 @@ Grid 本体セルは、ヘッダー セルの同じ一般的なデータ型の�
 - [Grid 集計](grid-summaries.md)
 - [Hierarchical Grid](hierarchical-grid.md)
 - [Tree Grid](tree-grid.md)
-- [Grid パターン](../patterns/full-grid.md)
+- [Grid パターン](../patterns/grid.md)
 - [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
