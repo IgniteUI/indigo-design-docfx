@@ -40,14 +40,6 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 
 2.  Mac で Sketch アプリケーションを開き、Apple メニューから Sketch 項目をクリックして Preferences を選択します。
 
-  <div class="divider--half"></div>
-  <img class="responsive-img" src="images/creating_an_artboard_2.png" srcset="images/creating_an_artboard_2@2x.png 2x" />
-  <div class="divider--half"></div>
-  <div class="divider--half"></div>
-  <div class="divider--half"></div>
-  <div class="divider--half"></div>
-  <div class="divider--half"></div>
-
 3.  次のダイアログで **Libraries** タブを選択して **Add Library...** ボタンをクリックします。
 
 4.  ライブラリに含まれるフォルダーへ移動します。
@@ -55,6 +47,14 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 5.  ライブラリを 3 つ選択して **Open** をクリックします。
 
 6.  **Preferences** ダイアログのリストで表示され、すべてチェックされていることを確認します。
+
+  <div class="divider--half"></div>
+  <img class="responsive-img" src="images/creating_an_artboard_2.png" />
+  <div class="divider--half"></div>
+  <div class="divider--half"></div>
+  <div class="divider--half"></div>
+  <div class="divider--half"></div>
+  <div class="divider--half"></div>
 
 ライブラリが正しく追加された場合、Sketch の **Insert** メニューの **Symbols** セクションに表示されます。
 
