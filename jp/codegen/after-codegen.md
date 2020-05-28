@@ -30,7 +30,7 @@ Infragistics VS Code 拡張機能を使用してプロジェクトを更新し�
 </div>
 ```
 
-メイン ページでの `<router-outlet>` はナビゲートされたコンテンツをホストします。このルートを **AppModule** および各生成されたモジュールにあります。以下のようになります。
+メイン ページでの `<router-outlet>` はナビゲートされたコンテンツをホストします。このルートを **AppModule** および各生成されたモジュールにて、例えば以下の様に設定します。
 
 ```typescript
 const routes: Routes = [{ path: "dashboard", component: DashboardComponent }];
