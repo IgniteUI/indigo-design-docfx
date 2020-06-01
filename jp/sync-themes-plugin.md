@@ -11,7 +11,7 @@ Indigo.Design Sketch プラグインは、Indigo.Design UI Kit for Sketch を使
 
 ## 1.Indigo.Design プラグインのインストール
 
-Indigo.Design プラグインは、Sketch UI キットとバンドルされています。アカウントをお持ちでない場合は、<a href="indigo.design">Indigo.Design</a> ページでサインアップしてください。サインアップ後、<a href="https://cloud.indigo.design">Indigo.Design クラウド</a>にサインインします。**Indigo.Design アセットのダウンロード** ボタンをクリックして Indigo.Design プラグインと Sketch UI キットの両方をダウンロードできます。
+Indigo.Design プラグインは、ヘッダーの `作業の開始` ボタンをクリックすると表示されるダイアログの `Design System` タブからサインインした後に [Indigo.Design Cloud](https://cloud.indigo.design) からダウンロードできます。アーカイブをダウンロードして開き、Sketch プラグイン ファイルをダブルクリックすると、Indigo.Design プラグインがインストールされます。
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Download.png" srcset="images/Sync_themes_plugin_Download@2x.png 2x" />
 
