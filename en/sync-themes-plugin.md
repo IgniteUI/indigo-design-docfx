@@ -6,11 +6,11 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 ## Indigo.Design Plugin
 
-The Indigo.Design Sketch Plugin allows users to create new themes and edit existing ones when using the Indigo.Design UI Kit for Sketch. Users can adjust the `primary`, `secondary`, `error`, `success`, `warn`, and `info` colors, as well as properties of the Typography according to their brand characteristics. The plugin also lets users effortlessly publish their projects to the Indigo.Design Cloud and sync them up regularlty thereafter, when making changes and updates.
+The Indigo.Design Sketch Plugin allows users to create new themes and edit existing ones when using the Indigo.Design UI Kit for Sketch. Users can adjust the `primary`, `secondary`, `error`, `success`, `warn`, and `info` colors, as well as properties of the Typography according to their brand characteristics. The plugin also lets users effortlessly publish their projects to the Indigo.Design Cloud and sync them up regularly thereafter, when making changes and updates.
 
 ## 1. Installing the Indigo.Design plugin
 
-The Indigo.Design Plugin is bundled together with the Sketch UI kits, and is available for download on [Indigo.Design Cloud](https://cloud.indigo.design) after signing in from the dialog that shows upon clicking the `Download Indigo.Design assets` button in the bottom left. Once you download the archive and open it, double click on the Sketch plugin file and the Indigo.Design plugin will be installed.
+The Indigo.Design Plugin is available for download from [Indigo.Design Cloud](https://cloud.indigo.design) after signing in from the `Design System` tab of the dialog that shows upon clicking the `Getting Started` button in the header. Once you download the archive and open it, double click on the Sketch plugin file and the Indigo.Design plugin will be installed.
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Download.png" srcset="images/Sync_themes_plugin_Download@2x.png 2x" />
 
