@@ -14,7 +14,7 @@ In this topic you can find information about interactions. These are the main co
 - [Transitions][a-4]
 
 <div class="divider--half"></div>
-<img class="responsive-img" src="./images/Interaction_Options_1.png" srcset="./images/Interaction_Options_1@2x.png 2x" />
+<img class="responsive-img" src="../images/Interaction_Options_1.png" srcset="../images/Interaction_Options_1@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -32,7 +32,7 @@ Hotspots are areas in your screens users can then interact with to trigger navig
 To create a hotspot, CLICK + DRAG over any point in your screen.
 
 <div class="divider--half"></div>
-<img class="responsive-img" src="./images/interaction_options_hotspot_tooltip.png" srcset="./images/interaction_options_hotspot_tooltip@2x.png 2x" />
+<img class="responsive-img" src="../images/interaction_options_hotspot_tooltip.png" srcset="../images/interaction_options_hotspot_tooltip@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
