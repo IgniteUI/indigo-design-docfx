@@ -1,133 +1,108 @@
 ---
 title: Reviewing Usability Study Results
-_description: Understand usability study results, including the study overview report, the task report, and the session recording viewer
-_keywords: UX Design, Prototyping, Commenting, Usability studies, User testing
+_description: Understand usability test results, including the study overview report, the task report, and the session recording viewer
+_keywords: UX Design, Prototyping, Usability test, User testing
 ---
 
-## Reviewing Usability Study Results
 
-Once you [set up your usability study][1] and there are some participants, you can view the results in different ways.
+## Understanding usability test results
 
-* [Study overview report][a-1]
-* [Task report][a-2]
-* [Session recording viewer][a-3]
+Once you [set up your usability study][topic-1] and there are some participants, the usability test dashboard summarizes the results for analysis.
 
-## Study overview report
+![][img-1]
 
-It shows information for all the tasks in your study.
+The dashboard contains the following:
+
+*  [Test analytics overview][a-1]
+*  [Task completion funnel & 1st-click report][a-2]
+*  [User segments & participation details][a-3]
+	*  [Explore click path][a-4]
+	*  [Video replay of user sessions][a-5]
+
+## Test analytics overview
+
+It shows high-level analytics for all the tasks in your test, and aggregates the metrics across participants.
 
 <div class="divider--half"></div>
-<img class="responsive-img" src="../images/usability_study_results_overview_1.png" srcset="../images/usability_study_results_overview_1@2x.png 2x" />
+![][img-2]
 <div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-
 
 For each task you can see:
 
-* how many people completed it
-* the average time required to complete it
+* Success rate (percentage computed by dividing # of participants who completed the task by total # of participants for that task)
+* How many people completed it
+* Average time required to complete the task
 
-Clicking on a task will show a detailed report.
+Clicking on a task card will show the participation details for each task.
 
-## Task report
+> [!Note]
+> The avg. time metric calculation automatically excludes sessions where participants did not complete the task
 
-It shows the metrics for each participant.
+##  Task completion funnel & 1st-click report
 
-<div class="divider--half"></div>
-<img class="responsive-img" src="../images/usability_study_results_overview_2.png" srcset="../images/usability_study_results_overview_2@2x.png 2x" />
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-
-The metrics cover: 
-
-* task completion
-* time compared to the average
-* number of steps or clicks
-
-
-if there's a *Play* option listed for the participant, you can watch a recording of their session in a new tab.
-
-
-### Flow groupings
-
-For most tasks, participants can complete the task any way they want, not just following the flow recorded when creating the task. For these tasks the report shows different categories of flows.
+The task completion funnel aggregates how participants used the expected success path. It displays an image for each step of the path, and how many participants completed the task in the expected sequence. 
 
 <div class="divider--half"></div>
-<img class="responsive-img" src="../images/usability_study_results_overview_3.png" srcset="../images/usability_study_results_overview_3@2x.png 2x" />
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
+![][img-3]
 <div class="divider--half"></div>
 
-* **Recorded flow:** the flow used when defining the task
-* **Alternative flow:** different from the recorded flow and used by more than 1 participant
-* **Unique flow:** different from the recorded flow and used by only 1 participant
+The completion funnel helps you analyze the following: 
 
+* **Expected success path and completion rate:** It shows the path that was set up when creating the usability task, and how many participants completed the task using that path (sequence of steps).
+* **Drop-off:** Shows number of participants who navigated away from the expect path (participants are only counted once).
+* **1st-click report:** Interaction markers show whether the participant’s 1st interaction matched an expected interaction, shown as a blue circle marker. If not, you will see an unexpected interaction or mis-click, shown a red diamond. 
 
-## Session recording viewer
+## User segments & participation details
 
-<div class="divider--half"></div>
-<img class="responsive-img" src="../images/understanding_the_usability_study_report_3.png" srcset="../images/understanding_the_usability_study_report_3@2x.png 2x" />
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-
-### Markers
-
-The markers in the timeline represent the way the user interacted with the prototype.
-* Blue - no issues 
-* Red - interactions that didn’t follow the expected flow
-
-Use markers to jump straight to the portion you're interested in.
-
-### Navigation
+For most tasks, participants can complete it any way they want, not just following the expected path. The user segments report separates participants into groups (segments) based on how they completed the task.
 
 <div class="divider--half"></div>
-<img class="responsive-img" src="../images/understanding_the_usability_study_report_4.png" srcset="../images/understanding_the_usability_study_report_4@2x.png 2x" />
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
+![][img-4]
 <div class="divider--half"></div>
 
-Switch between participants or tasks using the dropdown and navigation on top or the arrow keys: 
-* left and right to switch between participants
-* up or down arrow key to switch between tasks
+The user segments are created automatically using the following criteria:
 
-### Commenting
+* **Expected success path segment:** It groups participants who successfully complete the task using the sequence of steps created when defining the task
+* **Alternative success path segment:** It groups participants who used a path different from the expected path, but still completed the task (i.e., reach last step).
+* **Failed path segment:** It groups participants who were either unable to complete the task or skipped it the task.
 
-As you are reviewing the video, you can add notes to record your observations. This will add a note marker to the timeline. You can uncheck the checkbox with the timestamp and the marker won't be added.
+The participation details table show the session analytics for each participant and shows the following:
 
-<div class="divider--half"></div>
-<img class="responsive-img" src="../images/understanding_the_usability_study_report_5.png" srcset="../images/understanding_the_usability_study_report_5@2x.png 2x" />
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
+* Whether participant completed the task
+* Click path for a participant, shown as a sequence of expected or unexpected interaction markers.
+* Time on task metric
+* View feedback button if the participant added feedback for that task
+* "Play Video" option if a user video is available
 
-If the usability study belongs to a group workspace, members will have access to all comments.
 
-### Downloading
+###  Explore click path
 
-To download the video, click on the gear icon in the bottom right corner and select download.
+Hovering on the click path using your mouse shows a mini preview of the screen and where the user clicked.
 
 <div class="divider--half"></div>
-<img class="responsive-img" src="../images/understanding_the_usability_study_report_6.png" srcset="../images/understanding_the_usability_study_report_6@2x.png 2x" />
+![][img-5]
 <div class="divider--half"></div>
+
+Clicking on the timeline marker in the details table launches the click-path explorer. This allows you to review all the steps taken by that participant. 
+
+If there are more than one interactions present, the numbering on the interaction markers show the sequence in which the participant interacted with the screen. Note that only the interactions related to the selected task is shown.
+
 <div class="divider--half"></div>
+![][img-6]
 <div class="divider--half"></div>
+
+### Video replay of user sessions
+
+You can view the session video by clicking on the "play video" option in the details table. You can also view the video while exploring the click-path by selecting the video tab.
+
 <div class="divider--half"></div>
+![][img-7]
 <div class="divider--half"></div>
+
+The video timeline displays the same timeline of user interactions that's shown in the details table. You can jump directly to a portion of the video by clicking on the timeline marker. 
+
+And to download the video, right click on the video use the "save video as..." option from your browser’s context menu.
+
 
 ## Learn more
 
@@ -137,8 +112,24 @@ Watch some of the videos we have on usability studies.
 * [Take part in a usability study](https://www.youtube.com/watch?v=dfrxhBW5NFQ?rel=0&autoplay=1)
 * [View usability study results](https://www.youtube.com/watch?v=00P6DwMbYMM?rel=0&autoplay=1)
 
-[1]: https://www.youtube.com/watch?v=vilyDL4fDT0
 
-[a-1]: #study-overview-report 
-[a-2]: #task-report
-[a-3]: #session-recording-viewer
+[1]: https://www.youtube.com/watch?v=vilyDL4fDT0
+[2]: https://cloud.indigo.design/api/shares/qv6uzwx9jwu3/files/project/Money%20App.zip
+[3]: https://cloud.indigo.design
+
+[a-1]: #Test-analytics-overview
+[a-2]: #Task-completion-funnel-&-1st-click-report
+[a-3]: #User-segments-&-participation-details
+[a-4]: #Explore-click-path
+[a-5]: #Video-replay-of-user-sessions
+
+[topic-1]: setting-up-a-usability-study
+
+[img-1]: ..images/Understanding_The_Usability_Test_Report_1.png
+[img-2]: ..images/Understanding_The_Usability_Test_Report_2.png
+[img-3]: ..images/Understanding_The_Usability_Test_Report_3.png
+[img-4]: ..images/Understanding_The_Usability_Test_Report_4.png
+[img-5]: ..images/Understanding_The_Usability_Test_Report_5.png
+[img-6]: ..images/Understanding_The_Usability_Test_Report_6.png
+[img-7]: ..images/Understanding_The_Usability_Test_Report_7.png
+
