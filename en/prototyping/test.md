@@ -1,7 +1,7 @@
 
-<div class="divider--half"></div>
+
 ![][img-1]
-<div class="divider--half"></div>
+
 
 this is a test for including images
 
