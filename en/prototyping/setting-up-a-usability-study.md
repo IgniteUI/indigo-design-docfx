@@ -9,6 +9,7 @@ _keywords: UX Design, Prototyping, Commenting, Usability studies, User testing
 At the end of this topic you'll have a usability test based on a prototype in your workspace.
 
 ![][img-1]
+<Br/>
 
 
 ## In Brief
@@ -22,7 +23,6 @@ At the end of this topic you'll have a usability test based on a prototype in yo
 ### 1. Create a usability test
 
 1. Locate the prototype in your workspace, and click on `New Usability Test` option.
-
    ![][img-2]
    <br/>
 
