@@ -11,10 +11,9 @@ Use group workspaces to collaborate with your teammates on the same prototypes a
 ![][img-1]
 <Br/>
 
-
 ### Creating a Group Workspace
 
-Expand the workspaces dropdown and click the `+ new group` option. <
+Expand the workspaces dropdown and click the `+ new group` option. 
 
 ![][img-2]
 <Br/>
@@ -47,7 +46,6 @@ Select the workspace from the workspaces dropdown and then click on `settings` i
 
 ![][img-4]
 <Br/>
-
 
 Option | Description |
 ------------- | -------------
