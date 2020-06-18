@@ -5,7 +5,7 @@ Images added using a reference
 Images added directly
 
 ![][../images/collaborating_with_group_workspaces_1.png]
-<br/>
+
 
 
 [img-1]: ../images/collaborating_with_group_workspaces_1.png
