@@ -1,5 +1,4 @@
 Images added using a reference
-
 ![][img-1]
 <br/>
 
