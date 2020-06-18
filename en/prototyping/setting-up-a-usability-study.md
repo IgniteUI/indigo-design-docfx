@@ -11,7 +11,6 @@ At the end of this topic you'll have a usability test based on a prototype in yo
 ![][img-1]
 <Br/>
 
-
 ## In Brief
 
 1. [Creating a usability test][a-1].
@@ -23,7 +22,8 @@ At the end of this topic you'll have a usability test based on a prototype in yo
 ### 1. Create a usability test
 
 1. Locate the prototype in your workspace, and click on `New Usability Test` option.
-   ![][img-2]
+  
+  ![][img-2]
    <br/>
 
 2. Optionally, add welcome and thank you messages.The welcome message is what your participants will see before starting the study. For the thank you page content you can suggest future actions for participants completing the study. For example, asking them to go complete a post-study survey.
