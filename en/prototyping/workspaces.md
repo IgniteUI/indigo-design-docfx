@@ -8,7 +8,7 @@ _keywords: UX Design, Prototyping, Commenting, Usability studies, User testing
 
 Use group workspaces to collaborate with your teammates on the same prototypes and usability studies. Members can publish and replace any design in the workspace. And if a member leaves, the rest will still have access to what's in the workspace.
 
-![][imge-1]
+![][img-1]
 <Br/>
 
 ### Creating a Group Workspace
@@ -46,7 +46,6 @@ Select the workspace from the workspaces dropdown and then click on `settings` i
 
 ![][img-4]
 <br/>
-
 
 Option | Description |
 ------------- | -------------
