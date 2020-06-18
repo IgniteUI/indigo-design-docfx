@@ -10,6 +10,7 @@ _keywords: UX Design, Prototyping, Usability test, User testing
 Once you [set up your usability study][topic-1] and there are some participants, the usability test dashboard summarizes the results for analysis.
 
 ![][img-1]
+<br/>
 
 The dashboard contains the following:
 
@@ -23,9 +24,8 @@ The dashboard contains the following:
 
 It shows high-level analytics for all the tasks in your test, and aggregates the metrics across participants.
 
-<div class="divider--half"></div>
 ![][img-2]
-<div class="divider--half"></div>
+<br/>
 
 For each task you can see:
 
@@ -42,9 +42,8 @@ Clicking on a task card will show the participation details for each task.
 
 The task completion funnel aggregates how participants used the expected success path. It displays an image for each step of the path, and how many participants completed the task in the expected sequence. 
 
-<div class="divider--half"></div>
 ![][img-3]
-<div class="divider--half"></div>
+<br/>
 
 The completion funnel helps you analyze the following: 
 
@@ -56,9 +55,9 @@ The completion funnel helps you analyze the following:
 
 For most tasks, participants can complete it any way they want, not just following the expected path. The user segments report separates participants into groups (segments) based on how they completed the task.
 
-<div class="divider--half"></div>
+
 ![][img-4]
-<div class="divider--half"></div>
+<br/>
 
 The user segments are created automatically using the following criteria:
 
@@ -79,23 +78,24 @@ The participation details table show the session analytics for each participant 
 
 Hovering on the click path using your mouse shows a mini preview of the screen and where the user clicked.
 
-<div class="divider--half"></div>
+
 ![][img-5]
-<div class="divider--half"></div>
+<br/>
 
 Clicking on the timeline marker in the details table launches the click-path explorer. This allows you to review all the steps taken by that participant. 
 
 If there are more than one interactions present, the numbering on the interaction markers show the sequence in which the participant interacted with the screen. Note that only the interactions related to the selected task is shown.
 
-<div class="divider--half"></div>
 ![][img-6]
-<div class="divider--half"></div>
+<br/>
+
 
 ### Video replay of user sessions
 
 You can view the session video by clicking on the "play video" option in the details table. You can also view the video while exploring the click-path by selecting the video tab.
 
 ![][img-7]
+<br/>
 
 The video timeline displays the same timeline of user interactions that's shown in the details table. You can jump directly to a portion of the video by clicking on the timeline marker. 
 

@@ -8,23 +8,24 @@ _keywords: UX Design, Prototyping, Commenting, Usability studies, User testing
 
 Use group workspaces to collaborate with your teammates on the same prototypes and usability studies. Members can publish and replace any design in the workspace. And if a member leaves, the rest will still have access to what's in the workspace.
 
+![][imge-1]
+<Br/>
+
 
 ### Creating a Group Workspace
 
 Expand the workspaces dropdown and click the `+ new group` option. <
 
-![][img-1]
+![][img-2]
 <Br/>
-
 
 Type a name for your workspace. 
 
 Add members by typing their email address. 
 If you already share workspaces with them, they'll show up on a list. You can select them from the list and they'll become a member immediately. Otherwise, they'll get an invite to join the workspace via email.
 
-<div class="divider--half"></div>
-<img class="responsive-img" src="../images/workspaces_2.png" srcset="../images/workspaces_2@2x.png 2x" />
-<div class="divider--half"></div>
+![][img-3]
+<Br/>
 
 
 ### Accessing a Workspace
@@ -42,11 +43,10 @@ Once you select a workspace, any prototypes you create and publish will belong t
 
 ### Managing Group Workspaces
 
-Select the workspace from the workspaces dropdown and click on `settings` in the main toolbar area.
+Select the workspace from the workspaces dropdown and then click on `settings` in the main toolbar area.
 
-<div class="divider--half"></div>
-<img class="responsive-img" src="../images/workspaces_4.png" srcset="../images/workspaces_4@2x.png 2x" />
-<div class="divider--half"></div>
+![][img-4]
+<br/>
 
 
 Option | Description |
@@ -86,7 +86,7 @@ There's a new participant in a workspace usability study | Subscribe to notifica
 
 [topic-1]: setting-up-a-usability-study.md
 
-[video-1]: https://www.youtube.com/watch?v=gLEf0IkYBFg
-[video-2]: https://www.youtube.com/watch?v=CdJS0gzPTPQ  
-
-[img-1]: ../images/workspaces_1.png
+[img-1]: ../images/collaborating_with_group_workspaces_1.png
+[img-2]: ../images/collaborating_with_group_workspaces_2.png
+[img-3]: ../images/collaborating_with_group_workspaces_3.png
+[img-3]: ../images/collaborating_with_group_workspaces_4.png
