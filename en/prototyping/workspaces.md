@@ -87,4 +87,4 @@ There's a new participant in a workspace usability study | Subscribe to notifica
 [img-1]: ../images/collaborating_with_group_workspaces_1.png
 [img-2]: ../images/collaborating_with_group_workspaces_2.png
 [img-3]: ../images/collaborating_with_group_workspaces_3.png
-[img-3]: ../images/collaborating_with_group_workspaces_4.png
+[img-4]: ../images/collaborating_with_group_workspaces_4.png
