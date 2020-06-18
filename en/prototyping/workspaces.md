@@ -47,6 +47,7 @@ Select the workspace from the workspaces dropdown and then click on `settings` i
 ![][img-4]
 <Br/>
 
+
 Option | Description |
 ------------- | -------------
 Edit the workspace name | 
