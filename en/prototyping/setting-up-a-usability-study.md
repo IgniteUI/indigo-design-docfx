@@ -41,13 +41,13 @@ You need at least one task to start a usability test.
 
 1. To add a task, click on `new task`. Then, add a description.
 
-   ![][img-4]
-   <br/>
+![][img-4]
+<Br/>
 
 2. Define the expected path for completing the task by interacting with the prototype. If you make a mistake, you can always undo the last step.
 
-   ![][img-5]
-   <br/>
+![][img-5]
+<Br/>
 
 3. When you are done recording the path, use the `new task` option to add more. If you are done adding tasks, go ahead and invite participants.
     
@@ -55,8 +55,8 @@ You need at least one task to start a usability test.
 
 To invite participants, click `Start Testing` option in the main toolbar. Then, share the generated URL let them take part using their web-browser.
 
-   ![][img-6]
-   <br/>
+![][img-6]
+<Br/>
 
 > [!note]
 > Once participation begins, you cannot make changes to your study.
