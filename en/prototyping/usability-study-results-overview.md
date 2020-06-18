@@ -78,7 +78,6 @@ The participation details table show the session analytics for each participant 
 
 Hovering on the click path using your mouse shows a mini preview of the screen and where the user clicked.
 
-
 ![][img-5]
 <br/>
 
@@ -100,7 +99,6 @@ You can view the session video by clicking on the "play video" option in the det
 The video timeline displays the same timeline of user interactions that's shown in the details table. You can jump directly to a portion of the video by clicking on the timeline marker. 
 
 And to download the video, right click on the video use the "save video as..." option from your browser’s context menu.
-
 
 ## Learn more
 
