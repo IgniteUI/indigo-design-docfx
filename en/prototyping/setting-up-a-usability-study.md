@@ -21,8 +21,11 @@ At the end of this topic you'll have a usability test based on a prototype in yo
 ### 1. Create a usability test
 
 1. Locate the prototype in your workspace, and click on `New Usability Test` option shown when hovering the card.
+
    ![][img-2]
+
 2. Optionally, add welcome and thank you messages.The welcome message is what your participants will see before starting the study. For the thank you page content you can suggest future actions for participants completing the study. For example, asking them to go complete a post-study survey.
+
    ![][img-3]
 
 > [!note]
@@ -34,14 +37,19 @@ At the end of this topic you'll have a usability test based on a prototype in yo
 You need at least one task to start a usability test.
 
 1. To add a task, click on `new task`. Then, add a description.
+
    ![][img-4]
+
 2. Define the expected path for completing the task by interacting with the prototype. If you make a mistake, you can always undo the last step.
+
    ![][img-5]
+
 3. When you are done recording the path, use the `new task` option to add more. If you are done adding tasks, go ahead and invite participants.
     
 ### 3. Invite participants
 
 To invite participants, click `Start Testing` option in the main toolbar. Then, share the generated URL let them take part using their web-browser.
+
    ![][img-6]
 
 > [!note]

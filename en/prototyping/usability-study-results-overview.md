@@ -95,9 +95,7 @@ If there are more than one interactions present, the numbering on the interactio
 
 You can view the session video by clicking on the "play video" option in the details table. You can also view the video while exploring the click-path by selecting the video tab.
 
-<div class="divider--half"></div>
 ![][img-7]
-<div class="divider--half"></div>
 
 The video timeline displays the same timeline of user interactions that's shown in the details table. You can jump directly to a portion of the video by clicking on the timeline marker. 
 
@@ -125,11 +123,11 @@ Watch some of the videos we have on usability studies.
 
 [topic-1]: setting-up-a-usability-study
 
-[img-1]: ..images/Understanding_The_Usability_Test_Report_1.png
-[img-2]: ..images/Understanding_The_Usability_Test_Report_2.png
-[img-3]: ..images/Understanding_The_Usability_Test_Report_3.png
-[img-4]: ..images/Understanding_The_Usability_Test_Report_4.png
-[img-5]: ..images/Understanding_The_Usability_Test_Report_5.png
-[img-6]: ..images/Understanding_The_Usability_Test_Report_6.png
-[img-7]: ..images/Understanding_The_Usability_Test_Report_7.png
+[img-1]: ..images/understanding_the_usability_test_report_1.png
+[img-2]: ..images/understanding_the_usability_test_report_2.png
+[img-3]: ..images/understanding_the_usability_test_report_3.png
+[img-4]: ..images/understanding_the_usability_test_report_4.png
+[img-5]: ..images/understanding_the_usability_test_report_5.png
+[img-6]: ..images/understanding_the_usability_test_report_6.png
+[img-7]: ..images/understanding_the_usability_test_report_7.png
 

@@ -4,73 +4,61 @@ _description: Collaborate with your teammates on prototypes and usability studie
 _keywords: UX Design, Prototyping, Commenting, Usability studies, User testing
 ---
 
-##  Collabrating with Workspaces
+##  Collaborating with Workspaces
 
 Use group workspaces to collaborate with your teammates on the same prototypes and usability studies. Members can publish and replace any design in the workspace. And if a member leaves, the rest will still have access to what's in the workspace.
 
-Watch our videos on [how to create group workspaces][video-1] and [how to collaborate using group workspaces][video-2].
 
-### Creating a group workspace
+### Creating a Group Workspace
 
-Expand the workspaces dropdown and click the `Create a group workspace` option.
+Expand the workspaces dropdown and click the `+ new group` option. <
 
-<div class="divider--half"></div>
-<img class="responsive-img" src="../images/workspaces_1.png" srcset="../images/workspaces_1@2x.png 2x" />
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
+![][img-1]
+<Br/>
+
 
 Type a name for your workspace. 
 
 Add members by typing their email address. 
-If you already share workspaces with them, they'll show up on a list. You can select them from the list and they'll become a member immediately.
-Otherwise, they'll get an invite to join the workspace via email.
+If you already share workspaces with them, they'll show up on a list. You can select them from the list and they'll become a member immediately. Otherwise, they'll get an invite to join the workspace via email.
 
 <div class="divider--half"></div>
 <img class="responsive-img" src="../images/workspaces_2.png" srcset="../images/workspaces_2@2x.png 2x" />
 <div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
 
-### Accessing a workspace
+
+### Accessing a Workspace
 
 Expand the workspaces dropdown and select the name of the workspace you want to work on.
-You'll see all the prototypes belonging to that workspace.
+You'll see all the prototypes and usability tests belonging to that workspace.
 
 
-### Publishing to a group workspace
+### Publishing to a Group Workspace
 
 Once you select a workspace, any prototypes you create and publish will belong to that workspace. 
 
 > [!Note]
 >You can choose any prototype and use the `Copy to workspace` action to make a copy of that prototype in a different workspace.
 
-### Managing group workspaces
+### Managing Group Workspaces
 
-Select the workspace from the workspaces dropdown and click on the gear icon.
+Select the workspace from the workspaces dropdown and click on `settings` in the main toolbar area.
 
 <div class="divider--half"></div>
 <img class="responsive-img" src="../images/workspaces_4.png" srcset="../images/workspaces_4@2x.png 2x" />
 <div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
+
 
 Option | Description |
 ------------- | -------------
 Edit the workspace name | 
-Enable/disable notifications | Start or stop receiving emails with workspace activity information.
+Enable/disable email notifications | Start or stop receiving emails with workspace activity information.
 Add/invite members | Select members from the list to add them directly, or type an email to send an invite.
 Remove members | The user you remove won't be able to access the workspace or publish designs to it.
 Leave the workspace | You won't be able to access the workspace or publish designs to it.
 Archive the workspace | No members can publish to this workspace. Any member can restore the workspace.
 
-### Configuring notifications
+### Configuring Notifications
 
 Here's a list of the notifications you can receive when you're a member of a workspace and how to configure them.
 
@@ -100,3 +88,5 @@ There's a new participant in a workspace usability study | Subscribe to notifica
 
 [video-1]: https://www.youtube.com/watch?v=gLEf0IkYBFg
 [video-2]: https://www.youtube.com/watch?v=CdJS0gzPTPQ  
+
+[img-1]: ../images/workspaces_1.png

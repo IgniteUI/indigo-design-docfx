@@ -13,13 +13,11 @@ In this topic you can find information about interactions. These are the main co
 - [Navigations][a-3]
 - [Transitions][a-4]
 
-<div class="divider--half"></div>
-<img class="responsive-img" src="../images/Interaction_Options_1.png" srcset="../images/Interaction_Options_1@2x.png 2x" />
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
+<br>
+
+<img class="responsive-img" src="../images/interaction_options_1.png" srcset="../images/Interaction_Options_1@2x.png 2x" />
+
+<br>
 
 Also, check out [Creating A Prototype][topic-1] to learn how to create and publish a prototype.
 
