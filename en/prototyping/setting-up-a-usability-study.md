@@ -10,6 +10,7 @@ At the end of this topic you'll have a usability test based on a prototype in yo
 
 ![][img-1]
 
+
 ## In Brief
 
 1. [Creating a usability test][a-1].
