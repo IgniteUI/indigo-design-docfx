@@ -8,23 +8,25 @@ _keywords: UX Design, Prototyping, Commenting, Usability studies, User testing
 
 Use group workspaces to collaborate with your teammates on the same prototypes and usability studies. Members can publish and replace any design in the workspace. And if a member leaves, the rest will still have access to what's in the workspace.
 
-![][img-1]
-<Br/>
+<img class="responsive-img" src="../images/collaborating_with_group_workspaces_1.png" />
+
+<br/>
+
 
 ### Creating a Group Workspace
 
 Expand the workspaces dropdown and click the `+ new group` option. 
 
-![][img-2]
-<Br/>
+<img class="responsive-img" src="../images/collaborating_with_group_workspaces_2.png" />
 
 Type a name for your workspace. 
 
 Add members by typing their email address. 
 If you already share workspaces with them, they'll show up on a list. You can select them from the list and they'll become a member immediately. Otherwise, they'll get an invite to join the workspace via email.
 
-![][img-3]
-<Br/>
+<img class="responsive-img" src="../images/collaborating_with_group_workspaces_3.png" />
+
+<br/>
 
 
 ### Accessing a Workspace
@@ -44,8 +46,7 @@ Once you select a workspace, any prototypes you create and publish will belong t
 
 Select the workspace from the workspaces dropdown and then click on `settings` in the main toolbar area.
 
-![][img-4]
-<Br/>
+<img class="responsive-img" src="../images/collaborating_with_group_workspaces_4.png" />
 
 
 Option | Description |
@@ -84,8 +85,3 @@ There's a new participant in a workspace usability study | Subscribe to notifica
 [a-5]: #configuring-notifications
 
 [topic-1]: setting-up-a-usability-study.md
-
-[img-1]: ../images/collaborating_with_group_workspaces_1.png
-[img-2]: ../images/collaborating_with_group_workspaces_2.png
-[img-3]: ../images/collaborating_with_group_workspaces_3.png
-[img-4]: ../images/collaborating_with_group_workspaces_4.png
