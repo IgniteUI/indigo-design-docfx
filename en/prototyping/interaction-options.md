@@ -98,7 +98,7 @@ Navigate to the previous screen in the navigation history for the prototype.
 Navigate to any URL outside the prototype.
 
 <div class="divider--half"></div>
-<img class="responsive-img" src="../images/interaction_options_openurl.png" srcset="../images/interaction_options_openurl@2x.png 2x" />
+<img class="responsive-img" src="../images/interaction_options_openURL.png" srcset="../images/interaction_options_openURL@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
