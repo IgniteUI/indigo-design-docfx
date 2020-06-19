@@ -9,8 +9,7 @@ _keywords: UX Design, Prototyping, Usability test, User testing
 
 Once you [set up your usability study][topic-1] and there are some participants, the usability test dashboard summarizes the results for analysis.
 
-<img src="../images/understanding_the_usability_test_report_1.png"/>
-<br/>
+<img class="responsive-img" src="../images/understanding_the_usability_test_report_1.png"/>
 
 The dashboard contains the following:
 
@@ -24,8 +23,7 @@ The dashboard contains the following:
 
 It shows high-level analytics for all the tasks in your test, and aggregates the metrics across participants.
 
-<img src="../images/understanding_the_usability_test_report_2.png"/>
-<br/>
+<img class="responsive-img" src="../images/understanding_the_usability_test_report_2.png"/>
 
 For each task you can see:
 
@@ -42,8 +40,7 @@ Clicking on a task card will show the participation details for each task.
 
 The task completion funnel aggregates how participants used the expected success path. It displays an image for each step of the path, and how many participants completed the task in the expected sequence. 
 
-<img src="../images/understanding_the_usability_test_report_3.png"/>
-<br/>
+<img class="responsive-img" src="../images/understanding_the_usability_test_report_3.png"/>
 
 The completion funnel helps you analyze the following: 
 
@@ -55,9 +52,7 @@ The completion funnel helps you analyze the following:
 
 For most tasks, participants can complete it any way they want, not just following the expected path. The user segments report separates participants into groups (segments) based on how they completed the task.
 
-
-<img src="../images/understanding_the_usability_test_report_4.png"/>
-<br/>
+<img class="responsive-img" src="../images/understanding_the_usability_test_report_4.png"/>
 
 The user segments are created automatically using the following criteria:
 
@@ -78,14 +73,14 @@ The participation details table show the session analytics for each participant 
 
 Hovering on the click path using your mouse shows a mini preview of the screen and where the user clicked.
 
-<img src="../images/understanding_the_usability_test_report_5.png"/>
-<br/>
+<img class="responsive-img" src="../images/understanding_the_usability_test_report_5.png"/>
 
 Clicking on the timeline marker in the details table launches the click-path explorer. This allows you to review all the steps taken by that participant. 
 
 If there are more than one interactions present, the numbering on the interaction markers show the sequence in which the participant interacted with the screen. Note that only the interactions related to the selected task is shown.
 
-<img src="../images/understanding_the_usability_test_report_6.png"/>
+<img class="responsive-img" src="../images/understanding_the_usability_test_report_6.png"/>
+
 <br/>
 
 
@@ -93,8 +88,7 @@ If there are more than one interactions present, the numbering on the interactio
 
 You can view the session video by clicking on the "play video" option in the details table. You can also view the video while exploring the click-path by selecting the video tab.
 
-<img src="../images/understanding_the_usability_test_report_7.png"/>
-<br/>
+<img class="responsive-img" src="../images/understanding_the_usability_test_report_7.png"/>
 
 The video timeline displays the same timeline of user interactions that's shown in the details table. You can jump directly to a portion of the video by clicking on the timeline marker. 
 
@@ -120,12 +114,3 @@ Watch some of the videos we have on usability studies.
 [a-5]: #Video-replay-of-user-sessions
 
 [topic-1]: setting-up-a-usability-study.md
-
-[img-1]: ..images/understanding_the_usability_test_report_1.png
-[img-2]: ..images/understanding_the_usability_test_report_2.png
-[img-3]: ..images/understanding_the_usability_test_report_3.png
-[img-4]: ..images/understanding_the_usability_test_report_4.png
-[img-5]: ..images/understanding_the_usability_test_report_5.png
-[img-6]: ..images/understanding_the_usability_test_report_6.png
-[img-7]: ..images/understanding_the_usability_test_report_7.png
-
