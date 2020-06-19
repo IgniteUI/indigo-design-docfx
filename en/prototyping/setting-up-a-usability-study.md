@@ -8,7 +8,7 @@ _keywords: UX Design, Prototyping, Commenting, Usability studies, User testing
 
 At the end of this topic you'll have a usability test based on a prototype in your workspace.
 
-![][img-1]
+<img src="../images/setting_up_a_usability_test_1.png"/>
 <Br/>
 
 ## In Brief
@@ -23,13 +23,13 @@ At the end of this topic you'll have a usability test based on a prototype in yo
 
 1. Locate the prototype in your workspace, and click on `New Usability Test` option.
   
-  ![][img-2]
-   <br/>
+<img src="../images/setting_up_a_usability_test_2.png"/>
+<br/>
 
 2. Optionally, add welcome and thank you messages.The welcome message is what your participants will see before starting the study. For the thank you page content you can suggest future actions for participants completing the study. For example, asking them to go complete a post-study survey.
 
-   ![][img-3]
-   <br/>
+<img src="../images/setting_up_a_usability_test_3.png"/>
+<br/>
 
 > [!note]
 > Select `Usability Tests` in the navigation bar while signed in to cloud.indigo.design to see and manage all your studies.
@@ -41,12 +41,12 @@ You need at least one task to start a usability test.
 
 1. To add a task, click on `new task`. Then, add a description.
 
-![][img-4]
+<img src="../images/setting_up_a_usability_test_4.png"/>
 <Br/>
 
 2. Define the expected path for completing the task by interacting with the prototype. If you make a mistake, you can always undo the last step.
 
-![][img-5]
+<img src="../images/setting_up_a_usability_test_5.gif"/>
 <Br/>
 
 3. When you are done recording the path, use the `new task` option to add more. If you are done adding tasks, go ahead and invite participants.
@@ -55,7 +55,7 @@ You need at least one task to start a usability test.
 
 To invite participants, click `Start Testing` option in the main toolbar. Then, share the generated URL let them take part using their web-browser.
 
-![][img-6]
+<img src="../images/setting_up_a_usability_test_6.png"/>
 <Br/>
 
 > [!note]
