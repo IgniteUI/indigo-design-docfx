@@ -97,6 +97,9 @@ Add as many interactions as you need until your prototype is complete.
     <div class="divider--half"></div>
     
 2.  You'll get a link that you can share for people to view your prototype.
+    <div class="divider--half"></div>
+    <img class="responsive-img" src="../images/creating_a_prototype_11.png"/>
+   <br/>
 
 You're ready to have reviewers comment on your prototype and to have users validate your flows by taking part in usability studies.
 
