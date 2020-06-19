@@ -15,8 +15,8 @@ Once you [set up your usability study][topic-1] and there are some participants,
 The dashboard contains the following:
 
 *  [Test analytics overview][a-1]
-*  [Task completion funnel & 1st-click report][a-2]
-*  [User segments & participation details][a-3]
+*  [Task completion funnel and 1st-click report][a-2]
+*  [User segments and participation details][a-3]
 	*  [Explore click path][a-4]
 	*  [Video replay of user sessions][a-5]
 
@@ -114,8 +114,8 @@ Watch some of the videos we have on usability studies.
 [3]: https://cloud.indigo.design
 
 [a-1]: #Test-analytics-overview
-[a-2]: #Task-completion-funnel-&-1st-click-report
-[a-3]: #User-segments-&-participation-details
+[a-2]: #Task-completion-funnel-and-1st-click-report
+[a-3]: #User-segments-and-participation-details
 [a-4]: #Explore-click-path
 [a-5]: #Video-replay-of-user-sessions
 
