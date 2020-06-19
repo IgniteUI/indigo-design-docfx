@@ -119,7 +119,7 @@ Watch some of the videos we have on usability studies.
 [a-4]: #Explore-click-path
 [a-5]: #Video-replay-of-user-sessions
 
-[topic-1]: setting-up-a-usability-study
+[topic-1]: setting-up-a-usability-study.md
 
 [img-1]: ..images/understanding_the_usability_test_report_1.png
 [img-2]: ..images/understanding_the_usability_test_report_2.png
