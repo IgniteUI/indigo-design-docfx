@@ -4,7 +4,7 @@ _description: Create user studies based on prototypes
 _keywords: UX Design, Prototyping, Commenting, Usability studies, User testing
 ---
 
-## Teaser
+## Setting up a Usability Test
 
 At the end of this topic you'll have a usability test based on a prototype in your workspace.
 
