@@ -14,9 +14,11 @@ _language: ja
 - [ナビゲーション](#ナビゲーション)
 - [トランジション](#トランジション)
 
-<img class="responsive-img" src="../images/interaction_options_1.png" />
+<br>
 
-<div class="divider--half"></div>
+<img class="responsive-img" src="../images/interaction_options_1.png" srcset="../images/Interaction_Options_1@2x.png 2x" />
+
+<br>
 
 プロトタイプの作成と公開については、「[プロトタイプの作成](creating-a-prototype.md)」トピックを参照してください。
 
@@ -28,8 +30,12 @@ _language: ja
 
 ホットスポットの作成は、スクリーンのポイント上にクリック + ドラッグします。
 
-<img class="responsive-img" src="../images/Interaction_Options_Hotspot_Tooltip.png" />
-
+<div class="divider--half"></div>
+<img class="responsive-img" src="../images/interaction_options_hotspot_tooltip.png" srcset="../images/interaction_options_hotspot_tooltip@2x.png 2x" />
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
 <div class="divider--half"></div>
 
 ホットスポットを重ねる場合は、CTRL + クリック + ドラッグします。
@@ -39,8 +45,12 @@ _language: ja
 プロトタイプの複数のスクリーンで繰り返しインタラクションを使用できます。
 手順は、ホットスポットを作成、次にインタラクションを追加して複製します。
 
-<img class="responsive-img" src="../images/interaction_options_hotspot_duplicate.png" />
-
+<div class="divider--half"></div>
+<img class="responsive-img" src="../images/interaction_options_hotspot_duplicate.png" srcset="../images/interaction_options_hotspot_duplicate@2x.png 2x" />
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
 <div class="divider--half"></div>
 
 ## ユーザー操作
@@ -64,24 +74,36 @@ _language: ja
 
 よく利用されているインタラクションは、プロトタイプ内の他のスクリーンへの移動です。
 
-<img class="responsive-img" src="../images/interaction_options_navigate.png" />
-
+<div class="divider--half"></div>
+<img class="responsive-img" src="../images/interaction_options_navigate.png" srcset="../images/interaction_options_navigate@2x.png 2x" />
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
 <div class="divider--half"></div>
 
 ### 戻る
 
 プロトタイプのナビゲーション履歴で前のスクリーンへ移動します。
 
-<img class="responsive-img" src="../images/interaction_options_goback.png" />
-
+<div class="divider--half"></div>
+<img class="responsive-img" src="../images/interaction_options_goback.png" srcset="../images/interaction_options_goback@2x.png 2x" />
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
 <div class="divider--half"></div>
 
 ### URL を開く
 
 プロトタイプ以外の URL へ移動します。
 
-<img class="responsive-img" src="../images/interaction_options_openurl.png" />
-
+<div class="divider--half"></div>
+<img class="responsive-img" src="../images/interaction_options_openURL.png" srcset="../images/interaction_options_openURL@2x.png 2x" />
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
 <div class="divider--half"></div>
 
 ## トランジション
@@ -94,8 +116,12 @@ _language: ja
 - スライド
 - プッシュ
 
-<img class="responsive-img" src="../images/Interaction_Options_Interaction_Panel.png" />
-
+<div class="divider--half"></div>
+<img class="responsive-img" src="../images/interaction_options_interaction_panel.png" srcset="../images/interaction_options_interaction_panel@2x.png 2x" />
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
 <div class="divider--half"></div>
 
 アニメーションを反転、スライド、プッシュする方向も選択できます。
@@ -108,6 +134,10 @@ _language: ja
 - 標準: 300 ミリ秒
 - 速い: 150 ミリ秒
 
-<img class="responsive-img" src="../images/interaction_options_durations.png" />
-
+<div class="divider--half"></div>
+<img class="responsive-img" src="../images/interaction_options_durations.png" srcset="../images/interaction_options_durations@2x.png 2x"  />
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
 <div class="divider--half"></div>

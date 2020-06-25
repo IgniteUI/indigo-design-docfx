@@ -1,97 +1,71 @@
 ﻿---
 title: ユーザビリティ テストの作成
-_description: 公開したプロトタイプに基づいてユーザー テストを作成します。
+_description: プロトタイプに基づいてユーザー テストを作成します。
 _keywords: UX デザイン, プロトタイプ, コメント, ユーザビリティ テスト, ユーザー テスト
 _language: ja
 ---
 
-## ユーザビリティ テストの作成
+## プレビュー
 
-公開したプロトタイプに基づいてユーザビリティ テストを作成します。プロトタイプの作成と公開については、[このトピック](creating-a-prototype.md)を参照してください。 
+ワークスペースのプロトタイプに基づいてユーザビリティ テストを作成します。
 
-<img class="responsive-img" src="../images/setting_up_a_usability_study_1.png" srcset="../images/setting_up_a_usability_study_1@2x.png 2x" />
+<img class="responsive-img" src="../images/setting_up_a_usability_test_1.png" />
 
-<div class="divider--half"></div>
+<br/>
 
-ビデオ チュートリアルも合わせてご覧ください。
+## 概要
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vilyDL4fDT0?list=PLZ4rRHIJepBuVK59H1W6cOg6foOD5wqii" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+1. [ユーザビリティ テストの作成](#1-ユーザビリティ-テストの作成).
+2. [タスクの定義](#2-タスクの定義).
+3. [参加者の招待](#3-参加者の招待).
 
-## 詳細手順
+##  ステップバイステップ
 
-### ユーザビリティ テストの作成
+### 1. ユーザビリティ テストの作成
 
-1. 公開したプロトタイプを選択して詳細を表示します。
+1. ワークスペースでプロトタイプを特定し、`新しいユーザビリティ テスト` オプションをクリックします。
+  
+<img class="responsive-img" src="../images/setting_up_a_usability_test_2.png"/>
 
-    <img class="responsive-img" src="../images/setting_up_a_usability_study_2.png" srcset="../images/setting_up_a_usability_study_2@2x.png 2x" />
+<br/>
 
-    <div class="divider--half"></div>
+2. オプションとしてで、テストの前後に表示するメッセージを追加できます。ウェルカム メッセージはテストを始める前に参加者に表示されるメッセージです。お礼文は、参加者がテストを完了した後に送信されます。たとえば、テスト後にアンケートの回答を促すこともできます。
 
-2. `ユーザビリティ テストの作成`をクリックします。
+<img class="responsive-img" src="../images/setting_up_a_usability_test_3.png"/>
 
-3. オプションでテストの前後に表示するメッセージを追加できます。
-
-    ウェルカム メッセージはテストを始める前に参加者に表示されるメッセージです。
-    お礼文は、参加者がテストを完了した後に送信されます。たとえば、テスト後にアンケートの回答を促すこともできます。
-
-    <img class="responsive-img" src="../images/setting_up_a_usability_study_3.png" srcset="../images/setting_up_a_usability_study_3@2x.png 2x" />
-
-    <div class="divider--half"></div>
+<br/>
 
 > [!Note]
-> サインイン中にナビゲーション バーの`ユーザビリティ テスト`を選択し、すべてのテストを表示および管理できます。
+> cloud.indigo.design にサインイン中にナビゲーション バーの`ユーザビリティ テスト`を選択し、すべての調査を表示および管理できます。
 
-### タスクの定義
 
-テストを開始するには、少なくともタスクが 1 つ必要です。
+### 2. タスクの定義
+
+ユーザビリティ テストを開始するには、少なくともタスクが 1 つ必要です。
 
 1. タスクを追加するために`新しいタスクの追加`をクリックします。説明を追加します。
 
-    <img class="responsive-img" src="../images/setting_up_a_usability_study_4.png" srcset="../images/setting_up_a_usability_study_4@2x.png 2x" />
+<img class="responsive-img" src="../images/setting_up_a_usability_test_4.png"/>
 
-    <div class="divider--half"></div>
+<br/>
 
-    テストはリモートで行われるため、タスクについての説明やプロトタイプの詳細はテストの結果に影響を及ぼす場合があります。
+2. プロトタイプを操作して、タスクを完了するための想定されるパスを定義します。間違えた場合は直前の手順をやり直すことができます。
 
-2. フローの記録を開始します。
+<img class="responsive-img" src="../images/setting_up_a_usability_test_5.gif"/>
 
-    `フローの記録`をクリックします。
-    プロトタイプを起動してインターフェイスを記録し、参加者がタスクを完了するために必要な手順を定義します。
- 
-3. 開始ポイントをマークします。 
+<br/>
 
-    デフォルトで最初に開始状態が表示されます。タスクに基づいて開始ポイントとしてステートを選択できます。
+3. パスの記録が完了した後、`新しいタスクの追加`オプションを使用してさらに追加します。タスクを追加した後、参加者を招待します。
+    
+### 3. 参加者の招待
 
-    <img class="responsive-img" src="../images/setting_up_a_usability_study_5.png" srcset="../images/setting_up_a_usability_study_5@2x.png 2x" />
+参加者を招待するには、メイン ツールバーの`テストの開始`オプションをクリックします。次に、生成された URL を共有し、Web ブラウザーを使用して参加します。
 
-    <div class="divider--half"></div>
+<img class="responsive-img" src="../images/setting_up_a_usability_test_6.png"/>
 
-4. プロトタイプとインタラクションする手順を定義します。
-
-    間違えた場合は直前の手順をやり直すことができます。
-
-5. タスク フローを保存します。
-
-    参加者が行う予定のタスクを完了したらタスク フローを保存します。
-
-    タスクの追加に上限はありません。
-
-> [!Note]
-> タスク フローの記録で参加者が定義した手順のみを実行できるためにプロトタイプとのインタラクションを制限できます。制限するには、`記録したタスク フロー以外のインタラクションの無効化`チェックボックスを使用します。
-
-### 参加者の招待
-
-<img class="responsive-img" src="../images/setting_up_a_usability_study_6.png" srcset="../images/setting_up_a_usability_study_6@2x.png 2x" />
-
-<div class="divider--half"></div>
-
-1. [`このテストを開始`] ボタンをクリックします。
-
-2. `招待`オプションでリンクを取得し、参加者に共有します。
+<br/>
 
 > [!Note]
 > 参加者がテストを開始した後はテストを変更することはできません。
 
 参加者数が必要数に達したらテストを終了し、それ以降参加を受け付けないようにもできます。
-
-ユーザビリティ テストの結果については、[このトピック](usability-study-results-overview.md)を参照してください。

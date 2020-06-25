@@ -5,103 +5,105 @@ _keywords: UX デザイン, プロトタイプ, コメント, ユーザビリテ
 _language: ja
 ---
 
-## ユーザビリティ テスト結果の概要
 
-[ユーザビリティ テストの設定](https://www.youtube.com/watch?v=vilyDL4fDT0)後、参加者のテスト結果をさまざまな方法で確認できます。
+## ユーサビリティ テスト結果の概要
 
-* [テスト概要のレポート](#テスト概要のレポート)
-* [タスク レポート](#タスク-レポート)
-* [セッション記録ビューア―](#セッション記録ビューア―)
+[ユーザビリティ テストを設定した](setting-up-a-usability-study.md)後、ユーザビリティ テストのダッシュボードに結果の概要が表示されます。
 
-## テスト概要のレポート
+<img class="responsive-img" src="../images/understanding_the_usability_test_report_1.png"/>
 
-テストのすべてのタスクの情報を示します。
+ダッシュボードには以下が含まれます。
 
-<img class="responsive-img" src="../images/usability_study_results_overview_1.png" srcset="../images/usability_study_results_overview_1@2x.png 2x" />
+*  [テスト分析の概要](#テスト分析の概要)
+*  [タスク完了ファンネル＆ファーストクリック レポート](#タスク完了ファンネル＆ファーストクリック-レポート)
+*  [ユーザー セグメントと参加の詳細](#ユーザー-セグメントと参加の詳細)
+	*  [クリック パス](#クリック-パス)
+	*  [ユーザー セッションのビデオの再生](#ユーザー-セッションのビデオの再生)
 
-<div class="divider--half"></div>
+## テスト分析の概要
+
+テストのすべてのタスクの高レベル分析を表示し、参加者全体のメトリックを集計します。
+
+<img class="responsive-img" src="../images/understanding_the_usability_test_report_2.png"/>
 
 各タスクごとに確認できる項目:
 
+* 成功率 (タスクを完了した参加者の数をそのタスクの参加者の合計数で割ることによって計算されるパーセンテージ)
 * 完了した人数
-* 完了にかかった平均時間
+* タスクの完了にかかった平均時間
 
-タスクをクリックして詳細なレポートを表示します。
+タスク カードをクリックすると、各タスクの参加の詳細を確認できます。
 
-## タスク レポート
+> [!Note]
+> 平均時間のメトリック計算は、参加者がタスクを完了しなかったセッションを自動的に除外します。
 
-各参加者のメトリックを示します。
+##  タスク完了ファンネル＆ファーストクリック レポート
 
-<img class="responsive-img" src="../images/usability_study_results_overview_2.png" srcset="../images/usability_study_results_overview_2@2x.png 2x" />
+タスク完了ファンネルは、参加者が予測される成功パスをどのように使用したかを集計します。パスの各手順の画像、および予測された順序でタスクを完了した参加者の数を確認できます。 
 
-<div class="divider--half"></div>
+<img class="responsive-img" src="../images/understanding_the_usability_test_report_3.png"/>
 
-メトリック:
+完了ファンネルは、以下の分析に役立ちます。 
 
-* タスクの完了
-* 平均時間との比較
-* 手順またはクリックの数
+* **予測される成功パスと完了率** - ユーザビリティ タスクの作成時に設定されたパスと、そのパス (手順の順序) を使用してタスクを完了した参加者の数を示します。
+* **ドロップオフ** - 予測されるパスから離れた参加者の数を示します (参加者は 1 回のみ計算されます)。
+* **ファーストクリック レポート** - インタラクション マーカーは、参加者の最初のインタラクションが想定通りのインタラクションと一致したかどうかを示します。青色の円形マーカーで表示されます。そうでない場合、想定外のインタラクションまたはクリックミスが発生し、赤色のひし形が表示されます。 
 
-参加者に**再生**オプションが表示されている場合、新しいタブでセッションの記録を見ることができます。
+## ユーザー セグメントと参加の詳細
 
-### フローのグループ化
+参加者はほとんどのタスクにおいて予期されるパスのみでなく、好きな手順でタスクを完了できます。ユーザー セグメント レポートは、参加者をタスクの完了方法に基づいてグループ (セグメント) に分割します。
 
-参加者は、ほとんどのタスクにおいてタスク作成時の記録されたフローのみでなく、好きな手順でもタスクを完了できます。これらのタスクのレポートは、フローの異なるフロー カテゴリを示します。
+<img class="responsive-img" src="../images/understanding_the_usability_test_report_4.png"/>
 
-<img class="responsive-img" src="../images/usability_study_results_overview_3.png" srcset="../images/usability_study_results_overview_3@2x.png 2x" />
+ユーザー セグメントは、以下の条件を使用して自動的に作成されます。
 
-<div class="divider--half"></div>
+* **想定通りのパスで成功した セグメント** - タスクの定義時に作成された手順の順序を使用して、タスクを正常に完了した参加者をグループ化します。
+* **代替パスで成功した セグメント** - 予測されるパスとは異なるパスを使用したが、タスクを完了した (最後のステップに到達したなど) 参加者をグループ化します。
+* **失敗したパス セグメント** - タスクを完了できない参加者またはタスクをスキップした参加者をグループ化します。
 
-* **記録したフロー:** タスクを定義したときに使用されるフロー。
-* **代替フロー:** 記録されたフローとは異なり、1 参加者以上に使用されます。
-* **固有なフロー:** 記録されたフローとは異なり、1 参加者にのみ使用されます。
+参加の詳細表は、各参加者のセッション分析を示し、以下を示します。
 
-## セッション記録ビューア―
+* 参加者がタスクを完了したかどうか
+* 参加者のクリックパス。想定通りまたは想定外のインタラクション マーカーの順序として表示されます。
+* タスク時間のメトリック
+* 参加者がそのタスクのフィードバックを追加した場合の \[フィードバックを表示\] ボタン
+* ユーザー ビデオが利用可能な場合の \[ビデオ再生\] オプション
 
-<img class="responsive-img" src="../images/understanding_the_usability_study_report_3.png" srcset="../images/understanding_the_usability_study_report_3@2x.png 2x" />
 
-<div class="divider--half"></div>
+###  クリック パス
 
-### マーカー
+マウスを使用してクリックパスにホバーすると、画面のミニプレビューとユーザーがクリックした場所を確認できます。
 
-タイムラインのマーカーはユーザーがプロトタイプで操作した方法を表します。
-* ブルー: 問題なし
-* レッド: インタラクションが予想したフローに従っていません。
+<img class="responsive-img" src="../images/understanding_the_usability_test_report_5.png"/>
 
-マーカーを使用して確認したい部分へジャンプできます。
+詳細表のタイムライン マーカーをクリックすると、クリックパス エクスプローラーが起動します。これにより、参加者が実行したすべての手順を確認できます。 
 
-### ナビゲーション
+複数のインタラクションがある場合、インタラクション マーカーの番号は、参加者が画面上でインタラクションを行った順序を示します。選択したタスクに関連するインタラクションのみが表示されます。
 
-<img class="responsive-img" src="../images/understanding_the_usability_study_report_4.png" srcset="../images/understanding_the_usability_study_report_4@2x.png 2x" />
+<img class="responsive-img" src="../images/understanding_the_usability_test_report_6.png"/>
 
-<div class="divider--half"></div>
+<br/>
 
-ドロップダウンや上部ナビゲーション、あるいは矢印キーを使用して参加者やタスクを切り替えます。
-* 右と左の矢印で参加者を切り替え
-* 上と下の矢印でタスクを切り替え
 
-### コメント
+### ユーザー セッションのビデオの再生
 
-ビデオをレビューする際に記録にメモを追加できます。タイムラインにメモ マーカーを追加できます。タイム スタンプのチェック ボックスを解除するとマーカーは追加されません。
+詳細表の [ビデオ再生] オプションをクリックすると、セッション ビデオを表示できます。また、\[ビデオ\] タブを選択して、クリックパスを探索しながらビデオを表示できます。
 
-<img class="responsive-img" src="../images/understanding_the_usability_study_report_5.png" srcset="../images/understanding_the_usability_study_report_5@2x.png 2x" />
+<img class="responsive-img" src="../images/understanding_the_usability_test_report_7.png"/>
 
-<div class="divider--half"></div>
+ビデオ タイムラインは、詳細表と同じユーザー インタラクションのタイムラインを表示します。タイムライン マーカーをクリックすると、ビデオの一部に直接ジャンプできます。 
 
-ユーザビリティ テストがグループ ワークスペースに属す場合、メンバーはすべてのコメントにアクセスできます。
+ビデオをダウンロードするには、ビデオを右クリックし、ブラウザーのコンテキスト メニューの \[ビデオの名前を付けて保存\] オプションを使用します。
 
-### ダウンロード
+## 詳細について
 
-右下のギア アイコンをクリックしてダウンロードを選択しビデオをダウンロードします。
+ユーサビリティ テストについてのビデオ:
 
-<img class="responsive-img" src="../images/understanding_the_usability_study_report_6.png" srcset="../images/understanding_the_usability_study_report_6@2x.png 2x" />
+* [リモート ユーザビリティ テストの作成 (英語)](https://www.youtube.com/watch?v=W7IxYTijvx0?rel=0&autoplay=1)
+* [ユーザビリティ テストに参加する (英語)](https://www.youtube.com/watch?v=dfrxhBW5NFQ?rel=0&autoplay=1)
+* [ユーザビリティ テスト結果の概要 (英語)](https://www.youtube.com/watch?v=00P6DwMbYMM?rel=0&autoplay=1)
 
-<div class="divider--half"></div>
 
-## 関連ビデオ
-
-ユーザビリティ テストについてのビデオ:
-
-* [リモート ユーザビリティ テストの作成](https://www.youtube.com/watch?v=W7IxYTijvx0?rel=0&autoplay=1)
-* [ユーザビリティ テストに参加する](https://www.youtube.com/watch?v=dfrxhBW5NFQ?rel=0&autoplay=1)
-* [ユーザビリティ テスト結果の概要](https://www.youtube.com/watch?v=00P6DwMbYMM?rel=0&autoplay=1)
+[1]: https://www.youtube.com/watch?v=vilyDL4fDT0
+[2]: https://cloud.indigo.design/api/shares/qv6uzwx9jwu3/files/project/Money%20App.zip
+[3]: https://cloud.indigo.design
