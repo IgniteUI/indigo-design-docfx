@@ -46,8 +46,7 @@ _keywords: Ignite UI for Angular, Angular, Native Angular Components Suite, Nati
             <br>
         </div>
          <div class="feature__image">
-            <iframe width="400" height="225" src="https://www.youtube.com/watch?v=4GnF4hD_4cM&list=PLZ4rRHIJepBs9bwRs1LZLV0ZVzlFKqwCw" frameborder="0" allowfullscreen></iframe>
-            <p> Overview of undmoderated user-testing</p>
+            <p> Overview of unmoderated user-testing</p>
             <br>
         </div>
           <div class="feature__image">
