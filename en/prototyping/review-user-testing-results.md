@@ -107,10 +107,10 @@ Watch some of the videos we have on usability studies.
 [2]: https://cloud.indigo.design/api/shares/qv6uzwx9jwu3/files/project/Money%20App.zip
 [3]: https://cloud.indigo.design
 
-[a-1]: #Test-analytics-overview
-[a-2]: #Task-completion-funnel-and-1st-click-report
-[a-3]: #User-segments-and-participation-details
-[a-4]: #Explore-click-path
-[a-5]: #Video-replay-of-user-sessions
+[a-1]: #test-analytics-overview
+[a-2]: #task-completion-funnel--1st-click-report
+[a-3]: #user-segments--participation-details
+[a-4]: #explore-click-path
+[a-5]: #video-replay-of-user-sessions
 
 [topic-1]: set-up-a-user-test.md
