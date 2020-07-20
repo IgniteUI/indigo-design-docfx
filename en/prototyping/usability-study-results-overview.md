@@ -1,13 +1,13 @@
 ---
-title: Reviewing Usability Study Results
-_description: Understand usability test results, including the study overview report, the task report, and the session recording viewer
+title: Review User-Testing Results
+_description: Review usability test results, including the study overview report, the task report, and the session recording viewer
 _keywords: UX Design, Prototyping, Usability test, User testing
 ---
 
 
-## Understanding usability test results
+## Review User-testing Results
 
-Once you [set up your usability study][topic-1] and there are some participants, the usability test dashboard summarizes the results for analysis.
+Once you [set up your user-test][topic-1] and there are some participants, the usability test dashboard summarizes the results for analysis.
 
 <img class="responsive-img" src="../images/understanding_the_usability_test_report_1.png"/>
 
@@ -98,9 +98,9 @@ And to download the video, right click on the video use the "save video as..." o
 
 Watch some of the videos we have on usability studies.
 
-* [Create a remote usability study](https://www.youtube.com/watch?v=W7IxYTijvx0?rel=0&autoplay=1)
-* [Take part in a usability study](https://www.youtube.com/watch?v=dfrxhBW5NFQ?rel=0&autoplay=1)
-* [View usability study results](https://www.youtube.com/watch?v=00P6DwMbYMM?rel=0&autoplay=1)
+* [Set up a user-test](https://www.youtube.com/watch?v=_jCDjtxTLCo&list=PLZ4rRHIJepBs9bwRs1LZLV0ZVzlFKqwCw&index=2)
+* [Take part in a user-test](https://www.youtube.com/watch?v=UK0vZTKCt8I&list=PLZ4rRHIJepBs9bwRs1LZLV0ZVzlFKqwCw&index=3)
+* [Review user-testing results](https://www.youtube.com/watch?v=hdVHP01_c1I&list=PLZ4rRHIJepBs9bwRs1LZLV0ZVzlFKqwCw&index=4)
 
 
 [1]: https://www.youtube.com/watch?v=vilyDL4fDT0
@@ -113,4 +113,4 @@ Watch some of the videos we have on usability studies.
 [a-4]: #Explore-click-path
 [a-5]: #Video-replay-of-user-sessions
 
-[topic-1]: setting-up-a-usability-study.md
+[topic-1]: set-up-a-user-test.md
