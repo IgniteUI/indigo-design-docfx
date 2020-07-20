@@ -1,12 +1,13 @@
 ---
-title: Setting up a usability study
+title: Set up a user test
 _description: Create user studies based on prototypes
 _keywords: UX Design, Prototyping, Commenting, Usability studies, User testing
 ---
 
-## Setting up a Usability Test
+## Set up a User Test
 
-At the end of this topic you'll have a usability test based on a prototype in your workspace.
+At the end of this topic you'll have a usability test based on a prototype in your workspace. 
+Optionally, [watch video tutorial](https://youtu.be/_jCDjtxTLCo) on how to set up a user test.
 
 <img class="responsive-img" src="../images/setting_up_a_usability_test_1.png" />
 
