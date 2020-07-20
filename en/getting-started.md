@@ -42,7 +42,7 @@ If you want to watch how users use your prototype to complete specific tasks, an
 
 Learn more:
 
-[Set up a usability test](prototyping/setting-up-a-usability-study.md)
+[Set up a usability test](prototyping/set-up-a-user-test.md)
 
 #### 3. Generate Code for Angular Apps
 

@@ -84,4 +84,4 @@ There's a new participant in a workspace usability study | Subscribe to notifica
 [a-4]: #managing-group-workspaces
 [a-5]: #configuring-notifications
 
-[topic-1]: setting-up-a-usability-study.md
+[topic-1]: set-up-a-user-test.md
