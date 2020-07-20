@@ -111,8 +111,8 @@ Instead of publishing a new prototype, you may want to update an existing one by
 
 Once the prototype is successfully published to the cloud, you will be handed the link to it plus options to:
 
-- view it in the workspace it belongs to, which will opent it up in a browser window
-- create usability study, which will initialize a [remote usability study](prototyping/set-up-a-user-test.md) and open it in a browser window for further configuration
+- view it in the workspace it belongs to, which will open it up in a browser window
+- create usability study, which will initialize a remote [usability study](prototyping/set-up-a-user-test.md) and open it in a browser window for further configuration
 - copy the prototype link to your clipboard in case you want to send it over email or use it to generate code
 
 Once you click on Done the plugin dialog will close and you can continue designing in Sketch.
