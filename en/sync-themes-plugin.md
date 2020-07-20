@@ -133,7 +133,7 @@ This will publish your current project to the last prototype that you have publi
 
 Related topics:
 
-- [Colors](../style/colors.md)
-- [Typography](../style/typography.md)
+- [Colors](./style/colors.md)
+- [Typography](./style/typography.md)
 
 Our community is active and always welcoming to new ideas.
