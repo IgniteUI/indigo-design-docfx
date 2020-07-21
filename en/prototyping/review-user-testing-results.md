@@ -103,9 +103,6 @@ Watch some of the videos we have on usability studies.
 * [Review user-testing results](https://www.youtube.com/watch?v=hdVHP01_c1I&list=PLZ4rRHIJepBs9bwRs1LZLV0ZVzlFKqwCw&index=4)
 
 
-[1]: https://www.youtube.com/watch?v=vilyDL4fDT0
-[2]: https://cloud.indigo.design/api/shares/qv6uzwx9jwu3/files/project/Money%20App.zip
-[3]: https://cloud.indigo.design
 
 [a-1]: #test-analytics-overview
 [a-2]: #task-completion-funnel--1st-click-report
