@@ -222,10 +222,10 @@
   href: ../prototyping/commenting.md
 - name: Collaborating with Workspaces
   href: ../prototyping/workspaces.md
-- name: Setting up a Usability Study
-  href: ../prototyping/setting-up-a-usability-study.md
-- name: Reviewing Usability Study Results
-  href: ../prototyping/usability-study-results-overview.md
+- name: Set up a user test
+  href: ../prototyping/set-up-a-user-test.md
+- name: Review User-Testing Results
+  href: ../prototyping/review-user-testing-results.md
 
 - name: Code Generation
   header: true
