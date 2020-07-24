@@ -75,6 +75,6 @@ There's a new participant in a workspace usability study | Subscribe to notifica
 
 ##  Learn More
 
-* [Setting Up a Usability Study][topic-1]
+* [Setting Up a Usability Test][topic-1]
 
 [topic-1]: set-up-a-user-test.md
