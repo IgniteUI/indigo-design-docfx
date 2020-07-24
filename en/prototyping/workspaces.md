@@ -77,11 +77,4 @@ There's a new participant in a workspace usability study | Subscribe to notifica
 
 * [Setting Up a Usability Study][topic-1]
 
-
-[a-1]: #creating-a-group-workspace
-[a-2]: #accessing-a-workspace
-[a-3]: #publishing-to-a-group-workspace
-[a-4]: #managing-group-workspaces
-[a-5]: #configuring-notifications
-
 [topic-1]: set-up-a-user-test.md
