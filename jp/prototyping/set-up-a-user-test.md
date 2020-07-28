@@ -8,6 +8,7 @@ _language: ja
 ## ユーザー テストの作成
 
 ワークスペースのプロトタイプに基づいてユーザビリティ テストを作成します。
+必要に応じて、ユーザー テストの作成方法に関する[ビデオ チュートリアル](https://www.youtube.com/watch?v=_jCDjtxTLCo&list=PLZ4rRHIJepBs9bwRs1LZLV0ZVzlFKqwCw&index=2)をご覧ください。
 
 <img class="responsive-img" src="../images/setting_up_a_usability_test_1.png" />
 
