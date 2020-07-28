@@ -222,10 +222,10 @@
   href: ../prototyping/commenting.md
 - name: ワークスペースでのコラボレーション
   href: ../prototyping/workspaces.md
-- name: ユーザビリティ テストの設定
-  href: ../prototyping/setting-up-a-usability-study.md
-- name: ユーザビリティ テスト結果をレビュー
-  href: ../prototyping/usability-study-results-overview.md
+- name: ユーザー テストの設定
+  href: ../prototyping/set-up-a-user-test.md
+- name: ユーザー テスト結果をレビュー
+  href: ../prototyping/review-user-testing-results.md
 
 - name: コード生成
   header: true

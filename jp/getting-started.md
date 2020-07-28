@@ -43,7 +43,7 @@ Indigo.Design はデザインから開発までのワークフローをサポー
 
 関連トピック:
 
-[ユーザビリティ テストの作成](prototyping/setting-up-a-usability-study.md)
+[ユーザー テストの作成](prototyping/set-up-a-user-test.md)
 
 #### 3.Angular アプリケーションのコードを生成
 

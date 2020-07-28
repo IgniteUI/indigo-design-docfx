@@ -1,14 +1,14 @@
 ﻿---
-title: ユーザビリティ テスト結果の概要
-_description: テスト概要のレポート、タスク レポート、およびセッション記録ビューア―によってユーザビリティ テスト結果を理解にします。
+title: ユーザー テスト結果をレビュー
+_description: テスト概要のレポート、タスク レポート、およびセッション記録ビューア―によってユーサビリティ テスト結果をレビューします。
 _keywords: UX デザイン, プロトタイプ, コメント, ユーザビリティ テスト, ユーザー テスト
 _language: ja
 ---
 
 
-## ユーサビリティ テスト結果の概要
+## ユーザー テスト結果をレビュー
 
-[ユーザビリティ テストを設定した](setting-up-a-usability-study.md)後、ユーザビリティ テストのダッシュボードに結果の概要が表示されます。
+[ユーザー テストを設定した][topic-1]後、ユーザビリティ テストのダッシュボードに結果の概要が表示されます。
 
 <img class="responsive-img" src="../images/understanding_the_usability_test_report_1.png"/>
 
@@ -99,11 +99,16 @@ _language: ja
 
 ユーサビリティ テストについてのビデオ:
 
-* [リモート ユーザビリティ テストの作成 (英語)](https://www.youtube.com/watch?v=W7IxYTijvx0?rel=0&autoplay=1)
-* [ユーザビリティ テストに参加する (英語)](https://www.youtube.com/watch?v=dfrxhBW5NFQ?rel=0&autoplay=1)
-* [ユーザビリティ テスト結果の概要 (英語)](https://www.youtube.com/watch?v=00P6DwMbYMM?rel=0&autoplay=1)
+* [ユーザー テストの作成 (英語)](https://www.youtube.com/watch?v=_jCDjtxTLCo&list=PLZ4rRHIJepBs9bwRs1LZLV0ZVzlFKqwCw&index=2)
+* [ユーザー テストに参加する (英語)](https://www.youtube.com/watch?v=UK0vZTKCt8I&list=PLZ4rRHIJepBs9bwRs1LZLV0ZVzlFKqwCw&index=3)
+* [ユーザー テスト結果をレビュー (英語)](https://www.youtube.com/watch?v=hdVHP01_c1I&list=PLZ4rRHIJepBs9bwRs1LZLV0ZVzlFKqwCw&index=4)
 
 
-[1]: https://www.youtube.com/watch?v=vilyDL4fDT0
-[2]: https://cloud.indigo.design/api/shares/qv6uzwx9jwu3/files/project/Money%20App.zip
-[3]: https://cloud.indigo.design
+
+[a-1]: #test-analytics-overview
+[a-2]: #task-completion-funnel--1st-click-report
+[a-3]: #user-segments--participation-details
+[a-4]: #explore-click-path
+[a-5]: #video-replay-of-user-sessions
+
+[topic-1]: set-up-a-user-test.md
