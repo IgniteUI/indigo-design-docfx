@@ -4,6 +4,7 @@ const {dest, series, src, watch} = require('gulp');
 const browserSync = require('browser-sync').create();
 const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
+const replace = require('gulp-replace');
 const argv = require('yargs').argv;
 const fs = require('fs');
 const slash = require('slash');
@@ -68,6 +69,12 @@ const buildSite = (done) => {
     });
 };
 
+const removeHTMLExtensionFromSiteMap = () => {
+  return src([DOCFX_SITE + '/sitemap.xml'])
+      .pipe(replace(/\.html/g, ''))
+      .pipe(dest(DOCFX_SITE));
+};
+
 const watchFiles = (done) => {
 
     watch([
@@ -118,7 +125,8 @@ const postProcessorConfigs = series(cleanup, environmentVariablesConfig);
 const build = series(
   styles, 
   postProcessorConfigs, 
-  buildSite);
+  buildSite,
+  removeHTMLExtensionFromSiteMap);
 
 exports.build = build;
 exports.serve = series(build, init, watchFiles);
