@@ -4,10 +4,12 @@
   href: ../getting-started.md
 - name: Video Tutorials
   href: ../video-tutorials.md
-- name: App Builder Overview (TEST)
+- name: App Builder Overview
   header: true
-- name: Getting Started
-  href: ../appbuilder/getting-started.md
+-  name: Getting Started
+   href: ../appbuilder/getting-started.md
+   name: Interface overview
+   href: ../appbuilder/interface-overview.md
 - name: Using the Design System
   header: true
 - name: Creating Your First Artboard
