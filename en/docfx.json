@@ -20,6 +20,7 @@
                     "prototyping/**.md",
                     "codegen/**.md",
                     "appbuilder/**.md",
+                    "appbuilder/flex-layouts/**.md",
                     "components/**.md",
                     "patterns/**.md",
                     "style/**.md",
