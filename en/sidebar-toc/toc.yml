@@ -13,13 +13,13 @@
 -  name: Flex layouts
    herf: ../appbuilder/flex-layouts.md
     - name: Row and column layout
-      href: ../appbuilder/flex-layouts/row-and-column-layout.md
+      href: ../appbuilder/row-and-column-layout.md
     - name: Fluid resizing & wrapping
-      href: ../appbuilder/flex-layouts/fluid-resizing-&-wrapping.md
+      href: ../appbuilder/fluid-resizing-&-wrapping.md
     - name: Add to layout via context menu
-      href: ../appbuilder/flex-layouts/add-to-layout-via-context-menu.md
+      href: ../appbuilder/add-to-layout-via-context-menu.md
     - name: Additional resources to learn about web-layouts
-      href: ../appbuilder/flex-layouts/additional-resources-to-learn-about-web-layouts.md
+      href: ../appbuilder/additional-resources-to-learn-about-web-layouts.md
 -  name: Indigo.Design App Builder components
    herf: ../appbuilder/indigo.design-app-builder-components.md
     -  name: Quick add components
