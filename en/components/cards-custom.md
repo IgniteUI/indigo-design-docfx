@@ -4,15 +4,15 @@ _description: The Cards collection contains this special type of Card that allow
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Custom Cards
+# Custom Cards
 
 Use the Custom Card Component to display the same type of information that you would in a normal Card but with the complete freedom to arrange your layout exactly as you would like. The Custom Card is achievable by writing the necessary customizations to layout of the [Ignite UI for Angular Card Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/card.html)
 
-### Custom Card Demo
+## Custom Card Demo
 
 <img class="responsive-img" src="../images/card_custom_demo.png" srcset="../images/card_custom_demo@2x.png 2x" />
 
-### Detach from Symbol
+## Detach from Symbol
 
 In order to customize Card layouts start by dragging a `Cards/Custom` to your Artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared _Cards/Custom_ group, you should see the following:
 
@@ -26,7 +26,7 @@ In order to customize Card layouts start by dragging a `Cards/Custom` to your Ar
 | &nbsp;&nbsp; Elevation     | Drops a slight shadow on the card collection background                                                                                              |
 | 🕹️DataProperty             | Used by code generation for data binding                                                                                                             |
 
-#### Styling
+## Styling
 
 The Custom Card has high-level styling flexibility that matches the normal Card through various overrides for text, icons, buttons, and background colors. The detaching of the symbol provides additional control over the corner rounding and elevation level.
 
@@ -39,7 +39,7 @@ The Custom Card has high-level styling flexibility that matches the normal Card 
 | &nbsp;&nbsp; Content | Groups together the Card layout elements |
 | &nbsp;&nbsp; Actions | Groups together the Card layout elements |
 
-#### Layout
+## Layout
 
 Let's see how we can create the intricate layout for the weather forecast Card found above in five simple steps. We have dragged a Custom Card into an empty Artboard, selected the `Detach from Symbol`, and applied the available basic styling changes for the background color, corner radius, and elevation. Once that was completed, we had this for a starting point.
 
@@ -65,7 +65,7 @@ Let's see how we can create the intricate layout for the weather forecast Card f
 
     <img class="responsive-img" src="../images/card_custom_layout5.png" srcset="../images/card_custom_layout5@2x.png 2x" />
 
-#### Additional Styling
+## Additional Styling
 
 With this Custom Card layout, extensive additional styling is possible based on the elements that have been inserted in the card. For example, we can set a color for the text of the temperature to emphasize it and set a subtler color for the complimentary information, such as the labels underneath the slider and the weekday labels paragraph.
 

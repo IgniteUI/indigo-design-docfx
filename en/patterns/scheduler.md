@@ -4,7 +4,7 @@ _description: The Scheduler Pattern Symbols is a complex combination of various 
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Scheduler
+# Scheduler
 
 Use the Scheduler Symbol as a preset to display Scheduler as part of project management, task management, meeting planner or e-mail application. Note that the Scheduler Symbol is just an interface illustrating a scheduler without any of the scheduling functionality.
 

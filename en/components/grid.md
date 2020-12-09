@@ -4,15 +4,15 @@ _description: The Grid Component provides means to display and interact with hig
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Grid
+# Grid
 
 Use the Grid Component to let the user browse and interact with vast amount of complex data that is visually represented in tabular fashion and provide means for filtering, sorting, paging, and much more. The Grid is visually identical to the [Ignite UI for Angular Grid Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid.html)
 
-### Grid Demo
+## Grid Demo
 
 <img class="responsive-img" src="../images/grid_demo.png" srcset="../images/grid_demo@2x.png 2x" />
 
-### Detach from Symbol
+## Detach from Symbol
 
 The Grid is essentially a repeater of columns and rows showing data in a tabular fashion. Therefore, the easiest way to use it is by dragging one of the predefined grids to your artboard - there are three presets available for the three [display densities](grid-display-density.md) supported. Once in your artboard, by right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu you should see the following in your layers panel under the newly appeared group:
 
@@ -26,7 +26,7 @@ The Grid is essentially a repeater of columns and rows showing data in a tabular
 
 After detaching, you may alter the number of headers you need, in order to show all the dimensions of your data and insert as many visible records as you want to show in your design simply by duplicating one of the rows of data that you already have.
 
-### Cell Types
+## Cell Types
 
 The Grid provides three types of cells serving different data visualization purposes. The Header Cell is only one per column and appears at the top of the grid to display the textual description of the data in that particular column. The Body Cell is used to build the content table displaying data records and its type may vary. The Summary Cell is used to create a section at the bottom of the Grid where [Summaries](grid-summaries.md) columns are displayed for each dimension such as count, minimum, and maximum value.
 
@@ -38,7 +38,7 @@ There is also one special sub-type of Header Cell, the Row Filter Header Cell th
 
 <img class="responsive-img" src="../images/grid_cell_header_filter.png" srcset="../images/grid_cell_header_filter@2x.png 2x" />
 
-### Cell Display Density
+## Cell Display Density
 
 Header, Body and Summary Cells support the the three display density variants of the Grid and come with distinct symbols for each one as can be seen for the Body Cells below:
 
@@ -46,7 +46,7 @@ Header, Body and Summary Cells support the the three display density variants of
 <img class="responsive-img" src="../images/grid_cell_body_cosy.png" srcset="../images/grid_cell_body_cosy@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_compact.png" srcset="../images/grid_cell_body_compact@2x.png 2x" />
 
-### Items and Features (Header Cell)
+## Items and Features (Header Cell)
 
 The Grid Header Cell supports various layout combinations through the `Items` override and different feature configurations via the `Feature Left` and `Feature Right` overrides. Moreover there are a number of additional overrides that are not visible but enable different column features on the Grid, such as [Editing](grid-editing.md), [Moving](grid-column-moving.md), [Resizing](grid-column-resizing.md), and [Hiding](grid-column-hiding.md).
 
@@ -54,7 +54,7 @@ The Grid Header Cell supports various layout combinations through the `Items` ov
 <img class="responsive-img" src="../images/grid_cell_header_icon.png" srcset="../images/grid_cell_header_icon@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_icons.png" srcset="../images/grid_cell_header_icons@2x.png 2x" />
 
-### State and Grid Feature (Body Cell)
+## State and Grid Feature (Body Cell)
 
 The Grid Body Cell supports the following interactive states: **inactive** for the normal state and active for the focused/selected cell.
 _Default value is styled with_ **bold** _text._
@@ -69,7 +69,7 @@ The Grid Body Cell has styling support for some of the Grid features defined thr
 <img class="responsive-img" src="../images/grid_cell_body_row-editing-nofocus.png" srcset="../images/grid_cell_body_row-editing-nofocus@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_row-editing-focus.png" srcset="../images/grid_cell_body_row-editing-focus@2x.png 2x" />
 
-### Cell Type
+## Cell Type
 
 The Grid Header Cell provides presets for the three generic types of data that the Grid needs to accommodate: **Number** for numeric values, Text for strings, and Checbox that is usually used for columns with boolean data or as a template for the first column in order to allow selection of multiple rows.
 
@@ -84,7 +84,7 @@ The Grid Body Cell provides presets for the same generic types of data like the 
 <img class="responsive-img" src="../images/grid_cell_body_checkbox.png" srcset="../images/grid_cell_body_checkbox@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_icon.png" srcset="../images/grid_cell_body_icon@2x.png 2x" />
 
-### Grid Horizontal Scrolling
+## Grid Horizontal Scrolling
 
 One way to achieve certain Grid dimensions, either as an absolute width or in relation to a parent group/container, is by adding a mask within the main group for the Grid. Simply insert a rectangle without any style and set its dimensions according to your needs, in the image below we have a Grid that is always exactly 800px wide.
 
@@ -96,7 +96,7 @@ You may fix the width and height of the rectangle, change its name to `Mask` and
 
 Now your Grid group will take the dimensions of the Mask and you may use it in your layout in the same way as you would use a Grid without horizontal scrolling. When code for this component is generated it will automatically add a horizontal scrollbar respecting the mask dimensions as dimension for your Grid.
 
-### Styling
+## Styling
 
 The Grid comes with styling flexibility achievable through styling the individual cell text, icons, and background colors in the various states available, as well as the hiding of horizontal and vertical borders.
 

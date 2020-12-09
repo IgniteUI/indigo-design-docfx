@@ -4,7 +4,7 @@ _description: The Tree Grid Pattern Symbol represents a Tree Grid Component with
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Tree Grid
+# Tree Grid
 
 Use the Tree Grid Pattern symbol as an alternative starting point when designing a tabular data layout with child and parent records within a Grid. It provides a full-blown contentwise and stylewise Tree Grid Component, on which can be applied all the Grid functionality, provided in the Components Library.
 

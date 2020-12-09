@@ -4,17 +4,17 @@ _description: The Linear Gauge Component Symbol is a data visualization that dis
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Linear Gauge
+# Linear Gauge
 
 Use the Linear Gauge Component as a data visualization that displays a value within context depicted by color-coded ranges underneath. The Linear Gauge is visually identical to the [Ignite UI for Angular Linear Gauge Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/lineargauge.html)
 
 For scenarios where a target value is critically important for understanding and interpreting the information, you should use the [Bullet Graph](bullet-graph.md) instead.
 
-### Linear Gauge Demo
+## Linear Gauge Demo
 
 <img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
 
-### Needle Type
+## Needle Type
 
 The Linear Gauge provides various overrides that control the shape of the needle, which indicates the current value: **needle**, trapezoid, and triangle.
 
@@ -22,7 +22,7 @@ The Linear Gauge provides various overrides that control the shape of the needle
 <img class="responsive-img" src="../images/linear_gauge_trapezoid.png" srcset="../images/linear_gauge_trapezoid@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_triangle.png" srcset="../images/linear_gauge_triangle@2x.png 2x" />
 
-### Ranges Amount
+## Ranges Amount
 
 The Linear Gauge comes with three preset range configurations: two, **three**, and four ranges.
 
@@ -30,7 +30,7 @@ The Linear Gauge comes with three preset range configurations: two, **three**, a
 <img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_four_ranges.png" srcset="../images/linear_gauge_four_ranges@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Linear Gauge comes with styling flexibility through the various overrides controlling the background color and a range of brushes including: Needle Brush, Tick Brush, Minor Tick Brush, and a collection of Range Brushes.
 

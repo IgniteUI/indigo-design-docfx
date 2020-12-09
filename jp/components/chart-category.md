@@ -5,22 +5,22 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## Category Chart (カテゴリ チャート)
+# Category Chart (カテゴリ チャート)
 
 Category Chart コンポーネント は、密度をラップして複雑なデータをシンプルに表示します。Category Charts は、関連データ セットできれいなダッシュボードを作成するために組み合わせて使用します。Category Chart は、[Ignite UI for Angular Category Chart コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/category-chart.html)と視覚的に同じものです。
 
-### Category Chart デモ
+## Category Chart デモ
 
 <img class="responsive-img" src="../images/chart_category_demo.png" srcset="../images/chart_category_demo@2x.png 2x" />
 
-### ツールチップ
+## ツールチップ
 
 Category Chart は、ツールチップ表示のオーバーライドが可能です。ツールチップ非表示にする **Tooltip Off**、シリーズの一番上に表示する Tooltip On。
 
 <img class="responsive-img" src="../images/chart_category_tooltip-off.png" srcset="../images/chart_category_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/chart_category_tooltip-on.png" srcset="../images/chart_category_tooltip-on@2x.png 2x" />
 
-### タイプ
+## タイプ
 
 Category Chart は以下のようなさまざまなオーバーライドで Chart タイプを選択できる柔軟性があります。
 
@@ -36,7 +36,7 @@ Category Chart は以下のようなさまざまなオーバーライドで Char
 | ステップ折れ線   |<img class="responsive-img" src="../images/chart_category_step-line.png" srcset="../images/chart_category_step-line@2x.png 2x" />     |
 | ウォーターフォール   |<img class="responsive-img" src="../images/chart_category_waterfall.png" srcset="../images/chart_category_waterfall@2x.png 2x" />     |
 
-### シリーズ量
+## シリーズ量
 
 このオーバーライドは、描画するシリーズを 1 つ ～ **3** つ選択します。
 

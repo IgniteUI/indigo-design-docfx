@@ -5,17 +5,17 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## Radial Gauge (ラジアル ゲージ)
+# Radial Gauge (ラジアル ゲージ)
 
 Radial Gauge コンポーネントを円形のデータ可視化を使用し、カラーコードされた下部の範囲で描かれたコンテキスト内の値を表示します。Radial Gauge は、[Ignite UI for Angular Radial Gauge コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/radial-gauge.html)と視覚的に同じものです。
 
 ターゲット値が情報の理解や解釈に非常に重要である場合、代わりに [Bullet Graph](bullet-graph.md) を使用します。
 
-### ラジアル ゲージのデモ
+## ラジアル ゲージのデモ
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 
-### 針のタイプ
+## 針のタイプ
 
 Radial Gauge は、現在の値を示す針の形 (**needle**、trapezoid、triangle) を制御するさまざまなオーバライドをサポートします。
 
@@ -23,7 +23,7 @@ Radial Gauge は、現在の値を示す針の形 (**needle**、trapezoid、tria
 <img class="responsive-img" src="../images/radial_gauge_trapezoid.png" srcset="../images/radial_gauge_trapezoid@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_triangle.png" srcset="../images/radial_gauge_triangle@2x.png 2x" />
 
-### ダイアル タイプ
+## ダイアル タイプ
 
 Radial Gauge は、範囲 (**full**、half、inside、outside) を表示するダイアルを制御するさまざまなオーバーライドをサポートします。
 
@@ -32,7 +32,7 @@ Radial Gauge は、範囲 (**full**、half、inside、outside) を表示する�
 <img class="responsive-img" src="../images/radial_gauge_inside.png" srcset="../images/radial_gauge_inside@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_outside.png" srcset="../images/radial_gauge_outside@2x.png 2x" />
 
-### 範囲のサイズ
+## 範囲のサイズ
 
 Radial Gauge は、定義済みの 3 つの範囲 (2 つ、**3 つ**、4 つ) 設定があります。
 
@@ -40,7 +40,7 @@ Radial Gauge は、定義済みの 3 つの範囲 (2 つ、**3 つ**、4 つ) �
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_four_ranges.png" srcset="../images/radial_gauge_four_ranges@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Radial Gauge のスタイル設定は高い柔軟性があり、背景色の制御をオーバライドやブラシ範囲 (Needle Brush、Range Brushes、Tick Brush の範囲、Minor Tick Brush) があります。
 

@@ -4,7 +4,7 @@ _description: The Gallery Pattern Symbol provides an image grid occasionally int
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Gallery
+# Gallery
 
 Use the Gallery Pattern to display an image grid where the images can also be organized in albums. It also has support for varoius image sizes:
 

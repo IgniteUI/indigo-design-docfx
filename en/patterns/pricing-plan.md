@@ -4,7 +4,7 @@ _description: The Pricing Plan Pattern Symbols display a Pricing table with pric
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Pricing Table
+# Pricing Table
 
 Use the Pricing Plan Symbol as presets to display different pricing plans for a product or subscription plan. Each Pricing Plan includes plan name, price, list of features included or not included and call-to-action button. Pricing Plan Symbol has two variations - featured and not featured.
 

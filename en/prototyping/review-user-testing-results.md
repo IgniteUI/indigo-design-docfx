@@ -5,7 +5,7 @@ _keywords: UX Design, Prototyping, Usability test, User testing
 ---
 
 
-## Review User-testing Results
+# Review User-testing Results
 
 Once you [set up your user-test][topic-1] and there are some participants, the usability test dashboard summarizes the results for analysis.
 

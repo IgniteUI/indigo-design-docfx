@@ -4,15 +4,15 @@ _description: The Input Component Symbol allows the collection of user data such
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Input
+# Input
 
 Use the Input Component to collect user data such as strings and numbers fitting various contexts, dates, and other values. Multiple inputs can be combined to craft easy-to-use and aesthetic forms. The Input is visually identical to the [Ignite UI for Angular Input Group Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/input_group.html)
 
-### Input Demo
+## Input Demo
 
 <img class="responsive-img" src="../images/input_demo.png" srcset="../images/input_demo@2x.png 2x" />
 
-### Types
+## Types
 
 The Input comes with or without a helper text and provides choice between three distinct types, e.g. line style for a more airy style or border style for a more structured perception on solid color backgrounds. The boxed style is most appropriate when the Input is placed on top of an vivid image to improve readability of its content.
 
@@ -31,14 +31,14 @@ The Input comes with or without a helper text and provides choice between three 
 <img class="responsive-img" src="../images/input_search.png" srcset="../images/input_search@2x.png 2x" />
 `search`
 
-### Variants
+## Variants
 
 The Input can be used styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
 
 <img class="responsive-img" src="../images/input_dark.png" srcset="../images/input_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/input_light.png" srcset="../images/input_light@2x.png 2x" />
 
-### State
+## State
 
 When the user interacts with the Input, it goes through various states: **idle** with a placeholder in the place of the content, focused while the user is typing in it, filled once the user has finished adding content and moved on, and disabled when the input does not support any interaction. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
 
@@ -60,7 +60,7 @@ Every experienced designer uses constraints wisely to limit the user input and a
 <img class="responsive-img" src="../images/input_warning.png" srcset="../images/input_warning@2x.png 2x" />
 <img class="responsive-img" src="../images/input_error.png" srcset="../images/input_error@2x.png 2x" />
 
-### Layout
+## Layout
 
 The Input has rich support for prefix and suffix through text string or icon that can, in certain cases, reduce the input effort for the user: e.g. an @email.com suffix means both less keystrokes and more clarity of expected content, while a clock or calendar prefix may indicate that the Input is suitable to provide time or date as content.
 
@@ -76,14 +76,14 @@ The Input has rich support for prefix and suffix through text string or icon tha
 > - .../Suffix/Icons/...
 > - .../Suffix/String/...
 
-### Date Picker and Time Picker Inputs
+## Date Picker and Time Picker Inputs
 
 These two are special types of Input customized for the purposes of date and time selection. They have a consistent structure with the other Inputs, but the layout, which is fixed in a certain way for each state. The icons that appear at the prefix location are set to the Material Icons `calendar-today` and `access-time` and can not be changed via the overrides panel.
 
 <img class="responsive-img" src="../images/input_calendar.png" srcset="../images/input_calendar@2x.png 2x" />
 <img class="responsive-img" src="../images/input_time-picker.png" srcset="../images/input_time-picker@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Input comes with styling achievable through changing the primary, success, warning, and error colors of your theme in the Styling library.
 

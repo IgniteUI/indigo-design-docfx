@@ -5,22 +5,22 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポ�
 _language: ja
 ---
 
-## Custom List Item (カスタム リスト アイテム)
+# Custom List Item (カスタム リスト アイテム)
 
 Custom List Item シンボルは、通常の List Item と同じタイプの情報を表示しますが、レイアウトを自由に変更できます。Custom List Item は、[Ignite UI for Angular List コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/list.html)のレイアウトにカスタム コードを使用します。
 
-### Custom List Item デモ
+## Custom List Item デモ
 
 <img class="responsive-img" src="../images/list_item_custom_demo.png" srcset="../images/list_item_custom_demo@2x.png 2x" />
 
-### 状態
+## 状態
 
 Custom List Item はインアクティブ状態 (標準状態のインアクティブと選択状態のアクティブ) をサポートします。
 
 <img class="responsive-img" src="../images/list_item_custom_inactive.png" srcset="../images/list_item_custom_inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_custom_active.png" srcset="../images/list_item_custom_active@2x.png 2x" />
 
-### シンボルからデタッチ
+## シンボルからデタッチ
 
 List Item レイアウトをカスタマイズするには、`List/Custom/Item` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下の方にある `Detach from Symbol` オプションを選択します。新しく表示される `List/Custom/Item` グループの下のレイヤー パネルには以下があります。
 
@@ -31,13 +31,13 @@ List Item レイアウトをカスタマイズするには、`List/Custom/Item` 
 | 💡Secondary Action Group | Secondary Action レイアウト要素をグループ化                                                                                    |
 | 💡State                  | 項目の Background を含み、List Item がアクティブまたは非アクティブな状態にあるかどうかを定義します。                           |
 
-#### スタイル設定
+### スタイル設定
 
 Custom List Item は、Secondary Actions のオーバーライドおよびテキスト、アイコン、ボタン色の制御の一般的な List Item 同様にスタイル設定に高い柔軟性があります。各 List Item 同様にオーバーライドで Item 背景色を指定できます。
 
 <img class="responsive-img" src="../images/list_item_custom_styling.png" srcset="../images/list_item_custom_styling@2x.png 2x" />
 
-#### レイアウト
+### レイアウト
 
 以下は、上記の製品 List Item の複雑なレイアウトを 3 つのシンプルなステップで作成する方法です。空 Artboard の Custom List Item をドラッグし、`Detach from Symbol` を選択して、状態の背景色を変更する基本スタイルを適用します。開始ポイントにも同様に適用します。
 
@@ -55,7 +55,7 @@ Custom List Item は、Secondary Actions のオーバーライドおよびテキ
 
   <img class="responsive-img" src="../images/list_item_custom_layout3.png" srcset="../images/list_item_custom_layout3@2x.png 2x" />
 
-#### 追加のスタイル
+### 追加のスタイル
 
 List Item レイアウトでは、挿入されている要素に基づいてさまざまなスタイルを追加することが可能になります。たとえば、テキストの色を設定して強調したり、Badge 背景や Raised Button 背景の色を変更したりできます。
 

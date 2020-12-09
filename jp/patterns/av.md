@@ -5,7 +5,7 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, パター�
 _language: ja
 ---
 
-## Audio / Video (オーディオ / ビデオ)
+# Audio / Video (オーディオ / ビデオ)
 
 Audio / Video パターンは再生コントロールを持つオーディオまたはビデオ トラック表示と共に使用されます。
 
