@@ -5,29 +5,29 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## Dropdown (ドロップダウン)
+# Dropdown (ドロップダウン)
 
 Dropdown コンポーネントでは、ユーザーがスクロール可能なリストでユーザー インタラクションに応じて表示されるコレクションから項目を選択できます。一度に 1 項目のみ選択でき、複数選択を許容する場合は [Combo](combo.md) を使用します。ドロップダウン は、[Ignite UI for Angular Dropdown コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/drop_down.html)と視覚的に同じです。
 
-### Dropdown デモ
+## Dropdown デモ
 
 <img class="responsive-img" src="../images/dropdown_demo.png" srcset="../images/dropdown_demo@2x.png 2x" />
 
-### タイプ
+## タイプ
 
 Dropdown は、デスクトップとモバイルで使用時に適切なサイズで提供されます。
 
 <img class="responsive-img" src="../images/dropdown_desktop.png" srcset="../images/dropdown_desktop@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_mobile.png" srcset="../images/dropdown_mobile@2x.png 2x" />
 
-### 項目
+## 項目
 
 Dropdown は、項目ヘッダーと項目の 2 つのタイプをサポートします。ヘッダーでグループの他の項目を体系化できます。
 
 <img class="responsive-img" src="../images/dropdown_header.png" srcset="../images/dropdown_header@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item.png" srcset="../images/dropdown_item@2x.png 2x" />
 
-### 項目の状態
+## 項目の状態
 
 Dropdown 項目は、5 つの状態をサポートします。disabled, **idle**、focused、selected、focused&selected。
 
@@ -37,7 +37,7 @@ Dropdown 項目は、5 つの状態をサポートします。disabled, **idle**
 <img class="responsive-img" src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Dropdown は、背景色を制御するオーバーライドによるスタイル設定、項目やヘッダー背景、テキスト色を含む項目に関連するさなざまなオーバーライドに高い柔軟性があります。
 

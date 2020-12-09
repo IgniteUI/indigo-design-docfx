@@ -4,15 +4,15 @@ _description: The Chip Component Symbol is an interactive and compact visual sho
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Chip
+# Chip
 
 Use the Chip Component as a compact visual shown in an obround to display tags and people information e.g. for the recipients of an email. The Chip is visually identical to the [Ignite UI for Angular Chip Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/chip.html)
 
-### Chip Demo
+## Chip Demo
 
 <img class="responsive-img" src="../images/chip_demo.png" srcset="../images/chip_demo@2x.png 2x" />
 
-### Chip Density
+## Chip Density
 
 The Chip comes in three density variants:
 
@@ -24,7 +24,7 @@ The Chip comes in three density variants:
 <img class="responsive-img" src="../images/chip_cosy.png" srcset="../images/chip_cosy@2x.png 2x" />
 <img class="responsive-img" src="../images/chip_compact.png" srcset="../images/chip_compact@2x.png 2x" />
 
-### Chip State
+## Chip State
 
 When the user interacts with the Chip, it goes through various states: **idle**, selected when the user has performed selective action, and focused while the user is navigating through the tab index. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
 
@@ -54,7 +54,7 @@ Additional states are available in case you want to make the Chip removable and 
 <img class="responsive-img" src="../images/chip_focus_selected_removable.png" srcset="../images/chip_focus_selected_removable@2x.png 2x" />
 `focus and removable when selected`
 
-### Chip Content
+## Chip Content
 
 The Chip has rich support for prefix and suffix icons that can be used to convey additional meaning through the provided content states: **OnlyText**, Prefix, Prefix+Suffix, Suffix.
 
@@ -63,7 +63,7 @@ The Chip has rich support for prefix and suffix icons that can be used to convey
 <img class="responsive-img" src="../images/chip_prefix_suffix.png" srcset="../images/chip_prefix_suffix@2x.png 2x" />
 <img class="responsive-img" src="../images/chip_suffix.png" srcset="../images/chip_suffix@2x.png 2x" />
 
-### Chip Styling
+## Chip Styling
 
 The Chip comes with styling flexibility through the various overrides controlling the border and background colors, as well as the text and prefix, suffix, remove icon colors, where applicable.
 

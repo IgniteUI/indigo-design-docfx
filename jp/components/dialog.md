@@ -5,15 +5,15 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポ�
 _language: ja
 ---
 
-## Dialog (ダイアログ)
+# Dialog (ダイアログ)
 
 Dialog コンポーネント シンボルは、メッセージや警告をユーザーに表示、あるいはログインなど直ちに操作が必要なフォームを表示します。Dialog をモーダルに表示してユーザーが完了または閉じるまで次に進めないようにします。Dialog は、[Ignite UI for Angular Dialog Window コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/dialog.html)と視覚的に同じものです。
 
-### Dialog デモ
+## Dialog デモ
 
 <img class="responsive-img" src="../images/dialog_demo.png" srcset="../images/dialog_demo@2x.png 2x" />
 
-### タイプ
+## タイプ
 
 Dialog 確認ボタンのみの警告を表示します。キャンセルや確認のメッセージ、あるいは直ちに対応が必要なユーザー ログインなどのコンテナーとして使用します。
 
@@ -21,7 +21,7 @@ Dialog 確認ボタンのみの警告を表示します。キャンセルや確�
 <img class="responsive-img" src="../images/dialog_standard.png" srcset="../images/dialog_standard@2x.png 2x" />
 <img class="responsive-img" src="../images/dialog_custom.png" srcset="../images/dialog_custom@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Dialog は、さまざまなオーバーライドでタイトルやメッセージ、2 種類の [Button](button.md) タイプで個別にスタイル設定したボタンを制御することにより柔軟にスタイル設定できます。
 

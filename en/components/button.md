@@ -4,15 +4,15 @@ _description: The Button Component Symbol is used to represent a simple action.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Button
+# Button
 
 Use the Button Component to represent the trigger for a simple action that user can take. Buttons are used in cards, dialogs, forms, and many other components and patterns. The Button is visually identical to the [Ignite UI for Angular Button Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/button.html)
 
-### Button Demo
+## Button Demo
 
 <img class="responsive-img" src="../images/button_demo.png" srcset="../images/button_demo@2x.png 2x" />
 
-### Type
+## Type
 
 Four types of Buttons are supported:
 
@@ -23,13 +23,13 @@ Four types of Buttons are supported:
 
 <img class="responsive-img" src="../images/button_types.png" srcset="../images/button_types@2x.png 2x" />
 
-### States
+## States
 
 Every type of button supports a **default**, hover, and disabled state. A button with an icon and label is also available in the default state.
 
 <img class="responsive-img" src="../images/button_states.png" srcset="../images/button_states@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Buttons come with styling flexibility through the various overrides controlling the background, label, and icon colors.
 

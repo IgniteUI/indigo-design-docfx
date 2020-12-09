@@ -4,15 +4,15 @@ _description: The Avatar Component Symbol is a graphical representation of perso
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Avatar
+# Avatar
 
 Use the Avatar Component as a graphical representation of a person through a profile picture or image, an icon, or a string with initials. The Avatar is visually identical to the [Ignite UI for Angular Avatar Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/avatar.html)
 
-### Avatar Demo
+## Avatar Demo
 
 <img class="responsive-img" src="../images/avatar_demo.png" srcset="../images/avatar_demo@2x.png 2x" />
 
-### Size
+## Size
 
 The Avatar comes in three different sizes:
 
@@ -22,7 +22,7 @@ The Avatar comes in three different sizes:
 
 <img class="responsive-img" src="../images/avatar_sizes.png" srcset="../images/avatar_sizes@2x.png 2x" />
 
-### Type
+## Type
 
 The Avatar can carry different types of content such as an **image**, a string with initials, or an icon.
 
@@ -32,7 +32,7 @@ The avatar comes in two distinct types determined by its shape: a **round** and 
 
 <img class="responsive-img" src="../images/avatar_type.png" srcset="../images/avatar_type@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Avatar comes with styling flexibility through the various overrides controlling the background color, as well as initials and icon colors, where applicable.
 

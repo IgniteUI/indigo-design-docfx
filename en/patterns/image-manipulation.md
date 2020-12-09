@@ -4,7 +4,7 @@ _description: The Image Manipulation Pattern Symbols provide quick actions for a
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Image Manipulation
+# Image Manipulation
 
 Use the Image Manipulation Pattern to provide a way to edit, update, modify, or perform other quick actions on an image or Avatar containing a photo.
 

@@ -4,15 +4,15 @@ _description: The Hierarchical Grid Component provides means to display and inte
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Hierarchical Grid
+# Hierarchical Grid
 
 Use the Hierarchical Grid Component to let the user browse and interact with vast amount of complex data organized into separate tables hierarchically related one to another. Each grid in the hierarchy represents its own data in tabular fashion and provides the same features as the [Grid](grid.md). The Hierarchical Grid is visually identical to the [Ignite UI for Angular Hierarchical Grid Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/hierarchicalgrid/hierarchical_grid.html)
 
-### Hierarchical Grid Demo
+## Hierarchical Grid Demo
 
 <img class="responsive-img" src="../images/hierarchical_grid_demo.png" srcset="../images/hierarchical_grid_demo@2x.png 2x" />
 
-### Detach from Symbol
+## Detach from Symbol
 
 Similarly to the Grid, the Hierarchical Grid is essentially a repeater of columns, rows and nested grids forming a visual hierarchy. Therefore, the easiest way to use it is by dragging a `Hierarchical Grid/Comfortable` to your artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared group, you should see the following:
 
@@ -28,7 +28,7 @@ Similarly to the Grid, the Hierarchical Grid is essentially a repeater of column
 
 After detaching, you may add the number of headers you need to show all the dimensions of your data and as many records as you want to show in your design simply by duplicating the first row of data that you already have created within each of the grids that you have. In case you need to show more of the hierarchy, you may also nest additional grids within the body of the parent one that they belong to.
 
-### Cell Types
+## Cell Types
 
 The Hierarchical Grid extends the three types of regular Grid cells Header, Body and Summary with two additional ones that are used to organize the hierarchy. The CollapseAll cell is always used as the first Header Cell and comes with a predefined icon and action for collapsing/expanding all of the belonging records of the Grid in whose Header it appears. The Expand cell is always used as the first Body Cell in every row and comes with a predefined icon and action for collapsing/expanding the row.
 
@@ -37,11 +37,11 @@ The Hierarchical Grid extends the three types of regular Grid cells Header, Body
 
 To understand how regular Header, Body and Summary cells can be used for different types of data and configured to enable the various Hierarchical Grid features, please refer to the [general Grid topic](grid.md).
 
-### Nested Grids
+## Nested Grids
 
 Since the Hierarchical Grid can contain a number of nested grids in all kinds of hierarchical order, each of the child grids, excluding the root level parent grid, should utilize a special layer named`🚫 igx-hierarchical-grid/island` in the place of the root-level special layer `🚫 igx-hierarchical-grid...`. The preset already comes with one nested grid in the body of the root-level grid and you may use it as the source for creating your layouts and hierarchies.
 
-### Styling
+## Styling
 
 The Hierarchical Grid comes with styling flexibility achievable through styling the individual cell text, icons, and background colors in the various states available, as well as the hiding of horizontal and vertical borders. It is also possible to style the Drill Indication and Grid background.
 

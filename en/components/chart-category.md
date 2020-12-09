@@ -4,22 +4,22 @@ _description: The Category Chart Component Symbol provides simple visual represe
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Category Chart
+# Category Chart
 
 Use the Category Chart Component to wrap the density and complexity of data in a simple visual. Category Charts are often combined to create beautiful dashboards for related sets of data. The Category Chart is visually identical to the [Ignite UI for Angular Category Chart Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/categorychart.html)
 
-### Category Chart Demo
+## Category Chart Demo
 
 <img class="responsive-img" src="../images/chart_category_demo.png" srcset="../images/chart_category_demo@2x.png 2x" />
 
-### Tooltip
+## Tooltip
 
 The Category Chart comes with an override for the tooltip visibility: **Tooltip Off** hides it and Tooltip On shows it on top of the series.
 
 <img class="responsive-img" src="../images/chart_category_tooltip-off.png" srcset="../images/chart_category_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/chart_category_tooltip-on.png" srcset="../images/chart_category_tooltip-on@2x.png 2x" />
 
-### Types
+## Types
 
 The Category Chart comes with flexibility for selecting the Chart type through various overrides such as:
 
@@ -35,7 +35,7 @@ The Category Chart comes with flexibility for selecting the Chart type through v
 | Step Line   | <img class="responsive-img" src="../images/chart_category_step-line.png" srcset="../images/chart_category_step-line@2x.png 2x" />     |
 | Waterfall   | <img class="responsive-img" src="../images/chart_category_waterfall.png" srcset="../images/chart_category_waterfall@2x.png 2x" />     |
 
-### Series Amount
+## Series Amount
 
 This override provides flexibility to select between one and **three** series that will be rendered.
 

@@ -5,22 +5,22 @@ _keywords: デザイン システム, Sketch, コンポーネント, UI Library,
 _language: ja
 ---
 
-## Text (テキスト)
+# Text (テキスト)
 
 Text コンポーネント シンボルは、ニュースやブログ ポストなどインタラクティブでない段落文字列のタイトル コンテンツを表示します。
 
-### Text デモ
+## Text デモ
 
 <img class="responsive-img" src="../images/text_demo.png" srcset="../images/text_demo@2x.png 2x" />
 
-### Title と Paragraph
+## Title と Paragraph
 
 Text には、Titles と Paragraphs のためのバリアントがあります。
 
 <img class="responsive-img" src="../images/text_title.png" srcset="../images/text_title@2x.png 2x" />
 <img class="responsive-img" src="../images/text_paragraph.png" srcset="../images/text_paragraph@2x.png 2x" />
 
-### タイトル サイズ
+## タイトル サイズ
 
 テキスト タイトルは、最小 H6 から最大 H1 の 6 つのプリセット サイズがあります。
 
@@ -42,7 +42,7 @@ Title の挿入後、そのサイズに基づいて高さを設定してくだ�
 | H5     | 36px               |
 | H6     | 31px               |
 
-### 段落サイズ
+## 段落サイズ
 
 テキスト段落には、ラージ **Body 1**、スモール Body 2、画像やタイトルの注釈に使用する極小キャプションがあります。
 
@@ -58,7 +58,7 @@ Paragraph の挿入後、そのサイズおよびテキスト コンテンツの
 | Body 2  | 21px               |
 | Caption | 19px               |
 
-### スタイル設定
+## スタイル設定
 
 Titles と Paragraphs は、Styling ライブラリの Typography 部分で使用できるテキスト ウェイトや色プリセットのみから選択できます。
 

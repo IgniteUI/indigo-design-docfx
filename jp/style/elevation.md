@@ -5,11 +5,11 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, UI ライ�
 _language: ja
 ---
 
-## エレベーション
+# エレベーション
 
 エレベーションは、コンポーネントおよびパターンで使用されます。Floating Action Button、Card、または Login Form などのフローティング要素の下にあるコンテンツおよび背景にシャドウを表示します。スタイリングのエレベーションは[マテリアル デザイン エレベーション](https://material.io/design/environment/elevation.html#)および [Ignite UI for Angular Shadows](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/shadows.html) と同じです。
 
-### エレベーションのサポート
+## エレベーションのサポート
 
 24 レベルのエレベーションが 3 タイプの図形に利用できます。
 
@@ -24,7 +24,7 @@ _language: ja
 > [!Note]
 > Sketch でコンポーネントをオーバーライドしてエレベーションを変更することは可能ですが、現在 Ignite UI for Angular では実装されていません。
 
-### スタンドアロン エレベーションの使用
+## スタンドアロン エレベーションの使用
 
 コンテンツ部分をフォーカスするためにエレベーションを使用できます。その場合、使用するエレベーションをドラッグして、対象のコンテンツのサイズと合わせます。
 

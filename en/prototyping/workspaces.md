@@ -4,7 +4,7 @@ _description: Collaborate with your teammates on prototypes and usability studie
 _keywords: UX Design, Prototyping, Commenting, Usability studies, User testing
 ---
 
-##  Collaborating with Workspaces
+#  Collaborating with Workspaces
 
 Use group workspaces to collaborate with your teammates on the same prototypes and usability studies. Members can publish and replace any design in the workspace. And if a member leaves, the rest will still have access to what's in the workspace.
 
@@ -13,7 +13,7 @@ Use group workspaces to collaborate with your teammates on the same prototypes a
 <br/>
 
 
-### Creating a Group Workspace
+## Creating a Group Workspace
 
 Expand the workspaces dropdown and click the `+ new group` option. 
 
@@ -29,20 +29,20 @@ If you already share workspaces with them, they'll show up on a list. You can se
 <br/>
 
 
-### Accessing a Workspace
+## Accessing a Workspace
 
 Expand the workspaces dropdown and select the name of the workspace you want to work on.
 You'll see all the prototypes and usability tests belonging to that workspace.
 
 
-### Publishing to a Group Workspace
+## Publishing to a Group Workspace
 
 Once you select a workspace, any prototypes you create and publish will belong to that workspace. 
 
 > [!Note]
 >You can choose any prototype and use the `Copy to workspace` action to make a copy of that prototype in a different workspace.
 
-### Managing Group Workspaces
+## Managing Group Workspaces
 
 Select the workspace from the workspaces dropdown and then click on `settings` in the main toolbar area.
 
@@ -58,7 +58,7 @@ Remove members | The user you remove won't be able to access the workspace or pu
 Leave the workspace | You won't be able to access the workspace or publish designs to it.
 Archive the workspace | No members can publish to this workspace. Any member can restore the workspace.
 
-### Configuring Notifications
+## Configuring Notifications
 
 Here's a list of the notifications you can receive when you're a member of a workspace and how to configure them.
 

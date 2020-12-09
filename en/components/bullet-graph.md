@@ -4,17 +4,17 @@ _description: The Bullet Graph Component Symbol is a data visualization that dis
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Bullet Graph
+# Bullet Graph
 
 Use the Bullet Graph Component as a data visualization that displays the progress of a value to a target value, within context depicted by color-coded ranges underneath. The Bullet Graph is visually identical to the [Ignite UI for Angular Bullet Graph Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/bulletgraph.html)
 
 For scenarios where no target value exists or is irrelevant you should use the [Linear Gauge](linear-gauge.md) instead.
 
-### Bullet Graph Demo
+## Bullet Graph Demo
 
 <img class="responsive-img" src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />
 
-### Ranges Amount
+## Ranges Amount
 
 The Bullet Graph comes with three preset range configurations: two, **three**, and four ranges.
 
@@ -22,7 +22,7 @@ The Bullet Graph comes with three preset range configurations: two, **three**, a
 <img class="responsive-img" src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_four_ranges.png" srcset="../images/bullet_graph_four_ranges@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Bullet Graph comes with styling flexibility through the various overrides controlling the background color and a range of brushes including: Value Brush, Target Value Brush, Tick Brush, Minor Tick Brush, and a collection of Range Brushes.
 

@@ -4,15 +4,15 @@ _description: The Tree Grid Component provides means to display and interact wit
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Tree Grid
+# Tree Grid
 
 Use the Tree Grid Component to let the user browse and interact with vast amount of hierarchical data that is visually represented in tabular fashion. It also supports the features available for the [Grid](grid.md). The Tree Grid is visually identical to the [Ignite UI for Angular Tree Grid Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/treegrid/tree_grid.html)
 
-### Tree Grid Demo
+## Tree Grid Demo
 
 <img class="responsive-img" src="../images/tree_grid_demo.png" srcset="../images/tree_grid_demo@2x.png 2x" />
 
-### Detach from Symbol
+## Detach from Symbol
 
 Similarly to the Grid, the Tree Grid is essentially a repeater of columns and rows showing hierarchical data in a flat, tabular fashion. Therefore, the easiest way to use it is by dragging a `Tree Grid/Comfortable` to your artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared group, you should see the following:
 
@@ -27,13 +27,13 @@ Similarly to the Grid, the Tree Grid is essentially a repeater of columns and ro
 
 After detaching, you may add the number of headers you need to show all the dimensions of your data and as many records as you want to show in your design simply by duplicating the first row of data that you already have created within each of the grids that you have.
 
-### Cell Types
+## Cell Types
 
 The Tree Grid extends the three types of regular Grid cells Header, Body and Summary with a Tree Column Cell, which is used to create and organize the hierarchy. It is always used as the first Body Cell in every row and comes with a predefined icon and action for collapsing/expanding the row.
 
 To understand how regular Header, Body and Summary cells can be used for different types of data and configured to enable the various Tree Grid features, please refer to the [general Grid topic](grid.md).
 
-### Tree Column Cell Depth
+## Tree Column Cell Depth
 
 The Tree Column Cell provides visual indication for the level of the data hierarchy via the `Depth` override, which can be set to **Level1**, Level2 or Level3.
 
@@ -41,7 +41,7 @@ The Tree Column Cell provides visual indication for the level of the data hierar
 <img class="responsive-img" src="../images/tgrid_cell_body_tree2.png" srcset="../images/tgrid_cell_body_tree2@2x.png 2x" />
 <img class="responsive-img" src="../images/tgrid_cell_body_tree3.png" srcset="../images/tgrid_cell_body_tree3@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Tree Grid comes with styling flexibility achievable through styling the individual cell text, icons, and background colors in the various states available, as well as the hiding of horizontal and vertical borders.
 

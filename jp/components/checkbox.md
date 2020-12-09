@@ -5,29 +5,29 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポ�
 _language: ja
 ---
 
-## Checkbox (チェックボックス)
+# Checkbox (チェックボックス)
 
 Checkbox コンポーネント シンボルは、設定の変更やフォームでの同意などに最もよく利用されます。Checkbox は、[Ignite UI for Angular Checkbox コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/checkbox.html)と視覚的に同じものです。
 
-### Checkbox デモ
+## Checkbox デモ
 
 <img class="responsive-img" src="../images/checkbox_demo.png" srcset="../images/checkbox_demo@2x.png 2x" />
 
-### テーマ
+## テーマ
 
 Checkbox は、明暗バリアントで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
 
 <img class="responsive-img" src="../images/checkbox_dark.png" srcset="../images/checkbox_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/checkbox_light.png" srcset="../images/checkbox_light@2x.png 2x" />
 
-### 状態
+## 状態
 
 Checkbox は、**オン**/オフと不確定状態があり、追加のバリアントとしてインタラクション無効の状態があります。
 
 <img class="responsive-img" src="../images/checkbox_states.png" srcset="../images/checkbox_states@2x.png 2x" />
 <img class="responsive-img" src="../images/checkbox_selection.png" srcset="../images/checkbox_selection@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Checkbox は、さまざまなオーバーライドでチェック、色の塗りつぶし、ラベル テキストの色を制御することにより柔軟にスタイル設定できます。
 

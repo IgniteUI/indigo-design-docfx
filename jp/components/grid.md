@@ -5,15 +5,15 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポ�
 _language: ja
 ---
 
-## Grid (グリッド)
+# Grid (グリッド)
 
 グリッド コンポーネントは大量の複雑なデータをタブ形式で表示し、ユーザーがブラウジングやインタラクティブに操作することにより、フィルタリング、並べ替え、ページングなどが可能です。Grid は、[Ignite UI for Angular Grid コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid.html) と視覚的に同じものです。
 
-### グリッドのデモ
+## グリッドのデモ
 
 <img class="responsive-img" src="../images/grid_demo.png" srcset="../images/grid_demo@2x.png 2x" />
 
-### Detach from Symbol (シンボルからデタッチ)
+## Detach from Symbol (シンボルからデタッチ)
 
 グリッドは、基本的に表形式でデータを表示する列と行のリピーターです。したがって、最も簡単な使用方法は、定義済みのグリッドの 1 つをアートボードにドラッグすることです。サポートされる 3 つの[表示密度](grid-display-density.md) に 3 つのプリセットがあります。アートボードを開いた後、その上を右クリックし、コンテキスト メニューの下部にある `Detach from Symbol` オプションを選択すると、新しく表示されたグループの下のレイヤー パネルに次のように表示されます。
 
@@ -27,7 +27,7 @@ _language: ja
 
 デタッチ後、既存のデータ行の 1 つを複製するだけで、データのすべてのディメンションを表示するために必要なヘッダーの数を変更できます。デザインに表示したい表示レコード (数に制限がない) を挿入することもできます。
 
-### セル タイプ
+## セル タイプ
 
 グリッドは、異なるデータ可視化用に 3 タイプのセルがあります。Header Cell (ヘッダー セル) は、各列に 1 つ、グリッドの一番上に表示され、特定の列のデータに関する説明をテキストで表示します。Body Cell (本体セル) は、データ レコードを表示するコンテンツ テーブルのビルドを作成するために使用され、そのタイプは異なる場合があります。Summary Cell (集計セル) は、[集計](grid-summaries.md) 列がカウント、最大、最小などの各ディメンションに表示される Grid の下のセクションを作成するために使用されます。
 
@@ -39,7 +39,7 @@ _language: ja
 
 <img class="responsive-img" src="../images/grid_cell_header_filter.png" srcset="../images/grid_cell_header_filter@2x.png 2x" />
 
-### セル 表示密度
+## セル 表示密度
 
 ヘッダー、本体、および 集計セルは、グリッドの 3 つの表示密度バリアントをサポートします。以下のボディ セルに見られるように、それぞれに異なるシンボルが付いています:
 
@@ -47,7 +47,7 @@ _language: ja
 <img class="responsive-img" src="../images/grid_cell_body_cosy.png" srcset="../images/grid_cell_body_cosy@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_compact.png" srcset="../images/grid_cell_body_compact@2x.png 2x" />
 
-### 項目と機能 (ヘッダー セル)
+## 項目と機能 (ヘッダー セル)
 
 Grid ヘッダー セルは、`Items` のオーバーライドでさまざまなレイアウトの組み合わせをサポートします。また、`Feature Left` および `Feature Right` のオーバーライドを介して機能の複数の構成をサポートします。さらに、[編集](grid-editing.md)、[移動](grid-column-moving.md)、[サイズ変更](grid-column-resizing.md)、[非表示](grid-column-hiding.md) など、表示されていないがグリッドの異なる列機能を有効にする追加のオーバーライドがあります。
 
@@ -56,7 +56,7 @@ Grid ヘッダー セルは、`Items` のオーバーライドでさまざまな
 <img class="responsive-img" src="../images/grid_cell_header_icon.png" srcset="../images/grid_cell_header_icon@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_icons.png" srcset="../images/grid_cell_header_icons@2x.png 2x" />
 
-### 状態とグリッド機能 (本体セル)
+## 状態とグリッド機能 (本体セル)
 
 Grid 本体セルは、以下のインタラクティブな状態をサポートします: 標準状態の **Inactive**、フォーカスのある/選択されたセルでは Active です。
 デフォルト値は、**太字**テキストでスタイル設定されます。
@@ -71,7 +71,7 @@ Grid 本体セルは、ヘッダーを介して `Grid Feature` のオーバー�
 <img class="responsive-img" src="../images/grid_cell_body_row-editing-nofocus.png" srcset="../images/grid_cell_body_row-editing-nofocus@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_row-editing-focus.png" srcset="../images/grid_cell_body_row-editing-focus@2x.png 2x" />
 
-### セル タイプ
+## セル タイプ
 
 Grid ヘッダー セルは、グリッドの対応に必要な一般的なデータ型のプリセットが 3 つあります。数値に使用する **Number**、文字列の Text、ブールデータを含む列に使用されるまたは複数行の選択を可能にするための最初の列のテンプレートとして使用される Checkbox。
 
@@ -86,7 +86,7 @@ Grid 本体セルは、ヘッダー セルの同じ一般的なデータ型の�
 <img class="responsive-img" src="../images/grid_cell_body_checkbox.png" srcset="../images/grid_cell_body_checkbox@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_icon.png" srcset="../images/grid_cell_body_icon@2x.png 2x" />
 
-### グリッドの水平スクロール
+## グリッドの水平スクロール
 
 絶対幅として、または親グループ/コンテナに関連する特定のグリッド ディメンションを達成する 1 つの方法は、グリッドのメイン グループ内にマスクを追加することです。スタイル設定なしで長方形を挿入し、必要に応じてそのサイズを設定します。下の画像では、常に正確に 800px 幅のグリッドがあります。
 
@@ -98,7 +98,7 @@ Grid 本体セルは、ヘッダー セルの同じ一般的なデータ型の�
 
 これでグリッド グループがマスクのディメンションを取得し、水平スクロールなしでグリッドを使用することと同じ方法でレイアウトで使用できます。このコンポーネントのコードが生成されると、グリッドのディメンションとしてマスクのディメンションを基準する水平スクロールバーが自動的に追加されます。
 
-### スタイル設定
+## スタイル設定
 
 グリッドは、さまざま状態の各セル テキスト、アイコン、背景色のスタイル設定や水平および垂直の境界線の非表示など柔軟に変更できます。
 

@@ -4,22 +4,22 @@ _description: The Button Group Component Symbol is used to represent a few simpl
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Button Group
+# Button Group
 
 Use the Button Group Component to combine the triggers for a few related features into one interface element. It supports both exclusive selection, where only one of the buttons can remain pressed, and multiple selection, where more than one button can remain pressed. The Button Group is visually identical to the [Ignite UI for Angular Button Group Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/buttongroup.html)
 
-### Button Group Demo
+## Button Group Demo
 
 <img class="responsive-img" src="../images/button-group_demo.png" srcset="../images/button-group_demo@2x.png 2x" />
 
-### Layout
+## Layout
 
 The Button Group supports two layout directions: horizontal, where items are laid out left to right, and vertical, where their order is top to bottom.
 
 <img class="responsive-img" src="../images/button-group_horizontal.png" srcset="../images/button-group_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/button-group_vertical.png" srcset="../images/button-group_vertical@2x.png 2x" />
 
-### Buttons Amount
+## Buttons Amount
 
 For the majority of scenarios, a Button Group needs between two to four items. If your case requires more than four items, you may want to consider designing a custom toolbar to encompass the rich set of actions you want to provide.
 
@@ -27,14 +27,14 @@ For the majority of scenarios, a Button Group needs between two to four items. I
 <img class="responsive-img" src="../images/button-group_items3.png" srcset="../images/button-group_items3@2x.png 2x" />
 <img class="responsive-img" src="../images/button-group_items4.png" srcset="../images/button-group_items4@2x.png 2x" />
 
-### Button Type
+## Button Type
 
 Each Button within the Button Group contains either **text** or icon and can be set in one of the following states: **default**, disabled, hover, and selected. The selected state comes in three variants that need to reflect the Button position. This is because of the addition of a border that separates the selected button from the adjacent siblings.
 
 <img class="responsive-img" src="../images/button-group_text.png" srcset="../images/button-group_text@2x.png 2x" />
 <img class="responsive-img" src="../images/button-group_icons.png" srcset="../images/button-group_icons@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Button Group comes with styling flexibility through the various overrides controlling the background color, as well as the individual buttons' border, background, label, and icon colors.
 

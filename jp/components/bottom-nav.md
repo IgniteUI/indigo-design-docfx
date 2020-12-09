@@ -5,15 +5,15 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## Bottom Navigation (ボトム ナビゲーション)
+# Bottom Navigation (ボトム ナビゲーション)
 
 Bottom Navigation コンポーネント は、関連ビュー間のブラウジングが可能な項目を 5 項目以下で画面下に配置してアプリケーション レベルのナビゲーションを実装します。title: Bottom Navigation は、[Ignite UI for Angular Bottom Navigation コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/tabbar.html) と視覚的に同じものです。
 
-### Bottom Navigation デモ
+## Bottom Navigation デモ
 
 <img class="responsive-img" src="../images/bottom-nav_demo.png" srcset="../images/bottom-nav_demo@2x.png 2x" />
 
-### 項目数
+## 項目数
 
 Bottom Navigation は 2 項目 ～ 5 項目をサポートします。アプリケーション レベルで 5 項目以上のナビゲーションまたはビューをデザインする場合は、[Navigation Drawer](nav-drawer.md) の使用を検討してください。
 
@@ -22,14 +22,14 @@ Bottom Navigation は 2 項目 ～ 5 項目をサポートします。アプリ�
 <img class="responsive-img" src="../images/bottom-nav_items4.png" srcset="../images/bottom-nav_items4@2x.png 2x" />
 <img class="responsive-img" src="../images/bottom-nav_items5.png" srcset="../images/bottom-nav_items5@2x.png 2x" />
 
-### 項目のスタイル
+## 項目のスタイル
 
 Bottom Navigation 項目には、**アイコンとテキスト**の組み合わせ、またはアイコンのみが含まれます。常にアクティブな状態の項目が 1 つ、あり、残りの項目はインアクティブに設定する必要があります。
 
 <img class="responsive-img" src="../images/bottom-nav_icon&text.png" srcset="../images/bottom-nav_icon&text@2x.png 2x" />
 <img class="responsive-img" src="../images/bottom-nav_icon.png" srcset="../images/bottom-nav_icon@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Bottom Navigation は、さまざまなオーバーライドで背景色、項目ラベル、アイコン色を制御することにより柔軟にスタイル設定できます。
 
