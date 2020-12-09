@@ -5,15 +5,15 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## Input (インプット)
+# Input (インプット)
 
 Input コンポーネントは、さまざまなコンテキスト、日付、その他の値に合わせて使用する文字列や数値などのユーザー データを収集します。複数入力は、簡単に使用できるフォームに組み合わせることができます。Input は、[Ignite UI for Angular Input Group](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/input_group.html) コンポーネントと視覚的に同じものです。
 
-### Input デモ
+## Input デモ
 
 <img class="responsive-img" src="../images/input_demo.png" srcset="../images/input_demo@2x.png 2x" />
 
-### タイプ
+## タイプ
 
 Input はヘルパー テキスト (あり/なし) で 3 つの異なるタイプから選択します。より軽い印象となる線スタイルまたは単色背景ではっきり認識される境界線スタイル、など。Boxed スタイルは、コンテンツを読みやすくするために Input を鮮明な画像の上に配置したときに使用するのが最も適しています。
 
@@ -32,14 +32,14 @@ Input はヘルパー テキスト (あり/なし) で 3 つの異なるタイ�
 <img class="responsive-img" src="../images/input_search.png" srcset="../images/input_search@2x.png 2x" />
 `search`
 
-### バリアント
+## バリアント
 
 Input は、**明暗**バリアントで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
 
 <img class="responsive-img" src="../images/input_dark.png" srcset="../images/input_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/input_light.png" srcset="../images/input_light@2x.png 2x" />
 
-### 状態
+## 状態
 
 ユーザーが Input とインタラクティブに操作する際にさまざまな状態を経由します。コンテンツの代わりにプレースホルダーがある**アイドル**状態、ユーザーが入力中のフォーカス状態、ユーザーがコンテンツの追加を完了して次に進むときの塗りつぶし状態、入力がインタラクションをサポートしない無効状態。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 
@@ -61,7 +61,7 @@ Input は、**明暗**バリアントで分かりやすく、背景に明暗の�
 <img class="responsive-img" src="../images/input_warning.png" srcset="../images/input_warning@2x.png 2x" />
 <img class="responsive-img" src="../images/input_error.png" srcset="../images/input_error@2x.png 2x" />
 
-### レイアウト
+## レイアウト
 
 Input には特定の場合に入力 (@email.com サフィックス) を軽減するテキスト文字列のプレフィックス/サフィックスやアイコンをサポートします。これによりキーストロークを減らし、予期されるコンテンツを明確にすることができます。カレンダーのプレフィックスでは、Input が日付や時間のコンテンツとして適しているかを示すことができます。
 
@@ -77,14 +77,14 @@ Input には特定の場合に入力 (@email.com サフィックス) を軽減�
 > - .../Suffix/Icons/...
 > - .../Suffix/String/...
 
-### Date Picker および Time Picker 入力
+## Date Picker および Time Picker 入力
 
 日付および時間選択のためにカスタマイズされた Input の 2 種類です。その他の Input コンポーネントと構造が統一されますが、レイアウトはそれぞれの状態に固定されます。プレフィックス位置に表示されるアイコンはマテリアル アイコンの `calendar-today` および `access-time` に設定され、オーバーライド パネルに変更できません。
 
 <img class="responsive-img" src="../images/input_calendar.png" srcset="../images/input_calendar@2x.png 2x" />
 <img class="responsive-img" src="../images/input_time-picker.png" srcset="../images/input_time-picker@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Input は、Styling ライブラリのテーマでプライマリ、成功、警告、エラーの色を変更できます。
 

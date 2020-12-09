@@ -4,7 +4,7 @@ _description: The Hierarchical Grid Pattern Symbol represents a parent-level Gri
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Hierarchical Grid
+# Hierarchical Grid
 
 Use the Hierarchical Grid Pattern symbol as a starting point when designing a complex Hierarchical Grid with nested child Grids and some of its features. It provides a parent Grid and nested child Grid with an active cell and visual representation of the connection between the parent and child grids. On Hierarchical Grid can be applied all the Grid functionality, provided in the Components Library.
 

@@ -4,36 +4,36 @@ _description: The Time Picker Component Symbol is used as a visual representatio
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Time Picker
+# Time Picker
 
 Use the Time Picker Component to represent a date's time portion (hours and minutes) visually and provide consistent means for its selection (time picking). The Time Picker is also appropriate for picking and setting time values in accordingly formatted date fields used in various forms. The Time Picker is visually identical to the [Ignite UI for Angular Time Picker Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/time_picker.html)
 
-### Time Picker Demo
+## Time Picker Demo
 
 <img class="responsive-img" src="../images/timepicker_demo.png" srcset="../images/timepicker_demo@2x.png 2x" />
 
-### Layout
+## Layout
 
 The Time Picker supports Horizontal and Vertical time picking modes.
 
 <img class="responsive-img" src="../images/timepicker_horizontal.png" srcset="../images/timepicker_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/timepicker_vertical.png" srcset="../images/timepicker_vertical@2x.png 2x" />
 
-### Buttons
+## Buttons
 
 The Time Picker comes with two buttons: one for canceling the selection, which would revert the time to the original one, and one for confirming the selection, which would save the changes made. Upon setting both to none through the Overrides, a buttonless layout can be achieved.
 
 <img class="responsive-img" src="../images/timepicker_buttons.png" srcset="../images/timepicker_buttons@2x.png 2x" />
 <img class="responsive-img" src="../images/timepicker_nobuttons.png" srcset="../images/timepicker_nobuttons@2x.png 2x" />
 
-### Content
+## Content
 
 The Time Picker supports both 12 and 24 hour formats through two distinct content modes. Besides the hour and minute portion, the 12-hour content mode provides a meridiem portion, where selection between AM and PM is possible.
 
 <img class="responsive-img" src="../images/timepicker_12.png" srcset="../images/timepicker_12@2x.png 2x" />
 <img class="responsive-img" src="../images/timepicker_24.png" srcset="../images/timepicker_24@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Time Picker comes with styling flexibility through the various overrides controlling header background and title colors, as well as text colors for the selected hour, minute, and meridiem (AM/PM). The Cancel and OK buttons are Flat Buttons and can be styled accordingly.
 

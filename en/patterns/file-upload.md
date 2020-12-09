@@ -4,7 +4,7 @@ _description: The File Upload Pattern Symbol provides the user interface for upl
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## File Upload
+# File Upload
 
 Use the File Upload Pattern to provide the uploading and insertion mechanisms for files, images, or attachments.
 
@@ -12,13 +12,13 @@ Use the File Upload Pattern to provide the uploading and insertion mechanisms fo
 
 The File Upload Pattern comes with the styling flexibility provided by the Avatar and Icon Button that constitute its layout.
 
-### Type 
+## Type 
 
 The File Upload Pattern provides two types of previews for the uploaded file: an Avatar and a Document, shown in a standard image.
 
 <img class="responsive-img" src="../images/file-upload_type.png" srcset="../images/file-upload_type@2x.png 2x" />
 
-### Content
+## Content
 
 The File Upload Pattern of type Document supports the most common types of content that are usually uploaded or inserted as Documents: CSV, PDF, Presentation, Spreadsheet, and Text. Additionally, an Upload and Attach presets are available to provide further flexibility for various appliction scenarios.
 

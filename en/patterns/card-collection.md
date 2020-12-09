@@ -4,7 +4,7 @@ _description: The Card Collection Pattern Symbols provide common scenarios for u
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Card Collection
+# Card Collection
 
 Use the Card Collection Pattern to display an assistant or news feeds, as well as timelines and multi-column boards.
 

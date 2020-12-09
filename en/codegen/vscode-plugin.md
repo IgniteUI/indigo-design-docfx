@@ -4,12 +4,12 @@ _description: Quick overview on how the extension works and how to use it.
 _keywords: Design System, Code Generation, Ignite UI for Angular, Component, UI Library, Widgets, Routing, VS Code, Extension
 ---
 
-## Using the Code Generator Plugin
+# Using the Code Generator Plugin
 
 This topic describes the Visual Studio Code extension that we have built to make code generation as easy as possible for developers. With this extension developers can generate actual, runnable code for Angular projects directly from within Visual Studio Code. Designers can take their Sketch files and publish them to the cloud with [Indigo.Design](https://cloud.indigo.design) and then provide developers with a share link. Developers can take this share link, provide it directly to this extension and generate code off the design saving them tons of time that would otherwise be spent manually building modules and writing HTML, CSS and Typescript for components.
 
 
-### Requirements
+## Requirements
 
 First and foremost, you need a Sketch file that contains components from the Indigo.Design UI Kit.  We only generate code for Indigo.Design UI Kit components that we find in the Sketch file.
 
@@ -97,7 +97,7 @@ These settings are available from the `User Settings` window.
 
 ## Troubleshooting
 
-#### The extension is frozen on first time setup.
+### The extension is frozen on first time setup.
 
 We use Electron in order to display a nice UI for selecting Sketch artboards in order to support the platforms that VS Code runs on. However we don't package the Electron binaries for each possible platform. Instead we use [npm](https://www.npmjs.com/) to install the correct version for the host platform into the extension directory. This allows us to keep the extension file size down. When the first time setup notification is displayed we run the `npm install` command with `electron` as the argument. It may take a while to install depending on your internet but if you see that it is not finishing you can close VS Code which will cancel the install subprocess. At this point you should try running the `npm install` command manually to make sure it is working properly. Open terminal in an empty folder and run:
 
@@ -107,7 +107,7 @@ npm install electron
 
 Take note of the output and make sure there are no errors. This is essentially all the extension is doing so if that works the extension should work. If that worked, reopen VS Code and try running the extension again.
 
-#### Code is not generating into my project
+### Code is not generating into my project
 
 Angular apps come with an `e2e` folder used for end to end testing. Under normal circumstances this isn't an issue. However if the `e2e` project has a `sourceFolder` specified in the `angular.json` then this can break the Angular CLI which in turn can cause this extension to fail to generate code into your project, or generate code directly into the `e2e` folder. This extension is expecting that your `angular.json` only has one project with a `sourceFolder` property specified. Take a look at this example:
 

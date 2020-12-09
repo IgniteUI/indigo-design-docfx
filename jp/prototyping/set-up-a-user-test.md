@@ -5,7 +5,7 @@ _keywords: UX デザイン, プロトタイプ, コメント, ユーザビリテ
 _language: ja
 ---
 
-## ユーザー テストの作成
+# ユーザー テストの作成
 
 ワークスペースのプロトタイプに基づいてユーザビリティ テストを作成します。
 必要に応じて、ユーザー テストの作成方法に関する[ビデオ チュートリアル](https://www.youtube.com/watch?v=_jCDjtxTLCo&list=PLZ4rRHIJepBs9bwRs1LZLV0ZVzlFKqwCw&index=2)をご覧ください。

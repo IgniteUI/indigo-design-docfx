@@ -4,7 +4,7 @@ _description: The Material Icons Symbols in Styling replicate the skilfully craf
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Material Icons
+# Material Icons
 
 Use the Material Icons to symbolize common actions in Icon Buttons, List Items, Cards etc. to reduce the amount of text that is normally used as a Button label for example. Material Icons consume the Colors Symbols in Styling, which lets you pick any of the defined colors for an Icon in the designs that you are crafting. The set of icons added to the Styling library is a subset of elements, identical to the [Material Icons](https://material.io/tools/icons/?style=baseline) and supported within [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular).
 
@@ -13,7 +13,7 @@ Use the Material Icons to symbolize common actions in Icon Buttons, List Items, 
 > [!Note]
 > The Components library provides dedicated [Icon](../components/icon.md) symbol for four icon sizes: ExtraLarge, Large, Medium and Small. Use these when creating intricate layouts for articles, custom Cards and List Items etc. rather than the Styling library directly.
 
-### Available Material Icons
+## Available Material Icons
 
 There is a set of 100+ Material Icons already available in the Styling library and grouped in the following way according to the Material Design categorization:
 
@@ -34,7 +34,7 @@ There is a set of 100+ Material Icons already available in the Styling library a
 - wb
 - hardware
 
-### Adding Material Icons
+## Adding Material Icons
 
 With the preset collection of icons, you can design beautiful apps and pick the right symbolic representations for your Components and Patterns. Adding further icon sets is possible, but so is extending the current one with further Material Icons. Since [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular) supports any Material Icon out there, this can be exactly what you are looking for. To do so, follow these simple steps:
 

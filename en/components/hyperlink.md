@@ -4,21 +4,21 @@ _description: The Hyperlink Component Symbol is used to allow the user follow a 
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Hyperlink
+# Hyperlink
 
 Use the Hyperlink Component to allow the user access additional information related to a styled piece of text in a paragraph like the mentioning of the Terms of Use or the Privacy Policy in a form.
 
-### Hyperlink Demo
+## Hyperlink Demo
 
 <img class="responsive-img" src="../images/hyperlink_demo.png" srcset="../images/hyperlink_demo@2x.png 2x" />
 
-### Size
+## Size
 
 The Hyperlink comes in two different sizes matching the available sizes for paragraph text: a 16pt Body 1 and a 14pt Body 2.
 
 <img class="responsive-img" src="../images/hyperlink_sizes.png" srcset="../images/hyperlink_sizes@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Hyperlink can be styled through the Styling library by changing its default blue color to another one.
 

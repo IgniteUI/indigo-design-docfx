@@ -5,15 +5,15 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポ�
 _language: ja
 ---
 
-## Toast (トースト)
+# Toast (トースト)
 
 Toast コンポーネント シンボルは、非インタラクティブでユーザーが破棄できない短い情報メッセージや通知を表示します。Toast は、定義した時間間隔の後に自動的に非表示になります。Toast は、[Ignite UI for Angular Toast コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/toast.html)と視覚的に同じものです。
 
-### Toast デモ
+## Toast デモ
 
 <img class="responsive-img" src="../images/toast_demo.png" srcset="../images/toast_demo@2x.png 2x" />
 
-### 位置
+## 位置
 
 Toast は、情報に関連するコンテンツの上、下、中央に相対的に配置します。
 
@@ -21,7 +21,7 @@ Toast は、情報に関連するコンテンツの上、下、中央に相対�
 <img class="responsive-img" src="../images/toast_center.png" srcset="../images/toast_center@2x.png 2x" />
 <img class="responsive-img" src="../images/toast_top.png" srcset="../images/toast_top@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Toast は、スタイル設定に制限があり背景とメッセージ テキスト色のみ制御します。ただし、white と grays.900 のどちらかを選択することをお勧めします。メッセージ テキストは背景とのコントラストがより高い方を使用します。
 

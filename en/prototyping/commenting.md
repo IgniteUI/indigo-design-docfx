@@ -4,7 +4,7 @@ _description: Real-time commenting for published Indigo.Design prototypes
 _keywords: UX Design, Prototyping, Commenting
 ---
 
-##  Commenting on Prototypes
+#  Commenting on Prototypes
 
 Prototypes you publish have support for real-time commenting. 
 
@@ -33,7 +33,7 @@ You can add markers to your comments to visually connect a comment with the UI. 
 > [!Note]
 >Commenting is not supported for community prototypes.
 
-### Commenting options
+## Commenting options
 
 Goal | Action
 ------------- | -------------

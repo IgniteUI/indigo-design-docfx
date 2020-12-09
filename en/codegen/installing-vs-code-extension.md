@@ -4,7 +4,7 @@ _description: Installing the Visual Studio Code Generator Extension for Angular 
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Installing the Visual Code Extension
+# Installing the Visual Code Extension
 
 Before you can install the VS Code Extension, please make sure you have Visual Studio Code installed. To generate code and run Angular apps, you also need Node.js installed. You can get both from the links here:
 
