@@ -20,6 +20,7 @@
     "extend": "^3.0.2",
     "fstream": "^1.0.12",
     "graceful-fs": "^4.2.0",
+    "gulp-replace": "^1.0.0",
     "gulp-shell": "^0.6.3",
     "igniteui-docfx-template": "2.9.2",
     "lodash": "^4.17.13",
