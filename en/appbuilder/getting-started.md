@@ -1,1 +1,3 @@
-## TEST 
+## Getting started 
+
+What you'll see when you launch the Indigo Design App Builder for first time is pop up window suggesting a quick onboarding tour. What you will see next is the  create new project dialog. From here you can either use one of predefined layouts or edit one of our getting started apps. The getting started apps will help you explore how we've created it. It'll also allow you to preview the generated code directly without having to create an app from scratch. However, it is recommended if you use the Indigo Design App Builder for first time, to use the sample app option as a starting point. This is the quickest way to check the awesome features of the tool and start building your application.

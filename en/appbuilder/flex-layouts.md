@@ -1,0 +1,3 @@
+## Flex layouts (and positioning) 
+
+Let's start the walkthrough with flex-based layouts. Since the app builder is targeting web apps, we are offering Flex as one of the approaches to create layouts. It's available to you as a row or column layout component in the toolbox. The outermost container you see here is the canvas and has flex settings already applied to it. You can change the canvas size by editing the viewport size in the properties panel. 
