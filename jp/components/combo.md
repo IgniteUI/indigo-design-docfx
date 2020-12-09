@@ -5,17 +5,17 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## Combo (コンボ)
+# Combo (コンボ)
 
 Combo コンポーネントでは、ユーザーがスクロール可能なリストでユーザー インタラクションに応じて表示されるコレクションから項目を選択できます。単一項目のみに制約する場合は、[Dropdown](dropdown.md) を代わりに使用してください。Combo は、[Ignite UI for Angular Combo コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/combo.html)と視覚的に同じです。
 
-### Combo デモ
+## Combo デモ
 
 Combo は 2 つのパーツに分かれます。現在の選択を含む入力と 1 つ以上の項目を選択するために表示するドロップダウン。
 
 <img class="responsive-img" src="../images/combo_demo.png" srcset="../images/combo_demo@2x.png 2x" />
 
-### Combo 入力タイプ
+## Combo 入力タイプ
 
 標準の [Input](input.md) のように Combo 入力は線タイプ (エアリー スタイル)、境界線タイプ (単色背景でよりはっきりと表示)、より読みやすくするために鮮明な画像の上に配置する際に最適なボックス タイプから選択が可能です。
 
@@ -28,14 +28,14 @@ Combo は 2 つのパーツに分かれます。現在の選択を含む入力�
 <img class="responsive-img" src="../images/combo_box.png" srcset="../images/combo_box@2x.png 2x" />
 `box`
 
-### Combo 入力バリアント
+## Combo 入力バリアント
 
 標準 [Input](input.md) 同様、Combo 入力は、**明暗**バリアントでわかりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
 
 <img class="responsive-img" src="../images/combo_demo.png" srcset="../images/combo_demo@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_light.png" srcset="../images/combo_light@2x.png 2x" />
 
-### 状態
+## 状態
 
 ユーザーが Combo とインタラクティブに操作する際に入力はさまざまな状態を経由します。コンテンツの代わりにプレースホルダーがある**アイドル**状態、ドロップダウンが開いているときのフォーカス状態、ユーザーが選択を完了して次に進むときの塗りつぶし状態、Combo がインタラクションをサポートしない無効状態。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 
@@ -57,18 +57,18 @@ Combo は 2 つのパーツに分かれます。現在の選択を含む入力�
 <img class="responsive-img" src="../images/combo_warning.png" srcset="../images/combo_warning@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_error.png" srcset="../images/combo_error@2x.png 2x" />
 
-### レイアウト
+## レイアウト
 
 Combo 入力にはレイアウト オプションが 1 つのみですが標準 [Input](input.md) と統一させてオーバーライドが保存されます。
 
-### Combo Dropdown タイプ
+## Combo Dropdown タイプ
 
 Combo に使用される Dropdown は、標準 [Dropdown](dropdown.md) コンポーネント同様にデスクトップやモバイルに適切なサイズがサポートされます。
 
 <img class="responsive-img" src="../images/combo_desktop.png" srcset="../images/combo_desktop@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_mobile.png" srcset="../images/combo_mobile@2x.png 2x" />
 
-### Combo Dropdown 項目
+## Combo Dropdown 項目
 
 Combo に使用されるドロップダウンは、3 つの項目タイプ (header、item、multiselect item) をサポートします。ヘッダーでグループの他の項目を体系化できます。
 
@@ -76,7 +76,7 @@ Combo に使用されるドロップダウンは、3 つの項目タイプ (head
 <img class="responsive-img" src="../images/combo_item.png" srcset="../images/combo_item@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_multiselect_item.png" srcset="../images/combo_multiselect_item@2x.png 2x" />
 
-### Combo Dropdown 項目状態
+## Combo Dropdown 項目状態
 
 Combo 内の Dropdown 項目は、5 つの状態をサポートします。disabled, **idle**、focused、selected、focused&selected。
 
@@ -86,7 +86,7 @@ Combo 内の Dropdown 項目は、5 つの状態をサポートします。disab
 <img class="responsive-img" src="../images/combo_item_selected.png" srcset="../images/combo_item_selected@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_item_selected_focused.png" srcset="../images/combo_item_selected_focused@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Combo は入力とドロップダウン部分でスタイルの組み合わせに柔軟性があります。入力テキストの色と下線のスタイルと色、ドロップダウン背景色、項目やヘッダーの背景色とテキスト色などの Combo ドロップダウンの項目に関連するさまざまなオーバーライドを制御します。
 

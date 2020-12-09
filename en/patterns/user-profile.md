@@ -4,7 +4,7 @@ _description: The User Profile Pattern Symbols combine varios components that di
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## User Profile
+# User Profile
 
 Use the User Profile Pattern to display user-related information, either as a full-screen detailed page or as a small indication that can be inserted in headers and toolbars.
 

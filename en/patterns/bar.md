@@ -4,7 +4,7 @@ _description: The Bar Pattern Symbols combine various components to display impo
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Bar
+# Bar
 
 Use the Bar Pattern to display new and important information for the user such as product version update, new release, as well as for notifying users for available cookies on a website. Bar can be placed above the header or at the bottom of the page depending on users' needs, bar importance and general design.
 

@@ -4,17 +4,17 @@ _description: The Radial Gauge Component Symbol is a data visualization that dis
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Radial Gauge
+# Radial Gauge
 
 Use the Radial Gauge Component as a circular-shaped data visualization that displays a value within context depicted by color-coded ranges underneath. The Radial Gauge is visually identical to the [Ignite UI for Angular Radial Gauge Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/radialgauge.html)
 
 For scenarios where a target value is critically important for understanding and interpreting the information, you should use the [Bullet Graph](bullet-graph.md) instead.
 
-### Radial Gauge Demo
+## Radial Gauge Demo
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 
-### Needle Type
+## Needle Type
 
 The Radial Gauge provides various overrides that control the shape of the needle, which indicates the current value: **needle**, trapezoid, and triangle.
 
@@ -22,7 +22,7 @@ The Radial Gauge provides various overrides that control the shape of the needle
 <img class="responsive-img" src="../images/radial_gauge_trapezoid.png" srcset="../images/radial_gauge_trapezoid@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_triangle.png" srcset="../images/radial_gauge_triangle@2x.png 2x" />
 
-### Dial Type
+## Dial Type
 
 The Radial Gauge provides various overrides that control the dial, on which ranges appear: **full**, half, inside, and outside.
 
@@ -31,7 +31,7 @@ The Radial Gauge provides various overrides that control the dial, on which rang
 <img class="responsive-img" src="../images/radial_gauge_inside.png" srcset="../images/radial_gauge_inside@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_outside.png" srcset="../images/radial_gauge_outside@2x.png 2x" />
 
-### Ranges Amount
+## Ranges Amount
 
 The Radial Gauge comes with three preset range configurations: two, **three**, and four ranges.
 
@@ -39,7 +39,7 @@ The Radial Gauge comes with three preset range configurations: two, **three**, a
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_four_ranges.png" srcset="../images/radial_gauge_four_ranges@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Radial Gauge comes with styling flexibility through the various overrides controlling the background color and a range of brushes including: Needle Brush and a collection of Range Brushes, as well as Tick Brush and Minor Tick Brush that are available only for inside and outside dial types.
 

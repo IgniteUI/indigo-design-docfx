@@ -5,15 +5,15 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## NavBar (ナビバー)
+# NavBar (ナビバー)
 
 Navbar コンポーネントは、アプリケーションでユーザーの現在の位置を明確にし、アプリケーション レベルのナビゲーションを向上します。常に画面の上に配置されます。Navbar は、[Ignite UI for Angular Navbar コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/navbar.html)と視覚的に同じものです。
 
-### Navbar デモ
+## Navbar デモ
 
 <img class="responsive-img" src="../images/navbar_demo.png" srcset="../images/navbar_demo@2x.png 2x" />
 
-### タイプ
+## タイプ
 
 Navbar は、3 つのレイアウト構成があり、**アイコン アクションとタイトル**、テキスト アクションとタイトル、タイトルで定義されます。
 
@@ -21,7 +21,7 @@ Navbar は、3 つのレイアウト構成があり、**アイコン アクシ�
 <img class="responsive-img" src="../images/navbar_lefttext.png" srcset="../images/navbar_lefttext@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_noleft.png" srcset="../images/navbar_noleft@2x.png 2x" />
 
-### アクション アイコン
+## アクション アイコン
 
 各 Navbar は、画面右端から左へ、描画されるシンプルなイベントをトリガーする操作アイコンを 4 アイコンまでサポートします。
 
@@ -30,7 +30,7 @@ Navbar は、3 つのレイアウト構成があり、**アイコン アクシ�
 <img class="responsive-img" src="../images/navbar_icon3.png" srcset="../images/navbar_icon3@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_icon4.png" srcset="../images/navbar_icon4@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Navbar には、タイトル、アイコ、ン、背景色を変更する基本的なスタイル設定機能があります。
 

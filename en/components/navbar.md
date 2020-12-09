@@ -4,15 +4,15 @@ _description: The Navbar Component Symbol is used to inform the user of his curr
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Navbar
+# Navbar
 
 Use the Navbar Component to provide clarity for the user about current position in the application and to implement application-level navigation. It is always situated at the top of the screen. The Navbar is visually identical to the [Ignite UI for Angular Navbar Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/navbar.html)
 
-### Navbar Demo
+## Navbar Demo
 
 <img class="responsive-img" src="../images/navbar_demo.png" srcset="../images/navbar_demo@2x.png 2x" />
 
-### Type
+## Type
 
 The Navbar offers three layout configurations defined by the following types: **icon action and title**, text action and title, and title.
 
@@ -20,7 +20,7 @@ The Navbar offers three layout configurations defined by the following types: **
 <img class="responsive-img" src="../images/navbar_lefttext.png" srcset="../images/navbar_lefttext@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_noleft.png" srcset="../images/navbar_noleft@2x.png 2x" />
 
-### Action Icons
+## Action Icons
 
 Every Navbar can support up to four action icons, rendered right to left, starting from the right edge of the screen that can trigger different simple events.
 
@@ -29,7 +29,7 @@ Every Navbar can support up to four action icons, rendered right to left, starti
 <img class="responsive-img" src="../images/navbar_icon3.png" srcset="../images/navbar_icon3@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_icon4.png" srcset="../images/navbar_icon4@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Navbar comes with basic styling capabilities achievable through changing the title, icon, and background colors.
 

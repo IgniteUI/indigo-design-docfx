@@ -5,7 +5,7 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, パター�
 _language: ja
 ---
 
-## Gallery (ギャラリー)
+# Gallery (ギャラリー)
 
 Gallery パターンを使用すると、画像がアルバムに配置される画像グリッドを表示します。以下の画像サイズをサポートします。
 

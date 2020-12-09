@@ -4,7 +4,7 @@ _description: Indigo Design ライブラリを使用して Sketch で登録画�
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 ---
 
-## はじめてのアートボード作成
+# はじめてのアートボード作成
 
 このトピックは、Indigo Design ライブラリを使用して登録画面の Sketch アートボードを作成する方法を紹介します。
 

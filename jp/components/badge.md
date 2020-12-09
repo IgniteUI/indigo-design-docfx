@@ -5,27 +5,27 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポ�
 _language: ja
 ---
 
-## Badge (バッジ)
+# Badge (バッジ)
 
 Badge コンポーネント シンボルを使用して他のインターフェイス要素や通知を表示するために注意を促します。コンポーネントに対するインタラクションに応じてユーザーに追加情報を公開することにより UX を向上できます。Badge は、[Ignite UI for Angular Badge コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/badge.html)と視覚的に同じものです。
 
-### Badge デモ
+## Badge デモ
 
 <img class="responsive-img" src="../images/badge_demo.png" srcset="../images/badge_demo@2x.png 2x" />
 
-### 図形
+## 図形
 
 Badge には、円形と四角形の 2 つの異なる図形があります。
 
 <img class="responsive-img" src="../images/badge_shapes.png" srcset="../images/badge_shapes@2x.png 2x" />
 
-### タイプ
+## タイプ
 
 Badge は、**数字**やアイコンなど、さまざまなタイプのコンテンツを使用できます。
 
 <img class="responsive-img" src="../images/badge_type.png" srcset="../images/badge_type@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Badge は、さまざまなオーバーライドで背景、境界線の色、元になるインターフェイス要素でキャストされた影の表示の制御などスタイル設定に柔軟性があります。
 

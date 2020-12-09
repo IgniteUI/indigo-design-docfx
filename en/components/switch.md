@@ -4,29 +4,29 @@ _description: The Switch Component Symbol is used to allow the user to mark a se
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Switch
+# Switch
 
 Use the Switch Component to allow the user make a selection, which most often expresses turning on/off a configuration in a list of settings. The Switch is visually identical to the [Ignite UI for Angular Switch Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/switch.html)
 
-### Switch Demo
+## Switch Demo
 
 <img class="responsive-img" src="../images/switch_demo.png" srcset="../images/switch_demo@2x.png 2x" />
 
-### Theme
+## Theme
 
 The Switch can be used styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
 
 <img class="responsive-img" src="../images/switch_dark.png" srcset="../images/switch_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_light.png" srcset="../images/switch_light@2x.png 2x" />
 
-### Label use
+## Label use
 
 The Switch is used **with** or without label. In order to hide the label, set its text value to a blank/space character and reduce the width of the component to e.g. 38px.
 
 <img class="responsive-img" src="../images/switch_label.png" srcset="../images/switch_label@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_no_label.png" srcset="../images/switch_no_label@2x.png 2x" />
 
-### State
+## State
 
 The Checkbox provides **on** and off selection states with additional variants for a disabled interaction state.
 
@@ -35,7 +35,7 @@ The Checkbox provides **on** and off selection states with additional variants f
 <img class="responsive-img" src="../images/switch_off.png" srcset="../images/switch_off@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_off_disabled.png" srcset="../images/switch_off_disabled@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Switch comes with styling flexibility, allowing control over the thumb and track colors. There is a fixed alpha value applied to the track to make it semi transparent.
 

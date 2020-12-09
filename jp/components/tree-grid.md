@@ -5,15 +5,15 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## Tree Grid (ツリー グリッド)
+# Tree Grid (ツリー グリッド)
 
 ツリー グリッド コンポーネントを使用して、ユーザーがタブ形式で表示される大量の階層なデータをブラウズおよびインタラクティブに操作できるようにしす。[Grid](grid.md) で利用可能な機能もサポートします。ツリー グリッドは、[Ignite UI for Angular ツリー グリッド コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/treegrid/tree_grid.html)と視覚的に同じものです。
 
-### ツリー グリッドのデモ
+## ツリー グリッドのデモ
 
 <img class="responsive-img" src="../images/tree_grid_demo.png" srcset="../images/tree_grid_demo@2x.png 2x" />
 
-### Detach from Symbol (シンボルからデタッチ)
+## Detach from Symbol (シンボルからデタッチ)
 
 グリッドと同様に、ツリー グリッドは、基本的にフラット、表形式で階層データを表示する列と行のリピーターです。したがって、最も簡単な使用方法は、`Tree Grid/Comfortable` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下にあるシ `Detach from Symbol` オプションを選択します。新しく表示されるグループの下のレイヤー パネルには以下があります。
 
@@ -28,13 +28,13 @@ _language: ja
 
 デタッチ後、既存の各グリッド内にすでに作成したデータの最初の行を複製し、デザインに表示したいレコード (数に制限がない) および多数のヘッダーを必要なだけ追加してデータのすべてのディメンションを表示できます。
 
-### セル タイプ
+## セル タイプ
 
 ツリー グリッドは、3種類の通常のグリッド セル Header (ヘッダー)、Body (本体) および Summary (集計) を、階層を整理するために使用される Tree Column Cell (ツリー 列セル) で拡張します。これは常にすべての行の最初の本体/ セルとして使用され、行を折りたたむ/展開するための定義済みのアイコンとアクションが付属しています。
 
 通常の Header、Body 、Summary セルをさまざまなタイプのデータに使用し、さまざまなツリー グリッド機能を有効にするように構成する方法を理解するには、[Grid](grid.md) トピックを参照してください。
 
-### Tree Column Cell の深さ
+## Tree Column Cell の深さ
 
 Tree Column Cell は、`Depth` のオーバーライドでデータ階層のレベルを視覚的に示します。これは、**Level1**、Level2、または Level3 に設定できます。
 
@@ -42,7 +42,7 @@ Tree Column Cell は、`Depth` のオーバーライドでデータ階層のレ�
 <img class="responsive-img" src="../images/tgrid_cell_body_tree2.png" srcset="../images/tgrid_cell_body_tree2@2x.png 2x" />
 <img class="responsive-img" src="../images/tgrid_cell_body_tree3.png" srcset="../images/tgrid_cell_body_tree3@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 ツリー グリッド は、さまざま状態の各セル テキスト、アイコン、背景色のスタイル設定や水平および垂直の境界線の非表示など柔軟に変更できます。
 

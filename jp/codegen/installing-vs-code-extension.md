@@ -5,7 +5,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## Visual Studio Code 拡張機能のインストール
+# Visual Studio Code 拡張機能のインストール
 
 VS Code 拡張機能をインストールする前に、Visual Studio Code がインストールされていることを確認してください。コードを生成し、Angular アプリケーションを実行するには、Node.js もインストールしてください。このリンクから取得できます。
 

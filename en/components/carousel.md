@@ -4,15 +4,15 @@ _description: The Carousel Component Symbol allows sequential browsing through a
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Carousel
+# Carousel
 
 Use the Carousel Component to let the user navigate through a collection of images in a sequential fashion, moving to the previous/next one through the arrows on the sides. The Carousel is visually identical to the [Ignite UI for Angular Carousel Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/carousel.html)
 
-### Carousel Demo
+## Carousel Demo
 
 <img class="responsive-img" src="../images/carousel_demo.png" srcset="../images/carousel_demo@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Carousel comes with styling flexibility through the various overrides controlling the navigation button background and icon colors, the indicator colors, border colors, and a slide image for the currently active slide. You should keep in mind that only one indicator may be active at a time.
 

@@ -4,7 +4,7 @@ _description: The Menu Pattern Symbols combine various components to display nav
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Menu
+# Menu
 
 Use the Menu Symbols as presets for building navigation bar for application or webpage that contains elements such as logo, menu items, search input, various actions, account settings.
 

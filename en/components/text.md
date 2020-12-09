@@ -4,22 +4,22 @@ _description: The Text Component Symbol is used to display non-interactive title
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Text
+# Text
 
 Use the Text Component Symbol to display the content of a title or paragraph string that is not interactive, such as the content of a news article or blog post.
 
-### Text Demo
+## Text Demo
 
 <img class="responsive-img" src="../images/text_demo.png" srcset="../images/text_demo@2x.png 2x" />
 
-### Title and Paragraph
+## Title and Paragraph
 
 Text comes in two distict variants for Titles and for Paragraphs.
 
 <img class="responsive-img" src="../images/text_title.png" srcset="../images/text_title@2x.png 2x" />
 <img class="responsive-img" src="../images/text_paragraph.png" srcset="../images/text_paragraph@2x.png 2x" />
 
-### Title Sizes
+## Title Sizes
 
 Text Titles come in six preset sizes from the largest H1 to the much smaller **H5** and H6.
 
@@ -40,7 +40,7 @@ After inserting a Title, make sure to give it a correct height for the chosen si
 | H5 | 36px |
 | H6 | 31px |
 
-### Paragraph Sizes
+## Paragraph Sizes
 
 Text Paragraphs come in three preset sizes: a larger **Body 1**, a smaller Body 2, and a tiny Caption used to annotate images and titles.
 
@@ -55,7 +55,7 @@ After inserting a Paragraph, make sure to give it a correct height for the chose
 | Body 2 | 21px |
 | Caption | 19px |
 
-### Styling
+## Styling
 
 Titles and Paragraphs come with constrained styling flexibility, allowing only to choose from the text weight and color presets available in the Typography portion of the Styling library.
 

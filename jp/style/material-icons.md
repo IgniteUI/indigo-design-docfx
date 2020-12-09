@@ -5,7 +5,7 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, UI ライ�
 _language: ja
 ---
 
-## マテリアル アイコン
+# マテリアル アイコン
 
 Icon Buttons、List Items、Cards などで全般的な操作を記号として表示するためにマテリアル アイコンを使用します。たとえば、Button ラベルでテキストの代わりにアイコンを使用します。マテリアル アイコンはスタイリングのカラー シンボルを使用します。デザインするアイコンのために定義済みの色を選択できます。スタイリング ライブラリに追加されるアイコンのセットは[マテリアル アイコン](https://material.io/tools/icons/?style=baseline)と同じ要素のサブセットで、[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) にサポートされます。
 
@@ -14,7 +14,7 @@ Icon Buttons、List Items、Cards などで全般的な操作を記号として�
 > [!Note]
 > コンポーネント ライブラリは 4 つのアイコン サイズ (ExtraLarge、Large、Medium、および Small) で [Icon](../components/icon.md) シンボルを提供します。記事、カスタム Card および List Item の高度なレイアウトを作成で直接スタイリング ライブラリを使用する代わりにこのアイコンを使用します。
 
-### マテリアル アイコン
+## マテリアル アイコン
 
 スタイリング ライブラリに 100+ マテリアル アイコンのセットが利用可能で、マテリアル デザインのカテゴリでグループ化されます。
 
@@ -35,7 +35,7 @@ Icon Buttons、List Items、Cards などで全般的な操作を記号として�
 - wb
 - hardware
 
-### マテリアル アイコンの追加
+## マテリアル アイコンの追加
 
 アイコンの定義済みコレクションを使用してコンポーネントおよびパターンにアイコンを分かりやすいシンボルとして追加できます。その他のアイコン セットの追加が可能ですが、現在のセットにその他のマテリアル アイコンを追加することもできます。[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) でマテリアル アイコンがサポートされるため、アイコンを既存のセットに追加できます。次の簡単な手順に従います。
 

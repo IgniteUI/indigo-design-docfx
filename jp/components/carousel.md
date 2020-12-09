@@ -5,15 +5,15 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポ�
 _language: ja
 ---
 
-## Carousel (カルーセル)
+# Carousel (カルーセル)
 
 Carousel コンポーネント シンボルは、横矢印キーを使用して画像コレクションの前や次の画像に順次的にナビゲーションできます。Carousel は、[Ignite UI for Angular Carousel コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/carousel.html)と視覚的に同じものです。
 
-### Carousel デモ
+## Carousel デモ
 
 <img class="responsive-img" src="../images/carousel_demo.png" srcset="../images/carousel_demo@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Carousel は、さまざまなオーバーライドでナビゲーションボタンの背景、アイコンの色、インジケーターの色、境界線の色、現在アクティブなスライドのスライド画像の制御などスタイル設定に柔軟性があります。一度に 1 インジケーターのみアクティブにできます。
 

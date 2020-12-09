@@ -5,36 +5,36 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポ�
 _language: ja
 ---
 
-## Slider (スライダー)
+# Slider (スライダー)
 
 Slider コンポーネント シンボルは、単一値の選択や両値の最後を選択して値範囲の指定が可能です。Slider は、[Ignite UI for Angular Slider コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/slider.html)と視覚的に同じものです。
 
-### Slider デモ
+## Slider デモ
 
 <img class="responsive-img" src="../images/slider_demo.png" srcset="../images/slider_demo@2x.png 2x" />
 
-### タイプ
+## タイプ
 
 Slider は、単一値の選択につまみと範囲を指定するための 2 つのつまみを提供します。
 
 <img class="responsive-img" src="../images/slider_one-thumb.png" srcset="../images/slider_one-thumb@2x.png 2x" />
 <img class="responsive-img" src="../images/slider_two-thumb.png" srcset="../images/slider_two-thumb@2x.png 2x" />
 
-### テーマ
+## テーマ
 
 Slider は、ダーク/ライト系のテーマで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
 
 <img class="responsive-img" src="../images/slider_dark.png" srcset="../images/slider_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/slider_light.png" srcset="../images/slider_light@2x.png 2x" />
 
-### 状態
+## 状態
 
 Slider は、値の変更が可能かどうかを設定する**有効**/無効の状態をサポートします。
 
 <img class="responsive-img" src="../images/slider_enabled.png" srcset="../images/slider_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/slider_disabled.png" srcset="../images/slider_disabled@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Slider は、さまざまなオーバーライドでラベル背景、つまみ、トラック、ベース トラックの色を制御することにより柔軟にスタイル設定できます。
 

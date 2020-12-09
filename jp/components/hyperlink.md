@@ -5,21 +5,21 @@ _keywords: デザイン システム, Sketch, コンポーネント, UI Library,
 _language: ja
 ---
 
-## Hyperlink (ハイパーリンク)
+# Hyperlink (ハイパーリンク)
 
 Hyperlink コンポーネント シンボルは、利用規約やプライバシー ポリシーなど段落のテキスト部分のスタイルに関する追加情報へのアクセスを提供します。
 
-### Hyperlink デモ
+## Hyperlink デモ
 
 <img class="responsive-img" src="../images/hyperlink_demo.png" srcset="../images/hyperlink_demo@2x.png 2x" />
 
-### サイズ
+## サイズ
 
 Hyperlink には段落のテキストに合わせて 2 サイズ (16pt Body 1 と 14pt Body 2) あります。
 
 <img class="responsive-img" src="../images/hyperlink_sizes.png" srcset="../images/hyperlink_sizes@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Hyperlink は、デフォルトの青色と他の色に変更してスタイル ライブラリでスタイル設定できます。
 
