@@ -14,17 +14,13 @@ Indigo.Design offers three key capabilities to support the design to development
 
 <img class="responsive-img" src="images/indigo-design-how-it-works.png" />
 
-1.  Create designs in Sketch using the `Indigo.design system`
+1.  Create designs in Sketch with the `Indigo.Design System`
 2.  Share as prototypes to test and collaborate with users via `cloud.indigo.design`
 3.  Generate code from prototypes using the `Indigo.Design code generator` (Ignite UI for Angular)
 
 #### 1. Indigo.Design System
 
-The design system consists of three Sketch libraries files that work together to deliver the complete Indigo.Design System.
-
-- `Indigo-Styling.sketch` allows you to standardize the colors, typography, icons, and elevations (shadows) in your designs
-- `Indigo-Components.sketch` includes 50+ components that match Ignite UI for Angular components that can be further customized using overrides.
-- `Indigo-Patterns.sketch` contains common UI patterns that are composed using `Indigo-Components`
+The design system is a Sketch library that contains various components (symbols) that allow a designer to create intricate user interfaces and leverage pre-made palettes, typographies and assets such as icons and illustrations. On top of that UI components are built to offer design time flexibility throguh various states and templates. To improve your productivity there is also a collection of patterns such as product details layouts, various forms, and pricing tables among others.
 
 Learn more:
 
