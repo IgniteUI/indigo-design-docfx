@@ -5,6 +5,7 @@
 - name: Video Tutorials
   href: ../video-tutorials.md
 - name: App Builder Overview
+  href: ../appbuilder/app-builder-overview.md
   header: true
 - name: Getting Started
   href: ../appbuilder/getting-started.md
