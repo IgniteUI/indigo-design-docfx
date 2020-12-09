@@ -1,15 +1,4 @@
 {
-    "metadata": [
-        {
-            "src": [
-                {
-                    "files": ["src/**.csproj"],
-                    "exclude": ["**/obj/**", "**/bin/**", "_site/**"]
-                }
-            ],
-            "dest": "api"
-        }
-    ],
     "build": {
         "content": [
             {
@@ -46,6 +35,11 @@
         "noLangKeyword": false,
         "keepFileLink": false,
         "cleanupCacheHistory": true,
-        "disableGitFeatures": true
+        "disableGitFeatures": true,
+        "sitemap": {
+            "baseUrl": "https://www.infragistics.com/products/indigo-design/help/",
+            "changefreq": "weekly",
+            "priority": 0.7
+        }
     }
 }
