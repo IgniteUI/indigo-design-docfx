@@ -5,17 +5,17 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## Bullet Graph (ブレット グラフ)
+# Bullet Graph (ブレット グラフ)
 
 Bullet Graph コンポーネントをデータ可視化に使用し、カラーコードされた下部の範囲で描かれたコンテキスト内の目標値を示します。Bullet Graph は、[Ignite UI for Angular Bullet Graph コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/bullet-graph.html)と視覚的に同じです。
 
 目標値がない場合や不適切な場合は、[Linear Gauge](linear-gauge.md) を代わりに使用します。
 
-### ブレット グラフ デモ
+## ブレット グラフ デモ
 
 <img class="responsive-img" src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />
 
-### 範囲のサイズ
+## 範囲のサイズ
 
 Bullet Graph は、定義済みの 3 つの範囲 (2 つ、**3 つ**、4 つ) 設定があります。
 
@@ -23,7 +23,7 @@ Bullet Graph は、定義済みの 3 つの範囲 (2 つ、**3 つ**、4 つ) �
 <img class="responsive-img" src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_four_ranges.png" srcset="../images/bullet_graph_four_ranges@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Bullet Graph のスタイル設定は高い柔軟性があり、背景色の制御をオーバーライドやブラシ範囲 (Value Brush、Target Value Brush、Tick Brush、Minor Tick Brush、Range Brushes のコレクション) があります。
 

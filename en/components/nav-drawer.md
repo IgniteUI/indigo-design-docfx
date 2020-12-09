@@ -4,22 +4,22 @@ _description: The Navigation Drawer Component Symbol is used to design both simp
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Navigation Drawer
+# Navigation Drawer
 
 Use the Navigation Drawer Component to implement application-level navigation by placing it at the left border of the screen with any number of items, allowing browsing between their associated views. It is usually used in combination with a [Navbar](navbar.md). The Navigation Drawer is visually identical to the [Ignite UI for Angular Navigation Drawer Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/navdrawer.html)
 
-### Navigation Drawer Demo
+## Navigation Drawer Demo
 
 <img class="responsive-img" src="../images/nav-drawer_demo.png" srcset="../images/nav-drawer_demo@2x.png 2x" />
 
-### Style
+## Style
 
 The Navigation Drawer supports a **default** style with icon and label for each item and a mini style with icons only. If your design contains five or less items/views, you may pick between Navigation Drawer and [Bottom Navigation](bottom-nav.md).
 
 <img class="responsive-img" src="../images/nav-drawer_default.png" srcset="../images/nav-drawer_default@2x.png 2x" />
 <img class="responsive-img" src="../images/nav-drawer_mini.png" srcset="../images/nav-drawer_mini@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Navigation Drawer provides basic styling capabilities achievable through changing the label and icon colors, as well as the active/inactive background colors.
 

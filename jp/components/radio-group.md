@@ -5,28 +5,28 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポ�
 _language: ja
 ---
 
-## Radio Group (ラジオ グループ)
+# Radio Group (ラジオ グループ)
 
 Radio Group コンポーネント シンボルは、グループ項目で排他的な選択をサポートします。グループの項目は、左揃えで単一列に次々にレイアウトされます。Radio Group は、[Ignite UI for Angular Radio Button コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/radio_button.html)と視覚的に同じものです。
 
-### Radio Group デモ
+## Radio Group デモ
 
 <img class="responsive-img" src="../images/radiogroup_demo.png" srcset="../images/radiogroup_demo@2x.png 2x" />
 
-### テーマ
+## テーマ
 
 Radio Group は、明暗バリアントでわかりやすく、背景に明暗のコントラストを付けてスタイル設定できます。すべての Radios を同じテーマに設定してださい。
 
 <img class="responsive-img" src="../images/radiogroup_dark.png" srcset="../images/radiogroup_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/radiogroup_light.png" srcset="../images/radiogroup_light@2x.png 2x" />
 
-### 状態
+## 状態
 
 グループの各 Radio は、**オン**とオフ、そして追加のバリアントとしてインタラクション無効の状態があります。
 
 <img class="responsive-img" src="../images/radiogroup_states.png" srcset="../images/radiogroup_states@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Radio Group は、さまざまなオーバーライドで各項目のラベル スタイルや色を制御することにより柔軟にスタイル設定できます。
 

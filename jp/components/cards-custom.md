@@ -5,15 +5,15 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポ�
 _language: ja
 ---
 
-## Custom Cards (カスタム カード)
+# Custom Cards (カスタム カード)
 
 Custom Card コンポーネントは、通常のカードと同じタイプの情報を表示しますが、レイアウトを自由に変更できます。Custom Card は、[Ignite UI for Angular Card コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/card.html)のレイアウトにカスタム コードを使用します。
 
-### Custom Card デモ
+## Custom Card デモ
 
 <img class="responsive-img" src="../images/card_custom_demo.png" srcset="../images/card_custom_demo@2x.png 2x" />
 
-### シンボルからデタッチ
+## シンボルからデタッチ
 
 Card レイアウトをカスタマイズするには、`Cards/Custom` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下の方にある `Detach from Symbol` オプションを選択します。新しく表示される `Cards/Custom` グループの下のレイヤー パネルには以下があります。
 
@@ -27,7 +27,7 @@ Card レイアウトをカスタマイズするには、`Cards/Custom` をアー
 | &nbsp;&nbsp; Elevation     | カード コレクション背景に薄いシャドウをドロップします。                                                                        |
 | 🕹️DataProperty             | データ バインディングのコード生成で使用されます。                                                                                    |
 
-#### スタイル設定
+### スタイル設定
 
 Custom Card は、スタイルに高い柔軟性があり、テキスト、ボタン、背景色などのさまざまなオーバーライドによって通常の Card とマッチすることができます。シンボルからでタッチを使用して角丸やエレベーション レベルなどを追加で制御できます。
 
@@ -40,7 +40,7 @@ Custom Card は、スタイルに高い柔軟性があり、テキスト、ボ�
 | &nbsp;&nbsp; Content | Card レイアウト要素をグループ化 |
 | &nbsp;&nbsp; Actions | Card レイアウト要素をグループ化 |
 
-#### レイアウト
+### レイアウト
 
 以下は、上記の天気 Card の複雑なレイアウトを 5 つのシンプルなステップで作成する方法です。空 Artboard に Custom Card をドラッグし、`Detach from Symbol` を選択して、背景色、角の半径、開始ポイントに必要なエレベーションを変更してベーシック スタイルを適用します。
 
@@ -66,7 +66,7 @@ Custom Card は、スタイルに高い柔軟性があり、テキスト、ボ�
 
   <img class="responsive-img" src="../images/card_custom_layout5.png" srcset="../images/card_custom_layout5@2x.png 2x" />
 
-#### 追加のスタイル
+### 追加のスタイル
 
 Custom Card レイアウトでは、カードに挿入されている要素に基づいてさまざまなスタイルを追加することが可能になります。たとえば気温の色を設定して強調し、スライダー ラベルや平日ラベルの段落などの追加情報に薄い色を設定できます。
 

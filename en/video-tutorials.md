@@ -4,9 +4,9 @@ _description: Quickly learn how to use Indigo.Design to create designs in Sketch
 _keywords: Ignite UI for Angular, Angular, Native Angular Components Suite, Native Angular Controls, Native Angular Components, Native Angular Components Library, Angular Grid, Angular Data Grid, Angular Grid Control, Angular Grid Component, code generation, prototyping, usability, videos, analytics
 ---
 
-## Video Tutorials 
+# Video Tutorials 
 
-### An overview on Indigo.Design
+## An overview on Indigo.Design
 
 <section class="feature__container">
     <div class="feature__image">
@@ -14,7 +14,7 @@ _keywords: Ignite UI for Angular, Angular, Native Angular Components Suite, Nati
     </div>
 </section>
 
-### Using the Design System
+## Using the Design System
 
 <section class="feature__container">
     <div class="feature">
@@ -36,7 +36,7 @@ _keywords: Ignite UI for Angular, Angular, Native Angular Components Suite, Nati
     </div>
 </section>
 
-### Prototyping and User Testing
+## Prototyping and User Testing
 
 <section class="feature__container">
     <div class="feature">
@@ -70,7 +70,7 @@ _keywords: Ignite UI for Angular, Angular, Native Angular Components Suite, Nati
      
 </section>
 
-### Code Generation
+## Code Generation
 
 <section class="feature__container">
     <div class="feature">

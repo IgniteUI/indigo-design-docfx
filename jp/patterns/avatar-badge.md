@@ -5,7 +5,7 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, パター�
 _language: ja
 ---
 
-## Avatar + Badge (アバター + バッジ)
+# Avatar + Badge (アバター + バッジ)
 
 Avatar + Badge パターンは、Avatar にアラートまたは通知のメッセージやインジケーターを追加します。
 
@@ -13,7 +13,7 @@ Avatar + Badge パターンは、Avatar にアラートまたは通知のメッ�
 
 Avatar + Badge パターンは、レイアウトに含まれる Avatar および Badge のスタイル設定をカスタマイズできます。
 
-### サイズ
+## サイズ
 
 Avatar + Badge パターンは Avatar と同じサイズをサポートします:
 
@@ -21,7 +21,7 @@ Avatar + Badge パターンは Avatar と同じサイズをサポートします
 - ミディアム - カスタム メニューや可視化に適しています。
 - スモール - コンタクト リストや繰り返しのシナリオに簡単に組み込めます。
 
-### 位置
+## 位置
 
 Badge は Avatar の 4 つ角のいずれかに配置できます。
 

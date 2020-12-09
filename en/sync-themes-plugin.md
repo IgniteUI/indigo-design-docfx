@@ -4,7 +4,7 @@ _description: The Indigo.Design Sketch Plugin allows users to manipulate the the
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Sketch Theme, Theme Editor
 ---
 
-## Indigo.Design Plugin
+# Indigo.Design Plugin
 
 The Indigo.Design Sketch Plugin allows users to create new themes and edit existing ones when using the Indigo.Design UI Kit for Sketch. Users can adjust the `primary`, `secondary`, `error`, `success`, `warn`, and `info` colors, as well as properties of the Typography according to their brand characteristics. The plugin also lets users effortlessly publish their projects to the Indigo.Design Cloud and sync them up regularly thereafter, when making changes and updates.
 
@@ -77,7 +77,7 @@ When you are ready to publish your work as a prototype to the Indigo.Design Clou
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Publish.png" srcset="images/Sync_themes_plugin_Publish@2x.png 2x" />
 
-#### 1. Publishing new prototype
+### 1. Publishing new prototype
 
 You have a Sketch project that you feel is robust enough to share with others. You can publish it to the Indigo.Design Cloud and share for some early feedback to begin with. This is achievable in the `New prototype` tab, where you may:
 
@@ -93,7 +93,7 @@ Once you click the Publish button, the project is uploaded to the Indigo.Design 
 
 <img class="responsive-img" src="images/Sync_themes_plugin_New_prototype.png" srcset="images/Sync_themes_plugin_New_prototype@2x.png 2x" />
 
-#### 2. Update an existing prototype
+### 2. Update an existing prototype
 
 Instead of publishing a new prototype, you may want to update an existing one by replacing its screens in the cloud with more recent ones. To achieve this, you should navigate to the `Replace prototype` tab. Here you may search and filter prototypes e.g. by their belonging to your personal or to a team wrokspace. You may also alter the prototype configurations that were defined at the time of creation:
 
@@ -107,7 +107,7 @@ Instead of publishing a new prototype, you may want to update an existing one by
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Replace_prototype.png" srcset="images/Sync_themes_plugin_Replace_prototype@2x.png 2x" />
 
-#### 3. Prototype publish is completed
+### 3. Prototype publish is completed
 
 Once the prototype is successfully published to the cloud, you will be handed the link to it plus options to:
 
@@ -119,7 +119,7 @@ Once you click on Done the plugin dialog will close and you can continue designi
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Published_prototype.png" srcset="images/Sync_themes_plugin_Published_prototype@2x.png 2x" />
 
-#### 4. Syncing a prototype
+### 4. Syncing a prototype
 
 After the initial publish of a prototype, while your creative process continue to flow, you will likely want to tweak some things push some pixels and keep your published prototype in sync. To achieve this, select `Sync Prototype` from the plugin menu instead.
 

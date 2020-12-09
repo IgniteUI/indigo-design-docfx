@@ -5,17 +5,17 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## Linear Gauge (リニア ゲージ)
+# Linear Gauge (リニア ゲージ)
 
 Linear Gauge コンポーネントをデータ可視化に使用して、カラーコードされた下部の範囲で描かれたコンテキスト内の値を表示します。Linear Gauge は、[Ignite UI for Angular Linear Gauge コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/linear-gauge.html)と視覚的に同じものです。
 
 ターゲット値が情報の理解や解釈に非常に重要である場合、代わりに [Bullet Graph](bullet-graph.md) を使用します。
 
-### Linear Gauge のデモ
+## Linear Gauge のデモ
 
 <img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
 
-### 針のタイプ
+## 針のタイプ
 
 Linear Gauge は、現在の値を示す針の形 (**needle**、trapezoid、triangle) を制御するさまざまなオーバライドをサポートします。
 
@@ -23,7 +23,7 @@ Linear Gauge は、現在の値を示す針の形 (**needle**、trapezoid、tria
 <img class="responsive-img" src="../images/linear_gauge_trapezoid.png" srcset="../images/linear_gauge_trapezoid@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_triangle.png" srcset="../images/linear_gauge_triangle@2x.png 2x" />
 
-### 範囲のサイズ
+## 範囲のサイズ
 
 Linear Gauge は、リニア済みの 3 つの範囲 (2 つ、**3 つ**、4 つ) 設定があります。
 
@@ -31,7 +31,7 @@ Linear Gauge は、リニア済みの 3 つの範囲 (2 つ、**3 つ**、4 つ)
 <img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_four_ranges.png" srcset="../images/linear_gauge_four_ranges@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Linear Gauge のスタイル設定は高い柔軟性があり、背景色の制御をオーバーライドやブラシ範囲 (Needle Brush、Tick Brush、Minor Tick Brush、Range Brushes のコレクション) があります。
 

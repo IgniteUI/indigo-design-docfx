@@ -4,7 +4,7 @@ _description: The Grid Pattern Symbol represents a full-blown Grid Component.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Grid
+# Grid
 
 Use any of the Grid Pattern symbols as an alternative starting point when designing a tabular data layout. It provides a full-blown contentwise and stylewise Grid Component that comes with all the Grid functionality, provided in the Components Library.
 

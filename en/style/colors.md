@@ -4,13 +4,13 @@ _description: The Colors Symbols in Styling are the go to place for setting up a
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Colors
+# Colors
 
 Use Colors from the Styling library file to set up your theme's colors - `primary`, `secondary`, `success`, `warn`, `error`, `info`. The way Colors are set up in the Styling library is identical to the [Ignite UI for Angular Themes](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes.html).
 
 <img class="responsive-img" src="../images/colors_palette.png" srcset="../images/colors_palette@2x.png 2x" />
 
-### Palette Generation
+## Palette Generation
 
 To change the primary color, navigate to the `Colors` page in Indigo-Styling and while holding the `command` key select all the primary color variants. Then, find the Fills section in the right panel and click on the bottom one, which bears the main color component in order to change its value to another color. This will automatically update all primary variants to assure consistent look with Ignite UI for Angular.
 
@@ -32,11 +32,11 @@ To fix that click on the `primary.100*` style to drop the menu down and select t
 > [!Note]
 > Since the text colors are controlled by the `Typography`, to fully update the default theme, you also need to manually change the colors in the `Typography` page as well. Once you change your `primary` color, make sure you change the `Primary` section in Typography to the very same color. The exact steps to achieve this can be found in [Typography](typography.md).
 
-### Adding More Colors
+## Adding More Colors
 
 In the cases where one needs more colors, besides the ones in the palette, it is also possible to add custom colors and there are two approaches for doing so.
 
-#### Global
+### Global
 
 If you want your added colors to be available across all the projects that use the libraries, follow these simple steps:
 
@@ -54,7 +54,7 @@ If you want your added colors to be available across all the projects that use t
 
 4.  Save the changes to the library and now the color you have added should appear in the list of colors under `Indigo-Styling/Colors` in the `Insert` menu. It will also show up for the color overrides wherever colors are used in the Components and Patterns libraries.
 
-#### Local
+### Local
 
 The second approach describes the addition of file-specific colors, not available across all projects, but only in the current one in which you are working. To achieve that, follow these simple steps:
 

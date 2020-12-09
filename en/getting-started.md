@@ -4,11 +4,11 @@ _description: A quick overview of Indigo.Design and how it can help you to go fr
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, prototypes, user-videos, code-generation
 ---
 
-## Getting Started
+# Getting Started
 
 Indigo.Design is a unified platform for visual design, UX prototyping, code generation and app development. It’s aimed at design and development teams looking to deliver pixel perfect apps as quickly as possible, without losing focus on UX.
 
-### How does this work?
+## How does this work?
 
 Indigo.Design offers three key capabilities to support the design to development workflow:
 
@@ -18,7 +18,7 @@ Indigo.Design offers three key capabilities to support the design to development
 2.  Share as prototypes to test and collaborate with users via `cloud.indigo.design`
 3.  Generate code from prototypes using the `Indigo.Design code generator` (Ignite UI for Angular)
 
-#### 1. Indigo.Design System
+### 1. Indigo.Design System
 
 The design system consists of three Sketch libraries files that work together to deliver the complete Indigo.Design System.
 
@@ -30,7 +30,7 @@ Learn more:
 
 [Create your first Sketch artboard](creating-an-artboard.md)
 
-#### 2. Prototyping & Usability Testing
+### 2. Prototyping & Usability Testing
 
 To get feedback on your designs, use cloud.indigo.design to import the Sketch document and share it as an interactive prototype. This will allow your stakeholders to view your prototype on any device and give feedback via comments.
 
@@ -44,7 +44,7 @@ Learn more:
 
 [Set up a user test](prototyping/set-up-a-user-test.md)
 
-#### 3. Generate Code for Angular Apps
+### 3. Generate Code for Angular Apps
 
 You can generate code for Angular apps directly from published prototypes. To do this, you will need a share URL for the prototype, and use the Indigo.Design code generator. The code generator is available as an extension for VS code, and it generate code using the [Ignite UI for Angular UI framework](https://www.infragistics.com/products/ignite-ui-angular).
 

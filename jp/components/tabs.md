@@ -5,29 +5,29 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## Tabs (タブ)
+# Tabs (タブ)
 
 Tabs コンポーネントは、同じ情報を異なるビューに体系化、同様または関連のあるデータセット間の切り替えが可能です。Tab は、[Ignite UI for Angular Tabs コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/tabs.html)と視覚的に同じものです。
 
-### Tabs デモ
+## Tabs デモ
 
 <img class="responsive-img" src="../images/tabs_demo.png" srcset="../images/tabs_demo@2x.png 2x" />
 
-### サイズ
+## サイズ
 
 バーに配置されたタブは、高さのあるテキストを使用したアイコン、または短いテキストやアイコンを含みますが同時に両方、含むことはありません。
 
 <img class="responsive-img" src="../images/tabs_short.png" srcset="../images/tabs_short@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_tall.png" srcset="../images/tabs_tall@2x.png 2x" />
 
-### レスポンシブ
+## レスポンシブ
 
 Tab を**固定**し、多数のタブでスクロール ボタンが提供される空いている水平スペースを幅またはフルードを使用して埋めることができます。この機能jは、他のモードで使用可能なスペースに入れた場合よりも多くのコンテンツを入れることができます。
 
 <img class="responsive-img" src="../images/tabs_fixed.png" srcset="../images/tabs_fixed@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_fluid.png" srcset="../images/tabs_fluid@2x.png 2x" />
 
-### 量
+## 量
 
 多くのケースで Tabs に 2 つ ～ 4 つのタブが必要になります。4 つ以上必要な場合、ビューでタブのみ表示するフルード モードを検討します。
 
@@ -35,14 +35,14 @@ Tab を**固定**し、多数のタブでスクロール ボタンが提供さ�
 <img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_4.png" srcset="../images/tabs_4@2x.png 2x" />
 
-### タイプ
+## タイプ
 
 短い Tabs は、各タブの項目を説明する**テキスト**とアイコンのコンテンツをサポートします。
 
 <img class="responsive-img" src="../images/tabs_text.png" srcset="../images/tabs_text@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_icons.png" srcset="../images/tabs_icons@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Tabs は、テキストやアイコンの色、現在の選択をマークするインジケーターの色、アクティブ/インアクティブな背景色の変更が可能な基本的なスタイル設定が可能です。
 

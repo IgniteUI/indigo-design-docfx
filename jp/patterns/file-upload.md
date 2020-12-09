@@ -5,7 +5,7 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, パター�
 _language: ja
 ---
 
-## File Upload (ファイル アップロード)
+# File Upload (ファイル アップロード)
 
 File Upload パターンを使用すると、ファイル、画像、添付などのアップロードおよび挿入機能を提供します。
 
@@ -13,13 +13,13 @@ File Upload パターンを使用すると、ファイル、画像、添付な�
 
 File Upload パターンは、レイアウトに含まれる Avatar および Icon Button のスタイル設定をカスタマイズできます。
 
-### タイプ
+## タイプ
 
 File Upload パターンはアップロードしたファイルのプレビューのために 2 種類 (Avatar および規格の画像として表示される Document) あります。
 
 <img class="responsive-img" src="../images/file-upload_type.png" srcset="../images/file-upload_type@2x.png 2x" />
 
-### コンテンツ
+## コンテンツ
 
 Document 型の File Upload パターンは、アップロードまたは Document として挿入によく使用されるコンテンツ タイプ (CSV、PDF、Presentation、Spreadsheet Text) をサポートします。また、様々なアプリケーション シナリオでカスタマイズを有効にするために Upload および Attach プリセットの利用が可能です。
 

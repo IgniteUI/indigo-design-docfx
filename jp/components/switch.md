@@ -5,29 +5,29 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポ�
 _language: ja
 ---
 
-## Switch (スイッチ)
+# Switch (スイッチ)
 
 Switch コンポーネント シンボルは、ユーザーが設定一覧でオン/オフするための構成です。Switch は、[Ignite UI for Angular Switch コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/switch.html)と視覚的に同じものです。
 
-### Switch デモ
+## Switch デモ
 
 <img class="responsive-img" src="../images/switch_demo.png" srcset="../images/switch_demo@2x.png 2x" />
 
-### テーマ
+## テーマ
 
 Switch は、明暗バリアントで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
 
 <img class="responsive-img" src="../images/switch_dark.png" srcset="../images/switch_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_light.png" srcset="../images/switch_light@2x.png 2x" />
 
-### ラベルの使用
+## ラベルの使用
 
 Switch はラベルなしで使用できます。ラベルを非表示にするためにテキスト値を空/スペース文字にしてコンポーネントの幅を小さくします(38px など)。
 
 <img class="responsive-img" src="../images/switch_label.png" srcset="../images/switch_label@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_no_label.png" srcset="../images/switch_no_label@2x.png 2x" />
 
-### 状態
+## 状態
 
 Switch は、オン/オフと選択状態があり、追加のバリアントとしてインタラクション無効の状態があります。
 
@@ -36,7 +36,7 @@ Switch は、オン/オフと選択状態があり、追加のバリアントと
 <img class="responsive-img" src="../images/switch_off.png" srcset="../images/switch_off@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_off_disabled.png" srcset="../images/switch_off_disabled@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Switch は、つまみとトラック色を制御でき柔軟なスタイル設定が可能です。固定アルファ値がトラックに適用されて半透明になります。
 

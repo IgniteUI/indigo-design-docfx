@@ -4,7 +4,7 @@ _description: Real-time commenting for published Indigo.Design prototypes
 _keywords: UX Design, Prototyping, Commenting
 ---
 
-## Creating Your First Prototype
+# Creating Your First Prototype
 
 Create a prototype and share it to validate flows with stakeholders and users.
 

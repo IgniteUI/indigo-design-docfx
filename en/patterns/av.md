@@ -4,7 +4,7 @@ _description: The AV Pattern Symbols provides the interface for control over aud
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Audio / Video
+# Audio / Video
 
 Use the AV Pattern to complement a represenatation of an audio or video track with playback controls.
 

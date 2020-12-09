@@ -4,29 +4,29 @@ _description: The Tabs Component Symbol is used to organize or switch between in
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Tabs
+# Tabs
 
 Use the Tabs Component to organize different views of the same information or switch between similar or related data sets. The Tabs is visually identical to the [Ignite UI for Angular Tabs Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/tabs.html)
 
-### Tabs Demo
+## Tabs Demo
 
 <img class="responsive-img" src="../images/tabs_demo.png" srcset="../images/tabs_demo@2x.png 2x" />
 
-### Size
+## Size
 
 The Tabs come arranged in a bar and can be either tall, showing icons with text, or short, containing either text or icons but not both at the same time.
 
 <img class="responsive-img" src="../images/tabs_short.png" srcset="../images/tabs_short@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_tall.png" srcset="../images/tabs_tall@2x.png 2x" />
 
-### Responsive
+## Responsive
 
 The Tabs can be **fixed** and can fill up the available horizontal space by adapting their width or fluid, where scrolling buttons are provided to scroll in larger numbers of tabs. This allows for the fitting of more content that could normally fit in the available space with the other mode.
 
 <img class="responsive-img" src="../images/tabs_fixed.png" srcset="../images/tabs_fixed@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_fluid.png" srcset="../images/tabs_fluid@2x.png 2x" />
 
-### Amount
+## Amount
 
 For the majority of scenarios, the Tabs need to contain between two and four tabs. If your case requires more than that, you may want to consider a fluid mode and represent only the tabs in view.
 
@@ -34,14 +34,14 @@ For the majority of scenarios, the Tabs need to contain between two and four tab
 <img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_4.png" srcset="../images/tabs_4@2x.png 2x" />
 
-### Type
+## Type
 
 The short Tabs support **text** and icon content modes to decribe the item in each tab.
 
 <img class="responsive-img" src="../images/tabs_text.png" srcset="../images/tabs_text@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_icons.png" srcset="../images/tabs_icons@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Tabs provide basic styling capabilities achievable through changing the text and icon colors, the indicator color that marks the current selection, as well as the active/inactive background colors.
 
