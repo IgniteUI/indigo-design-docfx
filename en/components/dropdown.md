@@ -4,29 +4,29 @@ _description: The Dropdown Component Symbol allows selection of a single item fr
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Dropdown
+# Dropdown
 
 Use the Dropdown Component to let the user select an item from a collection that is displayed upon user interaction in a scrollable list. Only one item can be selected at a time and if your scenario allows for multiple selection, you should use the [Combo](combo.md). The Dropdown is visually identical to the [Ignite UI for Angular Dropdown Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/drop_down.html)
 
-### Dropdown Demo
+## Dropdown Demo
 
 <img class="responsive-img" src="../images/dropdown_demo.png" srcset="../images/dropdown_demo@2x.png 2x" />
 
-### Type
+## Type
 
 The Dropdown comes in the appropriate sizing for desktop and mobile usage.
 
 <img class="responsive-img" src="../images/dropdown_desktop.png" srcset="../images/dropdown_desktop@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_mobile.png" srcset="../images/dropdown_mobile@2x.png 2x" />
 
-### Items
+## Items
 
 The Dropdown supports two types of items header and item. Through headers it is possible to organize the other items in groups.
 
 <img class="responsive-img" src="../images/dropdown_header.png" srcset="../images/dropdown_header@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item.png" srcset="../images/dropdown_item@2x.png 2x" />
 
-### Item States
+## Item States
 
 The Dropdown items support five different states: disabled, **idle**, focused, selected and focused&selected.
 
@@ -36,7 +36,7 @@ The Dropdown items support five different states: disabled, **idle**, focused, s
 <img class="responsive-img" src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Dropdown comes with styling flexibility through an override controlling the background color, as well as various overrides related to the items it contains such as item and header background and text colors.
 

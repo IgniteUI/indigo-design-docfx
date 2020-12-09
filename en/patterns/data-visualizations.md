@@ -4,7 +4,7 @@ _description: Data Visualizations Pattern Symbol provides visualization of data 
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Data Visualizations
+# Data Visualizations
 
 Use the Data Visualizations Pattern to present information and data in various visual ways, such as Area, Column,Line, Point, Spline chart. This pattern let users select layout from different types of data representation, for example through drop down component.
 

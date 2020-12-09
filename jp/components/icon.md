@@ -5,15 +5,15 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポ�
 _language: ja
 ---
 
-## Icon (アイコン)
+# Icon (アイコン)
 
 Icon コンポーネント シンボルは、製品に「いいね」などのシンプルなインタラクションをトリガーしてユーザーに情報をグラフィックで表示します。すでに提供されている [Material アイコン](https://material.io/tools/icons/)または Styling ライブラリで使用可能なアイコンをリストに追加します。Icon は、[Ignite UI for Angular Icon コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/icon.html)と視覚的に同じものです。
 
-### Icon デモ
+## Icon デモ
 
 <img class="responsive-img" src="../images/icon_demo.png" srcset="../images/icon_demo@2x.png 2x" />
 
-### サイズ
+## サイズ
 
 Icon のサイズは 4 つあります。
 
@@ -24,7 +24,7 @@ Icon のサイズは 4 つあります。
 
 <img class="responsive-img" src="../images/icon_sizes.png" srcset="../images/icon_sizes@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Icon は、さまざまなオーバーライドで選択可能なグラフィックや塗りつぶしの色を制御することにより柔軟にスタイル設定できます。
 
@@ -48,7 +48,7 @@ Icon の色を指定した場合、Icon HTML 要素は div でラップされま
 > [!WARNING]
 > デザインの Icon のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Icon のためのコード生成機能が失われます。
 
-### Event プロパティ
+## Event プロパティ
 
 このプロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に Angular クリック シグネチャーを追加します。イベントが波括弧構文 ({onEventName}) を使用して指定する必要があります。
 

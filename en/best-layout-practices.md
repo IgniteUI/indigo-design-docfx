@@ -4,7 +4,7 @@ _description: Best practices regarding layout creation in Sketch and resizing co
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Layout Best Practices
+# Layout Best Practices
 
 This topic provides design guidance regarding the positioning of Components in your app layouts and the setting of proper resizing rules to assure proper responsive app design. By sticking to the recommendations below you will be able to effortlessly generate an Angular app with the responsive behavior specified in Sketch.
 

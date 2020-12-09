@@ -4,22 +4,22 @@ _description: The Progress Component Symbol is used to provide a visual indicati
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Progress
+# Progress
 
 Use the Progress Component to establish clarity and expectancy about the progression and completion of a task that takes longer to finish. The Progress component also works very well for scenarios where the completion of a larger workflow is dependent on the completion of a set of simpler and smaller tasks, such as order fulfillment or file upload/download. The Progress is visually identical to the [Ignite UI for Angular Linear Progress Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/linear_progress.html) & [Ignite UI for Angular Circular Progress Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/circular_progress.html)
 
-### Progress Demo
+## Progress Demo
 
 <img class="responsive-img" src="../images/progress_demo.png" srcset="../images/progress_demo@2x.png 2x" />
 
-### Type
+## Type
 
 The Progress supports two layout types to fit the variety of use cases and layout requirements: a Circular Bar and a Linear Bar.
 
 <img class="responsive-img" src="../images/progress_circular.png" srcset="../images/progress_circular@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_linear.png" srcset="../images/progress_linear@2x.png 2x" />
 
-### State
+## State
 
 The Progress can be used in one of the following preset color combinations:
 
@@ -35,7 +35,7 @@ The Progress can be used in one of the following preset color combinations:
 <img class="responsive-img" src="../images/progress_error.png" srcset="../images/progress_error@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_info.png" srcset="../images/progress_info@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Progress comes with styling flexibility through the various overrides for its text, as well as changing the colors of stripes, fill, and track.
 

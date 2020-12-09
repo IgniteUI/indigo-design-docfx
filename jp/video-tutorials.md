@@ -5,9 +5,9 @@ _keywords: Ignite UI for Angular, Angular, ネイティブ Angular コンポー�
 _language: ja
 ---
 
-## ビデオ チュートリアル
+# ビデオ チュートリアル
 
-### Indigo.Design の概要
+## Indigo.Design の概要
 
 <section class="feature__container">
     <div class="feature__image">
@@ -15,7 +15,7 @@ _language: ja
     </div>
 </section>
 
-### デザイン システムの使用
+## デザイン システムの使用
 
 <section class="feature__container">
     <div class="feature">
@@ -37,7 +37,7 @@ _language: ja
     </div>
 </section>
 
-### プロトタイプとユーザー テスト
+## プロトタイプとユーザー テスト
 
 <section class="feature__container">
     <div class="feature">
@@ -71,7 +71,7 @@ _language: ja
      
 </section>
 
-### コードの生成
+## コードの生成
 
 <section class="feature__container">
     <div class="feature">

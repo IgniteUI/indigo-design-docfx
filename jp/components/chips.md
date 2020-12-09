@@ -5,15 +5,15 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## Chip (チップ)
+# Chip (チップ)
 
 Chip コンポーネントは、タグや連絡先 (メール受信者など) を楕円にコンパクト表示します。チップ は、[Ignite UI for Angular Chip コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/chip.html)と視覚的には同じです。
 
-### Chip デモ
+## Chip デモ
 
 <img class="responsive-img" src="../images/chip_demo.png" srcset="../images/chip_demo@2x.png 2x" />
 
-### Chip 密度
+## Chip 密度
 
 Chip は 3 つの密度バリアントがサポートされます。
 
@@ -25,7 +25,7 @@ Chip は 3 つの密度バリアントがサポートされます。
 <img class="responsive-img" src="../images/chip_cosy.png" srcset="../images/chip_cosy@2x.png 2x" />
 <img class="responsive-img" src="../images/chip_compact.png" srcset="../images/chip_compact@2x.png 2x" />
 
-### チップの状態
+## チップの状態
 
 ユーザーが Chip とインタラクションした際にさまざまな状態になります。ユーザーが選択的なアクションを実行したとき **idle**, selected になり、ユーザーがタブ インデックスをナビゲーションしているときはフォーカスされます。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 
@@ -55,7 +55,7 @@ Chip を削除可能にする場合はその他の状態も利用でき、 ク�
 <img class="responsive-img" src="../images/chip_focus_selected_removable.png" srcset="../images/chip_focus_selected_removable@2x.png 2x" />
 `focus and removable when selected`
 
-### Chip コンテンツ
+## Chip コンテンツ
 
 Chip は、コンテンツ状態 (**OnlyText**, Prefix, Prefix+Suffix, Suffix) を使用して付加情報を伝えるために使用できるプレフィックスとサフィックス アイコンをサポートします。
 
@@ -64,7 +64,7 @@ Chip は、コンテンツ状態 (**OnlyText**, Prefix, Prefix+Suffix, Suffix) �
 <img class="responsive-img" src="../images/chip_prefix_suffix.png" srcset="../images/chip_prefix_suffix@2x.png 2x" />
 <img class="responsive-img" src="../images/chip_suffix.png" srcset="../images/chip_suffix@2x.png 2x" />
 
-### Chip のスタイル設定
+## Chip のスタイル設定
 
 Chip は、さまざまなオーバーライドで境界線と背景色、テキスト、Prefix、Suffix、削除したアイコン色を制御することにより柔軟にスタイル設定できます。
 

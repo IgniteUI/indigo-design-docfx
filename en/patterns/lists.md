@@ -4,7 +4,7 @@ _description: The Lists Pattern Symbols depict varios scenarios that use lists t
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Lists
+# Lists
 
 Use the Lists Pattern Symbols as presets for organized collections of data in horizontal or vertical layout depicting common scenarios such as people, social media stories, multiline list elements, settings, recently used items, products, categories of items.
 
@@ -12,7 +12,7 @@ Use the Lists Pattern Symbols as presets for organized collections of data in ho
 <img class="responsive-img" src="../images/lists_settings.png" srcset="../images/lists_settings@2x.png 2x" />
 
 
-### Empty State
+## Empty State
 
 Use the Empty State List Pattern Symbol to illustrate search with no available results.
 
@@ -20,7 +20,7 @@ Use the Empty State List Pattern Symbol to illustrate search with no available r
 
 
 
-### Group of Items
+## Group of Items
 
 Use the Group of Items List Pattern Symbol to present grouped or organized items .
 

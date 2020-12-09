@@ -4,7 +4,7 @@ _description: Find out about hotspots, user action, navigation, and transitions
 _keywords: UX Design, Prototyping, Commenting, Interactions
 ---
 
-## Additional Interaction Options
+# Additional Interaction Options
 
 In this topic you can find information about interactions. These are the main concepts:
 

@@ -4,15 +4,15 @@ _description: The List Component Symbol provides means to browse and interact wi
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## List
+# List
 
 Use the List Component to let the user browse and interact with a continuous, vertical collection of templatable items containing text, icons, and images, as well as components such as buttons and avatars among others. The List is visually identical to the [Ignite UI for Angular List Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/list.html)
 
-### List Demo
+## List Demo
 
 <img class="responsive-img" src="../images/list_demo.png" srcset="../images/list_demo@2x.png 2x" />
 
-### Detach from Symbol
+## Detach from Symbol
 
 The List is essentially a repeater of rows showing data as an indexed vertical collection of items. Therefore, the easiest way to use it is by dragging a `Generic List` to your artboard, right clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared _List/Generic List_ group, you should see the following:
 
@@ -27,7 +27,7 @@ The List is essentially a repeater of rows showing data as an indexed vertical c
 
 After detaching, you may insert additional headers or items either from the Sketch menu or simply by duplicating an existing symbol. Always place items and headers one after another with consistent horizontal width and alignment, making sure there are no vertical gaps between the items.
 
-### List Item Type
+## List Item Type
 
 The List Item comes in three preset Types: Header for defining the headings of groups, One-line for shorter items with only one line of text, and Two-line for taller items supporting primary and secondary text.
 
@@ -35,21 +35,21 @@ The List Item comes in three preset Types: Header for defining the headings of g
 <img class="responsive-img" src="../images/list_item_one-line.png" srcset="../images/list_item_one-line@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_two-line.png" srcset="../images/list_item_two-line@2x.png 2x" />
 
-### List Item State
+## List Item State
 
 The One-line and Two-line List Items support the following interactive states: **inactive** for the normal state and active for the selected state. The Header List Item is not selectable so it provides no support for such States.
 
 <img class="responsive-img" src="../images/list_item_inactive.png" srcset="../images/list_item_inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_active.png" srcset="../images/list_item_active@2x.png 2x" />
 
-### List Item Areas
+## List Item Areas
 
 The List Item has two distinct areas: Primary Action with non-interactive content is laid out such as Avatar and text, and Secondary Action with quick actions related to the List Item. Any combination of a Primary and Secondary action forms a valid list item template that should be used consistently across the items of the List.
 
 <img class="responsive-img" src="../images/list_item_primary.png" srcset="../images/list_item_primary@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />
 
-### List Item Primary Action
+## List Item Primary Action
 
 There are numerous interchangable List Item Primary Actions that are listed below.
 
@@ -66,7 +66,7 @@ There are numerous interchangable List Item Primary Actions that are listed belo
 | Label + Description          | <img class="responsive-img" src="../images/list_item_primary9.png" srcset="../images/list_item_primary9@2x.png 2x" />   |                                                                                                                                            |
 | Label + Progress             | <img class="responsive-img" src="../images/list_item_primary10.png" srcset="../images/list_item_primary10@2x.png 2x" /> | Progress in a Primary Action can not have underlying text, therefore, the Text Style is set to None and this setting should not be changed |
 
-### List Item Secondary Action
+## List Item Secondary Action
 
 There are also many interchangable List Item Secondary Actions that are listed below.
 
@@ -80,7 +80,7 @@ There are also many interchangable List Item Secondary Actions that are listed b
 | Toggle           | <img class="responsive-img" src="../images/list_item_secondary6.png" srcset="../images/list_item_secondary6@2x.png 2x" /> | Switch in a Secondary Action can not have a label, therefore, the Label Style is set to None and this setting should not be changed   |
 | Two-line Numbers | <img class="responsive-img" src="../images/list_item_secondary7.png" srcset="../images/list_item_secondary7@2x.png 2x" /> |                                                                                                                                       |
 
-### Styling
+## Styling
 
 The List comes with styling flexibility through the overrides available for background color and the different elements used in the List Items, such as icons and text, as well as components like Avatar, Badge, Checkbox, Icon, Progress, Switch, etc. with their own styling capabilities.
 

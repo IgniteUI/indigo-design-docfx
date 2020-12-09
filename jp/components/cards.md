@@ -5,15 +5,15 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポ�
 _language: ja
 ---
 
-## Cards (カード)
+# Cards (カード)
 
 Card コンポーネントシンボルは、画像とテキストで単一オブジェクトの情報を表示し、共有、リンク、ブックマークなどの関連するクイック操作をトリガーできます。Card は通常概要を提供し、詳細情報のエントリ ポイントとして、ダッシュボード、テキスト、画像、アイコン、ボタンなどを表示します。 Card は、[Ignite UI for Angular Card コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/card.html)と視覚的に同じものです。
 
-### Card デモ
+## Card デモ
 
 <img class="responsive-img" src="../images/card_demo.png" srcset="../images/card_demo@2x.png 2x" />
 
-### 領域
+## 領域
 
 Card には 3 つの領域 (`header` - タイトルとサブタイトルの組み合わせ、`content` - Card の画像と段落、`actions` - Card に関連するクイック操作のあるツールバー) があります。
 
@@ -23,7 +23,7 @@ Card には 3 つの領域 (`header` - タイトルとサブタイトルの組�
 | `content` | <img class="responsive-img" src="../images/card_content_image.png" srcset="../images/card_content_image@2x.png 2x" /> |
 | `actions` | <img class="responsive-img" src="../images/card_actions_icons.png" srcset="../images/card_actions_icons@2x.png 2x" /> |
 
-### ヘッダー
+## ヘッダー
 
 Card ヘッダーは、3 種類のレイアウト (**Large Title** - 大きいタイトルとサブタイトル、Small Title - スモール タイトルとサブタイトル、Small Title - スモール タイトルのみ (サブタイトルなし) をサポートします。
 
@@ -31,7 +31,7 @@ Card ヘッダーは、3 種類のレイアウト (**Large Title** - 大きい�
 <img class="responsive-img" src="../images/card_headers.png" srcset="../images/card_headerS@2x.png 2x" />
 <img class="responsive-img" src="../images/card_header_title.png" srcset="../images/card_header_title@2x.png 2x" />
 
-### コンテンツ
+## コンテンツ
 
 Card コンテンツは、5 種類のレイアウト (連絡先のようなショートカットの**配列**、タイトルあり/なしの画像、地理的な位置を表すマップ、短い説明のテキストの段落) をサポートします。
 
@@ -40,7 +40,7 @@ Card コンテンツは、5 種類のレイアウト (連絡先のようなシ�
 <img class="responsive-img" src="../images/card_content_map.png" srcset="../images/card_content_map@2x.png 2x" />
 <img class="responsive-img" src="../images/card_content_paragraph.png" srcset="../images/card_content_paragraph@2x.png 2x" />
 
-### 操作
+## 操作
 
 Card 操作は 3 種類のレイアウトをサポートします。Flat ボタン数個のみのある**ボタン操作**、アイコン操作 (アイコン 3 つ迄)、アイコンとボタン操作の 2 つの組み合わせ。
 
@@ -48,7 +48,7 @@ Card 操作は 3 種類のレイアウトをサポートします。Flat ボタ�
 <img class="responsive-img" src="../images/card_actions_icons.png" srcset="../images/card_actions_icons@2x.png 2x" />
 <img class="responsive-img" src="../images/card_actions_mixed.png" srcset="../images/card_actions_mixed@2x.png 2x" />
 
-### タイプ
+## タイプ
 
 Card で以下のレイアウトのうちの 1 つを利用できます。
 
@@ -67,7 +67,7 @@ Card で以下のレイアウトのうちの 1 つを利用できます。
 
 デザインに合わない場合は、[カスタム カード](cards-custom.md)を作成できます。
 
-### スタイル設定
+## スタイル設定
 
 Card は、さまざまなオーバーライドでヘッダー、コンテンツ、テキスト、アイコン、ボタンの色などの操作領域の制御やカードの背景色の選択などスタイル設定に柔軟性があります。
 
