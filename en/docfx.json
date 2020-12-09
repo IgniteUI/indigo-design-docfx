@@ -1,20 +1,6 @@
 {
-    "metadata": [
-        {
-            "src": [
-                {
-                    "files": ["src/**.csproj"],
-                    "exclude": ["**/obj/**", "**/bin/**", "_site/**"]
-                }
-            ],
-            "dest": "api"
-        }
-    ],
     "build": {
         "content": [
-            {
-                "files": ["api/**.yml", "api/index.md"]
-            },
             {
                 "files": [
                     "prototyping/**.md",
