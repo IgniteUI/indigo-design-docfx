@@ -73,6 +73,7 @@
       href: ../style/illustrations.md
       new: true
 - name: Components
+  href: ../components/components.md
   items:
     - name: Avatar
       href: ../components/avatar.md
