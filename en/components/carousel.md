@@ -14,7 +14,7 @@ Use the Carousel Component to let the user navigate through a collection of imag
 
 ## Styling
 
-The Carousel comes with styling flexibility through the various overrides controlling the navigation button background and icon colors, the indicator colors, border colors, and a slide image for the currently active slide. You should keep in mind that only one indicator may be active at a time.
+The Carousel comes with styling flexibility through the various overrides controlling the navigation buttons background and icon colors, the indicator colors, border colors, and the slide image for the currently active slide, along with the elevation and state where applicable. You should keep in mind that only one indicator may be active at a time.
 
 <img class="responsive-img" src="../images/carousel_styling.png" srcset="../images/carousel_styling@2x.png 2x" />
 
@@ -27,7 +27,7 @@ The previous and next navigation buttons of the Carousel should always appear on
 | <img class="responsive-img" src="../images/carousel_do1.png" srcset="../images/carousel_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/carousel_dont1.png" srcset="../images/carousel_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/carousel_do2.png" srcset="../images/carousel_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/carousel_dont2.png" srcset="../images/carousel_dont2@2x.png 2x" /> |
 
-## Code generation
+## Code Generation
 
 This section describes some important overrides and how they affect code generation.
 
