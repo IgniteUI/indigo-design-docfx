@@ -12,6 +12,16 @@ Use the Avatar Component as a graphical representation of a person through a pro
 
 <img class="responsive-img" src="../images/avatar_demo.png" srcset="../images/avatar_demo@2x.png 2x" />
 
+## Type
+
+The Avatar can carry different types of content such as an **image**, a string with **initials**, or an **icon**.
+
+<img class="responsive-img" src="../images/avatar_content.png" srcset="../images/avatar_content@2x.png 2x" />
+
+The avatar comes in two distinct types determined by its shape: a **round** and a **square** form.
+
+<img class="responsive-img" src="../images/avatar_type.png" srcset="../images/avatar_type@2x.png 2x" />
+
 ## Size
 
 The Avatar comes in three different sizes:
@@ -22,19 +32,9 @@ The Avatar comes in three different sizes:
 
 <img class="responsive-img" src="../images/avatar_sizes.png" srcset="../images/avatar_sizes@2x.png 2x" />
 
-## Type
-
-The Avatar can carry different types of content such as an **image**, a string with initials, or an icon.
-
-<img class="responsive-img" src="../images/avatar_content.png" srcset="../images/avatar_content@2x.png 2x" />
-
-The avatar comes in two distinct types determined by its shape: a **round** and a square form.
-
-<img class="responsive-img" src="../images/avatar_type.png" srcset="../images/avatar_type@2x.png 2x" />
-
 ## Styling
 
-The Avatar comes with styling flexibility through the various overrides controlling the background color, as well as initials and icon colors, where applicable.
+The Avatar comes with styling flexibility through the various overrides controlling the background color, as well as initials and their text style, and icon and its color, where applicable.
 
 <img class="responsive-img" src="../images/avatar_styling.png" srcset="../images/avatar_styling@2x.png 2x" />
 
