@@ -5,13 +5,13 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, UI ライ�
 _language: ja
 ---
 
-## カラー
+# カラー
 
 スタイリング ライブラリ ファイルから Colors はテーマ カラー (`primary`、`secondary`、`success`、`warn`、`error`、`info`) を設定します。Styling ライブラリで Colors を設定する方法は、[Ignite UI for Angular テーマ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes.html) と同じです。
 
 <img class="responsive-img" src="../images/colors_palette.png" srcset="../images/colors_palette@2x.png 2x" />
 
-### パレット生成
+## パレット生成
 
 プライマリ カラーを変更するには、Indigo-Styling の `Colors` ページに移動し、`Primary 500` シンボルを適切なカラーに変更します。プライマリ パレット全体が直ちに更新されます。同じパレット生成が二次色にも使用できます。
 
@@ -20,11 +20,11 @@ _language: ja
 > [!Note]
 > テキストカラーは、デフォルト テーマをすべて更新する際に `Typography` で制御されるため、`Typography` ページのカラーを手動で変更する必要があります。プライマリ カラーを変更後、Typography の `Primary` セクションを同じカラーに変更してください。手順の詳細は、[タイポグラフィ](typography.md) をご確認ください。
 
-### カラーの追加
+## カラーの追加
 
 更にカラーが必要な場合、パレット以外にカスタム カラーを追加することも可能で 2 通りの方法があります。
 
-#### グローバル
+### グローバル
 
 ライブラリを使用するすべてのプロジェクトで追加したカラーを使用する場合、次の手順を使用します。
 
@@ -42,7 +42,7 @@ _language: ja
 
 4.  ライブラリで変更を保存し、追加したカラーは `Insert` メニューの `Indigo-Styling/Colors` でカラー リストに表示されます。Components および Patterns ライブラリでカラーが使用されている場所にカラー オーバーライドに表示されます。
 
-#### ローカル
+### ローカル
 
 2 つ目の方法は、ファイル特有のカラーの追加です。すべてのプロジェクトで使用することはできませんが作業しているプロジェクトで使用できます。次の簡単な手順に従います。
 

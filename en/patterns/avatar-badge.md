@@ -4,7 +4,7 @@ _description: The Avatar + Badge Pattern Symbols combine an Avatar with a Badge 
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Avatar + Badge
+# Avatar + Badge
 
 Use the Avatar + Badge Pattern to complement the graphical representation that the Avatar provides with a short subtle message or indication for an alert or notification.
 
@@ -12,7 +12,7 @@ Use the Avatar + Badge Pattern to complement the graphical representation that t
 
 The Avatar + Badge Pattern comes with the styling flexibility provided by the Avatar and Badge that constitute its layout.
 
-### Size
+## Size
 
 The Avatar + Badge Pattern supports the same sizes that the Avatar does:
 
@@ -20,7 +20,7 @@ The Avatar + Badge Pattern supports the same sizes that the Avatar does:
 - Medium - Appropriate for custom menus and visualizations
 - Small - Easily embedded in a contact list and similar repetitive scenarios
 
-### Position
+## Position
 
 The Badge comes positioned in one of the four corners of the Avatar as shown below.
 

@@ -4,7 +4,7 @@ _description: The Onboarding Pattern Symbols combine various components to displ
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Onboarding
+# Onboarding
 
 Use the Onboarding Symbols as presets for building Onboarding experience in several steps. Usually, the onboarding experience is presented in up to 5 steps introducing the most significant application features, details about how to start initially using an application or overview of the application screens.
 

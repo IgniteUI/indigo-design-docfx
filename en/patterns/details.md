@@ -4,7 +4,7 @@ _description: The Details Pattern Symbols combine varios components in order to 
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Details
+# Details
 
 Use the Details Pattern to display detailed information as a full-screen page usually depicting things such as articles, products, recipes etc.
 
@@ -12,7 +12,7 @@ Use the Details Pattern to display detailed information as a full-screen page us
 
 The Details Pattern comes with the styling flexibility provided by the Badges, Buttons, Tabs, and Text elements that constitute it.
 
-### Icon + Title 
+## Icon + Title 
 
 Use the Icon + Title Pattern to present a single element from a set of elements through avatar with featured icon or image, title and rich-text description. It can be used for various scenarios, such as product feature description and single step of wizard sequence.
 

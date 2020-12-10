@@ -5,7 +5,7 @@ _keywords: デザイン システム, Design Systems UX, UI キット, Sketch, I
 _language: ja
 ---
 
-## Indigo.Design プラグイン
+# Indigo.Design プラグイン
 
 Indigo.Design Sketch プラグインは、Indigo.Design UI Kit for Sketch を使用した新しいテーマの作成や既存のテーマの編集が可能です。`primary` (プライマリ), `secondary` (セカンダリ), `error` (エラー), `success` (成功), `warn` (警告), `info`(情報) の色やブランディングに合わせたタイポグラフィのプロパティの調整ができます。プラグインはプロジェクトを簡単に Indigo.Design クラウドに公開し、変更や更新の際に定期的に同期させることができます。
 

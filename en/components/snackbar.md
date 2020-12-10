@@ -4,15 +4,15 @@ _description: The Snackbar Component Symbol is used to show a short notification
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Snackbar
+# Snackbar
 
 Use the Snackbar Component to show a short notification or provide indication for the most recent action such as adding or deleting a record in a listing, with the option to trigger a simple extra action such as undo. The Snackbar is visually identical to the [Ignite UI for Angular Snackbar Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/snackbar.html)
 
-### Snackbar Demo
+## Snackbar Demo
 
 <img class="responsive-img" src="../images/snackbar_demo.png" srcset="../images/snackbar_demo@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Snackbar comes with constrained styling flexibility, allowing only to change the text color of its action button.
 

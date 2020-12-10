@@ -4,7 +4,7 @@ _description: How to Sketch Artboard for a registration screen using Indigo Desi
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Creating Your First Artboard
+# Creating Your First Artboard
 
 At the end of this topic you'll have a Sketch Artboard for a registration screen using Indigo Design Libraries.
 

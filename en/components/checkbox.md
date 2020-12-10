@@ -4,29 +4,29 @@ _description: The Checkbox Component Symbol is used to allow the user to mark a 
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Checkbox
+# Checkbox
 
 Use the Checkbox Component to allow the user make a selection, which most often expresses a preference or agreement in a form. The Checkbox is visually identical to the [Ignite UI for Angular Checkbox Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/checkbox.html)
 
-### Checkbox Demo
+## Checkbox Demo
 
 <img class="responsive-img" src="../images/checkbox_demo.png" srcset="../images/checkbox_demo@2x.png 2x" />
 
-### Theme
+## Theme
 
 The Checkbox can be used styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
 
 <img class="responsive-img" src="../images/checkbox_dark.png" srcset="../images/checkbox_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/checkbox_light.png" srcset="../images/checkbox_light@2x.png 2x" />
 
-### State
+## State
 
 The Checkbox provides **on**, off, and indeterminate selection states with additional variants for a disabled interaction state.
 
 <img class="responsive-img" src="../images/checkbox_states.png" srcset="../images/checkbox_states@2x.png 2x" />
 <img class="responsive-img" src="../images/checkbox_selection.png" srcset="../images/checkbox_selection@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Checkbox comes with styling flexibility through the various overrides controlling its check and fill colors, as well as the label text color.
 

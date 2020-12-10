@@ -4,15 +4,15 @@ _description: The Toast Component Symbol is used to show a non-interactive infor
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Toast
+# Toast
 
 Use the Toast Component to show a short information message or notification, which is neither interactive nor possible to dismiss by the user. The Toast should be hidden automatically after a defined time interval. The Toast is visually identical to the [Ignite UI for Angular Toast Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/toast.html)
 
-### Toast Demo
+## Toast Demo
 
 <img class="responsive-img" src="../images/toast_demo.png" srcset="../images/toast_demo@2x.png 2x" />
 
-### Position
+## Position
 
 The Toast should be relatively positioned towards the bottom, center, or top of the content its information concerns.
 
@@ -20,7 +20,7 @@ The Toast should be relatively positioned towards the bottom, center, or top of 
 <img class="responsive-img" src="../images/toast_center.png" srcset="../images/toast_center@2x.png 2x" />
 <img class="responsive-img" src="../images/toast_top.png" srcset="../images/toast_top@2x.png 2x" />
 
-### Styling
+## Styling
 
 The Toast comes with constrained styling possibility, allowing only control of the background and message text colors. However, it is highly advisable to choose between `white` and `grays.900` for the message text, whichever of the two gives better contrast with the background.
 

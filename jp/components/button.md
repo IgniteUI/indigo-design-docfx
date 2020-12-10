@@ -5,15 +5,15 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポ�
 _language: ja
 ---
 
-## Button (ボタン)
+# Button (ボタン)
 
 Button コンポーネント シンボルは、シンプルなユーザー操作のためのトリガーを表します。Buttons は、カード、ダイアログ、フォーム、その他コンポーネントやパターンに使用します。Button は、[Ignite UI for Angular Button コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/button.html)と視覚的に同じものです。
 
-### Button デモ
+## Button デモ
 
 <img class="responsive-img" src="../images/button_demo.png" srcset="../images/button_demo@2x.png 2x" />
 
-### タイプ
+## タイプ
 
 4 つの Button タイプがあります。
 
@@ -24,13 +24,13 @@ Button コンポーネント シンボルは、シンプルなユーザー操作
 
 <img class="responsive-img" src="../images/button_types.png" srcset="../images/button_types@2x.png 2x" />
 
-### 状態
+## 状態
 
 各ボタン タイプは**デフォルト**、ホバー、無効の状態をサポートします。アイコンやラベル付きのボタンはデフォルト状態でも利用できます。
 
 <img class="responsive-img" src="../images/button_states.png" srcset="../images/button_states@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Button は、さまざまなオーバーライドで背景色、ラベル、アイコン色を制御することにより柔軟にスタイル設定できます。
 

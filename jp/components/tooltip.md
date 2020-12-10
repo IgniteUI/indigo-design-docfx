@@ -5,29 +5,29 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-## Tooltip (ツールチップ)
+# Tooltip (ツールチップ)
 
 Tooltip コンポーネントを使用して追加情報を表示し、ユーザーインターフェイスの他のコンポーネントについて説明するテキストを一時的にします。ユーザーインタラクションによって表示可能となり、特定の時間経過後またはユーザーインタラクションによって非表示になります。ツールチップは、[Ignite UI for Angular Tooltip コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/tooltip.html)と視覚的に同じものです。
 
-### ツールチップ デモ
+## ツールチップ デモ
 
 <img class="responsive-img" src="../images/tooltip_demo.png" srcset="../images/tooltip_demo@2x.png 2x" />
 
-### タイプ
+## タイプ
 
 ツールチップは、デスクトップとモバイルで使用時に適切なサイズで提供されます。
 
 <img class="responsive-img" src="../images/tooltip_desktop.png" srcset="../images/tooltip_desktop@2x.png 2x" />
 <img class="responsive-img" src="../images/tooltip_mobile.png" srcset="../images/tooltip_mobile@2x.png 2x" />
 
-### バリアント
+## バリアント
 
 Tooltip の **dark** バリアントは、より明るい色のインターフェイスの下の使用が適しています。**light** バリアントはより暗い色のインターフェイスの上の使用が適しています。
 
 <img class="responsive-img" src="../images/tooltip_dark.png" srcset="../images/tooltip_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/tooltip_light.png" srcset="../images/tooltip_light@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Tooltip には、背景色の制御をオーバライドすることにより柔軟にスタイル設定ができる機能があります。
 

@@ -4,7 +4,7 @@ _description: The Tiles Pattern Symbols provide meaningful application scenarios
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-## Tiles
+# Tiles
 
 Use the Tiles Symbol as presets to display an overview of products with some of their assets, such as images and product names, as well as application features, recent items, list of items or as a rich-data dashboard.
 

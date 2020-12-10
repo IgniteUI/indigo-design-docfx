@@ -5,22 +5,22 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポ�
 _language: ja
 ---
 
-## Button Group (ボタン グループ)
+# Button Group (ボタン グループ)
 
 Button Group コンポーネント シンボルは、関連する機能のトリガーを 1 インターフェイス要素として組み合わせます。1 つのボタンのみ押すことができる排他的な選択と 1 つ以上のボタンを押したままにできる複数選択の両方をサポートします。Button Group は、[Ignite UI for Angular Button Group コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/buttongroup.html)と視覚的に同じものです。
 
-### Button Group デモ
+## Button Group デモ
 
 <img class="responsive-img" src="../images/button-group_demo.png" srcset="../images/button-group_demo@2x.png 2x" />
 
-### レイアウト
+## レイアウト
 
 Button Group は、2 方向レイアウトをサポートし、左から右の水平方向、上から下の垂直に配置できます。
 
 <img class="responsive-img" src="../images/button-group_horizontal.png" srcset="../images/button-group_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/button-group_vertical.png" srcset="../images/button-group_vertical@2x.png 2x" />
 
-### ボタン数
+## ボタン数
 
 多くのケースで Button Group に 2 項目 ～ 4 項目が必要になります。4 項目以上必要な場合は、一連のリッチな操作を提供できるカスタム ツールバーをデザインすることを検討してください。
 
@@ -28,14 +28,14 @@ Button Group は、2 方向レイアウトをサポートし、左から右の�
 <img class="responsive-img" src="../images/button-group_items3.png" srcset="../images/button-group_items3@2x.png 2x" />
 <img class="responsive-img" src="../images/button-group_items4.png" srcset="../images/button-group_items4@2x.png 2x" />
 
-### ボタン タイプ
+## ボタン タイプ
 
 Button Group 内の各 Button には**テキスト**またはアイコンが含まれ、**デフォルト**、無効、ホバー、選択済みの状態で設定できます。選択済みの状態は、選択したボタンを分けるための追加の境界線があり、Button 配置に反映する必要のある 3 種類のバリアントが含まれます。
 
 <img class="responsive-img" src="../images/button-group_text.png" srcset="../images/button-group_text@2x.png 2x" />
 <img class="responsive-img" src="../images/button-group_icons.png" srcset="../images/button-group_icons@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Button Group は、さまざまなオーバーライドで背景色、各ボタン境界線、背景、ラベル、アイコン色を制御することにより柔軟にスタイル設定できます。
 

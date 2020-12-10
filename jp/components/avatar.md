@@ -5,15 +5,15 @@ _keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポ�
 _language: ja
 ---
 
-## Avatar (アバター)
+# Avatar (アバター)
 
 Avatar コンポーネント シンボルは、プロフィール写真、アイコン、イニシャル (文字列) で人をグラフィックで表現するために使用します。Avatar は、 [Ignite UI for Angular Avatar コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/avatar.html)と視覚的に同じものです。
 
-### Avatar デモ
+## Avatar デモ
 
 <img class="responsive-img" src="../images/avatar_demo.png" srcset="../images/avatar_demo@2x.png 2x" />
 
-### サイズ
+## サイズ
 
 Avatar のサイズは 3 つあります。
 
@@ -23,7 +23,7 @@ Avatar のサイズは 3 つあります。
 
 <img class="responsive-img" src="../images/avatar_sizes.png" srcset="../images/avatar_sizes@2x.png 2x" />
 
-### タイプ
+## タイプ
 
 Avatar は、**画像**、イニシャルの文字列、アイコンなど、さまざまなタイプのコンテンツを使用できます。
 
@@ -33,7 +33,7 @@ Avatar は、**画像**、イニシャルの文字列、アイコンなど、さ
 
 <img class="responsive-img" src="../images/avatar_type.png" srcset="../images/avatar_type@2x.png 2x" />
 
-### スタイル設定
+## スタイル設定
 
 Avatar は、さまざまなオーバーライドで背景色、イニシャルやアイコン色を制御することにより柔軟にスタイル設定できます。
 
