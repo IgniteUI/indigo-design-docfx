@@ -10,9 +10,9 @@
 - name: Getting Started
   href: ../appbuilder/getting-started.md
 - name: Interface Overview
-  herf: ../appbuilder/interface-overview.md
+  href: ../appbuilder/interface-overview.md
 - name: Flex layouts
-  herf: ../appbuilder/flex-layouts.md
+  href: ../appbuilder/flex-layouts.md
   items:
     - name: Row and column layout
       href: ../appbuilder/flex-layouts/row-and-column-layout.md
@@ -23,35 +23,35 @@
     - name: Additional resources to learn about web-layouts
       href: ../appbuilder/flex-layouts/additional-resources-to-learn-about-web-layouts.md
 - name: Indigo.Design App Builder components
-  herf: ../appbuilder/indigo.design-app-builder-components.md
+  href: ../appbuilder/indigo.design-app-builder-components.md
   items:
     - name: Quick add components
-      herf: ../appbuilder/indigo-design-components/quick-add-components.md
+      href: ../appbuilder/indigo-design-components/quick-add-components.md
     - name: Configuring components
-      herf: ../appbuilder/indigo-design-components/configuring-components.md
+      href: ../appbuilder/indigo-design-components/configuring-components.md
 - name: App Themes
-  herf: ../appbuilder/app-themes.md
+  href: ../appbuilder/app-themes.md
   items:
     - name: Switching app themes
-      herf: ../appbuilder/app-themes/switching-app-themes.md
+      href: ../appbuilder/app-themes/switching-app-themes.md
     - name: Material vs. Fluent vs Bootstrap 
-      herf: ../appbuilder/app-themes/material-vs-fluent-vs-bootstrap.md
+      href: ../appbuilder/app-themes/material-vs-fluent-vs-bootstrap.md
     - name: Customize & apply theme 
-      herf: ../appbuilder/app-themes/customize-&-apply-theme.md
+      href: ../appbuilder/app-themes/customize-&-apply-theme.md
 - name: Single page apps and navigation
-  herf: ../appbuilder/single-page-apps-and-navigation.md
+  href: ../appbuilder/single-page-apps-and-navigation.md
   items:
     - name: Master view vs. Child views
-      herf: ../appbuilder/spa-and-navigation/master-view-vs-child-views.md
+      href: ../appbuilder/spa-and-navigation/master-view-vs-child-views.md
     - name: Add navigations (routing)
-      herf: ../appbuilder/spa-and-navigation/add-navigations-(routing).md
+      href: ../appbuilder/spa-and-navigation/add-navigations-(routing).md
 - name: Preview code and generate app
-  herf: ../appbuilder/preview-code-and-generate-app.md
+  href: ../appbuilder/preview-code-and-generate-app.md
   items:
     - name: Preview code
-      herf: ../appbuilder/preview-code-and-genrate-app/preview-code.md
+      href: ../appbuilder/preview-code-and-genrate-app/preview-code.md
     - name: Compile and Run the app
-      herf: ../appbuilder/preview-code-and-genrate-app/compile-and-run-the-app.md
+      href: ../appbuilder/preview-code-and-genrate-app/compile-and-run-the-app.md
   header: true
 - name: Creating Your First Artboard
   href: ../creating-an-artboard.md
