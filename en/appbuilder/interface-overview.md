@@ -1,0 +1,11 @@
+## Interface overview 
+
+The Indigo App Builder interface is similar to the interface of most design tools with some particular differences. 
+
+Toolbox 
+
+The toolbox on the left-hand side includes five tabs for Components, Views, Data Sources, Themes and the Outline Tree. The Components tab includes all available Ignite UI for Angular components, as well as some Indigo Design App Builder specific components, such as absolute, row, column layout and views container. The search input on the top of the components list makes easy finding a particular screen part. All the parts are conveniently distributed into groups based on their application. The grayed-out components are disabled and still not added but are in a process of implementation in next releases. Below the Components tabs is placed the Views tab. Here can be find all Master and Child screens and all Views actions. The third tab, Data, is where all data sources and related options are located. Users can find a list of all available data sources, add a new one or edit the existing sources. In the fourth tab, users can find the all available default themes. There users can create and edit their own themes and quickly switch between them. 
+
+In the middle of the screen is the Canvas where the applications are being designed. Simply, drag & drop or double click on the component you want to add and it will appear on the design surface as a part of the application that is being designed. At the bottom, users can see the zoom bar with some helpful options like predefined zoom values, set to actual size or zoom to fit. Right from the zoom bar is the Send Feedback button which let users send us feedback or feature request while designing an app without the need to interrupt their creative work.  
+
+On the right side is the Property Panel with all the options for the Viewport, Canvas and Components related. As you can see, once a component is selected, the properties are changed, so users can edit component’s size, position, layout, spacing, or add data repeaters and interactions. 
