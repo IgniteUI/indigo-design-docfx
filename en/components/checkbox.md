@@ -14,23 +14,23 @@ Use the Checkbox Component to allow the user make a selection, which most often 
 
 ## Theme
 
-The Checkbox can be used styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
+The Checkbox can be used styled in **dark** and **light** variants to assure good readability and contrast for both lighter and darker backgrounds.
 
 <img class="responsive-img" src="../images/checkbox_dark.png" srcset="../images/checkbox_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/checkbox_light.png" srcset="../images/checkbox_light@2x.png 2x" />
 
 ## State
 
-The Checkbox provides **on**, off, and indeterminate selection states with additional variants for a disabled interaction state.
+The Checkbox provides **on**, **off**, and **indeterminate** selection states with additional variants for a disabled interaction state.
 
 <img class="responsive-img" src="../images/checkbox_states.png" srcset="../images/checkbox_states@2x.png 2x" />
 <img class="responsive-img" src="../images/checkbox_selection.png" srcset="../images/checkbox_selection@2x.png 2x" />
 
 ## Styling
 
-The Checkbox comes with styling flexibility through the various overrides controlling its check and fill colors, as well as the label text color.
+The Checkbox comes with styling flexibility through the various overrides controlling its check and fill colors, as well as the label position and its color.
 
-<img class="responsive-img" src="../images/calendar_styling.png" srcset="../images/calendar_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/checkbox_styling.png" srcset="../images/checkbox_styling@2x.png 2x" />
 
 ## Usage
 
