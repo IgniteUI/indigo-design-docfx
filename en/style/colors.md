@@ -1,58 +1,58 @@
 ---
 title: Colors - Design System Styling
-_description: The Colors Symbols in Styling are the go to place for setting up a theme in Indigo Design.
+_description: The Colors library page is the go to place for setting up a theme for the Indigo.Design System.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 # Colors
 
-Use Colors from the Styling library file to set up your theme's colors - `primary`, `secondary`, `success`, `warn`, `error`, `info`. The way Colors are set up in the Styling library is identical to the [Ignite UI for Angular Themes](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes.html).
+On the `🎨 Colors` page of the **Indigo.Design System** you will find a collection of `primary`, `secondary`, `success`, `warn`, `error`, `info`, `grays`, and `series` colors to let you brand the library all at once. The way Colors are set up is identical to the [Ignite UI for Angular Themes](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes.html).
 
-<img class="responsive-img" src="../images/colors_palette.png" srcset="../images/colors_palette@2x.png 2x" />
+<img class="responsive-img" src="../images/colors_palette.png" />
 
 ## Palette Generation
 
-To change the primary color, navigate to the `Colors` page in Indigo-Styling and while holding the `command` key select all the primary color variants. Then, find the Fills section in the right panel and click on the bottom one, which bears the main color component in order to change its value to another color. This will automatically update all primary variants to assure consistent look with Ignite UI for Angular.
+To change the primary palette in Sketch open the Indigo.Design library file and select `View` -> `Components`. Then in the Sketch menu you will notice a group of four buttons, where the one to the right is an icon of a pantone guide and stands for `Show Color Variables`.
 
-<img class="responsive-img" src="../images/colors-fills.png"/>
+<img class="responsive-img" src="../images/colors-vars-sketch.png"/>
 
-> [!Warning]
-> The two fills above are used for color variant generation and their values must always be kept as they are. Failing to comply with this guidance will result in inconsistencies and unpredictable code generation results.
+On the canvas below you will see a collection of colored circles representing all color variables we have defined in the library. You need to find the one called `primary`, select it and use the panel on the right to specify a different color. You are all set, this change will not only update all variants and `Layer Styles` for the primary palette, but also propagate these changes across all Components and Patterns automatically.
 
-Upon changing the bottom fill, you will see the whole primary palette instantly update. The same palette generation is available for the secondary color.
+<img class="responsive-img" src="../images/colors_palette_updated.png"/>
 
-<img class="responsive-img" src="../images/colors_generation.png" srcset="../images/colors_generation@2x.png 2x" />
+<img class="responsive-img" src="../images/colors_palette_components.png"/>
 
-With the introduction of Library Styles in Sketch and our support for Shared Color Styles there is one more step that you need to do i.e. to update all respective color styles that have changed with the selection of a new primary/secondary color. In order to do that upon selecting an individual color element, you should be able to observe the following inconsistency.
+The same procedure can be followed for the `secondary` colors and other colors with special meaning in the library.
 
-<img class="responsive-img" src="../images/colors_styles_update.png"/>
+## Creating Custom Colors
 
-To fix that click on the `primary.100*` style to drop the menu down and select the `Update Layer Style` option. This should be repeated for all remaining variants and for the secondary ones as well if they have been changed too.
-
-> [!Note]
-> Since the text colors are controlled by the `Typography`, to fully update the default theme, you also need to manually change the colors in the `Typography` page as well. Once you change your `primary` color, make sure you change the `Primary` section in Typography to the very same color. The exact steps to achieve this can be found in [Typography](typography.md).
-
-## Adding More Colors
-
-In the cases where one needs more colors, besides the ones in the palette, it is also possible to add custom colors and there are two approaches for doing so.
+There are cases where we needs more colors than the ones we have available. There are two approaches for creating custom colors that differ in terms of the scope we do this for.
 
 ### Global
 
-If you want your added colors to be available across all the projects that use the libraries, follow these simple steps:
+If you want your added colors to be available across all the projects that use the library, follow these simple steps:
 
-1.  Open the Styling library, navigate to the `Colors` page, and zoom to the empty `Custom` section underneath the `black`, `white`, and `transparent` row of color symbols.
+1.  Navigate to the `Colors` page, and zoom to the empty `Custom` section underneath the `series` palettes.
 
-    <img class="responsive-img" src="../images/colors_custom0.png" srcset="../images/colors_custom0@2x.png 2x" />
+    <img class="responsive-img" src="../images/colors_custom1.png"/>
 
-2.  Select the `Colors/black` symbol and, while holding the `option` key drag the symbol below, create a copy of it.
+2.  Draw a rectangle and set its fill to the color of your choice. 
 
-    <img class="responsive-img" src="../images/colors_custom1.png" srcset="../images/colors_custom1@2x.png 2x" />
+    <img class="responsive-img" src="../images/colors_custom2.png"/>
 
-3.  Now, select the `Rectangle` layer, which happens to be the only layer of the `Colors/black copy` symbol, and change its Fill to a color of your choice e.g. #008080 (teal). Remember to also rename the symbol accordingly e.g. `Colors/teal`.
+3.  In the color picker you will notice a `Create Color Variable` button which you need to select once you are happy with your choice.
 
-    <img class="responsive-img" src="../images/colors_custom2.png" srcset="../images/colors_custom2@2x.png 2x" />
+    <img class="responsive-img" src="../images/colors_custom3.png"/>
 
-4.  Save the changes to the library and now the color you have added should appear in the list of colors under `Indigo-Styling/Colors` in the `Insert` menu. It will also show up for the color overrides wherever colors are used in the Components and Patterns libraries.
+3.  Apply the same color variable to the border of the rectangle and name it accordingly e.g. `cool gray`.
+
+    <img class="responsive-img" src="../images/colors_custom4.png"/>
+
+4.  Now you have to create three color styles using the custom color rectange: one with just the fill, one with just the border, and one with both naming them accordingly.
+
+    <img class="responsive-img" src="../images/colors_custom5.png"/>
+
+5.  You are all set, your custom color will appear as a Color Variable and show up in the overrides for your Components and Patterns.
 
 ### Local
 
