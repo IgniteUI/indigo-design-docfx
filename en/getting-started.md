@@ -20,7 +20,7 @@ Indigo.Design offers three key capabilities to support the design to development
 
 #### 1. Indigo.Design System
 
-The design system is a Sketch library that contains various components (symbols) that allow a designer to create intricate user interfaces and leverage pre-made palettes, typographies and assets such as icons and illustrations. On top of that UI components are built to offer design time flexibility throguh various states and templates. To improve your productivity there is also a collection of patterns such as product details layouts, various forms, and pricing tables among others.
+The design system is a Sketch library that contains various components (symbols) that allow a designer to create intricate user interfaces and leverage pre-made palettes, typographies and assets such as icons and illustrations. On top of that UI components are built to offer design time flexibility through various states and templates. To improve your productivity there is also a collection of patterns such as product details layouts, various forms, and pricing tables among others.
 
 Learn more:
 
