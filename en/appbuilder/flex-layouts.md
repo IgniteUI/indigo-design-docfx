@@ -19,25 +19,30 @@ Flex-layout containers have settings that allow us to modify the position of the
 
 You can always select the parent UI element by clicking on the label for the child element. This is helpful when you have nested layout containers. On the other hand, you can also select the component you need directly from the Outline menu in the bottom left corner.  
 
-<img class="responsive-img" src="../images/row-column-layout-Indigo-Design-App-Builder.gif" />
+<img class="responsive-img" src="../images/select-parent-Indigo-Design-App-Builder.gif" />
 
 ## Fluid resizing & wrapping 
 
 The other note-worthy properties are related to grow and shrink. These affect resizing for components when the viewport changes size. Setting a component to `grow` will expand a container in row direction if it's row layout or column direction if it's column layout.  
 
-TODO: [screenshot GIF] 
+<img class="responsive-img" src="../images/grow-column-row-layout-Indigo-Design-App-Builder.gif" />
+
 
 ## Add to layout via context menu 
 
 If you come up with the need to add an existing component to a new layout, there is a very handful option – with right on a selected component, you can trigger the context menu and to add the element to a row or column layout.  
 
- TODO: [screenshot GIF] 
+<img class="responsive-img" src="../images/add-to-layout-Indigo-Design-App-Builder.gif" />
 
 ## Additional Resources
 
 To summarize quickly, whatever you have learned about Flex layouts can be used here in the editor as-is. For someone new to Flex and CSS, it will take some getting used to, but over time it will become a lot easier to think of layouts as rows and columns. The most important is that Flex layout help us build application adapting to a screen size and define components behavior within the layout, while the absolute layout let us have a particular design for only one screen size. 
+<br>Use these resources to learn more about CSS Flexbox
+<br>https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+<br>https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+<br>https://flexboxfroggy.com/
 
 <div class="divider--half"></div>
 
 * [App Builder Components](indigo-design-app-builder-components.md)
- TODO: Links to MDN, and CSSTricks flex resources, flexbox froggy game 
+
