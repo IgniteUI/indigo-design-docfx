@@ -66,7 +66,7 @@ The below image is an example of a designer state drawing, this drawing should n
 
 For this release of Code Generation, native Sketch objects such as vector, mask, pencil, complex shape, etc. are bypassed and not generated. This includes the new Text Styles feature of Sketch 5.1, these elements will be bypassed and not generated.
 Only styles applied via the Indigo.Design plug-in are supported. All other custom styles applied on specific components are ignored.
-Designers should use elements from the Indigo.Design libraries only.
+Designers should use elements from the Indigo.Design library only.
 Sketch Image is supported. The image will be rendered with a fixed height and width of the image in Sketch. 
 
 ## Additional Resources
