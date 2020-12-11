@@ -64,12 +64,10 @@ The below image is an example of a designer state drawing, this drawing should n
 
 ## Limitations
 
-For the this release of Code Generation, native Sketch objects such as vector, mask, pencil, complex shape, etc. are bypassed and not generated. This includes the new Text Styles feature of Sketch 5.1, these elements will be bypassed and not generated.
-All text that needs to be generated using this Beta needs to use the Typography symbols from the Indigo-Styling library.
-Designers should use elements from the Indigo-Components and Indigo-Styling libraries only.
-From Indigo-Styling only the Color and Typography element added to an Artboard are supported. The others are ignored for this Beta.
+For this release of Code Generation, native Sketch objects such as vector, mask, pencil, complex shape, etc. are bypassed and not generated. This includes the new Text Styles feature of Sketch 5.1, these elements will be bypassed and not generated.
+Only styles applied via the Indigo.Design plug-in are supported. All other custom styles applied on specific components are ignored.
+Designers should use elements from the Indigo.Design libraries only.
 Sketch Image is supported. The image will be rendered with a fixed height and width of the image in Sketch. 
-For this Beta release of code generation and Indigo.Design UI Kit, text elements do not always have a pixel perfect vertical alignment. This is limitation that we hope to resolve in the future. Developers will need to examine the generated component at runtime and make a slight CSS margin-top adjustment.
 
 ## Additional Resources
 
