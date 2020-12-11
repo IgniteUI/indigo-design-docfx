@@ -1,12 +1,14 @@
 ---
 title: Material Icons - Design System Styling
-_description: The Material Icons Symbols in Styling replicate the skilfully crafted symbols for common actions familiar from Material Design.
+_description: The Material Icons Symbols offer hundreds of skilfully crafted icon symbols that designate common actions.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 # Material Icons
 
-Use the Material Icons to symbolize common actions in Icon Buttons, List Items, Cards etc. to reduce the amount of text that is normally used as a Button label for example. Material Icons consume the Colors Symbols in Styling, which lets you pick any of the defined colors for an Icon in the designs that you are crafting. The set of icons added to the Styling library is a subset of elements, identical to the [Material Icons](https://material.io/tools/icons/?style=baseline) and supported within [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular).
+On the `🎨 Material Icons` page of the **Indigo.Design System** you will find
+
+ the Material Icons to symbolize common actions in Icon Buttons, List Items, Cards etc. to reduce the amount of text that is normally used as a Button label for example. Material Icons consume the Colors Symbols in Styling, which lets you pick any of the defined colors for an Icon in the designs that you are crafting. The set of icons added to the Styling library is a subset of elements, identical to the [Material Icons](https://material.io/tools/icons/?style=baseline) and supported within [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular).
 
 <img class="responsive-img" src="../images/icons_demo.png" srcset="../images/icons_demo@2x.png 2x" />
 
