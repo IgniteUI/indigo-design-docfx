@@ -8,17 +8,18 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 Let's start the walkthrough with flex-based layouts. Since the app builder is targeting web apps, we are offering Flex as one of the approaches to create layouts. It's available to you as a row or column layout component in the toolbox. The outermost container you see here is the canvas and has flex settings already applied to it. You can change the canvas size by editing the viewport size in the properties panel. 
  
- TODO: [Gif file] [webp file]
+<img class="responsive-img" src="../images/edit-create-canvas-size-Indigo-Design-App-Builder.gif" />
 
 ## Row and column layout 
 
 Flex-layout containers have settings that allow us to modify the position of the nested UI elements. There are flex properties for h.align and v.align properties that can be easily applied from the respective dropdowns. The canvas defaults to row layout, horizontally aligned to the left and stretched vertically. You can always switch between row and column layout irrespective of what you started with. The layout container is sized based on the content, but you can always specify a height and width. I'll can also add the padding property to container, and margins to space out the child UI elements. 
 
- TODO: [screenshot] 
+<img class="responsive-img" src="../images/row-column-layout-Indigo-Design-App-Builder.gif" />
+
 
 You can always select the parent UI element by clicking on the label for the child element. This is helpful when you have nested layout containers. On the other hand, you can also select the component you need directly from the Outline menu in the bottom left corner.  
 
- TODO: [screenshot Gif] 
+<img class="responsive-img" src="../images/row-column-layout-Indigo-Design-App-Builder.gif" />
 
 ## Fluid resizing & wrapping 
 
