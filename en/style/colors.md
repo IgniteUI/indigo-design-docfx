@@ -10,6 +10,8 @@ On the `🎨 Colors` page of the **Indigo.Design System** you will find a collec
 
 <img class="responsive-img" src="../images/colors_palette.png" />
 
+The **Indigo.Design System** version 3 introduces the concept of series palettes with two collections of ten colors each optimized for various data visualization scenarios. Both palettes ensure good contrast between adjacent series colors so that the palette can be used e.g. to colorize ranges of a gauge. One of the palettes is further optimized to be 100% inclusive and facilitate easy comprehension by people with color vision defficiencies. 
+
 ## Palette Generation
 
 To change the primary palette in Sketch open the Indigo.Design library file and select `View` -> `Components`. Then in the Sketch menu you will notice a group of four buttons, where the one to the right is an icon of a pantone guide and stands for `Show Color Variables`.

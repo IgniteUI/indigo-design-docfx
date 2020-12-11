@@ -63,15 +63,16 @@
       href: ../style/styling-overview.md
     - name: Colors
       href: ../style/colors.md
+      new: true
     - name: Elevation
       href: ../style/elevation.md
     - name: Material Icons
       href: ../style/material-icons.md
+      new: true
     - name: Typography
       href: ../style/typography.md
     - name: Illustrations
       href: ../style/illustrations.md
-      new: true
 - name: Components
   href: ../components/components.md
   items:
