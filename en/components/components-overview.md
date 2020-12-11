@@ -15,7 +15,7 @@ The Sketch library has a `🧩 Components` page containing all Components and sy
 All **Indigo.Design System** Components are built on top of rigid [styling foundations](../styling/styling-overview.md) letting you leverage an elaborate mechanism for theming and branding your user interface.
 
 > [!WARNING]
-> Unlinking any component instance from the library makes it impossible to automatically apply updates from subsequent versions of the Design System and may impact the code generation capability for the component. The code generation services rely on specially designated `🚫 metadata` layers, containing metadata descriptions of the state, template and other properties of the component.
+> Unlinking any component instance from the library makes it impossible to automatically apply updates from subsequent versions of the Design System and may impact the code generation capability of the component. The code generation services rely on specially designated `🚫 metadata` layers, containing metadata descriptions of the state, template and other properties of the component.
 
 ## Additional Resources
 
