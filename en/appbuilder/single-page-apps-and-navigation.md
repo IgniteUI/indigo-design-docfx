@@ -6,9 +6,9 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 # Single page apps and navigation  
 
- TODO: Content update
-
 Now let's talk about the next feature, single-page apps and navigation. Unlike a page-based design approach, Indigo-apps lets you create separate views that are injected or switched based on how users navigate. To see this action, let's create a new app using the create new application button. And select one of the default layouts that shows a top navigation defined. 
+
+<img class="responsive-img" src="../images/create-theme-Indigo-Design-App-Builder.gif" />
 
 ## Parent view vs. Child views 
 
