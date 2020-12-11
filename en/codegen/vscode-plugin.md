@@ -84,6 +84,17 @@ Here is how the extension will update your project:
 
 Once the code has been generated into your project you are almost ready to run it. We recommend reading through this [topic](after-codegen.md) to get familiar with what to do after code generation.
 
+## Settings	
+
+These settings are available from the `User Settings` window.	
+
+| Name                                       | Description                                                                                                                                                                                | Default |	
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |	
+| `infragistics.codegen.sharedModule`        | Controls whether a shared module will be generated for Ignite UI for Angular modules.                                                                                                      | `true`  |	
+| `infragistics.codegen.routingModules`      | Specifies whether to generate routing modules or not. This will only be applied if 'inferRoutingModules' is false.                                                                         | `false` |	
+| `infragistics.codegen.inferRoutingModules` | Should the extension determine whether or not to generate routing modules based on if the current project uses them. If true, routing modules will be generated if your AppModule has one. | `true`  |	
+| `infragistics.codegen.basicRoutes`         | If true, simple routes will be added to the application. Useful if you are starting a new project. Disable if in an existing project where routing may already be setup.                   | `false` |	
+
 ## Troubleshooting
 
 ### The extension is frozen on first time setup.
