@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Styling Overview
 
-The **Indigo.Design System** provides elaborate means for styling all 60+ UI components that also map to Ignite UI for Angular controls. The theming engine of Infragistics' Angular product, through powerful sass functions and mixins, allows for the creation of custom color themes that can restyle the whole product in just a few lines of code in a similar fashion. 
+The **Indigo.Design System** provides elaborate means for styling all 60+ UI components that also map to Ignite UI for Angular controls. The theming engine in our Angular product allows for the creation of custom color themes that can restyle the whole product in just a few lines of code in a similar fashion.
 
 The Sketch library has a few pages prefixed with a 🎨 emoji that provide assets and a powerful styling infrastructure upon which the rest of the library is built:
 
@@ -46,4 +46,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
