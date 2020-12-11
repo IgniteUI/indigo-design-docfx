@@ -26,7 +26,7 @@ In Sketch, the colors and elevations exist as `Layer Styles`, while typography i
 
 To find more:
 
-- [Material Icons](material-icons.md) - a collection of 150+ Material Icons extended with 250+ more icons created by us according to the Material icon design guidelines, which you can easily extend even furhter
+- [Material Icons](material-icons.md) - a collection of 150+ Material Icons extended with 250+ more icons created by us according to the Material icon design guidelines, which you can easily extend even further
 - [Colors](colors.md) - palettes with primary, secondary and gray color variants, as well as special colors and a couple of palettes specifically designed for data visualizations, including a set optimized for different types of color blindness 
 - [Typography](typography.md) - a collection of generic and component-specific text styles
 - [Elevation](elevation.md) - the set of 24 shadows we are familiar with from [Material Design](https://material.io/design/environment/elevation.html) based on umbra, penumbra, and ambient shadow colors.
