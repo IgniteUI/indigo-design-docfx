@@ -8,7 +8,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 On the `🎨 Illustrations` of the **Indigo.Design System** you will find a collection of 17 vector graphics that let you complement your interfaces with a stylable drawing. This facilitates enhanced context of the interface layout and makes it more pleasing and complete through the presence of a key visual element.
 
-<img class="responsive-img" src="../images/illustrations_default.png" srcset="../images/illustrations_default@2x.png 2x" />
+<img class="responsive-img" src="../images/illustrations_default.png"/>
 
 ## Changing Colors
 
