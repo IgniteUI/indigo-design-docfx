@@ -16,7 +16,7 @@ The Sketch library has a few pages prefixed with a 🎨 emoji that provide asset
 - 🎨 Elevation
 - 🎨 Illustrations
 
-In Sketch the colors and elevations exist as `Layer Styles`, while the typographies are defined as `Text Styles`, which allows to quickly change the theme for any given design we have created with the **Indigo.Design System**.
+In Sketch, the colors and elevations exist as `Layer Styles`, while typography is defined as `Text Styles`, which allows you to quickly change the theme for any given design we have created with the **Indigo.Design System**.
 
 <img class="responsive-img" src="../images/theme_overview_default.png" />
 
@@ -46,5 +46,4 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
