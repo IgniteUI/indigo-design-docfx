@@ -1,6 +1,6 @@
 ---
 title: Components Overview - Design System Components
-_description: The Indigo Design System contains 60+ UI Components with numerous presets, states and elaborate styling capabilities built in.
+_description: The Indigo Design System contains 60+ UI Components with numerous presets, states, and elaborate built-in styling capabilities.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
