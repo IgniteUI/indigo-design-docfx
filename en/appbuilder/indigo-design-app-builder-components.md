@@ -12,6 +12,8 @@ The **Toolbox** tab on the left let you cycle through the list of all available 
 
 You can also use our quick-add feature by using the keyboard shortcut ctrl+E or cmd+E on a macs to search and add components. Just remember "E" stands for everything.  The quick-add keeps track of recently used components making it faster to add components you use frequently. Double-clicking a component in the **Toolbox** will also add it to the **Design Canvas**.  
 
+img class="responsive-img" src="../images/quick-add-Indigo-Design-App-Builder.gif" />
+
 ## Configuring components 
 
 Every component comes with a set of preset types that match the Indigo.Design system. Let's take a button component as an example. There are three preset types of buttons in the Indigo.Design system - raised, outlined and flat. 
