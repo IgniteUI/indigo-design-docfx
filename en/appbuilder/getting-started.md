@@ -1,12 +1,12 @@
 ---
-title: Indigo Design App Builder - Getting Started
-_description: Indigo Design App Builder is a design to code solution, enabling design and development teams to quickly and easily design and build real web applications.
-_keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch UI kits
+title: Getting started with Indigo Design App Builder 
+_description: Learn how to build awesome apps using Indigo Design app builder. You can use predefined or edit one of our prebuilt layouts. Try Indigo Design today.
+_keywords: App builder, Indigo Design, Infragistics
 ---
 
-# Getting started 
+# Getting started with Indigo Design App Builder
 
-What you'll see when you launch the Indigo Design App Builder for first time is a pop up window suggesting a quick onboarding tour. What you will see next is the create new project dialog. You can either use one of predefined layouts or edit one of our prebuilt getting started apps. The getting started apps will help you explore applications that have been created using the Indigo Design App Builder and also allow you to modify them in your own user space. They are also a good source for you to preview generated code for a larger application without having to create your own app from scratch. If you use the Indigo Design App Builder for first time, we recommend to use the sample app option as a starting point. This is the quickest way to onboard yourself with the awesome features of the tool and to start building your application.  
+What you'll see when you launch the [Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) for first time is a pop up window suggesting a quick onboarding tour. What you will see next is the create new project dialog. You can either use one of predefined layouts or edit one of our prebuilt getting started apps. The getting started apps will help you explore applications that have been created using the Indigo Design App Builder and also allow you to modify them in your own user space. They are also a good source for you to preview generated code for a larger application without having to create your own app from scratch. If you use the Indigo Design App Builder for first time, we recommend to use the sample app option as a starting point. This is the quickest way to onboard yourself with the awesome features of the tool and to start building your application.  
 
 <img class="responsive-img" src="../images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="../images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
 

@@ -1,7 +1,7 @@
 ---
 title: Indigo Design App Builder - Flex Layouts
-_description: Indigo Design App Builder is a design to code solution, enabling design and development teams to quickly and easily design and build real web applications.
-_keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch UI kits
+_description: Indigo Design app builder is targeting web apps, and that’s why we are offering Flex as one of the approaches to create layouts. It's available to you as a row or column layout component in the toolbox.
+_keywords: App builder flex layouts, Indigo Design, Infragistics
 ---
 
 # Flex layouts (and positioning) 

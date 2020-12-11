@@ -1,16 +1,16 @@
 ---
-title: Indigo Design App Builder - Themes
-_description: Indigo Design App Builder is a design to code solution, enabling design and development teams to quickly and easily design and build real web applications.
-_keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch UI kits
+title: App Builder themes – Indigo Design
+_description: Indigo Design App Builder adopts a design systems approach to UI creation, and you can apply themes at the app-level. This avoids the need to create local styles that are difficult to maintain. 
+_keywords: App Builder themes, Indigo Design, Infragistics
 ---
 
-# App Themes
+# App Builder themes
 
 TODO: Content needs to be updated
 
-Given that Indigo-Apps adopts a design systems approach to UI creation, you can apply themes at the app-level. This avoids the need to create local styles that are difficult to maintain.  
+The [Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) adopts a design systems approach to UI creation and you can apply themes at the app-level. This avoids the need to create local styles that are difficult to maintain.  
 
-## Switching app themes 
+## Switching App Builder themes 
 
 The private preview comes with six built-in themes based on Material, Fluent or Bootstrap. Each have a dark version and light version. You can try it out by selecting the theme card in the toolbox.  
 
