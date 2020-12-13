@@ -8,7 +8,8 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 The Indigo App Builder interface is similar to the interface of most design tools you may already be used to, with some minor differences. There are four main sections.
 
-<img class="responsive-img" src="../images/interface-parts-Indigo-Design-App-Builder.png" srcset="../image/interface-parts-Indigo-Design-App-Builder @2x.png 2x" />
+
+<img class="responsive-img" src="../images/interface-parts-Indigo-Design-App-Builder.png" srcset="../images/interface-parts-Indigo-Design-App-Builder-@2x.png 2x" />
 
 ## Toolbox 
 

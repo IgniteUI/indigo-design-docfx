@@ -8,13 +8,18 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 Now let's talk about the next feature, single-page apps and navigation. Unlike a page-based design approach, Indigo-apps lets you create separate views that are injected or switched based on how users navigate. To see this action, let's create a new app using the create new application button. And select one of the default layouts that shows a top navigation defined. 
 
-<img class="responsive-img" src="../images/create-theme-Indigo-Design-App-Builder.gif" />
+<img class="responsive-img" src="../images/top-navigation-Indigo-Design-App-Builder.gif" />
 
 ## Parent view vs. Child views 
 
 What you see here is the master view. And when you look at the views list in the toolbox, you can see that there are two child views nested under it. Each child view corresponds to the navigation buttons in the primary toolbar area. When you preview the app, you will see that clicking on view 1 shows you content available inside view 1, and similarly for view 2. 
 
+<img class="responsive-img" src="../images/top-navigation-Indigo-Design-App-Builder.gif" />
+
 Let's close the preview mode, and talk about the master view and child view concept. The master view represents the shell of your app, and can container UI elements that will be shared across all it's child views. In this case, the navigation toolbar is the shared component. To inject the child views based on navigation, we've added a component called the views-container to serve as a place-holder. And this the area where child-views are rendered. The Views-container, by default, occupies the available space. Let me remove it and add back to show you how that works. The views-container has a property to define which of the two child views will be shown by default when the app loads.  
+
+<img class="responsive-img" src="../images/top-navigation-Indigo-Design-App-Builder.gif" />
+
 
 ## Add navigations (routing)  
 
