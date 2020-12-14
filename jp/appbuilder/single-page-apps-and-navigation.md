@@ -1,14 +1,14 @@
 ---
-title: Indigo Design App Builder - SPA and Navigation
-_description: Indigo Design App Builder is a design to code solution, enabling design and development teams to quickly and easily design and build real web applications.
-_keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch UI kits
+title: SPA and Navigation in Indigo Design App Builder 
+_description: Unlike a page-based design approach, Indigo Design App Builder lets you create separate views that are injected or switched based on how users navigate.
+_keywords: App builder, Indigo Design, Infragistics
 ---
 
 # Single page apps and navigation  
 
  TODO: Content update
 
-Now let's talk about the next feature, single-page apps and navigation. Unlike a page-based design approach, Indigo-apps lets you create separate views that are injected or switched based on how users navigate. To see this action, let's create a new app using the create new application button. And select one of the default layouts that shows a top navigation defined. 
+Now let's talk about the next feature, single-page apps and navigation. Unlike a page-based design approach, Indigo Design App Builder lets you create separate views that are injected or switched based on how users navigate. To see this action, let's create a new app using the create new application button. And select one of the default layouts that shows a top navigation defined. 
 
 ## Parent view vs. Child views 
 

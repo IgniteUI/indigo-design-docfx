@@ -1,12 +1,12 @@
 ---
-title: Indigo Design App Builder - Components
-_description: Indigo Design App Builder is a design to code solution, enabling design and development teams to quickly and easily design and build real web applications.
-_keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch UI kits
+title: Indigo Design App Builder Components
+_description: Check all available Ignite UI for Angular components, as well as some Indigo Design general components, such as absolute, row, column layout, and views container.
+_keywords: App builder components, Indigo Design, Infragistics
 ---
 
 # Indigo Design Components
 
-The **Toolbox** tab on the left let you cycle through the list of all available Ignite UI for Angular components, as well as some Indigo Design general components, such as absolute, row, column layout and views container. The search input on the top of the components list makes it easy to find a particular component. All of the components are conveniently distributed into groups based on their application. The grayed-out components have still not been added, and are thus disabled, but are in a process of being implemented and will be made available in future updates. Components can be added to the **Design Canvas** by dragging and dropping them from the **Toolbox**.
+The **Toolbox** tab on the left let you cycle through the list of all available [Ignite UI for Angular]({environment:infragisticsBaseUrl}/products/ignite-ui-angular) components, as well as some [Indigo.Design]({environment:infragisticsBaseUrl}/products/indigo-design) general components, such as absolute, row, column layout and views container. The search input on the top of the components list makes it easy to find a particular component. All of the components are conveniently distributed into groups based on their application. The grayed-out components have still not been added, and are thus disabled, but are in a process of being implemented and will be made available in future updates. Components can be added to the **Design Canvas** by dragging and dropping them from the **Toolbox**.
 
 ## Quick add components 
 
@@ -18,7 +18,7 @@ Every component comes with a set of preset types that match the Indigo.Design sy
 
 TODO: Content
 
-For more complex components, like an input field or say card component, you can turn ON/OFF sections of the component. Also, the component properties also reflect the visual structure of the component, and match the specifications you will find in our developer toolkit like Ignite UI for Angular. In the case of an input field, you can enable or disable the prefix section to add a leading icon. 
+For more complex components, like an input field or say card component, you can turn ON/OFF sections of the component. Also, the component properties also reflect the visual structure of the component, and match the specifications you will find in our developer toolkit like [Ignite UI for Angular]({environment:infragisticsBaseUrl}/products/ignite-ui-angular). In the case of an input field, you can enable or disable the prefix section to add a leading icon. 
 
 TODO: More content
 
