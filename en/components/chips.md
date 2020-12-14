@@ -106,8 +106,6 @@ When using the Chips Area follow the suggestions for the individual Chip compone
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | <img class="responsive-img" src="../images/chips_area_do1.png" srcset="../images/chips_area_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/chips_area_dont1.png" srcset="../images/chips_area_dont1@2x.png 2x" /> |
 
-### Chips Area Detach Symbol
-
 The Chips Area must be detached. When detached you will notice that it contains a number of child elements. These elements will be individual Chip elements. For Chip Areas with connected chips you will see connector elements. The individual Chip has the same overrides as the Chip mentioned above. The overrides for the connector will be listed below.
 
 ### Chips Area Connector Icon
