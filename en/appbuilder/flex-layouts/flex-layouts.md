@@ -47,5 +47,5 @@ To summarize quickly, whatever you have learned about Flex layouts can be used h
 
 <div class="divider--half"></div>
 
-* [App Builder Components](indigo-design-app-builder-components.md)
+* [App Builder Components](../indigo-design-app-builder-components.md)
 

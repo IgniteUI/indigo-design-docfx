@@ -30,4 +30,4 @@ For more complex components, like an input field or say card component, you can 
 ## Additional Resources
 <div class="divider--half"></div>
 
-* [App Themes](app-themes.md)
+* [App Themes](app-themes/app-themes.md)
