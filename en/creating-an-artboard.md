@@ -22,7 +22,7 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
 
 ## Step by step
 
-### 1. Add the Indigo Design System in Sketch.
+### 1. Add the **Indigo.Design System** in Sketch.
 
 1.  Download the [Indigo Design System](https://cloud.indigo.design/home).
 
