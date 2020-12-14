@@ -107,8 +107,6 @@ When using the Chips Area follow the suggestions for the individual Chip compone
 | <img class="responsive-img" src="../images/chips_area_do1.png" srcset="../images/chips_area_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/chips_area_dont1.png" srcset="../images/chips_area_dont1@2x.png 2x" /> |
 
 
-### Chips Area Connector Icon
-
 This override controls what icon glyph is used between Chips inside the Chips Area. It is possible to change the type of icon as well as its color.
 
 ## Additional Resources
