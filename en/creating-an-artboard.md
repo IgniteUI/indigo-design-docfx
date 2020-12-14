@@ -56,7 +56,7 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
   <div class="divider--half"></div>
   <div class="divider--half"></div>
 
-You may have noticed that in the image above the library also appear to be present in my Sketch cloud, and as an alternative, you can use this mechanism in Sketch if you are running version 57 or later. The set up is very easy, you only need to open Indigo.Design and save it in your Sketch cloud. A detailed explanation of how to set Indigo.Design as cloud library can be found in [this Medium post](https://medium.com/ignite-ui/using-indigo-design-with-sketch-cloud-libraries-70533bca00f8). Once you added the library successfully, it will show up in the **Symbols** section of the **Insert** menu in Sketch.
+You may have noticed that in the image above the library also appears to be present in my Sketch cloud, and as an alternative, you can use this mechanism in Sketch if you are running version 57 or later. The set up is very easy, you only need to open the Indigo.Design Sketch file and save it in your Sketch cloud. A detailed explanation of how to set Indigo.Design as a cloud library can be found in [this Medium post](https://medium.com/ignite-ui/using-indigo-design-with-sketch-cloud-libraries-70533bca00f8). Once you added the library successfully, it will show up in the **Symbols** section of the **Insert** menu in Sketch.
 
 ### 2. Create an artboard.
 
