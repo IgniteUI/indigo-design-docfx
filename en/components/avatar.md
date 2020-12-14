@@ -18,6 +18,8 @@ The Avatar can carry different types of content such as an **image**, a string w
 
 <img class="responsive-img" src="../images/avatar_content.png" srcset="../images/avatar_content@2x.png 2x" />
 
+## Shape
+
 The avatar comes in two distinct types determined by its shape: a **round** and a **square** form.
 
 <img class="responsive-img" src="../images/avatar_type.png" srcset="../images/avatar_type@2x.png 2x" />
@@ -58,5 +60,4 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
