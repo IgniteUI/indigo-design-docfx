@@ -14,7 +14,7 @@ Use the Avatar Component as a graphical representation of a person through a pro
 
 ## Type
 
-The Avatar can carry different types of content such as an **image**, a string with **initials**, or an **icon**.
+The Avatar can carry different types of content such as an image, a string with initials, or an icon.
 
 <img class="responsive-img" src="../images/avatar_content.png" srcset="../images/avatar_content@2x.png 2x" />
 
@@ -30,7 +30,7 @@ The Avatar comes in three different sizes:
 
 ## Shape
 
-The avatar comes in two distinct types determined by its shape: a **round** and a square form.
+The avatar comes in two distinct types determined by its shape: a round and a square form.
 
 <img class="responsive-img" src="../images/avatar_type.png" srcset="../images/avatar_type@2x.png 2x" />
 
