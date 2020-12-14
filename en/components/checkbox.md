@@ -14,7 +14,7 @@ Use the Checkbox Component to allow the user make a selection, which most often 
 
 ## Theme
 
-The Checkbox can be used styled in **dark** and **light** variants to assure good readability and contrast for both lighter and darker backgrounds.
+The Checkbox can be used styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
 
 <img class="responsive-img" src="../images/checkbox_dark.png" srcset="../images/checkbox_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/checkbox_light.png" srcset="../images/checkbox_light@2x.png 2x" />
@@ -78,5 +78,4 @@ Related topic:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
