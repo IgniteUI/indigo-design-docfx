@@ -19,7 +19,7 @@ Starting your app building experience is fast and easy with one of our pre-built
 
 <div>
     <div style="display:inline-block;width:45%;text-align:center;">
-      <img src="../../images/general/nodejs.svg"
+      <img src="../images/general/nodejs.svg"
            style="display:flex;max-height:100px;margin:auto auto 20px auto;" />
       <a target="_blank" href="https://nodejs.org/en/download/" class="no-external-icon"
          style="color:white;background-color:#09f;text-decoration:none;font-weight:700;font-size:16px;padding: 5px 15px 5px 15px;">
@@ -27,7 +27,7 @@ Starting your app building experience is fast and easy with one of our pre-built
       </a>
     </div>
     <div style="display:inline-block;width:45%;text-align:center;">
-      <img src="../../images/general/vs-code.svg"
+      <img src="../images/general/vs-code.svg"
            style="display:flex;max-height:100px;margin:auto auto 20px auto;" />
       <a target="_blank" href="https://code.visualstudio.com/download" class="no-external-icon"
          style="color:white;background-color:#09f;text-decoration:none;font-weight:700;font-size:16px;padding: 5px 15px 5px 15px;">
