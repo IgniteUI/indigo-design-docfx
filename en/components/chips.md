@@ -31,32 +31,25 @@ When the user interacts with the Chip, it goes through various states: **idle**,
 <img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
 `idle`
 
-<img class="responsive-img" src="../images/chip_idle_selected.png" srcset="../images/chip_idle_selected@2x.png 2x" />
-`idle when selected`
-
 <img class="responsive-img" src="../images/chip_focus.png" srcset="../images/chip_focus@2x.png 2x" />
 `focus`
 
-<img class="responsive-img" src="../images/chip_focus_selected.png" srcset="../images/chip_focus_selected@2x.png 2x" />
-`focus when selected`
+## Chip Selection
 
-Additional states are available in case you want to make the Chip removable and add a special icon at the far right of the element that deletes the Chip upon clicking or tapping it.
+When a chip is selected a special check icon will appear at the far left to indicate this. The `🔣 Selection Icon` override provides the means to trigger this functionality.
+
+<img class="responsive-img" src="../images/chip_idle_selected.png" srcset="../images/chip_idle_selected@2x.png 2x" />
+
+## Remove Chip
+
+When a chip is can be removed a special cancel icon will appear at the far right to indicate this. The `🔣 Remove Icon` override provides the means to trigger this functionality.
 
 <img class="responsive-img" src="../images/chip_idle_removable.png" srcset="../images/chip_idle_removable@2x.png 2x" />
 `idle and removable`
 
-<img class="responsive-img" src="../images/chip_idle_selected_removable.png" srcset="../images/chip_idle_selected_removable@2x.png 2x" />
-`idle and removable when selected`
-
-<img class="responsive-img" src="../images/chip_focus_removable.png" srcset="../images/chip_focus_removable@2x.png 2x" />
-`focus and removable`
-
-<img class="responsive-img" src="../images/chip_focus_selected_removable.png" srcset="../images/chip_focus_selected_removable@2x.png 2x" />
-`focus and removable when selected`
-
 ## Chip Content
 
-The Chip has rich support for **prefix** and **suffix** icons that can be used to convey additional meaning through the provided containers.
+The Chip has rich support for content templating via the prefix and suffix containers allowing to insert icons and text before and after the chip main text content.
 
 <img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
 `Text`
