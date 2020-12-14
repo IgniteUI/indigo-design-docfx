@@ -155,7 +155,7 @@ These are the steps to recreate the screen in the example.
 
 6.  **Add the inputs for user name and password.**
 
-    1.  Duplicate one of the inputs twice to have two more inputs.
+    1.  Duplicate one of the Name inputs twice to create two more inputs for Username and Password.
     2.  Place them one under the other with a vertical spacing of 16px between each other and to the ones from the previous step.
     3.  Stretch them across the full width with 16px spacing on both sides.
     4.  In the Overrides section, set their Labels to "Username" and "Password" and their Values to "Leaellynasaura" and "\*\*\*\*\*\*\*\*\*\*\*\*".
