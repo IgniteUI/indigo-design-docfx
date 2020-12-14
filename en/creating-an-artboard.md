@@ -33,7 +33,7 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
 
     - **🧩 Components**  page 
       A vast set of Components to layout your design ideas.  
-      Through the overrides section you can choose from numerous presets compatible with Ignite UI for Angular and our code generation engine.
+      Through various presets available in the Sketch insert menu and overrides for states and layouts to configure in the right panel of the Sketch UI, you can create layouts compatible with Ignite UI for Angular and our code generation engine.
 
     - **🌆 ~** patterns pages
        The components shape up meaningful patterns for productive application design that can be found spread across the remaining pages.
