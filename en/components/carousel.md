@@ -27,21 +27,6 @@ The previous and next navigation buttons of the Carousel should always appear on
 | <img class="responsive-img" src="../images/carousel_do1.png" srcset="../images/carousel_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/carousel_dont1.png" srcset="../images/carousel_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/carousel_do2.png" srcset="../images/carousel_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/carousel_dont2.png" srcset="../images/carousel_dont2@2x.png 2x" /> |
 
-## Code Generation
-
-This section describes some important overrides and how they affect code generation.
-
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Carousel in your design is very likely to result in loss of code generation capability for the Carousel.
-
-### Data Source Property
-
-When supplied, the `🕹️DataSource` value is used to set up [binding](../codegen/data-binding.md) to the Carousel. The data source must be a string array of image names to display. The `🕹️DataSource` property is optional. When the `🕹️DataSource` is supplied, Slide styles are gathered from the first Slide in the group. Other Slide styles are ignored.
-
-### Sketch Elevations
-
-Button and Slide elevation changes in Sketch drawings are not rendered during code generation.  Each button type has a default elevation that will be applied by the Ignite UI Component. Currently, this is a known limitation of the Ignite UI for Angular product that will be resolved in the upcoming releases.
-
 ## Additional Resources
 
 Related topic:
