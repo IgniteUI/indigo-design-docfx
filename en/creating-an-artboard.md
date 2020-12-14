@@ -24,7 +24,7 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
 
 ### 1. Add the **Indigo.Design System** in Sketch.
 
-1.  Download the [Indigo Design System](https://cloud.indigo.design/home).
+1.  Download the [**Indigo.Design System**](https://cloud.indigo.design/home).
 
     It contains 1 Sketch file with 26 Pages in the Pages section which are distinguished by three types of icons:
 
