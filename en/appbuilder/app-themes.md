@@ -4,9 +4,9 @@ _description: Indigo Design App Builder adopts a design systems approach to UI c
 _keywords: App Builder themes, Indigo Design, Infragistics
 ---
 
-# App Builder themes
+# Indigo Design App Builder themes
 
-The [Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) adopts a design systems approach to UI creation and you can apply themes at the app-level. This avoids the need to create local styles that are difficult to maintain.  
+The [Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) adopts a design systems approach to UI creation and you can apply themes at the app-level. With a single selection of a theme, the theme is globally applied to the whole application immediately. Having global theme avoids the need to create local styles that are difficult to maintain.  
 
 ## Switching App Builder themes 
 
@@ -26,11 +26,14 @@ You can create a custom theme to match your brand. You do this by creating a new
 #### Create a new theme
 <img class="responsive-img" src="../images/create-theme-Indigo-Design-App-Builder.gif" />
 
+#### Switching between themes
+<img class="responsive-img" src="../images/switching-between-themes-Indigo-Design-App-Builder.gif" />
 
 After a theme is selected, when you apply a fill color for a container, the color picker now reflects the palette from the selected theme. This helps us stay true to the design systems approach where brand attributes are decided and maintained at the app level, and not decided on an ad-hoc basis depending on who is creating the UI. 
 
-#### Switching between themes
-<img class="responsive-img" src="../images/switching-between-themes-Indigo-Design-App-Builder.gif" />
+#### Change the appearance of a layout
+<img class="responsive-img" src="../images/change-appearance-Indigo-Design-App-Builder.gif" />
+
 
 In the future, we will include a way to add custom colors too, but as a secondary usage scenario. The app-level themes you created in the editor is persisted in a platform-compliant way when generating the app. It also makes it really simple to change the theme in the future.  
 
