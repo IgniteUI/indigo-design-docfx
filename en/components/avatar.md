@@ -46,25 +46,6 @@ When using an Avatar with initials or icons, pick their colors carefully to assu
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/avatar_do1.png" srcset="../images/avatar_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/avatar_dont1.png" srcset="../images/avatar_dont1@2x.png 2x" /> |
 
-## Code Generation
-
-This section describes some important overrides and how they affect code generation.
-
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Avatar in your design is very likely to result in loss of code generation capability for the Avatar.
-
-### Event Property
-
-When supplied, this property is used to create a method in the component TypeScript and add an Angular click signature in the HTML. When supplied the event must be specified using the curly braces format: {onEventName}
-
-### Data Property
-
-| Avatar Type     | `🕹️DataProperty`                                                                                                                                                                                                                                                                                         |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Picture Avatar  | When supplied, this property can be used to [data bind](../codegen/data-binding.md) the image source. When provided, it will be the name of the property on the data object specified by the model object name provided during code generation.                                                                                     |
-| Icon Avatar     | This property is ignored.                                                                                                                                                                                                                                                                                |
-| Initials Avatar | When supplied, this property is used to [data bind](../codegen/data-binding.md) the initials property. When provided, it will be the name of the property on the data object specified by the model object name provided during code generation. The Avatar initials only renders two characters, this is a limitation of Ignite UI. |
-
 ## Additional Resources
 
 Related topics:
