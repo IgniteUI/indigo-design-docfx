@@ -14,13 +14,13 @@ Use the Badge Component Symbol to draw attention to another interface element or
 
 ## Type
 
-The Badge can carry different types of content such as a **number** or an **icon**.
+The Badge can carry different types of content such as a number or an icon.
 
 <img class="responsive-img" src="../images/badge_type.png" srcset="../images/badge_type@2x.png 2x" />
 
 ## Shape
 
-The Badge comes in two distinct shapes: **round** and **square**.
+The Badge comes in two distinct shapes: round and square.
 
 <img class="responsive-img" src="../images/badge_shapes.png" srcset="../images/badge_shapes@2x.png 2x" />
 
