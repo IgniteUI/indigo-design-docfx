@@ -28,7 +28,7 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
 
     It contains a Sketch file with 26 Pages in the Pages section which are distinguished by three types of icons:
 
-    - **1-5 Pages**  
+    - **🎨 ~** styling pages 
       All the styling assets such as Material Icons, Colors, Typography, Elevation, and Illustrations.
 
     - **6 Page**  
