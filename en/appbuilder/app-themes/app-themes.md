@@ -38,5 +38,5 @@ In the future, we will include a way to add custom colors too, but as a secondar
 
 <div class="divider--half"></div>
 
-* [Flex Layouts](flex-layouts.md)
+* [Flex Layouts](../flex-layouts/flex-layouts.md)
 * [Ignite UI for Angular Theming]({environment:infragisticsBaseUrl}/products/ignite-ui-angular/angular/components/themes/index)
