@@ -18,12 +18,6 @@ The Avatar can carry different types of content such as an **image**, a string w
 
 <img class="responsive-img" src="../images/avatar_content.png" srcset="../images/avatar_content@2x.png 2x" />
 
-## Shape
-
-The avatar comes in two distinct types determined by its shape: a **round** and a **square** form.
-
-<img class="responsive-img" src="../images/avatar_type.png" srcset="../images/avatar_type@2x.png 2x" />
-
 ## Size
 
 The Avatar comes in three different sizes:
@@ -33,6 +27,12 @@ The Avatar comes in three different sizes:
 - Small - Easily embedded in a contact list and similar repetitive scenarios
 
 <img class="responsive-img" src="../images/avatar_sizes.png" srcset="../images/avatar_sizes@2x.png 2x" />
+
+## Shape
+
+The avatar comes in two distinct types determined by its shape: a **round** and a square form.
+
+<img class="responsive-img" src="../images/avatar_type.png" srcset="../images/avatar_type@2x.png 2x" />
 
 ## Styling
 
