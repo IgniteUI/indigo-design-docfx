@@ -31,7 +31,7 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
     - **🎨 ~** styling pages 
       All the styling assets such as Material Icons, Colors, Typography, Elevation, and Illustrations can be found in the five pages on top.
 
-    - **6 Page**  
+    - **🧩 Components**  page 
       A vast set of Components to layout your design ideas.  
       Through the overrides section you can choose from numerous presets compatible with Ignite UI for Angular and our code generation engine.
 
