@@ -58,9 +58,8 @@
 - name: Sync and Themes Plugin
   href: ../sync-themes-plugin.md
 - name: Styling
+  href: ../style/styling-overview.md 
   items:
-    - name: Overview
-      href: ../style/styling-overview.md
     - name: Colors
       href: ../style/colors.md
     - name: Elevation
@@ -73,7 +72,7 @@
       href: ../style/illustrations.md
       new: true
 - name: Components
-  href: ../components/components.md
+  href: ../components/components-overview.md
   items:
     - name: Avatar
       href: ../components/avatar.md
@@ -202,6 +201,7 @@
       href: ../components/tree-grid.md
       new: true
 - name: Patterns
+  href: ../patterns/patterns-overview.md
   items:
     - name: Audio / Video
       href: ../patterns/av.md
