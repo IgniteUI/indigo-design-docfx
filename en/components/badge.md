@@ -26,7 +26,7 @@ The Badge comes in two distinct shapes: **round** and **square**.
 
 ## Styling
 
-The Badge comes with styling flexibility through the various overrides controlling the background and border colors, as well as the presence of a shadow that is cast on the underlying interface element, the icon with its color, and the text with its style where applicable.
+The Badge comes with styling flexibility through the various overrides controlling the background and border colors, the icon with its color, and the text with its style where applicable, as well as the presence of a shadow that is cast on the underlying interface element.
 
 <img class="responsive-img" src="../images/badge_styling.png" srcset="../images/badge_styling@2x.png 2x" />
 
@@ -47,5 +47,4 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
