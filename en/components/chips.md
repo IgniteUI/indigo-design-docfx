@@ -92,7 +92,7 @@ The Chips Area comes with the inherent styling flexibility of the Chips, but, wh
 
 ## Usage
 
-When using a Chip adjust its size so that the text content appears on a single line. If the Chip is used as an action trigger for related content avoid using it in scenarios where there is only one available action, or for configurations presenting only one selectable option.
+When using a Chip, the obround will automatically size itself to fit the content and you only need to adjust the size of the instance accordingly. If the Chip is used as an action trigger for related content avoid using it in scenarios where there is only one available action, or for configurations presenting only one selectable option.
 
 | Do                                                                         | Don't                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
