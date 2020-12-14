@@ -21,7 +21,7 @@ The Checkbox can be used styled in **dark** and light variants to assure good re
 
 ## State
 
-The Checkbox provides **on**, **off**, and **indeterminate** selection states with additional variants for a disabled interaction state.
+The Checkbox provides **on**, off, and indeterminate selection states with additional variants for a disabled interaction state.
 
 <img class="responsive-img" src="../images/checkbox_states.png" srcset="../images/checkbox_states@2x.png 2x" />
 <img class="responsive-img" src="../images/checkbox_selection.png" srcset="../images/checkbox_selection@2x.png 2x" />
@@ -78,4 +78,3 @@ Related topic:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
