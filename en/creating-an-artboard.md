@@ -18,7 +18,7 @@ At the end of this topic you'll have a Sketch Artboard for a registration screen
 
 ## What you need
 
-If the [Titillium Web Font][1] isn't installed on your computer, please do it before starting. All texts in the Indigo Design System use it.
+If the [Titillium Web Font][1] isn't installed on your computer, please do it before starting. All texts in the **Indigo.Design System** use it.
 
 ## Step by step
 
