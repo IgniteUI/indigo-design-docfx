@@ -11,6 +11,7 @@ There are four main sections in the Indigo Design App Builder.
 
 
 <img class="responsive-img" src="../images/interface-parts-Indigo-Design-App-Builder.png" srcset="../images/interface-parts-Indigo-Design-App-Builder-@2x.png 2x" />
+<p style="text-align:center;">Interface screen parts</p>
 
 ## Toolbox 
 
