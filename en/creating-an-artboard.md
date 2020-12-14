@@ -35,7 +35,7 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
       A vast set of Components to layout your design ideas.  
       Through the overrides section you can choose from numerous presets compatible with Ignite UI for Angular and our code generation engine.
 
-    - **7-26 Pages**  
+    - **🌆 ~** patterns pages
        The components shape up meaningful patterns for productive application design.
 
 2.  Open up the Sketch app on your Mac, click on the Sketch item from the Apple Menu, and select Preferences.
