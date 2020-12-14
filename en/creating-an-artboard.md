@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 ## Creating Your First Artboard
 
-At the end of this topic you'll have a Sketch Artboard for a registration screen using Indigo Design System.
+At the end of this topic you'll have a Sketch Artboard for a registration screen using the **Indigo.Design System**.
 
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/getting-started7.png" srcset="images/getting-started7@2x.png 2x" />
