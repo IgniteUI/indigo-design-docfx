@@ -12,12 +12,25 @@ Use the Checkbox Component to allow the user make a selection, which most often 
 
 <img class="responsive-img" src="../images/checkbox_demo.png" srcset="../images/checkbox_demo@2x.png 2x" />
 
+## Interaction State
+
+The checkbox can be inserted in an enabled or disabled state.
+
+<img class="responsive-img" src="../images/checkbox_interaction_state.png" srcset="../images/checkbox_interaction_state@2x.png 2x" />
+
 ## Theme
 
 The Checkbox can be used styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
 
 <img class="responsive-img" src="../images/checkbox_dark.png" srcset="../images/checkbox_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/checkbox_light.png" srcset="../images/checkbox_light@2x.png 2x" />
+
+## Layout Template
+
+The checkbox supports a label position where the Checkbox label is placed after or before the Checkbox box element.
+
+<img class="responsive-img" src="../images/checkbox_label_after.png" srcset="../images/checkbox_label_after@2x.png 2x" />
+<img class="responsive-img" src="../images/checkbox_label_before.png" srcset="../images/checkbox_label_before@2x.png 2x" />
 
 ## State
 
