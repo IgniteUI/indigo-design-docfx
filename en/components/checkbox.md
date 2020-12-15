@@ -34,7 +34,7 @@ The checkbox supports a label position where the Checkbox label is placed after 
 
 ## State
 
-The Checkbox provides **on**, off, and indeterminate selection states with additional variants for a disabled interaction state.
+The Checkbox provides **on**, off, and indeterminate selection states.
 
 <img class="responsive-img" src="../images/checkbox_states.png" srcset="../images/checkbox_states@2x.png 2x" />
 <img class="responsive-img" src="../images/checkbox_selection.png" srcset="../images/checkbox_selection@2x.png 2x" />
