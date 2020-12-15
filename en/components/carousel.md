@@ -38,7 +38,6 @@ The previous and next navigation buttons of the Carousel should always appear on
 Related topic:
 
 - [Grid](grid.md)
-- [Data Binding](../codegen/data-binding.md)
 
 Our community is active and always welcoming to new ideas.
 
