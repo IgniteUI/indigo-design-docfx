@@ -6,6 +6,16 @@ _keywords: App builder components, Indigo Design, Infragistics
 
 # Indigo Design Components
 
+<section class="feature__container">
+    <div class="feature">
+        <div class="feature__image">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/omlSzOuvFlM" frameborder="0" allowfullscreen></iframe>
+            <p>Using Indigo.Design Components</p>
+            <br>
+        </div>
+    </div>
+</section>
+
 The **Toolbox** tab on the left let you cycle through the list of all available [Ignite UI for Angular]({environment:infragisticsBaseUrl}/products/ignite-ui-angular) components, as well as some [Indigo.Design]({environment:infragisticsBaseUrl}/products/indigo-design) general components, such as absolute, row, column layout and views container. The search input on the top of the components list makes it easy to find a particular component. All of the components are conveniently distributed into groups based on their usage. The grayed-out components have still not been added, and are thus disabled, but soon will be available in next updates. Components can be added to the **Design Canvas** by dragging and dropping them from the **Toolbox**.
 
 ## Quick add components 

@@ -14,6 +14,43 @@ _keywords: Ignite UI for Angular, Angular, Native Angular Components Suite, Nati
     </div>
 </section>
 
+## Indigo Design App Builder
+
+<section class="feature__container">
+    <div class="feature">
+        <div class="feature__image">
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/DK50La2GFJ0" frameborder="0" allowfullscreen></iframe>
+            <p>Get Started with App Builder</p>
+            <br>
+        </div>
+        <div class="feature__image">
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/MUq3MGm9YlU" frameborder="0" allowfullscreen></iframe>
+            <p> Create App Layouts</p>
+            <br>
+        </div>
+        <div class="feature__image">
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/omlSzOuvFlM" frameborder="0" allowfullscreen></iframe>
+            <p>Using Indigo.Design Components</p>
+            <br>
+        </div>
+        <div class="feature__image">
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/tuTELBXDKYA" frameborder="0" allowfullscreen></iframe>
+            <p>Customize App Themes</p>
+            <br>
+        </div>
+        <div class="feature__image">
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/5mF15w3Ww3g" frameborder="0" allowfullscreen></iframe>
+            <p>Set Up Single-Page Apps and Navigation</p>
+            <br>
+        </div>
+        <div class="feature__image">
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/zxT-nIXKn7I" frameborder="0" allowfullscreen></iframe>
+            <p>Preview and Generate App Code</p>
+            <br>
+        </div>
+    </div>
+</section>
+
 ## Using the Design System
 
 <section class="feature__container">
