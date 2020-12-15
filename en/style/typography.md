@@ -24,7 +24,7 @@ Use these when creating intricate layouts for articles, blog posts etc. The Text
 
 ## Typography Colors
 
-Typography comes in multiple preset colors such as: `active` corresponding to `grays.900`, `inactive` corresponding to `grays.700`, `disabled` corresponding to `grays.500`, `white` and `secondary`. There are also type scales with special colors for strings that need to be in `success`, `warn`, and `error` colors, as well as a some additional nuances used by the Indigo.Design Components.
+Typography comes in multiple preset colors, such as `active` corresponding to `grays.900`, `inactive` corresponding to `grays.700`, `disabled` corresponding to `grays.500`, `white` and `secondary`. There are also type scales with special colors for strings that need to be in `success`, `warn`, and `error` colors, as well as some additional nuances used by the Indigo.Design Components.
 
 <img class="responsive-img" src="../images/typography_base_colors.png"/>
 
