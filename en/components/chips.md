@@ -113,7 +113,6 @@ When using the Chips Area follow the suggestions for the individual Chip compone
 Related topics:
 
 - [Grid](grid.md)
-- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
