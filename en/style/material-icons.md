@@ -1,6 +1,6 @@
 ---
 title: Material Icons - Design System Styling
-_description: The Material Icons Symbols offer hundreds of skilfully crafted icon symbols that designate common actions.
+_description: The Material Icons Symbols offer hundreds of skillfully crafted icon symbols that designate common actions.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
@@ -83,5 +83,4 @@ Related topic:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
