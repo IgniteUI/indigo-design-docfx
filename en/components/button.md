@@ -70,7 +70,6 @@ Related topics:
 - [AV Player Pattern](../patterns/av.md)
 - [File Upload Pattern](../patterns/file-upload.md)
 - [Form Pattern](../patterns/form.md)
-- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

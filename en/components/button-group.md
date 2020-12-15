@@ -53,7 +53,6 @@ Always use Buttons with consistent style and avoid combining text Buttons with i
 Related topics:
 
 - [Button](button.md)
-- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
