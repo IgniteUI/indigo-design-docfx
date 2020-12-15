@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Button Group
 
-Use the Button Group Component to combine the triggers for a few related features into one interface element. The Button Group is visually identical to the [Ignite UI for Angular Button Group Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/buttongroup.html)
+Use the Button Group Component to combine the triggers for a few related features into one interface element. The Button Group is visually identical to the [Ignite UI for Angular Button Group Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/button-group.html)
 
 ## Button Group Demo
 
