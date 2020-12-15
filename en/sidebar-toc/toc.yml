@@ -112,6 +112,8 @@
       href: ../components/chips.md
     - name: Combo
       href: ../components/combo.md
+    - name: Date Picker
+      href: ../components/date-picker.md
     - name: Dialog
       href: ../components/dialog.md
     - name: Dropdown

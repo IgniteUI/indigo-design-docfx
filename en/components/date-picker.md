@@ -1,10 +1,10 @@
 ---
-title: Time Picker - Design System Component
-_description: The Time Picker Component Symbol is used as a visual representation of time providing the necessary mechanisms for time picking.
+title: Date Picker - Design System Component
+_description: The Date Picker Component Symbol is used as a visual representation of calendar dates providing the necessary mechanisms for date picking.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-# Time Picker
+# Date Picker
 
 Use the Time Picker Component to represent a date's time portion (hours and minutes) visually and provide consistent means for its selection (time picking). The Time Picker is also appropriate for picking and setting time values in accordingly formatted date fields used in various forms. The Time Picker is visually identical to the [Ignite UI for Angular Time Picker Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/time_picker.html)
 
@@ -60,7 +60,7 @@ Show the Horizontal and Vertical Time Pickers as a dialog that dims the rest of 
 Related topics:
 
 - [Calendar](calendar.md)
-- [Date Picker](date-picker.md)
+- [Time Picker](time-picker.md)
 - [Form Pattern](../patterns/form.md)
   <div class="divider--half"></div>
 
