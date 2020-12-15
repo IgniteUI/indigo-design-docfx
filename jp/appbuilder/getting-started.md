@@ -1,59 +1,60 @@
 ---
-title: Getting started with Indigo Design App Builder 
-_description: Learn how to build awesome apps using Indigo Design app builder. You can use predefined or edit one of our prebuilt layouts. Try Indigo Design today.
-_keywords: App builder, Indigo Design, Infragistics
+title: Indigo Design App Builder を使用した作業の開始
+_description: Indigo Design App Builder を使用してすばらしいアプリを作成する方法を学びます。定義済みのものを使用するか、用意されたレイアウトから選んで編集できます。今すぐ Indigo Design をお試しください。
+_keywords: App builder, Indigo Design, インフラジスティックス
+_language: ja
 ---
 
-# Getting started with Indigo Design App Builder
+# Indigo Design App Builder を使用した作業の開始
 
-What you'll see when you launch the [Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) for first time is a pop up window suggesting a quick onboarding tour. What you will see next is the create new project dialog. You can either use one of predefined layouts or edit one of our prebuilt getting started apps. The getting started apps will help you explore applications that have been created using the Indigo Design App Builder and also allow you to modify them in your own user space. They are also a good source for you to preview generated code for a larger application without having to create your own app from scratch. If you use the Indigo Design App Builder for first time, we recommend to use the sample app option as a starting point. This is the quickest way to onboard yourself with the awesome features of the tool and to start building your application.  
+[Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) を初めて起動したときに表示されるのは、簡単なオンボーディング ツアーを提案するポップアップ ウィンドウです。次に表示されるのは、[New Project] の作成ダイアログです。事前に定義されたレイアウトの 1 つを使用するか、構築済みの入門アプリの 1 つを編集できます。入門アプリは、Indigo Design App Builder を使用して作成されたアプリケーションを探索するのに役立ち、独自のユーザー スペースでそれらを変更することもできます。また、独自のアプリを最初から作成しなくても、より大きなアプリケーション用に生成されたコードをプレビューするための優れたソースです。Indigo Design App Builder を初めて使用する場合は、Sample Apps オプションを開始点として使用することをお勧めします。これは、ツールのすばらしい機能を利用してアプリケーションの構築を開始するための最も簡単な方法です。  
 
 <img class="responsive-img" src="../images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="../images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
-<p style="text-align:center;">New project dialog</p>
+<p style="text-align:center;">[New Project] ダイアログ</p>
 
 
-## Getting the code
-The Indigo Design App Builder always displays a live-running web application both on the design surface and in the preview window. The underlying code and application model are updated in real time as you make changes to the application in the design surface. You can view the generated application code at any time in the preview window and you can also download the generated application at any time as a complete application code repository, which you can then open in a code editor of your choice. Then you can build and run the application you've designed using the Indigo Design App Builder locally on your machine and you can make additional modifications on the generated code.
+## コードの取得
+Indigo Design App Builder は、常にライブ実行中の Web アプリケーションをデザイン画面とプレビュー ウィンドウの両方に表示します。基になるコードとアプリケーション モデルは、デザイン画面でアプリケーションに変更を加えると、リアルタイムで更新されます。生成されたアプリケーション コードはプレビュー ウィンドウでいつでも表示できます。また、生成されたアプリケーションを完全なアプリケーション コード リポジトリとしてダウンロードして、選択したコード エディターで開くこともできます。次に、Indigo Design App Builder を使用してデザインしたアプリケーションをマシン上でローカルにビルドして実行し、生成されたコードに追加の変更を加えることができます。
  
 <img class="responsive-img" src="../images/Preview-App-Indigo-Design-App-Builder.png" srcset="../images/Preview-App-Indigo-Design-App-Builder @2x.png 2x" />
-<p style="text-align:center;">Application preview window</p>
+<p style="text-align:center;">アプリケーション プレビュー ウィンドウ</p>
 
 
 <img class="responsive-img" src="../images/App-VSCode-Indigo-Design-App-Builder.png" srcset="../images/App-VSCode-Indigo-Design-App-Builder @2x.png 2x" />
-<p style="text-align:center;">Code of a generated application and then run in VScode</p>
+<p style="text-align:center;">生成されたアプリケーションのコードを VScode で実行する</p>
 
 
 > [!NOTE]
-> Once the code for your application is downloaded, changes made locally will not be reflected in your Indigo Design App Builder user space.
+> アプリケーションのコードがダウンロードされると、ローカルで行われた変更は Indigo Design AppBuilder ユーザー スペースに反映されません。
 
-## Running the app locally
+## アプリをローカルで実行する
 
-In order to run the downloaded application, the following prerequisites need to be installed on your machine.
+ダウンロードしたアプリケーションを実行するには、次の前提条件がマシンにインストールされている必要があります:
 
-1. NodeJS.
-2. Visual Studio Code (we recommend VS Code, but you can use a different code editor).
+1. NodeJS。
+2. Visual Studio Code (VS Code をお勧めしますが、別のコード エディターを使用することもできます)。
 
 <div>
     <div style="display:inline-block;width:45%;text-align:center;">
-      <img src="../../images/general/nodejs.svg"
+      <img src="../images/general/nodejs.svg"
            style="display:flex;max-height:100px;margin:auto auto 20px auto;" />
       <a target="_blank" href="https://nodejs.org/en/download/" class="no-external-icon"
          style="color:white;background-color:#09f;text-decoration:none;font-weight:700;font-size:16px;padding: 5px 15px 5px 15px;">
-        DOWNLOAD NODE
+        NODE のダウンロード
       </a>
     </div>
     <div style="display:inline-block;width:45%;text-align:center;">
-      <img src="../../images/general/vs-code.svg"
+      <img src="../images/general/vs-code.svg"
            style="display:flex;max-height:100px;margin:auto auto 20px auto;" />
       <a target="_blank" href="https://code.visualstudio.com/download" class="no-external-icon"
          style="color:white;background-color:#09f;text-decoration:none;font-weight:700;font-size:16px;padding: 5px 15px 5px 15px;">
-        DOWNLOAD VS CODE
+        VS CODE のダウンロード
       </a>
     </div>
 </div>
 <div class="divider--half"></div>
 
-## Additional Resources
+## その他のリソース
 <div class="divider--half"></div>
 
-* [App Builder Interface Overview](interface-overview.md)
+* [App Builder インターフェイスの概要](interface-overview.md)

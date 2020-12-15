@@ -1,7 +1,8 @@
 ---
-title: Indigo Design App Builder - Interface Overview
-_description: Indigo Design App Builder is a design to code solution, enabling design and development teams to quickly and easily design and build real web applications.
-_keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch UI kits
+title: Indigo Design App Builder - インターフェイスの概要
+_description: Indigo Design App Builder は、デザインからコードまでのソリューションであり、デザインおよび開発チームが実際の Web アプリケーションを迅速かつ簡単にデザインおよび構築できるようにします。
+_keywords: App Builder, Web App Builder, デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch から コードをエクスポート, Angular 用のデザイン キット, Sketch UI キット
+_language: ja
 ---
 
 # Interface overview 

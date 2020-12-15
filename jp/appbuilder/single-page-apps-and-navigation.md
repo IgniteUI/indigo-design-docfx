@@ -1,7 +1,8 @@
 ---
-title: SPA and Navigation in Indigo Design App Builder 
-_description: Unlike a page-based design approach, Indigo Design App Builder lets you create separate views that are injected or switched based on how users navigate.
-_keywords: App builder, Indigo Design, Infragistics
+title: Indigo Design AppBuilder の SPA とナビゲーション
+_description: ページに基づいたデザイン アプローチとは異なり、Indigo Design App Builder では、ユーザーのナビゲート方法に基づいて挿入または切り替えられる個別のビューを作成できます。
+_keywords: App builder, Indigo Design, インフラジスティックス
+_language: ja
 ---
 
 # Single page apps and navigation  
