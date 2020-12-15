@@ -3,10 +3,11 @@
         "content": [
             {
                 "files": [
+                    "prototyping/**.md",
                     "codegen/**.md",
+                    "appbuilder/**.md",
                     "components/**.md",
                     "patterns/**.md",
-                    "prototyping/**.md",
                     "style/**.md",
                     "sidebar-toc/toc.yml",
                     "toc.yml",
