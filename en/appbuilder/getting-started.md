@@ -15,11 +15,11 @@ What you'll see when you launch the [Indigo Design App Builder]({environment:inf
 ## Getting the code
 The Indigo Design App Builder always displays a live-running web application both on the design surface and in the preview window. The underlying code and application model are updated in real time as you make changes to the application in the design surface. You can view the generated application code at any time in the preview window and you can also download the generated application at any time as a complete application code repository, which you can then open in a code editor of your choice. Then you can build and run the application you've designed using the Indigo Design App Builder locally on your machine and you can make additional modifications on the generated code.
  
-<img class="responsive-img" src="../images/Preview-App-Indigo-Design-App-Builder.png" srcset="../images/Preview-App-Indigo-Design-App-Builder @2x.png 2x" />
+<img class="responsive-img" src="../images/Preview-App-Indigo-Design-App-Builder.png" srcset="../images/Preview-App-Indigo-Design-App-Builder@2x.png 2x" />
 <p style="text-align:center;">Application preview window</p>
 
 
-<img class="responsive-img" src="../images/App-VSCode-Indigo-Design-App-Builder.png" srcset="../images/App-VSCode-Indigo-Design-App-Builder @2x.png 2x" />
+<img class="responsive-img" src="../images/App-VSCode-Indigo-Design-App-Builder.png" srcset="../images/App-VSCode-Indigo-Design-App-Builder@2x.png 2x" />
 <p style="text-align:center;">Code of a generated application and then run in VScode</p>
 
 
