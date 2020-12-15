@@ -28,7 +28,7 @@ The same procedure can be followed for the `secondary` colors and other colors w
 
 ## Creating Custom Colors
 
-There are cases where we needs more colors than the ones we have available. There are two approaches for creating custom colors that differ in terms of the scope we do this for.
+There are cases where we need more colors than the ones we have available. There are two approaches for creating custom colors that differ in terms of the scope we do this for.
 
 If you want your added colors to be available across all the projects that use the library, navigate to the `Colors` page in it, and zoom to the empty `Custom` section underneath the `series` palettes.
 
