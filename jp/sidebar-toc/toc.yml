@@ -60,9 +60,8 @@
 - name: 同期とテーマ プラグイン
   href: ../sync-themes-plugin.md
 - name: スタイル設定
+  href: ../style/styling-overview.md
   items:
-    - name: 概要
-      href: ../style/styling-overview.md
     - name: カラー
       href: ../style/colors.md
     - name: エレベーション
@@ -75,6 +74,7 @@
       href: ../style/illustrations.md
       new: true
 - name: コンポーネント
+  href: ../components/components-overview.md
   items:
     - name: Avatar
       href: ../components/avatar.md
@@ -203,6 +203,7 @@
       href: ../components/tree-grid.md
       new: true
 - name: パターン
+  href: ../patterns/patterns-overview.md
   items:
     - name: Audio / Video
       href: ../patterns/av.md
