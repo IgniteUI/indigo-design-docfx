@@ -7,8 +7,8 @@
 
 - name: App Builder Overview
   href: ../appbuilder/app-builder-overview.md
-  new: true
   header: true
+  new: true
 - name: Getting Started
   href: ../appbuilder/getting-started.md
   new: true
@@ -27,7 +27,7 @@
   #     href: ../appbuilder/flex-layouts/add-to-layout-via-context-menu.md
   #   - name: Additional resources to learn about web-layouts
   #     href: ../appbuilder/flex-layouts/additional-resources-to-learn-about-web-layouts.md
-- name: UI ccomponents
+- name: UI Components
   href: ../appbuilder/indigo-design-app-builder-components.md
   new: true
   # items:
