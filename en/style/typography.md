@@ -20,7 +20,7 @@ To use the Typography in your project all you need to do is apply one of the Tex
 Use these when creating intricate layouts for articles, blog posts etc. The Text Styles in the **Indigo.Design System** are meant to help you define a consistent theme and style for all the texts in your designs.
 
 > [!Warning]
-> There is also a collection of `Internal` styles used within the Components for validation, special cases such as the label of a Button, and data-dense scenarios like the Grid. These styles are not supposed to be inserted in your interface directly, but exist to assure typograpic consistency for the Components within which they are used.
+> There is also a collection of `Internal` styles used within the Components for validation, special cases such as the label of a Button, and data-dense scenarios like the Grid. These styles are not supposed to be inserted in your interface directly but exist to assure typographic consistency for the Components within which they are used.
 
 ## Typography Colors
 
