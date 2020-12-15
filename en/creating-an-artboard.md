@@ -33,8 +33,7 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
     - **🧩 Components**  page: a vast set of Components to layout your design ideas.
       Through various presets available in the Sketch insert menu and overrides for states and layouts to configure in the right panel of the Sketch UI, you can create layouts compatible with Ignite UI for Angular and our code generation engine.
 
-    - **🌆 ~** patterns pages
-       The components shape up meaningful patterns for productive application design that can be found spread across the remaining pages.
+    - **🌆 ~** patterns pages: the components shape up meaningful patterns for productive application design that can be found spread across the remaining pages.
 
 2.  Open up the Sketch app on your Mac, click on the Sketch item from the Apple Menu, and select Preferences.
 
