@@ -4,6 +4,7 @@
   href: ../getting-started.md
 - name: ビデオ チュートリアル
   href: ../video-tutorials.md
+
 - name: App Builder Overview
   href: ../appbuilder/app-builder-overview.md
   header: true
@@ -286,8 +287,6 @@
   href: ../codegen/after-codegen.md
 - name: レイアウトの生成
   href: ../codegen/layout-codegen.md
-- name: データ バインディング
-  href: ../codegen/data-binding.md
 
 - name: その他のリソース
   header: true

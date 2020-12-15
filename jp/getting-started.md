@@ -15,23 +15,19 @@ Indigo.Design はデザインから開発までのワークフローをサポー
 
 <img class="responsive-img" src="images/indigo-design-how-it-works.png" />
 
-1.  Sketch で `Indigo.Design` システムを使用してデザインを作成
+1.  Sketch で `Indigo.Design システム` を使用してデザインを作成
 2.  プロトタイプを共有し、`cloud.indigo.design` でユーザーとテストしてコラボレーション
 3.  `Indigo.Design` コード ジェネレーター (Ignite UI for Angular) を使用してコードを生成
 
-### 1.Indigo.Design システム
+### 1. Indigo.Design システム
 
-デザイン システムには 3 つの Sketch ライブラリ ファイルがあります。
-
-- `Indigo-Styling.sketch` は色、タイポグラフィ、アイコン、エレベーション (シャドウ) をデザインに指定します。
-- `Indigo-Components.sketch` は Ignite UI for Angular コンポーネントと一致する 50 以上のコンポーネントを含みます。オーバーライドを使用してカスタマイズできます。
-- `Indigo-Patterns.sketch` は `Indigo-Components` を使用する全般的な UI パターンを含みます。
+デザイン システムは、さまざまなコンポーネント (シンボル) を含む Sketch ライブラリで、デザイナーは複雑なユーザー インターフェイスを作成し、作成済みパレット、タイポグラフィ、アイコンやイラストレーションなどのアセットを活用できます。UI コンポーネントは、さまざまな状態やテンプレートを使用してデザイン時の柔軟性を提供します。生産性を高めるために、製品詳細レイアウト、さまざまなフォーム、料金表などのパターンのコレクションもあります。
 
 関連トピック:
 
 [はじめての Sketch アートボードの作成](creating-an-artboard.md)
 
-### 2.プロトタイプおよびユーザビリティ テスト
+### 2. プロトタイプおよびユーザビリティ テスト
 
 デザインのフィードバックは、cloud.indigo.design で Sketch ドキュメントをインポートし、インタラクティブなプロトタイプとして共有します。関係者が任意のデバイスでプロトタイプを表示し、コメントによってフィードバックを送信できます。
 
@@ -45,7 +41,7 @@ Indigo.Design はデザインから開発までのワークフローをサポー
 
 [ユーザー テストの作成](prototyping/set-up-a-user-test.md)
 
-### 3.Angular アプリケーションのコードを生成
+### 3. Angular アプリケーションのコードを生成
 
 公開したプロトタイプから Angular アプリケーションのコードを直接生成するには、 プロトタイプの共有 URL を Indigo.Design コード ジェネレーターで使用します。コード ジェネレーターは VS Code の拡張機能です。この拡張機能は [Ignite UI for Angular UI フレームワーク](https://jp.infragistics.com/products/ignite-ui-angular)を使用してコードを生成します。
 
