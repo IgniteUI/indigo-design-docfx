@@ -43,7 +43,6 @@ Use the Badge to "stamp" another piece of UI, such as an Avatar or a text title 
 Related topics:
 
 - [Avatar + Badge](../patterns/avatar-badge.md)
-- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
