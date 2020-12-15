@@ -79,7 +79,7 @@ Use the Chips Area Component to organize a collection of Chips. The Chips Area i
 
 ### Chips Area Type
 
-The Chips Area is available in two distinct types: Chips, where the Chip collection is not related, and **Connected Chips**, where Chips appear in a predefined sequence.
+The Chips Area is available in two distinct types: Chips, where the Chip collection is not related, and Connected Chips, where Chips appear in a predefined sequence.
 
 <img class="responsive-img" src="../images/chips_area_standard.png" srcset="../images/chips_area_standard@2x.png 2x" />
 <img class="responsive-img" src="../images/chips_area_connected.png" srcset="../images/chips_area_connected@2x.png 2x" />
