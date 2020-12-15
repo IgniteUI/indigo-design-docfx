@@ -57,7 +57,6 @@ When many Checkboxes are necessary, you'll want to arrange them in a column grou
 Related topic:
 
 - [Form Pattern](../patterns/form.md)
-- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
