@@ -14,20 +14,33 @@ Use the Button Component to represent the trigger for a simple action that user 
 
 ## Type
 
-Four types of Buttons are supported:
+Five types of Buttons are supported:
 
-- A more prominent Raised Button with color fill and shadow that emphasizes an action and supports both **text** and combination of icon and text.
-- A less prominent Flat Button that is typically used for less important actions and supports both **text** and combination of icon and text.
-- An Icon Button for actions that are represented only with an Icon.
+- A more prominent Raised Button with color fill and shadow that emphasizes an action.
+- A less prominent Outlined Button with color outline appropriate for the majority of actions.
+- A very subtle Flat Button that is typically used for the least important actions.
+- An Icon Button for actions that are represented only with an icon.
 - A very prominent Floating Action Button (fab) with color fill and shadow that is used once per screen to strongly emphasize the main action.
 
 <img class="responsive-img" src="../images/button_types.png" srcset="../images/button_types@2x.png 2x" />
 
+## Interaction States
+
+You may also insert each of these buttons in a disabled state because they all support both enabled and disabled variants.
+
+<img class="responsive-img" src="../images/button_disabled.png" srcset="../images/button_disabled@2x.png 2x" />
+
 ## States
 
-Every type of button supports a **default**, hover, and disabled state. A button with an icon and label is also available in the default state.
+Enabled buttons support **Rest** and Hover state.
 
 <img class="responsive-img" src="../images/button_states.png" srcset="../images/button_states@2x.png 2x" />
+
+## Layout Template
+
+Raised, Outlined, Flat and Floating Action Buttons support flexible icon and label templating achievable by setting the elements you want to hide to ~No Symbol from the overrides panel.
+
+<img class="responsive-img" src="../images/button_templates.png" srcset="../images/button_templates@2x.png 2x" />
 
 ## Styling
 
@@ -44,32 +57,6 @@ When the content of a Button contains a label, it must be uppercase and with a t
 | <img class="responsive-img" src="../images/button_do1.png" srcset="../images/button_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/button_dont1.png" srcset="../images/button_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/button_do2.png" srcset="../images/button_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/button_dont2.png" srcset="../images/button_dont2@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/button_do3.png" srcset="../images/button_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/button_dont3.png" srcset="../images/button_dont3@2x.png 2x" /> |
-
-## Code Generation
-
-This section describes some important overrides and how they affect code generation.
-
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Button in your design is very likely to result in loss of code generation capability for the Button.
-
-### Event Property
-
-When supplied the `🕹️Event` property is used to create a method in the component TypeScript and add an Angular click signature in the HTML. When supplied the event must be specified using the curly braces format: {onEventName}.
-
-### Sketch Elevations
-
-Button elevation changes in Sketch drawings are not rendered during code generation. Each button type has a default elevation that will be applied by the Ignite UI Component. Currently, this is a known limitation of the Ignite UI for Angular product that will be resolved in the upcoming releases.
-
-### Text
-
-The Text property may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
-
-- Settings
-- {settingsLabel}
-- Important {labelText}
-
-`🕹️DataSource`
-`🕹️Event`
 
 ## Additional Resources
 
