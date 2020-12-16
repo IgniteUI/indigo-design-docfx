@@ -10,10 +10,13 @@
   header: true
 - name: はじめに
   href: ../appbuilder/getting-started.md
+  new: true
 - name: インターフェイスの概要
   href: ../appbuilder/interface-overview.md
+  new: true
 - name: Flex レイアウト
   href: ../appbuilder/flex-layouts/flex-layouts.md
+  new: true
   # items:
   #   - name: 行と列のレイアウト
   #     href: ../appbuilder/flex-layouts/row-and-column-layout.md
@@ -23,8 +26,9 @@
   #     href: ../appbuilder/flex-layouts/add-to-layout-via-context-menu.md
   #   - name: Additional resources to learn about web-layouts
   #     href: ../appbuilder/flex-layouts/additional-resources-to-learn-about-web-layouts.md
-- name: Indigo.Design App Builder コンポーネント
+- name: UI コンポーネント
   href: ../appbuilder/indigo-design-app-builder-components.md
+  new: true
   # items:
   #   - name: Quick add components
   #     href: ../appbuilder/indigo-design-components/quick-add-components.md
@@ -32,6 +36,7 @@
   #     href: ../appbuilder/indigo-design-components/configuring-components.md
 - name: App テーマ
   href: ../appbuilder/app-themes/app-themes.md
+  new: true
   # items:
   #   - name: Switching app themes
   #     href: ../appbuilder/app-themes/switching-app-themes.md
@@ -41,6 +46,7 @@
   #     href: ../appbuilder/app-themes/customize-and-apply-theme.md
 - name: 単一ページアプリとナビゲーション
   href: ../appbuilder/single-page-apps-and-navigation.md
+  new: true
   # items:
   #   - name: Master view vs. Child views
   #     href: ../appbuilder/spa-and-navigation/master-view-vs-child-views.md
@@ -48,6 +54,7 @@
   #     href: ../appbuilder/spa-and-navigation/add-navigations-routing.md
 - name: コードをプレビューしてアプリを生成する
   href: ../appbuilder/preview-code-and-generate-app.md
+  new: true
   # items:
   #   - name: Preview code
   #     href: ../appbuilder/preview-code-and-genrate-app/preview-code.md
@@ -65,15 +72,16 @@
   items:
     - name: カラー
       href: ../style/colors.md
+      new: true
     - name: エレベーション
       href: ../style/elevation.md
     - name: マテリアル アイコン
       href: ../style/material-icons.md
+      new: true
     - name: タイポグラフィ
       href: ../style/typography.md
     - name: イラストレーション
       href: ../style/illustrations.md
-      new: true
 - name: コンポーネント
   href: ../components/components-overview.md
   items:

@@ -7,7 +7,7 @@ _language: ja
 
 # Indigo Design App Builder - 概要 
 
-Indigo Design App Builder は、デザインからコード生成を行うソリューションであり、設計および開発チームが実際の Web アプリケーションを迅速かつ簡単に設計および構築できるようにし、専門的に構築されたコンポーネントを使用してリリース可能な Angular コードを生成します。[Ignite UI for Angular]({environment:infragisticsBaseUrl}/products/ignite-ui-angular) で作られた App Builder は [Indigo.Design]({environment:infragisticsBaseUrl}/products/indigo-design) への最新の追加です。 
+Indigo Design App Builder は、デザインからコード生成を行うソリューションであり、デザインおよび開発チームが実際の Web アプリケーションを迅速かつ簡単にデザインおよび構築できるようにし、専門的に構築されたコンポーネントを使用してリリース可能な Angular コードを生成します。[Ignite UI for Angular]({environment:infragisticsBaseUrl}/products/ignite-ui-angular) で作られた App Builder は [Indigo.Design]({environment:infragisticsBaseUrl}/products/indigo-design) への最新の追加です。 
 
 [Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) を使用すると、ピクセル パーフェクトなアプリを驚くほど高速に構築でき、デザイン時間を大幅に節約し、アプリをデザインとまったく同じように見せることができます。これは新世代のデザイン ツールであり、デザイナーはデザイン システム アプローチとコンポーネント ライブラリを使用し、デザインされたものはすべて、高品質のアプリ コードを使用して、開発準備が整った状態でライブで実行されています。プロダクション レディなコードとは、デザインしたコンポーネント、スタイル、ビルドのセットアップなどがすべてリリース可能な  Angular リポジトリになることを言います。したがって、あなたはデザインをして、インスタント リアル タイム プレビューをチェックし、 Indigo Design App Builder がコードを実行します。Indigo Design App Builder は 100％ Web ベースであるため、何もダウンロードする必要はなく、重い IDE も、サード パーティの依存関係もありません。すべてが Web 上にあり、どのプラットフォームでもチーム全体がアクセスできます。   
 
