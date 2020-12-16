@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Icon
 
-Use the Icon Component to provide subtle graphical information to the user that, in some cases, may also trigger simple interactions such as liking a product, saving an article for later, etc. You may choose between the already provided [Material Icons](https://material.io/tools/icons/) or add the ones you need to the list of available ones in the Indigo.Design library. The Icon is visually identical to the [Ignite UI for Angular Icon Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/icon.html)
+Use the Icon Component to provide subtle graphical information to the user that, in some cases, may also trigger simple interactions such as liking a product, saving an article for later, etc. You may choose between the already provided [Material Icons](../style/material-icons.md) or add the ones you need to the `🎨 Material Icons` page in the **Indigo.Design System**. The Icon is visually identical to the [Ignite UI for Angular Icon Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/icon.html)
 
 ## Icon Demo
 
@@ -25,7 +25,7 @@ The Icon comes in four different sizes:
 
 ## Styling
 
-The Icon comes with styling flexibility through the overrides for selectable graphic and the color used to fill it.
+The Icon comes with styling flexibility through the overrides for selectable graphic and the color applied to it.
 
 <img class="responsive-img" src="../images/icon_styling.png" srcset="../images/icon_styling@2x.png 2x" />
 
@@ -41,6 +41,7 @@ Carefully pick the Icon color to assure good contrast with the background and de
 
 Related topics:
 
+- [Material Icons](../style/material-icons.md)
 - [Bottom Navigation](bottom-nav.md)
 - [Card](cards.md)
 - [Navbar](navbar.md)
