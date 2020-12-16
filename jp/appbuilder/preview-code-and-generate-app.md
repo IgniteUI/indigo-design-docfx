@@ -5,6 +5,17 @@ _keywords: App Builder, Web App Builder, デザイン システム, デザイン
 _language: ja
 ---
 # コードをプレビューしてアプリを生成する
+
+<section class="feature__container">
+    <div class="feature">
+        <div class="feature__image">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/zxT-nIXKn7I" frameborder="0" allowfullscreen></iframe>
+            <p>アプリ コードのプレビューと生成</p>
+            <br>
+        </div>
+    </div>
+</section>
+
 生成されたコードをプレビューし、Angular アプリとして作業をダウンロードすることは、1 つのアプリケーションをデザインした後の最後のステップです。すべてのスタイリングおよびレイアウト プロパティを使用してアプリケーションが生成されると、デザインおよび開発のユーザー ストーリーが完成します。
 
 ## コードをプレビューする 

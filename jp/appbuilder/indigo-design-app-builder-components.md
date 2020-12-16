@@ -7,6 +7,16 @@ _language: ja
 
 # Indigo Design コンポーネント
 
+<section class="feature__container">
+    <div class="feature">
+        <div class="feature__image">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/omlSzOuvFlM" frameborder="0" allowfullscreen></iframe>
+            <p>Indigo.Design コンポーネントの使用</p>
+            <br>
+        </div>
+    </div>
+</section>
+
 左側の**ツールボックス** タブでは、使用可能なすべての [Ignite UI for Angular]({environment:infragisticsBaseUrl}/products/ignite-ui-angular) のリストと、絶対、行、列のレイアウト、ビュー コンテナなどの [Indigo.Design]({environment:infragisticsBaseUrl}/products/indigo-design) の一般的なコンポーネントを順番に表示できます。コンポーネント リストの上部にある検索入力により、特定のコンポーネントを簡単に見つけることができます。すべてのコンポーネントは、使用法に基づいてグループに簡単に分散されます。グレーアウトされたコンポーネントはまだ追加されていないため無効になっていますが、間もなく次のアップデートで利用できるようになります。コンポーネントは、**ツールボックス**からドラッグアンドドロップすることで**デザイン キャンバス**に追加できます。
 
 ## クイック追加のコンポーネント 
