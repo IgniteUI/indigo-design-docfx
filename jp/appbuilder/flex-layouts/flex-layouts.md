@@ -1,50 +1,61 @@
 ---
-title: Indigo Design App Builder - Flex Layouts
-_description: Indigo Design app builder is targeting web apps, and that’s why we are offering Flex as one of the approaches to create layouts. It's available to you as a row or column layout component in the toolbox.
-_keywords: App builder flex layouts, Indigo Design, Infragistics
+title: Indigo Design App Builder - Flex レイアウト
+_description: Indigo Design App Builder は Web アプリを対象としています。そのため、レイアウトを作成するアプローチの 1 つとして Flex を提供しています。ツールボックスの行または列のレイアウト コンポーネントとして利用できます。
+_keywords: App builder flex レイアウト, Indigo Design, インフラジスティックス
+_language: ja
 ---
 
-# Flex layouts (and positioning) 
+# Flex レイアウト（および配置） 
 
-One of the greatest differences between the Indigo Design App Builder and the regular product design tools are the flex-based layouts used in the design-to-code tool. Since the Indigo Design App Builder is targeting web apps, we are offering Flex as one of the approaches to create layouts. It's available to you as a row or column layout component in the toolbox. The outermost container you see here is the canvas and has flex settings already applied to it. You can change the canvas size by editing the viewport size in the properties panel. 
+<section class="feature__container">
+    <div class="feature">
+        <div class="feature__image">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/MUq3MGm9YlU" frameborder="0" allowfullscreen></iframe>
+            <p> アプリのレイアウトを作成する</p>
+            <br>
+        </div>
+    </div>
+</section>
+
+Indigo Design App Builder と通常の製品デザイン ツールの最大の違いの 1 つは、デザインからコードまでのツールで使用される Flex に基づくレイアウトです。Indigo Design App Builder は Web アプリを対象としているため、レイアウトを作成するアプローチの 1 つとして Flex を提供しています。ツールボックスの行または列のレイアウト ンポーネントとして利用できます。ここに表示されている最も外側のコンテナはキャンバスであり、flex 設定がすでに適用されています。プロパティ パネルで Viewport のサイズを編集することにより、キャンバス サイズを変更できます。
 
 <img class="responsive-img" src="../../images/edit-create-canvas-size-Indigo-Design-App-Builder.gif" />
-<p style="text-align:center;">Change canvas size</p>
+<p style="text-align:center;">キャンバス サイズの変更</p>
 
-## Row and column layout 
+## 行と列のレイアウト 
 
-Flex-layout containers have settings that allow us to modify the position of the nested UI elements. There are flex properties for h.align and v.align properties that can be easily applied from the respective dropdowns. The canvas defaults to row layout, horizontally aligned to the left and stretched vertically. You can always switch between row and column layout irrespective of what you started with. The layout container is sized based on the content, but you can always specify a height and width. You can also add the padding property to container, and margins to space out the child UI elements - that can be done after selection a particular component and editing the padding or margin in the Property Panel on the right-hand side of the screen.
+Flex レイアウト コンテナには、ネストされた UI 要素の位置を変更できる設定があります。H.align プロパティと V.Aalign プロパティには、それぞれのドロップダウンから簡単に適用できる flex プロパティがあります。キャンバスのデフォルトは行レイアウトで、水平方向に左揃えになり、垂直方向に引き伸ばされます。何から始めたかに関係なく、いつでも行と列のレイアウトを切り替えることができます。レイアウト コンテナのサイズはコンテンツに基づいていますが、高さと幅はいつでも指定できます。Padding プロパティをコンテナに追加し、マージンを追加して子 UI 要素のスペースを空けることもできます。これは、特定のコンポーネントを選択し、画面右側のプロパティ パネルでパディングまたはマージンを編集した後に実行できます。
 
 <img class="responsive-img" src="../../images/row-column-layout-Indigo-Design-App-Builder.gif" />
-<p style="text-align:center;">Layout properties</p>
+<p style="text-align:center;">レイアウト プロパティ</p>
 
-You can always select the parent UI element by clicking on the label for the child element. This is helpful when you have nested layout containers. On the other hand, you can also select the component you need directly from the Outline menu in the bottom left corner.  
+子要素のラベルをクリックすると、いつでも親 UI 要素を選択できます。これは、ネストされたレイアウト コンテナがある場合に役立ちます。一方、左下隅の [Outline] メニューから必要なコンポーネントを直接選択することもできます。 
 
 <img class="responsive-img" src="../../images/select-parent-Indigo-Design-App-Builder.gif" />
-<p style="text-align:center;">Select parent component</p>
+<p style="text-align:center;">親コンポーネントを選択する</p>
 
-## Fluid resizing & wrapping 
+## 流動的なサイズ変更と折り返し 
 
-The other note-worthy properties are related to grow and shrink. These affect resizing for components when the viewport changes size. Setting a component to `grow` will expand a container in row direction if it's row layout or column direction if it's column layout.  
+他の注目に値するプロパティは、拡大と縮小に関連しています。これらは、Viewport のサイズが変更されたときにコンポーネントのサイズ変更に影響します。コンポーネントを `grow` に設定すると、コンテナが行レイアウトの場合は行方向に、列レイアウトの場合は列方向に展開されます。
  
 <img class="responsive-img" src="../../images/grow-column-row-layout-Indigo-Design-App-Builder.gif" />
-<p style="text-align:center;">Grow column/row layout option</p>
+<p style="text-align:center;">列/行のレイアウト オプションを拡大する</p>
 
 
-## Add to layout via context menu 
+## コンテキスト メニューからレイアウトに追加 
 
-If you come up with the need to add an existing component to a new layout, there is a very handful option – with right on a selected component, you can trigger the context menu and to add the element to a row or column layout.  
+既存のコンポーネントを新しいレイアウトに追加する必要がある場合は、非常に便利なオプションがあります。選択したコンポーネントを右クリックすると、コンテキスト メニューがトリガーされ、要素を行または列のレイアウトに追加できます。   
 
 <img class="responsive-img" src="../../images/add-to-layout-Indigo-Design-App-Builder.gif" />
-<p style="text-align:center;">Add component to layout through the context menu</p>
+<p style="text-align:center;">コンテキスト メニューからレイアウトにコンポーネントを追加する</p>
 
-## Additional Resources
+## その他のリソース
 
-To summarize quickly, whatever you have learned about Flex layouts can be used here in the editor as-is. For someone new to Flex and CSS, it will take some getting used to, but over time it will become a lot easier to think of layouts as rows and columns. The most important is that Flex layout help us build application adapting to a screen size and define components behavior within the layout, while the absolute layout let us have a particular design for only one screen size. 
+簡単にまとめると、Flex レイアウトについて学んだことはすべて、エディターでそのまま使用できます。Flex と CSS を初めて使用する人にとっては、慣れるまでに少し時間がかかりますが、時間の経過とともに、レイアウトを行と列として考えることがはるかに簡単になります。最も重要なのは、Flex レイアウトは、画面サイズに適応するアプリケーションを構築し、レイアウト内のコンポーネントの動作を定義するのに役立ちますが、絶対レイアウトでは、1 つの画面サイズのみに対して特定のデザインを行うことができます。 
 
 <div class="divider--half"></div>
 
-* [App Builder Components](../indigo-design-app-builder-components.md)
+* [App Builder コンポーネント](../indigo-design-app-builder-components.md)
 * [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
-* [A Guide to flexbox](<https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [Flexbox のガイド](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Flexbox Froggy](https://flexboxfroggy.com/)

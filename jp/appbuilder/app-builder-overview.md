@@ -1,46 +1,47 @@
 ---
-title: Indigo Design App Builder Software overview
-_description: Indigo Design App Builder is a design to code solution, enabling design and development teams to quickly and easily design and build real web applications.
-_keywords: App builder, Indigo Design, Infragistics
+title: Indigo Design App Builder ソフトウェアの概要
+_description: Indigo Design App Builder は、デザインからコードまでのソリューションであり、デザインおよび開発チームが実際の Web アプリケーションを迅速かつ簡単にデザインおよび構築できるようにします。
+_keywords: App builder, Indigo Design, インフラジスティックス
+_language: ja
 ---
 
-# Indigo Design App Builder - Overview 
+# Indigo Design App Builder - 概要 
 
-Indigo Design App Builder is a design to code solution, enabling design and development teams to quickly and easily design and build real web applications, using professionally-built components to generate production-ready, Angular code. Powered by [Ignite UI for Angular]({environment:infragisticsBaseUrl}/products/ignite-ui-angular), App Builder is the newest addition to [Indigo.Design]({environment:infragisticsBaseUrl}/products/indigo-design). 
+Indigo Design App Builder は、デザインからコード生成を行うソリューションであり、デザインおよび開発チームが実際の Web アプリケーションを迅速かつ簡単にデザインおよび構築できるようにし、専門的に構築されたコンポーネントを使用してリリース可能な Angular コードを生成します。[Ignite UI for Angular]({environment:infragisticsBaseUrl}/products/ignite-ui-angular) で作られた App Builder は [Indigo.Design]({environment:infragisticsBaseUrl}/products/indigo-design) への最新の追加です。 
 
-Through the [Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) you are able to build pixel-perfect apps incredibly fast, saving huge amounts of design time and getting apps looking exactly like your design. That is a new generation design tool, where designers use the design system approach and a component library, everything designed is running live, dev ready, with high-quality app code. Speaking of production ready code, everything you design results in production ready Angular repository with all it's components, styles, build setup, etc. So, you do the design and check the instant real-time preview, we'll do the code. Since the Indigo Design App Builder is 100% web based, there is no need to download anything, not heavy IDE's, and no 3rd party dependencies. Everything is on the web, accessible by your whole team on any platform.  
+[Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) を使用すると、ピクセル パーフェクトなアプリを驚くほど高速に構築でき、デザイン時間を大幅に節約し、アプリをデザインとまったく同じように見せることができます。これは新世代のデザイン ツールであり、デザイナーはデザイン システム アプローチとコンポーネント ライブラリを使用し、デザインされたものはすべて、高品質のアプリ コードを使用して、開発準備が整った状態でライブで実行されています。プロダクション レディなコードとは、デザインしたコンポーネント、スタイル、ビルドのセットアップなどがすべてリリース可能な  Angular リポジトリになることを言います。したがって、あなたはデザインをして、インスタント リアル タイム プレビューをチェックし、 Indigo Design App Builder がコードを実行します。Indigo Design App Builder は 100％ Web ベースであるため、何もダウンロードする必要はなく、重い IDE も、サード パーティの依存関係もありません。すべてが Web 上にあり、どのプラットフォームでもチーム全体がアクセスできます。   
 
-Starting your app building experience is fast and easy with one of our pre-built app templates or use one of our preset layout options to build your app in no time. Just tweak our app design, swap a theme and your done! Use pre-configured themes and typography, or customize them to match your own app theme and corporate branding on a per-control, per-screen or per-app basis. Start you new app in the Indigo Design App Builder, build it faster than ever, iterate with new features and get the production-ready code! 
+すでに用意されているアプリ テンプレートの 1 つを使用するか、プリセットのレイアウト オプションのいずれかを使用して、アプリの作成エクスペリエンスをすばやく簡単に開始して、すぐにアプリを作成できます。アプリのデザインを微調整し、テーマを交換するだけで完了です。事前設定されたテーマとタイポグラフィを使用するか、コントロールごと、画面ごと、またはアプリごとに、独自のアプリ テーマと企業ブランドに一致するようにカスタマイズします。Indigo Design App Builder で新しいアプリを起動し、これまでになく高速にビルドし、新しい機能を繰り返して、リリース可能なコードを入手してください。 
 
-## Prerequisites
+## 前提条件
 
-1. Install NodeJS.
-2. Install Visual Studio Code.
+1. NodeJS をインストールします。
+2. Visual Studio Code をインストールします。
 
 <div>
     <div style="display:inline-block;width:45%;text-align:center;">
-      <img src="../../images/general/nodejs.svg"
+      <img src="../images/general/nodejs.svg"
            style="display:flex;max-height:100px;margin:auto auto 20px auto;" />
       <a target="_blank" href="https://nodejs.org/en/download/" class="no-external-icon"
          style="color:white;background-color:#09f;text-decoration:none;font-weight:700;font-size:16px;padding: 5px 15px 5px 15px;">
-        DOWNLOAD NODE
+        NODE のダウンロード
       </a>
     </div>
     <div style="display:inline-block;width:45%;text-align:center;">
-      <img src="../../images/general/vs-code.svg"
+      <img src="../images/general/vs-code.svg"
            style="display:flex;max-height:100px;margin:auto auto 20px auto;" />
       <a target="_blank" href="https://code.visualstudio.com/download" class="no-external-icon"
          style="color:white;background-color:#09f;text-decoration:none;font-weight:700;font-size:16px;padding: 5px 15px 5px 15px;">
-        DOWNLOAD VS CODE
+        VS CODE のダウンロード
       </a>
     </div>
 </div>
 <div class="divider--half"></div>
 
 > [!NOTE]
-> Supported browsers are Chrome, Edge (Chromium) and Firefox. IE11 and Safari are not supported.
+> サポートされているブラウザは、Chrome、Edge (Chromium)、Firefox です。IE11 および Safari はサポートされません。
 
-## Additional Resources
+## その他のリソース
 <div class="divider--half"></div>
 
-* [Getting Started](getting-started.md)
+* [作業の開始](getting-started.md)

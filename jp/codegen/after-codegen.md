@@ -44,39 +44,6 @@ RouterModule.forChild(routes);
 
 ここが開発の開始ポイントとなります。ここから開発者がアプリケーション要件に合わせるためにルートを変更できます。ボタン クリックなどの操作に基づいてナビゲーションをトリガーするコードを追加します。
 
-## データ
-
-コード生成中にデータは作成されません。ただし、Sketch デザインで指定された場合に HTML のバインディングを生成します。生成された TypeScript はフォームを作成するための [FormBuilder](https://angular.io/api/forms/FormBuilder) を提供します。バインディングに必要なモデルおよびデータを追加できます。
-
-以下は処理の例です。
-
-Sketch で、デザイナーが Nebula UI Category Chart コンポーネントをアートボードに追加します。
-
-<img class="responsive-img" src="../images/categorychart-overrides.png" srcset="../images/categorychart-overrides@2x.png 2x" />
-
-オーバーライドには DataSource オーバーライドがあります。指定した値は[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) コントロールにバインドするプロパティをジェネレーターに指定します。この場合、Sketch のチャートは `igx-category-chart` に変換し、`dataSource` 入力は `olympicMedalData` にバインドします。
-
-```html
-<igx-category-chart [dataSource]="olympicMedalData" ...
-```
-
-次の手順は、チャートを描画するために `olympicMedalData` プロパティをデータに生成します。これは生成された TypeScript ファイルで実装できます。以下は例です。
-
-```typescript
-olympicMedalData: any[];
-
-ngOnInit() {
-    this.olympicMedalData = [
-        { year: "1996", countryOne: 10, countryTwo: 8, countryThree: 7 },
-        { year: "2000", countryOne: 5, countryTwo: 7, countryThree: 6 },
-        { year: "2004", countryOne: 9, countryTwo: 5, countryThree: 8 },
-        { year: "2008", countryOne: 8, countryTwo: 7, countryThree: 7 },
-        { year: "2012", countryOne: 5, countryTwo: 6, countryThree: 7 },
-        { year: "2016", countryOne: 6, countryTwo: 6, countryThree: 8 },
-    ];
-}
-```
-
 ## 必要なテーマ
 
 Ignite UI for Angular を Angular プロジェクトで使用するために Ignite UI テーマをインポートする必要があります。最も簡単な方法は適切な SCSS をアプリケーションのメイン スタイル ファイルに含み方法です。このトピックの上に指定されたコマンドを使用して Angular アプリケーションを生成した場合、アプリケーションのルートに `styles.scss` ファイルがあります。このファイルに以下のコードを追加します。
@@ -100,12 +67,6 @@ Ignite UI for Angular を Angular プロジェクトで使用するために Ign
 ```
 
 Infragistics VS Code 拡張機能をプロジェクトを更新するために使用した場合は、自動的に追加されます。このインポートが `styles.scss` ファイルに存在しない場合、拡張機能はプロジェクトで `ig.scss` と呼ばれる新しいファイルを含み、プロジェクトはこのファイルおよび `styles.scss` ファイルに参照します。
-
-## スタイル設定
-
-生成された [Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) コントロールは Sketch バージョンと同じ外観になります。Sketch で実行された色変更も同様にコードに生成されます。開発者は SCSS を含み、すべての生成されたコードにアクセスできます。スタイル変更は生成後も実行できます。コンポーネントを再生成する必要がある場合、開発者の変更はオーバーライドされます。Infragistics VS Code 拡張機能はオーバーライドするファイルについて通知します。
-
-ここでは、以下に注意してください。コード ジェネレーターの現在リリースは要素にマージンまたはパディングを適用しません。要素のスペースおよび配置は Sketch ファイルと一致しない場合があります。この機能は今後拡張予定です。生成した SCSS および HTML でコントロールの配置およびスペースを変更できます。
 
 ## その他のリソース
 

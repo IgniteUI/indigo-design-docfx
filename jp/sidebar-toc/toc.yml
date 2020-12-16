@@ -4,33 +4,39 @@
   href: ../getting-started.md
 - name: ビデオ チュートリアル
   href: ../video-tutorials.md
-- name: App Builder Overview
+
+- name: App Builder の概要
   href: ../appbuilder/app-builder-overview.md
   header: true
-- name: Getting Started
+- name: はじめに
   href: ../appbuilder/getting-started.md
-- name: Interface Overview
+  new: true
+- name: インターフェイスの概要
   href: ../appbuilder/interface-overview.md
-- name: Flex layouts
+  new: true
+- name: Flex レイアウト
   href: ../appbuilder/flex-layouts/flex-layouts.md
+  new: true
   # items:
-  #   - name: Row and column layout
+  #   - name: 行と列のレイアウト
   #     href: ../appbuilder/flex-layouts/row-and-column-layout.md
   #   - name: Fluid resizing & wrapping
   #     href: ../appbuilder/flex-layouts/fluid-resizing-and-wrapping.md
   #   - name: Add to layout via context menu
   #     href: ../appbuilder/flex-layouts/add-to-layout-via-context-menu.md
-  #   - name: Additional resources to learn about web-layouts
+  #   - name: その他のリソース to learn about web-layouts
   #     href: ../appbuilder/flex-layouts/additional-resources-to-learn-about-web-layouts.md
-- name: Indigo.Design App Builder components
+- name: UI コンポーネント
   href: ../appbuilder/indigo-design-app-builder-components.md
+  new: true
   # items:
   #   - name: Quick add components
   #     href: ../appbuilder/indigo-design-components/quick-add-components.md
   #   - name: Configuring components
   #     href: ../appbuilder/indigo-design-components/configuring-components.md
-- name: App Themes
+- name: テーマ
   href: ../appbuilder/app-themes/app-themes.md
+  new: true
   # items:
   #   - name: Switching app themes
   #     href: ../appbuilder/app-themes/switching-app-themes.md
@@ -38,15 +44,17 @@
   #     href: ../appbuilder/app-themes/material-vs-fluent-vs-bootstrap.md
   #   - name: Customize & apply theme 
   #     href: ../appbuilder/app-themes/customize-and-apply-theme.md
-- name: Single page apps and navigation
+- name: 単一ページアプリとナビゲーション
   href: ../appbuilder/single-page-apps-and-navigation.md
+  new: true
   # items:
   #   - name: Master view vs. Child views
   #     href: ../appbuilder/spa-and-navigation/master-view-vs-child-views.md
   #   - name: Add navigations (routing)
   #     href: ../appbuilder/spa-and-navigation/add-navigations-routing.md
-- name: Preview code and generate app
+- name: コードをプレビューしてアプリを生成する
   href: ../appbuilder/preview-code-and-generate-app.md
+  new: true
   # items:
   #   - name: Preview code
   #     href: ../appbuilder/preview-code-and-genrate-app/preview-code.md
@@ -60,21 +68,22 @@
 - name: 同期とテーマ プラグイン
   href: ../sync-themes-plugin.md
 - name: スタイル設定
+  href: ../style/styling-overview.md
   items:
-    - name: 概要
-      href: ../style/styling-overview.md
     - name: カラー
       href: ../style/colors.md
+      new: true
     - name: エレベーション
       href: ../style/elevation.md
     - name: マテリアル アイコン
       href: ../style/material-icons.md
+      new: true
     - name: タイポグラフィ
       href: ../style/typography.md
     - name: イラストレーション
       href: ../style/illustrations.md
-      new: true
 - name: コンポーネント
+  href: ../components/components-overview.md
   items:
     - name: Avatar
       href: ../components/avatar.md
@@ -203,6 +212,7 @@
       href: ../components/tree-grid.md
       new: true
 - name: パターン
+  href: ../patterns/patterns-overview.md
   items:
     - name: Audio / Video
       href: ../patterns/av.md
@@ -285,8 +295,6 @@
   href: ../codegen/after-codegen.md
 - name: レイアウトの生成
   href: ../codegen/layout-codegen.md
-- name: データ バインディング
-  href: ../codegen/data-binding.md
 
 - name: その他のリソース
   header: true

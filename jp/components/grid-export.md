@@ -23,7 +23,7 @@ Grid のエクスポートは、Grid 全体の機能を有効にするエクス�
 
 ## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Grid](grid.md)
 - [Grid ツールバー](grid-toolbar.md)
