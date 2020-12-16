@@ -5,51 +5,51 @@ _keywords: App builder, Indigo Design, インフラジスティックス
 _language: ja
 ---
 
-# Single page apps and navigation  
+# 単一ページアプリとナビゲーション 
 
-Another Indigo.Design App Builder feature is the single-page apps and navigation. Unlike a page-based design approach, Indigo Design App Builder lets you create separate views that are injected or switched based on how users navigate. To see this action, you can create a new app using the create new application button, then select one of the default layouts that shows a top navigation defined. 
+Indigo.Design App Builder のもう 1 つの機能は、単一ページのアプリとナビゲーションです。ページに基づいたデザイン アプローチとは異なり、Indigo Design App Builder では、ユーザーのナビゲート方法に基づいて挿入または切り替えられる個別のビューを作成できます。このアクションを確認するには、[Create New App] ボタンを使用して新しいアプリを作成し、定義された上部ナビゲーションを表示するデフォルトのレイアウトの 1 つを選択します。 
 
 <img class="responsive-img" src="../images/add-layout-preset.png" srcset="../images/add-layout-preset-@2x.png 2x" />
-<p style="text-align:center;">Add layout preset from the Menu button, then select Create New App</p>
+<p style="text-align:center;">メニュー ボタンからレイアウト プリセットを追加し、[Create New App] を選択する</p>
 
-## Parent view vs. Child views 
+## 親ビュー vs. 子ビュー
 
-What you see here is the master view. And when you look at the views list in the toolbox, you can see that there are two child views nested under it. Each child view corresponds to the navigation buttons in the primary toolbar area. When you preview the app, you will see that clicking on view 1 shows you content available inside view 1, and similarly for view 2. 
+ここに表示されているのは Master View です。また、ツールボックスの Views リストを見ると、その下に 2 つの子ビューがネストされていることがわかります。各子ビューは、プライマリ ツールバー領域のナビゲーション ボタンに対応しています。アプリをプレビューすると、View 1 をクリックすると、[View 1] 内で利用可能なコンテンツが表示され、[View 2] でも同様に表示されます。 
 
 <img class="responsive-img" src="../images/top-navigation-interactions-preview-Indigo-Design-App-Builder.gif" />
-<p style="text-align:center;">Switch between views - layout preset</p>
+<p style="text-align:center;">ビューを切り替える - レイアウト プリセット</p>
 
-Regarding the master view and child view concept, it should be noted that the master view represents the shell of your app, and can container UI elements that will be shared across all it's child views. In this case, the navigation toolbar and the side navigation are the shared components. To inject the child views based on navigation, you can add a component called a views-container to serve as a place-holder. And this is the area where child-views are rendered. The Views-container, by default, occupies the available space. 
+マスター ビューと子ビューの概念に関しては、マスター ビューはアプリのシェルを表し、すべての子ビューで共有される UI 要素を含めることができることに注意してください。この場合、ナビゲーション ツールバーとサイド ナビゲーションは共有コンポーネントです。ナビゲーションに基づいて子ビューを挿入するには、[Views Container] と呼ばれるコンポーネントを追加してプレースホルダーとして機能させることができます。そして、これは子ビューが描画される領域です。Views Container は、デフォルトで使用可能なスペースを占めます。
 
 <img class="responsive-img" src="../images/switch-views-indigo-design-app-builder.gif" />
-<p style="text-align:center;">Switch between views - sample app</p>
+<p style="text-align:center;">ビューを切り替える - サンプルアプリ</p>
 
-The views-container has a property to define which of the two child views will be shown by default when the app loads. Once the Views container is selected, from the Views Container Properties can be defined which is the default child view displayed.
+Views Container には、アプリの読み込み時に 2 つの子ビューのどちらがデフォルトで表示されるかを定義するプロパティがあります。[Views Container] を選択すると、Views Container のプロパティから、表示されるデフォルトの子ビューを定義できます。
 
 <img class="responsive-img" src="../images/views-container-indigo-design-app-builder.png" srcset="../images/views-container-indigo-design-app-builder-@2x.png
  2x" />
-<p style="text-align:center;">Views container component - sample app</p>
+<p style="text-align:center;">Views Container コンポーネント - サンプル アプリ</p>
 
 
 <img class="responsive-img" src="../images/views-interaction-Indigo-Design-App-Builder.gif" />
-<p style="text-align:center;">Change views interaction - sample app</p>
+<p style="text-align:center;">ビューの変更の操作 - サンプル アプリ</p>
 
-## Add navigations (routing)  
+## ナビゲーションの追加 (ルーティング) 
 
-To connect the navigation to the child views, a navigation action to the button in the 'interactions' section can be added. Currently, we offer Navigate to and Toggle (for components like Nav Drawer, Dropdown and Select) actions, but we'll be adding more actions in future releases. 
+ナビゲーションを子ビューに接続するために、[Interactions] セクションのボタンへナビゲーション アクションを追加できます。現在、[Navigate to] および [Toggle] (Nav Drawer、Dropdown、Select などのコンポーネント用) アクションを提供していますが、将来のリリースでさらにアクションを追加する予定です。 
 
 
 <img class="responsive-img" src="../images/change-navigation-Indigo-Design-App-Builder.png" srcset="../images/change-navigation-Indigo-Design-App-Builder-@2x.png
  2x" />
- <p style="text-align:center;">Define navigation - sample app</p>
+ <p style="text-align:center;">ナビゲーションを定義する - サンプル アプリ</p>
 
 
-That's it for single page apps and the navigation feature. To summarize, child views are injected inside the master view based on navigate action. Child views are hosted inside the master view using the views-container component. And components added to the master view are shared across all it's children views. 
+単一ページ アプリとナビゲーション機能については以上です。要約すると、子ビューは、ナビゲート アクションに基づいて [Master View] 内に挿入されます。子ビューは、[Views Container] コンポーネントを使用して [Master View] 内でホストされます。また、[Master View] に追加されたコンポーネントは、すべての子ビューで共有されます。
 
 
-## Additional Resources
+## その他のリソース
 
 <div class="divider--half"></div>
 
-* [Preview Code and Generate App](preview-code-and-generate-app.md)
-* [Angular Routing](https://angular.io/start/start-routing)
+* [コードをプレビューしてアプリを生成する](preview-code-and-generate-app.md)
+* [Angular ルーティング](https://angular.io/start/start-routing)

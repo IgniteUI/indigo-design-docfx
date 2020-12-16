@@ -7,14 +7,14 @@ _language: ja
 
 # Flex レイアウト（および配置） 
 
-One of the greatest differences between the Indigo Design App Builder and the regular product design tools are the flex-based layouts used in the design-to-code tool. Since the Indigo Design App Builder is targeting web apps, we are offering Flex as one of the approaches to create layouts. ツールボックスの行または列のレイアウト ンポーネントとして利用できます。ここに表示されている最も外側のコンテナはキャンバスであり、flex 設定がすでに適用されています。プロパティ パネルで Viewport のサイズを編集することにより、キャンバス サイズを変更できます。
+Indigo Design App Builder と通常の製品デザイン ツールの最大の違いの 1 つは、デザインからコードまでのツールで使用される Flex に基づくレイアウトです。Indigo Design App Builder は Web アプリを対象としているため、レイアウトを作成するアプローチの 1 つとして Flex を提供しています。ツールボックスの行または列のレイアウト ンポーネントとして利用できます。ここに表示されている最も外側のコンテナはキャンバスであり、flex 設定がすでに適用されています。プロパティ パネルで Viewport のサイズを編集することにより、キャンバス サイズを変更できます。
 
 <img class="responsive-img" src="../../images/edit-create-canvas-size-Indigo-Design-App-Builder.gif" />
 <p style="text-align:center;">キャンバス サイズの変更</p>
 
 ## 行と列のレイアウト 
 
-Flex レイアウト コンテナには、ネストされた UI 要素の位置を変更できる設定があります。H.align プロパティと V.Aalign プロパティには、それぞれのドロップダウンから簡単に適用できる flex プロパティがあります。キャンバスのデフォルトは行レイアウトで、水平方向に左揃えになり、垂直方向に引き伸ばされます。何から始めたかに関係なく、いつでも行と列のレイアウトを切り替えることができます。レイアウト コンテナのサイズはコンテンツに基づいていますが、高さと幅はいつでも指定できます。You can also add the padding property to container, and margins to space out the child UI elements - that can be done after selection a particular component and editing the padding or margin in the Property Panel on the right-hand side of the screen.
+Flex レイアウト コンテナには、ネストされた UI 要素の位置を変更できる設定があります。H.align プロパティと V.Aalign プロパティには、それぞれのドロップダウンから簡単に適用できる flex プロパティがあります。キャンバスのデフォルトは行レイアウトで、水平方向に左揃えになり、垂直方向に引き伸ばされます。何から始めたかに関係なく、いつでも行と列のレイアウトを切り替えることができます。レイアウト コンテナのサイズはコンテンツに基づいていますが、高さと幅はいつでも指定できます。Padding プロパティをコンテナに追加し、マージンを追加して子 UI 要素のスペースを空けることもできます。これは、特定のコンポーネントを選択し、画面右側のプロパティ パネルでパディングまたはマージンを編集した後に実行できます。
 
 <img class="responsive-img" src="../../images/row-column-layout-Indigo-Design-App-Builder.gif" />
 <p style="text-align:center;">レイアウト プロパティ</p>

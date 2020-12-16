@@ -5,30 +5,30 @@ _keywords: App Builder, Web App Builder, デザイン システム, デザイン
 _language: ja
 ---
 
-# Interface overview 
+# インターフェイスの概要 
 
-The Indigo App Builder interface is similar to the interface of most design tools you may already be used to, with some minor differences. But in all cases you are going to get used to it very quickly.
-There are four main sections in the Indigo Design App Builder.
+Indigo App Builder のインターフェースは、すでに慣れているほとんどのデザイン ツールのインターフェースに似ていますが、多少違いがあります。しかし、すぐにそれに慣れるでしょう。
+Indigo Design AppBuilder には 4 つの主要なセクションがあります。
 
 
 <img class="responsive-img" src="../images/interface-parts-Indigo-Design-App-Builder.png" srcset="../images/interface-parts-Indigo-Design-App-Builder-@2x.png 2x" />
-<p style="text-align:center;">Interface screen parts</p>
+<p style="text-align:center;">インターフェース画面パーツ</p>
 
 ## Toolbox 
 
-The **Toolbox** is the section on the left-hand side and it includes five tabs for **Components, Views, Data Sources, Themes** and the **Outline Tree**. The Components tab gives you access to all available Ignite UI for Angular components, as well as some Indigo Design App Builder general components, such as absolute, row, column layout and views container. The search input on the top of the components list makes easy to find a particular component. All of the components are conveniently distributed into groups based on their application. The grayed-out components have still not been added, and are thus disabled, but soon will be implemented in future updates. Below the Components tab you will find the Views tab. In the views tab you can find all the views in the application displayed with their parent-child relationships. The third tab is Data. This is where all data sources and related options are located. You can view and edit all available data sources, as well as add a new one. The fourth tab gives you access to all theming capabilities and to all available preconfigured themes. You can create and edit your own themes and quickly switch between them. The last tab - the Outline Tree - shows you a detailed hierarchy of the components in the selected app view.
+**ツールボックス**は左側のセクションであり、**Components、Views、Data Sources、Themes**、および **Outline Tree** 用の 5 つのタブが含まれています。[Components] タブでは、使用可能なすべての Ignite UI for Angular コンポーネントに加えて、絶対、行、列のレイアウト、ビュー コンテナなどの Indigo Design App Builder の一般的なコンポーネントにアクセスできます。コンポーネント リストの上部にある検索入力により、特定のコンポーネントを簡単に見つけることができます。すべてのコンポーネントは、応用に基づいてグループに簡単に分散されます。グレーアウトされたコンポーネントはまだ追加されていないため無効になっていますが、まもなく将来のアップデートで実装される予定です。[Components] タブの下に、[Views] タブがあります。[Views] タブでは、親子関係で表示されるアプリケーションのすべてのビューを見つけることができます。3 番目のタブは [Data] です。これは、すべてのデータソースと関連オプションが配置されている場所です。使用可能なすべてのデータソースを表示および編集し、新しいデータソースを追加できます。4 番目のタブでは、すべてのテーマ機能と、使用可能なすべての事前構成済みテーマにアクセスできます。独自のテーマを作成および編集して、すばやく切り替えることができます。最後のタブ (Outline Tree) には、選択したアプリ ビューのコンポーネントの詳細な階層が表示されます。
 
-## Design Canvas
+## デザイン キャンバス
 
-In the middle of the screen is the **Design Canvas** where the applications are being designed. Simply, drag & drop or double click on the component you want to add from the **Toolbox** and it will appear on the **Design Canvas** as a part of the application view that is being designed. At the bottom, you can see the zoom bar with some helpful options like predefined zoom values, set to actual size or zoom to fit. To the right of the zoom bar is the Send Feedback button which lets you send us feedback or feature requests directly from the Indigo Design App Builder, without interrupting your app design process.  
-
-
-## Property Panel
-
-On the right side of the screen is the **Property Panel** with viewport, **Design Canvas** and components related options. Once a component is selected, the properties in the **Property Panel** can be used to edit component’s size, position, layout, spacing, and/or to add data repeaters and interactions. The **Property Panel** offers you properties specific to each component type.
+画面の中央には、アプリケーションがデザインされている**デザイン キャンバス**があります。**ツールボックス**から追加するコンポーネントをドラッグアンドドロップまたはダブルクリックするだけで、デザイン中のアプリケーション ビューの一部として**デザイン キャンバス**に表示されます。下部には、事前定義されたズーム値、実際のサイズに設定、フィットするようにズームなどの便利なオプションを備えたズーム バーが表示されます。ズーム バーの右側には [Send Feedback] ボタンがあり、アプリのデザイン プロセスを中断することなく、Indigo Design App Builder から直接フィードバックや機能リクエストを送信できます。  
 
 
-## Additional Resources
+## プロパティ パネル
+
+画面の右側には、ビューポート、**デザイン キャンバス**、およびコンポーネント関連のオプションを備えた**プロパティ パネル**があります。コンポーネントを選択すると、**プロパティ パネル**のプロパティを使用して、コンポーネントのサイズ、位置、レイアウト、間隔を編集し、データ リピーターやインタラクションを追加できます。**プロパティ パネル**には、各コンポーネント タイプに固有のプロパティが表示されます。
+
+
+## その他のリソース
 <div class="divider--half"></div>
 
-* [Indigo Design App Builder Components](indigo-design-app-builder-components.md)
+* [Indigo Design App Builder コンポーネント](indigo-design-app-builder-components.md)
