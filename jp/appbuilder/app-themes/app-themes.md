@@ -7,6 +7,16 @@ _language: ja
 
 # Indigo Design App Builder テーマ
 
+<section class="feature__container">
+    <div class="feature">
+        <div class="feature__image">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/tuTELBXDKYA" frameborder="0" allowfullscreen></iframe>
+            <p>テーマをカスタマイズする</p>
+            <br>
+        </div>
+    </div>
+</section>
+
 [Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) は、UI 作成にデザイン システム アプローチを採用しており、アプリ レベルでテーマを適用できます。テーマを 1 回選択するだけで、そのテーマはアプリケーション全体に即座にグローバルに適用されます。これにより、メンテナンスが難しいローカル スタイルを作成する必要がなくなります。  
 
 ## App Builder テーマを切り替える
