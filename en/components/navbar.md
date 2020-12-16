@@ -12,26 +12,26 @@ Use the Navbar Component to provide clarity for the user about current position 
 
 <img class="responsive-img" src="../images/navbar_demo.png" srcset="../images/navbar_demo@2x.png 2x" />
 
-## Type
+## Content Layout
 
-The Navbar offers three layout configurations defined by the following types: **icon action and title**, text action and title, and title.
+The Navbar content consists of a left action, a title, and four icons next to each other on the right. You can configure the Navbar layout by setting the left action or the icons to ~No Symbol.
 
-<img class="responsive-img" src="../images/navbar_lefticon.png" srcset="../images/navbar_lefticon@2x.png 2x" />
-<img class="responsive-img" src="../images/navbar_lefttext.png" srcset="../images/navbar_lefttext@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_left&right.png" srcset="../images/navbar_left&right@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_noright.png" srcset="../images/navbar_noright@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_noleft.png" srcset="../images/navbar_noleft@2x.png 2x" />
 
 ## Action Icons
 
-Every Navbar can support up to four action icons, rendered right to left, starting from the right edge of the screen that can trigger different simple events.
+The Navbar can support up to four action icons on the right that can trigger different simple events.
 
-<img class="responsive-img" src="../images/navbar_icon1.png" srcset="../images/navbar_icon1@2x.png 2x" />
-<img class="responsive-img" src="../images/navbar_icon2.png" srcset="../images/navbar_icon2@2x.png 2x" />
-<img class="responsive-img" src="../images/navbar_icon3.png" srcset="../images/navbar_icon3@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_icon4.png" srcset="../images/navbar_icon4@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_icon3.png" srcset="../images/navbar_icon3@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_icon2.png" srcset="../images/navbar_icon2@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_icon1.png" srcset="../images/navbar_icon1@2x.png 2x" />
 
 ## Styling
 
-The Navbar comes with basic styling capabilities achievable through changing the title, icon, and background colors.
+The Navbar comes with basic styling capabilities achievable through changing the title, icons, border and background colors.
 
 <img class="responsive-img" src="../images/navbar_styling.png" srcset="../images/navbar_styling@2x.png 2x" />
 
@@ -44,44 +44,12 @@ Navbar actions should be carefully used to avoid situations where they overlap w
 | <img class="responsive-img" src="../images/navbar_do1.png" srcset="../images/navbar_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/navbar_dont1.png" srcset="../images/navbar_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/navbar_do2.png" srcset="../images/navbar_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/navbar_dont2.png" srcset="../images/navbar_dont2@2x.png 2x" /> |
 
-## Code generation
-
-This section describes some important overrides and how they affect code generation.
-
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Navbar in your design is very likely to result in loss of code generation capability for the Navbar.
-
-### Event
-
-When supplied from the Action Button the `🕹️Event` property is used to create a method in the component TypeScript and add an onAction signature in the HTML. When supplied from the Action Icons the `🕹️Event` property is used to create an method in the component TypeScript and add an onClick signature in the HTML. When supplied the event must be specified using the curly braces format: {onEventName}.
-
-### Type
-
-When supplied will determine the type of NavBar to display. If set to None, the control will not render.
-
-### Action Button Icon
-
-When supplied determines the Icon to be used for the Action Button on the left of the NavBar control. The color selected for this Icon will determine the color used for all Icons on this control.
-
-### Title
-
-When supplied will display text inside the title area of the NavBar. The Title properties may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
-
-- Settings
-- {settingsLabel}
-- Important {labelText}
-
-### Action Icons
-
-When suppled up to 4 icons will appear on the right side of the NavBar.
-
 ## Additional Resources
 
 Related topics:
 
 - [Icon](icon.md)
 - [Navigation Drawer](nav-drawer.md)
-- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
