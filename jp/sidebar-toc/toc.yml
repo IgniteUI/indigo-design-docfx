@@ -5,17 +5,17 @@
 - name: ビデオ チュートリアル
   href: ../video-tutorials.md
 
-- name: App Builder Overview
+- name: App Builder の概要
   href: ../appbuilder/app-builder-overview.md
   header: true
-- name: Getting Started
+- name: はじめに
   href: ../appbuilder/getting-started.md
-- name: Interface Overview
+- name: インターフェイスの概要
   href: ../appbuilder/interface-overview.md
-- name: Flex layouts
+- name: Flex レイアウト
   href: ../appbuilder/flex-layouts/flex-layouts.md
   # items:
-  #   - name: Row and column layout
+  #   - name: 行と列のレイアウト
   #     href: ../appbuilder/flex-layouts/row-and-column-layout.md
   #   - name: Fluid resizing & wrapping
   #     href: ../appbuilder/flex-layouts/fluid-resizing-and-wrapping.md
@@ -23,14 +23,14 @@
   #     href: ../appbuilder/flex-layouts/add-to-layout-via-context-menu.md
   #   - name: Additional resources to learn about web-layouts
   #     href: ../appbuilder/flex-layouts/additional-resources-to-learn-about-web-layouts.md
-- name: Indigo.Design App Builder components
+- name: Indigo.Design App Builder コンポーネント
   href: ../appbuilder/indigo-design-app-builder-components.md
   # items:
   #   - name: Quick add components
   #     href: ../appbuilder/indigo-design-components/quick-add-components.md
   #   - name: Configuring components
   #     href: ../appbuilder/indigo-design-components/configuring-components.md
-- name: App Themes
+- name: App テーマ
   href: ../appbuilder/app-themes/app-themes.md
   # items:
   #   - name: Switching app themes
@@ -39,14 +39,14 @@
   #     href: ../appbuilder/app-themes/material-vs-fluent-vs-bootstrap.md
   #   - name: Customize & apply theme 
   #     href: ../appbuilder/app-themes/customize-and-apply-theme.md
-- name: Single page apps and navigation
+- name: 単一ページアプリとナビゲーション
   href: ../appbuilder/single-page-apps-and-navigation.md
   # items:
   #   - name: Master view vs. Child views
   #     href: ../appbuilder/spa-and-navigation/master-view-vs-child-views.md
   #   - name: Add navigations (routing)
   #     href: ../appbuilder/spa-and-navigation/add-navigations-routing.md
-- name: Preview code and generate app
+- name: コードをプレビューしてアプリを生成する
   href: ../appbuilder/preview-code-and-generate-app.md
   # items:
   #   - name: Preview code
