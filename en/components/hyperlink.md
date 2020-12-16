@@ -14,7 +14,7 @@ Use the Hyperlink Component to allow the user access additional information rela
 
 ## Size
 
-The Hyperlink comes in two different sizes matching the available sizes for paragraph text: a 16pt Body 1 and a 14pt Body 2.
+The Hyperlink comes in two different sizes matching the available sizes for paragraph text: Body 1 and Body 2.
 
 <img class="responsive-img" src="../images/hyperlink_sizes.png" srcset="../images/hyperlink_sizes@2x.png 2x" />
 
