@@ -53,8 +53,8 @@ When showing Time Picker as a Dialog add a layer that dims the rest of the UI, a
 | Do                                                                                     | Don't                                                                                      |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | <img class="responsive-img" src="../images/timepicker_do1.png" srcset="../images/timepicker_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/timepicker_dont1.png" srcset="../images/timepicker_dont1@2x.png 2x" /> |
-| <img class="responsive-img" src="../images/timepicker_do1.png" srcset="../images/timepicker_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/timepicker_dont1.png" srcset="../images/timepicker_dont3@2x.png 2x" /> |
-| <img class="responsive-img" src="../images/timepicker_do1.png" srcset="../images/timepicker_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/timepicker_dont1.png" srcset="../images/timepicker_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/timepicker_do3.png" srcset="../images/timepicker_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/timepicker_dont3.png" srcset="../images/timepicker_dont3@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/timepicker_do2.png" srcset="../images/timepicker_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/timepicker_dont2.png" srcset="../images/timepicker_dont2@2x.png 2x" /> |
 
 ## Additional Resources
 

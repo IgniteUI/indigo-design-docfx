@@ -10,41 +10,55 @@ Use the Date Picker Component to represent a date visually and provide appropria
 
 ## Date Picker Demo
 
-<img class="responsive-img" src="../images/timepicker_demo.png" srcset="../images/timepicker_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_demo.png" srcset="../images/datepicker_demo@2x.png 2x" />
 
-## Time Picker Input
+## Date Picker Input
 
-You may insert a Time Picker Input in your forms to indicate fields for selecting just the time portion of the date. It supports Enabled and Disabled interactive states, as well as variant for Dialog and Drop-down that will be shown upon user interaction.
+You may insert a Date Picker Input in your forms to indicate fields for selecting a date. It supports Enabled and Disabled interactive states, as well as variant for Dialog and Drop-down that will be shown upon user interaction.
 
-<img class="responsive-img" src="../images/timepicker_enabled.png" srcset="../images/timepicker_enabled@2x.png 2x" />
-<img class="responsive-img" src="../images/timepicker_disabled.png" srcset="../images/timepicker_disabled@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_enabled.png" srcset="../images/datepicker_enabled@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_disabled.png" srcset="../images/datepicker_disabled@2x.png 2x" />
 
 ## Picker Layout
 
-The Time Picker supports Dialog layout with Horizontal and Vertical orientation, as well as a Drop-down layout to facilitate different modes of picking time. Notice that Dialog layouts come with a Header that you may hide by setting its override to ~No Symbol, but still the shadow it casts allows to distinguish it from a Drop-down layout.
+The Date Picker supports Dialog layout with Horizontal and Vertical orientation, as well as a Drop-down layout to facilitate different modes of picking dates. Notice that Dialog layouts come with a Header that you may hide by setting its override to ~No Symbol, but still the shadow it casts allows to distinguish it from a Drop-down layout.
 
-<img class="responsive-img" src="../images/timepicker_horizontal.png" srcset="../images/timepicker_horizontal@2x.png 2x" />
-<img class="responsive-img" src="../images/timepicker_vertical.png" srcset="../images/timepicker_vertical@2x.png 2x" />
-<img class="responsive-img" src="../images/timepicker_dropdown.png" srcset="../images/timepicker_dropdown@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_horizontal.png" srcset="../images/datepicker_horizontal@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_vertical.png" srcset="../images/datepicker_vertical@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_dropdown.png" srcset="../images/datepicker_dropdown@2x.png 2x" />
 
-## Content
+## Week Start
 
-The Time Picker supports 12 and 24 hour formats through two distinct content modes. Besides the hour and minute portion, the 12-hour content mode provides a meridiem portion, where selection between AM and PM is possible.
+The start of the week can also be chosen as an option at the time of inserting a Date Picker between the two most common scenarios for first day of the week: Sunday and Monday.
 
-<img class="responsive-img" src="../images/timepicker_dropdown.png" srcset="../images/timepicker_dropdown@2x.png 2x" />
-<img class="responsive-img" src="../images/timepicker_24mode.png" srcset="../images/timepicker_24mode@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_dropdown.png" srcset="../images/datepicker_dropdown@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_monday.png" srcset="../images/datepicker_monday@2x.png 2x" />
+
+## Week Numbers
+
+The Date Picker has the same built-in support for Week Numbers like the Calendar. If you prefer not to show this part of the UI, simply set the Week Numbers override to ~No Symbol.
+
+<img class="responsive-img" src="../images/datepicker_weeknumbers.png" srcset="../images/datepicker_weeknumbers@2x.png 2x" />
+
+## Selection
+
+Akin to the Calendar, the Date Picker lets you pick between three selection modes: **Single Day** limiting the user to be able to select only one date, Multiple Days allowing selection of random dates, and Range providing means to select all dates between a start and end date.
+
+<img class="responsive-img" src="../images/datepicker_dropdown.png" srcset="../images/datepicker_dropdown@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_selection.png" srcset="../images/datepicker_selection@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_range.png" srcset="../images/datepicker_range@2x.png 2x" />
 
 ## Buttons
 
-The Time Picker comes with two buttons: one for canceling the selection, which would revert the time to the original one, and one for confirming the selection, which would save the changes made. The Button area is templatable allowing you, for example, to hide a button by setting its override to ~No Symbol, or assign a different action to it.
+The Drop-down Date Picker comes with two buttons: one for closing in and keeping the current selection, and one for navigating to today. The Button area is templatable allowing you, for example, to hide a button by setting its override to ~No Symbol, or assign a different action to it. The Dialog Date Picker comes with no buttons by default because upon selecting a date, the dialog closes automatically.
 
-<img class="responsive-img" src="../images/timepicker_buttons.png" srcset="../images/timepicker_buttons@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_buttons.png" srcset="../images/datepicker_buttons@2x.png 2x" />
 
 ## Styling
 
 The Time Picker comes with styling flexibility through the various overrides controlling header background and title colors, as well as text colors for the selected hour, minute, and meridiem (AM/PM). The Cancel and OK buttons are Flat Buttons and can be styled accordingly.
 
-<img class="responsive-img" src="../images/timepicker_styling.png" srcset="../images/timepicker_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_styling.png" srcset="../images/datepicker_styling@2x.png 2x" />
 
 ## Usage
 
@@ -52,7 +66,8 @@ Show the Horizontal and Vertical Time Pickers as a dialog that dims the rest of 
 
 | Do                                                                                     | Don't                                                                                      |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| <img class="responsive-img" src="../images/timepicker_do1.png" srcset="../images/timepicker_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/timepicker_dont1.png" srcset="../images/timepicker_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/datepicker_do1.png" srcset="../images/datepicker_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/datepicker_dont1.png" srcset="../images/datepicker_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/datepicker_do2.png" srcset="../images/datepicker_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/datepicker_dont2.png" srcset="../images/datepicker_dont2@2x.png 2x" /> |
 
 ## Additional Resources
 
