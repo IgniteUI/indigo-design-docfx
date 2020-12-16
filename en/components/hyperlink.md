@@ -20,9 +20,9 @@ The Hyperlink comes in two different sizes matching the available sizes for para
 
 ## Styling
 
-The Hyperlink can be styled through the Styling library by changing its default blue color to another one.
+The Hyperlink can be styled through the Styling library by changing its default blue color to another one, and you can change the URL and text.
 
-<img class="responsive-img" src="../images/calendar_styling.png" srcset="../images/calendar_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/hyperlink_styling.png" srcset="../images/hyperlink_styling@2x.png 2x" />
 
 ## Usage
 
@@ -32,40 +32,11 @@ Always choose a Hyperlink text color that makes it stand out in a paragraph. Avo
 | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/hyperlink_do1.png" srcset="../images/hyperlink_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/hyperlink_dont1.png" srcset="../images/hyperlink_dont1@2x.png 2x" /> |
 
-## Code Generation
-
-This section describes some important overrides and how they affect code generation.
-
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Hyperlink in your design is very likely to result in loss of code generation capability for the Hyperlink.
-
-### Event Property
-
-When supplied, this property is used to create a method in the component TypeScript and add an Angular click signature in the HTML. When supplied the event must be specified using the curly braces format: {onEventName}.
-
-### LinkURL
-
-The LinkURL accepts a URL or a [binding](../codegen/data-binding.md). When supplied these values will be assigned to the href property on the HTML control.
-
-- Example URL: http://www.infragistics.com
-- Example binding: {companyWebsite}
-
-### Text
-
-The Text property may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
-
-- Settings
-- {settingsLabel}
-- Important {labelText}
-
-When supplied the Text property is used to fill in the text to display for the Hyperlink.
-
 ## Additional Resources
 
 Related topic:
 
 - [Form Pattern](../patterns/form.md)
-- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
