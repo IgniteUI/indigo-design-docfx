@@ -14,7 +14,7 @@ Indigo Design AppBuilder には 4 つの主要なセクションがあります�
 <img class="responsive-img" src="../images/interface-parts-Indigo-Design-App-Builder.png" srcset="../images/interface-parts-Indigo-Design-App-Builder-@2x.png 2x" />
 <p style="text-align:center;">インターフェース画面パーツ</p>
 
-## Toolbox 
+## ツールボックス 
 
 **ツールボックス**は左側のセクションであり、**Components、Views、Data Sources、Themes**、および **Outline Tree** 用の 5 つのタブが含まれています。[Components] タブでは、使用可能なすべての Ignite UI for Angular コンポーネントに加えて、絶対、行、列のレイアウト、ビュー コンテナなどの Indigo Design App Builder の一般的なコンポーネントにアクセスできます。コンポーネント リストの上部にある検索入力により、特定のコンポーネントを簡単に見つけることができます。すべてのコンポーネントは、応用に基づいてグループに簡単に分散されます。グレーアウトされたコンポーネントはまだ追加されていないため無効になっていますが、まもなく将来のアップデートで実装される予定です。[Components] タブの下に、[Views] タブがあります。[Views] タブでは、親子関係で表示されるアプリケーションのすべてのビューを見つけることができます。3 番目のタブは [Data] です。これは、すべてのデータソースと関連オプションが配置されている場所です。使用可能なすべてのデータソースを表示および編集し、新しいデータソースを追加できます。4 番目のタブでは、すべてのテーマ機能と、使用可能なすべての事前構成済みテーマにアクセスできます。独自のテーマを作成および編集して、すばやく切り替えることができます。最後のタブ (Outline Tree) には、選択したアプリ ビューのコンポーネントの詳細な階層が表示されます。
 

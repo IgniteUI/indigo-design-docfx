@@ -43,4 +43,4 @@ Mac でキーボード ショートカットの ctrl + E または cmd + E を�
 ## その他のリソース
 <div class="divider--half"></div>
 
-* [アプリ テーマ](app-themes/app-themes.md)
+* [テーマ](app-themes/app-themes.md)

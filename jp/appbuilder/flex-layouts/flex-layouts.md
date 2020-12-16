@@ -56,6 +56,6 @@ Flex レイアウト コンテナには、ネストされた UI 要素の位置�
 <div class="divider--half"></div>
 
 * [App Builder コンポーネント](../indigo-design-app-builder-components.md)
-* [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
-* [Flexbox のガイド](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [Flexbox Froggy](https://flexboxfroggy.com/)
+* [Flexbox (英語)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+* [Flexbox のガイド (英語)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [Flexbox Froggy (英語)](https://flexboxfroggy.com/)
