@@ -1,35 +1,46 @@
 ---
-title: Indigo Design App Builder Components
-_description: Check all available Ignite UI for Angular components, as well as some Indigo Design general components, such as absolute, row, column layout, and views container.
-_keywords: App builder components, Indigo Design, Infragistics
+title: Indigo Design App Builder コンポーネント
+_description: 利用可能なすべての Ignite UI for Angular コンポーネントと、絶対、行、列レイアウト、ビュー コンテナなどのいくつかの Indigo Design 一般コンポーネントを確認します。
+_keywords: App builder コンポーネント, Indigo Design, インフラジスティックス
+_language: ja
 ---
 
-# Indigo Design Components
+# Indigo Design コンポーネント
 
-The **Toolbox** tab on the left let you cycle through the list of all available [Ignite UI for Angular]({environment:infragisticsBaseUrl}/products/ignite-ui-angular) components, as well as some [Indigo.Design]({environment:infragisticsBaseUrl}/products/indigo-design) general components, such as absolute, row, column layout and views container. The search input on the top of the components list makes it easy to find a particular component. All of the components are conveniently distributed into groups based on their usage. The grayed-out components have still not been added, and are thus disabled, but soon will be available in next updates. Components can be added to the **Design Canvas** by dragging and dropping them from the **Toolbox**.
+<section class="feature__container">
+    <div class="feature">
+        <div class="feature__image">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/omlSzOuvFlM" frameborder="0" allowfullscreen></iframe>
+            <p>Indigo.Design コンポーネントの使用</p>
+            <br>
+        </div>
+    </div>
+</section>
 
-## Quick add components 
+左側の**ツールボックス** タブでは、使用可能なすべての [Ignite UI for Angular]({environment:infragisticsBaseUrl}/products/ignite-ui-angular) のリストと、絶対、行、列のレイアウト、ビュー コンテナなどの [Indigo.Design]({environment:infragisticsBaseUrl}/products/indigo-design) の一般的なコンポーネントを順番に表示できます。コンポーネント リストの上部にある検索入力により、特定のコンポーネントを簡単に見つけることができます。すべてのコンポーネントは、使用法に基づいてグループに簡単に分散されます。グレーアウトされたコンポーネントはまだ追加されていないため無効になっていますが、間もなく次のアップデートで利用できるようになります。コンポーネントは、**ツールボックス**からドラッグアンドドロップすることで**デザイン キャンバス**に追加できます。
 
-You can also use our quick-add feature by using the keyboard shortcut ctrl+E or cmd+E on a macs to search and add components. Just remember "E" stands for everything. The quick-add keeps track of recently used components making it faster to add components you use frequently. Double-clicking a component in the **Toolbox** will also add it to the **Design Canvas**.  
+## クイック追加のコンポーネント 
+
+Mac でキーボード ショートカットの ctrl + E または cmd + E を使用してコンポーネントを検索および追加することにより、クイック追加機能を使用することもできます。「E」 はすべてを表すことを覚えておいてください。クイック追加は、最近使用したコンポーネントを追跡し、頻繁に使用するコンポーネントをすばやく追加できるようにします。**ツールボックス**でコンポーネントをダブルクリックすると、そのコンポーネントも**デザイン キャンバス**に追加されます。  
 
 <img class="responsive-img" src="../images/quick-add-Indigo-Design-App-Builder.gif" />
-<p style="text-align:center;">Quick add a component</p>
+<p style="text-align:center;">コンポーネントのクイック追加</p>
 
-## Configuring components 
+## コンポーネントの構成 
 
-Every component comes with a set of preset types that match the Indigo.Design system. For instance, there are three preset types of buttons in the Indigo.Design system - raised, outlined and flat. 
+すべてのコンポーネントには、Indigo.Design システムに一致する一連のプリセット タイプが付属しています。たとえば、Indigo.Design システムには、Raised、Outline、Flat の 3 つのプリセット タイプのボタンがあります。
 
 
 <img class="responsive-img" src="../images/component-presets-Indigo-Design-App-Builder.gif" />
-<p style="text-align:center;">Component's presets</p>
+<p style="text-align:center;">コンポーネントのプリセット</p>
 
-For more complex components, like an input field or say card component, you can turn ON/OFF sections of the component. Also, the component properties also reflect the visual structure of the component, and match the specifications you will find in our developer toolkit like [Ignite UI for Angular]({environment:infragisticsBaseUrl}/products/ignite-ui-angular). In the case of an input field, you can enable or disable the prefix section to add a leading icon. 
+入力フィールドやカード コンポーネントなどのより複雑なコンポーネントの場合は、コンポーネントのセクションをオン/オフにすることができます。また、コンポーネントのプロパティはコンポーネントの視覚的な構造も反映しており、[Ignite UI for Angular]({environment:infragisticsBaseUrl}/products/ignite-ui-angular) などの開発者ツールキットにある仕様と一致します。入力フィールドの場合、プレフィックス セクションを有効または無効にして、先頭のアイコンを追加できます。 
 
 
 <img class="responsive-img" src="../images/turn-on-off-properties-Indigo-Design-App-Builder.gif" />
-<p style="text-align:center;">Turn off component's properties</p>
+<p style="text-align:center;">コンポーネントのプロパティをオフにする</p>
 
-## Additional Resources
+## その他のリソース
 <div class="divider--half"></div>
 
-* [App Themes](app-themes/app-themes.md)
+* [テーマ](app-themes/app-themes.md)
