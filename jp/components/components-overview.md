@@ -13,7 +13,7 @@ Sketch ライブラリには、関連するすべてのコンポーネントと�
 
 <img class="responsive-img" src="../images/components-page.png" />
 
-すべての **Indigo.Design システム** コンポーネントは、ユーザー インターフェイスのテーマ設定やブランディングを行うための複雑なメカニズムを活用できるように、リジッドな[スタイリングの基礎](../styling/styling-overview.md)の上に構築されています。
+すべての **Indigo.Design システム** コンポーネントは、ユーザー インターフェイスのテーマ設定やブランディングを行うための複雑なメカニズムを活用できるように、リジッドな[スタイリングの基礎](../style/styling-overview.md)の上に構築されています。
 
 > [!WARNING]
 > ライブラリからコンポーネント インスタンスのリンクを解除すると、デザイン システムの後続バージョンからの更新を自動的に適用できなくなり、コンポーネントのコード生成機能に影響する場合があります。コード生成サービスは、コンポーネントの状態、テンプレート、およびその他のプロパティのメタデータ記述を含む、特別に指定された `🚫 metadata` レイヤーに依存します。
@@ -22,7 +22,7 @@ Sketch ライブラリには、関連するすべてのコンポーネントと�
 
 関連トピック:
 
-- [スタイル設定](../styling/styling-overview.md)
+- [スタイル設定](../style/styling-overview.md)
 - [パターン](../patterns/patterns-overview.md)
   <div class="divider--half"></div>
 

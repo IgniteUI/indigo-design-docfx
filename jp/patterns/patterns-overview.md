@@ -40,7 +40,7 @@ _language: ja
 
 関連トピック:
 
-- [スタイル設定](../styling/styling-overview.md)
+- [スタイル設定](../style/styling-overview.md)
 - [コンポーネント](../components/components-overview.md)
   <div class="divider--half"></div>
 

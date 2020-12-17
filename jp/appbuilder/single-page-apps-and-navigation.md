@@ -24,7 +24,7 @@ Indigo.Design App Builder のもう 1 つの機能は、単一ページのアプ
 
 ## 親ビュー vs. 子ビュー
 
-ここに表示されているのは Master View です。また、ツールボックスの Views リストを見ると、その下に 2 つの子ビューがネストされていることがわかります。各子ビューは、プライマリ ツールバー領域のナビゲーション ボタンに対応しています。アプリをプレビューすると、View 1 をクリックすると、[View 1] 内で利用可能なコンテンツが表示され、[View 2] でも同様に表示されます。 
+ここに表示されているのは Master View です。また、ツールボックスの Views リストを見ると、その下に 2 つの子ビューがネストされていることがわかります。各子ビューは、プライマリ ツールバー領域のナビゲーション ボタンに対応しています。アプリをプレビューすると、[View 1] をクリックすると、[View 1] 内で利用可能なコンテンツが表示され、[View 2] でも同様に表示されます。 
 
 <img class="responsive-img" src="../images/top-navigation-interactions-preview-Indigo-Design-App-Builder.gif" />
 <p style="text-align:center;">ビューを切り替える - レイアウト プリセット</p>
@@ -62,4 +62,4 @@ Views Container には、アプリの読み込み時に 2 つの子ビューの�
 <div class="divider--half"></div>
 
 * [コードをプレビューしてアプリを生成する](preview-code-and-generate-app.md)
-* [Angular ルーティング](https://angular.io/start/start-routing)
+* [Angular ルーティング (英語)](https://angular.io/start/start-routing)
