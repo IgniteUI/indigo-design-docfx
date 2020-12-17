@@ -14,7 +14,7 @@ Use the Progress Component to establish clarity and expectancy about the progres
 
 ## Type
 
-The Progress supports two layout types to fit the variety of use cases and layout requirements: a Circular Bar and a Linear Bar.
+The Progress supports two layout types to fit the variety of use cases and layout requirements: a Circular Bar and a Linear Bar. Each of these two types has an Indeterminate type.
 
 <img class="responsive-img" src="../images/progress_circular.png" srcset="../images/progress_circular@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_linear.png" srcset="../images/progress_linear@2x.png 2x" />
@@ -24,20 +24,27 @@ The Progress supports two layout types to fit the variety of use cases and layou
 The Progress can be used in one of the following preset color combinations:
 
 - **default**
-- success: utilizing the `success` theme color to show the progress
-- warn: utilizing the `warn` theme color to show the progress
 - error: utilizing the `error` theme color to show the progress
 - info: utilizing the `info` theme color to show the progress
+- success: utilizing the `success` theme color to show the progress
+- warn: utilizing the `warn` theme color to show the progress
 
 <img class="responsive-img" src="../images/progress_default.png" srcset="../images/progress_default@2x.png 2x" />
-<img class="responsive-img" src="../images/progress_success.png" srcset="../images/progress_success@2x.png 2x" />
-<img class="responsive-img" src="../images/progress_warn.png" srcset="../images/progress_warn@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_error.png" srcset="../images/progress_error@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_info.png" srcset="../images/progress_info@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_success.png" srcset="../images/progress_success@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_warn.png" srcset="../images/progress_warn@2x.png 2x" />
+
+## Progress Amount
+
+The Progress allows you to choose the progress amount between six percentage variants. But you don't have this option for the Indeterminate Circular and Indeterminate Linear Bar types.
+
+<img class="responsive-img" src="../images/progress_circular-progress-amount.png" srcset="../images/progress_circular-progress-amount@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_linear-progress-amount.png" srcset="../images/progress_linear-progress-amount@2x.png 2x" />
 
 ## Styling
 
-The Progress comes with styling flexibility through the various overrides for its text, as well as changing the colors of stripes, fill, and track.
+The Progress comes with styling flexibility through the various overrides for its text, as well as changing the colors of progress, base, stripes, fill and track where applicable.
 
 <img class="responsive-img" src="../images/progress_striped.png" srcset="../images/progress_striped@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_clear.png" srcset="../images/progress_clear@2x.png 2x" />
@@ -52,39 +59,11 @@ In a Circular Bar, always use the actual value for the text label and, when addi
 | <img class="responsive-img" src="../images/progress_do1.png" srcset="../images/progress_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/progress_dont1.png" srcset="../images/progress_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/progress_do2.png" srcset="../images/progress_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/progress_dont2.png" srcset="../images/progress_dont2@2x.png 2x" /> |
 
-## Code Generation
-
-This section describes some important overrides and how they affect code generation.
-
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Circular or Linear Bar in your design is very likely to result in loss of code generation capability for the Circular or Linear Bar.
-
-### Data Property
-
-When supplied, the `🕹️DataProperty` value is used to set up a [data binding](../codegen/data-binding.md) to the Circular or Linear bar value property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided during code generation.
-
-### State
-
-When the State property is off or disabled the control is not rendered.
-
-### Linear Bar Text Style
-
-The Linear Bar Text Style is used to control the alignment and color of the text in the Linear Bar. If the Text Style is changed to ‘None’ then the text will be hidden in the Linear Bar. The generator will ignore the Bold option in the Text Style and will render the Linear Bar using the default font weight.
-
-### Linear Bar Text
-
-The Text property may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
-
-- Settings
-- {settingsLabel}
-- Important {labelText}
-
 ## Additional Resources
 
 Related topic:
 
 - [AV Player Pattern](../patterns/av.md)
-- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
