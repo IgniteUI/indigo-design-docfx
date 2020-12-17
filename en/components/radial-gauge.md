@@ -12,7 +12,7 @@ For scenarios where a target value is critically important for understanding and
 
 ## Radial Gauge Demo
 
-<img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/radial_gauge_three_ranges-example.png" srcset="../images/radial_gauge_three_ranges-example@2x.png 2x" />
 
 ## Needle Type
 
@@ -24,12 +24,22 @@ The Radial Gauge provides various overrides that control the shape of the needle
 
 ## Dial Type
 
-The Radial Gauge provides various overrides that control the dial, on which ranges appear: **full**, half, inside, and outside.
+The Radial Gauge provides various overrides that control the dial, on which ranges appear: **full**, half, quarter with thick and thin overrides.
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_half.png" srcset="../images/radial_gauge_half@2x.png 2x" />
+<img class="responsive-img" src="../images/radial_gauge_quarter.png" srcset="../images/radial_gauge_quarter@2x.png 2x" />
+<img class="responsive-img" src="../images/radial_gauge_full-thin.png" srcset="../images/radial_gauge_full-thin@2x.png 2x" />
+<img class="responsive-img" src="../images/radial_gauge_half-thin.png" srcset="../images/radial_gauge_half-thin@2x.png 2x" />
+<img class="responsive-img" src="../images/radial_gauge_quarter-thin.png" srcset="../images/radial_gauge_quarter-thin@2x.png 2x" />
+
+## Ticks Type
+
+The ticks of the Radial Gauge can be placed inside, outside and on it.
+
 <img class="responsive-img" src="../images/radial_gauge_inside.png" srcset="../images/radial_gauge_inside@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_outside.png" srcset="../images/radial_gauge_outside@2x.png 2x" />
+<img class="responsive-img" src="../images/radial_gauge_inside-2.png" srcset="../images/radial_gauge_inside-2@2x.png 2x" />
 
 ## Ranges Amount
 

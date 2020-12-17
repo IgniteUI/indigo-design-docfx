@@ -14,11 +14,23 @@ For scenarios where a target value is critically important for understanding and
 
 <img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
 
+## Title, Subtitle and Legend
+
+The Linear Gauge has a Title, Subtitle and a Legend. The Title and Subtitle's text can be changed and the legend changes depending on Series Amount chosen. They can also be hidden if they are not needed.
+
+## Tooltip
+
+The Bullet Graph comes with an override for the tooltip visibility: **Tooltip Off** hides it and Tooltip On shows it on top of the series.
+
+<img class="responsive-img" src="../images/linear_gauge_tooltip-off.png" srcset="../images/linear_gauge_tooltip-off@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_tooltip-on.png" srcset="../images/linear_gauge_tooltip-on@2x.png" />
+
 ## Needle Type
 
-The Linear Gauge provides various overrides that control the shape of the needle, which indicates the current value: **needle**, trapezoid, and triangle.
+The Linear Gauge provides various overrides that control the shape of the needle, which indicates the current value: **wide triangle**, needle, trapezoid, and triangle.
 
 <img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_needle.png" srcset="../images/linear_gauge_needle@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_trapezoid.png" srcset="../images/linear_gauge_trapezoid@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_triangle.png" srcset="../images/linear_gauge_triangle@2x.png 2x" />
 
@@ -32,7 +44,7 @@ The Linear Gauge comes with three preset range configurations: two, **three**, a
 
 ## Styling
 
-The Linear Gauge comes with styling flexibility through the various overrides controlling the background color and a range of brushes including: Needle Brush, Tick Brush, Minor Tick Brush, and a collection of Range Brushes.
+The Linear Gauge comes with styling flexibility through the various overrides controlling the range of brushes including: Needle Brush, Tick Brush, Minor Tick Brush, and a collection of Range Brushes.
 
 <img class="responsive-img" src="../images/linear_gauge_styling.png" srcset="../images/linear_gauge_styling@2x.png 2x" />
 

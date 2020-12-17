@@ -24,6 +24,7 @@ The Category Chart comes with an override for the tooltip visibility: **Tooltip 
 <img class="responsive-img" src="../images/chart_category_tooltip-off.png" srcset="../images/chart_category_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/chart_category_tooltip-on.png" srcset="../images/chart_category_tooltip-on@2x.png 2x" />
 
+
 ## Series Amount
 
 This override provides flexibility to select between one and **three** series that will be rendered.

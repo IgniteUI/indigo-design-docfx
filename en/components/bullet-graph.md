@@ -14,6 +14,17 @@ For scenarios where no target value exists or is irrelevant you should use the [
 
 <img class="responsive-img" src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />
 
+## Title, Subtitle and Legend
+
+The Bullet Graph has a Title, Subtitle and a Legend. The Title and Subtitle's text can be changed and the legend changes depending on Series Amount which is chosen. They can also be hidden if they are not needed.
+
+## Tooltip
+
+The Bullet Graph comes with an override for the tooltip visibility: **Tooltip Off** hides it and Tooltip On shows it on top of the series.
+
+<img class="responsive-img" src="../images/bullet_graph_tooltip-off.png" srcset="../images/bullet_graph_tooltip-off@2x.png 2x" />
+<img class="responsive-img" src="../images/bullet_graph_tooltip-on.png" srcset="../images/bullet_graph_tooltip-on@2x.png" />
+
 ## Ranges Amount
 
 The Bullet Graph comes with three preset range configurations: two, **three**, and four ranges.
@@ -24,7 +35,7 @@ The Bullet Graph comes with three preset range configurations: two, **three**, a
 
 ## Styling
 
-The Bullet Graph comes with styling flexibility through the various overrides controlling the background color and a range of brushes including: Value Brush, Target Value Brush, Tick Brush, Minor Tick Brush, and a collection of Range Brushes.
+The Bullet Graph comes with styling flexibility through the various overrides controlling the range of brushes including: Value Brush, Target Value Brush, Tick Brush, Minor Tick Brush, and a collection of Range Brushes.
 
 <img class="responsive-img" src="../images/bullet_graph_styling.png" srcset="../images/bullet_graph_styling@2x.png 2x" />
 
