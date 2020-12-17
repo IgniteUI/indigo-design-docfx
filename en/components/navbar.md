@@ -50,7 +50,7 @@ Related topics:
 
 - [Icon](icon.md)
 - [Navigation Drawer](nav-drawer.md)
-- [Menu Patterns]()
+- [Menu Patterns](../patterns/menu.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
