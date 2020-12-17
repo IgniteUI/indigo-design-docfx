@@ -19,6 +19,18 @@ The Navigation Drawer supports a **default** type with icon and label for each i
 <img class="responsive-img" src="../images/nav-drawer_default.png" srcset="../images/nav-drawer_default@2x.png 2x" />
 <img class="responsive-img" src="../images/nav-drawer_mini.png" srcset="../images/nav-drawer_mini@2x.png 2x" />
 
+## Items
+
+The Navigation Drawer uses a smart layouting and can show up to 21 Items. The exact amount can be configured by setting the Items that will not be needed to ~No Symbol.
+
+<img class="responsive-img" src="../images/nav-drawer_default.png" srcset="../images/nav-drawer_default@2x.png 2x" />
+
+## Item State
+
+Every Navigation Drawer Item comes with a State which can be Active, Inactive, or Disabled. In a Navigation Drawer only one Item can be Active at a time to indicate the view that will be shown on the rest of the screen.
+
+//@Yoanna add three images for the states
+
 ## Styling
 
 The Navigation Drawer provides basic styling capabilities achievable through changing the label and icon colors, as well as the active/inactive background colors.
@@ -27,13 +39,14 @@ The Navigation Drawer provides basic styling capabilities achievable through cha
 
 ## Usage
 
-Navigation Drawer is always used as the main app navigation, therefore, position it from the very top to the very bottom across the whole left edge of the screen and avoid combining it with conflicting app navigation mechanisms such as the Bottom Navigation. Placing a Navigation Drawer on the right edge of the screen is considered inappropriate, as the main navigation should be one of the first things that the user's eyes land on.
+Navigation Drawer is always used as the main app navigation, therefore, position it from the very top to the very bottom across the whole left edge of the screen and avoid combining it with conflicting app navigation mechanisms such as the Bottom Navigation. Placing a Navigation Drawer on the right edge of the screen is considered inappropriate, as the main navigation should be one of the first things that the user's eyes land on. Having a Navigation Drawer with multiple Active items is also not a valid configuration.
 
 | Do                                | Don't                               |
 | --------------------------------- | ----------------------------------- |
 | <img class="responsive-img" src="../images/nav-drawer_do1.png" srcset="../images/nav-drawer_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/nav-drawer_dont1.png" srcset="../images/nav-drawer_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/nav-drawer_do2.png" srcset="../images/nav-drawer_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/nav-drawer_dont2.png" srcset="../images/nav-drawer_dont2@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/nav-drawer_do3.png" srcset="../images/nav-drawer_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/nav-drawer_dont3.png" srcset="../images/nav-drawer_dont3@2x.png 2x" /> |
+//@Yoanna add another dont with two active items
 
 ## Additional Resources
 
