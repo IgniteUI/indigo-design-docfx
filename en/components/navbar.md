@@ -37,7 +37,7 @@ The Navbar comes with basic styling capabilities achievable through changing the
 
 ## Usage
 
-Navbar actions should be carefully used to avoid situations where they overlap with the title. This can be avoided by using a single more icon that triggers the appearance of a simple menu. If a more icon is specified within the actions, aggregate all actions you would normally place in the Navbar under it and avoid placing any standalone actions in the Navbar.
+Navbar actions should be carefully set up to avoid situations where they overlap with the title. This can be avoided by hiding all icons to the right but one and assigning it a more icon represented by three dots to trigger the appearance of a simple menu. If a more icon is specified within the actions, aggregate all actions you would normally place in the Navbar under it and avoid placing any standalone actions in the Navbar.
 
 | Do                                                                             | Don't                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
