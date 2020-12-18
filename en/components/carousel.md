@@ -16,7 +16,7 @@ Use the Carousel Component to let the user navigate through a collection of imag
 
 The Carousel lets you define up to 10 slides, where for each one there is a matching indicator dot, allowing the user to navigate to that respective slide.
 
-<img class="responsive-img" src="../images/carousel_indicators&slides.png" scrset="..images/carousel_indicators&slides@2x.png 2x" />
+<img class="responsive-img" src="../images/carousel_indicators&slides.png" srcset="../images/carousel_indicators&slides@2x.png 2x" />
 
 ## Styling
 
