@@ -42,7 +42,7 @@ When a chip is selected a special check icon will appear at the far left to indi
 
 ## Remove Chip
 
-When a chip is can be removed a special cancel icon will appear at the far right to indicate this. The `🔣 Remove Icon` override provides the means to trigger this functionality.
+When a chip can be removed a special cancel icon will appear at the far right to indicate this. The `🔣 Remove Icon` override provides the means to trigger this functionality.
 
 <img class="responsive-img" src="../images/chip_idle_removable.png" srcset="../images/chip_idle_removable@2x.png 2x" />
 `idle and removable`
