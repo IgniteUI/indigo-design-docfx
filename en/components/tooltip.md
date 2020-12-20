@@ -21,7 +21,7 @@ The Tooltip comes in appropriate sizing for desktop and mobile usage.
 
 ## Variant
 
-The Tooltip has **dark** variant, suiatable for lighter interfaces underneath and a light variant that is more appropriate for usage on top of darker ones.
+The Tooltip has a **dark** variant, suitable for lighter interfaces underneath, and a light variant that is more appropriate for usage on top of darker ones.
 
 <img class="responsive-img" src="../images/tooltip_dark.png" srcset="../images/tooltip_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/tooltip_light.png" srcset="../images/tooltip_light@2x.png 2x" />
@@ -34,20 +34,11 @@ The Tooltip comes with styling flexibility through the overrides controlling its
 
 ## Usage
 
-When displaying Tooltip for a given element it is important how the tooltip is positioned. In most cases both element should be centrally aligned in relation to each other. The only exception is when such an alignment would cause part of the Tooltip to be cut out, then the positioning should be such that the whole Tooltip fits in the visible area.
+When displaying Tooltip for a given element it is important how the tooltip is positioned. In most cases, both elements should be centrally aligned in relation to each other. The only exception is when such an alignment would cause part of the Tooltip to be cut out, then the positioning should be such that the whole Tooltip fits in the visible area.
 
 | Do                                                                               | Don't                                                                                |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | <img class="responsive-img" src="../images/tooltip_do1.png" srcset="../images/tooltip_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/tooltip_dont1.png" srcset="../images/tooltip_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/tooltip_do2.png" srcset="../images/tooltip_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/tooltip_dont2.png" srcset="../images/tooltip_dont2@2x.png 2x" /> |
 
-## Code Generation
-
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Tooltip in your design is very likely to result in loss of code generation capability for the Tooltip.
-
-## Additional Resources
-
 Our community is active and always welcoming to new ideas.
-
-
