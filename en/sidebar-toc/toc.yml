@@ -110,6 +110,8 @@
           href: ../components/column-chart.md
         - name: Line Chart
           href: ../components/line-chart.md
+        - name: Spline Chart
+          href: ../components/spline-chart.md
     - name: Gauges
       items:
         - name: Bullet Graph
