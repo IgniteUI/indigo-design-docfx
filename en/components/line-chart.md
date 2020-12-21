@@ -13,7 +13,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 <img class="responsive-img" src="../images/line_chart_three_series.png" srcset="../images/line_chart_three_series@2x.png 2x" />
 
-The Line Chart has Title, Legend and a Chart Area, which can be changed between two states - Idle and Hover, and where you can also change the Chart Type and its Series Amount. Individual series of the legend can also be turned off by setting them to No Symbol. Their color and symbol - rectangle, line or dot, can also be changed individually.
+The Line Chart has Title, Legend and a Chart Area, which can be changed between two states - Idle and Hover, and where you can also change the Chart Type - Line or Area, and its Series Amount. Individual series of the legend can also be turned off by setting them to No Symbol. Their color and symbol - rectangle, line or dot, can also be changed individually.
 
 ## Title and Legend
 
@@ -38,7 +38,7 @@ The Line Chart comes with an override for the tooltip visibility: **Tooltip Off*
 
 ## Axis and Gridlines
 
-Aside from being able to change the labels, you can also change the axis' color, ticks' color and also the gridlines. The Y axis title can be hidden by deleting its content.
+Aside from being able to change the labels, you can also change the axis' color, ticks' color and also the gridlines. The Y axis title can be changed or hidden by deleting its content.
 
 <img class="responsive-img" src="../images/line_chart_axis.png" srcset="../images/line_chart_axis@2x.png 2x" />
 
