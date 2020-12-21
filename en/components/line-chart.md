@@ -13,13 +13,13 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 <img class="responsive-img" src="../images/line_chart_three_series.png" srcset="../images/line_chart_three_series@2x.png 2x" />
 
-The Line Chart has Title, Legend and a Chart Area, which can be changed between two states - Idle and Hover, and where you can also change the Chart Type and its Series Amount.
+The Line Chart has Title, Legend and a Chart Area, which can be changed between two states - Idle and Hover, and where you can also change the Chart Type and its Series Amount. Individual series of the legend can also be turned off by setting them to No Symbol. Their color and symbol - rectangle, line or dot, can also be changed individually.
 
 ## Title and Legend
 
-The Line Chart has a title that can be changed or hidden if not needed. The Legend can also be hidden and it stands for the number of the series in the chart and what they represent. Individual series of the legend can also be turned off by setting them to No Symbol. Their color and symbol - rectangle, line or dot, can also be changed individually.
+The Line Chart has a title that can be changed or hidden if not needed. The Legend can also be hidden and it stands for the number of the series in the chart and what they represent. 
 
-<img class="responsive-img" src="../images/line_chart_legend.png" srcset="../images/line_chart_three_legend@2x.png 2x" />
+<img class="responsive-img" src="../images/line_chart_legend.png" srcset="../images/line_chart_legend@2x.png 2x" />
 
 ## Chart Type
 
@@ -46,7 +46,7 @@ Aside from being able to change the labels, you can also change the axis' color,
 
 The line and points' color on the chart can be changed if it's needed so they match the color of the series.
 
-<img class="responsive-img" src="../images/line_chart_colors.png" srcset="../images/line_chart_color@2x.png 2x" />
+<img class="responsive-img" src="../images/line_chart_colors.png" srcset="../images/line_chart_colors@2x.png 2x" />
 
 ## Series Amount
 
@@ -68,7 +68,7 @@ The Line and Area Line Chart's color of the series, dots and area can be easily 
 
 ## Usage
 
-Use the Line Chart when you have a continuous data set and want to see the amount of change over a period of time. If you use time to represent the change in the category you should always set it on the horizontal axis. Always start the Y-Axis (left or right axis) at 0 so data comparison is accurate and order time-series data from left to right. Use proper aspect ratio to minimize dramatic slope drops.
+Use the Line Chart when you have a continuous data set and want to see the amount of change over a period of time. If you use time to represent the change in the category you should always set it on the horizontal axis. Always start the Y-Axis (left or right axis) at 0 so data comparison is accurate and order time-series data from left to right. Use proper aspect ratio to minimize dramatic slope drops. When there are more than one serie in the chart it is best they be different colors to be distinguishable. It is also good to have a legend signifying the different colors in the series and what they represent.
 
 
 /* | Do                                                                                             | Don't                                                                                              |
