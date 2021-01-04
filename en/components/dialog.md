@@ -28,7 +28,7 @@ The Dialog comes with styling flexibility through the various overrides for its 
 
 ## Usage
 
-When designing a custom Dialog, avoid placing buttons in the body section and use the existing dialog buttons for your actions instead of new ones.
+When designing a custom Dialog, avoid placing buttons in the body section and use the existing dialog buttons for your actions instead.
 
 | Do                            | Don't                           |
 | ----------------------------- | ------------------------------- |
@@ -42,4 +42,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
