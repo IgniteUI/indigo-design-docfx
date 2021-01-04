@@ -18,6 +18,10 @@ The Hyperlink comes in two different sizes matching the available sizes for para
 
 <img class="responsive-img" src="../images/hyperlink_sizes.png" srcset="../images/hyperlink_sizes@2x.png 2x" />
 
+## Url
+
+Specify the link you want the hyperlink to open when clicked via the Url override. This will have no visibility in your design but will be taken into account by the code generation services.
+
 ## Styling
 
 The Hyperlink can be styled through the Styling library by changing its default blue color to a different one.
@@ -40,4 +44,3 @@ Related topic:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
