@@ -22,7 +22,7 @@ The Dialog can be used to show an alert with only a confirming button, a message
 
 ## Styling
 
-The Dialog comes with styling flexibility through the various overrides for its title and message, the buttons at the bottom with all the styling options that [Button](button.md) component provide, as well as the background and elevation.
+The Dialog comes with styling flexibility through the various overrides for its title and message, the buttons at the bottom with all the styling options that [Button](button.md) component provides, as well as the background and elevation.
 
 <img class="responsive-img" src="../images/dialog_styling.png" srcset="../images/dialog_styling@2x.png 2x" />
 
@@ -42,5 +42,4 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
