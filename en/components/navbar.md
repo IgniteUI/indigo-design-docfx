@@ -12,6 +12,12 @@ Use the Navbar Component to provide clarity on the current position in the appli
 
 <img class="responsive-img" src="../images/navbar_demo.png" srcset="../images/navbar_demo@2x.png 2x" />
 
+## Type
+
+The Navbar comes in two distinct type variants an Elevated one that casts a shadow on the main content area and an Outlined one which has a border instead to separate it from the rest of the content. Both variants support the same functionality inside.
+
+//@Yoanna should add sample images here
+
 ## Content Layout
 
 The Navbar content consists of a left action, a title, and four icons next to each other on the right. You can configure the Navbar layout by setting the left action or the icons to ~No Symbol.
@@ -54,5 +60,4 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
