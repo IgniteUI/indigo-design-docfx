@@ -20,7 +20,7 @@ The Hyperlink comes in two different sizes matching the available sizes for para
 
 ## Styling
 
-The Hyperlink can be styled through the Styling library by changing its default blue color to another one, and you can change the URL and text.
+The Hyperlink can be styled through the Styling library by changing its default blue color to a different one.
 
 <img class="responsive-img" src="../images/hyperlink_styling.png" srcset="../images/hyperlink_styling@2x.png 2x" />
 
@@ -40,5 +40,4 @@ Related topic:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
