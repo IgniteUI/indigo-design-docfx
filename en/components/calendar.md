@@ -63,7 +63,7 @@ The Calendar comes with styling flexibility through the various overrides contro
 
 ## Usage
 
-Use the Calendar as inline elements with the rest of the UI without additional visual effects. If you need to show modals, dialogs or dropdowns, consider using the Date Picker instead.
+Use the Calendar as an inline element with the rest of the UI, without additional visual effects. If you need to show modals, dialogs, or dropdowns, consider using the Date Picker instead.
 
 | Do                                                                                 | Don't                                                                                  |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
@@ -78,5 +78,4 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
