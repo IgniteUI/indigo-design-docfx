@@ -20,7 +20,7 @@ The Navbar comes in two distinct type variants an Elevated one that casts a shad
 
 ## Content Layout
 
-The Navbar content consists of a left action, a title, and four icons next to each other on the right. You can configure the Navbar layout by setting the left action or the icons to ~No Symbol.
+The Navbar content is split into a left area, consisting of a Left Action and a Title, and a right area with four adjacent icons for various actions. You can configure the Navbar layout by setting the Left Action or the Icons to the right to ~No Symbol.
 
 <img class="responsive-img" src="../images/navbar_left&right.png" srcset="../images/navbar_left&right@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_noright.png" srcset="../images/navbar_noright@2x.png 2x" />
@@ -60,4 +60,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
