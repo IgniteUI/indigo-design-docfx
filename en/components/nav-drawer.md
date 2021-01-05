@@ -14,7 +14,7 @@ Use the Navigation Drawer Component to implement application-level navigation by
 
 ## Type
 
-The Navigation Drawer supports a **default** type with icon and label for each item and a mini type with icons only. If your design contains five or less items/views, you may pick between Navigation Drawer and [Bottom Navigation](bottom-nav.md).
+The Navigation Drawer supports a **default** type with icon and label for each item and a mini type with icons only. If your design contains five or less items/views, you may want to consider using a [Bottom Navigation](bottom-nav.md) instead.
 
 <img class="responsive-img" src="../images/nav-drawer_default.png" srcset="../images/nav-drawer_default@2x.png 2x" />
 <img class="responsive-img" src="../images/nav-drawer_mini.png" srcset="../images/nav-drawer_mini@2x.png 2x" />
@@ -57,5 +57,4 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
