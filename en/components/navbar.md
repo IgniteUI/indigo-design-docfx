@@ -16,7 +16,8 @@ Use the Navbar Component to provide clarity on the current position in the appli
 
 The Navbar comes in two distinct type variants an Elevated one that casts a shadow on the main content area and an Outlined one which has a border instead to separate it from the rest of the content. Both variants support the same functionality inside.
 
-//@Yoanna should add sample images here
+<img class="responsive-img" src="../images/navbar_elevated.png" srcset="../images/navbar_elevated@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_outlined.png" srcset="../images/navbar_outlined@2x.png 2x" />
 
 ## Content Layout
 
