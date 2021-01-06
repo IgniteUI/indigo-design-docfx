@@ -14,7 +14,7 @@ Use the Progress component to establish clarity and expectancy about the progres
 
 ## Shape and Type
 
-The Progress supports two layout types to fit the variety of use cases and layout requirements: a Circular Bar and a Linear Bar. Each of these two types has an Indeterminate type.
+The Progress supports two layout shapes to fit the variety of use cases and layout requirements: a Circular Bar and a Linear Bar. Each of these layouts comes with an additional selection of the type of progression: Determinate and Indeterminate.
 
 <img class="responsive-img" src="../images/progress_circular.png" srcset="../images/progress_circular@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_linear.png" srcset="../images/progress_linear@2x.png 2x" />
@@ -68,4 +68,3 @@ Related topic:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
