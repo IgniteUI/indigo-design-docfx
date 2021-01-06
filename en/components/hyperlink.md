@@ -24,7 +24,7 @@ Specify the link you want the hyperlink to open when clicked via the Url overrid
 
 ## Styling
 
-The Hyperlink can be styled through the Styling library by changing its default blue color to a different one.
+The Hyperlink can be styled by changing the default blue color of the text of the `Symbol Master` that can be found on the 🧩 Components page in the Indigo.Design library.
 
 <img class="responsive-img" src="../images/hyperlink_styling.png" srcset="../images/hyperlink_styling@2x.png 2x" />
 
