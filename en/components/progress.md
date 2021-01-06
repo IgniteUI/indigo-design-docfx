@@ -42,6 +42,12 @@ When using a Determinate type of Progress, you may choose the Progress Amount be
 <img class="responsive-img" src="../images/progress_circular-progress-amount.png" srcset="../images/progress_circular-progress-amount@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_linear-progress-amount.png" srcset="../images/progress_linear-progress-amount@2x.png 2x" />
 
+## Stripes
+
+When using a Linear Bar layout shape for the Progress component, it will come with an additional option for Stripes over the Fill area. To remove the Stripes, simply set the `🌈 Stripes` color override to `transparent`.
+
+@YoannaIvanova add an image instead of this text
+
 ## Styling
 
 The Progress comes with styling flexibility through the various overrides for its text, as well as changing the colors of progress, base, stripes, fill and track where applicable.
