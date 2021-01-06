@@ -46,7 +46,7 @@ When using a Determinate type of Progress, you may choose the Progress Amount be
 
 When using a Linear Bar layout shape for the Progress component, it will come with an additional option for Stripes over the Fill area. To remove the Stripes, simply set the `🌈 Stripes` color override to `transparent`.
 
-@YoannaIvanova add an image instead of this text
+<img class="responsive-img" src="../images/progress_linearstripes.png" srcset="../images/progress_linearstripes@2x.png 2x" />
 
 ## Styling
 
@@ -64,7 +64,7 @@ In a Circular Bar, always use the actual value for the text label and, when addi
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/progress_do1.png" srcset="../images/progress_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/progress_dont1.png" srcset="../images/progress_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/progress_do2.png" srcset="../images/progress_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/progress_dont2.png" srcset="../images/progress_dont2@2x.png 2x" /> |
-//@Yoanna add another do/dont like 2 but with an Indetermiante progress for the do scenario and Uploading... text for the label
+| <img class="responsive-img" src="../images/progress_do3.png" srcset="../images/progress_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/progress_dont3.png" srcset="../images/progress_dont3@2x.png 2x" /> |
 
 ## Additional Resources
 
