@@ -27,9 +27,11 @@ The Navigation Drawer uses a smart layouting and can show up to 21 Items. The ex
 
 ## Item State
 
-Every Navigation Drawer Item comes with a State which can be Active, Inactive, or Disabled. In a Navigation Drawer only one Item can be Active at a time to indicate the view that will be shown on the rest of the screen.
+Every Navigation Drawer Item comes with a State which can be Active, Inactive, or Hover. In a Navigation Drawer only one Item can be Active at a time to indicate the view that will be shown on the rest of the screen.
 
-//@Yoanna add three images for the states
+<img class="responsive-img" src="../images/nav-drawer_active.png" srcset="../images/nav-drawer_active@2x.png 2x" />
+<img class="responsive-img" src="../images/nav-drawer_inactive.png" srcset="../images/nav-drawer_inactive@2x.png 2x" />
+<img class="responsive-img" src="../images/nav-drawer_hover.png" srcset="../images/nav-drawer_hover@2x.png 2x" />
 
 ## Styling
 
@@ -46,7 +48,7 @@ Navigation Drawer is always used as the main app navigation, therefore, position
 | <img class="responsive-img" src="../images/nav-drawer_do1.png" srcset="../images/nav-drawer_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/nav-drawer_dont1.png" srcset="../images/nav-drawer_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/nav-drawer_do2.png" srcset="../images/nav-drawer_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/nav-drawer_dont2.png" srcset="../images/nav-drawer_dont2@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/nav-drawer_do3.png" srcset="../images/nav-drawer_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/nav-drawer_dont3.png" srcset="../images/nav-drawer_dont3@2x.png 2x" /> |
-//@Yoanna add another dont with two active items
+| <img class="responsive-img" src="../images/nav-drawer_do4.png" srcset="../images/nav-drawer_do4@2x.png 2x" /> | <img class="responsive-img" src="../images/nav-drawer_dont4.png" srcset="../images/nav-drawer_dont4@2x.png 2x" /> |
 
 ## Additional Resources
 
