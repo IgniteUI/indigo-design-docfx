@@ -34,7 +34,7 @@ The Switch supports a label position where the Switch label is placed after or b
 
 ## State
 
-The Switch provides **on** and off selection states with additional variants for a disabled interaction state.
+The Switch provides **on** and off selection states.
 
 <img class="responsive-img" src="../images/switch_on.png" srcset="../images/switch_on@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_on_disabled.png" srcset="../images/switch_on_disabled@2x.png 2x" />
@@ -65,5 +65,4 @@ Related topic:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
