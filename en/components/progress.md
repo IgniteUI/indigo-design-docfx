@@ -37,7 +37,7 @@ The Progress can be used in one of the following preset color combinations:
 
 ## Progress Amount
 
-The Progress allows you to choose the progress amount between six percentage variants. But you don't have this option for the Indeterminate Circular and Indeterminate Linear Bar types.
+When using a Determinate type of Progress, you may choose the Progress Amount between six percentage variants.
 
 <img class="responsive-img" src="../images/progress_circular-progress-amount.png" srcset="../images/progress_circular-progress-amount@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_linear-progress-amount.png" srcset="../images/progress_linear-progress-amount@2x.png 2x" />
