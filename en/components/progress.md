@@ -12,7 +12,7 @@ Use the Progress component to establish clarity and expectancy about the progres
 
 <img class="responsive-img" src="../images/progress_demo.png" srcset="../images/progress_demo@2x.png 2x" />
 
-## Type
+## Shape and Type
 
 The Progress supports two layout types to fit the variety of use cases and layout requirements: a Circular Bar and a Linear Bar. Each of these two types has an Indeterminate type.
 
@@ -68,5 +68,4 @@ Related topic:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
