@@ -43,7 +43,7 @@ The Switch provides **on** and off selection states.
 
 ## Styling
 
-The Switch comes with styling flexibility, allowing control over the thumb and track colors, as well as change of the label text style color. There is a fixed alpha value applied to the track to make it semi transparent.
+The Switch comes with styling flexibility, allowing control over the thumb and track colors, as well as changing the label text color. The alpha value of the track is fixed to achieve a semi-transparent look no matter what color is used and can only be adjusted globally through the `Symbol Master` that can be found on the 🧩 Components page in the Indigo.Design library.```
 
 <img class="responsive-img" src="../images/switch_styling.png" srcset="../images/switch_styling@2x.png 2x" />
 
@@ -65,4 +65,3 @@ Related topic:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
