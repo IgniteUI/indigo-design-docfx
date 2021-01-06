@@ -23,7 +23,7 @@ The Progress supports two layout shapes to fit the variety of use cases and layo
 
 The Progress can be used in one of the following preset color combinations:
 
-- **default**
+- **default**: utilizing the base primary color by default
 - error: utilizing the `error` theme color to show the progress
 - info: utilizing the `info` theme color to show the progress
 - success: utilizing the `success` theme color to show the progress
