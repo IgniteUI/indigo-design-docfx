@@ -14,7 +14,7 @@ Use the Snackbar Component to show a short notification or provide an indication
 
 ## Styling
 
-The Snackbar comes with styling flexibility, allowing to change the text color of the message and the action button, and the background color.
+The Snackbar comes with styling flexibility, allowing to change the text color of the message, the action button, and the background color.
 
 <img class="responsive-img" src="../images/snackbar_styling.png" srcset="../images/snackbar_styling@2x.png 2x" />
 
@@ -29,5 +29,4 @@ The Snackbar always appears on top of other content, so avoid placing it on top 
 | <img class="responsive-img" src="../images/snackbar_do3.png" srcset="../images/snackbar_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/snackbar_dont3.png" srcset="../images/snackbar_dont3@2x.png 2x" /> |
 
 Our community is active and always welcoming to new ideas.
-
 
