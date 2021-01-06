@@ -27,7 +27,7 @@ The Switch can be used styled in **dark** and light variants to assure good read
 
 ## Layout Template
 
-The Switch supports a label position where the Switch label is placed after or before the Switch element.
+The Switch supports a label position where the Switch label is placed before or after the Switch element.
 
 <img class="responsive-img" src="../images/switch_label-before.png" srcset="../images/switch_label-before@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_label-after.png" srcset="../images/switch_label-after@2x.png 2x" />
