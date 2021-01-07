@@ -12,9 +12,15 @@ Use the Carousel Component to let the user navigate through a collection of imag
 
 <img class="responsive-img" src="../images/carousel_demo.png" srcset="../images/carousel_demo@2x.png 2x" />
 
+## Indicators and Slides
+
+The Carousel lets you define up to 10 slides, where for each one there is a matching indicator dot, allowing the user to navigate to that respective slide.
+
+<img class="responsive-img" src="../images/carousel_indicators&slides.png" srcset="../images/carousel_indicators&slides@2x.png 2x" />
+
 ## Styling
 
-The Carousel comes with styling flexibility through the various overrides controlling the navigation button background and icon colors, the indicator colors, border colors, and a slide image for the currently active slide. You should keep in mind that only one indicator may be active at a time.
+The Carousel comes with styling flexibility through the various overrides controlling the navigation buttons background and icon colors, the indicator colors, border colors, and the slide image for the currently active slide, along with the elevation and state where applicable. You should keep in mind that only one indicator may be active at a time.
 
 <img class="responsive-img" src="../images/carousel_styling.png" srcset="../images/carousel_styling@2x.png 2x" />
 
@@ -27,28 +33,11 @@ The previous and next navigation buttons of the Carousel should always appear on
 | <img class="responsive-img" src="../images/carousel_do1.png" srcset="../images/carousel_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/carousel_dont1.png" srcset="../images/carousel_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/carousel_do2.png" srcset="../images/carousel_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/carousel_dont2.png" srcset="../images/carousel_dont2@2x.png 2x" /> |
 
-## Code generation
-
-This section describes some important overrides and how they affect code generation.
-
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Carousel in your design is very likely to result in loss of code generation capability for the Carousel.
-
-### Data Source Property
-
-When supplied, the `🕹️DataSource` value is used to set up [binding](../codegen/data-binding.md) to the Carousel. The data source must be a string array of image names to display. The `🕹️DataSource` property is optional. When the `🕹️DataSource` is supplied, Slide styles are gathered from the first Slide in the group. Other Slide styles are ignored.
-
-### Sketch Elevations
-
-Button and Slide elevation changes in Sketch drawings are not rendered during code generation.  Each button type has a default elevation that will be applied by the Ignite UI Component. Currently, this is a known limitation of the Ignite UI for Angular product that will be resolved in the upcoming releases.
-
 ## Additional Resources
 
 Related topic:
 
 - [Grid](grid.md)
-- [Data Binding](../codegen/data-binding.md)
 
 Our community is active and always welcoming to new ideas.
-
 
