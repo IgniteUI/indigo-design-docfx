@@ -14,7 +14,7 @@ Use the Toast Component to show a short information message or notification, whi
 
 ## Position
 
-The Toast should be relatively positioned towards the bottom, center, or top of the content its information concerns.
+The Toast should be relatively positioned towards the bottom, center, or top of the content it notifies about.
 
 <img class="responsive-img" src="../images/toast_bottom.png" srcset="../images/toast_bottom@2x.png 2x" />
 <img class="responsive-img" src="../images/toast_center.png" srcset="../images/toast_center@2x.png 2x" />
@@ -22,7 +22,7 @@ The Toast should be relatively positioned towards the bottom, center, or top of 
 
 ## Styling
 
-The Toast comes with constrained styling possibility, allowing only control of the background and message text colors. However, it is highly advisable to choose between `white` and `grays.900` for the message text, whichever of the two gives better contrast with the background.
+The Toast comes with styling flexibility for background color and message text style. However, it is recommended to use `white`, `grays.900` or `black` for the message text, to assure optimal contrast with the background and legibility.
 
 <img class="responsive-img" src="../images/toast_styling.png" srcset="../images/toast_styling@2x.png 2x" />
 
