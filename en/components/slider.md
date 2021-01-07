@@ -17,6 +17,12 @@ Use the Slider Component to allow the user to select a single value or specify a
 The Slider allows to choose from two types - continuous and discrete. They each offer a variant with one thumb for selecting a single value and with two thumbs for specifying a range.
 
 <img class="responsive-img" src="../images/slider_onethumb.png" srcset="../images/slider_onethumb@2x.png 2x" />
+
+## Thumbs
+
+The Slider offers a variant with one thumb for selecting a single value and with two thumbs for specifying a range.
+
+<img class="responsive-img" src="../images/slider_onethumb.png" srcset="../images/slider_onethumb@2x.png 2x" />
 <img class="responsive-img" src="../images/slider_twothumbs.png" srcset="../images/slider_twothumbs@2x.png 2x" />
 
 ## State
