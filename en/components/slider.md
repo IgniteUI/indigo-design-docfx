@@ -22,8 +22,7 @@ The Slider allows to choose from two types - continuous and discrete.
 
 The Slider offers a variant with one thumb for selecting a single value and with two thumbs for specifying a range.
 
-<img class="responsive-img" src="../images/slider_onethumb.png" srcset="../images/slider_onethumb@2x.png 2x" />
-<img class="responsive-img" src="../images/slider_twothumbs.png" srcset="../images/slider_twothumbs@2x.png 2x" />
+<img class="responsive-img" src="../images/slider_demo.png" srcset="../images/slider_demo@2x.png 2x" />
 
 ## State
 
