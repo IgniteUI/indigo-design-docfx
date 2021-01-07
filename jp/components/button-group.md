@@ -7,7 +7,7 @@ _language: ja
 
 # Button Group (ボタン グループ)
 
-Button Group コンポーネント シンボルは、関連する機能のトリガーを 1 インターフェイス要素として組み合わせます。1 つのボタンのみ押すことができる排他的な選択と 1 つ以上のボタンを押したままにできる複数選択の両方をサポートします。Button Group は、[Ignite UI for Angular Button Group コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/buttongroup.html)と視覚的に同じものです。
+Button Group コンポーネントを使用して、いくつかの関連機能のトリガーを 1 つのインターフェイス要素に結合します。Button Group は、[Ignite UI for Angular Button Group コンポーネント](https://www.infragistics.com/products/ignite-ui-angular/angular/components/button-group.html)と視覚的に同じものです。
 
 ## Button Group デモ
 
@@ -22,22 +22,20 @@ Button Group は、2 方向レイアウトをサポートし、左から右の�
 
 ## ボタン数
 
-多くのケースで Button Group に 2 項目 ～ 4 項目が必要になります。4 項目以上必要な場合は、一連のリッチな操作を提供できるカスタム ツールバーをデザインすることを検討してください。
+Button Group は、スマート レイアウト オプションを使用して、必要なボタンの正確な数を選択し、オーバーライド パネルから ~No Symbol に設定することで余分なボタンを非表示にします。
 
-<img class="responsive-img" src="../images/button-group_items2.png" srcset="../images/button-group_items2@2x.png 2x" />
-<img class="responsive-img" src="../images/button-group_items3.png" srcset="../images/button-group_items3@2x.png 2x" />
-<img class="responsive-img" src="../images/button-group_items4.png" srcset="../images/button-group_items4@2x.png 2x" />
+<img class="responsive-img" src="../images/button-group_amount.png" srcset="../images/button-group_amount@2x.png 2x" />
 
-## ボタン タイプ
+## ボタン レイアウト テンプレート
 
-Button Group 内の各 Button には**テキスト**またはアイコンが含まれ、**デフォルト**、無効、ホバー、選択済みの状態で設定できます。選択済みの状態は、選択したボタンを分けるための追加の境界線があり、Button 配置に反映する必要のある 3 種類のバリアントが含まれます。
+Button Group の各ボタンは Flat Button であり、同様のテンプレートを作成できます。
 
 <img class="responsive-img" src="../images/button-group_text.png" srcset="../images/button-group_text@2x.png 2x" />
-<img class="responsive-img" src="../images/button-group_icons.png" srcset="../images/button-group_icons@2x.png 2x" />
+<img class="responsive-img" src="../images/button-group_icon.png" srcset="../images/button-group_icon@2x.png 2x" />
 
 ## スタイル設定
 
-Button Group は、さまざまなオーバーライドで背景色、各ボタン境界線、背景、ラベル、アイコン色を制御することにより柔軟にスタイル設定できます。
+Button Group は、境界線と背景色、各ボタンのアウトライン、背景、テキスト、アイコンの色を制御することにより柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/button-group_styling.png" srcset="../images/button-group_styling@2x.png 2x" />
 
@@ -51,39 +49,11 @@ Button のスタイルは統一させます。同じ Button グループ内で�
 | <img class="responsive-img" src="../images/button-group_do2.png" srcset="../images/button-group_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/button-group_dont2.png" srcset="../images/button-group_dont2@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/button-group_do3.png" srcset="../images/button-group_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/button-group_dont3.png" srcset="../images/button-group_dont3@2x.png 2x" /> |
 
-## コードの生成
-
-Button Group の色やフォントを指定した場合、Button Group HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
-
-> [!WARNING]
-> デザインの Button Group のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Button Group のためのコード生成機能が失われる結果となります。
-
-### Event プロパティ
-
-`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に onClick シグネチャを追加します。波括弧構文 ({onEventName}) を使用してイベントを指定する必要があります。
-
-### ボタン数
-
-このプロパティはグループで表示されるボタンの数を決定します。
-
-### ボタン
-
-このプロパティは表示するボタンのタイプを決定します。アイコンまたはテキスト ボタンが可能です。
-
-### テキスト 
-
-このプロパティはテキスト ボタンのみに表示されます。ボタンで表示されるテキストを指定します。プレーン テキスト、[テキストのバインディング](../codegen/data-binding.md)、または両方を含むことができます。例:
-
-* 設定
-* {settingsLabel}
-* 重要な {labelText}
-
 ## その他のリソース
 
 関連トピック:
 
 - [Button](button.md)
-- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

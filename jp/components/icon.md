@@ -7,7 +7,7 @@ _language: ja
 
 # Icon (アイコン)
 
-Icon コンポーネント シンボルは、製品に「いいね」などのシンプルなインタラクションをトリガーしてユーザーに情報をグラフィックで表示します。すでに提供されている [Material アイコン](https://material.io/tools/icons/)または Styling ライブラリで使用可能なアイコンをリストに追加します。Icon は、[Ignite UI for Angular Icon コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/icon.html)と視覚的に同じものです。
+Icon コンポーネント シンボルは、製品に「いいね」などのシンプルなインタラクションをトリガーしてユーザーに情報をグラフィックで表示します。すでに提供されている[マテリアル アイコン](../style/material-icons.md)から選択するか、**Indigo.Design System** の `🎨 Material Icons` ページに必要なものを追加することができます。Icon は、[Ignite UI for Angular Icon コンポーネント](https://www.infragistics.com/products/ignite-ui-angular/angular/components/icon.html)と視覚的に同じです。
 
 ## Icon デモ
 
@@ -26,7 +26,7 @@ Icon のサイズは 4 つあります。
 
 ## スタイル設定
 
-Icon は、さまざまなオーバーライドで選択可能なグラフィックや塗りつぶしの色を制御することにより柔軟にスタイル設定できます。
+Icon は、さまざまなオーバーライドで選択可能なグラフィックとそれに適用される色を制御することにより柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/icon_styling.png" srcset="../images/icon_styling@2x.png 2x" />
 
@@ -38,24 +38,11 @@ Icon の色は、背景とのコントラストが高い色を選択し、同色
 | --------------------------- | ----------------------------- |
 | <img class="responsive-img" src="../images/icon_do1.png" srcset="../images/icon_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/icon_dont1.png" srcset="../images/icon_dont1@2x.png 2x" /> |
 
-## コードの生成
-
-Icon の色を指定した場合、Icon HTML 要素は div でラップされます。これはネスト コンポーネント (他のコンポーネント内のコンポーネント) をスタイル設定する際にブラウザーによって要求されます。
-
-> [!Note]
-> 重要: Indigo コンポーネント ライブラリおよび Indigo スタイル ライブラリに Icon コンポーネントがあります。Indigo コンポーネント ライブラリのみの Icon が描画されます。
-
-> [!WARNING]
-> デザインの Icon のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Icon のためのコード生成機能が失われます。
-
-## Event プロパティ
-
-このプロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に Angular クリック シグネチャーを追加します。イベントが波括弧構文 ({onEventName}) を使用して指定する必要があります。
-
 ## その他のリソース
 
 関連トピック:
 
+- [マテリアル アイコン](../style/material-icons.md)
 - [Bottom Navigation](bottom-nav.md)
 - [Card](cards.md)
 - [Navbar](navbar.md)
