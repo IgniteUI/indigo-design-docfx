@@ -35,6 +35,6 @@ The Toast should always be centrally aligned on the horizontal and other placeme
 | <img class="responsive-img" src="../images/toast_do1.png" srcset="../images/toast_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/toast_dont1.png" srcset="../images/toast_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/toast_do2.png" srcset="../images/toast_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/toast_dont2.png" srcset="../images/toast_dont2@2x.png 2x" /> |
 
+## Additional Resources
+
 Our community is active and always welcoming to new ideas.
-
-
