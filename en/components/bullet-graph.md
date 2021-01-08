@@ -16,30 +16,37 @@ For scenarios where no target value exists or is irrelevant you should use the [
 
 ## Title and Subtitle
 
-The Bullet Graph has a Title and Subtitle whose text can be changed. They can also be hidden if they are not needed.
+The Bullet Graph has a Title and Subtitle whose text can be changed. They can also be hidden if they are not needed by setting them to No symbol.
 
-//add image
+<img class="responsive-img" src="../images/bullet_graph_title-off.png" srcset="../images/bullet_graph_title-off@2x.png 2x" />
 
 ## Legend
 
-The Bullet Graph comes with a Legend that can be adjusted to match the selected Series Amount. //explain how to add/remove legend items by setting them to No Symbol or the Serie Item
+The Bullet Graph comes with a Legend that can be adjusted to match the selected Series Amount. Legend items can be removed by setting the corresponding Series to No symbol or added by finding it in the Overrides/Charts/Legend/Serie. Also there you can change the icon type between Square, Line or Circle.
 
-//add image
+<img class="responsive-img" src="../images/bullet_graph_legend.png" srcset="../images/bullet_graph_legend@2x.png 2x" />
 
 ## Tooltip
 
-The Bullet Graph comes with an override for the tooltip visibility: **Tooltip Off** hides it and Tooltip On shows it on top of the series.
+The Bullet Graph comes with an override for the tooltip visibility. Setting in to No Symbol hides it.
 
 <img class="responsive-img" src="../images/bullet_graph_tooltip-off.png" srcset="../images/bullet_graph_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_tooltip-on.png" srcset="../images/bullet_graph_tooltip-on@2x.png" />
 
 ## Ranges Amount
 
-The Bullet Graph comes with three preset range configurations: two, **three**, and four ranges.
+The Bullet Graph comes with three preset range configurations: **two**, three, and four ranges.
 
 <img class="responsive-img" src="../images/bullet_graph_two_ranges.png" srcset="../images/bullet_graph_two_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_four_ranges.png" srcset="../images/bullet_graph_four_ranges@2x.png 2x" />
+
+## Ticks and Values
+
+The Ticks and Values can also be changed. There are two types of ticks - Ticks and Minor Ticks. Their color can be changed and by setting it to Transparent they can be hidden. The Values 0 to 100 can be rewritten and by placing a "Spacebar" on their value they can also be hidden.
+
+<img class="responsive-img" src="../images/bullet_graph_ticks.png" srcset="../images/bullet_graph_ticks@2x.png 2x" />
+<img class="responsive-img" src="../images/bullet_graph_values.png" srcset="../images/bullet_graph_values@2x.png 2x" />
 
 ## Styling
 
@@ -51,8 +58,8 @@ The Bullet Graph comes with styling flexibility through the various overrides co
 
 When creating data visualizations and information dashboards pick carefully between Bullet Graph and Linear Gauge depending on whether your scenario has a target value or not. Keep in mind that both Graphs and Gauges only show the current value and have no way to display historical values, if your application scenario requires such display, you should consider using the Line or Column charts. To create an easy to the eye and crisp data visualization pick colors for the Value and Target Value Brushes that have good contrast with the ranges and background underneath, avoid using variants of the same color as this makes the visualization hard to read and interpret.
 
-| Do                                                                                       | Don't                                                                                        |
-| ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Do                                                                                 | Don't                                                                                  |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/bullet_graph_do.png" srcset="../images/bullet_graph_do@2x.png 2x" /> | <img class="responsive-img" src="../images/bullet_graph_dont.png" srcset="../images/bullet_graph_dont@2x.png 2x" /> |
 
 ## Additional Resources
@@ -60,8 +67,8 @@ When creating data visualizations and information dashboards pick carefully betw
 Related topics:
 
 - [Linear Gauge](linear-gauge.md)
-- [Category Chart](chart-category.md)
-- [Data Binding](../codegen/data-binding.md)
+- [Line Chart](line-chart.md)
+- [Column Chart](column-chart.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
