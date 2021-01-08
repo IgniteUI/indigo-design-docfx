@@ -34,7 +34,7 @@ For the majority of scenarios, the Tabs need to contain between two and four ite
 <img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_4.png" srcset="../images/tabs_4@2x.png 2x" />
 
-## Short Bar Tabs Content
+## Short Bar Content
 
 The short bar comes with **label** tabs but if you want to describe the tabs with an icon instead you have to set the label of each tab to ~No Symbol.
 
@@ -70,5 +70,4 @@ Related topic:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
