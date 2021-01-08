@@ -14,9 +14,17 @@ For scenarios where no target value exists or is irrelevant you should use the [
 
 <img class="responsive-img" src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />
 
-## Title, Subtitle and Legend
+## Title and Subtitle
 
-The Bullet Graph has a Title, Subtitle and a Legend. The Title and Subtitle's text can be changed and the legend changes depending on Series Amount which is chosen. They can also be hidden if they are not needed.
+The Bullet Graph has a Title and Subtitle whose text can be changed. They can also be hidden if they are not needed.
+
+//add image
+
+## Legend
+
+The Bullet Graph comes with a Legend that can be adjusted to match the selected Series Amount. //explain how to add/remove legend items by setting them to No Symbol or the Serie Item
+
+//add image
 
 ## Tooltip
 
@@ -57,5 +65,4 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
