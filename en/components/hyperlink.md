@@ -14,15 +14,19 @@ Use the Hyperlink Component to allow the user access additional information rela
 
 ## Size
 
-The Hyperlink comes in two different sizes matching the available sizes for paragraph text: a 16pt Body 1 and a 14pt Body 2.
+The Hyperlink comes in two different sizes matching the available sizes for paragraph text: Body 1 and Body 2.
 
 <img class="responsive-img" src="../images/hyperlink_sizes.png" srcset="../images/hyperlink_sizes@2x.png 2x" />
 
+## Url
+
+Specify the link you want the hyperlink to open when clicked via the Url override. This will have no visibility in your design but will be taken into account by the code generation services.
+
 ## Styling
 
-The Hyperlink can be styled through the Styling library by changing its default blue color to another one.
+The Hyperlink can be styled by changing the default blue color of the text of the `Symbol Master` that can be found on the 🧩 Components page in the Indigo.Design library.
 
-<img class="responsive-img" src="../images/calendar_styling.png" srcset="../images/calendar_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/hyperlink_styling.png" srcset="../images/hyperlink_styling@2x.png 2x" />
 
 ## Usage
 
@@ -32,42 +36,11 @@ Always choose a Hyperlink text color that makes it stand out in a paragraph. Avo
 | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/hyperlink_do1.png" srcset="../images/hyperlink_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/hyperlink_dont1.png" srcset="../images/hyperlink_dont1@2x.png 2x" /> |
 
-## Code Generation
-
-This section describes some important overrides and how they affect code generation.
-
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Hyperlink in your design is very likely to result in loss of code generation capability for the Hyperlink.
-
-### Event Property
-
-When supplied, this property is used to create a method in the component TypeScript and add an Angular click signature in the HTML. When supplied the event must be specified using the curly braces format: {onEventName}.
-
-### LinkURL
-
-The LinkURL accepts a URL or a [binding](../codegen/data-binding.md). When supplied these values will be assigned to the href property on the HTML control.
-
-- Example URL: http://www.infragistics.com
-- Example binding: {companyWebsite}
-
-### Text
-
-The Text property may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
-
-- Settings
-- {settingsLabel}
-- Important {labelText}
-
-When supplied the Text property is used to fill in the text to display for the Hyperlink.
-
 ## Additional Resources
 
 Related topic:
 
 - [Form Pattern](../patterns/form.md)
-- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
-
