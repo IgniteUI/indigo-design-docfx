@@ -22,64 +22,23 @@ The Dialog can be used to show an alert with only a confirming button, a message
 
 ## Styling
 
-The Dialog comes with styling flexibility through the various overrides for its title and message, as well as the buttons at the bottom that individually styled as flat or raised with all the styling options that these two [Button](button.md) types provide.
+The Dialog comes with styling flexibility through the various overrides for its title and message, the buttons at the bottom with all the styling options that [Button](button.md) component provides, as well as the background and elevation.
 
 <img class="responsive-img" src="../images/dialog_styling.png" srcset="../images/dialog_styling@2x.png 2x" />
 
 ## Usage
 
-When designing a custom content Dialog, avoid placing buttons in the content section and use the existing dialog buttons for your actions instead.
+When designing a custom Dialog, avoid placing buttons in the body section and use the existing dialog buttons for your actions instead.
 
 | Do                            | Don't                           |
 | ----------------------------- | ------------------------------- |
 | <img class="responsive-img" src="../images/dialog_do1.png" srcset="../images/dialog_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/dialog_dont1.png" srcset="../images/dialog_dont1@2x.png 2x" /> |
 
-## Code Generation
-
-This section describes some important overrides and how they affect code generation.
-
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Dialog in your design is very likely to result in loss of code generation capability for the Dialog.
-
-### Text
-
-There are four Text properties for the Dialog, Title, Message, Left Button, and Right Button. These properties may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
-
-- Settings
-- {settingsLabel}
-- Important {labelText}
-
-### Dialog Naming
-
-Dialog components are hidden at runtime until code opens them. The code generator uses the name given to the dialog in Sketch, to assign a name to the dialog in the HTML. For example, if the dialog was named "ErrorDialog" in Sketch then the below HTML will be generated.
-
-```html
-<igx-dialog #errordialog>
-```
-
-### Dialog Cancel Button
-
-The code generator will add standard cancel button code to the HTML if no `🕹️Event` is specified for the LEFT button and the LEFT button text is Cancel (case insensitive comparison). In the below example, the name of the dialog was "ErrorDialog", the following will be added to the dialog HTML.
-
-``` html
-<igx-dialog #errordialog (onLeftButtonSelect)="errordialog.close()">
-```
-
-### Buttons
-
-There are Left and Right buttons. Each Button has a Type field that can be set Flat or Raised. Currently Text Style and Background on the Buttons are ignored.
-
-### Button Event
-
-Each button has an `🕹️Event` property. If supplied, onLeftButtonSelect and onRightButtonSelect events are outputted when the corresponding button is rendered. Additionally, the JavaScript $event argument will be added to the HTML signature and TypeScript method signature.
-
 ## Additional Resources
 
 Related topics:
 
-- [Data Binding](../codegen/data-binding.md)
+- [Button](button.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
-
