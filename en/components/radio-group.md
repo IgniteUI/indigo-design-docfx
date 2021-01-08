@@ -41,7 +41,7 @@ The Radio Group supports a label position where the Radio button label is placed
 
 Each Radio element in the group supports **on** and off selection states.
 
-<img class="responsive-img" src="../images/radiogroup_states.png" srcset="../images/radiogroup_states@2x.png 2x" />
+<img class="responsive-img" src="../images/radiogroup_demo.png" srcset="../images/radiogroup_demo@2x.png 2x" />
 
 ## Styling
 
