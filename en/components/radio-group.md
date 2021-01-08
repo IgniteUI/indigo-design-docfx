@@ -21,7 +21,7 @@ The Radio Group can be inserted in an enabled or disabled state.
 
 You may also set the state of a radio button in the group to disabled to disallow user interaction with it.
 
-<img class="responsive-img" src="../images/radiogroup_enabled&disabled-state.png" srcset="../images/radiogroup_enabled&disabled-state@2x.png 2x" />
+<img class="responsive-img" src="../images/radiogroup_states.png" srcset="../images/radiogroup_states@2x.png 2x" />
 
 ## Theme
 
