@@ -10,10 +10,13 @@
   header: true
 - name: Getting Started
   href: ../appbuilder/getting-started.md
+  new: true
 - name: Interface Overview
   href: ../appbuilder/interface-overview.md
-- name: Flex layouts
+  new: true
+- name: Flex Layouts
   href: ../appbuilder/flex-layouts/flex-layouts.md
+  new: true
   # items:
   #   - name: Row and column layout
   #     href: ../appbuilder/flex-layouts/row-and-column-layout.md
@@ -23,8 +26,9 @@
   #     href: ../appbuilder/flex-layouts/add-to-layout-via-context-menu.md
   #   - name: Additional resources to learn about web-layouts
   #     href: ../appbuilder/flex-layouts/additional-resources-to-learn-about-web-layouts.md
-- name: Indigo.Design App Builder components
+- name: UI Components
   href: ../appbuilder/indigo-design-app-builder-components.md
+  new: true
   # items:
   #   - name: Quick add components
   #     href: ../appbuilder/indigo-design-components/quick-add-components.md
@@ -32,6 +36,7 @@
   #     href: ../appbuilder/indigo-design-components/configuring-components.md
 - name: App Themes
   href: ../appbuilder/app-themes/app-themes.md
+  new: true
   # items:
   #   - name: Switching app themes
   #     href: ../appbuilder/app-themes/switching-app-themes.md
@@ -39,15 +44,17 @@
   #     href: ../appbuilder/app-themes/material-vs-fluent-vs-bootstrap.md
   #   - name: Customize & apply theme 
   #     href: ../appbuilder/app-themes/customize-and-apply-theme.md
-- name: Single page apps and navigation
+- name: Single Page Apps and Navigation
   href: ../appbuilder/single-page-apps-and-navigation.md
+  new: true
   # items:
   #   - name: Master view vs. Child views
   #     href: ../appbuilder/spa-and-navigation/master-view-vs-child-views.md
   #   - name: Add navigations (routing)
   #     href: ../appbuilder/spa-and-navigation/add-navigations-routing.md
-- name: Preview code and generate app
+- name: Preview Code and Generate App
   href: ../appbuilder/preview-code-and-generate-app.md
+  new: true
   # items:
   #   - name: Preview code
   #     href: ../appbuilder/preview-code-and-genrate-app/preview-code.md
@@ -65,15 +72,16 @@
   items:
     - name: Colors
       href: ../style/colors.md
+      new: true
     - name: Elevation
       href: ../style/elevation.md
     - name: Material Icons
       href: ../style/material-icons.md
+      new: true
     - name: Typography
       href: ../style/typography.md
     - name: Illustrations
       href: ../style/illustrations.md
-      new: true
 - name: Components
   href: ../components/components-overview.md
   items:
@@ -85,8 +93,10 @@
       href: ../components/bottom-nav.md
     - name: Button Group
       href: ../components/button-group.md
+      new: true
     - name: Button
       href: ../components/button.md
+      new: true
     - name: Calendar
       href: ../components/calendar.md
     - name: Cards
@@ -103,6 +113,7 @@
     - name: Combo
       href: ../components/combo.md
     - name: Data Visualization
+      new: true
       items:
         - name: Bullet Graph
           href: ../components/bullet-graph.md
@@ -112,6 +123,12 @@
           href: ../components/linear-gauge.md
         - name: Radial Gauge
           href: ../components/radial-gauge.md
+    - name: Checkbox
+      href: ../components/checkbox.md
+    - name: Chip and Chips Area
+      href: ../components/chips.md
+    - name: Combo
+      href: ../components/combo.md
     - name: Date Picker
       href: ../components/date-picker.md
       new: true
@@ -176,8 +193,10 @@
       href: ../components/icon.md
     - name: Input
       href: ../components/input.md
+      new: true
     - name: List
       href: ../components/list.md
+      new: true
       items:
         - name: Custom List Item
           href: ../components/list-custom.md
@@ -187,10 +206,12 @@
       href: ../components/nav-drawer.md
     - name: Progress
       href: ../components/progress.md
+      new: true
     - name: Radio Group
       href: ../components/radio-group.md
     - name: Slider
       href: ../components/slider.md
+      new: true
     - name: Snackbar
       href: ../components/snackbar.md
     - name: Switch
@@ -199,6 +220,7 @@
       href: ../components/tabs.md
     - name: Time Picker
       href: ../components/time-picker.md
+      new: true
     - name: Toast
       href: ../components/toast.md
     - name: Tooltip
@@ -290,8 +312,6 @@
   href: ../codegen/after-codegen.md
 - name: Layout Generation
   href: ../codegen/layout-codegen.md
-- name: Data Binding
-  href: ../codegen/data-binding.md
 
 - name: More Resources
   header: true

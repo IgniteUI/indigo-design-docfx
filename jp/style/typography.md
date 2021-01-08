@@ -1,95 +1,80 @@
-﻿---
+---
 title: タイポグラフィ - デザイン システム スタイリング
-_description: スタイリングのタイポグラフィ シンボルは、Indigo Design のフォントに関連するテーマ属性を設定できます。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, UI ライブラリ, 色, パレット
+_description: タイポグラフィのテキスト スタイルは、Indigo.Design のフォントに関連するテーマ属性を設定できます。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
 # タイポグラフィ
 
-タイポグラフィを使用してテーマの書体および利用可能なサイズを設定します。[Titillium Web](https://fonts.google.com/specimen/Titillium+Web) をデフォルト書体として使用されますが、デザイナーがアプリケーションをカスタマイズできます。スタイリング ライブラリのタイポグラフィは [Ignite UI for Angular テーマ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes.html)で実装されるタイポグラフィと一致します。
+**Indigo.Design システム**の `🎨 Typography` ページには、テーマの書体を設定できるタイプ スケールのコレクションがあります。デフォルトで [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) を使用していますが、すべてのデザイナーがアプリケーションを柔軟にカスタマイズできるようにする必要があります。Indigo.Design タイポグラフィは、[マテリアル タイプ システム](https://material.io/design/typography/the-type-system.html#type-scale)で定義された定義 と [Ignite UI for Angular タイポグラフィ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes/typography)の実装に従います。
 
 <img class="responsive-img" src="../images/typography_default.png" srcset="../images/typography_default@2x.png 2x" />
 
-> [!Note]
-> コンポーネント ライブラリは Title および Paragraph の [Text](../components/text.md) シンボルを提供します。記事、ブログ投稿の高度なレイアウトの作成で直接にスタイリング ライブラリを使用する代わりにこのアイコンを使用します。タイポグラフィは、デザインのすべてのテキストで一貫性のあるテーマおよびスタイルを定義します。
+プロジェクトでタイポグラフィを使用するには、ライブラリで定義されたテキスト スタイルの 1つ を任意のテキストレイヤーに適用します。サイズ、カラー、配置などさまざまなタイプのプリセットがあります。
 
-## タイポグラフィ色
+- タイトルの `H1` から `H6` までの 6 つの見出し。
+- 2 つの `Subtitle` サイズ。
+- 2 インターフェイスの段落コンテンツの `Body` サイズ。
+- 無料のコンテンツに使用できる `Caption` と `Overline` スタイル。
 
-タイポグラフィは `grays.900`、`grays.600`、`white`、`primary`、および `secondary` などのプリセット色があります。`success`、`warn`、および `error` 色の文字列のためのタイポグラフィを含む追加のセットがあり、以下のセクションに説明したコンポーネント固有のバリアントもあります。
+記事、ブログ投稿などの高度なレイアウトを作成する場合に使用します。**Indigo.Design システム**のテキスト スタイルは、デザインのすべてのテキストに一貫性のあるテーマとスタイルを定義します。
 
-<img class="responsive-img" src="../images/typography_colors.png" srcset="../images/typography_colors@2x.png 2x" />
+> [!Warning]
+> コンポーネント内で検証のために使用される `Internal` スタイルのコレクション、ボタンのラベルなどの特殊なケース、およびグリッドのようなデータ密度の高いシナリオもあります。これらのスタイルは、インターフェイスに直接挿入する必要はありませんが、使用されるコンポーネントのタイポグラフィの一貫性を確保するために存在します。
+
+## タイポグラフィ カラー
+
+タイポグラフィには、`grays.900` に対応する `active`、`grays.700` に対応する `inactive`、`grays.500` に対応する `disabled`、`white`、`secondary` など、複数のプリセット カラーがあります。`success`、`warn`、および `error` カラーが必要な文字列の特別なカラーのタイプ スケールがあり、Indigo.Design コンポーネント固有のバリアントもあります。
+
+<img class="responsive-img" src="../images/typography_base_colors.png"/>
 
 ## コンポーネント固有のタイポグラフィ
 
-[Avatar](../components/avatar.md)、[Hyperlink](../components/hyperlink.md) などのコンポーネントは仕様のコンポーネント固有のタイポグラフィを使用します。たとえば、Avatar は複数の色を使用し、Hyperlink は下線テキストを使用します。
+[Avatar](../components/avatar.md)、[Button](../components/button.md)、[Grid](../components/grid.md)、[Slider](../components/slider.md) および [Tooltip](../components/tooltip.md) などのコンポーネントは、コンポーネント固有のタイポグラフィを使用して、各コンポーネントで使用されるスタイル設定に対応します。たとえば、Avatar にはさまざまなカラーが必要で、Button はすべて大文字のスタイルを使用します。
 
-<img class="responsive-img" src="../images/typography_specific.png" srcset="../images/typography_specific@2x.png 2x" />
+<img class="responsive-img" src="../images/typography_colors.png"/>
 
 ## 書体の変更
 
-書体を変更するには、`Command` キーを押して、Typography セクション全体にマウスをドラッグします。これはテキスト レイヤーを選択します。(キーを押さない場合、アートボードを選択します。)書体を変更します。すべてのテキスト レイヤーが設定されます。
+Sketch で Titillium Web から別の書体に書体を変更するには、Indigo.Design ライブラリ ファイルを開き、`View` > `Components` を選択します。Sketch メニューに 4 つのボタンのグループがあります。2 つ目のボタンは文字アイコンで、`Show Text Styles` 表します。
 
-<img class="responsive-img" src="../images/typography_typeface.png" srcset="../images/typography_typeface@2x.png 2x" />
+<img class="responsive-img" src="../images/text_layers.png" srcset="../images/text_layers@2x.png 2x"/>
 
-## タイポグラフィの色の変更
+選択後、**Indigo.Design システム**が定義するすべてのテキスト スタイルを参照できます。左側のパネルで `All Text Styles` が選択されていることを確認し、Sketch の中央部分をクリックして `command` + `A` を押してすべてのスタイルを選択します。
 
-アプリケーションのテーマで `primary` 色および `secondary` 色を更新した後、テキスト色が自動的に更新されないことに注意してください。テキスト色も更新するには、`Command` キーを押して、`primary` または `secondary` セクション全体にマウスをドラッグします。これはテキスト レイヤーを選択します。(キーを押さない場合、アートボードを選択します。)テキスト色を変更します。テーマの必要な色のためにこの手順を繰り返します。
+<img class="responsive-img" src="../images/typography_left.png" srcset="../images/typography_left@2x.png 2x"/>
 
-<img class="responsive-img" src="../images/typography_primary.png" srcset="../images/typography_primary@2x.png 2x" />
+右側のパネルにあるすべての `Text Styles` に別の書体を選択できるドロップダウンがあります。これで設定が完了し、変更はすべての `Text Styles` を更新するだけでなく、すべてのコンポーネントとパターンに自動的に反映されます。
 
-> [!Note]
-> 以上の手順で、`grays.600` の代わりに `grays.700` を使用する場合、変更するレイヤーの名前を `Typography/../grays.700` に更新します。
+<img class="responsive-img" src="../images/typography_right.png" srcset="../images/typography_right@2x.png 2x"/>
 
-## コードの生成
+Sketch の `Text Styles` はカラー変数を使用してテキストの color プロパティを定義します。したがって、[カラーのトピック](colors.md)で説明されている手順に従って `primary` カラーを変更すると、すべてのプライマリ `Text Styles` が自動的に更新されます。
 
-Sketch 描画に追加されるタイポグラフィ スタイル オブジェクトは相対するテキスト、色、およびサイズの HTML div 要素として描画されます。
+## カスタム タイポグラフィの作成
 
-### データ バインディング
+さまざまなタイプスケールや `Text Styles` は、さまざまなユーザー インターフェイスをデザインするのに十分です。ただし、特別なカラーの見出しに追加のスタイルを作成する必要がある場合があります。すべてのプロジェクトでグローバルに定義する場合、既存の見出しから複製を作成し、適切なカラーを選択して名前を付けます。現在のプロジェクトのスコープ内でのみ意味がある場合は、Sketch に新しい `Text` レイヤーを挿入します。ライブラリから `Appearance` パネルで供給された既存のテキスト スタイルに最も近い `Text Style` を割り当てます。
 
-データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。実例:
+<img class="responsive-img" src="../images/typography_custom1.png" srcset="../images/typography_custom1@2x.png 2x"/>
 
-#### ネストなし
+次に、テキストのカラーを別のカラー変数に変更するなどの調整を行います。
 
-```typescript
-Customer {
-  imageName: String;
-}
-```
+<img class="responsive-img" src="../images/typography_custom2.png" srcset="../images/typography_custom2@2x.png 2x"/>
 
-DataProperty: `{imageName}`
+最後に、Create ボタンをクリックし、新しいスタイルに適切な名前を付けます。
 
-#### ネストあり
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty: `{profile.imageName}`
-
-### テキスト
-
-Text プロパティにテキスト、バインディング、または両方を含むことができます。例:
-
-- 設定
-- {settingsLabel}
-- 重要な {labelText}
+<img class="responsive-img" src="../images/typography_custom3.png" srcset="../images/typography_custom3@2x.png 2x"/>
 
 ## その他のリソース
 
 関連トピック:
 
+- [カラー](colors.md)
 - [Avatar](../components/avatar.md)
-- [Hyperlink](../components/hyperlink.md)
-- [Text](../components/text.md)
+- [Button](../components/button.md)
+- [Grid](../components/grid.md)
+- [Slider](../components/slider.md)
+- [Tooltip](../components/tooltip.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
-

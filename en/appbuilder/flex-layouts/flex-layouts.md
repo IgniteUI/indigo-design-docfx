@@ -6,6 +6,16 @@ _keywords: App builder flex layouts, Indigo Design, Infragistics
 
 # Flex layouts (and positioning) 
 
+<section class="feature__container">
+    <div class="feature">
+        <div class="feature__image">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/MUq3MGm9YlU" frameborder="0" allowfullscreen></iframe>
+            <p> Create App Layouts</p>
+            <br>
+        </div>
+    </div>
+</section>
+
 One of the greatest differences between the Indigo Design App Builder and the regular product design tools are the flex-based layouts used in the design-to-code tool. Since the Indigo Design App Builder is targeting web apps, we are offering Flex as one of the approaches to create layouts. It's available to you as a row or column layout component in the toolbox. The outermost container you see here is the canvas and has flex settings already applied to it. You can change the canvas size by editing the viewport size in the properties panel. 
 
 <img class="responsive-img" src="../../images/edit-create-canvas-size-Indigo-Design-App-Builder.gif" />
