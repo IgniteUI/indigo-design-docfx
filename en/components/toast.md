@@ -14,7 +14,7 @@ Use the Toast Component to show a short information message or notification, whi
 
 ## Position
 
-The Toast should be relatively positioned towards the bottom, center, or top of the content its information concerns.
+The Toast should be relatively positioned towards the bottom, center, or top of the content it notifies about.
 
 <img class="responsive-img" src="../images/toast_bottom.png" srcset="../images/toast_bottom@2x.png 2x" />
 <img class="responsive-img" src="../images/toast_center.png" srcset="../images/toast_center@2x.png 2x" />
@@ -22,7 +22,7 @@ The Toast should be relatively positioned towards the bottom, center, or top of 
 
 ## Styling
 
-The Toast comes with constrained styling possibility, allowing only control of the background and message text colors. However, it is highly advisable to choose between `white` and `grays.900` for the message text, whichever of the two gives better contrast with the background.
+The Toast comes with styling flexibility for background color and message text style. However, it is recommended to use `white` or `active` for the message text, to assure optimal contrast with the background and legibility.
 
 <img class="responsive-img" src="../images/toast_styling.png" srcset="../images/toast_styling@2x.png 2x" />
 
@@ -35,32 +35,6 @@ The Toast should always be centrally aligned on the horizontal and other placeme
 | <img class="responsive-img" src="../images/toast_do1.png" srcset="../images/toast_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/toast_dont1.png" srcset="../images/toast_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/toast_do2.png" srcset="../images/toast_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/toast_dont2.png" srcset="../images/toast_dont2@2x.png 2x" /> |
 
-## Code Generation
-
-This section describes some important overrides and how they affect code generation.
-
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Toast in your design is very likely to result in loss of code generation capability for the Toast.
-
-### Data Property
-
-When supplied, the `🕹️DataProperty` value is used to set up a [data binding](../codegen/data-binding.md) to the toast text property. The `🕹️DataProperty` is optional. The `🕹️DataProperty` is the name of the property on the data object specified by the model object name provided during code generation. When supplied, this value overrides the Text property.
-
-### Text
-
-When supplied, the Text property may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
-
-- Settings
-- {settingsLabel}
-- Important {labelText}
-
 ## Additional Resources
 
-Related topic:
-
-- [Data Binding](../codegen/data-binding.md)
-  <div class="divider--half"></div>
-
 Our community is active and always welcoming to new ideas.
-
-
