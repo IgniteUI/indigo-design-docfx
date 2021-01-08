@@ -51,7 +51,7 @@ The Radio Group comes with styling flexibility through the various overrides for
 
 ## Usage
 
-When extending a Radio Group with additional items, make sure that they are all vertically left-aligned in a single column. Avoid layout in multiple columns, as well as situations with more than one Radio on at a time.
+When extending a Radio Group with additional items, make sure that they are aligned consistently and form a single column. Avoid layout in multiple columns, as well as situations with more than one Radio element with on state at a time.
 
 | Do                                                                                     | Don't                                                                                      |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
@@ -59,4 +59,3 @@ When extending a Radio Group with additional items, make sure that they are all 
 | <img class="responsive-img" src="../images/radiogroup_do2.png" srcset="../images/radiogroup_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/radiogroup_dont2.png" srcset="../images/radiogroup_dont2@2x.png 2x" /> |
 
 Our community is active and always welcoming to new ideas.
-
