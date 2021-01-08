@@ -28,11 +28,12 @@ The Tabs can be fixed to fill up the available horizontal space by adapting thei
 
 ## Tabs Amount
 
-For the majority of scenarios, the Tabs need to contain between two and four items. You can exclude a tab by setting it to ~No Symbol. If your case requires more tabs, you may want to consider a fluid mode and represent only the ones in view.
+For the majority of scenarios, the Tabs need to contain between two and five tabs. You can remove a tab item by setting it to ~No Symbol. If your case requires more tabs, you may want to consider a fluid mode and represent only the tabs in view.
 
 <img class="responsive-img" src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_4.png" srcset="../images/tabs_4@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_5.png" srcset="../images/tabs_5@2x.png 2x" />
 
 ## Short Bar Content
 
