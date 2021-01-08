@@ -14,7 +14,7 @@ Use the Slider Component to allow the user to select a single value or specify a
 
 ## Type
 
-The Slider allows to choose from two types - continuous and discrete.
+The Slider allows the user to choose from two types - continuous and discrete.
 
 <img class="responsive-img" src="../images/slider_onethumb.png" srcset="../images/slider_onethumb@2x.png 2x" />
 
@@ -54,5 +54,4 @@ The Slider track color should always have a higher emphasis than the track base 
 | <img class="responsive-img" src="../images/slider_do2.png" srcset="../images/slider_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/slider_dont2.png" srcset="../images/slider_dont2@2x.png 2x" /> |
 
 Our community is active and always welcoming to new ideas.
-
 
