@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Snackbar
 
-Use the Snackbar Component to show a short notification or provide indication for the most recent action such as adding or deleting a record in a listing, with the option to trigger a simple extra action such as undo. The Snackbar is visually identical to the [Ignite UI for Angular Snackbar Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/snackbar.html)
+Use the Snackbar Component to show a short notification or provide an indication for the most recent action such as adding or deleting a record in a listing, with the option to trigger a simple extra action such as undo. The Snackbar is visually identical to the [Ignite UI for Angular Snackbar Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/snackbar.html)
 
 ## Snackbar Demo
 
@@ -14,13 +14,13 @@ Use the Snackbar Component to show a short notification or provide indication fo
 
 ## Styling
 
-The Snackbar comes with constrained styling flexibility, allowing only to change the text color of its action button.
+The Snackbar comes with styling flexibility, allowing to change the text color of the message, the action button, and the background color.
 
 <img class="responsive-img" src="../images/snackbar_styling.png" srcset="../images/snackbar_styling@2x.png 2x" />
 
 ## Usage
 
-The Snackbar always appears on top of other content, so avoid placing on top of the main application navigation. Pick an emphasizing style for its action button that contrasts it with the message and avoid stacking multiple Snackbars in a column - show only the most recent one instead.
+The Snackbar always appears on top of other content, so avoid placing it on top of the main application navigation. Pick an emphasizing style for its action button that contrasts with the message and avoid stacking multiple Snackbars in a column - show only the most recent one instead.
 
 | Do                              | Don't                             |
 | ------------------------------- | --------------------------------- |
@@ -28,32 +28,5 @@ The Snackbar always appears on top of other content, so avoid placing on top of 
 | <img class="responsive-img" src="../images/snackbar_do2.png" srcset="../images/snackbar_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/snackbar_dont2.png" srcset="../images/snackbar_dont2@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/snackbar_do3.png" srcset="../images/snackbar_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/snackbar_dont3.png" srcset="../images/snackbar_dont3@2x.png 2x" /> |
 
-## Code generation
-
-This section describes some important overrides and how they affect code generation.
-
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Snackbar in your design is very likely to result in loss of code generation capability for the Snackbar.
-
-### Event Property
-
-When supplied the `🕹️Event` Event property is used to create a method in the component TypeScript and add an onAction signature in the HTML of the Snackbar. When supplied the event must be specified using the curly braces format: {onEventName}
-
-### Text
-
-There are Text properties for the Message and Button. These properties may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
-
-- Settings
-- {settingsLabel}
-- Important {labelText}
-
-## Additional Resources
-
-Related topics:
-
-- [Data Binding](../codegen/data-binding.md)
-  <div class="divider--half"></div>
-
 Our community is active and always welcoming to new ideas.
-
 
