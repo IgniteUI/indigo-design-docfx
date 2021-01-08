@@ -58,7 +58,7 @@ The Progress comes with styling flexibility through the various overrides for it
 
 ## Usage
 
-In a Circular Bar, always use the actual value for the text label and, when adding more elaborate text in a Linear Bar, provide your best estimate for the state of completion of the task in time/files left, rather than displaying a generic string to the user. However, you may use the Indetermiante variants for both bars to display a Progress without certain and clear competion time.
+In a Circular Bar, always use the actual value for the text label and, when adding more elaborate text in a Linear Bar, provide your best estimate for the state of completion of the task in time/files left, rather than displaying a generic string to the user. However, you may use the Indeterminate variants for both bars to display a Progress without certain and clear completion time.
 
 | Do                                                                                 | Don't                                                                                  |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
