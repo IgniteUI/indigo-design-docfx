@@ -36,7 +36,7 @@ For the majority of scenarios, the Tabs need to contain between two and four ite
 
 ## Short Bar Content
 
-The short bar comes with **label** tabs but if you want to describe the tabs with an icon instead you have to set the label of each tab to ~No Symbol.
+The short bar comes with text content by default and if you want to show an icon instead, you have to assign a Material Icon to the `🔣 Icon` override and set the `🏷️ Label` to ~No Symbol for every tab in the bar.
 
 <img class="responsive-img" src="../images/tabs_text.png" srcset="../images/tabs_text@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_icons.png" srcset="../images/tabs_icons@2x.png 2x" />
@@ -70,4 +70,3 @@ Related topic:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
