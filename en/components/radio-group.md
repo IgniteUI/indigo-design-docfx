@@ -14,10 +14,13 @@ Use the Radio Group Component to allow exclusive selection for one item in a gro
 
 ## Interaction State
 
-The Radio Group can be inserted in an enabled or disabled state, as well as you can set the state of each radio button in the group individually.
+The Radio Group can be inserted in an enabled or disabled state.
 
 <img class="responsive-img" src="../images/radiogroup_enabled-state.png" srcset="../images/radiogroup_enabled-state@2x.png 2x" />
 <img class="responsive-img" src="../images/radiogroup_disabled-state.png" srcset="../images/radiogroup_disabled-state@2x.png 2x" />
+
+You may also set the state of a radio button in the group to disabled to disallow user interaction with it.
+
 <img class="responsive-img" src="../images/radiogroup_enabled&disabled-state.png" srcset="../images/radiogroup_enabled&disabled-state@2x.png 2x" />
 
 ## Theme
@@ -56,5 +59,4 @@ When extending a Radio Group with additional items, make sure that they are all 
 | <img class="responsive-img" src="../images/radiogroup_do2.png" srcset="../images/radiogroup_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/radiogroup_dont2.png" srcset="../images/radiogroup_dont2@2x.png 2x" /> |
 
 Our community is active and always welcoming to new ideas.
-
 
