@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Dropdown
 
-Use the Dropdown Component to let the user select an item from a collection that is displayed upon user interaction in a scrollable list. Only one item can be selected at a time and if your scenario allows for multiple selection, you should use the [Combo](combo.md). The Dropdown is visually identical to the [Ignite UI for Angular Dropdown Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/drop_down.html)
+Use the Dropdown Component to let the user select an item from a collection that is displayed upon user interaction in a scrollable list. Only one item can be selected at a time and if your scenario allows for multiple selections, you should use the [Combo](combo.md). The Dropdown is visually identical to the [Ignite UI for Angular Dropdown Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/drop_down.html)
 
 ## Dropdown Demo
 
@@ -28,7 +28,7 @@ The Dropdown supports two types of items header and item. Through headers it is 
 
 ## Item States
 
-The Dropdown items support five different states: disabled, **idle**, focused, selected and focused&selected.
+The Dropdown items support five different states: disabled, **idle**, focused, selected and selected&focused.
 
 <img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
@@ -44,16 +44,11 @@ The Dropdown comes with styling flexibility through an override controlling the 
 
 ## Usage
 
-When using the Dropdown you should always show it on top of the content that follows the item which triggers its display. Dopdowns don't push content like accordions do.
+When using the Dropdown you should always show it on top of the content that follows the item which triggers its display. Dropdowns don't push content like accordions do.
 
 | Do                                                                                 | Don't                                                                                  |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/dropdown_do1.png" srcset="../images/dropdown_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/dropdown_dont1.png" srcset="../images/dropdown_dont1@2x.png 2x" /> |
-
-## Code Generation
-
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Dropdown in your design is very likely to result in loss of code generation capability for the Dropdown.
 
 ## Additional Resources
 
