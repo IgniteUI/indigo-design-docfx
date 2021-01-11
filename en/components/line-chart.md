@@ -15,11 +15,18 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 The Line Chart has Title, Legend and a Chart Area, which can be changed between two states - Idle and Hover, and where you can also change the Chart Type - Line or Area, and its Series Amount. Individual series of the legend can also be turned off by setting them to No Symbol. Their color and symbol - rectangle, line or dot, can also be changed individually.
 
-## Title and Legend
+## Title
 
-The Line Chart has a title that can be changed or hidden if not needed. The Legend can also be hidden and it stands for the number of the series in the chart and what they represent. 
+The Line Chart has a title that can be changed or hidden if not needed. 
+
+<img class="responsive-img" src="../images/line_chart_title.png" srcset="../images/line_chart_title@2x.png 2x" />
+
+## Legend
+
+The Legend can also be hidden and it stands for the number of the series in the chart and what they represent. Also the number of the series can be changed by adding series, or with setting a serie to No Symbol, hiding series.
 
 <img class="responsive-img" src="../images/line_chart_legend.png" srcset="../images/line_chart_legend@2x.png 2x" />
+<img class="responsive-img" src="../images/line_chart_legend-off.png" srcset="../images/line_chart_legend-off@2x.png 2x" />
 
 ## Chart Type
 
@@ -27,20 +34,26 @@ This is where the chart can be switched between Line and Line Area Chart. The Ar
 
 <img class="responsive-img" src="../images/line_area_chart_three_series.png" srcset="../images/line_area_chart_three_series@2x.png 2x" />
 
-## Tooltip
+## State
 
-The Line Chart comes with an override for the tooltip visibility: **Tooltip Off** hides it and Tooltip On shows it on top of the series.
+The Line Chart has two states - Idle and Hover. In the Hover state tooltip is shown upon hovering over a data point.
 
 <img class="responsive-img" src="../images/line_chart_tooltip-off.png" srcset="../images/line_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/line_area_chart_tooltip-off.png" srcset="../images/line_area_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/line_chart_tooltip-on.png" srcset="../images/line_chart_tooltip-on@2x.png 2x" />
 <img class="responsive-img" src="../images/line_area_chart_tooltip-on.png" srcset="../images/line_area_chart_tooltip-on@2x.png 2x" />
 
-## Axis and Gridlines
+## Y-Axis
+
+The Y-axis of the Line chart comprises of a Title, Labels and an Axis. The title and the labels can be changed or hidden. To hide the title just type a Spacebar in its field and to hide a label set its override to ~No Symbol. Changing the Axis' color from the default transparent color will show it if needed. And to hide all of the Y-axis change its state to ~No Symbol.
+
+<img class="responsive-img" src="../images/line_chart_yaxis.png" srcset="../images/line_chart_yaxis@2x.png 2x" />
+
+## Gridlines
 
 Aside from being able to change the labels, you can also change the axis' color, ticks' color and also the gridlines. The Y axis title can be changed or hidden by deleting its content.
 
-<img class="responsive-img" src="../images/line_chart_axis.png" srcset="../images/line_chart_axis@2x.png 2x" />
+<img class="responsive-img" src="../images/line_chart_gridlines.png" srcset="../images/line_chart_gridlines@2x.png 2x" />
 
 ## Line and Points
 
@@ -68,18 +81,21 @@ The Line and Area Line Chart's color of the series, dots and area can be easily 
 
 ## Usage
 
-Use the Line Chart when you have a continuous data set and want to see the amount of change over a period of time. If you use time to represent the change in the category you should always set it on the horizontal axis. Always start the Y-Axis (left or right axis) at 0 so data comparison is accurate and order time-series data from left to right. Use proper aspect ratio to minimize dramatic slope drops. When there are more than one serie in the chart it is best they be different colors to be distinguishable. It is also good to have a legend signifying the different colors in the series and what they represent.
+Use the Line Chart when you have a continuous data set and want to see the amount of change over a period of time. If you use time to represent the change in the category you should always set it on the horizontal axis. Always start the Y-Axis at 0 so data comparison is accurate and order time-series data from left to right. Use proper aspect ratio to minimize dramatic slope drops. When there are more than one serie in the chart it is best they be different colors to be distinguishable. It is also good to have a legend signifying the different colors in the series and what they represent.
 
 
-/* | Do                                                                                             | Don't                                                                                              |
+ | Do                                                                                             | Don't                                                                                              |
 | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| <img class="responsive-img" src="../images/line_chart_do1.png" srcset="../images/line_chart_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/line_chart_dont1.png" srcset="../images/line_chart_dont1@2x.png 2x" /> | */
+| <img class="responsive-img" src="../images/line_chart_do1.png" srcset="../images/line_chart_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/line_chart_dont1.png" srcset="../images/line_chart_dont1@2x.png 2x" /> | 
 
 ## Additional Resources
 
 Related topic:
 
-- [Data Binding](../codegen/data-binding.md)
+- [Spline Chart](../spline-chart.md)
+  <div class="divider--half"></div>
+
+- [Column Chart](../column-chart.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
