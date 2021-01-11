@@ -11,7 +11,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 ## Line Chart Demo
 
-<img class="responsive-img" src="../images/line_chart_three_series.png" srcset="../images/line_chart_three_series@2x.png 2x" />
+<img class="responsive-img" src="../images/line_chart_demo.png" srcset="../images/line_chart_demo@2x.png 2x" />
 
 The Line Chart has Title, Legend and a Chart Area, which can be changed between two states - Idle and Hover, and where you can also change the Chart Type - Line or Area, and its Series Amount. Individual series of the legend can also be turned off by setting them to No Symbol. Their color and symbol - rectangle, line or dot, can also be changed individually.
 
@@ -23,7 +23,7 @@ The Line Chart has a title that can be changed or hidden if not needed.
 
 ## Legend
 
-The Legend can also be hidden and it stands for the number of the series in the chart and what they represent. Also the number of the series can be changed by adding series, or with setting a serie to No Symbol, hiding series.
+The Legend can also be hidden by setting its override to No Symbol. It shows the number of the series in the chart and what they represent. Also the number of the legend's series can be changed by adding series, or with setting a serie to No Symbol, hiding it.
 
 <img class="responsive-img" src="../images/line_chart_legend.png" srcset="../images/line_chart_legend@2x.png 2x" />
 <img class="responsive-img" src="../images/line_chart_legend-off.png" srcset="../images/line_chart_legend-off@2x.png 2x" />
@@ -36,7 +36,7 @@ This is where the chart can be switched between Line and Line Area Chart. The Ar
 
 ## State
 
-The Line Chart has two states - Idle and Hover. In the Hover state tooltip is shown upon hovering over a data point.
+The Line Chart has two states - Idle and Hover. In the Hover state a tooltip, giving information about the series' values at this point, is shown upon hovering over a data point.
 
 <img class="responsive-img" src="../images/line_chart_tooltip-off.png" srcset="../images/line_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/line_area_chart_tooltip-off.png" srcset="../images/line_area_chart_tooltip-off@2x.png 2x" />
@@ -51,13 +51,13 @@ The Y-axis of the Line chart comprises of a Title, Labels and an Axis. The title
 
 ## Gridlines
 
-Aside from being able to change the labels, you can also change the axis' color, ticks' color and also the gridlines. The Y axis title can be changed or hidden by deleting its content.
+The Gridlines can change color, making them more or less visible and active. To hide them select their color to transparent.
 
 <img class="responsive-img" src="../images/line_chart_gridlines.png" srcset="../images/line_chart_gridlines@2x.png 2x" />
 
 ## Line and Points
 
-The line and points' color on the chart can be changed if it's needed so they match the color of the series.
+The line and its corresponding points' color on the chart can be changed if it's needed. If the series color is changed the points' color should also be changed to match the color of the series.
 
 <img class="responsive-img" src="../images/line_chart_colors.png" srcset="../images/line_chart_colors@2x.png 2x" />
 
@@ -93,6 +93,9 @@ Use the Line Chart when you have a continuous data set and want to see the amoun
 Related topic:
 
 - [Spline Chart](../spline-chart.md)
+  <div class="divider--half"></div>
+
+- [Step Line Chart](../step-line-chart.md)
   <div class="divider--half"></div>
 
 - [Column Chart](../column-chart.md)

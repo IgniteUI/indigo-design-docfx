@@ -11,13 +11,19 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 ## Spline Chart Demo
 
-<img class="responsive-img" src="../images/spline_chart_three_series.png" srcset="../images/spline_chart_three_series@2x.png 2x" />
+<img class="responsive-img" src="../images/spline_chart_demo.png" srcset="../images/spline_chart_demo@2x.png 2x" />
 
 The Spline Chart has Title, Legend and a Chart Area, which can be changed between two states - Idle and Hover, and where you can also change the Chart Type - Spline or Area, and its Series Amount. Individual series of the legend can also be turned off by setting them to No Symbol. Their color and symbol - rectangle, line or dot, can also be changed individually.
 
-## Title and Legend
+## Title
 
-The Spline Chart has a title that can be changed or hidden if not needed. The Legend can also be hidden and it stands for the number of the series in the chart and what they represent. 
+The Spline Chart has a title that can be changed or hidden if not needed.
+
+<img class="responsive-img" src="../images/spline_chart_title.png" srcset="../images/spline_chart_title@2x.png 2x" />
+
+## Legend
+
+The Legend can also be hidden by setting its override to No Symbol. It shows the number of the series in the chart and what they represent. Also the number of the legend's series can be changed by adding series, or with setting a serie to No Symbol, hiding it.
 
 <img class="responsive-img" src="../images/spline_chart_legend.png" srcset="../images/spline_chart_legend@2x.png 2x" />
 
@@ -27,24 +33,30 @@ This is where the chart can be switched between Spline and Spline Area. The Spli
 
 <img class="responsive-img" src="../images/spline_area_chart_three_series.png" srcset="../images/spline_area_chart_three_series@2x.png 2x" />
 
-## Tooltip
+## State
 
-The Spline Chart comes with an override for the tooltip visibility: **Tooltip Off** hides it and Tooltip On shows it on top of the series.
+The Spline Chart has two states - Idle and Hover. In the Hover state a tooltip is shown upon hovering over a data point.
 
 <img class="responsive-img" src="../images/spline_chart_tooltip-off.png" srcset="../images/spline_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/spline_area_chart_tooltip-off.png" srcset="../images/spline_area_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/spline_chart_tooltip-on.png" srcset="../images/spline_chart_tooltip-on@2x.png 2x" />
 <img class="responsive-img" src="../images/spline_area_chart_tooltip-on.png" srcset="../images/spline_area_chart_tooltip-on@2x.png 2x" />
 
-## Axis and Gridlines
+## Y-Axis
 
-Aside from being able to change the labels, you can also change the axis' color, ticks' color and also the gridlines. The Y axis title can be changed or hidden by deleting its content.
+The Y-axis of the comprises of a Title, Labels and an Axis. The title and the labels can be changed or hidden. To hide the title just type a Spacebar in its field and to hide a label set its override to ~No Symbol. Changing the Axis' color from the default transparent color will show it if needed. And to hide all of the Y-axis change its state to ~No Symbol.
 
 <img class="responsive-img" src="../images/spline_chart_axis.png" srcset="../images/spline_chart_axis@2x.png 2x" />
 
+## Gridlines
+
+The Gridlines can change color, making them more or less visible and active. To hide them select their color to transparent.
+
+<img class="responsive-img" src="../images/spline_chart_gridlines.png" srcset="../images/spline_chart_gridlines@2x.png 2x" />
+
 ## Spline and Points
 
-The line and points' color on the chart can be changed if it's needed so they match the color of the series.
+The color of the spline and the points can be changed if it's needed. If the series color is changed the points' color should also be changed to match the color of the series.
 
 <img class="responsive-img" src="../images/spline_chart_colors.png" srcset="../images/spline_chart_colors@2x.png 2x" />
 
@@ -71,15 +83,21 @@ The Spline and Area Spline Chart's color of the series, dots and area can be eas
 Use the Spline Chart when you have a continuous data set and want to see the amount of change over a period of time. If you use time to represent the change in the category you should always set it on the horizontal axis. Always start the Y-Axis (left or right axis) at 0 so data comparison is accurate and order time-series data from left to right. Use proper aspect ratio to minimize dramatic slope drops. When there are more than one serie in the chart it is best they be different and not similar colors to be distinguishable. It is also good to have a legend signifying the different colors in the series and what they represent.
 
 
-/* | Do                                                                                             | Don't                                                                                              |
+| Do                                                                                             | Don't                                                                                              |
 | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| <img class="responsive-img" src="../images/line_chart_do1.png" srcset="../images/line_chart_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/line_chart_dont1.png" srcset="../images/line_chart_dont1@2x.png 2x" /> | */
+| <img class="responsive-img" src="../images/line_chart_do1.png" srcset="../images/line_chart_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/line_chart_dont1.png" srcset="../images/line_chart_dont1@2x.png 2x" /> | 
 
 ## Additional Resources
 
 Related topic:
 
-- [Data Binding](../codegen/data-binding.md)
+- [Line Chart](../line-chart.md)
+  <div class="divider--half"></div>
+
+- [Step Line Chart](../step-line-chart.md)
+  <div class="divider--half"></div>
+
+- [Column Chart](../column-chart.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

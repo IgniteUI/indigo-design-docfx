@@ -22,7 +22,7 @@ The Column Chart has a title that can be changed or hidden if not needed.
 
 ## State
 
-The Column Chart has two states - Idle and Hover. In the Hover state tooltip is shown upon hovering over a data point, which is then focused and the other columns are dimmed out.
+The Column Chart has two states - Idle and Hover. In the Hover state a tooltip is shown upon hovering over a data point, which is then focused and the other columns are dimmed out.
 
 <img class="responsive-img" src="../images/column_chart_tooltip-off.png" srcset="../images/column_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/column_chart_tooltip-on.png" srcset="../images/column_chart_tooltip-on@2x.png 2x" />
