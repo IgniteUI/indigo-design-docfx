@@ -17,7 +17,7 @@ The Line Chart has Title, Legend and a Chart Area, which can be changed between 
 
 ## Title
 
-The Line Chart has a title that can be changed or hidden if not needed. 
+The Line Chart has a title that can be changed or hidden if not needed by setting its override to No Symbol.
 
 <img class="responsive-img" src="../images/line_chart_title.png" srcset="../images/line_chart_title@2x.png 2x" />
 

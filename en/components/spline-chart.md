@@ -17,7 +17,7 @@ The Spline Chart has Title, Legend and a Chart Area, which can be changed betwee
 
 ## Title
 
-The Spline Chart has a title that can be changed or hidden if not needed.
+The Spline Chart has a title that can be changed or hidden if not needed by setting its override to No Symbol.
 
 <img class="responsive-img" src="../images/spline_chart_title.png" srcset="../images/spline_chart_title@2x.png 2x" />
 

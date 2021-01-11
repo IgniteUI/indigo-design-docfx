@@ -11,13 +11,19 @@ Step Line Chart belongs to a group of category charts and it is rendered using a
 
 ## Step Line Chart Demo
 
-<img class="responsive-img" src="../images/step_line_chart_three_series.png" srcset="../images/step_line_chart_three_series@2x.png 2x" />
+<img class="responsive-img" src="../images/step_line_chart_demo.png" srcset="../images/step_line_chart_demo@2x.png 2x" />
 
 The Step Line Chart has Title, Legend and a Chart Area, which can be changed between two states - Idle and Hover, and where you can also change the Chart Type - Line or Area, and its Series Amount. Individual series of the legend can also be turned off by setting them to No Symbol. Their color and symbol - rectangle, line or dot, can also be changed individually.
 
-## Title and Legend
+## Title
 
-The Line Chart has a title that can be changed or hidden if not needed. The Legend can also be hidden and it stands for the number of the series in the chart and what they represent. 
+The Step Line Chart has a title that can be changed or hidden if not needed by setting its override to No Symbol.
+
+<img class="responsive-img" src="../images/step_line_chart_title.png" srcset="../images/step_line_chart_title@2x.png 2x" />
+
+## Legend
+
+The Legend can also be hidden by setting its override to No Symbol. It shows the number of the series in the chart and what they represent. Also the number of the legend's series can be changed by adding series, or with setting a serie to No Symbol, hiding it.
 
 <img class="responsive-img" src="../images/step_line_chart_legend.png" srcset="../images/step_line_chart_legend@2x.png 2x" />
 
@@ -27,20 +33,27 @@ This is where the chart can be switched between Step Line and Step Area Chart. T
 
 <img class="responsive-img" src="../images/step_area_chart_three_series.png" srcset="../images/step_area_chart_three_series@2x.png 2x" />
 
-## Tooltip
+## State
 
-The Line Chart comes with an override for the tooltip visibility: **Tooltip Off** hides it and Tooltip On shows it on top of the series.
+The Step Line Chart has two states - Idle and Hover. In the Hover state a tooltip is shown upon hovering over a data point.
 
 <img class="responsive-img" src="../images/step_line_chart_tooltip-off.png" srcset="../images/step_line_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/step_area_chart_tooltip-off.png" srcset="../images/step_area_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/step_line_chart_tooltip-on.png" srcset="../images/step_line_chart_tooltip-on@2x.png 2x" />
 <img class="responsive-img" src="../images/step_area_chart_tooltip-on.png" srcset="../images/step_area_chart_tooltip-on@2x.png 2x" />
 
-## Axis and Gridlines
+## Y-Axis
 
-Aside from being able to change the labels, you can also change the axis' color, ticks' color and also the gridlines. The Y axis title can be hidden by deleting its content.
+The Y-axis of the comprises of a Title, Labels and an Axis. The title and the labels can be changed or hidden. To hide the title just type a Spacebar in its field and to hide a label set its override to ~No Symbol. Changing the Axis' color from the default transparent color will show it if needed. And to hide all of the Y-axis change its state to ~No Symbol.
 
-<img class="responsive-img" src="../images/step_line_chart_axis.png" srcset="../images/step_line_chart_axis@2x.png 2x" />
+<img class="responsive-img" src="../images/step_line_chart_yaxis.png" srcset="../images/step_line_chart_yaxis@2x.png 2x" />
+
+## Gridlines
+
+The Step Line Chart has two types of Gridlines - vertical and horizontal. They can change color, making them more or less visible and active, or hidden by selecting their color to transparent.
+
+<img class="responsive-img" src="../images/step_line_chart_gridlines1.png" srcset="../images/step_line_chart_gridlines1@2x.png 2x" />
+<img class="responsive-img" src="../images/step_line_chart_gridlines2.png" srcset="../images/step_line_chart_gridlines2@2x.png 2x" />
 
 ## Line
 
@@ -71,15 +84,21 @@ The Step Line and Step Area Chart's color of the series and area can be easily c
 Use the Step Line Chart when you have a continuous data set and want to see the amount of change over a period of time. If you use time to represent the change in the category you should always set it on the horizontal axis. Always start the Y-Axis (left or right axis) at 0 so data comparison is accurate and order time-series data from left to right. When there are more than one series in the chart it is best they be different and not similar colors to be distinguishable. It is also good to have a legend signifying the different colors in the series and what they represent.
 
 
-/* | Do                                                                                             | Don't                                                                                              |
+| Do                                                                                             | Don't                                                                                              |
 | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| <img class="responsive-img" src="../images/line_chart_do1.png" srcset="../images/line_chart_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/line_chart_dont1.png" srcset="../images/line_chart_dont1@2x.png 2x" /> | */
+| <img class="responsive-img" src="../images/line_chart_do1.png" srcset="../images/line_chart_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/line_chart_dont1.png" srcset="../images/line_chart_dont1@2x.png 2x" /> | 
 
 ## Additional Resources
 
 Related topic:
 
-- [Data Binding](../codegen/data-binding.md)
+- [Line Chart](../line-chart.md)
+  <div class="divider--half"></div>
+
+- [Spline Chart](../spline-chart.md)
+  <div class="divider--half"></div>
+
+- [Column Chart](../column-chart.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
