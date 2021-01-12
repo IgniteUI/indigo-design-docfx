@@ -1,7 +1,7 @@
 ﻿---
 title: Badge - デザイン システム コンポーネント
 _description: Badge コンポーネント シンボルは、追加情報のヒントを提供するコンプリメンタリ要素です。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 

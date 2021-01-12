@@ -1,7 +1,7 @@
 ﻿---
 title: Details - デザイン システム パターン
 _description: Details パターン シンボルはアプリケーション シナリオ オブジェクトについての詳細情報を表示するために様々なコンポーネントを組み合わせます。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, パターン, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 

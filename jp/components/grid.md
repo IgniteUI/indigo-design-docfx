@@ -1,7 +1,7 @@
 ﻿---
 title: Grid - デザイン システム コンポーネント
 _description: Grid コンポーネント シンボルは、表形式の大量のデータを表示し、インタラクティブに操作できます。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 

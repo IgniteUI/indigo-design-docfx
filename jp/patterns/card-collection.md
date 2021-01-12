@@ -1,7 +1,7 @@
 ﻿---
 title: Card Collection - デザイン システム パターン
 _description: Card Collection パターン シンボルは Card の全般的な使用シナリオを提供します。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, パターン, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 

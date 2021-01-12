@@ -1,7 +1,7 @@
 ﻿---
 title: Carousel - デザイン システム コンポーネント
 _description: Carousel コンポーネント シンボルは画像コレクションの順次的なブラウジングが可能です。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 

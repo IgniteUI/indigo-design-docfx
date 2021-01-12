@@ -1,7 +1,7 @@
 ﻿---
 title: Slider - デザイン システム コンポーネント
 _description: Slider コンポーネント シンボルは、ユーザーの単一の値や範囲の選択をサポートします。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 

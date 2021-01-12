@@ -1,7 +1,7 @@
 ﻿---
 title: 既知の問題 - デザイン システム
 _description: 既知の問題点一覧およびその回避策の詳細。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, UI ライブラリ, 色, パレット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
