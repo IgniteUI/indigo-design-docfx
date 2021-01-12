@@ -15,7 +15,7 @@ Checkbox コンポーネント シンボルは、設定の変更やフォーム�
 
 ## 操作状態
 
-The checkbox can be inserted in an enabled or disabled state.
+Checkbox は、有効または無効の状態で挿入できます。
 
 <img class="responsive-img" src="../images/checkbox_interaction_state.png" srcset="../images/checkbox_interaction_state@2x.png 2x" />
 
@@ -28,7 +28,8 @@ Checkbox は、**暗い**と明るいバリエーションで分かりやすく�
 
 ## レイアウト テンプレート
 
-The checkbox supports a label position where the Checkbox label is placed after or before the Checkbox box element.
+Checkbox は、Checkbox ラベルが Checkbox のボックス要素の前後に配置されるラベル位置をサポートします。
+
 
 <img class="responsive-img" src="../images/checkbox_label_after.png" srcset="../images/checkbox_label_after@2x.png 2x" />
 <img class="responsive-img" src="../images/checkbox_label_before.png" srcset="../images/checkbox_label_before@2x.png 2x" />

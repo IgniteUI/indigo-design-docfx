@@ -27,7 +27,7 @@ Chip は 3 つの密度バリアントがサポートされます。
 
 ## チップの状態
 
-When the user interacts with the Chip, it may change from the default **idle** state to focus and vice versa. This affords a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
+ユーザーが Chip を操作すると、デフォルトの**アイドル**状態からフォーカスに、またはその逆に変化します。これには、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 
 <img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
 `idle`
@@ -35,22 +35,22 @@ When the user interacts with the Chip, it may change from the default **idle** s
 <img class="responsive-img" src="../images/chip_focus.png" srcset="../images/chip_focus@2x.png 2x" />
 `focus`
 
-## Chip Selection
+## Chip の選択
 
-When a chip is selected a special check icon will appear at the far left to indicate this. The `🔣 Selection Icon` override provides the means to trigger this functionality.
+Chip を選択すると、これを示す特別なチェック アイコンが左端に表示されます。`🔣 Selection Icon` オーバーライドは、この機能をトリガーする手段を提供します。
 
 <img class="responsive-img" src="../images/chip_idle_selected.png" srcset="../images/chip_idle_selected@2x.png 2x" />
 
-## Remove Chip
+## Chip の削除
 
-When a chip can be removed a special cancel icon will appear at the far right to indicate this. The `🔣 Remove Icon` override provides the means to trigger this functionality.
+Chip を削除することが可能であると、これを示す特別なキャンセル アイコンが右端に表示されます。`🔣 Remove Icon` オーバーライドは、この機能をトリガーする手段を提供します。
 
 <img class="responsive-img" src="../images/chip_idle_removable.png" srcset="../images/chip_idle_removable@2x.png 2x" />
 `idle and removable`
 
 ## Chip コンテンツ
 
-The Chip has rich support for content templating via the prefix and suffix containers allowing to insert icons and text before and after the chip main text content.
+Chip は、prefix および suffix コンテナを介したコンテンツ テンプレートをサポートしており、Chip のメイン テキスト コンテンツの前後にアイコンとテキストを挿入できます。
 
 <img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
 `Text`
@@ -80,7 +80,7 @@ Chips Area コンポーネントを使用して Chips のコレクションを�
 
 ### Chips Area タイプ
 
-The Chips Area is available in two distinct types: Chips, where the Chip collection is not related, and Connected Chips, where Chips appear in a predefined sequence.
+Chips 領域には、次の 2 つの異なるタイプがあります: Chip コレクションが関連していない Chip、および Chip が事前定義された順序で表示される接続した Chip。
 
 <img class="responsive-img" src="../images/chips_area_standard.png" srcset="../images/chips_area_standard@2x.png 2x" />
 <img class="responsive-img" src="../images/chips_area_connected.png" srcset="../images/chips_area_connected@2x.png 2x" />
@@ -93,7 +93,7 @@ Chips Area は Chips の継承スタイルがサポートされますが、コ�
 
 ## 使用方法
 
-When using a Chip, the obround will automatically size itself to fit the content and you only need to adjust the size of the instance accordingly. If the Chip is used as an action trigger for related content avoid using it in scenarios where there is only one available action, or for configurations presenting only one selectable option.
+Chip を使用する場合、楕円はコンテンツに合わせて自動的にサイズを変更するため、それに応じてインスタンスのサイズを調整するだけで済みます。Chip を関連コンテンツのアクション トリガーとして使用する場合、アクションが 1 つのみまたは設定で選択オプションが 1 つのみの場合は使用しないでください。
 
 | 良い例                                                                         |悪い例                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |

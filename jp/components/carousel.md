@@ -15,7 +15,7 @@ Carousel コンポーネント シンボルは、横矢印キーを使用して�
 
 ## インジケーターとスライド
 
-The Carousel lets you define up to 10 slides, where for each one there is a matching indicator dot, allowing the user to navigate to that respective slide.
+Carousel では、最大 10 個のスライドを定義できます。各スライドには、一致するインジケーター点があり、ユーザーはそれぞれのスライドに移動できます。
 
 <img class="responsive-img" src="../images/carousel_indicators&slides.png" srcset="../images/carousel_indicators&slides@2x.png 2x" />
 

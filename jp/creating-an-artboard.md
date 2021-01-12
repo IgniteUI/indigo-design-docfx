@@ -30,10 +30,10 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 
     - **🎨 ~** スタイリング ページ: マテリアル アイコン、カラー、タイポグラフィ、エレベーション、イラストレーションなどのすべてのスタイリング アセットは、上部の5ページにあります。
 
-    - **🧩 コンポーネント** ページ: a vast set of Components to layout your design ideas.
-      Through various presets available in the Sketch insert menu and overrides for states and layouts to configure in the right panel of the Sketch UI, you can create layouts compatible with Ignite UI for Angular and our code generation engine.
+    - **🧩 コンポーネント** ページ: デザインを構築するコンポーネントのセット。
+      Sketch の Insert メニューで利用できるさまざまなプリセットと、Sketch UI の右側のパネルで構成する状態とレイアウトのオーバーライドを通じて、Ignite UI for Angular およびコード生成エンジンと互換性のあるレイアウトを作成できます。
 
-    - **🌆 ~** patterns pages: the components shape up meaningful patterns for productive application design that can be found spread across the remaining pages.
+    - **🌆 ~** パターン ページ: コンポーネントには、残りのページに展開するアプリケーション レイアウトをガイドするパターンが含まれます。
 
 2.  Mac で Sketch アプリケーションを開き、Apple メニューから Sketch 項目をクリックして Preferences を選択します。
 
@@ -53,7 +53,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
   <div class="divider--half"></div>
   <div class="divider--half"></div>
 
-上記の画像ではライブラリが Sketch クラウドに表示されており、バージョン 57 以降を実行している場合は Sketch でこの方法を代替手段として使用できます。設定するには Indigo.Design Sketch ファイルを開き、Sketch クラウドに保存します。Indigo.Design をクラウド ライブラリとして設定する方法についての詳細は、[この Medium 記事 (英語)](https://medium.com/ignite-ui/using-indigo-design-with-sketch-cloud-libraries-70533bca00f8) を参照してください。ライブラリが正しく追加されると、Sketch の **Insert** メニューの **Symbols** セクションに表示されます。
+上記の画像ではライブラリが Sketch クラウドに表示されており、バージョン 57 以降を実行している場合は Sketch でこの方法を代替手段として使用できます。設定するには Indigo.Design Sketch ファイルを開き、Sketch クラウドに保存します。Indigo.Design をクラウド ライブラリとして設定する方法についての詳細は、[この Medium 記事 (英語)](https://medium.com/ignite-ui/using-indigo-design-with-sketch-cloud-libraries-70533bca00f8) を参照してください。ライブラリが正しく追加されると、Sketch の **Insert** メニューの **[Symbols]** セクションに表示されます。
 
 ### 2.アートボードの作成
 
@@ -152,9 +152,9 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 
 6.  **ユーザー名およびパスワードの入力を追加します。**
 
-    1.  Duplicate one of the Name inputs twice to create two more inputs for Username and Password.
+    1.  Name 入力の 1 つを 2 回複製して、Username と Password の入力を作成します。
     2.  前の手順で作成したものと、お互いに 16px の垂直間隔になるように下に配置します。
-    3.  Stretch them across the full width with 16px spacing on both sides.
+    3.  幅全体に引き伸ばし、両方の側に 16px スペースを設定します。
     4.  Overrides セクションで、Label を「Username」および「Password」に設定し、Input Text を「Leaellynasaura」および \*\*\*\*\*\*\*\*\*\*\*\* に設定します。
 
     <div class="divider--half"></div>
@@ -184,8 +184,8 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 8.  **同意テキストを追加します。**
 
     1.  `T` キーを押してボタンの下に別のテキスト要素を追加し、「By clicking on the "SIGN UP" button above, you accept our Terms of Use」と入力します。
-    2.  Assign the following Style to it Indigo.Design / Caption / Center / Inactive.
-    3.  Change its size so that there is a 16px spacing on the left, right and above.
+    2.  次のスタイルを Indigo.Design/ Caption / Center / Inactive に割り当てます。
+    3.  サイズを変更して、左、右、上に 16px スペースを設定します。
 
     <div class="divider--half"></div>
     <img class="responsive-img" src="images/getting-started7.png" srcset="images/getting-started7@2x.png 2x" />
@@ -196,7 +196,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
     <div class="divider--half"></div>
 
 9.  **アートボードをレスポンシブに設定します。**
-    1.  Select the text layers, inputs, button and white rectangle, and group them.
+    1.  テキスト レイヤー、入力、ボタンおよび白い長方形ーを選択してグループ化します。
     2.  グループの幅と高さを固定し、右のパネルの [Resizing] オプションから上にピン固定します。
 
 ## その他のリソース
