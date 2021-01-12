@@ -7,11 +7,22 @@ _language: ja
 
 # Radio Group (ラジオ グループ)
 
-Radio Group コンポーネント シンボルは、グループ項目で排他的な選択をサポートします。グループの項目は、左揃えで単一列に次々にレイアウトされます。Radio Group は、[Ignite UI for Angular Radio Button コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/radio_button.html)と視覚的に同じものです。
+Radio Group コンポーネント シンボルは、グループ項目で排他的な選択をサポートします。グループ内の項目は、1 つの列に次々に配置されます。Radio Group は、[Ignite UI for Angular Radio Button コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/radio_button.html)と視覚的に同じものです。
 
 ## Radio Group デモ
 
 <img class="responsive-img" src="../images/radiogroup_demo.png" srcset="../images/radiogroup_demo@2x.png 2x" />
+
+## 操作状態
+
+Radio Group は、有効または無効の状態で挿入できます。
+
+<img class="responsive-img" src="../images/radiogroup_enabled-state.png" srcset="../images/radiogroup_enabled-state@2x.png 2x" />
+<img class="responsive-img" src="../images/radiogroup_disabled-state.png" srcset="../images/radiogroup_disabled-state@2x.png 2x" />
+
+グループ内のラジオ ボタンの状態を無効に設定して、ユーザーによる操作を禁止することもできます。
+
+<img class="responsive-img" src="../images/radiogroup_states.png" srcset="../images/radiogroup_states@2x.png 2x" />
 
 ## テーマ
 
@@ -20,11 +31,18 @@ Radio Group は、明暗バリアントでわかりやすく、背景に明暗�
 <img class="responsive-img" src="../images/radiogroup_dark.png" srcset="../images/radiogroup_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/radiogroup_light.png" srcset="../images/radiogroup_light@2x.png 2x" />
 
+## レイアウト テンプレート
+
+Radio Group は、Radio button 要素の前後に Radio button ラベルが配置されるラベル位置をサポートします。
+
+<img class="responsive-img" src="../images/radiogroup_after-label.png" srcset="../images/radiogroup_after-label@2x.png 2x" />
+<img class="responsive-img" src="../images/radiogroup_before-label.png" srcset="../images/radiogroup_before-label@2x.png 2x" />
+
 ## 状態
 
-グループの各 Radio は、**オン**とオフ、そして追加のバリアントとしてインタラクション無効の状態があります。
+グループ内の各ラジオ要素は、**オン**およびオフの選択状態をサポートします。
 
-<img class="responsive-img" src="../images/radiogroup_states.png" srcset="../images/radiogroup_states@2x.png 2x" />
+<img class="responsive-img" src="../images/radiogroup_demo.png" srcset="../images/radiogroup_demo@2x.png 2x" />
 
 ## スタイル設定
 
@@ -34,47 +52,11 @@ Radio Group は、さまざまなオーバーライドで各項目のラベル �
 
 ## 使用方法
 
-Radio Group を追加項目で拡張する場合は、単一列で左寄せに統一してください。複数列のレイアウトや Radio を一度に 1 つ以上オンにしないようにします。
+追加の項目で Radio Group を拡張するときは、それらが一貫して整列され、単一の列を形成していることを確認してください。複数の列でのレイアウトや、一度に複数のラジオ要素がオン状態になる状況は避けてください。
 
 | 良い例                                | 悪い例                               |
 | --------------------------------- | ----------------------------------- |
 | <img class="responsive-img" src="../images/radiogroup_do1.png" srcset="../images/radiogroup_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/radiogroup_dont1.png" srcset="../images/radiogroup_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/radiogroup_do2.png" srcset="../images/radiogroup_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/radiogroup_dont2.png" srcset="../images/radiogroup_dont2@2x.png 2x" /> |
 
-## コードの生成
-
-Radio Group の色やフォントを指定した場合、Radio Group HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
-
-> [!WARNING]
-> Radio Group のインスタンスで `Detach from Symbol` をトリガーした場合、Radio Group のコード生成の精度を低下します。Sketch 描画および Angular の生成されたレイアウトを比較すると、垂直マージンの違いが Radio Button コンポーネントに表示されます。提供された項目より多く項目を作成する必要がある場合のみ `Detach from Symbol` を使用します。それ以外の場合、none に設定してラジオ ボタンを非表示にし、`🚫radio-group`、`🕹️DataProperty`、および `🕹️DataSource` レイヤーをデタッチしないでください。コードが生成された後、デザインと一致するためにマージンを CSS で調整します。
-
-### データ プロパティ
-
-`🕹️DataProperty` 値は [Angular Reactive Forms](https://angular.io/guide/reactive-forms) を使用してラジオ ボタンの checked プロパティへの双方向[データ バインディング](../codegen/data-binding.md)を設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` は、生成要求で提供されるモデル オブジェクト名で指定されたデータ オブジェクトのプロパティ名です。
-
-モデル オブジェクト名および `🕹️DataProperty` が提供される場合、Reactive Forms フォームを作成するためにフォーム ビルダー コードで TypeScript `ngOnInit` メソッドが生成されます。`🕹️DataProperty` はラジオ ボタン コントロールの formControlName プロパティを設定します。
-
-### データ ソース プロパティ
-
-提供される場合、`🕹️DataSource` 値が Radio Group のデータ ソース オブジェクトへのバインディングを設定するために使用されます。デフォルトで Radio Group ボタンの値およびラベルに割り当てる value および name プロパティがあるデータ ソースにバインドするために構成されます。`🕹️DataSource` プロパティはオプションです。
-
-`🕹️DataSource` が設定される場合、スタイルはグループの最初のラジオから取得されます。その他の Radio Button スタイル設定が無視されます。`🕹️DataSource` が使用される場合、Text プロパティも無視されます。
-
-### ラジオ ボタン
-
-グループの Radio Button の設定を決定します。`🕹️DataSource` を設定し、最初の Radio Button が None の場合、ラジオ グループは描画しません。Radio Button が None の場合、Radio Button を描画しません。Radio Button の Color が None の場合、Radio Button を描画しません。3 つの Radio Button がすべて None の場合、Radio Group を描画しません。
-
-### テキスト
-
-`🕹️DataSource` を設定した場合、Text プロパティは無視されます。Text が提供される場合、Radio Button の値およびラベルで使用されます。
-
-## その他のリソース
-
-関連トピック:
-
-- [データ バインディング](../codegen/data-binding.md)
-  <div class="divider--half"></div>
-
 コミュニティに参加して新しいアイデアをご提案ください。
-
-
