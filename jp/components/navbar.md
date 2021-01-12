@@ -7,7 +7,7 @@ _language: ja
 
 # NavBar (ナビバー)
 
-Navbar コンポーネントは、アプリケーションでユーザーの現在の位置を明確にし、アプリケーション レベルのナビゲーションを向上します。常に画面の上に配置されます。Navbar は、[Ignite UI for Angular Navbar コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/navbar.html)と視覚的に同じものです。
+Navbar コンポーネントを使用して、アプリケーション内の現在の位置を明確にし、単純なアプリケーション レベルのナビゲーションを実装します。アプリケーションで多くの操作を伴うより複雑なナビゲーションが必要な場合は、代わりに [Navigation Drawer](nav-drawer.md) または [Menu](../patterns/menu.md) の使用を検討してください。Navbar は常に画面の上部にあり、[Ignite UI for Angular Navbar コンポーネント](https://www.infragistics.com/products/ignite-ui-angular/angular/components/navbar.html)と視覚的に同じものです。
 
 ## Navbar デモ
 
@@ -15,66 +15,42 @@ Navbar コンポーネントは、アプリケーションでユーザーの現�
 
 ## タイプ
 
-Navbar は、3 つのレイアウト構成があり、**アイコン アクションとタイトル**、テキスト アクションとタイトル、タイトルで定義されます。
+Navbar には、2 つの異なるタイプのバリエーションがあります。メイン コンテンツ領域に影を落とす Elevated のものと、コンテンツの残りの部分から分離する代わりに境界線がある Outlined です。どちらのバリアントも、内部で同じ機能をサポートしています。
 
-<img class="responsive-img" src="../images/navbar_lefticon.png" srcset="../images/navbar_lefticon@2x.png 2x" />
-<img class="responsive-img" src="../images/navbar_lefttext.png" srcset="../images/navbar_lefttext@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_elevated.png" srcset="../images/navbar_elevated@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_outlined.png" srcset="../images/navbar_outlined@2x.png 2x" />
+
+## コンテンツのレイアウト
+
+Navbar のコンテンツは、Left Action と Title で構成される左側の領域と、さまざまな操作用の 4 つの隣接するアイコンがある右側の領域に分割されます。左側の操作または右側のアイコンを 〜No Symbol に設定することで、Navbar のレイアウトを構成できます。
+
+<img class="responsive-img" src="../images/navbar_left&right.png" srcset="../images/navbar_left&right@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_noright.png" srcset="../images/navbar_noright@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_noleft.png" srcset="../images/navbar_noleft@2x.png 2x" />
 
 ## アクション アイコン
 
-各 Navbar は、画面右端から左へ、描画されるシンプルなイベントをトリガーする操作アイコンを 4 アイコンまでサポートします。
+Navbar は、さまざまな単純なイベントをトリガーできる右側の最大 4 つの操作アイコンをサポートできます。
 
-<img class="responsive-img" src="../images/navbar_icon1.png" srcset="../images/navbar_icon1@2x.png 2x" />
-<img class="responsive-img" src="../images/navbar_icon2.png" srcset="../images/navbar_icon2@2x.png 2x" />
-<img class="responsive-img" src="../images/navbar_icon3.png" srcset="../images/navbar_icon3@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_icon4.png" srcset="../images/navbar_icon4@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_icon3.png" srcset="../images/navbar_icon3@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_icon2.png" srcset="../images/navbar_icon2@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_icon1.png" srcset="../images/navbar_icon1@2x.png 2x" />
 
 ## スタイル設定
 
-Navbar には、タイトル、アイコ、ン、背景色を変更する基本的なスタイル設定機能があります。
+Navbar には、タイトル、アイコン、境界線、背景色を変更する基本的なスタイル設定機能があります。
 
 <img class="responsive-img" src="../images/navbar_styling.png" srcset="../images/navbar_styling@2x.png 2x" />
 
 ## 使用方法
 
-Navbar 操作は、タイトルと重ならないように使用してください。シングル メニューの表示をトリガーするアイコンを使用して回避できます。操作で他のアイコンを指定した場合、Navbar に通常配置するすべての操作をその下に統合し、 Navbar にスタンドアロンの操作を配置しないようにします。
+Navbar の操作は、タイトルと重ならないように注意深く設定する必要があります。これは、1 つを除くすべてのアイコンを右側に非表示にし、3 つの点で表される「その他」アイコンを割り当てて、単純なメニューの表示をトリガーすることで回避できます。操作で「その他」アイコンを指定した場合、Navbar に通常配置するすべての操作をその下に統合し、Navbar にスタンドアロンの操作を配置しないようにします。
 
 | 良い例                                                                             |悪い例                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/navbar_do1.png" srcset="../images/navbar_do1@2x.png 2x" />|<img class="responsive-img" src="../images/navbar_dont1.png" srcset="../images/navbar_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/navbar_do2.png" srcset="../images/navbar_do2@2x.png 2x" />|<img class="responsive-img" src="../images/navbar_dont2.png" srcset="../images/navbar_dont2@2x.png 2x" /> |
-
-## コードの生成
-
-このセクションは、オーバーライドとコード生成にどのような影響があるかについて説明します。
-
-> [!WARNING]
-> デザインの Navbar のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Navbar のためのコード生成機能が失われます。
-
-### イベント
-
-Action Button で提供される `Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に onTabItemSelected シグネチャを追加します。`Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に onClick シグネチャを追加します。波括弧構文 ({onEventName}) を使用してイベントを指定する必要があります。
-
-### タイプ
-
-このプロパティは表示する NavBar のタイプを決定します。None に設定した場合、コントロールは描画されません。
-
-### Action Button のアイコン
-
-NavBar コントロールの左側にある Action Button に使用するアイコンを決定します。Icon のために選択された色は、このコントロールのすべての Icons に使用する色を決定します。
-
-### タイトル
-
-NavBar のタイトル領域内に表示されます。Title プロパティには、テキスト、[テキストのバインディング](../codegen/data-binding.md)、またはその両方を含むことができます。例:
-
-- 設定
-- {settingsLabel}
-- 重要な {labelText}
-
-### アクション アイコン
-
-アイコンは NavBar の右側に 4 つまで表示されます。
 
 ## その他のリソース
 
@@ -82,7 +58,7 @@ NavBar のタイトル領域内に表示されます。Title プロパティに�
 
 - [Icon](icon.md)
 - [Navigation Drawer](nav-drawer.md)
-- [データ バインディング](../codegen/data-binding.md)
+- [Menu パターン](../patterns/menu.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
