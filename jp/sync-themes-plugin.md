@@ -9,13 +9,13 @@ _language: ja
 
 Indigo.Design Sketch プラグインは、Indigo.Design UI Kit for Sketch を使用した新しいテーマの作成や既存のテーマの編集が可能です。`primary` (プライマリ), `secondary` (セカンダリ), `error` (エラー), `success` (成功), `warn` (警告), `info`(情報) の色やブランディングに合わせたタイポグラフィのプロパティの調整ができます。プラグインはプロジェクトを簡単に Indigo.Design クラウドに公開し、変更や更新の際に定期的に同期させることができます。
 
-## 1.Indigo.Design プラグインのインストール
+## 1. Indigo.Design プラグインのインストール
 
 Indigo.Design プラグインは、ヘッダーの `作業の開始` ボタンをクリックすると表示されるダイアログの `Design System` タブからサインインした後に [Indigo.Design Cloud](https://cloud.indigo.design) からダウンロードできます。アーカイブをダウンロードして開き、Sketch プラグイン ファイルをダブルクリックすると、Indigo.Design プラグインがインストールされます。
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Download.png" srcset="images/Sync_themes_plugin_Download@2x.png 2x" />
 
-## 2.テーマ
+## 2. テーマ
 
 このセクションでは、Indigo.Design UI Kit で作成した Sketch プロジェクトでテーマを作成する際のベスト プラクティスについて説明します。以下の方法に従ってタイポグラフィや色などブランディング アセットをプロジェクトやライブラリに適用できます。複数のプロジェクト内のすべての UI コンポーネントで統一したブランディングを表現できます。
 
@@ -37,19 +37,19 @@ Colors や Typography プロパティを編集する前にテーマの名前を�
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Naming_your_New_Theme.png" srcset="images/Sync_themes_plugin_Naming_your_New_Theme@2x.png 2x" />
 
-#### 2.ブランディングと色の選択
+#### 2. ブランディングと色の選択
 
 上部にある 2 つのパレットを指定する場合、残りのシェードが自動的に生成されるためベース値 `Primary 500` と `Secondary 500` のみ設定できます。ほとんどの場合、ブランディング カラーのパレットを使用します。`error` (エラー), `success` (成功), `warn` (警告), `info`(情報) の色に関しては、アプリケーションに対するユーザーの知覚を考慮することをお勧めします。デフォルトの色は、ほとんどのケースにマッチする色になっています。テーマをクリックし、HEX/RGB 値を入力、または色を選択して簡単に調整できます。
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Specify_colors.png" srcset="images/Sync_themes_plugin_Specify_colors@2x.png 2x" />
 
-#### 3.タイポグラフィの選択
+#### 3. タイポグラフィの選択
 
 Typeface プロパティは、`Typography` タブで設定できます。`ベース タイプフェイス` としてよく使用されるフォントファミリなどが設定できます。追加で各テキスト スタイルのフォントの太さを調整する場合もプラグインで行うことができます。テキストのスタイルは線や段落、更に Chipa など内部にテキストを表示するコンポーネントにも適用されます。
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Specify_typography.png" srcset="images/Sync_themes_plugin_Specify_typography@2x.png 2x" />
 
-#### 4.テーマの保存と適用
+#### 4. テーマの保存と適用
 
 [保存] をクリックするとテーマが保存され、定義済みテーマの一覧に表示されます。ライブラリが更新されてスタイルが現在のプロジェクトにプロパゲートされると、ライブラリと Sketch ファイルのサイズにもよりますが処理は通常数秒で終わります。
 
@@ -72,7 +72,7 @@ Typeface プロパティは、`Typography` タブで設定できます。`ベー
 >
 > <img class="responsive-img" src="images/Sync_themes_plugin_difference.png" srcset="images/Sync_themes_plugin_difference@2x.png 2x" />
 
-## 3.クラウドへのプロトタイプの公開と同期
+## 3. クラウドへのプロトタイプの公開と同期
 
 Indigo.Design クラウドにプロトタイプを公開する準備ができたら Sketch の `Plugins` メニューから `Indigo.Design` > `Publish Prototype` を選択します。プラグインのクラウド インテグレーション機能をはじめて実行する場合、Indigo.Design アカウントでログインする必要があります。プロトタイプを公開する際場合、はじめに新しいプロトタイプを作成するか既存のプロトタイプを置き換えるかを選択してください。
 
@@ -94,7 +94,7 @@ Indigo.Design クラウドにプロトタイプを公開する準備ができた
 
 <img class="responsive-img" src="images/Sync_themes_plugin_New_prototype.png" srcset="images/Sync_themes_plugin_New_prototype@2x.png 2x" />
 
-#### 2.既存プロトタイプの更新
+#### 2. 既存プロトタイプの更新
 
 新しいプロトタイプを公開する他、クラウドにあるスクリーンをより新しいスクリーンと置き換えて既存のプロトタイプを更新することもできます。`プロトタイプの置き換え`タブへ移動し、プロトタイプの検索やフィルタリングができます (パーソナルまたはチームワークスペースにある場合など)。作成時に定義したプロトタイプの構成を変更することもできます。
 
@@ -108,7 +108,7 @@ Indigo.Design クラウドにプロトタイプを公開する準備ができた
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Replace_prototype.png" srcset="images/Sync_themes_plugin_Replace_prototype@2x.png 2x" />
 
-#### 3.プロトタイプの公開
+#### 3. プロトタイプの公開
 
 プロトタイプがクラウドへ正しく公開されるとリンクの他に以下のオプションがあります。
 
@@ -120,7 +120,7 @@ Indigo.Design クラウドにプロトタイプを公開する準備ができた
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Published_prototype.png" srcset="images/Sync_themes_plugin_Published_prototype@2x.png 2x" />
 
-#### 4.プロトタイプの同期
+#### 4. プロトタイプの同期
 
 プロトタイプを最初に公開した後もデザイン フローが継続されるため、細かな調整や公開したプロトタイプと同期する必要があります。プラグイン メニューから `プロトタイプの同期` を選択します。
 
