@@ -22,14 +22,14 @@ Tooltip コンポーネントを使用して追加情報を表示し、ユーザ
 
 ## バリアント
 
-Tooltip の **dark** バリアントは、より明るい色のインターフェイスの下の使用が適しています。**light** バリアントはより暗い色のインターフェイスの上の使用が適しています。
+Tooltip には、下方に明るいインターフェイスに適した**暗い**バリアントと、暗い UI に適した明るいバリアントがあります。
 
 <img class="responsive-img" src="../images/tooltip_dark.png" srcset="../images/tooltip_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/tooltip_light.png" srcset="../images/tooltip_light@2x.png 2x" />
 
 ## スタイル設定
 
-Tooltip には、背景色の制御をオーバライドすることにより柔軟にスタイル設定ができる機能があります。
+Tooltip には、背景色とメッセージ テキスト スタイルのスタイル設定の柔軟性があります。ただし、メッセージ テキストの場合、最適なテキストの読みやすさを確保するために、暗いバリアントでは `white` を使用し、明るいバリアントでは `active` を使用することをお勧めします。
 
 <img class="responsive-img" src="../images/tooltip_styling.png" srcset="../images/tooltip_styling@2x.png 2x" />
 
@@ -42,13 +42,6 @@ Tooltip には、背景色の制御をオーバライドすることにより柔
 | <img class="responsive-img" src="../images/tooltip_do1.png" srcset="../images/tooltip_do1@2x.png 2x" />|<img class="responsive-img" src="../images/tooltip_dont1.png" srcset="../images/tooltip_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/tooltip_do2.png" srcset="../images/tooltip_do2@2x.png 2x" />|<img class="responsive-img" src="../images/tooltip_dont2.png" srcset="../images/tooltip_dont2@2x.png 2x" /> |
 
-## コードの生成
-
-> [!WARNING]
-> デザインの ツールチップ のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合でツールチップのコード生成が機能しなくなります。
-
 ## その他のリソース
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
-

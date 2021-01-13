@@ -13,6 +13,12 @@ Switch コンポーネント シンボルは、ユーザーが設定一覧でオ
 
 <img class="responsive-img" src="../images/switch_demo.png" srcset="../images/switch_demo@2x.png 2x" />
 
+## 操作状態
+
+Switch は、有効または無効の状態で挿入できます。
+
+<img class="responsive-img" src="../images/switch_enabled&disabled-state.png" srcset="../images/switch_enabled&disabled-state@2x.png 2x" />
+
 ## テーマ
 
 Switch は、明暗バリアントで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
@@ -20,16 +26,16 @@ Switch は、明暗バリアントで分かりやすく、背景に明暗のコ�
 <img class="responsive-img" src="../images/switch_dark.png" srcset="../images/switch_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_light.png" srcset="../images/switch_light@2x.png 2x" />
 
-## ラベルの使用
+## レイアウト テンプレート
 
-Switch はラベルなしで使用できます。ラベルを非表示にするためにテキスト値を空/スペース文字にしてコンポーネントの幅を小さくします(38px など)。
+Switch は、Switch ラベルが Switch 要素の前後に配置されるラベル位置をサポートします。
 
-<img class="responsive-img" src="../images/switch_label.png" srcset="../images/switch_label@2x.png 2x" />
-<img class="responsive-img" src="../images/switch_no_label.png" srcset="../images/switch_no_label@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_label-before.png" srcset="../images/switch_label-before@2x.png 2x" />
+<img class="responsive-img" src="../images/switch_label-after.png" srcset="../images/switch_label-after@2x.png 2x" />
 
 ## 状態
 
-Switch は、オン/オフと選択状態があり、追加のバリアントとしてインタラクション無効の状態があります。
+Switch は**オン**とオフの選択状態を提供します。
 
 <img class="responsive-img" src="../images/switch_on.png" srcset="../images/switch_on@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_on_disabled.png" srcset="../images/switch_on_disabled@2x.png 2x" />
@@ -38,66 +44,23 @@ Switch は、オン/オフと選択状態があり、追加のバリアントと
 
 ## スタイル設定
 
-Switch は、つまみとトラック色を制御でき柔軟なスタイル設定が可能です。固定アルファ値がトラックに適用されて半透明になります。
+Switch にはスタイルの柔軟性があり、つまみとトラックの色を制御し、ラベルのテキストの色を変更できます。トラックのアルファ値は、使用されている色に関係なく半透明の外観を実現するように固定されており、Indigo.Design ライブラリの 🧩 Components ページにある `Symbol Master` を介してのみグローバルに調整できます。
 
 <img class="responsive-img" src="../images/switch_styling.png" srcset="../images/switch_styling@2x.png 2x" />
 
 ## 使用方法
 
-Switch は、設定リストで状態を制御するオプションを説明するラベルの右に表示されます。画面の左端の近くに配置しないようにします。必須の場合は代わりに Checkbox を使用します。Switch つまみとトラックに同じまたは同様の色を使用します。
+Switch つまみとトラックに同じまたは同様の色を使用します。
 
 | 良い例                                                                         | 悪い例                                                                             |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| <img class="responsive-img" src="../images/switch_do1.png" srcset="../images/switch_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/switch_dont1.png" srcset="../images/switch_dont1@2x.png 2x" /> |
-| <img class="responsive-img" src="../images/switch_do2.png" srcset="../images/switch_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/switch_dont2.png" srcset="../images/switch_dont2@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/switch_do3.png" srcset="../images/switch_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/switch_dont3.png" srcset="../images/switch_dont3@2x.png 2x" /> |
-
-## コードの生成
-
-Switch の色を指定した場合、Switch HTML 要素は div でラップされます。これはネスト コンポーネント (他のコンポーネント内のコンポーネント) をスタイル設定する際にブラウザーによって要求されます。
-
-> [!WARNING]
-> デザインの Switch のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Switch のためのコード生成機能が失われます。
-
-### データ プロパティ
-
-`🕹️DataProperty` 値は [Angular Reactive Forms](https://angular.io/guide/reactive-forms) を使用してスイッチの checked プロパティへの双方向[データ バインディング](../codegen/data-binding.md)を設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` はコード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名です。
-
-モデル オブジェクト名および `🕹️DataProperty` が提供される場合、Reactive Forms フォームを作成するためにフォーム ビルダー コードで TypeScript `ngOnInit` メソッドが生成されます。
-`🕹️DataProperty` はスイッチ コントロールの formControlName プロパティを設定します。
-
-### 状態
-
-State プロパティが off または無効に設定した場合、コントロールは描画されません。
-
-### ラベルのスタイル
-
-Text Style が None の場合、コントロールのラベル テキストは描画されません。ラベル スタイルは、Switch の配置とテキスト色の制御に使用します。
-
-### テキスト
-
-Text プロパティにテキスト、[テキストのバインディング](../codegen/data-binding.md)、または両方を含むことができます。例:
-
-- 設定
-- {settingsLabel}
-- 重要な {labelText}
-
-### つまみ
-
-Thumb が None の場合、コントロールは描画されません。スイッチの丸つまみ部分の色を設定するプロパティ。
-
-### トラック
-
-Track が None の場合、コントロールは描画されません。スイッチのトラック部分の色を設定するプロパティ。
 
 ## その他のリソース
 
 関連トピック:
 
 - [Lists パターン](../patterns/lists.md)
-- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
-
