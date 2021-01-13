@@ -31,7 +31,7 @@ Sketch の `Plugins` メニューの `Indigo.Design` から `Themes` を選択�
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Start_New_Theme.png" srcset="images/Sync_themes_plugin_Start_New_Theme@2x.png 2x" />
 
-#### 1.新しいテーマに名前を付ける
+#### 1. 新しいテーマに名前を付ける
 
 Colors や Typography プロパティを編集する前にテーマの名前を指定します。テーマの説明となる名前を付けるとテーマが増えたときにわかりやすく便利です。
 
@@ -78,7 +78,7 @@ Indigo.Design クラウドにプロトタイプを公開する準備ができた
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Publish.png" srcset="images/Sync_themes_plugin_Publish@2x.png 2x" />
 
-#### 1.新しいプロトタイプの公開
+#### 1. 新しいプロトタイプの公開
 
 共有したい Sketch プロジェクトがある場合、Indigo.Design クラウドへ公開して早い段階でフィードバックをもらうことができます。`New prototype` タブで実行でき、以下が可能です。
 

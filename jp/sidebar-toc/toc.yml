@@ -108,7 +108,7 @@
       href: ../components/carousel.md
     - name: Checkbox
       href: ../components/checkbox.md
-    - name: Chip and Chips Area
+    - name: Chip と Chips Area
       href: ../components/chips.md
     - name: Combo
       href: ../components/combo.md
@@ -123,12 +123,6 @@
           href: ../components/linear-gauge.md
         - name: Radial Gauge
           href: ../components/radial-gauge.md
-    - name: Checkbox
-      href: ../components/checkbox.md
-    - name: Chip と Chips Area
-      href: ../components/chips.md
-    - name: Combo
-      href: ../components/combo.md
     - name: Date Picker
       href: ../components/date-picker.md
       new: true
