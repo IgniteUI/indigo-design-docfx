@@ -106,6 +106,12 @@
           href: ../components/cards-custom.md
     - name: Carousel
       href: ../components/carousel.md
+    - name: Checkbox
+      href: ../components/checkbox.md
+    - name: Chip and Chips Area
+      href: ../components/chips.md
+    - name: Combo
+      href: ../components/combo.md
     - name: Data Visualization
       new: true
       items:
@@ -123,6 +129,8 @@
       href: ../components/chips.md
     - name: Combo
       href: ../components/combo.md
+    - name: Date Picker
+      href: ../components/date-picker.md
       new: true
     - name: Dialog
       href: ../components/dialog.md

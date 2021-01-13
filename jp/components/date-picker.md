@@ -1,10 +1,10 @@
 ---
 title: Date Picker - デザイン システム コンポーネント
-_description: The Date Picker Component Symbol is used as a visual representation of calendar dates providing the necessary mechanisms for date picking.
+_description: Date Picker コンポーネント シンボルは、日付選択に必要なメカニズムを提供する日付のビジュアル表現として使用します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット 
 ---
 
-# Date Picker
+# Date Picker (日付ピッカー)
 
 Date Picker コンポーネントは、日付を視覚的に表現し、フォームへの表示およびドロップダウンまたはダイアログから選択するための適切な手段を提供します。Date Picker は、[Ignite UI for Angular Date Picker コンポーネント](https://www.infragistics.com/products/ignite-ui-angular/angular/components/date_picker.html)と視覚的に同じものです。
 
