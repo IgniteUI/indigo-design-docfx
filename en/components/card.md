@@ -14,80 +14,69 @@ Use the Card Component to display information for a single object through an ima
 
 ## Areas
 
-The Card has three distinct areas: `header` which holds a combination of title and subtitle, `content` which holds images and paragraphs detailing the Card, and `actions` which serves as a toolbar with quick actions related to the Card.
+The Card has four distinct areas: for `image` at the top to show picture or map media, a `header` which holds a combination of thumbnail Avatar, title, and subtitle, `body` which holds text paragraphs detailing the Card, and `actions` which serves as a toolbar with quick actions related to the Card.
 
 |         |                                                                                                |
 | ------- | ---------------------------------------------------------------------------------------------- |
-| header  | <img class="responsive-img" src="../images/card_headerl.png" srcset="../images/card_headerl@2x.png 2x" />             |
-| content | <img class="responsive-img" src="../images/card_content_image.png" srcset="../images/card_content_image@2x.png 2x" /> |
-| actions | <img class="responsive-img" src="../images/card_actions_icons.png" srcset="../images/card_actions_icons@2x.png 2x" /> |
+| image   | <img class="responsive-img" src="../images/card_media_image.png" srcset="../images/card_media_image@2x.png 2x" /> |
+| header  | <img class="responsive-img" src="../images/card_header.png" srcset="../images/card_header@2x.png 2x" /> |
+| body    | <img class="responsive-img" src="../images/card_content_image.png" srcset="../images/card_body@2x.png 2x" /> |
+| actions | <img class="responsive-img" src="../images/card_actions_buttons_icons.png" srcset="../images/card_actions_buttons_icons@2x.png 2x" /> |
+
+## Image and Body
+
+The image and body Card areas support the same collection of eleven overrides: 6 continent maps for the populated world areas, one World Map, and one Navigation Map, as well as Array of shortcuts like contacts, Image, and Paragraph for a short description text.
+
+<img class="responsive-img" src="../images/card_media_worldmap.png" srcset="../images/card_media_worldmap@2x.png 2x" />
+
+<img class="responsive-img" src="../images/card_media_nav.png" srcset="../images/card_media_nav@2x.png 2x" />
+
+<img class="responsive-img" src="../images/card_media_image.png" srcset="../images/card_media_image@2x.png 2x" />
+
+<img class="responsive-img" src="../images/card_body.png" srcset="../images/card_body@2x.png 2x" />
 
 ## Header
 
-The Card Header supports three distinct layouts: **Large Title** which provides a large title and a subtitle, Small Title which provides a small title and a subtitle, and Small Title Only which provides a small title and no subtitle.
+The Card header, through the use of `Smart Layout` in Sketch, supports various layouts including an Avatar Thumbnail, Title and Subtitle elements.
 
-<img class="responsive-img" src="../images/card_headerl.png" srcset="../images/card_headerl@2x.png 2x" />
-<img class="responsive-img" src="../images/card_headers.png" srcset="../images/card_headers@2x.png 2x" />
-<img class="responsive-img" src="../images/card_header_title.png" srcset="../images/card_header_title@2x.png 2x" />
-
-## Content
-
-The Card Content supports five distinct layouts: **Array** for shortcuts like contacts, Image with or without a title, Map for showing geographical location, and Paragraph for a short description text.
-
-<img class="responsive-img" src="../images/card_content_shortcuts.png" srcset="../images/card_content_shortcuts@2x.png 2x" />
-<img class="responsive-img" src="../images/card_content_image.png" srcset="../images/card_content_image@2x.png 2x" />
-<img class="responsive-img" src="../images/card_content_map.png" srcset="../images/card_content_map@2x.png 2x" />
-<img class="responsive-img" src="../images/card_content_paragraph.png" srcset="../images/card_content_paragraph@2x.png 2x" />
+<img class="responsive-img" src="../images/card_header.png" srcset="../images/card_header@2x.png 2x" />
 
 ## Actions
 
-The Card Actions come in three distinct layouts: **Button Actions** with just a couple of Flat Buttons, Icon Actions with up to three icons, and Icon + Button Actions combining the two approaches.
+The Card actions come in six distinct layouts: **Button + Icon Actions** with two Flat Buttons and three Icons and the inverse Icon + Button Actions laid the other way around, as well as their Justified~ variants, and variants with only Justified Button Actions and Justified Icon Actions. Each of the six is defined as a `Smart Layout` in Sketch letting you remove elements by setting them to ~No Symbol and have the rest automatically adjust to the desired layout.
 
-<img class="responsive-img" src="../images/card_actions_buttons.png" srcset="../images/card_actions_buttons@2x.png 2x" />
-<img class="responsive-img" src="../images/card_actions_icons.png" srcset="../images/card_actions_icons@2x.png 2x" />
-<img class="responsive-img" src="../images/card_actions_mixed.png" srcset="../images/card_actions_mixed@2x.png 2x" />
+<img class="responsive-img" src="../images/card_actions_buttons_icons.png" srcset="../images/card_actions_buttons_icons@2x.png 2x" />
 
-## Types
+<img class="responsive-img" src="../images/card_actions_icons_buttons.png" srcset="../images/card_actions_icons_buttons@2x.png 2x" />
 
-The Card is available in one of the following layouts:
+<img class="responsive-img" src="../images/card_actions_just_buttons_icons.png" srcset="../images/card_actions_just_buttons_icons@2x.png 2x" />
 
-|                   |                                                                                                |
-| ----------------- | ---------------------------------------------------------------------------------------------- |
-| Point of Interest | <img class="responsive-img" src="../images/card_poi.png" srcset="../images/card_poi@2x.png 2x" />                     |
-| Audio Video Card  | <img class="responsive-img" src="../images/card_av.png" srcset="../images/card_av@2x.png 2x" />                       |
-| Normal Pin        | <img class="responsive-img" src="../images/card_normal-pin.png" srcset="../images/card_normal-pin@2x.png 2x" />       |
-| Condensed Pin     | <img class="responsive-img" src="../images/card_condensed-pin.png" srcset="../images/card_condensed-pin@2x.png 2x" /> |
-| Shortcuts         | <img class="responsive-img" src="../images/card_shortcuts.png" srcset="../images/card_shortcuts@2x.png 2x" />         |
-| Simple Card       | <img class="responsive-img" src="../images/card_simple.png" srcset="../images/card_simple@2x.png 2x" />               |
-| Small Card        | <img class="responsive-img" src="../images/card_small.png" srcset="../images/card_small@2x.png 2x" />                 |
-| Square Card       | <img class="responsive-img" src="../images/card_square.png" srcset="../images/card_square@2x.png 2x" />               |
-| Text Card         | <img class="responsive-img" src="../images/card_text.png" srcset="../images/card_text@2x.png 2x" />                   |
-| Timeline Card     | <img class="responsive-img" src="../images/card_timeline.png" srcset="../images/card_timeline@2x.png 2x" />           |
+<img class="responsive-img" src="../images/card_actions_just_buttons.png" srcset="../images/card_actions_just_buttons@2x.png 2x" />
 
-If none of them works for your design, you may create your own [Custom Cards](cards-custom.md).
+<img class="responsive-img" src="../images/card_actions_just_icons_buttons.png" srcset="../images/card_actions_just_icons_buttons@2x.png 2x" />
+
+<img class="responsive-img" src="../images/card_actions_just_icons.png" srcset="../images/card_actions_just_icons@2x.png 2x" />
+
+## Card Layout
+
+Through the use of `Smart Layout` in Sketch, the Card can produce various layouts by excluding certain areas or elements within one area or another to create a myriad of distinct variants starting with the same Component initially.
+
+<img class="responsive-img" src="../images/card_demo.png" srcset="../images/card_demo@2x.png 2x" />
 
 ## Styling
 
-The Card comes with styling flexibility through the various overrides available for header, content, and actions areas such as text, icons, and button colors, as well as the possibility to choose a Card background color.
+The Card comes with styling flexibility through the various overrides available for image, header, body, and actions areas such as text, icons, and button colors, as well as the possibility to choose a Card background color.
 
 <img class="responsive-img" src="../images/card_styling.png" srcset="../images/card_styling@2x.png 2x" />
 
 ## Usage
 
-The Card usually works as an overview and entry point for more detailed information, therefore, you want to avoid clogging it with too much information. When creating card dashboards, size and arrange cards consistently in order to form a layout grid with equal horizontal and vertical gaps between cards.
+The Card usually works as an overview UI and an entry point for more detailed information. Avoid clogging it with too much information and as you create dashboards with it, size and arrange the Cards consistently in order to form a layout grid with equal horizontal and vertical gaps between cards.
 
 | Do                                                                         | Don't                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | <img class="responsive-img" src="../images/card_do1.png" srcset="../images/card_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/card_dont1.png" srcset="../images/card_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/card_do2.png" srcset="../images/card_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/card_dont2.png" srcset="../images/card_dont2@2x.png 2x" /> |
-
-## Code generation
-
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Card in your design is very likely to result in loss of code generation capability for the Card.
-
-`🕹️DataSource`
-`🕹️Event`
 
 ## Additional Resources
 
@@ -96,7 +85,6 @@ Related topics:
 - [Avatar](avatar.md)
 - [Button](button.md)
 - [Icon](icon.md)
-- [Card Collection Pattern](../patterns/card-collection.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
