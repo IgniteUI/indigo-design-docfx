@@ -22,7 +22,7 @@ Time Picker コンポーネントを使用して、日付の時間部分 (時間
 
 ## Picker レイアウト
 
-Time Picker は、水平方向と垂直方向のダイアログ レイアウト、および時間を選択するさまざまなモードを容易にするドロップダウン レイアウトをサポートしています。ダイアログ レイアウトには、オーバーライドを 〜No Symbol に設定することで非表示にできるヘッダーが付属していますが、それでも、ダイアログ レイアウトが投影する影により、ドロップダウン レイアウトと区別できることに注意してください。
+Time Picker は、水平方向と垂直方向のダイアログ レイアウト、および時間を選択するさまざまなモードを容易にするドロップダウン レイアウトをサポートしています。ダイアログ レイアウトには、オーバーライドを ~No Symbol に設定することで非表示にできるヘッダーが付属していますが、それでも、ダイアログ レイアウトが投影する影により、ドロップダウン レイアウトと区別できることに注意してください。
 
 <img class="responsive-img" src="../images/timepicker_horizontal.png" srcset="../images/timepicker_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/timepicker_vertical.png" srcset="../images/timepicker_vertical@2x.png 2x" />
@@ -37,7 +37,7 @@ Time Picker は、2 種類のコンテンツ モードで 12 時間と 24 時間
 
 ## ボタン
 
-Time Picker の 2 つのボタンは、時間を元の時間に戻す選択のキャンセルおよび変更を保存するための選択の確認にそれぞれ使用します。ボタン領域はテンプレート化可能であり、たとえば、オーバーライドを 〜No Symbol に設定してボタンを非表示にしたり、別のアクションを割り当てることができます。
+Time Picker の 2 つのボタンは、時間を元の時間に戻す選択のキャンセルおよび変更を保存するための選択の確認にそれぞれ使用します。ボタン領域はテンプレート化可能であり、たとえば、オーバーライドを ~No Symbol に設定してボタンを非表示にしたり、別のアクションを割り当てることができます。
 
 <img class="responsive-img" src="../images/timepicker_buttons.png" srcset="../images/timepicker_buttons@2x.png 2x" />
 

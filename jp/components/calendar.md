@@ -7,7 +7,7 @@ _language: ja
 
 # Calendar (カレンダー)
 
-Calendar コンポーネントは、日付を視覚的に表示し、日、月、年のビューを介してその部分をナビゲートするための一貫した手段を提供します。Calendar は、日付を参照して 1 つ以上、例えば日付範囲を選択できるためにビューでインラインに設定します。Calendar は、[Ignite UI for Angular Calendar](https://www.infragistics.com/products/ignite-ui-angular/angular/components/calendar.html) コンポーネントと視覚的に同じもので、[Ignite UI for Angular Date Picker コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/date_picker.html)に使用されます。
+Calendar コンポーネントは、日付を視覚的に表示し、日、月、年のビューを介してその部分をナビゲートするための一貫した手段を提供します。Calendar は、日付を参照して 1 つ以上、例えば日付範囲を選択できるためにビューでインラインに設定します。Calendar は、[Ignite UI for Angular Calendar](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/calendar.html) コンポーネントと視覚的に同じもので、[Ignite UI for Angular Date Picker コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/date_picker.html)に使用されます。
 
 ## Calendar デモ
 
@@ -38,13 +38,13 @@ Calendar は、主要な日付部分のそれぞれの表示を容易にする�
 
 ## ヘッダー
 
-Calendar には組み込みのヘッダーがあり、オーバーライド パネルでヘッダーのオーバーライドを 〜No Symbol に設定すると、フォームにシームレスに埋め込むことができる基本のカレンダーが作成されます。
+Calendar には組み込みのヘッダーがあり、オーバーライド パネルでヘッダーのオーバーライドを ~No Symbol に設定すると、フォームにシームレスに埋め込むことができる基本のカレンダーが作成されます。
 
 <img class="responsive-img" src="../images/calendar_base.png" srcset="../images/calendar_base@2x.png 2x" />
 
 ## 週番号
 
-Calendar には週番号のサポートも組み込まれていますが、UI のこの部分を表示したくない場合は、週番号のオーバーライドを 〜No Symbol に設定するだけです。
+Calendar には週番号のサポートも組み込まれていますが、UI のこの部分を表示したくない場合は、週番号のオーバーライドを ~No Symbol に設定するだけです。
 
 <img class="responsive-img" src="../images/calendar_weeknum.png" srcset="../images/calendar_weeknum@2x.png 2x" />
 

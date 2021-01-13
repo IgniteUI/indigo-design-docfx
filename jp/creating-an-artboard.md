@@ -6,7 +6,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 
 # はじめてのアートボード作成
 
-このトピックは、**Indigo.Design System** を使用して登録画面の Sketch アートボードを作成する方法を紹介します。
+このトピックは、**Indigo.Design システム**を使用して登録画面の Sketch アートボードを作成する方法を紹介します。
 
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/getting-started7.png" srcset="images/getting-started7@2x.png 2x" />
@@ -18,7 +18,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 
 ## 前提条件
 
-[Titillium Web Font][1] をコンピューターにインストールしてください。**Indigo.Design System** のテキストはそのフォントを使用します。
+[Titillium Web Font][1] をコンピューターにインストールしてください。**Indigo.Design システム**のテキストはそのフォントを使用します。
 
 ## 詳細手順
 
@@ -30,7 +30,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 
     - **🎨 ~** スタイリング ページ: マテリアル アイコン、カラー、タイポグラフィ、エレベーション、イラストレーションなどのすべてのスタイリング アセットは、上部の5ページにあります。
 
-    - **🧩 コンポーネント** ページ: デザインを構築するコンポーネントのセット。
+    - **🧩 Components** ページ: デザインを構築するコンポーネントのセット。
       Sketch の Insert メニューで利用できるさまざまなプリセットと、Sketch UI の右側のパネルで構成する状態とレイアウトのオーバーライドを通じて、Ignite UI for Angular およびコード生成エンジンと互換性のあるレイアウトを作成できます。
 
     - **🌆 ~** パターン ページ: コンポーネントには、残りのページに展開するアプリケーション レイアウトをガイドするパターンが含まれます。
@@ -46,7 +46,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 6.  **Preferences** ダイアログのリストで表示され、チェックされていることを確認します。
 
   <div class="divider--half"></div>
-  <img class="responsive-img" src="images/creating_an_artboard_2.png" />
+  <img class="responsive-img" src="images/Creating_An_Artboard_2.png" srcset="images/Creating_An_Artboard_2@2x.png" />
   <div class="divider--half"></div>
   <div class="divider--half"></div>
   <div class="divider--half"></div>
@@ -207,7 +207,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 - [Input](components/input.md)
 - [Navbar](components/navbar.md)
 - [Text](components/text.md)
-- [Styling](style/styling-overview.md)
+- [スタイル設定](style/styling-overview.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

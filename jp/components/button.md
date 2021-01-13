@@ -39,7 +39,7 @@ Button コンポーネント シンボルは、シンプルなユーザー操作
 
 ## レイアウト テンプレート
 
-Raised、Outlined、Flat、Floating Action ボタンは、オーバーライド パネルから非表示にする要素を 〜No Symbol に設定することで、柔軟なアイコンとラベルのテンプレートをサポートします。
+Raised、Outlined、Flat、Floating Action ボタンは、オーバーライド パネルから非表示にする要素を ~No Symbol に設定することで、柔軟なアイコンとラベルのテンプレートをサポートします。
 
 <img class="responsive-img" src="../images/button_templates.png" srcset="../images/button_templates@2x.png 2x" />
 

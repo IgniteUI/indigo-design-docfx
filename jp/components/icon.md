@@ -7,7 +7,7 @@ _language: ja
 
 # Icon (アイコン)
 
-Icon コンポーネント シンボルは、製品に「いいね」などのシンプルなインタラクションをトリガーしてユーザーに情報をグラフィックで表示します。すでに提供されている[マテリアル アイコン](../style/material-icons.md)から選択するか、**Indigo.Design System** の `🎨 Material Icons` ページに必要なものを追加することができます。Icon は、[Ignite UI for Angular Icon コンポーネント](https://www.infragistics.com/products/ignite-ui-angular/angular/components/icon.html)と視覚的に同じです。
+Icon コンポーネント シンボルは、製品に「いいね」などのシンプルなインタラクションをトリガーしてユーザーに情報をグラフィックで表示します。すでに提供されている[マテリアル アイコン](../style/material-icons.md)から選択するか、**Indigo.Design System** の `🎨 Material Icons` ページに必要なものを追加することができます。Icon は、[Ignite UI for Angular Icon コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/icon.html)と視覚的に同じです。
 
 ## Icon デモ
 

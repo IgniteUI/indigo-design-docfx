@@ -2,11 +2,12 @@
 title: Date Picker - デザイン システム コンポーネント
 _description: Date Picker コンポーネント シンボルは、日付選択に必要なメカニズムを提供する日付のビジュアル表現として使用します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット 
+_language: ja
 ---
 
 # Date Picker (日付ピッカー)
 
-Date Picker コンポーネントは、日付を視覚的に表現し、フォームへの表示およびドロップダウンまたはダイアログから選択するための適切な手段を提供します。Date Picker は、[Ignite UI for Angular Date Picker コンポーネント](https://www.infragistics.com/products/ignite-ui-angular/angular/components/date_picker.html)と視覚的に同じものです。
+Date Picker コンポーネントは、日付を視覚的に表現し、フォームへの表示およびドロップダウンまたはダイアログから選択するための適切な手段を提供します。Date Picker は、[Ignite UI for Angular Date Picker コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/date_picker.html)と視覚的に同じものです。
 
 ## Date Picker デモ
 
@@ -21,7 +22,7 @@ Date Picker コンポーネントは、日付を視覚的に表現し、フォ�
 
 ## Picker レイアウト
 
-Date Picker は、水平方向と垂直方向のダイアログ レイアウト、およびドロップダウン レイアウトをサポートし、日付を選択するさまざまなモードを容易にします。ダイアログ レイアウトには、オーバーライドを 〜No Symbol に設定することで非表示にできるヘッダーが付属していますが、その他にもダイアログ レイアウトが投影する影により、ドロップダウン レイアウトと区別できます。
+Date Picker は、水平方向と垂直方向のダイアログ レイアウト、およびドロップダウン レイアウトをサポートし、日付を選択するさまざまなモードを容易にします。ダイアログ レイアウトには、オーバーライドを ~No Symbol に設定することで非表示にできるヘッダーが付属していますが、その他にもダイアログ レイアウトが投影する影により、ドロップダウン レイアウトと区別できます。
 
 <img class="responsive-img" src="../images/datepicker_horizontal.png" srcset="../images/datepicker_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_vertical.png" srcset="../images/datepicker_vertical@2x.png 2x" />
@@ -36,7 +37,7 @@ Date Picker は、水平方向と垂直方向のダイアログ レイアウト�
 
 ## 週番号
 
-Date Picker には、Calendar と同じように週番号のサポートが組み込まれています。UI のこの部分を表示したくない場合は、週番号のオーバーライドを 〜NoSymbol に設定するだけです。
+Date Picker には、Calendar と同じように週番号のサポートが組み込まれています。UI のこの部分を表示したくない場合は、週番号のオーバーライドを ~No Symbol に設定するだけです。
 
 <img class="responsive-img" src="../images/datepicker_weeknumbers.png" srcset="../images/datepicker_weeknumbers@2x.png 2x" />
 
@@ -50,7 +51,7 @@ Calendar と同様に、Date Picker では 3 つの選択モードから選択�
 
 ## ボタン
 
-ドロップダウン Date Picker には 2 つのボタンがあります: 1 つは現在の選択を保持して閉じるためのもので、もう 1 つは今日に移動するためのものです。ボタン領域はテンプレート化可能であり、たとえば、オーバーライドを 〜No Symbol に設定してボタンを非表示にしたり、別のアクションを割り当てることができます。ダイアログ Date Picker には、日付を選択するとダイアログが自動的に閉じるため、デフォルトではボタンがありません。
+ドロップダウン Date Picker には 2 つのボタンがあります: 1 つは現在の選択を保持して閉じるためのもので、もう 1 つは今日に移動するためのものです。ボタン領域はテンプレート化可能であり、たとえば、オーバーライドを ~No Symbol に設定してボタンを非表示にしたり、別のアクションを割り当てることができます。ダイアログ Date Picker には、日付を選択するとダイアログが自動的に閉じるため、デフォルトではボタンがありません。
 
 <img class="responsive-img" src="../images/datepicker_buttons.png" srcset="../images/datepicker_buttons@2x.png 2x" />
 

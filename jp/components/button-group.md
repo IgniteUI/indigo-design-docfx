@@ -7,7 +7,7 @@ _language: ja
 
 # Button Group (ボタン グループ)
 
-Button Group コンポーネントを使用して、いくつかの関連機能のトリガーを 1 つのインターフェイス要素に結合します。Button Group は、[Ignite UI for Angular Button Group コンポーネント](https://www.infragistics.com/products/ignite-ui-angular/angular/components/button-group.html)と視覚的に同じものです。
+Button Group コンポーネントを使用して、いくつかの関連機能のトリガーを 1 つのインターフェイス要素に結合します。Button Group は、[Ignite UI for Angular Button Group コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/button-group.html)と視覚的に同じものです。
 
 ## Button Group デモ
 

@@ -29,7 +29,7 @@ Tabs は、幅を調整することで使用可能な水平方向のスペース
 
 ## Tabs の量
 
-多くのケースで Tabs に 2 つ ～ 5 つのタブが必要になります。タブ項目を 〜No Symbol に設定して削除できます。さらにタブが必要な場合は、流動モードを検討し、表示されているタブのみを表すことをお勧めします。
+多くのケースで Tabs に 2 つ ～ 5 つのタブが必要になります。タブ項目を ~No Symbol に設定して削除できます。さらにタブが必要な場合は、流動モードを検討し、表示されているタブのみを表すことをお勧めします。
 
 <img class="responsive-img" src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
@@ -38,7 +38,7 @@ Tabs は、幅を調整することで使用可能な水平方向のスペース
 
 ## 短いバー コンテンツ
 
-短いバーにはデフォルトでテキスト コンテンツが付属しており、代わりにアイコンを表示する場合は、マテリアル アイコンを `🔣 Icon` オーバーライドに割り当て、バーのすべてのタブで `🏷️ Label` を 〜NoSymbol に設定する必要があります。
+短いバーにはデフォルトでテキスト コンテンツが付属しており、代わりにアイコンを表示する場合は、マテリアル アイコンを `🔣 Icon` オーバーライドに割り当て、バーのすべてのタブで `🏷️ Label` を ~No Symbol に設定する必要があります。
 
 <img class="responsive-img" src="../images/tabs_text.png" srcset="../images/tabs_text@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_icons.png" srcset="../images/tabs_icons@2x.png 2x" />
