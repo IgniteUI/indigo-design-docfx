@@ -76,7 +76,7 @@ The Text property may contain text, [binding text](../codegen/data-binding.md)
 Related topics:
 
 - [Button Group](button-group.md)
-- [Cards](cards.md)
+- [Card](card.md)
 - [Dialog](dialog.md)
 - [Snackbar](snackbar.md)
 - [Time Picker](time-picker.md)

@@ -97,11 +97,12 @@
       href: ../components/button.md
     - name: Calendar
       href: ../components/calendar.md
-    - name: Cards
-      href: ../components/cards.md
+    - name: Card
+      href: ../components/card.md
       items:
-        - name: Custom Card
-          href: ../components/cards-custom.md
+        - name: Skeleton Card
+          href: ../components/card-skeleton.md
+          new: true
     - name: Carousel
       href: ../components/carousel.md
     - name: Data Visualization

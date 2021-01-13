@@ -1,12 +1,12 @@
 ---
-title: Cards - Design System Component
+title: Card - Design System Component
 _description: The Card Component Symbol contains images and text outlining a single object, enhanced with relevant actions.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-# Cards
+# Card
 
-Use the Card Component to display information for a single object through images and text, allowing relevant quick actions to be triggered such as sharing, liking, bookmarking, etc. The Card usually works as an overview and entry point for more detailed information, and dashboards are created by combining different types of Cards. The Card is visually identical to the [Ignite UI for Angular Card Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/card.html)
+Use the Card Component to display information for a single object through an image, map, or other media content ,as well as text, allowing relevant quick actions to be triggered such as sharing, liking, bookmarking, etc. It usually works as an overview and entry point for more detailed information. Cards with various content and layout can be combined to create a dashboard. The Card is visually identical to the [Ignite UI for Angular Card Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/card.html)
 
 ## Card Demo
 

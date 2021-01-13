@@ -70,7 +70,7 @@ When supplied, this property is used to create a method in the component TypeScr
 Related topics:
 
 - [Avatar + Badge](../patterns/avatar-badge.md)
-- [Cards](cards.md)
+- [Card](card.md)
 - [File Upload](../patterns/file-upload.md)
 - [User Profile](../patterns/user-profile.md)
 - [Data Binding](../codegen/data-binding.md)
