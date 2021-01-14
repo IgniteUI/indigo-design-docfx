@@ -12,7 +12,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 <img class="responsive-img" src="../images/column_chart_demo.png" srcset="../images/column_chart_demo@2x.png 2x" />
 
-The Column Chart comprises of Title and Chart area, where you can choose from Idle or Hover states.
+The Column Chart comprises of `Title`, a `Legend` that is hidden by default, and `Chart Area` available in Idle and Hover states.
 
 ## Title
 
