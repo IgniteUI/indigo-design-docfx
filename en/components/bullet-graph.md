@@ -45,7 +45,6 @@ The Bullet Graph comes with three preset range configurations: **two**, three, a
 
 Ticks and Values are also configurable. The two types of ticks: Ticks and Minor Ticks can be hidden by setting their color to `Transparent`. The default Values 0,10,20 etc. up to 100 can be adjusted according to one's needs.
 
-<img class="responsive-img" src="../images/bullet_graph_ticks.png" srcset="../images/bullet_graph_ticks@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_values.png" srcset="../images/bullet_graph_values@2x.png 2x" />
 
 ## Styling
