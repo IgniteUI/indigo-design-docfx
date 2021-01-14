@@ -54,7 +54,7 @@ First and foremost, the Column Chart lets you change the color of the series. It
 
 ## Usage
 
-Use the Column Chart when you want to see the amount of change over a period of time. Always start you numeric Axis at 0, so you don't misrepresent the data. Don't use different colors for the same category. If you use time to represent the change in the category you should always set it on the horizontal axis. Don't use too active color for the Gridlines as it will make the chart hard to read and will take away the focus. If you need a detailed Time-Series analysis  - consider a Line Chart with a Time-Series for this type of data.
+Use the Column Chart when you want to show the amount of change over a period of time. Always start your numeric Axis at 0 to avoid misrepresenting the data. Also, abstain from using different colors for the same category. If referencing time, e.g. dates or months, to represent the change in the category, you should always set it on the horizontal axis. Use subtle colors for the Gridlines to make the chart easier to the eye. If you need a more detailed time series visual, consider using a Line Chart instead.
 
 | Do                                                                                             | Don't                                                                                              |
 | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
