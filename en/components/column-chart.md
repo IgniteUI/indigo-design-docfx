@@ -35,7 +35,7 @@ The Y-axis of the column chart comprises of a Title, Labels, and the Axis itself
 
 ## Gridlines
 
-The Gridlines of the Column chart can change their color, or if they need to be hidden just change their color to transparent.
+The Column Chart has built-in Gridlines to make it easier to visually trace a data point to a value on the Y-axis. To hide them just set their color to `Transparent`.
 
 <img class="responsive-img" src="../images/column_chart_gridlines.png" srcset="../images/column_chart_gridlines@2x.png 2x" />
 
