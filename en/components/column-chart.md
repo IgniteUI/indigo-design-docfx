@@ -16,7 +16,7 @@ The Column Chart comprises of Title and Chart area, where you can choose from Id
 
 ## Title
 
-The Column Chart has a title that can be changed or hidden if not needed by setting its override to No Symbol.
+The Column Chart has a title that can be changed or hidden if not needed by setting its override to ~No Symbol.
 
 <img class="responsive-img" src="../images/column_chart_title-off.png" srcset="../images/column_chart_title-off@2x.png 2x" />
 
@@ -68,5 +68,4 @@ Related topic:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
