@@ -90,13 +90,13 @@ The dropdown items within the Combo support five different states: disabled, **i
 
 ## Styling
 
-The Combo comes with the combined styling flexibility of its input and dropdown pieces. There are overrides controlling the input texts' color and bottom line style and color, as well as dropdown background color, and various overrides related to the items in the Combo dropdown such as item and header background and text colors.
+The Combo comes with the combined styling flexibility of its input and dropdown pieces. There are overrides controlling the input text elements' color and bottom line style and color. For the dropdown one may change the background color, or use the various overrides related to the items in the Combo dropdown, such as the search input and the items with their background and text colors.
 
 <img class="responsive-img" src="../images/combo_styling.png" srcset="../images/combo_styling@2x.png 2x" />
 
 ## Usage
 
-When using the Combo its input and dropdown should have the same width and their left and right borders should match. Regarding how the dropdown is shown when the Combo is focused, you should always show it on top of the content that follows the Combo triggering its display. Combos don't push content like accordions do.
+When using the Combo, its input and dropdown should have the same width and their left and right borders should match. Regarding how the dropdown is shown when the Combo is focused, you should always show it on top of the content that follows the Combo triggering its display. Combos don't push content like expansion panels do.
 
 | Do                                                                           | Don't                                                                            |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
