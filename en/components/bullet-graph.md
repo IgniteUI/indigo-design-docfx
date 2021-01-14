@@ -28,7 +28,7 @@ The Bullet Graph comes with a Legend that can be adjusted to match the selected 
 
 ## Tooltip
 
-The Bullet Graph comes with an override for the tooltip visibility. Setting in to No Symbol hides it.
+The Bullet Graph comes with a tooltip that may be hidden by setting the override to ~No Symbol.
 
 <img class="responsive-img" src="../images/bullet_graph_tooltip-off.png" srcset="../images/bullet_graph_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_tooltip-on.png" srcset="../images/bullet_graph_tooltip-on@2x.png 2x" />
