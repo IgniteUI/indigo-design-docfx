@@ -41,7 +41,7 @@ The Column Chart has built-in Gridlines to make it easier to visually trace a da
 
 ## Data Points
 
-The Data Points (the columns) can be hidden by setting individual columns to ~No Symbol in order to change their number. The annotations can be changed or removed by deleting their content and placing a Spacebar instead.
+Data Points for a Column Chart are the individual columns, which use a Smart Layout in Sketch making it possible to adjust their amount on the Chart Area. They come with configurable labels on the X-axis and annotation labels.
 
 <img class="responsive-img" src="../images/column_chart_columns.png" srcset="../images/column_chart_columns@2x.png 2x" />
 
