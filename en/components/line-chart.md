@@ -90,17 +90,11 @@ Use the Line Chart when you have a continuous data set and want to see the amoun
 
 ## Additional Resources
 
-Related topic:
+Related topics:
 
-- [Spline Chart](../spline-chart.md)
-  <div class="divider--half"></div>
-
-- [Step Line Chart](../step-line-chart.md)
-  <div class="divider--half"></div>
-
-- [Column Chart](../column-chart.md)
-  <div class="divider--half"></div>
+- [Spline Chart](spline-chart.md)
+- [Step Line Chart](step-line-chart.md)
+- [Column Chart](column-chart.md)
 
 Our community is active and always welcoming to new ideas.
-
 
