@@ -29,7 +29,7 @@ The Column Chart has two states - Idle and Hover. In the Hover state a tooltip i
 
 ## Y-Axis
 
-The Y-axis of the column chart comprises of a Title, Labels and an Axis. The Title and the labels can be changed or hidden. To hide the Title just type a Spacebar in its field and to hide a label set its override to ~No Symbol. By changing the Axis' color to transparent you can also hide it if needed. And to hide all of the Y-axis change its state to ~No Symbol.
+The Y-axis of the column chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and to hide a label simply set its override to ~No Symbol. You may hide the axis line by setting its color to `Transparent` and to hide all elements at once, change the Y-axis override to ~No Symbol.
 
 <img class="responsive-img" src="../images/column_chart_yaxis.png" srcset="../images/column_chart_yaxis@2x.png 2x" />
 
