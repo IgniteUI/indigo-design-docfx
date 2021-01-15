@@ -37,9 +37,7 @@ The Chart Type allows switching between Line and Area. The latter one has the ar
 
 The Step Line Chart has two states - Idle and Hover. In the Hover state a tooltip, giving information about the series' values at this point, is shown upon hovering over a data point.
 
-<img class="responsive-img" src="../images/step_line_chart_tooltip-off.png" srcset="../images/step_line_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/step_area_chart_tooltip-off.png" srcset="../images/step_area_chart_tooltip-off@2x.png 2x" />
-<img class="responsive-img" src="../images/step_line_chart_tooltip-on.png" srcset="../images/step_line_chart_tooltip-on@2x.png 2x" />
 <img class="responsive-img" src="../images/step_area_chart_tooltip-on.png" srcset="../images/step_area_chart_tooltip-on@2x.png 2x" />
 
 ## Y-Axis
