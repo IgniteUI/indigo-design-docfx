@@ -71,6 +71,10 @@ The dropdown used for the Combo comes with the appropriate sizing for desktop an
 <img class="responsive-img" src="../images/combo_desktop.png" srcset="../images/combo_desktop@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_mobile.png" srcset="../images/combo_mobile@2x.png 2x" />
 
+## Dropdown Search Input
+
+The dropdown contains a Search Input that comes with dark and light variants, a selection of states, and options for layout akin to the standard [Input](input.md).
+
 ## Dropdown Items
 
 The dropdown used for the Combo supports two types of items: header and multi select item. Through headers, it is possible to organize items in groups.
@@ -113,5 +117,4 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
