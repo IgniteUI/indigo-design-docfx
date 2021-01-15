@@ -22,7 +22,7 @@ The Bullet Graph has a Title and Subtitle whose text can be changed. They can al
 
 ## Legend
 
-The Bullet Graph comes with a Legend that can be adjusted to match the selected Series Amount. Legend items can be removed by setting the corresponding Series to No symbol or added by finding it in the Overrides/Charts/Legend/Serie. Also there you can change the icon type between Square, Line or Circle.
+The Bullet Graph comes with a Legend that can be adjusted to match the selected Series Amount. Legend items can be removed by setting the corresponding Series to ~No Symbol or added by finding it in the Overrides/Charts/Legend/Serie. Also there you can change the icon type between Square, Line or Circle.
 
 <img class="responsive-img" src="../images/bullet_graph_legend.png" srcset="../images/bullet_graph_legend@2x.png 2x" />
 
