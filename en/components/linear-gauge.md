@@ -54,7 +54,6 @@ The Linear Gauge comes with three preset range configurations: two, **three**, a
 
 Ticks and Values are also configurable. The two types of ticks: Ticks and Minor Ticks can be hidden by setting their color to `Transparent`. The default Values 0,10,20 etc. up to 100 can be adjusted according to one's needs.
 
-<img class="responsive-img" src="../images/linear_gauge_ticks.png" srcset="../images/linear_gauge_ticks@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_values.png" srcset="../images/linear_gauge_values@2x.png 2x" />
 
 ## Styling
