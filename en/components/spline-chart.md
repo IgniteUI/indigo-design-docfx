@@ -48,7 +48,7 @@ The Y-axis of the Spline Chart comprises of a Title, Labels, and the Axis itself
 
 ## Gridlines
 
-The Gridlines can change color, making them more or less visible and active. To hide them select their color to transparent.
+The Spline Chart has built-in Gridlines to make it easier to visually trace a data point to a value on the Y-axis. To hide them just set their color to `Transparent`.
 
 <img class="responsive-img" src="../images/spline_chart_gridlines.png" srcset="../images/spline_chart_gridlines@2x.png 2x" />
 
