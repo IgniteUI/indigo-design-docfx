@@ -63,7 +63,7 @@ The Line Chart comes with a select between one, two, and **three** series that w
 
 ## Styling
 
-The Line and Area Line Chart's color of the series, dots and area can be easily changed and also border and background color.
+First and foremost, the Line Chart lets you change the color of the series. It is recommended to use only colors from the palette for data visualizations with nuances named series.1, series.2 and so on till series.10. You may also change the colors of the vertical and horizontal axis, the gridlines, as well as the chart area background and border colors. Titles, labels, annotation values etc. are also customizable via the available text styles in the **Indigo.Design System**.
 
 <img class="responsive-img" src="../images/line_chart_styling.png" srcset="../images/line_chart_styling@2x.png 2x" />
 
