@@ -22,7 +22,7 @@ The Linear Gauge has a Title and Subtitle and their text can be changed. They ca
 
 ## Legend
 
-The Linear Gauge comes with a Legend that can be adjusted to match the selected Series Amount. Legend items can be removed by setting the corresponding Series to No symbol or added by finding it in the Overrides/Charts/Legend/Serie. Also there you can change the icon type between Square, Line or Circle.
+The Linear Gauge comes with a Legend that can be adjusted to match the ranges shown on it and the current value. Legend items can be removed by setting the corresponding Series to ~No Symbol or added by finding it in the Overrides/Charts/Legend/Serie. Also there you can change the icon type between Square, Line or Circle.
 
 <img class="responsive-img" src="../images/linear_gauge_legend.png" srcset="../images/linear_gauge_legend@2x.png 2x" />
 
