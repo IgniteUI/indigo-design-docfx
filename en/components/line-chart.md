@@ -38,9 +38,7 @@ The Chart Type allows switching between Line and Area. The latter one has the ar
 
 The Line Chart has two states - Idle and Hover. In the Hover state a tooltip, giving information about the series' values at this point, is shown upon hovering over a data point.
 
-<img class="responsive-img" src="../images/line_chart_tooltip-off.png" srcset="../images/line_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/line_area_chart_tooltip-off.png" srcset="../images/line_area_chart_tooltip-off@2x.png 2x" />
-<img class="responsive-img" src="../images/line_chart_tooltip-on.png" srcset="../images/line_chart_tooltip-on@2x.png 2x" />
 <img class="responsive-img" src="../images/line_area_chart_tooltip-on.png" srcset="../images/line_area_chart_tooltip-on@2x.png 2x" />
 
 ## Y-Axis
