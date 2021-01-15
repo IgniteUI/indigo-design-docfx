@@ -34,9 +34,8 @@ The Radial Gauge provides various overrides that control the ranges on the dial:
 
 The Radial Gauge comes with two kinds of Series Thickness: **Thick** and Thin.
 
+<img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_full-thin.png" srcset="../images/radial_gauge_full-thin@2x.png 2x" />
-<img class="responsive-img" src="../images/radial_gauge_half-thin.png" srcset="../images/radial_gauge_half-thin@2x.png 2x" />
-<img class="responsive-img" src="../images/radial_gauge_quarter-thin.png" srcset="../images/radial_gauge_quarter-thin@2x.png 2x" />
 
 ## Ticks Type
 
