@@ -15,7 +15,7 @@ The Data Visualization Pattern comes with styling flexibility provided by the Ch
 > [!WARNING]
 > After inserting a Data Visualization Pattern, you should trigger `Detach from Symbol` to break it down to the separate components that are used to create the layout in order to be able to generate it as Angular code. The Category Chart itself, however, must stay intact and not be detached!
 
-<img class="responsive-img" src="../images/data_visualizations_detach.png" />
+<img class="responsive-img" src="../images/data_visualizations_detach.png"  srcset="../images/data_visualizations_detach@2x.png 2x" />
 
 ## Additional Resources
 
