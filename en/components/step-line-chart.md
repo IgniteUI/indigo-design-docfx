@@ -17,7 +17,7 @@ The Step Line Chart has Title, Legend, and Chart Area, where you may choose betw
 
 ## Title
 
-The Step Line Chart has a title that can be changed or hidden if not needed by setting its override to No Symbol.
+The Step Line Chart has a title that when not needed can be removed by setting its override to ~No Symbol.
 
 <img class="responsive-img" src="../images/step_line_chart_title.png" srcset="../images/step_line_chart_title@2x.png 2x" />
 
