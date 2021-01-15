@@ -68,7 +68,7 @@ The Input comes with styling achievable through changing the primary, success, w
 
 ## Usage
 
-Use the box type of Input when placing forms on top of an image to improve readability. When using an Input in warning or error state in your designs, prefer the one with helper text and use the opportunity to provide guidance to the user.
+Use the box type of Input when placing forms on top of an image to improve readability. When using an Input in warning or error state in your designs, choose a preset with helper text and use the opportunity to provide guidance to the user.
 
 | Do                                                                           | Don't                                                                            |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
