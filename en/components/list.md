@@ -91,10 +91,6 @@ The List comes with styling flexibility through the overrides available for back
 
 <img class="responsive-img" src="../images/list_styling.png" srcset="../images/list_styling@2x.png 2x" />
 
-## List Preset
-
-In addition, you can find a variety of Presets you can choose from for quick list creation.
-
 ## Usage
 
 The List and List Items have their own design specifics, but most importantly, one should always remember that the List is a collection of similar items usually following a common template. Therefore, avoid combining multiple templates within the same list. Also, avoid hiding elements, and instead provide placeholders or empty elements if a certain type of content is missing. Last but not least, pay special attention to the alignment of the elements constituting the template, as they must be able to form perceived vertical continuity.
