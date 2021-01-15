@@ -55,7 +55,7 @@ The Step Line Chart has vertical and horizontal built-in Gridlines to make it ea
 
 ## Series Amount
 
-This override provides flexibility to select between one, two and **three** series that will be rendered. They can also be changed for the Line Area Chart type.
+The Step Line Chart comes with a selection of one, two, and **three** series that will be rendered in the Chart Area. This is also valid for the Area type.
 
 <img class="responsive-img" src="../images/step_line_chart_one_series.png" srcset="../images/step_line_chart_one_series@2x.png 2x" />
 <img class="responsive-img" src="../images/step_line_chart_two_series.png" srcset="../images/step_line_chart_two_series@2x.png 2x" />
