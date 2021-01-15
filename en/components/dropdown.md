@@ -36,6 +36,12 @@ The Dropdown items support five different states: disabled, **idle**, focused, s
 <img class="responsive-img" src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" />
 
+## Item Layout Template
+
+The Dropdown Item supports flexible icon and label templating achievable by setting the elements you want to hide to ~No Symbol from the overrides panel. By default the icon is hidden with this approach.
+
+<img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" /> 
+
 ## Styling
 
 The Dropdown comes with styling flexibility through an override controlling the background color, as well as various overrides related to the items it contains such as item and header background and text colors.
