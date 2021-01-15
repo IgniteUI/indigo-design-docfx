@@ -13,7 +13,7 @@ Step Line Chart belongs to a group of category charts and it is rendered using a
 
 <img class="responsive-img" src="../images/step_line_chart_demo.png" srcset="../images/step_line_chart_demo@2x.png 2x" />
 
-The Step Line Chart has Title, Legend and a Chart Area, which can be changed between two states - Idle and Hover, and where you can also change the Chart Type - Line or Area, and its Series Amount. Individual series of the legend can also be turned off by setting them to No Symbol. Their color and symbol - rectangle, line or dot, can also be changed individually.
+The Step Line Chart has Title, Legend, and Chart Area, where you may choose between two states Idle and Hover. It also supports two chart types: Line and Area with a number of Series Amount configurations and allows to adjust the Legend accordingly.
 
 ## Title
 
