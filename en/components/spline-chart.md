@@ -92,14 +92,8 @@ Use the Spline Chart when you have a continuous data set and want to see the amo
 Related topic:
 
 - [Line Chart](../line-chart.md)
-  <div class="divider--half"></div>
-
 - [Step Line Chart](../step-line-chart.md)
-  <div class="divider--half"></div>
-
 - [Column Chart](../column-chart.md)
-  <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
