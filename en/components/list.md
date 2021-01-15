@@ -21,7 +21,7 @@ The List can be inserted in a preset with one-line items or with two-line items,
 
 ## Detach from Symbol
 
-The List is essentially a repeater of rows showing data as an indexed vertical collection of items. If you need to design a list with more items the easiest way to do this is by dragging one of the List types to your artboard, right-click on top of it, and select the `Detach from Symbol` option at the bottom of the contextual menu. In your layers panel under the newly appeared _List/One-line Item List_ or _List/Two-line Item List_ group, you should see the following:
+The List is essentially a repeater of rows showing data as an indexed vertical collection of items. If you need to design a list with more items, the easiest way to do so is by inserting any of the List types on your artboard, right-click on top of it, and select the `Detach from Symbol` at the bottom of the contextual menu. In your layers panel under the newly appeared _List/One-line Item List_ or _List/Two-line Item List_ group, you should see the following:
 
 | Layer         | Use                                                                                                                                                  |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
