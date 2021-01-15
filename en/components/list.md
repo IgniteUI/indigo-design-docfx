@@ -19,28 +19,6 @@ The List can be inserted in a preset with one-line items or with two-line items,
 <img class="responsive-img" src="../images/list_one-line_item.png" srcset="../images/list_one-line_item@2x.png 2x" />
 <img class="responsive-img" src="../images/list_two-line_item.png" srcset="../images/list_two-line_item@2x.png 2x" />
 
-## Detach from Symbol
-
-The List is essentially a repeater of rows showing data as an indexed vertical collection of items. If you need to design a list with more items, the easiest way to do so is by inserting any of the List types on your artboard, right-click on top of it, and select the `Detach from Symbol` at the bottom of the contextual menu. In your layers panel under the newly appeared _List/One-line Item List_ or _List/Two-line Item List_ group, you should see the following:
-
-| Layer         | Use                                                                                                                                                  |
-| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 metadata   | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| List Header   | An instance of a list header item                                                                                                                    |
-| 1 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 2 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 3 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 4 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 5 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 6 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 7 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 8 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 9 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 10 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 🌈 Background | Defines the background color of the list                                                                                                             |
-
-Now, you may insert additional headers or items either from the Sketch menu or simply by duplicating an existing one. Always place items and headers one after another with consistent horizontal width and alignment, making sure there are no gaps between the items.
-
 ## List Item Type
 
 The List Item comes in three preset types: Header for defining the headings of groups, One-line for shorter items with only one line of primary text, and Two-line for taller items supporting primary and secondary text.
@@ -101,6 +79,28 @@ The List and List Items have their own design specifics, but most importantly, o
 | <img class="responsive-img" src="../images/list_do2.png" srcset="../images/list_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/list_dont2.png" srcset="../images/list_dont2@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/list_do3.png" srcset="../images/list_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/list_dont3.png" srcset="../images/list_dont3@2x.png 2x" /> |
 
+## Detach from Symbol
+
+The List is essentially a repeater of rows showing data as an indexed vertical collection of items. If you need to design a list with more items, the easiest way to do so is by inserting any of the List types on your artboard, right-click on top of it, and select the `Detach from Symbol` at the bottom of the contextual menu. In your layers panel under the newly appeared _List/One-line Item List_ or _List/Two-line Item List_ group, you should see the following:
+
+| Layer         | Use                                                                                                                                                  |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🚫 metadata   | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
+| List Header   | An instance of a list header item                                                                                                                    |
+| 1 Item        | An instance of a one-line/two-line list item                                                                                                                  |
+| 2 Item        | An instance of a one-line/two-line list item                                                                                                                  |
+| 3 Item        | An instance of a one-line/two-line list item                                                                                                                  |
+| 4 Item        | An instance of a one-line/two-line list item                                                                                                                  |
+| 5 Item        | An instance of a one-line/two-line list item                                                                                                                  |
+| 6 Item        | An instance of a one-line/two-line list item                                                                                                                  |
+| 7 Item        | An instance of a one-line/two-line list item                                                                                                                  |
+| 8 Item        | An instance of a one-line/two-line list item                                                                                                                  |
+| 9 Item        | An instance of a one-line/two-line list item                                                                                                                  |
+| 10 Item        | An instance of a one-line/two-line list item                                                                                                                  |
+| 🌈 Background | Defines the background color of the list                                                                                                             |
+
+Now, you may insert additional headers or items either from the Sketch menu or simply by duplicating an existing one. Always place items and headers one after another with consistent horizontal width and alignment, making sure there are no gaps between the items.
+
 ## Additional Resources
 
 Related topics:
@@ -112,4 +112,5 @@ Related topics:
 - [Progress](progress.md)
 - [Switch](switch.md)
 - [Lists Pattern](../patterns/lists.md)
+
 Our community is active and always welcoming to new ideas.
