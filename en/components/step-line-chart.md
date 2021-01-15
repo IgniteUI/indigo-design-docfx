@@ -48,7 +48,7 @@ The Y-axis of the Step Line Chart comprises of a Title, Labels, and the Axis its
 
 ## Gridlines
 
-The Step Line Chart has two types of Gridlines - vertical and horizontal. They can change color, making them more or less visible and active, or hidden by selecting their color to transparent.
+The Step Line Chart has vertical and horizontal built-in Gridlines to make it easier to visually trace a data point to the X and Y-axis. Both are configurable individually and to hide any or both of them just set their color to `Transparent`.
 
 <img class="responsive-img" src="../images/step_line_chart_gridlines1.png" srcset="../images/step_line_chart_gridlines1@2x.png 2x" />
 <img class="responsive-img" src="../images/step_line_chart_gridlines2.png" srcset="../images/step_line_chart_gridlines2@2x.png 2x" />
