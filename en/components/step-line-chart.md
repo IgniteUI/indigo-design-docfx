@@ -61,10 +61,6 @@ The Step Line Chart comes with a selection of one, two, and **three** series tha
 <img class="responsive-img" src="../images/step_line_chart_two_series.png" srcset="../images/step_line_chart_two_series@2x.png 2x" />
 <img class="responsive-img" src="../images/step_line_chart_three_series.png" srcset="../images/step_line_chart_three_series@2x.png 2x" />
 
-<img class="responsive-img" src="../images/step_area_chart_one_series.png" srcset="../imastep_@2x.png 2x" />
-<img class="responsive-img" src="../images/step_area_chart_two_series.png" srcset="../images/step_area_chart_two_series@2x.png 2x" />
-<img class="responsive-img" src="../images/step_area_chart_three_series.png" srcset="../images/line_area_hart_three_series@2x.png 2x" />
-
 ## Styling
 
 The Step Line and Step Area Chart's color of the series and area can be easily changed and also border and background color.
