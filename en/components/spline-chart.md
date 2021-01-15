@@ -60,10 +60,6 @@ The Spline Chart comes with a selection of one, two, and **three** series that w
 <img class="responsive-img" src="../images/spline_chart_two_series.png" srcset="../images/spline_chart_two_series@2x.png 2x" />
 <img class="responsive-img" src="../images/spline_chart_three_series.png" srcset="../images/spline_chart_three_series@2x.png 2x" />
 
-<img class="responsive-img" src="../images/spline_area_chart_one_series.png" srcset="../images/spline_area_chart_one_series@2x.png 2x" />
-<img class="responsive-img" src="../images/spline_area_chart_two_series.png" srcset="../images/spline_area_chart_two_series@2x.png 2x" />
-<img class="responsive-img" src="../images/spline_area_chart_three_series.png" srcset="../images/line_area_hart_three_series@2x.png 2x" />
-
 ## Styling
 
 The Spline and Area Spline Chart's color of the series, dots and area can be easily changed and also border and background color.
