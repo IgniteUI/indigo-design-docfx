@@ -81,6 +81,5 @@ Related topics:
 - [Line Chart](line-chart.md)
 - [Column Chart](column-chart.md)
 - [Radial Gauge](radial-gauge.md)
-  <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
