@@ -32,7 +32,7 @@ The Radial Gauge provides various overrides that control the ranges on the dial:
 
 ## Series Thickness
 
-The Radial Gauge comes with two kinds of Series Thickness - Thick and Thin. Depending on the example that is needed you can switch between one or the other. Here are the examples for the Thin series.
+The Radial Gauge comes with two kinds of Series Thickness: **Thick** and Thin.
 
 <img class="responsive-img" src="../images/radial_gauge_full-thin.png" srcset="../images/radial_gauge_full-thin@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_half-thin.png" srcset="../images/radial_gauge_half-thin@2x.png 2x" />
