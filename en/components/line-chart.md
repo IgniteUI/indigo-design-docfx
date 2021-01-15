@@ -61,10 +61,6 @@ The Line Chart comes with a select between one, two, and **three** series that w
 <img class="responsive-img" src="../images/line_chart_two_series.png" srcset="../images/line_chart_two_series@2x.png 2x" />
 <img class="responsive-img" src="../images/line_chart_three_series.png" srcset="../images/line_chart_three_series@2x.png 2x" />
 
-<img class="responsive-img" src="../images/line_area_chart_one_series.png" srcset="../images/line_area_chart_one_series@2x.png 2x" />
-<img class="responsive-img" src="../images/line_area_chart_two_series.png" srcset="../images/line_area_chart_two_series@2x.png 2x" />
-<img class="responsive-img" src="../images/line_area_chart_three_series.png" srcset="../images/line_area_hart_three_series@2x.png 2x" />
-
 ## Styling
 
 The Line and Area Line Chart's color of the series, dots and area can be easily changed and also border and background color.
