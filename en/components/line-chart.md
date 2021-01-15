@@ -55,7 +55,7 @@ The Line Chart has built-in Gridlines to make it easier to visually trace a data
 
 ## Series Amount
 
-This override provides flexibility to select between one, two and **three** series that will be rendered. They can also be changed for the Line Area Chart type.
+The Line Chart comes with a select between one, two, and **three** series that will be rendered in the Chart Area. This is also valid for the Area Chart type.
 
 <img class="responsive-img" src="../images/line_chart_one_series.png" srcset="../images/line_chart_one_series@2x.png 2x" />
 <img class="responsive-img" src="../images/line_chart_two_series.png" srcset="../images/line_chart_two_series@2x.png 2x" />
