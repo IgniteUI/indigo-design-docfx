@@ -31,7 +31,7 @@ The Linear Gauge comes with a Legend that can be adjusted to match the selected 
 The Bullet Graph comes with an override for the tooltip visibility. Setting in to No Symbol hides it.
 
 <img class="responsive-img" src="../images/linear_gauge_tooltip-off.png" srcset="../images/linear_gauge_tooltip-off@2x.png 2x" />
-<img class="responsive-img" src="../images/linear_gauge_tooltip-on.png" srcset="../images/linear_gauge_tooltip-on@2x.png" />
+<img class="responsive-img" src="../images/linear_gauge_tooltip-on.png" srcset="../images/linear_gauge_tooltip-on@2x.png 2x" />
 
 ## Needle Type
 
@@ -84,5 +84,4 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
