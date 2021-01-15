@@ -1,6 +1,6 @@
 ---
 title: List - Design System Component
-_description: The List Component Symbol provides means to browse and interact with a vertical collection of rows of data.
+_description: The List Component provides means to browse and interact with a vertical collection of rows of data.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
