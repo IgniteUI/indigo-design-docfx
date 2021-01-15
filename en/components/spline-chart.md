@@ -29,7 +29,7 @@ The Spine Chart comes with a Legend to show the number of series in it and what 
 
 ## Chart Type
 
-This is where the chart can be switched between Spline and Spline Area. The Spline Area Chart is the same as the Spline, but the area between the X axis and the line itself is filled in the series's color. The area chart is used best to represent how big of a change there is and what the trend is over time.
+The Chart Type allows switching between Spline and Area. The latter one has the area between the X-axis and the spline filled with the series' color. Area charts are used to represent how big of a change there is and what the trend is over time.
 
 <img class="responsive-img" src="../images/spline_area_chart_three_series.png" srcset="../images/spline_area_chart_three_series@2x.png 2x" />
 
