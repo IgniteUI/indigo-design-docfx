@@ -53,12 +53,6 @@ The Step Line Chart has vertical and horizontal built-in Gridlines to make it ea
 <img class="responsive-img" src="../images/step_line_chart_gridlines1.png" srcset="../images/step_line_chart_gridlines1@2x.png 2x" />
 <img class="responsive-img" src="../images/step_line_chart_gridlines2.png" srcset="../images/step_line_chart_gridlines2@2x.png 2x" />
 
-## Line
-
-The lines' color and area on the chart can be changed if it's needed.
-
-<img class="responsive-img" src="../images/step_area_chart_colors.png" srcset="../images/step_area_chart_colors@2x.png 2x" />
-
 ## Series Amount
 
 This override provides flexibility to select between one, two and **three** series that will be rendered. They can also be changed for the Line Area Chart type.
