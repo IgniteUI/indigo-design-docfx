@@ -18,7 +18,7 @@ For scenarios where no target value exists or is irrelevant you should use the [
 
 The Bullet Graph has a Title and Subtitle whose text can be changed. They can also be hidden if they are not needed by setting them to No symbol.
 
-<img class="responsive-img" src="../images/bullet_graph_title-off.png" srcset="../images/bullet_graph_title-off@2x.png 2x" />
+<img class="responsive-img" src="../images/bullet_graph_title.png" srcset="../images/bullet_graph_title@2x.png 2x" />
 
 ## Legend
 
