@@ -39,7 +39,7 @@ The List is essentially a repeater of rows showing data as an indexed vertical c
 | 10 Item        | An instance of a one-line/two-line list item                                                                                                                  |
 | 🌈 Background | Defines the background color of the list                                                                                                             |
 
-After detaching, you may insert additional headers or items either from the Sketch menu or simply by duplicating an existing symbol. Always place items and headers one after another with consistent horizontal width and alignment, making sure there are no vertical gaps between the items.
+Now, you may insert additional headers or items either from the Sketch menu or simply by duplicating an existing one. Always place items and headers one after another with consistent horizontal width and alignment, making sure there are no gaps between the items.
 
 ## List Item Type
 
