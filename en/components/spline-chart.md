@@ -52,12 +52,6 @@ The Spline Chart has built-in Gridlines to make it easier to visually trace a da
 
 <img class="responsive-img" src="../images/spline_chart_gridlines.png" srcset="../images/spline_chart_gridlines@2x.png 2x" />
 
-## Spline and Points
-
-The color of the spline and the points can be changed if it's needed. If the series color is changed the points' color should also be changed to match the color of the series.
-
-<img class="responsive-img" src="../images/spline_chart_colors.png" srcset="../images/spline_chart_colors@2x.png 2x" />
-
 ## Series Amount
 
 This override provides flexibility to select between one, two and **three** series that will be rendered. They can also be changed for the Spline Area Chart type.
