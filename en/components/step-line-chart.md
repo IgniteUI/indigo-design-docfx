@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Step Line Chart
 
-Step Line Chart belongs to a group of category charts and it is rendered using a collection of points connected by continuous vertical and horizontal lines forming a step-like progression. Values are represented on the Y-axis while the X-Axis (bottom labels) show a time-series or comparison category. The Step Line series emphasize the amount of change over a period of time or compares multiple items. The Step Line Chart is identical to the Step Area Chart in all aspects except that the area below the step lines is not filled in. The Step Line Chart is useful when showing changes that occur at irregular intervals. You can include one or more data sets to compare, which would render as multiple lines in the chart.
+Step Line Chart belongs to a group of category charts and it is rendered using a collection of points connected by continuous vertical and horizontal lines forming a step-like progression. Values are represented on the Y-axis while the X-Axis (labels at the bottom) shows a time-series or comparison category. The Step Line series emphasize the amount of change over a period of time or compares multiple items. The Step Line Chart is identical to the Step Area Chart in all aspects except that the area below the step lines is not filled in. The Step Line Chart is useful when showing changes that occur at irregular intervals. You can include one or more data sets to compare, which would render as multiple lines in the chart.
 
 
 ## Step Line Chart Demo
@@ -97,4 +97,3 @@ Related topic:
 - [Column Chart](../column-chart.md)
 
 Our community is active and always welcoming to new ideas.
-
