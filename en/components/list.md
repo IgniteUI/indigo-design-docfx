@@ -65,7 +65,7 @@ The List Item has two distinct areas: Primary Action with non-interactive conten
 
 ## List Item Primary Action
 
-There are 4 interchangeable List Item Primary Actions that are listed below.
+There are 4 interchangeable List Item Primary Actions that are listed below. Thanks to the use of Smart Layout in Sketch they can be adjusted further by setting unnecessary elements to ~No Symbol.
 
 |                              |                                                                                                  |                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
