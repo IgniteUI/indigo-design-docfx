@@ -16,7 +16,7 @@ For scenarios where a target value is critically important for understanding and
 
 ## Title and Subtitle
 
-The Linear Gauge has a Title and Subtitle and their text can be changed. They can also be hidden if not needed by setting them to No symbol.
+The Linear Gauge has a Title and Subtitle and their text can be changed. They can also be hidden if not needed by setting them to ~No Symbol.
 
 <img class="responsive-img" src="../images/linear_gauge_title-off.png" srcset="../images/linear_gauge_title-off@2x.png 2x" />
 
@@ -84,4 +84,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
