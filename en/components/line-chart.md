@@ -42,7 +42,7 @@ The Line Chart has two states - Idle and Hover. In the Hover state a tooltip, gi
 
 ## Y-Axis
 
-The Y-axis of the Line chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and to hide a label simply set its override to ~No Symbol. You may hide the axis line by setting its color to `Transparent` and to hide all elements at once, change the Y-axis override to ~No Symbol.
+The Y-axis of the Line Chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and to hide a label simply set its override to ~No Symbol. You may hide the axis line by setting its color to `Transparent` and to hide all elements at once, change the Y-axis override to ~No Symbol.
 
 <img class="responsive-img" src="../images/line_chart_yaxis.png" srcset="../images/line_chart_yaxis@2x.png 2x" />
 
@@ -54,7 +54,7 @@ The Line Chart has built-in Gridlines to make it easier to visually trace a data
 
 ## Series Amount
 
-The Line Chart comes with a select between one, two, and **three** series that will be rendered in the Chart Area. This is also valid for the Area Chart type.
+The Line Chart comes with a selection of one, two, and **three** series that will be rendered in the Chart Area. This is also valid for the Area type.
 
 <img class="responsive-img" src="../images/line_chart_one_series.png" srcset="../images/line_chart_one_series@2x.png 2x" />
 <img class="responsive-img" src="../images/line_chart_two_series.png" srcset="../images/line_chart_two_series@2x.png 2x" />

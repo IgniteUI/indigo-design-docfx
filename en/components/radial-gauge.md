@@ -55,14 +55,14 @@ The Radial Gauge comes with three preset range configurations: **two**, three, a
 
 ## Styling
 
-The Radial Gauge comes with styling flexibility through the various overrides controlling the background color and a range of brushes including: Needle Brush and a collection of Range Brushes, as well as Tick Brush and Minor Tick Brush that are available only for inside and outside dial types. For the Range brushes it is recommended to choose one of the data viz Series palette colors.
+The Radial Gauge comes with styling flexibility through the various overrides controlling the background color and a selection of brushes including Needle Brush, a collection of Range Brushes, as well as Tick Brush and Minor Tick Brush that are available only for inside and outside dial types.
 
 <img class="responsive-img" src="../images/radial_gauge_styling.png" srcset="../images/radial_gauge_styling@2x.png 2x" />
 
 ## Usage
 
 When creating data visualizations and information dashboards pick carefully between Linear and Radial Gauges based on the amount of screen space you have at hand. Keep in mind that Gauges only show the current value and have no way to display historical values, if your application scenario requires such display, you should consider using the Line or Column chart.
-To create an easy to the eye and crisp data visualization pick colors for the Needle that have good contrast with the ranges and background underneath, avoid using variants of the same color as this makes the visualization hard to read and interpret. Unlike the [Linear Gauge](linear-gauge.md), the Radial Gauge Component has enough empty space around and you should can laying out a collection of Radial Gauges next to one another without sacrificing comprehension of the information that they display.
+To create an easy to the eye and crisp data visualization pick colors for the Needle that have good contrast with the ranges and background underneath, avoid using variants of the same color as this makes the visualization hard to read and interpret. Unlike the [Linear Gauge](linear-gauge.md), the Radial Gauge Component has enough empty space around and you may layout a collection of Radial Gauges next to one another without sacrificing comprehension of the information that they display.
 
 | Do                                                                                 | Don't                                                                                  |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
