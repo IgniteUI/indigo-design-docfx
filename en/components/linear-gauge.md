@@ -18,7 +18,7 @@ For scenarios where a target value is critically important for understanding and
 
 The Linear Gauge has a Title and Subtitle and their text can be changed. They can also be hidden if not needed by setting them to ~No Symbol.
 
-<img class="responsive-img" src="../images/linear_gauge_title-off.png" srcset="../images/linear_gauge_title-off@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_title.png" srcset="../images/linear_gauge_title@2x.png 2x" />
 
 ## Legend
 
@@ -28,7 +28,7 @@ The Linear Gauge comes with a Legend that can be adjusted to match the ranges sh
 
 ## Tooltip
 
-The Linear Gauge comes with a tooltip that may be hidden by setting the override to ~No Symbol.
+The Linear Gauge comes with a tooltip that may be hidden by setting the override to No symbol.
 
 <img class="responsive-img" src="../images/linear_gauge_tooltip-off.png" srcset="../images/linear_gauge_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_tooltip-on.png" srcset="../images/linear_gauge_tooltip-on@2x.png 2x" />
@@ -37,10 +37,7 @@ The Linear Gauge comes with a tooltip that may be hidden by setting the override
 
 The Linear Gauge provides various overrides that control the shape of the needle, which indicates the current value: **wide triangle**, needle, trapezoid, and triangle.
 
-<img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
-<img class="responsive-img" src="../images/linear_gauge_needle.png" srcset="../images/linear_gauge_needle@2x.png 2x" />
-<img class="responsive-img" src="../images/linear_gauge_trapezoid.png" srcset="../images/linear_gauge_trapezoid@2x.png 2x" />
-<img class="responsive-img" src="../images/linear_gauge_triangle.png" srcset="../images/linear_gauge_triangle@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_needle.png" srcset="../images/linear_gauge_needle_type@2x.png 2x" />
 
 ## Ranges Amount
 
