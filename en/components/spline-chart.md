@@ -37,9 +37,7 @@ The Chart Type allows switching between Spline and Area. The latter one has the 
 
 The Spline Chart has two states - Idle and Hover. In the Hover state a tooltip, giving information about the series' values at this point, is shown upon hovering over a data point.
 
-<img class="responsive-img" src="../images/spline_chart_tooltip-off.png" srcset="../images/spline_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/spline_area_chart_tooltip-off.png" srcset="../images/spline_area_chart_tooltip-off@2x.png 2x" />
-<img class="responsive-img" src="../images/spline_chart_tooltip-on.png" srcset="../images/spline_chart_tooltip-on@2x.png 2x" />
 <img class="responsive-img" src="../images/spline_area_chart_tooltip-on.png" srcset="../images/spline_area_chart_tooltip-on@2x.png 2x" />
 
 ## Y-Axis
