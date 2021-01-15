@@ -54,7 +54,7 @@ The Spline Chart has built-in Gridlines to make it easier to visually trace a da
 
 ## Series Amount
 
-This override provides flexibility to select between one, two and **three** series that will be rendered. They can also be changed for the Spline Area Chart type.
+The Spline Chart comes with a selection of one, two, and **three** series that will be rendered in the Chart Area. This is also valid for the Area type.
 
 <img class="responsive-img" src="../images/spline_chart_one_series.png" srcset="../images/spline_chart_one_series@2x.png 2x" />
 <img class="responsive-img" src="../images/spline_chart_two_series.png" srcset="../images/spline_chart_two_series@2x.png 2x" />
