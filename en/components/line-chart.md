@@ -53,12 +53,6 @@ The Line Chart has built-in Gridlines to make it easier to visually trace a data
 
 <img class="responsive-img" src="../images/line_chart_gridlines.png" srcset="../images/line_chart_gridlines@2x.png 2x" />
 
-## Line and Points
-
-The line and its corresponding points' color on the chart can be changed if it's needed. If the series color is changed the points' color should also be changed to match the color of the series.
-
-<img class="responsive-img" src="../images/line_chart_colors.png" srcset="../images/line_chart_colors@2x.png 2x" />
-
 ## Series Amount
 
 This override provides flexibility to select between one, two and **three** series that will be rendered. They can also be changed for the Line Area Chart type.
