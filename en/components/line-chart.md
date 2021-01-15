@@ -26,7 +26,6 @@ The Line Chart has a title that when not needed can be removed by setting its ov
 The Line Chart comes with a Legend to show the number of series in it and what they represent. The Legend is built using a Smart Layout in Sketch and can be adjusted to contain the exact amount of series items by setting the overrides of those not needed to ~No Symbol. Legend items' shape is also configurable with built-in support for rectangle, line, and dot.
 
 <img class="responsive-img" src="../images/line_chart_legend.png" srcset="../images/line_chart_legend@2x.png 2x" />
-<img class="responsive-img" src="../images/line_chart_legend-off.png" srcset="../images/line_chart_legend-off@2x.png 2x" />
 
 ## Chart Type
 
