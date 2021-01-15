@@ -58,7 +58,7 @@ The One-line and Two-line List Items support the following interactive states: *
 
 ## List Item Areas
 
-The List Item has two distinct areas: Primary Action with non-interactive content is laid out such as Avatar and text, and Secondary Action with quick actions related to the List Item. Any combination of a Primary and Secondary action forms a valid list item template that should be used consistently across the items of the List.
+The List Item has two distinct areas: Primary Action with non-interactive content such as Avatar and text, and Secondary Action with quick actions related to the List Item. Any combination of a Primary and Secondary action creates a unique list item template that should be used consistently across all items of the List.
 
 <img class="responsive-img" src="../images/list_item_primary.png" srcset="../images/list_item_primary@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />
