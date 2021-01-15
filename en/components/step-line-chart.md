@@ -93,14 +93,8 @@ Use the Step Line Chart when you have a continuous data set and want to see the 
 Related topic:
 
 - [Line Chart](../line-chart.md)
-  <div class="divider--half"></div>
-
 - [Spline Chart](../spline-chart.md)
-  <div class="divider--half"></div>
-
 - [Column Chart](../column-chart.md)
-  <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
