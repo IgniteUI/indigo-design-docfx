@@ -24,7 +24,7 @@ The Radial Gauge provides various overrides that control the shape of the needle
 
 ## Ranges
 
-The Radial Gauge provides various overrides that control the dial, on which ranges appear: **full**, half, and quarter.
+The Radial Gauge provides various overrides that control the ranges on the dial: **full**, half, and quarter.
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_half.png" srcset="../images/radial_gauge_half@2x.png 2x" />
@@ -80,4 +80,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
