@@ -16,7 +16,7 @@ For scenarios where no target value exists or is irrelevant you should use the [
 
 ## Title and Subtitle
 
-The Bullet Graph has a Title and Subtitle whose text can be changed. They can also be hidden if they are not needed by setting them to ~No Symbol.
+The Bullet Graph has a Title and Subtitle whose text can be changed. They can also be hidden if they are not needed by setting them to No symbol.
 
 <img class="responsive-img" src="../images/bullet_graph_title.png" srcset="../images/bullet_graph_title@2x.png 2x" />
 
@@ -38,7 +38,7 @@ The Bullet Graph comes with a tooltip that may be hidden by setting the override
 The Bullet Graph comes with three preset range configurations: **two**, three, and four ranges.
 
 <img class="responsive-img" src="../images/bullet_graph_two_ranges.png" srcset="../images/bullet_graph_two_ranges@2x.png 2x" />
-<img class="responsive-img" src="../images/bullet_graph_three_ranges-2.png" srcset="../images/bullet_graph_three_ranges@2x-2.png 2x" />
+<img class="responsive-img" src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_four_ranges.png" srcset="../images/bullet_graph_four_ranges@2x.png 2x" />
 
 ## Ticks and Values
