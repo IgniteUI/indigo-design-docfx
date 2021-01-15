@@ -29,7 +29,7 @@ The Step Line Chart comes with a Legend to show the number of series in it and w
 
 ## Chart Type
 
-This is where the chart can be switched between Step Line and Step Area Chart. The Area Chart is the same as the Step Line, but the area between the X axis and the line itself is filled in the series's color. The area chart is used best to represent how big of a change there is and what the trend is over time.
+The Chart Type allows switching between Line and Area. The latter one has the area between the X-axis and the Step Line filled with the series' color. Area charts are used to represent how big of a change there is and what the trend is over time.
 
 <img class="responsive-img" src="../images/step_area_chart_three_series.png" srcset="../images/step_area_chart_three_series@2x.png 2x" />
 
