@@ -76,7 +76,7 @@ There are 4 interchangeable List Item Primary Actions that are listed below. Tha
 
 ## List Item Secondary Action
 
-There are 4 interchangable List Item Secondary Actions that are listed below.
+There are 4 interchangeable List Item Secondary Actions that are listed below. Thanks to the use of Smart Layout in Sketch they can be adjusted further by setting unnecessary elements to ~No Symbol.
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
