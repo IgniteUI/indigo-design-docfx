@@ -16,10 +16,6 @@ Use the Grid Export to allow users to export Excel and CSV files from the Grid. 
 
 The Grid Export is achieved by adding a Toolbar with an Export action that enables the feature for the whole grid.
 
-## Code generation
-
-Make sure to place the Toolbar within the group defining the Grid as a sibling to the Header and Body groups.
-
 ## Additional Resources
 
 Related topics:
