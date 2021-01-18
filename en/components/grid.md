@@ -69,7 +69,7 @@ The Grid Body Cell has styling support for some of the Grid features defined thr
 
 ## Cell Type
 
-The Grid Header Cell provides presets for the three generic types of data that the Grid needs to accommodate: **Number** for numeric values, Text,Date,Bool for strings, Checkbox that is usually used for columns with boolean data or as a template for the first column in order to allow selection of multiple rows, and Group By is used to expand and collapse the grouped data rows.
+The Grid Header Cell provides presets for the three generic types of data that the Grid needs to accommodate: **Number** for numeric values, Text,Date,Bool for strings, Row Selection that is used for the first column in order to allow selection of multiple rows, and Group By is used to expand and collapse the grouped data rows.
 
 <img class="responsive-img" src="../images/grid_cell_header_number.png" srcset="../images/grid_cell_header_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />
