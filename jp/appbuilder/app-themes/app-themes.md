@@ -1,44 +1,55 @@
 ---
-title: App Builder themes – Indigo Design
-_description: Indigo Design App Builder adopts a design systems approach to UI creation, and you can apply themes at the app-level. This avoids the need to create local styles that are difficult to maintain. 
-_keywords: App Builder themes, Indigo Design, Infragistics
+title: App Builder テーマ – Indigo Design
+_description: Indigo Design App Builder は、UI 作成にデザイン システム アプローチを採用しており、アプリ レベルでテーマを適用できます。これにより、メンテナンスが難しいローカル スタイルを作成する必要がなくなります。
+_keywords: App Builder テーマ, Indigo Design, インフラジスティックス
+_language: ja
 ---
 
-# Indigo Design App Builder themes
+# Indigo Design App Builder テーマ
 
-The [Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) adopts a design systems approach to UI creation and you can apply themes at the app-level. With a single selection of a theme, the theme is globally applied to the whole application immediately. Having global theme avoids the need to create local styles that are difficult to maintain.  
+<section class="feature__container">
+    <div class="feature">
+        <div class="feature__image">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/tuTELBXDKYA" frameborder="0" allowfullscreen></iframe>
+            <p>テーマをカスタマイズする</p>
+            <br>
+        </div>
+    </div>
+</section>
 
-## Switching App Builder themes 
+[Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) は、UI 作成にデザイン システム アプローチを採用しており、アプリ レベルでテーマを適用できます。テーマを 1 回選択するだけで、そのテーマはアプリケーション全体に即座にグローバルに適用されます。これにより、メンテナンスが難しいローカル スタイルを作成する必要がなくなります。  
 
-The private preview comes with six built-in themes based on Material, Fluent or Bootstrap. Each have a dark version and light version. You can try it out by selecting the theme card in the toolbox.  
+## App Builder テーマを切り替える
+
+プライベート プレビューには、Material、Fluent、または Bootstrap に基づく 6 つの組み込みテーマが付属しています。それぞれにダーク バージョンとライト バージョンがあります。ツールボックスでテーマ カードを選択すると、試すことができます。 
 
 <img class="responsive-img" src="../../images/switching-between-themes-Indigo-Design-App-Builder.gif" />
-<p style="text-align:center;">Switching between themes</p>
+<p style="text-align:center;">テーマの切り替え</p>
 
 ## Material vs. Fluent vs. Bootstrap 
 
-When we switch from Material to Fluent, you will see the components look different. For example, the floating label style for the input field in Material switches to a fixed label. And the switch is also visually different. Some of the other changes are more subtle, but it's there. 
+Material から Fluent に切り替えると、コンポーネントの外観が異なることがわかります。たとえば、Material の入力フィールドのフローティング ラベル スタイルは、固定ラベルに切り替わります。また、スイッチも視覚的に異なります。ツールボックスでテーマ カードを選択すると、試すことができます。 
 
-## Customize & apply theme 
+## テーマをカスタマイズして適用する 
 
-You can create a custom theme to match your brand. You do this by creating a new theme, and picking one of the base themes as the starting point. The color palettes are automatically generated based on the primary and secondary color you pick. As far as typography is concerned, for now we have a set of fonts built in, but we plan to add more creative control in future versions. Once you are done editing, save the theme to apply the changes.  
+ブランドに合わせてカスタム テーマを作成できます。これを行うには、新しいテーマを作成し、基本テーマの 1 つを開始点として選択します。カラー パレットは、選択したプライマリ カラーとセカンダリ カラーに基づいて自動的に生成されます。タイポグラフィに関しては、今のところフォントのセットが組み込まれていますが、将来のバージョンではよりクリエイティブなコントロールを追加する予定です。編集が完了したら、テーマを保存して変更を適用します。 
 
 <img class="responsive-img" src="../../images/create-theme-Indigo-Design-App-Builder.gif" />
-<p style="text-align:center;">Create a new theme</p>
+<p style="text-align:center;">新しいテーマを作成する</p>
 
 <img class="responsive-img" src="../../images/switching-between-themes-Indigo-Design-App-Builder.gif" />
-<p style="text-align:center;">Switching between themes</p>
+<p style="text-align:center;">テーマの切り替え</p>
 
-After a theme is selected, when you apply a fill color for a container, the color picker now reflects the palette from the selected theme. This helps us stay true to the design systems approach where brand attributes are decided and maintained at the app level, and not decided on an ad-hoc basis depending on who is creating the UI. 
+テーマを選択した後、コンテナに塗りつぶしの色を適用すると、カラー ピッカーは選択したテーマのパレットを反映します。これにより、ブランド属性がアプリ レベルで決定および維持され、UI の作成者に応じてアドホック ベースで決定されるのではなく、デザイン システムのアプローチに忠実であり続けることができます。
 
 <img class="responsive-img" src="../../images/change-appearance-Indigo-Design-App-Builder.gif" />
-<p style="text-align:center;">Change the appearance of a layout</p>
+<p style="text-align:center;">レイアウトの外観を変更する</p>
 
-In the future, we will include a way to add custom colors too, but as a secondary usage scenario. The app-level themes you created in the editor is persisted in a platform-compliant way when generating the app. It also makes it really simple to change the theme in the future.  
+将来的には、カスタム カラーを追加する方法も含まれる予定ですが、二次的な使用シナリオとなります。エディターで作成したアプリ レベルのテーマは、アプリの生成時にプラットフォームに準拠した方法で保持されます。また、将来的にテーマを変更するのも非常に簡単になります。  
 
-## Additional Resources
+## その他のリソース
 
 <div class="divider--half"></div>
 
-* [Flex Layouts](../flex-layouts/flex-layouts.md)
-* [Ignite UI for Angular Theming]({environment:infragisticsBaseUrl}/products/ignite-ui-angular/angular/components/themes/index)
+* [Flex レイアウト](../flex-layouts/flex-layouts.md)
+* [Ignite UI for Angular テーマ化]({environment:infragisticsBaseUrl}/products/ignite-ui-angular/angular/components/themes/index)

@@ -14,19 +14,27 @@ Use the Bottom Navigation Component to implement application-level navigation by
 
 ## Items Amount
 
-The Bottom Navigation supports between two to five items. If you need to design application-level navigation with more than five items or views, consider using consider using the [Navigation Drawer](nav-drawer.md) instead.
+The Bottom Navigation uses a smart layout allowing it to adjust accordingly when one or more of its items are set to ~No Symbol. However, the maximum number of items is limited to 5 and if you need to design application-level navigation with more items or views, consider using the [Navigation Drawer](nav-drawer.md) instead.
 
 <img class="responsive-img" src="../images/bottom-nav_items2.png" srcset="../images/bottom-nav_items2@2x.png 2x" />
+
 <img class="responsive-img" src="../images/bottom-nav_items3.png" srcset="../images/bottom-nav_items3@2x.png 2x" />
+
 <img class="responsive-img" src="../images/bottom-nav_items4.png" srcset="../images/bottom-nav_items4@2x.png 2x" />
+
 <img class="responsive-img" src="../images/bottom-nav_items5.png" srcset="../images/bottom-nav_items5@2x.png 2x" />
 
-## Item Style
+## Item State
 
-The Bottom Navigation item contains either a combination of **icon+text** or just an icon. There is always one item in active (selected) state, and the remaining items must be set to inactive.
+The Bottom Navigation consists of items that support **Active**, Inactive and Disabled states. In a Bottom Navigation there is always one Active item, and an arbitrary number of Inactive and Disabled ones.
 
-<img class="responsive-img" src="../images/bottom-nav_icon&text.png" srcset="../images/bottom-nav_icon&text@2x.png 2x" />
-<img class="responsive-img" src="../images/bottom-nav_icon.png" srcset="../images/bottom-nav_icon@2x.png 2x" />
+<img class="responsive-img" src="../images/bottom-nav_item_state.png" srcset="../images/bottom-nav_item_state@2x.png 2x" />
+
+## Item Content Template
+
+The Bottom Navigation items come as a combination of icon and text by default, but the smart layout rules applied to the item content template lets you remove the text label and have an icon-only item.
+
+<img class="responsive-img" src="../images/bottom-nav_items3_icons.png" srcset="../images/bottom-nav_items3_icons@2x.png 2x" />
 
 ## Styling
 
@@ -43,59 +51,11 @@ The Bottom Navigation always appears on top of other content, and the shadow it 
 | <img class="responsive-img" src="../images/bottom-nav_do1.png" srcset="../images/bottom-nav_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/bottom-nav_dont1.png" srcset="../images/bottom-nav_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/bottom-nav_do2.png" srcset="../images/bottom-nav_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/bottom-nav_dont2.png" srcset="../images/bottom-nav_dont2@2x.png 2x" /> |
 
-## Code generation
-
-Due to the limitations of Sketch there is no way to associate content with specific tabs in the Bottom Navigation component. Therefore, it is not a good idea to generate an entire Artboard that has a Bottom Navigation component in it. Instead you should generate the Bottom Navigation component by itself and then generate the desired tab content separately into different Angular components. Once your tab content is in separate Angular components you can come back to the Bottom Navigation component and manually reference the generated tab content within each tab.
-
-<img class="responsive-img" src="../images/bottom-nav_limitation.png" />
-
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Bottom Navigation in your design is very likely to result in loss of code generation capability for the Bottom Navigation.
-
-```html
-<igx-bottom-nav>
-    <igx-tab-panel>
-        <!-- Manually add this component reference -->
-        <app-tab1></app-tab1>
-    </igx-tab-panel>
-    <igx-tab-panel>
-        <!-- Manually add this component reference -->
-        <app-tab2></app-tab2>
-    </igx-tab-panel>
-</igx-bottom-nav>
-```
-
-> [!Note]
-> Tab content is not rendered with “height: 100%” so it will not fill the entire page. It will only use the space required by the content.
-
-This section describes some important overrides and how they affect code generation.
-
-### Event
-
-When supplied the `🕹️Event` override is used to create a method in the component TypeScript and add an `onClick` signature in the HTML. When supplied the `🕹️Event` must be specified using the curly braces format: `{onEventName}`.
-
-### Items Amount
-
-This override determines the number of tabs/items to be displayed.
-
-### Tab
-
-This override will determined the type of tab that will be generated. It can be an icon or an icon with text.
-
-### Text
-
-This override is only shown for Icon + Text tabs. It specifies what text is shown within the tab. It may contain plain text, [binding text](../codegen/data-binding.md), or a combination of the two.
-
-- Settings
-- {settingsLabel}
-- Important {labelText}
-
 ## Additional Resources
 
 Related topics:
 
 - [Navigation Drawer](nav-drawer.md)
-- [Data Binding](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

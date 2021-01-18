@@ -93,8 +93,10 @@
       href: ../components/bottom-nav.md
     - name: Button Group
       href: ../components/button-group.md
+      new: true
     - name: Button
       href: ../components/button.md
+      new: true
     - name: Calendar
       href: ../components/calendar.md
     - name: Cards
@@ -132,6 +134,15 @@
       href: ../components/chips.md
     - name: Combo
       href: ../components/combo.md
+    - name: Checkbox
+      href: ../components/checkbox.md
+    - name: Chip and Chips Area
+      href: ../components/chips.md
+    - name: Combo
+      href: ../components/combo.md
+    - name: Date Picker
+      href: ../components/date-picker.md
+      new: true
     - name: Dialog
       href: ../components/dialog.md
     - name: Dropdown
@@ -178,8 +189,10 @@
       href: ../components/icon.md
     - name: Input
       href: ../components/input.md
+      new: true
     - name: List
       href: ../components/list.md
+      new: true
       items:
         - name: Custom List Item
           href: ../components/list-custom.md
@@ -189,10 +202,12 @@
       href: ../components/nav-drawer.md
     - name: Progress
       href: ../components/progress.md
+      new: true
     - name: Radio Group
       href: ../components/radio-group.md
     - name: Slider
       href: ../components/slider.md
+      new: true
     - name: Snackbar
       href: ../components/snackbar.md
     - name: Switch
@@ -201,6 +216,7 @@
       href: ../components/tabs.md
     - name: Time Picker
       href: ../components/time-picker.md
+      new: true
     - name: Toast
       href: ../components/toast.md
     - name: Tooltip

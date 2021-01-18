@@ -1,11 +1,11 @@
-## Row and column layout 
+## 行と列のレイアウト 
 
-Flex-layout containers have settings that allow us to modify the position of the nested UI elements. It's shown here as h.align and v.align properties. The canvas defaults to row layout, horizontally aligned to the left and stretched vertically. You can always switch between row and column layout irrespective of what you started with.  
-
-  
-
-In this example, we want the sign in dialog to be centered on the canvas. To make that happen, I can use the alignment settings to center the nested container vertically and horizontally on the canvas. For the dialog itself, I've used a column layout so that everything stacks vertically inside it. The layout container is sized based on the content, but you can always specify a height and width. I'll can also add the padding property to container, and margins to space out the child UI elements. 
+Flex レイアウト コンテナには、ネストされた UI 要素の位置を変更できる設定があります。ここでは、h.align プロパティと v.align プロパティとして示されています。キャンバスのデフォルトは行レイアウトで、水平方向に左揃えになり、垂直方向に引き伸ばされます。何から始めたかに関係なく、いつでも行と列のレイアウトを切り替えることができます。  
 
   
 
-While we are at it, you can always select the parent UI element by clicking on the label for the child element. This is helpful when you have nested layout containers. As you can see, there is nested row layout to show the text component and switch side-by side. And this lives inside a column layout. So, clicking on the row-layout label will select its parent column layout.
+この例では、サインイン ダイアログをキャンバスの中央に配置する必要があります。これを実現するには、配置設定を使用して、ネストされたコンテナをキャンバス上で垂直方向と水平方向の中央に配置します。ダイアログ自体には、すべてがダイアログ内で垂直にスタックするように列レイアウトを使用しました。レイアウト コンテナのサイズはコンテンツに基づいていますが、高さと幅はいつでも指定できます。コンテナにパディング プロパティを追加し、子 UI 要素のスペースを空けるためにマージンを追加することもできます。 
+
+  
+
+その間、子要素のラベルをクリックすると、いつでも親 UI 要素を選択できます。これは、ネストされたレイアウト コンテナがある場合に役立ちます。ご覧のとおり、テキスト コンポーネントを表示し、並べて切り替えるためのネストされた行レイアウトがあります。そして、これは列レイアウト内にあります。したがって、行レイアウト ラベルをクリックすると、その親列レイアウトが選択されます。

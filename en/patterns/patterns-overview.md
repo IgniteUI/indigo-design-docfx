@@ -39,7 +39,7 @@ We constantly improve our patterns by adding new ones. To identify changes more 
 
 Related topics:
 
-- [Styling](../styling/styling-overview.md)
+- [Styling](../style/styling-overview.md)
 - [Components](../components/components-overview.md)
   <div class="divider--half"></div>
 
