@@ -47,7 +47,7 @@ There are 4 interchangeable List Item Primary Actions like the standard [List](l
 
 ## List Item Secondary Action
 
-There are 4 interchangeable List Item Secondary Actions like the standard [List](list.md) that are listed below. Thanks to the use of Smart Layout in Sketch they can be adjusted further by setting unnecessary elements to ~No Symbol.
+The Secondary Action of the Skeleton List Item covers all scenarios possible with its counterpart from the standard [List](list.md). Thanks to the use of Smart Layout in Sketch it can be adjusted further by setting unnecessary elements to ~No Symbol.
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
