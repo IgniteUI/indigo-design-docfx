@@ -27,13 +27,6 @@ The Skeleton List Item comes in the same three preset types like the standard [L
 <img class="responsive-img" src="../images/list_skeleton_item_one-line.png" srcset="../images/list_skeleton_item_one-line@2x.png 2x" />
 <img class="responsive-img" src="../images/list_skeleton_item_two-line.png" srcset="../images/list_skeleton_item_two-line@2x.png 2x" />
 
-## List Item State
-
-The One-line and Two-line List Items support the same interactive states like the standard [List](list.md): **inactive** and active.
-
-<img class="responsive-img" src="../images/list_skeleton_item_inactive.png" srcset="../images/list_skeleton_item_inactive@2x.png 2x" />
-<img class="responsive-img" src="../images/list_skeleton_item_active.png" srcset="../images/list_skeleton_item_active@2x.png 2x" />
-
 ## List Item Areas
 
 The Skeleton List Item has two distinct areas like the standard [List](list.md): Primary Action and Secondary Action.
