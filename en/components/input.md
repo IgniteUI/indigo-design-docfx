@@ -39,7 +39,7 @@ The Input can be used styled in **dark** and light variants to assure good reada
 
 ## State
 
-When the user interacts with the Input, it goes through various states: **idle** with a placeholder in the place of the content, focused while the user is typing in it, filled once the user has finished adding content and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
+When the user interacts with the Input, it goes through various states: **idle** with a placeholder in the place of the content, focused while the user is typing in it, and filled once the user has finished adding content and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
 
 <img class="responsive-img" src="../images/input_idle.png" srcset="../images/input_idle@2x.png 2x" />
 `idle`
