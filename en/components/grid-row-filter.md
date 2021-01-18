@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Grid Row Filter
 
-Use the Grid Row Filter to specify filtering criteria on a Grid column via a special type of Header Cell that contains Chips with the filtering conditions. The Grid Row Filter is visually identical to[Ignite UI for Angular Grid Filtering Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/filtering.html)
+Use the Grid Row Filter to specify filtering criteria on a Grid column via a special type of Header Cell that contains Chips with the filtering conditions. The Grid Row Filter is visually identical to [Ignite UI for Angular Grid Filtering Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/filtering.html)
 
 ## Grid Row Filter Demo
 
@@ -19,10 +19,6 @@ In order to indicate that a Grid is filterable via a Row Filter, add a second He
 ## Filter State
 
 The Row Filter Header Cells come with a `Filter State` override that lets you configure whether a filtering condition has been applied on a given column when set to Filtered or no filtering condition is applied, which also happens to be the default state **Empty**.
-
-## Code generation
-
-Make sure to place the Row Filter Header Cells within the `Header` group of the Grid as siblings to the normal Header Cells.
 
 ## Additional Resources
 
