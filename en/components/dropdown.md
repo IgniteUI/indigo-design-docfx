@@ -28,7 +28,7 @@ The Dropdown supports two types of items header and item. Through headers it is 
 
 ## Item States
 
-The Dropdown items support five different states: disabled, **idle**, focused, selected and selected&focused.
+The Dropdown items support five different states: Disabled, **Idle**, Focused, Selected, and Selected&focused.
 
 <img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
@@ -64,4 +64,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
