@@ -14,7 +14,12 @@ Use the Input component to collect user data such as strings, numbers fitting va
 
 ## Types
 
-The Input lets you choose from simple, hint which comes with a helper text, and searchbar. The simple Input and hint Input provide a choice between three distinct types: a line style for a more airy style, a border style for a more structured perception on solid color backgrounds, and a boxed style which is most appropriate when the Input is placed on top of a vivid image to improve the readability of its content.
+The Input lets you choose a preset from three options: hint which comes with a helper text, searchbar, and simple. 
+
+//here add simple line and hint line input images
+<img class="responsive-img" src="../images/input_searchbar.png" srcset="../images/input_searchbar@2x.png 2x" />
+
+The hint and simple presets offer choice between three distinct types: line style for a more airy look, border style for a more structured perception on solid color backgrounds, and boxed style which is most appropriate when the Input is placed on top of a vivid image to improve the readability of its content.
 
 <img class="responsive-img" src="../images/input_simple.png" srcset="../images/input_simple@2x.png 2x" />
 <img class="responsive-img" src="../images/input_hint.png" srcset="../images/input_hint@2x.png 2x" />
@@ -84,4 +89,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
