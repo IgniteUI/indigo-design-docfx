@@ -1,6 +1,6 @@
 ---
 title: Grid Paging - Grid Feature
-_description: The Grid Paging Component Symbol provides a footer that provides information about the Grid page where the user is currently on and allows navigation between pages of content for the Grid.
+_description: The Grid Paging Component provides a footer that gives information about the Grid page where the user is currently on and allows navigation between pages of content for the Grid.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Paging
 ---
 
@@ -17,10 +17,6 @@ Use the Grid Paging Component to inform the user about his current position (on 
 The Grid Paging comes with styling flexibility through the various overrides controlling its label and background colors, as well as the available styling for the Icon Buttons used for navigation.
 
 <img class="responsive-img" src="../images/grid_paging_styling.png" srcset="../images/grid_paging_styling@2x.png 2x" />
-
-## Code generation
-
-When a Paging object is added to the Sketch diagram, paging will be enabled for the grid. Styles will be used to setup the paging colors.
 
 ## Additional Resources
 
