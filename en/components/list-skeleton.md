@@ -1,6 +1,6 @@
 ---
 title: Skeleton List - Design System Component
-_description: The Skeleton List is a representation of a List component that is shown while data is being loaded in the background to provide content for a list.
+_description: The Skeleton List is a representation of a List component that is shown while data is being loaded in the background to provide content for its items.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
