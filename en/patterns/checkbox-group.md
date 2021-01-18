@@ -18,7 +18,7 @@ The Checkbox Group Pattern comes with the styling flexibility provided by the Ch
 > [!WARNING]
 > After inserting a Checkbox Group, you should trigger `Detach from Symbol` to break it down to the individual Checkboxes that are used to create the layout in order to be able to generate it as Angular code. The Checkboxes, however, must stay intact and not be detached!
 
-<img class="responsive-img" src="../images/checkbox_group_detach.png" />
+<img class="responsive-img" src="../images/checkbox_group_detach.png" srcset="../images/checkbox_group_detach@2x.png 2x" />
 
 ## Additional Resources
 
