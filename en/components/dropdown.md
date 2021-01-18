@@ -50,7 +50,7 @@ The Dropdown comes with styling flexibility through an override controlling the 
 
 ## Usage
 
-When using the Dropdown you should always show it on top of the content that follows the item which triggers its display. Dropdowns don't push content like accordions do.
+When using the Dropdown you should always show it on top of the content that follows the item which triggers its display. Dropdowns don't push content like an expansion panel would.
 
 | Do                                                                                 | Don't                                                                                  |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
