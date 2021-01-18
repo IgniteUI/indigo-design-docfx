@@ -51,10 +51,7 @@ The Secondary Action of the Skeleton List Item covers all scenarios possible wit
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| Badge            | <img class="responsive-img" src="../images/list_skeleton_item_secondary.png" srcset="../images/list_skeleton_item_secondary@2x.png 2x" />   |                                                                                                                                       |
-| Checkbox         | <img class="responsive-img" src="../images/list_skeleton_item_secondary2.png" srcset="../images/list_skeleton_item_secondary2@2x.png 2x" /> | Checkbox in a Secondary Action can not have a label, therefore, the before and after labels are set to ~No Symbol and this setting should not be changed |
 | Text and Icon            | <img class="responsive-img" src="../images/list_skeleton_item_secondary3.png" srcset="../images/list_skeleton_item_secondary3@2x.png 2x" /> |                                                                                                                                       |
-| Toggle             | <img class="responsive-img" src="../images/list_skeleton_item_secondary4.png" srcset="../images/list_skeleton_item_secondary4@2x.png 2x" /> | Switch in a Secondary Action can not have a label, therefore, the before and after labels are set to ~ No Symbol and this setting should not be changed                                                                                                                 |
 
 ## Usage
 
