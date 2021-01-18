@@ -46,7 +46,7 @@ So, let's see how we can create an intricate layout for the product List Item ab
 
     <img class="responsive-img" src="../images/list_item_custom_layout1.png" srcset="../images/list_item_custom_layout1@2x.png 2x" />
 
-2.  Next, we will insert a List/Custom/Blocks/Image Content in the Primary Action Group and add a Badge on top of it within the same group. Now, we have to size the image according to the Item size and select content for it. After modifying the Badge, as well as after updating its Value Text and hiding Elevation, we should have something similar to this.
+2.  Next, we will insert a List/Custom/Blocks/Image Content in the Primary Action Group and add a Badge on top of it within the same group. Now, we have to size the image according to the Item size and select content for it. After modifying the Badge, updating its Value Text, and setting its Elevation to None, we should have something similar to this.
 
     <img class="responsive-img" src="../images/list_item_custom_layout2.png" srcset="../images/list_item_custom_layout2@2x.png 2x" />
 
@@ -72,4 +72,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
