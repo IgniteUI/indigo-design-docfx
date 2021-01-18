@@ -65,7 +65,7 @@ The Input has rich support for prefix and suffix through a combination of text a
 
 ## Styling
 
-The Input comes with styling achievable through changing the primary, success, warning, and error colors of your theme in the Styling library.
+The Input comes with styling flexibility through the colors of its background and bottom line, as well as icon color and text styles of its prefix, suffix, and main areas of content. To change the validation styles, it is recommended to update the respective color variables in the Indigo.Design library. 
 
 <img class="responsive-img" src="../images/input_styling.png" srcset="../images/input_styling@2x.png 2x" />
 
