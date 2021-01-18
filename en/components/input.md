@@ -25,7 +25,7 @@ The hint and simple presets offer choice between three distinct types: line styl
 
 ## Interaction State
 
-Each of the three inputs can be inserted in an enabled or disabled state.
+Each of these presets can be inserted in an enabled or disabled state.
 
 <img class="responsive-img" src="../images/input_enabled.png" srcset="../images/input_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/input_disabled.png" srcset="../images/input_disabled@2x.png 2x" />
