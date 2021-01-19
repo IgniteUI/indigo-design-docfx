@@ -14,7 +14,9 @@ Use the Grid Column Pinning as a mechanism to fix the first few columns of a scr
 
 ## Header Cell Feature
 
-In order to pin a column use either the `Feature Left` or `Feature Right` overrides and set it to `Pinning`. Of course, you would probably also want to rearrange the column order so that the pinned ones come first when looking left to right.
+In order to pin a column use either the `Feature Left` or `Feature Right` overrides and set it to `Icon Template`. This way an icon will appear to indicate the column is pinned and you can change it from pin to unpin icon from Icon override. Of course, you would probably also want to rearrange the column order so that the pinned ones come first when looking left to right.
+
+Also, you have to configure the `Column Pinning` override of the Grid Header Cell for the column by changing the default value from **Not Pinned** to Pinned. This is what marks the column as resizable as far as code generation is concerned.
 
 ## Cell Right Border
 
