@@ -23,7 +23,6 @@ The Bar Pattern comes with two versions for placing on the top and bottom of the
 Related topics:
 
 - [Button](../components/button.md)
-- [Text](../components/text.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
