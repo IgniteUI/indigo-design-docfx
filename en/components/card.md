@@ -25,7 +25,7 @@ The Card has four distinct areas: for `image` at the top to show picture or map 
 
 ## Image and Body
 
-The image and body Card areas support the same collection of eleven overrides: 6 continent maps for the populated world areas, one World Map, and one Navigation Map, as well as Array of shortcuts like contacts, Image, and Paragraph for a short description text.
+The image and body Card areas support the same collection of eleven overrides: 6 continent maps for the populated world areas, one World Map, and one Navigation Map, as well as an Array of shortcuts like contacts, Image, and Paragraph for a short description text.
 
 <img class="responsive-img" src="../images/card_media_worldmap.png" srcset="../images/card_media_worldmap@2x.png 2x" />
 
