@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Grid Display Density
 
-The Grid comes in three prebuilt variants according to the three densities supported comfortable, cosy and compact, where the first one is the most airy layout and the last one is the most dense one. The Grid Display Density is visually identical to the [Ignite UI for Angular Grid Display Density Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/display_density.html).
+The Grid comes in three prebuilt variants according to the three densities supported comfortable, cosy, and compact, where the first one is the airiest layout and the last one is the densest one. The Grid Display Density is visually identical to the [Ignite UI for Angular Grid Display Density Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/display_density.html).
 
 The more data a grid has to display, the denser its layout needs to be. This also leaves less and less whitespace in the layout of all its elements including the header and body cells, overlays and dialogs, as well as elements that are attached to the grid above or below the main content like the Toolbar and the Summaries.
 
