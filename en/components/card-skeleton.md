@@ -53,7 +53,7 @@ Through the use of `Smart Layout` in Sketch, the Skeleton Card can produce vario
 
 ## Usage
 
-When creating layouts with multiple cards, avoind combining standard and skeleton cards. Data is either present for all cards, or for none of them, thus the two types should not be used within the same grid layout.
+When creating layouts with multiple cards, avoid combining standard and skeleton cards. Data is either present for all cards, or for none of them, thus the two types should not be used within the same grid layout.
 
 | Do                                                                         | Don't                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
