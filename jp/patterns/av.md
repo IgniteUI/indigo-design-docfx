@@ -17,8 +17,8 @@ Audio / Video パターンのレイアウトに含まれる Icon Buttons およ�
 > [!WARNING]
 > Audio / Video パターンを挿入した後、Angular コードとして生成するには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。
 
-<img class="responsive-img" src="../images/av_player_detach.png" />
-<img class="responsive-img" src="../images/av_volume_detach.png" />
+<img class="responsive-img" src="../images/av_player_detach.png" srcset="../images/av_player_detach@2x.png 2x" />
+<img class="responsive-img" src="../images/av_volume_detach.png" srcset="../images/av_volume_detach@2x.png 2x" />
 
 ## その他のリソース
 
