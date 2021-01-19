@@ -37,7 +37,7 @@ The image and body Card areas support the same collection of eleven overrides: 6
 
 ## Header
 
-The Card header, through the use of `Smart Layout` in Sketch, supports various layouts including an Avatar Thumbnail, Title and Subtitle elements.
+The Card header, through the use of `Smart Layout` in Sketch, supports various layouts including an Avatar Thumbnail, Title, and Subtitle elements.
 
 <img class="responsive-img" src="../images/card_header.png" srcset="../images/card_header@2x.png 2x" />
 
@@ -88,4 +88,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
