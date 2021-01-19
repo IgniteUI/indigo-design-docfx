@@ -15,7 +15,7 @@ Use the Menu Symbols as presets for building navigation bar for application or w
 > [!WARNING]
 > After inserting any of the Menu Patterns available, you should trigger `Detach from Symbol` to break it down to the Components that are used to create the layout in order to be able to generate it as Angular code. The individual Menu Elements, as well as the background and data binding layers must stay intact and not be detached!
 
-<img class="responsive-img" src="../images/menu_detach.png" />
+<img class="responsive-img" src="../images/menu_detach.png" srcset="../images/menu_detach@2x.png 2x" />
 
 ## Additional Resources
 
