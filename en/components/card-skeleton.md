@@ -1,6 +1,6 @@
 ---
 title: Skeleton Card - Design System Component
-_description: The Skeleton Cards is a representation of a Card component that is shown while data is being loaded in the background to provide content for a collection of cards.
+_description: The Skeleton Card is a representation of a Card component that is shown while data is being loaded in the background to provide content for a collection of cards.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
@@ -67,5 +67,4 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
