@@ -17,7 +17,7 @@ The Skeleton Card supports the same four areas like the standard [Card](card.md)
 
 ## Image and Body
 
-The skeleton image and body areas support overrides either for an Array of shortcuts, an Image, which also covers the the maps available in the standard [Card](card.md), or a Paragraph.
+The skeleton image and body areas support overrides either for an Array of shortcuts, an Image, which also covers the maps available in the standard [Card](card.md), or a Paragraph.
 
 <img class="responsive-img" src="../images/card_skeleton_media.png" srcset="../images/card_skeleton_media@2x.png 2x" />
 
