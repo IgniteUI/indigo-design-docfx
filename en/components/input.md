@@ -14,7 +14,7 @@ Use the Input component to collect user data such as strings, numbers fitting va
 
 ## Types
 
-The Input lets you choose a preset from three options: hint which comes with a helper text, searchbar, and simple.
+The Input lets you choose a preset from three options: simple, hint which comes with a helper text, and searchbar.
 
 <img class="responsive-img" src="../images/input_simple.png" srcset="../images/input_simple@2x.png 2x" />
 <img class="responsive-img" src="../images/input_hint.png" srcset="../images/input_hint@2x.png 2x" />
