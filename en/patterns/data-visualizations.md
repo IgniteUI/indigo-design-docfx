@@ -13,7 +13,7 @@ Use the Data Visualizations Pattern to present information and data in various v
 The Data Visualization Pattern comes with styling flexibility provided by the Chart component, Input and Text elements that constitute it.
 
 > [!WARNING]
-> After inserting a Data Visualization Pattern, you should trigger `Detach from Symbol` to break it down to the separate components that are used to create the layout in order to be able to generate it as Angular code. The Category Chart itself, however, must stay intact and not be detached!
+> After inserting a Data Visualization Pattern, you should trigger `Detach from Symbol` to break it down to the separate components that are used to create the layout in order to be able to generate it as Angular code. The Chart and Dropdown, however, must stay intact and not be detached!
 
 <img class="responsive-img" src="../images/data_visualizations_detach.png"  srcset="../images/data_visualizations_detach@2x.png 2x" />
 
@@ -21,7 +21,9 @@ The Data Visualization Pattern comes with styling flexibility provided by the Ch
 
 Related topics:
 
-- [Chart-Category](../components/chart-category.md)
+- [Column Chart](../components/column-chart.md)
+- [Line Chart](../components/line-chart.md)
+- [Spline Chart](../components/spline-chart.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
