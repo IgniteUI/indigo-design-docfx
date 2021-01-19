@@ -20,7 +20,7 @@ The File Upload Pattern provides two types of previews for the uploaded file: an
 
 ## Content
 
-The File Upload Pattern of type Document supports the most common types of content that are usually uploaded or inserted as Documents: CSV, PDF, Presentation, Spreadsheet, and Text. Additionally, an Upload and Attach presets are available to provide further flexibility for various appliction scenarios.
+The File Upload Pattern of type Document supports the most common types of content that are usually uploaded or inserted as Documents: CSV, PDF, Presentation, Spreadsheet, and Text. Additionally, an Attach preset is available to provide further flexibility for various appliction scenarios.
 
 <img class="responsive-img" src="../images/file-upload_content.png" srcset="../images/file-upload_content@2x.png 2x" />
 
