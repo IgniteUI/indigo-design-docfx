@@ -12,7 +12,7 @@ For scenarios where no target value exists or is irrelevant you should use the [
 
 ## Bullet Graph Demo
 
-<img class="responsive-img" src="../images/bullet_graph_three_ranges-2.png" srcset="../images/bullet_graph_three_ranges@2x-2.png 2x" />
+<img class="responsive-img" src="../images/bullet_graph_three_ranges-2.png" srcset="../images/bullet_graph_three_ranges-2@2x.png 2x" />
 
 ## Title and Subtitle
 
