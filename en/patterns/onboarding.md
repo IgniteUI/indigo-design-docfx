@@ -13,11 +13,11 @@ Use the Onboarding Symbols as presets for building Onboarding experience in seve
 
 
 > [!Note]
-> Illustrations nested inside the Pattern Symbols cannot be code generated and Illustration itself has to be inserted manually.
+> Illustrations nested inside the Pattern Symbols cannot be code generated and the Illustration itself has to be inserted manually.
 
 
 > [!WARNING]
-> After inserting any of the Onboarding Patterns available, you should trigger `Detach from Symbol` to break it down to the Components that are used to create the layout in order to be able to generate it as Angular code (except for the illustration which cannot be code generated). The individual Onboarding Elements, as well as the background and data binding layers must stay intact and not be detached!
+> After inserting any of the Onboarding Patterns available, you should trigger `Detach from Symbol` to break it down to the Components that are used to create the layout in order to be able to generate it as Angular code. Illustrations used in these patterns cannot be code generated and they have to be added manually afterwards. The individual Onboarding Elements together with the background must stay intact and not be detached!
 
 <img class="responsive-img" src="../images/onboarding_detach.png" srcset="../images/onboarding_detach@2x.png 2x" />
 
