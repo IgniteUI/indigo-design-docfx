@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Menu
 
-Use the Menu Symbols as presets for building navigation bar for application or webpage that contains elements such as logo, menu items, search input, various actions, account settings.
+Use the Menu Symbols as presets for building navigation bars for applications or webpages containing elements such as a logo, menu items, a search, various actions, and account settings among others.
 
 
 <img class="responsive-img" src="../images/menu.png" srcset="../images/menu@2x.png 2x" />
