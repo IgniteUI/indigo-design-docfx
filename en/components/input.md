@@ -35,7 +35,7 @@ Each of these presets can be inserted in an enabled or disabled state.
 
 ## Variant
 
-The Input can be used styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
+The Input can be styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
 
 <img class="responsive-img" src="../images/input_dark.png" srcset="../images/input_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/input_light.png" srcset="../images/input_light@2x.png 2x" />
