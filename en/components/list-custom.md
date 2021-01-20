@@ -68,7 +68,6 @@ Related topics:
 - [Lists Pattern](../patterns/lists.md)
 - [Badge](badge.md)
 - [Button](button.md)
-- [Text](text.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
