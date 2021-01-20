@@ -19,11 +19,7 @@ _Default value is styled with_ **bold** _text._
 
 ## Column Moving Feature
 
-The Grid has a `Column Moving` symbol under `Features` that represents the ghost Header Cell shown for the dragged column. Adding this symbol has only a visual effect on your design to make it more realistic, if you want to switch the Column Moving feature, configure the Header Cells accordingly.
-
-## Code generation
-
-If the `Column Moving` symbol is added make sure to place it within the group defining the Grid as a sibling to the Header and Body groups.
+The Grid has a `Column Moving` symbol under `Features` that represents the ghost Header Cell shown for the dragged column. It provides two types: a number and a text column. Adding this symbol has only a visual effect on your design to make it more realistic, if you want to switch the Column Moving feature, configure the Header Cells accordingly.
 
 ## Additional Resources
 
