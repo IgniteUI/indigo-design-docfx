@@ -38,7 +38,7 @@ There is also one special sub-type of Header Cell, the Row Filter Header Cell th
 
 ## Cell Display Density
 
-Header, Body, and Summary Cells support the three display density variants of the Grid and come with distinct symbols for each one as can be seen for the Header Cells below:
+Header, Body, and Summary Cells support three display density variants of the Grid: comfortable, cosy, and compact. Each of them come with distinct symbols as can be seen for the Header Cells below:
 
 <img class="responsive-img" src="../images/grid_cell_header_comfortable.png" srcset="../images/grid_cell_header_comfortable@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_cosy.png" srcset="../images/grid_cell_header_cosy@2x.png 2x" />
@@ -69,7 +69,7 @@ The Grid Body Cell has styling support for some of the Grid features defined thr
 
 ## Cell Type
 
-The Grid Header Cell provides presets for the three generic types of data that the Grid needs to accommodate: **Number** for numeric values, Text,Date,Bool for strings, Row Selection that is used for the first column in order to allow selection of multiple rows, and Group By is used to expand and collapse the grouped data rows.
+The Grid Header Cell provides presets for the four generic types of data that the Grid needs to accommodate: **Number** for numeric values, Text,Date,Bool for strings, Row Selection that is used for the first column in order to allow selection of multiple rows, and Group By is used to expand and collapse the grouped data rows.
 
 <img class="responsive-img" src="../images/grid_cell_header_number.png" srcset="../images/grid_cell_header_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />
@@ -131,6 +131,7 @@ Related topics:
 - [Hierarchical Grid](hierarchical-grid.md)
 - [Tree Grid](tree-grid.md)
 - [Grid Patterns](../patterns/grid.md)
+- [Grid Skeleton](grid-skeleton.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
