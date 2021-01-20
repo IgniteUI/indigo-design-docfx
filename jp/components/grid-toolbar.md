@@ -48,7 +48,7 @@ Grid ツールバーは、操作のオーバーライド、タイトルのスタ
 
 #### Switch, Icon & Button
 
-スイッチ、アイコン、ボタンのオプションは[カスタム コンテンツ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#カスタム-コンテンツ-テンプレート)と見なされます。 デフォルトでは、ツールバーに含まれていません。これらをツールバー内で描画するために、コード生成はツールバーが使用するこれらのコンポーネントを含む `ng-template` を生成します。
+スイッチ、アイコン、ボタンのオプションは[カスタム コンテンツ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#カスタム-コンテンツ-テンプレート)と見なされます。デフォルトでは、ツールバーに含まれていません。これらをツールバー内で描画するために、コード生成はツールバーが使用するこれらのコンポーネントを含む `ng-template` を生成します。
 
 ## その他のリソース
 

@@ -7,7 +7,7 @@ _language: ja
 
 # Cards (カード)
 
-Card コンポーネントシンボルは、画像とテキストで単一オブジェクトの情報を表示し、共有、リンク、ブックマークなどの関連するクイック操作をトリガーできます。Card は通常概要を提供し、詳細情報のエントリ ポイントとして、ダッシュボード、テキスト、画像、アイコン、ボタンなどを表示します。 Card は、[Ignite UI for Angular Card コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/card.html)と視覚的に同じものです。
+Card コンポーネントシンボルは、画像とテキストで単一オブジェクトの情報を表示し、共有、リンク、ブックマークなどの関連するクイック操作をトリガーできます。Card は通常概要を提供し、詳細情報のエントリ ポイントとして、ダッシュボード、テキスト、画像、アイコン、ボタンなどを表示します。Card は、[Ignite UI for Angular Card コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/card.html)と視覚的に同じものです。
 
 ## Card デモ
 
