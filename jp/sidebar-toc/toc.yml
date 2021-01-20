@@ -93,8 +93,10 @@
       href: ../components/bottom-nav.md
     - name: Button Group
       href: ../components/button-group.md
+      new: true
     - name: Button
       href: ../components/button.md
+      new: true
     - name: Calendar
       href: ../components/calendar.md
     - name: Cards
@@ -104,12 +106,24 @@
           href: ../components/cards-custom.md
     - name: Carousel
       href: ../components/carousel.md
-    - name: Data Visualization
+    - name: Charts
+      items:
+        - name: Column Chart
+          href: ../components/column-chart.md
+          new: true
+        - name: Line Chart
+          href: ../components/line-chart.md
+          new: true
+        - name: Spline Chart
+          href: ../components/spline-chart.md
+          new: true
+        - name: Step Line Chart
+          href: ../components/step-line-chart.md
+          new: true
+    - name: Gauges
       items:
         - name: Bullet Graph
           href: ../components/bullet-graph.md
-        - name: Category Chart
-          href: ../components/chart-category.md
         - name: Linear Gauge
           href: ../components/linear-gauge.md
         - name: Radial Gauge
@@ -120,56 +134,44 @@
       href: ../components/chips.md
     - name: Combo
       href: ../components/combo.md
+    - name: Date Picker
+      href: ../components/date-picker.md
+      new: true
     - name: Dialog
       href: ../components/dialog.md
     - name: Dropdown
       href: ../components/dropdown.md
     - name: Grid
       href: ../components/grid.md
-      new: true
       items:
         - name: ツールバー
           href: ../components/grid-toolbar.md
-          new: true
         - name: エクスポート
           href: ../components/grid-export.md
-          new: true
         - name: グループ化
           href: ../components/grid-grouping.md
-          new: true
         - name: 列ピン固定
           href: ../components/grid-column-pinning.md
-          new: true
         - name: 列非表示
           href: ../components/grid-column-hiding.md
-          new: true
         - name: 列移動
           href: ../components/grid-column-moving.md
-          new: true
         - name: 列サイズ変更
           href: ../components/grid-column-resizing.md
-          new: true
         - name: 並べ替え
           href: ../components/grid-sorting.md
-          new: true
         - name: 行フィルター
           href: ../components/grid-row-filter.md
-          new: true
         - name: Excel スタイル フィルター
           href: ../components/grid-excel-style-filter.md
-          new: true
         - name: 行選択
           href: ../components/grid-row-selection.md
-          new: true
         - name: 編集
           href: ../components/grid-editing.md
-          new: true
         - name: 表示密度
           href: ../components/grid-display-density.md
-          new: true
         - name: ページング
           href: ../components/grid-paging.md
-          new: true
         - name: 集計
           href: ../components/grid-summaries.md
     - name: Hyperlink
@@ -181,8 +183,10 @@
       href: ../components/icon.md
     - name: Input
       href: ../components/input.md
+      new: true
     - name: List
       href: ../components/list.md
+      new: true
       items:
         - name: Custom List Item
           href: ../components/list-custom.md
@@ -192,10 +196,12 @@
       href: ../components/nav-drawer.md
     - name: Progress
       href: ../components/progress.md
+      new: true
     - name: Radio Group
       href: ../components/radio-group.md
     - name: Slider
       href: ../components/slider.md
+      new: true
     - name: Snackbar
       href: ../components/snackbar.md
     - name: Switch
@@ -204,6 +210,7 @@
       href: ../components/tabs.md
     - name: Time Picker
       href: ../components/time-picker.md
+      new: true
     - name: Toast
       href: ../components/toast.md
     - name: Tooltip
