@@ -2,6 +2,7 @@
 title: Spline Chart - Design System Component
 _description: The Spline Chart Component Symbol shows data as a series of points connected by lines with splines.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_language: ja
 ---
 
 # Spline Chart

@@ -2,6 +2,7 @@
 title: Step Line Chart - Design System Component
 _description: The Step Line Chart Component Symbol shows data as a series of points connected by straight lines, resembling steps.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_language: ja
 ---
 
 # Step Line Chart
