@@ -14,7 +14,7 @@ Use the Card Component to display information for a single object through an ima
 
 ## Areas
 
-The Card has four distinct areas: for `image` at the top to show picture or map media, a `header` which holds a combination of thumbnail Avatar, title, and subtitle, `body` which holds text paragraphs detailing the Card, and `actions` which serves as a toolbar with quick actions related to the Card.
+The Card has four distinct areas: `image` at the top to show picture or map media, `header` which holds a combination of thumbnail Avatar, title, and subtitle, `body` which holds text paragraphs detailing the Card, and `actions` which serve as a toolbar with quick actions related to the Card.
 
 |         |                                                                                                |
 | ------- | ---------------------------------------------------------------------------------------------- |
