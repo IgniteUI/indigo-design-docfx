@@ -63,7 +63,7 @@ When the content of a Button contains a label, it must be uppercase and with a t
 Related topics:
 
 - [Button Group](button-group.md)
-- [Cards](cards.md)
+- [Card](card.md)
 - [Dialog](dialog.md)
 - [Snackbar](snackbar.md)
 - [Time Picker](time-picker.md)

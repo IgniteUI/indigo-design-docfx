@@ -74,7 +74,7 @@ Text プロパティにテキスト、[テキストのバインディング](../
 関連トピック:
 
 - [Button Group](button-group.md)
-- [Cards](cards.md)
+- [Card](card.md)
 - [Dialog](dialog.md)
 - [Snackbar](snackbar.md)
 - [Time Picker](time-picker.md)
