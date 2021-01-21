@@ -1,7 +1,7 @@
 ﻿---
 title: Custom List Item - デザイン システム コンポーネント
 _description: List Items コレクションは、完全なカスタマイズ可能な Custom レイアウトを作成する List Item を含みます。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_кeywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
@@ -15,7 +15,7 @@ Custom List Item シンボルは、通常の List Item と同じタイプの情�
 
 ## 状態
 
-Custom List Item はインアクティブ状態 (標準状態のインアクティブと選択状態のアクティブ) をサポートします。
+Custom List Item はインアクティブ状態 (**標準状態**のインアクティブと選択状態のアクティブ) をサポートします。
 
 <img class="responsive-img" src="../images/list_item_custom_inactive.png" srcset="../images/list_item_custom_inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_custom_active.png" srcset="../images/list_item_custom_active@2x.png 2x" />
@@ -26,7 +26,7 @@ List Item レイアウトをカスタマイズするには、`List/Custom/Item` 
 
 | レイヤー                 | 使用                                                                                                                           |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| 🚫 igx-list-item/custom  | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
+| 🚫 metadata  | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
 | 💡Primary Action Group   | Primary Action レイアウト要素をグループ化                                                                                      |
 | 💡Secondary Action Group | Secondary Action レイアウト要素をグループ化                                                                                    |
 | 💡State                  | 項目の Background を含み、List Item がアクティブまたは非アクティブな状態にあるかどうかを定義します。                           |
@@ -43,17 +43,17 @@ Custom List Item は、Secondary Actions のオーバーライドおよびテキ
 
 <img class="responsive-img" src="../images/list_item_custom_layout0.png" srcset="../images/list_item_custom_layout0@2x.png 2x" />
 
-1.  Primary Action Group の Header を再利用しますが右半分のみに合わせてサイズ変更し、Title と Subtitile Text の文字列を更新します。Secondary Action Group で Raised Button 配置を右下近くに追加します。テキストの更新して新しい値に合わせてサイズ変更します。ターゲット カスタム レイアウトに Icons は必要ないため、最後にデフォルト Secondary Action を削除します。
+1.  First, we have to remove the paragraph and footer. 次に、Primary Action Group の Header を再利用しますが右半分のみに合わせてサイズ変更し、Title と Subtitle Text の文字列を更新します。In the Secondary Action Group, we will add a Raised Button position to it near the bottom right corner, updating its text and resizing accordingly to fit the new value. テキストの更新して新しい値に合わせてサイズ変更します。ターゲット カスタム レイアウトに Icons は必要ないため、最後にデフォルト Secondary Action を削除します。
 
-  <img class="responsive-img" src="../images/list_item_custom_layout1.png" srcset="../images/list_item_custom_layout1@2x.png 2x" />
+    <img class="responsive-img" src="../images/list_item_custom_layout1.png" srcset="../images/list_item_custom_layout1@2x.png 2x" />
 
-2.  次に List/Custom/Blocks/Image Content を Primary Action Group に挿入し、同じグループ内で一番上に Badge を追加します。Item サイズに基づいて画像をサイズ変更し、コンテンツを選択します。Badge を変更して Value Text を更新した後に Border と Elevation を非表示にし、これと同様のものを取得します。
+2.  次に List/Custom/Blocks/Image Content を Primary Action Group に挿入し、同じグループ内で一番上に Badge を追加します。Item サイズに基づいて画像をサイズ変更し、コンテンツを選択します。After modifying the Badge, updating its Value Text, and setting its Elevation to None, we should have something similar to this.
 
-  <img class="responsive-img" src="../images/list_item_custom_layout2.png" srcset="../images/list_item_custom_layout2@2x.png 2x" />
+    <img class="responsive-img" src="../images/list_item_custom_layout2.png" srcset="../images/list_item_custom_layout2@2x.png 2x" />
 
-3.  前のステップでは Text/Title 要素を Primary Action Group に追加します。H3 で製品価格を表示し、その右に H6 で追加のテキストを表示します。Header と Raised Button 間の空スペースに配置後、ターゲット レイアウトが完了した Raised Button の最終的な配置を調整できます。
+3.  前のステップでは Text/Title 要素を Primary Action Group に追加します。H3 で製品価格を表示し、その右に Body 1 で追加のテキストを表示します。Header と Raised Button 間の空スペースに配置後、ターゲット レイアウトが完了した Raised Button の最終的な配置を調整できます。
 
-  <img class="responsive-img" src="../images/list_item_custom_layout3.png" srcset="../images/list_item_custom_layout3@2x.png 2x" />
+    <img class="responsive-img" src="../images/list_item_custom_layout3.png" srcset="../images/list_item_custom_layout3@2x.png 2x" />
 
 ### 追加のスタイル
 
@@ -65,12 +65,10 @@ List Item レイアウトでは、挿入されている要素に基づいてさ�
 
 関連トピック:
 
+- [List](list.md)
+- [Lists パターン](../patterns/lists.md)
 - [Badge](badge.md)
 - [Button](button.md)
-- [Text](text.md)
-- [Lists パターン](../patterns/lists.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
-
