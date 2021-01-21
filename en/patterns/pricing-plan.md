@@ -20,9 +20,9 @@ Use the Pricing Plan Symbol as presets to display different pricing plans for a 
 
 Related topics:
 
-- [Avatar](../components/avatar.md)
+- [Button](../components/button.md)
+- [List](../components/list.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
