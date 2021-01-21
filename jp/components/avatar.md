@@ -71,7 +71,7 @@ Avatar の色またはフォントを指定した場合、Avatar HTML 要素は 
 関連トピック:
 
 - [Avatar + Badge](../patterns/avatar-badge.md)
-- [Cards](cards.md)
+- [Card](card.md)
 - [File Upload](../patterns/file-upload.md)
 - [User Profile](../patterns/user-profile.md)
 - [データ バインディング](../codegen/data-binding.md)

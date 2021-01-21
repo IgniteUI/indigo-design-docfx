@@ -99,11 +99,12 @@
       new: true
     - name: Calendar
       href: ../components/calendar.md
-    - name: Cards
-      href: ../components/cards.md
+    - name: Card
+      href: ../components/card.md
       items:
-        - name: Custom Card
-          href: ../components/cards-custom.md
+        - name: Skeleton Card
+          href: ../components/card-skeleton.md
+          new: true
     - name: Carousel
       href: ../components/carousel.md
     - name: Charts
@@ -225,8 +226,6 @@
       href: ../patterns/av.md
     - name: Avatar + Badge
       href: ../patterns/avatar-badge.md
-    # - name: Card Collection
-    #   href: ../patterns/card-collection.md
     - name: Bar
       href: ../patterns/bar.md
       new: true

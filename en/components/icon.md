@@ -43,7 +43,7 @@ Related topics:
 
 - [Material Icons](../style/material-icons.md)
 - [Bottom Navigation](bottom-nav.md)
-- [Card](cards.md)
+- [Card](card.md)
 - [Navbar](navbar.md)
 - [Navigation Drawer](nav-drawer.md)
 - [Tabs](tabs.md)
