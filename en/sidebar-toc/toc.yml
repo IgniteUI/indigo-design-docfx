@@ -195,6 +195,9 @@
       href: ../components/list.md
       new: true
       items:
+        - name: Skeleton List
+          href: ../components/list-skeleton.md
+          new: true
         - name: Custom List Item
           href: ../components/list-custom.md
     - name: Navbar
