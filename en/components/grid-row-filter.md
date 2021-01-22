@@ -25,6 +25,7 @@ The Row Filter Header Cells come with a `Filter State` override that lets you co
 Related topics:
 
 - [Grid](grid.md)
+- [Grid Excel Style Filter](grid-excel-style-filter.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
