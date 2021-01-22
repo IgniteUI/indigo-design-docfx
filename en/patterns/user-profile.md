@@ -11,19 +11,18 @@ Use the User Profile Pattern to display user-related information, either as a fu
 <img class="responsive-img" src="../images/profile_demo.png" srcset="../images/profile_demo@2x.png 2x" />
 <img class="responsive-img" src="../images/profile_small.png" srcset="../images/profile_small@2x.png 2x" />
 
-An editable variant of the User Profile Pattern, nicely laid out with the appropriate Inputs, is also provided. The User Profile Pattern comes with the styling flexibility provided by the Avatar, Text, and Inputs that constitute its layout.
+An editable variant of the User Profile Pattern, nicely laid out with the appropriate Inputs, is also provided. The User Profile Pattern comes with the styling flexibility provided by the Avatar and Inputs that constitute its layout.
 
 > [!WARNING]
 > After inserting any of the Profiles available as a Pattern you should trigger `Detach from Symbol` in order to be able to generate the Pattern as Angular code. The various Components that lay it out must stay intact and not be detached!
 
-<img class="responsive-img" src="../images/profile_detach.png" />
+<img class="responsive-img" src="../images/profile_detach.png" srcset="../images/profile_detach@2x.png 2x" />
 
 ## Additional Resources
 
 Related topics:
 
 - [Avatar](../components/avatar.md)
-- [Text](../components/text.md)
 - [Input](../components/input.md)
   <div class="divider--half"></div>
 
