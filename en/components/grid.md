@@ -46,7 +46,7 @@ Header, Body, and Summary Cells support three display density variants of the Gr
 
 ## Items and Features (Header Cell)
 
-The Grid Header Cell supports various layout combinations through the `Items` override and different feature configurations via the `Feature Left` and `Feature Right` overrides. Moreover there are a number of additional overrides that are not visible but enable different column features on the Grid, such as [Editing](grid-editing.md), [Moving](grid-column-moving.md), [Resizing](grid-column-resizing.md), and [Hiding](grid-column-hiding.md).
+The Grid Header Cell supports various layout combinations through the `Items` override and different feature configurations via the `Feature Left` and `Feature Right` overrides. Moreover there are a number of additional overrides that are not visible but enable different column features on the Grid, such as [Editing](grid-editing.md), [Moving](grid-column-moving.md), [Resizing](grid-column-resizing.md), [Hiding](grid-column-hiding.md), and [Pinning](grid-column-pinning.md).
 
 <img class="responsive-img" src="../images/grid_cell_header_no-icon.png" srcset="../images/grid_cell_header_no-icon@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_icon.png" srcset="../images/grid_cell_header_icon@2x.png 2x" />
@@ -54,13 +54,12 @@ The Grid Header Cell supports various layout combinations through the `Items` ov
 
 ## State and Grid Feature (Body Cell)
 
-The Grid Body Cell supports the following interactive states: **inactive** for the normal state and active for the focused/selected cell.
-_Default value is styled with_ **bold** _text._
+The Grid Body Cell supports the following interactive states: **inactive** for the normal state and active for the focused/selected cell. Only one cell in the whole grid can be active at any given moment.
 
 <img class="responsive-img" src="../images/grid_cell_body_cell-inactive.png" srcset="../images/grid_cell_body_cell-inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_cell-active.png" srcset="../images/grid_cell_body_cell-active@2x.png 2x" />
 
-The Grid Body Cell has styling support for some of the Grid features defined through the headers via the `Grid Feature` override that gives access to cells styled for regular cells, editable cells, and cells that belong to a selected row.
+The Grid Body Cell has styling support for some of the Grid features defined through the headers via the `Grid Feature` override. There are style variants for regular cells, editable cells, and cells that belong to a selected row.
 
 <img class="responsive-img" src="../images/grid_cell_body_row-selected.png" srcset="../images/grid_cell_body_row-selected@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_editing_cell.png" srcset="../images/grid_cell_body_editing_cell@2x.png 2x" />
@@ -69,7 +68,7 @@ The Grid Body Cell has styling support for some of the Grid features defined thr
 
 ## Cell Type
 
-The Grid Header Cell provides presets for the four generic types of data that the Grid needs to accommodate: **Number** for numeric values, Text,Date,Bool for strings, Row Selection that is used for the first column in order to allow selection of multiple rows, and Group By is used to expand and collapse the grouped data rows.
+The Grid Header Cell provides presets for the four generic types of data that the Grid needs to accommodate: **Number** for numeric values, the one combining Text,Date,Bool for the respective data types, Row Selection that is used for the first column when selection of multiple rows is desired, and Group By - used to expand and collapse grouped data rows.
 
 <img class="responsive-img" src="../images/grid_cell_header_number.png" srcset="../images/grid_cell_header_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />
@@ -93,7 +92,7 @@ You may fix the width and height of the rectangle, change its name to `Mask` and
 
 <img class="responsive-img" src="../images/grid_horizontal_scroll_masked.png" srcset="../images/grid_horizontal_scroll_masked@2x.png 2x" />
 
-Now your Grid group will take the dimensions of the Mask and you may use it in your layout in the same way as you would use a Grid without horizontal scrolling. When code for this component is generated it will automatically add a horizontal scrollbar respecting the mask dimensions as a dimension for your Grid.
+Now your Grid group will take the dimensions of the Mask and you may use it in your layout in the same way as you would use a Grid without horizontal scrolling. When code for this component is generated it will automatically add a horizontal scrollbar respecting the mask dimensions and using them for your Grid.
 
 ## Styling
 
