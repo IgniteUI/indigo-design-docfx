@@ -14,7 +14,7 @@ The Image Manipulation Pattern comes with the styling flexibility provided by th
 
 ## Layout
 
-The Image Manipulation Pattern supports both standard images and Avatars that come in layouts with one or two Flat Buttons, FAB Button, or an Icon Button.
+The Image Manipulation Pattern supports both standard images and Avatars that come in layouts with one or two Flat Buttons or an Icon Button.
 
 <img class="responsive-img" src="../images/image-manip_layout.png" srcset="../images/image-manip_layout@2x.png 2x" />
 
