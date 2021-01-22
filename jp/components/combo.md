@@ -72,20 +72,20 @@ Combo に使用される Dropdown は、標準 [Dropdown](dropdown.md) コンポ
 <img class="responsive-img" src="../images/combo_desktop.png" srcset="../images/combo_desktop@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_mobile.png" srcset="../images/combo_mobile@2x.png 2x" />
 
-## Dropdown Search Input
+## Dropdown 検索入力
 
-The dropdown contains a Search Input that comes with dark and light variants, a selection of states, and options for layout akin to the standard [Input](input.md).
+Dropdown には、暗いバリエーションと明るいバリエーションが付属する検索入力、状態の選択、および標準の [Input](input.md) と同様のレイアウトのオプションが含まれています。
 
 ## Dropdown 項目
 
-The dropdown used for the Combo supports two types of items: header and multi select item. Through headers, it is possible to organize items in groups.
+Combo に使用される Dropdown は、ヘッダーと複数選択項目の 2 種類の項目をサポートします。ヘッダーを介して、項目をグループに体系化できます。
 
 <img class="responsive-img" src="../images/combo_header.png" srcset="../images/combo_header@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_multiselect_item.png" srcset="../images/combo_multiselect_item@2x.png 2x" />
 
 ## Dropdown 項目状態
 
-Combo 内の Dropdown 項目は、5 つの状態をサポートします。disabled, **idle**、focused、selected、selected&focused。
+Combo 内の Dropdown 項目は、5 つの状態をサポートします: disabled, **idle**、focused、selected、selected&focused。
 
 <img class="responsive-img" src="../images/combo_item_disabled.png" srcset="../images/combo_item_disabled@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_item_idle.png" srcset="../images/combo_item_idle@2x.png 2x" />
@@ -95,7 +95,7 @@ Combo 内の Dropdown 項目は、5 つの状態をサポートします。disab
 
 ## スタイル設定
 
-Combo は入力とドロップダウン部分でスタイルの組み合わせに柔軟性があります。入力テキスト要素の色と下線のスタイルと色を制御するオーバーライドがあります。For the dropdown one may change the background color, or use the various overrides related to the items in the Combo dropdown, such as the search input and the items with their background and text colors.
+Combo は入力とドロップダウン部分でスタイルの組み合わせに柔軟性があります。入力テキスト要素の色と下線のスタイルと色を制御するオーバーライドがあります。Dropdown の場合、背景色を変更するか、検索入力や背景色とテキスト色の項目など、Combo Dropdown の項目に関連するさまざまなオーバーライドを使用できます。
 
 <img class="responsive-img" src="../images/combo_styling.png" srcset="../images/combo_styling@2x.png 2x" />
 
@@ -105,8 +105,8 @@ Combo を使用する際に入力とドロップダウンは同じ幅で左右�
 
 | 良い例                                                                           |悪い例                                                                            |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| <img class="responsive-img" src="../images/combo_do1.png" srcset="../images/combo_do1@2x.png 2x" />|<img class="responsive-img" src="../images/combo_dont1.png" srcset="../images/combo_dont1@2x.png 2x" /> |
-| <img class="responsive-img" src="../images/combo_do2.png" srcset="../images/combo_do2@2x.png 2x" />|<img class="responsive-img" src="../images/combo_dont2.png" srcset="../images/combo_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/combo_do1.png" srcset="../images/combo_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_dont1.png" srcset="../images/combo_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/combo_do2.png" srcset="../images/combo_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_dont2.png" srcset="../images/combo_dont2@2x.png 2x" /> |
 
 ## その他のリソース
 

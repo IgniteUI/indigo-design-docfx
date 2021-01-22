@@ -11,7 +11,7 @@ Radial Gauge コンポーネントを円形のデータ可視化を使用し、�
 
 ターゲット値が情報の理解や解釈に非常に重要である場合、代わりに [Bullet Graph](bullet-graph.md) を使用します。
 
-## ラジアル ゲージのデモ
+## Radial Gauge のデモ
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 
@@ -21,25 +21,25 @@ Radial Gauge は、現在の値を示す針の形 (**needle**、trapezoid、tria
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_needle@2x.png 2x" />
 
-## Ticks Type
+## 目盛のタイプ
 
-The ticks of the Radial Gauge can be placed **outside** or inside, with two inside variants for thick and thin range areas.
+Radial Gauge の目盛りは**外側**または内側に配置でき、厚い範囲と薄い範囲の領域に 2 つの内側の種類があります。
 
 <img class="responsive-img" src="../images/radial_gauge_inside.png" srcset="../images/radial_gauge_inside@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_outside.png" srcset="../images/radial_gauge_outside@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_inside-2.png" srcset="../images/radial_gauge_inside-2@2x.png 2x" />
 
-## Ranges
+## 範囲
 
-The Radial Gauge provides various overrides that control the ranges on the dial: **full**, half, and quarter.
+Radial Gauge は、範囲 (**full**、half、および quarter) を表示するダイアルを制御するさまざまなオーバーライドを提供します。
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_half.png" srcset="../images/radial_gauge_half@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_quarter.png" srcset="../images/radial_gauge_quarter@2x.png 2x" />
 
-## Series Thickness
+## シリーズの厚さ
 
-The Radial Gauge comes with two kinds of Series Thickness: **Thick** and Thin.
+Radial Gauge には、**Thick**と Thin の 2 種類のシリーズの厚さがあります。
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_full-thin.png" srcset="../images/radial_gauge_full-thin@2x.png 2x" />

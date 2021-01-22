@@ -15,21 +15,21 @@ Linear Gauge コンポーネントをデータ可視化に使用して、カラ�
 
 <img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
 
-## Title and Subtitle
+## タイトルとサブタイトル
 
-The Linear Gauge has a Title and Subtitle and their text can be changed. They can also be hidden if not needed by setting them to ~No Symbol.
+Linear Gauge にはテキストが変更できるタイトルとサブタイトルがあります。必要がない場合は、~No Symbol に設定することで、非表示にすることもできます。
 
 <img class="responsive-img" src="../images/linear_gauge_title.png" srcset="../images/linear_gauge_title@2x.png 2x" />
 
-## Legend
+## 凡例
 
-The Linear Gauge comes with a Legend that can be adjusted to match the ranges shown on it and the current value. Legend items can be removed by setting the corresponding Series to ~No Symbol or added by finding it in the Overrides/Charts/Legend/Serie. Also there you can change the icon type between Square, Line or Circle.
+Linear Gauge には、表示されている範囲と現在の値に一致するように調整できる凡例が付属しています。凡例項目は、対応するシリーズを ~No Symbol に設定することで削除するか、Overrides/Charts/Legend/Series で見つけることで追加できます。また、アイコンの種類を Square (四角形)、Line (折れ線)、または Circle (円形) の間で変更できます。
 
 <img class="responsive-img" src="../images/linear_gauge_legend.png" srcset="../images/linear_gauge_legend@2x.png 2x" />
 
-## Tooltip
+## ツールチップ
 
-The Linear Gauge comes with a tooltip that may be hidden by setting the override to ~No Symbol.
+Linear Gauge には、オーバーライドを ~No Symbol に設定することで非表示にできるツールチップが付属しています。
 
 <img class="responsive-img" src="../images/linear_gauge_tooltip-off.png" srcset="../images/linear_gauge_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_tooltip-on.png" srcset="../images/linear_gauge_tooltip-on@2x.png 2x" />
@@ -48,15 +48,15 @@ Linear Gauge は、リニア済みの 3 つの範囲 (2 つ、**3 つ**、4 つ)
 <img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_four_ranges.png" srcset="../images/linear_gauge_four_ranges@2x.png 2x" />
 
-## Ticks and Values
+## 目盛と値
 
-Ticks and Values are also configurable. The two types of ticks: Ticks and Minor Ticks can be hidden by setting their color to `Transparent`. The default Values 0,10,20 etc. up to 100 can be adjusted according to one's needs.
+目盛と値も構成可能です。Ticks と Minor Ticks の 2 種類の目盛は、色を `Transparent` に設定することで非表示にできます。デフォルト値の 0、10、20 などから 100 までは、必要に応じて調整できます。
 
 <img class="responsive-img" src="../images/linear_gauge_values.png" srcset="../images/linear_gauge_values@2x.png 2x" />
 
 ## スタイル設定
 
-The Linear Gauge comes with styling flexibility through the various overrides controlling a selection of brushes including Value Brush, Target Value Brush, Tick Brush, Minor Tick Brush, and a collection of Range Brushes.
+Linear Gauge には、Value Brush、Target Value Brush、Tick Brush、Minor Tick Brush、Range Brushes のコレクションなどのブラシを制御するさまざまなオーバーライドによるスタイル設定の柔軟性があります。
 
 <img class="responsive-img" src="../images/linear_gauge_styling.png" srcset="../images/linear_gauge_styling@2x.png 2x" />
 
