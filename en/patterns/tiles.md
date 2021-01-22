@@ -20,8 +20,10 @@ Use the Tiles Pattern to display an overview of products with some of their asse
 
 Related topics:
 
+- [Avatar](../components/avatar.md)
 - [Button](../components/button.md)
+- [Navbar](../components/navbar.md)
+- [Tabs](../components/tabs.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
