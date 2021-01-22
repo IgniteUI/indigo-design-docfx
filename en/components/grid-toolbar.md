@@ -12,6 +12,12 @@ Use the Grid Toolbar to define actions that affect the appearance and behavior o
 
 <img class="responsive-img" src="../images/grid_toolbar_demo.png" srcset="../images/grid_toolbar_demo@2x.png 2x" />
 
+## Layout
+
+The Grid Toolbar uses Smart Layout in Sketch and has interchangable default and custom actions, which gives absolute freedom to change its content and layout.
+
+<img class="responsive-img" src="../images/grid_toolbar_demo.png" srcset="../images/grid_toolbar_demo@2x.png 2x" />
+
 ## Styling
 
 The Grid Toolbar comes with styling flexibility through the various overrides for its Actions, as well as its title style and background color.
@@ -24,7 +30,7 @@ Related topics:
 
 - [Grid](grid.md)
 - [Grid Column Hiding](grid-column-hiding.md)
-- [GridGrid Column Pinning](grid-column-pinning.md)
+- [Grid Column Pinning](grid-column-pinning.md)
 - [Grid Export](grid-export.md)
   <div class="divider--half"></div>
 
