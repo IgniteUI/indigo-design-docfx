@@ -12,7 +12,7 @@ Use the Tiles Pattern to display an overview of products with some of their asse
 
 
 > [!WARNING]
-> After inserting the Tiles available as a Pattern, you should trigger `Detach from Symbol` to break it down to the Components that are used to create the layout in order to be able to generate it as Angular code. The individual Tiles Elements together with the background and data binding layers must stay intact and not be detached!
+> After inserting the Tiles Pattern, you should trigger `Detach from Symbol` to break it down to the Components that are used to create the layout in order to be able to generate it as Angular code. The individual Avatars, Buttons, and other components together with the background layers must stay intact and not be detached!
 
 <img class="responsive-img" src="../images/tiles_detach.png" srcset="../images/tiles_detach@2x.png 2x" />
 
@@ -24,5 +24,4 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
