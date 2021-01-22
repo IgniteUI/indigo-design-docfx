@@ -23,7 +23,9 @@ An editable variant of the User Profile Pattern, nicely laid out with the approp
 Related topics:
 
 - [Avatar](../components/avatar.md)
+- [Button](../components/button.md)
 - [Input](../components/input.md)
+- [File Upload Pattern](file-upload.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
