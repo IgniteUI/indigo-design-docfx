@@ -264,7 +264,7 @@
     - name: Onboarding
       href: ../patterns/onboarding.md
       new: true
-    - name: Pricing Plan
+    - name: Pricing Table
       href: ../patterns/pricing-plan.md
       new: true
     - name: Scheduler
