@@ -16,7 +16,7 @@ The Grid Cell Editing happens cell by cell and is configured via the Body Cell t
 
 ## Row Editing
 
-The Grid Row Editing happens one row at a time and is configured via the Body Cells that belong to the edited row by setting their `Grid Feature` override to `Cell Feature/Row Editing`. This will introduce a second override `Editing State` allowing you to specify the cell in focus by setting it to `Focus Cell`, bear in mind that you should set all other cells on this row to `Rest Cell`. Also, this marks that editing is possible on the Grid without specifying for which columns as far as code generation is concerned.
+The Grid Row Editing happens one row at a time and is configured via the Body Cells that belong to the edited row by setting their `Grid Feature` override to `Cell Feature/Row Editing`. This will introduce a second override `Editing State` allowing you to specify the cell in focus by setting it to `Focus Cell`, bear in mind that you should set all other cells on this row to `Rest Cell`.
 
 <img class="responsive-img" src="../images/grid_row_edit.png" srcset="../images/grid_row_edit@2x.png 2x" />
 
