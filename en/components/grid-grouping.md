@@ -18,7 +18,7 @@ The Grid has a `Group Area` symbol under `Features` that specifies the columns t
 
 ## GroupBy Row
 
-The Grid has a `GroupBy Row` symbol under `Features` that represents a special row in the Grid that is like a heading preceding the grouped records with some summary information about their amount within the group. Adding this symbol has only a visual effect on your design to make it more realistic if you want to switch the GroupBy feature, insert and configure accordingly a `Group Area`.
+The Grid has a `GroupBy Row` symbol under `Features` that represents a special row in the Grid that is like a heading preceding the grouped records with some summary information about their amount within the group. Adding this symbol has only a visual effect on your design to make it more realistic. To switch the GroupBy feature on, insert and configure a `Group Area`.
 
 ## Additional Resources
 
