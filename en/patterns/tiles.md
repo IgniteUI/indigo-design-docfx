@@ -6,24 +6,24 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Tiles
 
-Use the Tiles Symbol as presets to display an overview of products with some of their assets, such as images and product names, as well as application features, recent items, list of items or as a rich-data dashboard.
+Use the Tiles Pattern to display an overview of products with some of their assets, such as images and product names, as well as application features, recent items, list of items or as a rich-data dashboard.
 
 <img class="responsive-img" src="../images/tiles.png" srcset="../images/tiles@2x.png 2x" />
 
 
 > [!WARNING]
-> After inserting the Tiles available as a Pattern, you should trigger `Detach from Symbol` to break it down to the Components that are used to create the layout in order to be able to generate it as Angular code. The individual Tiles Elements, as well as the background and data binding layers must stay intact and not be detached!
+> After inserting the Tiles Pattern, you should trigger `Detach from Symbol` to break it down to the Components that are used to create the layout in order to be able to generate it as Angular code. The individual Avatars, Buttons, and other components together with the background layers must stay intact and not be detached!
 
-<img class="responsive-img" src="../images/tiles_detach.png" />
+<img class="responsive-img" src="../images/tiles_detach.png" srcset="../images/tiles_detach@2x.png 2x" />
 
 ## Additional Resources
 
 Related topics:
 
-- [Text](../components/text.md)
+- [Avatar](../components/avatar.md)
 - [Button](../components/button.md)
+- [Navbar](../components/navbar.md)
+- [Tabs](../components/tabs.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
-
