@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Skeleton Grid
 
-Use the Skeleton Grid Component to layout the same type of information that you would in the standard one, but to also indicate an application state when no data is present at the moment e.g. when data is loaded from a remote data source and there is either lack of connectivity, or it takes some time. The Skeleton Grid is just a visual representation of a [Grid](grid.md) with a known layout, but without any data to show.
+Use the Skeleton Grid to layout the same type of information that you would in the standard one, but to also indicate an application state when no data is present at the moment e.g. when data is loaded from a remote data source and there is either lack of connectivity, or it takes some time. The Skeleton Grid is just a visual representation of a [Grid](grid.md) with a known layout, but without any data to show.
 
 ## Grid Demo
 
