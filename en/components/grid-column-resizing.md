@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Grid Column Resizing
 
-Use the Grid Column Resizing to indicate that the columns of the Grid are resizable and allow the user to grab their header-right border as a handle allowing them to adjust their width. The Grid Column Resizing is visually identical to the [Ignite UI for Angular Grid Column Resizing Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/column_resizing.html)
+Use the Grid Column Resizing to indicate that the columns of the Grid are resizable and allow the user to grab their header's right border as a handle to adjust their width. The Grid Column Resizing is visually identical to the [Ignite UI for Angular Grid Column Resizing Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/column_resizing.html)
 
 ## Grid Column Resizing Demo
 
