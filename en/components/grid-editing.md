@@ -10,7 +10,7 @@ Use Grid Editing to allow the user to update certain values either cell by cell 
 
 ## Cell Editing
 
-The Grid Cell Editing happens cell by cell and is configured via the Body Cell that one wants to display in edit mode via the `Grid Feature` override. Once you set it to `Cell Feature/Cell Editing`, you will have an editable Grid that respects this mode. Also, this marks the editable columns of the Grid as far as code generation is concerned.
+The Grid Cell Editing happens cell by cell and is configured via the Body Cell that one wants to display in edit mode via the `Grid Feature` override. Once you set it to `Cell Feature/Cell Editing`, you will have an editable Grid that respects this mode.
 
 <img class="responsive-img" src="../images/grid_cell_edit.png" srcset="../images/grid_cell_edit@2x.png 2x" />
 
