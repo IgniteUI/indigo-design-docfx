@@ -14,17 +14,15 @@ Use the Grid Column Pinning as a mechanism to fix the first few columns of a scr
 
 ## Header Cell Feature
 
-### Built-In Column Pinning
+To indicate a column as pinnable, use the `Column Pinning` override of the Grid Header Cell for that column and change the default value from **Not Pinned** to Pinned. This is what marks the column as pinnable as far as code generation is concerned.
 
-The Built-In Column Pinning can be used through the Grid's toolbar which by default contains a button (combined with combo) that lets you configure the pin state of the columns for the whole grid.
+The Built-In Column Pinning can be used through the Grid's toolbar which by default contains a button (combined with a combo dropdown) that lets you configure the pin state of the columns for the whole grid.
 
 <img class="responsive-img" src="../images/grid_column_pinning_built_in.png" srcset="../images/grid_column_pinning_built_in@2x.png 2x" />
 
-### Custom Column Pinning
+## Custom Column Pinning
 
-In order to pin a column use either the `Feature Left` or `Feature Right` overrides and set it to `Icon Template`. This way an icon will appear to indicate the column is pinned and you can change its state from pin to unpin icon from Icon override. Of course, you would probably also want to rearrange the column order so that the pinned ones come first when looking left to right.
-
-Also, you have to configure the `Column Pinning` override of the Grid Header Cell for the column by changing the default value from **Not Pinned** to Pinned. This is what marks the column as resizable as far as code generation is concerned.
+It is also possible to add a custom pining action in the Grid Header Cell by using either the `Feature Left` or `Feature Right` overrides and setting it to `Icon Template`. This way an icon will appear to indicate the column is pinned and you can change its state from pin to unpin icon from Icon override. Of course, you would probably also want to rearrange the column order so that the pinned ones come first when looking left to right.
 
 ## Cell Right Border
 
