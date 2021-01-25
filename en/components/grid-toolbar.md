@@ -14,9 +14,9 @@ Use the Grid Toolbar to define actions that affect the appearance and behavior o
 
 ## Layout
 
-The Grid Toolbar uses Smart Layout in Sketch and has interchangable default and custom actions, which gives absolute freedom to change its content and layout.
+The Grid Toolbar uses Smart Layout in Sketch and has interchangeable default and custom actions, which gives absolute freedom to change its content and layout.
 
-<img class="responsive-img" src="../images/grid_toolbar_demo.png" srcset="../images/grid_toolbar_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_toolbar_layout.png" srcset="../images/grid_toolbar_layout@2x.png 2x" />
 
 ## Styling
 
