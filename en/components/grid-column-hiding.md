@@ -16,10 +16,6 @@ Use the Grid Column Hiding to hide certain columns from the Grid. The easiest wa
 
 The Grid Column Hiding can be achieved by adding a Toolbar with a Column Hiding action that enables the feature for the whole grid. However, in order to mark certain columns as hidable, you need to configure the `Column Hiding` override on the Grid Header Cell for the respective column and set it to Hidden. The override's default value is **Visible**.
 
-## Code generation
-
-If a Toolbar is added make sure to place it within the group defining the Grid as a sibling to the Header and Body groups.
-
 ## Additional Resources
 
 Related topic:
