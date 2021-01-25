@@ -14,21 +14,29 @@ Use the Skeleton Hierarchical Grid to layout the same type of information that y
 
 ## Cell Types
 
-The Skeleton Hierarchical Grid extends the three types of regular Grid cells Header, Body, and Summary with two additional ones as the standard [Hierarchical Grid](hierarchical-grid.md): CollapseAll and Expand.
+The Skeleton Hierarchical Grid extends the three types of skeleton cells Header, Body, and Summary with two additional ones as the standard [Hierarchical Grid](hierarchical-grid.md): CollapseAll and Expand.
 
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header.png" srcset="../images/hierarchical_grid_skeleton_cell_header@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_body.png" srcset="../images/hierarchical_grid_skeleton_cell_body@2x.png 2x" />
 
-## Skeleton Hierarchical Grid Types
+## Cell Display Density
 
-The Skeleton Hierarchical Grid supports the three skeleton display density grid types with two types per each of loading data in the background: Initial which is shown when the Hierarchical Grid is loading at first and there is no expanded row with a nested grid, and Expand which is shown when a nested grid is loading data.
+The Skeleton CollapseAll and Expand cells support the same three display density variants as the standard [Hierarchical Grid](hierarchical-grid.md): comfortable, cosy, and compact.
+
+<img class="responsive-img" src="../images/hierarchical_grid__skeleton_cell_header_comfortable.png" srcset="../images/hierarchical_grid__skeleton_cell_header_comfortable@2x.png 2x" />
+<img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_cosy.png" srcset="../images/hierarchical_grid_skeleton_cell_header_cosy@2x.png 2x" />
+<img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_compact.png" srcset="../images/hierarchical_grid_skeleton_cell_header_compact@2x.png 2x" />
+
+## Grid Types
+
+The Skeleton Hierarchical Grid supports the three skeleton display density grid types with two types per each of loading data in the background: Initial which is shown when the Hierarchical Grid is loading data and there is no expanded row with a nested grid, and Expand which is shown when a nested grid is loading data.
 
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_initial.png" srcset="../images/hierarchical_grid_skeleton_initial@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_expand.png" srcset="../images/hierarchical_grid_skeleton_expand@2x.png 2x" />
 
 ## Usage
 
-When creating grids, avoid combining standard and skeleton cells. Data is either present for all cells, or for none of them, thus the two types should not be used within the same grid layout.
+When creating hierarchical grids, avoid combining standard and skeleton cells. Data is either present for all cells, or for none of them, thus the two types should not be used within the same grid layout.
 
 | Do                                                                                                | Don't                                                                                                 |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
