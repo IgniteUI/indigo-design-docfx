@@ -36,7 +36,7 @@ The Skeleton Hierarchical Grid supports the three display densities and offers v
 
 ## Usage
 
-When creating hierarchical grids, avoid combining standard and skeleton cells. Data is either present for all cells, or for none of them, thus the two types should not be used within the same grid layout.
+When creating hierarchical grids, avoid combining standard and skeleton cells within the same hierarchy level. Data is either present for all cells and grids on a given level, or for none of them. Combining standard and skeleton cells is appropriate only in a very limited set of use cases such as the presets explained above.
 
 | Do                                                                                                | Don't                                                                                                 |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
