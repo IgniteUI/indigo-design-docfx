@@ -5,34 +5,35 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-# Skeleton Card
+# Skeleton Card (スケルトン カード)
 
-Use the Skeleton Card Component to layout the same type of information that you would in the standard one, but to also indicate an application state when no data is present at the moment e.g. when data is loaded from a remote data source and there is either lack of connectivity, or it takes some time. The Skeleton Card is just a visual representation of a [Card](card.md) with a known layout, but without any data to show.
-## Skeleton Card Demo
+Skeleton Card コンポーネントを使用して、標準の情報と同じタイプの情報をレイアウトしますが、現時点でデータが存在しない場合のアプリケーションの状態も示します。 たとえば、データがリモート データ ソースから読み込まれる際、接続が不足しているか、時間がかかる場合などです。Skeleton Card は、既知のレイアウトの [Card](card.md) を視覚的に表したものですが、表示するデータはありません。
+
+## Skeleton Card のデモ
 
 <img class="responsive-img" src="../images/card_skeleton_demo.png" srcset="../images/card_skeleton_demo@2x.png 2x" />
 
-## Areas
+## 領域
 
-The Skeleton Card supports the same four areas like the standard [Card](card.md): `image`, `header`, `body`, and `actions`. 
+Skeleton Card は、標準の [Card](card.md) の `image` (画像)、`header` (ヘッダー)、`body` (本文)、および `actions` (操作) など、同じ 4 つの領域をサポートしています。  
 
-## Image and Body
+## 画像と本文
 
-The skeleton image and body areas support overrides either for an Array of shortcuts, an Image, which also covers the maps available in the standard [Card](card.md), or a Paragraph.
+スケルトン画像と本文領域は、ショートカットの配列、標準の [Card](card.md) で使用可能なマップもカバーする画像、または段落のいずれかのオーバーライドをサポートします。
 
 <img class="responsive-img" src="../images/card_skeleton_media.png" srcset="../images/card_skeleton_media@2x.png 2x" />
 
 <img class="responsive-img" src="../images/card_skeleton_body.png" srcset="../images/card_skeleton_body@2x.png 2x" />
 
-## Header
+## ヘッダー
 
-The skeleton header is consistent with that of the standard [Card](card.md).
+スケルトン ヘッダーは、標準の [Card](card.md) のヘッダーと一致しています。
 
 <img class="responsive-img" src="../images/card_skeleton_header.png" srcset="../images/card_skeleton_header@2x.png 2x" />
 
-## Actions
+## 操作
 
-The skeleton actions map to the same six layouts that can be found in the standard [Card](card.md). They are also defined as a `Smart Layout` in Sketch letting you remove elements by setting them to ~No Symbol and have the rest automatically adjust to the desired layout.
+スケルトン操作には、標準の [Card](card.md) と同じ 6 つのレイアウトがあります。これらは Sketch の `Smart Layout` としても定義されており、要素を ~No Symbol に設定して削除し、残りを目的のレイアウトに自動的に調整できます。
 
 <img class="responsive-img" src="../images/card_skeleton_actions_buttons_icons.png" srcset="../images/card_skeleton_actions_buttons_icons@2x.png 2x" />
 
@@ -46,25 +47,25 @@ The skeleton actions map to the same six layouts that can be found in the standa
 
 <img class="responsive-img" src="../images/card_skeleton_actions_just_icons.png" srcset="../images/card_skeleton_actions_just_icons@2x.png 2x" />
 
-## Skeleton Card Layout
+## Skeleton Card のレイアウト
 
-Through the use of `Smart Layout` in Sketch, the Skeleton Card can produce various layouts by excluding certain areas or elements within one area or another to create a myriad of distinct variants starting with the same Component initially and consistent with the standard [Card](card.md).
+Sketch で `Smart Layout` を使用することにより、Skeleton Card は、ある領域または別の領域内の特定の領域または要素を除外して、最初に同じコンポーネントで始まり、標準の [Card](card.md) と一致する無数の異なるバリアントを作成することにより、さまざまなレイアウトを作成できます。
 
 <img class="responsive-img" src="../images/card_skeleton_demo.png" srcset="../images/card_skeleton_demo@2x.png 2x" />
 
-## Usage
+## 使用方法
 
-When creating layouts with multiple cards, avoid combining standard and skeleton cards. Data is either present for all cards, or for none of them, thus the two types should not be used within the same grid layout.
+複数のカードでレイアウトを作成する場合は、標準カードとスケルトン カードを組み合わせないでください。データはすべてのカードに存在するか、いずれにも存在しないため、2 つのタイプを同じグリッド レイアウト内で使用しないでください。
 
 | 良い例                                                                         |悪い例                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | <img class="responsive-img" src="../images/card_skeleton_do.png" srcset="../images/card_skeleton_do@2x.png 2x" /> | <img class="responsive-img" src="../images/card_skeleton_dont.png" srcset="../images/card_skeleton_dont@2x.png 2x" /> |
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Card](card.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。

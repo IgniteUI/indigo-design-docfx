@@ -7,81 +7,81 @@ _language: ja
 
 # Spline Chart (スプライン チャート)
 
- Spline Chart is a type of category line graph that shows the continuous data values represented by points connected by line segments of one or more quantities over a period of time. It’s often used to show trends and perform comparative analysis. The Y-Axis (labels on left side) show a numeric value, while the X-Axis (bottom labels) show a time-series or comparison category. You can include one or more data sets to compare, which would render as multiple lines in the chart. The Spline Chart is identical to the Line Chart in all aspects except that the line connecting data points has spline interpolation and smoothing for improved presentation of data.
+ Spline Chart は、カテゴリ折れ線グラフの一種で、一定期間にわたる 複数の線分で接続されたポイントで表される連続データ値を示します。トレンドの表示や比較分析によく使用されます。Y 軸 (左側のラベル) は数値を示し、X 軸 (下側のラベル) は時系列または比較カテゴリを示します。比較する 1 つ以上のデータセットを含めることができます。これはチャートで複数の線として描画されます。Spline Chart は、データ ポイントを接続する線がデータの表示を改善するためのスプライン補間とスムージング機能を持つこと以外のすべての面で Line Chart と同じです。
 
 
-## Spline Chart Demo
+## Spline Chart のデモ
 
 <img class="responsive-img" src="../images/spline_chart_demo.png" srcset="../images/spline_chart_demo@2x.png 2x" />
 
-The Spline Chart has Title, Legend, and Chart Area, where you can choose between Idle and Hover states. It also supports two chart types: Spline and Area with a number of Series Amount configurations and allows to adjust the Legend accordingly.
+Spline Chart には、タイトル、凡例、およびチャート領域があり、Idle (アイドル) と Hover (ホバー) 状態のいずれかを選択できます。また、Spline と Area の 2 つのチャート タイプをサポートし、多数のシリーズ量構成を使用して、それに応じて凡例を調整できます。
 
-## Title
+## タイトル
 
-The Spline Chart has a title that when not needed can be removed by setting its override to ~No Symbol.
+Spline Chart のタイトルは、オーバーライドを ~No Symbol に設定することで削除できます。
 
 <img class="responsive-img" src="../images/spline_chart_title.png" srcset="../images/spline_chart_title@2x.png 2x" />
 
-## Legend
+## 凡例
 
-The Spline Chart comes with a Legend to show the number of series in it and what they represent. The Legend is built using a Smart Layout in Sketch and can be adjusted to contain the exact amount of series items by setting the overrides of those not needed to ~No Symbol. Legend items' shape is also configurable with built-in support for rectangle, line, and dot.
+Spline Chart には、その中のシリーズの数とそれらが何を表すかを示す凡例が付属しています。凡例は、Sketch の Smart Layout を使用して構築されており、不要な項目のオーバーライドを ~No Symbol に設定することで、シリーズ項目の正確な量を含むように調整できます。凡例の項目の形状も、rectangle (四角形)、line (線)、および dot (点) の組み込みサポートを使用して構成できます。
 
 <img class="responsive-img" src="../images/spline_chart_legend.png" srcset="../images/spline_chart_legend@2x.png 2x" />
 
-## Chart Type
+## チャート タイプ
 
-The Chart Type allows switching between Spline and Area. The latter one has the area between the X-axis and the spline filled with the series' color. Area charts are used to represent how big of a change there is and what the trend is over time.
+チャート タイプでは、Spline と Area を切り替えることができます。後者は、X 軸とスプラインの間の領域がシリーズの色で塗りつぶされています。Area チャートは、変化の大きさと時間の経過に伴う傾向を表すために使用されます。
 
 <img class="responsive-img" src="../images/spline_area_chart_three_series.png" srcset="../images/spline_area_chart_three_series@2x.png 2x" />
 
-## State
+## 状態
 
-The Spline Chart has two states - Idle and Hover. In the Hover state a tooltip, giving information about the series' values at this point, is shown upon hovering over a data point.
+Spline Chart には、Idle と Hover の 2 つの状態があります。Hover 状態では、データ ポイントにホバーすると、このポイントでのシリーズの値に関する情報を提供するツールチップが表示されます。
 
 <img class="responsive-img" src="../images/spline_area_chart_tooltip-off.png" srcset="../images/spline_area_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/spline_area_chart_tooltip-on.png" srcset="../images/spline_area_chart_tooltip-on@2x.png 2x" />
 
-## Y-Axis
+## Y 軸
 
-The Y-axis of the Spline Chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and to hide a label simply set its override to ~No Symbol. You may hide the axis line by setting its color to `Transparent` and to hide all elements at once, change the Y-axis override to ~No Symbol.
+Spline Chart の Y 軸は、タイトル、ラベル、および軸自体で構成されます。タイトルとラベルは構成可能であり、ラベルを非表示にするには、オーバーライドを ~No Symbol に設定するだけです。軸線は色を  `Transparent` に設定して非表示にすることができます。すべての要素を一度に非表示にするには、Y 軸のオーバーライドを ~No Symbol に変更します。
 
 <img class="responsive-img" src="../images/spline_chart_axis.png" srcset="../images/spline_chart_axis@2x.png 2x" />
 
-## Gridlines
+## グリッド線
 
-The Spline Chart has built-in Gridlines to make it easier to visually trace a data point to a value on the Y-axis. To hide them just set their color to `Transparent`.
+Spline Chart にはグリッド線が組み込まれているため、データ ポイントを Y 軸の値まで視覚的にトレースするのが簡単になります。それらを非表示にするには、色を `Transparent` に設定するだけです。
 
 <img class="responsive-img" src="../images/spline_chart_gridlines.png" srcset="../images/spline_chart_gridlines@2x.png 2x" />
 
-## Series Amount
+## シリーズ量
 
-The Spline Chart comes with a selection of one, two, and **three** series that will be rendered in the Chart Area. This is also valid for the Area type.
+Spline Chart はチャート領域に描画するシリーズの数を １，２，または **３** から選択することができます。これは Area タイプにも当てはまります。
 
 <img class="responsive-img" src="../images/spline_chart_one_series.png" srcset="../images/spline_chart_one_series@2x.png 2x" />
 <img class="responsive-img" src="../images/spline_chart_two_series.png" srcset="../images/spline_chart_two_series@2x.png 2x" />
 <img class="responsive-img" src="../images/spline_chart_three_series.png" srcset="../images/spline_chart_three_series@2x.png 2x" />
 
-## Styling
+## スタイル設定
 
-First and foremost, the Spline Chart lets you change the color of the series. It is recommended to use only colors from the palette for data visualizations with nuances named series.1, series.2 and so on till series.10. You may also change the colors of the vertical and horizontal axis, the gridlines, as well as the chart area background and border colors. Titles, labels, annotation values etc. are also customizable via the available text styles in the **Indigo.Design System**.
+何よりもまず、Spline Chart を使用すると、シリーズの色を変更できます。データ視覚化のパレットからニュアンス series.1、series.2 などから series.10 までの色のみを使用することをお勧めします。縦軸と横軸の色、グリッド線、チャート領域の背景色と境界線の色を変更することもできます。タイトル、ラベル、注釈値なども、**Indigo.Design システム**で使用可能なテキスト スタイルを介してカスタマイズできます。
 
 <img class="responsive-img" src="../images/spline_chart_styling.png" srcset="../images/spline_chart_styling@2x.png 2x" />
 
-## Usage
+## 使用方法
 
-Use the Spline Chart when you have a continuous data set and want to see the amount of change over a period of time. If you use time to represent the change in the category you should always set it on the horizontal axis. Always start the Y-Axis at 0 so data comparison is accurate and order time-series data from left to right. Use proper aspect ratio to minimize dramatic slope drops. When there is more than one series in the chart they should use different colors to be distinguishable. Using a legend to signify what they represent is considered to be best practice.
+連続データセットがあり、一定期間の変化量を確認する場合は、Spline Chart を使用します。カテゴリの変更を時間で表す場合は、常に横軸に設定する必要があります。データ比較を正確に行い、時系列データを左から右に並べ替えるために、常に Y 軸を 0 から開始します。適切なアスペクト比を使用して、劇的な傾斜の低下を最小限に抑えます。チャートに複数のシリーズがある場合は、区別できるように異なる色を使用する必要があります。凡例を使用してそれらが表すものを示すことは、ベスト プラクティスと見なされます。
 
 
-| Do                                                                                             | Don't                                                                                              |
+| 良い例                                                                                             | 悪い例                                                                                              |
 | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/spline_chart_do1.png" srcset="../images/spline_chart_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/spline_chart_dont1.png" srcset="../images/spline_chart_dont1@2x.png 2x" /> | 
 
-## Additional Resources
+## その他のリソース
 
-Related topic:
+関連トピック:
 
 - [Line Chart](../line-chart.md)
 - [Step Line Chart](../step-line-chart.md)
 - [Column Chart](../column-chart.md)
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。

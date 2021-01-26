@@ -7,15 +7,15 @@ _language: ja
 
 # Card
 
-Use the Card Component to display information for a single object through an image, map, or other media content, as well as text, allowing relevant quick actions to be triggered such as sharing, liking, bookmarking, etc. It usually works as an overview and entry point for more detailed information. Cards with various content and layout can be combined to create a dashboard. The Card is visually identical to the [Ignite UI for Angular Card Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/card.html)
+Card コンポーネントを使用して、画像、マップ、その他のメディア コンテンツ、およびテキストを介して単一のオブジェクトの情報を表示し、共有、「いいね」、ブックマークなどの関連するクイック操作をトリガーできます。これは通常、より詳細な情報の概要およびエントリ ポイントとして機能します。さまざまなコンテンツとレイアウトのカードを組み合わせて、ダッシュボードを作成できます。Card は、[Ignite UI for Angular Card コンポーネント](https://www.infragistics.com/products/ignite-ui-angular/angular/components/card.html)と視覚的に同じものです。
 
-## Card Demo
+## Card のデモ
 
 <img class="responsive-img" src="../images/card_demo.png" srcset="../images/card_demo@2x.png 2x" />
 
-## Areas
+## 領域
 
-The Card has four distinct areas: `image` at the top to show picture or map media, `header` which holds a combination of thumbnail Avatar, title, and subtitle, `body` which holds text paragraphs detailing the Card, and `actions` which serve as a toolbar with quick actions related to the Card.
+Card には 4 つの異なる領域があります: 画像またはマップ メディアを表示する上部の `image` (画像)、サムネイル アバター、タイトル、サブタイトルの組み合わせを保持する `header` (ヘッダー)、Card の詳細を示すテキスト段落を保持する `body` (本文)、および Card に関連するクイック操作を備えたツールバーとして機能する `actions` (操作) です。
 
 |         |                                                                                                |
 | ------- | ---------------------------------------------------------------------------------------------- |
@@ -24,9 +24,9 @@ The Card has four distinct areas: `image` at the top to show picture or map medi
 | body    | <img class="responsive-img" src="../images/card_content_image.png" srcset="../images/card_body@2x.png 2x" /> |
 | actions | <img class="responsive-img" src="../images/card_actions_buttons_icons.png" srcset="../images/card_actions_buttons_icons@2x.png 2x" /> |
 
-## Image and Body
+## 画像と本文
 
-The image and body Card areas support the same collection of eleven overrides: 6 continent maps for the populated world areas, one World Map, and one Navigation Map, as well as an Array of shortcuts like contacts, Image, and Paragraph for a short description text.
+画像と本文の Card 領域は、11 のオーバーライドの同じコレクションをサポートします: 人口の多い世界領域の 6 つの大陸地図、1 つの世界地図、1 つのナビゲーション地図、および連絡先、画像、簡単な説明テキストの段落などのショートカットの配列です。
 
 <img class="responsive-img" src="../images/card_media_worldmap.png" srcset="../images/card_media_worldmap@2x.png 2x" />
 
@@ -36,15 +36,15 @@ The image and body Card areas support the same collection of eleven overrides: 6
 
 <img class="responsive-img" src="../images/card_body.png" srcset="../images/card_body@2x.png 2x" />
 
-## Header
+## ヘッダー
 
-The Card header, through the use of `Smart Layout` in Sketch, supports various layouts including an Avatar Thumbnail, Title, and Subtitle elements.
+Card ヘッダーは、Sketch の `Smart Layout` を使用して、アバターのサムネイル、タイトル、サブタイトルの要素を含むさまざまなレイアウトをサポートします。
 
 <img class="responsive-img" src="../images/card_header.png" srcset="../images/card_header@2x.png 2x" />
 
-## Actions
+## 操作
 
-The Card actions come in six distinct layouts: **Button + Icon Actions** with two Flat Buttons and three Icons and the inverse Icon + Button Actions laid the other way around, as well as their Justified~ variants, and variants with only Justified Button Actions and Justified Icon Actions. Each of the six is defined as a `Smart Layout` in Sketch letting you remove elements by setting them to ~No Symbol and have the rest automatically adjust to the desired layout.
+Card 操作には、6 つの異なるレイアウトがあります: 2 つの Flat Button と 3 つの Icon を備えた **Button + Icon Actions**、その逆に配置された逆 Icon + Button Actions、それらの Justified~ バリアントおよび Justified Button Actions と Justified Icon Actions のみを備えたバリアントです。6 つはそれぞれ Sketch の `Smart Layout` として定義されており、要素を ~No Symbol に設定して要素を削除し、残りを自動的に目的のレイアウトに調整できます。
 
 <img class="responsive-img" src="../images/card_actions_buttons_icons.png" srcset="../images/card_actions_buttons_icons@2x.png 2x" />
 
@@ -58,34 +58,34 @@ The Card actions come in six distinct layouts: **Button + Icon Actions** with tw
 
 <img class="responsive-img" src="../images/card_actions_just_icons.png" srcset="../images/card_actions_just_icons@2x.png 2x" />
 
-## Card Layout
+## Card レイアウト
 
-Through the use of `Smart Layout` in Sketch, the Card can produce various layouts by excluding certain areas or elements within one area or another to create a myriad of distinct variants starting with the same Component initially.
+Sketch で `Smart Layout` を使用することにより、Card は、ある領域または別の領域内の特定の領域または要素を除外して、最初に同じコンポーネントで始まる無数の異なるバリエーションを作成することにより、さまざまなレイアウトを作成できます。
 
 <img class="responsive-img" src="../images/card_demo.png" srcset="../images/card_demo@2x.png 2x" />
 
-## Styling
+## スタイル設定
 
-The Card comes with styling flexibility through the various overrides available for image, header, body, and actions areas such as text, icons, and button colors, as well as the possibility to choose a Card background color.
+Card には、画像、ヘッダー、本文、テキスト、アイコン、ボタンの色などの操作領域の制御や Card の背景色の選択などスタイル設定に柔軟性があります。
 
 <img class="responsive-img" src="../images/card_styling.png" srcset="../images/card_styling@2x.png 2x" />
 
-## Usage
+## 使用方法
 
-The Card usually works as an overview UI and an entry point for more detailed information. Avoid clogging it with too much information and as you create dashboards with it, size and arrange the Cards consistently in order to form a layout grid with equal horizontal and vertical gaps between cards.
+Card は通常、概要 UI および詳細情報のエントリ ポイントとして機能します。情報が多すぎて目詰まりしないようにします。ダッシュボードを作成するときは、カードを常にサイズ変更しながら配置し、カード間の水平と垂直のギャップを均等にしてレイアウト グリッドを形成します。
 
 | 良い例                                                                         | 悪い例                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | <img class="responsive-img" src="../images/card_do1.png" srcset="../images/card_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/card_dont1.png" srcset="../images/card_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/card_do2.png" srcset="../images/card_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/card_dont2.png" srcset="../images/card_dont2@2x.png 2x" /> |
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Avatar](avatar.md)
 - [Button](button.md)
 - [Icon](icon.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。

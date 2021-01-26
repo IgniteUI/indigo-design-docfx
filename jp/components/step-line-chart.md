@@ -24,7 +24,7 @@ Step Line Chart のタイトルは不要な場合はオーバーライドを ~No
 
 ## 凡例
 
-Step Line Chart には、その中のシリーズの数とそれらが何を表すかを示す凡例が付属しています。凡例は、Sketch の Smart Layout を使用して構築されており、不要な項目のオーバーライドを ~No Symbol に設定することで、シリーズ項目の正確な量を含むように調整できます。凡例の項目の形状も、rectangle、line、および dot の組み込みサポートを使用して構成できます。
+Step Line Chart には、その中のシリーズの数とそれらが何を表すかを示す凡例が付属しています。凡例は、Sketch の Smart Layout を使用して構築されており、不要な項目のオーバーライドを ~No Symbol に設定することで、シリーズ項目の正確な量を含むように調整できます。凡例の項目の形状も、rectangle (四角形)、line (線)、および dot (点) の組み込みサポートを使用して構成できます。
 
 <img class="responsive-img" src="../images/step_line_chart_legend.png" srcset="../images/step_line_chart_legend@2x.png 2x" />
 
