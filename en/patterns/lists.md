@@ -32,9 +32,9 @@ Use the Group of Items List Pattern Symbol to present grouped or organized items
 > [!WARNING]
 > After inserting any of the Lists available as a Pattern, you should trigger `Detach from Symbol` to break it down to the Components that are used to create the layout in order to be able to generate it as Angular code. The individual List Items, as well as the background and data binding layers must stay intact and not be detached!
 
-<img class="responsive-img" src="../images/lists_detach.png" />
+<img class="responsive-img" src="../images/lists_detach.png" srcset="../images/lists_detach@2x.png 2x" />
 
-<img class="responsive-img" src="../images/list_with_avatars_detach.png" />
+<img class="responsive-img" src="../images/lists_horizontal_vertical_detach.png" srcset="../images/lists_horizontal_vertical_detach@2x.png 2x" />
 
 ## Additional Resources
 
@@ -44,7 +44,6 @@ Related topics:
 - [List](../components/list.md)
 - [Avatar](../components/avatar.md)
 - [Navbar](../components/navbar.md)
-- [Text](../components/text.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
