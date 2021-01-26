@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Lists
 
-Use the Lists Pattern Symbols as presets for organized collections of data in horizontal or vertical layout depicting common scenarios such as people, social media stories, multiline list elements, settings, recently used items, products, categories of items.
+Use the List Patterns as presets for organized collections of data in horizontal or vertical layout depicting common scenarios such as people, social media stories, multiline list elements, settings, recently used items, products, and categories of items among others.
 
 <img class="responsive-img" src="../images/lists_people.png" srcset="../images/lists_people@2x.png 2x" />
 <img class="responsive-img" src="../images/lists_settings.png" srcset="../images/lists_settings@2x.png 2x" />
@@ -14,7 +14,7 @@ Use the Lists Pattern Symbols as presets for organized collections of data in ho
 
 ## Empty State
 
-Use the Empty State List Pattern Symbol to illustrate search with no available results.
+Use the Empty State List Pattern to illustrate search with no available results.
 
 <img class="responsive-img" src="../images/list_search_cannotfind.png" srcset="../images/list_search_cannotfind@2x.png 2x" />
 
@@ -22,7 +22,7 @@ Use the Empty State List Pattern Symbol to illustrate search with no available r
 
 ## Group of Items
 
-Use the Group of Items List Pattern Symbol to present grouped or organized items .
+Use the Group of Items List Pattern to present grouped or organized items.
 
 <img class="responsive-img" src="../images/list_with_avatars.png" srcset="../images/list_with_avatars@2x.png 2x" />
 
@@ -30,7 +30,7 @@ Use the Group of Items List Pattern Symbol to present grouped or organized items
 > Illustrations nested inside the Pattern Symbols cannot be code generated and Illustration itself has to be inserted manually.
 
 > [!WARNING]
-> After inserting any of the Lists available as a Pattern, you should trigger `Detach from Symbol` to break it down to the Components that are used to create the layout in order to be able to generate it as Angular code. The individual List Items, as well as the background and data binding layers must stay intact and not be detached!
+> After inserting any of the Lists available as a Pattern, you should trigger `Detach from Symbol` to break it down to the Components that are used to create the layout in order to be able to generate it as Angular code. Illustrations used inside some of these Patterns will not appear in the generated code - the Illustration itself has to be added after that manually. The individual List Items and Components such as Inputs, Avatars, and Navigation elements must stay intact and not be detached!
 
 <img class="responsive-img" src="../images/lists_detach.png" srcset="../images/lists_detach@2x.png 2x" />
 
