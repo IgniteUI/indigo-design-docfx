@@ -184,11 +184,18 @@
           new: true
         - name: Grid Summaries
           href: ../components/grid-summaries.md
+        - name: Skeleton Grid
+          href: ../components/grid-skeleton.md
+          new: true
     - name: Hyperlink
       href: ../components/hyperlink.md
     - name: Hierarchical Grid
       href: ../components/hierarchical-grid.md
       new: true
+      items:
+        - name: Skeleton Hierarchical Grid
+          href: ../components/hierarchical-grid-skeleton.md
+          new: true
     - name: Icon
       href: ../components/icon.md
     - name: Input
@@ -228,6 +235,10 @@
     - name: Tree Grid
       href: ../components/tree-grid.md
       new: true
+      items:
+        - name: Skeleton Tree Grid
+          href: ../components/tree-grid-skeleton.md
+          new: true
 - name: Patterns
   href: ../patterns/patterns-overview.md
   items:
