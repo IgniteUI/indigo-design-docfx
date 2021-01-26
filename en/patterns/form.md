@@ -56,7 +56,7 @@ There are two main types of Payment forms: one for Card payments and one for Tra
 > [!WARNING]
 > After inserting any of the Form Patterns available, you should trigger `Detach from Symbol` in order to be able to generate it as Angular code. The individual Components, however, must stay intact and not be detached!
 
-<img class="responsive-img" src="../images/form_detach.png" />
+<img class="responsive-img" src="../images/form_detach.png" srcset="../images/form_detach@2x.png 2x" />
 
 ## Additional Resources
 
@@ -66,7 +66,6 @@ Related topics:
 - [Checkbox](../components/checkbox.md)
 - [Hyperlink](../components/hyperlink.md)
 - [Input](../components/input.md)
-- [Text](../components/text.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
