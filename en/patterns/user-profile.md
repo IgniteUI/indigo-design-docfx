@@ -14,7 +14,7 @@ Use the User Profile Pattern to display user-related information, either as a fu
 An editable variant of the User Profile Pattern, nicely laid out with the appropriate Inputs, is also provided. The User Profile Pattern comes with the styling flexibility provided by the Avatar and Inputs that constitute its layout.
 
 > [!WARNING]
-> After inserting any of the Profiles available as a Pattern you should trigger `Detach from Symbol` in order to be able to generate the Pattern as Angular code. The various Components that lay it out must stay intact and not be detached!
+> After inserting any of the User Profile Patterns you should trigger `Detach from Symbol` in order to be able to generate the Pattern as Angular code. The various Components that lay it out must stay intact and not be detached!
 
 <img class="responsive-img" src="../images/profile_detach.png" srcset="../images/profile_detach@2x.png 2x" />
 
@@ -29,5 +29,4 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
