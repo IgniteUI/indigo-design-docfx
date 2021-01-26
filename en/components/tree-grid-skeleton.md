@@ -36,7 +36,7 @@ The Skeleton Tree Grid TreeColumn cell supports the same visual indication for t
 
 ## Grid Types
 
-The Skeleton Tree Grid supports the three skeleton display density grid types with two types per each of loading data in the background: Initial which is shown when the Tree Grid is loading data and there is no expanded root level with a child level, and Expand which is shown when a root level is loading child level data.
+The Skeleton Tree Grid supports the three display densities and offers variants for each of them with regard to the state of loading data: Initial which is shown when the Tree Grid is loading data and there аре no expanded root-level rows, and Expand which is shown when a root level gets expanded and starts loading data for its children.
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_initial.png" srcset="../images/tree_grid_skeleton_initial@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_skeleton_expand.png" srcset="../images/tree_grid_skeleton_expand@2x.png 2x" />
