@@ -83,6 +83,7 @@ Related topics:
 - [Grid Paging](grid-paging.md)
 - [Grid Summaries](grid-summaries.md)
 - [Hierarchical Grid](hierarchical-grid.md)
+- [Skeleton Tree Grid](tree-grid-skeleton.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
