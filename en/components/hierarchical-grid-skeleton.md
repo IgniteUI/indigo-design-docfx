@@ -29,7 +29,7 @@ The Skeleton CollapseAll and Expand cells support the same three display density
 
 ## Grid Types
 
-The Skeleton Hierarchical Grid supports the three skeleton display density grid types with two types per each of loading data in the background: Initial which is shown when the Hierarchical Grid is loading data and there is no expanded row with a nested grid, and Expand which is shown when a nested grid is loading data.
+The Skeleton Hierarchical Grid supports the three display densities and offers variants for each of them with regard to the state of loading data: Initial which is shown when the Hierarchical Grid is loading data and there is no expanded row with a nested grid, and Expand which is shown when only the nested grid is loading data.
 
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_initial.png" srcset="../images/hierarchical_grid_skeleton_initial@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_expand.png" srcset="../images/hierarchical_grid_skeleton_expand@2x.png 2x" />
