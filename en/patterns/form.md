@@ -10,9 +10,9 @@ Use the Form Pattern to create meaningful application scenarios, where the colle
 
 <img class="responsive-img" src="../images/form_demo.png" srcset="../images/form_demo@2x.png 2x" />
 
-The Form Pattern provides various forms for some of the most common application scenarios such as: Login and Registration, Booking, Address, Payment, and New, allowing the user to add content. All these come with the styling flexibility provided by the Input, Checkbox, Button, Hyperlink, and Text elements that constitute the layout.
+The Form Pattern provides various forms for some of the most common application scenarios such as: Login and Registration, Booking, Address, Payment, Contacts, Feedback, Search, Shipping, Subscription, Authentication and New, allowing the user to add content. All these come with the styling flexibility provided by the Inputs, Checkboxes, Radio Groups, Buttons, and Hyperlinks that constitute the layout.
 
-## Log In and Registration Forms
+## Log In, Registration and Authentication Forms
 
 The Log In Forms come in a "simpler" layout with meaningful content and actions, as well as, a more elaborate layout with additional actions for social login.
 
@@ -43,18 +43,28 @@ There are two types of New Forms: Budget for filling the information necessary t
 
 <img class="responsive-img" src="../images/form_new.png" srcset="../images/form_new@2x.png 2x" />
 
-## Payment Forms
+## E-commerce Forms
 
-There are two main types of Payment forms: one for Card payments and one for Transfers, like when you wire money through your online banking. The Transfer Form provides four different layouts: Currency Exchange, which has the necessary fields for currency conversion; Donation, which is suitable for charities; Between Accounts, which is usually the case for people holding multiple accounts in the same bank; and Between Banks, which is the common scenario for transferring money to another account under your or someone else's name.
+There is an Address form, a Size Selection form, Simple and Advanced Search forms, Shipping form and a few types of Payment forms: some for Card payments and some for Transfers, like when you wire money through your online banking. The Transfer Form provides four different layouts: Currency Exchange, which has the necessary fields for currency conversion; Donation, which is suitable for charities; Between Accounts, which is usually the case for people holding multiple accounts in the same bank; and Between Banks, which is the common scenario for transferring money to another account under your or someone else's name.
 
+//here we will have to add a better variety of images
 <img class="responsive-img" src="../images/form_card.png" srcset="../images/form_card@2x.png 2x" />
 <img class="responsive-img" src="../images/form_cash.png" srcset="../images/form_cash@2x.png 2x" />
 
-> [!Note]
-> Illustrations nested inside the Pattern Symbols cannot be code generated and Illustration itself has to be inserted manually.
+## Feedback and Contacts Forms
+
+//Add paragraph and images
+
+## Subscription and Free Trial Forms
+
+//Add paragraph and images
+
+## Email and Appointment Forms
+
+//Add paragraph and images
 
 > [!WARNING]
-> After inserting any of the Form Patterns available, you should trigger `Detach from Symbol` in order to be able to generate it as Angular code. The individual Components, however, must stay intact and not be detached!
+> After inserting any of the Form Patterns available, you should trigger `Detach from Symbol` in order to be able to generate it as Angular code. The individual Components, however, must stay intact and not be detached! Illustrations nested inside the Pattern Symbols cannot be code generated and the Illustration itself has to be inserted in the produced code manually.
 
 <img class="responsive-img" src="../images/form_detach.png" srcset="../images/form_detach@2x.png 2x" />
 
@@ -62,10 +72,17 @@ There are two main types of Payment forms: one for Card payments and one for Tra
 
 Related topics:
 
+- [Illustrations](../style/illustrations.md)
 - [Button](../components/button.md)
 - [Checkbox](../components/checkbox.md)
+- [Chips](../components/chips.md)
+- [Combo](../components/combo.md)
 - [Hyperlink](../components/hyperlink.md)
 - [Input](../components/input.md)
+- [List](../components/list.md)
+- [Slider](../components/slider.md)
+- [Switch](../components/switch.md)
+- [Tabs](../components/tabs.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
