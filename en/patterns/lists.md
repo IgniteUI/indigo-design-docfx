@@ -26,9 +26,6 @@ Use the Group of Items List Pattern to present grouped or organized items.
 
 <img class="responsive-img" src="../images/list_with_avatars.png" srcset="../images/list_with_avatars@2x.png 2x" />
 
-> [!Note]
-> Illustrations nested inside the Pattern Symbols cannot be code generated and Illustration itself has to be inserted manually.
-
 > [!WARNING]
 > After inserting any of the Lists available as a Pattern, you should trigger `Detach from Symbol` to break it down to the Components that are used to create the layout in order to be able to generate it as Angular code. Illustrations used inside some of these Patterns will not appear in the generated code - the Illustration itself has to be added after that manually. The individual List Items and Components such as Inputs, Avatars, and Navigation elements must stay intact and not be detached!
 
