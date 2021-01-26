@@ -19,7 +19,7 @@ Similarly to the Grid, the Hierarchical Grid is essentially a repeater of column
 | Layer                                | Use                                                                                                                                                  |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 🚫 metadata | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| 🌈 Drill Indication                  | A symbol that is used for indicating selection                                                                                                       |
+| 🌈 Drill Indication                  | A symbol that is used for indicating the active cell/cell in focus                                                                                                       |
 | Header                               | Contains all the cells in the header                                                                                                                 |
 | Body                                 | Contains all the cells in the body and a nested Grid with basic structure                                                                            |
 | 🌈 Background                        | Defines the background color of the Hierarchical Grid                                                                                                |
