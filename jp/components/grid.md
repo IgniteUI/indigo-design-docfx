@@ -7,7 +7,7 @@ _language: ja
 
 # Grid (グリッド)
 
-グリッド コンポーネントは大量の複雑なデータをタブ形式で表示し、ユーザーがブラウジングやインタラクティブに操作することにより、フィルタリング、並べ替え、ページングなどが可能です。Grid は、[Ignite UI for Angular Grid コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid.html) と視覚的に同じものです。
+グリッド コンポーネントは大量の複雑なデータをタブ形式で表示し、ユーザーがブラウジングやインタラクティブに操作することにより、フィルタリング、並べ替え、ページングなどが可能です。Grid は、[Ignite UI for Angular Grid コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid.html)と視覚的に同じものです。
 
 ## グリッドのデモ
 
@@ -19,11 +19,9 @@ _language: ja
 
 | レイヤー                                    | 使用                                                                                                                                                  |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 igx-grid/_(comfortable/cosy/compact)_ | 禁止されたアイコンで開始する特定のロックされたレイヤー。 このレイヤーはコード生成に必要なため、削除または変更しないでください |
+| 🚫 metadata | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください |
 | Header                                   | ヘッダーのすべてのセルを取得します                                                                                                             |
 | Body                                     | 本体のすべてのセルを含みます                                                                                                                 |
-| 🕹️PrimaryKey                             | 一部のグリッド機能で必要であり、コード生成エンジンで使用されるレコードの主キーを持つ列の参照       |
-| 🕹️DataSource                             | コード生成エンジンによって使用され、グリッドにバインドされるデータ ソースの参照                                             |
 
 デタッチ後、既存のデータ行の 1 つを複製するだけで、データのすべてのディメンションを表示するために必要なヘッダーの数を変更できます。デザインに表示したい表示レコード (数に制限がない) を挿入することもできます。
 
@@ -39,18 +37,17 @@ _language: ja
 
 <img class="responsive-img" src="../images/grid_cell_header_filter.png" srcset="../images/grid_cell_header_filter@2x.png 2x" />
 
-## セル 表示密度
+## セル表示密度
 
-ヘッダー、本体、および 集計セルは、グリッドの 3 つの表示密度バリアントをサポートします。以下のボディ セルに見られるように、それぞれに異なるシンボルが付いています:
+ヘッダー、本体、および 集計セルは、グリッドの 3 つの表示密度バリアントをサポートします: comfortable、cosy、および compact。以下のヘッダー セルに見られるように、それぞれに異なるシンボルが付いています:
 
-<img class="responsive-img" src="../images/grid_cell_body_comfortable.png" srcset="../images/grid_cell_body_comfortable@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_cell_body_cosy.png" srcset="../images/grid_cell_body_cosy@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_cell_body_compact.png" srcset="../images/grid_cell_body_compact@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_header_comfortable.png" srcset="../images/grid_cell_header_comfortable@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_header_cosy.png" srcset="../images/grid_cell_header_cosy@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_header_compact.png" srcset="../images/grid_cell_header_compact@2x.png 2x" />
 
 ## 項目と機能 (ヘッダー セル)
 
-Grid ヘッダー セルは、`Items` のオーバーライドでさまざまなレイアウトの組み合わせをサポートします。また、`Feature Left` および `Feature Right` のオーバーライドを介して機能の複数の構成をサポートします。さらに、[編集](grid-editing.md)、[移動](grid-column-moving.md)、[サイズ変更](grid-column-resizing.md)、[非表示](grid-column-hiding.md) など、表示されていないがグリッドの異なる列機能を有効にする追加のオーバーライドがあります。
-
+Grid ヘッダー セルは、`Items` のオーバーライドでさまざまなレイアウトの組み合わせをサポートします。また、`Feature Left` および `Feature Right` のオーバーライドを介して機能の複数の構成をサポートします。さらに、[編集](grid-editing.md)、[移動](grid-column-moving.md)、[サイズ変更](grid-column-resizing.md)、[ピン固定](grid-column-pinning.md) など、表示されていないがグリッドの異なる列機能を有効にする追加のオーバーライドがあります。
 
 <img class="responsive-img" src="../images/grid_cell_header_no-icon.png" srcset="../images/grid_cell_header_no-icon@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_icon.png" srcset="../images/grid_cell_header_icon@2x.png 2x" />
@@ -58,8 +55,7 @@ Grid ヘッダー セルは、`Items` のオーバーライドでさまざまな
 
 ## 状態とグリッド機能 (本体セル)
 
-Grid 本体セルは、以下のインタラクティブな状態をサポートします: 標準状態の **Inactive**、フォーカスのある/選択されたセルでは Active です。
-デフォルト値は、**太字**テキストでスタイル設定されます。
+Grid 本体セルは、以下のインタラクティブな状態をサポートします: 標準状態の **Inactive**、フォーカスのある/選択されたセルでは Active です。Only one cell in the whole grid can be active at any given moment.
 
 <img class="responsive-img" src="../images/grid_cell_body_cell-inactive.png" srcset="../images/grid_cell_body_cell-inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_cell-active.png" srcset="../images/grid_cell_body_cell-active@2x.png 2x" />
@@ -73,11 +69,12 @@ Grid 本体セルは、ヘッダーを介して `Grid Feature` のオーバー�
 
 ## セル タイプ
 
-Grid ヘッダー セルは、グリッドの対応に必要な一般的なデータ型のプリセットが 3 つあります。数値に使用する **Number**、文字列の Text、ブールデータを含む列に使用されるまたは複数行の選択を可能にするための最初の列のテンプレートとして使用される Checkbox。
+Grid ヘッダー セルは、グリッドの対応に必要な一般的なデータ型のプリセットが 4 つあります。数値に使用する **Number**、the one combining Text,Date,Bool for the respective data types, Row Selection that is used for the first column when selection of multiple rows is desired, and Group By - used to expand and collapse grouped data rows.
 
 <img class="responsive-img" src="../images/grid_cell_header_number.png" srcset="../images/grid_cell_header_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_checkbox.png" srcset="../images/grid_cell_header_checkbox@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_header_groupby.png" srcset="../images/grid_cell_header_groupby@2x.png 2x" />
 
 Grid 本体セルは、ヘッダー セルの同じ一般的なデータ型のプリセットを提供し、単純なグラフィックスを視覚化する追加のアイコンタイプを含みます。
 
@@ -92,11 +89,11 @@ Grid 本体セルは、ヘッダー セルの同じ一般的なデータ型の�
 
 <img class="responsive-img" src="../images/grid_horizontal_scroll_rect.png" srcset="../images/grid_horizontal_scroll_rect@2x.png 2x" />
 
-長方形の幅と高さを固定し、名前を `Mask` に変更し、レイヤー パネルの特別なシンボル `🕹️DataSource` のすぐ上に配置します。次に、長方形の上を右クリックし、コンテキスト メニューの下部にある `マスク` オプションを選択します。
+長方形の幅と高さを固定し、名前を `Mask` に変更し、レイヤー パネルの下部に配置します。次に、長方形の上を右クリックし、コンテキスト メニューの下部にある `マスク` オプションを選択します。
 
 <img class="responsive-img" src="../images/grid_horizontal_scroll_masked.png" srcset="../images/grid_horizontal_scroll_masked@2x.png 2x" />
 
-これでグリッド グループがマスクのディメンションを取得し、水平スクロールなしでグリッドを使用することと同じ方法でレイアウトで使用できます。このコンポーネントのコードが生成されると、グリッドのディメンションとしてマスクのディメンションを基準する水平スクロールバーが自動的に追加されます。
+これでグリッド グループがマスクのディメンションを取得し、水平スクロールなしでグリッドを使用することと同じ方法でレイアウトで使用できます。このコンポーネントのコードが生成されると、マスクのディメンションを基準する水平スクロールバーが自動的に追加されます。
 
 ## スタイル設定
 
@@ -111,75 +108,6 @@ Grid 本体セルは、ヘッダー セルの同じ一般的なデータ型の�
 | 良い例                                                                                                | 悪い例                                                                                               |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/grid_do1.png" srcset="../images/grid_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/grid_dont1.png" srcset="../images/grid_dont1@2x.png 2x" /> |
-
-## コードの生成
-
-このセクションは、オーバーライドとコード生成にどのような影響があるかについて説明します。
-
-> [!WARNING]
-> グリッドを使用するためにデタッチ シンボルに設定する**必要**があります。
-
-> [!NOTE]
-> グリッドの高さはデフォルトで `100％` に設定されています。
-
-### データ ソース プロパティ
-
-提供された場合、`🕹️DataSource` 値はグリッドのデータ ソースを構成するために使用されます。各列名がオブジェクトのプロパティであるオブジェクトの配列に設定する必要があります。データ ソースが設定されない場合、グリッドは列ヘッダーのみを描画します。
-
-### プライマリ キー
-
-提供された場合、 `🕹️PrimaryKey` 値は グリッドの `primaryKey`プロパティを設定するために使用されます。このプロパティの値は、一意の値を含むデータ ソース内のプロパティ名にする必要があります。このプロパティは、グリッドで[行編集バナー](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/row_editing.html)を使用する場合に特に重要です。
-
-### Header (ヘッダー)
-
-提供された場合、ヘッダーは描画する列数を決定します。ヘッダーを下にある本体 (セル) と一致させるために列を作成します。一致する本体が見つからない場合、列はヘッダーの情報に基づいて作成されます。一致が見つかった場合、情報がヘッダーから取得され、次に本体/セルから取得されます。
-
-ヘッダーには、いくつかのサイズ変更オプションがあります。Sketch で各ヘッダーセ ルを左右にピン固定すると、HTML で列 (パーセント幅) が生成されます。これにより、グリッドのサイズに応じて列を拡大または縮小できます。あるいは、ヘッダー セルの幅を固定すると、そのサイズの固定列を生成します。
-
-#### タイプ
-
-設定された場合、列の型 (string、number、Boolean) を決定するために使用されます。
-
-#### テキスト
-
-ヘッダーの Text プロパティにテキスト、[テキストのバインディング](../codegen/data-binding.md)、または両方を含むことができます。例:
-
-- 設定
-- {settingsLabel}
-- 重要な {labelText}
-
-#### Feature Left および Feature Right
-
-これらのオーバーライドは、個々の列で有効にする機能を制御します。以下の値を使用できます。
-
-- None (デフォルト)
-- フィルタリング ([Excel スタイル フィルタリング](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/excel_style_filtering.html))
-- ピン固定
-- 並べ替え
-
-#### Column Moving (列移動)
-
-このオーバーライドは、ユーザーが列を移動できるかどうかを決定します。
-
-#### Column Resizing (列サイズ変更)
-
-このオーバーライドは、ユーザーが列のサイズを変更できるかどうかを決定します。
-
-#### Column Hiding (列非表示)
-
-このオーバーライドは、列が非表示かどうかを決定します。
-
-### Body/Cell (本体/セル)
-
-提供された場合、本体 (セル) は描画する列の数を決定します。ヘッダーを本体 (セル) と一致しようとします。一致するヘッダーが見つからない場合、列は本体/セルの情報に基づいて作成されます。一致が見つかった場合、情報がヘッダーから取得され、次に本体/セルから取得されます。
-
-#### データ プロパティ
-
-提供された場合、 `🕹️DataProperty` は列のフィールドを構成するために使用されます。列のフィールドは `🕹️DataSource` のフィールドに相対します。.
-
-#### タイプ
-
-設定された場合、列の型 (string、number、Boolean) を決定するために使用されます。
 
 ## その他のリソース
 
@@ -203,7 +131,7 @@ Grid 本体セルは、ヘッダー セルの同じ一般的なデータ型の�
 - [Hierarchical Grid](hierarchical-grid.md)
 - [Tree Grid](tree-grid.md)
 - [Grid パターン](../patterns/grid.md)
-- [データ バインディング](../codegen/data-binding.md)
+- [Grid Skeleton](grid-skeleton.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

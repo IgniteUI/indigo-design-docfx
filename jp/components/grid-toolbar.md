@@ -13,42 +13,17 @@ Grid ツールバーは、グリッド全体の外観と動作に影響するア
 
 <img class="responsive-img" src="../images/grid_toolbar_demo.png" srcset="../images/grid_toolbar_demo@2x.png 2x" />
 
+## レイアウト
+
+The Grid Toolbar uses Smart Layout in Sketch and has interchangeable default and custom actions, which gives absolute freedom to change its content and layout.
+
+<img class="responsive-img" src="../images/grid_toolbar_layout.png" srcset="../images/grid_toolbar_layout@2x.png 2x" />
+
 ## スタイル設定
 
-Grid ツールバーは、操作のオーバーライド、タイトルのスタイルや背景色などのスタイル設定に高い柔軟性があります。
+The Grid Toolbar comes with styling flexibility through the various overrides for its Actions, as well as its title style and background color.
 
 <img class="responsive-img" src="../images/grid_toolbar_styling.png" srcset="../images/grid_toolbar_styling@2x.png 2x" />
-
-## コードの生成
-
-> [!WARNING]
-> デザイン内のツールバーのインスタンスで `Detach from Symbol` を行わないでください。正しく生成されなくなります。
-
-ツールバーは、ヘッダーグループと本体グループの兄弟としてグリッドを定義するグループ内に配置してください。
-
-### Title
-
-このオーバーライドは ツール バー 内で表示するテキストを制御します。
-
-### Action 1, 2 および 3
-
-これらのオーバーライドは、ツールバーで使用可能なアクションをコントロールするために使用されます。次が使用可能なオプションです。
-
-#### ButtonExport
-
-このオプションはツールバーに[エクスポート](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#機能) ボタンを追加し、グリッドの `Excel へエクスポート`および `CSV へエクスポート`機能を直接有効にします。
-
-#### ButtonHiding
-
-このオプションはツールバーに [列非表示](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/column_hiding.html)  ボタンを追加します。これは、ユーザーがどの列を表示にするかまたは非表示にするかを操作できる UI 要素です。
-
-#### ButtonPinning
-
-このオプションはツールバーに [列ピン固定](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#機能) ボタンを追加します。これは、ユーザーがどの列をピン固定にするかを操作できる UI 要素です。
-
-#### Switch, Icon & Button
-
-スイッチ、アイコン、ボタンのオプションは[カスタム コンテンツ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html#カスタム-コンテンツ-テンプレート)と見なされます。デフォルトでは、ツールバーに含まれていません。これらをツールバー内で描画するために、コード生成はツールバーが使用するこれらのコンポーネントを含む `ng-template` を生成します。
 
 ## その他のリソース
 
