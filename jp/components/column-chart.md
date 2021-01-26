@@ -1,71 +1,71 @@
 ---
-title: Column Chart - Design System Component
-_description: The Column Chart Component Symbol is used to quickly compare frequency, count, total, or average of data in different categories with data encoded by vertical bars with equal width and differing lengths..
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+title: Column Chart - デザイン システム コンポーネント
+_description: Column Chart コンポーネント シンボルは、さまざまなカテゴリのデータの頻度、カウント、合計、平均を、幅が等しく長さが異なる垂直バーでエンコードされたデータとすばやく比較するために使用されます。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
-# Column Chart
+# Column Chart (縦棒チャート)
 
- The Column Chart is among the most common chart types used to quickly compare frequency, count, total, or average of data in different categories with data encoded by vertical bars of equal width and differing heights. They are ideal for showing variations in the value of an item over time. Data is represented using a collection of rectangles that extend from the bottom to the top of the chart towards the values of data points.
+ Column Chart は、さまざまなカテゴリのデータの頻度、カウント、合計、平均を、幅が等しく高さが異なる垂直バーでエンコードされたデータとすばやく比較するために使用されるチャート タイプの 1 つです。項目の値の経時変化を示すのに理想的です。データは、チャートの下から上にデータ ポイントの値に向けて広がる矩形のコレクションよって表されます。
 
-## Column Chart Demo
+## Column Chart デモ
 
 <img class="responsive-img" src="../images/column_chart_demo.png" srcset="../images/column_chart_demo@2x.png 2x" />
 
-The Column Chart comprises of `Title`, a `Legend` that is hidden by default, and `Chart Area` available in Idle and Hover states.
+縦棒チャートは、`タイトル`、デフォルトで非表示の`凡例`、およびアイドル状態とホバー状態で使用可能な`チャート領域`で構成されます。
 
-## Title
+## タイトル
 
-The Column Chart has a title that can be changed or hidden if not needed by setting its override to ~No Symbol.
+縦棒チャートのタイトルは、オーバーライドを ~No Symbol に設定して変更または非表示にできます。
 
 <img class="responsive-img" src="../images/column_chart_title.png" srcset="../images/column_chart_title@2x.png 2x" />
 
-## State
+## 状態
 
-The Column Chart has two states - Idle and Hover. In the Hover state a tooltip is shown upon hovering over a data point, which is then focused and the other columns are dimmed out.
+縦棒チャートには、アイドルとホバーの 2 つの状態があります。ホバー状態では、データ ポイントの上にホバーするとツールチップが表示され、フォーカスされて他の列がグレーアウトされます。
 
 <img class="responsive-img" src="../images/column_chart_tooltip-off.png" srcset="../images/column_chart_tooltip-off@2x .png 2x" />
 <img class="responsive-img" src="../images/column_chart_tooltip-on.png" srcset="../images/column_chart_tooltip-on@2x.png 2x" />
 
-## Y-Axis
+## Y 軸
 
-The Y-axis of the column chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and to hide a label simply set its override to ~No Symbol. You may hide the axis line by setting its color to `Transparent` and to hide all elements at once, change the Y-axis override to ~No Symbol.
+縦棒チャートのY軸は、タイトル、ラベル、および軸自体で構成されます。タイトルおよびラベルは構成可能で、ラベルを非表示にするには、オーバーライドを ~No Symbol に設定します。色を `Transparent` に設定して軸線を非表示にできます。また、すべての要素を非表示にするには、Y 軸のオーバーライドを ~No Symbol に変更します。
 
 <img class="responsive-img" src="../images/column_chart_yaxis.png" srcset="../images/column_chart_yaxis@2x.png 2x" />
 
-## Gridlines
+## グリッド線
 
-The Column Chart has built-in Gridlines to make it easier to visually trace a data point to a value on the Y-axis. To hide them just set their color to `Transparent`.
+縦棒チャートには、データ ポイントを Y 軸の値に視覚的にトレースしやすくするための組み込みのグリッド線があります。非表示にするには、色を `Transparent` に設定します。
 
 <img class="responsive-img" src="../images/column_chart_gridlines.png" srcset="../images/column_chart_gridlines@2x.png 2x" />
 
-## Data Points
+## データ ポイント
 
-Data Points for a Column Chart are the individual columns, which use a Smart Layout in Sketch making it possible to adjust their amount on the Chart Area. They come with configurable labels on the X-axis and annotation labels.
+縦棒チャートのデータ ポイントは個々の列で、Sketch のスマート レイアウトを使用してチャート領域での量を調整できます。X 軸に構成可能なラベルと注釈ラベルがあります。
 
 <img class="responsive-img" src="../images/column_chart_columns.png" srcset="../images/column_chart_columns@2x.png 2x" />
 
 
-## Styling
+## スタイル設定
 
-First and foremost, the Column Chart lets you change the color of the series. It is recommended to use only colors from the palette for data visualizations with nuances named series.1, series.2 and so on till series.10. You may also change the colors of the vertical and horizontal axis, the gridlines, as well as the chart area background and border colors. Titles, labels, annotation values etc. are also customizable via the available text styles in the **Indigo.Design System**.
+縦棒チャートでは、シリーズの色を変更できます。Series.1、series.2 などのバリアントを持つデータ可視化には、series.10 までのパレットの色のみを使用することをお勧めします。垂直軸と水平軸の色、グリッド線、チャート領域の背景色、境界線の色も変更できます。タイトル、ラベル、注釈値なども **Indigo.Design システム**の利用可能なテキスト スタイルでカスタマイズできます。
 
 <img class="responsive-img" src="../images/column_chart_styling.png" srcset="../images/column_chart_styling@2x.png 2x" />
 
-## Usage
+## 使用方法
 
-Use the Column Chart when you want to show the amount of change over a period of time. Always start your numeric Axis at 0 to avoid misrepresenting the data. Also, avoid using different colors for the same category. If referencing time, e.g. dates or months, to represent the change in the category, you should always set it on the horizontal axis. Use subtle colors for the Gridlines to make the chart easier on the eye. If you need a more detailed time series visual, consider using a Line Chart instead.
+一定期間の変化量を表示するには、縦棒チャートを使用します。数値軸を常に 0 から開始して、データを歪めないようにします。また、同じカテゴリに異なる色を使用しないようにしてください。カテゴリの変更を表すために日付や月などの時間を参照する場合、常に水平軸に設定します。グリッド線に目立たない色を使用して、目に優しい色にしましょう。より詳細な時系列ビジュアルが必要な場合は、代わりに折れ線チャートの使用を検討してください。
 
 | 良い例                                                                                             | 悪い例                                                                                              |
 | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/column_chart_do1.png" srcset="../images/column_chart_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/column_chart_dont1.png" srcset="../images/column_chart_dont1@2x.png 2x" /> |
 
-## Additional Resources
+## その他のリソース
 
-Related topic:
+関連トピック:
 
 - [Line Chart](../line-chart.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
