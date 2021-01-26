@@ -36,6 +36,7 @@ Use the Group of Items List Pattern to present grouped or organized items.
 
 Related topics:
 
+- [Illustrations](../styling/illustrations.md)
 - [Input](../components/input.md)
 - [List](../components/list.md)
 - [Avatar](../components/avatar.md)
