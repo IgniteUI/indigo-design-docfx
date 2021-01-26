@@ -7,22 +7,24 @@ _language: ja
 
 # Data Visualizations (データ ビジュアライゼーション)
 
-Data Visualizations パターンを使用して、領域、列、線、ポイント、スプライン チャートなどのさまざまな視覚的方法で情報とデータを表示します。このパターンにより、ユーザーはドロップ ダウン コンポーネントなどを介して、さまざまな種類のデータ表現からレイアウトを選択できます。
+Data Visualizations パターンを使用して、Area、Column、Line、Spline Chart などのさまざまな視覚的方法で情報とデータを表示します。このパターンにより、ユーザーはドロップ ダウン コンポーネントなどを介して、さまざまな種類のデータ表現からレイアウトを選択できます。
 
 <img class="responsive-img" src="../images/data_visualizations.png" srcset="../images/data_visualizations@2x.png 2x" />
 
-Data Visualizations パターンは、含まれるチャート コンポーネント、Input および Text 要素により、スタイル設定に柔軟性があります。
+Data Visualizations パターンは、含まれる Chart コンポーネント、Input および Text 要素により、スタイル設定に柔軟性があります。
 
 > [!WARNING]
-> Data Visualizations パターンを挿入した後、Angular コードとして生成できるには、レイアウトを作成した個別コンポーネントに分割するために `Detach from Symbol` をトリガーします。ただし、カテゴリー チャートをデタッチしないでください。
+> Data Visualizations パターンを挿入した後、Angular コードとして生成できるには、レイアウトを作成した個別コンポーネントに分割するために `Detach from Symbol` をトリガーします。ただし、Chart と Dropdown をデタッチしないでください。
 
-<img class="responsive-img" src="../images/data_visualizations_detach.png" />
+<img class="responsive-img" src="../images/data_visualizations_detach.png"  srcset="../images/data_visualizations_detach@2x.png 2x" />
 
 ## その他のリソース
 
 関連トピック:
 
-- [Chart-Category](../components/chart-category.md)
+- [Column Chart](../components/column-chart.md)
+- [Line Chart](../components/line-chart.md)
+- [Spline Chart](../components/spline-chart.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
