@@ -22,7 +22,7 @@ Similarly to the Grid, the Tree Grid is essentially a repeater of columns and ro
 | Header                       | Contains all the cells in the header                                                                                                                 |
 | Body                         | Contains all the cells in the body                                                                                                                   |
 
-After detaching, you may add the number of headers you need to show all the dimensions of your data and as many records as you want to show in your design simply by duplicating the first row of data that you already have created within each of the grids that you have.
+After detaching, you may add the number of headers you need to show all the dimensions of your data and as many records as you want to show in your design simply by duplicating one of the existing rows of data.
 
 ## Cell Types
 
