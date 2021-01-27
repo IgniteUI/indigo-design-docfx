@@ -12,22 +12,25 @@ User Profile パターンを使用すると、全画面表示の詳細ページ�
 <img class="responsive-img" src="../images/profile_demo.png" srcset="../images/profile_demo@2x.png 2x" />
 <img class="responsive-img" src="../images/profile_small.png" srcset="../images/profile_small@2x.png 2x" />
 
-User Profile パターンの編集可能なバリアントもあります。User Profile パターンは、レイアウトに含まれる Avatar、Text、および Input のスタイル設定をカスタマイズできます。
+User Profile パターンの編集可能なバリアントもあります。User Profile パターンは、レイアウトに含まれる Avatar および Input のスタイル設定をカスタマイズできます。
+
+<img class="responsive-img" src="../images/edit_profile_demo.png" srcset="../images/edit_profile_demo@2x.png 2x" />
 
 > [!WARNING]
-> 利用可能なプロファイル パターンを挿入した後、パターンを Angular コードとして生成するには、`Detach from Symbol` をトリガーします。含まれるコンポーネントをデタッチしないでください。
+> 利用可能な User Profile パターン を挿入した後、パターンを Angular コードとして生成するには、`Detach from Symbol` をトリガーします。含まれるコンポーネントをデタッチしないでください。
 
-<img class="responsive-img" src="../images/profile_detach.png" />
+<img class="responsive-img" src="../images/profile_detach.png" srcset="../images/profile_detach@2x.png 2x" />
+<img class="responsive-img" src="../images/edit_profile_detach.png" srcset="../images/edit_profile_detach@2x.png 2x" />
 
 ## その他のリソース
 
 関連トピック:
 
 - [Avatar](../components/avatar.md)
-- [Text](../components/text.md)
+- [Button](../components/button.md)
 - [Input](../components/input.md)
+- [File Upload パターン](file-upload.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
 
