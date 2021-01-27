@@ -7,7 +7,7 @@ _language: ja
 
 # Input (入力)
 
-Use the Input component to collect user data such as strings, numbers fitting various contexts, dates, and other values, such as emails and passwords. 複数入力は、簡単に使用できるフォームに組み合わせることができます。Input は、[Ignite UI for Angular Input Group](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/input_group.html) コンポーネントと視覚的に同じものです。
+Input コンポーネントを使用して、文字列、さまざまなコンテキストに適した数値、日付、その他の値 (メールやパスワードなど) のユーザー データを収集します。Input は、[Ignite UI for Angular Input Group](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/input_group.html) コンポーネントと視覚的に同じものです。
 
 ## Input デモ
 
@@ -15,13 +15,13 @@ Use the Input component to collect user data such as strings, numbers fitting va
 
 ## タイプ
 
-The Input lets you choose a preset from three options: simple, hint which comes with a helper text, and searchbar.
+Input では、3 つのオプション (プリセット) からプリセットを選択できます: 単純、ヘルパー テキストを含むヒント、および検索バー。
 
 <img class="responsive-img" src="../images/input_simple.png" srcset="../images/input_simple@2x.png 2x" />
 <img class="responsive-img" src="../images/input_hint.png" srcset="../images/input_hint@2x.png 2x" />
 <img class="responsive-img" src="../images/input_searchbar.png" srcset="../images/input_searchbar@2x.png 2x" />
 
-The hint and simple presets offer choice between three distinct types: line style for a more airy look, border style for a more structured perception on solid color backgrounds, and boxed style which is most appropriate when the Input is placed on top of a vivid image to improve the readability of its content.
+ヒントとシンプルなプリセットは、3 つの異なるタイプから選択できます: 軽快な印象の外観を実現する線スタイル、単色背景でよりはっきりと表示する境界線スタイル、より読みやすくするために鮮明な画像の上に配置する際に最適なボックス スタイルです。
 
 <img class="responsive-img" src="../images/input_simple.png" srcset="../images/input_simple@2x.png 2x" />
 <img class="responsive-img" src="../images/input_border.png" srcset="../images/input_border@2x.png 2x" />
@@ -62,14 +62,14 @@ Input は、明暗バリアント (デフォルトは**暗い**) で分かりや
 
 ## レイアウト
 
-The Input has rich support for prefix and suffix through a combination of text and icons that can, in certain cases, reduce the input effort for the user: e.g. an @email.com suffix means both fewer keystrokes and more clarity of expected content. You can remove the prefix or suffix by setting the respective container to ~No Symbol from the overrides.
+Input は、テキストとアイコンの組み合わせによってプレフィックスとサフィックスをサポートします。特定の場合、ユーザーの入力作業を軽減できます。たとえば、@email.com サフィックスは、キーストロークが少なくなり、必要なコンテンツがより明確になります。オーバーライドからそれぞれのコンテナーを ~No Symbol に設定すると、プレフィックスまたはサフィックスを削除できます。
 
 <img class="responsive-img" src="../images/input_prefix.png" srcset="../images/input_prefix@2x.png 2x" />
 <img class="responsive-img" src="../images/input_suffix.png" srcset="../images/input_suffix@2x.png 2x" />
 
 ## スタイル設定
 
-The Input comes with styling flexibility through the colors of its background and bottom line, as well as icon color and text styles of its prefix, suffix, and main areas of content. To change the validation styles, it is recommended to update the respective color variables in the Indigo.Design library. 
+Input は、背景色や最終行の色、プレフィックス、サフィックス、コンテンツのメイン領域のアイコンの色やテキストのスタイルなど、スタイル設定に柔軟性があります。検証スタイルを変更するには、Indigo.Design ライブラリの各色変数を更新することをお勧めします。 
 
 <img class="responsive-img" src="../images/input_styling.png" srcset="../images/input_styling@2x.png 2x" />
 
