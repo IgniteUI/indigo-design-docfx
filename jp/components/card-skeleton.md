@@ -1,6 +1,6 @@
 ﻿---
 title: Skeleton Card - デザイン システム コンポーネント
-_description: The Skeleton Card is a representation of a Card component that is shown while data is being loaded in the background to provide content for a collection of cards.
+_description: Skeleton Card は、カードのコレクションにコンテンツを提供するためにデータがバックグラウンドで読み込まれているときに表示される Card コンポーネントです。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---

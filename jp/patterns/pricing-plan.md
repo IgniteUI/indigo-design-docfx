@@ -7,7 +7,7 @@ _language: ja
 
 # Pricing Table (プライシング テーブル)
 
-Use the Pricing Table Pattern to display an offering for a product or a subscription. It comes in Featured and Not Featured presets including header, price, list of features included or not included and call-to-action button.
+Pricing Table パターンを使用して、製品またはサブスクリプションのオファリングを表示します。ヘッダー、価格、含まれている、もしくは含まれていない機能のリスト、および call-to-action ボタンなどを含む Featured presets (注目のプリセット) と Not Featured presets (注目されていないプリセット) があります。
 
 <img class="responsive-img" src="../images/pricing_plan.png" srcset="../images/pricing_plan@2x.png 2x" />
 

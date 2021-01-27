@@ -11,10 +11,10 @@ Onboarding シンボルをプリセットとして使用して、いくつかの
 
 <img class="responsive-img" src="../images/onboarding.png" srcset="../images/onboarding@2x.png 2x" />
 
-The **Indigo.Design System** provides you with 7 preset versions of onboarding flows that cover some of the most common application scenarios.
+**Indigo.Design システム**は、最も一般的なアプリケーション シナリオのいくつかをカバーするオンボーディング フローの 7 つのプリセット バージョンを提供します。
 
 > [!WARNING]
-> 利用可能な任意 Onboarding パターンを挿入した後、Angular コードとして生成できるには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。Illustrations used in these patterns cannot be code generated and they have to be added manually afterwards. 各 Onboarding 要素と背景はデタッチしないでください。
+> 利用可能な任意 Onboarding パターンを挿入した後、Angular コードとして生成できるには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。これらのパターンで使用されている図はコード生成できないため、後で手動で追加する必要があります。各 Onboarding 要素と背景はデタッチしないでください。
 
 <img class="responsive-img" src="../images/onboarding_detach.png" srcset="../images/onboarding_detach@2x.png 2x" />
 
