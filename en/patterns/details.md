@@ -25,9 +25,8 @@ The Details: Icon + Title Pattern comes with the styling flexibility provided by
 > [!WARNING]
 > After inserting a Details Pattern, you should trigger `Detach from Symbol` to break it down to the individual Components that are used to create the Pattern layout in order to be able to generate Angular code. The individual Components, however, must stay intact and not be detached!
 
-<img class="responsive-img" src="../images/details_detach.png" />
-
-<img class="responsive-img" src="../images/icon_title_detach.png" />
+<img class="responsive-img" src="../images/details_detach.png" srcset="../images/details_detach@2x.png 2x" />
+<img class="responsive-img" src="../images/icon_title_detach.png" srcset="../images/icon_title_detach@2x.png 2x" />
 
 
 ## Additional Resources
@@ -37,7 +36,6 @@ Related topics:
 - [Badge](../components/badge.md)
 - [Button](../components/button.md)
 - [Tabs](../components/tabs.md)
-- [Text](../components/text.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

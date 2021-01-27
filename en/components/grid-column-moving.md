@@ -15,15 +15,10 @@ Use the Grid Column Moving to indicate that the columns of the Grid are movable 
 ## Header Cell
 
 In order to indicate that a column is movable, configure the `Column Moving` override of the Grid Header Cell for the column by changing the default value from **Not Movable** to Movable. Also, this is what marks the column as movable as far as code generation is concerned.
-_Default value is styled with_ **bold** _text._
 
 ## Column Moving Feature
 
-The Grid has a `Column Moving` symbol under `Features` that represents the ghost Header Cell shown for the dragged column. Adding this symbol has only a visual effect on your design to make it more realistic, if you want to switch the Column Moving feature, configure the Header Cells accordingly.
-
-## Code generation
-
-If the `Column Moving` symbol is added make sure to place it within the group defining the Grid as a sibling to the Header and Body groups.
+The Grid has a `Column Moving` symbol under `Features` that represents the ghost Header Cell shown for the dragged column. It comes with presets for numeric and text columns. Adding this symbol has only a visual effect on your design to make it more realistic, if you want to switch the Column Moving feature, configure the Header Cells accordingly.
 
 ## Additional Resources
 

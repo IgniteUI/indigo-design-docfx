@@ -30,7 +30,7 @@ _language: ja
 
 - [Bottom navigation](../components/bottom-nav.md)
 - [Button](../components/button.md)
-- [Card](../components/cards.md)
+- [Card](../components/card.md)
 - [Forms](../patterns/form.md)
   <div class="divider--half"></div>
 

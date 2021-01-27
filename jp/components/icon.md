@@ -57,7 +57,7 @@ Icon の色を指定した場合、Icon HTML 要素は div でラップされま
 関連トピック:
 
 - [Bottom Navigation](bottom-nav.md)
-- [Card](cards.md)
+- [Card](card.md)
 - [Navbar](navbar.md)
 - [Navigation Drawer](nav-drawer.md)
 - [Tabs](tabs.md)

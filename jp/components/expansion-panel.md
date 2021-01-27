@@ -99,7 +99,7 @@ DataProperty: `{profile.imageName}`
 関連トピック:
 
 - [Avatar + Badge](../patterns/avatar-badge.md)
-- [Cards](cards.md)
+- [Card](card.md)
 - [File Upload](../patterns/file-upload.md)
 - [User Profile](../patterns/user-profile.md)
   <div class="divider--half"></div>
