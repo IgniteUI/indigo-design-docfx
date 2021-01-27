@@ -7,7 +7,7 @@ _language: ja
 
 # Dropdown (ドロップダウン)
 
-Use the Dropdown Component to let the user select an item from a collection that is displayed upon user interaction in a scrollable list. Only one item can be selected at a time and if your scenario requires the selection of multiple items, you should use the [Combo](combo.md) instead. The Dropdown is visually identical to the [Ignite UI for Angular Dropdown Component](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/drop_down.html)
+Dropdown コンポーネントでは、ユーザーがスクロール可能なリストでユーザー インタラクションに応じて表示されるコレクションから項目を選択できます。一度に 1 つの項目のみ選択できます。複数の項目を選択する必要がある場合は、代わりに [Combo](combo.md) を使用してください。Dropdown は、[Ignite UI for Angular Dropdown コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/drop_down.html)と視覚的に同じです。
 
 ## Dropdown デモ
 
@@ -37,9 +37,9 @@ Dropdown 項目は、5 つの状態をサポートします。disabled, **Idle**
 <img class="responsive-img" src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" />
 
-## Item Layout Template
+## 項目レイアウト テンプレート
 
-The Dropdown Item supports flexible icon and label templating achievable by setting the elements you want to hide to ~No Symbol from the overrides panel. By default, the icon is hidden with this approach.
+Dropdown 項目は、オーバーライド パネルから非表示にする要素を ~No Symbol に設定することで、柔軟なアイコンとラベルのテンプレートをサポートします。デフォルトでは、この方法でアイコンは非表示になります。
 
 <img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_icon.png" srcset="../images/dropdown_item_icon@2x.png 2x" /> 
@@ -52,7 +52,7 @@ Dropdown は、背景色を制御するオーバーライドによるスタイ�
 
 ## 使用方法
 
-Dropdown 使用時は、表示をトリガーする項目に従ってコンテンツの最上部に表示する必要があります。Dropdowns don't push content like an expansion panel would.
+Dropdown 使用時は、表示をトリガーする項目に従ってコンテンツの最上部に表示する必要があります。ドロップダウンは、展開パネルのようにコンテンツをプッシュしません。
 
 | 良い例                                                                                 |悪い例                                                                                  |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |

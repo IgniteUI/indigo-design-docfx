@@ -1,43 +1,43 @@
 ---
-title: Skeleton List - Design System Component
-_description: The Skeleton List is a representation of a List component that is shown while data is being loaded in the background to provide content for its items.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+title: Skeleton List - デザイン システム コンポーネント
+_description: Skeleton List は、項目にコンテンツを提供するためにデータがバックグラウンドで読み込まれているときに表示される List コンポーネントの表現です。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
-# Skeleton List
+# Skeleton List (スケルトン リスト)
 
-Use the Skeleton List Component to layout the same type of information that you would in the standard one, but to also indicate an application state when no data is present at the moment e.g. when data is loaded from a remote datasource and there is either lack of connectivity, or it takes some time. The Skeleton List is just a visual representation of a [List](list.md) with known layout, but without any data to show.
+Skeleton List コンポーネントを使用して、標準の情報と同じタイプの情報をレイアウトします。ただし、データが存在しない場合のアプリケーションの状態 (データがリモート データソースからロードされ、接続が切れているか、時間がかかる場合など) も示します。Skeleton List は、既知のレイアウトの [List](list.md) を視覚的に表したものですが、表示するデータはありません。
 
-## Skeleton List Demo
+## Skeleton List デモ
 
 <img class="responsive-img" src="../images/list_skeleton_demo.png" srcset="../images/list_skeleton_demo@2x.png 2x" />
 
-## Types
+## タイプ
 
-The Skeleton List supports the same two types like the standard [List](list.md): one-line item list and  two-line item list. 
+Skeleton List は、標準の [List](list.md) と同じ 2 つのタイプをサポートします: 1 行の項目リストと 2 行の項目リスト。 
 
 <img class="responsive-img" src="../images/list_skeleton_one-line_item.png" srcset="../images/list_skeleton_one-line_item@2x.png 2x" />
 <img class="responsive-img" src="../images/list_skeleton_two-line_item.png" srcset="../images/list_skeleton_two-line_item@2x.png 2x" />
 
-## List Item Type
+## List Item のタイプ
 
-The Skeleton List Item comes in the same three preset types like the standard [List](list.md): Header, One-line, and Two-line.
+Skeleton List Item は、標準 [List](list.md) と同じ 3 つのプリセット タイプがあります: ヘッダー、1 行、2 行。
 
 <img class="responsive-img" src="../images/list_skeleton_item_header.png" srcset="../images/list_skeleton_item_header@2x.png 2x" />
 <img class="responsive-img" src="../images/list_skeleton_item_one-line.png" srcset="../images/list_skeleton_item_one-line@2x.png 2x" />
 <img class="responsive-img" src="../images/list_skeleton_item_two-line.png" srcset="../images/list_skeleton_item_two-line@2x.png 2x" />
 
-## List Item Areas
+## List Item の領域
 
-The Skeleton List Item has two distinct areas like the standard [List](list.md): Primary Action and Secondary Action.
+Skeleton List Item には、標準 [List](list.md) のような 2 つの異なる領域があります: プライマリ アクションとセカンダリ アクション。
 
 <img class="responsive-img" src="../images/list_skeleton_item_primary.png" srcset="../images/list_skeleton_item_primary@2x.png 2x" />
 <img class="responsive-img" src="../images/list_skeleton_item_secondary.png" srcset="../images/list_skeleton_item_secondary@2x.png 2x" />
 
-## List Item Primary Action
+## リスト項目プライマリ アクション
 
-There are 4 interchangeable List Item Primary Actions like the standard [List](list.md) that are listed below. Thanks to the use of Smart Layout in Sketch they can be adjusted further by setting unnecessary elements to ~No Symbol.
+以下は、標準 [List](list.md) のような 4 つの置き換え可能なリスト項目プライマリ アクションです。Sketch でスマート レイアウトを使用しているため、不要な要素を ~No Symbol に設定して調整できます。
 
 |                              |                                                                                                  |                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -46,26 +46,26 @@ There are 4 interchangeable List Item Primary Actions like the standard [List](l
 | Icon + Label + Desc | <img class="responsive-img" src="../images/list_skeleton_item_primary3.png" srcset="../images/list_skeleton_item_primary3@2x.png 2x" />   |                                                                                                                                            |
 | Label + Progress          | <img class="responsive-img" src="../images/list_skeleton_item_primary4.png" srcset="../images/list_skeleton_item_primary4@2x.png 2x" />   | Linear Progress Bar in a Primary Action can not have a value label, therefore, it is set to ~No Symbol and this setting should not be changed |                                                                                                                                            |
 
-## List Item Secondary Action
+## List Item セカンダリ アクション
 
-The Secondary Action of the Skeleton List Item covers all scenarios possible with its counterpart from the standard [List](list.md). Thanks to the use of Smart Layout in Sketch it can be adjusted further by setting unnecessary elements to ~No Symbol.
+Skeleton List Item のセカンダリ アクションは、標準 [List](list.md) の相当物で可能なすべてのシナリオをサポートします。Sketch でスマート レイアウトを使用しているため、不要な要素を ~No Symbol に設定して調整できます。
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Text and Icon            | <img class="responsive-img" src="../images/list_skeleton_item_secondary3.png" srcset="../images/list_skeleton_item_secondary3@2x.png 2x" /> |                                                                                                                                       |
 
-## Usage
+## 使用方法
 
-When creating a list layout, avoid combining standard and skeleton list items. Data is either present for all list items, or for none of them, thus the two types should not be used within the same layout.
+リスト レイアウトを作成するときは、標準リスト項目とSkeleton List Itemを組合さないようにします。データはすべてのリスト項目に存在するか、いずれにも存在しないため、2 つのタイプを同じレイアウト内で使用しないでください。
 
-| Do                                                                         | Don't                                                                          |
+| 良い例                                                                         | 悪い例                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | <img class="responsive-img" src="../images/list_skeleton_do1.png" srcset="../images/list_skeleton_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/list_skeleton_dont1.png" srcset="../images/list_skeleton_dont1@2x.png 2x" /> |
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [List](list.md)
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
