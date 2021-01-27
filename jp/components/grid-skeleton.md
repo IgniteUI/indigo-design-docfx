@@ -54,15 +54,15 @@ The Skeleton Grid Body Cell provides presets for the same types of data like the
 
 When creating grids, avoid combining standard and skeleton cells. Data is either present for all cells, or for none of them, thus the two types should not be used within the same grid layout.
 
-| Do                                                                                                | Don't                                                                                                 |
+| 良い例                                                                                                | 悪い例                                                                                                 |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/grid_skeleton_do1.png" srcset="../images/grid_skeleton_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/grid_skeleton_dont1.png" srcset="../images/grid_skeleton_dont1@2x.png 2x" /> |
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Grid](grid.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
