@@ -15,64 +15,64 @@ List コンポーネントは、ユーザーのブラウジングやテキスト
 
 ## タイプ
 
-The List can be inserted in a preset with one-line items or with two-line items, both initially containing ten items. The List uses Smart Layout in Sketch for its items which makes it possible to adjust its size by setting one or more of its items to ~No Symbol.
+List は、1 行項目または 2 行項目のプリセットに挿入できます。どちらも最初は 10 項目を含みます。List は、Sketch のスマート レイアウトを項目に使用します。項目の 1 つ以上を ~No Symbol に設定してサイズを調整できます。
 
 <img class="responsive-img" src="../images/list_one-line_item.png" srcset="../images/list_one-line_item@2x.png 2x" />
 <img class="responsive-img" src="../images/list_two-line_item.png" srcset="../images/list_two-line_item@2x.png 2x" />
 
-## リスト項目のタイプ
+## List Item のタイプ
 
-The List Item comes in three preset types: Header for defining the headings of groups, One-line for shorter items with only one line of primary text, and Two-line for taller items supporting primary and secondary text.
+List Item には 3 つのプリセット タイプがあります。グループの見出しを定義する Header、1 行のプライマリ テキストを含む短い項目の One-line、プライマリおよびセカンダリ テキストをサポートするより高さのある項目の Two-line。
 
 <img class="responsive-img" src="../images/list_item_header.png" srcset="../images/list_item_header@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_one-line.png" srcset="../images/list_item_one-line@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_two-line.png" srcset="../images/list_item_two-line@2x.png 2x" />
 
-## リスト項目の状態
+## List Item の状態
 
-The One-line and Two-line List Items support the following interactive states: **inactive** for the normal state and active for the selected state. Header List Item は選択できないため、そのような States はサポートしません。
+One-line および Two-line リスト項目はインアクティブ状態 (標準状態の**インアクティブ**と選択状態のアクティブ) をサポートします。Header List Item は選択できないため、そのような States はサポートしません。
 
 <img class="responsive-img" src="../images/list_item_inactive.png" srcset="../images/list_item_inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_active.png" srcset="../images/list_item_active@2x.png 2x" />
 
-## リスト項目の領域
+## List Item の領域
 
-The List Item has two distinct areas: Primary Action with non-interactive content such as Avatar and text, and Secondary Action with quick actions related to the List Item. Any combination of a Primary and Secondary action creates a unique list item template that should be used consistently across all items of the List.
+List Item は、2 つの異なる領域があります。プライマリ アクションには、非インタラクティブなコンテンツの Avatar やテキストがあり、セカンダリ アクションには List Item に関連するクイック アクションがあります。プライマリとセカンダリ アクションは一意のリスト項目テンプレートを作成し、常に List 項目全体で使用されます。
 
 <img class="responsive-img" src="../images/list_item_primary.png" srcset="../images/list_item_primary@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />
 
-## リスト項目プライマリ アクション
+## List Item Primary Action (リスト項目プライマリ アクション)
 
-There are 4 interchangeable List Item Primary Actions that are listed below. Thanks to the use of Smart Layout in Sketch they can be adjusted further by setting unnecessary elements to ~No Symbol.
+以下に置き換え可能な 4 つのリスト項目プライマリ アクションがあります。Sketch でスマート レイアウトを使用しているため、不要な要素を ~No Symbol に設定して調整できます。
 
 |                              |                                                                                                  |                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | Avatar + Label + Description | <img class="responsive-img" src="../images/list_item_primary1.png" srcset="../images/list_item_primary1@2x.png 2x" />     |                                                                                                                                            |
-| Checkbox + Label               | <img class="responsive-img" src="../images/list_item_primary2.png" srcset="../images/list_item_primary2@2x.png 2x" />   |  Checkbox in a Secondary Action can not have a label, therefore, the before and after labels are set to ~No Symbol and this setting should not be changed |
+| Checkbox + Label               | <img class="responsive-img" src="../images/list_item_primary2.png" srcset="../images/list_item_primary2@2x.png 2x" />   |  セカンダリ アクションの Checkbox にラベルを設定できないため、前後のラベルを ~No Symbol に設定し、この設定は変更しないでください。 |
 | Icon + Label + Desc | <img class="responsive-img" src="../images/list_item_primary3.png" srcset="../images/list_item_primary3@2x.png 2x" />   |                                                                                                                                            |
-| Label + Progress          | <img class="responsive-img" src="../images/list_item_primary4.png" srcset="../images/list_item_primary4@2x.png 2x" />   | Linear Progress Bar in a Primary Action can not have a value label, therefore, it is set to ~No Symbol and this setting should not be changed |                                                                                                                                            |
+| Label + Progress          | <img class="responsive-img" src="../images/list_item_primary4.png" srcset="../images/list_item_primary4@2x.png 2x" />   | プライマリ アクションの Linear Progress Bar は値ラベルを持つことができないため、~No Symbol に設定され、この設定は変更しないでください。 |                                                                                                                                            |
 
-## List Item Secondary Action
+## List Item Secondary Action (リスト項目セカンダリ アクション)
 
-There are 4 interchangeable List Item Secondary Actions that are listed below. Thanks to the use of Smart Layout in Sketch they can be adjusted further by setting unnecessary elements to ~No Symbol.
+以下に置き換え可能な 4 つのリスト項目セカンダリ アクションがあります。Sketch でスマート レイアウトを使用しているため、不要な要素を ~No Symbol に設定して調整できます。
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Badge            | <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />   |                                                                                                                                       |
-| Checkbox         | <img class="responsive-img" src="../images/list_item_secondary2.png" srcset="../images/list_item_secondary2@2x.png 2x" /> | Checkbox in a Secondary Action can not have a label, therefore, the before and after labels are set to ~No Symbol and this setting should not be changed |
+| Checkbox         | <img class="responsive-img" src="../images/list_item_secondary2.png" srcset="../images/list_item_secondary2@2x.png 2x" /> | 	セカンダリ アクションの Checkbox にラベルを設定できないため、前後のラベルを ~No Symbol に設定し、この設定は変更しないでください。 |
 | Text and Icon            | <img class="responsive-img" src="../images/list_item_secondary3.png" srcset="../images/list_item_secondary3@2x.png 2x" /> |                                                                                                                                       |
-| Toggle             | <img class="responsive-img" src="../images/list_item_secondary4.png" srcset="../images/list_item_secondary4@2x.png 2x" /> | Switch in a Secondary Action can not have a label, therefore, the before and after labels are set to ~ No Symbol and this setting should not be changed                                                                                                                 |
+| Toggle             | <img class="responsive-img" src="../images/list_item_secondary4.png" srcset="../images/list_item_secondary4@2x.png 2x" /> | セカンダリ アクションの Switch にラベルを設定できないため、前後のラベルを ~No Symbol に設定し、この設定は変更しないでください。                                                                                                                 |
 
 ## スタイル設定
 
-The List comes with styling flexibility through the overrides available for background color and the different elements used in the List Items, such as icons and text, as well as components like Avatar, Badge, Checkbox, Icon, Progress, Switch, etc. with their own styling capabilities.
+List は、さまざまなオーバーライドで背景色、アイコン、テキストなどの List 項目に使用するさまざまな要素、Avatar、Badge、Checkbox、Icon、Progress、Switch などのコンポーネントなどスタイル設定に柔軟性があります。
 
 <img class="responsive-img" src="../images/list_styling.png" srcset="../images/list_styling@2x.png 2x" />
 
 ## 使用方法
 
-The List and List Items have their own design specifics, but most importantly, one should always remember that the List is a collection of similar items usually following a common template. 従って同じリスト内で複数のテンプレートを組み合わせないようにします。 Also, avoid hiding elements, and instead provide placeholders or empty elements if a certain type of content is missing. Last but not least, pay special attention to the alignment of the elements constituting the template, as they must be able to form perceived vertical continuity.
+List および List Items には固有のデザインがありますが、List は同様の項目のコレクションで、通常以下の共通テンプレートを使用します。従って同じリスト内で複数のテンプレートを組み合わせないようにします。要素を非表示にせずに、特定のコンテンツ タイプがない場合にプレースホルダーまたは空要素を表示します。テンプレートを構成する要素は垂直方向に継続的に形成する必要があるため、配置に注意が必要です。
 
 | 良い例                                                                         | 悪い例                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
@@ -82,25 +82,25 @@ The List and List Items have their own design specifics, but most importantly, o
 
 ## シンボルからデタッチ
 
-List は、本来インデックス付きの垂直コレクションとしてデータを表示する行のリピーターです。 If you need to design a list with more items, the easiest way to do so is by inserting any of the List types on your artboard, right-click on top of it, and select the `Detach from Symbol` at the bottom of the contextual menu. In your layers panel under the newly appeared _List/One-line Item List_ or _List/Two-line Item List_ group, you should see the following:
+List は、本来インデックス付きの垂直コレクションとしてデータを表示する行のリピーターです。より多くの項目のリストをデザインする最も簡単な方法は、アートボードに List タイプのいずれかを挿入し、リストの上で右クリックし、コンテキストメニューの下部で `Detach from Symbol` を選択することです。新しく表示される _List/One-line Item List_ または _List/Two-line Item List_ グループの下のレイヤー パネルには、以下が表示されます。
 
-| Layer         | Use                                                                                                                                                  |
+| レイヤー         | 使用                                                                                                                                                  |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 metadata   | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| List Header   | An instance of a list header item                                                                                                                    |
-| 1 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 2 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 3 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 4 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 5 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 6 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 7 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 8 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 9 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 10 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 🌈 Background | Defines the background color of the list                                                                                                             |
+| 🚫 metadata   | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
+| List Header   | リスト ヘッダー項目のインスタンス                                                                                                                    |
+| 1 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 2 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 3 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 4 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 5 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 6 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 7 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 8 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 9 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 10 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 🌈 Background | リストの背景色を定義                                                                                                             |
 
-Now, you may insert additional headers or items either from the Sketch menu or simply by duplicating an existing one. Always place items and headers one after another with consistent horizontal width and alignment, making sure there are no gaps between the items.
+Sketch メニューから追加でヘッダーまたは項目を挿入、または既存のヘッダー/項目を複製します。常に項目とヘッダーを同じ水平幅と配置で次々に配置し、項目間にギャップがないようにします。
 
 ## その他のリソース
 

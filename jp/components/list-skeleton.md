@@ -35,16 +35,16 @@ Skeleton List Item には、標準 [List](list.md) のような 2 つの異な�
 <img class="responsive-img" src="../images/list_skeleton_item_primary.png" srcset="../images/list_skeleton_item_primary@2x.png 2x" />
 <img class="responsive-img" src="../images/list_skeleton_item_secondary.png" srcset="../images/list_skeleton_item_secondary@2x.png 2x" />
 
-## リスト項目プライマリ アクション
+## List Item Primary Action (リスト項目プライマリ アクション)
 
-以下は、標準 [List](list.md) のような 4 つの置き換え可能なリスト項目プライマリ アクションです。Sketch でスマート レイアウトを使用しているため、不要な要素を ~No Symbol に設定して調整できます。
+以下は、標準 [List](list.md) のような 4 つの置き換え可能なリスト項目 です。Sketch でスマート レイアウトを使用しているため、不要な要素を ~No Symbol に設定して調整できます。
 
 |                              |                                                                                                  |                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | Avatar + Label + Description | <img class="responsive-img" src="../images/list_skeleton_item_primary1.png" srcset="../images/list_skeleton_item_primary1@2x.png 2x" />     |                                                                                                                                            |
-| Checkbox + Label               | <img class="responsive-img" src="../images/list_skeleton_item_primary2.png" srcset="../images/list_skeleton_item_primary2@2x.png 2x" />   |  Checkbox in a Primary Action can not have a label, therefore, the before and after labels are set to ~No Symbol and this setting should not be changed |
+| Checkbox + Label               | <img class="responsive-img" src="../images/list_skeleton_item_primary2.png" srcset="../images/list_skeleton_item_primary2@2x.png 2x" />   |  プライマリ アクションの Checkbox にラベルを設定できないため、前後のラベルを ~No Symbol に設定し、この設定は変更しないでください。 |
 | Icon + Label + Desc | <img class="responsive-img" src="../images/list_skeleton_item_primary3.png" srcset="../images/list_skeleton_item_primary3@2x.png 2x" />   |                                                                                                                                            |
-| Label + Progress          | <img class="responsive-img" src="../images/list_skeleton_item_primary4.png" srcset="../images/list_skeleton_item_primary4@2x.png 2x" />   | Linear Progress Bar in a Primary Action can not have a value label, therefore, it is set to ~No Symbol and this setting should not be changed |                                                                                                                                            |
+| Label + Progress          | <img class="responsive-img" src="../images/list_skeleton_item_primary4.png" srcset="../images/list_skeleton_item_primary4@2x.png 2x" />   | プライマリ アクションの Linear Progress Bar は値ラベルを持つことができないため、~No Symbol に設定され、この設定は変更しないでください。 |                                                                                                                                            |
 
 ## List Item セカンダリ アクション
 

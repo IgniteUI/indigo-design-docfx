@@ -43,11 +43,11 @@ Custom List Item は、Secondary Actions のオーバーライドおよびテキ
 
 <img class="responsive-img" src="../images/list_item_custom_layout0.png" srcset="../images/list_item_custom_layout0@2x.png 2x" />
 
-1.  First, we have to remove the paragraph and footer. 次に、Primary Action Group の Header を再利用しますが右半分のみに合わせてサイズ変更し、Title と Subtitle Text の文字列を更新します。In the Secondary Action Group, we will add a Raised Button position to it near the bottom right corner, updating its text and resizing accordingly to fit the new value. テキストの更新して新しい値に合わせてサイズ変更します。ターゲット カスタム レイアウトに Icons は必要ないため、最後にデフォルト Secondary Action を削除します。
+1.  最初に、段落とフッターを削除する必要があります。次に、Primary Action Group の Header を再利用しますが右半分のみに合わせてサイズ変更し、Title と Subtitle Text の文字列を更新します。Secondary Action Group で Raised Button 配置を右下近くに追加します。テキストを更新して新しい値に合わせてサイズ変更します。テキストの更新して新しい値に合わせてサイズ変更します。ターゲット カスタム レイアウトに Icons は必要ないため、最後にデフォルト Secondary Action を削除します。
 
     <img class="responsive-img" src="../images/list_item_custom_layout1.png" srcset="../images/list_item_custom_layout1@2x.png 2x" />
 
-2.  次に List/Custom/Blocks/Image Content を Primary Action Group に挿入し、同じグループ内で一番上に Badge を追加します。Item サイズに基づいて画像をサイズ変更し、コンテンツを選択します。After modifying the Badge, updating its Value Text, and setting its Elevation to None, we should have something similar to this.
+2.  次に List/Custom/Blocks/Image Content を Primary Action Group に挿入し、同じグループ内で一番上に Badge を追加します。Item サイズに基づいて画像をサイズ変更し、コンテンツを選択します。Badge を変更し、Value Text を更新し、Elevation を None に設定すると、以下のようになります。
 
     <img class="responsive-img" src="../images/list_item_custom_layout2.png" srcset="../images/list_item_custom_layout2@2x.png 2x" />
 
