@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Footer
 
-Use the Footer Pattern to display a website's essential content such as site pages, a privacy policy, terms of service, social media links, subscription form, etc. in a consistent view. The Footer content can be structured in a vertical or horizontal layout and lays at the bottom of the page. A Footer Patterns for desktop and mobile devices are provided.
+Use the Footer Pattern to display a website's complementary content such as site pages, a privacy policy, terms of service, social media links, subscription form, etc. in an unobtrusive and consistent way. Its content can be laid out vertically or horizontally and sits at the bottom of the page. Footer Patterns suitable for desktop and mobile device screen sizes are provided.
 
 <img class="responsive-img" src="../images/footer_desktop_demo.png" srcset="../images/footer_desktop_demo@2x.png 2x" />
 <img class="responsive-img" src="../images/footer_mobile_demo.png" srcset="../images/footer_mobile_demo@2x.png 2x" />
