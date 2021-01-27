@@ -99,30 +99,42 @@
       new: true
     - name: Calendar
       href: ../components/calendar.md
-    - name: Cards
-      href: ../components/cards.md
+    - name: Card
+      href: ../components/card.md
       items:
-        - name: Custom Card
-          href: ../components/cards-custom.md
+        - name: Skeleton Card
+          href: ../components/card-skeleton.md
+          new: true
     - name: Carousel
       href: ../components/carousel.md
+    - name: Charts
+      items:
+        - name: Column Chart
+          href: ../components/column-chart.md
+          new: true
+        - name: Line Chart
+          href: ../components/line-chart.md
+          new: true
+        - name: Spline Chart
+          href: ../components/spline-chart.md
+          new: true
+        - name: Step Line Chart
+          href: ../components/step-line-chart.md
+          new: true
+    - name: Gauges
+      items:
+        - name: Bullet Graph
+          href: ../components/bullet-graph.md
+        - name: Linear Gauge
+          href: ../components/linear-gauge.md
+        - name: Radial Gauge
+          href: ../components/radial-gauge.md
     - name: Checkbox
       href: ../components/checkbox.md
     - name: Chip and Chips Area
       href: ../components/chips.md
     - name: Combo
       href: ../components/combo.md
-    - name: Data Visualization
-      new: true
-      items:
-        - name: Bullet Graph
-          href: ../components/bullet-graph.md
-        - name: Category Chart
-          href: ../components/chart-category.md
-        - name: Linear Gauge
-          href: ../components/linear-gauge.md
-        - name: Radial Gauge
-          href: ../components/radial-gauge.md
     - name: Checkbox
       href: ../components/checkbox.md
     - name: Chip and Chips Area
@@ -138,57 +150,48 @@
       href: ../components/dropdown.md
     - name: Grid
       href: ../components/grid.md
-      new: true
       items:
         - name: Grid Toolbar
           href: ../components/grid-toolbar.md
-          new: true
         - name: Grid Export
           href: ../components/grid-export.md
-          new: true
         - name: Grid Group By
           href: ../components/grid-grouping.md
-          new: true
         - name: Grid Column Pinning
           href: ../components/grid-column-pinning.md
-          new: true
         - name: Grid Column Hiding
           href: ../components/grid-column-hiding.md
-          new: true
         - name: Grid Column Moving
           href: ../components/grid-column-moving.md
-          new: true
         - name: Grid Column Resizing
           href: ../components/grid-column-resizing.md
-          new: true
         - name: Grid Sorting
           href: ../components/grid-sorting.md
-          new: true
         - name: Grid Row Filter
           href: ../components/grid-row-filter.md
-          new: true
         - name: Grid Excel Style Filter
           href: ../components/grid-excel-style-filter.md
-          new: true
         - name: Grid Row Selection
           href: ../components/grid-row-selection.md
-          new: true
         - name: Grid Editing
           href: ../components/grid-editing.md
-          new: true
         - name: Grid Display Density
           href: ../components/grid-display-density.md
-          new: true
         - name: Grid Paging
           href: ../components/grid-paging.md
-          new: true
         - name: Grid Summaries
           href: ../components/grid-summaries.md
+        - name: Skeleton Grid
+          href: ../components/grid-skeleton.md
+          new: true
     - name: Hyperlink
       href: ../components/hyperlink.md
     - name: Hierarchical Grid
       href: ../components/hierarchical-grid.md
-      new: true
+      items:
+        - name: Skeleton Hierarchical Grid
+          href: ../components/hierarchical-grid-skeleton.md
+          new: true
     - name: Icon
       href: ../components/icon.md
     - name: Input
@@ -198,6 +201,9 @@
       href: ../components/list.md
       new: true
       items:
+        - name: Skeleton List
+          href: ../components/list-skeleton.md
+          new: true
         - name: Custom List Item
           href: ../components/list-custom.md
     - name: Navbar
@@ -227,7 +233,10 @@
       href: ../components/tooltip.md
     - name: Tree Grid
       href: ../components/tree-grid.md
-      new: true
+      items:
+        - name: Skeleton Tree Grid
+          href: ../components/tree-grid-skeleton.md
+          new: true
 - name: Patterns
   href: ../patterns/patterns-overview.md
   items:
@@ -235,8 +244,6 @@
       href: ../patterns/av.md
     - name: Avatar + Badge
       href: ../patterns/avatar-badge.md
-    # - name: Card Collection
-    #   href: ../patterns/card-collection.md
     - name: Bar
       href: ../patterns/bar.md
       new: true
@@ -269,7 +276,7 @@
     - name: Onboarding
       href: ../patterns/onboarding.md
       new: true
-    - name: Pricing Plan
+    - name: Pricing Table
       href: ../patterns/pricing-plan.md
       new: true
     - name: Scheduler

@@ -64,7 +64,7 @@ Button のコンテンツにラベルを含む場合、大文字を太文字 (Me
 関連トピック:
 
 - [Button Group](button-group.md)
-- [Cards](cards.md)
+- [Card](card.md)
 - [Dialog](dialog.md)
 - [Snackbar](snackbar.md)
 - [Time Picker](time-picker.md)

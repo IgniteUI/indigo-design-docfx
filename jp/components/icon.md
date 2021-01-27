@@ -44,7 +44,7 @@ Icon の色は、背景とのコントラストが高い色を選択し、同色
 
 - [マテリアル アイコン](../style/material-icons.md)
 - [Bottom Navigation](bottom-nav.md)
-- [Card](cards.md)
+- [Card](card.md)
 - [Navbar](navbar.md)
 - [Navigation Drawer](nav-drawer.md)
 - [Tabs](tabs.md)
