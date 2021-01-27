@@ -1,6 +1,6 @@
 ---
 title: Footer - Design System Pattern
-_description: The Footer Pattern displays a website's essential content in a consistent view laid at the bottom of the page.
+_description: The Footer Pattern displays a website's complementary content in a consistent view laid at the bottom of the page.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
