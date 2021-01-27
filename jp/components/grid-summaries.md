@@ -1,7 +1,7 @@
 ﻿---
 title: Grid 集計 - グリッド
 _description: Grid 集計は、すべてのデータで算出した集計値を各 Grid 列に示します。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, Grid 機能, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 

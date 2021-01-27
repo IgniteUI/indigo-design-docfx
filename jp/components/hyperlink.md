@@ -1,7 +1,7 @@
 ﻿---
 title: Hyperlink - デザイン システム コンポーネント
 _description: Hyperlink コンポーネント シンボルは、テキスト段落で参照を使用できます。
-_keywords: デザイン システム, Sketch, コンポーネント, UI Library, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
@@ -15,15 +15,19 @@ Hyperlink コンポーネント シンボルは、利用規約やプライバシ
 
 ## サイズ
 
-Hyperlink には段落のテキストに合わせて 2 サイズ (16pt Body 1 と 14pt Body 2) あります。
+Hyperlink には段落のテキストに合わせて 2 サイズ (Body 1 と Body 2) あります。
 
 <img class="responsive-img" src="../images/hyperlink_sizes.png" srcset="../images/hyperlink_sizes@2x.png 2x" />
 
+## Url
+
+URL オーバーライドを介してクリックしたときにハイパーリンクを開くリンクを指定します。これはデザインに表示されませんが、コード生成サービスによって考慮されます。
+
 ## スタイル設定
 
-Hyperlink は、デフォルトの青色と他の色に変更してスタイル ライブラリでスタイル設定できます。
+ハイパーリンクは、Indigo.Design ライブラリの 🧩 Components ページにある `Symbol Master` のテキストのデフォルトの青色を変更することでスタイルを設定できます。
 
-<img class="responsive-img" src="../images/calendar_styling.png" srcset="../images/calendar_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/hyperlink_styling.png" srcset="../images/hyperlink_styling@2x.png 2x" />
 
 ## 使用方法
 
@@ -33,42 +37,11 @@ Hyperlink テキスト色には段落で目立つ色を選択します。同じ�
 | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/hyperlink_do1.png" srcset="../images/hyperlink_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/hyperlink_dont1.png" srcset="../images/hyperlink_dont1@2x.png 2x" /> |
 
-## コードの生成
-
-ハイパーリンクに色やフォントを指定した場合、ハイパーリンク要素に適用される CSS クラスに直接適用されます。
-
-> [!WARNING]
-> デザインの Hyperlink のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Hyperlink のためのコード生成機能が失われます。
-
-### Event プロパティ
-
-このプロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に Angular クリック シグネチャーを追加します。波括弧構文 ({onEventName}) を使用してイベントを指定する必要があります。
-
-### LinkURL
-
-LinkURL を URL または[バインディング](../codegen/data-binding.md)に設定します。提供される場合、この値は HTML コントロールの href プロパティに割り当てます。
-
-- URL の例: http://www.infragistics.com
-- バインディングの例: {companyWebsite}
-
-### テキスト
-
-Text プロパティにテキスト、[テキストのバインディング](../codegen/data-binding.md)、または両方を含むことができます。例:
-
-- 設定
-- {settingsLabel}
-- 重要な {labelText}
-
-Text プロパティは Hyperlink に表示するテキストを埋めるために使用されます。
-
 ## その他のリソース
 
 関連トピック:
 
 - [Form パターン](../patterns/form.md)
-- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
-

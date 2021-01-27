@@ -1,7 +1,7 @@
 ﻿---
 title: Custom Cards - デザイン システム コンポーネント
 _description: Cards コレクションは、特別な Card タイプを含み、Custom レイアウトを作成できます。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 

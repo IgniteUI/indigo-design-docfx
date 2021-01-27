@@ -1,7 +1,7 @@
 ﻿---
 title: Gallery - デザイン システム パターン
 _description: Gallery パターン シンボルは画像グリッドを提供します。画像をアルバムにグループ化するヘッダーがあります。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, パターン, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 

@@ -1,7 +1,7 @@
 ﻿---
 title: Grid - デザイン システム コンポーネント
 _description: Grid コンポーネント シンボルは、表形式の大量のデータを表示し、インタラクティブに操作できます。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
@@ -41,7 +41,7 @@ _language: ja
 
 ## セル 表示密度
 
-ヘッダー、本体、および 集計セルは、グリッドの 3 つの表示密度バリアントをサポートします。以下のボディ セルに見られるように、それぞれに異なるシンボルが付いています:
+ヘッダー、本体、および 集計セルは、グリッドの 3 つの表示密度バリアントをサポートします。以下の本体セルに見られるように、それぞれに異なるシンボルが付いています:
 
 <img class="responsive-img" src="../images/grid_cell_body_comfortable.png" srcset="../images/grid_cell_body_comfortable@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_cosy.png" srcset="../images/grid_cell_body_cosy@2x.png 2x" />
