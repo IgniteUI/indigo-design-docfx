@@ -20,13 +20,13 @@ Use the Chat Pattern to display real-time messaging between two or more people w
 
 Related topics:
 
-- [Navbar](../components/navbar.md)
-- [Button](../components/button.md)
 - [Avatar](../components/avatar.md)
-- [Icon](../components/icon.md)
-- [List](../components/list.md)
-- [Input](../components/input.md)
 - [Badge](../components/badge.md)
+- [Button](../components/button.md)
+- [Icon](../components/icon.md)
+- [Input](../components/input.md)
+- [List](../components/list.md)
+- [Navbar](../components/navbar.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
