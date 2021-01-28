@@ -5,54 +5,54 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-# Skeleton Grid
+# Skeleton Grid (スケレトン グリッド)
 
-Use the Skeleton Grid to layout the same type of information that you would in the standard one, but to also indicate an application state when no data is present at the moment e.g. when data is loaded from a remote data source and there is either lack of connectivity, or it takes some time. The Skeleton Grid is just a visual representation of a [Grid](grid.md) with a known layout, but without any data to show.
+Skeleton Grid を使用して、標準の情報と同じタイプの情報をレイアウトしますが、現時点でデータが存在しない場合のアプリケーションの状態も示します。 たとえば、データがリモート データ ソースから読み込まれる際、接続が不足しているか、時間がかかる場合などです。Skeleton Grid は、既知のレイアウトの [Grid](grid.md) を視覚的に表したものですが、表示するデータはありません。
 
-## Grid Demo
+## Grid のデモ
 
 <img class="responsive-img" src="../images/grid_skeleton_demo.png" srcset="../images/grid_skeleton_demo@2x.png 2x" />
 
-## Cell Types
+## セル タイプ
 
-The Skeleton Grid supports the same three types of cells as the standard [Grid](grid.md): header, body, and summary.
+Skeleton Grid は、標準 [Grid](grid.md) と同じ 3 種類のセル (ヘッダー、本文、集計) をサポートします。
 
 <img class="responsive-img" src="../images/grid_skeleton_cell_header.png" srcset="../images/grid_skeleton_cell_header@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_body.png" srcset="../images/grid_skeleton_cell_body@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_summary.png" srcset="../images/grid_skeleton_cell_summary@2x.png 2x" />
 
-## Cell Display Density
+## セル 表示密度
 
-The Skeleton Header, Body, and Summary Cells support the same three display density variants as the standard [Grid](grid.md): comfortable, cosy, and compact.
+Skeleton のヘッダー、ボディ、および集計セルは、標準 [Grid](grid.md) と同じ 3 つの表示密度バリアント (comfortable、cosy、compact) をサポートします。
 
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_comfortable.png" srcset="../images/grid_skeleton_cell_header_comfortable@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_cosy.png" srcset="../images/grid_skeleton_cell_header_cosy@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_compact.png" srcset="../images/grid_skeleton_cell_header_compact@2x.png 2x" />
 
-## Items and Features (Header Cell)
+## 項目と機能 (ヘッダー セル)
 
-The Skeleton Grid supports the same feature configurations via the `Feature Left` and `Feature Right` overrides as the standard [Grid](grid.md).
+Skeleton Grid は、標準 [Grid](grid.md) と同じ機能構成を、`Feature Left` および `Feature Right` のオーバーライドを介してサポートします。
 
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_no-icon.png" srcset="../images/grid_skeleton_cell_header_no-icon@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_icon.png" srcset="../images/grid_skeleton_cell_header_icon@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_icons.png" srcset="../images/grid_skeleton_cell_header_icons@2x.png 2x" />
 
-## Cell Type
+## セル タイプ
 
-The Skeleton Grid Header Cell provides presets for the Number and Text,Date,Bool types of data as the standard [Grid](grid.md).
+Skeleton Grid ヘッダーセルは、標準 [Grid](grid.md) として、数値およびテキスト、日付、ブール型のデータのプリセットを提供します。
 
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_number.png" srcset="../images/grid_skeleton_cell_header_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_text.png" srcset="../images/grid_skeleton_cell_header_text@2x.png 2x" />
 
-The Skeleton Grid Body Cell provides presets for the same types of data like the Skeleton Grid Header Cell with an additional icon type to visualize simple graphics.
+Skeleton Grid 本体セルは、Skeleton Grid ヘッダー セルと同じデータ型のプリセットを提供し、単純なグラフィックスを視覚化する追加のアイコン タイプを含みます。
 
 <img class="responsive-img" src="../images/grid_skeleton_cell_body_number.png" srcset="../images/grid_skeleton_cell_body_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_body_text.png" srcset="../images/grid_skeleton_cell_body_text@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_body_icon.png" srcset="../images/grid_skeleton_cell_body_icon@2x.png 2x" />
 
-## Usage
+## 使用方法
 
-When creating grids, avoid combining standard and skeleton cells. Data is either present for all cells, or for none of them, thus the two types should not be used within the same grid layout.
+グリッドを作成するときは、標準セルとスケルトン セルを組み合わせないでください。データはすべてのセルに存在するか、いずれにも存在しないため、2 つのタイプを同じグリッド レイアウト内で使用しないでください。
 
 | 良い例                                                                                                | 悪い例                                                                                                 |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |

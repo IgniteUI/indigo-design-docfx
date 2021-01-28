@@ -5,56 +5,56 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-# Skeleton Tree Grid
+# Skeleton Tree Grid (スケレトン ツリー グリッド)
 
-Use the Skeleton Tree Grid to layout the same type of information that you would in the standard one, but to also indicate an application state when no data is present at the moment e.g. when data is loaded from a remote data source and there is either lack of connectivity, or it takes some time. The Skeleton Tree Grid is just a visual representation of a [Tree Grid](tree-grid.md) with a known layout, but without any data to show.
+Skeleton Tree Grid を使用して、標準の情報と同じタイプの情報をレイアウトしますが、現時点でデータが存在しない場合のアプリケーションの状態も示します。 たとえば、データがリモート データ ソースから読み込まれる際、接続が不足しているか、時間がかかる場合などです。Skeleton Tree Grid は、既知のレイアウトの [Tree Grid](tree-grid.md) を視覚的に表したものですが、表示するデータはありません。
 
-## Skeleton Tree Grid Demo
+## Skeleton Tree Grid のデモ
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_demo.png" srcset="../images/tree_grid_skeleton_demo@2x.png 2x" />
 
-## Cell Types
+## セル タイプ
 
-The Skeleton Tree Grid extends the three types of skeleton cells Header, Body, and Summary with an additional one as the standard [Tree Grid](tree-grid.md): TreeColumn cell.
+Skeleton Tree Grid は、Header (ヘッダー)、Body (本文)、Summary (集計) の 3 種類のスケルトン セルを拡張し、標準の [Tree Grid](tree-grid.md) として 1 つの追加の TreeColumn セルを追加します。
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_column_cell.png" srcset="../images/tree_grid_skeleton_column_cell@2x.png 2x" />
 
-## Cell Display Density
+## セル 表示密度
 
-The Skeleton Tree Grid TreeColumn cell supports the same three display density variants as the standard [Tree Grid](tree-grid.md): comfortable, cosy, and compact.
+Skeleton Tree Grid の TreeColumn セルは、標準の [Tree Grid](tree-grid.md) と同じ 3 つの表示密度バリアント (comfortable、cosy、compact) をサポートします。
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_comfortable.png" srcset="../images/tree_grid_skeleton_column_cell_comfortable@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_cosy.png" srcset="../images/tree_grid_skeleton_column_cell_cosy@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_compact.png" srcset="../images/tree_grid_skeleton_column_cell_compact@2x.png 2x" />
 
-## Cell Depth
+## Cell の深さ
 
-The Skeleton Tree Grid TreeColumn cell supports the same visual indication for the level of the data hierarchy as the standard [Tree Grid](tree-grid.md): Root Level, Child Level or Grandchild Level.
+Skeleton Tree Grid の TreeColumn セルは、データ階層のレベルについて、標準の [Tree Grid](tree-grid.md) と同じ視覚的表示をサポートします。 これは、Root Level (ルート レベル)、Child Level (子レベル)、または Grandchild Level (孫レベル) です。
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_cell_body_root_level.png" srcset="../images/tree_grid_skeleton_cell_body_root_level@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_skeleton_cell_body_child_level.png" srcset="../images/tree_grid_skeleton_cell_body_child_level@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_skeleton_cell_body_grandchild_level.png" srcset="../images/tree_grid_skeleton_cell_body_grandchild_level@2x.png 2x" />
 
-## Grid Types
+## Grid タイプ
 
-The Skeleton Tree Grid supports the three display densities and offers variants for each of them with regard to the state of loading data: Initial which is shown when the Tree Grid is loading data and there are no expanded root-level rows, and Expand which is shown when a root level gets expanded and starts loading data for its children.
+Skeleton Tree Grid は、3 つの表示密度をサポートし、データの読み込み状態に関してそれぞれのバリエーションを提供します: TreeGrid がデータを読み込むとき、拡張されたルート レベルの行がない場合に表示される Initial と、ルート レベルが展開され、その子のデータの読み込みを開始すると表示される Expand。
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_initial.png" srcset="../images/tree_grid_skeleton_initial@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_skeleton_expand.png" srcset="../images/tree_grid_skeleton_expand@2x.png 2x" />
 
-## Usage
+## 使用方法
 
-When creating tree grids, avoid combining standard and skeleton cells within the same hierarchy level. Data is either present for all rows and cells on a given level, or for none of them. Combining standard and skeleton cells is appropriate only in a very limited set of use cases such as the presets explained above.
+ツリー グリッドを作成するときは、同じ階層レベル内で標準セルとスケルトン セルを組み合わせないでください。データは、特定のレベルのすべての行とセルに存在するか、いずれにも存在しません。標準セルとスケルトン セルの組み合わせは、上記で説明したプリセットなど、非常に限られたユース ケースのセットでのみ適切です。
 
-| Do                                                                                                | Don't                                                                                                 |
+| 良い例                                                                                                | 悪い例                                                                                                 |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/tree_grid_skeleton_do1.png" srcset="../images/tree_grid_skeleton_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/tree_grid_skeleton_dont1.png" srcset="../images/tree_grid_skeleton_dont1@2x.png 2x" /> |
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Tree Grid](tree-grid.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
