@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Chat
 
-Use the Chat Pattern to display real-time bidirectional messaging between two or more people within an application in different scenarios such as social networks, e-commerce apps, business apps, etc. Chat Patterns suitable for mobile, desktop, and web applications are provided.
+Use the Chat Pattern to display real-time messaging between two or more people within an application in different scenarios such as social networks, e-commerce apps, business apps, etc. Chat Patterns suitable for mobile, desktop, and web applications are provided.
 
 <img class="responsive-img" src="../images/chat_mobile_demo.png" srcset="../images/chat_mobile_demo@2x.png 2x" />
 <img class="responsive-img" src="../images/chat_desktop_demo.png" srcset="../images/chat_desktop_demo@2x.png 2x" />
