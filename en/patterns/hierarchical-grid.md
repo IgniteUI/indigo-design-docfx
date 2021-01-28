@@ -33,9 +33,9 @@ All Grid features are applicable to each child and parent Grid.
 
 
 > [!WARNING]
-> After inserting the Hierarchical Grid Pattern, you should trigger `Detach from Symbol` to break it down to the Components and Grid symbols that are used to create the layout in order to be able to generate it as Angular code. The individual Components and Grid symbols, however, must stay intact and not be detached!
+> After inserting the Hierarchical Grid Pattern, you should trigger `Detach from Symbol` to break it down to the Components and Grid Features that are used to create the layout in order to be able to generate it as Angular code. The individual Components and Features, however, must stay intact and not be detached!
 
-<img class="responsive-img" src="../images/hierarchical_grid_detach.png" />
+<img class="responsive-img" src="../images/hierarchical_grid_detach.png" srcset="../images/hierarchical_grid_detach@2x.png 2x" />
 
 ## Additional Resources
 
