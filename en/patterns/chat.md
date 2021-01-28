@@ -1,6 +1,6 @@
 ---
 title: Chat - Design System Pattern
-_description: The Chat Pattern combines various components to display real-time bidirectional messaging between two or more people within an application.
+_description: The Chat Pattern combines various components to display real-time messaging between two or more people.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
