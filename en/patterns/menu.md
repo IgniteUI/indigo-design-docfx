@@ -26,8 +26,15 @@ The Menu presets are grouped according to their orientation into Horizontal and 
 
 Related topics:
 
-- [Input](../components/input.md)
 - [Avatar](../components/avatar.md)
+- [Badge](../components/badge.md)
+- [Bottom Navigation](../components/bottom-nav.md)
+- [Button](../components/button.md)
+- [Dropdown](../components/dropdown.md)
+- [Icon](../components/icon.md)
+- [Input](../components/input.md)
+- [Navigation Drawer](../components/nav-drawer.md)
+- [Tooltip](../components/tooltip.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
