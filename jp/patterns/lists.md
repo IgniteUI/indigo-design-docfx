@@ -28,7 +28,7 @@ Group of Items List パターンを使用して、グループ化されたまた
 <img class="responsive-img" src="../images/list_with_avatars.png" srcset="../images/list_with_avatars@2x.png 2x" />
 
 > [!WARNING]
-> 利用可能な任意の List パターンを挿入後、Angular コードとして生成するには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。Illustrations used inside some of these Patterns will not appear in the generated code - the Illustration itself has to be added after that manually. The individual List Items and Components such as Inputs, Avatars, and Navigation elements must stay intact and not be detached!
+> 利用可能な任意の List パターンを挿入後、Angular コードとして生成するには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。これらのパターンの一部で使用されているイラストレーションは、生成されたコードには表示されません。その後、イラストレーション自体を手動で追加する必要があります。Input、Avatar、Navigation 要素などの個々の List 項目とコンポーネントをデタッチしないでください。
 
 <img class="responsive-img" src="../images/lists_detach.png" srcset="../images/lists_detach@2x.png 2x" />
 <img class="responsive-img" src="../images/lists_horizontal_vertical_detach.png" srcset="../images/lists_horizontal_vertical_detach@2x.png 2x" />

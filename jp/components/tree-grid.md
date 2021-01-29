@@ -33,7 +33,7 @@ _language: ja
 
 通常の Header、Body 、Summary セルをさまざまなタイプのデータに使用し、さまざまなツリー グリッド機能を有効にするように構成する方法を理解するには、[Grid](grid.md) トピックを参照してください。
 
-## セル 表示密度
+## セル表示密度
 
 TreeColumn セルは、Tree Gridの 3 つの表示密度バリアント (comfortable、cosy、compact) をサポートします。
 
@@ -41,9 +41,9 @@ TreeColumn セルは、Tree Gridの 3 つの表示密度バリアント (comfort
 <img class="responsive-img" src="../images/tree_grid_column_cell_cosy.png" srcset="../images/tree_grid_column_cell_cosy@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_column_cell_compact.png" srcset="../images/tree_grid_column_cell_compact@2x.png 2x" />
 
-## Cell Depth
+## Cell の深さ
 
-The Tree Grid TreeColumn cell provides a visual indication for the level of the data hierarchy via the `Level` override, which can be set to **Root Level**, Child Level or Grandchild Level.
+Tree Grid の TreeColumn セルは、`Level` オーバーライドを介してデータ階層のレベルを視覚的に示します。これは、**Root Level** (ルート レベル)、Child Level (子レベル)、または Grandchild Level (孫レベル) に設定できます。
 
 <img class="responsive-img" src="../images/tree_grid_cell_body_root_level.png" srcset="../images/tree_grid_cell_body_root_level@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_cell_body_child_level.png" srcset="../images/tree_grid_cell_body_child_level@2x.png 2x" />

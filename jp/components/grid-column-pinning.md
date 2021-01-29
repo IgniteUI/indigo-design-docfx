@@ -15,15 +15,15 @@ Grid 列ピン固定は、スクロール可能なグリッドで最初の数列
 
 ## ヘッダー セル機能
 
-To indicate a column as pinnable, use the `Column Pinning` override of the Grid Header Cell for that column and change the default value from **Not Pinned** to Pinned. This is what marks the column as pinnable as far as code generation is concerned.
+列をピン固定可能として示すには、その列の Grid ヘッダー セルの `Column Pinning` オーバーライドを使用し、デフォルト値を **Not Pinned** (ピン固定されていない) から Pinned (ピン固定されている) に変更します。コード生成には、これにより列をピン固定可能としてマークします。
 
-The Built-In Column Pinning can be used through the Grid's toolbar which by default contains a button (combined with a combo dropdown) that lets you configure the pin state of the columns for the whole grid.
+組み込みの列の固定は、Grid のツールバーから使用できます。このツールバーには、デフォルトで、グリッド全体の列のピン固定状態を構成できるボタン (コンボ ドロップダウンと組み合わせて) が含まれています。
 
 <img class="responsive-img" src="../images/grid_column_pinning_built_in.png" srcset="../images/grid_column_pinning_built_in@2x.png 2x" />
 
-## Custom Column Pinning
+## カスタム列ピン固定
 
-It is also possible to add a custom pining action in the Grid Header Cell by using either the `Feature Left` or `Feature Right` overrides and setting it to `Icon Template`. This way an icon will appear to indicate the column is pinned and you can change its state from pin to unpin icon from Icon override. Of course, you would probably also want to rearrange the column order so that the pinned ones come first when looking left to right.
+`Feature Left` または `Feature Right` オーバーライドを使用して `Icon Template` に設定することにより、Grid ヘッダー セルにカスタムピン固定操作を追加することもできます。このようにして、列がピン固定されていることを示すアイコンが表示され、Icon のオーバーライドからアイコンのピン固定を解除できます。もちろん、左から右に見るときにピン固定されたものが最初に来るように、列の順序を並べ替えることもできます。
 
 ## セルの右境界線
 

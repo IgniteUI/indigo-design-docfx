@@ -1,6 +1,6 @@
 ---
 title: Skeleton Grid - デザイン システム コンポーネント
-_description: The Skeleton Grid is a representation of a Grid component that is shown while data is being loaded in the background to provide content for its cells.
+_description: Skeleton Grid は、セルにコンテンツを提供するためにデータがバックグラウンドで読み込まれているときに表示される Grid コンポーネントです。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
@@ -21,7 +21,7 @@ Skeleton Grid は、標準 [Grid](grid.md) と同じ 3 種類のセル (ヘッ�
 <img class="responsive-img" src="../images/grid_skeleton_cell_body.png" srcset="../images/grid_skeleton_cell_body@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_summary.png" srcset="../images/grid_skeleton_cell_summary@2x.png 2x" />
 
-## セル 表示密度
+## セル表示密度
 
 Skeleton のヘッダー、ボディ、および集計セルは、標準 [Grid](grid.md) と同じ 3 つの表示密度バリアント (comfortable、cosy、compact) をサポートします。
 

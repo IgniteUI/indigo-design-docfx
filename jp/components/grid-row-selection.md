@@ -15,7 +15,7 @@ Grid 行選択を使用して、Grid の左端の列として表示されるチ�
 
 ## 行選択列
 
-Grid 行選択は、最初の列の左側に追加の列を作成し、そのヘッダーと本体セルの `Type` を `Row Selection` に設定することで実現できます。選択した行では、行のチェックボックスの状態を `On` に設定して、ヘッダーのチェックボックスの状態を `Indeterminate` に設定する必要があります。If all rows are selected, the state of row checkbox and the header have to be set to `On`.
+Grid 行選択は、最初の列の左側に追加の列を作成し、そのヘッダーと本体セルの `Type` を `Row Selection` に設定することで実現できます。選択した行では、行のチェックボックスの状態を `On` に設定して、ヘッダーのチェックボックスの状態を `Indeterminate` に設定する必要があります。すべての行を選択した場合は、行の状態チェックボックスとヘッダーを `On` に設定する必要があります。
 
 <img class="responsive-img" src="../images/grid_row_selection.png" srcset="../images/grid_row_selection@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_row_selection_all.png" srcset="../images/grid_row_selection_all@2x.png 2x" />

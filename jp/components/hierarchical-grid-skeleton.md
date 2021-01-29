@@ -5,49 +5,49 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-# Skeleton Hierarchical Grid
+# Skeleton Hierarchical Grid (スケルトン階層グリッド)
 
-Use the Skeleton Hierarchical Grid to layout the same type of information that you would in the standard one, but to also indicate an application state when no data is present at the moment e.g. when data is loaded from a remote data source and there is either lack of connectivity, or it takes some time. The Skeleton Hierarchical Grid is just a visual representation of a [Hierarchical Grid](hierarchical-grid.md) with a known layout, but without any data to show.
+Skeleton Hierarchical Grid を使用して、標準の情報と同じタイプの情報をレイアウトしますが、現時点でデータが存在しない場合のアプリケーションの状態も示します。 たとえば、データがリモート データ ソースから読み込まれる際、接続が不足しているか、時間がかかる場合などです。Skeleton Hierarchical Grid は、既知のレイアウトの [Hierarchical Grid](hierarchical-grid.md) を視覚的に表したものですが、表示するデータはありません。
 
-## Skeleton Hierarchical Grid Demo
+## Skeleton Hierarchical Grid のデモ
 
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_demo.png" srcset="../images/hierarchical_grid_skeleton_demo@2x.png 2x" />
 
-## Cell Types
+## セル タイプ
 
-The Skeleton Hierarchical Grid extends the three types of skeleton cells Header, Body, and Summary with two additional ones as the standard [Hierarchical Grid](hierarchical-grid.md): CollapseAll and Expand.
+Skeleton Hierarchical Grid は、Header (ヘッダー)、Body (本文)、Summary (集計) の 3 種類のスケルトン セルを拡張し、標準の [Hierarchical Grid](hierarchical-grid.md) として 2 つの追加のセル、CollapseAll (すべて縮小) と Expand (展開) を追加します。
 
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header.png" srcset="../images/hierarchical_grid_skeleton_cell_header@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_body.png" srcset="../images/hierarchical_grid_skeleton_cell_body@2x.png 2x" />
 
-## Cell Display Density
+## セル表示密度
 
-The Skeleton CollapseAll and Expand cells support the same three display density variants as the standard [Hierarchical Grid](hierarchical-grid.md): comfortable, cosy, and compact.
+Skeleton Collapse Allセルと Expand セルは、標準の [Hierarchical Grid](hierarchical-grid.md) と同じ 3 つの表示密度のバリエーション (comfortable、cosy、compact) をサポートします。
 
 <img class="responsive-img" src="../images/hierarchical_grid__skeleton_cell_header_comfortable.png" srcset="../images/hierarchical_grid__skeleton_cell_header_comfortable@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_cosy.png" srcset="../images/hierarchical_grid_skeleton_cell_header_cosy@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_compact.png" srcset="../images/hierarchical_grid_skeleton_cell_header_compact@2x.png 2x" />
 
-## Grid Types
+## Grid タイプ
 
-The Skeleton Hierarchical Grid supports the three display densities and offers variants for each of them with regard to the state of loading data: Initial which is shown when the Hierarchical Grid is loading data and there is no expanded row with a nested grid, and Expand which is shown when only the nested grid is loading data.
+Skeleton Hierarchical Grid は、3 つの表示密度をサポートし、データの読み込み状態に関してそれぞれのバリエーションを提供します: Hierarchical Grid がデータを読み込むとき、ネストされたグリッドを持つ展開された行がない場合に表示される Initial と、ネストされたグリッドのみがデータを読み込んでいるときに表示される Expand。
 
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_initial.png" srcset="../images/hierarchical_grid_skeleton_initial@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_expand.png" srcset="../images/hierarchical_grid_skeleton_expand@2x.png 2x" />
 
-## Usage
+## 使用方法
 
-When creating hierarchical grids, avoid combining standard and skeleton cells within the same hierarchy level. Data is either present for all cells and grids on a given level, or for none of them. Combining standard and skeleton cells is appropriate only in a very limited set of use cases such as the presets explained above.
+階層グリッドを作成するときは、同じ階層レベル内で標準セルとスケルトン セルを組み合わせないでください。データは、特定のレベルのすべてのセルとグリッドに存在するか、いずれにも存在しません。標準セルとスケルトン セルの組み合わせは、上記で説明したプリセットなど、非常に限られたユース ケースのセットでのみ適切です。
 
-| Do                                                                                                | Don't                                                                                                 |
+| 良い例                                                                                                | 悪い例                                                                                                 |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/hierarchical_grid_skeleton_do1.png" srcset="../images/hierarchical_grid_skeleton_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/hierarchical_grid_skeleton_dont1.png" srcset="../images/hierarchical_grid_skeleton_dont1@2x.png 2x" /> |
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Hierarchical Grid](hierarchical-grid.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。

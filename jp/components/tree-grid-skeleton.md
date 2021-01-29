@@ -1,6 +1,6 @@
 ---
 title: Skeleton Tree Grid - デザイン システム コンポーネント
-_description: The Skeleton Tree Grid is a representation of a Tree Grid component that is shown while hierarchical data is being loaded in the background to provide content for its cells in a tabular fashion.
+_description: Skeleton Tree Grid は、階層データがバックグラウンドで読み込まれているときに表示される Tree Grid コンポーネントであり、セルに表形式でコンテンツを提供します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---

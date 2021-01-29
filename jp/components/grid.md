@@ -55,7 +55,7 @@ Grid ヘッダー セルは、`Items` のオーバーライドでさまざまな
 
 ## 状態とグリッド機能 (本体セル)
 
-Grid 本体セルは、以下のインタラクティブな状態をサポートします: 標準状態の **Inactive**、フォーカスのある/選択されたセルでは Active です。Only one cell in the whole grid can be active at any given moment.
+Grid 本体セルは、以下のインタラクティブな状態をサポートします: 標準状態の **Inactive**、フォーカスのある/選択されたセルでは Active です。任意の時間に、グリッド内の 1 つのセルだけをアクティブにすることができます。
 
 <img class="responsive-img" src="../images/grid_cell_body_cell-inactive.png" srcset="../images/grid_cell_body_cell-inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_cell-active.png" srcset="../images/grid_cell_body_cell-active@2x.png 2x" />
@@ -69,7 +69,7 @@ Grid 本体セルは、ヘッダーを介して `Grid Feature` のオーバー�
 
 ## セル タイプ
 
-Grid ヘッダー セルは、グリッドの対応に必要な一般的なデータ型のプリセットが 4 つあります。数値に使用する **Number**、the one combining Text,Date,Bool for the respective data types, Row Selection that is used for the first column when selection of multiple rows is desired, and Group By - used to expand and collapse grouped data rows.
+Grid ヘッダー セルは、グリッドが対応する必要のある 4 つの一般的なタイプのデータのプリセットを提供します: 数値の **Number**、それぞれのデータ タイプのテキスト、日付、ブールを組み合わせたもの、複数の行を選択する場合に最初の列に使用される Row Selection と、グループ化されたデータ行を展開および縮小するために使用される Group By。
 
 <img class="responsive-img" src="../images/grid_cell_header_number.png" srcset="../images/grid_cell_header_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />
@@ -93,7 +93,7 @@ Grid 本体セルは、ヘッダー セルの同じ一般的なデータ型の�
 
 <img class="responsive-img" src="../images/grid_horizontal_scroll_masked.png" srcset="../images/grid_horizontal_scroll_masked@2x.png 2x" />
 
-これでグリッド グループがマスクのディメンションを取得し、水平スクロールなしでグリッドを使用することと同じ方法でレイアウトで使用できます。このコンポーネントのコードが生成されると、マスクのディメンションを基準する水平スクロールバーが自動的に追加されます。
+これでグリッド グループがマスクのディメンションを取得し、水平スクロールなしでグリッドを使用することと同じ方法でレイアウトで使用できます。このコンポーネントのコードが生成されると、グリッドのディメンションとしてマスクのディメンションを基準とする水平スクロールバーが自動的に追加されます。
 
 ## スタイル設定
 

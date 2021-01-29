@@ -15,13 +15,13 @@ Grid ツールバーは、グリッド全体の外観と動作に影響するア
 
 ## レイアウト
 
-The Grid Toolbar uses Smart Layout in Sketch and has interchangeable default and custom actions, which gives absolute freedom to change its content and layout.
+Grid ツールバーは Sketch の Smart Layout を使用し、交換可能なデフォルト操作とカスタム操作を備えているため、コンテンツとレイアウトを完全に自由に変更できます。
 
 <img class="responsive-img" src="../images/grid_toolbar_layout.png" srcset="../images/grid_toolbar_layout@2x.png 2x" />
 
 ## スタイル設定
 
-The Grid Toolbar comes with styling flexibility through the various overrides for its Actions, as well as its title style and background color.
+Grid ツールバーには、アクションのさまざまなオーバーライド、タイトル スタイルおよび背景色により、スタイル設定は高い柔軟性があります。
 
 <img class="responsive-img" src="../images/grid_toolbar_styling.png" srcset="../images/grid_toolbar_styling@2x.png 2x" />
 
