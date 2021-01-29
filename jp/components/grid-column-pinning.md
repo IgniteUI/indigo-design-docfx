@@ -1,7 +1,7 @@
 ﻿---
 title: Grid 列ピン固定 - グリッド機能
 _description: Grid 列ピン固定は、スクロール可能なグリッドで選択された列をピン固定するための構造です。 
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, Grid 機能, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 

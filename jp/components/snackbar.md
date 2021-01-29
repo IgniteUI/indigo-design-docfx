@@ -1,7 +1,7 @@
 ﻿---
 title: Snackbar - デザイン システム コンポーネント
 _description: Snackbar コンポーネント シンボルは、短い通知やユーザーの最近の操作を示すことができます。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
@@ -15,7 +15,7 @@ Snackbar コンポーネント シンボルは、短い通知の表示やリス�
 
 ## スタイル設定
 
-Snackbar は、スタイル設定に制限があり操作ボタンのテキスト色のみ変更できます。
+Snackbar にはスタイルの柔軟性があり、メッセージのテキストの色、操作ボタン、背景色を変更できます。
 
 <img class="responsive-img" src="../images/snackbar_styling.png" srcset="../images/snackbar_styling@2x.png 2x" />
 
@@ -29,32 +29,5 @@ Snackbar は、その他のコンテンツの一番上に表示されるため�
 | <img class="responsive-img" src="../images/snackbar_do2.png" srcset="../images/snackbar_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/snackbar_dont2.png" srcset="../images/snackbar_dont2@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/snackbar_do3.png" srcset="../images/snackbar_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/snackbar_dont3.png" srcset="../images/snackbar_dont3@2x.png 2x" /> |
 
-## コードの生成
-
-Snackbar の色を指定した場合、Snackbar HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
-
-> [!WARNING]
-> デザインの Snackbar のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Snackbar のためのコード生成機能が失われます。
-
-### Event プロパティ
-
-`🕹️Event` プロパティは、コンポーネント TypeScript のメソッドを作成するために使用し、Snackbar の HTML に onAction シグネチャーを追加します。イベントが波括弧構文 ({onEventName}) を使用して指定する必要があります。
-
-### テキスト
-
-Message と Button に Text プロパティがあります。このプロパティにテキスト、[バインディング](../codegen/data-binding.md)、または両方を含むことができます。例:
-
-- 設定
-- {settingsLabel}
-- 重要な {labelText}
-
-## その他のリソース
-
-関連トピック:
-
-- [データ バインディング](../codegen/data-binding.md)
-  <div class="divider--half"></div>
-  
 コミュニティに参加して新しいアイデアをご提案ください。
-
 
