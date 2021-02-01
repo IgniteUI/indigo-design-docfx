@@ -55,7 +55,7 @@ Line Chart には、データ ポイントを Y 軸の値に視覚的にトレ�
 
 ## シリーズ量
 
-Line Chart には、チャート領域に描画される 1 つ、2 つ、および **3つ**のシリーズの選択が付属しています。これはエリア タイプにも当てはまります。
+Line Chart には、チャート領域に描画される 1 つ、2 つ、および **3 つ**のシリーズの選択が付属しています。これはエリア タイプにも当てはまります。
 
 <img class="responsive-img" src="../images/line_chart_one_series.png" srcset="../images/line_chart_one_series@2x.png 2x" />
 <img class="responsive-img" src="../images/line_chart_two_series.png" srcset="../images/line_chart_two_series@2x.png 2x" />

@@ -39,7 +39,7 @@ Radial Gauge は、範囲 (**full**、half、および quarter) を表示する�
 
 ## シリーズの厚さ
 
-Radial Gauge には、**Thick**と Thin の 2 種類のシリーズの厚さがあります。
+Radial Gauge には、**Thick** と Thin の 2 種類のシリーズの厚さがあります。
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_full-thin.png" srcset="../images/radial_gauge_full-thin@2x.png 2x" />
@@ -60,7 +60,7 @@ Radial Gauge のスタイル設定は高い柔軟性があり、背景色の制�
 
 ## 使用方法
 
-データ可視化や情報ダッシュボードの作成時では、スクリーンスペースの量に基づいて Linear と Radial Gauges のいずれかを選択します。Gauges は現在の値のみ表示し、過去の値を表示する方法はありません。アプリケーションでそのようなデータが必要な場合は Line or Column Chart を検討してください。
+データ可視化や情報ダッシュボードの作成時では、スクリーン スペースの量に基づいて Linear と Radial Gauges のいずれかを選択します。Gauges は現在の値のみ表示し、過去の値を表示する方法はありません。アプリケーションでそのようなデータが必要な場合は Line または Column Chart を検討してください。
 わかりやすく、鮮明なデータ可視化を簡単に作成するために Needle の色は範囲や背景と十分なコントラストのある色にし、読みにくい、解釈しずらい結果となる同じ色のバリアントは使用しないようにします。[Linear Gauge](linear-gauge.md) とは異なり、Radial Gauge コンポーネントは空スペースが十分あるため必要な情報を維持しながら Radial Gauges のコレクションを並べて配置できます。
 
 | 良い例                                                                                 | 悪い例                                                                                  |
