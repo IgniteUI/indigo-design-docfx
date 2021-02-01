@@ -250,6 +250,9 @@
       new: true
     - name: File Upload
       href: ../patterns/file-upload.md
+    - name: Footer
+      href: ../patterns/footer.md
+      new: true
     - name: Forms
       href: ../patterns/form.md
     - name: Grid
