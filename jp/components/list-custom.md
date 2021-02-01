@@ -20,7 +20,7 @@ Custom List Item はインアクティブ状態 (**標準状態**のインアク
 <img class="responsive-img" src="../images/list_item_custom_inactive.png" srcset="../images/list_item_custom_inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_custom_active.png" srcset="../images/list_item_custom_active@2x.png 2x" />
 
-## シンボルからデタッチ
+## Detach from Symbol (シンボルからデタッチ)
 
 List Item レイアウトをカスタマイズするには、`List/Custom/Item` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下の方にある `Detach from Symbol` オプションを選択します。新しく表示される `List/Custom/Item` グループの下のレイヤー パネルには以下があります。
 

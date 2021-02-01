@@ -53,7 +53,7 @@ Tree Grid の TreeColumn セルは、`Level` オーバーライドを介して�
 
 ツリー グリッド は、さまざま状態の各セル テキスト、アイコン、背景色のスタイル設定や右および下の境界線の非表示など柔軟に変更できます。
 
-<img class="responsive-img" src="../images/tgrid_styling.png" srcset="../images/tgrid_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_styling.png" srcset="../images/tree_grid_styling@2x.png 2x" />
 
 ## 使用方法
 

@@ -80,7 +80,7 @@ List および List Items には固有のデザインがありますが、List �
 | <img class="responsive-img" src="../images/list_do2.png" srcset="../images/list_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/list_dont2.png" srcset="../images/list_dont2@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/list_do3.png" srcset="../images/list_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/list_dont3.png" srcset="../images/list_dont3@2x.png 2x" /> |
 
-## シンボルからデタッチ
+## Detach from Symbol (シンボルからデタッチ)
 
 List は、本来インデックス付きの垂直コレクションとしてデータを表示する行のリピーターです。より多くの項目のリストをデザインする最も簡単な方法は、アートボードに List タイプのいずれかを挿入し、リストの上で右クリックし、コンテキストメニューの下部で `Detach from Symbol` を選択することです。新しく表示される _List/One-line Item List_ または _List/Two-line Item List_ グループの下のレイヤー パネルには、以下が表示されます。
 
