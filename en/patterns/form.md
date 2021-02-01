@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Form
 
-Use the Form Pattern to create meaningful application scenarios, where the collection of user input is necessary. The various data entry and display Components are used to constitute some of the most common and meaningful Forms.
+Use the Form Pattern to create meaningful application scenarios, where the collection of user input is necessary. The various data entry and display components are used to constitute some of the most common and meaningful forms.
 
 <img class="responsive-img" src="../images/form_demo.png" srcset="../images/form_demo@2x.png 2x" />
 
