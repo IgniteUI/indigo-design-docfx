@@ -49,12 +49,12 @@ There are two types of New Forms: Budget for filling the information necessary t
 
 There is an Address form, a Size Selection form, Simple and Advanced Search forms, Shipping form and a few types of Payment forms: some for Card payments and some for Transfers, like when you wire money through your online banking. The Transfer Form provides four different layouts: Currency Exchange, which has the necessary fields for currency conversion; Donation, which is suitable for charities; Between Accounts, which is usually the case for people holding multiple accounts in the same bank; and Between Banks, which is the common scenario for transferring money to another account under your or someone else's name.
 
-<img class="responsive-img" src="../images/form_card.png" srcset="../images/form_card@2x.png 2x" />
-<img class="responsive-img" src="../images/form_cash.png" srcset="../images/form_cash@2x.png 2x" />
-<img class="responsive-img" src="../images/form_donation.png" srcset="../images/form_donation@2x.png 2x" />
-<img class="responsive-img" src="../images/form_multiple_accounts.png" srcset="../images/form_multiple_accounts@2x.png 2x" />
+<img class="responsive-img" src="../images/form_address.png" srcset="../images/form_address@2x.png 2x" />
+<img class="responsive-img" src="../images/form_search.png" srcset="../images/form_search@2x.png 2x" />
 <img class="responsive-img" src="../images/form_money_transfer.png" srcset="../images/form_money_transfer@2x.png 2x" />
+<img class="responsive-img" src="../images/form_donation.png" srcset="../images/form_donation@2x.png 2x" />
 <img class="responsive-img" src="../images/form_illustrated_card.png" srcset="../images/form_illustrated_card@2x.png 2x" />
+<img class="responsive-img" src="../images/form_card.png" srcset="../images/form_card@2x.png 2x" />
 
 
 ## Feedback and Contact Forms
