@@ -247,6 +247,9 @@
     - name: Bar
       href: ../patterns/bar.md
       new: true
+    - name: Chat
+      href: ../patterns/chat.md
+      new: true
     - name: Checkbox Group
       href: ../patterns/checkbox-group.md
     - name: Data Visualizations
