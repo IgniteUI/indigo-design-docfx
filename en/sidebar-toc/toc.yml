@@ -288,6 +288,9 @@
     - name: Scheduler
       href: ../patterns/scheduler.md
       new: true
+    - name: Social Feed
+      href: ../patterns/social-feed.md
+      new: true
     - name: Tiles
       href: ../patterns/tiles.md
       new: true
