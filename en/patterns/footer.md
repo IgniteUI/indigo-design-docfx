@@ -4,7 +4,7 @@ _description: The Footer Pattern displays a website's complementary content in a
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-# Footer
+# Footers
 
 Use the Footer Pattern to display a website's complementary content such as site pages, a privacy policy, terms of service, social media links, subscription form, etc. in an unobtrusive and consistent way. Its content can be laid out vertically or horizontally and sits at the bottom of the page. Footer Patterns suitable for desktop and mobile device screen sizes are provided.
 
