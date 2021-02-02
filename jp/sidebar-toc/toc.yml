@@ -107,23 +107,34 @@
           new: true
     - name: Carousel
       href: ../components/carousel.md
+    - name: Charts
+      items:
+        - name: Column Chart
+          href: ../components/column-chart.md
+          new: true
+        - name: Line Chart
+          href: ../components/line-chart.md
+          new: true
+        - name: Spline Chart
+          href: ../components/spline-chart.md
+          new: true
+        - name: Step Line Chart
+          href: ../components/step-line-chart.md
+          new: true
+    - name: Gauges
+      items:
+        - name: Bullet Graph
+          href: ../components/bullet-graph.md
+        - name: Linear Gauge
+          href: ../components/linear-gauge.md
+        - name: Radial Gauge
+          href: ../components/radial-gauge.md
     - name: Checkbox
       href: ../components/checkbox.md
     - name: Chip と Chips Area
       href: ../components/chips.md
     - name: Combo
       href: ../components/combo.md
-    - name: Data Visualization
-      new: true
-      items:
-        - name: Bullet Graph
-          href: ../components/bullet-graph.md
-        - name: Category Chart
-          href: ../components/chart-category.md
-        - name: Linear Gauge
-          href: ../components/linear-gauge.md
-        - name: Radial Gauge
-          href: ../components/radial-gauge.md
     - name: Date Picker
       href: ../components/date-picker.md
       new: true
@@ -133,57 +144,48 @@
       href: ../components/dropdown.md
     - name: Grid
       href: ../components/grid.md
-      new: true
       items:
         - name: ツールバー
           href: ../components/grid-toolbar.md
-          new: true
         - name: エクスポート
           href: ../components/grid-export.md
-          new: true
         - name: グループ化
           href: ../components/grid-grouping.md
-          new: true
         - name: 列ピン固定
           href: ../components/grid-column-pinning.md
-          new: true
         - name: 列非表示
           href: ../components/grid-column-hiding.md
-          new: true
         - name: 列移動
           href: ../components/grid-column-moving.md
-          new: true
         - name: 列サイズ変更
           href: ../components/grid-column-resizing.md
-          new: true
         - name: 並べ替え
           href: ../components/grid-sorting.md
-          new: true
         - name: 行フィルター
           href: ../components/grid-row-filter.md
-          new: true
         - name: Excel スタイル フィルター
           href: ../components/grid-excel-style-filter.md
-          new: true
         - name: 行選択
           href: ../components/grid-row-selection.md
-          new: true
         - name: 編集
           href: ../components/grid-editing.md
-          new: true
         - name: 表示密度
           href: ../components/grid-display-density.md
-          new: true
         - name: ページング
           href: ../components/grid-paging.md
-          new: true
         - name: 集計
           href: ../components/grid-summaries.md
+        - name: Skeleton Grid
+          href: ../components/grid-skeleton.md
+          new: true
     - name: Hyperlink
       href: ../components/hyperlink.md
     - name: Hierarchical Grid
       href: ../components/hierarchical-grid.md
-      new: true
+      items:
+        - name: Skeleton Hierarchical Grid
+          href: ../components/hierarchical-grid-skeleton.md
+          new: true
     - name: Icon
       href: ../components/icon.md
     - name: Input
@@ -193,6 +195,9 @@
       href: ../components/list.md
       new: true
       items:
+        - name: Skeleton List
+          href: ../components/list-skeleton.md
+          new: true
         - name: Custom List Item
           href: ../components/list-custom.md
     - name: Navbar
@@ -222,7 +227,10 @@
       href: ../components/tooltip.md
     - name: Tree Grid
       href: ../components/tree-grid.md
-      new: true
+      items:
+        - name: Skeleton Tree Grid
+          href: ../components/tree-grid-skeleton.md
+          new: true
 - name: パターン
   href: ../patterns/patterns-overview.md
   items:
@@ -262,7 +270,7 @@
     - name: Onboarding
       href: ../patterns/onboarding.md
       new: true
-    - name: Pricing Plan
+    - name: Pricing Table
       href: ../patterns/pricing-plan.md
       new: true
     - name: Scheduler

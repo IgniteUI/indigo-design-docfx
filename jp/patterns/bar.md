@@ -17,14 +17,13 @@ Bar パターンには、ページの上部と下部に配置するための 2 �
 > [!WARNING]
 > 利用可能な任意の Bar をパターンとして挿入後、Angular コードとして生成できるには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。ただし、ボタンをデタッチしないでください。
 
-<img class="responsive-img" src="../images/bar_detach.png" />
+<img class="responsive-img" src="../images/bar_detach.png" srcset="../images/bar_detach@2x.png 2x" />
 
 ## その他のリソース
 
 関連トピック:
 
 - [Button](../components/button.md)
-- [Text](../components/text.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

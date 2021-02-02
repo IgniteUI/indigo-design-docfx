@@ -11,15 +11,12 @@ Checkbox Group パターンを使用すると、Checkbox 要素のコレクシ�
 
 <img class="responsive-img" src="../images/checkbox-group_demo.png" srcset="../images/checkbox-group_demo@2x.png 2x" />
 
-> [!Note]
-> 提供される項目より多い項目を作成する場合のみに Checkbox Group パターンのインスタンスで `Detach From Symbol` をトリガーします。
-
 Checkbox Group パターンは、含まれる Checkbox 要素のスタイル設定をカスタマイズできます。
 
 > [!WARNING]
-> Checkbox Group パターンを挿入した後、Angular コードとして生成するには、レイアウトを作成した Checkbox コンポーネントに分割するために `Detach from Symbol` をトリガーします。ただし、各 Checkbox コンポーネントをデタッチしないでください。
+> 提供されているよりも多くの Checkbox 項目を追加する必要がある場合にのみ、Checkbox Group パターンのインスタンスで `Detach from Symbol` をトリガーします。レイアウトの作成に使用される個々のチェックボックスをデタッチしないでください。
 
-<img class="responsive-img" src="../images/checkbox_group_detach.png" />
+<img class="responsive-img" src="../images/checkbox_group_detach.png" srcset="../images/checkbox_group_detach@2x.png 2x" />
 
 ## その他のリソース
 

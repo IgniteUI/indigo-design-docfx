@@ -9,7 +9,8 @@ _language: ja
 
 表形式データ レイアウトを設計する場合は、Grid パターン シンボルを代わりの開始ポイントとして使用します。すべての機能が構成されたコンポーネント ライブラリで提供される完全な Grid コンポーネントを提供します。
 
-以下に、Excel スタイル フィルター、並べ替え、表示密度を使用した Grid パターンを示します。
+Excel スタイル フィルター、並べ替え、表示密度を使用した Grid パターンを以下に示します:
+
 <img class="responsive-img" src="../images/grid.png" srcset="../images/grid@2x.png 2x" />
 
 すべてのグリッド機能のリスト:
@@ -33,7 +34,7 @@ _language: ja
 
 
 Grid パターン シンボルには、6 つの作成済み Grid 機能の組み合わせが付属しています。
-- 集計、列の移動、ページングを使用した Grid パターン
+- 列の移動、集計、ページングを使用した Grid パターン
 - 編集およびフィルター行を使用した Grid パターン
 - Excel スタイル フィルター、並べ替え、表示密度を使用した Grid パターン
 - グループ化、列サイズ変更、集計を使用した Grid パターン
@@ -42,9 +43,9 @@ Grid パターン シンボルには、6 つの作成済み Grid 機能の組み
 
 
 > [!WARNING]
-> Grid パターンを挿入した後、Angular コードとして生成できるには、レイアウトを作成したコンポーネントおよびグリッドシンボルに分割するために `Detach from Symbol` をトリガーします。ただし、各コンポーネントおよび Grid シンボルをデタッチしないでください。
+> Grid パターンを挿入した後、Angular コードとして生成できるには、レイアウトを作成したコンポーネントおよび Grid Features に分割するために `Detach from Symbol` をトリガーします。ただし、各コンポーネントおよび Grid Features をデタッチしないでください。
 
-<img class="responsive-img" src="../images/grid_detach.png" />
+<img class="responsive-img" src="../images/grid_detach.png" srcset="../images/grid_detach@2x.png 2x" />
 
 ## その他のリソース
 
