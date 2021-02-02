@@ -233,6 +233,9 @@
     - name: Bar
       href: ../patterns/bar.md
       new: true
+    - name: Chat
+      href: ../patterns/chat.md
+      new: true
     - name: Checkbox Group
       href: ../patterns/checkbox-group.md
     - name: Data Visualizations
@@ -243,6 +246,9 @@
       new: true
     - name: File Upload
       href: ../patterns/file-upload.md
+    - name: Footers
+      href: ../patterns/footer.md
+      new: true
     - name: Forms
       href: ../patterns/form.md
     - name: Grid
@@ -267,6 +273,9 @@
       new: true
     - name: Scheduler
       href: ../patterns/scheduler.md
+      new: true
+    - name: Social Feed
+      href: ../patterns/social-feed.md
       new: true
     - name: Tiles
       href: ../patterns/tiles.md
