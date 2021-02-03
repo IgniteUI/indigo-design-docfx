@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Dialogs
 
-Use the Dialogs Pattern to alert or give the user relevant information for an error or a system state that requires urgent user input. Dialogs are usually triggered by a user's action and should be displayed over the main content. It's best when dialogs are used sparingly as they are in a way distracting to the user.
+Use the Dialog Patterns to alert the users or give them relevant information for an error or a system state that requires urgent input or action. They are usually triggered by a user's action and should be displayed over the main content. Dialogs should be used sparingly as they interrupt the user in his experience with the product.
 
 <img class="responsive-img" src="../images/dialogs_demo.png" srcset="../images/dialogs_demo@2x.png 2x" />
 
@@ -29,4 +29,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
