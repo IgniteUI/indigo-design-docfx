@@ -7,7 +7,7 @@ _language: ja
 
 # Tree Grid (ツリー グリッド)
 
-グリッド内の子レコードと親レコードを使用して表形式データ レイアウトを設計する場合は、代替の開始ポイントとして Tree Grid パターン シンボルを使用します。すべての機能が構成されたコンポーネント ライブラリで提供される完全な Tree Grid コンポーネントを提供します。
+レコード間の親子関係を持つ表形式のデータ レイアウトを設計する場合は、代替の開始ポイントとして Tree Grid パターンを使用します。すべての機能が構成されたコンポーネント ライブラリで提供される完全な Tree Grid コンポーネントを提供します。
 
 <img class="responsive-img" src="../images/tree_grid.png" srcset="../images/tree_grid@2x.png 2x" />
 
@@ -34,9 +34,9 @@ _language: ja
 
 
 > [!WARNING]
-> Tree Grid パターンを挿入した後、Angular コードとして生成できるには、レイアウトを作成したコンポーネントおよび Grid シンボルに分割するために `Detach from Symbol` をトリガーします。ただし、各コンポーネントおよび Grid シンボルをデタッチしないでください。
+> Tree Grid パターンを挿入した後、Angular コードとして生成できるには、レイアウトを作成したコンポーネントおよび Grid Features に分割するために `Detach from Symbol` をトリガーします。ただし、各コンポーネントおよび Grid Features をデタッチしないでください。
 
-<img class="responsive-img" src="../images/tree_grid_detach.png" />
+<img class="responsive-img" src="../images/tree_grid_detach.png" srcset="../images/tree_grid_detach@2x.png 2x" />
 
 ## その他のリソース
 

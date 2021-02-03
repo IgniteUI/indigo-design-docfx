@@ -1,88 +1,71 @@
 ﻿---
-title: Custom Cards - デザイン システム コンポーネント
-_description: Cards コレクションは、特別な Card タイプを含み、Custom レイアウトを作成できます。
+title: Skeleton Card - デザイン システム コンポーネント
+_description: Skeleton Card は、カードのコレクションにコンテンツを提供するためにデータがバックグラウンドで読み込まれているときに表示される Card コンポーネントです。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
-# Custom Cards (カスタム カード)
+# Skeleton Card (スケルトン カード)
 
-Custom Card コンポーネントは、通常のカードと同じタイプの情報を表示しますが、レイアウトを自由に変更できます。Custom Card は、[Ignite UI for Angular Card コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/card.html)のレイアウトにカスタム コードを使用します。
+Skeleton Card コンポーネントを使用して、標準の情報と同じタイプの情報をレイアウトしますが、現時点でデータが存在しない場合のアプリケーションの状態も示します。 たとえば、データがリモート データ ソースから読み込まれる際、接続が不足しているか、時間がかかる場合などです。Skeleton Card は、既知のレイアウトの [Card](card.md) を視覚的に表したものですが、表示するデータはありません。
 
-## Custom Card デモ
+## Skeleton Card のデモ
 
-<img class="responsive-img" src="../images/card_custom_demo.png" srcset="../images/card_custom_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/card_skeleton_demo.png" srcset="../images/card_skeleton_demo@2x.png 2x" />
 
-## シンボルからデタッチ
+## 領域
 
-Card レイアウトをカスタマイズするには、`Cards/Custom` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下の方にある `Detach from Symbol` オプションを選択します。新しく表示される `Cards/Custom` グループの下のレイヤー パネルには以下があります。
+Skeleton Card は、標準の [Card](card.md) の `image` (画像)、`header` (ヘッダー)、`body` (本文)、および `actions` (操作) など、同じ 4 つの領域をサポートしています。  
 
-| レイヤー                   | 使用                                                                                                                           |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| 🚫 igx-card/custom         | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
-| Custom Card                | Card レイアウト要素をグループ化                                                                                                |
-| &nbsp;&nbsp; Card Area     | Card レイアウト要素をグループ化                                                                                                |
-| &nbsp;&nbsp; 🌈 Background | カードの背景色を定義                                                                                                           |
-| &nbsp;&nbsp; Mask          | `Radius` レイヤー プロパティを調整してカードの角を丸くします。                                                                 |
-| &nbsp;&nbsp; Elevation     | カード コレクション背景に薄いシャドウをドロップします。                                                                        |
-| 🕹️DataProperty             | データ バインディングのコード生成で使用されます。                                                                                    |
+## 画像と本文
 
-### スタイル設定
+スケルトン画像と本文領域は、ショートカットの配列、標準の [Card](card.md) で使用可能なマップもカバーする画像、または段落のいずれかのオーバーライドをサポートします。
 
-Custom Card は、スタイルに高い柔軟性があり、テキスト、ボタン、背景色などのさまざまなオーバーライドによって通常の Card とマッチすることができます。シンボルからでタッチを使用して角丸やエレベーション レベルなどを追加で制御できます。
+<img class="responsive-img" src="../images/card_skeleton_media.png" srcset="../images/card_skeleton_media@2x.png 2x" />
 
-<img class="responsive-img" src="../images/card_custom_styling.png" srcset="../images/card_custom_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/card_skeleton_body.png" srcset="../images/card_skeleton_body@2x.png 2x" />
 
-| レイヤー             | 使用                            |
-| -------------------- | ------------------------------- |
-| Card Area            | Card レイアウト要素をグループ化 |
-| &nbsp;&nbsp; Header  | Card レイアウト要素をグループ化 |
-| &nbsp;&nbsp; Content | Card レイアウト要素をグループ化 |
-| &nbsp;&nbsp; Actions | Card レイアウト要素をグループ化 |
+## ヘッダー
 
-### レイアウト
+スケルトン ヘッダーは、標準の [Card](card.md) のヘッダーと一致しています。
 
-以下は、上記の天気 Card の複雑なレイアウトを 5 つのシンプルなステップで作成する方法です。空 Artboard に Custom Card をドラッグし、`Detach from Symbol` を選択して、背景色、角の半径、開始ポイントに必要なエレベーションを変更してベーシック スタイルを適用します。
+<img class="responsive-img" src="../images/card_skeleton_header.png" srcset="../images/card_skeleton_header@2x.png 2x" />
 
-<img class="responsive-img" src="../images/card_custom_layout0.png" srcset="../images/card_custom_layout0@2x.png 2x" />
+## 操作
 
-1.  Header Style を再利用して Title と Subtitle Text の文字列を更新します。Content グループは後にして Actions Style へ移動します。ここでは、デフォルトで含まれる Icon Actions ではなく Button Actions へ変更します。最後に Left Button テキストを更新し、none に設定して Right Button を非表示にします。
+スケルトン操作には、標準の [Card](card.md) と同じ 6 つのレイアウトがあります。これらは Sketch の `Smart Layout` としても定義されており、要素を ~No Symbol に設定して削除し、残りを目的のレイアウトに自動的に調整できます。
 
-  <img class="responsive-img" src="../images/card_custom_layout1.png" srcset="../images/card_custom_layout1@2x.png 2x" />
+<img class="responsive-img" src="../images/card_skeleton_actions_buttons_icons.png" srcset="../images/card_skeleton_actions_buttons_icons@2x.png 2x" />
 
-2.  Content に戻り、天気予報のレイアウトを作成します。はじめに Cards/Blocks/Header/Large Title (Card 領域グループですべてのブロック タイプを使用可能) を挿入し、タイトルを H1 Size に更新して、シンボルをタイトルおよびサブタイトルの両方を表示するためにサイズ変更します。文字列値を更新後、デフォルト段落 Content Style を削除でき、次のようになります (デフォルト Content Style は他の要素も保持するため、Content グループを保存します)。
+<img class="responsive-img" src="../images/card_skeleton_actions_icons_buttons.png" srcset="../images/card_skeleton_actions_icons_buttons@2x.png 2x" />
 
-  <img class="responsive-img" src="../images/card_custom_layout2.png" srcset="../images/card_custom_layout2@2x.png 2x" />
+<img class="responsive-img" src="../images/card_skeleton_actions_just_buttons_icons.png" srcset="../images/card_skeleton_actions_just_buttons_icons@2x.png 2x" />
 
-3.  次に太陽のイラストを Content Group に追加します。楕円形を数本の線形でグループ化してグループ幅と高さをプロパティ パネルで調整し、歪みを防止します。太陽イラストレーションを度タイトルの右に配置してレイアウトはこのようになります。
+<img class="responsive-img" src="../images/card_skeleton_actions_just_buttons.png" srcset="../images/card_skeleton_actions_just_buttons@2x.png 2x" />
 
-  <img class="responsive-img" src="../images/card_custom_layout3.png" srcset="../images/card_custom_layout3@2x.png 2x" />
+<img class="responsive-img" src="../images/card_skeleton_actions_just_icons_buttons.png" srcset="../images/card_skeleton_actions_just_icons_buttons@2x.png 2x" />
 
-4.  One-thumb Slider Component および Cards/Blocks/Content/Paragraph Text を下のラベル配列に追加します。ターゲットとするデザインにするために Slider を選択して Label Text Style および Label Background を none にオーバーライドし、ラベル バルーンを非表示にします。Paragraph Text にラベル値を挿入後、これと同様のことができます。
+<img class="responsive-img" src="../images/card_skeleton_actions_just_icons.png" srcset="../images/card_skeleton_actions_just_icons@2x.png 2x" />
 
-  <img class="responsive-img" src="../images/card_custom_layout4.png" srcset="../images/card_custom_layout4@2x.png 2x" />
+## Skeleton Card のレイアウト
 
-5.  ここでは詳細な予報領域をデザインします。最も簡単な方法は Cards/Blocks/Content/Paragraph Text を 2 回挿入する方法です。1 回は平日用、1 回は度用です。これら 2 列のテキスト間に Small Icon を挿入後 4 回複製して垂直に配置した列をもう 1 列形成します。予測値で可視化を選択後、ターゲット レイアウトの完了です。
+Sketch で `Smart Layout` を使用することにより、Skeleton Card は、ある領域または別の領域内の特定の領域または要素を除外して、最初に同じコンポーネントで始まり、標準の [Card](card.md) と一致する無数の異なるバリアントを作成することにより、さまざまなレイアウトを作成できます。
 
-  <img class="responsive-img" src="../images/card_custom_layout5.png" srcset="../images/card_custom_layout5@2x.png 2x" />
+<img class="responsive-img" src="../images/card_skeleton_demo.png" srcset="../images/card_skeleton_demo@2x.png 2x" />
 
-### 追加のスタイル
+## 使用方法
 
-Custom Card レイアウトでは、カードに挿入されている要素に基づいてさまざまなスタイルを追加することが可能になります。たとえば気温の色を設定して強調し、スライダー ラベルや平日ラベルの段落などの追加情報に薄い色を設定できます。
+複数のカードでレイアウトを作成する場合は、標準カードとスケルトン カードを組み合わせないでください。データはすべてのカードに存在するか、いずれにも存在しないため、2 つのタイプを同じグリッド レイアウト内で使用しないでください。
 
-<img class="responsive-img" src="../images/card_custom_layout_styled.png" srcset="../images/card_custom_layout_styled@2x.png 2x" />
+| 良い例                                                                         |悪い例                                                                          |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| <img class="responsive-img" src="../images/card_skeleton_do.png" srcset="../images/card_skeleton_do@2x.png 2x" /> | <img class="responsive-img" src="../images/card_skeleton_dont.png" srcset="../images/card_skeleton_dont@2x.png 2x" /> |
 
 ## その他のリソース
 
 関連トピック:
 
-- [Avatar](avatar.md)
-- [Button](button.md)
-- [Icon](icon.md)
-- [Slider](slider.md)
-- [Card Collection パターン](../patterns/card-collection.md)
+- [Card](card.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
-
