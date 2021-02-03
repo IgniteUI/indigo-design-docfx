@@ -5,21 +5,21 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-# Social Feed
+# Social Feed (ソーシャル フィード)
 
-Use the Social Feed Pattern to display different social content types such as news articles, blog posts, social media posts, comments section using text, images, videos, etc. Social Feed Patterns suitable for mobile and desktop device screen sizes are provided.
+Social Feed パターンを使用して、ニュース記事、ブログ投稿、ソーシャル メディア投稿、テキスト、画像、ビデオなどを使用したコメント セクションなどのさまざまなソーシャル コンテンツ タイプを表示します。モバイルおよびデスクトップ デバイスの画面サイズに適した Social Feed パターンが提供されます。
 
 <img class="responsive-img" src="../images/social_feed_articles_demo.png" srcset="../images/social_feed_articles_demo@2x.png 2x" />
 <img class="responsive-img" src="../images/social_feed_mobile_demo.png" srcset="../images/social_feed_mobile_demo@2x.png 2x" />
 
 > [!WARNING]
-> After inserting any of the Social Feed Patterns you should trigger `Detach from Symbol` in order to be able to generate the Pattern as Angular code. The various Components that lay it out must stay intact and not be detached!
+> Social Feed パターンを挿入した後、パターンを Angular コードとして生成するには、`Detach from Symbol` をトリガーします。含まれるコンポーネントをデタッチしないでください。
 
 <img class="responsive-img" src="../images/social_feed_detach.png" srcset="../images/social_feed_detach@2x.png 2x" />
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Avatar](../components/avatar.md)
 - [Button](../components/button.md)
@@ -29,4 +29,4 @@ Related topics:
 - [Tabs](../components/tabs.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。

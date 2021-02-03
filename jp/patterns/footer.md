@@ -5,25 +5,25 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-# Footers
+# Footers (フッター)
 
-Use the Footer Pattern to display a website's complementary content such as site pages, a privacy policy, terms of service, social media links, subscription form, etc. in an unobtrusive and consistent way. Its content can be laid out vertically or horizontally and sits at the bottom of the page. Footer Patterns suitable for desktop and mobile device screen sizes are provided.
+Footer パターンを使用して、サイト ページ、プライバシー ポリシー、利用規約、ソーシャル メディア リンク、サブスクリプション フォームなど、Web サイトの補足コンテンツを目立たない一貫した方法で表示します。そのコンテンツは、垂直方向または水平方向にレイアウトでき、ページの下部に配置されます。デスクトップおよびモバイル デバイスの画面サイズに適した Footer パターンが提供されています。
 
 <img class="responsive-img" src="../images/footer_desktop_demo.png" srcset="../images/footer_desktop_demo@2x.png 2x" />
 
 <img class="responsive-img" src="../images/footer_mobile_demo.png" srcset="../images/footer_mobile_demo@2x.png 2x" />
 
 > [!WARNING]
-> After inserting any of the Footer Patterns you should trigger `Detach from Symbol` in order to be able to generate the Pattern as Angular code. The various Components that lay it out must stay intact and not be detached!
+> Footer パターンを挿入した後、パターンを Angular コードとして生成するには、`Detach from Symbol` をトリガーします。含まれるコンポーネントをデタッチしないでください。
 
 <img class="responsive-img" src="../images/footer_detach.png" srcset="../images/footer_detach@2x.png 2x" />
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [List](../components/list.md)
 - [Icon](../components/icon.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
