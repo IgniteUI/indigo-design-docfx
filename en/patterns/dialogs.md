@@ -10,7 +10,7 @@ Use the Dialog Patterns to alert the users or give them relevant information for
 
 <img class="responsive-img" src="../images/dialogs_demo.png" srcset="../images/dialogs_demo@2x.png 2x" />
 
-The Dialogs Pattern comes with the styling flexibility provided by the Avatar, Button, Checkbox, Input and List that constitute its layout.
+The Dialog Patterns come with the styling flexibility provided by the Buttons, Inputs, and List elements that constitute their layout.
 
 > [!WARNING]
 > After inserting a Dialogs Pattern you should trigger `Detach from Symbol` in order to be able to generate it as Angular code. The individual Components, however, must stay intact and not be detached!
