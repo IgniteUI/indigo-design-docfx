@@ -21,9 +21,7 @@ The Dialog Patterns come with the styling flexibility provided by the Buttons, I
 
 Related topics:
 
-- [Avatar](../components/avatar.md)
 - [Button](../components/button.md)
-- [Checkbox](../components/checkbox.md)
 - [Input](../components/input.md)
 - [List](../components/list.md)
   <div class="divider--half"></div>
