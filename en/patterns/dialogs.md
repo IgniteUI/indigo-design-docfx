@@ -1,6 +1,6 @@
 ---
 title: Dialogs - Design System Pattern
-_description: The Dialogs Pattern Symbols are used to get user's attention and direct it toward important information and/or action they need to confirm and/or take.
+_description: The Dialog Patterns are used to direct the user's attention toward important information and/or action they need to take.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
@@ -29,5 +29,4 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
