@@ -1,133 +1,106 @@
 ﻿---
 title: List - デザイン システム コンポーネント
 _description: List コンポーネント シンボルは、データ行の垂直コレクションをブラウスおよびインタラクションする方法を提供します。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
 # List (リスト)
 
-List コンポーネント シンボルは、ユーザーのブラウジングやテキスト、アイコン、画像、ボタンやアバターなどのコンポーネントを含むテンプレート項目の一連の垂直コレクションとのインタラクションを可能にします。List は、[Ignite UI for Angular List コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/list.html)と視覚的に同じものです。
+List コンポーネントは、ユーザーのブラウジングやテキスト、アイコン、画像、ボタンやアバターなどのコンポーネントを含むテンプレート項目の一連の垂直コレクションとのインタラクションを可能にします。List は、[Ignite UI for Angular List コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/list.html)と視覚的に同じものです。
 
 ## List デモ
 
 <img class="responsive-img" src="../images/list_demo.png" srcset="../images/list_demo@2x.png 2x" />
 
-## シンボルからデタッチ
+## タイプ
 
-List は、本来インデックス付きの垂直コレクションとしてデータを表示する行のリピーターです。従って `Generic List` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下にある `Detach from Symbol` オプションを選択します。新しく表示される `List/Generic List` グループの下のレイヤー パネルには以下があります。
+List は、1 行項目または 2 行項目のプリセットに挿入できます。どちらも最初は 10 項目を含みます。List は、Sketch のスマート レイアウトを項目に使用します。項目の 1 つ以上を ~No Symbol に設定してサイズを調整できます。
 
-| レイヤー      | 使用                                                                                                                           |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| 🚫 igx-list   | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
-| List Header   | リスト ヘッダー項目のインスタンス                                                                                              |
-| 1 Item        | 2 行リスト項目のインスタンス                                                                                                   |
-| 2 Item        | 2 行リスト項目のインスタンス                                                                                                   |
-| 🌈 Background | リストの背景色を定義                                                                                                           |
-| 🕹️Data        | データ バインディングのコード生成で使用されます。                                                                                    |
+<img class="responsive-img" src="../images/list_one-line_item.png" srcset="../images/list_one-line_item@2x.png 2x" />
+<img class="responsive-img" src="../images/list_two-line_item.png" srcset="../images/list_two-line_item@2x.png 2x" />
 
-デタッチ後に Sketch メニューから追加でヘッダーまたは項目を挿入、または既存のシンボルを複製します。常に項目とヘッダーを同じ水平幅と配置で次々に配置し、項目間に垂直のギャップがないようにします。
+## List Item のタイプ
 
-## List 項目のタイプ
-
-List 項目には 3 つのプリセット タイプがあります。グループの見出しを定義する Header、1 行のテキストを含む短い項目の One-line、プライマリおよびセカンダリ テキストをサポートするより高さのある項目の Two-line。
+List Item には 3 つのプリセット タイプがあります。グループの見出しを定義する Header、1 行のプライマリ テキストを含む短い項目の One-line、プライマリおよびセカンダリ テキストをサポートするより高さのある項目の Two-line。
 
 <img class="responsive-img" src="../images/list_item_header.png" srcset="../images/list_item_header@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_one-line.png" srcset="../images/list_item_one-line@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_two-line.png" srcset="../images/list_item_two-line@2x.png 2x" />
 
-## List 項目の状態
+## List Item の状態
 
-One-line および Two-line List 項目は**インアクティブ**状態 (標準状態のインアクティブと選択状態のアクティブ) をサポートします。Header List 項目は選択できないため、そのような States はサポートしません。
+One-line および Two-line リスト項目はインアクティブ状態 (標準状態の**インアクティブ**と選択状態のアクティブ) をサポートします。Header List Item は選択できないため、そのような States はサポートしません。
 
 <img class="responsive-img" src="../images/list_item_inactive.png" srcset="../images/list_item_inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_active.png" srcset="../images/list_item_active@2x.png 2x" />
 
-## List 項目の領域
+## List Item の領域
 
-List 項目は、2 つの異なる領域があります。Primary Action は、非インタラクティブなコンテンツで Avatar やテキストなどをレイアウトします。Secondary Action には List 項目に関連するクイック アクションがあります。Primary と Secondary 操作は有効なリスト項目テンプレートを形成し、常に List 項目全体で使用されます。
+List Item は、2 つの異なる領域があります。プライマリ アクションには、非インタラクティブなコンテンツの Avatar やテキストがあり、セカンダリ アクションには List Item に関連するクイック アクションがあります。プライマリとセカンダリ アクションは一意のリスト項目テンプレートを作成し、常に List 項目全体で使用されます。
 
 <img class="responsive-img" src="../images/list_item_primary.png" srcset="../images/list_item_primary@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />
 
-## List 項目プライマリ アクション
+## List Item Primary Action (リスト項目プライマリ アクション)
 
-以下は置き換え可能な List 項目プライマリ アクションです。
+以下に置き換え可能な 4 つのリスト項目プライマリ アクションがあります。Sketch でスマート レイアウトを使用しているため、不要な要素を ~No Symbol に設定して調整できます。
 
-|                              |                                                                                                  |                                                                                                                        |
-| ---------------------------- | ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-| Avatar + Description + Label | <img class="responsive-img" src="../images/list_item_primary.png" srcset="../images/list_item_primary@2x.png 2x" />     |                                                                                                                        |
-| Avatar + Label               | <img class="responsive-img" src="../images/list_item_primary2.png" srcset="../images/list_item_primary2@2x.png 2x" />   |                                                                                                                        |
-| Avatar + Label + Description | <img class="responsive-img" src="../images/list_item_primary3.png" srcset="../images/list_item_primary3@2x.png 2x" />   |                                                                                                                        |
-| Description + Label          | <img class="responsive-img" src="../images/list_item_primary4.png" srcset="../images/list_item_primary4@2x.png 2x" />   |                                                                                                                        |
-| Icon + Description + Label   | <img class="responsive-img" src="../images/list_item_primary5.png" srcset="../images/list_item_primary5@2x.png 2x" />   |                                                                                                                        |
-| Icon + Label                 | <img class="responsive-img" src="../images/list_item_primary6.png" srcset="../images/list_item_primary6@2x.png 2x" />   |                                                                                                                        |
-| Icon + Label + Description   | <img class="responsive-img" src="../images/list_item_primary7.png" srcset="../images/list_item_primary7@2x.png 2x" />   |                                                                                                                        |
-| Label                        | <img class="responsive-img" src="../images/list_item_primary8.png" srcset="../images/list_item_primary8@2x.png 2x" />   |                                                                                                                        |
-| Label + Description          | <img class="responsive-img" src="../images/list_item_primary9.png" srcset="../images/list_item_primary9@2x.png 2x" />   |                                                                                                                        |
-| Label + Progress             | <img class="responsive-img" src="../images/list_item_primary10.png" srcset="../images/list_item_primary10@2x.png 2x" /> | Primary Action の Progress に基本テキストを設定できないため、Text Style が None に設定され、この設定は変更できません。 |
+|                              |                                                                                                  |                                                                                                                                            |
+| ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Avatar + Label + Description | <img class="responsive-img" src="../images/list_item_primary1.png" srcset="../images/list_item_primary1@2x.png 2x" />     |                                                                                                                                            |
+| Checkbox + Label               | <img class="responsive-img" src="../images/list_item_primary2.png" srcset="../images/list_item_primary2@2x.png 2x" />   |  セカンダリ アクションの Checkbox にラベルを設定できないため、前後のラベルを ~No Symbol に設定し、この設定は変更しないでください。 |
+| Icon + Label + Desc | <img class="responsive-img" src="../images/list_item_primary3.png" srcset="../images/list_item_primary3@2x.png 2x" />   |                                                                                                                                            |
+| Label + Progress          | <img class="responsive-img" src="../images/list_item_primary4.png" srcset="../images/list_item_primary4@2x.png 2x" />   | プライマリ アクションの Linear Progress Bar は値ラベルを持つことができないため、~No Symbol に設定され、この設定は変更しないでください。 |                                                                                                                                            |
 
-## List 項目セコンダリ アクション
+## List Item Secondary Action (リスト項目セカンダリ アクション)
 
-以下は置き換え可能な List 項目セコンダリ アクションです。
+以下に置き換え可能な 4 つのリスト項目セカンダリ アクションがあります。Sketch でスマート レイアウトを使用しているため、不要な要素を ~No Symbol に設定して調整できます。
 
-|                  |                                                                                                    |                                                                                                                     |
-| ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Badge            | <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />   |                                                                                                                     |
-| Checkbox         | <img class="responsive-img" src="../images/list_item_secondary2.png" srcset="../images/list_item_secondary2@2x.png 2x" /> | Secondary Action の Checkbox にラベルを設定できないため、Label Style が None に設定され、この設定は変更できません。 |
-| Icons            | <img class="responsive-img" src="../images/list_item_secondary3.png" srcset="../images/list_item_secondary3@2x.png 2x" /> |                                                                                                                     |
-| Text             | <img class="responsive-img" src="../images/list_item_secondary4.png" srcset="../images/list_item_secondary4@2x.png 2x" /> |                                                                                                                     |
-| Text + Icons     | <img class="responsive-img" src="../images/list_item_secondary5.png" srcset="../images/list_item_secondary5@2x.png 2x" /> |                                                                                                                     |
-| Toggle           | <img class="responsive-img" src="../images/list_item_secondary6.png" srcset="../images/list_item_secondary6@2x.png 2x" /> | Secondary Action の Switch にラベルを設定できないため、Label Style が None に設定され、この設定は変更できません。   |
-| Two-line Numbers | <img class="responsive-img" src="../images/list_item_secondary7.png" srcset="../images/list_item_secondary7@2x.png 2x" /> |                                                                                                                     |
+|                  |                                                                                                    |                                                                                                                                       |
+| ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Badge            | <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />   |                                                                                                                                       |
+| Checkbox         | <img class="responsive-img" src="../images/list_item_secondary2.png" srcset="../images/list_item_secondary2@2x.png 2x" /> | 	セカンダリ アクションの Checkbox にラベルを設定できないため、前後のラベルを ~No Symbol に設定し、この設定は変更しないでください。 |
+| Text and Icon            | <img class="responsive-img" src="../images/list_item_secondary3.png" srcset="../images/list_item_secondary3@2x.png 2x" /> |                                                                                                                                       |
+| Toggle             | <img class="responsive-img" src="../images/list_item_secondary4.png" srcset="../images/list_item_secondary4@2x.png 2x" /> | セカンダリ アクションの Switch にラベルを設定できないため、前後のラベルを ~No Symbol に設定し、この設定は変更しないでください。                                                                                                                 |
 
 ## スタイル設定
 
-List は、さまざまなオーバーライドで背景色、アイコン、テキストなどの List 項目に使用するさまざまな要素、Avatar、Badge、Chechbox、Icon、Progress、Switch などのコンポーネントなどスタイル設定に柔軟性があります。
+List は、さまざまなオーバーライドで背景色、アイコン、テキストなどの List 項目に使用するさまざまな要素、Avatar、Badge、Checkbox、Icon、Progress、Switch などのコンポーネントなどスタイル設定に柔軟性があります。
 
 <img class="responsive-img" src="../images/list_styling.png" srcset="../images/list_styling@2x.png 2x" />
 
 ## 使用方法
 
-List および List 項目には固有のデザインがありますが、List は同様の項目のコレクションで、通常以下の共通テンプレートを使用します。従って同じリスト内で複数のテンプレートを組み合わせないようにします。要素を非表示にせずに、特定のコンテンツ タイプがない場合にプレースホルダーまたは空要素を表示します。テンプレートを構成する要素は垂直方向に継続的に形成する必要があるため、配置に注意が必要です。
+List および List Items には固有のデザインがありますが、List は同様の項目のコレクションで、通常以下の共通テンプレートを使用します。従って同じリスト内で複数のテンプレートを組み合わせないようにします。要素を非表示にせずに、特定のコンテンツ タイプがない場合にプレースホルダーまたは空要素を表示します。テンプレートを構成する要素は垂直方向に継続的に形成する必要があるため、配置に注意が必要です。
 
-| 良い例                                                                     | 悪い例                                                                         |
+| 良い例                                                                         | 悪い例                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | <img class="responsive-img" src="../images/list_do1.png" srcset="../images/list_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/list_dont1.png" srcset="../images/list_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/list_do2.png" srcset="../images/list_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/list_dont2.png" srcset="../images/list_dont2@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/list_do3.png" srcset="../images/list_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/list_dont3.png" srcset="../images/list_dont3@2x.png 2x" /> |
 
-## コード生成
+## Detach from Symbol (シンボルからデタッチ)
 
-List の色またはフォントを指定した場合、List HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。リストを使用するためにデタッチ シンボルに設定する必要があります。
+List は、本来インデックス付きの垂直コレクションとしてデータを表示する行のリピーターです。より多くの項目のリストをデザインする最も簡単な方法は、アートボードに List タイプのいずれかを挿入し、リストの上で右クリックし、コンテキストメニューの下部で `Detach from Symbol` を選択することです。新しく表示される _List/One-line Item List_ または _List/Two-line Item List_ グループの下のレイヤー パネルには、以下が表示されます。
 
-### データ ソース プロパティ
+| レイヤー         | 使用                                                                                                                                                  |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🚫 metadata   | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
+| List Header   | リスト ヘッダー項目のインスタンス                                                                                                                    |
+| 1 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 2 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 3 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 4 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 5 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 6 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 7 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 8 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 9 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 10 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
+| 🌈 Background | リストの背景色を定義                                                                                                             |
 
-`🕹️DataSource` 値は List のデータ ソースを設定するために使用されます。データを表示するためにオブジェクト (行) の配列にバインドします。データ ソースが設定されない場合、リストはヘッダーおよびデザイン ファイルに設定されるリスト項目の数を描画します。データ ソースが設定される場合、スタイルおよびレイアウトは最初のリスト項目から取得されます。
-
-### リスト ヘッダー
-
-リストのヘッダーを構成します。
-
-### リスト項目
-
-リスト項目は List の List Item コレクションを構成します。各 List Item はリスト項目をレイアウト/設定するコントロールを含みます。リスト項目はプライマリおよびセコンダリ アクション セクションに分割されます。
-
-### プライマリ アクション
-
-プライマリ アクションのレイアウトを決定します。Avatar、Linear Progress Bar、または Icon を含むことができます。更に 2 つの Text を含むことができます。(使用方法については上記の説明を参照してください)。
-
-### セカンダリ アクション
-
-セコンダリ アクションのレイアウトを決定します。2 つ以下の Icon、2 つ以下の Text、Checkbox、Badge、Switch、または Text および Icon を含むことができます。(使用方法については上記の説明を参照してください)。
-
-### テキスト
-
-Text プロパティには、テキスト、[テキストのバインディング](../codegen/data-binding.md)、またはその両方を含むことができます。例:
-
-- 設定
-- {settingsLabel}
-- 重要な {labelText}
+Sketch メニューから追加でヘッダーまたは項目を挿入、または既存のヘッダー/項目を複製します。常に項目とヘッダーを同じ水平幅と配置で次々に配置し、項目間にギャップがないようにします。
 
 ## その他のリソース
 

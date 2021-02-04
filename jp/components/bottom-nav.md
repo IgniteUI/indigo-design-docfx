@@ -15,19 +15,27 @@ Bottom Navigation コンポーネント は、関連ビュー間のブラウジ�
 
 ## 項目数
 
-Bottom Navigation は 2 項目 ～ 5 項目をサポートします。アプリケーション レベルで 5 項目以上のナビゲーションまたはビューをデザインする場合は、[Navigation Drawer](nav-drawer.md) の使用を検討してください。
+Bottom Navigation はスマート レイアウトを使用しており、1 つ以上の項目が ~No Symbol に設定されている場合に応じて調整できます。ただし、項目の最大数は 5 つに制限されており、より多くの項目またはビューを使用してアプリケーション レベルのナビゲーションを設計する必要がある場合は、代わりに [Navigation Drawer](nav-drawer.md) の使用を検討してください。
 
 <img class="responsive-img" src="../images/bottom-nav_items2.png" srcset="../images/bottom-nav_items2@2x.png 2x" />
+
 <img class="responsive-img" src="../images/bottom-nav_items3.png" srcset="../images/bottom-nav_items3@2x.png 2x" />
+
 <img class="responsive-img" src="../images/bottom-nav_items4.png" srcset="../images/bottom-nav_items4@2x.png 2x" />
+
 <img class="responsive-img" src="../images/bottom-nav_items5.png" srcset="../images/bottom-nav_items5@2x.png 2x" />
 
-## 項目のスタイル
+## 項目の状態
 
-Bottom Navigation 項目には、**アイコンとテキスト**の組み合わせ、またはアイコンのみが含まれます。常にアクティブな状態の項目が 1 つ、あり、残りの項目はインアクティブに設定する必要があります。
+Bottom Navigation は、**アクティブ**、非アクティブ、および無効の状態をサポートする項目で構成されています。Bottom Navigation には、常に 1 つのアクティブな項目と、任意の数の非アクティブおよび無効な項目があります。
 
-<img class="responsive-img" src="../images/bottom-nav_icon&text.png" srcset="../images/bottom-nav_icon&text@2x.png 2x" />
-<img class="responsive-img" src="../images/bottom-nav_icon.png" srcset="../images/bottom-nav_icon@2x.png 2x" />
+<img class="responsive-img" src="../images/bottom-nav_item_state.png" srcset="../images/bottom-nav_item_state@2x.png 2x" />
+
+## 項目コンテンツ テンプレート
+
+Bottom Navigation の項目は、デフォルトでアイコンとテキストの組み合わせとして提供されますが、項目コンテンツ テンプレートに適用されるスマート レイアウト ルールを使用すると、テキスト ラベルを削除して、アイコンのみの項目を作成できます。
+
+<img class="responsive-img" src="../images/bottom-nav_items3_icons.png" srcset="../images/bottom-nav_items3_icons@2x.png 2x" />
 
 ## スタイル設定
 
@@ -41,62 +49,14 @@ Bottom Navigation は常にその他のコンテンツの一番上に表示さ�
 
 | 良い例                                                                                     |悪い例                                                                                      |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| <img class="responsive-img" src="../images/bottom-nav_do1.png" srcset="../images/bottom-nav_do1@2x.png 2x" />|<img class="responsive-img" src="../images/bottom-nav_dont1.png" srcset="../images/bottom-nav_dont1@2x.png 2x" /> |
-| <img class="responsive-img" src="../images/bottom-nav_do2.png" srcset="../images/bottom-nav_do2@2x.png 2x" />|<img class="responsive-img" src="../images/bottom-nav_dont2.png" srcset="../images/bottom-nav_dont2@2x.png 2x" /> |
-
-## コードの生成
-
-Sketch の制限によって Bottom Navigation コンポーネントの特定のタブとコンテンツを関連付けることはできません。Bottom Navigation コンポーネントを含む Artboard 全体の生成はお勧めしません。代わりに Bottom Navigation コンポーネントを生成してから個々のタブ コンテンツをそれぞれの Angular コンポーネントに生成してください。タブ コンテンツをそれぞれ Angular コンポーネントに生成後、Bottom Navigation コンポーネントで各タブ内で生成したタブ コンテンツに手動で参照できます。
-
-<img class="responsive-img" src="../images/bottom-nav_limitation.png" />
-
-> [!WARNING]
-> デザインの Bottom Navigation のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Bottom Navigation のためのコード生成機能が失われる結果となります。
-
-```html
-<igx-bottom-nav>
-    <igx-tab-panel>
-        <!-- Manually add this component reference -->
-        <app-tab1></app-tab1>
-    </igx-tab-panel>
-    <igx-tab-panel>
-        <!-- Manually add this component reference -->
-        <app-tab2></app-tab2>
-    </igx-tab-panel>
-</igx-bottom-nav>
-```
-
-> [!Note]
-> Tab コンテンツは height: 100% で描画されないため、ページ全体は埋まりません。コンテンツに必要なスペースのみ使用します。
-
-このセクションは、オーバーライドとコード生成にどのような影響があるかについて説明します。
-
-### イベント
-
-`Event` オーバーライドはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に `onClick` シグネチャを追加します。波括弧構文 `{onEventName}` を使用して `Event` を指定する必要があります。
-
-### 項目数
-
-このオーバーライドは表示されるタブまたは項目の数を決定します。
-
-### タブ
-
-このオーバーライドは生成されるタブのタイプを決定します。アイコンまたはテキストとアイコンが可能です。
-
-### テキスト
-
-このオーバーライドはアイコンとテキストを含むタブのみに表示されます。タブで表示されるテキストを指定します。プレーン テキスト、[テキストのバインディング](../codegen/data-binding.md)、または両方を含むことができます。例:
-
-- 設定
-- {settingsLabel}
-- 重要な {labelText}
+| <img class="responsive-img" src="../images/bottom-nav_do1.png" srcset="../images/bottom-nav_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/bottom-nav_dont1.png" srcset="../images/bottom-nav_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/bottom-nav_do2.png" srcset="../images/bottom-nav_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/bottom-nav_dont2.png" srcset="../images/bottom-nav_dont2@2x.png 2x" /> |
 
 ## その他のリソース
 
 関連トピック:
 
 - [Navigation Drawer](nav-drawer.md)
-- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

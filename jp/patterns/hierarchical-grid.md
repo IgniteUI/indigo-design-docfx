@@ -1,13 +1,13 @@
 ---
 title: Hierarchical Grid - デザイン システム パターン
-_description: Hierarchical Grid パターンシ ンボルは、内部にネストされた子グリッドを持つ親レベルのグリッドを表します。
+_description: Hierarchical Grid パターンは、内部にネストされた子グリッドを持つ親レベルのグリッドを表します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch から コードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
 # Hierarchical Grid (階層グリッド)
 
-ネストされた子グリッドを持つ複雑な Hierarchical Grid とその機能を設計する場合は、開始ポイントとして Hierarchical Grid パターン　シンボルを使用します。アクティブ セルと、親グリッドと子グリッド間の接続の視覚的表現を備えた、親グリッドとネストされた子グリッドを提供します。コンポーネント ライブラリで提供されるすべてのグリッド機能は階層グリッドで適用できます。
+ネストされた子を持つ複雑な Grid 階層とその機能を設計する場合は、開始ポイントとして Hierarchical Grid パターンを使用します。アクティブ セルと、親グリッドと子グリッド間の関係の視覚的表現を備えた、親グリッドとネストされた子グリッドを提供します。
 
 <img class="responsive-img" src="../images/hierarchical_grid.png" srcset="../images/hierarchical_grid@2x.png 2x" />
 
@@ -34,9 +34,9 @@ _language: ja
 
 
 > [!WARNING]
-> Hierarchical Grid パターンを挿入した後、Angular コードとして生成できるには、レイアウトを作成したコンポーネントおよび Grid シンボルに分割するために `Detach from Symbol` をトリガーします。ただし、各コンポーネントおよび Grid シンボルをデタッチしないでください。
+> Hierarchical Grid パターンを挿入した後、Angular コードとして生成できるには、レイアウトを作成したコンポーネントおよび Grid Features に分割するために `Detach from Symbol` をトリガーします。ただし、各コンポーネントおよび Grid Features をデタッチしないでください。
 
-<img class="responsive-img" src="../images/hierarchical_grid_detach.png" />
+<img class="responsive-img" src="../images/hierarchical_grid_detach.png" srcset="../images/hierarchical_grid_detach@2x.png 2x" />
 
 ## その他のリソース
 

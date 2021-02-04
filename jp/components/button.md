@@ -1,7 +1,7 @@
 ﻿---
 title: Button - デザイン システム コンポーネント
 _description: Button コンポーネント シンボルはシンプルなアクションを表すために使用します。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
@@ -15,20 +15,33 @@ Button コンポーネント シンボルは、シンプルなユーザー操作
 
 ## タイプ
 
-4 つの Button タイプがあります。
+5 つの Button タイプがあります。
 
-- Raised Button は、操作を強調し、**テキスト**およびアイコンとテキストの組み合わせ、および塗りつぶしやシャドウをサポートします。
-- Flat Button は、通常あまり重要でない操作に使用し、**テキスト**およびアイコンとテキストの組み合わせをサポートします。
+- 塗りつぶしや影付きの Raised Button は、操作を強調します。
+- アウトライン付きの Outlined Button は、ほとんどのアクションに適しています。
+- Flat Button は、通常あまり重要でない操作に使用します。
 - Icon Button は、操作をアイコンでのみ表されます。
 - Floating Action Button (fab) の塗りつぶしと影は、画面ごとに 1 回使用してメインの操作を強調します。
 
 <img class="responsive-img" src="../images/button_types.png" srcset="../images/button_types@2x.png 2x" />
 
+## 操作状態
+
+これらのボタンはすべて、有効なバリアントと無効なバリアントの両方をサポートしているため、無効な状態で挿入することもできます。
+
+<img class="responsive-img" src="../images/button_disabled.png" srcset="../images/button_disabled@2x.png 2x" />
+
 ## 状態
 
-各ボタン タイプは**デフォルト**、ホバー、無効の状態をサポートします。アイコンやラベル付きのボタンはデフォルト状態でも利用できます。
+有効なボタンは、**休止状態**とホバー状態をサポートします。
 
 <img class="responsive-img" src="../images/button_states.png" srcset="../images/button_states@2x.png 2x" />
+
+## レイアウト テンプレート
+
+Raised、Outlined、Flat、Floating Action ボタンは、オーバーライド パネルから非表示にする要素を ~No Symbol に設定することで、柔軟なアイコンとラベルのテンプレートをサポートします。
+
+<img class="responsive-img" src="../images/button_templates.png" srcset="../images/button_templates@2x.png 2x" />
 
 ## スタイル設定
 
@@ -46,29 +59,6 @@ Button のコンテンツにラベルを含む場合、大文字を太文字 (Me
 | <img class="responsive-img" src="../images/button_do2.png" srcset="../images/button_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/button_dont2.png" srcset="../images/button_dont2@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/button_do3.png" srcset="../images/button_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/button_dont3.png" srcset="../images/button_dont3@2x.png 2x" /> |
 
-## コードの生成
-
-Button の色またはフォントを指定した場合、Button HTML 要素は div でラップされます。これはネスト コンポーネント (他のコンポーネント内のコンポーネント) をスタイル設定する際にブラウザーによって要求されます。
-
-> [!WARNING]
-> デザインの Button のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Button のためのコード生成機能が失われる結果となります。
-
-### Event プロパティ
-
-`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に Angular クリック シグネチャーを追加します。波括弧構文 ({onEventName}) を使用してイベントを指定する必要があります。
-
-### Sketch エレベーション
-
-Sketch 描画の Button エレベーション変更がコード生成で描画されません。各ボタン タイプにデフォルト エレベーションがあり、Ignite UI コンポーネントによって適用されます。これは Ignite UI for Angular 製品の既知の制限で、今後のリリースで修正予定です。
-
-### テキスト
-
-Text プロパティにテキスト、[テキストのバインディング](../codegen/data-binding.md)、または両方を含むことができます。例:
-
-- 設定
-- {settingsLabel}
-- 重要な {labelText}
-
 ## その他のリソース
 
 関連トピック:
@@ -81,7 +71,6 @@ Text プロパティにテキスト、[テキストのバインディング](../
 - [AV Player パターン](../patterns/av.md)
 - [File Upload パターン](../patterns/file-upload.md)
 - [Form パターン](../patterns/form.md)
-- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
