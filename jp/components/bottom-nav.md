@@ -7,7 +7,7 @@ _language: ja
 
 # Bottom Navigation (ボトム ナビゲーション)
 
-Bottom Navigation コンポーネント は、関連ビュー間のブラウジングが可能な項目を 5 項目以下で画面下に配置してアプリケーション レベルのナビゲーションを実装します。title: Bottom Navigation は、[Ignite UI for Angular Bottom Navigation コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/tabbar.html) と視覚的に同じものです。
+Bottom Navigation コンポーネント は、関連ビュー間のブラウジングが可能な項目を 5 項目以下で画面下に配置してアプリケーション レベルのナビゲーションを実装します。Bottom Navigation は、[Ignite UI for Angular Bottom Navigation コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/tabbar.html) と視覚的に同じものです。
 
 ## Bottom Navigation デモ
 
@@ -27,7 +27,7 @@ Bottom Navigation はスマート レイアウトを使用しており、1 つ�
 
 ## 項目の状態
 
-Bottom Navigation は、**アクティブ**、非アクティブ、および無効の状態をサポートする項目で構成されています。Bottom Navigation には、常に 1 つのアクティブな項目と、任意の数の非アクティブおよび無効な項目があります。
+Bottom Navigation は、**Active**、Inactive、および Disabled の状態をサポートする項目で構成されています。Bottom Navigation には、常に 1 つの Active の項目と、任意の数の Inactive および Disabled の項目があります。
 
 <img class="responsive-img" src="../images/bottom-nav_item_state.png" srcset="../images/bottom-nav_item_state@2x.png 2x" />
 

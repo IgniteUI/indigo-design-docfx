@@ -15,7 +15,7 @@ Calendar コンポーネントは、日付を視覚的に表示し、年と月�
 
 ## レイアウト
 
-Calendar は、一度に 1 か月を表示するのに適した水平または垂直のレイアウトで提供されますが、2 か月を並べて表示するための Multiview オプションもサポートしています。
+Calendar は、一度に 1 か月を表示するのに適した Horizontal または Vertical のレイアウトで提供されますが、2 か月を並べて表示するための Multiview オプションもサポートしています。
 
 <img class="responsive-img" src="../images/calendar_horizontal.png" srcset="../images/calendar_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
@@ -31,20 +31,20 @@ Calendar は、主要な日付部分のそれぞれの表示を容易にする�
 
 ## 週のはじめ
 
-週の最初の日の最も一般的な 2 つのシナリオ (日曜日と月曜日) の間にカレンダーを挿入するときに、オプションとして週の開始を選択することもできます。
+週の最初の日の最も一般的な 2 つのシナリオ (日曜日と月曜日) の間に Calendar を挿入するときに、オプションとして週の開始を選択することもできます。
 
 <img class="responsive-img" src="../images/calendar_sun.png" srcset="../images/calendar_sun@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
 
 ## ヘッダー
 
-Calendar には組み込みのヘッダーがあり、オーバーライド パネルでヘッダーのオーバーライドを ~No Symbol に設定すると、フォームにシームレスに埋め込むことができる基本のカレンダーが作成されます。
+Calendar には組み込みの Header があり、オーバーライド パネルで Header のオーバーライドを ~No Symbol に設定すると、フォームにシームレスに埋め込むことができる基本の Calendar が作成されます。
 
 <img class="responsive-img" src="../images/calendar_base.png" srcset="../images/calendar_base@2x.png 2x" />
 
 ## 週番号
 
-Calendar には週番号のサポートも組み込まれていますが、UI のこの部分を表示したくない場合は、週番号のオーバーライドを ~No Symbol に設定するだけです。
+Calendar には Week Numbers のサポートも組み込まれていますが、UI のこの部分を表示したくない場合は、Week Numbers のオーバーライドを ~No Symbol に設定するだけです。
 
 <img class="responsive-img" src="../images/calendar_weeknum.png" srcset="../images/calendar_weeknum@2x.png 2x" />
 

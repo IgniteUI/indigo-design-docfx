@@ -33,7 +33,7 @@ Button コンポーネント シンボルは、シンプルなユーザー操作
 
 ## 状態
 
-有効なボタンは、**休止状態**とホバー状態をサポートします。
+有効なボタンは、**Rest** と Hover 状態をサポートします。
 
 <img class="responsive-img" src="../images/button_states.png" srcset="../images/button_states@2x.png 2x" />
 
