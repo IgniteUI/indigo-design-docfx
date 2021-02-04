@@ -1,26 +1,26 @@
 ---
 title: Chat - デザイン システム パターン
-_description: The Chat Pattern combines various components to display real-time messaging between two or more people.
+_description: Chat パターンは、さまざまなコンポーネントを組み合わせて、2 人以上の間でリアルタイムのメッセージを表示します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch から コードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
-# Chat
+# Chat (チャット)
 
-Use the Chat Pattern to display real-time messaging between two or more people within an application in different scenarios such as social networks, e-commerce apps, business apps, etc. Chat Patterns suitable for mobile, desktop, and web applications are provided.
+Chat パターンを使用して、ソーシャル ネットワーク、eコマース アプリ、ビジネス アプリなど、さまざまなシナリオでアプリケーション内の 2 人以上のユーザー間のリアル タイム メッセージを表示します。モバイル、デスクトップ、および Web アプリケーションに適した Chat パターンが提供されます。
 
 <img class="responsive-img" src="../images/chat_mobile_demo.png" srcset="../images/chat_mobile_demo@2x.png 2x" />
 
 <img class="responsive-img" src="../images/chat_desktop_demo.png" srcset="../images/chat_desktop_demo@2x.png 2x" />
 
 > [!WARNING]
-> After inserting any of the Chat Patterns you should trigger `Detach from Symbol` in order to be able to generate the Pattern as Angular code. The various Components that lay it out must stay intact and not be detached!
+> Chat パターンを挿入した後、パターンを Angular コードとして生成するには、`Detach from Symbol` をトリガーします。含まれるコンポーネントをデタッチしないでください。
 
 <img class="responsive-img" src="../images/chat_detach.png" srcset="../images/chat_detach@2x.png 2x" />
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Avatar](../components/avatar.md)
 - [Badge](../components/badge.md)
@@ -31,4 +31,4 @@ Related topics:
 - [Navbar](../components/navbar.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。

@@ -1,6 +1,6 @@
 ---
 title: Social Feed - デザイン システム パターン
-_description: The Social Feed Pattern combines various components to display different social content types.
+_description: Social Feed パターンは、さまざまなコンポーネントを組み合わせて、さまざまなソーシャル コンテンツ タイプを表示します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch から コードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
