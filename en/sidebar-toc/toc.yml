@@ -255,6 +255,9 @@
     - name: Details
       href: ../patterns/details.md
       new: true
+    - name: Empty States
+      href: ../patterns/empty-states.md
+      new: true
     - name: File Upload
       href: ../patterns/file-upload.md
     - name: Forms
