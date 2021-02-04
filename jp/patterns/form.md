@@ -33,9 +33,9 @@ Log In フォームにも水平レイアウトがあり、レイアウトの But
 
 <img class="responsive-img" src="../images/form_register-horizontal.png" srcset="../images/form_register-horizontal@2x.png 2x" />
 
-## Appointment フォーム
+## Booking フォーム
 
-Appointment フォームプリセットが 4 つあり、Dates + People は一般的なフォームです。Dates + People + Rooms はホテルの予約に使用できます。Airports + Dates + People は飛行機のチケットやその他の乗車券の予約に使用できます。Location + People + Rooms もホテル予約に使用できます。
+Booking フォームプリセットが 4 つあり、Dates + People は一般的なフォームです。Dates + People + Rooms はホテルの予約に使用できます。Airports + Dates + People は飛行機のチケットやその他の乗車券の予約に使用できます。Location + People + Rooms もホテル予約に使用できます。
 
 <img class="responsive-img" src="../images/form_booking.png" srcset="../images/form_booking@2x.png 2x" />
 <img class="responsive-img" src="../images/form_transportation_tickets.png" srcset="../images/form_transportation_tickets@2x.png 2x" />
