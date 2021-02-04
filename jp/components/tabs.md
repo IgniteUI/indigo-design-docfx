@@ -15,32 +15,39 @@ Tabs コンポーネントは、同じ情報を異なるビューに体系化、
 
 ## サイズ
 
-バーに配置されたタブは、高さのあるテキストを使用したアイコン、または短いテキストやアイコンを含みますが同時に両方、含むことはありません。
+Tabs には 2 つのサイズがあります: 高さのあるテキストを使用したアイコン、または短いテキストやアイコンを含みますが、同時に両方を含むことはないサイズです。
 
 <img class="responsive-img" src="../images/tabs_short.png" srcset="../images/tabs_short@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_tall.png" srcset="../images/tabs_tall@2x.png 2x" />
 
 ## レスポンシブ
 
-Tab を**固定**し、多数のタブでスクロール ボタンが提供される空いている水平スペースを幅またはフルードを使用して埋めることができます。この機能jは、他のモードで使用可能なスペースに入れた場合よりも多くのコンテンツを入れることができます。
+Tabs は、幅を調整することで使用可能な水平方向のスペースを埋めるように固定することも、スクロール ボタンを使用して多数のタブ項目をナビゲートすることで流動的にすることもできます。これにより、同じ合計スペースで他のモードで通常可能なコンテンツよりも多くのコンテンツを入れることができます。
 
 <img class="responsive-img" src="../images/tabs_fixed.png" srcset="../images/tabs_fixed@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_fluid.png" srcset="../images/tabs_fluid@2x.png 2x" />
 
-## 量
+## Tabs の量
 
-多くのケースで Tabs に 2 つ ～ 4 つのタブが必要になります。4 つ以上必要な場合、ビューでタブのみ表示するフルード モードを検討します。
+多くのケースで Tabs に 2 つ ～ 5 つのタブが必要になります。タブ項目を ~No Symbol に設定して削除できます。さらにタブが必要な場合は、流動モードを検討し、表示されているタブのみを表すことをお勧めします。
 
 <img class="responsive-img" src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_4.png" srcset="../images/tabs_4@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_5.png" srcset="../images/tabs_5@2x.png 2x" />
 
-## タイプ
+## 短いバー コンテンツ
 
-短い Tabs は、各タブの項目を説明する**テキスト**とアイコンのコンテンツをサポートします。
+短いバーにはデフォルトでテキスト コンテンツが付属しており、代わりにアイコンを表示する場合は、マテリアル アイコンを `🔣 Icon` オーバーライドに割り当て、バーのすべてのタブで `🏷️ Label` を ~No Symbol に設定する必要があります。
 
 <img class="responsive-img" src="../images/tabs_text.png" srcset="../images/tabs_text@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_icons.png" srcset="../images/tabs_icons@2x.png 2x" />
+
+## タブ項目の状態
+
+タブ項目は、アクティブ、非アクティブ、および無効の状態をサポートします。Tabs には、常に 1 つのアクティブなタブと、任意の数の非アクティブおよび無効なタブがあります。
+
+<img class="responsive-img" src="../images/tabs_state.png" srcset="../images/tabs_state@2x.png 2x" />
 
 ## スタイル設定
 
@@ -57,65 +64,11 @@ Tab は情報の体系化に適してますが、ワークフローのデザイ�
 | <img class="responsive-img" src="../images/tabs_do1.png" srcset="../images/tabs_do1@2x.png 2x" />|<img class="responsive-img" src="../images/tabs_dont1.png" srcset="../images/tabs_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/tabs_do2.png" srcset="../images/tabs_do2@2x.png 2x" />|<img class="responsive-img" src="../images/tabs_dont2.png" srcset="../images/tabs_dont2@2x.png 2x" /> |
 
-## コードの生成
-
-Sketch の制限によって Tab コンポーネントの特定のタブとコンテンツを関連付けすることはできません。Tab コンポーネントを含む Artboard 全体の生成はお勧めしません。代わりに Tab コンポーネントを生成してから個々のタブ コンテンツをそれぞれの Angular コンポーネントに生成してください。タブ コンテンツをそれぞれ Angular コンポーネントに生成後、Tab コンポーネントで各タブ内で生成したタブ コンテンツに手動で参照できます。
-
-<img class="responsive-img" src="../images/tabs_limitation.png" />
-
-> [!WARNING]
-> デザインの Tab インスタンスで `Detach from Symbol` をトリガーした場合、ほとんどの場合でツールチップのコード生成が機能しなくなります。
-
-```html
-<igx-tabs>
-    <igx-tabs-group>
-        <!-- Manually add this component reference -->
-        <app-tab1></app-tab1>
-    </igx-tabs-group>
-    <igx-tabs-group>
-        <!-- Manually add this component reference -->
-        <app-tab2></app-tab2>
-    </igx-tabs-group>
-</igx-tabs>
-```
-
-> [!Note]
-> Tab コンテンツは height: 100% で描画されないため、ページ全体は埋まりません。コンテンツに必要なスペースのみ使用します。
-
-このセクションは、重要なオーバーライドとコード生成について説明します。
-
-### Event プロパティ
-
-`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に `onTabItemSelected` シグネチャを追加します。波括弧構文 `{onEventName}` を使用してイベントを指定する必要があります。
-
-### レスポンシブ
-
-Responsive プロパティが提供された場合、タブのサイズ モードを決定します。None に設定される場合、タブは描画しません。
-
-### タブの量
-
-Tabs Amount は描画するタブ数を決定します。None に設定される場合、タブは描画しません。
-
-### タイプ
-
-Type プロパティが提供された場合、タブがアイコンまたはテキストを描画するかどうかを決定します。短いタブのみに使用されます。すべてのタブの Type を None に設定した場合、タブ コントロールを描画しません。
-
-### テキスト
-
-Text プロパティには、テキスト、[テキストのバインド](../codegen/data-binding.md)、またはその両方を含むことができます。例:
-
-- 設定
-- {settingsLabel}
-- 重要な {labelText}
-
 ## その他のリソース
 
 関連トピック:
 
 - [Details](../patterns/details.md)
-- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
-

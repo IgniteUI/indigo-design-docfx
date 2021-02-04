@@ -1,7 +1,7 @@
 ﻿---
 title: Avatar + Badge - デザイン システム パターン
 _description: Avatar + Badge パターン シンボルは通知およびアラートを表示するために Avatar およびその前に Badge を使用します。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, パターン, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
@@ -35,7 +35,7 @@ Badge は Avatar の 4 つ角のいずれかに配置できます。
 > [!WARNING]
 > Avatar + Badge パターンを挿入した後、`Detach from Symbol` をトリガーします。Angular コードとして生成するには、パターンを作成したコンポーネントに分割します。ただし、Badge および Avatar をデタッチしないでください。
 
-<img class="responsive-img" src="../images/avatar_badge_detach.png" />
+<img class="responsive-img" src="../images/avatar_badge_detach.png" srcset="../images/avatar_badge_detach@2x.png 2x" />
 
 ## その他のリソース
 

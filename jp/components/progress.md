@@ -1,21 +1,21 @@
 ﻿---
 title: Progress - デザイン システム コンポーネント
 _description: Progress コンポーネント シンボルは、タスクの状態、進捗、完了をビジュアルで示すインジケーターです。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
 # Progress (プログレス)
 
-Progress コンポーネント シンボルは、タスクの進行状況について明確に示し、長くかかるタスクの完了予測を示します。Progress コンポーネントは、大きなワークフローの完了がよりシンプルで小さい一連のタスクの完了に依存している場合に適しています。Progress は、[Ignite UI for Angular Linear Progress コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/linear_progress.html)および [Ignite UI for Angular Circular Progress コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/circular_progress.html)と視覚的に同じものです。
+Progress コンポーネントは、タスクの進行状況について明確に示し、長くかかるタスクの完了予測を示します。また、正確な完了時刻がわからないシナリオや、注文の履行やファイルのアップロード / ダウンロードなどの一連の小さなタスクの完了に応じて、より大きなワークフローがある場合にも非常に効果的です。Progress コンポーネントは、[Ignite UI for Angular Linear Progress コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/linear_progress.html)および [Ignite UI for Angular Circular Progress コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/circular_progress.html)と視覚的に同じものです。
 
 ## Progress デモ
 
 <img class="responsive-img" src="../images/progress_demo.png" srcset="../images/progress_demo@2x.png 2x" />
 
-## タイプ
+## 形状とタイプ
 
-Progress は、さまざまなユースケースやレイアウト要件に対応するための 2 つのレイアウト タイプ (Circular Bar および Linear Bar) をサポートします。
+Progress は、さまざまなユースケースとレイアウト要件に適合する 2 つのレイアウト形状をサポートしています: Circular Bar と Linear Bar。これらの各レイアウトには、進行のタイプの追加の選択が付属しています: 確定および不確定。
 
 <img class="responsive-img" src="../images/progress_circular.png" srcset="../images/progress_circular@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_linear.png" srcset="../images/progress_linear@2x.png 2x" />
@@ -24,21 +24,35 @@ Progress は、さまざまなユースケースやレイアウト要件に対�
 
 Progress は、以下のプリセット カラーの組み合わせの 1 つを使用できます。
 
-- **default**
-- success: `success` テーマ カラーを使用して進行状況を表示
-- warn: `warn` テーマ カラーを使用して進行状況を表示
+- **default**: デフォルトで基本原色を利用します。
 - error: `error` テーマ カラーを使用して進行状況を表示
 - info: `info` テーマ カラーを使用して進行状況を表示
+- success: `success` テーマの色を使用して進行状況を表示します。
+- warn: `warn` テーマの色を使用して進行状況を表示します。
+
 
 <img class="responsive-img" src="../images/progress_default.png" srcset="../images/progress_default@2x.png 2x" />
-<img class="responsive-img" src="../images/progress_success.png" srcset="../images/progress_success@2x.png 2x" />
-<img class="responsive-img" src="../images/progress_warn.png" srcset="../images/progress_warn@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_error.png" srcset="../images/progress_error@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_info.png" srcset="../images/progress_info@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_success.png" srcset="../images/progress_success@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_warn.png" srcset="../images/progress_warn@2x.png 2x" />
+
+## Progress の量
+
+確定タイプの Progress を使用する場合、6 種類のパーセント値を Progress の量として選択できます。
+
+<img class="responsive-img" src="../images/progress_circular-progress-amount.png" srcset="../images/progress_circular-progress-amount@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_linear-progress-amount.png" srcset="../images/progress_linear-progress-amount@2x.png 2x" />
+
+## ストライプ
+
+Progress コンポーネントに Linear Bar レイアウト形状を使用する場合、塗りつぶし領域のストライプの追加オプションが付属します。ストライプを削除するには、`🌈 Stripes` 色オーバーライドを `transparent` に設定するだけです。
+
+<img class="responsive-img" src="../images/progress_linearstripes.png" srcset="../images/progress_linearstripes@2x.png 2x" />
 
 ## スタイル設定
 
-Progress は、さまざまなオーバーライドでテキスト、ストリップ、塗りつぶし、トラックの色を制御することにより柔軟にスタイル設定できます。
+Progress は、さまざまなオーバーライドでテキストおよび必要に応じて、プログレス、基本色、ストリップ、塗りつぶし、トラックの色を制御することにより柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/progress_striped.png" srcset="../images/progress_striped@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_clear.png" srcset="../images/progress_clear@2x.png 2x" />
@@ -46,48 +60,19 @@ Progress は、さまざまなオーバーライドでテキスト、ストリ�
 
 ## 使用方法
 
-Circular Bar は常にテキスト ラベルの実際の値を使用し、Linear Bar は一般的な文字列をユーザーに表示するのではなく、残りの時間とファイルに基づいてタスクの完了状況の正確な予測を提供します。
+Circular Bar は常にテキスト ラベルの実際の値を使用し、Linear Bar は一般的な文字列をユーザーに表示するのではなく、残りの時間とファイルに基づいてタスクの完了状況の正確な予測を提供します。ただし、両方のバーに不確定バリアントを使用して、確実で明確な完了時間を表示せずに Progress を表示することができます。
 
 | 良い例                                                                             | 悪い例                                                                                 |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/progress_do1.png" srcset="../images/progress_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/progress_dont1.png" srcset="../images/progress_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/progress_do2.png" srcset="../images/progress_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/progress_dont2.png" srcset="../images/progress_dont2@2x.png 2x" /> |
-
-## コードの生成
-
-Circular または Linear Bar に色またはフォントを指定した場合、Circular または Linear Bar HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
-
-> [!WARNING]
-> デザインの Circular または Linear Bar のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Circular または Linear Bar のためのコード生成機能が失われる結果となります。
-
-### データ プロパティ
-
-`🕹️DataProperty` 値は Circular または Linear Bar 値プロパティへの[データ バインディング](../codegen/data-binding.md)を設定するために使用されます。`🕹️DataProperty` はオプションです。`🕹️DataProperty` はコード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名です。
-
-### 状態
-
-State プロパティが off または無効に設定した場合、コントロールは描画されません。
-
-### リニアバー テキスト スタイル
-
-リニアバー テキスト スタイルは、Linear Bar の配置とテキスト色の制御に使用します。Text Style を "None" に変更した場合、テキストは Linear Bar で非表示になります。ジェネレーターは Text Style の Bold オプションを無視しますが、デフォルト フォント ウェイトを使用する Linear Bar を描画します。
-
-### リニア バー テキスト
-
-Text プロパティにテキスト、[テキストのバインディング](../codegen/data-binding.md)、または両方を含むことができます。例:
-
-- 設定
-- {settingsLabel}
-- 重要な {labelText}
+| <img class="responsive-img" src="../images/progress_do3.png" srcset="../images/progress_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/progress_dont3.png" srcset="../images/progress_dont3@2x.png 2x" /> |
 
 ## その他のリソース
 
 関連トピック:
 
 - [AV Player パターン](../patterns/av.md)
-- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
-

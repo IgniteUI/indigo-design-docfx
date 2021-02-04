@@ -1,83 +1,80 @@
 ﻿---
-title: Cards - デザイン システム コンポーネント
+title: Card - デザイン システム コンポーネント
 _description: Card コンポーネント シンボルは、シングル オブジェクトを説明するための関連操作で拡張した画像とテキストを含みます。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
-# Cards (カード)
+# Card
 
-Card コンポーネントシンボルは、画像とテキストで単一オブジェクトの情報を表示し、共有、リンク、ブックマークなどの関連するクイック操作をトリガーできます。Card は通常概要を提供し、詳細情報のエントリ ポイントとして、ダッシュボード、テキスト、画像、アイコン、ボタンなどを表示します。 Card は、[Ignite UI for Angular Card コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/card.html)と視覚的に同じものです。
+Card コンポーネントを使用して、画像、マップ、その他のメディア コンテンツ、およびテキストを介して単一のオブジェクトの情報を表示し、共有、「いいね」、ブックマークなどの関連するクイック操作をトリガーできます。これは通常、より詳細な情報の概要およびエントリ ポイントとして機能します。さまざまなコンテンツとレイアウトのカードを組み合わせて、ダッシュボードを作成できます。Card は、[Ignite UI for Angular Card コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/card.html)と視覚的に同じものです。
 
-## Card デモ
+## Card のデモ
 
 <img class="responsive-img" src="../images/card_demo.png" srcset="../images/card_demo@2x.png 2x" />
 
 ## 領域
 
-Card には 3 つの領域 (`header` - タイトルとサブタイトルの組み合わせ、`content` - Card の画像と段落、`actions` - Card に関連するクイック操作のあるツールバー) があります。
+Card には 4 つの異なる領域があります: 画像またはマップ メディアを表示する上部の `image` (画像)、サムネイル アバター、タイトル、サブタイトルの組み合わせを保持する `header` (ヘッダー)、Card の詳細を示すテキスト段落を保持する `body` (本文)、および Card に関連するクイック操作を備えたツールバーとして機能する `actions` (操作) です。
 
-|           |                                                                                                |
-| --------- | ---------------------------------------------------------------------------------------------- |
-| `header`  | <img class="responsive-img" src="../images/card_headerl.png" srcset="../images/card_headerL@2x.png 2x" />             |
-| `content` | <img class="responsive-img" src="../images/card_content_image.png" srcset="../images/card_content_image@2x.png 2x" /> |
-| `actions` | <img class="responsive-img" src="../images/card_actions_icons.png" srcset="../images/card_actions_icons@2x.png 2x" /> |
+|         |                                                                                                |
+| ------- | ---------------------------------------------------------------------------------------------- |
+| image   | <img class="responsive-img" src="../images/card_media_image.png" srcset="../images/card_media_image@2x.png 2x" /> |
+| header  | <img class="responsive-img" src="../images/card_header.png" srcset="../images/card_header@2x.png 2x" /> |
+| body    | <img class="responsive-img" src="../images/card_content_image.png" srcset="../images/card_body@2x.png 2x" /> |
+| actions | <img class="responsive-img" src="../images/card_actions_buttons_icons.png" srcset="../images/card_actions_buttons_icons@2x.png 2x" /> |
+
+## 画像と本文
+
+画像と本文の Card 領域は、11 のオーバーライドの同じコレクションをサポートします: 人口の多い世界領域の 6 つの大陸地図、1 つの世界地図、1 つのナビゲーション地図、および連絡先、画像、簡単な説明テキストの段落などのショートカットの配列です。
+
+<img class="responsive-img" src="../images/card_media_worldmap.png" srcset="../images/card_media_worldmap@2x.png 2x" />
+
+<img class="responsive-img" src="../images/card_media_nav.png" srcset="../images/card_media_nav@2x.png 2x" />
+
+<img class="responsive-img" src="../images/card_media_image.png" srcset="../images/card_media_image@2x.png 2x" />
+
+<img class="responsive-img" src="../images/card_body.png" srcset="../images/card_body@2x.png 2x" />
 
 ## ヘッダー
 
-Card ヘッダーは、3 種類のレイアウト (**Large Title** - 大きいタイトルとサブタイトル、Small Title - スモール タイトルとサブタイトル、Small Title - スモール タイトルのみ (サブタイトルなし) をサポートします。
+Card ヘッダーは、Sketch の `Smart Layout` を使用して、アバターのサムネイル、タイトル、サブタイトルの要素を含むさまざまなレイアウトをサポートします。
 
-<img class="responsive-img" src="../images/card_headerl.png" srcset="../images/card_headerL@2x.png 2x" />
-<img class="responsive-img" src="../images/card_headers.png" srcset="../images/card_headerS@2x.png 2x" />
-<img class="responsive-img" src="../images/card_header_title.png" srcset="../images/card_header_title@2x.png 2x" />
-
-## コンテンツ
-
-Card コンテンツは、5 種類のレイアウト (連絡先のようなショートカットの**配列**、タイトルあり/なしの画像、地理的な位置を表すマップ、短い説明のテキストの段落) をサポートします。
-
-<img class="responsive-img" src="../images/card_content_shortcuts.png" srcset="../images/card_content_shortcuts@2x.png 2x" />
-<img class="responsive-img" src="../images/card_content_image.png" srcset="../images/card_content_image@2x.png 2x" />
-<img class="responsive-img" src="../images/card_content_map.png" srcset="../images/card_content_map@2x.png 2x" />
-<img class="responsive-img" src="../images/card_content_paragraph.png" srcset="../images/card_content_paragraph@2x.png 2x" />
+<img class="responsive-img" src="../images/card_header.png" srcset="../images/card_header@2x.png 2x" />
 
 ## 操作
 
-Card 操作は 3 種類のレイアウトをサポートします。Flat ボタン数個のみのある**ボタン操作**、アイコン操作 (アイコン 3 つ迄)、アイコンとボタン操作の 2 つの組み合わせ。
+Card 操作には、6 つの異なるレイアウトがあります: 2 つの Flat Button と 3 つの Icon を備えた **Button + Icon Actions**、その逆に配置された逆 Icon + Button Actions、それらの Justified~ バリアントおよび Justified Button Actions と Justified Icon Actions のみを備えたバリアントです。6 つはそれぞれ Sketch の `Smart Layout` として定義されており、要素を ~No Symbol に設定して要素を削除し、残りを自動的に目的のレイアウトに調整できます。
 
-<img class="responsive-img" src="../images/card_actions_buttons.png" srcset="../images/card_actions_buttons@2x.png 2x" />
-<img class="responsive-img" src="../images/card_actions_icons.png" srcset="../images/card_actions_icons@2x.png 2x" />
-<img class="responsive-img" src="../images/card_actions_mixed.png" srcset="../images/card_actions_mixed@2x.png 2x" />
+<img class="responsive-img" src="../images/card_actions_buttons_icons.png" srcset="../images/card_actions_buttons_icons@2x.png 2x" />
 
-## タイプ
+<img class="responsive-img" src="../images/card_actions_icons_buttons.png" srcset="../images/card_actions_icons_buttons@2x.png 2x" />
 
-Card で以下のレイアウトのうちの 1 つを利用できます。
+<img class="responsive-img" src="../images/card_actions_just_buttons_icons.png" srcset="../images/card_actions_just_buttons_icons@2x.png 2x" />
 
-|                   |                                                                                                |
-| ----------------- | ---------------------------------------------------------------------------------------------- |
-| Point of Interest | <img class="responsive-img" src="../images/card_poi.png" srcset="../images/card_poi@2x.png 2x" />                     |
-| Audio Video Card  | <img class="responsive-img" src="../images/card_av.png" srcset="../images/card_av@2x.png 2x" />                       |
-| Normal Pin        | <img class="responsive-img" src="../images/card_normal-pin.png" srcset="../images/card_normal-pin@2x.png 2x" />       |
-| Condensed Pin     | <img class="responsive-img" src="../images/card_condensed-pin.png" srcset="../images/card_condensed-pin@2x.png 2x" /> |
-| Shortcuts         | <img class="responsive-img" src="../images/card_shortcuts.png" srcset="../images/card_shortcuts@2x.png 2x" />         |
-| Simple Card       | <img class="responsive-img" src="../images/card_simple.png" srcset="../images/card_simple@2x.png 2x" />               |
-| Small Card        | <img class="responsive-img" src="../images/card_small.png" srcset="../images/card_small@2x.png 2x" />                 |
-| Square Card       | <img class="responsive-img" src="../images/card_square.png" srcset="../images/card_square@2x.png 2x" />               |
-| Text Card         | <img class="responsive-img" src="../images/card_text.png" srcset="../images/card_text@2x.png 2x" />                   |
-| Timeline Card     | <img class="responsive-img" src="../images/card_timeline.png" srcset="../images/card_timeline@2x.png 2x" />           |
+<img class="responsive-img" src="../images/card_actions_just_buttons.png" srcset="../images/card_actions_just_buttons@2x.png 2x" />
 
-デザインに合わない場合は、[カスタム カード](cards-custom.md)を作成できます。
+<img class="responsive-img" src="../images/card_actions_just_icons_buttons.png" srcset="../images/card_actions_just_icons_buttons@2x.png 2x" />
+
+<img class="responsive-img" src="../images/card_actions_just_icons.png" srcset="../images/card_actions_just_icons@2x.png 2x" />
+
+## Card レイアウト
+
+Sketch で `Smart Layout` を使用することにより、Card は、ある領域または別の領域内の特定の領域または要素を除外して、最初に同じコンポーネントで始まる無数の異なるバリエーションを作成することにより、さまざまなレイアウトを作成できます。
+
+<img class="responsive-img" src="../images/card_demo.png" srcset="../images/card_demo@2x.png 2x" />
 
 ## スタイル設定
 
-Card は、さまざまなオーバーライドでヘッダー、コンテンツ、テキスト、アイコン、ボタンの色などの操作領域の制御やカードの背景色の選択などスタイル設定に柔軟性があります。
+Card には、画像、ヘッダー、本文、テキスト、アイコン、ボタンの色などの操作領域の制御や Card の背景色の選択などスタイル設定に柔軟性があります。
 
 <img class="responsive-img" src="../images/card_styling.png" srcset="../images/card_styling@2x.png 2x" />
 
 ## 使用方法
 
-Card はより詳細な情報についての概要やエントリ ポイントとなるため、情報をあまり入れすぎないようにします。カード ダッシュボードの作成時にカードを常にサイズ変更しながら配置し、カード間の水平と垂直のギャップを均等にしてレイアウト グリッドを形成します。
+Card は通常、概要 UI および詳細情報のエントリ ポイントとして機能します。情報が多すぎて目詰まりしないようにします。ダッシュボードを作成するときは、カードを常にサイズ変更しながら配置し、カード間の水平と垂直のギャップを均等にしてレイアウト グリッドを形成します。
 
-| 良い例                                                                     | 悪い例                                                                         |
+| 良い例                                                                         | 悪い例                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | <img class="responsive-img" src="../images/card_do1.png" srcset="../images/card_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/card_dont1.png" srcset="../images/card_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/card_do2.png" srcset="../images/card_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/card_dont2.png" srcset="../images/card_dont2@2x.png 2x" /> |
@@ -89,9 +86,6 @@ Card はより詳細な情報についての概要やエントリ ポイント�
 - [Avatar](avatar.md)
 - [Button](button.md)
 - [Icon](icon.md)
-- [Card Collection パターン](../patterns/card-collection.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
-
