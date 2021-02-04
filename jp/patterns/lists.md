@@ -37,7 +37,7 @@ Group of Items List パターンを使用して、グループ化されたまた
 
 関連トピック:
 
-- [イラストレーション](../style/illustrations.md)
+- [Illustrations](../style/illustrations.md)
 - [Input](../components/input.md)
 - [List](../components/list.md)
 - [Avatar](../components/avatar.md)

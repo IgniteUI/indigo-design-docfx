@@ -70,17 +70,17 @@
 - name: スタイル設定
   href: ../style/styling-overview.md
   items:
-    - name: カラー
+    - name: Colors
       href: ../style/colors.md
       updated: true
-    - name: エレベーション
+    - name: Elevation
       href: ../style/elevation.md
-    - name: マテリアル アイコン
+    - name: Material Icons
       href: ../style/material-icons.md
       updated: true
-    - name: タイポグラフィ
+    - name: Typography
       href: ../style/typography.md
-    - name: イラストレーション
+    - name: Illustrations
       href: ../style/illustrations.md
 - name: コンポーネント
   href: ../components/components-overview.md
