@@ -12,9 +12,6 @@ Use the Empty States Patterns to provide the users with helpful information when
 
 The Empty States Patterns come with the styling flexibility provided by the Navbar and Button that constitute their layout.
 
-> [!Note]
-> Illustrations nested inside the Pattern Symbols cannot be code generated and Illustration itself has to be inserted manually.
-
 > [!WARNING]
 > After inserting an Empty State Pattern, you should trigger `Detach from Symbol` in order to be able to generate it as Angular code. Illustrations nested inside the Pattern cannot be code generated and the Illustration itself has to be inserted manually after that step. Individual Components must stay intact and not be detached!
 
