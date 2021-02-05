@@ -24,10 +24,10 @@ The Empty States Patterns come with the styling flexibility provided by the Navb
 
 Related topics:
 
+- [Illustrations](../style/illustrations.md)
 - [Button](../components/button.md)
 - [Navbar](../components/navbar.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
