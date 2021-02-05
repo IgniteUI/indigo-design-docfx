@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Empty States
 
-Use the Empty States Patterns to provide the users with helpful information when there is no content to show due to a system error or when there are no results to be displayed when a filter is applied to encourage them to interact with your product. Usually an empty screen without any type of guidance or exact explanation can confuse users and prevent them from using your product or service.
+Use the Empty State Patterns to tell the user that there is no content to show due to a system error or when there are no results to be displayed e.g. when a filter is applied. Use them to encourage your users to interact with the product and avoid designs without any type of guidance or exact explanation as they confuse users and prevent them from using the product.
 
 <img class="responsive-img" src="../images/empty-states_demo.png" srcset="../images/empty-states_demo@2x.png 2x" />
 
