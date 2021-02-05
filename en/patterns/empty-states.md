@@ -16,7 +16,7 @@ The Empty States Patterns come with the styling flexibility provided by the Navb
 > Illustrations nested inside the Pattern Symbols cannot be code generated and Illustration itself has to be inserted manually.
 
 > [!WARNING]
-> After inserting an Empty States Pattern, you should trigger `Detach from Symbol` in order to be able to generate it as Angular code. The individual Components, however, must stay intact and not be detached!
+> After inserting an Empty State Pattern, you should trigger `Detach from Symbol` in order to be able to generate it as Angular code. Illustrations nested inside the Pattern cannot be code generated and the Illustration itself has to be inserted manually after that step. Individual Components must stay intact and not be detached!
 
 <img class="responsive-img" src="../images/empty-states_detach.png" srcset="../images/empty-states_detach@2x.png 2x" />
 
@@ -30,4 +30,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
