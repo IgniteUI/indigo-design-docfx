@@ -10,7 +10,7 @@ Use the Empty States Patterns to provide the users with helpful information when
 
 <img class="responsive-img" src="../images/empty-states_demo.png" srcset="../images/empty-states_demo@2x.png 2x" />
 
-The Empty States Patterns come with the styling flexibility provided by the Navbar and Button that constitute their layout.
+The Empty State Patterns come with the styling flexibility provided by the Navbar, Illustration, and Button that constitute their layout.
 
 > [!WARNING]
 > After inserting an Empty State Pattern, you should trigger `Detach from Symbol` in order to be able to generate it as Angular code. Illustrations nested inside the Pattern cannot be code generated and the Illustration itself has to be inserted manually after that step. Individual Components must stay intact and not be detached!
