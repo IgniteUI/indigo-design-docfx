@@ -21,7 +21,7 @@ Grid ツールバーは Sketch の Smart Layout を使用し、交換可能な�
 
 ## スタイル設定
 
-Grid ツールバーには、アクションのさまざまなオーバーライド、タイトル スタイルおよび背景色により、スタイル設定は高い柔軟性があります。
+Grid ツールバーには、Actions のさまざまなオーバーライド、タイトル スタイルおよび背景色により、スタイル設定は高い柔軟性があります。
 
 <img class="responsive-img" src="../images/grid_toolbar_styling.png" srcset="../images/grid_toolbar_styling@2x.png 2x" />
 
