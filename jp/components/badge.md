@@ -1,7 +1,7 @@
 ﻿---
 title: Badge - デザイン システム コンポーネント
 _description: Badge コンポーネント シンボルは、追加情報のヒントを提供するコンプリメンタリ要素です。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, コンポーネント, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
@@ -13,21 +13,21 @@ Badge コンポーネント シンボルを使用して他のインターフェ�
 
 <img class="responsive-img" src="../images/badge_demo.png" srcset="../images/badge_demo@2x.png 2x" />
 
+## タイプ
+
+Badge は、数字やアイコンなど、さまざまなタイプのコンテンツを使用できます。
+
+<img class="responsive-img" src="../images/badge_type.png" srcset="../images/badge_type@2x.png 2x" />
+
 ## 図形
 
 Badge には、円形と四角形の 2 つの異なる図形があります。
 
 <img class="responsive-img" src="../images/badge_shapes.png" srcset="../images/badge_shapes@2x.png 2x" />
 
-## タイプ
-
-Badge は、**数字**やアイコンなど、さまざまなタイプのコンテンツを使用できます。
-
-<img class="responsive-img" src="../images/badge_type.png" srcset="../images/badge_type@2x.png 2x" />
-
 ## スタイル設定
 
-Badge は、さまざまなオーバーライドで背景、境界線の色、元になるインターフェイス要素でキャストされた影の表示の制御などスタイル設定に柔軟性があります。
+Badge は、さまざまなオーバーライドで背景色や境界線の色を制御することで柔軟にスタイル設定できます。適用可能な場合はアイコンの色、テキストのスタイル、基本のインターフェイス要素に影を落とすことも設定できます。
 
 <img class="responsive-img" src="../images/badge_styling.png" srcset="../images/badge_styling@2x.png 2x" />
 
@@ -39,43 +39,12 @@ Badge を使用して Avatar やテキスト タイトルなどのその他の U
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/badge_do1.png" srcset="../images/badge_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/badge_dont1.png" srcset="../images/badge_dont1@2x.png 2x" /> |
 
-## コードの生成
-
-Badge に色を指定した場合、Badge HTML 要素は div でラップされます。ブラウザーによってネスト コンポーネント (他のコンポーネント内のコンポーネント) のスタイル設定が要求されます。
-
-> [!WARNING]
-> デザインの Badge のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Badge のためのコード生成機能が失われる結果となります。
-
-### Event プロパティ
-
-`🕹️Event` プロパティはコンポーネント TypeScript のメソッドを作成するために使用されて HTML に Angular クリック シグネチャーを追加します。波括弧構文 ({onEventName}) を使用してイベントを指定する必要があります。
-
-### データ プロパティ
-
-`🕹️DataProperty` 値はバッジ値プロパティへの[データ バインディング](../codegen/data-binding.md)を設定するために使用されます。コード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名です。そのため、`🕹️DataProperty` が使用される場合、モデル オブジェクト名を指定する必要があります。指定されない場合、無視されます。
-
-バッジ タイプを Icon に設定した場合、`🕹️DataProperty` は無視されます。
-
-### タイプ
-
-バッジが数値/テキストまたはアイコンかどうかを決定します。
-
-### テキスト
-
-Type を Number に設定する場合、以下が適用されます。
-
-- `🕹️DataProperty` が提供された場合、値は指定したプロパティに[データ バインディング](../codegen/data-binding.md)されます。
-- Text にデータ バインディングがある場合、値は指定したプロパティにデータ バインディングされます。
-- Text に値がある場合、値はテキストに設定されます。
-
 ## その他のリソース
 
 関連トピック:
 
 - [Avatar + Badge](../patterns/avatar-badge.md)
-- [データ バインディング](../codegen/data-binding.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
 

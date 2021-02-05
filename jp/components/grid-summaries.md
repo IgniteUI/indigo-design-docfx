@@ -1,7 +1,7 @@
 ﻿---
 title: Grid 集計 - グリッド
 _description: Grid 集計は、すべてのデータで算出した集計値を各 Grid 列に示します。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, Grid 機能, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
@@ -16,10 +16,9 @@ Grid 集計のコンポーネントは、各グリッド列のすべてのデー
 
 ## 状態
 
-Grid 集計セルは、以下のインタラクティブな状態をサポートします。**アクティブ**は Label および Number の概要を示します。インアクティブは、グレー アウトされたラベルを示します。Number を非表示にします。unavailable は 1 つの列に他の列より集計が少ない場合にギャップを埋めます。
+Grid 集計セルは、次のインタラクティブな状態をサポートします。**available** (利用可能) は Label および Number を示します。unavailable (利用可能ではない) は、1 つの列に他の列より集計が少ない場合にギャップを埋めます。
 
 <img class="responsive-img" src="../images/grid_cell_summary_active.png" srcset="../images/grid_cell_summary_active@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_cell_summary_inactive.png" srcset="../images/grid_cell_summary_inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_summary_unavailable.png" srcset="../images/grid_cell_summary_unavailable@2x.png 2x" />
 
 ## タイプ
@@ -34,15 +33,6 @@ Grid 集計セルには一般的なタイプのプリセットが 2 タイプあ
 Grid 集計セルは、さまざまなオーバーライドでラベル、数値テキスト色、セルの背景色を制御することにより柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/grid_summaries_styling.png" srcset="../images/grid_summaries_styling@2x.png 2x" />
-
-## コードの生成
-
-Sketch ダイアグラムに Summary オブジェクトが 1 つ以上追加された場合、それらの集計が各関連する列で生成されます。開発者がカスタム集計計算のクラスを設定する必要があります。詳細については、この [Ignite UI for Angular ヘルプ トピック](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid_summaries.html)を参照してください。コード生成は Sketch の Summary スタイルを SCSS に適用します。集計クラスが設定されていない場合、プロジェクトをブラウザーで実行するときにデフォルトの列集計が以下の画像のように列型に基づいて描画されます。
-
-<img class="responsive-img" src="../images/grid_summaries_codegen.png" />
-
-> [!Note]
-> Ignite UI Summary Theme の描画に問題があり、背景色機能で色が描画されませんが、Header 色は描画されます。修正後に Sketch 描画に設定した正しい色で描画されます。
 
 ## その他のリソース
 

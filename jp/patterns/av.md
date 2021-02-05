@@ -1,7 +1,7 @@
 ﻿---
 title: Audio / Video - デザイン システム パターン
 _description: Audio / Video パターン シンボルはオーディオおよびビデオ再生を制御するインターフェイスを提供します。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, パターン, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
@@ -17,8 +17,8 @@ Audio / Video パターンのレイアウトに含まれる Icon Buttons およ�
 > [!WARNING]
 > Audio / Video パターンを挿入した後、Angular コードとして生成するには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。
 
-<img class="responsive-img" src="../images/av_player_detach.png" />
-<img class="responsive-img" src="../images/av_volume_detach.png" />
+<img class="responsive-img" src="../images/av_player_detach.png" srcset="../images/av_player_detach@2x.png 2x" />
+<img class="responsive-img" src="../images/av_volume_detach.png" srcset="../images/av_volume_detach@2x.png 2x" />
 
 ## その他のリソース
 

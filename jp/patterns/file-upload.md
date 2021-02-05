@@ -1,7 +1,7 @@
 ﻿---
 title: File Upload - デザイン システム パターン
 _description: File Upload パターン シンボルはファイルのアップロードまたは挿入のユーザー インターフェイスを提供します。
-_keywords: デザイン システム, Sketch, Ignite UI for Angular, パターン, UI ライブラリ, ウィジェット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
@@ -21,14 +21,14 @@ File Upload パターンはアップロードしたファイルのプレビュ�
 
 ## コンテンツ
 
-Document 型の File Upload パターンは、アップロードまたは Document として挿入によく使用されるコンテンツ タイプ (CSV、PDF、Presentation、Spreadsheet Text) をサポートします。また、様々なアプリケーション シナリオでカスタマイズを有効にするために Upload および Attach プリセットの利用が可能です。
+Document 型の File Upload パターンは、アップロードまたは Document として挿入によく使用されるコンテンツ タイプ (CSV、PDF、Presentation、Spreadsheet Text) をサポートします。また、様々なアプリケーション シナリオでカスタマイズを有効にするために Attach プリセットの利用が可能です。
 
 <img class="responsive-img" src="../images/file-upload_content.png" srcset="../images/file-upload_content@2x.png 2x" />
 
 > [!WARNING]
 > File Upload パターンを挿入した後、Angular コードとして生成するには、`Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。
 
-<img class="responsive-img" src="../images/file_upload_detach.png" />
+<img class="responsive-img" src="../images/file_upload_detach.png" srcset="../images/file_upload_detach@2x.png 2x" />
 
 ## その他のリソース
 

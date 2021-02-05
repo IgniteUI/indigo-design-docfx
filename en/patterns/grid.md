@@ -6,9 +6,10 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Grid
 
-Use any of the Grid Pattern symbols as an alternative starting point when designing a tabular data layout. It provides a full-blown contentwise and stylewise Grid Component that comes with all the Grid functionality, provided in the Components Library.
+Use any of the Grid Pattern symbols as an alternative starting point when designing a tabular data layout. It provides a full-blown contentwise and stylewise Grid Component, on which all the Grid functionality, provided in the Components Library can be applied.
 
-Below is illustrated the Grid Pattern with Excel Style Filter, Sorting and Display Density
+The Grid Pattern with Excel Style Filter, Sorting and Display Density is shown below:
+
 <img class="responsive-img" src="../images/grid.png" srcset="../images/grid@2x.png 2x" />
 
 List of all the Grid functionality:
@@ -32,7 +33,7 @@ List of all the Grid functionality:
 
 
 Grid Pattern symbol comes with six pre-made combinations of Grid features:
-- Grid Pattern with Summaries, Column Moving and Paging
+- Grid Pattern with Column Moving, Summaries and Paging
 - Grid Pattern with Editing and Filter Row
 - Grid Pattern with Excel Style Filter, Sorting and Display Density
 - Grid Pattern with Group By, Column Resizing and Summaries
@@ -41,9 +42,9 @@ Grid Pattern symbol comes with six pre-made combinations of Grid features:
 
 
 > [!WARNING]
-> After inserting the Grid Pattern, you should trigger `Detach from Symbol` to break it down to the Components and Grid symbols that are used to create the layout in order to be able to generate it as Angular code. The individual Components and Grid symbols, however, must stay intact and not be detached!
+> After inserting the Grid Pattern, you should trigger `Detach from Symbol` to break it down to the Components and Grid Features that are used to create the layout in order to be able to generate it as Angular code. The individual Components and Features, however, must stay intact and not be detached!
 
-<img class="responsive-img" src="../images/grid_detach.png" />
+<img class="responsive-img" src="../images/grid_detach.png" srcset="../images/grid_detach@2x.png 2x" />
 
 ## Additional Resources
 
