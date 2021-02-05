@@ -72,9 +72,9 @@ Combo に使用される Dropdown は、標準 [Dropdown](dropdown.md) コンポ
 <img class="responsive-img" src="../images/combo_desktop.png" srcset="../images/combo_desktop@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_mobile.png" srcset="../images/combo_mobile@2x.png 2x" />
 
-## Dropdown 検索入力
+## Dropdown Search Input
 
-Dropdown には、暗いバリエーションと明るいバリエーションが付属する検索入力、状態の選択、および標準の [Input](input.md) と同様のレイアウトのオプションが含まれています。
+Dropdown には、暗いバリエーションと明るいバリエーションが付属する Search Input、状態の選択、および標準の [Input](input.md) と同様のレイアウトのオプションが含まれています。
 
 ## Dropdown 項目
 

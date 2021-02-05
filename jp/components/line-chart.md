@@ -22,13 +22,13 @@ Line Chart にはタイトルがあり、不要な場合はオーバーライド
 
 <img class="responsive-img" src="../images/line_chart_title.png" srcset="../images/line_chart_title@2x.png 2x" />
 
-## Legend (凡例)
+## Legend 
 
 Line Chart には、シリーズの数とそれらが表すものを示す Legend があります。Legend は Sketch の Smart Layout を使用して作成され、必要のない項目のオーバーライドを ~No Symbol に設定することでシリーズ項目の正確な量を含むように調整できます。Legend の項目の形状は、rectangle (四角形)、line (線)、および dot (点) の組み込みサポートで構成することもできます。
 
 <img class="responsive-img" src="../images/line_chart_legend.png" srcset="../images/line_chart_legend@2x.png 2x" />
 
-## Chart Type (チャート タイプ)
+## Chart Type 
 
 Chart Type は Line と Area を切り替えます。Area は、X 軸と線の間の領域がシリーズの色で塗りつぶされています。Area Chart は、変化の大きさとそのトレンドを示します。
 
@@ -47,13 +47,13 @@ Line Chart の Y 軸は、Title、Labels、および軸自体で構成されま�
 
 <img class="responsive-img" src="../images/line_chart_yaxis.png" srcset="../images/line_chart_yaxis@2x.png 2x" />
 
-## Gridlines (グリッド線)
+## Gridlines 
 
 Line Chart には、データ ポイントを Y 軸の値に視覚的にトレースしやすくするための組み込みの Gridlines があります。非表示にするには、色を `Transparent` に設定します。
 
 <img class="responsive-img" src="../images/line_chart_gridlines.png" srcset="../images/line_chart_gridlines@2x.png 2x" />
 
-## シリーズ量
+## Series Amount
 
 Line Chart には、Chart Area に描画される 1 つ、2 つ、および **3 つ**のシリーズの選択が付属しています。これは Area タイプにも当てはまります。
 

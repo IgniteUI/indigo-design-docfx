@@ -15,15 +15,15 @@ Bullet Graph コンポーネントをデータ可視化に使用し、カラー�
 
 <img class="responsive-img" src="../images/bullet_graph_three_ranges-2.png" srcset="../images/bullet_graph_three_ranges-2@2x.png 2x" />
 
-## タイトルとサブタイトル
+## Title と Subtitle
 
 Bullet Graph には、テキストを変更できる Title および Subtitle があります。~No Symbol に設定して不要な場合は非表示にできます。
 
 <img class="responsive-img" src="../images/bullet_graph_title.png" srcset="../images/bullet_graph_title@2x.png 2x" />
 
-## 凡例
+## Legend
 
-Bullet Graph には凡例があり、選択した Series Amount に合わせて調整できます。凡例項目は、対応する Series を ~No Symbol に設定して削除、または Overrides/Charts/Legend/Series で検索して追加できます。また、アイコンのタイプを Square (四角)、Line (線)、または Circle (円) の間で変更できます。
+Bullet Graph には Legend があり、選択した Series Amount に合わせて調整できます。Legend 項目は、対応する Series を ~No Symbol に設定して削除、または Overrides/Charts/Legend/Series で検索して追加できます。また、アイコンのタイプを Square (四角)、Line (線)、または Circle (円) の間で変更できます。
 
 <img class="responsive-img" src="../images/bullet_graph_legend.png" srcset="../images/bullet_graph_legend@2x.png 2x" />
 
@@ -42,9 +42,9 @@ Bullet Graph は、定義済みの 3 つの範囲 (**2 つ**、3 つ、4 つ) �
 <img class="responsive-img" src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_four_ranges.png" srcset="../images/bullet_graph_four_ranges@2x.png 2x" />
 
-## 目盛りと値
+## Ticks と Values
 
-目盛りと値も構成できます。2 種類の目盛り: Ticks (目盛り) と Minor Ticks (副目盛り) は、色を `Transparent` に設定することで非表示にできます。100 までのデフォルト値 0、10、20 などは、必要に応じて調整できます。
+Ticks と Values も構成できます。2 種類の目盛り: Ticks と Minor Ticks は、色を `Transparent` に設定することで非表示にできます。100 までのデフォルト Values 0、10、20 などは、必要に応じて調整できます。
 
 <img class="responsive-img" src="../images/bullet_graph_values.png" srcset="../images/bullet_graph_values@2x.png 2x" />
 
@@ -56,7 +56,7 @@ Bullet Graph のスタイル設定は高い柔軟性があり、ブラシ範囲 
 
 ## 使用方法
 
-データ可視化時に情報ダッシュボードは目標値かどうかに基づいて Bullet Graph と Linear Gauge のどちらかを選択します。グラフとゲージは両方とも現在の値のみ表示し、過去の値を表示する方法はありません。アプリケーションでそのようなデータが必要な場合はまたは折れ線または縦棒チャートを検討してください。わかりやすく、鮮明なデータ可視化を簡単に作成するために Value や Target Value Brushes の色は範囲や背景と十分なコントラストのある色にし、読みづらい、解釈しずらい結果となる同色のバリアントは使用しないようにします。
+データ可視化時に情報ダッシュボードは目標値かどうかに基づいて Bullet Graph と Linear Gauge のどちらかを選択します。グラフとゲージは両方とも現在の値のみ表示し、過去の値を表示する方法はありません。アプリケーションでそのようなデータが必要な場合はまたは Line または Column Chart を検討してください。わかりやすく、鮮明なデータ可視化を簡単に作成するために Value や Target Value Brushes の色は範囲や背景と十分なコントラストのある色にし、読みづらい、解釈しずらい結果となる同色のバリアントは使用しないようにします。
 
 | 良い例                                                                                 | 悪い例                                                                                  |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |

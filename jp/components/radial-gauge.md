@@ -37,9 +37,9 @@ Radial Gauge は、範囲 (**full**、half、および quarter) を表示する�
 <img class="responsive-img" src="../images/radial_gauge_half.png" srcset="../images/radial_gauge_half@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_quarter.png" srcset="../images/radial_gauge_quarter@2x.png 2x" />
 
-## シリーズの厚さ
+## Series Thickness
 
-Radial Gauge には、**Thick** と Thin の 2 種類のシリーズの厚さがあります。
+Radial Gauge には、**Thick** と Thin の 2 種類の Series Thickness があります。
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_full-thin.png" srcset="../images/radial_gauge_full-thin@2x.png 2x" />

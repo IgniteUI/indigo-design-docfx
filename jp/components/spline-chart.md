@@ -14,7 +14,7 @@ _language: ja
 
 <img class="responsive-img" src="../images/spline_chart_demo.png" srcset="../images/spline_chart_demo@2x.png 2x" />
 
-Spline Chart には、タイトル、凡例、およびチャート領域があり、Idle (アイドル) と Hover (ホバー) 状態のいずれかを選択できます。また、Spline と Area の 2 つのチャート タイプをサポートし、多数のシリーズ量構成を使用して、それに応じて凡例を調整できます。
+Spline Chart には、Title、Legend、および Chart Area があり、Idle と Hover 状態のいずれかを選択できます。また、Spline と Area の 2 つのチャート タイプをサポートし、多数の Series Amount 構成を使用して、それに応じて Legend を調整できます。
 
 ## タイトル
 
@@ -22,15 +22,15 @@ Spline Chart のタイトルは、オーバーライドを ~No Symbol に設定�
 
 <img class="responsive-img" src="../images/spline_chart_title.png" srcset="../images/spline_chart_title@2x.png 2x" />
 
-## 凡例
+## Legend 
 
-Spline Chart には、その中のシリーズの数とそれらが何を表すかを示す凡例が付属しています。凡例は、Sketch の Smart Layout を使用して構築されており、不要な項目のオーバーライドを ~No Symbol に設定することで、シリーズ項目の正確な量を含むように調整できます。凡例の項目の形状も、rectangle (四角形)、line (線)、および dot (点) の組み込みサポートを使用して構成できます。
+Spline Chart には、その中のシリーズの数とそれらが何を表すかを示す Legend が付属しています。Legend は、Sketch の Smart Layout を使用して構築されており、不要な項目のオーバーライドを ~No Symbol に設定することで、シリーズ項目の正確な量を含むように調整できます。Legend の項目の形状も、rectangle (四角形)、line (線)、および dot (点) の組み込みサポートを使用して構成できます。
 
 <img class="responsive-img" src="../images/spline_chart_legend.png" srcset="../images/spline_chart_legend@2x.png 2x" />
 
-## チャート タイプ
+## Chart Type 
 
-チャート タイプでは、Spline と Area を切り替えることができます。後者は、X 軸とスプラインの間の領域がシリーズの色で塗りつぶされています。Area チャートは、変化の大きさと時間の経過に伴う傾向を表すために使用されます。
+Chart Type では、Spline と Area を切り替えることができます。後者は、X 軸とスプラインの間の領域がシリーズの色で塗りつぶされています。Area チャートは、変化の大きさと時間の経過に伴う傾向を表すために使用されます。
 
 <img class="responsive-img" src="../images/spline_area_chart_three_series.png" srcset="../images/spline_area_chart_three_series@2x.png 2x" />
 
@@ -43,19 +43,19 @@ Spline Chart には、Idle と Hover の 2 つの状態があります。Hover �
 
 ## Y 軸
 
-Spline Chart の Y 軸は、タイトル、ラベル、および軸自体で構成されます。タイトルとラベルは構成可能であり、ラベルを非表示にするには、オーバーライドを ~No Symbol に設定するだけです。軸線は色を  `Transparent` に設定して非表示にすることができます。すべての要素を一度に非表示にするには、Y 軸のオーバーライドを ~No Symbol に変更します。
+Spline Chart の Y 軸は、Title、Labels、および軸自体で構成されます。Title と Labels は構成可能であり、ラベルを非表示にするには、オーバーライドを ~No Symbol に設定するだけです。軸線は色を  `Transparent` に設定して非表示にすることができます。すべての要素を一度に非表示にするには、Y 軸のオーバーライドを ~No Symbol に変更します。
 
 <img class="responsive-img" src="../images/spline_chart_axis.png" srcset="../images/spline_chart_axis@2x.png 2x" />
 
-## グリッド線
+## Gridlines 
 
-Spline Chart にはグリッド線が組み込まれているため、データ ポイントを Y 軸の値まで視覚的にトレースするのが簡単になります。それらを非表示にするには、色を `Transparent` に設定するだけです。
+Spline Chart には Gridlines が組み込まれているため、データ ポイントを Y 軸の値まで視覚的にトレースするのが簡単になります。それらを非表示にするには、色を `Transparent` に設定するだけです。
 
 <img class="responsive-img" src="../images/spline_chart_gridlines.png" srcset="../images/spline_chart_gridlines@2x.png 2x" />
 
-## シリーズ量
+## Series Amount 
 
-Spline Chart はチャート領域に描画するシリーズの数を １，２，または **３** から選択することができます。これは Area タイプにも当てはまります。
+Spline Chart は Chart Area に描画するシリーズの数を １，２，または **３** から選択することができます。これは Area タイプにも当てはまります。
 
 <img class="responsive-img" src="../images/spline_chart_one_series.png" srcset="../images/spline_chart_one_series@2x.png 2x" />
 <img class="responsive-img" src="../images/spline_chart_two_series.png" srcset="../images/spline_chart_two_series@2x.png 2x" />

@@ -29,7 +29,7 @@ Dropdown は、項目ヘッダーと項目の 2 つのタイプをサポート�
 
 ## 項目の状態
 
-Dropdown 項目は、5 つの状態をサポートします: disabled, **Idle**、Focused、Selected、Selected&focused。
+Dropdown 項目は、5 つの状態をサポートします: Disabled, **Idle**、Focused、Selected、Selected&focused。
 
 <img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />

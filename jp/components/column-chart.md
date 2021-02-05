@@ -34,13 +34,13 @@ Column Chart の Y 軸は、Title、Labels、および軸自体で構成され�
 
 <img class="responsive-img" src="../images/column_chart_yaxis.png" srcset="../images/column_chart_yaxis@2x.png 2x" />
 
-## Gridlines (グリッド線)
+## Gridlines 
 
 Column Chart には、データ ポイントを Y 軸の値に視覚的にトレースしやすくするための組み込みの Gridlines があります。非表示にするには、色を `Transparent` に設定します。
 
 <img class="responsive-img" src="../images/column_chart_gridlines.png" srcset="../images/column_chart_gridlines@2x.png 2x" />
 
-## Data Points (データ ポイント)
+## Data Points 
 
 Column Chart トの Data Points は個々の列で、Sketch の Smart Layout を使用して Chart Area での量を調整できます。X 軸に構成可能なラベルと注釈ラベルがあります。
 
