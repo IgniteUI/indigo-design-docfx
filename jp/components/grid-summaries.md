@@ -5,7 +5,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-# グリッド集計
+# Grid Summaries (グリッド集計)
 
 Grid 集計のコンポーネントは、各グリッド列のすべてのデータで算出された集計値を示すために使用します。グリッドの下にある特定のセル集計を挿入して表領域をグリッド構造と一致させますが、含まれる Label と Number は集計値の情報を含みます。Grid 集計は、[Ignite UI for Angular Grid 集計機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/summaries.html)と視覚的に同じものです。
 
@@ -16,21 +16,21 @@ Grid 集計のコンポーネントは、各グリッド列のすべてのデー
 
 ## 状態
 
-Grid 集計セルは、次のインタラクティブな状態をサポートします。**available** (利用可能) は Label および Number を示します。unavailable (利用可能ではない) は、1 つの列に他の列より集計が少ない場合にギャップを埋めます。
+Grid Summary Cell は、次のインタラクティブな状態をサポートします。**available** は Label および Number を示します。unavailable は、1 つの列に他の列より集計が少ない場合にギャップを埋めます。
 
 <img class="responsive-img" src="../images/grid_cell_summary_active.png" srcset="../images/grid_cell_summary_active@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_summary_unavailable.png" srcset="../images/grid_cell_summary_unavailable@2x.png 2x" />
 
 ## タイプ
 
-Grid 集計セルには一般的なタイプのプリセットが 2 タイプあり、数値の **Number** と文字列の Text に対応する必要があります。
+Grid Summary Cell には一般的なタイプのプリセットが 2 タイプあり、数値の **Number** と文字列の Text に対応する必要があります。
 
 <img class="responsive-img" src="../images/grid_cell_summary_number.png" srcset="../images/grid_cell_summary_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_summary_text.png" srcset="../images/grid_cell_summary_text@2x.png 2x" />
 
 ## スタイル設定
 
-Grid 集計セルは、さまざまなオーバーライドでラベル、数値テキスト色、セルの背景色を制御することにより柔軟にスタイル設定できます。
+Grid Summary Cell は、さまざまなオーバーライドでラベル、数値テキスト色、セルの背景色を制御することにより柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/grid_summaries_styling.png" srcset="../images/grid_summaries_styling@2x.png 2x" />
 
