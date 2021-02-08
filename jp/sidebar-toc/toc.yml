@@ -249,6 +249,12 @@
       updated: true
     - name: Details
       href: ../patterns/details.md
+    - name: Dialogs
+      href: ../patterns/dialogs.md
+      new: true
+    - name: Empty States
+      href: ../patterns/empty-states.md
+      new: true
     - name: File Upload
       href: ../patterns/file-upload.md
     - name: Footers
