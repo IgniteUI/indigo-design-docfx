@@ -9,11 +9,11 @@ _language: ja
 
 Date Picker コンポーネントは、日付を視覚的に表現し、フォームへの表示およびドロップダウンまたはダイアログから選択するための適切な手段を提供します。Date Picker は、[Ignite UI for Angular Date Picker コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/date_picker.html)と視覚的に同じものです。
 
-## Date Picker デモ
+## Date Picker のデモ
 
 <img class="responsive-img" src="../images/datepicker_demo.png" srcset="../images/datepicker_demo@2x.png 2x" />
 
-## Date Picker Input
+## Date Picker Input (日付ピッカー入力)
 
 フォームに Date Picker Input を挿入して、日付を選択するためのフィールドを示すことができます。Enabled および Disabled の操作状態、およびユーザーの操作時に表示されるダイアログとドロップダウンのバリアントをサポートします。
 
@@ -35,7 +35,7 @@ Date Picker は、Horizontal と Vertical 方向の Dialog レイアウト、お
 <img class="responsive-img" src="../images/datepicker_dropdown.png" srcset="../images/datepicker_dropdown@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_monday.png" srcset="../images/datepicker_monday@2x.png 2x" />
 
-## Week Numbers
+## Week Numbers (週番号)
 
 Date Picker には、Calendar と同じように Week Numbers のサポートが組み込まれています。UI のこの部分を表示したくない場合は、Week Numbers のオーバーライドを ~No Symbol に設定するだけです。
 

@@ -9,7 +9,7 @@ _language: ja
 
 Slider コンポーネント シンボルは、単一値の選択や両値の最後を選択して値範囲の指定が可能です。Slider は、[Ignite UI for Angular Slider コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/slider/slider.html)と視覚的に同じものです。
 
-## Slider デモ
+## Slider のデモ
 
 <img class="responsive-img" src="../images/slider_demo.png" srcset="../images/slider_demo@2x.png 2x" />
 

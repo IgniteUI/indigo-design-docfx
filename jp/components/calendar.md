@@ -9,7 +9,7 @@ _language: ja
 
 Calendar コンポーネントは、日付を視覚的に表示し、年と月のコンビネーション表示で統一した選択方法をユーザーに提供します。Calendar は、日付の表示および選択を許可するためにビューでインラインに設定します。Calendar は、[Ignite UI for Angular Calendar](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/calendar.html) コンポーネントと視覚的に同じもので、[Ignite UI for Angular Date Picker コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/date_picker.html)に使用されます。
 
-## Calendar デモ
+## Calendar のデモ
 
 <img class="responsive-img" src="../images/calendar_demo.png" srcset="../images/calendar_demo@2x.png 2x" />
 

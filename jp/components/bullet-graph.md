@@ -11,17 +11,17 @@ Bullet Graph コンポーネントをデータ可視化に使用し、カラー�
 
 目標値がない場合や未関係の場合は、[Linear Gauge](linear-gauge.md) を代わりに使用します。
 
-## ブレット グラフ デモ
+## Bullet Graph のデモ
 
 <img class="responsive-img" src="../images/bullet_graph_three_ranges-2.png" srcset="../images/bullet_graph_three_ranges-2@2x.png 2x" />
 
-## Title と Subtitle
-
+## Title と Subtitle (タイトルとサブタイトル)
+(タイトルとサブタイトル)
 Bullet Graph には、テキストを変更できる Title および Subtitle があります。~No Symbol に設定して不要な場合は非表示にできます。
 
 <img class="responsive-img" src="../images/bullet_graph_title.png" srcset="../images/bullet_graph_title@2x.png 2x" />
 
-## Legend
+## Legend (凡例)
 
 Bullet Graph には Legend があり、選択した Series Amount に合わせて調整できます。Legend 項目は、対応する Series を ~No Symbol に設定して削除、または Overrides/Charts/Legend/Series で検索して追加できます。また、アイコンのタイプを Square (四角)、Line (線)、または Circle (円) の間で変更できます。
 
@@ -42,7 +42,7 @@ Bullet Graph は、定義済みの 3 つの範囲 (**2 つ**、3 つ、4 つ) �
 <img class="responsive-img" src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_four_ranges.png" srcset="../images/bullet_graph_four_ranges@2x.png 2x" />
 
-## Ticks と Values
+## Ticks と Values (目盛と値)
 
 Ticks と Values も構成できます。2 種類の目盛り: Ticks と Minor Ticks は、色を `Transparent` に設定することで非表示にできます。100 までのデフォルト Values 0、10、20 などは、必要に応じて調整できます。
 

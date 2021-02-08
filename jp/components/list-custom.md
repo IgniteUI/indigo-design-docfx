@@ -9,7 +9,7 @@ _language: ja
 
 Custom List Item シンボルは、通常の List Item と同じタイプの情報を表示しますが、レイアウトを自由に変更できます。Custom List Item は、[Ignite UI for Angular List コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/list.html)のレイアウトにカスタム コードを使用します。
 
-## Custom List Item デモ
+## Custom List Item のデモ
 
 <img class="responsive-img" src="../images/list_item_custom_demo.png" srcset="../images/list_item_custom_demo@2x.png 2x" />
 

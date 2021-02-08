@@ -22,13 +22,13 @@ Spline Chart のタイトルは、オーバーライドを ~No Symbol に設定�
 
 <img class="responsive-img" src="../images/spline_chart_title.png" srcset="../images/spline_chart_title@2x.png 2x" />
 
-## Legend 
+## Legend (凡例)
 
 Spline Chart には、その中のシリーズの数とそれらが何を表すかを示す Legend が付属しています。Legend は、Sketch の Smart Layout を使用して構築されており、不要な項目のオーバーライドを ~No Symbol に設定することで、シリーズ項目の正確な量を含むように調整できます。Legend の項目の形状も、rectangle (四角形)、line (線)、および dot (点) の組み込みサポートを使用して構成できます。
 
 <img class="responsive-img" src="../images/spline_chart_legend.png" srcset="../images/spline_chart_legend@2x.png 2x" />
 
-## Chart Type 
+## Chart Type (チャート タイプ)
 
 Chart Type では、Spline と Area を切り替えることができます。後者は、X 軸とスプラインの間の領域がシリーズの色で塗りつぶされています。Area チャートは、変化の大きさと時間の経過に伴う傾向を表すために使用されます。
 
@@ -47,13 +47,13 @@ Spline Chart の Y 軸は、Title、Labels、および軸自体で構成され�
 
 <img class="responsive-img" src="../images/spline_chart_axis.png" srcset="../images/spline_chart_axis@2x.png 2x" />
 
-## Gridlines 
+## Gridlines (グリッド線)
 
 Spline Chart には Gridlines が組み込まれているため、データ ポイントを Y 軸の値まで視覚的にトレースするのが簡単になります。それらを非表示にするには、色を `Transparent` に設定するだけです。
 
 <img class="responsive-img" src="../images/spline_chart_gridlines.png" srcset="../images/spline_chart_gridlines@2x.png 2x" />
 
-## Series Amount 
+## Series Amount (シリーズ量)
 
 Spline Chart は Chart Area に描画するシリーズの数を １，２，または **３** から選択することができます。これは Area タイプにも当てはまります。
 

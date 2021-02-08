@@ -9,7 +9,7 @@ _language: ja
 
 Time Picker コンポーネントを使用して、日付の時間部分 (時間と分) を視覚的に表し、フォームに表示することおよびドロップダウンまたはダイアログから選択することのための適切な手段を提供します。Time Picker は、[Ignite UI for Angular Time Picker コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/time_picker.html)と視覚的に同じものです。
 
-## Time Picker デモ
+## Time Picker のデモ
 
 <img class="responsive-img" src="../images/timepicker_demo.png" srcset="../images/timepicker_demo@2x.png 2x" />
 

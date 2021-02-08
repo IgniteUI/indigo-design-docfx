@@ -9,7 +9,7 @@ _language: ja
 
 Hyperlink コンポーネント シンボルは、利用規約やプライバシー ポリシーなど段落のテキスト部分のスタイルに関する追加情報へのアクセスを提供します。
 
-## Hyperlink デモ
+## Hyperlink のデモ
 
 <img class="responsive-img" src="../images/hyperlink_demo.png" srcset="../images/hyperlink_demo@2x.png 2x" />
 

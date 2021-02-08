@@ -9,7 +9,7 @@ _language: ja
 
 Input コンポーネントを使用して、文字列、さまざまなコンテキストに適した数値、日付、その他の値 (メールやパスワードなど) のユーザー データを収集します。Input は、[Ignite UI for Angular Input Group](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/input_group.html) コンポーネントと視覚的に同じものです。
 
-## Input デモ
+## Input のデモ
 
 <img class="responsive-img" src="../images/input_demo.png" srcset="../images/input_demo@2x.png 2x" />
 

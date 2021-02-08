@@ -15,13 +15,13 @@ Linear Gauge コンポーネントをデータ可視化に使用して、カラ�
 
 <img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
 
-## Title と Subtitle
+## Title と Subtitle (タイトルとサブタイトル)
 
 Linear Gauge にはテキストが変更できる Title と Subtitle があります。必要がない場合は、~No Symbol に設定することで、非表示にすることもできます。
 
 <img class="responsive-img" src="../images/linear_gauge_title.png" srcset="../images/linear_gauge_title@2x.png 2x" />
 
-## Legend
+## Legend (凡例)
 
 Linear Gauge には、表示されている範囲と現在の値に一致するように調整できる Legend が付属しています。Legend 項目は、対応するシリーズを ~No Symbol に設定することで削除するか、Overrides/Charts/Legend/Series で見つけることで追加できます。また、アイコンの種類を Square (四角形)、Line (折れ線)、または Circle (円形) の間で変更できます。
 
@@ -48,7 +48,7 @@ Linear Gauge は、リニア済みの 3 つの範囲 (2 つ、**3 つ**、4 つ)
 <img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_four_ranges.png" srcset="../images/linear_gauge_four_ranges@2x.png 2x" />
 
-## Ticks と Values
+## Ticks と Values (目盛と値)
 
 Ticks と Values も構成可能です。Ticks と Minor Ticks の 2 種類の目盛は、色を `Transparent` に設定することで非表示にできます。デフォルト Values の 0、10、20 などから 100 までは、必要に応じて調整できます。
 

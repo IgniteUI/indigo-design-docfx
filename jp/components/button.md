@@ -9,7 +9,7 @@ _language: ja
 
 Button コンポーネント シンボルは、シンプルなユーザー操作のためのトリガーを表します。Buttons は、カード、ダイアログ、フォーム、その他コンポーネントやパターンに使用します。Button は、[Ignite UI for Angular Button コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/button.html)と視覚的に同じものです。
 
-## Button デモ
+## Button のデモ
 
 <img class="responsive-img" src="../images/button_demo.png" srcset="../images/button_demo@2x.png 2x" />
 

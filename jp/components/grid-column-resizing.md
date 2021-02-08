@@ -9,7 +9,7 @@ _language: ja
 
 Grid 列サイズ変更は、グリッド列のサイズ変更が可能なできることを示します。ユーザーがハンドルとしてヘッダーの右端をグラブすると、列の幅を調整できます。Grid 列サイズ変更は、[Ignite UI for Angular Grid 列サイズ変更機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/column_resizing.html)と視覚的に同じものです。
 
-## Grid 列サイズ変更デモ
+## Grid 列サイズ変更のデモ
 
 <img class="responsive-img" src="../images/grid_column_resizing_demo.png" srcset="../images/grid_column_resizing_demo@2x.png 2x" />
 

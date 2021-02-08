@@ -9,7 +9,7 @@ _language: ja
 
 Grid 列非表示は、グリッドから特定の列を非表示にするために使用します。列を再び表示するためのインターフェイスを提供する最も簡単な方法は、Toolbar を追加することです。Toolbar には、デフォルトで グリッド全体の列の表示を構成できるボタン (コンボと組み合わせ) が含まれます。Grid 列非表示は、[Ignite UI for Angular Grid 列非表示機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/column_hiding.html) と視覚的に同じものです。
 
-## Grid 列非表示デモ
+## Grid 列非表示のデモ
 
 <img class="responsive-img" src="../images/grid_column_hiding_demo.png" srcset="../images/grid_column_hiding_demo@2x.png 2x" />
 
