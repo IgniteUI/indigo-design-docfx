@@ -15,7 +15,7 @@ Progress コンポーネントは、タスクの進行状況について明確�
 
 ## 形状とタイプ
 
-Progress は、さまざまなユースケースとレイアウト要件に適合する 2 つのレイアウト形状をサポートしています: Circular Bar と Linear Bar。これらの各レイアウトには、進行のタイプの追加の選択が付属しています: 確定および不確定。
+Progress は、さまざまなユースケースとレイアウト要件に適合する 2 つのレイアウト形状をサポートしています: Circular Bar と Linear Bar。これらの各レイアウトには、進行のタイプの追加の選択が付属しています: Determinate および Indeterminate。
 
 <img class="responsive-img" src="../images/progress_circular.png" srcset="../images/progress_circular@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_linear.png" srcset="../images/progress_linear@2x.png 2x" />
@@ -46,7 +46,7 @@ Progress は、以下のプリセット カラーの組み合わせの 1 つを�
 
 ## ストライプ
 
-Progress コンポーネントに Linear Bar レイアウト形状を使用する場合、塗りつぶし領域のストライプの追加オプションが付属します。ストライプを削除するには、`🌈 Stripes` 色オーバーライドを `transparent` に設定するだけです。
+Progress コンポーネントに Linear Bar レイアウト形状を使用する場合、Fill 領域のストライプの追加オプションが付属します。Stripes を削除するには、`🌈 Stripes` 色オーバーライドを `transparent` に設定するだけです。
 
 <img class="responsive-img" src="../images/progress_linearstripes.png" srcset="../images/progress_linearstripes@2x.png 2x" />
 

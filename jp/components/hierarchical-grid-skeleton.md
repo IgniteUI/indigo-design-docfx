@@ -15,14 +15,14 @@ Skeleton Hierarchical Grid を使用して、標準の情報と同じタイプ�
 
 ## セル タイプ
 
-Skeleton Hierarchical Grid は、Header (ヘッダー)、Body (本文)、Summary (集計) の 3 種類のスケルトン セルを拡張し、標準の [Hierarchical Grid](hierarchical-grid.md) として 2 つの追加のセル、CollapseAll (すべて縮小) と Expand (展開) を追加します。
+Skeleton Hierarchical Grid は、Header、Body、Summary の 3 種類のスケルトン セルを拡張し、標準の [Hierarchical Grid](hierarchical-grid.md) として 2 つの追加のセル、CollapseAll と Expand を追加します。
 
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header.png" srcset="../images/hierarchical_grid_skeleton_cell_header@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_body.png" srcset="../images/hierarchical_grid_skeleton_cell_body@2x.png 2x" />
 
 ## セル表示密度
 
-Skeleton Collapse Allセルと Expand セルは、標準の [Hierarchical Grid](hierarchical-grid.md) と同じ 3 つの表示密度のバリエーション (comfortable、cosy、compact) をサポートします。
+Skeleton Collapse All セルと Expand セルは、標準の [Hierarchical Grid](hierarchical-grid.md) と同じ 3 つの表示密度のバリエーション (comfortable、cosy、compact) をサポートします。
 
 <img class="responsive-img" src="../images/hierarchical_grid__skeleton_cell_header_comfortable.png" srcset="../images/hierarchical_grid__skeleton_cell_header_comfortable@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_cosy.png" srcset="../images/hierarchical_grid_skeleton_cell_header_cosy@2x.png 2x" />

@@ -53,7 +53,7 @@ Grid Header Cell は、`Items` のオーバーライドでさまざまなレイ�
 <img class="responsive-img" src="../images/grid_cell_header_icon.png" srcset="../images/grid_cell_header_icon@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_icons.png" srcset="../images/grid_cell_header_icons@2x.png 2x" />
 
-## 状態とグリッド機能 (本体セル)
+## 状態と Grid 機能 (本体セル)
 
 Grid Body Cell は、以下のインタラクティブな状態をサポートします: 標準状態の **Inactive**、フォーカスのある/選択されたセルでは Active です。任意の時間に、グリッド内の 1 つのセルだけをアクティブにすることができます。
 

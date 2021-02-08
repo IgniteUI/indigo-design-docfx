@@ -15,7 +15,7 @@ Skeleton Tree Grid を使用して、標準の情報と同じタイプの情報�
 
 ## セル タイプ
 
-Skeleton Tree Grid は、Header (ヘッダー)、Body (本文)、Summary (集計) の 3 種類のスケルトン セルを拡張し、標準の [Tree Grid](tree-grid.md) として 1 つの追加の TreeColumn セルを追加します。
+Skeleton Tree Grid は、Header、Body、Summary の 3 種類のスケルトン セルを拡張し、標準の [Tree Grid](tree-grid.md) として 1 つの追加の TreeColumn セルを追加します。
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_column_cell.png" srcset="../images/tree_grid_skeleton_column_cell@2x.png 2x" />
 
@@ -29,7 +29,7 @@ Skeleton Tree Grid の TreeColumn セルは、標準の [Tree Grid](tree-grid.md
 
 ## Cell の深さ
 
-Skeleton Tree Grid の TreeColumn セルは、データ階層のレベルについて、標準の [Tree Grid](tree-grid.md) と同じ視覚的表示をサポートします。 これは、Root Level (ルート レベル)、Child Level (子レベル)、または Grandchild Level (孫レベル) です。
+Skeleton Tree Grid の TreeColumn セルは、データ階層のレベルについて、標準の [Tree Grid](tree-grid.md) と同じ視覚的表示をサポートします。 これは、Root Level、Child Level、または Grandchild Level です。
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_cell_body_root_level.png" srcset="../images/tree_grid_skeleton_cell_body_root_level@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_skeleton_cell_body_child_level.png" srcset="../images/tree_grid_skeleton_cell_body_child_level@2x.png 2x" />
