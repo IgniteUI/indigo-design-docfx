@@ -43,7 +43,7 @@ Indigo.Design はデザインから開発までのワークフローをサポー
 
 ### 3. Angular アプリケーションのコードを生成
 
-公開したプロトタイプから Angular アプリケーションのコードを直接生成するには、 プロトタイプの共有 URL を Indigo.Design コード ジェネレーターで使用します。コード ジェネレーターは VS Code の拡張機能です。この拡張機能は [Ignite UI for Angular UI フレームワーク](https://jp.infragistics.com/products/ignite-ui-angular)を使用してコードを生成します。
+公開したプロトタイプから Angular アプリケーションのコードを直接生成するには、プロトタイプの共有 URL を Indigo.Design コード ジェネレーターで使用します。コード ジェネレーターは VS Code の拡張機能です。この拡張機能は [Ignite UI for Angular UI フレームワーク](https://jp.infragistics.com/products/ignite-ui-angular)を使用してコードを生成します。
 
 関連トピック:
 

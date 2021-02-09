@@ -16,7 +16,7 @@ Bullet Graph コンポーネントをデータ可視化に使用し、カラー�
 <img class="responsive-img" src="../images/bullet_graph_three_ranges-2.png" srcset="../images/bullet_graph_three_ranges-2@2x.png 2x" />
 
 ## Title と Subtitle (タイトルとサブタイトル)
-(タイトルとサブタイトル)
+
 Bullet Graph には、テキストを変更できる Title および Subtitle があります。~No Symbol に設定して不要な場合は非表示にできます。
 
 <img class="responsive-img" src="../images/bullet_graph_title.png" srcset="../images/bullet_graph_title@2x.png 2x" />
