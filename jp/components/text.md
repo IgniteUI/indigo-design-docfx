@@ -9,7 +9,7 @@ _language: ja
 
 Text コンポーネント シンボルは、ニュースやブログ ポストなどインタラクティブでない段落文字列のタイトル コンテンツを表示します。
 
-## Text デモ
+## Text のデモ
 
 <img class="responsive-img" src="../images/text_demo.png" srcset="../images/text_demo@2x.png 2x" />
 

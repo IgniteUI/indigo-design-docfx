@@ -9,7 +9,7 @@ _language: ja
 
 Switch コンポーネント シンボルは、ユーザーが設定一覧でオン/オフするための構成です。Switch は、[Ignite UI for Angular Switch コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/switch.html)と視覚的に同じものです。
 
-## Switch デモ
+## Switch のデモ
 
 <img class="responsive-img" src="../images/switch_demo.png" srcset="../images/switch_demo@2x.png 2x" />
 

@@ -9,7 +9,7 @@ _language: ja
 
 Input コンポーネントを使用して、文字列、さまざまなコンテキストに適した数値、日付、その他の値 (メールやパスワードなど) のユーザー データを収集します。Input は、[Ignite UI for Angular Input Group](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/input_group.html) コンポーネントと視覚的に同じものです。
 
-## Input デモ
+## Input のデモ
 
 <img class="responsive-img" src="../images/input_demo.png" srcset="../images/input_demo@2x.png 2x" />
 
@@ -43,7 +43,7 @@ Input は、明暗バリアント (デフォルトは**暗い**) で分かりや
 
 ## 状態
 
-ユーザーが Input とインタラクティブに操作する際にさまざまな状態を経由します。コンテンツの代わりにプレースホルダーがある**アイドル状態**、ユーザーが入力中のフォーカス状態、ユーザーがコンテンツの追加を完了して次に進むときの塗りつぶし状態。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
+ユーザーが Input とインタラクティブに操作する際にさまざまな状態を経由します。コンテンツの代わりにプレースホルダーがある**アイドル**状態、ユーザーが入力中のフォーカス状態、ユーザーがコンテンツの追加を完了して次に進むときの塗りつぶし状態。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 
 <img class="responsive-img" src="../images/input_idle.png" srcset="../images/input_idle@2x.png 2x" />
 `idle`

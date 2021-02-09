@@ -17,18 +17,18 @@ Avatar + Badge パターンは、レイアウトに含まれる Avatar および
 
 Avatar + Badge パターンは Avatar と同じサイズをサポートします:
 
-- ラージ - プロフィール ページに適しています。
-- ミディアム - カスタム メニューや可視化に適しています。
-- スモール - コンタクト リストや繰り返しのシナリオに簡単に組み込めます。
+- Large - プロフィール ページに適しています。
+- Medium - カスタム メニューや可視化に適しています。
+- Small - コンタクト リストや繰り返しのシナリオに簡単に組み込めます。
 
 ## 位置
 
 Badge は Avatar の 4 つ角のいずれかに配置できます。
 
-- 左下
-- 右下
-- 左上
-- 右上
+- Bottom Left (左下)
+- Bottom Right (右下)
+- Top Left (左上)
+- Top Right (右上)
 
 <img class="responsive-img" src="../images/avatar_badge_positions.png" srcset="../images/avatar_badge_positions@2x.png 2x" />
 

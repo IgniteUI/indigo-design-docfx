@@ -9,7 +9,7 @@ _language: ja
 
 Avatar コンポーネント シンボルは、プロフィール写真、アイコン、イニシャル (文字列) で人をグラフィックで表現するために使用します。Avatar は、[Ignite UI for Angular Avatar コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/avatar.html)と視覚的に同じものです。
 
-## Avatar デモ
+## Avatar のデモ
 
 <img class="responsive-img" src="../images/avatar_demo.png" srcset="../images/avatar_demo@2x.png 2x" />
 
@@ -23,9 +23,9 @@ Avatar は、画像、イニシャルの文字列、アイコンなど、さま�
 
 Avatar のサイズは 3 つあります。
 
-- ラージ - プロフィール ページに適しています。
-- ミディアム - カスタム メニューや可視化に適しています。
-- スモール - コンタクト リストや繰り返しのシナリオに簡単に組み込めます。
+- Large - プロフィール ページに適しています。
+- Medium - カスタム メニューや可視化に適しています。
+- Small - コンタクト リストや繰り返しのシナリオに簡単に組み込めます。
 
 <img class="responsive-img" src="../images/avatar_sizes.png" srcset="../images/avatar_sizes@2x.png 2x" />
 

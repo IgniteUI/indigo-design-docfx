@@ -9,7 +9,7 @@ _language: ja
 
 Toast コンポーネント シンボルは、非インタラクティブでユーザーが破棄できない短い情報メッセージや通知を表示します。Toast は、定義した時間間隔の後に自動的に非表示になります。Toast は、[Ignite UI for Angular Toast コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/toast.html)と視覚的に同じものです。
 
-## Toast デモ
+## Toast のデモ
 
 <img class="responsive-img" src="../images/toast_demo.png" srcset="../images/toast_demo@2x.png 2x" />
 
@@ -23,13 +23,13 @@ Toast は、通知するコンテンツの下部、中央、または上部に�
 
 ## スタイル設定
 
-Toast は、スタイル設定に制限があり背景とメッセージ テキスト色のみ制御します。ただし、white と grays.900 のどちらかを選択することをお勧めします。メッセージ テキストは背景とのコントラストがより高い方を使用します。
+Toast には、背景色とメッセージ テキスト スタイルのスタイリングの柔軟性があります。ただし、背景との最適なコントラストと読みやすさを確保するために、メッセージ テキストには `white` または `active` を使用することをお勧めします。
 
 <img class="responsive-img" src="../images/toast_styling.png" srcset="../images/toast_styling@2x.png 2x" />
 
 ## 使用方法
 
-Toast には、背景色とメッセージ テキスト スタイルのスタイリングの柔軟性があります。ただし、背景との最適なコントラストと読みやすさを確保するために、メッセージ テキストには `white` または `active` を使用することをお勧めします。
+Toast は、常に水平に配置する必要があり、その他の配置はしないようにします。Toast のスタイルは、特徴のある背景色や白や濃い灰色のメッセージ テキストは使用しないようにします。
 
 | 良い例                          | 悪い例                          |
 | ---------------------------- | ------------------------------ |

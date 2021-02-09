@@ -9,20 +9,20 @@ _language: ja
 
 Time Picker コンポーネントを使用して、日付の時間部分 (時間と分) を視覚的に表し、フォームに表示することおよびドロップダウンまたはダイアログから選択することのための適切な手段を提供します。Time Picker は、[Ignite UI for Angular Time Picker コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/time_picker.html)と視覚的に同じものです。
 
-## Time Picker デモ
+## Time Picker のデモ
 
 <img class="responsive-img" src="../images/timepicker_demo.png" srcset="../images/timepicker_demo@2x.png 2x" />
 
 ## Time Picker の入力
 
-フォームに Time Picker 入力を挿入して、日付の時間部分のみを選択するためのフィールドを示すことができます。有効および無効のインアクティブ状態、およびユーザーの操作時に表示されるダイアログとドロップダウンのバリアントをサポートします。
+フォームに Time Picker 入力を挿入して、日付の時間部分のみを選択するためのフィールドを示すことができます。Enabled および Disabled のインアクティブ状態、およびユーザーの操作時に表示される Dialog と Drop-down のバリアントをサポートします。
 
 <img class="responsive-img" src="../images/timepicker_enabled.png" srcset="../images/timepicker_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/timepicker_disabled.png" srcset="../images/timepicker_disabled@2x.png 2x" />
 
 ## Picker レイアウト
 
-Time Picker は、水平方向と垂直方向のダイアログ レイアウト、および時間を選択するさまざまなモードを容易にするドロップダウン レイアウトをサポートしています。ダイアログ レイアウトには、オーバーライドを ~No Symbol に設定することで非表示にできるヘッダーが付属していますが、それでも、ダイアログ レイアウトが投影する影により、ドロップダウン レイアウトと区別できることに注意してください。
+Time Picker は、Horizontal 方向と Vertical 方向の Dialog レイアウト、および時間を選択するさまざまなモードを容易にするドロップダウン レイアウトをサポートしています。Dialog レイアウトには、オーバーライドを ~No Symbol に設定することで非表示にできる Header が付属していますが、それでも、ダイアログ レイアウトが投影する影により、ドロップダウン レイアウトと区別できることに注意してください。
 
 <img class="responsive-img" src="../images/timepicker_horizontal.png" srcset="../images/timepicker_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/timepicker_vertical.png" srcset="../images/timepicker_vertical@2x.png 2x" />
@@ -37,7 +37,7 @@ Time Picker は、2 種類のコンテンツ モードで 12 時間と 24 時間
 
 ## ボタン
 
-Time Picker の 2 つのボタンは、時間を元の時間に戻す選択のキャンセルおよび変更を保存するための選択の確認にそれぞれ使用します。ボタン領域はテンプレート化可能であり、たとえば、オーバーライドを ~No Symbol に設定してボタンを非表示にしたり、別のアクションを割り当てることができます。
+Time Picker の 2 つのボタンは、時間を元の時間に戻す選択のキャンセルおよび変更を保存するための選択の確認にそれぞれ使用します。Button 領域はテンプレート化可能であり、たとえば、オーバーライドを ~No Symbol に設定してボタンを非表示にしたり、別のアクションを割り当てることができます。
 
 <img class="responsive-img" src="../images/timepicker_buttons.png" srcset="../images/timepicker_buttons@2x.png 2x" />
 
@@ -49,7 +49,7 @@ Time Picker は、さまざまなオーバーライドでヘッダー背景、�
 
 ## 使用方法
 
-Time Picker をダイアログとして表示する場合は、UI の残りの部分を暗くするレイヤーを追加し、ドロップダウンとして表示する場合は、ドロップダウン構成の Time Picker 入力のすぐ下に配置します。ダイアログとして表示されている場合は、Time Picker のすべてのボタンを非表示にしないでください。肯定的なアクションがないと、コンポーネントの使いやすさが損なわれます。
+Time Picker を Dialog として表示する場合は、UI の残りの部分を暗くするレイヤーを追加し、Drop-down として表示する場合は、Drop-down 構成の Time Picker 入力のすぐ下に配置します。Dialog として表示されている場合は、Time Picker のすべてのボタンを非表示にしないでください。肯定的なアクションがないと、コンポーネントの使いやすさが損なわれます。
 
 | 良い例                                                                                     |悪い例                                                                                      |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |

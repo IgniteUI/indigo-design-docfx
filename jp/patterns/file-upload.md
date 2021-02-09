@@ -21,7 +21,7 @@ File Upload パターンはアップロードしたファイルのプレビュ�
 
 ## コンテンツ
 
-Document 型の File Upload パターンは、アップロードまたは Document として挿入によく使用されるコンテンツ タイプ (CSV、PDF、Presentation、Spreadsheet Text) をサポートします。また、様々なアプリケーション シナリオでカスタマイズを有効にするために Attach プリセットの利用が可能です。
+Document 型の File Upload パターンは、アップロードまたは Document として挿入によく使用されるコンテンツ タイプ (CSV、PDF、Presentation、Spreadsheet および Text) をサポートします。また、様々なアプリケーション シナリオでカスタマイズを有効にするために Attach プリセットの利用が可能です。
 
 <img class="responsive-img" src="../images/file-upload_content.png" srcset="../images/file-upload_content@2x.png 2x" />
 

@@ -11,13 +11,13 @@ _language: ja
 
 Sketch ライブラリには、アセットを提供する  絵文字とライブラリの残りの部分を構築する強力なスタイリング インフラストラクチャを含むページがあります。
 
-- 🎨 マテリアル アイコン
-- 🎨 カラー
-- 🎨 タイポグラフィ
-- 🎨 エレベーション
-- 🎨 イラストレーション
+- 🎨 Material Icons (マテリアル アイコン)
+- 🎨 Colors (カラー)
+- 🎨 Typography (タイポグラフィ)
+- 🎨 Elevation (エレベーションン)
+- 🎨 Illustrations (イラストレーションｎ)
 
-Sketch では、カラーとエレベーションは`レイヤー スタイル`として存在し、タイポグラフィは`テキスト スタイル`として定義されます。これにより、**Indigo.Design システム**で作成したデザインのテーマをすばやく変更できます。
+Sketch では、カラーとエレベーションンは `Layer Styles` として存在し、タイポグラフィは `Text Styles` として定義されます。これにより、**Indigo.Design システム**で作成したデザインのテーマをすばやく変更できます。
 
 <img class="responsive-img" src="../images/theme_overview_default.png" />
 
@@ -27,21 +27,21 @@ Sketch では、カラーとエレベーションは`レイヤー スタイル`�
 
 詳細情報:
 
-- [マテリアル アイコン](material-icons.md) - マテリアル アイコン デザイン ガイドラインに基づいて作成された 250 以上のアイコンで拡張された 150 以上のマテリアル アイコンのコレクション。
-- [カラー](colors.md) - プライマリ、セカンダリ、グレーのカラー バリアントのパレット、特殊な色、さまざまなタイプの色覚異常に最適化されたセットを含むデータ可視化のために特別に設計されたいくつかのパレット。 
-- [タイポグラフィ](typography.md) - ジェネリックおよびコンポーネント固有のテキスト スタイルのコレクション。
-- [エレベーション](elevation.md) - 本影、半影、アンビエント影カラーに基づいた[マテリアル デザイン](https://material.io/design/environment/elevation.html)の 24 影のセット。
-- [イラストレーション](illustrations.md) - デザインをより遊び心のあり完璧なものにする 17 種類のカスタマイズ可能なイラスト。
+- [Material Icons](material-icons.md) - Material Icon のデザイン ガイドラインに基づいて作成された 250 以上のアイコンで拡張された 150 以上の Material Icon のコレクション。
+- [Colors](colors.md) - primary、secondary、gray のカラー バリアントのパレット、特殊な色、さまざまなタイプの色覚異常に最適化されたセットを含むデータ可視化のために特別に設計されたいくつかのパレット。 
+- [Typography](typography.md) - ジェネリックおよびコンポーネント固有のテキスト スタイルのコレクション。
+- [Elevation](elevation.md) - 本影、半影、アンビエント影カラーに基づいた [Material Design](https://material.io/design/environment/elevation.html) の 24 影のセット。
+- [Illustrations](illustrations.md) - デザインをより遊び心のあり完璧なものにする 17 種類のカスタマイズ可能なイラスト。
 
 ## その他のリソース
 
 関連トピック:
 
-- [マテリアル アイコン](material-icons.md)
-- [カラー](colors.md)
-- [タイポグラフィ](typography.md)
-- [エレベーション](elevation.md)
-- [イラストレーション](illustrations.md)
+- [Material Icons](material-icons.md)
+- [Colors](colors.md)
+- [Typography](typography.md)
+- [Elevation](elevation.md)
+- [Illustrations](illustrations.md)
 - [コンポーネント](../components/components-overview.md)
 - [パターン](../patterns/patterns-overview.md)
   <div class="divider--half"></div>

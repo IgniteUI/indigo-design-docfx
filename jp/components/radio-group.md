@@ -9,7 +9,7 @@ _language: ja
 
 Radio Group コンポーネント シンボルは、グループ項目で排他的な選択をサポートします。グループ内の項目は、1 つの列に次々に配置されます。Radio Group は、[Ignite UI for Angular Radio Button コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/radio_button.html)と視覚的に同じものです。
 
-## Radio Group デモ
+## Radio Group のデモ
 
 <img class="responsive-img" src="../images/radiogroup_demo.png" srcset="../images/radiogroup_demo@2x.png 2x" />
 
@@ -52,7 +52,7 @@ Radio Group は、さまざまなオーバーライドで各項目のラベル �
 
 ## 使用方法
 
-追加の項目で Radio Group を拡張するときは、それらが一貫して整列され、単一の列を形成していることを確認してください。複数の列でのレイアウトや、一度に複数のラジオ要素がオン状態になる状況は避けてください。
+追加の項目で Radio Group を拡張するときは、それらが一貫して整列され、単一の列を形成していることを確認してください。複数の列でのレイアウトや、一度に複数の Radio 要素がオン状態になる状況は避けてください。
 
 | 良い例                                | 悪い例                               |
 | --------------------------------- | ----------------------------------- |

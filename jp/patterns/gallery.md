@@ -23,7 +23,7 @@ Small - 行ごとに 4 画像
 
 <img class="responsive-img" src="../images/gallery_very-small.png" srcset="../images/gallery_very-small@2x.png 2x" />
 
-Very Small- 行ごとに 4 画像
+Very Small - 行ごとに 4 画像
 
 <img class="responsive-img" src="../images/gallery_flexible.png" srcset="../images/gallery_flexible@2x.png 2x" />
 

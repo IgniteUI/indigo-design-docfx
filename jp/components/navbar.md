@@ -9,7 +9,7 @@ _language: ja
 
 Navbar コンポーネントを使用して、アプリケーション内の現在の位置を明確にし、単純なアプリケーション レベルのナビゲーションを実装します。アプリケーションで多くの操作を伴うより複雑なナビゲーションが必要な場合は、代わりに [Navigation Drawer](nav-drawer.md) または [Menu](../patterns/menu.md) の使用を検討してください。Navbar は常に画面の上部にあり、[Ignite UI for Angular Navbar コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/navbar.html)と視覚的に同じものです。
 
-## Navbar デモ
+## Navbar のデモ
 
 <img class="responsive-img" src="../images/navbar_demo.png" srcset="../images/navbar_demo@2x.png 2x" />
 
@@ -22,7 +22,7 @@ Navbar には、2 つの異なるタイプのバリエーションがありま�
 
 ## コンテンツのレイアウト
 
-Navbar のコンテンツは、Left Action と Title で構成される左側の領域と、さまざまな操作用の 4 つの隣接するアイコンがある右側の領域に分割されます。左側の操作または右側のアイコンを ~No Symbol に設定することで、Navbar のレイアウトを構成できます。
+Navbar のコンテンツは、Left Action と Title で構成される左側の領域と、さまざまな操作用の 4 つの隣接するアイコンがある右側の領域に分割されます。Left Action または右側の Icon を ~No Symbol に設定することで、Navbar のレイアウトを構成できます。
 
 <img class="responsive-img" src="../images/navbar_left&right.png" srcset="../images/navbar_left&right@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_noright.png" srcset="../images/navbar_noright@2x.png 2x" />

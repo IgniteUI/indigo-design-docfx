@@ -14,7 +14,7 @@ Menu シンボルは、ロゴ、メニュー項目、検索、さまざまなア
 
 ## 方向
 
-メニュー プリセットは、方向に従って水平と垂直にグループ化されます。
+メニュー プリセットは、方向に従って Horizontal と Vertical にグループ化されます。
 
 <img class="responsive-img" src="../images/menu_horizontal.png" srcset="../images/menu_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/menu_vertical.png" srcset="../images/menu_vertical@2x.png 2x" />

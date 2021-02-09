@@ -1,11 +1,11 @@
 ---
-title: カラー - デザイン システム スタイリング
+title: Colors - デザイン システム スタイリング
 _description: Colors ライブラリ ページは、Indigo.Design システムのテーマを設定できます。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
-# カラー
+# Colors (カラー)
 
 **Indigo.Design システム**の `🎨 Colors` ページには、ライブラリを一度にブランディンできる `primary`、`secondary`、`success`、`warn`、`error`、`info`、`grays`、`series` カラーのコレクションがあります。Colors の設定方法は、[Ignite UI for Angular テーマ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes.html)と同じです。
 
@@ -15,7 +15,7 @@ _language: ja
 
 ## パレット生成
 
-Sketch でプライマリ パレットを変更するには、Indigo.Design ライブラリ ファイルを開き、`View` > `Components` を選択します。Sketch メニューで 4 つのボタンのグループがあります。右側のボタンはパントーン ガイドのアイコンで、`Show Color Variables` を表します。
+Sketch でプライマリ パレットを変更するには、Indigo.Design ライブラリ ファイルを開き、`View` / `Components` を選択します。Sketch メニューで 4 つのボタンのグループがあります。右側のボタンはパントーン ガイドのアイコンで、`Show Color Variables` を表します。
 
 <img class="responsive-img" src="../images/colors-vars-sketch.png" srcset="../images/colors-vars-sketch@2x.png 2x"/>
 
@@ -59,8 +59,8 @@ Sketch でプライマリ パレットを変更するには、Indigo.Design ラ�
 
 関連トピック:
 
-- [エレベーション](elevation.md)
-- [タイポグラフィ](typography.md)
+- [Elevation](elevation.md)
+- [Typography](typography.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

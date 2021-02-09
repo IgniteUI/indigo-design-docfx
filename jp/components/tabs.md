@@ -7,9 +7,9 @@ _language: ja
 
 # Tabs (タブ)
 
-Tabs コンポーネントは、同じ情報を異なるビューに体系化、同様または関連のあるデータセット間の切り替えが可能です。Tab は、[Ignite UI for Angular Tabs コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/tabs.html)と視覚的に同じものです。
+Tabs コンポーネントは、同じ情報を異なるビューに体系化、同様または関連のあるデータセット間の切り替えが可能です。Tabs は、[Ignite UI for Angular Tabs コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/tabs.html)と視覚的に同じものです。
 
-## Tabs デモ
+## Tabs のデモ
 
 <img class="responsive-img" src="../images/tabs_demo.png" srcset="../images/tabs_demo@2x.png 2x" />
 
@@ -38,14 +38,14 @@ Tabs は、幅を調整することで使用可能な水平方向のスペース
 
 ## 短いバー コンテンツ
 
-短いバーにはデフォルトでテキスト コンテンツが付属しており、代わりにアイコンを表示する場合は、マテリアル アイコンを `🔣 Icon` オーバーライドに割り当て、バーのすべてのタブで `🏷️ Label` を ~No Symbol に設定する必要があります。
+短いバーにはデフォルトでテキスト コンテンツが付属しており、代わりにアイコンを表示する場合は、Material Icon を `🔣 Icon` オーバーライドに割り当て、バーのすべてのタブで `🏷️ Label` を ~No Symbol に設定する必要があります。
 
 <img class="responsive-img" src="../images/tabs_text.png" srcset="../images/tabs_text@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_icons.png" srcset="../images/tabs_icons@2x.png 2x" />
 
 ## タブ項目の状態
 
-タブ項目は、アクティブ、非アクティブ、および無効の状態をサポートします。Tabs には、常に 1 つのアクティブなタブと、任意の数の非アクティブおよび無効なタブがあります。
+タブ項目は、Active、Inactive、および Disabled の状態をサポートします。Tabs には、常に 1 つの Active のタブと、任意の数の Inactive および Disabled のタブがあります。
 
 <img class="responsive-img" src="../images/tabs_state.png" srcset="../images/tabs_state@2x.png 2x" />
 
@@ -57,7 +57,7 @@ Tabs は、テキストやアイコンの色、現在の選択をマークする
 
 ## 使用方法
 
-Tab は情報の体系化に適してますが、ワークフローのデザインやロジカル シーケンスに基づいた操作には向いていません (チェックアウト プロセスや構成ウィザード)。短い Tab を使用してアイコン タブとテキスト タブを同じメニューで組み合わせることはできません。2 つのコンテンツ モードのうち 1 つを選択し、バーのすべての項目に継続して使用します。
+Tabs は情報の体系化に適してますが、ワークフローのデザインやロジカル シーケンスに基づいた操作には向いていません (チェックアウト プロセスや構成ウィザード)。短い Tabs を使用してアイコン タブとテキスト タブを同じメニューで組み合わせることはできません。2 つのコンテンツ モードのうち 1 つを選択し、バーのすべての項目に継続して使用します。
 
 | 良い例                                                                         |悪い例                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |

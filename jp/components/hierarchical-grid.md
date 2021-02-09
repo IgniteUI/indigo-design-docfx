@@ -7,15 +7,15 @@ _language: ja
 
 # Hierarchical Grid (階層グリッド)
 
-階層グリッド コンポーネントを使用して、ユーザーが個別のテーブルに編成された大量の複雑なデータ (階層的に関連する) をブラウスおよびインタラクションできるようにします。階層内の各グリッドは、データを表形式で表示し、[Grid](grid.md) と同じ機能を提供します。階層グリッドは、[Ignite UI for Angular 階層グリッド コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/hierarchicalgrid/hierarchical_grid.html)と視覚的に同じものです。
+Hierarchical Grid コンポーネントを使用して、ユーザーが個別のテーブルに編成された大量の複雑なデータ (階層的に関連する) をブラウスおよびインタラクションできるようにします。階層内の各グリッドは、データを表形式で表示し、[Grid](grid.md) と同じ機能を提供します。Hierarchical Grid は、[Ignite UI for Angular 階層グリッド コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/hierarchicalgrid/hierarchical_grid.html)と視覚的に同じものです。
 
-## 階層グリッドのデモ
+## Hierarchical Grid のデモ
 
 <img class="responsive-img" src="../images/hierarchical_grid_demo.png" srcset="../images/hierarchical_grid_demo@2x.png 2x" />
 
 ## Detach from Symbol (シンボルからデタッチ)
 
-グリッドと同様に、階層グリッドは基本的に、視覚的な階層を形成する列、行、ネストされたグリッドのリピーターです。したがって、最も簡単な使用方法は、定義済みのグリッドの 1 つをアートボードにドラッグすることです。サポートされる 3 つの[表示密度](grid-display-density.md)に 3 つのプリセットがあります。アートボードを開いた後、その上を右-クリックし、コンテキスト メニューの下部にある `Detach from Symbol` オプションを選択すると、新しく表示されたグループの下のレイヤー パネルに次のように表示されます:
+グリッドと同様に、Hierarchical Grid は基本的に、視覚的な階層を形成する列、行、ネストされたグリッドのリピーターです。したがって、最も簡単な使用方法は、定義済みのグリッドの 1 つをアートボードにドラッグすることです。サポートされる 3 つの[表示密度](grid-display-density.md)に 3 つのプリセットがあります。アートボードを開いた後、その上を右-クリックし、コンテキスト メニューの下部にある `Detach from Symbol` オプションを選択すると、新しく表示されたグループの下のレイヤー パネルに次のように表示されます:
 
 | レイヤー                                | 使用                                                                                                                                                 |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -23,22 +23,22 @@ _language: ja
 | 🌈 Drill Indication                 | アクティブ セル / フォーカスされるセルを示すために使用されるシンボル                                                                                                     |
 | Header                               | ヘッダーのすべてのセルを取得します                                                                                                           |
 | Body                                 | 本体のすべてのセルと、基本構造のネストされたグリッドを含みます                                                                       |
-| 🌈 Background                        | 階層グリッドの背景色を定義します                                                                                         |
+| 🌈 Background                        | Hierarchical Grid の背景色を定義します                                                                                         |
 
 デタッチ後、既存の各グリッド内にすでに作成したデータの最初の行を複製し、デザインに表示したいレコード (数に制限がない) および多数のヘッダーを必要なだけ追加してデータのすべてのディメンションを表示できます。より多くの階層を表示する必要がある場合は、追加のグリッドを、それらが属する親グリッドの本体内にネストすることもできます。
 
 ## セル タイプ
 
-階層グリッドは、3種類の通常のグリッド セル Header (ヘッダー)、Body (本体) および Summary (集計) を、階層を整理するために使用される 2 つの追加で拡張します。CollapseAll (すべてを折りたたむ) セルは常に最初のヘッダー セルとして使用され、ヘッダーが表示されるグリッドのすべての所属レコードを折りたたむ/展開するための定義済みのアイコンとアクションが付属しています。Expand (展開) セルは常にすべての行の最初の本体/ セルとして使用され、行を折りたたむ/展開するための定義済みのアイコンとアクションが付属しています。
+Hierarchical Grid は、3種類の通常のグリッド セル Header、Body および Summary を、階層を整理するために使用される 2 つの追加で拡張します。CollapseAll セルは常に最初の Header Cell として使用され、Header が表示されるグリッドのすべての所属レコードを折りたたむ/展開するための定義済みのアイコンとアクションが付属しています。Expand セルは常にすべての行の最初の Body Cell として使用され、行を折りたたむ/展開するための定義済みのアイコンとアクションが付属しています。
 
 <img class="responsive-img" src="../images/hierarchical_grid_cell_header.png" srcset="../images/hierarchical_grid_cell_header@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_cell_body.png" srcset="../images/hierarchical_grid_cell_body@2x.png 2x" />
 
-通常の Header、Body 、Summary セルをさまざまなタイプのデータに使用し、さまざまな階層グリッド機能を有効にするように構成する方法を理解するには、[Grid]（grid.md）トピックを参照してください。
+通常の Header、Body 、Summary セルをさまざまなタイプのデータに使用し、さまざまな Hierarchical Grid 機能を有効にするように構成する方法を理解するには、[Grid]（grid.md）トピックを参照してください。
 
 ## セル表示密度
 
-CollapseAll セルと Expand セルは、Hierarchical Grid の 3 つの表示密度バリアント (comfortable、cosy、compact) をサポートします。以下の CollapseAll ヘッダー セルに見られるように、それぞれに個別の記号が付いています:
+CollapseAll セルと Expand セルは、Hierarchical Grid の 3 つの表示密度バリアント (comfortable、cosy、compact) をサポートします。以下の CollapseAll Header セルに見られるように、それぞれに個別の記号が付いています:
 
 <img class="responsive-img" src="../images/hierarchical_grid_cell_header_comfortable.png" srcset="../images/hierarchical_grid_cell_header_comfortable@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_cell_header_cosy.png" srcset="../images/hierarchical_grid_cell_header_cosy@2x.png 2x" />
@@ -46,13 +46,13 @@ CollapseAll セルと Expand セルは、Hierarchical Grid の 3 つの表示密
 
 ## スタイル設定
 
-階層グリッドは、さまざま状態の各セル テキスト、アイコン、背景色のスタイル設定や水平および垂直の境界線の非表示など柔軟に変更できます。ドリル インジケーターとグリッドの背景をスタイル設定することもできます。
+Hierarchical Grid は、さまざま状態の各セル テキスト、アイコン、背景色のスタイル設定や水平および垂直の境界線の非表示など柔軟に変更できます。Drill Indication とグリッドの背景をスタイル設定することもできます。
 
 <img class="responsive-img" src="../images/hierarchical_grid_styling.png" srcset="../images/hierarchical_grid_styling@2x.png 2x" />
 
 ## 使用方法
 
-グリッドと同様に、階層グリッドの最も重要な点は、ヘッダーおよび本体セル内のデータの配置です。テキストは常に左揃えにして変数空スペースを右に残し、数値は常に右揃えにして変数空スペースを左に残します。
+グリッドと同様に、Hierarchical Grid の最も重要な点は、Header および Body セル内のデータの配置です。テキストは常に左揃えにして変数空スペースを右に残し、数値は常に右揃えにして変数空スペースを左に残します。
 
 | 良い例                                                                                                | 悪い例                                                                                                |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |

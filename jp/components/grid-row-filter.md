@@ -5,21 +5,21 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-# 行フィルター
+# Grid Row Filter (グリッド行フィルター)
 
-Grid 行フィルターを使用して、フィルタリング条件を持つ Chip を含む特別なタイプのヘッダー セルを介して Grid 列のフィルタリング基準を指定します。Grid 行フィルターは、[Ignite UI for Angular Grid フィルタリング機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/filtering.html)と視覚的に同じものです。
+Grid 行フィルターを使用して、フィルタリング条件を持つ Chip を含む特別なタイプの Header Cell を介して Grid 列のフィルタリング基準を指定します。Grid 行フィルターは、[Ignite UI for Angular Grid フィルタリング機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/filtering.html)と視覚的に同じものです。
 
 ## Grid 行フィルターのデモ
 
 <img class="responsive-img" src="../images/grid_row_filter_demo.png" srcset="../images/grid_row_filter_demo@2x.png 2x" />
 
-## 行フィルター ヘッダー
+## Row Filter Header (行フィルター ヘッダー)
 
-Grid が行フィルターでフィルタリング可能であることを示すために、`ヘッダー` グループ内の Grid の各列に行フィルター ヘッダー セルを持つ 2 番目のヘッダー行を追加します。
+Grid が Row Filter でフィルタリング可能であることを示すために、`Header` グループ内の Grid の各列に Row Filter Header Cell を持つ 2 番目の Header 行を追加します。
 
-## フィルター状態
+## Filter State (フィルター状態)
 
-行フィルター ヘッダー セルに `Filter State` のオーバーライドが設定せれます。このオーバーライドはフィルター済みに設定された場合、特定の列にフィルター条件があるかないか構成できます。フィルター条件が設定されない場合、デフォールト状態である**空**と一致します。
+Row Filter Header Cell に `Filter State` のオーバーライドが設定せれます。このオーバーライドは Filtered に設定された場合、特定の列にフィルター条件があるかないか構成できます。フィルター条件が設定されない場合、デフォールト状態である **Empty** と一致します。
 
 ## その他のリソース
 

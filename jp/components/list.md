@@ -9,13 +9,13 @@ _language: ja
 
 List コンポーネントは、ユーザーのブラウジングやテキスト、アイコン、画像、ボタンやアバターなどのコンポーネントを含むテンプレート項目の一連の垂直コレクションとのインタラクションを可能にします。List は、[Ignite UI for Angular List コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/list.html)と視覚的に同じものです。
 
-## List デモ
+## List のデモ
 
 <img class="responsive-img" src="../images/list_demo.png" srcset="../images/list_demo@2x.png 2x" />
 
 ## タイプ
 
-List は、1 行項目または 2 行項目のプリセットに挿入できます。どちらも最初は 10 項目を含みます。List は、Sketch のスマート レイアウトを項目に使用します。項目の 1 つ以上を ~No Symbol に設定してサイズを調整できます。
+List は、1 行項目または 2 行項目のプリセットに挿入できます。どちらも最初は 10 項目を含みます。List は、Sketch の Smart Layout を項目に使用します。項目の 1 つ以上を ~No Symbol に設定してサイズを調整できます。
 
 <img class="responsive-img" src="../images/list_one-line_item.png" srcset="../images/list_one-line_item@2x.png 2x" />
 <img class="responsive-img" src="../images/list_two-line_item.png" srcset="../images/list_two-line_item@2x.png 2x" />
@@ -37,32 +37,32 @@ One-line および Two-line リスト項目はインアクティブ状態 (標�
 
 ## List Item の領域
 
-List Item は、2 つの異なる領域があります。プライマリ アクションには、非インタラクティブなコンテンツの Avatar やテキストがあり、セカンダリ アクションには List Item に関連するクイック アクションがあります。プライマリとセカンダリ アクションは一意のリスト項目テンプレートを作成し、常に List 項目全体で使用されます。
+List Item は、2 つの異なる領域があります。Primary Action には、非インタラクティブなコンテンツの Avatar やテキストがあり、Secondary Action には List Item に関連するクイック アクションがあります。プライマリとセカンダリ アクションは一意のリスト項目テンプレートを作成し、常に List 項目全体で使用されます。
 
 <img class="responsive-img" src="../images/list_item_primary.png" srcset="../images/list_item_primary@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />
 
 ## List Item Primary Action (リスト項目プライマリ アクション)
 
-以下に置き換え可能な 4 つのリスト項目プライマリ アクションがあります。Sketch でスマート レイアウトを使用しているため、不要な要素を ~No Symbol に設定して調整できます。
+以下に置き換え可能な 4 つのリスト項目プライマリ アクションがあります。Sketch で Smart Layout を使用しているため、不要な要素を ~No Symbol に設定して調整できます。
 
 |                              |                                                                                                  |                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | Avatar + Label + Description | <img class="responsive-img" src="../images/list_item_primary1.png" srcset="../images/list_item_primary1@2x.png 2x" />     |                                                                                                                                            |
-| Checkbox + Label               | <img class="responsive-img" src="../images/list_item_primary2.png" srcset="../images/list_item_primary2@2x.png 2x" />   |  セカンダリ アクションの Checkbox にラベルを設定できないため、前後のラベルを ~No Symbol に設定し、この設定は変更しないでください。 |
+| Checkbox + Label               | <img class="responsive-img" src="../images/list_item_primary2.png" srcset="../images/list_item_primary2@2x.png 2x" />   |  Secondary Action の Checkbox にラベルを設定できないため、前後のラベルを ~No Symbol に設定し、この設定は変更しないでください。 |
 | Icon + Label + Desc | <img class="responsive-img" src="../images/list_item_primary3.png" srcset="../images/list_item_primary3@2x.png 2x" />   |                                                                                                                                            |
-| Label + Progress          | <img class="responsive-img" src="../images/list_item_primary4.png" srcset="../images/list_item_primary4@2x.png 2x" />   | プライマリ アクションの Linear Progress Bar は値ラベルを持つことができないため、~No Symbol に設定され、この設定は変更しないでください。 |                                                                                                                                            |
+| Label + Progress          | <img class="responsive-img" src="../images/list_item_primary4.png" srcset="../images/list_item_primary4@2x.png 2x" />   | Primary Action の Linear Progress Bar は値ラベルを持つことができないため、~No Symbol に設定され、この設定は変更しないでください。 |                                                                                                                                            |
 
 ## List Item Secondary Action (リスト項目セカンダリ アクション)
 
-以下に置き換え可能な 4 つのリスト項目セカンダリ アクションがあります。Sketch でスマート レイアウトを使用しているため、不要な要素を ~No Symbol に設定して調整できます。
+以下に置き換え可能な 4 つの List Item Secondary Action があります。Sketch で Smart Layout を使用しているため、不要な要素を ~No Symbol に設定して調整できます。
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Badge            | <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />   |                                                                                                                                       |
-| Checkbox         | <img class="responsive-img" src="../images/list_item_secondary2.png" srcset="../images/list_item_secondary2@2x.png 2x" /> | 	セカンダリ アクションの Checkbox にラベルを設定できないため、前後のラベルを ~No Symbol に設定し、この設定は変更しないでください。 |
+| Checkbox         | <img class="responsive-img" src="../images/list_item_secondary2.png" srcset="../images/list_item_secondary2@2x.png 2x" /> | 	Secondary Action の Checkbox にラベルを設定できないため、前後のラベルを ~No Symbol に設定し、この設定は変更しないでください。 |
 | Text and Icon            | <img class="responsive-img" src="../images/list_item_secondary3.png" srcset="../images/list_item_secondary3@2x.png 2x" /> |                                                                                                                                       |
-| Toggle             | <img class="responsive-img" src="../images/list_item_secondary4.png" srcset="../images/list_item_secondary4@2x.png 2x" /> | セカンダリ アクションの Switch にラベルを設定できないため、前後のラベルを ~No Symbol に設定し、この設定は変更しないでください。                                                                                                                 |
+| Toggle             | <img class="responsive-img" src="../images/list_item_secondary4.png" srcset="../images/list_item_secondary4@2x.png 2x" /> | Secondary Action の Switch にラベルを設定できないため、前後のラベルを ~No Symbol に設定し、この設定は変更しないでください。                                                                                                                 |
 
 ## スタイル設定
 

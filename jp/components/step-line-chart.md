@@ -14,7 +14,7 @@ Step Line Chart は、カテゴリ チャートのグループに属し、連続
 
 <img class="responsive-img" src="../images/step_line_chart_demo.png" srcset="../images/step_line_chart_demo@2x.png 2x" />
 
-Step Line Chart には、タイトル、凡例、およびチャート領域があり、Idle (アイドル) と Hover (ホバー) の 2 つの状態から選択できます。また、2 つのチャート タイプ (多数のシリーズ量構成の Line と Area) をサポートし、それに応じて凡例を調整できます。
+Step Line Chart には、Title、Legend、および Chart Area があり、Idle と Hover の 2 つの状態から選択できます。また、2 つのチャート タイプ (多数の Series Amount 構成の Line と Area) をサポートし、それに応じて凡例を調整できます。
 
 ## タイトル
 
@@ -22,13 +22,13 @@ Step Line Chart のタイトルは不要な場合はオーバーライドを ~No
 
 <img class="responsive-img" src="../images/step_line_chart_title.png" srcset="../images/step_line_chart_title@2x.png 2x" />
 
-## 凡例
+## Legend (凡例)
 
-Step Line Chart には、その中のシリーズの数とそれらが何を表すかを示す凡例が付属しています。凡例は、Sketch の Smart Layout を使用して構築されており、不要な項目のオーバーライドを ~No Symbol に設定することで、シリーズ項目の正確な量を含むように調整できます。凡例の項目の形状も、rectangle (四角形)、line (線)、および dot (点) の組み込みサポートを使用して構成できます。
+Step Line Chart には、その中のシリーズの数とそれらが何を表すかを示す Legend が付属しています。Legend は、Sketch の Smart Layout を使用して構築されており、不要な項目のオーバーライドを ~No Symbol に設定することで、シリーズ項目の正確な量を含むように調整できます。Legend の項目の形状も、rectangle (四角形)、line (線)、および dot (点) の組み込みサポートを使用して構成できます。
 
 <img class="responsive-img" src="../images/step_line_chart_legend.png" srcset="../images/step_line_chart_legend@2x.png 2x" />
 
-## チャート タイプ
+## Chart Type (チャート タイプ)
 
 Chart Type では、Line と Area を切り替えることができます。後者は、X 軸と Step Line の間の領域がシリーズの色で塗りつぶされています。Area チャートは、変化の大きさと時間の経過に伴う傾向を表すために使用されます。
 
@@ -43,20 +43,20 @@ Step Line Chart には、Idle と Hover の 2 つの状態があります。Hove
 
 ## Y 軸
 
-Step Line Chart の Y 軸は、タイトル、ラベル、および軸自体で構成されます。タイトルとラベルは構成可能であり、ラベルを非表示にするには、オーバーライドを ~No Symbol に設定するだけです。軸線は色を  `Transparent` に設定して非表示にすることができます。すべての要素を一度に非表示にするには、Y 軸のオーバーライドを ~No Symbol に変更します。
+Step Line Chart の Y 軸は、Title、Labels、および軸自体で構成されます。Title と Labels は構成可能であり、ラベルを非表示にするには、オーバーライドを ~No Symbol に設定するだけです。軸線は色を  `Transparent` に設定して非表示にすることができます。すべての要素を一度に非表示にするには、Y 軸のオーバーライドを ~No Symbol に変更します。
 
 <img class="responsive-img" src="../images/step_line_chart_yaxis.png" srcset="../images/step_line_chart_yaxis@2x.png 2x" />
 
-## グリッド線
+## Gridlines (グリッド線)
 
-Step Line Chart には 縦と横のグリッド線が組み込まれているため、データ ポイントを X と Y 軸で視覚的にトレースすることができます。どちらも個別に構成可能で、いずれかまたは両方を非表示にするには、色を `Transparent` に設定するだけです。
+Step Line Chart には 縦と横の Gridlines が組み込まれているため、データ ポイントを X と Y 軸で視覚的にトレースすることができます。どちらも個別に構成可能で、いずれかまたは両方を非表示にするには、色を `Transparent` に設定するだけです。
 
 <img class="responsive-img" src="../images/step_line_chart_gridlines1.png" srcset="../images/step_line_chart_gridlines1@2x.png 2x" />
 <img class="responsive-img" src="../images/step_line_chart_gridlines2.png" srcset="../images/step_line_chart_gridlines2@2x.png 2x" />
 
-## シリーズ量
+## Series Amount (シリーズ量)
 
-Step Line Chart には、チャート領域に描画される 1 つ、2 つ、および **3** つのシリーズの選択が付属しています。これは Area タイプにも当てはまります。
+Step Line Chart には、Chart Area に描画される 1 つ、2 つ、および **3** つのシリーズの選択が付属しています。これは Area タイプにも当てはまります。
 
 <img class="responsive-img" src="../images/step_line_chart_one_series.png" srcset="../images/step_line_chart_one_series@2x.png 2x" />
 <img class="responsive-img" src="../images/step_line_chart_two_series.png" srcset="../images/step_line_chart_two_series@2x.png 2x" />
