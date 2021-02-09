@@ -1,30 +1,30 @@
 ---
 title: Dialogs - デザイン システム パターン
-_description: The Dialog Patterns are used to direct the user's attention toward important information and/or action they need to take.
+_description: Dialog パターンは、ユーザーの注意を重要な情報やユーザーが実行する必要のあるアクションに向けるために使用されます。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch から コードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
-# Dialogs
+# Dialogs (ダイアログ)
 
-Use the Dialog Patterns to alert the users or give them relevant information for an error or a system state that requires urgent input or action. They are usually triggered by a user's action and should be displayed over the main content. Dialogs should be used sparingly as they interrupt the user in his experience with the product.
+Dialog パターンを使用して、ユーザーに警告するか、緊急の入力/アクションを必要とするエラーまたはシステム状態に関連する情報をユーザーに提供します。これらは通常、ユーザーのアクションによってトリガーされ、メイン コンテンツの上に表示される必要があります。Dialogs は、ユーザーの製品体験を妨げる可能性があるため、慎重に使用する必要があります。
 
 <img class="responsive-img" src="../images/dialogs_demo.png" srcset="../images/dialogs_demo@2x.png 2x" />
 
-The Dialog Patterns come with the styling flexibility provided by the Buttons, Inputs, and List elements that constitute their layout.
+Dialog パターンには、レイアウトを構成する Buttons、Inputs、および List 要素によって提供されるスタイルの柔軟性があります。
 
 > [!WARNING]
-> After inserting a Dialog Pattern, you should trigger `Detach from Symbol` in order to be able to generate it as Angular code. The individual Components, however, must stay intact and not be detached!
+> Dialog パターンを挿入した後、Angular コードとして生成するには、`Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。
 
 <img class="responsive-img" src="../images/dialogs_detach.png" srcset="../images/dialogs_detach@2x.png 2x" />
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Button](../components/button.md)
 - [Input](../components/input.md)
 - [List](../components/list.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
