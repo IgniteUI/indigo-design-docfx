@@ -17,7 +17,7 @@ Sketch ライブラリには、アセットを提供する  絵文字とライ�
 - 🎨 Elevation (エレベーションン)
 - 🎨 Illustrations (イラストレーション)
 
-Sketch では、カラーとエレベーションンは `Layer Styles` として存在し、タイポグラフィは `Text Styles` として定義されます。これにより、**Indigo.Design システム**で作成したデザインのテーマをすばやく変更できます。
+Sketch では、カラーとエレベーションは `Layer Styles` として存在し、タイポグラフィは `Text Styles` として定義されます。これにより、**Indigo.Design システム**で作成したデザインのテーマをすばやく変更できます。
 
 <img class="responsive-img" src="../images/theme_overview_default.png" />
 
