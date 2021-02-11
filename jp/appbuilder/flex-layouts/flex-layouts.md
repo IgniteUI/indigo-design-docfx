@@ -5,7 +5,7 @@ _keywords: App builder flex レイアウト, Indigo Design, インフラジス�
 _language: ja
 ---
 
-# Flex レイアウト（および配置） 
+# Flex レイアウト (および配置) 
 
 <section class="feature__container">
     <div class="feature">

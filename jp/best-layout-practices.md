@@ -145,7 +145,7 @@ Component または Pattern の幅を保持するために、固定幅を設定�
 
 属しているグループまたはアートボードに関連する常に中央揃えにした幅を固定したフォームを使用します。
 
-**両 Input、Button、 Hyperlink は、幅と高さが固定されていて、幅と高さが固定されている共通グループに配置され、水平および垂直にその親の端から等しく離れて配置されます。すべての要素は、レスポンシブでディメンションを保持し、フォーム全体が両方向に中央揃えになります。**
+**両 Input、Button、Hyperlink は、幅と高さが固定されていて、幅と高さが固定されている共通グループに配置され、水平および垂直にその親の端から等しく離れて配置されます。すべての要素は、レスポンシブでディメンションを保持し、フォーム全体が両方向に中央揃えになります。**
 
 <img class="responsive-img" src="images/many_horizontal_fix_do.png" srcset="images/many_horizontal_fix_do@2x.png 2x" />
 
@@ -166,7 +166,7 @@ Component または Pattern の左に距離が空いている場合、属して�
 <img class="responsive-img" src="images/all_margins.png" srcset="images/all_margins@2x.png 2x" />
 
 > [!Note]
-> 特定のコンポーネントでは、Bottom Navigation、Navbar、Navigation Drawer、その他の要素で 3 方向ピン固定し、アプリ レイアウトの Components の望ましい配置に基づいて幅や高さをピン固定していない方向に沿って固定します。
+> 特定のコンポーネントでは、Bottom Navigation、Navbar、Navigation Drawer、その他の要素で 3 方向ピン固定し、アプリ レイアウトのコンポーネントの望ましい配置に基づいて幅や高さをピン固定していない方向に沿って固定します。
 
 <img class="responsive-img" src="images/all_margins_nav.png" srcset="images/all_margins_nav@2x.png 2x" />
 

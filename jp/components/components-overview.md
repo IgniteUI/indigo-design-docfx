@@ -9,7 +9,7 @@ _language: ja
 
 **Indigo.Design システム**は、Ignite UI for Angular コントロールにマップする 60 以上の UI コンポーネントでデザイン ワークフローを強化します。各コンポーネントはレスポンシブ Web 開発向けに最適化されており、ライブラリで設定されたスマート レイアウトとサイズ変更ルールによってさまざまなテンプレート機能を提供します。さらに、動的なエクスペリエンスをデザインするときに選択できるライト/ダーク モードおよびさまざまな操作状態を追加しました。これにより、アプリケーションの設計と開発が簡素化され、Sketch のライブラリで作成されたユーザー インターフェイスを Angular でビルドできます (Ignite UI を介して)。 
 
-Sketch ライブラリには、関連するすべてのコンポーネントとシンボルを含む `🧩 Components` ページがあります。以下は、[ボタン](button.md)、[ボタン グループ](button-group.md)、および[チェックボックス](checkbox.md)、[スイッチ](switch.md)、[ラジオ グループ](radio-group.md)などのフォーム要素の一部を示します。
+Sketch ライブラリには、関連するすべてのコンポーネントとシンボルを含む `🧩 Components` ページがあります。以下は、[Button](button.md)、[Button Group](button-group.md)、および [Checkbox](checkbox.md)、[Switch](switch.md)、[Radio Group](radio-group.md) などのフォーム要素の一部を示します。
 
 <img class="responsive-img" src="../images/components-page.png" />
 

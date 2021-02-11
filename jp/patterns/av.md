@@ -5,17 +5,17 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-# Audio / Video (オーディオ / ビデオ)
+# Audio/Video (オーディオ / ビデオ)
 
-Audio / Video パターンは再生コントロールを持つオーディオまたはビデオ トラック表示と共に使用されます。
+Audio/Video パターンは再生コントロールを持つオーディオまたはビデオ トラック表示と共に使用されます。
 
 <img class="responsive-img" src="../images/av_player_demo.png" srcset="../images/av_player_demo@2x.png 2x" />
 <img class="responsive-img" src="../images/av_volume_demo.png" srcset="../images/av_volume_demo@2x.png 2x" />
 
-Audio / Video パターンのレイアウトに含まれる Icon Buttons および Linear Progress Bar のスタイル設定を使用できます。
+Audio/Video パターンのレイアウトに含まれる Icon Button および Linear Progress Bar のスタイル設定を使用できます。
 
 > [!WARNING]
-> Audio / Video パターンを挿入した後、Angular コードとして生成するには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。
+> Audio/Video パターンを挿入した後、Angular コードとして生成するには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。
 
 <img class="responsive-img" src="../images/av_player_detach.png" srcset="../images/av_player_detach@2x.png 2x" />
 <img class="responsive-img" src="../images/av_volume_detach.png" srcset="../images/av_volume_detach@2x.png 2x" />

@@ -9,7 +9,7 @@ _language: ja
 
 Chip コンポーネントは、タグや連絡先 (メール受信者など) を楕円にコンパクト表示します。チップ は、[Ignite UI for Angular Chip コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/chip.html)と視覚的には同じです。
 
-## Chip デモ
+## Chip のデモ
 
 <img class="responsive-img" src="../images/chip_demo.png" srcset="../images/chip_demo@2x.png 2x" />
 
@@ -25,7 +25,7 @@ Chip は 3 つの密度バリアントがサポートされます。
 <img class="responsive-img" src="../images/chip_cosy.png" srcset="../images/chip_cosy@2x.png 2x" />
 <img class="responsive-img" src="../images/chip_compact.png" srcset="../images/chip_compact@2x.png 2x" />
 
-## チップの状態
+## Chip 状態
 
 ユーザーが Chip を操作すると、デフォルトの**アイドル**状態からフォーカスに、またはその逆に変化します。これには、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 
@@ -70,15 +70,15 @@ Chip は、さまざまなオーバーライドで境界線と背景色、テキ
 
 <img class="responsive-img" src="../images/chip_styling.png" srcset="../images/chip_styling@2x.png 2x" />
 
-## Chips Area
+## Chips Area (チップ領域)
 
 Chips Area コンポーネントを使用して Chips のコレクションを体系化します。Chips Area は Ignite UI for Angular で使用されるコンテナ領域と同一でヘルプの [Ignite UI for Angular Chip コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/chip.html) トピックで説明します。
 
-### Chips Area デモ
+### Chips Area のデモ
 
 <img class="responsive-img" src="../images/chips_area_demo.png" srcset="../images/chips_area_demo@2x.png 2x" />
 
-### Chips Area タイプ
+### Chips Area のタイプ
 
 Chips 領域には、次の 2 つの異なるタイプがあります: Chip コレクションが関連していない Chip、および Chip が事前定義された順序で表示される接続した Chip。
 

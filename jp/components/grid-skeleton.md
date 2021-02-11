@@ -15,7 +15,7 @@ Skeleton Grid を使用して、標準の情報と同じタイプの情報をレ
 
 ## セル タイプ
 
-Skeleton Grid は、標準 [Grid](grid.md) と同じ 3 種類のセル (ヘッダー、本文、集計) をサポートします。
+Skeleton Grid は、標準 [Grid](grid.md) と同じ 3 種類のセル (header、body、summary) をサポートします。
 
 <img class="responsive-img" src="../images/grid_skeleton_cell_header.png" srcset="../images/grid_skeleton_cell_header@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_body.png" srcset="../images/grid_skeleton_cell_body@2x.png 2x" />
@@ -23,7 +23,7 @@ Skeleton Grid は、標準 [Grid](grid.md) と同じ 3 種類のセル (ヘッ�
 
 ## セル表示密度
 
-Skeleton のヘッダー、ボディ、および集計セルは、標準 [Grid](grid.md) と同じ 3 つの表示密度バリアント (comfortable、cosy、compact) をサポートします。
+Skeleton の Header、Body、および Summary Cell は、標準 [Grid](grid.md) と同じ 3 つの表示密度バリアント (comfortable、cosy、compact) をサポートします。
 
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_comfortable.png" srcset="../images/grid_skeleton_cell_header_comfortable@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_cosy.png" srcset="../images/grid_skeleton_cell_header_cosy@2x.png 2x" />
@@ -39,12 +39,12 @@ Skeleton Grid は、標準 [Grid](grid.md) と同じ機能構成を、`Feature L
 
 ## セル タイプ
 
-Skeleton Grid ヘッダーセルは、標準 [Grid](grid.md) として、数値およびテキスト、日付、ブール型のデータのプリセットを提供します。
+Skeleton Grid Header Cell は、標準 [Grid](grid.md) として、Number および Text、Date、Bool 型のデータのプリセットを提供します。
 
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_number.png" srcset="../images/grid_skeleton_cell_header_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_text.png" srcset="../images/grid_skeleton_cell_header_text@2x.png 2x" />
 
-Skeleton Grid 本体セルは、Skeleton Grid ヘッダー セルと同じデータ型のプリセットを提供し、単純なグラフィックスを視覚化する追加のアイコン タイプを含みます。
+Skeleton Grid Body Cell は、Skeleton Grid Header Cell と同じデータ型のプリセットを提供し、単純なグラフィックスを視覚化する追加のアイコン タイプを含みます。
 
 <img class="responsive-img" src="../images/grid_skeleton_cell_body_number.png" srcset="../images/grid_skeleton_cell_body_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_body_text.png" srcset="../images/grid_skeleton_cell_body_text@2x.png 2x" />

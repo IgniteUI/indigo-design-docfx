@@ -7,7 +7,7 @@ _language: ja
 
 # Tree Grid (ツリー グリッド)
 
-レコード間の親子関係を持つ表形式のデータ レイアウトを設計する場合は、代替の開始ポイントとして Tree Grid パターンを使用します。すべての機能が構成されたコンポーネント ライブラリで提供される完全な Tree Grid コンポーネントを提供します。
+レコード間の親子関係を持つ表形式のデータ レイアウトを設計する場合は、代替の開始ポイントとして Tree Grid パターンを使用します。すべての機能が構成された Components ライブラリで提供される完全な Tree Grid コンポーネントを提供します。
 
 <img class="responsive-img" src="../images/tree_grid.png" srcset="../images/tree_grid@2x.png 2x" />
 

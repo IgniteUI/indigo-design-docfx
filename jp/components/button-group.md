@@ -9,7 +9,7 @@ _language: ja
 
 Button Group コンポーネントを使用して、いくつかの関連機能のトリガーを 1 つのインターフェイス要素に結合します。Button Group は、[Ignite UI for Angular Button Group コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/button-group.html)と視覚的に同じものです。
 
-## Button Group デモ
+## Button Group のデモ
 
 <img class="responsive-img" src="../images/button-group_demo.png" srcset="../images/button-group_demo@2x.png 2x" />
 
@@ -41,7 +41,7 @@ Button Group は、境界線と背景色、各ボタンのアウトライン、�
 
 ## 使用方法
 
-Button のスタイルは統一させます。同じ Button グループ内でテキスト Button とアイコン Buttons を組合さないようにします。Button Group のサイズはコンテンツに基づいて変更することにより、Button に空スペースが多く残らないようにします。Button Group は、シンプルで関連のある操作のみの表示に使用します。簡単なナビゲーションにも適していないため、[Tabs](tabs.md) の使用をお勧めします。 
+Button のスタイルは統一させます。同じ Button グループ内でテキスト Button とアイコン Button を組合さないようにします。Button Group のサイズはコンテンツに基づいて変更することにより、Button に空スペースが多く残らないようにします。Button Group は、シンプルで関連のある操作のみの表示に使用します。簡単なナビゲーションにも適していないため、[Tabs](tabs.md) の使用をお勧めします。 
 
 | 良い例                                  | 悪い例                                 |
 | ----------------------------------- | ------------------------------------- |

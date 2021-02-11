@@ -7,15 +7,15 @@ _language: ja
 
 # Tree Grid (ツリー グリッド)
 
-ツリー グリッド コンポーネントを使用して、ユーザーがタブ形式で表示される大量の階層なデータをブラウズおよびインタラクティブに操作できるようにしす。[Grid](grid.md) で利用可能な機能もサポートします。ツリー グリッドは、[Ignite UI for Angular ツリー グリッド コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/treegrid/tree_grid.html)と視覚的に同じものです。
+Tree Grid コンポーネントを使用して、ユーザーがタブ形式で表示される大量の階層なデータをブラウズおよびインタラクティブに操作できるようにしす。[Grid](grid.md) で利用可能な機能もサポートします。Tree Grid は、[Ignite UI for Angular ツリー グリッド コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/treegrid/tree_grid.html)と視覚的に同じものです。
 
-## ツリー グリッドのデモ
+## Tree Grid のデモ
 
 <img class="responsive-img" src="../images/tree_grid_demo.png" srcset="../images/tree_grid_demo@2x.png 2x" />
 
 ## Detach from Symbol (シンボルからデタッチ)
 
-グリッドと同様に、ツリー グリッドは、基本的にフラット、表形式で階層データを表示する列と行のリピーターです。したがって、最も簡単な使用方法は、`Tree Grid/Comfortable` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下にあるシ `Detach from Symbol` オプションを選択します。新しく表示されるグループの下のレイヤー パネルには以下があります。
+Grid と同様に、Tree Grid は、基本的にフラット、表形式で階層データを表示する列と行のリピーターです。したがって、最も簡単な使用方法は、`Tree Grid/Comfortable` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下にあるシ `Detach from Symbol` オプションを選択します。新しく表示されるグループの下のレイヤー パネルには以下があります。
 
 | レイヤー                        | 使用                                                                                                                                                  |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -27,15 +27,15 @@ _language: ja
 
 ## セル タイプ
 
-ツリー グリッドは、3種類の通常のグリッド セル Header (ヘッダー)、Body (本体) および Summary (集計) を、階層を整理するために使用される TreeColumn Cell (ツリー 列セル) で拡張します。これは常にすべての行の最初の本体/ セルとして使用され、行を折りたたむ/展開するための定義済みのアイコンとアクションが付属しています。
+Tree Grid は、3種類の通常のグリッド セル Header、Body および Summary を、階層を整理するために使用される TreeColumn Cell で拡張します。これは常にすべての行の最初の Body Cell として使用され、行を折りたたむ/展開するための定義済みのアイコンとアクションが付属しています。
 
 <img class="responsive-img" src="../images/tree_grid_column_cell.png" srcset="../images/tree_grid_column_cell@2x.png 2x" />
 
-通常の Header、Body 、Summary セルをさまざまなタイプのデータに使用し、さまざまなツリー グリッド機能を有効にするように構成する方法を理解するには、[Grid](grid.md) トピックを参照してください。
+通常の Header、Body、Summary セルをさまざまなタイプのデータに使用し、さまざまな Tree Grid 機能を有効にするように構成する方法を理解するには、[Grid](grid.md) トピックを参照してください。
 
 ## セル表示密度
 
-TreeColumn セルは、Tree Gridの 3 つの表示密度バリアント (comfortable、cosy、compact) をサポートします。
+TreeColumn セルは、Tree Grid の 3 つの表示密度バリアント (comfortable、cosy、compact) をサポートします。
 
 <img class="responsive-img" src="../images/tree_grid_column_cell_comfortable.png" srcset="../images/tree_grid_column_cell_comfortable@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_column_cell_cosy.png" srcset="../images/tree_grid_column_cell_cosy@2x.png 2x" />
@@ -43,7 +43,7 @@ TreeColumn セルは、Tree Gridの 3 つの表示密度バリアント (comfort
 
 ## Cell の深さ
 
-Tree Grid の TreeColumn セルは、`Level` オーバーライドを介してデータ階層のレベルを視覚的に示します。これは、**Root Level** (ルート レベル)、Child Level (子レベル)、または Grandchild Level (孫レベル) に設定できます。
+Tree Grid の TreeColumn セルは、`Level` オーバーライドを介してデータ階層のレベルを視覚的に示します。これは、**Root Level**、Child Level、または Grandchild Level に設定できます。
 
 <img class="responsive-img" src="../images/tree_grid_cell_body_root_level.png" srcset="../images/tree_grid_cell_body_root_level@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_cell_body_child_level.png" srcset="../images/tree_grid_cell_body_child_level@2x.png 2x" />
@@ -51,13 +51,13 @@ Tree Grid の TreeColumn セルは、`Level` オーバーライドを介して�
 
 ## スタイル設定
 
-ツリー グリッド は、さまざま状態の各セル テキスト、アイコン、背景色のスタイル設定や右および下の境界線の非表示など柔軟に変更できます。
+Tree Grid は、さまざま状態の各セル テキスト、アイコン、背景色のスタイル設定や右および下の境界線の非表示など柔軟に変更できます。
 
 <img class="responsive-img" src="../images/tree_grid_styling.png" srcset="../images/tree_grid_styling@2x.png 2x" />
 
 ## 使用方法
 
-グリッドと同様に、ツリー グリッドの最も重要な点は、ヘッダーおよび本体セル内のデータの配置です。テキストは常に左揃えにして変数空スペースを右に残し、数値は常に右揃えにして変数空スペースを左に残します。
+Grid と同様に、Tree Grid の最も重要な点は、Header および Body セル内のデータの配置です。テキストは常に左揃えにして変数空スペースを右に残し、数値は常に右揃えにして変数空スペースを左に残します。
 
 | 良い例                                                                                                | 悪い例                                                                                                 |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
