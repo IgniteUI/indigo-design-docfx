@@ -59,7 +59,7 @@ Dialog、Toast、Snackbar 要素をコンポーネント HTML の下に配置し
 
 <img class="responsive-img" src="../images/layout_codegen17.png" />
 
-以下の画像はデザイナー状態の描画の例です。ダイアログがランタイムで配置するグレー オーバーレイをシミュレートするための別の色要素があるため、この描画はコード生成に使用しないでください。
+以下の画像はデザイナー状態の描画の例です。Dialog がランタイムで配置するグレー オーバーレイをシミュレートするための別の色要素があるため、この描画はコード生成に使用しないでください。
 
 <img class="responsive-img" src="../images/layout_codegen18.png" />
 

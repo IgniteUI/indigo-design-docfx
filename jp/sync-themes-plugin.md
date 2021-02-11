@@ -11,7 +11,7 @@ Indigo.Design Sketch プラグインは、Indigo.Design UI Kit for Sketch を使
 
 ## 1. Indigo.Design プラグインのインストール
 
-Indigo.Design プラグインは、ヘッダーの `作用の開始` ボタンをクリックすると表示されるダイアログの `ダウンロード` タブからサインインした後に [Indigo.Design Cloud](https://cloud.indigo.design) からダウンロードできます。アーカイブをダウンロードして開き、Sketch プラグイン ファイルをダブルクリックすると、Indigo.Design プラグインがインストールされます。
+Indigo.Design プラグインは、ヘッダーの`作用の開始`ボタンをクリックすると表示されるダイアログの`ダウンロード`タブからサインインした後に [Indigo.Design Cloud](https://cloud.indigo.design) からダウンロードできます。アーカイブをダウンロードして開き、Sketch プラグイン ファイルをダブルクリックすると、Indigo.Design プラグインがインストールされます。
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Download.png" srcset="images/Sync_themes_plugin_Download@2x.png 2x" />
 
@@ -84,7 +84,7 @@ Indigo.Design クラウドにプロトタイプを公開する準備ができた
 
 #### 1. 新しいプロトタイプの公開
 
-共有したい Sketch プロジェクトがある場合、Indigo.Design クラウドへ公開して早い段階でフィードバックをもらうことができます。`新しいプロトタイプ` タブで実行でき、以下が可能です。
+共有したい Sketch プロジェクトがある場合、Indigo.Design クラウドへ公開して早い段階でフィードバックをもらうことができます。`新しいプロトタイプ`タブで実行でき、以下が可能です。
 
 - デバイス タイプと解像度の選択 (デフォルトでアートボードと一致する必要があります)
 - プロトタイプをパーソナルまたはチーム ワークスペースに公開するかどうかを選択

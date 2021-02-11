@@ -38,7 +38,7 @@ Linear Gauge には、オーバーライドを ~No Symbol に設定すること�
 
 Linear Gauge は、現在の値を示す針の形 (**wide triangle**、needle、trapezoid、および triangle) を制御するさまざまなオーバライドをサポートします。
 
-<img class="responsive-img" src="../images/linear_gauge_needle.png" srcset="../images/linear_gauge_needle_type@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_needle_type.png" srcset="../images/linear_gauge_needle_type@2x.png 2x" />
 
 ## 範囲のサイズ
 

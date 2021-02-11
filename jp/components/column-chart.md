@@ -42,7 +42,7 @@ Column Chart には、データ ポイントを Y 軸の値に視覚的にトレ
 
 ## Data Points (テータ ポイント)
 
-Column Chart トの Data Points は個々の列で、Sketch の Smart Layout を使用して Chart Area での量を調整できます。X 軸に構成可能なラベルと注釈ラベルがあります。
+Column Chart の Data Points は個々の列で、Sketch の Smart Layout を使用して Chart Area での量を調整できます。X 軸に構成可能なラベルと注釈ラベルがあります。
 
 <img class="responsive-img" src="../images/column_chart_columns.png" srcset="../images/column_chart_columns@2x.png 2x" />
 

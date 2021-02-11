@@ -14,7 +14,7 @@ _language: ja
 
 <img class="responsive-img" src="../images/line_chart_demo.png" srcset="../images/line_chart_demo@2x.png 2x" />
 
-Line Chart には、Title、Legend、Chart Area があり、Idle 状態と Hover 状態を選択できます。また、Line (折れ線) と Area (エリア) は複数の Series Amount 構成を持つチャート タイプをサポートし、それに応じて Legend を調整できます。
+Line Chart には、Title、Legend、Chart Area があり、Idle 状態と Hover 状態を選択できます。また、Line と Area は複数の Series Amount 構成を持つチャート タイプをサポートし、それに応じて Legend を調整できます。
 
 ## タイトル
 
