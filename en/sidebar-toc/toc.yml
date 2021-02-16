@@ -34,10 +34,11 @@
   #     href: ../appbuilder/indigo-design-components/quick-add-components.md
   #   - name: Configuring components
   #     href: ../appbuilder/indigo-design-components/configuring-components.md
-- name: Data Sources
-  href: ../appbuilder/indigo-design-app-builder-components.md
-  new: true
   
+- name: Data Sources
+  href: ../appbuilder/data-sources.md
+  new: true
+
 - name: App Themes
   href: ../appbuilder/app-themes/app-themes.md
   new: true
