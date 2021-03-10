@@ -23,7 +23,7 @@ Before you can install the VS Code Extension, please make sure you have Visual S
     <div class="divider--half"></div>
     <div class="divider--half"></div>
 
-2.  In the Extensions pane, in the search for the extensions in Marketplace, type the following "Infragistics Indigo.Design".
+2.  In the Extensions pane, in the `Search Extensions in Marketplace` field, type the following "Infragistics Indigo.Design".
 
 3.  Make sure to select "Infragistics Indigo.Design Code Generator" extension and click install
 
@@ -42,5 +42,4 @@ The extension is now installed on your machine.
 ## Additional Resources
 
 Our community is active and always welcoming to new ideas.
-
 
