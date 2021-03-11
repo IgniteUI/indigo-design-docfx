@@ -25,18 +25,10 @@ In the below image the developer would select the Sketch Groups `peopleList` and
 ### Component Sizing
 
 > [!Note]
-> Artboards in Sketch do not have fixed height or fixed width settings so this section on Component Sizing only applies to a Component withing a Group that has been selected for code generation.
+> Artboards in Sketch do not have fixed height or fixed width settings so this section on Component Sizing only applies to a Component within a Group that has been selected for code generation.
 
 When a Group is selected for component code generation and the Components inside have a fixed height and or a fixed width, those fixed size values will be added to the generated component CSS.
 Normally Angular components are sized or resized by their parent at runtime. However, there are design scenarios where the designer wants the component to be a fixed size element when added to the Angular application. Code generation supports this design scenario.
-
-### After Component Code Generation – Before Rendering in The Browser
-
-Developers need to perform the following edits of generated components before rendering in the browser:
-
-- If the HTML has formControlName elements, the formGroup comment under the `<form>` tag must be uncommented: `<!-- [formGroup]="customerForm" -->`
-- In the TypeScript, check for `<!-- // TODO – uncomment-->` and uncomment the FormGroup comment if you have one.
-- In the TypeScript, check the `ngOnInit` method and uncomment the form code.
 
 ## Sketch Element Names
 
@@ -44,8 +36,52 @@ Code generation requires each element in the Sketch Layer List to have a name. A
 
 ## Layouts
 
-Layouts are rendered with absolute position and sizes. Each component has its own position (left, top) and size (width, height) that determine how it will be rendered on the page.
+Code generation reads Sketch files and uses the layout properties defined by native Sketch schema. Please be aware, if a 3rd party Sketch plugin is used to create and maintain the Sketch drawing layout, they typically have their own set of properties that code generation is not aware of and will not use when creating the HTML and CSS.
+Code generation respects and uses Sketch groups when creating the layout. Code generation renders HTML CSS that uses [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). Flexbox lays out elements in either a column or row.
+Sketch container elements such as a group or an artboard are rendered as divs with flex CSS applied to them.
 
+Sketch arranges artboards of projects through absolute positioning, using properties such as Top, Left, Width and Height. Often these designs have to represent fluid and responsive applications. In most of the cases web applications built from such designs use modern paradigms such as flex and grid display containers. This requires the Code generation to go through a set of heuristics and based on them to produce fluid design from the absolute/static one that was created in Sketch.
+
+### Main Principle
+Main idea of building the layout is to combine the components into groups. From Code generation point of view,and because of the Flexbox, these groups should be rows or columns. And after the layout is created, the components can end up into an hierarchy of rows and columns depending on their positions and Sketch groups.
+
+In short, the algorithm starts by creating a row for the first component and stores in it the components, considered to be part of that row (laying on the same X axis as the row). Once it exhausts the components in the artboard and creates all the rows for them, it uses the same principle, but for columns. For each of these rows creates columns, the components become part of the same column if they are are on the same Y axis.
+It repeats rows and columns until there is no need to create more groups.
+
+The fluid layout is in a tree structure. The branches and the root are rows and column, the leafs are components.
+
+### Heuristics and rules
+In order to be properly adjust the elements in HTML, the Code generation applies heuristics and rules to get as close as possible to the expected design.
+> [!Note]
+> Conversion to fluid design can not guarantee pixel perfect outcome or HTML and CSS as a developer would write it. For some designs the components or generated groups(rows/columns) may appear displaced. It is expected from the user to review the generated code and apply changes if needed.
+> [!Note]
+> If the designer wants two components to be part of of one group(row or column), he should group them in Sketch.
+
+1. Navigation menu components:
+  - Navbar
+  - NavDrawer
+  - Bottom Navigation
+
+These elements typically represent root level menus. When building the layout these special case components are "moved" at the end of the group, this will make them appear on top of other elements(if there are overlaps).
+
+2. Overlay components:
+  - Dialog
+  - Snackbar
+  - Toast
+  - Tooltip
+
+These elements show on top of the content via overlay so they, by design, belong to a higher z-index level. The Code generation excludes them from the default mechanism of creating rows and columns. They are going to be with a higher z-index and not considered in justification or alignment into the group.
+
+3. Code generation finds elements that overlap each other. Elements coming partially or fully on top of others are also removed from further heuristics and are given absolute positioning with appropriate z-index.
+
+4. Elements (e.g. shapes) that map to containers (e.g. div-s) that fully contain other elements become their parents. Additional rules are applied to ensure this rule covers only scenarios that have these shapes used as containers. Currently only simple shapes(rectangles and ovals) without images are used for this rule.
+
+5. Sketch allows pinning elements to their parents and Code generation handles pinned elements in a specific way.
+  - Having right or bottom pin to an element applies absolute position and the according margin to that element.
+  - Left or top pins are ignored and those elements are included to the layout groups as if they don't have pins.
+  - Opposite pins(left and right/top and bottom) are discarded and not taken into account. For example left and right pins to an element will be handled the same way as if the element doesn't have pins. The idea here is to stretch the element not to apply margins from both opposite sides.
+
+6. Elements receive fluid (percent) based width and height based on the relative space they take in their group unless they are explicitly set as fixed-sized in Sketch.
 
 ## Dialog, Toast, Snackbar
 
