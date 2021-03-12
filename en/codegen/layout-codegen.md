@@ -36,11 +36,11 @@ Code generation requires each element in the Sketch Layer List to have a name. A
 
 ## Layouts
 
+Sketch arranges artboards of projects through absolute positioning, using properties such as Top, Left, Width and Height. Often these designs have to represent fluid and responsive applications. In most of the cases web applications built from such designs use modern paradigms such as flex and grid display containers. This requires the Code generation to go through a set of heuristics and based on them to produce fluid design from the absolute/static one that was created in Sketch.
+
 Code generation reads Sketch files and uses the layout properties defined by native Sketch schema. Please be aware, if a 3rd party Sketch plugin is used to create and maintain the Sketch drawing layout, they typically have their own set of properties that code generation is not aware of and will not use when creating the HTML and CSS.
 Code generation respects and uses Sketch groups when creating the layout. Code generation renders HTML CSS that uses [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). Flexbox lays out elements in either a column or row.
 Sketch container elements such as a group or an artboard are rendered as divs with flex CSS applied to them.
-
-Sketch arranges artboards of projects through absolute positioning, using properties such as Top, Left, Width and Height. Often these designs have to represent fluid and responsive applications. In most of the cases web applications built from such designs use modern paradigms such as flex and grid display containers. This requires the Code generation to go through a set of heuristics and based on them to produce fluid design from the absolute/static one that was created in Sketch.
 
 ### Main Principle
 Main idea of building the layout is to combine the components into groups. From Code generation point of view,and because of the Flexbox, these groups should be rows or columns. And after the layout is created, the components can end up into an hierarchy of rows and columns depending on their positions and Sketch groups.
@@ -50,53 +50,67 @@ It repeats rows and columns until there is no need to create more groups.
 
 The fluid layout is in a tree structure. The branches and the root are rows and column, the leafs are components.
 
-### Heuristics and rules
+## Heuristics and rules
 In order to be properly adjust the elements in HTML, the Code generation applies heuristics and rules to get as close as possible to the expected design.
 > [!Note]
 > Conversion to fluid design can not guarantee pixel perfect outcome or HTML and CSS as a developer would write it. For some designs the components or generated groups(rows/columns) may appear displaced. It is expected from the user to review the generated code and apply changes if needed.
 > [!Note]
 > If the designer wants two components to be part of of one group(row or column), he should group them in Sketch.
 
-1. Navigation menu components:
-  - Navbar
-  - NavDrawer
-  - Bottom Navigation
+### Navigation menu components
+The Navbar, NavDrawer, Bottom Navigation require special handling. These elements typically represent root level menus. When building the layout these special case components are "moved" at the end of the group, this will make them appear on top of other elements(if there are overlaps).
 
-These elements typically represent root level menus. When building the layout these special case components are "moved" at the end of the group, this will make them appear on top of other elements(if there are overlaps).
+### Overlaps
+Code generation finds elements that overlap each other. Elements coming partially or fully on top of others are also removed from further heuristics and are given absolute positioning with appropriate z-index.
 
-2. Overlay components:
-  - Dialog
-  - Snackbar
-  - Toast
-  - Tooltip
+### Backgrounds
+Elements (e.g. shapes) that map to containers (e.g. div-s) that fully contain other elements become their parents. Additional rules are applied to ensure this rule covers only scenarios that have these shapes used as containers. Currently only simple shapes(rectangles and ovals) without images are used for this rule.
 
-These elements show on top of the content via overlay so they, by design, belong to a higher z-index level. The Code generation excludes them from the default mechanism of creating rows and columns. They are going to be with a higher z-index and not considered in justification or alignment into the group.
-
-3. Code generation finds elements that overlap each other. Elements coming partially or fully on top of others are also removed from further heuristics and are given absolute positioning with appropriate z-index.
-
-4. Elements (e.g. shapes) that map to containers (e.g. div-s) that fully contain other elements become their parents. Additional rules are applied to ensure this rule covers only scenarios that have these shapes used as containers. Currently only simple shapes(rectangles and ovals) without images are used for this rule.
-
-5. Sketch allows pinning elements to their parents and Code generation handles pinned elements in a specific way.
+### Pinned elements
+Sketch allows pinning elements to their parents and Code generation handles pinned elements in a specific way.
   - Having right or bottom pin to an element applies absolute position and the according margin to that element.
   - Left or top pins are ignored and those elements are included to the layout groups as if they don't have pins.
   - Opposite pins(left and right/top and bottom) are discarded and not taken into account. For example left and right pins to an element will be handled the same way as if the element doesn't have pins. The idea here is to stretch the element not to apply margins from both opposite sides.
 
-6. Elements receive fluid (percent) based width and height based on the relative space they take in their group unless they are explicitly set as fixed-sized in Sketch.
+### Percentage-based size
+Elements receive fluid (percent) based width and height based on the relative space they take in their group unless they are explicitly set as fixed-sized in Sketch.
 
-## Dialog, Toast, Snackbar
+### Dialog, Toast, Tooltip
+The Dialog, Toast, and Tooltip show on top of the content via overlay so they, by design, belong to a higher z-index level. The Code generation excludes them from the default mechanism of creating rows and columns. They are going to be with a higher z-index and not considered in justification or alignment into the group.
 
-The Dialog, Toast, and Snackbar all have one thing in common, they are all shown in the UI dynamically using some form of TypeScript.
+The Dialog, Toast, and Tooltip all have one thing in common, they are all shown in the UI dynamically using some form of TypeScript.
 Since these are not normally shown until programmatically shown in the UI, they would not normally be shown in the Sketch drawing unless the designer was showing the Artboard in a state where one of these would be displayed.
 To solve the disconnect between designer’s requirements to show the Artboard in several states, and the developer only code generating the component once, the following guidance should be followed.
-Add the required Dialog, Toast, and Snackbar to the drawing, configure them as you would any other element, then hide them as below. This form would be the one the developer would select to code generate.
+Add the required Dialog, Toast, and Tooltip to the drawing, configure them as you would any other element, then hide them as below. This form would be the one the developer would select to code generate.
 The hiding of element in the object panel has no effect on code generation, code generation will generate all elements here, hidden or not.
-Dialog, Toast, and Snackbar elements will be placed at the bottom of the components HTML and not mixed in with other elements as they have dynamic runtime placement when brought into view.
+Dialog, Toast, and Tooltip elements will be placed at the bottom of the components HTML and not mixed in with other elements as they have dynamic runtime placement when brought into view.
 
 <img class="responsive-img" src="../images/layout_codegen17.png" />
 
 The below image is an example of a designer state drawing, this drawing should not be used for code generation as it has an extra color element to simulate the gray overlay that the Dialog would place at runtime.
 
 <img class="responsive-img" src="../images/layout_codegen18.png" />
+
+### Positioning Layouts
+Layout position is relative to their parent. During layout building if a group has one child, then the group takes the dimensions of the child (position and size). The child assumes position (0,0) relative to its parent. When a new child needs to be included to a group it may affect the dimensions of the group, if this is the case then all other children in the group are going to be updated.
+
+### Group size
+  - Columns - the width of a column represents the width of its children. For the height the column fully fills the vertical space determined by its parent.
+  - Rows - the height of a row represents the height of its children. For the width the row fully fills the horizontal space determined by its parent.
+> [!Note]
+> Additional paddings/margins are applied after justification is resolved based on the justification type.
+
+### Justification and alignment
+Code generation will try to match the most appropriate value for `justify-content` property in css. Depending on the spaces between children and from the edges of the parent. Also on the counter axis will try to determine best value for `align-items` css property.
+
+### Padding and margin
+Padding and margin is applied based on the resolved justification type as follows:
+
+  - flex-start - Padding-left is applied to cover any space between the parent and first child. Margin is applied to cover any inner space between the sibling elements.
+  - flex-end - Padding-right is applied to cover any space between the parent and last child. Margin is applied to cover any inner space between the sibling elements.
+  - center - Margin is applied to cover any inner space between the sibling elements.
+  - space-between - Padding-left and Padding-right is applied to cover any space between the parent and first/last child. Inner spaces is covered fully by the justification so no margin are needed.
+  - space-around/space-evenly - All spaces are covered (both start/end and inner spaces) so no padding or margin are needed.
 
 ## Limitations
 
