@@ -36,35 +36,45 @@ Code generation requires each element in the Sketch Layer List to have a name. A
 
 ## Layouts
 
-Sketch arranges artboards of projects through absolute positioning, using properties such as Top, Left, Width and Height. Often these designs have to represent fluid and responsive applications. In most of the cases web applications built from such designs use modern paradigms such as flex and grid display containers. This requires the Code generation to go through a set of heuristics and based on them to produce fluid design from the absolute/static one that was created in Sketch.
+Sketch arranges artboards of projects through absolute positioning, using properties such as Top, Left, Width and Height. Often these designs have to represent fluid and responsive applications. Most web applications built from such designs use modern paradigms such as flex and grid display containers. The job of the Code generation is to get as close as possible to the application, a developer would build from a given design. This requires the Code generation to go through a set of heuristics and based on them to produce fluid design from the absolute/static one that was created in Sketch.
 
 Code generation reads Sketch files and uses the layout properties defined by native Sketch schema. Please be aware, if a 3rd party Sketch plugin is used to create and maintain the Sketch drawing layout, they typically have their own set of properties that code generation is not aware of and will not use when creating the HTML and CSS.
 Code generation respects and uses Sketch groups when creating the layout. Code generation renders HTML CSS that uses [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). Flexbox lays out elements in either a column or row.
 Sketch container elements such as a group or an artboard are rendered as divs with flex CSS applied to them.
 
-### Main Principle
-Main idea of building the layout is to combine the components into groups. From Code generation point of view,and because of the Flexbox, these groups should be rows or columns. And after the layout is created, the components can end up into an hierarchy of rows and columns depending on their positions and Sketch groups.
+### How it works
+Main idea of building responsive layout is to combine the components into groups. This creates a structure, thats expected from the developer. From Code generation point of view,and because of the Flexbox, these groups should be rows or columns. And after the layout is created, the components can end up into an hierarchy of rows and columns depending on their positions and Sketch groups.
 
 In short, the algorithm starts by creating a row for the first component and stores in it the components, considered to be part of that row (laying on the same X axis as the row). Once it exhausts the components in the artboard and creates all the rows for them, it uses the same principle, but for columns. For each of these rows creates columns, the components become part of the same column if they are are on the same Y axis.
 It repeats rows and columns until there is no need to create more groups.
 
-The fluid layout is in a tree structure. The branches and the root are rows and column, the leafs are components.
+<img class="responsive-img" src="../images/layout_codegen_structure.png" />
+
+The fluid layout is in a tree structure. The branches and the root are rows and columns, the leafs are components.
 
 ## Heuristics and rules
-In order to be properly adjust the elements in HTML, the Code generation applies heuristics and rules to get as close as possible to the expected design.
+In order to be properly adjust the elements in HTML, the Code generation applies heuristics and rules to get responsive design from statically positioned elements.
+
+<img class="responsive-img" src="../images/layout_codegen_responsive.gif" />
+
 > [!Note]
-> Conversion to fluid design can not guarantee pixel perfect outcome or HTML and CSS as a developer would write it. For some designs the components or generated groups(rows/columns) may appear displaced. It is expected from the user to review the generated code and apply changes if needed.
+> Conversion to fluid design can not guarantee pixel perfect outcome or HTML and CSS as a developer would write it. For some designs the components or generated groups(rows/columns) may appear displaced. The users should do a review of the generated code and apply changes if needed.
+
 > [!Note]
-> If the designer wants two components to be part of of one group(row or column), he should group them in Sketch.
+> If the designer wants to ensure some components to be part of of one group(row or column), he should put them in a group in Sketch. Groups in Sketch will be respected.
 
 ### Navigation menu components
 The Navbar, NavDrawer, Bottom Navigation require special handling. These elements typically represent root level menus. When building the layout these special case components are "moved" at the end of the group, this will make them appear on top of other elements(if there are overlaps).
 
 ### Overlaps
-Code generation finds elements that overlap each other. Elements coming partially or fully on top of others are also removed from further heuristics and are given absolute positioning with appropriate z-index.
+Code generation finds elements that overlap each other. Elements coming partially or fully on top of others are also removed from further heuristics and are given absolute positioning with appropriate z-index. Also overlapping elements are grouped together to ensure the upper element will overlap the element bellow into the new fluid layout as it was in the design from Sketch. Typical example of this would an avatar with a badge.
+
+<img class="responsive-img" src="../images/layout_codegen_overlap.png" />
 
 ### Backgrounds
 Elements (e.g. shapes) that map to containers (e.g. div-s) that fully contain other elements become their parents. Additional rules are applied to ensure this rule covers only scenarios that have these shapes used as containers. Currently only simple shapes(rectangles and ovals) without images are used for this rule.
+
+<img class="responsive-img" src="../images/layout_codegen_background.png" />
 
 ### Pinned elements
 Sketch allows pinning elements to their parents and Code generation handles pinned elements in a specific way.
@@ -94,14 +104,23 @@ The below image is an example of a designer state drawing, this drawing should n
 ### Positioning Layouts
 Layout position is relative to their parent. During layout building if a group has one child, then the group takes the dimensions of the child (position and size). The child assumes position (0,0) relative to its parent. When a new child needs to be included to a group it may affect the dimensions of the group, if this is the case then all other children in the group are going to be updated.
 
+If a group remains with one child, the structure is optimized and the group is omitted.
+
 ### Group size
   - Columns - the width of a column represents the width of its children. For the height the column fully fills the vertical space determined by its parent.
   - Rows - the height of a row represents the height of its children. For the width the row fully fills the horizontal space determined by its parent.
+
 > [!Note]
 > Additional paddings/margins are applied after justification is resolved based on the justification type.
 
 ### Justification and alignment
-Code generation will try to match the most appropriate value for `justify-content` property in css. Depending on the spaces between children and from the edges of the parent. Also on the counter axis will try to determine best value for `align-items` css property.
+Rows receive `row` value for `flex-direction` css property and columns receive `column`.
+
+Code generation will try to match the most appropriate value for `justify-content` property in css. Using the position and size of the elements in a group, the whole group can justify its elements in the beginning, at the end, center them ant etc.
+Depending on the spaces between children and from the edges of the parent. Also on the counter axis will try to determine the most suitable value for `align-items` css property.
+
+Quick example would be if the items in a group are horizontally and vertically centered, then `justify-content` is `center` and `align-items` is `center`.
+<img class="responsive-img" src="../images/layout_codegen_justification.png" />
 
 ### Padding and margin
 Padding and margin is applied based on the resolved justification type as follows:
