@@ -24,8 +24,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - uses: crazy-max/ghaction-chocolatey@v1
-      with:
-        args: install docfx -y
+    - run: brew install docfx
     - run: npm install
     - run: npm run build
