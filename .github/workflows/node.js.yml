@@ -30,6 +30,7 @@ jobs:
     - run: sudo apt-get update
     - run: sudo apt-get install mono-complete
     - run: mozroots --import --sync
+    - run: brew install gdbm
     - run: brew install docfx --ignore-dependencies
     - run: npm install
     - run: npm run build
