@@ -29,10 +29,7 @@ jobs:
     - run: echo "deb http://download.mono-project.com/repo/debian wheezy main" | sudo tee --append /etc/apt/sources.list.d/mono-xamarin.list
     - run: sudo apt-get update
     - run: sudo apt-get install mono-complete
-    - run: sudo certmgr -ssl -m https://go.microsoft.com
-    - run: sudo certmgr -ssl -m https://nugetgallery.blob.core.windows.net
-    - run: sudo certmgr -ssl -m https://nuget.org
     - run: mozroots --import --sync
-    - run: brew install docfx
+    - run: brew install docfx --ignore-dependencies
     - run: npm install
     - run: npm run build
