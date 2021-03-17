@@ -44,6 +44,7 @@ jobs:
     - run: brew install libxdmcp
     - run: brew install libxcb
     - run: brew install libx11
+    - run: brew install libxext
     - run: brew install docfx --ignore-dependencies
     - run: npm install
     - run: npm run build
