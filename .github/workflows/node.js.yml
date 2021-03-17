@@ -36,6 +36,7 @@ jobs:
     - run: brew install ncurses
     - run: brew install readline
     - run: brew install zlib
+    - run: brew install sqlite 
     - run: brew install docfx --ignore-dependencies
     - run: npm install
     - run: npm run build
