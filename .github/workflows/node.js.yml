@@ -32,6 +32,7 @@ jobs:
     - run: mozroots --import --sync
     - run: brew install gdbm
     - run: brew install mpdecimal
+    - run: brew install openssl
     - run: brew install docfx --ignore-dependencies
     - run: npm install
     - run: npm run build
