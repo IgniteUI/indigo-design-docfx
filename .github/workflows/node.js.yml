@@ -49,6 +49,7 @@ jobs:
     - run: brew install xz
     - run: brew install bzip2
     - run: brew install libffi
+    - run: brew install unzip
     - run: brew install docfx --ignore-dependencies
     - run: npm install
     - run: npm run build
