@@ -1,14 +1,11 @@
 {
     "development": {
-        "infragisticsBaseUrl": "https://staging.infragistics.com",
-        "dvApiBaseUrl": "https://staging.infragistics.com"
+        "infragisticsBaseUrl": "https://staging.infragistics.com"
     },
     "staging": {
-        "infragisticsBaseUrl": "https://staging.infragistics.com",
-        "dvApiBaseUrl": "https://staging.infragistics.com"
+        "infragisticsBaseUrl": "https://staging.infragistics.com"
     },
     "production": {
-        "infragisticsBaseUrl": "https://www.infragistics.com",
-        "dvApiBaseUrl": "https://www.infragistics.com"
+        "infragisticsBaseUrl": "https://www.infragistics.com"
     }
 }
