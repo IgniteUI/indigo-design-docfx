@@ -16,8 +16,6 @@ VS Code 拡張機能をインストールする前に、Visual Studio Code が�
 
 1.  パッケージをハード ドライブに解凍します。
 
-2.  Visual Studio Code を開いて、メイン メニューで「表示」> 「拡張機能」を選択します。
-
     <div class="divider--half"></div>
     <img class="responsive-img" src="../images/vs-code-extension-drop-down.png" />
     <div class="divider--half"></div>
@@ -26,21 +24,12 @@ VS Code 拡張機能をインストールする前に、Visual Studio Code が�
     <div class="divider--half"></div>
     <div class="divider--half"></div>
 
-3.  拡張機能ペインで、右上の「その他のオプション」(3 つの水平ドット) ボタンをクリックします。
+2.  [拡張機能] ペインの [Marketplace で拡張機能を検索する] フィールドに、「Infragistics Indigo.Design」 と入力します。
 
-4.  ドロップダウン メニューから「VSIX からインストール」を選択します。
+3. 「Infragistics Indigo.DesignCode Generator」拡張機能を選択し、「インストール」をクリックしてください。
 
     <div class="divider--half"></div>
-    <img class="responsive-img" src="../images/vs-code-install-vsix.png" />
-    <div class="divider--half"></div>
-    <div class="divider--half"></div>
-    <div class="divider--half"></div>
-    <div class="divider--half"></div>
-    <div class="divider--half"></div>
-
-5.  ダウンロードして解凍したファイルの場所に参照し、VS Code 拡張機能を選択します。
-    <div class="divider--half"></div>
-    <img class="responsive-img" src="../images/vs-code-select-vsix.png" />
+    <img class="responsive-img" src="../images/vs-code-install.png" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -54,5 +43,4 @@ VS Code 拡張機能をインストールする前に、Visual Studio Code が�
 ## その他のリソース
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
 
