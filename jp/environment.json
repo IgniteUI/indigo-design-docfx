@@ -1,0 +1,11 @@
+{
+    "development": {
+        "infragisticsBaseUrl": "https://jp.staging.infragistics.com"
+    },
+    "staging": {
+        "infragisticsBaseUrl": "https://jp.staging.infragistics.com"
+    },
+    "production": {
+        "infragisticsBaseUrl": "https://jp.infragistics.com"
+    }
+}
