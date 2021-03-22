@@ -51,19 +51,19 @@ In order for a Component or Pattern to scale to the full width of the group or a
 
 <img class="responsive-img" src="images/one_horizontal_nofix_caution.png" srcset="images/one_horizontal_nofix_caution@2x.png 2x" />
 
-**The Input will keep a left margin and proportionally scale when its parent width changes, resulting in bizzare responsive behaviors.**
+**The Input will keep a left margin and proportionally scale when its parent width changes, allowing responsive behavior.**
 
 <img class="responsive-img" src="images/one_horizontal_nofix_dont1.png" srcset="images/one_horizontal_nofix_dont1@2x.png 2x" />
 
-**The Input will proportionally scale and move left and right when its parent width changes, resulting in bizzare responsive behaviors.**
+**The Input will proportionally scale and move left and right when its parent width changes, allowing responsive behavior.**
 
 <img class="responsive-img" src="images/one_horizontal_nofix_dont2.png" srcset="images/one_horizontal_nofix_dont2@2x.png 2x" />
 
 ### Fixed Width
 
-In order for a Component or Pattern to keep its width, make sure that it has a fixed width and is pinned either to the right side of the group or artboard it belongs to. In most scenarios though, our advice is to use the flexible widths explained above for elements that appear alone on a layout row, unless these elements come with a fixed width by default as a component e.g. Avatar, Circular Progress Bar, Icon and Toast.
+In order for a Component or Pattern to keep its width, make sure that it has a fixed width in Sketch. In most scenarios though, our advice is to use the flexible widths explained above for elements that appear alone on a layout row, unless these elements come with a fixed width by default as a component e.g. Avatar, Circular Progress Bar, Icon and Toast.
 
-**The Input will always preserve its right margin have a fixed width that will not change in resposive scenarios.**
+**The Input will always preserve its right margin and have fixed width that will not change in responsive scenarios.**
 
 <img class="responsive-img" src="images/one_horizontal_fixed_caution2.png" srcset="images/one_horizontal_fixed_caution2@2x.png 2x" />
 
