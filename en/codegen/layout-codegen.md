@@ -30,13 +30,9 @@ In the below image the developer will select the Sketch Groups `peopleList` and 
 When a Group is selected for component code generation and the Components inside have a fixed height and or a fixed width, those fixed size values will be added to the generated component CSS.
 Normally the parent of Angular components is responsible for their sizing or resizing at runtime. However, there are design scenarios where the designer wants the component to be a fixed size element when added to the Angular application. Code generation supports this design scenario.
 
-## Sketch Element Names
-
-Code generation requires each element in the Sketch Layer List to have a name. Any element without a name will be skipped and not processed. This includes all of the skipped element's children as well.
-
 ## Layouts
 
-Sketch arranges artboards of projects through absolute positioning, using properties such as Top, Left, Width and Height. Often these designs have to represent fluid and responsive applications. Most web applications built from such designs use modern paradigms such as flex and grid display containers. The job of the Code generation is to get as close as possible to the application, a developer will build from a given design. This requires the Code generation to go through a set of heuristics and standing on them to produce fluid design from the absolute/static one in Sketch.
+Sketch arranges artboards of projects through absolute positioning, using properties such as Top, Left, Width and Height. Often these designs have to represent fluid and responsive applications. Most web applications built from such designs use modern paradigms such as flex and grid display containers. The job of the Code generation is to get as close as possible to the application, a developer will build from a given design. This requires the Code generation to go through a set of heuristics and based on them to produce fluid design from the absolute/static one in Sketch.
 
 Code generation reads Sketch files and uses the layout properties defined by native Sketch schema. Please be aware, if you use a 3rd party Sketch plugin to create and maintain the Sketch drawing layout, they typically have their own set of properties that code generation is not aware of and will not use when creating the HTML and CSS.
 Code generation respects and uses Sketch groups when creating the layout. Code generation renders HTML CSS that uses [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). Flexbox lays out elements in either a column or row.
@@ -53,7 +49,7 @@ In short, the algorithm starts by creating a row for the first component and sto
 The fluid layout is in a tree structure. The branches and the root are rows and columns and the leaves are components.
 
 ## Heuristics and rules
-In order to be properly adjust the elements in HTML, the Code generation applies heuristics and rules to get responsive design from statically positioned elements.
+In order to be properly transform the elements in HTML, the Code generation applies heuristics and rules to get responsive design from statically positioned elements.
 
 <img class="responsive-img" src="../images/layout_codegen_responsive.gif" />
 
