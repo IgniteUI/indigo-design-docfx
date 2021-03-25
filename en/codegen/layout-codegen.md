@@ -76,7 +76,7 @@ Sketch shapes are often user to represent a background for groups or portions of
 Sketch allows pinning elements to their parents and Code generation handles pinned elements in a specific way.
   - Having right or bottom pin to an element applies absolute position and the according margin to that element.
   - Left or top pins are ignored and those elements are included to the layout groups as if they do not have pins.
-  - •	Opposite pins (left and right/top and bottom) are discarded and not taken into account. The assumption behind the rule is that elements with opposite pins should be stretched instead of having margins applied from those sides. For example, left and right pins to an element will be handled the same way as if the element does not have pins. The idea here is to stretch the element not to apply margins from both opposite sides.
+  - Opposite pins (left and right/top and bottom) are discarded and not taken into account. The assumption behind the rule is that elements with opposite pins should be stretched instead of having margins applied from those sides. For example, left and right pins to an element will be handled the same way as if the element does not have pins. The idea here is to stretch the element not to apply margins from both opposite sides.
 
 ### Percentage-based size
 Elements receive fluid (percentage-based) width and height. The proportion ratio in their group is maintained, unless they are explicitly set as fixed-sized in Sketch.
