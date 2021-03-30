@@ -32,7 +32,7 @@ Normally the parent of Angular components is responsible for their sizing or res
 
 ## Layouts
 
-Sketch arranges artboards of projects through absolute positioning, using properties such as Top, Left, Width and Height. Often these designs have to represent fluid and responsive applications. Most web applications built from such designs use modern paradigms such as flex and grid display containers. The job of the Code generation is to get as close as possible to the application, a developer will build from a given design. This requires the Code generation to go through a set of heuristics and based on them to produce fluid design from the absolute/static one in Sketch.
+Sketch arranges artboards of projects through absolute positioning, using properties such as Top, Left, Width and Height. Often these designs have to represent fluid and responsive applications. Most web applications built from such designs use modern paradigms such as flex and grid display containers. The job of the Code generation is to get as close as possible to the application, a developer will build from a given design. The Code Generation applies a set of heuristics to produce fluid design from the absolute/static one in Sketch.
 
 Code generation reads Sketch files and uses the layout properties defined by native Sketch schema. Please, note that 3rd party Sketch plugins used to create or maintain the drawing layout typically have their own set of properties that the code generator is not aware of and these would not be used when creating the HTML and CSS.
 
