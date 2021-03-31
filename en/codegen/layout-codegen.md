@@ -27,12 +27,12 @@ In the below image the developer would select the Sketch Groups `peopleList` and
 > [!Note]
 > Artboards in Sketch do not have fixed height or fixed width settings so this section on Component Sizing only applies to a component within a Group that the user selects for Code Generation.
 
-When a Group is selected for component Code Generation and the components inside have a fixed height and or a fixed width, those fixed size values will be added to the generated component CSS.
+When a Group is selected for Code Generation and the components inside have a fixed height and or a fixed width, those fixed size values will be added to the generated component CSS.
 Normally the parent of Angular components is responsible for their sizing or resizing at runtime. However, there are design scenarios where the designer wants the component to be a fixed size element when added to the Angular application. Code Generation supports this design scenario.
 
 ## Layouts
 
-Sketch arranges artboards of projects through absolute positioning, using properties such as Top, Left, Width and Height. Often these designs have to represent fluid and responsive applications. Most web applications built from such designs use modern paradigms such as flex and grid display containers. The job of the Code Generation is to get as close as possible to the application, a developer will build from a given design. The Code Generation applies a set of heuristics to produce fluid design from the absolute/static one in Sketch.
+Sketch arranges artboards of projects through absolute positioning, using properties such as Top, Left, Width and Height. Often these designs have to represent fluid and responsive applications. Most web applications built from such designs use modern paradigms such as flex and grid display containers. The job of the Code Generation is to get as close as possible to the application, a developer will build from a given design. The Code Generator applies a set of heuristics to produce fluid design from the absolute/static one in Sketch.
 
 Code Generator reads Sketch files and uses the layout properties defined by native Sketch schema. Please, note that 3rd party Sketch plugins, used to create or maintain the drawing layout typically have their own set of properties. The Code Generator is not aware of these properties and would not be used when creating the HTML and CSS.
 
