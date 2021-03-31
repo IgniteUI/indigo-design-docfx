@@ -25,33 +25,33 @@ In the below image the developer would select the Sketch Groups `peopleList` and
 ### Component Sizing
 
 > [!Note]
-> Artboards in Sketch do not have fixed height or fixed width settings so this section on Component Sizing only applies to a Component within a Group that the user selects for code generation.
+> Artboards in Sketch do not have fixed height or fixed width settings so this section on Component Sizing only applies to a component within a Group that the user selects for Code Generation.
 
-When a Group is selected for component code generation and the Components inside have a fixed height and or a fixed width, those fixed size values will be added to the generated component CSS.
-Normally the parent of Angular components is responsible for their sizing or resizing at runtime. However, there are design scenarios where the designer wants the component to be a fixed size element when added to the Angular application. Code generation supports this design scenario.
+When a Group is selected for component Code Generation and the components inside have a fixed height and or a fixed width, those fixed size values will be added to the generated component CSS.
+Normally the parent of Angular components is responsible for their sizing or resizing at runtime. However, there are design scenarios where the designer wants the component to be a fixed size element when added to the Angular application. Code Generation supports this design scenario.
 
 ## Layouts
 
-Sketch arranges artboards of projects through absolute positioning, using properties such as Top, Left, Width and Height. Often these designs have to represent fluid and responsive applications. Most web applications built from such designs use modern paradigms such as flex and grid display containers. The job of the Code generation is to get as close as possible to the application, a developer will build from a given design. The Code Generation applies a set of heuristics to produce fluid design from the absolute/static one in Sketch.
+Sketch arranges artboards of projects through absolute positioning, using properties such as Top, Left, Width and Height. Often these designs have to represent fluid and responsive applications. Most web applications built from such designs use modern paradigms such as flex and grid display containers. The job of the Code Generation is to get as close as possible to the application, a developer will build from a given design. The Code Generation applies a set of heuristics to produce fluid design from the absolute/static one in Sketch.
 
-Code generation reads Sketch files and uses the layout properties defined by native Sketch schema. Please, note that 3rd party Sketch plugins used to create or maintain the drawing layout typically have their own set of properties that the code generator is not aware of and these would not be used when creating the HTML and CSS.
+Code Generator reads Sketch files and uses the layout properties defined by native Sketch schema. Please, note that 3rd party Sketch plugins, used to create or maintain the drawing layout typically have their own set of properties. The Code Generator is not aware of these properties and would not be used when creating the HTML and CSS.
 
-Code generation respects and uses Sketch groups when creating the layout. Code generation renders HTML and CSS that uses [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). Flexbox lays out elements in either columns or rows.
+Code Generator respects and uses Sketch groups when creating the layout. Code Generator renders HTML and CSS that uses [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). Flexbox lays out elements in either columns or rows.
 
 Sketch container elements such as groups or artboards are rendered as divs with flex CSS applied to them.
 
 ### How it works
 The idea behind building a responsive layout is to combine the components into groups. This creates a structure that is closer to what the developer expects. These groups use Flexbox rules and are made of either rows or columns thus the layout is represented by a hierarchy of rows and columns containing all elements based on their positions relative to each other and their respective Sketch groups.
 
-The algorithm starts by creating a row for the first component and stores in it the components considered part of that row (positioned on the same X-axis as the row). Once it exhausts the components in the artboard and creates all the rows for them, it uses the same principle, but for columns for each of these rows. Components become part of the same column if they are positioned on the same Y-axis. The process alternates between rows and columns until no further grouping is needed.
+The algorithm starts by creating a row for the first component and stores in that row all the components positioned on the same X-axis. Once all the components on the artboard are orginized in rows, then the same principle is used, to arrange them in columns. Components become part of the same column if they are positioned on the same Y-axis. The process alternates between rows and columns until no further grouping is needed.
 
 
 <img class="responsive-img" src="../images/layout_codegen_structure.png" />
 
-The fluid layout is in a tree structure. The branches and the root are rows and columns and the leaves are components.
+The fluid layout is in a tree structure. The branches and the root are rows and columns, the leaves are components.
 
 ## Heuristics and rules
-In order to be properly transform the elements in HTML, the Code generator applies heuristics and rules to produce responsive web design from statically positioned elements.
+In order to transform the elements in HTML properly, the Code Generator applies heuristics and rules to produce responsive web design from statically positioned elements.
 
 <img class="responsive-img" src="../images/layout_codegen_responsive.gif" />
 
@@ -59,23 +59,23 @@ In order to be properly transform the elements in HTML, the Code generator appli
 > The conversion to fluid application design cannot guarantee pixel perfect outcome. For some designs, the components or generated groups (rows/columns) may appear displaced. Users should review the generated code and apply changes as needed.
 
 > [!Note]
-> If the designer wants to ensure some components are part of the same group (row or column), he should group them in Sketch. The generator respects these groups.
+> If the designer wants to ensure some components are part of the same group (row or column), he should group them in Sketch. The Code Generator respects these groups.
 
 ### Navigation menu components
 Navbar, NavDrawer and Bottom Navigation require special handling. These elements typically represent root level menus. When building the layout these special-case components are "moved" at the end of the group. This makes them appear on top of other elements (if there are overlaps).
 
 ### Overlaps
-The code generator finds elements that overlap each other. Elements that are partially or fully on top of others are removed from further heuristics and receive absolute positioning with an appropriate z-index. In addition, overlapping elements are grouped together to ensure the upper element overlaps the element bellow into the new fluid layout regardless of the viewport size when applied to the applications responsiveness. Typical example of this is an avatar with a badge.
+The Code Generator identifies elements that overlap each other. Elements that are partially or fully on top of others are removed from further heuristics and receive absolute positioning with an appropriate z-index. In addition, overlapping elements are grouped together to ensure the upper element stays on top in the new fluid layout. In that way if applications responsiveness is applied, the design is not be changed, regardless of the viewport size. Typical example of this is an avatar with a badge.
 
 <img class="responsive-img" src="../images/layout_codegen_overlap.png" />
 
 ### Backgrounds
-Sketch shapes are often used to represent a background for groups or portions of the page. The generator creates HTML container elements, usually DIVs, for them and puts all fully contained child elements inside these containers. This applies to specific shapes only. There should be elements over them and completely into their boundaries. Currently only simple shapes (rectangles and ovals) without images are used for creating background containers.
+Sketch shapes are often used to represent a background for groups or portions of the page. The Code Generator creates HTML container elements, usually DIVs, for them and stores all fully contained child elements inside these containers. This applies to specific shapes only. There should be elements over them and completely into their boundaries. Currently only simple shapes (rectangles and ovals) without images are used for creating background containers.
 
 <img class="responsive-img" src="../images/layout_codegen_background.png" />
 
 ### Pinned elements
-Sketch allows pinning elements to their parents and the generator handles these using the following rules:
+Sketch allows pinning elements to their parents and the Code Generator handles these using the following rules:
 
 - Having right or bottom pin to an element applies absolute position and the corresponding margin to that element.
 - Left or top pins are ignored and these elements are included to the layout groups as if they did not have pins.
@@ -85,9 +85,9 @@ Sketch allows pinning elements to their parents and the generator handles these 
 Elements receive fluid (percentage-based) width and height. The proportion ratio in their group is maintained, unless they are explicitly set as fixed-sized in Sketch.
 
 ### Dialog, Toast, Tooltip
-Dialog, Toast, and Tooltip show on top of the content via overlay so they, by design, belong to a higher z-index level. The Code generation excludes them from the default mechanism of creating rows and columns. They receive a higher z-index and are not considered in justification or alignment rules for the group.
+Dialog, Toast, and Tooltip show on top of the content via overlay so they, by design, belong to a higher z-index level. The Code Generator excludes them from the default mechanism of creating rows and columns. They receive a higher z-index and are not considered in justification or alignment rules for the group.
 
-The Dialog, Toast, and Tooltip components have another thing in common. They all appear in the UI dynamically using code. Since these are not normally visible until programmatically shown, they are usually not shown in the Sketch design unless the designer is creating an artboard for their open state. To solve the disconnect between the designer’s requirements to show the Artboard in several states, and the developer only code generating the component once, the following guidance should be followed. Add the required Dialog, Toast, and Tooltip to the drawing, configure them, as you will any other element, then hide them as below. This form is the one the developer selects to generate code. Hiding elements in the object panel has no effect on code generation, code generation generates all elements here, hidden or not. Dialog, Toast, and Tooltip elements are placed at the bottom of the components HTML and not mixed in with other elements as they have dynamic runtime placement when brought into view.
+The Dialog, Toast, and Tooltip components have another thing in common. They all appear in the UI dynamically using code. Since these are not normally visible until programmatically shown, they are usually not shown in the Sketch design unless the designer is creating an artboard for their open state. To solve the disconnect between the designer’s requirements to show the Artboard in several states, and the developer only code generating the component once, the following guidance should be followed. Add the required Dialog, Toast, and Tooltip to the drawing, configure them, as you will any other element, then hide them as below. This form is the one the developer selects to generate code. Hiding elements in the object panel has no effect on Code Generator, it generates all elements here, hidden or not. Dialog, Toast, and Tooltip elements are placed at the bottom of the components HTML and not mixed in with other elements as they have dynamic runtime placement when brought into view.
 
 
 <img class="responsive-img" src="../images/layout_codegen17.png" />
@@ -127,7 +127,7 @@ Padding and margin are applied based on the resolved justification type as follo
 
 ## Limitations
 
-- For the current release of Code Generation, native Sketch objects such as vector, mask, pencil, complex shape, etc. are bypassed and not generated. This includes the new Text Styles feature of Sketch 5.1, these elements will be bypassed and not generated.
+- For the current release of Code Generator, native Sketch objects such as vector, mask, pencil, complex shape, etc. are bypassed and not generated. This includes the new Text Styles feature of Sketch 5.1, these elements will be bypassed and not generated.
 - Only styles applied via the Indigo.Design plug-in are supported. All other custom styles applied on specific components are ignored.
 - Designers should use elements from the Indigo.Design library only.
 - Sketch Image is supported. The image will be rendered with a fixed height and width of the image in Sketch. 
