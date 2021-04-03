@@ -16,10 +16,6 @@ The Indigo.Design Plugin is available for download from [Indigo.Design Cloud](ht
 
 ## 2. Themes
 
-> [!Warning]
-> With **Indigo.Design System** version 3 we have introduced many enhancements to the Sketch library and underlying foundations for styling and theming. This means that the theming functionality of the Sketch plugin will only allow you to create themes, but they will not be applied to the library at all. While making the necessary updates to the plugin, we want to thank you for being patient and promise to make its new version available for download very soon.
->
-
 This section provides guidance and shows some best practices regarding the creation and application of themes in Sketch projects created with the Indigo.Design UI Kit. By sticking to the recommendations below you will be able to apply your brand assets, such as typography and colors, to your project and libraries. The result of this small effort is that all UI Components will consistently represent your brand in one or more projects.
 
 ### Launching theme configuration
