@@ -1,45 +1,64 @@
 ---
-title: Indigo Design App Builder - Preview Code and Generate App
-_description: Indigo Design App Builder is a design to code solution, enabling design and development teams to quickly and easily design and build real web applications.
-_keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch UI kits
+title: Indigo Design App Builder - Interactions 
+_description: Indigo Design App Builder enables design and development teams to use various interactions when creating connections between screens and components in order to cover real application scenarios.
+_keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch UI kits, Interactions
 ---
-# Preview Code and Generate App
+# Interactions
+
+> [!NOTE]
+><b>The Interactions feature of the Indigo.Design App Builder enables users to define particular interactions between views and components, such as Navigate to another view, Show or Hide and Open or Close an app component.
+
+
+
+### In this article:
+* <a href="#intro">Introduction of the feature</a>
+* <a href="#navigate-to">Interaction: Navigate to</a>
+* <a href="#openclose-interaction">Interaction: Open/Close</a>
+* <a href="#showhide">Interaction: Show/Hide</a>
+
 
 <section class="feature__container">
     <div class="feature">
         <div class="feature__image">
             <iframe width="800" height="450" src="https://www.youtube.com/embed/zxT-nIXKn7I" frameborder="0" allowfullscreen></iframe>
-            <p>Preview and Generate App Code</p>
+            <p>Interaction feature introduction</p>
             <br>
         </div>
     </div>
 </section>
 
-Previewing generated code and downloading your work as an Angular app is the final step after designing one application. The design and development user story will be completed once the application is generated with all styiling and layout properties.
+## Intro
+Indigo.Design App Builder enables its users not only to design application layouts and screens, but also to define the application interaction design. Interactions can be set up between components and views or just between components. Through this feature particular application scenarios, such as showing and hiding a calendar component triggered upon click on a button component, can be established. This will help users build great UX flows according to the needs of their customers. All added interactions will be available not only in Preview mode, but also in the application code after generating it.
+In order to add an interaction, first select the component that will trigger the action, then go to the Property panel in the right side of the Indigo.Design App Builder interface and scroll down to the Interactions. Then, select the + icon button to create a new interaction. Upon this, a new interaction will be created below where first has to be picked up the interaction type, then the target component or view. No more than one interaction can be added to a component. Created interactions can be tested on Preview Mode, as well as deleted or edited from the Interactions panel. Check below detailed description about how to use each one of the interactions.
 
-## Preview Code 
+## Navigate to
+"Navigate to" is the most straight-forward and basic interaction which allows users to set up a connection from a component navigating to selected by the user child or master view. Simply pick up a component, create an interaction for it and pick up the destination view. Note that during design time, no visual changes will be introduced to the components or views with an interaction. 
 
-The preview mode allows you to interact with your design as-if it's a running app. For instance, you can resize the viewport to see how the positioning for components behave. But the real value it offers to developers is to preview the app code that is about to be generated. To see this, you can toggle the code-view ON and see it side-by-side with the design. It's in read-only mode, but  will help you review the quality of code produced. 
+<img class="responsive-img" src="../images/navigate-to-interaction.gif" />
+<p style="text-align:center;">"Navigate to" interaction</p>
 
-<img class="responsive-img" src="../images/view-code-Indigo-Design-App-Builder.gif" />
-<p style="text-align:center;">View code in the Preview mode</p>
+## Open/Close interaction
+The Open/Close interaction targets only overlay components, such as Dialog. This means that in order to use it, initially a triggering component, e.g. a button and then an overlay componenent, e.g. a Dialog, have to be added in the design area. Using the button and dialog example, next step is to select the button, go to Interactions panel and select Open/Close interaction. Once the trigger and the overlay are available, the Open/Close interaction is unlocked and the user can pick the Dialog to be opened upon selection of the button. 
 
-The code view allows you to see the HTML, CSS and TS separately. And this saves time by sparing you the effort to write markup and CSS to create something that's pixel perfect. The generated code makes use of real developer components, in this case, Ignite UI for Angular, so you can be assured that there is comprehensive developer documentation to back it up.
-Moreover, you are skipping the hand-off where developers have to inspect the visual assets to extract visual specifications which usually requires a lot of communication between designers and developers and includes multiple rounds of polishing one design.
+<img class="responsive-img" src="../images/open-close-interaction.gif" />
+<p style="text-align:center;">"Open/Close" interaction</p>
+
+Note that once a Dialog component is added, an overlay notification will be appear next to the name of the active view in the design area. By clicking on the the overlay, just pick up one of the available overlays and it will be actived. Then, it can be edited according to your application scenario. 
 
 
-<img class="responsive-img" src="../images/preview-files-indigo-design-app-builder.gif" />
-<p style="text-align:center;">View HTML, CSS, Typescript files in the Preview mode</p>
+## Show/Hide 
+"Show/Hide" is an interaction that can be applied to a component to show and hide another component visibility in the same view. Similiar to the other interactions, first has to be selected a component that triggers the interacton, then the targeted component (the one that shows and hides). Picking up the targeted component can be done upon selecting the target icon (next to the active interaction). This will change your mouse cursor to a target icon and then you are expected to click on the component that will show and hide. Once a target component is selected, the cursor goes back to regular. If you want to cancel targeting a component, simply click ESC. Note that targeting is enabled only when the cursor is over components on which the interaction can be applied and this interaction cannot be applied on a layout component or a whole view. In order to check the applied interaction, you can go and test it in Preview mode.
 
-## Run the app 
-To finally develop the app, you don't need to copy paste code. Instead use the generate app button in the toolbar. This quickly creates a package with your Angular application that can be downloaded. To run this app, open up the folder in an IDE like visual studio code. 
+<img class="responsive-img" src="../images/show-hide-interaction.gif" />
+<p style="text-align:center;">"Show/Hide" interaction</p>
 
-•	Make sure you have Node.js installed. <br>
-•	Then in the console, type `npm install` to install the dependencies. It takes a while to install this, but we don't control this part. <br>
-•	Once that is done, type `npm start` to compile and launch the app.<br>
- 
-<img class="responsive-img" src="../images/App-VSCode-Indigo-Design-App-Builder.png" srcset="../images/App-VSCode-Indigo-Design-App-Builder @2x.png 2x" />
-<p style="text-align:center;">An application run in VScode</p>
 
-With the ability to create your designs visually using professional grade components in the editor, and then being able to generate an Angular app you can freely extend in your IDE offers you the best of both worlds. In the end, you are guaranteed that what you designed is exactly how it looks when the app is built. Don't forget to share your feedback using the feedback button. We look forward to hearing about your experience and also about what features are valuable to you as we move forwards to our next release milestone in the coming months. 
+Note that we are constantly updating the Indigo.Design App Builder with new interactions, but also improving the user experience of the existing ones. If you have question or suggestions for improvement, do not hesitate to contact our product support.
 
+
+## Additional Resources
+
+<div class="divider--half"></div>
+
+* [Single Page Apps and Navigation](single-page-apps-and-navigation.md)
+* [Angular Routing](https://angular.io/start/start-routing)

@@ -23,7 +23,8 @@ The Indigo Design App Builder Data feature enables users to add an external data
 <p style="text-align:center;">Adding data source by uploading a file</p>
 
 ## Selecting data fields and changing fields type
-Once an external data source is added, users can select which data fields to be included and visualized the data source toolbox. After adding a data source, each field comes with a recommended by Indigo Design App Builder data type - string, number, date or boolean. However, users may override this recommendation and choose another data type. 
+When a data source has been added, users can connect a particular data field to a component section. In order for this to be done, first select the component (a card component is used in the example below), then change Repeat mode to Data and scroll down the menu to locate and select the table from the Data Source that you want to connect to. Finally, connect the card section with the selected table field.
+
 
 <img class="responsive-img" src="../images/dataSources-select-fields.gif" />
 <p style="text-align:center;">Selecting data fields</p>
