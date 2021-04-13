@@ -6,6 +6,17 @@ _keywords: App builder, Indigo Design, Infragistics
 
 # Getting started with Indigo Design App Builder
 
+> [!NOTE]
+><b>Indigo Design App Builder as a member of the Indigo.Design family can be accessed from the Indigo.Design home screen. From here, users can start a new app, preview or edit already created one. Once users are in the tool, they can easily switch between their other app projects, edit and preview it, or code generate the its code.
+
+
+
+### In this article:
+* <a href="#launch">Launch App Builder from Indigo.Design</a>
+* <a href="#Getting-the-code">Getting the code</a>
+* <a href="#Running-the-app-locally">Interaction: Open/Close</a>
+
+
 <section class="feature__container">
     <div class="feature">
         <div class="feature__image">
