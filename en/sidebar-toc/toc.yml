@@ -74,6 +74,9 @@
   #     href: ../appbuilder/preview-code-and-genrate-app/preview-code.md
   #   - name: Compile and Run the app
   #     href: ../appbuilder/preview-code-and-genrate-app/compile-and-run-the-app.md
+- name: Change Log
+  href: ../appbuilder/change-log.md
+  new: true
 
 - name: Using the Design System
   header: true
