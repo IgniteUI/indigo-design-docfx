@@ -5,7 +5,7 @@ _keywords: App builder, Indigo Design, Infragistics, Data Sources, Data Binding
 ---
 
 # Data Feature overview 
-The Indigo Design App Builder Data features lets users add, edit and use external data source in the application they are developing. By default, the Indigo Design App Builder comes with a mock Northwind data source which users can use for reference. Currently, a Rest API data source types can be added, enabling users to upload a JSON file or provide a URL with the Data Source. All added data sources are placed in the Data Toolbox and users can expand/collapse each data source in order to see the included tables and selected fields.
+The Indigo Design App Builder Data features lets users add, edit and use external data source in the application they are developing. By default, the Indigo Design App Builder comes with a mock Northwind data source which users can use for reference. Currently, a Rest API data source types can be added, enabling users to upload a JSON file or provide a URL with the data source. All added data sources are placed in the data toolbox and users can expand/collapse each data source in order to see the included tables and selected fields.
 
 <img class="responsive-img" src="../images/DataSources-View-data-source.gif" />
 <p style="text-align:center;">Adding data source from a URL</p>
