@@ -29,7 +29,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 * Show/Hide - "Show/Hide" is an interaction that can be applied to a component to show and hide another component visibility in the same view.
 
 ### Using Data in the App Builder
-* Data sources -  enables users to use <b>Rest API</b> as a data source, so they can upload a JSON file or provide a URL with the data source. The added data source can be used also in the repeaters to connect components to actual data source fields.
+* Data sources -  enables users to upload their own JSON file or provide a Rest API URL with the data source. The added data source can be used also in the repeaters to connect components to actual data source fields.
 
 ### Code Generation
 * General improvements and bug fixes
