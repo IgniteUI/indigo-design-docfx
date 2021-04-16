@@ -1,11 +1,11 @@
 ---
-title: Indigo Design App Builder Software overview
+title: Using data in the Indigo Design App Builder
 _description: Indigo Design App Builder enables users to add external data sources and bind them to the applications designed within Indigo Design App Builder
 _keywords: App builder, Indigo Design, Infragistics, Data Sources, Data Binding
 ---
 
 # Data Feature overview 
-The Indigo Design App Builder Data features lets users add, edit and use external data source in the application they are developing. By default, the Indigo Design App Builder comes with a mock Northwind data source which users can use for reference. Apart from it, the data source types that can be added are JSON (Rest API), Excel or CSV files. All added data sources are placed in the Data Toolbox and users can expand/collapse each data source in order to see the included tables and selected fields.
+The Indigo Design App Builder Data features lets users add, edit and use external data source in the application they are developing. By default, the Indigo Design App Builder comes with a mock Northwind data source which users can use for reference. Currently, a JSON type data sources can be added, enabling users to upload their own JSON file or provide a Rest API URL with the data source. All added data sources are placed in the data toolbox and users can expand/collapse each data source in order to see the included tables and selected fields.
 
 <img class="responsive-img" src="../images/DataSources-View-data-source.gif" />
 <p style="text-align:center;">Adding data source from a URL</p>
@@ -23,7 +23,8 @@ The Indigo Design App Builder Data feature enables users to add an external data
 <p style="text-align:center;">Adding data source by uploading a file</p>
 
 ## Selecting data fields and changing fields type
-Once an external data source is added, users can select which data fields to be included and visualized the data source toolbox. After adding a data source, each field comes with a recommended by Indigo Design App Builder data type - string, number, date or boolean. However, users may override this recommendation and choose another data type. 
+When a data source has been added, users can connect a particular data field to a component section. In order for this to be done, first select the component (a card component is used in the example below), then change Repeat mode to Data and scroll down the menu to locate and select the table from the Data Source that you want to connect to. Finally, connect the card section with the selected table field.
+
 
 <img class="responsive-img" src="../images/dataSources-select-fields.gif" />
 <p style="text-align:center;">Selecting data fields</p>

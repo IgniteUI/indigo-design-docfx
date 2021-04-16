@@ -35,6 +35,15 @@
   #   - name: Configuring components
   #     href: ../appbuilder/indigo-design-components/configuring-components.md
   
+- name: Interactions
+  href: ../appbuilder/interactions.md
+  new: true
+  # items:
+  #   - name: Quick add components
+  #     href: ../appbuilder/indigo-design-components/quick-add-components.md
+  #   - name: Configuring components
+  #     href: ../appbuilder/indigo-design-components/configuring-components.md
+
 - name: Using data in your app
   href: ../appbuilder/using-data-in-your-app.md
   new: true
@@ -65,6 +74,9 @@
   #     href: ../appbuilder/preview-code-and-genrate-app/preview-code.md
   #   - name: Compile and Run the app
   #     href: ../appbuilder/preview-code-and-genrate-app/compile-and-run-the-app.md
+- name: Change Log
+  href: ../appbuilder/change-log.md
+  new: true
 
 - name: Using the Design System
   header: true
