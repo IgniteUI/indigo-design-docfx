@@ -26,6 +26,7 @@ Indigo Design App Builder のデータ機能を使用して、JSON (Rest API)、
 ## データ フィールドの選択とフィールド タイプの変更
 When a data source has been added, users can connect a particular data field to a component section. In order for this to be done, first select the component (a card component is used in the example below), then change Repeat mode to Data and scroll down the menu to locate and select the table from the Data Source that you want to connect to. Finally, connect the card section with the selected table field.
 
+
 <img class="responsive-img" src="../images/dataSources-select-fields.gif" />
 <p style="text-align:center;">データ フィールドを選択する</p>
 
@@ -33,7 +34,7 @@ When a data source has been added, users can connect a particular data field to 
 <p style="text-align:center;">データ ソース テーブルのフィールド タイプを変更する</p>
 
 ## データ ソースを繰り返しコンポーネントに接続する
-データ ソースが追加されると、ユーザーは特定のデータ フィールドをコンポーネント セクションに接続できます。これを行うには、最初にコンポーネント (以下の例ではカード コンポーネントを使用)を選択し、Repeat モードを Data に変更してメニューをスクロールダウンし、接続するデータ ソースからテーブルを見つけて選択します。最後に、カード セクションを選択したテーブル フィールドに接続します。
+データ ソースが追加されると、ユーザーは特定のデータ フィールドをコンポーネント セクションに接続できます。これを行うには、最初にコンポーネント (以下の例では Card コンポーネントを使用) を選択し、[繰り返し] の [モード] を [Data] に変更してメニューをスクロールダウンし、接続するデータ ソースからテーブルを見つけて選択します。最後に、Card セクションを選択したテーブル フィールドに接続します。
 
 <img class="responsive-img" src="../images/DataSources-Connect-data-source-table-fields.gif" />
 <p style="text-align:center;">データ ソース テーブルのフィールドをコンポーネント セクションに接続する</p>
