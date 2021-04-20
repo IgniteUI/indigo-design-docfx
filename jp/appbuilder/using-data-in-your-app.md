@@ -1,12 +1,12 @@
 ---
-title: Indigo Design App Builder ソフトウェアの概要
+title: Using data in the Indigo Design App Builder
 _description: Indigo Design App Builder を使用して、外部データ ソースを追加し、Indigo Design App Builder で設計されたアプリケーションにバインドできます。
 _keywords: App builder, Indigo Design, インフラジスティックス, データ ソース, データ バインディング
 _language: ja
 ---
 
 # データ機能の概要
-Indigo Design App Builder のデータ機能を使用して、開発中のアプリケーションで外部データソースを追加、編集、使用できます。デフォルトで、Indigo Design App Builder には、ユーザーが参照に使用できる Northwind データ ソースが含まれています。それ以外に、追加できるデータ ソース タイプは JSON (REST API)、Excel、または CSV ファイルです。追加されたすべてのデータ ソースは Data Toolbox に配置され、ユーザーは各データ ソースを展開/縮小して、含まれているテーブルおよび選択したフィールドを表示できます。
+Indigo Design App Builder のデータ機能を使用して、開発中のアプリケーションで外部データソースを追加、編集、使用できます。デフォルトで、Indigo Design App Builder には、ユーザーが参照に使用できる Northwind データ ソースが含まれています。Currently, a JSON type data sources can be added, enabling users to upload their own JSON file or provide a Rest API URL with the data source. All added data sources are placed in the data toolbox and users can expand/collapse each data source in order to see the included tables and selected fields.
 
 <img class="responsive-img" src="../images/DataSources-View-data-source.gif" />
 <p style="text-align:center;">URL からデータ ソースを追加する</p>
@@ -24,7 +24,7 @@ Indigo Design App Builder のデータ機能を使用して、JSON (Rest API)、
 <p style="text-align:center;">ファイルをアップロードしてデータ ソースを追加する</p>
 
 ## データ フィールドの選択とフィールド タイプの変更
-外部データ ソースが追加されると、ユーザーは含まれるデータ フィールドを選択し、データ ソース ツールボックスを可視化できます。データ ソースを追加した後、各フィールドには Indigo Design App Builder で推奨されるデータ型 (文字列、数値、日付、またはブール値) が設定されます。ただし、ユーザーはこの推奨事項をオーバーライドし、別のデータ型を選択できます。
+When a data source has been added, users can connect a particular data field to a component section. In order for this to be done, first select the component (a card component is used in the example below), then change Repeat mode to Data and scroll down the menu to locate and select the table from the Data Source that you want to connect to. Finally, connect the card section with the selected table field.
 
 <img class="responsive-img" src="../images/dataSources-select-fields.gif" />
 <p style="text-align:center;">データ フィールドを選択する</p>
