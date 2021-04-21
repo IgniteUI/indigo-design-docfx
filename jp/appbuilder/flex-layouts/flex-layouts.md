@@ -29,7 +29,7 @@ Flex レイアウト コンテナには、ネストされた UI 要素の位置�
 <img class="responsive-img" src="../../images/row-column-layout-Indigo-Design-App-Builder.gif" />
 <p style="text-align:center;">レイアウト プロパティ</p>
 
-子要素のラベルをクリックすると、いつでも親 UI 要素を選択できます。これは、ネストされたレイアウト コンテナがある場合に役立ちます。一方、左下隅の [Outline] メニューから必要なコンポーネントを直接選択することもできます。 
+子要素のラベルをクリックすると、いつでも親 UI 要素を選択できます。これは、ネストされたレイアウト コンテナがある場合に役立ちます。一方、左下隅の [アウトライン] メニューから必要なコンポーネントを直接選択することもできます。 
 
 <img class="responsive-img" src="../../images/select-parent-Indigo-Design-App-Builder.gif" />
 <p style="text-align:center;">親コンポーネントを選択する</p>
