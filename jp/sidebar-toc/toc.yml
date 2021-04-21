@@ -35,7 +35,7 @@
   #   - name: Configuring components
   #     href: ../appbuilder/indigo-design-components/configuring-components.md
   
-- name: Interactions
+- name: インタラクション
   href: ../appbuilder/interactions.md
   new: true
   # items:
@@ -74,7 +74,7 @@
   #     href: ../appbuilder/preview-code-and-genrate-app/preview-code.md
   #   - name: Compile and Run the app
   #     href: ../appbuilder/preview-code-and-genrate-app/compile-and-run-the-app.md
-- name: Change Log
+- name: 変更ログ
   href: ../appbuilder/change-log.md
   new: true
 
