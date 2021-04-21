@@ -1,82 +1,82 @@
 ---
-title: Indigo Design App Builder - Change Log 
-_description: Indigo Design App Builder enables design and development teams to use various interactions when creating connections between screens and components in order to cover real application scenarios.
-_keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch UI kits, Interactions
+title: Indigo Design App Builder - 変更ログ 
+_description: Indigo Design App Builder を使用すると、実際のアプリケーション シナリオをカバーするために、画面とコンポーネント間の接続を作成する際にデザインおよび開発チームがさまざまなインタラクションを使用できます。
+_keywords: App Builder, Web App Builder, デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch から コードをエクスポート, Angular 用のデザイン キット, Sketch UI キット, インタラクション
+_language: ja
 ---
-# Indigo Design App Builder - Change Log 
+# Indigo Design App Builder - 変更ログ
 
 > [!NOTE]
-><b>Latest update was made on April 20th, 2020.
+><b>最新の更新は 2020 年 4 月 20 日に行われました。
 
-## Official Release
+## 公式リリース
 
-### General
-* Cloud integration and team collaboration - accessing the App Builder can be done through the <b>App tab in Indigo.Design cloud</b>, where users will find their active application projects. From there, users are enabled to start a new app or to preview, rename, archive or duplicate an existing one
-* Using <b>a Sketch file</b> as a starting point for a new application in the App Builder - now, users are enabled to start a new application from an existing <b>Sketch file</b> by uploading it in the App Builder. 
+### 全般
+* クラウド インテグレーションおよびチーム コラボレーション - App Builder へのアクセスは、ユーザーがアクティブなアプリケーション プロジェクトを見つける <b>Indigo.Design クラウドの [アプリ] タブ</b>から実行できます。そこから、ユーザーは新しいアプリを起動するか、既存のアプリをプレビュー、名前変更、アーカイブ、または複製できます。<b>Sketch ファイル</b>を App Builder の新しいアプリケーションの開始点として使用します。ユーザーは、App Builder でアップロードすることにより、既存の <b>Sketch ファイル</b>から新しいアプリケーションを開始できます。 
 
-### UI components
+### UI コンポーネント
 * Dialog
 * Combo
 * Tabs layout
 * Expansion panel
-* Date time editor (as an input type)
+* Date time editor (入力タイプ)
 * Button group
 * Text area
 * Hyperlink
 
-### Interactions
-* Open/Close - "Open/Close" interaction enables users create interactions using overlay components, such as <b>a dialog component</b>.
-* Show/Hide - "Show/Hide" is an interaction that can be applied to a component to show and hide another component visibility in the same view.
+### インタラクション
+* 開く/閉じる - 「開く/閉じる」インタラクションにより、<b>Dialog コンポーネント</b>などのオーバーレイ コンポーネントを使用してインタラクションを作成できます。
+* 表示/非表示 - 「表示/非表示」は、同じビューで別のコンポーネントの表示状態を表示または非表示にするためにコンポーネントに適用できるインタラクションです。
 
-### Using Data in the App Builder
-* Data sources -  enables users to upload their own JSON file or provide a Rest API URL with the data source. The added data source can be used also in the repeaters to connect components to actual data source fields.
+### App Builder でデータを使用する
+* データ ソース - ユーザーが独自の JSON ファイルをアップロードするか、データ ソースに Rest API URL を提供できます。追加されたデータ ソースは、コンポーネントを実際のデータ ソース フィールドに接続するためにリピーターでも使用できます。
 
-### Code Generation
-* General improvements and bug fixes
+### コードの生成
+* 全般的な改善とバグ修正
 
-## Public Release
+## 公開リリース
 
-### General
-* Option to set <b>min and max width and height</b> for layouts
-* More components and layouts size units - the newly added units are <b>auto min, auto max, px, rem, vh, vw, %</b>.
-* New layout position options - the newly added positioning options are <b>relative, absolute, fixed, sticky and overflow</b>, which can be applied to components and layouts.
-* Quick add shortcut for components through <b>Ctrl/Cmd + E</b>​
-* Error handling service​ improvements
-* Quick app preview on various devices​ - when previewing an app project, users can quickly preview it on various viewports through the device icons in the top bar.
-* Appearance and border options for components​
-* Initial concurrency version is implemented​
-* Sample apps library extended - the components in this release were used to enrich the existing sample apps.
+### 全般
+* レイアウトの<b>幅と高さの最小値と最大値</b>を設定するオプション
+* コンポーネントおよびレイアウト サイズ単位の追加 - 新しく追加された単位は、<b>auto min、auto max、px、rem、vh、vw、%</b> です。
+* 新しいレイアウト位置オプション - 新しく追加された配置オプションは <b>relative、absolute、fixed、sticky、overflow</b> で、コンポーネントおよびレイアウトに適用できます。
+* <b>Ctrl/Cmd + E</b> によるコンポーネントのクイック追加ショートカット
+* エラー処理サービスの改善
+* さまざまなデバイスでのアプリのクイック プレビュー - アプリ プロジェクトをプレビューする場合、ユーザーはトップ バーのデバイス アイコンを使用してさまざまなビューポートですばやくプレビューできます。
+* コンポーネントの外観と境界線のオプション
+* 最初の同時実行バージョンの実装
+* サンプル アプリ ライブラリの拡張 - このリリースのコンポーネントは、既存のサンプルアプリの機能強化に使用されました。
 
-### UI components
+### UI コンポーネント
 * Dropdown
 * Select
 * Chip
 * Navigation drawer
 * Navigation bar​
 
-### Using Data in the App Builder
-* Repeaters feature - enables users to connect a component to a data source field.
-* Binding to a mock data -  enables users to try the data binding and repeaters with data features using a mockup Northwind data.
+### App Builder でデータを使用する
+* リピーター機能 - コンポーネントをデータ ソース フィールドに接続できます。
+* モック データへのバインド - ユーザーは、モックアップの Northwind データを使用してデータ バインディングやリピーターを試すことができます。
 
-### Code Generation
-* General improvements and bug fixes
-
-
-## Private Release
-
-### General
-* Interactive flows - the interactive flows feature has been extended with master and child views routing.
-* Preset layouts - 4 predefined layouts for quick start of a new design have been added.
-* Library of sample apps - 3 predefined sample apps have been added which users can use as a starting point to speed up the design process or quickly learn how Indigo.Design App Builder works
-* General improvements and bug fixes
-* Visual improvements and user experience enhancement
-
-### Themeing Service
-* Theme presets - 6 predefined themes have been added for dark and light versions of <b>Material, Bootstrap and Fluent</b>.
-* Adding new custom themes feature - users are enabled to create custom themes aligned with the brand assets and design system of their company.
+### コードの生成
+* 全般的な改善とバグ修正
 
 
-### UI components
+## プライベート リリース
+
+### 全般
+* インタラクティブなフロー - インタラクティブなフロー機能が拡張され、マスターおよび子ビューのルーティングが可能になりました。
+* プリセット レイアウト - 新しいデザインをすばやく開始するための 4 つの定義済みレイアウトが追加されました。
+* サンプル アプリのライブラリ - 3 つの定義済みサンプル アプリが追加されました。デザイン プロセスをスピードアップし、Indigo.Design App Builder の仕組みをすばやく確認するための出発点として使用できます。
+* 全般的な改善とバグ修正
+* 視覚的な改善とユーザーエクスペリエンスの向上
+
+### テーマ サービス
+* テーマ プリセット - <b>Material、Bootstrap、Fluent</b> のダーク バージョンとライト バージョンに 6 つの定義済みテーマが追加されました。
+* 新しいカスタム テーマ機能の追加 - ユーザーは会社のブランド アセットおよびデザイン システムに合わせてカスタム テーマを作成できます。
+
+
+### UI コンポーネント
 * Absolute Layout 
 * Row Layout 
 * Column Layout 
@@ -99,15 +99,15 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 * Grid
 * Badge
 
-### Code Generation
-* General improvements and bug fixes
+### コードの生成
+* 全般的な改善とバグ修正
 
-## Additional Resources
+## その他のリソース
 
 <div class="divider--half"></div>
 
 
-* [Getting Started](getting-started.md)
-* [Indigo Design App Builder Components](indigo-design-app-builder-components.md)
-* [Interactions](interactions.md)
-* [Using data in the Indigo Design App Builder](using-data-in-your-app.md)
+* [作業の開始](getting-started.md)
+* [Indigo Design App Builder コンポーネント](indigo-design-app-builder-components.md)
+* [インタラクション](interactions.md)
+* [Indigo Design App Builder でデータを使用する](using-data-in-your-app.md)

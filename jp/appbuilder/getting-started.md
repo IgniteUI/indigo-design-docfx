@@ -8,14 +8,14 @@ _language: ja
 # Indigo Design App Builder を使用した作業の開始
 
 > [!NOTE]
-><b>Indigo Design App Builder as a member of the Indigo.Design family can be accessed from the Indigo.Design home screen. From here, users can start a new app, preview or edit already created one. Once users are in the tool, they can easily switch between their other app projects, edit and preview it, or code generate the its code.
+><b>Indigo.Design ファミリーのメンバーである Indigo Design App Builder は、Indigo.Design ホーム画面からアクセスできます。ここから、ユーザーは新しいアプリを起動し、作成済みのアプリをプレビューまたは編集できます。ユーザーはツールを使用して他のアプリ プロジェクトを簡単に切り替え、編集してプレビューしたり、コードでコードを生成したりできます。
 
 
 
-### In this article:
-* <a href="#launch">Launch App Builder from Indigo.Design</a>
-* <a href="#Getting-the-code">Getting the code</a>
-* <a href="#Running-the-app-locally">Interaction: Open/Close</a>
+### トピック コンテンツ:
+* <a href="#launch">Indigo.Design から App Builder を起動する</a>
+* <a href="#Getting-the-code">コードの取得</a>
+* <a href="#Running-the-app-locally">インタラクション: 開く/閉じる</a>
 
 
 <section class="feature__container">
@@ -28,10 +28,10 @@ _language: ja
     </div>
 </section>
 
-[Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) を初めて起動したときに表示されるのは、簡単なオンボーディング ツアーを提案するポップアップ ウィンドウです。次に表示されるのは、[New Project] の作成ダイアログです。事前に定義されたレイアウトの 1 つを使用するか、構築済みの入門アプリの 1 つを編集できます。入門アプリは、Indigo Design App Builder を使用して作成されたアプリケーションを探索するのに役立ち、独自のユーザー スペースでそれらを変更することもできます。また、独自のアプリを最初から作成しなくても、より大きなアプリケーション用に生成されたコードをプレビューするための優れたソースです。Indigo Design App Builder を初めて使用する場合は、Sample Apps オプションを開始点として使用することをお勧めします。これは、ツールのすばらしい機能を利用してアプリケーションの構築を開始するための最も簡単な方法です。  
+[Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) を初めて起動したときに表示されるのは、簡単なオンボーディング ツアーを提案するポップアップ ウィンドウです。次に表示されるのは、[新しいアプリ] の作成ダイアログです。事前に定義されたレイアウトの 1 つを使用するか、構築済みの入門アプリの 1 つを編集できます。入門アプリは、Indigo Design App Builder を使用して作成されたアプリケーションを探索するのに役立ち、独自のユーザー スペースでそれらを変更することもできます。また、独自のアプリを最初から作成しなくても、より大きなアプリケーション用に生成されたコードをプレビューするための優れたソースです。Indigo Design App Builder を初めて使用する場合は、サンプル アプリ オプションを開始点として使用することをお勧めします。これは、ツールのすばらしい機能を利用してアプリケーションの構築を開始するための最も簡単な方法です。  
 
 <img class="responsive-img" src="../images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="../images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
-<p style="text-align:center;">[New Project] ダイアログ</p>
+<p style="text-align:center;">[新しいアプリ] ダイアログ</p>
 
 
 ## コードの取得

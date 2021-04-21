@@ -1,65 +1,66 @@
 ---
-title: Indigo Design App Builder - Interactions 
-_description: Indigo Design App Builder enables design and development teams to use various interactions when creating connections between screens and components in order to cover real application scenarios.
-_keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch UI kits, Interactions
+title: Indigo Design App Builder - インタラクション 
+_description: Indigo Design App Builder を使用すると、実際のアプリケーション シナリオをカバーするために、画面とコンポーネント間の接続を作成する際にデザインおよび開発チームがさまざまなインタラクションを使用できます。
+_keywords: App Builder, Web App Builder, デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch から コードをエクスポート, Angular 用のデザイン キット, Sketch UI キット, インタラクション
+_language: ja
 ---
-# Interactions
+# インタラクション
 
 > [!NOTE]
-><b>The Interactions feature of the Indigo.Design App Builder enables users to define particular interactions between views and components, such as Navigate to another view, Show or Hide and Open or Close an app component.
+><b>Indigo.Design App Builder のインタラクション機能を使用して、ビューとコンポーネント間の特定のインタラクション (他のビューへの移動、アプリ コンポーネントの表示/非表示、開く/閉じるなど) を定義できます。
 
 
 
-### In this article:
-* <a href="#intro">Introduction of the feature</a>
-* <a href="#navigate-to">Interaction: Navigate to</a>
-* <a href="#openclose-interaction">Interaction: Open/Close</a>
-* <a href="#showhide">Interaction: Show/Hide</a>
-* <a href="#additional-resources">Additional Resources</a>
+### トピック コンテンツ:
+* <a href="#はじめに">機能の紹介</a>
+* <a href="#次へ移動">インタラクション: 次へ移動</a>
+* <a href="#開く閉じるインタラクション">インタラクション: 開く/閉じる</a>
+* <a href="#表示非表示 ">インタラクション: 表示/非表示</a>
+* <a href="#その他のリソース">その他のリソース</a>
 
 
 <section class="feature__container">
     <div class="feature">
         <div class="feature__image">
             <iframe width="800" height="450" src="https://www.youtube.com/embed/zxT-nIXKn7I" frameborder="0" allowfullscreen></iframe>
-            <p>Interaction feature introduction</p>
+            <p>インタラクション機能の紹介</p>
             <br>
         </div>
     </div>
 </section>
 
-## Intro
-Indigo.Design App Builder enables its users not only to design application layouts and screens, but also to define the application interaction design. Interactions can be set up between components and views or just between components. Through this feature particular application scenarios, such as showing and hiding a calendar component triggered upon click on a button component, can be established. This will help users build great UX flows according to the needs of their customers. All added interactions will be available not only in Preview mode, but also in the application code after generating it.
-In order to add an interaction, first select the component that will trigger the action, then go to the Property panel in the right side of the Indigo.Design App Builder interface and scroll down to the Interactions. Then, select the + icon button to create a new interaction. Upon this, a new interaction will be created below where first has to be picked up the interaction type, then the target component or view. No more than one interaction can be added to a component. Created interactions can be tested on Preview Mode, as well as deleted or edited from the Interactions panel. Check below detailed description about how to use each one of the interactions.
+## はじめに
+Indigo.Design App Builder を使用して、ユーザーはアプリケーションのレイアウトや画面をデザインできるだけでなく、アプリケーションのインタラクション デザインを定義できます。インタラクションは、コンポーネントとビュー間、またはコンポーネント間のみに設定できます。この機能により、ボタン コンポーネントのクリック時にトリガーされるカレンダー コンポーネントの表示や非表示など、特定のアプリケーション シナリオを確立できます。これにより、ユーザーはお客様のニーズに合わせて優れた UX フローを構築できます。追加されたすべてのインタラクションはプレビュー モードだけでなく、生成後のアプリケーション コードでも使用できます。
+インタラクションを追加するには、最初にアクションをトリガーするコンポーネントを選択し、次に Indigo.Design App Builder インターフェイスの右側のプロパティ パネルに移動してインタラクションまでスクロールします。次に、[+] アイコンボタンを選択して新しいインタラクションを作成します。これにより、以下で新しいインタラクションが作成されます。最初にインタラクション タイプを取得し、次にターゲット コンポーネントまたはビューを取得します。コンポーネントに追加できるインタラクションは 1 つのみです。作成したインタラクションはプレビュー モードでテストでき、インタラクション パネルで削除または編集できます。各インタラクションの使用方法については、以下の詳細な説明を参照してください。
 
-## Navigate to
-"Navigate to" is the most straight-forward and basic interaction which allows users to set up a connection from a component navigating to selected by the user child or master view. Simply pick up a component, create an interaction for it and pick up the destination view. Note that during design time, no visual changes will be introduced to the components or views with an interaction. 
+## 次へ移動
+「次へ移動」は、ユーザーの子またはマスター ビューによって選択されたコンポーネントへの接続を設定できる最も簡単で基本的なインタラクションです。コンポーネントを取得してインタラクションを作成し、宛先ビューを取得します。デザイン時は、インタラクションによってコンポーネントやビューに視覚的な変更は加えられません。 
 
 <img class="responsive-img" src="../images/navigate-to-interaction.gif" />
-<p style="text-align:center;">"Navigate to" interaction</p>
+<p style="text-align:center;">「次へ移動」インタラクション</p>
 
-## Open/Close interaction
-The Open/Close interaction targets only overlay components, such as Dialog. This means that in order to use it, initially a triggering component, e.g. a button and then an overlay component, e.g. a Dialog, have to be added in the design area. Using the button and dialog example, next step is to select the button, go to Interactions panel and select Open/Close interaction. Once the trigger and the overlay are available, the Open/Close interaction is unlocked and the user can pick the Dialog to be opened upon selection of the button. 
+## 開く/閉じるインタラクション
+開く/閉じるインタラクションは、Dialog などのオーバーレイ コンポーネントのみをターゲットにします。つまり、最初にトリガー コンポーネント (Button など) を追加し、次にオーバーレイ コンポーネント (Dialog など) をデザイン領域に追加する必要があります。ボタンとダイアログの例を使用して、次のステップはボタンを選択し、インタラクション パネルに移動してインタラクションを [開く/閉じる] を選択します。トリガーとオーバーレイが使用可能になると、開く/閉じるインタラクションのロックが解除され、ユーザーはボタンを選択して開くダイアログを選択できます。 
 
 <img class="responsive-img" src="../images/open-close-interaction.gif" />
-<p style="text-align:center;">"Open/Close" interaction</p>
+<p style="text-align:center;">「開く/閉じる」インタラクション</p>
 
-Note that once a Dialog component is added, an overlay notification will be appear next to the name of the active view in the design area. By clicking on the the overlay, just pick up one of the available overlays and it will be actived. Then, it can be edited according to your application scenario. 
+Dialog コンポーネントを追加すると、デザイン領域のアクティブなビューの名前の隣にオーバーレイ通知が表示されます。オーバーレイをクリックして、使用可能なオーバーレイの 1 つを選択するとアクティブになります。その後、アプリケーション シナリオに従って編集できます。 
 
 
-## Show/Hide 
-"Show/Hide" is an interaction that can be applied to a component to show and hide another component visibility in the same view. Similar to the other interactions, first has to be selected a component that triggers the interaction, then the targeted component (the one that shows and hides). Picking up the targeted component can be done upon selecting the target icon (next to the active interaction). This will change your mouse cursor to a target icon and then you are expected to click on the component that will show and hide. Once a target component is selected, the cursor goes back to regular. If you want to cancel targeting a component, simply click ESC. Note that targeting is enabled only when the cursor is over components on which the interaction can be applied and this interaction cannot be applied on a layout component or a whole view. In order to check the applied interaction, you can go and test it in Preview mode.
+## 表示／非表示 
+「表示/非表示」は、コンポーネントに適用できるインタラクションで、同じビューで別のコンポーネントの表示状態を表示または非表示にします。他のインタラクションと同様に、最初にインタラクションをトリガーするコンポーネントを選択し、次にターゲット コンポーネント (表示/非表示コンポーネント) を選択する必要があります。ターゲット アイコンの選択 (アクティブなインタラクションの隣) でターゲット コンポーネントを取得できます。これにより、マウス カーソルがターゲット アイコンに変わり、表示または非表示にするコンポーネントをクリックします。ターゲット コンポーネントが選択されると、カーソルは標準に戻ります。コンポーネントのターゲットをキャンセルするには、ESC をクリックします。インタラクションを適用できるコンポーネント上にカーソルがあり、このインタラクションをレイアウト コンポーネントまたはビュー全体に適用できない場合のみ、ターゲットが有効になります。適用したインタラクションを確認するには、プレビュー モードでテストします。
 
 <img class="responsive-img" src="../images/show-hide-interaction.gif" />
-<p style="text-align:center;">"Show/Hide" interaction</p>
+<p style="text-align:center;">「表示/非表示」インタラクション</p>
 
 
-Note that we are constantly updating the Indigo.Design App Builder with new interactions, but also improving the user experience of the existing ones. If you have question or suggestions for improvement, do not hesitate to contact our product support.
+Indigo.Design App Builder は常に新しいインタラクションで更新されますが、既存のインタラクションのユーザーエクスペリエンスも向上しています。改善のための質問や提案がある場合は、製品サポートまでお問い合わせください。
 
 
-## Additional Resources
+## その他のリソース
 
 <div class="divider--half"></div>
 
-* [Single Page Apps and Navigation](single-page-apps-and-navigation.md)
-* [Angular Routing](https://angular.io/start/start-routing)
+* [単一ページアプリとナビゲーション](single-page-apps-and-navigation.md)
+* [Angular ルーティング](https://angular.io/start/start-routing)
