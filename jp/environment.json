@@ -1,11 +1,14 @@
 {
     "development": {
-        "infragisticsBaseUrl": "https://jp.staging.infragistics.com"
+        "infragisticsBaseUrl": "https://jp.staging.infragistics.com",
+        "GTMContainerId": "GTM-WLXLBZD"
     },
     "staging": {
-        "infragisticsBaseUrl": "https://jp.staging.infragistics.com"
+        "infragisticsBaseUrl": "https://jp.staging.infragistics.com",
+        "GTMContainerId": "GTM-NCKNPN"
     },
     "production": {
-        "infragisticsBaseUrl": "https://jp.infragistics.com"
+        "infragisticsBaseUrl": "https://jp.infragistics.com",
+        "GTMContainerId": "GTM-T65CF7"
     }
 }
