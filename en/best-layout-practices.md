@@ -6,168 +6,66 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Layout Best Practices
 
-This topic provides design guidance regarding the positioning of Components in your app layouts and the setting of proper resizing rules to assure proper responsive app design. By sticking to the recommendations below you will be able to effortlessly generate an Angular app with the responsive behavior specified in Sketch.
+This topic provides design guidance regarding the positioning of Components in your app layouts and the setting of resizing rules that ensure good responsive app design. By sticking to the recommendations below, you will be able to generate an Angular app effortlessly with the responsive behavior specified in Sketch.
+
+
+## Layout
+This section provides guidance on how to group your elements in Sketch for best results.
+
+The code generation algorithm starts by creating the layout horizontally. It forms the rows first. If your design is column oriented, then you should take advantage of the groups in Sketch for better results. For the following design, there are six buttons and no groups:
+
+<img class="responsive-img" src="./images/layout-rows.png" />
+
+The generated app would have three rows, each of them containing two buttons.
+
+The designer can very easily organize this layout in two columns by applying groups in Sketch:
+
+<img class="responsive-img" src="./images/layout-columns.png" />
+
+The generated app from this design would contain a single row and two columns in it.
+
+In this way the designer may control the generated result using Sketch grouping. It is recommended to always group elements in Sketch. This produces not only cleaner and well-organized design, but also ensures bundling the elements that are meant to be together. Note that code generation may apply additional rows or columns for elements in a Sketch group. This is done to further improve the position of elements in flex-display containers.
+
+## Justification & Alignment
+In real world scenarios, an app designed with flex containers in mind uses `justify-content` and `align-items` to arrange its groups and elements. The generator does the same thing. It applies justification and alignment properties to the rows and columns. This determines the elements' placement in the space of those rows and columns. The generator takes into account several parameters like position, size and offset of elements to apply proper values for the `justify-content` and `align-items` CSS properties.
+
+Possible values for `justify-content` are `flex-start`, `flex-end`, `center`, `space-around`, `space-between`, `space-evenly`. Their usage is explained in the following diagram.
+
+<img class="responsive-img" src="./images/layout-justify-content.png" />
+
+To achieve the desired responsive alignment, the designer should strive to position the elements and form the groups in one of the following configurations.
+
+If there is a match, the generator applies the corresponding value. For some scenarios neither of the options match the layout. In this case, the generator splits the elements creating smaller groups. Then it executes the same logic for these smaller groups until each one gets the justification that best matches its layout.
+
+Possible values for `align-items` are `flex-start`, `flex-end`, `center`, `stretch`. Their usage is explained in the diagram below.
+
+<img class="responsive-img" src="./images/layout-align-items.png" />
+
+Similar rules apply for `align-items`. The design should be close to either of these configurations to achieve the best responsive alignment.
 
 > [!Note]
-> Inputs, Radio Buttons, Sliders, Checkboxes, Hyperlinks, Switches, Progress Bars, Toasts, Snackbars, Avatars, Dialogs, Icons, and Title and Paragraph Texts have a preset height that is controlled by the layout of the component or its font size in the case of text-based components. It is recommended to use the default height of each of these components and fix it in Sketch since it will work fine for the vast majority of scenarios.
+> For some groups there may be more than one suitable value. In such cases the generator applies the first that fits.
 
-<img class="responsive-img" src="images/one_fix_height.png" srcset="images/one_fix_height@2x.png 2x" />
+## Sizing
+Sketch allows setting fixed size to elements. The generator adheres to this setting when it determines whether an element should respond to size changes of parent containers or not.
 
-## Vertical Layouts
+<img class="responsive-img" src="./images/sketch_fixed_size.png" />
 
-This section provides design guidance for the vertical layout of Components and Patterns affecting how they will respond to changes of the height of a group or artboard in Sketch that they belong to.
+If the designer applies fixed size to an element, the size of the generated element or container is set in pixels.
 
-### Vertical Centering
+It is recommended to avoid setting fixed sizes, especially to groups. The generator stretches non-fixed size elements and applies percentage-based size to them.
 
-In order for a layout to always be in the vertical center of the group or artboard it belongs to, its Components and Patterns have to be grouped together in a new group with fixed height, which is positioned at equal distances from the top and bottom borders of the original group or artboard mentioned above. Also make sure that the new group is neither top, nor bottom pinned.
+There are cases in which fixed size is required. Some of the components in Indigo.Design UI kit also have fixed size, like the Avatar, for example. If you do not want for a certain element to stretch, apply fixed width or height to it. Nevertheless, keep in mind that fixed size groups may limit the responsiveness of the app.
 
-**As the group scales horizontally, so will the Inputs it contains. The containing group is vertically centered.**
+In addition, the elements receive `min-width` or `min-height` that is equal to the width and height in the design. This is to ensure a specific element does not get smaller than what the design specifies breaking the layout.
 
-<img class="responsive-img" src="images/group_vertical_center_do.png" srcset="images/group_vertical_center_do@2x.png 2x" />
+## Pinning
+The code generator tries to position all elements from the design in a flex layout but in certain cases they have to be on top of other elements or retain a certain position on the screen even when responding to viewport resizes. In order to position elements absolutely in a layout, designers can pin elements to edges of their container. To ensure an element is on top of another or is located at the right place, it should be pinned to right or bottom. This way it receives an absolute position and the appropriate margin from the pinned side.
 
-**Despite that in Sketch this scenario will behave as the one above, the lack of group around the two Inputs will not generate the expected results in Angular.**
-
-<img class="responsive-img" src="images/nogroup_vertical_center_dont.png" srcset="images/nogroup_vertical_center_dont@2x.png 2x" />
-
-If the width of the new group is also fixed and it happens to be positioned at equal distances from the left and right borders of the original group or artboard, the new group will also be centered horizontally.
-
-**The group always preserves its dimensions and is centered vertically and horizontally.**
-
-<img class="responsive-img" src="images/group_center_do.png" srcset="images/group_center_do@2x.png 2x" />
-
-### Pinning Elements Top
-
-In order for a Component or Pattern to always keep its top margin in relation to the group or artboard it belongs to, it should be pinned top through the resizing properties. This pinning will kick in even in scenarios, where the element is positioned at equal distances from the top and bottom borders of the group or artboard it belongs to.
-
-**The Input will always preserve its top margin of 40px.**
-
-<img class="responsive-img" src="images/one_vertical_pintop_do.png" srcset="images/one_vertical_pintop_do@2x.png 2x" />
-
-**In Sketch the lack of pinning to the top will result in a varying top margin when the height of the parent group changes.**
-
-<img class="responsive-img" src="images/one_vertical_pintop_dont.png" srcset="images/one_vertical_pintop_dont@2x.png 2x" />
-
-When it comes to layouts of multiple elements, in order for them to keep the top margin in relation to the group or artboard, as well as the margins that space them away from one another on the vertical axis, each element should be pinned top through the resizing properties.
-
-**The Inputs will always preserve their top margin as well as the margins in between them along the vertical axis.**
-
-<img class="responsive-img" src="images/one_vertical_pintop_do.png" srcset="images/one_vertical_pintop_do@2x.png 2x" />
-
-**In Sketch the lack of pinning to the top will result in a varying top margin and margins between the individual inputs when the height of the parent group changes.**
-
-<img class="responsive-img" src="images/one_vertical_pintop_dont.png" srcset="images/one_vertical_pintop_dont@2x.png 2x" />
-
-When such layouts of multiple elements are placed in a group, apply the top pinning rule to both the group and its contents.
-
-**The group will always preserve its top margin and the Inputs will keep the margins between themselves along the vertical axis.**
-
-<img class="responsive-img" src="images/many_vertical_pintop_group_do.png" srcset="images/many_vertical_pintop_group_do@2x.png 2x" />
-
-## Horizontal Layout
-
-This section provides design guidance for the horizontal layout of Components and Patterns affecting how they will respond to changes of the width of a group or artboard in Sketch that they belong to.
-
-### Flexible Width
-
-In order for a Component or Pattern to scale to the full width of the group or artboard it belongs to, make sure that its left and right side match with the group or artboard left and right side.
-
-**The Input will scale with the change of width in its parent. Since the left and right sides match with those of the group or artboard it belongs to, pinning both left and right will result in the same responsive behavior as when none of the sides are pinned.**
-
-<img class="responsive-img" src="images/one_horizontal_nofix_do1.png" srcset="images/one_horizontal_nofix_do1@2x.png 2x" />
-
-**The Input will keep a left and right margin and scale correctly when its parent width changes. However, it will be better to put the Input in a group, so that it has proper flexible width behavior and set the left and right margins on the group instead.**
-
-<img class="responsive-img" src="images/one_horizontal_nofix_caution.png" srcset="images/one_horizontal_nofix_caution@2x.png 2x" />
-
-**The Input will keep a left margin and proportionally scale when its parent width changes, resulting in bizzare responsive behaviors.**
-
-<img class="responsive-img" src="images/one_horizontal_nofix_dont1.png" srcset="images/one_horizontal_nofix_dont1@2x.png 2x" />
-
-**The Input will proportionally scale and move left and right when its parent width changes, resulting in bizzare responsive behaviors.**
-
-<img class="responsive-img" src="images/one_horizontal_nofix_dont2.png" srcset="images/one_horizontal_nofix_dont2@2x.png 2x" />
-
-### Fixed Width
-
-In order for a Component or Pattern to keep its width, make sure that it has a fixed width and is pinned either to the left or right side of the group or artboard it belongs to. In most scenarios though, our advice is to use the flexible widths explained above for elements that appear alone on a layout row, unless these elements come with a fixed width by default as a component e.g. Avatar, Circular Progress Bar, Icon and Toast.
-
-**The Input will always preserve its left margin have a fixed width that will not change in resposive scenarios.**
-
-<img class="responsive-img" src="images/one_horizontal_fixed_caution1.png" srcset="images/one_horizontal_fixed_caution1@2x.png 2x" />
-
-**The Input will always preserve its right margin have a fixed width that will not change in resposive scenarios.**
-
-<img class="responsive-img" src="images/one_horizontal_fixed_caution2.png" srcset="images/one_horizontal_fixed_caution2@2x.png 2x" />
-
-**The Input will always preserve its width but the lack of pinning either left or right will result in bizzare responsive behaviors.**
-
-<img class="responsive-img" src="images/one_horizontal_fixed_dont.png" srcset="images/one_horizontal_fixed_dont@2x.png 2x" />
-
-### Horizontal Layouts with Two Elements
-
-In order for each element to properly adjust its size in two-element horizontal layouts, it should be either pinned left (if appears on the left in the layout), or right (if appears on the right in the layout) and the two elements should be placed in a group. This group should be pinned both left and right to the group or artboard in Sketch where it belongs.
-
-**The left Input is pinned left and the right one is pinned right. The group they are put into is pinned both left and right.**
-
-<img class="responsive-img" src="images/two_horizontal_nofix_do.png" srcset="images/two_horizontal_nofix_do@2x.png 2x" />
-
-In order for one element to properly adjust its size and the other to keep its width in two-element horizontal layouts, the first one should be pinned both left and right, the second one should be pinned left (if appears on the left in the layout), or right (if appears on the right in the layout) and the two elements should be placed in a group. This group should be pinned both left and right to the group or artboard in Sketch where it belongs.
-
-**The left Input is pinned both left and right, while the right one is only pinned right and its width is fixed. The group they are put into is pinned both left and right.**
-
-<img class="responsive-img" src="images/two_horizontal_onefix_do.png" srcset="images/two_horizontal_onefix_do@2x.png 2x" />
-
-In order for each element to keep its width in two-element horizontal layouts, it should be either pinned left (if appears on the left in the layout), or right (if appears on the right in the layout) and the two elements should be placed in a group with fixed width.
-
-**The left Input is pinned left and the right one is pinned right. None of the widths need to be fixed except for the width of the group they are put into.**
-
-<img class="responsive-img" src="images/two_horizontal_fix_do.png" srcset="images/two_horizontal_fix_do@2x.png 2x" />
+You should try to avoid overlapping elements and groups in Sketch for better responsive apps.
 
 > [!Note]
-> Proportionally changing the width of elements in a responsive layout is possible, as long as the elements are placed in a group and neither their individual widths are fixed, nor that of the group.
-
-**The left Input is pinned left and the right one is pinned right but none of the widths are fixed. Both elements will scale proportionally, but so will the margin between them in Sketch. However, the generated code respects the margin and sets it to the value at the time of export, scaling proportionally only the actual elements when the group they belong to changes its width.**
-
-<img class="responsive-img" src="images/two_horizontal_proportion.png" srcset="images/two_horizontal_proportion@2x.png 2x" />
-
-### Horizontal Layouts With More Elements
-
-In order to assure the proper behavior of a layout with more elements in responsive scenarios group its elements as necessary and apply the rules defined so far on the elements and groups that constitute the layout.
-
-**The left Input has a fixed height and is pinned left, while the right one has a fixed height and is pinned right. Both are placed in a group. The Button and Hyperlink are both with their widths and heights fixed and also put in a separate group.**
-
-<img class="responsive-img" src="images/many_horizontal_nofix_do1.png" srcset="images/many_horizontal_nofix_do1@2x.png 2x" />
-
-**The Inputs group has a fixed height and is pinned left and right, while the other group has both the width and height fixed and is pinned right. These two groups are put in another group that brings the whole layout together, which is pinned left and right and has a fixed height. Thus when the form needs to change width, the Inputs Group and the Input elements inside will resize correctly to account for more or less available space, while the Button and Link Group will always keep its size and size of its elements, making sure they always occupy the same space on the right end of the form.**
-
-<img class="responsive-img" src="images/many_horizontal_nofix_do2.png" srcset="images/many_horizontal_nofix_do2@2x.png 2x" />
-
-Alternatively, one may want to have a form with fixed width that is always centered in relation to the group or artboard it belongs to.
-
-**Both Inputs, as well as the Button and the Hyperlink, have fixed widths and heights and are also put in a common group that has a fixed width and height and is positioned equally far from the sides of its parent both vertically and horizontally. All elements will preserve their dimensions under a responsive scenario and the form as a whole will be centered both ways.**
-
-<img class="responsive-img" src="images/many_horizontal_fix_do.png" srcset="images/many_horizontal_fix_do@2x.png 2x" />
-
-### Default Horizontal Layouts With More Elements
-
-When a Component or Pattern is positioned the distance to the left and top borders of the group or artboard it belongs to should be respected, therefore make sure to pin it left and top.
-
-**Each of the elements is pinned left and top which will generate code that renders it so that the left and top margins are respected in relation to the parent. The widths and heights of each element have been fixed as well in order to make sure that they don't resize if the parent does.**
-
-<img class="responsive-img" src="images/many_horizontal_nofix_do2.png" srcset="images/many_horizontal_nofix_do2@2x.png 2x" />
-
-## All Margins
-
-In order for a layout to keep its margins on all sides related to the group or artboard it belongs to, its Components and Patterns have to be grouped together in a new group pinned on all four possible sides.
-
-**The group will always preserve its left, right, top and bottom margins of 16px each and change its size accordingly. The content inside the group will adapt according to the rules specified for each element, in this case the Inputs will preserve their height, top margin of 0px and margins in between along the vertical axis.**
-
-<img class="responsive-img" src="images/all_margins.png" srcset="images/all_margins@2x.png 2x" />
-
-> [!Note]
-> Specific components, usually navigation elements such as Bottom Navigation, Navbar, Navigation Drawer and others, have three of their sides pinned and a width or height fixed along the direction of the unpinned side, according to the Components desired location in the app layout.
-
-<img class="responsive-img" src="images/all_margins_nav.png" srcset="images/all_margins_nav@2x.png 2x" />
+> Opposite pins (left and right/top and bottom) are discarded and not taken into account. The code generator assumes the element should be stretched instead of receiving an absolute position.
 
 ## Additional Resources
 

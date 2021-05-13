@@ -34,9 +34,9 @@ Moreover, you are skipping the hand-off where developers have to inspect the vis
 ## Run the app 
 To finally develop the app, you don't need to copy paste code. Instead use the generate app button in the toolbar. This quickly creates a package with your Angular application that can be downloaded. To run this app, open up the folder in an IDE like visual studio code. 
 
-•	Make sure you have Node.js installed. <br>
-•	Then in the console, type `npm install` to install the dependencies. It takes a while to install this, but we don't control this part. <br>
-•	Once that is done, type `npm start` to compile and launch the app.<br>
+* Make sure you have Node.js installed. <br>
+* Then in the console, type `npm install` to install the dependencies. It takes a while to install this, but we don't control this part. <br>
+* Once that is done, type `npm start` to compile and launch the app.<br>
  
 <img class="responsive-img" src="../images/App-VSCode-Indigo-Design-App-Builder.png" srcset="../images/App-VSCode-Indigo-Design-App-Builder @2x.png 2x" />
 <p style="text-align:center;">An application run in VScode</p>
