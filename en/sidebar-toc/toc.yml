@@ -74,6 +74,10 @@
   #     href: ../appbuilder/preview-code-and-genrate-app/preview-code.md
   #   - name: Compile and Run the app
   #     href: ../appbuilder/preview-code-and-genrate-app/compile-and-run-the-app.md
+- name: Upload Application to Github
+  href: ../appbuilder/upload-application-to-github.md
+  new: true
+  
 - name: Change Log
   href: ../appbuilder/change-log.md
   new: true
