@@ -18,7 +18,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
     </div>
 </section>
 
-Previewing generated code and downloading your work as an Angular app is the final step after designing one application. The design and development user story will be completed once the application is generated with all styiling and layout properties. Currently, Indigo.Design App Builder offers options to upload all your application files to a Github repository or download them as a package and then run it locally. 
+Previewing generated code and downloading your work as an Angular app is the final step after designing one application. The design and development user story will be completed once the application is generated with all styling and layout properties. Currently, Indigo.Design App Builder offers options to upload all your application files to a GitHub repository or download them as a package and then run it locally. 
 
 ## Additional Resources
 
