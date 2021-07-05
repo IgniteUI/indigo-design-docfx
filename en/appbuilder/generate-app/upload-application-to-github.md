@@ -23,7 +23,7 @@ After finalizing the design of your application and previewing its code, it come
 <img class="responsive-img" src="../../images/connect-to-github.png" srcset="../../images/connect-to-github-@2x.png 2x" />
 <p style="text-align:center;">Connect Indigo.Design App Builder to GitHub</p>
 
-Once you log in with your Github account, you should authorize Indigo.Design to access it and pick up the repository where the app code will be stored. There, you can select between adding to a new repository or to existing one, specifying the name of the app, adding description and choosing between public or private repo. Once ready, the app files are being uploaded to Github, creating a new Github repository.
+Once you log in with your GitHub account, you should authorize Indigo.Design to access it in order to pick up the repository where the app code will be stored. There, you can select between creating a new repository or adding to an existing one. When creating a new repository you can specify the name of the app, add description and choose between public or private repo. Once ready, the app files are being uploaded to GitHub, creating a new GitHub repository.
 
 <img class="responsive-img" src="../../images/pick-repository-publish-to-github.png" srcset="../../images/pick-repository-publish-to-github-@2x.png 2x" />
 <p style="text-align:center;">Publish application to an existing repo in Github</p>
