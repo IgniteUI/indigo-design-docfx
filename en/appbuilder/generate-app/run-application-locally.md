@@ -21,7 +21,7 @@ To finally develop the app, you don't need to copy paste code. Instead use the g
  
  
 <img class="responsive-img" src="../../images/App-VSCode-Indigo-Design-App-Builder.png" srcset="../../images/App-VSCode-Indigo-Design-App-Builder @2x.png 2x" />
-<p style="text-align:center;">An application run in VScode</p>
+<p style="text-align:center;">An application running in VSCode</p>
 
 With the ability to create your designs visually using professional grade components in the editor, and then being able to generate an Angular app you can freely extend in your IDE offers you the best of both worlds. In the end, you are guaranteed that what you designed is exactly how it looks when the app is built. Don't forget to share your feedback using the feedback button. We look forward to hearing about your experience and also about what features are valuable to you as we move forwards to our next release milestone in the coming months. 
 
