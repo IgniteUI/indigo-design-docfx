@@ -1,7 +1,7 @@
 ---
 title: Indigo Design App Builder - Upload Application to Github
 _description: Indigo Design App Builder enables users to choose between downloading their application locally or uploading it to their Github repository.
-_keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch UI kits, Github
+_keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch UI kits, GitHub
 ---
 # Run Application Locally
 
