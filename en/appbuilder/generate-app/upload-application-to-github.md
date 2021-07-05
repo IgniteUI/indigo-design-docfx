@@ -29,7 +29,7 @@ Once you log in with your GitHub account, you should authorize Indigo.Design to 
 <p style="text-align:center;">Publish application to an existing repo in Github</p>
 
 <img class="responsive-img" src="../../images/create-new-repo-publish-to-github.png" srcset="../../images/create-new-repo-publish-to-github-@2x.png 2x" />
-<p style="text-align:center;">Create a new repository to Github</p>
+<p style="text-align:center;">Create a new repository to GitHub</p>
 
 When the upload process is done, users can apply changes to the GitHub repo from inside the App Builder or click to "View it on GitHub" and open the browser to check the updated files in GitHub.
 
