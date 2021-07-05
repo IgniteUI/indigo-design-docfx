@@ -24,6 +24,6 @@ Previewing generated code and downloading your work as an Angular app is the fin
 
 <div class="divider--half"></div>
 
-* [Upload Application to Github](upload-application-to-github.md)
+* [Upload Application to GitHub](upload-application-to-github.md)
 * [Run Application Locally](run-application-locally.md)
 * [Preview Application Code](../../appbuilder/preview-code.md)
