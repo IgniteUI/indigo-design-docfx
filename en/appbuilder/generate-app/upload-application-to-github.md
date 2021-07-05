@@ -34,7 +34,7 @@ Once you log in with your Github account, you should authorize Indigo.Design to 
 When the uploading process is done, users can change the Github repo from inside the App Builder or click to "View it on GitHub" and open the browser to check the updated files in Github.
 
 <img class="responsive-img" src="../../images/view-application-publish-to-github.png" srcset="../../images/view-application-publish-to-github-@2x.png 2x" />
-<p style="text-align:center;">An application run in VScode</p>
+<p style="text-align:center;">An application running in VSCode</p>
 
 ## Additional Resources
 
