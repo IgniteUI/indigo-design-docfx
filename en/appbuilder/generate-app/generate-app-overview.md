@@ -6,7 +6,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # Generate App
 
 > [!NOTE]
-><b>The applications, designed in Indigo.Design App Builder can be downloaded or directly uploaded to a Github repository. 
+><b>The applications, designed in Indigo.Design App Builder can be downloaded or directly uploaded to a GitHub repository. 
 
 <section class="feature__container">
     <div class="feature">
