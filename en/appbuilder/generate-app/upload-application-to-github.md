@@ -11,7 +11,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 ### In this article:
 * <a href="#intro">Introduction of the feature</a>
-* <a href="#uploading-an-application-to-github">Uploading an application to Github</a>
+* <a href="#uploading-an-application-to-github">Uploading an application to GitHub</a>
 
 ## Intro
 One of the great Indigo.Design App Builder features is actually the code generation service, so once the app design is ready and the code reviewed, users can get the final application code. However, what makes the experience even greater is the fact that the app code can be easily uploaded to a GitHub repository directly from inside the App Builder. GitHub is a favorite tool for thousands of developers, so this App Builder feature allows users to benefit from all GitHub features, such as assigning reviewers, tracking changes, commenting and many more. By delivering this feature, the Indigo.Design product team adds one more piece to the full design-to-code collaborative story, but also integrates the App Builder platform with a well-known service that engineers are already used to. 
