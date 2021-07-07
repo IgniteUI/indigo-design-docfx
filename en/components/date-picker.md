@@ -38,7 +38,7 @@ The start of the week can also be chosen as an option at the time of inserting a
 
 The Date Picker has the same built-in support for Week Numbers like the Calendar. If you prefer not to show this part of the UI, simply set the Week Numbers override to ~No Symbol.
 
-<img class="responsive-img" src="../images/datepicker_weeknum.png" srcset="../images/datepicker_weeknum@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_weeknumbers.png" srcset="../images/datepicker_weeknumbers@2x.png 2x" />
 
 ## Selection
 
