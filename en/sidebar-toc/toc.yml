@@ -129,6 +129,9 @@
           href: ../components/spline-chart.md
         - name: Step Line Chart
           href: ../components/step-line-chart.md
+        - name: Skeleton Charts
+          href: ../components/skeleton-charts.md
+          new: true
     - name: Gauges
       items:
         - name: Bullet Graph
@@ -137,12 +140,6 @@
           href: ../components/linear-gauge.md
         - name: Radial Gauge
           href: ../components/radial-gauge.md
-    - name: Checkbox
-      href: ../components/checkbox.md
-    - name: Chip and Chips Area
-      href: ../components/chips.md
-    - name: Combo
-      href: ../components/combo.md
     - name: Checkbox
       href: ../components/checkbox.md
     - name: Chip and Chips Area
