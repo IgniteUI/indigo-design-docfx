@@ -16,7 +16,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 To finally develop the app, you don't need to copy and paste code. Instead, use the generate app button in the toolbar. This quickly creates a package with your Angular application that can be downloaded. To run this app, open up the folder in an IDE like Visual Studio Code. 
 
 * Make sure you have Node.js installed. <br>
-* Then in the console, type `npm install` to install the dependencies. It takes a while to install this, but we don't control this part. <br>
+* Then in the console, type `npm install` to install the dependencies. It may take a while to install all the necessary packages. <be>
 * Once that is done, type `npm start` to compile and launch the app.<br>
  
  
