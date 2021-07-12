@@ -13,7 +13,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 * <a href="#Run-the-app-locally">Run the app locally</a>
 
 ### Run the app locally
-To finally develop the app, you don't need to copy paste code. Instead use the generate app button in the toolbar. This quickly creates a package with your Angular application that can be downloaded. To run this app, open up the folder in an IDE like visual studio code. 
+To finally develop the app, you don't need to copy and paste code. Instead, use the generate app button in the toolbar. This quickly creates a package with your Angular application that can be downloaded. To run this app, open up the folder in an IDE like Visual Studio Code. 
 
 * Make sure you have Node.js installed. <br>
 * Then in the console, type `npm install` to install the dependencies. It takes a while to install this, but we don't control this part. <br>
