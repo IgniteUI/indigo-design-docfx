@@ -6,7 +6,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # Run Application Locally
 
 > [!NOTE]
-><b>The application files can be downloaded as a package and then run in your favourite IDE.
+><b>The application files can be downloaded as a package and then run in your preferred IDE.
 
 
 ### In this article:
