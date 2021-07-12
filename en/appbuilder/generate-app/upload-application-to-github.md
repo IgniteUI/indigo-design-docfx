@@ -6,7 +6,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # Upload Application To Github
 
 > [!NOTE]
-><b>Once ready with you design in Indigo.Design App Builder you can upload it to your private or Github repository. 
+><b>Once ready with your design in Indigo.Design App Builder you can upload it to your private or GitHub repository. 
 
 
 ### In this article:
