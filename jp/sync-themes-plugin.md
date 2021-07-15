@@ -17,7 +17,7 @@ Indigo.Design プラグインは、ヘッダーの`作用の開始`ボタンを�
 
 
 <img class="responsive-img" src="../images/indigo-design-resources.gif" />
-<p style="text-align:center;">Indigo.Design resources</p>
+<p style="text-align:center;">Indigo.Design リソース</p>
 
 ## 2. テーマ
 

@@ -1,16 +1,16 @@
 ---
-title: Indigo Design App Builder - Preview Code and Generate App
-_description: Indigo Design App Builder is a design to code solution, enabling design and development teams to quickly and easily design and build real web applications.
-_keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch UI kits
+title: Indigo Design App Builder - コードをプレビューしてアプリを生成する
+_description:  Indigo Design App Builder は、デザインからコードまでのソリューションであり、設計および開発チームが実際の Web アプリケーションを迅速かつ簡単に設計および構築できるようにします。
+_keywords: App Builder, Web App Builder, デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch から コードをエクスポート, Angular 用のデザイン キット, Sketch UI キット
 _language: ja
 ---
-# Preview Code
+# コードをプレビューする
 
 <section class="feature__container">
     <div class="feature">
         <div class="feature__image">
             <iframe width="800" height="450" src="https://www.youtube.com/embed/zxT-nIXKn7I" frameborder="0" allowfullscreen></iframe>
-            <p>Preview and Generate App Code</p>
+            <p>コードをプレビューしてアプリを生成する</p>
             <br>
         </div>
     </div>
@@ -18,7 +18,7 @@ _language: ja
 
 Previewing generated code and downloading your work as an Angular app is the final step after designing one application. The design and development user story will be completed once the application is generated with all styiling and layout properties.
 
-## Preview Code 
+## コードをプレビューする 
 
 The preview mode allows you to interact with your design as-if it's a running app. For instance, you can resize the viewport to see how the positioning for components behave. But the real value it offers to developers is to preview the app code that is about to be generated. To see this, you can toggle the code-view ON and see it side-by-side with the design. It's in read-only mode, but  will help you review the quality of code produced. 
 
@@ -37,4 +37,4 @@ Moreover, you are skipping the hand-off where developers have to inspect the vis
 
 <div class="divider--half"></div>
 
-* [Generate App](generate-app.md)
+* [アプリを生成する](generate-app.md)
