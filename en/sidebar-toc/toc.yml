@@ -16,7 +16,6 @@
   new: true
 - name: Flex Layouts
   href: ../appbuilder/flex-layouts/flex-layouts.md
-  new: true
   # items:
   #   - name: Row and column layout
   #     href: ../appbuilder/flex-layouts/row-and-column-layout.md
@@ -28,7 +27,6 @@
   #     href: ../appbuilder/flex-layouts/additional-resources-to-learn-about-web-layouts.md
 - name: UI Components
   href: ../appbuilder/indigo-design-app-builder-components.md
-  new: true
   # items:
   #   - name: Quick add components
   #     href: ../appbuilder/indigo-design-components/quick-add-components.md
@@ -37,7 +35,6 @@
   
 - name: Interactions
   href: ../appbuilder/interactions.md
-  new: true
   # items:
   #   - name: Quick add components
   #     href: ../appbuilder/indigo-design-components/quick-add-components.md
@@ -46,11 +43,9 @@
 
 - name: Using data in your app
   href: ../appbuilder/using-data-in-your-app.md
-  new: true
 
 - name: App Themes
   href: ../appbuilder/app-themes/app-themes.md
-  new: true
   # items:
   #   - name: Switching app themes
   #     href: ../appbuilder/app-themes/switching-app-themes.md
@@ -60,7 +55,6 @@
   #     href: ../appbuilder/app-themes/customize-and-apply-theme.md
 - name: Single Page Apps and Navigation
   href: ../appbuilder/single-page-apps-and-navigation.md
-  new: true
   # items:
   #   - name: Master view vs. Child views
   #     href: ../appbuilder/spa-and-navigation/master-view-vs-child-views.md
@@ -68,7 +62,6 @@
   #     href: ../appbuilder/spa-and-navigation/add-navigations-routing.md
 - name: Preview Code
   href: ../appbuilder/preview-code.md
-  new: true
   # items:
   #   - name: Preview code
   #     href: ../appbuilder/preview-code-and-genrate-app/preview-code.md
