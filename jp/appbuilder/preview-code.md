@@ -16,21 +16,21 @@ _language: ja
     </div>
 </section>
 
-Previewing generated code and downloading your work as an Angular app is the final step after designing one application. The design and development user story will be completed once the application is generated with all styiling and layout properties.
+生成されたコードをプレビューし、Angular アプリとして作業をダウンロードすることは、1 つのアプリケーションをデザインした後の最後のステップです。すべてのスタイリングおよびレイアウト プロパティを使用してアプリケーションが生成されると、デザインおよび開発のユーザー ストーリーが完成します。
 
 ## コードをプレビューする 
 
-The preview mode allows you to interact with your design as-if it's a running app. For instance, you can resize the viewport to see how the positioning for components behave. But the real value it offers to developers is to preview the app code that is about to be generated. To see this, you can toggle the code-view ON and see it side-by-side with the design. It's in read-only mode, but  will help you review the quality of code produced. 
+プレビュー モードでは、実行中のアプリであるかのようにデザインを操作できます。たとえば、ビューポートのサイズを変更して、コンポーネントの配置がどのように動作するかを確認できます。しかし、開発者に提供する真の価値は、生成されようとしているアプリ コードをプレビューすることです。これを確認するには、コード ビューをオンに切り替えて、デザインと並べて表示します。読み取り専用モードですが、生成されたコードの品質を確認するのに役立ちます。 
 
 <img class="responsive-img" src="../images/view-code-Indigo-Design-App-Builder.gif" />
-<p style="text-align:center;">View code in the Preview mode</p>
+<p style="text-align:center;">プレビュー モードでコードを表示する</p>
 
-The code view allows you to see the HTML, CSS and TS separately. And this saves time by sparing you the effort to write markup and CSS to create something that's pixel perfect. The generated code makes use of real developer components, in this case, Ignite UI for Angular, so you can be assured that there is comprehensive developer documentation to back it up.
-Moreover, you are skipping the hand-off where developers have to inspect the visual assets to extract visual specifications which usually requires a lot of communication between designers and developers and includes multiple rounds of polishing one design.
+コード ビューでは、HTML、CSS、および TS を個別に表示できます。また、これにより、マークアップと CSS を記述してピクセル パーフェクトなものを作成する手間が省けるため、時間を節約できます。生成されたコードは、実際の開発者コンポーネント (この場合は Ignite UI for Angular) を使用するため、バックアップするための包括的な開発者向けドキュメントがあることを確認できます。
+さらに、開発者がビジュアル資産を検査してビジュアル仕様を抽出する必要があるハンドオフをスキップしています。これには通常、デザイナーと開発者の間で多くのコミュニケーションが必要であり、1 つのデザインを複数回研磨する必要があります。
 
 
 <img class="responsive-img" src="../images/preview-files-indigo-design-app-builder.gif" />
-<p style="text-align:center;">View HTML, CSS, Typescript files in the Preview mode</p>
+<p style="text-align:center;">プレビュー モードで HTML、CSS、Typescript ファイルを表示する</p>
 
 
 ## その他のリソース
