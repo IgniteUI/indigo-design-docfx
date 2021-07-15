@@ -1,10 +1,10 @@
 ---
-title: Indigo Design App Builder - Preview Code and Generate App
-_description: Indigo Design App Builder is a design to code solution, enabling design and development teams to quickly and easily design and build real web applications.
-_keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch UI kits
+title: Indigo Design App Builder - コードをプレビューしてアプリを生成する
+_description: Indigo Design App Builder は、デザインからコードまでのソリューションであり、設計および開発チームが実際の Web アプリケーションを迅速かつ簡単に設計および構築できるようにします。
+_keywords: App Builder, Web App Builder, デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch から コードをエクスポート, Angular 用のデザイン キット, Sketch UI キット
 _language: ja
 ---
-# Generate App
+# アプリを生成する
 
 > [!NOTE]
 ><b>The applications, designed in Indigo.Design App Builder can be downloaded or directly uploaded to a GitHub repository. 
@@ -13,7 +13,7 @@ _language: ja
     <div class="feature">
         <div class="feature__image">
             <iframe width="800" height="450" src="https://www.youtube.com/embed/zxT-nIXKn7I" frameborder="0" allowfullscreen></iframe>
-            <p>Preview and Generate App Code</p>
+            <p>コードのプレビューと生成について</p>
             <br>
         </div>
     </div>
@@ -21,7 +21,7 @@ _language: ja
 
 Previewing generated code and downloading your work as an Angular app is the final step after designing an application. The design and development user story will be completed once the application is generated with all styling and layout properties. Currently, Indigo.Design App Builder offers options to upload all your application files to a GitHub repository or download them as a package and then run it locally. 
 
-## Additional Resources
+## その他のリソース
 
 <div class="divider--half"></div>
 
