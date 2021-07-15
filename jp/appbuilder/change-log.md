@@ -7,8 +7,28 @@ _language: ja
 # Indigo Design App Builder - 変更ログ
 
 > [!NOTE]
-><b>最新の更新は 2020 年 4 月 20 日に行われました。
+><b>最新の更新は 2021 年 7 月 12 日に行われました。
+## 2021 年 7 月 12 日リリース
 
+### 機能
+* **GitHub の統合**: Publish your generated app to a GitHub repository instead of downloading as a ZIP
+* コンポーネント ツールボックスに 「Slider」 を追加しました。
+* コンポーネント ツールボックスに 「Banner」 を追加しました。
+* [新しいアプリの作成] ダイアログに参照として 2 つの新しいサンプル アプリを追加しました。
+* 韓国語翻訳を追加しました。
+
+### 機能改善
+* アプリをプレビューするときは、ツールバーのドロップダウンを使用して 「マスター ビュー」 と 「子ビュー」 を切り替える機能。
+* ドラッグアンドドロップを使用して、ドキュメントのアウトラインまたはデザイン サーフェスのコンポーネントを並べ替える機能。
+* ドラッグアンドドロップ機能を使用して、ツールボックスのビュー タブで「マスター ビュー」と「子ビュー」を並べ替える機能。
+* 「Radio」 コンポーネントを 「Radio Group」 に更新しました。
+* 「タブ ヘッダー」内のカスタム コンテンツを許可するように「タブ レイアウト」を更新しました。
+* Improved icons for "align-content" dropdown when wrapping is enabled in Flex layouts
+* アプリは、v11.1.15 ではなく Ignite UI Angular v12.0.1 を使用して生成されます。
+
+### メンテナンスの更新とバグ修正
+* Improved load times and performance tweaks when using the App Builder UI
+* 一般的なバグ修正
 ## 公式リリース
 
 ### 全般
