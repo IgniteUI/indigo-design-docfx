@@ -55,6 +55,9 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 
 上記の画像ではライブラリが Sketch クラウドに表示されており、バージョン 57 以降を実行している場合は Sketch でこの方法を代替手段として使用できます。設定するには Indigo.Design Sketch ファイルを開き、Sketch クラウドに保存します。Indigo.Design をクラウド ライブラリとして設定する方法についての詳細は、[この Medium 記事 (英語)](https://medium.com/ignite-ui/using-indigo-design-with-sketch-cloud-libraries-70533bca00f8) を参照してください。ライブラリが正しく追加されると、Sketch の **[Insert]** メニューの **[Symbols]** セクションに表示されます。
 
+> [!Note]
+> すでに Sketch で **Indigo.Design システム** を設定していて、新しいバージョンにアップグレードする場合は、Sketch 設定を開き、現在のライブラリを削除して、上記の手順に従って新しいライブラリをインストールします。[Indigo.Design プラグイン](sync-themes-plugin.md)を介してテーマとカスタマイズを再適用し、Sketch が自動的にリンクしない場合は、デザイン ファイルの一部のコンポーネントまたはオーバーライドを新しいライブラリのシンボルに手動でリンクする必要がある場合があることに注意してください。
+
 ### 2.アートボードの作成
 
 1.  Mac で Sketch アプリケーションで新しいファイルを作成します。
