@@ -37,7 +37,7 @@ When the upload process is done, users can apply changes to the GitHub repo from
 <img class="responsive-img" src="../../images/view-application-publish-to-github.png" srcset="../../images/view-application-publish-to-github-@2x.png 2x" />
 <p style="text-align:center;">An application running in VSCode</p>
 
-## Additional Resources
+## その他のリソース
 
 <div class="divider--half"></div>
 

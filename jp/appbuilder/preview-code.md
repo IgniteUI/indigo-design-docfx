@@ -33,7 +33,7 @@ Moreover, you are skipping the hand-off where developers have to inspect the vis
 <p style="text-align:center;">View HTML, CSS, Typescript files in the Preview mode</p>
 
 
-## Additional Resources
+## その他のリソース
 
 <div class="divider--half"></div>
 
