@@ -57,11 +57,11 @@ Indigo Design App Builder は、常にライブ実行中の Web アプリケー�
 
 
 <img class="responsive-img" src="../images/App-VSCode-Indigo-Design-App-Builder.png" srcset="../images/App-VSCode-Indigo-Design-App-Builder@2x.png 2x" />
-<p style="text-align:center;">生成されたアプリケーションのコードを Vscode で実行する</p>
+<p style="text-align:center;">生成されたアプリケーションのコードを VS Code で実行する</p>
 
 
 > [!NOTE]
-> アプリケーションのコードがダウンロードされると、ローカルで行われた変更は Indigo Design AppBuilder ユーザー スペースに反映されません。
+> アプリケーションのコードがダウンロードされると、ローカルで行われた変更は Indigo Design App Builder ユーザー スペースに反映されません。
 
 ## アプリをローカルで実行する
 
