@@ -18,7 +18,7 @@ _language: ja
 
 * Node.js がインストールされていることを確認してください。<br>
 * 次に、コンソールで `npm install` と入力して依存関係をインストールします。必要なすべてのパッケージをインストールするのに時間がかかる場合があります。<be>
-* それが完了したら、 `npm start` と入力して、アプリをコンパイルして起動します。<br>
+* それが完了したら、`npm start` と入力して、アプリをコンパイルして起動します。<br>
  
  
 <img class="responsive-img" src="../../images/App-VSCode-Indigo-Design-App-Builder.png" srcset="../../images/App-VSCode-Indigo-Design-App-Builder @2x.png 2x" />

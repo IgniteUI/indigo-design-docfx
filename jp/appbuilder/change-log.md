@@ -11,7 +11,7 @@ _language: ja
 ## 2021 年 7 月 12 日リリース
 
 ### 機能
-* **GitHub の統合**: Publish your generated app to a GitHub repository instead of downloading as a ZIP
+* **GitHub の統合**: 生成したアプリを ZIP ファイルとしてダウンロードする代わりに GitHub リポジトリに公開できます。
 * コンポーネント ツールボックスに 「Slider」 を追加しました。
 * コンポーネント ツールボックスに 「Banner」 を追加しました。
 * [新しいアプリの作成] ダイアログに参照として 2 つの新しいサンプル アプリを追加しました。
@@ -23,11 +23,11 @@ _language: ja
 * ドラッグアンドドロップ機能を使用して、ツールボックスのビュー タブで「マスター ビュー」と「子ビュー」を並べ替える機能。
 * 「Radio」 コンポーネントを 「Radio Group」 に更新しました。
 * 「タブ ヘッダー」内のカスタム コンテンツを許可するように「タブ レイアウト」を更新しました。
-* Improved icons for "align-content" dropdown when wrapping is enabled in Flex layouts
+* Flex レイアウトで折り返しが有効になっている場合の「align-content」ドロップダウンのアイコンを改善しました。
 * アプリは、v11.1.15 ではなく Ignite UI Angular v12.0.1 を使用して生成されます。
 
 ### メンテナンスの更新とバグ修正
-* Improved load times and performance tweaks when using the App Builder UI
+* 読み込み時間の改善と、App Builder UI を使用する際のパフォーマンスの調整。
 * 一般的なバグ修正
 ## 公式リリース
 

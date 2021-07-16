@@ -1,45 +1,45 @@
 ---
-title: Indigo Design App Builder - Upload Application to GitHub
-_description: Indigo Design App Builder enables users to choose between downloading their application locally or uploading it to their GitHub repository.
-_keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch UI kits, GitHub
+title: Indigo Design App Builder - アプリケーションを GitHub にアップロードする
+_description: Indigo Design App Builder を使用すると、アプリケーションをローカルにダウンロードするか、GitHub リポジトリにアップロードするかを選択できます。
+_keywords: App Builder, Web App Builder, デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch UI キット, GitHub
 _language: ja
 ---
-# Upload Application To Github
+# アプリケーションを Github にアップロードする
 
 > [!NOTE]
-><b>Once ready with your design in Indigo.Design App Builder you can upload it to your private or GitHub repository. 
+><b>Indigo.Design App Builder でデザインの準備ができたら、非公開または GitHub リポジトリにアップロードできます。 
 
 
-### In this article:
-* <a href="#intro">Introduction of the feature</a>
-* <a href="#uploading-an-application-to-github">Uploading an application to GitHub</a>
+### トピック コンテンツ:
+* <a href="#intro">はじめに</a>
+* <a href="#uploading-an-application-to-github">アプリケーションを Github にアップロードする</a>
 
-## Intro
-One of the great Indigo.Design App Builder features is actually the code generation service, so once the app design is ready and the code reviewed, users can get the final application code. However, what makes the experience even greater is the fact that the app code can be easily uploaded to a GitHub repository directly from inside the App Builder. GitHub is a favorite tool for thousands of developers, so this App Builder feature allows users to benefit from all GitHub features, such as assigning reviewers, tracking changes, commenting and many more. By delivering this feature, the Indigo.Design product team adds one more piece to the full design-to-code collaborative story, but also integrates the App Builder platform with a well-known service that engineers are already used to. 
+## はじめに
+Indigo.Design App Builder の優れた機能の 1 つに、コード生成サービスがあります。アプリ デザインを完成させ、コードをレビューすると、ユーザーは最終的なアプリケーションコードを取得できます。アプリ コードを App Builder 内から直接 GitHub リポジトリに簡単にアップロードできるため、エクスペリエンスがさらに向上します。GitHub は開発者に人気のあるツールで、App Builder 機能を使用すると、レビューアーの割り当て、変更の追跡、コメントなど、すべての GitHub 機能を利用できます。この機能を提供することにより、Indigo.Design 製品チームはデザインからコード作成へのコラボレーションのストーリーにさらに 1 つの要素を追加するだけでなく、App Builder プラットフォームを、エンジニアに馴染みのある有名なサービスと統合しました。 
 
-## Uploading an application to GitHub
-After finalizing the design of your application and previewing its code, it comes the time for generating the full app code repository. In order to do that, simply go to the Generate app button and then connect your GitHub account to the App Builder. You can also download your application files from the button menu.
+## アプリケーションを Github にアップロードする
+アプリケーションのデザインを完了し、そのコードをプレビューした後、完全なアプリ コード リポジトリを生成します。これを行うには、[アプリの生成] ボタンに移動し、GitHub アカウントを App Builder に接続します。ボタン メニューからアプリケーション ファイルをダウンロードすることもできます。
 
 
 <img class="responsive-img" src="../../images/connect-to-github.png" srcset="../../images/connect-to-github-@2x.png 2x" />
-<p style="text-align:center;">Connect Indigo.Design App Builder to GitHub</p>
+<p style="text-align:center;">Indigo.Design App Builder を GitHub に接続する</p>
 
-Once you log in with your GitHub account, you should authorize Indigo.Design to access it in order to pick up the repository where the app code will be stored. There, you can select between creating a new repository or adding to an existing one. When creating a new repository you can specify the name of the app, add description and choose between public or private repo. Once ready, the app files are being uploaded to GitHub, creating a new GitHub repository.
+GitHub アカウントでログインした後、Indigo.Design にアクセスしてアプリ コードが保存されるリポジトリを取得する必要があります。ここで、新しいリポジトリの作成または既存のリポジトリへの追加を選択できます。新しいリポジトリを作成する場合、アプリの名前を指定し、説明を追加して公開または非公開リポジトリを選択できます。準備ができたら、アプリのファイルを GitHub にアップロードし、新しい GitHub リポジトリを作成します。
 
 <img class="responsive-img" src="../../images/pick-repository-publish-to-github.png" srcset="../../images/pick-repository-publish-to-github-@2x.png 2x" />
-<p style="text-align:center;">Publish application to an existing repo in GitHub</p>
+<p style="text-align:center;">アプリケーションを GitHub の既存のリポジトリに公開する</p>
 
 <img class="responsive-img" src="../../images/create-new-repo-publish-to-github.png" srcset="../../images/create-new-repo-publish-to-github-@2x.png 2x" />
-<p style="text-align:center;">Create a new repository to GitHub</p>
+<p style="text-align:center;">GitHub に新しいリポジトリを作成する</p>
 
-When the upload process is done, users can apply changes to the GitHub repo from inside the App Builder or click to "View it on GitHub" and see the updated files in GitHub.
+アップロード プロセスが完了したら、ユーザーは App Builder 内から GitHub リポジトリに変更を適用するか、[GitHub で表示] をクリックして GitHub で更新されたファイルを表示できます。
 
 <img class="responsive-img" src="../../images/view-application-publish-to-github.png" srcset="../../images/view-application-publish-to-github-@2x.png 2x" />
-<p style="text-align:center;">An application running in VSCode</p>
+<p style="text-align:center;">VSCode で実行されるアプリケーション</p>
 
 ## その他のリソース
 
 <div class="divider--half"></div>
 
-* [Run Application Locally](run-application-locally.md)
-* [Preview Application Code](../../appbuilder/preview-code.md)
+* [アプリケーションをローカルで実行する](run-application-locally.md)
+* [アプリケーション コードをプレビューする](../../appbuilder/preview-code.md)

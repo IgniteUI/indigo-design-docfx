@@ -66,7 +66,7 @@
   #     href: ../appbuilder/spa-and-navigation/master-view-vs-child-views.md
   #   - name: Add navigations (routing)
   #     href: ../appbuilder/spa-and-navigation/add-navigations-routing.md
-- name: Preview Code
+- name: コードのプレビュー
   href: ../appbuilder/preview-code.md
   new: true
   # items:
@@ -74,13 +74,13 @@
   #     href: ../appbuilder/preview-code-and-genrate-app/preview-code.md
   #   - name: Compile and Run the app
   #     href: ../appbuilder/preview-code-and-genrate-app/compile-and-run-the-app.md
-- name: Generate App
+- name: アプリの生成
   href: ../appbuilder/generate-app/generate-app-overview.md
   new: true
   items:
-    - name: Upload application to Github
+    - name: アプリケーションを Github にアップロード
       href: ../appbuilder/generate-app/upload-application-to-github.md
-    - name: Run Application Locally
+    - name: アプリケーションをローカルで実行
       href: ../appbuilder/generate-app/run-application-locally.md
 
 - name: 変更ログ

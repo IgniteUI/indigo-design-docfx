@@ -8,7 +8,7 @@ _language: ja
 # Indigo Design App Builder を使用した作業の開始
 
 > [!NOTE]
-><b>Indigo Design App Builder can be launched from the App tab in your Indigo.Design home screen. From there, you will be able also to manage all of your active applications. Once, you finish editing an app in the App Builder, you can generate its code from the "Generate code" button and, then, run it locally.
+><b>Indigo Design App Builder は、Indigo.Design ホーム画面の [アプリ] タブから起動できます。そこから、すべてのアクティブなアプリケーションを管理することもできます。App Builder でアプリの編集が完了したら、[コードの生成] ボタンからコードを生成し、ローカルで実行します。
 
 
 ### トピック コンテンツ:
@@ -29,21 +29,21 @@ _language: ja
 
 
 ## Indigo.Design から App Builder を起動する
-Once you sign in Indigo.Design, you will land in the home screen and from here you can access each of the three core Indigo.Design products - Prototypes and Usability Tests, as well as the newest one - App Builder which can be found under the Apps tab. From the App Builder home screen in Indigo.Design, users can start a new app, preview or edit an existing one. Through the context menu, every existing app can also be renamed, duplicated or archived.  
+OIndigo.Design にサインインすると、ホーム画面が表示されます。ここから 3 つの主要な Indigo.Design 製品 (プロトタイプとユーザビリティ テスト)、および最新の App Builder ([アプリ] タブ) にアクセスできます。Indigo.Design の App Builder のホーム画面から、ユーザーは新しいアプリを起動し、既存のアプリをプレビューまたは編集できます。コンテキスト メニューを使用して、既存のアプリを名前変更、複製、またはアーカイブすることもできます。  
 
 <img class="responsive-img" src="../images/Indigo-Design-home-screen.gif" />
 <p style="text-align:center;">Indigo.Design ホーム画面</p>
 
-[Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) を初めて起動したときに表示されるのは、簡単なオンボーディング ツアーを提案するポップアップ ウィンドウです。次に表示されるのは、[New Project] の作成ダイアログです。 There are four ways to start a new app:
-1. <b>Create from existing design</b> - if you have an existing Sketch file, created using the Indigo.Design UI kit for Sketch, you can upload it at this point and continue your design in the App Builder, without the need to recreate everything from scratch. Note, that due to the differences between the absolute layout in Sketch and the Flex layout in the App Builder, some additional adjustments may be needed after parsing your Sketch file.
-2. <b>Sample apps</b> - the getting started apps will help you explore applications that have been created using the Indigo Design App Builder and also allow you to modify them in your own user space. また、独自のアプリを最初から作成しなくても、より大きなアプリケーション用に生成されたコードをプレビューするための優れたソースです。Indigo Design App Builder を初めて使用する場合は、[Sample Apps] オプションを開始点として使用することをお勧めします。これは、ツールのすばらしい機能を利用してアプリケーションの構築を開始するための最も簡単な方法です。
-3. <b>Defaul layouts</b> - start a new app from scratch, benefiting from a basic predefined layout.
-4. <b>Blank</b> - start a new app from scratch.
+[Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) を初めて起動したときに表示されるのは、簡単なオンボーディング ツアーを提案するポップアップ ウィンドウです。次に表示されるのは、[新しいプロジェクト] の作成ダイアログです。新しいアプリを開始する方法は 4 つあります:
+1. <b>既存のデザインから作成</b> - Sketch の Indigo.Design UI キットを使用して作成された既存の Sketch ファイルがある場合、この時点でアップロードして App Builder でデザインを続行できます。Sketch の絶対レイアウトと App Builder の Flex レイアウトの違いにより、Sketch ファイルの解析後に追加の調整が必要になる場合があります。
+2. <b>サンプル アプリ</b> - 入門アプリは、Indigo Design App Builder を使用して作成されたアプリケーションを探索するのに役立ち、独自のユーザー スペースでそれらを変更することもできます。また、独自のアプリを最初から作成しなくても、より大きなアプリケーション用に生成されたコードをプレビューするための優れたソースです。Indigo Design App Builder を初めて使用する場合は、[Sample Apps] オプションを開始点として使用することをお勧めします。これは、ツールのすばらしい機能を利用してアプリケーションの構築を開始するための最も簡単な方法です。
+3. <b>既定のレイアウト</b> - 定義済みの基本レイアウトを使用して新しいアプリケーションを作成します。
+4. <<b>Blank (空白)</b> - 新しいアプリを最初から作成します。
 
 <img class="responsive-img" src="../images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="../images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
 <p style="text-align:center;">[新しいプロジェクト] ダイアログ</p>
 
-Note, that once in the App Builder, users are enabled to easily switch between their active applications or go back to their workspace in Indigo.Design from the in-app side menu at design time without leaving the App Builder.
+注: App Builder にアクセスすると、デザイン時に App Builder を終了せずに、アプリ内のサイド メニューからアクティブなアプリケーションを簡単に切り替えたり、Indigo.Design のワークスペースに戻ることができます。
 
 <img class="responsive-img" src="../images/Indigo-Design-side-menu.png" srcset="../images/Indigo-Design-side-menu-@2x.png 2x" />
 <p style="text-align:center;">サイド メニュー</p>
