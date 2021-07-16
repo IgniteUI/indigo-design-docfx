@@ -1,35 +1,35 @@
 ---
-title: Indigo Design App Builder - Upload Application to GitHub
-_description: Indigo Design App Builder enables users to choose between downloading their application locally or uploading it to their GitHub repository.
+title: Indigo Design App Builder - アプリケーションを GitHub にアップロードする
+_description: Indigo Design App Builder を使用すると、ユーザーはアプリケーションをローカルにダウンロードするか、GitHub リポジトリにアップロードするかを選択できます。
 _keywords: App Builder, Web App Builder, デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch から コードをエクスポート, Angular 用のデザイン キット, Sketch UI キット
 _language: ja
 ---
-# Run Application Locally
+# アプリケーションをローカルで実行する
 
 > [!NOTE]
-><b>The application files can be downloaded as a package and then run in your preferred IDE.
+><b>アプリケーション ファイルはパッケージとしてダウンロードして、お好みの IDE で実行できます。
 
 
-### In this article:
-* <a href="#Run-the-app-locally">Run the app locally</a>
+### トピック コンテンツ:
+* <a href="#Run-the-app-locally">アプリをローカルで実行する</a>
 
-### Run the app locally
-To finally develop the app, you don't need to copy and paste code. Instead, use the generate app button in the toolbar. This quickly creates a package with your Angular application that can be downloaded. To run this app, open up the folder in an IDE like Visual Studio Code. 
+### アプリをローカルで実行する
+最終的にアプリを開発するために、コードをコピーしてを貼り付ける必要はありません。代わりに、ツールバーの [アプリの生成] ボタンを使用してください。これにより、ダウンロード可能な Angular アプリケーションを含むパッケージがすばやく作成されます。このアプリを実行するには、Visual Studio Code のような IDE でフォルダーを開きます。
 
-* Make sure you have Node.js installed. <br>
-* Then in the console, type `npm install` to install the dependencies. It may take a while to install all the necessary packages. <be>
-* Once that is done, type `npm start` to compile and launch the app.<br>
+* Node.js がインストールされていることを確認してください。<br>
+* 次に、コンソールで `npm install` と入力して依存関係をインストールします。必要なすべてのパッケージをインストールするのに時間がかかる場合があります。<be>
+* それが完了したら、 `npm start` と入力して、アプリをコンパイルして起動します。<br>
  
  
 <img class="responsive-img" src="../../images/App-VSCode-Indigo-Design-App-Builder.png" srcset="../../images/App-VSCode-Indigo-Design-App-Builder @2x.png 2x" />
-<p style="text-align:center;">An application running in VSCode</p>
+<p style="text-align:center;">VS Code で実行されるアプリケーション</p>
 
-The App Builder allows you to design your applications visually using professional grade Ignite UI components, and then you are able to generate the as Angular applications that you can continue developing in your IDE of choice. In the end, you are guaranteed that what you designed in the App Builder design surface looks exactly the same when the app is generated and built. Don't forget to share your feedback using the feedback button. We look forward to hearing about your experience and also about what features are valuable to you as we move forwards to our next release milestones. 
+App Builder を使用すると、プロ級の Ignite UI コンポーネントを使用してアプリケーションを視覚的にデザインできます。その後、選択した IDE で開発を継続できる Angular アプリケーションとしてコードを生成できます。最終的に、App Builder のデザイン画面でデザインしたものは、アプリが生成およびビルドされたときにまったく同じに見えることが保証されます。フィードバック ボタンを使用してフィードバックをお気軽にお知らせください。今後のリリース マイルストーンに向けて、お客様の経験と、お客様にとって価値のある機能についてお聞かせください。 
 
 
 ## その他のリソース
 
 <div class="divider--half"></div>
 
-* [Upload Application to Github](upload-application-to-github.md)
-* [Preview Application Code](../../appbuilder/preview-code.md)
+* [アプリケーションを GitHub にアップロードする](upload-application-to-github.md)
+* [アプリケーション コードのプレビュー](../../appbuilder/preview-code.md)
