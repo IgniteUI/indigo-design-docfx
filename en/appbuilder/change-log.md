@@ -6,9 +6,9 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # Indigo Design App Builder - Change Log 
 
 > [!NOTE]
-><b>Latest update was made on July 12th, 2021.
+><b>Latest update was made on July 14th, 2021.
 
-## July 12, 2021 Release
+## July, 2021 Release
 
 ### Features
 * **GitHub Integration**: Publish your generated app to a GitHub repository instead of downloading as a ZIP
