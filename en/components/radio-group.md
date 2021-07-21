@@ -15,7 +15,7 @@ Use the Radio Group Component to allow exclusive selection for one item in a gro
 ## Label Position
 
 In Sketch, the Radio Group supports label position variants where the Radio button label is placed after or before the Radio button element. 
-In Adobe XD, we are using stacks to allow you to change the label and radio position at design time, as well as to enable adding as many radio buttons as necessary to align perfectly in the group you want to establish.
+In Adobe XD, we are using Stacks to allow you to change the label and radio position at design time, as well as to enable adding as many radio buttons as necessary to align perfectly in the group you want to establish.
 
 <img class="responsive-img" src="../images/radiogroup_enabled_state.png" srcset="../images/radiogroup_enabled_state@2x.png 2x" />          
 <img class="responsive-img" src="../images/radiogroup_labels_before.png" srcset="../images/radiogroup_labels_before@2x.png 2x" />
