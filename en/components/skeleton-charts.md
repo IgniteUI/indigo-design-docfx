@@ -42,7 +42,7 @@ The Skeleton Line, Spline, and Step Charts come with the option to show area ins
 
 ## Usage
 
-When using Skeleton Charts in your design avoid assigning series colors other than grayscale ones. Also, don't mix the Skeleton Charts with elements from their databound counterparts.
+When using Skeleton Charts in your design avoid assigning series colors other than grayscale ones. Also, don't mix the Skeleton Charts with elements from their data-bound counterparts.
 
 | Do                                                                                                | Don't                                                                                                 |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
