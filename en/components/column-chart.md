@@ -1,6 +1,6 @@
 ---
 title: Column Chart - Design System Component
-_description: The Column Chart Component Symbol is used to quickly compare frequency, count, total, or average of data in different categories with data encoded by vertical bars with equal width and differing lengths..
+_description: The Column Chart Component Symbol is used to quickly compare frequency, count, total, or average of data in different categories with data encoded by vertical bars with equal width and differing lengths.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
@@ -65,6 +65,9 @@ Use the Column Chart when you want to show the amount of change over a period of
 Related topic:
 
 - [Line Chart](../line-chart.md)
+- [Spline Chart](spline-chart.md)
+- [Step Line Chart](step-line-chart.md)
+- [Skeleton Charts](../skeleton-charts.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
