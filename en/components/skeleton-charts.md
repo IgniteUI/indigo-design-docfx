@@ -34,7 +34,7 @@ Skeleton Charts come with a Legend which is also in Skeleton state since the amo
 
 ## Chart Type
 
-The Skeleton Line, Spline, and Step Charts come with the option to show area instead of a line, similarly to their databound counterparts.
+The Skeleton Line, Spline, and Step Charts come with the option to show area instead of a line, similarly to their data-bound counterparts.
 
 <img class="responsive-img" src="../images/skeleton_charts_linearea.png" srcset="../images/skeleton_charts_linearea@2x.png 2x" />
 <img class="responsive-img" src="../images/skeleton_charts_splinearea.png" srcset="../images/skeleton_charts_splinearea@2x.png 2x" />
@@ -42,7 +42,7 @@ The Skeleton Line, Spline, and Step Charts come with the option to show area ins
 
 ## Usage
 
-When using Skeleton Charts in your design avoid assigning series colors other than grayscale ones. Also, don't mix the Skeleton Charts with elements from their databound counterparts.
+When using Skeleton Charts in your design avoid assigning series colors other than grayscale ones. Also, don't mix the Skeleton Charts with elements from their data-bound counterparts.
 
 | Do                                                                                                | Don't                                                                                                 |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
