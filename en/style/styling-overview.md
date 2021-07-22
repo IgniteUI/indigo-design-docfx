@@ -6,7 +6,15 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Styling Overview
 
-The **Indigo.Design System** provides elaborate means for styling all 60+ UI components that also map to Ignite UI for Angular controls. The theming engine in our Angular product allows for the creation of custom color themes that can restyle the whole product in just a few lines of code in a similar fashion.
+The **Indigo.Design System** provides elaborate means for styling all 60+ UI components that also map to Ignite UI for Angular controls. The theming engine in our Angular product allows for the creation of custom color themes that can restyle the whole product in just a few lines of code in a similar fashion. The [**Indigo.Design App Builder**](../appbuilder/app-builder-overview.md) also implements these theming mechanisms to let users change the complete look of their apps with just a few clicks.
+
+<img class="responsive-img" src="../images/theme_overview_default.png" />
+
+<img class="responsive-img" src="../images/theme_overview_dark.png" />
+
+<img class="responsive-img" src="../images/theme_overview_vibrant.png" />
+
+## Styling in Sketch
 
 The Sketch library has a few pages prefixed with a 🎨 emoji that provide assets and a powerful styling infrastructure upon which the rest of the library is built:
 
@@ -16,13 +24,19 @@ The Sketch library has a few pages prefixed with a 🎨 emoji that provide asset
 - 🎨 Elevation
 - 🎨 Illustrations
 
-In Sketch, the colors and elevations exist as `Layer Styles`, while typography is defined as `Text Styles`, which allows you to quickly change the theme for any given design we have created with the **Indigo.Design System**.
+Тhe colors and elevations exist as `Layer Styles`, while typography is defined as `Text Styles`, which allows you to quickly change the theme for any given design we have created with the **Indigo.Design System**.
 
-<img class="responsive-img" src="../images/theme_overview_default.png" />
+## Styling in Adobe XD
 
-<img class="responsive-img" src="../images/theme_overview_dark.png" />
+The Adobe XD library has a few Artboards prefixed with a 🎨 emoji that showcase the powerful styling infrastructure upon which the rest of the library is built:
 
-<img class="responsive-img" src="../images/theme_overview_vibrant.png" />
+- 🎨 Material Icons
+- 🎨 Colors
+- 🎨 Typography
+- 🎨 Elevation
+- 🎨 Illustrations
+
+Тhe colors are defined as `Colors`, the typography is defined as `Character Styles`, while icons, elevation and illustrations exist as `Components`. This allows you to quickly change the theme for any given design we have created with the **Indigo.Design System**.
 
 To find more:
 
