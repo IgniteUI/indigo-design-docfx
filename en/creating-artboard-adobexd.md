@@ -9,7 +9,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Adobe XD, Ignite UI for An
 At the end of this topic you'll have an Adobe XD Artboard for a registration screen using the **Indigo.Design System**. If you use Sketch for design then jump to [this topic](creating-artboard-sketch.md).
 
 <div class="divider--half"></div>
-<img class="responsive-img" src="images/getting-started-XD7.png" srcset="images/getting-started-XD7@2x.png 2x" />
+<img class="responsive-img" src="images/getting-startedxd7.png" srcset="images/getting-startedxd7@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -22,51 +22,44 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
 
 ## Step by step
 
-### 1. Add the **Indigo.Design System** in Sketch.
+### 1. Add the **Indigo.Design System** in Adobe XD.
 
 1.  Download the [**Indigo.Design System**](https://cloud.indigo.design/home).
 
-    It contains a Sketch file with 26 Pages in the Pages section which are distinguished by three types of icons:
+    It contains an Adobe XD file with 63 Artboards organized in three columns:
 
-    - **🎨 ~** styling pages: all the styling assets such as Material Icons, Colors, Typography, Elevation, and Illustrations can be found in the five pages on top.
+    - To the left you will find 5 artboards, prefixed with a 🎨 emoji, related to styling. They contain assets such as icons, colors and color palettes, typographies, elevations, and illustrations.
 
-    - **🧩 Components**  page: a vast set of Components to layout your design ideas.
-      Through various presets available in the Sketch insert menu and overrides for states and layouts to configure in the right panel of the Sketch UI, you can create layouts compatible with Ignite UI for Angular and our code generation engine.
+    - In the middle you will find 39 artboards, prefixed with a 🧩 emoji, with more than 50 components to layout your design ideas. Through various presets available as **Components** in Adobe XD and overrides that you can drag and drop over layers in your canvas, e.g. to change the variant of a component from dark to light, you can create layouts compatible with Ignite UI for Angular. Furthermore, through the use of **Component States** and **Stacks** natively supported in Adobe XD you can add a sense of interaction and achieve the degree of templating also available in Ignite UI for Angular.
 
-    - **🌆 ~** patterns pages: the components shape up meaningful patterns for productive application design that can be found spread across the remaining pages.
+    - To the right you will find 19 artboards, prefixed with a 🌆 emoji, with a couple of hundred patterns laid out from the components to streamline yout app design process.
 
-2.  Open up the Sketch app on your Mac, click on the Sketch item from the Apple Menu, and select Preferences.
+2.  Upon toggling the Libraries panel you will notice that all the styles and components outlined above will appear as **Document Assets**.
 
-3.  In the dialog, select the **Libraries** tab and click the **Add Library...** button.
+<div class="divider--half"></div>
+<img class="responsive-img" src="images/Creating_An_Artboard_XD2.png" srcset="images/Creating_An_Artboard_XD2@2x.png 2x" />
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
 
-4.  Navigate to the folder where you have downloaded the library.
+If this is the first time you are using styles and components in Adobe XD, you can switch between **Libraries** and **Layers** from the icon menu at the bottom left of the application.
 
-5.  Select it and click **Open**.
+<img class="responsive-img" src="images/Creating_An_Artboard_XD1.png" srcset="images/Creating_An_Artboard_XD1@2x.png 2x" />
 
-6.  Make sure it shows up in the list in the **Preferences** dialog and that it is checked.
+3.  To the right of the **Document Assets** title you will notice an upload-like icon that takes you to the **Publish as a Library** dialog.
 
-  <div class="divider--half"></div>
-  <img class="responsive-img" src="images/Creating_An_Artboard_XD2.png" srcset="images/Creating_An_Artboard_XD2@2x.png" />
-  <div class="divider--half"></div>
-  <div class="divider--half"></div>
-  <div class="divider--half"></div>
-  <div class="divider--half"></div>
-  <div class="divider--half"></div>
+<img class="responsive-img" src="images/Creating_An_Artboard_XD3.png" srcset="images/Creating_An_Artboard_XD3@2x.png 2x" />
 
-You may have noticed that in the image above, the library also appears to be present in my Sketch cloud, and as an alternative, you can use this mechanism in Sketch if you are running version 57 or later. The set up is very easy, you only need to open the Indigo.Design Sketch file and save it in your Sketch cloud. A detailed explanation of how to set Indigo.Design as a cloud library can be found in [this Medium post](https://medium.com/ignite-ui/using-indigo-design-with-sketch-cloud-libraries-70533bca00f8). Once you added the library successfully, it will show up in the **Symbols** section of the **Insert** menu in Sketch.
-
-> [!Note]
-> If you already have the **Indigo.Design System** set up in Sketch and want upgrade to a newer version, open your Sketch preferences, delete the current library and install the new one following the steps above. Make sure to reapply any themes and customizations via the [Indigo.Design plugin](sync-themes-plugin.md) and note that you may have to link some components or overrides in your design files manually to the symbols in the new library if Sketch does not do that automatically for you.
+4.  Under **Current File** you will see Indigo.Design and all you need to do is click on the **Publish** button to the right. It takes a while for this process to complete for all the goodies we have prepared for you, but the wait will be totally worth it.
 
 ### 2. Create an artboard.
 
-1.  In the Sketch app on your Mac, create a new file.
-2.  Select the Artboard size.  
-    Press the `A` key and select the artboard size from the panel on the right.  
-    This example is for an iPhone 11 in portrait orientation (414x896). If you don't see this preset artboard, choose Apple Devices from the dropdown at the top of the panel.
+Open Adobe XD and select an iPhone 12 Pro Max. This will give you a new file with one Artboard in the middle in portrait orientation (428x926). Lastly, from the panel on the right you may want to turn on the **Responsive Resize** option that will show you how the Artboard contents behave if it gets resized.
 
   <div class="divider--half"></div>
-  <img class="responsive-img" src="images/getting-started-artboard.png" srcset="images/getting-started-artboard@2x.png" />
+  <img class="responsive-img" src="images/getting-started-xd-artboard.png" srcset="images/getting-started-xd-artboard@2x.png 2x" />
   <div class="divider--half"></div>
   <div class="divider--half"></div>
   <div class="divider--half"></div>
@@ -75,19 +68,20 @@ You may have noticed that in the image above, the library also appears to be pre
 
 ### 3. Add and customize components.
 
-We will use the **Insert** menu to add components from the Indigo Design Library, and then customize them using the panel on the right.
+We will use the **Libraries** panel to add components from the Indigo Design Library. For some of them we will set appropriate States from the panel on the right, and apply **Colors** and **Character Styles** from the **Libraries** panel to customize their appearance. Everytime you create a new file, you have to open the **Libraries** panel and click on the back icon next to **Document Assets** to be able to select Indigo.Design and use it as a library.
 
 These are the steps to recreate the screen in the example.
 
 1.  **Add the Navbar.**
 
-    1.  From the **Insert** menu, select Symbols / Indigo.Design / Navigation / Navbar / Elevated.
+    1.  Use the searchbox in the **Libraries** panel to find the Elevated variant of the Navbar.
     2.  Place it at the top of the artboard and stretch it to take up all the width available.
-    3.  In the Resizing section of the panel on the right, pin it to the top of the artboard and fix its height.
-    4.  In the Overrides section, set the Left Action to ~No Symbol, then set the Title to "Sign Up". After that set the 1 | Icon, 2 | Icon, and 3 | Icon to ~No Symbol.
+    3.  Now switch the left panel to show **Layers** and expand the component by clicking on the link icon to the left of its layer name.
+    4.  Under Left Group there is another group called Left Action which we will delete and we will do the same for 1 | Icon, 2 | Icon, and 3 | Icon under Right Group.
+    5.  Select the Title, hit enter and type in "Sign Up".
 
     <div class="divider--half"></div>
-    <img class="responsive-img" src="images/getting-started0.png" srcset="images/getting-started0@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-startedxd0.png" srcset="images/getting-startedxd0@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -95,10 +89,10 @@ These are the steps to recreate the screen in the example.
     <div class="divider--half"></div>
 
 2.  **Add the background color.**  
-     Press the `R` key and drag а rectangular shape, making sure it's sized accordingly to fill the available area below the Navbar and is also under it as a layer. With the rectangle selected, in the right panel under Appearance you will find a Layer Style dropdown. Open it and choose Indigo.Design / Color / Fill / primary.100.
+     Press the `R` key and drag а rectangular shape, making sure it's sized accordingly to fill the available area below the Navbar and is also under it as a layer. With the rectangle selected change the left panel to show **Libraries** and click the primary.100 color. You will notice that the default outline is still there so we need to untick the **Border** under **Appearance** in the panel on the right.
 
     <div class="divider--half"></div>
-    <img class="responsive-img" src="images/getting-started1.png" srcset="images/getting-started1@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-startedxd1.png" srcset="images/getting-startedxd1@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -107,12 +101,11 @@ These are the steps to recreate the screen in the example.
 
 3.  **Add the background for the form.**
 
-    1.  Press the `R` key again and drag а rectangular shape with size 280x378.
-    2.  Assign the following style to it Indigo.Design / Color / Fill / white.
-    3.  Position it in the center of the artboard.
+    1.  Press the `R` key again and drag а rectangular shape with size 280x385.
+    2.  Remove the border color like we did before and position it in the center of the artboard.
 
     <div class="divider--half"></div>
-    <img class="responsive-img" src="images/getting-started2.png" srcset="images/getting-started2@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-startedxd2.png" srcset="images/getting-startedxd2@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -122,11 +115,11 @@ These are the steps to recreate the screen in the example.
 4.  **Add the title of the form.**
 
     1.  Press the `T` key to add a text element on top of the white rectangle and type "Start Budgeting" in it.
-    2.  Assign the following typography style to it similarly to how a color was assigned to a rectangle above but under Appearance you will find a Text Style dropdown. Open it and choose Indigo.Design / H4 Headline / Center / Active.
+    2.  With the text layer selected scroll down in the **Libraries** panel to the **Character Styles** and click on Heading H4 - 34pt.
     3.  Place it at the top of the white rectangle, with 16px spacing on the top.
 
     <div class="divider--half"></div>
-    <img class="responsive-img" src="images/getting-started3.png" srcset="images/getting-started3@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-startedxd3.png" srcset="images/getting-startedxd3@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -135,18 +128,18 @@ These are the steps to recreate the screen in the example.
 
 5.  **Add the inputs for first and last name.**
 
-    1.  From the **Insert** menu, select Symbols / Indigo.Design / Input / Simple / Line / Enabled.
-    2.  In the Overrides section, set the State to ~Filled.
-    3.  Set the Prefix Container and the Suffix Container to ~No Symbol.
+    1.  Use the searchbox to find the Simple / Line / Enabled variant of the Input. Drag it below the form title, we just created, making sure you pick the right component, not the one prefixed with _Overrides!
+    2.  From the **Component (Instance)** section in the right panel select **Filled State**.
+    3.  Expand the layer like we did for the Navbar and delete the Prefix Container and the Suffix Container.
     4.  Set the Label to "First Name", and the Value to "Eliza".
     5.  Place it below the title. Leave 16px on the left and top.
     6.  Set its width to 116px.
     7.  Duplicate this input.
     8.  Place the new one to the right of the first one, with 16px spacing between the two.
-    9.  In the Overrides section, set the Label to "Last Name", and the Value to "Morales".
+    9.  Set its Label to "Last Name", and Value to "Morales".
 
     <div class="divider--half"></div>
-    <img class="responsive-img" src="images/getting-started4.png" srcset="images/getting-started4@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-startedxd4.png" srcset="images/getting-startedxd4@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -158,10 +151,11 @@ These are the steps to recreate the screen in the example.
     1.  Duplicate one of the Name inputs twice to create two more inputs for Username and Password.
     2.  Place them one under the other with a vertical spacing of 16px between each other and to the ones from the previous step.
     3.  Stretch them across the full width with 16px spacing on both sides.
-    4.  In the Overrides section, set their Labels to "Username" and "Password" and their Values to "Leaellynasaura" and "\*\*\*\*\*\*\*\*\*\*\*\*".
+    4.  Set their Labels to "Username" and "Password" and their Values to "Leaellynasaura" and "\*\*\*\*\*\*\*\*\*\*\*\*".
+    5.  Select the hidden ContentType layer of the Password input and change its state to Password.
 
     <div class="divider--half"></div>
-    <img class="responsive-img" src="images/getting-started5.png" srcset="images/getting-started5@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-startedxd5.png" srcset="images/getting-startedxd5@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -170,14 +164,14 @@ These are the steps to recreate the screen in the example.
 
 7.  **Add the sign up button.**
 
-    1.  From the **Insert** menu, select Symbols / Indigo.Design / Button / Raised / Enabled.
-    2.  Place it below the inputs, stretch it across the full width leaving 16px on the left, right, and from the inputs above.
-    3.  In the Overrides section, set the Before Icon and the After Icon to ~No Symbol.
-    4. Set the Text to "SIGN UP" and update its Style to ~White.
-    5. Update the Background to ~info.
+    1.  Change the left panel to **Libraries** and look for a Raised Button.
+    2.  Drag it below the inputs, making sure you pick the right component, not the one prefixed with _Overrides, and stretch it across the full width leaving 16px on the left, right, and from the inputs above.
+    3.  Switching back to **Layers**, expand the component, delete its icon and set the Label to "SIGN UP".
+    4.  Select the Group wrapping the Label and position it in the middle of the Button.
+    5.  Switch again to **Libraries** to give the label a surface color and set the Background to info color.
 
     <div class="divider--half"></div>
-    <img class="responsive-img" src="images/getting-started6.png" srcset="images/getting-started6@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-startedxd6.png" srcset="images/getting-startedxd6@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -187,11 +181,11 @@ These are the steps to recreate the screen in the example.
 8.  **Add the terms acceptance text.**
 
     1.  Press the `T` key to add another text element below the button and type "By clicking on the "SIGN UP" button above, you accept our Terms of Use" in it.
-    2.  Assign the following Style to it Indigo.Design / Caption / Center / Inactive.
-    3.  Change its size so that there is a 16px spacing on the left, right and above.
+    2.  Assign a Caption - 12pt Character Style to it and give it a grays.700 Color.
+    3.  From the right panel set the Text to Auto Height and change the layer size so that there is a 16px spacing on the left, right and above.
 
     <div class="divider--half"></div>
-    <img class="responsive-img" src="images/getting-started7.png" srcset="images/getting-started7@2x.png 2x" />
+    <img class="responsive-img" src="images/getting-startedxd7.png" srcset="images/getting-startedxd7@2x.png 2x" />
     <div class="divider--half"></div>
     <div class="divider--half"></div>
     <div class="divider--half"></div>
@@ -199,8 +193,8 @@ These are the steps to recreate the screen in the example.
     <div class="divider--half"></div>
 
 9.  **Make the artboard responsive.**
-    1.  Select the text layers, inputs, button and white rectangle, and group them.
-    2.  Fix the width and height of the group and pin it to the top from the Resizing options in the panel on the right.
+
+Select the text layers, inputs, button and white rectangle, and group them. The automatic Responsive Layout for this group is enough to assure the expected responsive design behavior. 
 
 ## Additional Resources
 

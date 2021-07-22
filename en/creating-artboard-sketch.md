@@ -46,7 +46,7 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
 6.  Make sure it shows up in the list in the **Preferences** dialog and that it is checked.
 
   <div class="divider--half"></div>
-  <img class="responsive-img" src="images/Creating_An_Artboard_Sketch2.png" srcset="images/Creating_An_Artboard_Sketch2@2x.png" />
+  <img class="responsive-img" src="images/Creating_An_Artboard_Sketch2.png" srcset="images/Creating_An_Artboard_Sketch2@2x.png 2x" />
   <div class="divider--half"></div>
   <div class="divider--half"></div>
   <div class="divider--half"></div>
@@ -66,7 +66,7 @@ You may have noticed that in the image above, the library also appears to be pre
     This example is for an iPhone 11 in portrait orientation (414x896). If you don't see this preset artboard, choose Apple Devices from the dropdown at the top of the panel.
 
   <div class="divider--half"></div>
-  <img class="responsive-img" src="images/getting-started-sketch-artboard.png" srcset="images/getting-started-sketch-artboard@2x.png" />
+  <img class="responsive-img" src="images/getting-started-sketch-artboard.png" srcset="images/getting-started-sketch-artboard@2x.png 2x" />
   <div class="divider--half"></div>
   <div class="divider--half"></div>
   <div class="divider--half"></div>
@@ -159,6 +159,7 @@ These are the steps to recreate the screen in the example.
     2.  Place them one under the other with a vertical spacing of 16px between each other and to the ones from the previous step.
     3.  Stretch them across the full width with 16px spacing on both sides.
     4.  In the Overrides section, set their Labels to "Username" and "Password" and their Values to "Leaellynasaura" and "\*\*\*\*\*\*\*\*\*\*\*\*".
+    5.  While there also set the Password input's Content Type to Password.
 
     <div class="divider--half"></div>
     <img class="responsive-img" src="images/getting-started-sketch5.png" srcset="images/getting-started-sketch5@2x.png 2x" />
@@ -199,6 +200,7 @@ These are the steps to recreate the screen in the example.
     <div class="divider--half"></div>
 
 9.  **Make the artboard responsive.**
+
     1.  Select the text layers, inputs, button and white rectangle, and group them.
     2.  Fix the width and height of the group and pin it to the top from the Resizing options in the panel on the right.
 
