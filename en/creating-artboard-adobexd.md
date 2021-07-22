@@ -201,7 +201,6 @@ Select the text layers, inputs, button and white rectangle, and group them. The 
 Related topics:
 
 - [Creating Your First Artboard in Sketch](creating-artboard-sketch.md)
-
 - [Button](components/button.md)
 - [Input](components/input.md)
 - [Navbar](components/navbar.md)

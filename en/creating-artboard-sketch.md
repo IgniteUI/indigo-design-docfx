@@ -35,7 +35,7 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
 
     - **🌆 ~** patterns pages: the components shape up meaningful patterns for productive application design that can be found spread across the remaining pages.
 
-2.  Open up the Sketch app on your Mac, click on the Sketch item from the Apple Menu, and select Preferences.
+2.  Open up the Sketch app on your Mac, click on the Sketch in the App Menu, and select Preferences.
 
 3.  In the dialog, select the `Libraries` tab and click the **Add Library...** button.
 
@@ -209,7 +209,6 @@ These are the steps to recreate the screen in the example.
 Related topics:
 
 - [Creating Your First Artboard in Adobe XD](creating-artboard-adobexd.md)
-
 - [Button](components/button.md)
 - [Input](components/input.md)
 - [Navbar](components/navbar.md)
