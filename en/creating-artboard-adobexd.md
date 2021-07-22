@@ -32,7 +32,7 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
 
     - In the middle you will find 39 artboards, prefixed with a 🧩 emoji, with more than 50 components to layout your design ideas. Through various presets available as `Components` in Adobe XD and overrides that you can drag and drop over layers in your canvas, e.g. to change the variant of a component from dark to light, you can create layouts compatible with Ignite UI for Angular. Furthermore, through the use of `Component States` and `Stacks` natively supported in Adobe XD you can add a sense of interaction and achieve the degree of templating also available in Ignite UI for Angular.
 
-    - To the right you will find 19 artboards, prefixed with a 🌆 emoji, with a couple of hundred patterns laid out from the components to streamline yout app design process.
+    - To the right you will find 19 artboards, prefixed with a 🌆 emoji, with a couple of hundred patterns laid out from the components to streamline your app design process.
 
 2.  Upon toggling the Libraries panel you will notice that all the styles and components outlined above will appear as `Document Assets`.
 
