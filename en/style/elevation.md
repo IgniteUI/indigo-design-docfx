@@ -6,20 +6,28 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Elevation
 
-On the `🎨 Elevation` page of the **Indigo.Design System** you will find 24 Elevations that are used across Components and Patterns to cast a shadow on the underlying content. There are Components, such as the Bottom Navigation and Floating Action Button that use this to establish some visual hierarchy, but you may also use them to make certain elements float like a Registration or Login Form. The Elevations are identical to the [Material Design Elevation](https://material.io/design/environment/elevation.html#) & [Ignite UI for Angular Shadows](https://www.infragistics.com/products/ignite-ui-angular/angular/components/shadows.html).
+There are 24 elevations supported by the **Indigo.Design System** that are used across Components and Patterns to cast a shadow on the underlying content. There are Components, such as the Bottom Navigation and Floating Action Button that use this to establish some visual hierarchy, but you may also use them to make certain elements float like a Registration or Login Form. The Elevations are identical to the [Material Design Elevation](https://material.io/design/environment/elevation.html#) & [Ignite UI for Angular Shadows](https://www.infragistics.com/products/ignite-ui-angular/angular/components/shadows.html).
 
 ## Support for Elevations
 
-Elevations follow a simple logic: the higher the number of the Elevation, the more prominent the shadow. Shadows come as a combination of three stacked shadow colors, umbra, penumbra, and ambient, whose values match the Material Design definition. In Sketch Elevations are available as Layer Styles that can be applied to any shape and on components that use them we have applied this style to the correct layer, which is most often a Mask layer, or a specially designated `Elevation` rectangle.
+Elevations follow a simple logic: the higher the number of the Elevation, the more prominent the shadow. Shadows come as a combination of three stacked shadow colors, umbra, penumbra, and ambient, whose values match the Material Design definition. 
 
 <img class="responsive-img" src="../images/elevation_people.png" srcset="../images/elevation_people@2x.png 2x" />
+
+In Sketch Elevations can be found on a separate page named `🎨 Elevation` and are available as Layer Styles that can be applied to any shape. In the components that use them we have applied this style to the correct layer, which is most often a Mask layer, or a specially designated `Elevation` rectangle. In Adobe XD elevations are placed on an Artboard with the same name in the left column of the library file and exist as components that are used across components and patterns.
 
 > [!Note]
 > Changing the Elevation in a Component by changing its style is possible in Sketch and will produce the expected outcome, but the same will not be achievable with Ignite UI for Angular yet.
 
-## Use of Standalone Elevations
+## Use of Standalone Elevations in Sketch
 
 To use an Elevation on its own e.g. to lift one part of the content and draw more focus to it than the rest, simply apply the Elevation Layer Style of your choice to a rectangle matching the size of the content you would like to enhance.
+
+## Use of Standalone Elevations in Adobe XD
+
+To use an Elevation on its own e.g. to lift one part of the content and draw more focus to it than the rest, simply drag one of them from the `Libraries` panel to your artboard and use it as a surface on top of which you will add the rest of the user interface, including a layer for background color. Sometimes you would like to have rounded corners e.g. when designing a dialog so in order to have your elevation conform to this, expand it, select its three internal layers and set their corner radius to the desired value.
+
+## Example of a Standalone Elevation
 
 <img class="responsive-img" src="../images/elevation_standalone.png" srcset="../images/elevation_standalone@2x.png 2x" />
 
