@@ -1,12 +1,12 @@
 ---
 title: Colors - Design System Styling
-_description: The Colors library page is the go to place for setting up a theme for the Indigo.Design System.
+_description: The color styles let you set up palettes and special colors as the basis of a theme for the Indigo.Design System.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 # Colors
 
-On the `🎨 Colors` page of the **Indigo.Design System** you will find a collection of `primary`, `secondary`, `success`, `warn`, `error`, `info`, `grays`, and `series` colors to let you brand the library all at once. The way Colors are set up is identical to the [Ignite UI for Angular Themes](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes.html).
+There are five palettes with 10 color variations each for the `primary`, `secondary`, `grays`, and chart `sereis` colors, as well as special colors such as `success`, `warn`, `error`, `info`, and `surface` in the the **Indigo.Design System** to let you brand the library all at once. The way Colors are set up is identical to the [Ignite UI for Angular Themes](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes.html).
 
 <img class="responsive-img" src="../images/colors_palette.png" />
 

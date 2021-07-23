@@ -1,6 +1,6 @@
 ---
 title: Illustrations - Design System Styling
-_description: The Illustration Symbols empower one's design process through graphics that can be used to complement interfaces created with Indigo.Design.
+_description: The illustrations empower one's design process through graphics that can be used to complement interfaces created with Indigo.Design.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
