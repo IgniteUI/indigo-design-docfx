@@ -42,7 +42,9 @@ Grid Pattern symbol comes with six pre-made combinations of Grid features:
 
 
 > [!WARNING]
-> After inserting the Grid Pattern, you should trigger `Detach from Symbol` to break it down to the Components and Grid Features that are used to create the layout in order to be able to generate it as Angular code. The individual Components and Features, however, must stay intact and not be detached!
+> In Sketch, after inserting any of the Grid Patterns, you can trigger `Detach from Symbol` only if you need to alter the number of cells provided, in order to show all the dimensions of your data and insert as many visible records as you want simply by duplicating a header or one of the rows of data that you already have. The individual Components and Features, however, must stay intact and not be detached!
+>
+> In Adobe XD you can add more cells than provided by duplicating without a need for detaching.
 
 <img class="responsive-img" src="../images/grid_detach.png" srcset="../images/grid_detach@2x.png 2x" />
 

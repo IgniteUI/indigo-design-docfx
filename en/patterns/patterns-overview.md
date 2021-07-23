@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Patterns Overview
 
-The **Indigo.Design System** boosts your productivity with 180+ UI Patterns assembled from Indigo.Design Components. They are enhanced with the same responsive web design behavior and theming capabilities and can be found spread across the following pages of the library:
+The **Indigo.Design System** boosts your productivity with 180+ UI Patterns assembled from Indigo.Design Components. They are enhanced with the same responsive web design behavior and theming capabilities. The UI Patterns can be found spread across separate pages of the Sketch library, while in the Adobe XD library they can be found in the right column:
 
 - 🌆 AV Player
 - 🌆 Avatar + Badge
@@ -29,7 +29,7 @@ The **Indigo.Design System** boosts your productivity with 180+ UI Patterns asse
 - 🌆 Tiles
 - 🌆 User Profile
 
-Unlike a Component, every Pattern can be detached to show as a group, preserving the look and feel you have defined before that. Below is a snippet of some of the [list patterns](lists.md) such as a contacts list, searchable and filterable lists, and list empty states when no matching results are found.
+Unlike a component, some patterns in the Sketch library can be detached to show as a group, preserving the look and feel you have defined before that. In the Adobe XD library detach is not applicable and needed. Below is a snippet of some of the [list patterns](lists.md) such as a contacts list, searchable and filterable lists, and list empty states when no matching results are found.
 
 <img class="responsive-img" src="../images/patterns_overview.png" />
 

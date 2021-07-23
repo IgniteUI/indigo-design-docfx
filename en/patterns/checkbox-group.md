@@ -13,7 +13,9 @@ Use the Checkbox Group Pattern to organize and layout a collection of Checkbox e
 The Checkbox Group Pattern comes with the styling flexibility provided by the Checkbox elements that constitute it.
 
 > [!WARNING]
-> Trigger `Detach from Symbol` on an instance of the Checkbox Group Pattern only if you need to add more Checkbox items than provided. Once it is broken down to the individual Checkboxes that are used to create the layout, make sure they stay intact and are not detached!
+> In Sketch trigger `Detach from Symbol` on an instance of the Checkbox Group Pattern only if you need to add more Checkbox items than provided. Once it is broken down to the individual Checkboxes that are used to create the layout, make sure they stay intact and are not detached!
+>
+> In Adobe XD you can add a Checkbox item by duplicating one and it will simply line up with the others due to the applied stack.
 
 <img class="responsive-img" src="../images/checkbox_group_detach.png" srcset="../images/checkbox_group_detach@2x.png 2x" />
 
