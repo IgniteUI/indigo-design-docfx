@@ -31,9 +31,6 @@ Use the Group of Items List Pattern to present grouped or organized items.
 >
 > In Adobe XD you can add a List item by duplicating one and it will simply line up with the others due to the applied stack.
 
-<img class="responsive-img" src="../images/lists_detach.png" srcset="../images/lists_detach@2x.png 2x" />
-<img class="responsive-img" src="../images/lists_horizontal_vertical_detach.png" srcset="../images/lists_horizontal_vertical_detach@2x.png 2x" />
-
 ## Additional Resources
 
 Related topics:
