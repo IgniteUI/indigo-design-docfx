@@ -16,7 +16,7 @@ The **Indigo.Design System** boosts your productivity with 180+ UI Patterns asse
 - 🌆 Details
 - 🌆 Dialogs
 - 🌆 Empty States
-- 🌆 File Upload
+- 🌆 File Upload and Image Manipulation
 - 🌆 Footer
 - 🌆 Form
 - 🌆 Grids
@@ -33,7 +33,7 @@ Unlike a component, some patterns in the Sketch library can be detached to show 
 
 <img class="responsive-img" src="../images/patterns_overview.png" />
 
-We constantly improve our patterns by adding new ones. To identify changes more easily from one release of the **Indigo.Design System** to the next, you will notice that we append a 🆕 emoji to the pages containing updates. You may also create your own Patterns from interface layouts that you use over and over again in your designs, extending our default set and giving your design productivity a further boost.
+We constantly improve our patterns by adding new ones. To identify changes more easily from one release of the **Indigo.Design System** to the next, you will notice that we append a 🆕 emoji to the Sketch pages and Adobe XD artboards containing updates. You may also create your own Patterns from interface layouts that you use over and over again in your designs, extending our default set and giving your design productivity a further boost.
 
 ## Additional Resources
 
