@@ -31,19 +31,19 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
     - **🎨 ~** styling pages: all the styling assets such as Material Icons, Colors, Typography, Elevation, and Illustrations can be found in the five pages on top.
 
     - **🧩 Components**  page: a vast set of Components to layout your design ideas.
-      Through various presets available in the **Insert** menu and overrides for states and layouts to configure in the right panel of the Sketch UI, you can create layouts compatible with Ignite UI for Angular and our code generation engine.
+      Through various presets available in the `Insert` menu and overrides for states and layouts to configure in the right panel of the Sketch UI, you can create layouts compatible with Ignite UI for Angular and our code generation engine.
 
     - **🌆 ~** patterns pages: the components shape up meaningful patterns for productive application design that can be found spread across the remaining pages.
 
-2.  Open up the Sketch app on your Mac, click on the Sketch item from the Apple Menu, and select Preferences.
+2.  Open up the Sketch app on your Mac, click on the Sketch in the App Menu, and select Preferences.
 
-3.  In the dialog, select the **Libraries** tab and click the **Add Library...** button.
+3.  In the dialog, select the `Libraries` tab and click the **Add Library...** button.
 
 4.  Navigate to the folder where you have downloaded the library.
 
-5.  Select it and click **Open**.
+5.  Select it and click `Open`.
 
-6.  Make sure it shows up in the list in the **Preferences** dialog and that it is checked.
+6.  Make sure it shows up in the list in the `Preferences` dialog and that it is checked.
 
   <div class="divider--half"></div>
   <img class="responsive-img" src="images/Creating_An_Artboard_Sketch2.png" srcset="images/Creating_An_Artboard_Sketch2@2x.png 2x" />
@@ -53,7 +53,7 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
   <div class="divider--half"></div>
   <div class="divider--half"></div>
 
-You may have noticed that in the image above, the library also appears to be present in my Sketch cloud, and as an alternative, you can use this mechanism if you are running version 57 or later. The set up is very easy, you only need to open the Indigo.Design Sketch file and save it in your Sketch cloud. A detailed explanation of how to set Indigo.Design as a cloud library can be found in [this Medium post](https://medium.com/ignite-ui/using-indigo-design-with-sketch-cloud-libraries-70533bca00f8). Once you added the library successfully, it will show up in the **Symbols** section of the **Insert** menu.
+You may have noticed that in the image above, the library also appears to be present in my Sketch cloud, and as an alternative, you can use this mechanism if you are running version 57 or later. The set up is very easy, you only need to open the Indigo.Design Sketch file and save it in your Sketch cloud. A detailed explanation of how to set Indigo.Design as a cloud library can be found in [this Medium post](https://medium.com/ignite-ui/using-indigo-design-with-sketch-cloud-libraries-70533bca00f8). Once you added the library successfully, it will show up in the `Symbols` section of the `Insert` menu.
 
 > [!Note]
 > If you already have the **Indigo.Design System** set up in Sketch and want upgrade to a newer version, open your Sketch preferences, delete the current library and install the new one following the steps above. Make sure to reapply any themes and customizations via the [Indigo.Design plugin](sync-themes-plugin.md) and note that you may have to link some components or overrides in your design files manually to the symbols in the new library if Sketch does not do that automatically for you.
@@ -75,13 +75,13 @@ You may have noticed that in the image above, the library also appears to be pre
 
 ### 3. Add and customize components.
 
-We will use the **Insert** menu to add components from the Indigo Design Library, and then customize them using the panel on the right.
+We will use the `Insert` menu to add components from the Indigo Design Library, and then customize them using the panel on the right.
 
 These are the steps to recreate the screen in the example.
 
 1.  **Add the Navbar.**
 
-    1.  From the **Insert** menu, select Symbols / Indigo.Design / Navigation / Navbar / Elevated.
+    1.  From the `Insert` menu, select Symbols / Indigo.Design / Navigation / Navbar / Elevated.
     2.  Place it at the top of the artboard and stretch it to take up all the width available.
     3.  In the Resizing section of the panel on the right, pin it to the top of the artboard and fix its height.
     4.  In the Overrides section, set the Left Action to ~No Symbol, then set the Title to "Sign Up". After that set the 1 | Icon, 2 | Icon, and 3 | Icon to ~No Symbol.
@@ -135,7 +135,7 @@ These are the steps to recreate the screen in the example.
 
 5.  **Add the inputs for first and last name.**
 
-    1.  From the **Insert** menu, select Symbols / Indigo.Design / Input / Simple / Line / Enabled.
+    1.  From the `Insert` menu, select Symbols / Indigo.Design / Input / Simple / Line / Enabled.
     2.  In the Overrides section, set the State to ~Filled.
     3.  Set the Prefix Container and the Suffix Container to ~No Symbol.
     4.  Set the Label to "First Name", and the Value to "Eliza".
@@ -171,7 +171,7 @@ These are the steps to recreate the screen in the example.
 
 7.  **Add the sign up button.**
 
-    1.  From the **Insert** menu, select Symbols / Indigo.Design / Button / Raised / Enabled.
+    1.  From the `Insert` menu, select Symbols / Indigo.Design / Button / Raised / Enabled.
     2.  Place it below the inputs, stretch it across the full width leaving 16px on the left, right, and from the inputs above.
     3.  In the Overrides section, set the Before Icon and the After Icon to ~No Symbol.
     4. Set the Text to "SIGN UP" and update its Style to ~White.
@@ -209,7 +209,6 @@ These are the steps to recreate the screen in the example.
 Related topics:
 
 - [Creating Your First Artboard in Adobe XD](creating-artboard-adobexd.md)
-
 - [Button](components/button.md)
 - [Input](components/input.md)
 - [Navbar](components/navbar.md)

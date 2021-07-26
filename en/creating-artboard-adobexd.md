@@ -1,6 +1,6 @@
 ---
 title: Creating An Artboard in Adobe XD
-_description: How to Adobe XD Artboard for a registration screen using Indigo Design Libraries.
+_description: How to create an Adobe XD Artboard for a registration screen using Indigo Design Libraries.
 _keywords: Design Systems, Design Systems UX, UI kit, Adobe XD, Ignite UI for Angular, Adobe XD to Angular, Angular, Angular Design System, Export code from Adobe XD, Design Kits for Angular, Adobe XD HTML, Adobe XD to HTML, Adobe XD UI kits
 ---
 
@@ -30,11 +30,11 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
 
     - To the left you will find 5 artboards, prefixed with a 🎨 emoji, related to styling. They contain assets such as icons, colors and color palettes, typographies, elevations, and illustrations.
 
-    - In the middle you will find 39 artboards, prefixed with a 🧩 emoji, with more than 50 components to layout your design ideas. Through various presets available as **Components** in Adobe XD and overrides that you can drag and drop over layers in your canvas, e.g. to change the variant of a component from dark to light, you can create layouts compatible with Ignite UI for Angular. Furthermore, through the use of **Component States** and **Stacks** natively supported in Adobe XD you can add a sense of interaction and achieve the degree of templating also available in Ignite UI for Angular.
+    - In the middle you will find 39 artboards, prefixed with a 🧩 emoji, with more than 50 components to layout your design ideas. Through various presets available as `Components` in Adobe XD and overrides that you can drag and drop over layers in your canvas, e.g. to change the variant of a component from dark to light, you can create layouts compatible with Ignite UI for Angular. Furthermore, through the use of `Component States` and `Stacks` natively supported in Adobe XD you can add a sense of interaction and achieve the degree of templating also available in Ignite UI for Angular.
 
-    - To the right you will find 19 artboards, prefixed with a 🌆 emoji, with a couple of hundred patterns laid out from the components to streamline yout app design process.
+    - To the right you will find 19 artboards, prefixed with a 🌆 emoji, with a couple of hundred patterns laid out from the components to streamline your app design process.
 
-2.  Upon toggling the Libraries panel you will notice that all the styles and components outlined above will appear as **Document Assets**.
+2.  Upon toggling the Libraries panel you will notice that all the styles and components outlined above will appear as `Document Assets`.
 
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/Creating_An_Artboard_XD2.png" srcset="images/Creating_An_Artboard_XD2@2x.png 2x" />
@@ -44,19 +44,19 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 
-If this is the first time you are using styles and components in Adobe XD, you can switch between **Libraries** and **Layers** from the icon menu at the bottom left of the application.
+If this is the first time you are using styles and components in Adobe XD, you can switch between `Libraries` and `Layers` from the icon menu at the bottom left of the application.
 
 <img class="responsive-img" src="images/Creating_An_Artboard_XD1.png" srcset="images/Creating_An_Artboard_XD1@2x.png 2x" />
 
-3.  To the right of the **Document Assets** title you will notice an upload-like icon that takes you to the **Publish as a Library** dialog.
+3.  To the right of the `Document Assets` title you will notice an upload-like icon that takes you to the `Publish as a Library` dialog.
 
 <img class="responsive-img" src="images/Creating_An_Artboard_XD3.png" srcset="images/Creating_An_Artboard_XD3@2x.png 2x" />
 
-4.  Under **Current File** you will see Indigo.Design and all you need to do is click on the **Publish** button to the right. It takes a while for this process to complete for all the goodies we have prepared for you, but the wait will be totally worth it.
+4.  Under `Current File` you will see Indigo.Design and all you need to do is click on the **Publish** button to the right. It takes a while for this process to complete for all the goodies we have prepared for you, but the wait will be totally worth it.
 
 ### 2. Create an artboard.
 
-Open Adobe XD and select an iPhone 12 Pro Max. This will give you a new file with one Artboard in the middle in portrait orientation (428x926). Lastly, from the panel on the right you may want to turn on the **Responsive Resize** option that will show you how the Artboard contents behave if it gets resized.
+Open Adobe XD and select an iPhone 12 Pro Max. This will give you a new file with one Artboard in the middle in portrait orientation (428x926). Lastly, from the panel on the right you may want to turn on the `Responsive Resize` option that will show you how the Artboard contents behave if it gets resized.
 
   <div class="divider--half"></div>
   <img class="responsive-img" src="images/getting-started-xd-artboard.png" srcset="images/getting-started-xd-artboard@2x.png 2x" />
@@ -68,15 +68,15 @@ Open Adobe XD and select an iPhone 12 Pro Max. This will give you a new file wit
 
 ### 3. Add and customize components.
 
-We will use the **Libraries** panel to add components from the Indigo Design Library. For some of them we will set appropriate States from the panel on the right, and apply **Colors** and **Character Styles** from the **Libraries** panel to customize their appearance. Everytime you create a new file, you have to open the **Libraries** panel and click on the back icon next to **Document Assets** to be able to select Indigo.Design and use it as a library.
+We will use the `Libraries` panel to add components from the Indigo Design Library. For some of them we will set appropriate States from the panel on the right, and apply `Colors` and `Character Styles` from the `Libraries` panel to customize their appearance. Everytime you create a new file, you have to open the `Libraries` panel and click on the back icon next to `Document Assets` to be able to select Indigo.Design and use it as a library.
 
 These are the steps to recreate the screen in the example.
 
 1.  **Add the Navbar.**
 
-    1.  Use the searchbox in the **Libraries** panel to find the Elevated variant of the Navbar.
+    1.  Use the searchbox in the `Libraries` panel to find the Elevated variant of the Navbar.
     2.  Place it at the top of the artboard and stretch it to take up all the width available.
-    3.  Now switch the left panel to show **Layers** and expand the component by clicking on the link icon to the left of its layer name.
+    3.  Now switch the left panel to show `Layers` and expand the component by clicking on the link icon to the left of its layer name.
     4.  Under Left Group there is another group called Left Action which we will delete and we will do the same for 1 | Icon, 2 | Icon, and 3 | Icon under Right Group.
     5.  Select the Title, hit enter and type in "Sign Up".
 
@@ -89,7 +89,7 @@ These are the steps to recreate the screen in the example.
     <div class="divider--half"></div>
 
 2.  **Add the background color.**  
-     Press the `R` key and drag а rectangular shape, making sure it's sized accordingly to fill the available area below the Navbar and is also under it as a layer. With the rectangle selected change the left panel to show **Libraries** and click the primary.100 color. You will notice that the default outline is still there so we need to untick the **Border** under **Appearance** in the panel on the right.
+     Press the `R` key and drag а rectangular shape, making sure it's sized accordingly to fill the available area below the Navbar and is also under it as a layer. With the rectangle selected change the left panel to show `Libraries` and click the primary.100 color. You will notice that the default outline is still there so we need to untick the `Border` under `Appearance` in the panel on the right.
 
     <div class="divider--half"></div>
     <img class="responsive-img" src="images/getting-startedxd1.png" srcset="images/getting-startedxd1@2x.png 2x" />
@@ -115,7 +115,7 @@ These are the steps to recreate the screen in the example.
 4.  **Add the title of the form.**
 
     1.  Press the `T` key to add a text element on top of the white rectangle and type "Start Budgeting" in it.
-    2.  With the text layer selected scroll down in the **Libraries** panel to the **Character Styles** and click on Heading H4 - 34pt.
+    2.  With the text layer selected scroll down in the `Libraries` panel to the `Character Styles` and click on Heading H4 - 34pt.
     3.  Place it at the top of the white rectangle, with 16px spacing on the top.
 
     <div class="divider--half"></div>
@@ -129,7 +129,7 @@ These are the steps to recreate the screen in the example.
 5.  **Add the inputs for first and last name.**
 
     1.  Use the searchbox to find the Simple / Line / Enabled variant of the Input. Drag it below the form title, we just created, making sure you pick the right component, not the one prefixed with _Overrides!
-    2.  From the **Component (Instance)** section in the right panel select **Filled State**.
+    2.  From the `Component (Instance)` section in the right panel select Filled State.
     3.  Expand the layer like we did for the Navbar and delete the Prefix Container and the Suffix Container.
     4.  Set the Label to "First Name", and the Value to "Eliza".
     5.  Place it below the title. Leave 16px on the left and top.
@@ -164,11 +164,11 @@ These are the steps to recreate the screen in the example.
 
 7.  **Add the sign up button.**
 
-    1.  Change the left panel to **Libraries** and look for a Raised Button.
+    1.  Change the left panel to `Libraries` and look for a Raised Button.
     2.  Drag it below the inputs, making sure you pick the right component, not the one prefixed with _Overrides, and stretch it across the full width leaving 16px on the left, right, and from the inputs above.
-    3.  Switching back to **Layers**, expand the component, delete its icon and set the Label to "SIGN UP".
+    3.  Switching back to `Layers`, expand the component, delete its icon and set the Label to "SIGN UP".
     4.  Select the Group wrapping the Label and position it in the middle of the Button.
-    5.  Switch again to **Libraries** to give the label a surface color and set the Background to info color.
+    5.  Switch again to `Libraries` to give the label a surface color and set the Background to info color.
 
     <div class="divider--half"></div>
     <img class="responsive-img" src="images/getting-startedxd6.png" srcset="images/getting-startedxd6@2x.png 2x" />
@@ -201,7 +201,6 @@ Select the text layers, inputs, button and white rectangle, and group them. The 
 Related topics:
 
 - [Creating Your First Artboard in Sketch](creating-artboard-sketch.md)
-
 - [Button](components/button.md)
 - [Input](components/input.md)
 - [Navbar](components/navbar.md)
