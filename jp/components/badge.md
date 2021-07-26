@@ -19,12 +19,6 @@ Badge は、数字やアイコンなど、さまざまなタイプのコンテ�
 
 <img class="responsive-img" src="../images/badge_type.png" srcset="../images/badge_type@2x.png 2x" />
 
-## 図形
-
-Badge には、円形と四角形の 2 つの異なる図形があります。
-
-<img class="responsive-img" src="../images/badge_shapes.png" srcset="../images/badge_shapes@2x.png 2x" />
-
 ## スタイル設定
 
 Badge は、さまざまなオーバーライドで背景色や境界線の色を制御することで柔軟にスタイル設定できます。適用可能な場合はアイコンの色、テキストのスタイル、基本のインターフェイス要素に影を落とすことも設定できます。
