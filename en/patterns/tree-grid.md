@@ -21,6 +21,7 @@ List of all the Grid functionality:
 - Column Hiding
 - Display Density
 - Excel Style Filtering
+- Advanced Filtering
 - GroupBy
 - Pinning
 - Row Selection
@@ -36,8 +37,6 @@ All Grid features are applicable to the Tree Grid Pattern.
 > In Sketch, after inserting the Tree Grid Pattern, you can trigger `Detach from Symbol` only if you need to alter the number of cells provided, in order to show all the dimensions of your data and insert as many visible records as you want simply by duplicating a header or one of the rows of data that you already have. The individual Components and Features, however, must stay intact and not be detached!
 >
 > In Adobe XD you can add more cells than provided by duplicating without a need for detaching.
-
-<img class="responsive-img" src="../images/tree_grid_detach.png" srcset="../images/tree_grid_detach@2x.png 2x" />
 
 ## Additional Resources
 

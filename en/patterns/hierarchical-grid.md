@@ -21,6 +21,7 @@ List of all the Grid functionality:
 - Column Hiding
 - Display Density
 - Excel Style Filtering
+- Advanced Filtering
 - GroupBy
 - Pinning
 - Row Selection
@@ -36,8 +37,6 @@ All Grid features are applicable to each child and parent Grid.
 > In Sketch, after inserting the Hierarchical Grid Pattern, you can trigger `Detach from Symbol` only if you need to alter the number of cells provided, in order to show all the dimensions of your data and insert as many visible records as you want simply by duplicating a header or one of the rows of data that you already have. In case you need to show more of the hierarchy, you may also nest additional grids within the body of the parent one that they belong to. The individual Components and Features, however, must stay intact and not be detached!
 >
 > In Adobe XD you can add more cells than provided by duplicating without the need for detaching. When you need to alter the number of Expand cells you can do it by dragging the green handle vertically thanks to the predefined repeat grid.
-
-<img class="responsive-img" src="../images/hierarchical_grid_detach.png" srcset="../images/hierarchical_grid_detach@2x.png 2x" />
 
 ## Additional Resources
 
