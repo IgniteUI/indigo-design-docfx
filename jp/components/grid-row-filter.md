@@ -27,6 +27,7 @@ Row Filter Header Cell に `Filter State` のオーバーライドが設定せ�
 
 - [Grid](grid.md)
 - [Grid Excel スタイル フィルター](grid-excel-style-filter.md)
+- [Grid 高度なフィルター](grid-advanced-filter.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

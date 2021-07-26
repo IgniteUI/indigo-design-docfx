@@ -40,6 +40,7 @@ Excel スタイル フィルターのインターフェイスは、並べ替え�
 
 - [Grid](grid.md)
 - [Grid 行フィルター](grid-row-filter.md)
+- [Grid 高度なフィルター](grid-advanced-filter.md)
 - [Grid 表示密度](grid-display-density.md)
 - [Grid 並べ替え](grid-sorting.md)
 - [Grid 列移動](grid-column-moving.md)

@@ -22,10 +22,10 @@ Tabs には 2 つのサイズがあります: 高さのあるテキストを使�
 
 ## レスポンシブ
 
-Tabs は、幅を調整することで使用可能な水平方向のスペースを埋めるように固定することも、スクロール ボタンを使用して多数のタブ項目をナビゲートすることで流動的にすることもできます。これにより、同じ合計スペースで他のモードで通常可能なコンテンツよりも多くのコンテンツを入れることができます。
+Tabs は、幅を調整することで使用可能な水平方向のスペースを埋めるために Content Fit にすることも、スクロール ボタンを使用して多数のタブ項目をナビゲートすることで固定することもできます。これにより、同じ合計スペースで他のモードで通常可能なコンテンツよりも多くのコンテンツを入れることができます。
 
+<img class="responsive-img" src="../images/tabs_content_fit.png" srcset="../images/tabs_content_fit@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_fixed.png" srcset="../images/tabs_fixed@2x.png 2x" />
-<img class="responsive-img" src="../images/tabs_fluid.png" srcset="../images/tabs_fluid@2x.png 2x" />
 
 ## Tabs の量
 
