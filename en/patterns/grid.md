@@ -6,9 +6,9 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Grid
 
-Use any of the Grid Pattern symbols as an alternative starting point when designing a tabular data layout. It provides a full-blown contentwise and stylewise Grid Component, on which all the Grid functionality, provided in the Components Library can be applied.
+Use any of the Grid Pattern symbols as an alternative starting point when designing a tabular data layout. They provide a full-blown contentwise and stylewise Grid Component, on which all the Grid functionality, provided in the Components Library can be applied.
 
-The Grid Pattern with Excel Style Filter, Sorting and Display Density is shown below:
+The Grid Pattern with Column Moving, Summaries and Paging is shown below:
 
 <img class="responsive-img" src="../images/grid.png" srcset="../images/grid@2x.png 2x" />
 
@@ -23,6 +23,7 @@ List of all the Grid functionality:
 - Column Hiding
 - Display Density
 - Excel Style Filtering
+- Advanced Filtering
 - GroupBy
 - Pinning
 - Row Selection
@@ -32,7 +33,7 @@ List of all the Grid functionality:
 - Toolbar
 
 
-Grid Pattern symbol comes with six pre-made combinations of Grid features:
+Grid Pattern symbols come in six pre-made combinations of Grid features:
 - Grid Pattern with Column Moving, Summaries and Paging
 - Grid Pattern with Editing and Filter Row
 - Grid Pattern with Excel Style Filter, Sorting and Display Density
@@ -45,8 +46,6 @@ Grid Pattern symbol comes with six pre-made combinations of Grid features:
 > In Sketch, after inserting any of the Grid Patterns, you can trigger `Detach from Symbol` only if you need to alter the number of cells provided, in order to show all the dimensions of your data and insert as many visible records as you want simply by duplicating a header or one of the rows of data that you already have. The individual Components and Features, however, must stay intact and not be detached!
 >
 > In Adobe XD you can add more cells than provided by duplicating without a need for detaching.
-
-<img class="responsive-img" src="../images/grid_detach.png" srcset="../images/grid_detach@2x.png 2x" />
 
 ## Additional Resources
 
