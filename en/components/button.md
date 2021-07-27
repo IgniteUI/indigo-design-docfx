@@ -44,7 +44,7 @@ Raised, Outlined, Flat and Floating Action Buttons support flexible icon and lab
 
 ## Styling
 
-The Buttons come with styling flexibility through the various overrides controlling the background, label, and icon colors.
+The Buttons come with styling flexibility through the various options controlling the background, label, and icon colors.
 
 <img class="responsive-img" src="../images/button_styling.png" srcset="../images/button_styling@2x.png 2x" />
 

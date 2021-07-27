@@ -28,7 +28,7 @@ The Grid Summary Cell provides presets for the two generic types of data aggrega
 
 ## Styling
 
-The Grid Summary Cell comes with basic styling flexibility through the various overrides controlling its label and number text colors, as well as the cell background color.
+The Grid Summary Cell comes with basic styling flexibility through the various options controlling its label and number text colors, as well as the cell background color.
 
 <img class="responsive-img" src="../images/grid_summaries_styling.png" srcset="../images/grid_summaries_styling@2x.png 2x" />
 

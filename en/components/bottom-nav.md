@@ -38,7 +38,7 @@ The Bottom Navigation items come as a combination of icon and text by default, b
 
 ## Styling
 
-The Bottom Navigation comes with styling flexibility through the various overrides controling the background color, as well as the item label and icon colors.
+The Bottom Navigation comes with styling flexibility through the various options controling the background color, as well as the item label and icon colors.
 
 <img class="responsive-img" src="../images/bottom-nav_styling.png" srcset="../images/bottom-nav_styling@2x.png 2x" />
 

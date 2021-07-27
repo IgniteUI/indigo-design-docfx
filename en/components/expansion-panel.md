@@ -34,7 +34,7 @@ The avatar comes in two distinct types determined by its shape: a **round** and 
 
 ## Styling
 
-The Avatar comes with styling flexibility through the various overrides controlling the background color, as well as initials and icon colors, where applicable.
+The Avatar comes with styling flexibility through the various options controlling the background color, as well as initials and icon colors, where applicable.
 
 <img class="responsive-img" src="../images/avatar_styling.png" srcset="../images/avatar_styling@2x.png 2x" />
 

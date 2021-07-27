@@ -20,7 +20,7 @@ The Grid Toolbar uses Smart Layout in Sketch and has interchangeable default and
 
 ## Styling
 
-The Grid Toolbar comes with styling flexibility through the various overrides for its Actions, as well as its title style and background color.
+The Grid Toolbar comes with styling flexibility through the various options for its Actions, as well as its title style and background color.
 
 <img class="responsive-img" src="../images/grid_toolbar_styling.png" srcset="../images/grid_toolbar_styling@2x.png 2x" />
 
