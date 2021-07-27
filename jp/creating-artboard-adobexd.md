@@ -1,7 +1,7 @@
 ---
-title: Creating An Artboard in Adobe XD
-_description: How to create an Adobe XD Artboard for a registration screen using Indigo Design Libraries.
-_keywords: Design Systems, Design Systems UX, UI kit, Adobe XD, Ignite UI for Angular, Adobe XD to Angular, Angular, Angular Design System, Export code from Adobe XD, Design Kits for Angular, Adobe XD HTML, Adobe XD to HTML, Adobe XD UI kits
+title: Adobe XD でアートボードを作成
+_description: Indigo Design ライブラリを使用して、登録画面用の Adobe XD アートボード を作成する方法。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Adobe XD, Ignite UI for Angular, Adobe XD to Angular, Angular, Angular デザイン システム, Adobe XD からコードをエクスポート, Angular 用のデザイン キット, Adobe XD HTML, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
