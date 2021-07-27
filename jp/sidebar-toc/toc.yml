@@ -84,7 +84,7 @@
   header: true
 - name: Sketch でアートボードを作成
   href: ../creating-artboard-sketch.md
-- name: AdobeXD でアートボードを作成
+- name: Adobe XD でアートボードを作成
   href: ../creating-artboard-adobexd.md
   new: true
 - name: 同期とテーマ プラグイン
