@@ -21,7 +21,7 @@ The Custom List Item supports the following interactive states: **inactive** for
 
 ## Detach from Symbol
 
-In order to customize List Item layouts, start by dragging a `List/Custom/Item` to your artboard, right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared _List/Custom/Item_ group, you should see the following:
+In order to customize List Item layouts, start by dragging a `List/Custom/Item` to your artboard, right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu in Sketch. In your layers panel under the newly appeared _List/Custom/Item_ group, you should see the following:
 
 | Layer                    | Use                                                                                                                                                  |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -29,6 +29,9 @@ In order to customize List Item layouts, start by dragging a `List/Custom/Item` 
 | 💡Primary Action Group   | Groups together the Primary Action layout elements                                                                                                   |
 | 💡Secondary Action Group | Groups together the Secondary Action layout elements                                                                                                 |
 | 💡State                  | Contains the item Background and defines whether the List Item is in an active or inactive state                                                     |
+
+> [!WARNING]
+> `Detach from Symbol` is only applicable to Sketch and destroying the symbol is not necessary in Adobe XD.
 
 ### Styling
 

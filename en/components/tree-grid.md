@@ -14,7 +14,7 @@ Use the Tree Grid Component to let the user browse and interact with a vast amou
 
 ## Detach from Symbol
 
-Similarly to the Grid, the Tree Grid is essentially a repeater of columns and rows showing hierarchical data in a flat, tabular fashion. Therefore, the easiest way to use it is by dragging a `Tree Grid/Comfortable` to your artboard, right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared group, you should see the following:
+Similarly to the Grid, the Tree Grid is essentially a repeater of columns and rows showing hierarchical data in a flat, tabular fashion. Therefore, the easiest way to use it is by dragging a `Tree Grid/Comfortable` to your artboard, right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu in Sketch. In your layers panel under the newly appeared group, you should see the following:
 
 | Layer                        | Use                                                                                                                                                  |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -23,6 +23,9 @@ Similarly to the Grid, the Tree Grid is essentially a repeater of columns and ro
 | Body                         | Contains all the cells in the body                                                                                                                   |
 
 After detaching, you may add the number of headers you need to show all the dimensions of your data and as many records as you want to show in your design simply by duplicating one of the existing rows of data.
+
+> [!WARNING]
+> `Detach from Symbol` is only applicable to Sketch and destroying the symbol is not necessary in Adobe XD.
 
 ## Cell Types
 

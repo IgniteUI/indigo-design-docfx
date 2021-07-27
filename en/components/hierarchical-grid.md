@@ -14,7 +14,7 @@ Use the Hierarchical Grid Component to let the user browse and interact with a v
 
 ## Detach from Symbol
 
-Similarly to the Grid, the Hierarchical Grid is essentially a repeater of columns, rows, and nested grids forming a visual hierarchy. Therefore, the easiest way to use it is by dragging one of the predefined grids to your artboard - there are three presets available for the three [display densities](grid-display-density.md) supported. Once in your artboard, by right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu you should see the following in your layers panel under the newly appeared group:
+Similarly to the Grid, the Hierarchical Grid is essentially a repeater of columns, rows, and nested grids forming a visual hierarchy. Therefore, the easiest way to use it is by dragging one of the predefined grids to your artboard - there are three presets available for the three [display densities](grid-display-density.md) supported. Once in your artboard, by right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu in Sketch you should see the following in your layers panel under the newly appeared group:
 
 | Layer                                | Use                                                                                                                                                  |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -25,6 +25,9 @@ Similarly to the Grid, the Hierarchical Grid is essentially a repeater of column
 | 🌈 Background                        | Defines the background color of the Hierarchical Grid                                                                                                |
 
 After detaching, you may add the number of headers you need to show all the dimensions of your data and as many records as you want to show in your design simply by duplicating the first row of data that you already have created within each of the grids that you have. In case you need to show more of the hierarchy, you may also nest additional grids within the body of the parent one that they belong to.
+
+> [!WARNING]
+> `Detach from Symbol` is only applicable to Sketch and destroying the symbol is not necessary in Adobe XD.
 
 ## Cell Types
 
