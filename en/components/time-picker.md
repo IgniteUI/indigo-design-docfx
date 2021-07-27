@@ -42,7 +42,7 @@ The Time Picker comes with two buttons: one for canceling the selection, which w
 
 ## Styling
 
-The Time Picker comes with styling flexibility through the various overrides controlling header background and title colors, as well as text colors for the selected hour, minute, and meridiem (AM/PM). The Cancel and OK buttons are Flat Buttons and can be styled accordingly.
+The Time Picker comes with styling flexibility through the various options controlling the header background and title colors, as well as text colors for the selected hour, minute, and meridiem (AM/PM). The Cancel and OK buttons are Flat Buttons and can be styled accordingly.
 
 <img class="responsive-img" src="../images/timepicker_styling.png" srcset="../images/timepicker_styling@2x.png 2x" />
 

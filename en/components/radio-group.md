@@ -45,7 +45,7 @@ Each Radio element in the group supports **on** and off selection states.
 
 ## Styling
 
-The Radio Group comes with styling flexibility through the various overrides for each item's label style and color.
+The Radio Group comes with styling flexibility through the various options for each item's label style and color.
 
 <img class="responsive-img" src="../images/radiogroup_styling.png" srcset="../images/radiogroup_styling@2x.png 2x" />
 

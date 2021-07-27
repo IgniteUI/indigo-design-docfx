@@ -55,7 +55,7 @@ Ticks and Values are also configurable. The two types of ticks: Ticks and Minor 
 
 ## Styling
 
-The Linear Gauge comes with styling flexibility through the various overrides controlling a selection of brushes including Value Brush, Target Value Brush, Tick Brush, Minor Tick Brush, and a collection of Range Brushes.
+The Linear Gauge comes with styling flexibility through the various options controlling a selection of brushes including Value Brush, Target Value Brush, Tick Brush, Minor Tick Brush, and a collection of Range Brushes.
 
 <img class="responsive-img" src="../images/linear_gauge_styling.png" srcset="../images/linear_gauge_styling@2x.png 2x" />
 

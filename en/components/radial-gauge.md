@@ -53,7 +53,7 @@ The Radial Gauge comes with three preset range configurations: **two**, three, a
 
 ## Styling
 
-The Radial Gauge comes with styling flexibility through the various overrides controlling the background color and a selection of brushes including Needle Brush, a collection of Range Brushes, as well as Tick Brush and Minor Tick Brush that are available only for inside and outside dial types.
+The Radial Gauge comes with styling flexibility through the various options controlling the background color and a selection of brushes including Needle Brush, a collection of Range Brushes, as well as Tick Brush and Minor Tick Brush that are available only for inside and outside dial types.
 
 <img class="responsive-img" src="../images/radial_gauge_styling.png" srcset="../images/radial_gauge_styling@2x.png 2x" />
 
