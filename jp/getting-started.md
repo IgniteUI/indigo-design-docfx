@@ -10,7 +10,7 @@ _language: ja
 Indigo.Design は、ビジュアル デザイン、UX プロトタイプ、コード生成、アプリケーション開発のためのプラットフォームです。UX にフォーカスしてアプリケーションをすばやく公開したいデザインチームと開発チームに最適な製品です。
 
 > [!NOTE]
-><b>Indigo.Design platform consists of three main modules - Prototypes, Usability Studies and App Builder. While Prototypes and Usability Studies help you measure and improve the user experience of a product or feature, the App Builder enables users build their own single page application in a web environment and generate Angular code from it.
+><b>Indigo.Design プラットフォームは、プロトタイプ、ユーサビリティ テスト、App Builder の 3 つの主要モジュールで構成されています。プロトタイプとユーサビリティ テストは、製品または機能のユーザー エクスペリエンスの測定と改善に役立ちますが、App Builder を使用すると、ユーザーは Web 環境で独自のシングル ページ アプリケーションを構築し、そこから Angular コードを生成できます。
 
 ## 手順
 
@@ -20,12 +20,12 @@ Indigo.Design はデザインから開発までのワークフローをサポー
 
 1.  Sketch または Adobe XD で `Indigo.Design システム` を使用してデザインを作成
 2.  プロトタイプを共有し、`cloud.indigo.design` でユーザーとテストしてコラボレーション
-3. Design your app in `Indigo.Design App Builder` using a Sketch or Adobe XD file or directly using the visual application builder
-4. Generate Angular code from your application in the Indigo.Design App Builder, using the its `Code Generation` service. 
+3. Sketch または Adobe XD ファイルを使用するか、ビジュアル アプリケーション ビルダーを直接使用して、`Indigo.Design AppBuilder` でアプリをデザインします。
+4. `Code Generation` サービスを使用して、Indigo.Design App Builder でアプリケーションを実行します。 
 
 ### 1. Indigo.Design システム
 
-The design system is a library for Sketch and Adobe XD that contains various assets, styles, components, and patterns. Тhe UI components allow you to create intricate user interfaces providing you with the flexibility to use various states and templates. To customize their appearance you may leverage the pre-made palettes, typographies, shadows, icons, and illustrations. And finally, with the provided collection of patterns, such as product details layouts, various forms, and pricing tables among others, you are able to streamline app design assuring the application of best practices in UI and interaction design.
+デザイン システムは、さまざまなアセット、スタイル、コンポーネント、およびパターンを含む Sketch および Adobe XD 用のライブラリです。UI コンポーネントを使用すると、複雑なユーザー インターフェイスを作成して、さまざまな状態やテンプレートを柔軟に使用できます。それらの外観をカスタマイズするには、事前に作成されたパレット、タイポグラフィ、シャドウ、アイコン、およびイラストを活用できます。そして最後に、製品の詳細レイアウト、さまざまなフォーム、価格表などの提供されたパターンのコレクションを使用して、アプリのデザインを効率化し、UI とインタラクション デザインのベスト プラクティスの適用を保証できます。
 
 関連トピック:
 * [はじめての Sketch アートボードの作成](creating-artboard-sketch.md)
@@ -45,19 +45,19 @@ The design system is a library for Sketch and Adobe XD that contains various ass
 [ユーザー テストの作成](prototyping/set-up-a-user-test.md)
 
 
-### 3. Design and generate code from an application in Indigo.Design App Builder
+### 3. Indigo.Design App Builder でアプリケーションからコードをデザインおよび生成します。
 
-The App Builder module lets you design a single page application using a design file (Sketch or Adobe XD) as a starting point or create it from skratch. The App Builder includes a set of major features, enabling users to use real UI components, global themeing, external data sources.
+App Builder モジュールを使用すると、デザイン ファイル (Sketch または Adobe XD) を使用してシングル ページ アプリケーションをデザインしたり、最初から作成したりできます。App Builder には一連の主要な機能が含まれており、ユーザーは実際の UI コンポーネント、グローバル テーマ、外部データ ソースを使用できます。
 
 関連トピック:
 [App Builder でアプリケーションを作成](appbuilder.md)
 
 
-### 4. Generate Code for Angular Apps
+### 4. Angular アプリケーションのコードを生成
 
-Once ready with the design of your application in Indigo.Design App Builder, you can easily generate Angular code from it. The generated code can be directly uploaded to a repository in GitHub or downloaded locally as a file package. The components used in the generated application are powered by[Ignite UI for Angular UI framework](https://jp.infragistics.com/products/ignite-ui-angular)
+Indigo.Design App Builder でアプリケーションのデザインの準備ができたら、そこから Angular コードを簡単に生成できます。生成されたコードは、GitHub のリポジトリに直接アップロードすることも、ファイル パッケージとしてローカルにダウンロードすることもできます。生成されたアプリケーションで使用されるコンポーネントは、[Ignite UI for Angular UI フレームワーク](https://jp.infragistics.com/products/ignite-ui-angular)を利用しています。
 
-You can also generate code for Angular apps directly from published prototypes in Indigo.Design cloud. To do this, you will need a share URL for the prototype, and use the Indigo.Design code generator. The code generator is available as an extension for VS code, and it generate code using the [Ignite UI for Angular UI framework](https://jp.infragistics.com/products/ignite-ui-angular).
+Indigo.Design クラウドで公開されたプロトタイプから直接 Angular アプリのコードを生成することもできます。これを行うには、プロトタイプの共有 URL が必要であり、Indigo.Design コード ジェネレーターを使用します。コード ジェネレーターは VS Code の拡張機能として利用でき、[Ignite UI for Angular UI フレームワーク](https://jp.infragistics.com/products/ignite-ui-angular)を使用してコードを生成します。
 
 関連トピック:
 [Indigo.Design App Builder のアプリケーションからコードを生成](appbuilder/generate-app.md)

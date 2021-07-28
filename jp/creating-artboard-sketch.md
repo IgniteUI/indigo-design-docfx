@@ -6,7 +6,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 
 # Sketch ではじめてのアートボードを作成
 
-このトピックは、**Indigo.Design システム**を使用して登録画面の Sketch アートボードを作成する方法を紹介します。If you use Adobe XD for design then jump to [this topic](creating-artboard-adobexd.md).
+このトピックは、**Indigo.Design システム**を使用して登録画面の Sketch アートボードを作成する方法を紹介します。デザインに Adobe XD を使用している場合は、[このトピック](creating-artboard-adobexd.md)をご覧ください。
 
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/getting-started-sketch7.png" srcset="images/getting-started-sketch7@2x.png 2x" />
@@ -159,7 +159,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
     2.  前の手順で作成したものと、お互いに 16px の垂直間隔になるように下に配置します。
     3.  幅全体に引き伸ばし、両方の側に 16px スペースを設定します。
     4.  [Overrides] セクションで、[Label] を「Username」および「Password」に設定し、Input Text を「Leaellynasaura」および \*\*\*\*\*\*\*\*\*\*\*\* に設定します。
-    5.  While there also set the Password input's Content Type to Password.
+    5.  その際、[Password] 入力の [Content Type] も「Password」に設定します。
 
     <div class="divider--half"></div>
     <img class="responsive-img" src="images/getting-started-sketch5.png" srcset="images/getting-started-sketch5@2x.png 2x" />
