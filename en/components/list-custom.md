@@ -19,9 +19,9 @@ The Custom List Item supports the following interactive states: **inactive** for
 <img class="responsive-img" src="../images/list_item_custom_inactive.png" srcset="../images/list_item_custom_inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_custom_active.png" srcset="../images/list_item_custom_active@2x.png 2x" />
 
-## Detach from Symbol
+## Using the Custom List Item in Sketch
 
-In order to customize List Item layouts, start by dragging a `List/Custom/Item` to your artboard, right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu in Sketch. In your layers panel under the newly appeared _List/Custom/Item_ group, you should see the following:
+In order to customize List Item layouts, start by dragging a `List/Custom/Item` to your artboard, right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared _List/Custom/Item_ group, you should see the following:
 
 | Layer                    | Use                                                                                                                                                  |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -30,8 +30,9 @@ In order to customize List Item layouts, start by dragging a `List/Custom/Item` 
 | 💡Secondary Action Group | Groups together the Secondary Action layout elements                                                                                                 |
 | 💡State                  | Contains the item Background and defines whether the List Item is in an active or inactive state                                                     |
 
-> [!WARNING]
-> `Detach from Symbol` is only applicable to Sketch and destroying the symbol is not necessary in Adobe XD.
+## Using the Custom List Item in Adobe XD
+
+In Adobe XD, to customize List Item layouts, you just have to drag a `List/Custom/Item` to your artboard. Unlike in Sketch in Adobe XD destroying the symbol is not necessary.
 
 ### Styling
 
@@ -41,7 +42,7 @@ The Custom List Item has high-level styling flexibility similar to the normal Li
 
 ### Layout
 
-So, let's see how we can create an intricate layout for the product List Item above in three simple steps. Once we have dragged in a Custom List Item in an empty Artboard, selected the `Detach from Symbol`, and applied the basic styling available by changing the background color inside the state, we should have something like this for a starting point.
+So, let's see how we can create an intricate layout for the product List Item above in three simple steps. Once we have dragged in a Custom List Item in an empty Artboard, selected the `Detach from Symbol` (only in Sketch), and applied the basic styling available by changing the background color inside the state, we should have something like this for a starting point.
 
 <img class="responsive-img" src="../images/list_item_custom_layout0.png" srcset="../images/list_item_custom_layout0@2x.png 2x" />
 

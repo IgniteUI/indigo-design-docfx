@@ -79,9 +79,9 @@ The List and List Items have their own design specifics, but most importantly, o
 | <img class="responsive-img" src="../images/list_do2.png" srcset="../images/list_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/list_dont2.png" srcset="../images/list_dont2@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/list_do3.png" srcset="../images/list_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/list_dont3.png" srcset="../images/list_dont3@2x.png 2x" /> |
 
-## Detach from Symbol
+## Using the List in Sketch
 
-The List is essentially a repeater of rows showing data as an indexed vertical collection of items. If you need to design a list with more items, the easiest way to do so is by inserting any of the List types on your artboard, right-click on top of it, and select the `Detach from Symbol` at the bottom of the contextual menu in Sketch. In your layers panel under the newly appeared _List/One-line Item List_ or _List/Two-line Item List_ group, you should see the following:
+The List is essentially a repeater of rows showing data as an indexed vertical collection of items. If you need to design a list with more items, the easiest way to do so is by inserting any of the List types on your artboard, right-click on top of it, and select the `Detach from Symbol` at the bottom of the contextual menu. In your layers panel under the newly appeared _List/One-line Item List_ or _List/Two-line Item List_ group, you should see the following:
 
 | Layer         | Use                                                                                                                                                  |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -99,10 +99,11 @@ The List is essentially a repeater of rows showing data as an indexed vertical c
 | 10 Item        | An instance of a one-line/two-line list item                                                                                                                  |
 | 🌈 Background | Defines the background color of the list                                                                                                             |
 
-Now, you may insert additional headers or items either from the Sketch menu or simply by duplicating an existing one. Always place items and headers one after another with consistent horizontal width and alignment, making sure there are no gaps between the items.
+Now, you may insert additional headers or items either from the menu or simply by duplicating an existing one. Always place items and headers one after another with consistent horizontal width and alignment, making sure there are no gaps between the items.
 
-> [!WARNING]
-> `Detach from Symbol` is only applicable to Sketch and destroying the symbol is not necessary in Adobe XD.
+## Using the List in Adobe XD
+
+In Adobe XD, after you drag one of the two List types on your artboard, if you need, you may insert additional headers or items simply by duplicating an existing one. We use the `Stack` and `Padding`, so when you add or remove list items, they align and distribute vertically automatically. To change an item's position in the list, you need to move its layer in the layers panel. Unlike in Sketch in Adobe XD destroying the symbol is not necessary.
 
 ## Additional Resources
 
