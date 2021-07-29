@@ -5,9 +5,9 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-# Creating Your First Artboard in Adobe XD
+# Adobe XD で最初のアートボードを作成する
 
-At the end of this topic you'll have an Adobe XD Artboard for a registration screen using the **Indigo.Design System**. If you use Sketch for design then jump to [this topic](creating-artboard-sketch.md).
+このトピックの最後に、**Indigo.Design システム**を使用した登録画面用の Adobe XD アートボードがあります。デザインに Sketch を使用する場合は、[このトピック](creating-artboard-sketch.md)をご覧ください。
 
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/getting-startedxd7.png" srcset="images/getting-startedxd7@2x.png 2x" />
@@ -17,25 +17,25 @@ At the end of this topic you'll have an Adobe XD Artboard for a registration scr
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 
-## What you need
+## 前提条件
 
-If the [Titillium Web Font][1] isn't installed on your computer, please do it before starting. All texts in the **Indigo.Design System** use it.
+[Titillium Web Font][1] がコンピューターにインストールされていない場合は、開始する前にインストールしてください。**Indigo.Design システム**のすべてのテキストがそのフォントを使用します。
 
-## Step by step
+## 詳細手順
 
-### 1. Add the **Indigo.Design System** in Adobe XD.
+### 1. Adobe XD に **Indigo.Design システム**を追加します。
 
-1.  Download the [**Indigo.Design System**](https://cloud.indigo.design/home).
+1.  [**Indigo.Design システム**](https://cloud.indigo.design/home)をダウンロードします。
 
-    It contains an Adobe XD file with 63 Artboards organized in three columns:
+    これには、63 個のアートボードが 3 列に編成された Adobe XD ファイルが含まれています。
 
-    - To the left you will find 5 artboards, prefixed with a 🎨 emoji, related to styling. They contain assets such as icons, colors and color palettes, typographies, elevations, and illustrations.
+    - 左側には、スタイリングに関連する 🎨 絵文字が前に付いた 5 つのアートボードがあります。アイコン、色、カラー パレット、タイポグラフィ、エレベーション、イラストレーションなどのアセットが含まれています。
 
-    - In the middle you will find 39 artboards, prefixed with a 🧩 emoji, with more than 50 components to layout your design ideas. Through various presets available as `Components` in Adobe XD and overrides that you can drag and drop over layers in your canvas, e.g. to change the variant of a component from dark to light, you can create layouts compatible with Ignite UI for Angular. Furthermore, through the use of `Component States` and `Stacks` natively supported in Adobe XD you can add a sense of interaction and achieve the degree of templating also available in Ignite UI for Angular.
+    - その中には、絵文字が前に付いた 39 のアートボードがあり、デザインのアイデアをレイアウトするための 50 を超えるコンポーネントがあります。Adobe XD の `Components` として利用可能なさまざまなプリセットと、キャンバス内のレイヤー上にドラッグアンドドロップできるオーバーライドを使用して、たとえば、コンポーネントのバリアントを暗い色から明るい色に変更することで、Ignite UI for Angular と互換性のあるレイアウトを作成できます。さらに、Adobe XD でネイティブにサポートされている `Component States` と `Stacks` を使用することで、インタラクションの感覚を追加し、Ignite UI for Angular でも利用できるテンプレートの程度を実現できます。
 
-    - To the right you will find 19 artboards, prefixed with a 🌆 emoji, with a couple of hundred patterns laid out from the components to streamline your app design process.
+    - 右側には、🌆 絵文字が前に付いた 19 個のアートボードがあり、アプリのデザイン プロセスを効率化するために、コンポーネントから数百のパターンがレイアウトされています。
 
-2.  Upon toggling the Libraries panel you will notice that all the styles and components outlined above will appear as `Document Assets`.
+2.  [Libraries] パネルを切り替えると、上記で概説したすべてのスタイルとコンポーネントが `Document Assets` として表示されます。
 
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/Creating_An_Artboard_XD2.png" srcset="images/Creating_An_Artboard_XD2@2x.png 2x" />
@@ -45,19 +45,19 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 
-If this is the first time you are using styles and components in Adobe XD, you can switch between `Libraries` and `Layers` from the icon menu at the bottom left of the application.
+Adobe XD でスタイルとコンポーネントを初めて使用する場合は、アプリケーションの左下にあるアイコン メニューから `Libraries` と `Layers` を切り替えることができます。
 
 <img class="responsive-img" src="images/Creating_An_Artboard_XD1.png" srcset="images/Creating_An_Artboard_XD1@2x.png 2x" />
 
-3.  To the right of the `Document Assets` title you will notice an upload-like icon that takes you to the `Publish as a Library` dialog.
+3.  `Document Assets` のタイトルの右側に、`Publish as a Library` ダイアログに移動するアップロードのようなアイコンが表示されます。
 
 <img class="responsive-img" src="images/Creating_An_Artboard_XD3.png" srcset="images/Creating_An_Artboard_XD3@2x.png 2x" />
 
-4.  Under `Current File` you will see Indigo.Design and all you need to do is click on the **Publish** button to the right. It takes a while for this process to complete for all the goodies we have prepared for you, but the wait will be totally worth it.
+4.  `Current File` の下に Indigo.Design が表示され、右側の **[Publish]** ボタンをクリックするだけです。準備したすべての良いもののためにこのプロセスが完了するまでにはしばらく時間がかかりますが、待つことには価値があります。
 
-### 2. Create an artboard.
+### 2．アートボードの作成
 
-Open Adobe XD and select an iPhone 12 Pro Max. This will give you a new file with one Artboard in the middle in portrait orientation (428x926). Lastly, from the panel on the right you may want to turn on the `Responsive Resize` option that will show you how the Artboard contents behave if it gets resized.
+Adobe XD を開き、iPhone 12 ProMax を選択します。これにより、縦向き (428x926) の中央に 1 つのアートボードがある新しいファイルが作成されます。最後に、右側のパネルから、`Responsive Resize` オプションをオンにして、アートボードのコンテンツがサイズ変更された場合の動作を表示することができます。
 
   <div class="divider--half"></div>
   <img class="responsive-img" src="images/getting-started-xd-artboard.png" srcset="images/getting-started-xd-artboard@2x.png 2x" />
@@ -67,19 +67,19 @@ Open Adobe XD and select an iPhone 12 Pro Max. This will give you a new file wit
   <div class="divider--half"></div>
   <div class="divider--half"></div>
 
-### 3. Add and customize components.
+### 3．コンポーネントを追加してカスタマイズします。
 
-We will use the `Libraries` panel to add components from the Indigo Design Library. For some of them we will set appropriate States from the panel on the right, and apply `Colors` and `Character Styles` from the `Libraries` panel to customize their appearance. Everytime you create a new file, you have to open the `Libraries` panel and click on the back icon next to `Document Assets` to be able to select Indigo.Design and use it as a library.
+`Libraries` パネルを使用して、Indigo Design ライブラリからコンポーネントを追加します。それらのいくつかについては、右側のパネルから適切な States を設定し、`Libraries` パネルから `Colors` と `Character Styles` を適用して外観をカスタマイズします。新しいファイルを作成するたびに、`Libraries` パネルを開き、`Document Assets` の横にある戻るアイコンをクリックして、Indigo.Design を選択し、ライブラリとして使用できるようにする必要があります。
 
-These are the steps to recreate the screen in the example.
+これは例の画面を作成する手順です。
 
-1.  **Add the Navbar.**
+1.  **Navbar を追加します。**
 
-    1.  Use the searchbox in the `Libraries` panel to find the Elevated variant of the Navbar.
-    2.  Place it at the top of the artboard and stretch it to take up all the width available.
-    3.  Now switch the left panel to show `Layers` and expand the component by clicking on the link icon to the left of its layer name.
-    4.  Under Left Group there is another group called Left Action which we will delete and we will do the same for 1 | Icon, 2 | Icon, and 3 | Icon under Right Group.
-    5.  Select the Title, hit enter and type in "Sign Up".
+    1.  `Libraries` パネルの検索ボックスを使用して、Navbar の Elevated バリアントを見つけます。
+    2.  アートボードの上側に配置し、すべての利用可能な幅に合わせるために引き伸ばします。
+    3.  次に、左側のパネルを切り替えて `Layers` を表示し、レイヤー名の左側にあるリンク アイコンをクリックしてコンポーネントを展開します。
+    4.  Left Group の下に、削除する Left Action と呼ばれる別のグループがあり、Right Group の下の 1 | Icon、2 | Icon、および 3 | Icon に対して同じことを行います。
+    5.  Title を選択し、Enter キーを押して、「Sign Up」と入力します。
 
     <div class="divider--half"></div>
     <img class="responsive-img" src="images/getting-startedxd0.png" srcset="images/getting-startedxd0@2x.png 2x" />
@@ -89,8 +89,8 @@ These are the steps to recreate the screen in the example.
     <div class="divider--half"></div>
     <div class="divider--half"></div>
 
-2.  **Add the background color.**  
-     Press the `R` key and drag а rectangular shape, making sure it's sized accordingly to fill the available area below the Navbar and is also under it as a layer. With the rectangle selected change the left panel to show `Libraries` and click the primary.100 color. You will notice that the default outline is still there so we need to untick the `Border` under `Appearance` in the panel on the right.
+2.  **背景色を追加します。** 
+     `R` キーを押して長方形をドラッグします。ナビゲーション バーの下の利用可能な領域を塗りつぶすようにサイズ変更され、その下にレイヤーとして配置されます。長方形を選択した状態で、左側のパネルを変更して `Libraries` を表示し、primary.100 の色をクリックします。デフォルトのアウトラインがまだ残っているので、右側のパネルの `Appearance` の下にある `Border` のチェックを外す必要があります。
 
     <div class="divider--half"></div>
     <img class="responsive-img" src="images/getting-startedxd1.png" srcset="images/getting-startedxd1@2x.png 2x" />
@@ -100,10 +100,10 @@ These are the steps to recreate the screen in the example.
     <div class="divider--half"></div>
     <div class="divider--half"></div>
 
-3.  **Add the background for the form.**
+3.  **フォームの背景を追加します。**
 
-    1.  Press the `R` key again and drag а rectangular shape with size 280x385.
-    2.  Remove the border color like we did before and position it in the center of the artboard.
+    1.  もう一度 `R` キーを押して、サイズ 280x385 の長方形をドラッグします。
+    2.  以前と同じように境界線の色を削除し、アートボードの中央に配置します。
 
     <div class="divider--half"></div>
     <img class="responsive-img" src="images/getting-startedxd2.png" srcset="images/getting-startedxd2@2x.png 2x" />
@@ -113,11 +113,11 @@ These are the steps to recreate the screen in the example.
     <div class="divider--half"></div>
     <div class="divider--half"></div>
 
-4.  **Add the title of the form.**
+4.  **フォームのタイトルを追加します。**
 
-    1.  Press the `T` key to add a text element on top of the white rectangle and type "Start Budgeting" in it.
-    2.  With the text layer selected scroll down in the `Libraries` panel to the `Character Styles` and click on Heading H4 - 34pt.
-    3.  Place it at the top of the white rectangle, with 16px spacing on the top.
+    1.  `T` キーを押して白い長方形の上にテキスト要素を追加し、「Start Budgeting」と入力します。
+    2.  テキス トレイヤーを選択した状態で、`Libraries` パネルを下にスクロールして `Character Styles` を表示し、Heading H4 - 34pt をクリックします。
+    3.  白い長方形の上に配置します。上に 16px スペースを設定します。
 
     <div class="divider--half"></div>
     <img class="responsive-img" src="images/getting-startedxd3.png" srcset="images/getting-startedxd3@2x.png 2x" />
@@ -127,17 +127,17 @@ These are the steps to recreate the screen in the example.
     <div class="divider--half"></div>
     <div class="divider--half"></div>
 
-5.  **Add the inputs for first and last name.**
+5.  **姓名の入力を追加します。**
 
-    1.  Use the searchbox to find the Simple / Line / Enabled variant of the Input. Drag it below the form title, we just created, making sure you pick the right component, not the one prefixed with _Overrides!
-    2.  From the `Component (Instance)` section in the right panel select Filled State.
-    3.  Expand the layer like we did for the Navbar and delete the Prefix Container and the Suffix Container.
-    4.  Set the Label to "First Name", and the Value to "Eliza".
-    5.  Place it below the title. Leave 16px on the left and top.
-    6.  Set its width to 116px.
-    7.  Duplicate this input.
-    8.  Place the new one to the right of the first one, with 16px spacing between the two.
-    9.  Set its Label to "Last Name", and Value to "Morales".
+    1.  検索ボックスを使用して、入力の Simple / Line / Enabled バリアントを見つけます。作成したフォームのタイトルの下にドラッグします。接頭辞が _Overrides のコンポーネントではなく、適切なコンポーネントを選択してください。
+    2.  右側のパネルの `Component (Instance)` セクションから、Filled State を選択します。
+    3.  Navbar の場合と同じようにレイヤーを展開し、Prefix Container と Suffix Container を削除します。
+    4.  Label を「First Name」に設定し、Value を「Eliza」に設定します。
+    5.  タイトルの下に配置します。左上に 16px を設定します。
+    6.  幅を 116px に設定します。
+    7.  この入力を複製します。
+    8.  新しい入力を元の入力に配置し、その間に 16px を設定します。
+    9.  Label を「Last Name」に設定し、Value を「Morales」に設定します。
 
     <div class="divider--half"></div>
     <img class="responsive-img" src="images/getting-startedxd4.png" srcset="images/getting-startedxd4@2x.png 2x" />
@@ -147,13 +147,13 @@ These are the steps to recreate the screen in the example.
     <div class="divider--half"></div>
     <div class="divider--half"></div>
 
-6.  **Add the inputs for user name and password.**
+6.  **ユーザー名およびパスワードの入力を追加します。**
 
-    1.  Duplicate one of the Name inputs twice to create two more inputs for Username and Password.
-    2.  Place them one under the other with a vertical spacing of 16px between each other and to the ones from the previous step.
-    3.  Stretch them across the full width with 16px spacing on both sides.
-    4.  Set their Labels to "Username" and "Password" and their Values to "Leaellynasaura" and "\*\*\*\*\*\*\*\*\*\*\*\*".
-    5.  Select the hidden ContentType layer of the Password input and change its state to Password.
+    1.  Name 入力の 1 つを 2 回複製して、Username と Password の入力を作成します。
+    2.  前の手順で作成したものと、お互いに 16px の垂直間隔になるように下に配置します。
+    3.  幅全体に引き伸ばし、両方の側に 16px スペースを設定します。
+    4.  ラベルを「Username」と「Password」に設定し、値を「Leaellynasaura」と「\*\*\*\*\*\*\*\*\*\*\*\*」に設定します。
+    5.  Password 入力の非表示の ContentType レイヤーを選択し、その状態を Password に変更します。
 
     <div class="divider--half"></div>
     <img class="responsive-img" src="images/getting-startedxd5.png" srcset="images/getting-startedxd5@2x.png 2x" />
@@ -163,13 +163,13 @@ These are the steps to recreate the screen in the example.
     <div class="divider--half"></div>
     <div class="divider--half"></div>
 
-7.  **Add the sign up button.**
+7.  **サインアップ ボタンを追加します。**
 
-    1.  Change the left panel to `Libraries` and look for a Raised Button.
-    2.  Drag it below the inputs, making sure you pick the right component, not the one prefixed with _Overrides, and stretch it across the full width leaving 16px on the left, right, and from the inputs above.
-    3.  Switching back to `Layers`, expand the component, delete its icon and set the Label to "SIGN UP".
-    4.  Select the Group wrapping the Label and position it in the middle of the Button.
-    5.  Switch again to `Libraries` to give the label a surface color and set the Background to info color.
+    1.  左側のパネルを `Libraries` に変更し、Raised Button を探します。
+    2.  入力の下にドラッグし、接頭辞が _Overrides のコンポーネントではなく、正しいコンポーネントを選択していることを確認し、それを全幅に伸ばして、左、右、および上の入力から 16px を残します。
+    3.  `Layers` に戻り、コンポーネントを展開し、アイコンを削除して、ラベルを「SIGN UP」に設定します。
+    4.  Label をラップしている Group を選択し、Button の中央に配置します。
+    5.  再度 `Libraries` に切り替えて、ラベルに表面の色を付け、Background を info の色に設定します。
 
     <div class="divider--half"></div>
     <img class="responsive-img" src="images/getting-startedxd6.png" srcset="images/getting-startedxd6@2x.png 2x" />
@@ -179,11 +179,11 @@ These are the steps to recreate the screen in the example.
     <div class="divider--half"></div>
     <div class="divider--half"></div>
 
-8.  **Add the terms acceptance text.**
+8.  **同意テキストを追加します。**
 
-    1.  Press the `T` key to add another text element below the button and type "By clicking on the "SIGN UP" button above, you accept our Terms of Use" in it.
-    2.  Assign a Caption - 12pt Character Style to it and give it a grays.700 Color.
-    3.  From the right panel set the Text to Auto Height and change the layer size so that there is a 16px spacing on the left, right and above.
+    1.  `T` キーを押してボタンの下に別のテキスト要素を追加し、「By clicking on the "SIGN UP" button above, you accept our Terms of Use」と入力します。
+    2.  キャプション 12pt の文字スタイルを割り当て、grays.700 の色を付けます。
+    3.  右側のパネルで、Text を Auto Height に設定し、レイヤー サイズを変更して、左右と上部から 16px を残します。
 
     <div class="divider--half"></div>
     <img class="responsive-img" src="images/getting-startedxd7.png" srcset="images/getting-startedxd7@2x.png 2x" />
@@ -193,23 +193,23 @@ These are the steps to recreate the screen in the example.
     <div class="divider--half"></div>
     <div class="divider--half"></div>
 
-9.  **Make the artboard responsive.**
+9.  **アートボードをレスポンシブに設定します。**
 
-Select the text layers, inputs, button and white rectangle, and group them. The automatic Responsive Layout for this group is enough to assure the expected responsive design behavior. 
+テキスト レイヤー、入力、ボタンおよび白い長方形ーを選択してグループ化します。このグループの自動 Responsive Layout は、期待されるレスポンシブ デザインの動作を保証するのに十分です。
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
-- [Creating Your First Artboard in Sketch](creating-artboard-sketch.md)
+- [Sketch ではじめてのアートボードを作成](creating-artboard-sketch.md)
 - [Button](components/button.md)
 - [Input](components/input.md)
 - [Navbar](components/navbar.md)
 - [Text](components/text.md)
-- [Styling](style/styling-overview.md)
+- [スタイル設定](style/styling-overview.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
 
 
 
