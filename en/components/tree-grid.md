@@ -42,7 +42,7 @@ The TreeColumn cell supports three display density variants of the Tree Grid: co
 
 ## Cell Depth
 
-The Tree Grid TreeColumn cell provides a visual indication for the level of the data hierarchy via the `Level` override, which can be set to **Root Level**, Child Level or Grandchild Level.
+The Tree Grid TreeColumn cell provides a visual indication for the level of the data hierarchy via the `Level` override, which can be set to **Root Level**, Child Level or Grandchild Level. In Sketch, to switch between them is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm.
 
 <img class="responsive-img" src="../images/tree_grid_cell_body_root_level.png" srcset="../images/tree_grid_cell_body_root_level@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_cell_body_child_level.png" srcset="../images/tree_grid_cell_body_child_level@2x.png 2x" />

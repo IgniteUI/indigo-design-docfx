@@ -54,7 +54,7 @@ When the user interacts with the Combo, its input goes through various selection
 <img class="responsive-img" src="../images/combo_filled.png" srcset="../images/combo_filled@2x.png 2x" />
 `filled`
 
-Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Combo is consistent with the standard [Input](input.md) and equipped for sophisticated designs that display success, warning, and error visuals.
+Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Combo is consistent with the standard [Input](input.md) and equipped for sophisticated designs that display success, warning, and error visuals. In Sketch, the states and visuals are achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
 
 <img class="responsive-img" src="../images/combo_success.png" srcset="../images/combo_success@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_warning.png" srcset="../images/combo_warning@2x.png 2x" />

@@ -14,13 +14,13 @@ Use the Grid Advanced Filter to specify advanced filtering criteria spanning ove
 
 ## Advanced Filter Feature
 
-The Grid has three `Advanced Filtering` symbols under `Features`, one for each Display Density, that represent the overlay shown over the Grid.
+The Grid has three `Advanced Filtering` symbols under `Features`, one for each Display Density, that represent the overlay shown over the Grid. In Adobe XD you can switch between display densities through the `Component States`.
 
 <img class="responsive-img" src="../images/grid_advanced_filter_display_density.png" srcset="../images/grid_advanced_filter_display_density@2x.png 2x" />
 
 ## Filter Expression State
 
-The Advanced Filter feature comes with an **Empty Filter** Expression by default that can be changed to Applied Filter if necessary and then customized further to specify desired filtering criteria.
+The Advanced Filter feature comes with an **Empty Filter** Expression by default that can be changed to Applied Filter if necessary and then customized further to specify desired filtering criteria. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
 <img class="responsive-img" src="../images/grid_advanced_filter_expression.png" srcset="../images/grid_advanced_filter_expression@2x.png 2x" />
 

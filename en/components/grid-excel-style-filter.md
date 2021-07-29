@@ -14,11 +14,11 @@ Use the Grid Excel Style Filter to let the user specify a set of Grid features o
 
 ## Header Cell
 
-In order to indicate that a column has an active Excel Style Filter (the overlay for it is visible) you first need to set the `Feature Left` or `Feature Right` override to `Filtering` and then configure the next override in the panel `Filter State` to `Filtering/Active`. If you want to indicate that a column has Excel Style Filtering enabled you can use either the `Filtering/Inactive` state indicating that no filtering conditions are applied on this column, or the `Filtering/Filtered` state indicating that filtering conditions have been applied and the overlay for the column has been closed.
+In order to indicate that a column has an active Excel Style Filter (the overlay for it is visible) you first need to set the `Feature Left` or `Feature Right` override to `Filtering` and then configure the next override in the panel `Filter State` to `Filtering/Active`. If you want to indicate that a column has Excel Style Filtering enabled you can use either the `Filtering/Inactive` state indicating that no filtering conditions are applied on this column, or the `Filtering/Filtered` state indicating that filtering conditions have been applied and the overlay for the column has been closed. In Sketch, to switch between states is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm.
 
 ## Excel Style Filter Feature
 
-The Grid has three `Excel Style Filter` symbols under `Features`, one for each Display Density, that represent the overlay shown for the affected column. Adding this symbol has only a visual effect on your design to make it more realistic, if you want to switch the Excel Style Filter feature, configure the Header Cells accordingly.
+The Grid has three `Excel Style Filter` symbols under `Features`, one for each Display Density, that represent the overlay shown for the affected column. In Adobe XD we are using the `Component States` paradigm to let you easily switch between them. Adding this symbol has only a visual effect on your design to make it more realistic, if you want to switch the Excel Style Filter feature, configure the Header Cells accordingly.
 
 <img class="responsive-img" src="../images/grid_excel_style_filter_densities.png" srcset="../images/grid_excel_style_filter_densities@2x.png 2x" />
 

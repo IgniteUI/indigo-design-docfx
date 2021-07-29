@@ -18,7 +18,7 @@ In order to indicate that a Grid is filterable via a Row Filter, add a second He
 
 ## Filter State
 
-The Row Filter Header Cells come with a `Filter State` override that lets you configure whether a filtering condition has been applied on a given column when set to Filtered or no filtering condition is applied, which also happens to be the default state **Empty**.
+The Row Filter Header Cells come with a `Filter State` override that lets you configure whether a filtering condition has been applied on a given column when set to Filtered or no filtering condition is applied, which also happens to be the default state **Empty**. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
 ## Additional Resources
 

@@ -26,7 +26,7 @@ The Slider offers a variant with one thumb for selecting a single value and with
 
 ## State
 
-The Slider supports **enabled** and disabled states, reflecting the possibility to change the value(s).
+The Slider supports **enabled** and disabled states, reflecting the possibility to change the value(s). In Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
 <img class="responsive-img" src="../images/slider_enabled.png" srcset="../images/slider_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/slider_disabled.png" srcset="../images/slider_disabled@2x.png 2x" />

@@ -27,14 +27,14 @@ The Switch can be used styled in **dark** and light variants to assure good read
 
 ## Layout Template
 
-The Switch supports a label position where the Switch label is placed before or after the Switch element.
+In Sketch, the Switch supports label position variants where the Switch label is placed after or before the Switch element. In Adobe XD, we are using Stacks to allow you to change the label and switch positions at design time.
 
 <img class="responsive-img" src="../images/switch_label-before.png" srcset="../images/switch_label-before@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_label-after.png" srcset="../images/switch_label-after@2x.png 2x" />
 
 ## State
 
-The Switch provides **on** and off selection states.
+The Switch provides **on** and off selection states. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
 <img class="responsive-img" src="../images/switch_on.png" srcset="../images/switch_on@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_on_disabled.png" srcset="../images/switch_on_disabled@2x.png 2x" />

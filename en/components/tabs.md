@@ -44,7 +44,7 @@ The short bar comes with text content by default and if you want to show an icon
 
 ## Tab Item State
 
-Tab items support Active, Inactive and Disabled states. In Tabs there is always one Active tab and an arbitrary number of Inactive and Disabled ones.
+Tab items support Active, Inactive and Disabled states. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In Tabs there is always one Active tab and an arbitrary number of Inactive and Disabled ones.
 
 <img class="responsive-img" src="../images/tabs_state.png" srcset="../images/tabs_state@2x.png 2x" />
 

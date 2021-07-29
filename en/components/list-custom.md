@@ -14,7 +14,7 @@ Use the Custom List Item Component to display the same type of information that 
 
 ## State
 
-The Custom List Item supports the following interactive states: **inactive** for the normal state and active for the selected state.
+The Custom List Item supports the following interactive states: **inactive** for the normal state and active for the selected state. To switch between states is achieved with `Symbol Overrides`.
 
 <img class="responsive-img" src="../images/list_item_custom_inactive.png" srcset="../images/list_item_custom_inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_custom_active.png" srcset="../images/list_item_custom_active@2x.png 2x" />
