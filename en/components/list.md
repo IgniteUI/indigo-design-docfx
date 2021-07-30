@@ -14,7 +14,7 @@ Use the List Component to let the user browse and interact with a continuous, ve
 
 ## Type
 
-The List can be inserted in a preset with one-line items or with two-line items, both initially containing ten items. The List uses Smart Layout in Sketch for its items which makes it possible to adjust its size by setting one or more of its items to ~No Symbol.
+The List can be inserted in a preset with one-line items or with two-line items, both initially containing ten items.
 
 <img class="responsive-img" src="../images/list_one-line_item.png" srcset="../images/list_one-line_item@2x.png 2x" />
 <img class="responsive-img" src="../images/list_two-line_item.png" srcset="../images/list_two-line_item@2x.png 2x" />
