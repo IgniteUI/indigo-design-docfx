@@ -82,7 +82,7 @@ With the preset collection of icons, you can design beautiful apps and pick the 
 
 ### In Adobe XD
 
-1.  Open up the library in Adobe XD navigate to the `🎨 Material Icons` artboard and look if that same category exists as a text layer on the left. If it does not, create it and follow the steps below. If it does, which is our case for the `copyright` icon from the `Action` category, just find the right-most icon from that category and you should be looking at something like this.
+1.  Open up the library in Adobe XD, navigate to the `🎨 Material Icons` artboard, and look if that same category exists as a text layer on the left. If it does not, create it and follow the steps below. If it does, which is our case for the `copyright` icon from the `Action` category, just find the right-most icon from that category, and you should be looking at something like this.
 
     <img class="responsive-img" src="../images/icons_add6.png" srcset="../images/icons_add6@2x.png 2x" />
 
