@@ -53,10 +53,10 @@ When using Skeleton Charts in your design avoid assigning series colors other th
 
 Related topics:
 
-- [Line Chart](../line-chart.md)
-- [Spline Chart](../spline-chart.md)
-- [Step Line Chart](../step-line-chart.md)
-- [Column Chart](../column-chart.md)
+- [Line Chart](line-chart.md)
+- [Spline Chart](spline-chart.md)
+- [Step Line Chart](step-line-chart.md)
+- [Column Chart](column-chart.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
