@@ -29,7 +29,7 @@ _language: ja
 
 
 ## Indigo.Design から App Builder を起動する
-OIndigo.Design にサインインすると、ホーム画面が表示されます。ここから 3 つの主要な Indigo.Design 製品 (プロトタイプとユーザビリティ テスト)、および最新の App Builder ([アプリ] タブ) にアクセスできます。Indigo.Design の App Builder のホーム画面から、ユーザーは新しいアプリを起動し、既存のアプリをプレビューまたは編集できます。コンテキスト メニューを使用して、既存のアプリを名前変更、複製、またはアーカイブすることもできます。  
+Indigo.Design にサインインすると、ホーム画面が表示されます。ここから 3 つの主要な Indigo.Design 製品 (プロトタイプとユーザビリティ テスト)、および最新の App Builder ([アプリ] タブ) にアクセスできます。Indigo.Design の App Builder のホーム画面から、ユーザーは新しいアプリを起動し、既存のアプリをプレビューまたは編集できます。コンテキスト メニューを使用して、既存のアプリを名前変更、複製、またはアーカイブすることもできます。  
 
 <img class="responsive-img" src="../images/Indigo-Design-home-screen.gif" />
 <p style="text-align:center;">Indigo.Design ホーム画面</p>

@@ -60,5 +60,6 @@ Indigo.Design App Builder でアプリケーションのデザインの準備が
 Indigo.Design クラウドで公開されたプロトタイプから直接 Angular アプリのコードを生成することもできます。これを行うには、プロトタイプの共有 URL が必要であり、Indigo.Design コード ジェネレーターを使用します。コード ジェネレーターは VS Code の拡張機能として利用でき、[Ignite UI for Angular UI フレームワーク](https://jp.infragistics.com/products/ignite-ui-angular)を使用してコードを生成します。
 
 関連トピック:
-[Indigo.Design App Builder のアプリケーションからコードを生成](appbuilder/generate-app.md)
+
+[Indigo.Design App Builder のアプリケーションからコードを生成](appbuilder/generate-app-overview.md)
 [プロトタイプからコードを生成](codegen/installing-vs-code-extension.md)
