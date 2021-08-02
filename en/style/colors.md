@@ -78,7 +78,7 @@ If you want your added colors to be available across all the projects that use t
 
 <img class="responsive-img" src="../images/colors_custom6.png" srcset="../images/colors_custom6@2x.png 2x"/>
 
-Then complete the steps below to finish the process. If you want your added colors to be accessible only within the scope of your current project follow the steps below from anywhere in it.
+Then complete the steps below to finish the process. If you want your added colors to be accessible only within the scope of your current project, follow the steps below from anywhere in it.
 
 1.  Draw a rectangle and set its fill to the color of your choice. 
 
