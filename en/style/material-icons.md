@@ -10,7 +10,7 @@ The material icons that come with the **Indigo.Design System** contain 160+ icon
 
 <img class="responsive-img" src="../images/icons_demo.png" srcset="../images/icons_demo@2x.png 2x" />
 
-In Sketch these graphics are on a separate page named `🎨 Material Icons` and their colors are defined via the `Layer Styles`, letting you customize the appearance of an icon in the designs that you are crafting. In Adobe XD they are placed on an Artboard with the same name at the bottom of the left column of the library file and customization can be achieved with the `Colors` from the Libraries panel on the left.
+In Sketch, these graphics are on a separate page named `🎨 Material Icons`, and their colors are defined via the `Layer Styles`, letting you customize the appearance of an icon in the designs that you are crafting. In Adobe XD they are placed on an Artboard with the same name at the bottom of the left column of the library file, and customization can be achieved with the `Colors` from the Libraries panel on the left.
 
 > [!Note]
 > There is also a dedicated [Icon](../components/icon.md) component with four sizes: ExtraLarge, Large, Medium and Small. Use it when creating intricate layouts for articles, custom Cards and List Items etc. assigning one of the glyphs available under `🎨 Material Icons` rather than inserting it directly on your artboard.
