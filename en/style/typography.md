@@ -14,7 +14,7 @@ In Sketch, these can be found on a separate page named `🎨 Typography` and are
 
 ## Typography Styles
 
-To use the typography system in your project all you need to do is apply one of the text (character) styles defined in the library to a native text element. Sketch offers a vast selection of type presets with different sizes, colors and alignments incuding, while Adobe XD defines only the sizes and let you adjust their alignment and combine them with any color from the style.
+To use the typography system in your project, all you need to do is apply one of the text (character) styles defined in the library to a native text element. Sketch offers a vast selection of type presets with different sizes, colors, and alignments, while Adobe XD defines only the size and lets you adjust the alignment and apply a color style.
 
 - 6 Headlines from `H1` to `H6` for titles.
 - 2 `Subtitle` sizes.
