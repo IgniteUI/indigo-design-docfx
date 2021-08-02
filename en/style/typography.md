@@ -41,7 +41,7 @@ In Sketch, the text styles include the text color, thus each one comes in multip
 
 ## Changing the Typeface in Sketch
 
-To change typeface from Titillium Web to another one in Sketch open the Indigo.Design library file and select `View` -> `Components`. Then in the Sketch menu you will notice a group of four buttons, where the second one is a character icon and stands for `Show Text Styles`.
+To change the typeface from Titillium Web to another one in Sketch, open the Indigo.Design library file and select `View` -> `Components`. Then in the Sketch menu, you will notice a group of four buttons, where the second one is a character icon and stands for `Show Text Styles`.
 
 <img class="responsive-img" src="../images/text_layers.png" srcset="../images/text_layers@2x.png 2x"/>
 
