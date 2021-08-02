@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Colors
 
-There are five palettes with 10 color variations each for the `primary`, `secondary`, `grays`, and two chart `sereis` colors, as well as special colors such as `success`, `warn`, `error`, `info`, and `surface` in the the **Indigo.Design System**. This lets you change the complete look of the library and all projects that use it with just a few clicks. The way Colors are set up is identical to the [Ignite UI for Angular Themes](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes.html).
+There are five palettes with 10 color variations each for the `primary`, `secondary`, `grays`, and two chart `series` colors, as well as special colors such as `success`, `warn`, `error`, `info`, and `surface` in the **Indigo.Design System**. This lets you change the complete look of the library and all projects that use it with just a few clicks. The way Colors are set up is identical to the [Ignite UI for Angular Themes](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes.html).
 
 <img class="responsive-img" src="../images/colors_palette.png" />
 
