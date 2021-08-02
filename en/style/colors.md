@@ -84,7 +84,7 @@ Then complete the steps below to finish the process. If you want your added colo
 
     <img class="responsive-img" src="../images/colors_custom7.png" srcset="../images/colors_custom7@2x.png 2x"/>
 
-2.  Then, in the `Libraries` panel click on the `+` icon to the right of `Colors` to create the style and give it an appropriate name.
+2.  Then, in the `Libraries` panel, click on the `+` icon to the right of `Colors` to create the style and give it an appropriate name.
 
     <img class="responsive-img" src="../images/colors_custom8.png" srcset="../images/colors_custom8@2x.png 2x"/>
 
