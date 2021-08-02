@@ -12,7 +12,7 @@ There are five palettes with 10 color variations each for the `primary`, `second
 
 In Sketch, these can be found on a separate page named `🎨 Colors` and are available as `Layer Styles` that can be applied to any shape element. In Adobe XD they are placed on an Artboard with the same name in the left column of the library file and exist as `Colors` that are used across components and patterns.
 
-The **Indigo.Design System** features special color palettes optimized for various data visualization scenarios. Both ensure good contrast between adjacent series colors so that the palette can be used e.g. to colorize ranges of a gauge. One of the palettes is further optimized to be 100% inclusive and facilitate easy comprehension by people with color vision defficiencies. 
+The **Indigo.Design System** features special color palettes optimized for various data visualization scenarios. Both ensure good contrast between adjacent series colors so that the palette can be used e.g. to colorize ranges of a gauge. One of the palettes is further optimized to be 100% inclusive and facilitate easy comprehension by people with color blindness defficiencies. 
 
 ## Palette Generation in Sketch
 
