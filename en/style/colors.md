@@ -88,7 +88,7 @@ Then complete the steps below to finish the process. If you want your added colo
 
     <img class="responsive-img" src="../images/colors_custom8.png" srcset="../images/colors_custom8@2x.png 2x"/>
 
-3.  You are all set, your custom color will appear as a `Color` in the `Libraries` panel and you can use it like any other color with your Components and Patterns.
+3.  You are all set, your custom color will appear as a `Color` in the `Libraries` panel, and you can use it like any other color with your Components and Patterns.
 
 ## Additional Resources
 
