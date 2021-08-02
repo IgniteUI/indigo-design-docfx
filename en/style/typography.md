@@ -57,7 +57,7 @@ The `Text Styles` in Sketch use color variables to define the color property of 
 
 ## Changing the Typeface in Adobe XD
 
-To change typeface from Titillium Web to another one in Adobe XD open the Indigo.Design library file and select the `Libraries` panel. Then scroll to `Character Styles` right click on one of them and from the contextual menu that appears choose `Edit`. In the popover there is a dropdown at the top allowing you to choose another font family. Note that you have to perform the same steps for every style individually to ammend this change for all of your typography.
+To change the typeface from Titillium Web to another one in Adobe XD open the Indigo.Design library file and select the `Libraries` panel. Then scroll to `Character Styles` right-click on one of them, and from the contextual menu that appears, choose `Edit`. In the popover, there is a dropdown at the top, allowing you to choose another font family. Note that you have to perform the same steps for every style individually to amend this change for all of your typography.
 
 <img class="responsive-img" src="../images/text_layers_xd.png" srcset="../images/text_layers_xd@2x.png 2x"/>
 
