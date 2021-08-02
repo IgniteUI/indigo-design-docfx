@@ -34,7 +34,7 @@ To change the primary palette in Adobe XD open the Indigo.Design library file an
 
 <img class="responsive-img" src="../images/colors-palette-xd1.png" srcset="../images/colors-palette-xd1@2x.png 2x"/>
 
-The rest of the colors in the `Libraries` panel have to be updated manually. To achieve this draw a rectangle and use the eyedropper tool to set its fill by picking a color variant from the palette on the `🎨 Colors` artboard. Then use the hex value to edit the respective color in the `Libraries` panel. Follow this process until the whole palette is updated.
+The rest of the colors in the `Libraries` panel have to be updated manually. To achieve this, draw a rectangle and use the eyedropper tool to set its fill by picking a color variant from the palette on the `🎨 Colors` artboard. Then use the hex value to edit the respective color in the `Libraries` panel. Follow this process until the whole palette is updated.
 
 <img class="responsive-img" src="../images/colors-palette-xd2.png" srcset="../images/colors-palette-xd2@2x.png 2x"/>
 
