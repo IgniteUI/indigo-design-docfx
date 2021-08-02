@@ -25,7 +25,7 @@ To use the typography system in your project, all you need to do is apply one of
 Use these when creating intricate layouts for articles, blog posts etc. The **Indigo.Design System** typography is meant to help you define a consistent theme and style for all the texts in your designs.
 
 > [!Warning]
-> In Sketch there is also a collection of `Internal` text styles used within the Components for validation and special cases. These styles are not supposed to be inserted on your artboards directly but exist to assure typographic consistency for the Components within which they are used.
+> In Sketch, there is also a collection of `Internal` text styles used within the Components for validation and special cases. These styles are not supposed to be inserted on your artboards directly but exist to assure typographic consistency for the Components within which they are used.
 
 ## Component Specific Typography
 
