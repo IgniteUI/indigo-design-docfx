@@ -14,7 +14,7 @@ Elevations follow a simple logic: the higher the number of the Elevation, the mo
 
 <img class="responsive-img" src="../images/elevation_people.png" srcset="../images/elevation_people@2x.png 2x" />
 
-In Sketch Elevations can be found on a separate page named `🎨 Elevation` and are available as Layer Styles that can be applied to any shape. In the components that use them we have applied this style to the correct layer, which is most often a Mask layer, or a specially designated `Elevation` rectangle. In Adobe XD elevations are placed on an Artboard with the same name in the left column of the library file and exist as components that are used across components and patterns.
+In Sketch, Elevations can be found on a separate page named `🎨 Elevation` and are available as Layer Styles that can be applied to any shape. In the components that use them, we have applied this style to the correct layer, which is most often a Mask layer, or a specially designated `Elevation` rectangle. In Adobe XD elevations are placed on an Artboard with the same name in the left column of the library file and exist as components that are used across components and patterns.
 
 > [!Note]
 > Changing the Elevation in a Component by changing its style is possible in Sketch and will produce the expected outcome, but the same will not be achievable with Ignite UI for Angular yet.
@@ -42,4 +42,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
