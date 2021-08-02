@@ -83,7 +83,7 @@ Start by inserting a new `Text` layer and adjust its properties on the right pan
 
 <img class="responsive-img" src="../images/typography_custom4.png" srcset="../images/typography_custom4@2x.png 2x"/>
 
-Then, in the `Libraries` panel click on the `+` icon to the right of `Character Styles` to create the style and give it an appropriate name.
+Then, in the `Libraries` panel, click on the `+` icon to the right of `Character Styles` to create the style and give it an appropriate name.
 
 <img class="responsive-img" src="../images/typography_custom5.png" srcset="../images/typography_custom5@2x.png 2x"/>
 
