@@ -63,7 +63,7 @@ To change typeface from Titillium Web to another one in Adobe XD open the Indigo
 
 ## Creating Custom Typographies
 
-The typographic variety of styles should be more than sufficient to let you design various user interfaces. However, you may occasionally need to create an extra style for a special use case. If you want to define it globally for all your projects do it in the Indigo.Design library. If it is something meaningful only within the scope of your current project, do it in the project file instead.
+The typographic variety of styles should be more than sufficient to let you design various user interfaces. However, you may occasionally need to create an extra style for a special use case. If you want to define it globally for all your projects, do it in the Indigo.Design library. If it is something meaningful only within the scope of your current project, do it in the project file instead.
 
 ### In Sketch
 Start by inserting a new `Text` layer and assign to it the closest `Text Style` from the existing ones fed from the library via the `Appearance` panel.
