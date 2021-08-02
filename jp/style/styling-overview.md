@@ -7,7 +7,15 @@ _language: ja
 
 # スタイル設定の概要
 
-**Indigo.Design システム**は、Ignite UI for Angular コントロールにもマップされる 60 以上のすべての UI コンポーネントをスタイリングする精巧な手段を提供します。Angular 製品のテーマ エンジンは数行のコードで同様に製品全体のスタイルを変更できるカスタム カラー テーマを作成できます。
+**Indigo.Design システム**は、Ignite UI for Angular コントロールにもマップされる 60 以上のすべての UI コンポーネントをスタイリングする精巧な手段を提供します。Angular 製品のテーマ エンジンは数行のコードで同様に製品全体のスタイルを変更できるカスタム カラー テーマを作成できます。The [**Indigo.Design App Builder**](../appbuilder/app-builder-overview.md) also implements these theming mechanisms to let users change the complete look of their apps with just a few clicks.
+
+<img class="responsive-img" src="../images/theme_overview_default.png" />
+
+<img class="responsive-img" src="../images/theme_overview_dark.png" />
+
+<img class="responsive-img" src="../images/theme_overview_vibrant.png" />
+
+## Sketch でのスタイル設定
 
 Sketch ライブラリには、アセットを提供する  絵文字とライブラリの残りの部分を構築する強力なスタイリング インフラストラクチャを含むページがあります。
 
@@ -17,13 +25,19 @@ Sketch ライブラリには、アセットを提供する  絵文字とライ�
 - 🎨 Elevation (エレベーション)
 - 🎨 Illustrations (イラストレーション)
 
-Sketch では、カラーとエレベーションは `Layer Styles` として存在し、タイポグラフィは `Text Styles` として定義されます。これにより、**Indigo.Design システム**で作成したデザインのテーマをすばやく変更できます。
+カラーとエレベーションは `Layer Styles` として存在し、タイポグラフィは `Text Styles` として定義されます。これにより、**Indigo.Design システム**で作成したデザインのテーマをすばやく変更できます。
 
-<img class="responsive-img" src="../images/theme_overview_default.png" />
+## Adobe XD でのスタイル設定
 
-<img class="responsive-img" src="../images/theme_overview_dark.png" />
+The Adobe XD library has a few Artboards prefixed with a 🎨 emoji that showcase the powerful styling infrastructure upon which the rest of the library is built:
 
-<img class="responsive-img" src="../images/theme_overview_vibrant.png" />
+- 🎨 Material Icons
+- 🎨 Colors
+- 🎨 Typography
+- 🎨 Elevation
+- 🎨 Illustrations
+
+Тhe colors are defined as `Colors`, the typography is defined as `Character Styles`, while icons, elevation and illustrations exist as `Components`. This allows you to quickly change the theme for any given design we have created with the **Indigo.Design System**.
 
 詳細情報:
 
