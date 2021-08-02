@@ -25,7 +25,7 @@ To use an Elevation on its own e.g. to lift one part of the content and draw mor
 
 ## Use of Standalone Elevations in Adobe XD
 
-To use an Elevation on its own e.g. to lift one part of the content and draw more focus to it than the rest, simply drag one of them from the `Libraries` panel to your artboard and use it as a surface on top of which you will add the rest of the user interface, including a layer for background color. Sometimes you would like to have rounded corners e.g. when designing a dialog so in order to have your elevation conform to this, expand it from the Layers panel, select its three internal layers and set their corner radius to the desired value.
+To use an Elevation on its own e.g. to lift one part of the content and draw more focus to it than the rest, simply drag one of them from the `Libraries` panel to your artboard and use it as a surface on top of which you will add the rest of the user interface, including a layer for background color. Sometimes you would like to have rounded corners e.g. when designing a dialog so in order to have your elevation conform to this, expand it from the Layers panel, select its three internal layers, and set their corner radius to the desired value.
 
 ## Example of a Standalone Elevation
 
