@@ -5,7 +5,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 ---
 
 > [!NOTE]
-> This topic is only relevant for users of the <b>Sketch UI kit</b>.
+> This topic is only relevant for users of the <b>Sketch Library</b>.
 
 # Custom List Item in Sketch
 
