@@ -9,7 +9,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Custom List Item in Sketch
 
-Use the Custom List Item Component in Sketch to display the same type of information that you would in a normal List Item but with the complete freedom to arrange your layout exactly as you would like. The Custom List Item in Sketch is achievable by writing the necessary customizations to the layout of the items of the [Ignite UI for Angular List Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/list.html)
+Use the Custom List Item Component in Sketch to display the same type of information that you would in a normal List Item but with the complete freedom to arrange your layout exactly as you would like.
 
 ## Custom List Item in Sketch Demo
 
