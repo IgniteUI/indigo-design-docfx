@@ -22,7 +22,7 @@ The Custom List Item supports the following interactive states: **inactive** for
 <img class="responsive-img" src="../images/list_item_custom_inactive.png" srcset="../images/list_item_custom_inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_custom_active.png" srcset="../images/list_item_custom_active@2x.png 2x" />
 
-## Using the Custom List Item in Sketch
+## Using the Custom List Item
 
 In order to customize List Item layouts, start by dragging a `List/Custom/Item` to your artboard, right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared _List/Custom/Item_ group, you should see the following:
 
