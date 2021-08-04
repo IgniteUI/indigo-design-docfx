@@ -7,16 +7,23 @@ _language: ja
 
 # コンポーネントの概要
 
-**Indigo.Design システム**は、Ignite UI for Angular コントロールにマップする 60 以上の UI コンポーネントでデザイン ワークフローを強化します。各コンポーネントはレスポンシブ Web 開発向けに最適化されており、ライブラリで設定されたスマート レイアウトとサイズ変更ルールによってさまざまなテンプレート機能を提供します。さらに、動的なエクスペリエンスをデザインするときに選択できるライト/ダーク モードおよびさまざまな操作状態を追加しました。これにより、アプリケーションの設計と開発が簡素化され、Sketch のライブラリで作成されたユーザー インターフェイスを Angular でビルドできます (Ignite UI を介して)。 
+**Indigo.Design システム**は、Ignite UI for Angular コントロールにマップする 60 以上の UI コンポーネントでデザイン ワークフローを強化します。Each component is optimized for responsive web design and development, providing various templating capabilities through Smart Layout and resizing rules set in Sketch. In Adobe XD, we have extended this through the use of Stacks and Repeat Grids, but have also added light/dark modes and various interaction states to choose from when designing interactive experiences. All this streamlines application design and development allowing a huge variety of user interface scenarios to be created with the libraries and subsequently through code generation become available as Ignite UI for Angular code. 
 
-Sketch ライブラリには、関連するすべてのコンポーネントとシンボルを含む `🧩 Components` ページがあります。以下は、[Button](button.md)、[Button Group](button-group.md)、および [Checkbox](checkbox.md)、[Switch](switch.md)、[Radio Group](radio-group.md) などのフォーム要素の一部を示します。
+Sketch ライブラリには、関連するすべてのコンポーネントとシンボルを含む `🧩 Components` ページがあります。When selecting a Symbol instance, through the Override section in the right panel, one can change the content inside e.g. enabled/disabled states, light/dark variants, icons, colors, etc. Below is a small part of showing some of the Components and symbols such as the different types of [Buttons](button.md), [Button Group](button-group.md) and form elements like [Checkbox](checkbox.md), [Switch](switch.md), and [Radio Group](radio-group.md).
 
 <img class="responsive-img" src="../images/components-page.png" />
+
+In the Adobe XD library you can find the `🧩 Components` in the middle column. Here, the various states of a component can be switched from the right panel. Also, we have used the `Stack` and `Padding` to align and distribute elements vertically or horizontally and change their position. When you want to swap a nested component with another one, you can simply drag it from the `Libraries` panel and drop it on top of the current one to replace it. You will also notice that some components, such as the Grid, for example, use a `Repeat Grid` to speed configuration up.
+
+<img class="responsive-img" src="../images/components-page-xd.png" />
+
+> [!WARNING]
+> When changing an icon glyph with another one by dragging it from the `Libraries` panel in Adobe XD, sometimes its layer name will change from `🔣 Icon` to the symbol name `_Overrides/~`. When this happens you must rename it back to the original layer name before the element got swapped to assure successful code generation.
 
 すべての **Indigo.Design システム** コンポーネントは、ユーザー インターフェイスのテーマ設定やブランディングを行うための複雑なメカニズムを活用できるように、リジッドな[スタイリングの基礎](../style/styling-overview.md)の上に構築されています。
 
 > [!WARNING]
-> ライブラリからコンポーネント インスタンスのリンクを解除すると、デザイン システムの後続バージョンからの更新を自動的に適用できなくなり、コンポーネントのコード生成機能に影響する場合があります。コード生成サービスは、コンポーネントの状態、テンプレート、およびその他のプロパティのメタデータ記述を含む、特別に指定された `🚫 metadata` レイヤーに依存します。
+> ライブラリからコンポーネント インスタンスのリンクを解除すると、デザイン システムの後続バージョンからの更新を自動的に適用できなくなり、コンポーネントのコード生成機能に影響する場合があります。コード生成サービスは、特別に指定された `🚫metadata` レイヤーに依存しており、削除してはならないコンポーネントの状態、テンプレート、およびその他のプロパティのメタデータ記述が含まれています。
 
 ## その他のリソース
 
