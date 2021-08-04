@@ -59,7 +59,7 @@ Now, you may insert additional headers or items either from the menu or simply b
 
 ## Using the List in Adobe XD
 
-In Adobe XD, after you drag a List component on your artboard, you may insert additional headers or items simply by duplicating one of the existing ones. The List lays out its items in a `Stack`, so when you add or remove items, they align and distribute vertically automatically. To change their position in the list, you need to drag them to the desired position. Unlike Sketch, in Adobe XD destroying the symbol is not necessary.
+In Adobe XD, after you drag a List component on your artboard, you may reduce the number of items simply by deleting the unnecessary ones or increase it by duplicating one of the existing ones. The List lays out its items in a `Stack`, so when you add or remove items, they align and distribute vertically automatically. To change their position in the list, you need to drag them up or down to the desired position. Unlike Sketch, in Adobe XD destroying the symbol is not necessary.
 
 ## Additional Resources
 
