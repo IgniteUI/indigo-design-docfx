@@ -17,7 +17,7 @@ Use the Custom List Item Component in Sketch to display the same type of informa
 
 ## State
 
-The Custom List Item in Sketch supports the following interactive states: **inactive** for the normal state and active for the selected state.
+The Custom List Item supports the following interactive states: **inactive** for the normal state and active for the selected state.
 
 <img class="responsive-img" src="../images/list_item_custom_inactive.png" srcset="../images/list_item_custom_inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_custom_active.png" srcset="../images/list_item_custom_active@2x.png 2x" />
