@@ -82,8 +82,11 @@
 
 - name: デザイン システムの使用
   header: true
-- name: はじめてのアートボードを作成
-  href: ../creating-an-artboard.md
+- name: Sketch でアートボードを作成
+  href: ../creating-artboard-sketch.md
+- name: Adobe XD でアートボードを作成
+  href: ../creating-artboard-adobexd.md
+  new: true
 - name: 同期とテーマ プラグイン
   href: ../sync-themes-plugin.md
 - name: スタイル設定
