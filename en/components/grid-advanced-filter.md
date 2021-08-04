@@ -20,7 +20,7 @@ The Grid has three `Advanced Filtering` symbols under `Features`, one for each D
 
 ## Filter Expression State
 
-The Advanced Filter feature comes with an **Empty Filter** Expression by default that can be changed to Applied Filter if necessary and then customized further to specify desired filtering criteria. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
+The Advanced Filter feature comes with an **Empty Filter** Expression by default that can be changed to Applied Filter if necessary. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. Once this is set up, you may customize it further by specifying desired filtering criteria.
 
 <img class="responsive-img" src="../images/grid_advanced_filter_expression.png" srcset="../images/grid_advanced_filter_expression@2x.png 2x" />
 
