@@ -12,7 +12,7 @@ The Sketch library has a `🧩 Components` page containing all Components and sy
 
 <img class="responsive-img" src="../images/components-page.png" />
 
-In the Adobe XD library you can find the `🧩 Components` in the middle column. The difference in this library is that multiple states on a single component are available in a section where they can be changed rather than having nested symbols for each state. Also, here is used Stack and Padding to align and distribute component items vertically or horizontally and to change their position. Another thing is, when you want to swap a nested component with another you can simply drag it from the Assets panel and place it on top of the current one. And you can notice that in some places, the Grid, for example, we use a Repeat grid to speed up the work.
+In the Adobe XD library you can find the `🧩 Components` in the middle column. Here, the various states of a component can be switched from the right panel. Also, we have used the `Stack` and `Padding` to align and distribute elements vertically or horizontally and change their position. When you want to swap a nested component with another one, you can simply drag it from the `Libraries` panel and drag it on top of the current one to replace it. You will also notice that some components, such as the Grid, for example, use a `Repeat Grid` to speed configuration up.
 
 > [!WARNING]
 > When changing an icon instance with another by swapping in Adobe XD, its layer name changes from `Icon` to that exact symbol name. So you have to rename it back.
