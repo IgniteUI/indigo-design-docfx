@@ -29,9 +29,11 @@ The **Indigo.Design System** boosts your productivity with 180+ UI Patterns asse
 - 🌆 Tiles
 - 🌆 User Profile
 
-Unlike a component, some patterns in the Sketch library can be detached to show as a group, preserving the look and feel you have defined before that. In the Adobe XD library ungrouping a pattern is not necessary. Below is a snippet of some of the [list patterns](lists.md) such as a contacts list, searchable and filterable lists, and list empty states when no matching results are found.
+Unlike a component, some patterns in the Sketch library can be detached to show as a group, preserving the look and feel you have defined before that. In the Adobe XD library ungrouping a pattern is not necessary. Unlinking patterns from the libraries makes it impossible to apply updates from subsequent versions of the Design System automatically. Below is a snippet of some of the [list patterns](lists.md) such as a contacts list, searchable and filterable lists, and list empty states when no matching results are found.
 
 <img class="responsive-img" src="../images/patterns_overview.png" />
+
+
 
 We constantly improve our patterns by adding new ones. To identify changes more easily from one release of the **Indigo.Design System** to the next, you will notice that we append a 🆕 emoji to the Sketch pages and Adobe XD artboards containing updates. You may also create your own Patterns from interface layouts that you use over and over again in your designs, extending our default set and giving your design productivity a further boost.
 
