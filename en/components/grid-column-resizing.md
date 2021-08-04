@@ -14,7 +14,7 @@ Use the Grid Column Resizing to indicate that the columns of the Grid are resiza
 
 ## Header Cell
 
-To indicate that a column is resizable, configure the `Column Resizing` override of the Grid Header Cell for the column by changing the default value from **Not Resizable** to Resizable. Also, this is what marks the column as resizable as far as code generation is concerned. In Sketch, to switch between values is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm.
+To indicate that a column is resizable, configure the `Column Resizing` override of the Grid Header Cell for the column in Sketch by changing the default value from **Not Resizable** to Resizable. In Adobe XD, the `Column Resizing` layer uses the `Component States` paradigm to let you easily switch between states. This is what marks the column as resizable as far as code generation is concerned.
 
 ## Column Resizing Indicator Feature
 
