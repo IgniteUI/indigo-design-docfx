@@ -21,7 +21,7 @@ The Tooltip comes in appropriate sizing for desktop and mobile usage.
 
 ## Variant
 
-The Tooltip has a **dark** variant, suitable for lighter interfaces underneath, and a light variant that is more appropriate for dark UI. In Sketch, the switch between variants is achieved with `Symbol Overrides`.
+The Tooltip has a **dark** variant, suitable for lighter interfaces underneath, and a light variant that is more appropriate for dark UI.
 
 <img class="responsive-img" src="../images/tooltip_dark.png" srcset="../images/tooltip_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/tooltip_light.png" srcset="../images/tooltip_light@2x.png 2x" />
