@@ -33,7 +33,7 @@ In Adobe XD, after you choose one of the three [preset display density hierarchi
 | Layer                                | Use                                                                                                                                                  |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 🚫 metadata | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| 🌈 Drill Indication                  | A symbol that is used for indicating the active cell/cell in focus                                                                                                       |
+| 🌈 Drill Indication                  | A symbol that is used for indicating the active cell and trace its belonging through the hierarchy of gids             |
 | Header                               | Contains all header cells: the CollapseAll cell and the rest grouped in a Repeat Grid Header                                                                                                 |
 | Body                                 | Contains all body cells: the Expand cells grouped in a Repeat Grid and the rest grouped in another Repeat Grid, and a nested Grid with a basic structure                                                                            |
 | 🌈 Background                        | Defines the background color of the nested Grid                                                                                                |
