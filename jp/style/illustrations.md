@@ -7,7 +7,7 @@ _language: ja
 
 # Illustrations (イラストレーション)
 
-Тhe illustrations that come with the **Indigo.Design System** are a collection of 17 vector graphics that let you complement your interfaces with a stylable drawing.これにより、コンポーネントのレイアウトにより多くのコンテキストを提供し、主要な視覚要素でインターフェイスを補完します。
+**Indigo.Design システム**のイラストレーションは、17 のベクター グラフィックのコレクションであり、インターフェイスをスタイル可能な描画で補完することができます。これにより、コンポーネントのレイアウトにより多くのコンテキストを提供し、主要な視覚要素でインターフェイスを補完します。
 
 <img class="responsive-img" src="../images/Illustrations_Avatar.png" srcset="../images/Illustrations_Avatar@2x.png 2x" />
 <img class="responsive-img" src="../images/Illustrations_Cannot_Find.png" srcset="../images/Illustrations_Cannot_Find@2x.png 2x" />
@@ -16,7 +16,7 @@ _language: ja
 <img class="responsive-img" src="../images/Illustrations_Onboarding.png" srcset="../images/Illustrations_Onboarding@2x.png 2x" />
 <img class="responsive-img" src="../images/Illustrations_Payment.png" srcset="../images/Illustrations_Payment@2x.png 2x" />
 
-In the Sketch library, these graphics are on a separate page named `🎨 Illustrations`, while in Adobe XD they are placed on an Artboard with the same name at the bottom of the left column of the library file.
+Sketch ライブラリでは、これらのグラフィックは `🎨 Illustrations` という名前の別のページにありますが、Adobe XD では、ライブラリ ファイルの左の列の下部にある同じ名前のアートボードに配置されます。
 
 ## カラーの変更
 

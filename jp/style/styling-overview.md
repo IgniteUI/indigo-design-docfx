@@ -7,7 +7,7 @@ _language: ja
 
 # スタイル設定の概要
 
-**Indigo.Design システム**は、Ignite UI for Angular コントロールにもマップされる 60 以上のすべての UI コンポーネントをスタイリングする精巧な手段を提供します。Angular 製品のテーマ エンジンは数行のコードで同様に製品全体のスタイルを変更できるカスタム カラー テーマを作成できます。The [**Indigo.Design App Builder**](../appbuilder/app-builder-overview.md) also implements these theming mechanisms to let users change the complete look of their apps with just a few clicks.
+**Indigo.Design システム**は、Ignite UI for Angular コントロールにもマップされる 60 以上のすべての UI コンポーネントをスタイリングする精巧な手段を提供します。Angular 製品のテーマ エンジンは数行のコードで同様に製品全体のスタイルを変更できるカスタム カラー テーマを作成できます。[**Indigo.Design App Builder**](../appbuilder/app-builder-overview.md) もこれらのテーマ設定メカニズムを実装しており、ユーザーは数回クリックするだけでアプリの完全な外観を変更できます。
 
 <img class="responsive-img" src="../images/theme_overview_default.png" />
 
@@ -29,7 +29,7 @@ Sketch ライブラリには、アセットを提供する  絵文字とライ�
 
 ## Adobe XD でのスタイル設定
 
-The Adobe XD library has a few Artboards prefixed with a 🎨 emoji that showcase the powerful styling infrastructure upon which the rest of the library is built:
+Adobe XD ライブラリには、ライブラリの残りの部分が構築されている強力なスタイリング インフラストラクチャを紹介する 🎨 絵文字が前に付いたアートボードがいくつかあります。
 
 - 🎨 Material Icons
 - 🎨 Colors
@@ -37,7 +37,7 @@ The Adobe XD library has a few Artboards prefixed with a 🎨 emoji that showcas
 - 🎨 Elevation
 - 🎨 Illustrations
 
-Тhe colors are defined as `Colors`, the typography is defined as `Character Styles`, while icons, elevation and illustrations exist as `Components`. This allows you to quickly change the theme for any given design we have created with the **Indigo.Design System**.
+カラーは `Colors` として定義され、タイポグラフィは `Character Styles` として定義され、アイコン、エレベーション、イラストレーションは `Components` として存在します。これにより、**Indigo.Design システム**で作成した特定のデザインのテーマをすばやく変更できます。
 
 詳細情報:
 

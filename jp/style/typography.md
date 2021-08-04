@@ -7,36 +7,36 @@ _language: ja
 
 # Typography (タイポグラフィ)
 
-There are 12 text (character) styles in the **Indigo.Design System** that constitute its typography and let you set up your theme's typeface. デフォルトで [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) を使用していますが、すべてのデザイナーがアプリケーションを柔軟にカスタマイズできるようにする必要があります。Indigo.Design follows the way typography is defined in the [Material Type System](https://material.io/design/typography/the-type-system.html#type-scale) and complies with the implementation of the [Ignite UI for Angular Typography](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes/typography).
+**Indigo.Design システム**には、タイポグラフィを構成し、テーマの書体を設定できる 12 のテキスト （文字） スタイルがあります。デフォルトで [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) を使用していますが、すべてのデザイナーがアプリケーションを柔軟にカスタマイズできるようにする必要があります。Indigo.Design は、[マテリアル タイプ システム](https://material.io/design/typography/the-type-system.html#type-scale)でタイポグラフィが定義されている方法に従い、[Ignite UI for Angular タイポグラフィ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes/typography)の実装に準拠しています。
 
 <img class="responsive-img" src="../images/typography_default.png" srcset="../images/typography_default@2x.png 2x" />
 
-In Sketch, these can be found on a separate page named `🎨 Typography` and are available as `Text Styles` that can be applied to any text element. In Adobe XD they are placed on an Artboard with the same name in the left column of the library file and exist as `Character Styles` that are used across components and patterns.
+Sketch では、これらは `🎨 Typography` という名前の別のページにあり、任意テキスト要素に適用できる `Text Styles` として利用できます。Adobe XD では、ライブラリ ファイルの左側の列にある同じ名前のアートボードに配置され、コンポーネントやパターン全体で使用される `Character Styles` として存在します。
 
 ## Typography のスタイル
 
-To use the typography system in your project, all you need to do is apply one of the text (character) styles defined in the library to a native text element. Sketch offers a vast selection of type presets with different sizes, colors, and alignments, while Adobe XD defines only the size and lets you adjust the alignment and apply a color style.
+プロジェクトでタイポグラフィ システムを使用するには、ライブラリで定義されているテキスト (文字) スタイルの 1 つをネイティブ テキスト要素に適用するだけです。Sketch は、さまざまなサイズ、カラー、および配置のタイプ プリセットの幅広い選択肢を提供しますが、Adobe XD はサイズのみを定義し、配置を調整してカラー スタイルを適用できます。
 
 - タイトルの `H1` から `H6` までの 6 つの見出し。
 - 2 つの `Subtitle` サイズ。
 - 2 インターフェイスの段落コンテンツの `Body` サイズ。
 - 無料のコンテンツに使用できる `Caption` と `Overline` スタイル。
-- A `BUTTON` style that is used exclusively in the Button components
+- Button コンポーネントでのみ使用される `BUTTON` スタイル。
 
 記事、ブログ投稿などの高度なレイアウトを作成する場合に使用します。**Indigo.Design システム**のタイポグラフィは、デザインのすべてのテキストに一貫性のあるテーマとスタイルを定義します。
 
 > [!Warning]
-> In Sketch, there is also a collection of `Internal` text styles used within the Components for validation and special cases. These styles are not supposed to be inserted on your artboards directly but exist to assure typographic consistency for the Components within which they are used.
+> Sketch には、検証や特殊なケースのためにコンポーネント内で使用される `Internal` テキスト スタイルのコレクションもあります。これらのスタイルは、アートボードに直接挿入されることは想定されていませんが、使用されるコンポーネントのタイポグラフィの一貫性を確保するために存在します。
 
-## Component Specific Typography
+## コンポーネント固有のタイポグラフィ
 
-Components, such as [Avatar](../components/avatar.md), [Button](../components/button.md), [Grid](../components/grid.md), [Slider](../components/slider.md) and [Tooltip](../components/tooltip.md) use component-specific Typography to accommodate the specifics of the styling used by the respective component e.g. the Avatar with initials and Button use an all caps style. Below you can find the text styles defined for the Avatar in Sketch to allow more versatile usage of font colors.
+[Avatar](../components/avatar.md)、[Button](../components/button.md)、[Grid](../components/grid.md)、[Slider](../components/slider.md) および [Tooltip](../components/tooltip.md) は、コンポーネント固有のタイポグラフィを使用して、それぞれのコンポーネントで使用されるスタイリングの詳細に対応します。たとえば、イニシャル付きの Avatar と Button は大文字のスタイルを使用します。以下に、Sketch で Avatar 用に定義されたテキスト スタイルを示し、フォントのカラーをより多様に使用できるようにします。
 
 <img class="responsive-img" src="../images/typography_colors.png"/>
 
-## Typography Color Variants in Sketch
+## Sketch のタイポグラフィ カラー バリアント
 
-In Sketch, the text styles include the text color, thus each one comes in multiple preset colors, such as `active` corresponding to `grays.900`, `inactive` corresponding to `grays.700`, `disabled` corresponding to `grays.500`, `white` and `secondary`. There are also scales with special colors for strings that need to be in `success`, `warn`, and `error` colors, as well as some additional nuances used by the Indigo.Design Components.
+Sketch では、テキスト スタイルにテキストのカラーが含まれているため、それぞれが複数のプリセットカラーで提供されます。たとえば、`grays.900` に対応する `active`、`grays.700` に対応する `inactive`、`grays.500` に対応する `disabled`、`white` および `secondary` などです。`success`、` warn`、および `error` カラーが必要な文字列の特別なカラーのスケールがあり、Indigo.Design コンポーネント固有のバリアントもあります。
 
 <img class="responsive-img" src="../images/typography_base_colors.png"/>
 
@@ -58,33 +58,33 @@ Sketch の `Text Styles` はカラー変数を使用してテキストの color 
 
 ## Adobe XD で書体を変更
 
-To change the typeface from Titillium Web to another one in Adobe XD open the Indigo.Design library file and select the `Libraries` panel. Then scroll to `Character Styles` right-click on one of them, and from the contextual menu that appears, choose `Edit`. In the popover, there is a dropdown at the top, allowing you to choose another font family. Note that you have to perform the same steps for every style individually to amend this change for all of your typography.
+Adobe XD で書体を Titillium Web から別の書体に変更するには、Indigo.Design ライブラリ ファイルを開き、`Libraries` パネルを選択します。次に、`Character Styles` までスクロールして、そのうちの 1 つを右クリックし、表示されるコンテキスト メニューから `Edit` を選択します。ポップオーバーでは、上部にドロップダウンがあり、別のフォント ファミリを選択できます。すべてのタイポグラフィでこの変更を修正するには、すべてのスタイルに対して同じ手順を個別に実行する必要があることに注意してください。
 
 <img class="responsive-img" src="../images/text_layers_xd.png" srcset="../images/text_layers_xd@2x.png 2x"/>
 
 ## カスタム Typography の作成
 
-The typographic variety of styles should be more than sufficient to let you design various user interfaces. However, you may occasionally need to create an extra style for a special use case. If you want to define it globally for all your projects, do it in the Indigo.Design library. If it is something meaningful only within the scope of your current project, do it in the project file instead.
+さまざまなユーザー インターフェイスをデザインするには、タイポグラフィのさまざまなスタイルで十分です。ただし、特別なユース ケースのために追加のスタイルを作成する必要がある場合があります。すべてのプロジェクトに対してグローバルに定義する場合は、Indigo.Designライブラリで定義します。現在のプロジェクトの範囲内でのみ意味のあるものである場合は、代わりにプロジェクト ファイルで実行してください。
 
 ### Sketch で
-Start by inserting a new `Text` layer and assign to it the closest `Text Style` from the existing ones fed from the library via the `Appearance` panel.
+新しい `Text` レイヤーを挿入することから始めて、`Appearance` パネルを介してライブラリから供給された既存のものから最も近い  `TextStyle` をそれに割り当てます。
 
 <img class="responsive-img" src="../images/typography_custom1.png" srcset="../images/typography_custom1@2x.png 2x"/>
 
-Next, make the adjustments like changing the text color to a different color variables, for example.
+次に、テキストの色を別の色変数に変更するなどの調整を行います。
 
 <img class="responsive-img" src="../images/typography_custom2.png" srcset="../images/typography_custom2@2x.png 2x"/>
 
-Last, click the Create button and give the new style an appropriate name and you are all set.
+最後に、[Create] ボタンをクリックし、新しいスタイルに適切な名前を付けます。
 
 <img class="responsive-img" src="../images/typography_custom3.png" srcset="../images/typography_custom3@2x.png 2x"/>
 
 ### Adobe XD で
-Start by inserting a new `Text` layer and adjust its properties on the right panel under `Text`. For example, choose a different font, size, alignment, and set an all lower case style.
+新しい `Text` レイヤーを挿入することから始め、右側のパネルの `Text` の下でそのプロパティを調整します。たとえば、別のフォント、サイズ、配置を選択し、すべて小文字のスタイルを設定します。
 
 <img class="responsive-img" src="../images/typography_custom4.png" srcset="../images/typography_custom4@2x.png 2x"/>
 
-Then, in the `Libraries` panel, click on the `+` icon to the right of `Character Styles` to create the style and give it an appropriate name.
+次に、`Libraries` パネルで、`Character Styles` の右側にある [+] アイコンをクリックしてスタイルを作成し、適切な名前を付けます。
 
 <img class="responsive-img" src="../images/typography_custom5.png" srcset="../images/typography_custom5@2x.png 2x"/>
 

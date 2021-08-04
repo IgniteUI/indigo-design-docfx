@@ -7,11 +7,11 @@ _language: ja
 
 # Material Icons (マテリアル アイコン)
 
-The material icons that come with the **Indigo.Design System** contain 160+ icons imported from [Material resources](https://material.io/resources/icons/?style=baseline) and 360+ icons crafted by the **Indigo.Design System** team according to the [Material system icons guidelines](https://material.io/design/iconography/system-icons.html#design-principles). Icons are used to symbolize common actions in Icon Buttons, List Items, Cards, etc., to reduce the amount of text that is normally used in a label, for example. All icons are also supported in [Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular).
+**Indigo.Design システム**に付属するマテリアル アイコンには、[マテリアル リソース](https://material.io/resources/icons/?style=baseline)からインポートされた 160 以上のアイコンと、 [マテリアル システム アイコン ガイドライン](https://material.io/design/iconography/system-icons.html#design-principles)に従って **Indigo.Design システム**のチームによって作成された 360 個以上のアイコンがあります。Icon Buttons、List Items、Cards 、など、で全般的な操作を記号-表示するためにアイコンを使用します。たとえば、 ラベルでテキストの代わりにアイコンを使用します。すべてのアイコンは [Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) でもサポートされます。
 
 <img class="responsive-img" src="../images/icons_demo.png" srcset="../images/icons_demo@2x.png 2x" />
 
-In Sketch, these graphics are on a separate page named `🎨 Material Icons`, and their colors are defined via the `Layer Styles`, letting you customize the appearance of an icon in the designs that you are crafting. In Adobe XD they are placed on an Artboard with the same name at the bottom of the left column of the library file, and customization can be achieved with the `Colors` from the Libraries panel on the left.
+Sketch では、これらのグラフィックは `🎨 Material Icons` という名前の別のページにあり、それらのカラーは `Layer Styles` を介して定義され、作成中のデザインのアイコンの外観をカスタマイズできます。Adobe XD では、ライブラリ ファイルの左側の列の下部にある同じ名前のアートボードに配置され、左側の [Libraries] パネルの `Colors` を使用してカスタマイズできます。
 
 > [!Note]
 > ExtraLarge、Large、Medium、Small の 4 つのサイズを持つ専用の [Icon](../components/icon.md) コンポーネントもあります。アートボードに直接挿入する代わりに、`🎨 Material Icons` で使用可能なグリフの 1 つを割り当てる記事、カスタム Cards、List Items などの複雑なレイアウトを作成する場合に使用します。
@@ -53,11 +53,11 @@ In Sketch, these graphics are on a separate page named `🎨 Material Icons`, an
 
 ## アイコンの追加
 
-アイコンの定義済みコレクションを使用してコンポーネントおよびパターンにアイコンを分かりやすいシンボルとして追加できます。その他のアイコン セットの追加が可能ですが、現在のセットにその他の Material Icon を追加することもできます。[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) で Material Icon がサポートされるため、アイコンを既存のセットに追加できます。Navigate your browser to the [Material Design Icons Tool](https://fonts.google.com/icons?selected=Material+Icons). Search for the icon you need, e.g. `copyright`, download it as an [SVG](https://fonts.google.com/icons?selected=Material+Icons&icon.query=copyright), and note the category to which it belongs. In this case, it would be `Action`. 
+アイコンの定義済みコレクションを使用してコンポーネントおよびパターンにアイコンを分かりやすいシンボルとして追加できます。その他のアイコン セットの追加が可能ですが、現在のセットにその他の Material Icon を追加することもできます。[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) で Material Icon がサポートされるため、アイコンを既存のセットに追加できます。ブラウザーで [マテリアル デザイン アイコン ツール](https://fonts.google.com/icons?selected=Material+Icons)に移動します。`Copyright` などに使用するアイコンを検索し、[SVG](https://fonts.google.com/icons?selected=Material+Icons&icon.query=copyright) としてダウンロードして属しているカテゴリを確認します。この場合、`Action` になります。
 
 ### Sketch で
 
-1.  Open up the library in Sketch, navigate to the `🎨 Material Icons` page and look if that same category exists as a text layer on the left. If it does not, create it and follow the steps below. If it does, which is our case for the `copyright` icon from the `Action` category, just find the right-most icon from that category, and you should be looking at something like this.
+1.  Sketch でライブラリを開き、`🎨 Material Icons` ページに移動して、同じカテゴリが左側のテキスト レイヤーとして存在するかどうかを確認します。存在しない場合は作成して、以下の手順を行います。`Action` カテゴリの `copyright` アイコンの例のように存在する場合、そのカテゴリの最も右側にあるアイコンを検索します。以下のようなものになります:
 
     <img class="responsive-img" src="../images/icons_add1.png" srcset="../images/icons_add1@2x.png 2x" />
 
@@ -83,31 +83,31 @@ In Sketch, these graphics are on a separate page named `🎨 Material Icons`, an
 
 ### Adobe XD で
 
-1.  Open up the library in Adobe XD, navigate to the `🎨 Material Icons` artboard, and look if that same category exists as a text layer on the left. If it does not, create it and follow the steps below. If it does, which is our case for the `copyright` icon from the `Action` category, just find the right-most icon from that category, and you should be looking at something like this.
+1.  Adobe XD でライブラリを開き、`🎨 Material Icons` アートボードに移動して、同じカテゴリが左側のテキスト レイヤーとして存在するかどうかを確認します。存在しない場合は作成して、以下の手順を行います。`Action` カテゴリの `copyright` アイコンの例のように存在する場合、そのカテゴリの最も右側にあるアイコンを検索します。以下のようなものになります:
 
     <img class="responsive-img" src="../images/icons_add6.png" srcset="../images/icons_add6@2x.png 2x" />
 
-2.  Now, duplicate the Symbol for this right-most icon and move it right a bit. This will create an instance of the symbol indicated by the white diamond shape with a green outline in the top-left corner when the instance is selected.
+2.  このアイコンのシンボルをコピーして右へ移動します。これにより、インスタンスが選択されたときに左上角に緑色のアウトラインが付いた白いひし形で示されるシンボルのインスタンスが作成されます。
 
     <img class="responsive-img" src="../images/icons_add7.png" srcset="../images/icons_add7@2x.png 2x" />
 
-3.  Ungroup this instance and create a new group from the two new layers, naming it "_Overrides/Material Icons/action/copyright".
+3.  このインスタンスのグループ化を解除し、2 つの新しいレイヤーから「_Overrides/Material Icons/action/copyright」という名前の新しいグループを作成します。
     | レイヤー | 使用 |
     | ----------------------- | ----------------------------------------------------- |
-    | グループ ~ | Defines the icon shape and color |
-    | 図形 | Always a square that defines the icon bounding box |
+    | グループ ~ | アイコンの図形と色を定義する |
+    | 図形 | 境界ボックスを定義する四角 |
     <div class="divider--half"></div>
     <img class="responsive-img" src="../images/icons_add8.png" srcset="../images/icons_add8@2x.png 2x" />
 
-4.  Next, we want to replace the existing icon shape with the SVG we have downloaded, so we need to select the Group with the old glyph and drag and drop the SVG with the `copyright` icon on top of it, aligning the two on all sides. This will create a new group, `copyright-24px` in our layers panel, which we need to expand and drag the desired icon shape just outside of this group, but above the rectangular Shape layer.
+4. 次に、既存のアイコン図形をダウンロードした SVG に置き換えます。 そのため、古いグリフのある Group を選択し、その上に `copyright` アイコンが付いた SVG をドラッグアンドドロップして、2 つをすべての側に揃える必要があります。これにより、レイヤー パネルに新しいグループ `copyright-24px` が作成されます。このグループのすぐ外側で、長方形の Shape レイヤーの上にある目的のアイコン図形を展開してドラッグする必要があります。
 
     <img class="responsive-img" src="../images/icons_add9.png" srcset="../images/icons_add9@2x.png 2x" />
 
-5.  Let's remove the old icon glyph now and the leftover group after moving the new icon shape out of it. Then, we have to select the one and only icon shape we have left with the `copyright` symbol and set its appearance to `grays.700` from Colors in the Libraries panel. 
+5.  新しいアイコン図形を移動した後、元のアイコン グリフおよびグループを削除します。次に、`copyright` 記号が付いた唯一のアイコン図形を選択し、[Libraries] パネルの [Colors] からその外観を `grays.700` に設定します。 
 
    <img class="responsive-img" src="../images/icons_add10.png" srcset="../images/icons_add10@2x.png 2x" />
 
-6.  The final step is to create a component from the _Overrides/Material Icons/action/copyright group to be able to start using it like any other icon element in our design.
+6.  最後の手順は、_Overrides/Material Icons/action/copyright グループからコンポーネントを作成して、デザインの他のアイコン要素と同じように使用を開始できるようにすることです。
 
     <img class="responsive-img" src="../images/icons_add11.png" srcset="../images/icons_add11@2x.png 2x" />
 
