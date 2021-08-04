@@ -36,7 +36,7 @@ The List Item has two distinct areas: Primary Action with non-interactive conten
 
 ## Primary Action
 
-4 interchangeable List Item Primary Actions are listed below. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them. Thanks to Smart Layout in Sketch, they can be adjusted further by setting unnecessary elements to ~No Symbol.
+4 interchangeable List Item Primary Actions are listed below. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them. Thanks to Smart Layout in Sketch, they can be adjusted further by setting unnecessary elements to ~No Symbol. In Adobe XD you have to delete the unused layers instead, and the layout will adjust through the use of stacks.
 
 |                              |                                                                                                  |                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -47,7 +47,7 @@ The List Item has two distinct areas: Primary Action with non-interactive conten
 
 ## Secondary Action
 
-4 interchangeable List Item Secondary Actions are listed below. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them. Thanks to Smart Layout in Sketch, they can be adjusted further by setting unnecessary elements to ~No Symbol.
+4 interchangeable List Item Secondary Actions are listed below. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them. Thanks to Smart Layout in Sketch, they can be adjusted further by setting unnecessary elements to ~No Symbol. In Adobe XD you have to delete the unused layers instead, and the layout will adjust through the use of stacks.
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
