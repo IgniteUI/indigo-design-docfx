@@ -34,7 +34,7 @@ Each Button in the Button Group is a Flat Button and allows for the same degree 
 
 ## Styling
 
-The Button Group comes with styling flexibility through the various options controlling the border and background color, as well as the individual buttons' outline, background, text, and icon colors.
+The Button Group comes with styling flexibility through the various options for the border and background color, as well as the individual buttons' outline, background, text, and icon colors.
 
 <img class="responsive-img" src="../images/button-group_styling.png" srcset="../images/button-group_styling@2x.png 2x" />
 
@@ -56,5 +56,4 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
 
