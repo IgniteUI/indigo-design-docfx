@@ -80,8 +80,9 @@ Use the Step Line Chart when you have a continuous data set and want to see the 
 
 Related topic:
 
-- [Line Chart](../line-chart.md)
-- [Spline Chart](../spline-chart.md)
-- [Column Chart](../column-chart.md)
+- [Line Chart](line-chart.md)
+- [Spline Chart](spline-chart.md)
+- [Column Chart](column-chart.md)
+- [Skeleton Charts](skeleton-charts.md)
 
 Our community is active and always welcoming to new ideas.
