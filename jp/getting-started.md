@@ -61,5 +61,5 @@ Indigo.Design クラウドで公開されたプロトタイプから直接 Angul
 
 関連トピック:
 
-[Indigo.Design App Builder のアプリケーションからコードを生成](appbuilder/generate-app-overview.md)
+[Indigo.Design App Builder のアプリケーションからコードを生成](appbuilder/generate-app/generate-app-overview.md)
 [プロトタイプからコードを生成](codegen/installing-vs-code-extension.md)
