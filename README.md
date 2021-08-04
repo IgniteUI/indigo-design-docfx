@@ -23,7 +23,6 @@ If _brew_ is missing on your environment, go ahead and install it with:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-
 For Windows based platforms use [_chocolatey_](https://chocolatey.org/):
 
 ```
