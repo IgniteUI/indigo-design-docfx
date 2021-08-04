@@ -27,7 +27,7 @@ The Checkbox can be used styled in **dark** and light variants to assure good re
 
 ## Layout Template
  
-In Sketch, the Checkbox supports label position variants where the Checkbox label is placed after or before the Checkbox element. In Adobe XD, we are using Stacks to allow you to change the label and checkbox positions at design time.
+In Sketch, the Checkbox supports label position variants where the Checkbox label is placed after or before the Checkbox element. In Adobe XD, we are using Stacks to allow you to change the label and checkbox positions at design time simply by dragging it to the left or right of the checkbox visual.
 
 <img class="responsive-img" src="../images/checkbox_label_after.png" srcset="../images/checkbox_label_after@2x.png 2x" />
 <img class="responsive-img" src="../images/checkbox_label_before.png" srcset="../images/checkbox_label_before@2x.png 2x" />
