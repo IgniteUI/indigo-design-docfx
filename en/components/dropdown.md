@@ -45,7 +45,7 @@ The Dropdown Item supports flexible icon and label templating achievable by sett
 
 ## Styling
 
-The Dropdown comes with styling flexibility through an option controlling the background color, as well as various options related to the items it contains such as item and header background and text colors.
+The Dropdown comes with styling flexibility for its background color, as well as various options related to the elements it contains such as item and header background and text colors.
 
 <img class="responsive-img" src="../images/dropdown_styling.png" srcset="../images/dropdown_styling@2x.png 2x" />
 
