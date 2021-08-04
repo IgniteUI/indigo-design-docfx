@@ -27,7 +27,7 @@ The Switch can be used styled in **dark** and light variants to assure good read
 
 ## Layout Template
 
-In Sketch, the Switch supports label position variants where the Switch label is placed after or before the Switch element. In Adobe XD, we are using Stacks to allow you to change the label and switch positions at design time.
+In Sketch, the Switch supports label position variants where the Switch label is placed after or before the Switch element. In Adobe XD, we are using Stacks to allow you to change the label and switch positions at design time simply by dragging it to the left or right of the switch visual.
 
 <img class="responsive-img" src="../images/switch_label-before.png" srcset="../images/switch_label-before@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_label-after.png" srcset="../images/switch_label-after@2x.png 2x" />
