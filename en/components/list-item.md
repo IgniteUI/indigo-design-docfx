@@ -22,7 +22,7 @@ In Sketch, the List Item comes in three preset types: Header for defining the he
 
 ## State
 
-The One-line and Two-line List Items support the following interactive states: **inactive** for the normal state and active for the selected state. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. The Header List Item is not selectable so it provides no support for such states.
+The Items support the following interactive states: **inactive** for the normal state and active for the selected state. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. The Header List Item is not selectable so it provides no support for such states.
 
 <img class="responsive-img" src="../images/list_item_inactive.png" srcset="../images/list_item_inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_active.png" srcset="../images/list_item_active@2x.png 2x" />
