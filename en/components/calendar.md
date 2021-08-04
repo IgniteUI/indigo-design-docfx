@@ -37,13 +37,13 @@ The start of the week can also be chosen as an option at the time of inserting a
 
 ## Header
 
-The Calendar has a built-in Header that can be removed by setting the Header override to ~No Symbol in the overrides panel resulting in a base Calendar that you can embed more seamlessly in your forms.
+The Calendar has a built-in Header that can be removed. In Sketch, the use of a smart layout allows adjusting accordingly when the Header you want to hide is set to ~No Symbol, resulting in a base Calendar that you can embed more seamlessly in your forms. In Adobe XD you have to delete the unused layer instead, and the layout will adjust through the use of stacks.
 
 <img class="responsive-img" src="../images/calendar_base.png" srcset="../images/calendar_base@2x.png 2x" />
 
 ## Week Numbers
 
-The Calendar also has built-in support for Week Numbers, but if you prefer not to show this part of the UI, simply set the Week Numbers override to ~No Symbol.
+The Calendar also has built-in support for Week Numbers, but if you prefer not to show this part of the UI, simply set the Week Numbers to ~No Symbol in Sketch while in Adobe XD you have to delete the unused layer instead.
 
 <img class="responsive-img" src="../images/calendar_weeknum.png" srcset="../images/calendar_weeknum@2x.png 2x" />
 

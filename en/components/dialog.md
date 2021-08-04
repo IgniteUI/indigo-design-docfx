@@ -14,7 +14,7 @@ Use the Dialog Component to show a message or alert to the user, allowing him to
 
 ## Types
 
-The Dialog can be used to show an alert with only a confirming button, a message with cancellation and confirmation, or as a container for action that needs immediate attention, such as a user logging into his account.
+The Dialog can be used to show an alert with only a confirming button, a message with cancellation and confirmation, or as a container for action that needs immediate attention, such as a user logging into his account. The Button area is templatable, allowing you, for example, to hide a button. To hide a button in Sketch, you have to set its override to ~No Symbol, and through the use of a smart layout, it will adjust accordingly. While in Adobe XD, you have to delete the unused layer instead, and the layout will adjust through the use of stacks.
 
 <img class="responsive-img" src="../images/dialog_alert.png" srcset="../images/dialog_alert@2x.png 2x" />
 <img class="responsive-img" src="../images/dialog_standard.png" srcset="../images/dialog_standard@2x.png 2x" />

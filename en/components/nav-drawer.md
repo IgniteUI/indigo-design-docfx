@@ -21,7 +21,7 @@ The Navigation Drawer supports a **default** type with icon and label for each i
 
 ## Items
 
-The Navigation Drawer uses a smart layouting and can show up to 21 Items. The exact amount can be configured by setting the Items that will not be needed to ~No Symbol.
+The Navigation Drawer can show up to 21 Items. Sketch uses a smart layout, allowing it to adjust accordingly when you choose the exact amount of items you need and hide the extra ones by setting them to ~No Symbol from the options panel. In Adobe XD you have to delete the unused layers instead, and the layout will adjust through the use of stacks. Also, you can drag items in the stack to change their order.
 
 <img class="responsive-img" src="../images/nav-drawer_default.png" srcset="../images/nav-drawer_default@2x.png 2x" />
 

@@ -21,7 +21,7 @@ You may insert a Date Picker Input in your forms to indicate fields for selectin
 
 ## Picker Layout
 
-The Date Picker supports Dialog layout with Horizontal and Vertical orientation, as well as a Drop-down layout to facilitate different modes of picking dates. Notice that Dialog layouts come with a Header that you may hide by setting its override to ~No Symbol, but still the shadow it casts allows to distinguish it from a Drop-down layout.
+The Date Picker supports Dialog layout with Horizontal and Vertical orientation, as well as a Drop-down layout to facilitate different modes of picking dates. Notice that Dialog layouts come with a Header that you may hide in Sketch by setting its override to ~No Symbol, and through the use of a smart layout it will adjust accordingly. In Adobe XD you have to delete the unused layer instead, and the layout will adjust through the use of stacks. Still, the shadow it casts allows it to be distinguished from a Drop-down layout.
 
 <img class="responsive-img" src="../images/datepicker_horizontal.png" srcset="../images/datepicker_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_vertical.png" srcset="../images/datepicker_vertical@2x.png 2x" />
@@ -36,7 +36,7 @@ The start of the week can also be chosen as an option at the time of inserting a
 
 ## Week Numbers
 
-The Date Picker has the same built-in support for Week Numbers like the Calendar. If you prefer not to show this part of the UI, simply set the Week Numbers override to ~No Symbol.
+The Date Picker has the same built-in support for Week Numbers like the Calendar. If you prefer not to show this part of the UI, simply set the Week Numbers override to ~No Symbol in Sketch, and through the use of smart layout, it will adjust accordingly, while in Adobe XD you have to delete the unused layer instead, and the layout will adjust through the use of stacks.
 
 <img class="responsive-img" src="../images/datepicker_weeknumbers.png" srcset="../images/datepicker_weeknumbers@2x.png 2x" />
 
@@ -50,7 +50,7 @@ Akin to the Calendar, the Date Picker lets you pick between three selection mode
 
 ## Buttons
 
-The Drop-down Date Picker comes with two buttons: one for closing in and keeping the current selection, and one for navigating to today. The Button area is templatable allowing you, for example, to hide a button by setting its override to ~No Symbol, or assign a different action to it. The Dialog Date Picker comes with no buttons by default because upon selecting a date, the dialog closes automatically.
+The Drop-down Date Picker comes with two buttons: one for closing in and keeping the current selection, and one for navigating to today. The Button area is templatable, allowing you, for example, to hide a button. To hide a button in Sketch, you have to set its override to ~No Symbol, and through the use of a smart layout, it will adjust accordingly. While in Adobe XD, you have to delete the unused layer instead, and the layout will adjust through the use of stacks. The Dialog Date Picker comes with no buttons by default because upon selecting a date, the dialog closes automatically.
 
 <img class="responsive-img" src="../images/datepicker_buttons.png" srcset="../images/datepicker_buttons@2x.png 2x" />
 

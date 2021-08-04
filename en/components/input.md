@@ -61,7 +61,7 @@ Every experienced designer uses constraints wisely to limit the user input and a
 
 ## Layout
 
-The Input has rich support for prefix and suffix through a combination of text and icons that can, in certain cases, reduce the input effort for the user: e.g. an @email.com suffix means both fewer keystrokes and more clarity of expected content. You can remove the prefix or suffix by setting the respective container to ~No Symbol from the overrides.
+The Input has rich support for prefix and suffix through a combination of text and icons that can, in certain cases, reduce the input effort for the user: e.g. an @email.com suffix means both fewer keystrokes and more clarity of expected content. It is possible to remove the prefix or suffix. In Sketch, the applied smart layout rules allow the layout to adjust accordingly when you set the respective container to ~No Symbol. While in Adobe XD, the use of stacks lets you achieve that by deleting the unused layers instead.
 
 <img class="responsive-img" src="../images/input_prefix.png" srcset="../images/input_prefix@2x.png 2x" />
 <img class="responsive-img" src="../images/input_suffix.png" srcset="../images/input_suffix@2x.png 2x" />

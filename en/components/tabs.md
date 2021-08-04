@@ -28,7 +28,7 @@ The Tabs can be Content Fit to fill up the available horizontal space by adaptin
 
 ## Tabs Amount
 
-For the majority of scenarios, the Tabs need to contain between two and five tabs. You can remove a tab item by setting it to ~No Symbol. If your case requires more tabs, you may want to consider a fluid mode and represent only the tabs in view.
+For most scenarios, the Tabs need to contain between two and five tabs, and if needed, you can remove a tab item. To do that in Sketch, the Tabs uses a smart layout allowing it to adjust accordingly when one or more of its tabs are set to ~No Symbol. In Adobe XD, you have to delete the unused layers instead, and the layout will adjust through the use of stacks. If your case requires more tabs, you may want to consider a fluid mode and represent only the tabs in view.
 
 <img class="responsive-img" src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
@@ -37,7 +37,7 @@ For the majority of scenarios, the Tabs need to contain between two and five tab
 
 ## Short Bar Content
 
-The short bar comes with text content by default and if you want to show an icon instead, you have to assign a Material Icon to the `🔣 Icon` override and set the `🏷️ Label` to ~No Symbol for every tab in the bar.
+The short bar comes with text content by default. If you want to show an icon instead, you have to assign a Material Icon to the `🔣 Icon` override and set the `🏷️ Label` to ~No Symbol in Sketch for every tab in the bar or delete the unused layers in Adobe XD.
 
 <img class="responsive-img" src="../images/tabs_text.png" srcset="../images/tabs_text@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_icons.png" srcset="../images/tabs_icons@2x.png 2x" />

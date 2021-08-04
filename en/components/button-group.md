@@ -21,7 +21,7 @@ The Button Group supports two layout directions: horizontal, where items are lai
 
 ## Buttons Amount
 
-The Button Group uses smart layouting options to let you choose the exact amount of buttons that you need and hide the extra ones by setting them to ~No Symbol from the overrides panel.
+In Sketch, the Button Group uses a smart layout allowing it to adjust accordingly when you choose the exact amount of buttons you need and hide the extra ones by setting them to ~No Symbol from the options panel. In Adobe XD you have to delete the unused layers instead, and the layout will adjust through the use of stacks.
 
 <img class="responsive-img" src="../images/button-group_amount.png" srcset="../images/button-group_amount@2x.png 2x" />
 

@@ -16,19 +16,19 @@ For scenarios where a target value is critically important for understanding and
 
 ## Title and Subtitle
 
-The Linear Gauge has a Title and Subtitle and their text can be changed. They can also be hidden if not needed by setting them to ~No Symbol.
+The Linear Gauge has a Title and Subtitle whose text can be changed. In Sketch, they can also be hidden if they are not needed by setting them to ~No Symbol, while in Adobe XD you have to delete the unused layer instead.
 
 <img class="responsive-img" src="../images/linear_gauge_title.png" srcset="../images/linear_gauge_title@2x.png 2x" />
 
 ## Legend
 
-The Linear Gauge comes with a Legend that can be adjusted to match the ranges shown on it and the current value. Legend items can be removed by setting the corresponding Series to ~No Symbol or added by finding it in the Overrides/Charts/Legend/Serie. Also there you can change the icon type between Square, Line or Circle.
+The Linear Gauge comes with a Legend that can be adjusted accordingly to match the ranges shown on it and the current value. In Sketch, Legend items can be removed by setting the corresponding Series to ~No Symbol or added by finding it in the Overrides/Charts/Legend/Serie. In Adobe XD, you have to delete the unused layers instead, and the layout will adjust through the use of stacks. Also, you can change the icon type between Square, Line, or Circle.
 
 <img class="responsive-img" src="../images/linear_gauge_legend.png" srcset="../images/linear_gauge_legend@2x.png 2x" />
 
 ## Tooltip
 
-The Linear Gauge comes with a tooltip that may be hidden by setting the override to ~No Symbol.
+The Linear Gauge comes with a tooltip that may be hidden by setting the override to ~No Symbol in Sketch, while in Adobe XD you have to delete the unused layer instead.
 
 <img class="responsive-img" src="../images/linear_gauge_tooltip-off.png" srcset="../images/linear_gauge_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_tooltip-on.png" srcset="../images/linear_gauge_tooltip-on@2x.png 2x" />

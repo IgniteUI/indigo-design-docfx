@@ -21,7 +21,7 @@ The Navbar comes in two distinct type variants an Elevated one that casts a shad
 
 ## Content Layout
 
-The Navbar content is split into a left area, consisting of a Left Action and a Title, and a right area with four adjacent icons for various actions. You can configure the Navbar layout by setting the Left Action or the Icons to the right to ~No Symbol.
+The Navbar content is split into a left area, consisting of a Left Action and a Title, and a right area with four adjacent icons for various actions. You can configure the Navbar layout by setting the Left Action or the Icons to the right to ~No Symbol in Sketch and through a smart layout it will adjust accordingly. In Adobe XD you have to delete the unused layers instead, and the layout will adjust through the use of stacks.
 
 <img class="responsive-img" src="../images/navbar_left&right.png" srcset="../images/navbar_left&right@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_noright.png" srcset="../images/navbar_noright@2x.png 2x" />

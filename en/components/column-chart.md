@@ -16,7 +16,7 @@ The Column Chart comprises of `Title`, a `Legend` that is hidden by default, and
 
 ## Title
 
-The Column Chart has a title that can be changed or hidden if not needed by setting its override to ~No Symbol.
+The Column Chart has a title that can be changed or hidden if not needed. In Sketch, the applied smart layout rules allow the layout to adjust accordingly when you want to hide the title and set it to ~No Symbol. In Adobe XD, the use of stacks lets you achieve that by deleting the unused layer instead.
 
 <img class="responsive-img" src="../images/column_chart_title.png" srcset="../images/column_chart_title@2x.png 2x" />
 
@@ -29,7 +29,7 @@ The Column Chart has two states - Idle and Hover. In the Hover state a tooltip i
 
 ## Y-Axis
 
-The Y-axis of the column chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and to hide a label simply set its override to ~No Symbol. You may hide the axis line by setting its color to `Transparent` and to hide all elements at once, change the Y-axis override to ~No Symbol.
+The Y-axis of the column chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and to hide a label simply set its override to ~No Symbol in Sketch or delete the layer in Adobe XD. You may hide the axis line by setting its color to `Transparent` and to hide all elements at once, change the Y-axis override to ~No Symbol in Sketch or delete the layer in Adobe XD.
 
 <img class="responsive-img" src="../images/column_chart_yaxis.png" srcset="../images/column_chart_yaxis@2x.png 2x" />
 
@@ -41,7 +41,7 @@ The Column Chart has built-in Gridlines to make it easier to visually trace a da
 
 ## Data Points
 
-Data Points for a Column Chart are the individual columns, which use a Smart Layout in Sketch making it possible to adjust their amount on the Chart Area. They come with configurable labels on the X-axis and annotation labels.
+Data Points for a Column Chart are the individual columns, which use a `Smart Layout` in Sketch, making it possible to adjust accordingly their amount on the Chart Area. In Adobe XD, the use of `Stacks` lets you achieve that. They come with configurable labels on the X-axis and annotation labels.
 
 <img class="responsive-img" src="../images/column_chart_columns.png" srcset="../images/column_chart_columns@2x.png 2x" />
 

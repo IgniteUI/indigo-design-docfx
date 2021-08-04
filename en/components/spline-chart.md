@@ -17,13 +17,13 @@ The Spline Chart has Title, Legend, and Chart Area, where you can choose between
 
 ## Title
 
-The Spline Chart has a title that when not needed can be removed by setting its override to ~No Symbol.
+The Spline Chart has a title that can be changed or hidden if not needed. In Sketch, the applied smart layout rules allow the layout to adjust accordingly when you want to hide the title and set it to ~No Symbol. In Adobe XD, the use of stacks lets you achieve that by deleting the unused layer instead.
 
 <img class="responsive-img" src="../images/spline_chart_title.png" srcset="../images/spline_chart_title@2x.png 2x" />
 
 ## Legend
 
-The Spline Chart comes with a Legend to show the number of series in it and what they represent. The Legend is built using a Smart Layout in Sketch and can be adjusted to contain the exact amount of series items by setting the overrides of those not needed to ~No Symbol. Legend items' shape is also configurable with built-in support for rectangle, line, and dot.
+The Spline Chart comes with a Legend to show the number of series in it and what they represent. The Legend is built using a smart layout in Sketch and can be adjusted to contain the exact amount of series items by setting the overrides of those not needed to ~No Symbol. While in Adobe XD, the use of stacks lets you achieve that by deleting the unused layers instead. Legend items' shape is also configurable with built-in support for rectangle, line, and dot.
 
 <img class="responsive-img" src="../images/spline_chart_legend.png" srcset="../images/spline_chart_legend@2x.png 2x" />
 
@@ -42,7 +42,7 @@ The Spline Chart has two states - Idle and Hover. In the Hover state a tooltip, 
 
 ## Y-Axis
 
-The Y-axis of the Spline Chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and to hide a label simply set its override to ~No Symbol. You may hide the axis line by setting its color to `Transparent` and to hide all elements at once, change the Y-axis override to ~No Symbol.
+The Y-axis of the Spline Chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and to hide a label simply set its override to ~No Symbol in Sketch or delete the layer in Adobe XD. You may hide the axis line by setting its color to `Transparent` and to hide all elements at once, change the Y-axis override to ~No Symbol in Sketch or delete the layer in Adobe XD.
 
 <img class="responsive-img" src="../images/spline_chart_axis.png" srcset="../images/spline_chart_axis@2x.png 2x" />
 

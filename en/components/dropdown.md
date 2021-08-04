@@ -38,7 +38,7 @@ The Dropdown items support five different states: Disabled, **Idle**, Focused, S
 
 ## Item Layout Template
 
-The Dropdown Item supports flexible icon and label templating achievable by setting the elements you want to hide to ~No Symbol from the overrides panel. By default, the icon is hidden with this approach.
+The Dropdown Item supports flexible icon and label templating. In Sketch, the smart layout rules applied to the item content template lets you remove the icon and have a label-only item when you set the icon to ~No Symbol from the overrides panel. While in Adobe XD, the use of stacks lets you achieve that by deleting the unused layer. By default, the icon is hidden.
 
 <img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_icon.png" srcset="../images/dropdown_item_icon@2x.png 2x" /> 

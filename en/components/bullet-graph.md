@@ -16,19 +16,19 @@ For scenarios where no target value exists or is irrelevant you should use the [
 
 ## Title and Subtitle
 
-The Bullet Graph has a Title and Subtitle whose text can be changed. They can also be hidden if they are not needed by setting them to ~No Symbol.
+The Bullet Graph has a Title and Subtitle whose text can be changed. In Sketch, they can also be hidden if they are not needed by setting them to ~No Symbol, while in Adobe XD you have to delete the unused layer instead.
 
 <img class="responsive-img" src="../images/bullet_graph_title.png" srcset="../images/bullet_graph_title@2x.png 2x" />
 
 ## Legend
 
-The Bullet Graph comes with a Legend that can be adjusted to match the selected Series Amount. Legend items can be removed by setting the corresponding Series to ~No Symbol or added by finding it in the Overrides/Charts/Legend/Serie. Also there you can change the icon type between Square, Line or Circle.
+The Bullet Graph comes with a Legend that can be adjusted accordingly to match the selected Series Amount. In Sketch, Legend items can be removed by setting the corresponding Series to ~No Symbol or added by finding it in the Overrides/Charts/Legend/Serie. In Adobe XD, you have to delete the unused layers instead, and the layout will adjust through the use of stacks. Also, you can change the icon type between Square, Line, or Circle.
 
 <img class="responsive-img" src="../images/bullet_graph_legend.png" srcset="../images/bullet_graph_legend@2x.png 2x" />
 
 ## Tooltip
 
-The Bullet Graph comes with a tooltip that may be hidden by setting the override to ~No Symbol.
+The Bullet Graph comes with a tooltip that may be hidden by setting the override to ~No Symbol in Sketch, while in Adobe XD you have to delete the unused layer instead.
 
 <img class="responsive-img" src="../images/bullet_graph_tooltip-off.png" srcset="../images/bullet_graph_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_tooltip-on.png" srcset="../images/bullet_graph_tooltip-on@2x.png 2x" />
