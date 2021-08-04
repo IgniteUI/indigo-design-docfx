@@ -36,9 +36,9 @@ In Adobe XD, the list item has a Group where non-interactive content such as Ava
 <img class="responsive-img" src="../images/list_item_primary.png" srcset="../images/list_item_primary@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />
 
-## Primary Action in Sketch
+## Primary Action
 
-4 interchangeable List Item Primary Actions are listed below. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them. Thanks to Smart Layout in Sketch, they can be adjusted further by setting unnecessary elements to ~No Symbol. In Adobe XD you have to delete the unused layers instead, and the layout will adjust due to the Stack applied to it.
+In Sketch, there are 4 interchangeable List Item Primary Actions, available as `Symbol Overrides`. Thanks to Smart Layout in Sketch, they can be adjusted further by setting unnecessary elements to ~No Symbol.
 
 |                              |                                                                                                  |                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -49,7 +49,7 @@ In Adobe XD, the list item has a Group where non-interactive content such as Ava
 
 ## Secondary Action
 
-4 interchangeable List Item Secondary Actions are listed below. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them. Thanks to Smart Layout in Sketch, they can be adjusted further by setting unnecessary elements to ~No Symbol. In Adobe XD you have to delete the unused layers instead, and the layout will adjust due to the Stack applied to it.
+In Sketch, there are 4 interchangeable List Item Secondary Actions available as `Symbol Overrides`. Thanks to Smart Layout in Sketch, they can be adjusted further by setting unnecessary elements to ~No Symbol.
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -65,6 +65,7 @@ The Thumbnail component in the left List Item area in Adobe XD provides 3 interc
 ## Actions in Adobe XD
 
 The Actions component that constitutes the right List Item area in Adobe XD provides 4 interchangeable options via the `Component States` paradigm to let you easily switch them. This makes it possible to create a matching design for each of the Secondary Actions in Sketch.
+
 ## Styling
 
 The List Item comes with styling flexibility through the options available for the different elements used in it, such as icons, text and components like Avatar, Badge, Checkbox, Icon, Progress, Switch, etc., each with its own styling capabilities.
