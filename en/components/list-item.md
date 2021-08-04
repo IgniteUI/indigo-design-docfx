@@ -58,7 +58,7 @@ The List Item has two distinct areas: Primary Action with non-interactive conten
 
 ## Styling
 
-The List Item comes with styling flexibility through the overrides available for the different elements used in it, such as icons and text and components like Avatar, Badge, Checkbox, Icon, Progress, Switch, etc., with their own styling capabilities.
+The List Item comes with styling flexibility through the options available for the different elements used in it, such as icons, text and components like Avatar, Badge, Checkbox, Icon, Progress, Switch, etc., each with its own styling capabilities.
 
 <img class="responsive-img" src="../images/list_item_styling.png" srcset="../images/list_item_styling@2x.png 2x" />
 
