@@ -17,8 +17,6 @@ The Checkbox Group Pattern comes with the styling flexibility provided by the Ch
 >
 > In Adobe XD you can add a Checkbox item by duplicating one and it will simply line up with the others due to the applied stack.
 
-<img class="responsive-img" src="../images/checkbox_group_detach.png" srcset="../images/checkbox_group_detach@2x.png 2x" />
-
 ## Additional Resources
 
 Related topics:
