@@ -75,6 +75,9 @@ You may have noticed that in the image above, the library also appears to be pre
 
 ### 3. Add and customize components.
 
+> [!WARNING]
+> Symbols and components designated as `_Overrides` must not be inserted on artboards as they provide components states and do not represent to complete a component by itself.
+
 We will use the `Insert` menu to add components from the Indigo Design Library, and then customize them using the panel on the right.
 
 These are the steps to recreate the screen in the example.
