@@ -34,9 +34,9 @@ All Grid features are applicable to the Tree Grid Pattern.
 
 
 > [!WARNING]
-> In Sketch, after inserting the Tree Grid Pattern, you can trigger `Detach from Symbol` only if you need to alter the number of cells provided, in order to show all the dimensions of your data and insert as many visible records as you want simply by duplicating a header or one of the rows of data that you already have. The individual Components and Features, however, must stay intact and not be detached!
+> In Sketch, after inserting the Tree Grid Pattern, you can trigger `Detach from Symbol` only if you need to alter the number of cells provided, in order to show all the dimensions of your data and insert as many visible records as you want. The individual Components and Features, however, must stay intact and not be detached!
 >
-> In Adobe XD you can add more cells than provided by duplicating without a need for detaching.
+> In Adobe XD you can add more cells than provided by duplicating columns and rows without ever having to ungroup the pattern component itself.
 
 ## Additional Resources
 
@@ -45,5 +45,4 @@ Related topics:
 - [Tree Grid](../components/tree-grid.md)
 
 Our community is active and always welcoming to new ideas.
-
 
