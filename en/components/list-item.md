@@ -29,7 +29,9 @@ The Items support the following interactive states: **inactive** for the normal 
 
 ## Area
 
-The List Item has two distinct areas: Primary Action with non-interactive content such as Avatar and text, and Secondary Action with quick actions related to the List Item. Any combination of a Primary and Secondary action creates a unique list item template that should be used consistently across all items of a List.
+In Sketch, the List Item has two distinct areas: Primary Action with non-interactive content such as Avatar and text, and Secondary Action with quick actions related to the List Item. Any combination of a Primary and Secondary action creates a unique list item template that should be used consistently across all items of a List.
+
+In Adobe XD, the list item has a Group where non-interactive content such as Avatar, Progress bar, and text are laid out, as well as an Actions component containing actionable icons for the right side of the item. In both areas, you can drag arbitrary components from the `Libraries` panel to create the layout that you need without ever having to destroy any of the components in the template or the item itself.
 
 <img class="responsive-img" src="../images/list_item_primary.png" srcset="../images/list_item_primary@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />
