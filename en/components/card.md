@@ -65,7 +65,7 @@ Through the use of `Smart Layout` in Sketch, the Card can produce various layout
 
 ## Styling
 
-The Card comes with styling flexibility through the various options available for image, header, body, and actions areas such as text, icons, and button colors, as well as the possibility to choose a Card background color.
+The Card comes with styling flexibility through the various options available for image, header, body, and actions areas such as text styles, icon types, and colors, as well as button colors and the possibility to choose a Card background color.
 
 <img class="responsive-img" src="../images/card_styling.png" srcset="../images/card_styling@2x.png 2x" />
 
