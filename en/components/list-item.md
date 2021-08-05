@@ -79,13 +79,13 @@ Related topics:
 - [Avatar](avatar.md)
 - [Badge](badge.md)
 - [Checkbox](checkbox.md)
-- [Custom List Item in Sketch](list-custom.md)
 - [Icon](icon.md)
 - [List](list.md)
-- [Lists Pattern](../patterns/lists.md)
-- [Progress](progress.md)
+- [Custom List Item in Sketch](list-custom.md)
 - [Skeleton List](list-skeleton.md)
+- [Progress](progress.md)
 - [Switch](switch.md)
+- [Lists Pattern](../patterns/lists.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
