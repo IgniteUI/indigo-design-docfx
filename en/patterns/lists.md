@@ -29,7 +29,7 @@ Use the Group of Items List Pattern to present grouped or organized items.
 > [!WARNING]
 > In Sketch, after inserting any of the Lists available as a Pattern, you can trigger `Detach from Symbol` only if you need to add more items than provided. The individual List Items and Components such as Inputs, Avatars, and Navigation elements must stay intact and not be detached!
 >
-> In Adobe XD you can add a List Item by duplicating one of the existing ones and it will simply line up with the others due to the applied stack without ever having to ungroup the pattern component itself.
+> In Adobe XD you can add a List Item by duplicating one of the existing ones and it will simply line up with the others due to the applied stack without ever having to ungroup the pattern itself.
 
 ## Additional Resources
 
@@ -43,4 +43,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
