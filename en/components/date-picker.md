@@ -36,7 +36,7 @@ The start of the week can also be chosen as an option at the time of inserting a
 
 ## Week Numbers
 
-The Date Picker has the same built-in support for Week Numbers like the Calendar. If you prefer not to show this part of the UI, simply set the Week Numbers override to ~No Symbol in Sketch, and through the use of smart layout, it will adjust accordingly, while in Adobe XD you have to delete the unused layer instead, and the layout will adjust through the use of stacks.
+The Date Picker has the same built-in support for Week Numbers like the Calendar. If you prefer not to show this part of the UI, simply set the Week Numbers override to ~No Symbol in Sketch, and through the use of smart layout, everything will adjust accordingly. In Adobe XD you have to delete the Week Numbers layer to achieve the same and the Stack used there will adjust the layout in a similar fashion.
 
 <img class="responsive-img" src="../images/datepicker_weeknumbers.png" srcset="../images/datepicker_weeknumbers@2x.png 2x" />
 
