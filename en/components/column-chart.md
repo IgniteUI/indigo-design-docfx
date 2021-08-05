@@ -41,7 +41,7 @@ The Column Chart has built-in Gridlines to make it easier to visually trace a da
 
 ## Data Points
 
-Data Points for a Column Chart are the individual columns, which use a `Smart Layout` in Sketch, making it possible to adjust accordingly their amount on the Chart Area. In Adobe XD, the use of `Stacks` lets you achieve that. They come with configurable labels on the X-axis and annotation labels.
+Data Points for a Column Chart are the individual columns, arranged in a smart layout in Sketch or a Stack in Adobe XD, making it possible to effortlessly adjust their amount on the Chart Area. Furthermore, the columns come with configurable labels on the X-axis and annotation labels.
 
 <img class="responsive-img" src="../images/column_chart_columns.png" srcset="../images/column_chart_columns@2x.png 2x" />
 
