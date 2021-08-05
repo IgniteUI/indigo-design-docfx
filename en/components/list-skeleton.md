@@ -36,7 +36,7 @@ The Skeleton List Item has two distinct areas like the standard [List](list.md):
 
 ## List Item Primary Action
 
-There are 4 interchangeable List Item Primary Actions like the standard [List](list.md) that are listed below. Thanks to the use of Smart Layout in Sketch they can be adjusted further by setting unnecessary elements to ~No Symbol.
+In Sketch, there are 4 interchangeable Skeleton List Item Primary Actions like the standard [List Item](list-item.md) that are listed below available as `Symbol Overrides`. Thanks to Smart Layout in Sketch, they can be adjusted further by setting unnecessary elements to ~No Symbol.
 
 |                              |                                                                                                  |                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -47,11 +47,19 @@ There are 4 interchangeable List Item Primary Actions like the standard [List](l
 
 ## List Item Secondary Action
 
-The Secondary Action of the Skeleton List Item covers all scenarios possible with its counterpart from the standard [List](list.md). Thanks to the use of Smart Layout in Sketch it can be adjusted further by setting unnecessary elements to ~No Symbol.
+In Sketch, The Secondary Action of the Skeleton List Item covers all scenarios possible with its counterpart from the standard [List Item](list-item.md) available as `Symbol Overrides`. Thanks to Smart Layout in Sketch, it can be adjusted further by setting unnecessary elements to ~No Symbol.
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Text and Icon            | <img class="responsive-img" src="../images/list_skeleton_item_secondary3.png" srcset="../images/list_skeleton_item_secondary3@2x.png 2x" /> |                                                                                                                                       |
+
+## Thumbnail in Adobe XD
+
+The Thumbnail component in the left Skeleton List Item area in Adobe XD provides 3 interchangeable options like the standard [List Item](list-item.md) via the `Component States` paradigm to let you easily switch them. This makes it possible to create a matching design for each of the Primary Actions in Sketch.
+
+## Actions in Adobe XD
+
+The Actions component that constitutes the right Skeleton List Item area in Adobe XD covers all scenarios possible with its counterpart from the standard [List Item](list-item.md). This makes it possible to create a matching design for each of the Secondary Actions in Sketch.
 
 ## Usage
 
