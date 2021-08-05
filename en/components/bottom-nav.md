@@ -26,7 +26,7 @@ In Sketch, the Bottom Navigation uses a smart layout allowing it to adjust accor
 
 ## Item State
 
-The Bottom Navigation consists of items that support **Active**, Inactive and Disabled states. In a Bottom Navigation there is always one Active item, and an arbitrary number of Inactive and Disabled ones.
+The Bottom Navigation consists of items that support **Active**, Inactive and Disabled states. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In a Bottom Navigation there is always one Active item, and an arbitrary number of Inactive and Disabled ones.
 
 <img class="responsive-img" src="../images/bottom-nav_item_state.png" srcset="../images/bottom-nav_item_state@2x.png 2x" />
 
@@ -38,7 +38,7 @@ The Bottom Navigation items come as a combination of icon and text by default. I
 
 ## Styling
 
-The Bottom Navigation comes with styling flexibility through the various overrides controling the background color, as well as the item label and icon colors.
+The Bottom Navigation comes with styling flexibility through the various options for the background color, as well as the item label and icon colors.
 
 <img class="responsive-img" src="../images/bottom-nav_styling.png" srcset="../images/bottom-nav_styling@2x.png 2x" />
 

@@ -38,7 +38,7 @@ The Navbar can support up to four action icons on the right that can trigger dif
 
 ## Styling
 
-The Navbar comes with basic styling capabilities achievable through changing the title, icons, border and background colors.
+The Navbar comes with basic styling flexibility through the options available for the title, icons, border, and background colors.
 
 <img class="responsive-img" src="../images/navbar_styling.png" srcset="../images/navbar_styling@2x.png 2x" />
 

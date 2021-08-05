@@ -26,13 +26,13 @@ Five types of Buttons are supported:
 
 ## Interaction States
 
-You may also insert each of these buttons in a disabled state because they all support both enabled and disabled variants.
+You may also insert each button in a disabled state because they all support both enabled and disabled variants. In Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
 
 <img class="responsive-img" src="../images/button_disabled.png" srcset="../images/button_disabled@2x.png 2x" />
 
 ## States
 
-Enabled buttons support **Rest** and Hover state.
+Enabled buttons support **Rest** and Hover state. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
 <img class="responsive-img" src="../images/button_states.png" srcset="../images/button_states@2x.png 2x" />
 
@@ -44,7 +44,7 @@ Raised, Outlined, Flat, and Floating Action Buttons support flexible icon and la
 
 ## Styling
 
-The Buttons come with styling flexibility through the various overrides controlling the background, label, and icon colors.
+The Buttons come with styling flexibility through the various options for the background, label, and icon colors.
 
 <img class="responsive-img" src="../images/button_styling.png" srcset="../images/button_styling@2x.png 2x" />
 

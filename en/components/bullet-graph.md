@@ -35,7 +35,7 @@ The Bullet Graph comes with a tooltip that may be hidden by setting the override
 
 ## Ranges Amount
 
-The Bullet Graph comes with three preset range configurations: **two**, three, and four ranges.
+The Bullet Graph comes with three preset range configurations: **two**, three, and four ranges. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
 
 <img class="responsive-img" src="../images/bullet_graph_two_ranges.png" srcset="../images/bullet_graph_two_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />
@@ -49,7 +49,7 @@ Ticks and Values are also configurable. The two types of ticks: Ticks and Minor 
 
 ## Styling
 
-The Bullet Graph comes with styling flexibility through the various overrides controlling a selection of brushes including Value Brush, Target Value Brush, Tick Brush, Minor Tick Brush, and a collection of Range Brushes.
+The Bullet Graph comes with styling flexibility through the various options for brushes including Value Brush, Target Value Brush, Tick Brush, Minor Tick Brush, and a collection of Range Brushes.
 
 <img class="responsive-img" src="../images/bullet_graph_styling.png" srcset="../images/bullet_graph_styling@2x.png 2x" />
 

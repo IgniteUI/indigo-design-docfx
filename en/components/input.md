@@ -59,6 +59,8 @@ Every experienced designer uses constraints wisely to limit the user input and a
 <img class="responsive-img" src="../images/input_warning.png" srcset="../images/input_warning@2x.png 2x" />
 <img class="responsive-img" src="../images/input_error.png" srcset="../images/input_error@2x.png 2x" />
 
+In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
+
 ## Layout
 
 The Input has rich support for prefix and suffix through a combination of text and icons that can, in certain cases, reduce the input effort for the user: e.g. an @email.com suffix means both fewer keystrokes and more clarity of expected content. It is possible to remove the prefix or suffix. In Sketch, the applied smart layout rules allow the layout to adjust accordingly when you set the respective container to ~No Symbol. While in Adobe XD, the use of stacks lets you achieve that by deleting the unused layers instead.

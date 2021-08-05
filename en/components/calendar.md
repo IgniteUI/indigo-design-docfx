@@ -57,7 +57,7 @@ The Calendar lets you pick between three selection modes: **Single Day** limitin
 
 ## Styling
 
-The Calendar comes with styling flexibility through the various overrides controlling the background, header background, title colors, and content month and year picker items, as well as text and background colors for the selected day, month, or year. These are applicable according to the rest of your configurations.
+The Calendar comes with styling flexibility through the various options for the background, header background, title colors, and content month and year picker items, as well as text and background colors for the selected day, month, or year. These are applied according to the rest of your configurations.
 
 <img class="responsive-img" src="../images/calendar_styling.png" srcset="../images/calendar_styling@2x.png 2x" />
 

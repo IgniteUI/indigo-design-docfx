@@ -44,13 +44,13 @@ The short bar comes with text content by default. If you want to show an icon in
 
 ## Tab Item State
 
-Tab items support Active, Inactive and Disabled states. In Tabs there is always one Active tab and an arbitrary number of Inactive and Disabled ones.
+Tab items support Active, Inactive and Disabled states. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In Tabs there is always one Active tab and an arbitrary number of Inactive and Disabled ones.
 
 <img class="responsive-img" src="../images/tabs_state.png" srcset="../images/tabs_state@2x.png 2x" />
 
 ## Styling
 
-The Tabs provide basic styling capabilities achievable through changing the text and icon colors, the indicator color that marks the current selection, as well as the active/inactive background colors.
+The Tabs provide basic styling flexibility through the options available for text and icon colors, the indicator color that marks the current selection, as well as the active/inactive background colors.
 
 <img class="responsive-img" src="../images/tabs_styling.png" srcset="../images/tabs_styling@2x.png 2x" />
 

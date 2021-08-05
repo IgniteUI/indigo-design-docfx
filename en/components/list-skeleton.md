@@ -36,7 +36,7 @@ The Skeleton List Item has two distinct areas like the standard [List](list.md):
 
 ## List Item Primary Action
 
-There are 4 interchangeable List Item Primary Actions like the standard [List](list.md) that are listed below. Thanks to the use of Smart Layout in Sketch they can be adjusted further by setting unnecessary elements to ~No Symbol.
+4 interchangeable List Item Primary Actions like the standard [List](list.md) are listed below. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them. Thanks to Smart Layout in Sketch, they can be adjusted further by setting unnecessary elements to ~No Symbol.
 
 |                              |                                                                                                  |                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -47,7 +47,7 @@ There are 4 interchangeable List Item Primary Actions like the standard [List](l
 
 ## List Item Secondary Action
 
-The Secondary Action of the Skeleton List Item covers all scenarios possible with its counterpart from the standard [List](list.md). Thanks to the use of Smart Layout in Sketch it can be adjusted further by setting unnecessary elements to ~No Symbol.
+The Secondary Action of the Skeleton List Item covers all scenarios possible with its counterpart from the standard [List](list.md). In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them. Thanks to Smart Layout in Sketch, the Secondary Action can be adjusted further by setting unnecessary elements to ~No Symbol.
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
