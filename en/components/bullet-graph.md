@@ -22,7 +22,7 @@ The Bullet Graph has a Title and Subtitle whose text can be changed. In Sketch, 
 
 ## Legend
 
-The Bullet Graph comes with a Legend that can be adjusted accordingly to match the selected Series Amount. In Sketch, Legend items can be removed by setting the corresponding Series to ~No Symbol or added by finding it in the Overrides/Charts/Legend/Serie. In Adobe XD, you have to delete the unused layers instead, and the layout will adjust through the use of stacks. Also, you can change the icon type between Square, Line, or Circle.
+The Bullet Graph comes with a Legend that can be adjusted accordingly to match the selected Series Amount. In Sketch, Legend items can be removed by setting the corresponding Series to ~No Symbol or added by finding it in the Overrides/Charts/Legend/Serie. In Adobe XD, you have to delete the unused Series layers, and the layout will adjust automatically. Additionally, you can change the icon type between Square, Line, or Circle.
 
 <img class="responsive-img" src="../images/bullet_graph_legend.png" srcset="../images/bullet_graph_legend@2x.png 2x" />
 
