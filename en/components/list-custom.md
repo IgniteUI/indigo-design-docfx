@@ -1,12 +1,15 @@
 ---
-title: Custom List Item - Design System Component
+title: Custom List Item in Sketch - Design System Component
 _description: The List Items collection contains this special type of List Item that allows the creation of Custom layouts exactly how you would like them to be.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-# Custom List Item
+> [!NOTE]
+> This topic is only relevant for users of the <b>Sketch Library</b>.
 
-Use the Custom List Item Component to display the same type of information that you would in a normal List Item but with the complete freedom to arrange your layout exactly as you would like. The Custom List Item is achievable by writing the necessary customizations to the layout of the items of the [Ignite UI for Angular List Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/list.html)
+# Custom List Item in Sketch
+
+Use the Custom List Item Component in Sketch to display the same type of information that you would in a normal List Item but with the complete freedom to arrange your layout exactly as you would like.
 
 ## Custom List Item Demo
 
@@ -19,7 +22,7 @@ The Custom List Item supports the following interactive states as overrides: **i
 <img class="responsive-img" src="../images/list_item_custom_inactive.png" srcset="../images/list_item_custom_inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_custom_active.png" srcset="../images/list_item_custom_active@2x.png 2x" />
 
-## Detach from Symbol
+## Using the Custom List Item
 
 In order to customize List Item layouts, start by dragging a `List/Custom/Item` to your artboard, right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared _List/Custom/Item_ group, you should see the following:
 
@@ -30,13 +33,7 @@ In order to customize List Item layouts, start by dragging a `List/Custom/Item` 
 | 💡Secondary Action Group | Groups together the Secondary Action layout elements                                                                                                 |
 | 💡State                  | Contains the item Background and defines whether the List Item is in an active or inactive state                                                     |
 
-### Styling
-
-The Custom List Item has high-level styling flexibility similar to the normal List Item with a few overrides for the Secondary Actions and control over their text, icons, and buttons colors. Just like every List Item, it is possible to specify the Item background color through the overrides, as well.
-
-<img class="responsive-img" src="../images/list_item_custom_styling.png" srcset="../images/list_item_custom_styling@2x.png 2x" />
-
-### Layout
+## Layout
 
 So, let's see how we can create an intricate layout for the product List Item above in three simple steps. Once we have dragged in a Custom List Item in an empty Artboard, selected the `Detach from Symbol`, and applied the basic styling available by changing the background color inside the state, we should have something like this for a starting point.
 
@@ -54,9 +51,13 @@ So, let's see how we can create an intricate layout for the product List Item ab
 
     <img class="responsive-img" src="../images/list_item_custom_layout3.png" srcset="../images/list_item_custom_layout3@2x.png 2x" />
 
-### Additional Styling
+## Styling
 
-With this List Item layout, a lot of additional styling is possible based on the elements that have been inserted in it. For example, we can set a color for the text of the pricing to emphasize it and change the Badge background and Raised Button background colors.
+The Custom List Item has high-level styling flexibility similar to the normal List Item with a few overrides for the Secondary Actions and control over their text, icons, and buttons colors. Just like every List Item, it is possible to specify the Item background color through the overrides, as well.
+
+<img class="responsive-img" src="../images/list_item_custom_styling.png" srcset="../images/list_item_custom_styling@2x.png 2x" />
+
+Furthermore, additional styling is possible based on the elements that have been inserted in the Custom List Item. For example, we can set a color for the text of the pricing to emphasize it and change the Badge background and Raised Button background colors.
 
 <img class="responsive-img" src="../images/list_item_custom_layout_styled.png" srcset="../images/list_item_custom_layout_styled@2x.png 2x" />
 
@@ -64,10 +65,11 @@ With this List Item layout, a lot of additional styling is possible based on the
 
 Related topics:
 
-- [List](list.md)
-- [Lists Pattern](../patterns/lists.md)
 - [Badge](badge.md)
 - [Button](button.md)
+- [List](list.md)
+- [List Item](list-item.md)
+- [Lists Pattern](../patterns/lists.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
