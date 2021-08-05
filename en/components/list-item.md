@@ -36,9 +36,9 @@ In Adobe XD, the list item has a Group where non-interactive content such as Ava
 <img class="responsive-img" src="../images/list_item_primary.png" srcset="../images/list_item_primary@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />
 
-## Primary Action
+## Primary Action in Sketch
 
-In Sketch, there are 4 interchangeable List Item Primary Actions, available as `Symbol Overrides`. Thanks to Smart Layout in Sketch, they can be adjusted further by setting unnecessary elements to ~No Symbol.
+There are 4 interchangeable List Item Primary Actions, available as `Symbol Overrides`. Thanks to Smart Layout, they can be adjusted further by setting unnecessary elements to ~No Symbol.
 
 |                              |                                                                                                  |                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -47,9 +47,9 @@ In Sketch, there are 4 interchangeable List Item Primary Actions, available as `
 | Icon + Label + Desc | <img class="responsive-img" src="../images/list_item_primary3.png" srcset="../images/list_item_primary3@2x.png 2x" />   |                                                                                                                                            |
 | Label + Progress          | <img class="responsive-img" src="../images/list_item_primary4.png" srcset="../images/list_item_primary4@2x.png 2x" />   | Linear Progress Bar inside a List Item can not have a value label, therefore, it is set to ~No Symbol in Sketch and the value label layer is not present in Adobe XD. This setting should not be changed! |                                                                                                                                            |
 
-## Secondary Action
+## Secondary Action in Sketch
 
-In Sketch, there are 4 interchangeable List Item Secondary Actions available as `Symbol Overrides`. Thanks to Smart Layout in Sketch, they can be adjusted further by setting unnecessary elements to ~No Symbol.
+There are 4 interchangeable List Item Secondary Actions available as `Symbol Overrides`. Thanks to Smart Layout, they can be adjusted further by setting unnecessary elements to ~No Symbol.
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
