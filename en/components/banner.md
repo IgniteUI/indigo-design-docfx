@@ -26,7 +26,7 @@ The Banner has styling flexibility with the many options for the background, bor
 
 ## Usage
 
-When using a Banner...
+When using a Banner make sure your elements and texts are visible and readable on the background.
 
 | Do                                                                             | Don't                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
