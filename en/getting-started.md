@@ -15,7 +15,7 @@ Indigo.Design is a unified platform for visual design, UX prototyping, code gene
 
 Indigo.Design offers three key capabilities to support the design to development workflow:
 
-<img class="responsive-img" src="images/indigo-design-how-it-works.png" />
+<img class="responsive-img" src="../images/indigo-design-how-it-works.png" srcset="../images/indigo-design-how-it-works@2x.png 2x" />
 
 1. Create designs in Sketch or Adobe XD with the `Indigo.Design System`
 2. Share as prototypes to test and collaborate with users via `cloud.indigo.design`
