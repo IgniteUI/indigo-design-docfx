@@ -32,7 +32,7 @@ The Bottom Navigation consists of items that support **Active**, Inactive and Di
 
 ## Item Content Template
 
-The Bottom Navigation items come as a combination of icon and text by default. In Sketch, the smart layout rules applied to the item content template lets you remove the text label and have an icon-only item when you set the label to ~No Symbol. While in Adobe XD, the use of stacks lets you achieve that by deleting the unused layer.
+The Bottom Navigation items come as a combination of icon and text by default. In Sketch, the smart layout rules applied to the item content template lets you remove the text label and have an icon-only item when you set the label to ~No Symbol. In Adobe XD, the content is in a Stack and you can achieve the same by deleting the label layer when it is not needed.
 
 <img class="responsive-img" src="../images/bottom-nav_items3_icons.png" srcset="../images/bottom-nav_items3_icons@2x.png 2x" />
 
@@ -59,4 +59,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
