@@ -36,7 +36,8 @@ When the user interacts with the Chip, it may change from the default **idle** s
 
 ## Chip Selection
 
-When a Chip is selected, a special check icon will appear at the far left to indicate this. The `🔣 Selection Icon` override provides the means to trigger this functionality. In Sketch, the smart layout rules applied to the Chip allow the layout to adjust accordingly when you set the icon you want to hide to ~No Symbol. While in Adobe XD, the use of stacks lets you achieve that by deleting the unused layer instead.
+When a Chip is selected, a special check icon will appear at the far left to indicate this. The `🔣 Selection Icon` override provides the means to trigger this functionality in Sketch. The smart layout rules applied to the Chip adjust its layout accordingly. 
+In Adobe XD, the `🔣 Selection Icon` layer has to be made visible to achieve the same and the Stack on the Chip will adjust its layout in a similar way. If you don't want the Chip to be selected, simply delete the `🔣 Selection Icon` layer. 
 
 <img class="responsive-img" src="../images/chip_idle_selected.png" srcset="../images/chip_idle_selected@2x.png 2x" />
 
