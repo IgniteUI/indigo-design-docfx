@@ -47,7 +47,7 @@ The skeleton actions map to the same six layouts that can be found in the standa
 
 ## Skeleton Card Layout
 
-Through the use of `Smart Layout` in Sketch and `Stacks` in Adobe XD, the Skeleton Card can produce various layouts by excluding certain areas or elements within one area or another to create a myriad of distinct variants starting with the same Component initially and consistent with the standard [Card](card.md). 
+Through the use of a smart layout in Sketch and a Stack in Adobe XD, the Skeleton Card can produce various layouts by excluding certain areas or elements to allow the creation of a variety of cards based upon the same Component initially in a similar way like the standard [Card](card.md) does.
 
 <img class="responsive-img" src="../images/card_skeleton_demo.png" srcset="../images/card_skeleton_demo@2x.png 2x" />
 
