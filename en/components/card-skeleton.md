@@ -31,7 +31,7 @@ The skeleton header is consistent with that of the standard [Card](card.md).
 
 ## Actions
 
-The skeleton actions map to the same six layouts that can be found in the standard [Card](card.md). They are also defined with a smart layout in Sketch, letting you remove elements by setting them to ~No Symbol and have the rest automatically adjust to the desired layout. While in Adobe XD, the use of stacks lets you achieve that by deleting the unused layers instead.
+The skeleton actions map to the same six layouts that can be found in the standard [Card](card.md). They are also defined with a smart layout in Sketch, letting you remove elements by setting them to ~No Symbol and have the rest automatically adjust to the desired layout. In Adobe XD, the use of a Stack lets you achieve the same when you remove unnecessary components.
 
 <img class="responsive-img" src="../images/card_skeleton_actions_buttons_icons.png" srcset="../images/card_skeleton_actions_buttons_icons@2x.png 2x" />
 
