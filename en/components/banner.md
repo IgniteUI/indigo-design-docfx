@@ -22,7 +22,7 @@ The Actions consist of two Button components. If you need you can turn one or bo
 
 ## Styling
 
-The Banner has styling flexibility with the many options for the background, icon, and button symbols, their background options, as well as text color.
+The Banner has styling flexibility with the many options for the background, border, icon, and button symbols, their background options, as well as text color.
 
 ## Usage
 
