@@ -29,7 +29,7 @@ The Column Chart has two states - Idle and Hover. In Sketch this is achieved wit
 
 ## Y-Axis
 
-The Y-axis of the column chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and to hide a label simply set its override to ~No Symbol in Sketch or delete the layer in Adobe XD. You may hide the axis line by setting its color to `Transparent` and to hide all elements at once, change the Y-axis override to ~No Symbol in Sketch or delete the layer in Adobe XD.
+The Y-axis of the column chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and to hide a label simply set its override to ~No Symbol in Sketch or delete the layer in Adobe XD. You may hide the axis line by setting its color to `Transparent` and to hide all elements at once, change the Y-axis override to ~No Symbol in Sketch or delete its layer in Adobe XD.
 
 <img class="responsive-img" src="../images/column_chart_yaxis.png" srcset="../images/column_chart_yaxis@2x.png 2x" />
 
