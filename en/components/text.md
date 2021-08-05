@@ -57,7 +57,7 @@ After inserting a Paragraph, make sure to give it a correct height for the chose
 
 ## Styling
 
-Titles and Paragraphs come with constrained styling flexibility, allowing only to choose from the text weight and color presets available in the Typography portion of the Styling library.
+Titles and Paragraphs come with constrained styling flexibility through the options, allowing only to choose from the text weight and color presets available in the Typography portion of the Styling library.
 
 <img class="responsive-img" src="../images/text_styling.png" srcset="../images/text_styling@2x.png 2x" />
 

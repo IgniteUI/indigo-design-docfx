@@ -49,7 +49,7 @@ Ticks and Values are also configurable. The two types of ticks: Ticks and Minor 
 
 ## Styling
 
-The Bullet Graph comes with styling flexibility through the various overrides controlling a selection of brushes including Value Brush, Target Value Brush, Tick Brush, Minor Tick Brush, and a collection of Range Brushes.
+The Bullet Graph comes with styling flexibility through the various options for brushes including Value Brush, Target Value Brush, Tick Brush, Minor Tick Brush, and a collection of Range Brushes.
 
 <img class="responsive-img" src="../images/bullet_graph_styling.png" srcset="../images/bullet_graph_styling@2x.png 2x" />
 

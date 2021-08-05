@@ -65,7 +65,7 @@ There are 4 interchangeable List Item Secondary Actions that are listed below. T
 
 ## Styling
 
-The List comes with styling flexibility through the overrides available for background color and the different elements used in the List Items, such as icons and text, as well as components like Avatar, Badge, Checkbox, Icon, Progress, Switch, etc. with their own styling capabilities.
+The List comes with styling flexibility through the options available for background color and the different elements used in the List Items, such as icons and text, as well as components like Avatar, Badge, Checkbox, Icon, Progress, Switch, etc. with their own styling capabilities.
 
 <img class="responsive-img" src="../images/list_styling.png" srcset="../images/list_styling@2x.png 2x" />
 

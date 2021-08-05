@@ -40,7 +40,7 @@ The Slider can be used styled in **dark** or light theme to assure good readabil
 
 ## Styling
 
-The Slider comes with styling flexibility through the overrides for the label background, thumb, track, and base track colors.
+The Slider comes with styling flexibility through the options available for the label background, thumb, track, and base track colors.
 
 <img class="responsive-img" src="../images/slider_styling.png" srcset="../images/slider_styling@2x.png 2x" />
 

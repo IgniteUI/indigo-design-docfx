@@ -35,7 +35,7 @@ Every Navigation Drawer Item comes with a State which can be Active, Inactive, o
 
 ## Styling
 
-The Navigation Drawer provides basic styling capabilities achievable through changing the label and icon colors, as well as the active/inactive background colors.
+The Navigation Drawer provides basic styling capabilities achievable through the options available for the label and icon colors, as well as the active/inactive background colors.
 
 <img class="responsive-img" src="../images/nav-drawer_styling.png" srcset="../images/nav-drawer_styling@2x.png 2x" />
 

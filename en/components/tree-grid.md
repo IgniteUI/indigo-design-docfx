@@ -50,7 +50,7 @@ The Tree Grid TreeColumn cell provides a visual indication for the level of the 
 
 ## Styling
 
-The Tree Grid comes with styling flexibility achievable through styling the individual cell text, icons, and background colors in the various states available, as well as the hiding of right and bottom borders.
+The Tree Grid comes with styling flexibility through the options available for the individual cell text, icons, and background colors in the various states available, as well as the hiding of right and bottom borders.
 
 <img class="responsive-img" src="../images/tree_grid_styling.png" srcset="../images/tree_grid_styling@2x.png 2x" />
 

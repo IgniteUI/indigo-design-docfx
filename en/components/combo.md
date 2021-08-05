@@ -94,7 +94,7 @@ The dropdown items within the Combo support five different states: disabled, **i
 
 ## Styling
 
-The Combo comes with the combined styling flexibility of its input and dropdown pieces. There are overrides controlling the input text elements' color and bottom line style and color. For the dropdown one may change the background color, or use the various overrides related to the items in the Combo dropdown, such as the search input and the items with their background and text colors.
+The Combo comes with the combined styling flexibility of its input and dropdown pieces. There are options for the input text elements' color and bottom line style and color. For the dropdown one may change the background color, or use the various options related to the items in the Combo dropdown, such as the search input and the items with their background and text colors.
 
 <img class="responsive-img" src="../images/combo_styling.png" srcset="../images/combo_styling@2x.png 2x" />
 
@@ -117,4 +117,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
