@@ -33,13 +33,7 @@ In order to customize List Item layouts, start by dragging a `List/Custom/Item` 
 | 💡Secondary Action Group | Groups together the Secondary Action layout elements                                                                                                 |
 | 💡State                  | Contains the item Background and defines whether the List Item is in an active or inactive state                                                     |
 
-### Styling
-
-The Custom List Item has high-level styling flexibility similar to the normal List Item with a few overrides for the Secondary Actions and control over their text, icons, and buttons colors. Just like every List Item, it is possible to specify the Item background color through the overrides, as well.
-
-<img class="responsive-img" src="../images/list_item_custom_styling.png" srcset="../images/list_item_custom_styling@2x.png 2x" />
-
-### Layout
+## Layout
 
 So, let's see how we can create an intricate layout for the product List Item above in three simple steps. Once we have dragged in a Custom List Item in an empty Artboard, selected the `Detach from Symbol`, and applied the basic styling available by changing the background color inside the state, we should have something like this for a starting point.
 
@@ -57,9 +51,13 @@ So, let's see how we can create an intricate layout for the product List Item ab
 
     <img class="responsive-img" src="../images/list_item_custom_layout3.png" srcset="../images/list_item_custom_layout3@2x.png 2x" />
 
-### Additional Styling
+## Styling
 
-With this Custom List Item layout, a lot of additional styling is possible based on the elements that have been inserted in it. For example, we can set a color for the text of the pricing to emphasize it and change the Badge background and Raised Button background colors.
+The Custom List Item has high-level styling flexibility similar to the normal List Item with a few overrides for the Secondary Actions and control over their text, icons, and buttons colors. Just like every List Item, it is possible to specify the Item background color through the overrides, as well.
+
+<img class="responsive-img" src="../images/list_item_custom_styling.png" srcset="../images/list_item_custom_styling@2x.png 2x" />
+
+Furthermore, additional styling is possible based on the elements that have been inserted in the Custom List Item. For example, we can set a color for the text of the pricing to emphasize it and change the Badge background and Raised Button background colors.
 
 <img class="responsive-img" src="../images/list_item_custom_layout_styled.png" srcset="../images/list_item_custom_layout_styled@2x.png 2x" />
 
