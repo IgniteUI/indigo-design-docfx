@@ -29,7 +29,10 @@ The **Indigo.Design System** boosts your productivity with 180+ UI Patterns asse
 - 🌆 Tiles
 - 🌆 User Profile
 
-Unlike a component, some patterns in the Sketch library can be detached to show as a group, preserving the look and feel you have defined before that. However, in Adobe XD ungrouping a pattern has devastating implications on the ability to generate code from the resulting layout as it turns all nested components into groups and prevents us from tracing their structure correctly. You can make any state, layout, and styling adjustment in Adobe XD without ungrouping a pattern so we kindly advise you to keep the entirety of these patterns on your artboards. Also bear in mind that in both Sketch and Adobe XD, unlinking a pattern from the library makes it impossible to apply updates from subsequent versions of the Design System automatically. Below is a snippet of some of the [list patterns](lists.md) such as a contacts list, searchable and filterable lists, and list empty states when no matching results are found.
+> [!WARNING]
+> Unlike a component, some patterns in the Sketch library can be detached to show as a group, preserving the look and feel you have defined before that. However, in Adobe XD ungrouping a pattern has devastating implications on the ability to generate code from the resulting layout as it turns all nested components into groups and prevents us from tracing their structure correctly. You can make any state, layout, and styling adjustment in Adobe XD without ungrouping a pattern so we kindly advise you to keep the entirety of these patterns on your artboards. Also bear in mind that in both Sketch and Adobe XD, unlinking a pattern from the library makes it impossible to apply updates from subsequent versions of the Design System automatically.
+
+ Below is a snippet of some of the [list patterns](lists.md) such as a contacts list, searchable and filterable lists, and list empty states when no matching results are found.
 
 <img class="responsive-img" src="../images/patterns_overview.png" />
 
