@@ -18,7 +18,7 @@ In order to indicate that a column has an active Excel Style Filter in Sketch (t
 
 ## Excel Style Filter Feature
 
-The Grid has three `Excel Style Filter` symbols under `Features`, one for each Display Density, that represent the overlay shown for the affected column. In Adobe XD we are using the `Component States` paradigm to let you easily switch between them. Adding this symbol has only a visual effect on your design to make it more realistic, if you want to switch the Excel Style Filter feature, configure the Header Cells accordingly.
+The Grid has three `Excel Style Filter` symbols under `Features` in Sketch, one for each Display Density, that represent the overlay shown for the affected column. In Adobe XD, there is just one `Excel Style Filter`, and via the `Component States` available you can easily switch between the three display densities available. Adding the Excel Style Filter has only a visual effect on your design to make it more realistic, if you want to turn the Excel Style Filter feature on, configure the Header Cells accordingly.
 
 <img class="responsive-img" src="../images/grid_excel_style_filter_densities.png" srcset="../images/grid_excel_style_filter_densities@2x.png 2x" />
 
