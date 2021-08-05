@@ -9,7 +9,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 The **Indigo.Design System** empowers your design workflow with 60+ UI Components that also map to Ignite UI for Angular controls. Each component is optimized for responsive web development and provides various templating capabilities through smart layout and resizing rules set in the library. Furthermore, we have added light/dark modes and various interaction states to choose from when designing dynamic experiences. All this streamlines application design and development allowing any user interface created with the library in Sketch to be built in Angular with Ignite UI.
 
 > [!WARNING]
-> Symbols and components designated as `_Overrides` in Sketch and Adobe XD libraries must not be inserted on artboards as they provide components states and do not represent to complete a component by itself.
+> Symbols and components designated as `_Overrides` in Sketch and Adobe XD libraries must not be inserted on artboards as they provide component states and do not represent a complete component by itself.
 
 The Sketch library has a `🧩 Components` page containing all Components and symbols related to them. Below is a small part of it showing some of them such as the different types of [Buttons](button.md), [Button Group](button-group.md) and form elemenst like [Checkbox](checkbox.md), [Switch](switch.md), and [Radio Group](radio-group.md).
 
