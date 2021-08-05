@@ -21,7 +21,7 @@ You may insert a Date Picker Input in your forms to indicate fields for selectin
 
 ## Picker Layout
 
-The Date Picker supports Dialog layout with Horizontal and Vertical orientation, as well as a Drop-down layout to facilitate different modes of picking dates. Notice that Dialog layouts come with a Header that you may hide in Sketch by setting its override to ~No Symbol, and through the use of a smart layout it will adjust accordingly. In Adobe XD you have to delete the unused layer instead, and the layout will adjust through the use of stacks. Still, the shadow it casts allows it to be distinguished from a Drop-down layout.
+The Date Picker supports Dialog layout with Horizontal and Vertical orientation, as well as a Drop-down layout to facilitate different modes of picking dates, casting different shadows to be more easily distinguished from each other. Notice that Dialog layouts come with a Header that you may hide in Sketch by setting its override to ~No Symbol, and through the use of a smart layout everything will adjust accordingly. In Adobe XD, you have to delete the header layer and the layout will adjust through the use of a Stack.
 
 <img class="responsive-img" src="../images/datepicker_horizontal.png" srcset="../images/datepicker_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_vertical.png" srcset="../images/datepicker_vertical@2x.png 2x" />
@@ -80,4 +80,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
