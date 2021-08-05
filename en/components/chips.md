@@ -51,7 +51,9 @@ In Adobe XD, the `🔣 Remove Icon` layer has to be made visible to achieve the 
 
 ## Chip Content
 
-The Chip has rich support for content templating via the prefix and suffix containers allowing to insert icons and text before and after the chip main text content. In Sketch, prefix and suffix containers can be added by finding them in the Overrides/Input/Prefix/Container and Overrides/Input/Suffix/Container or removed by setting them to ~No Symbol. The layout will adjust accordingly. In Adobe XD, you have to show the needed layers or delete the unused instead, and the layout will adjust through the use of stacks.
+The Chip has rich support for content templating via the prefix and suffix containers allowing to insert icons and text before and after the main label. 
+In Sketch, prefix and suffix containers can be added by finding them in the Overrides/Input/Prefix/Container and Overrides/Input/Suffix/Container or removed by setting them to ~No Symbol, upon which the layout will adjust accordingly. 
+In Adobe XD, you have to make the desired layers visible and delete the unnecessary elements from them. If you want to remove a prefix or suffix all at once, simply delete it altogether. In the end, the layout will adjust thanks to the Stack that is being used.
 
 <img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
 `Text`
