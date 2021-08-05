@@ -62,9 +62,13 @@ There are 4 interchangeable List Item Secondary Actions available as `Symbol Ove
 
 The Thumbnail component in the left List Item area in Adobe XD provides 3 interchangeable options via the `Component States` paradigm to let you easily switch them. This makes it possible to create a matching design for each of the Primary Actions in Sketch.
 
+<img class="responsive-img" src="../images/thumbnail_xd.png" srcset="../images/thumbnail_xd@2x.png 2x" />
+
 ## Actions in Adobe XD
 
 The Actions component that constitutes the right List Item area in Adobe XD provides 4 interchangeable options via the `Component States` paradigm to let you easily switch them. This makes it possible to create a matching design for each of the Secondary Actions in Sketch.
+
+<img class="responsive-img" src="../images/actions_xd.png" srcset="../images/actions_xd@2x.png 2x" />
 
 ## Styling
 

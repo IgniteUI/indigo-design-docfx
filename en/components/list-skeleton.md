@@ -57,9 +57,13 @@ The Secondary Action of the Skeleton List Item covers all scenarios possible wit
 
 The Thumbnail component in the left Skeleton List Item area in Adobe XD provides 3 interchangeable options like the standard [List Item](list-item.md) via the `Component States` paradigm to let you easily switch them. This makes it possible to create a matching design for each of the Primary Actions in Sketch.
 
+<img class="responsive-img" src="../images/thumbnail_xd_skeleton.png" srcset="../images/thumbnail_xd_skeleton@2x.png 2x" />
+
 ## Actions in Adobe XD
 
 The Actions component that constitutes the right Skeleton List Item area in Adobe XD covers all scenarios possible with its counterpart from the standard [List Item](list-item.md). This makes it possible to create a matching design for each of the Secondary Actions in Sketch.
+
+<img class="responsive-img" src="../images/actions_xd_skeleton.png" srcset="../images/actions_xd_skeleton@2x.png 2x" />
 
 ## Usage
 
