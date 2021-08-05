@@ -18,7 +18,7 @@ The Banner's Message consists of an Icon and a Text field. It uses a smart layou
 
 ## Actions
 
-The Banner...
+The Actions consist of two Button components. If you need you can turn one or both off by setting them to ~No Symbol for Sketch or turning off the layer's visibility in Adobe XD.
 
 ## Styling
 
