@@ -59,7 +59,7 @@ The Card actions come in six distinct layouts: **Button + Icon Actions** with tw
 
 ## Card Layout
 
-Through the use of `Smart Layout` in Sketch and `Stacks` in Adobe XD, the Card can produce various layouts by excluding certain areas or elements within one area or another to create a myriad of distinct variants starting with the same Component initially.
+Through the use of a smart layout in Sketch and a Stack in Adobe XD, the Card can produce various layouts by excluding certain areas or elements within them to support a variety of distinct cards based upon the same Component initially.
 
 <img class="responsive-img" src="../images/card_demo.png" srcset="../images/card_demo@2x.png 2x" />
 
