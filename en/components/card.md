@@ -37,7 +37,7 @@ The image and body Card areas support the same collection of eleven overrides: 6
 
 ## Header
 
-The Card header supports various layouts, including an Avatar Thumbnail, Title, and Subtitle elements. In Sketch, the smart layout rules applied allow the layout to adjust accordingly when you set the elements you want to hide to ~No Symbol. While in Adobe XD, the use of stacks lets you achieve that by deleting the unused layers instead.
+The Card header supports various layouts, including an Avatar Thumbnail, Title, and Subtitle elements. In Sketch, the smart layout rules adjust the layout accordingly when you set the elements you want to hide to ~No Symbol. In Adobe XD, the use of a Stack lets you achieve the same when you delete unnecessary layers.
 
 <img class="responsive-img" src="../images/card_header.png" srcset="../images/card_header@2x.png 2x" />
 
