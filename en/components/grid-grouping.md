@@ -14,7 +14,7 @@ Use Grid Group By to organize data records in a hierarchical collection of group
 
 ## Group Area
 
-The Grid has a `Group Area` symbol under `Features` that specifies the columns that are used to establish the hierarchical grouping of records and the order in which these groups will be nested. Once you insert it in Sketch, you may perform `Detach from Symbol`, and inside you will find a [Chips Area](chips.md) that can be configured in a way that defines how Group By is applied on the Grid. In Adobe XD there is no need to detach.
+The Grid has a `Group Area` symbol under `Features` in Sketch that specifies the columns that are used to establish the hierarchical grouping of records and the order in which these groups will be nested. Once you insert it in Sketch, you may perform `Detach from Symbol`, and inside you will find a [Chips Area](chips.md) that can be configured in a way that defines how Group By is applied on the Grid. In Adobe XD, there is a matching component, that upon insertion can be edited directly without the need to be broken down.
 
 ## GroupBy Row
 
