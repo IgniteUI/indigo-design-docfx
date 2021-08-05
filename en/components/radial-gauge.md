@@ -30,7 +30,7 @@ The ticks of the Radial Gauge can be placed **outside** or inside, with two insi
 
 ## Ranges
 
-The Radial Gauge provides various overrides that control the ranges on the dial: **full**, half, and quarter. In Sketch, to switch between ranges is achieved with `Symbol Overrides`.
+The Radial Gauge provides various overrides that control the ranges on the dial: **full**, half, and quarter. In Sketch, to switch between ranges you should use the `Symbol Overrides`, while in Adobe XD separate variants of the Radial Gauge exist for the options above.
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_half.png" srcset="../images/radial_gauge_half@2x.png 2x" />
