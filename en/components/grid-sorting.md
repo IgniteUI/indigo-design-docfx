@@ -14,7 +14,7 @@ Use Grid Sorting to indicate the ordering of records in ascending and descending
 
 ## Header Cell Feature
 
-In order to indicate a column as sortable use either the `Feature Left` or `Feature Right` overrides and set it to `Sorting`. Then you can set the `Sorting State` to Ascending, Descending, or **Unsorted** to indicate the sort order. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. Of course, you would probably want to manipulate the column values to reflect the selected ordering.
+In order to indicate a column as sortable in Sketch use either the `Feature Left` or `Feature Right` overrides and set it to `Sorting`. Then you can set the `Sorting State` to Ascending, Descending, or **Unsorted** to indicate the sort order. In Adobe XD you have to take a slightly different path by unhiding either the `Feature Left` or `Feature Right` group and then leaving just the `Sorting` layer inside it, which should also be unhidden if necessary. Then via the available `Component States`, you will be able to switch the state to `Ascending` or `Descending`. Of course, you would probably want to manipulate the column values to reflect the selected ordering.
 
 ## Additional Resources
 
