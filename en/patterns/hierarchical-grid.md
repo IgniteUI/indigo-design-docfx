@@ -36,7 +36,7 @@ All Grid features are applicable to each child and parent Grid.
 > [!WARNING]
 > In Sketch, after inserting the Hierarchical Grid Pattern, you can trigger `Detach from Symbol` only if you need to alter the number of cells provided, in order to show all the dimensions of your data and insert as many visible records as you want. In case you need to show more of the hierarchy, you may also nest additional grids within the body of the parent one that they belong to. The individual Components and Features, however, must stay intact and not be detached!
 >
-> In Adobe XD you can add more cells than provided by duplicating columns and rows without ever having to ungroup the pattern component itself.
+> In Adobe XD you can add more cells than provided by duplicating columns and rows without ever having to ungroup the pattern itself.
 
 ## Additional Resources
 
@@ -45,4 +45,3 @@ Related topics:
 - [Hierarchical-Grid](../components/hierarchical-grid.md)
 
 Our community is active and always welcoming to new ideas.
-
