@@ -43,7 +43,8 @@ In Adobe XD, the `🔣 Selection Icon` layer has to be made visible to achieve t
 
 ## Remove Chip
 
-When a chip can be removed, a special cancel icon will appear at the far right to indicate this. The `🔣 Remove Icon` override provides the means to trigger this functionality. In Sketch, the smart layout rules applied to the Chip allow the layout to adjust accordingly when you set the icon you want to hide to ~No Symbol. While in Adobe XD, the use of stacks lets you achieve that by deleting the unused layer instead.
+When a chip can be removed, a special cancel icon will appear at the far right to indicate this. The `🔣 Remove Icon` override provides the means to trigger this functionality in Sketch. The smart layout rules applied to the Chip adjust its layout accordingly. 
+In Adobe XD, the `🔣 Remove Icon` layer has to be made visible to achieve the same and the Stack on the Chip will adjust its layout in a similar way. If you don't want the Chip to be removable, simply delete the `🔣 Remove Icon` layer.
 
 <img class="responsive-img" src="../images/chip_idle_removable.png" srcset="../images/chip_idle_removable@2x.png 2x" />
 `idle and removable`
