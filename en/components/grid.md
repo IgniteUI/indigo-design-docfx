@@ -68,7 +68,7 @@ The Grid Body Cell has styling support for some of the Grid features defined in 
 
 ## Cell Type
 
-The Grid Header Cell provides presets for the four generic types of data that the Grid needs to accommodate: **Number** for numeric values, the one combining Text,Date,Bool for the respective data types, Row Selection that is used for the first column when selection of multiple rows is desired, and Group By - used to expand and collapse grouped data rows. In Adobe XD we are using the `Component States` paradigm to switch between Text and Number types.
+In Sketch, the Grid Header Cell provides presets for the four generic types of data that the Grid needs to accommodate: **Number** for numeric values, the one combining Text,Date,Bool for the respective data types, Row Selection that is used for the first column when selection of multiple rows is desired, and Group By - used to expand and collapse grouped data rows. In Adobe XD the types are three: a standard one for data, Row Selection, and Group By, with the standard one supporting choice between numeric values and text/date/bool via `Component States`.
 
 <img class="responsive-img" src="../images/grid_cell_header_number.png" srcset="../images/grid_cell_header_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />
