@@ -14,7 +14,7 @@ Use the Banner Component to display a prominent message and optionally actions r
 
 ## Message
 
-The Banner...
+The Banner's Message consists of an Icon and a Text field. It uses a smart layout on Sketch and a Stack on Adobe XD, allowing it to hide one or the other when set to ~No Symbol for Sketch users, and hiding the layer's visibility on Adobe XD.
 
 ## Actions
 
@@ -41,4 +41,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
