@@ -45,7 +45,7 @@ Raised、Outlined、Flat、Floating Action ボタンは、オーバーライド 
 
 ## スタイル設定
 
-Button は、さまざまなオーバーライドで背景色、ラベル、アイコン色を制御することにより柔軟にスタイル設定できます。
+Button は、さまざまなオプションを通じて背景色、ラベル、アイコン色を柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/button_styling.png" srcset="../images/button_styling@2x.png 2x" />
 
@@ -74,5 +74,4 @@ Button のコンテンツにラベルを含む場合、大文字を太文字 (Me
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
 

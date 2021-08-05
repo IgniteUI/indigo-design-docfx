@@ -50,7 +50,7 @@ Ticks と Values も構成できます。2 種類の目盛り: Ticks と Minor T
 
 ## スタイル設定
 
-Bullet Graph のスタイル設定は高い柔軟性があり、ブラシ範囲 (Value Brush、Target Value Brush、Tick Brush、Minor Tick Brush、Range Brushes のコレクション) のオーバーライドがあります。
+Bullet Graph には、Value Brush、Target Value Brush、Tick Brush、Minor Tick Brush、および Range Brushes のコレクションなど、ブラシのさまざまなオプションによるスタイリングの柔軟性があります。
 
 <img class="responsive-img" src="../images/bullet_graph_styling.png" srcset="../images/bullet_graph_styling@2x.png 2x" />
 

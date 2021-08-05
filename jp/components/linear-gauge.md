@@ -56,7 +56,7 @@ Ticks と Values も構成可能です。Ticks と Minor Ticks の 2 種類の�
 
 ## スタイル設定
 
-Linear Gauge には、Value Brush、Target Value Brush、Tick Brush、Minor Tick Brush、Range Brushes のコレクションなどのブラシを制御するさまざまなオーバーライドによるスタイル設定の柔軟性があります。
+Linear Gauge には、Value Brush、Target Value Brush、Tick Brush、Minor Tick Brush、Range Brushes のコレクションなどのブラシを柔軟にスタイル設定できるオプションがあります。
 
 <img class="responsive-img" src="../images/linear_gauge_styling.png" srcset="../images/linear_gauge_styling@2x.png 2x" />
 

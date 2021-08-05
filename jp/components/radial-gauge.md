@@ -54,7 +54,7 @@ Radial Gauge は、定義済みの 3 つの範囲 (**2 つ**、3 つ、4 つ) �
 
 ## スタイル設定
 
-Radial Gauge のスタイル設定は高い柔軟性があり、背景色の制御をオーバライドやブラシの選択 (Needle Brush、Range Brushes、および内側と外側のダイヤル タイプでのみ使用できる Tick Brush、Minor Tick Brush) があります。
+Radial Gauge のスタイル設定は高い柔軟性があり、背景色のオプションやブラシの選択 (Needle Brush、Range Brushes、および内側と外側のダイヤル タイプでのみ使用できる Tick Brush、Minor Tick Brush) があります。
 
 <img class="responsive-img" src="../images/radial_gauge_styling.png" srcset="../images/radial_gauge_styling@2x.png 2x" />
 
