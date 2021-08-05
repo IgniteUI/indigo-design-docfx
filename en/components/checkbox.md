@@ -40,7 +40,7 @@ The Checkbox provides **on**, off, and indeterminate selection states.
 
 ## Styling
 
-The Checkbox comes with styling flexibility through the various overrides controlling its check and fill colors, as well as the label position and its color.
+The Checkbox comes with styling flexibility through the various options for its check and fill colors, as well as mechanisms to set a label position and color.
 
 <img class="responsive-img" src="../images/checkbox_styling.png" srcset="../images/checkbox_styling@2x.png 2x" />
 

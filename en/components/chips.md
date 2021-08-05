@@ -65,7 +65,7 @@ The Chip has rich support for content templating via the prefix and suffix conta
 
 ## Chip Styling
 
-The Chip comes with styling flexibility through the various overrides controlling the border and background colors, as well as the text and prefix, suffix, selection and remove icon colors, where applicable.
+The Chip comes with styling flexibility through the various options for the border and background colors, as well as the text and prefix, suffix, selection, and remove icon colors, where applicable.
 
 <img class="responsive-img" src="../images/chip_styling.png" srcset="../images/chip_styling@2x.png 2x" />
 
