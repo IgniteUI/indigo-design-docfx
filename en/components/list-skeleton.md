@@ -34,9 +34,9 @@ The Skeleton List Item has two distinct areas like the standard [List](list.md):
 <img class="responsive-img" src="../images/list_skeleton_item_primary.png" srcset="../images/list_skeleton_item_primary@2x.png 2x" />
 <img class="responsive-img" src="../images/list_skeleton_item_secondary.png" srcset="../images/list_skeleton_item_secondary@2x.png 2x" />
 
-## List Item Primary Action
+## Primary Action in Sketch
 
-In Sketch, there are 4 interchangeable Skeleton List Item Primary Actions like the standard [List Item](list-item.md) that are listed below available as `Symbol Overrides`. Thanks to Smart Layout in Sketch, they can be adjusted further by setting unnecessary elements to ~No Symbol.
+There are 4 interchangeable Skeleton List Item Primary Actions like the standard [List Item](list-item.md) that are listed below available as `Symbol Overrides`. Thanks to Smart Layout, they can be adjusted further by setting unnecessary elements to ~No Symbol.
 
 |                              |                                                                                                  |                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -45,9 +45,9 @@ In Sketch, there are 4 interchangeable Skeleton List Item Primary Actions like t
 | Icon + Label + Desc | <img class="responsive-img" src="../images/list_skeleton_item_primary3.png" srcset="../images/list_skeleton_item_primary3@2x.png 2x" />   |                                                                                                                                            |
 | Label + Progress          | <img class="responsive-img" src="../images/list_skeleton_item_primary4.png" srcset="../images/list_skeleton_item_primary4@2x.png 2x" />   | Linear Progress Bar in a Primary Action can not have a value label, therefore, it is set to ~No Symbol and this setting should not be changed |                                                                                                                                            |
 
-## List Item Secondary Action
+## Secondary Action in Sketch
 
-In Sketch, The Secondary Action of the Skeleton List Item covers all scenarios possible with its counterpart from the standard [List Item](list-item.md) available as `Symbol Overrides`. Thanks to Smart Layout in Sketch, it can be adjusted further by setting unnecessary elements to ~No Symbol.
+The Secondary Action of the Skeleton List Item covers all scenarios possible with its counterpart from the standard [List Item](list-item.md) available as `Symbol Overrides`. Thanks to Smart Layout, it can be adjusted further by setting unnecessary elements to ~No Symbol.
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
