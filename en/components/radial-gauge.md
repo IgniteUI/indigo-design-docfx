@@ -38,7 +38,7 @@ The Radial Gauge provides various overrides that control the ranges on the dial:
 
 ## Series Thickness
 
-The Radial Gauge comes with two kinds of Series Thickness: **Thick** and Thin. In Sketch, to switch between thicknesses is achieved with `Symbol Overrides`.
+The Radial Gauge comes with two kinds of Series Thickness: **Thick** and Thin. In Sketch, to switch between series thicknesses you should use the `Symbol Overrides`, while in Adobe XD separate variants of the Radial Gauge exist for the options above.
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_full-thin.png" srcset="../images/radial_gauge_full-thin@2x.png 2x" />
