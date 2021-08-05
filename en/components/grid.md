@@ -59,7 +59,7 @@ The Grid Body Cell supports the following interactive states: **inactive** for t
 <img class="responsive-img" src="../images/grid_cell_body_cell-inactive.png" srcset="../images/grid_cell_body_cell-inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_cell-active.png" srcset="../images/grid_cell_body_cell-active@2x.png 2x" />
 
-The Grid Body Cell has styling support for some of the Grid features defined through the headers via the `Grid Feature` override. There are style variants for regular cells, editable cells, and cells that belong to a selected row. In Sketch, to switch between the states and variants is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm.
+The Grid Body Cell has styling support for some of the Grid features defined in the headers via their `Grid Feature`. There are style variants for regular cells, editable cells, and cells that belong to a selected row. In Sketch, to switch between `Grid Feature`-s you should use the available `Symbol Overrides`, while in Adobe XD there is a matching list of `Component States`.
 
 <img class="responsive-img" src="../images/grid_cell_body_row-selected.png" srcset="../images/grid_cell_body_row-selected@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_editing_cell.png" srcset="../images/grid_cell_body_editing_cell@2x.png 2x" />
