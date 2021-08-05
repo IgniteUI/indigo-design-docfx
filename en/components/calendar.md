@@ -43,7 +43,7 @@ The Calendar has a built-in Header that can be omitted. In Sketch, the use of a 
 
 ## Week Numbers
 
-The Calendar also has built-in support for Week Numbers, but if you prefer not to show this part of the UI, simply set the Week Numbers to ~No Symbol in Sketch while in Adobe XD you have to delete the unused layer instead.
+The Calendar also has built-in support for Week Numbers, but if you prefer not to show this part of the UI, simply set the Week Numbers to ~No Symbol in Sketch or delete the layer in Adobe XD.
 
 <img class="responsive-img" src="../images/calendar_weeknum.png" srcset="../images/calendar_weeknum@2x.png 2x" />
 
