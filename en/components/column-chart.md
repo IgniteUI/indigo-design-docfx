@@ -22,7 +22,7 @@ The Column Chart has a title that can be changed or hidden if not needed by sett
 
 ## State
 
-The Column Chart has two states - Idle and Hover. In the Hover state a tooltip is shown upon hovering over a data point, which is then focused and the other columns are dimmed out.
+The Column Chart has two states - Idle and Hover. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In the Hover state a tooltip is shown upon hovering over a data point, which is then focused and the other columns are dimmed out.
 
 <img class="responsive-img" src="../images/column_chart_tooltip-off.png" srcset="../images/column_chart_tooltip-off@2x .png 2x" />
 <img class="responsive-img" src="../images/column_chart_tooltip-on.png" srcset="../images/column_chart_tooltip-on@2x.png 2x" />
@@ -64,10 +64,10 @@ Use the Column Chart when you want to show the amount of change over a period of
 
 Related topic:
 
-- [Line Chart](../line-chart.md)
+- [Line Chart](line-chart.md)
 - [Spline Chart](spline-chart.md)
 - [Step Line Chart](step-line-chart.md)
-- [Skeleton Charts](../skeleton-charts.md)
+- [Skeleton Charts](skeleton-charts.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

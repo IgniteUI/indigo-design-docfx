@@ -82,23 +82,32 @@
 
 - name: デザイン システムの使用
   header: true
-- name: はじめてのアートボードを作成
-  href: ../creating-an-artboard.md
+- name: Sketch でアートボードを作成
+  href: ../creating-artboard-sketch.md
+- name: Adobe XD でアートボードを作成
+  href: ../creating-artboard-adobexd.md
+  new: true
 - name: 同期とテーマ プラグイン
   href: ../sync-themes-plugin.md
 - name: スタイル設定
   href: ../style/styling-overview.md
+  updated: true
   items:
     - name: Colors
       href: ../style/colors.md
+      updated: true
     - name: Elevation
       href: ../style/elevation.md
+      updated: true
     - name: Material Icons
       href: ../style/material-icons.md
+      updated: true
     - name: Typography
       href: ../style/typography.md
+      updated: true
     - name: Illustrations
       href: ../style/illustrations.md
+      updated: true
 - name: コンポーネント
   href: ../components/components-overview.md
   items:

@@ -27,7 +27,7 @@ The Navigation Drawer uses a smart layouting and can show up to 21 Items. The ex
 
 ## Item State
 
-Every Navigation Drawer Item comes with a State which can be Active, Inactive, or Hover. In a Navigation Drawer only one Item can be Active at a time to indicate the view that will be shown on the rest of the screen.
+Every Navigation Drawer Item comes with a State which can be Active, Inactive or Hover. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In a Navigation Drawer, only one Item can be Active to indicate the view that will be shown on the rest of the screen.
 
 <img class="responsive-img" src="../images/nav-drawer_active.png" srcset="../images/nav-drawer_active@2x.png 2x" />
 <img class="responsive-img" src="../images/nav-drawer_inactive.png" srcset="../images/nav-drawer_inactive@2x.png 2x" />
@@ -35,7 +35,7 @@ Every Navigation Drawer Item comes with a State which can be Active, Inactive, o
 
 ## Styling
 
-The Navigation Drawer provides basic styling capabilities achievable through changing the label and icon colors, as well as the active/inactive background colors.
+The Navigation Drawer provides basic styling capabilities achievable through the options available for the label and icon colors, as well as the active/inactive background colors.
 
 <img class="responsive-img" src="../images/nav-drawer_styling.png" srcset="../images/nav-drawer_styling@2x.png 2x" />
 

@@ -35,7 +35,7 @@ The Chart Type allows switching between Line and Area. The latter one has the ar
 
 ## State
 
-The Line Chart has two states - Idle and Hover. In the Hover state a tooltip, giving information about the series' values at this point, is shown upon hovering over a data point.
+The Line Chart has two states - Idle and Hover. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In the Hover state a tooltip, giving information about the series' values at this point, is shown upon hovering over a data point.
 
 <img class="responsive-img" src="../images/line_area_chart_tooltip-off.png" srcset="../images/line_area_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/line_area_chart_tooltip-on.png" srcset="../images/line_area_chart_tooltip-on@2x.png 2x" />
@@ -82,6 +82,6 @@ Related topics:
 - [Spline Chart](spline-chart.md)
 - [Step Line Chart](step-line-chart.md)
 - [Column Chart](column-chart.md)
-- [Skeleton Charts](../skeleton-charts.md)
+- [Skeleton Charts](skeleton-charts.md)
 
 Our community is active and always welcoming to new ideas.
