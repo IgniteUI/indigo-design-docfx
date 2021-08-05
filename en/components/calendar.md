@@ -37,7 +37,7 @@ The start of the week can also be chosen as an option at the time of inserting a
 
 ## Header
 
-The Calendar has a built-in Header that can be removed. In Sketch, the use of a smart layout allows adjusting accordingly when the Header you want to hide is set to ~No Symbol, resulting in a base Calendar that you can embed more seamlessly in your forms. In Adobe XD you have to delete the unused layer instead, and the layout will adjust through the use of stacks.
+The Calendar has a built-in Header that can be omitted. In Sketch, the use of a smart layout allows you to set the Header to ~No Symbol to achieve this, resulting in a base Calendar that you can embed more seamlessly in your forms. In Adobe XD you can achieve the same by deleting the Header layer, and the rest of the layout will adjust itself.
 
 <img class="responsive-img" src="../images/calendar_base.png" srcset="../images/calendar_base@2x.png 2x" />
 
@@ -78,4 +78,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
