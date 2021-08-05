@@ -28,7 +28,7 @@ The Dropdown supports two types of items header and item. Through headers it is 
 
 ## Item States
 
-The Dropdown items support five different states: Disabled, **Idle**, Focused, Selected, and Selected&focused.
+The Dropdown items support five different states: Disabled, **Idle**, Focused, Selected, and Selected&focused. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
 <img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />

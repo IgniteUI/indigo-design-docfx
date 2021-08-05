@@ -14,7 +14,7 @@ Use the Carousel Component to let the user navigate through a collection of imag
 
 ## Indicators and Slides
 
-The Carousel lets you define up to 10 slides, where for each one there is a matching indicator dot, allowing the user to navigate to that respective slide.
+The Carousel lets you define up to 10 slides, where for each one there is a matching indicator dot, allowing the user to navigate to that respective slide. In Sketch, indicator states are achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
 
 <img class="responsive-img" src="../images/carousel_indicators&slides.png" srcset="../images/carousel_indicators&slides@2x.png 2x" />
 

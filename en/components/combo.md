@@ -60,6 +60,8 @@ Every experienced designer uses constraints wisely to limit the user input and a
 <img class="responsive-img" src="../images/combo_warning.png" srcset="../images/combo_warning@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_error.png" srcset="../images/combo_error@2x.png 2x" />
 
+In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
+
 ## Layout
 
 The Combo input has only one layout option but to assure consistency with the standard [Input](input.md) this override has been preserved.
