@@ -43,7 +43,7 @@ The Card header supports various layouts, including an Avatar Thumbnail, Title, 
 
 ## Actions
 
-The Card actions come in six distinct layouts: **Button + Icon Actions** with two Flat Buttons and three Icons and the inverse Icon + Button Actions laid the other way around, as well as their Justified~ variants, and variants with only Justified Button Actions and Justified Icon Actions. Each of the six is defined with a smart layout in Sketch, letting you remove elements by setting them to ~No Symbol and have the rest automatically adjust to the desired layout. In Adobe XD, you have to delete the unused layers instead, and the layout will adjust through the use of stacks.
+The Card actions come in six distinct layouts: **Button + Icon Actions** with two Flat Buttons and three Icons and the inverse Icon + Button Actions laid the other way around, as well as their Justified~ variants, and variants with only Justified Button Actions and Justified Icon Actions. Each of the six is defined as an override with a smart layout in Sketch, letting you remove elements by setting them to ~No Symbol and have the rest automatically adjust to the desired layout. In Adobe XD, the same variety is available and you may also delete unnecessary layers with a layout that adjusts automatically thanks to the use of a Stack.
 
 <img class="responsive-img" src="../images/card_actions_buttons_icons.png" srcset="../images/card_actions_buttons_icons@2x.png 2x" />
 
