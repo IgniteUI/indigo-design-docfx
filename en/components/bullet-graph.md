@@ -28,7 +28,7 @@ The Bullet Graph comes with a Legend that can be adjusted accordingly to match t
 
 ## Tooltip
 
-The Bullet Graph comes with a tooltip that may be hidden by setting the override to ~No Symbol in Sketch, while in Adobe XD you have to delete the unused layer instead.
+The Bullet Graph comes with a tooltip that may be hidden by setting the override to ~No Symbol in Sketch or deleting the layer for it in Adobe XD.
 
 <img class="responsive-img" src="../images/bullet_graph_tooltip-off.png" srcset="../images/bullet_graph_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_tooltip-on.png" srcset="../images/bullet_graph_tooltip-on@2x.png 2x" />
