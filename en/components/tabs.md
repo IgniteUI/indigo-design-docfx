@@ -37,7 +37,7 @@ For most scenarios, the Tabs need to contain between two and five items. To remo
 
 ## Short Bar Content
 
-The short bar comes with text content by default. If you want to show an icon instead, you have to assign a Material Icon to the `🔣 Icon` override and set the `🏷️ Label` to ~No Symbol in Sketch for every tab in the bar or delete the unused layers in Adobe XD.
+The short bar comes with text content by default. If you want to show an icon instead, you have to assign a Material Icon to the `🔣 Icon` override and set the `🏷️ Label` to ~No Symbol in Sketch for every tab in the bar. To achieve a similar result in Adobe XD make sure that either `🔣 Icon` or `🏷️ Label` layer exists and is visible, and the other one has been deleted for every tab in the bar.
 
 <img class="responsive-img" src="../images/tabs_text.png" srcset="../images/tabs_text@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_icons.png" srcset="../images/tabs_icons@2x.png 2x" />
