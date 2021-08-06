@@ -26,7 +26,7 @@ The Banner has styling flexibility with the many options for the background, bor
 
 ## Usage
 
-When using a Banner make sure your elements and texts are visible and readable on the background.
+Don’t combine buttons with different emphasis, which would promote one action over the other. Illustrations are used to support the message. Don't use them without a descriptive text to promote the action.
 
 | Do                                                                             | Don't                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
