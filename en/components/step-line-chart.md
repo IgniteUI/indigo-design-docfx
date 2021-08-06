@@ -35,7 +35,7 @@ The Chart Type allows switching between Line and Area. The latter one has the ar
 
 ## State
 
-The Step Line Chart has two states - Idle and Hover. In the Hover state a tooltip, giving information about the series' values at this point, is shown upon hovering over a data point.
+The Step Line Chart has two states - Idle and Hover. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In the Hover state a tooltip, giving information about the series' values at this point, is shown upon hovering over a data point.
 
 <img class="responsive-img" src="../images/step_area_chart_tooltip-off.png" srcset="../images/step_area_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/step_area_chart_tooltip-on.png" srcset="../images/step_area_chart_tooltip-on@2x.png 2x" />
@@ -80,8 +80,9 @@ Use the Step Line Chart when you have a continuous data set and want to see the 
 
 Related topic:
 
-- [Line Chart](../line-chart.md)
-- [Spline Chart](../spline-chart.md)
-- [Column Chart](../column-chart.md)
+- [Line Chart](line-chart.md)
+- [Spline Chart](spline-chart.md)
+- [Column Chart](column-chart.md)
+- [Skeleton Charts](skeleton-charts.md)
 
 Our community is active and always welcoming to new ideas.

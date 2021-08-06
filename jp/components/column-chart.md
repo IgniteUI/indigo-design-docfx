@@ -65,7 +65,10 @@ Column Chart では、シリーズの色を変更できます。Series.1、serie
 
 関連トピック:
 
-- [Line Chart](../line-chart.md)
+- [Line Chart](line-chart.md)
+- [Spline Chart](spline-chart.md)
+- [Step Line Chart](step-line-chart.md)
+- [Skeleton Charts](skeleton-charts.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

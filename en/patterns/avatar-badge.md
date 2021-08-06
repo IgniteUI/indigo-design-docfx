@@ -31,11 +31,6 @@ The Badge comes positioned in one of the four corners of the Avatar as shown bel
 
 <img class="responsive-img" src="../images/avatar_badge_positions.png" srcset="../images/avatar_badge_positions@2x.png 2x" />
 
-> [!WARNING]
-> After inserting an Avatar + Badge Pattern you should trigger `Detach from Symbol`. This will break it down to the Components that are used to create the Pattern in order to be able to generate it as Angular code. The Badge and the Avatar, however, must stay intact and not be detached!
-
-<img class="responsive-img" src="../images/avatar_badge_detach.png" srcset="../images/avatar_badge_detach@2x.png 2x" />
-
 ## Additional Resources
 
 Related topics:

@@ -8,23 +8,27 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 Indigo.Design is a unified platform for visual design, UX prototyping, code generation and app development. It’s aimed at design and development teams looking to deliver pixel perfect apps as quickly as possible, without losing focus on UX.
 
+> [!NOTE]
+><b>Indigo.Design platform consists of three main modules - Prototypes, Usability Studies and App Builder. While Prototypes and Usability Studies help you measure and improve the user experience of a product or feature, the App Builder enables users build their own single page application in a web environment and generate Angular code from it.
+
 ## How does this work?
 
 Indigo.Design offers three key capabilities to support the design to development workflow:
 
 <img class="responsive-img" src="images/indigo-design-how-it-works.png" />
 
-1.  Create designs in Sketch with the `Indigo.Design System`
-2.  Share as prototypes to test and collaborate with users via `cloud.indigo.design`
-3.  Generate code from prototypes using the `Indigo.Design code generator` (Ignite UI for Angular)
+1. Create designs in Sketch or Adobe XD with the `Indigo.Design System`
+2. Share as prototypes to test and collaborate with users via `cloud.indigo.design`
+3. Design your app in `Indigo.Design App Builder` using a Sketch or Adobe XD file or directly using the visual application builder
+4. Generate Angular code from your application in the Indigo.Design App Builder, using the its `Code Generation` service. 
 
 ### 1. Indigo.Design System
 
-The design system is a Sketch library that contains various components (symbols) that allow a designer to create intricate user interfaces and leverage pre-made palettes, typographies and assets such as icons and illustrations. On top of that UI components are built to offer design time flexibility through various states and templates. To improve your productivity there is also a collection of patterns such as product details layouts, various forms, and pricing tables among others.
+The design system is a library for Sketch and Adobe XD that contains various assets, styles, components, and patterns. Тhe UI components allow you to create intricate user interfaces providing you with the flexibility to use various states and templates. To customize their appearance you may leverage the pre-made palettes, typographies, shadows, icons, and illustrations. And finally, with the provided collection of patterns, such as product details layouts, various forms, and pricing tables among others, you are able to streamline app design assuring the application of best practices in UI and interaction design.
 
 Learn more:
-
-[Create your first Sketch artboard](creating-an-artboard.md)
+* [Create your first Sketch artboard](creating-artboard-sketch.md)
+* [Create your first Adobe XD artboard](creating-artboard-adobexd.md)
 
 ### 2. Prototyping & Usability Testing
 
@@ -37,13 +41,23 @@ Learn more:
 If you want to watch how users use your prototype to complete specific tasks, and also collect metrics like time on task and completion rate, set up a usability test using the published prototype.
 
 Learn more:
-
 [Set up a user test](prototyping/set-up-a-user-test.md)
 
-### 3. Generate Code for Angular Apps
 
-You can generate code for Angular apps directly from published prototypes. To do this, you will need a share URL for the prototype, and use the Indigo.Design code generator. The code generator is available as an extension for VS code, and it generate code using the [Ignite UI for Angular UI framework](https://www.infragistics.com/products/ignite-ui-angular).
+### 3. Design and generate code from an application in Indigo.Design App Builder
+
+The App Builder module lets you design a single page application using a design file (Sketch or Adobe XD) as a starting point or create it from skratch. The App Builder includes a set of major features, enabling users to use real UI components, global themeing, external data sources.
 
 Learn more:
+[Build an application in the App Builder](appbuilder.md)
 
+
+### 4. Generate Code for Angular Apps
+
+Once ready with the design of your application in Indigo.Design App Builder, you can easily generate Angular code from it. The generated code can be directly uploaded to a repository in GitHub or downloaded locally as a file package. The components used in the generated application are powered by[Ignite UI for Angular UI framework](https://www.infragistics.com/products/ignite-ui-angular)
+
+You can also generate code for Angular apps directly from published prototypes in Indigo.Design cloud. To do this, you will need a share URL for the prototype, and use the Indigo.Design code generator. The code generator is available as an extension for VS code, and it generate code using the [Ignite UI for Angular UI framework](https://www.infragistics.com/products/ignite-ui-angular).
+
+Learn more:
+[Generating code from an application in Indigo.Design App Builder](appbuilder/generate-app.md)
 [Generating code from prototypes](codegen/installing-vs-code-extension.md)

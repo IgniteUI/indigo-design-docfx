@@ -80,8 +80,9 @@ Spline Chart は Chart Area に描画するシリーズの数を １，２，ま
 
 関連トピック:
 
-- [Line Chart](../line-chart.md)
-- [Step Line Chart](../step-line-chart.md)
-- [Column Chart](../column-chart.md)
+- [Line Chart](line-chart.md)
+- [Step Line Chart](step-line-chart.md)
+- [Column Chart](column-chart.md)
+- [Skeleton Charts](skeleton-charts.md)
 
 コミュニティに参加して新しいアイデアをご提案ください。

@@ -64,9 +64,26 @@ The following Sketch components are not implemented for code generation yet:
 - Mask
 - Elevation
 
-## Proportional widths not completed
+> [!Note]
+> Future releases will include these components.
 
-As this is not completed we give each element 100% width instead of calculating a specific percent based on their width relative to other row elements:
-[Proportional Width Sizing](codegen/layout-codegen.md#proportional-width-sizing)
+## Non-resizable components
+
+Some components apply limitation on what size they or their direct children can take.
+As such resizing them in the design will have no affect on the generated result as they are considered non-resizable.
+
+Components that are non-resizable include:
+
+- Avatar - has only 3 preset sizes in the design library. Resizing it to a custom size is not supported.
+- Dialog - takes the size of its content. Cannot be individually resized.
+- Radio - takes the size of its content. Cannot be individually resized.
+- Snackbar - takes the size of the container. Cannot be individually resized.
+- Button children (Icon and Text) - They are determined by the typography and do not allow resizing.
+- Repeatable child elements, which are inside a parent component, like:
+  - List Items
+  - NavDrawer Items
+  - Buttons in Button group
+  - etc.
+  Those items are determined by the parent size and cannot be individually resized.
 
 Our community is active and always welcoming to new ideas.

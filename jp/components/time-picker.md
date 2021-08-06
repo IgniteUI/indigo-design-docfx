@@ -24,8 +24,9 @@ Time Picker コンポーネントを使用して、日付の時間部分 (時間
 
 Time Picker は、Horizontal 方向と Vertical 方向の Dialog レイアウト、および時間を選択するさまざまなモードを容易にするドロップダウン レイアウトをサポートしています。Dialog レイアウトには、オーバーライドを ~No Symbol に設定することで非表示にできる Header が付属していますが、それでも、ダイアログ レイアウトが投影する影により、ドロップダウン レイアウトと区別できることに注意してください。
 
-<img class="responsive-img" src="../images/timepicker_horizontal.png" srcset="../images/timepicker_horizontal@2x.png 2x" />
+<img class="responsive-img" src="../images/timepicker_horizontal.png" srcset="../images/timepicker_horizontal@2x.png 2x" />         
 <img class="responsive-img" src="../images/timepicker_vertical.png" srcset="../images/timepicker_vertical@2x.png 2x" />
+
 <img class="responsive-img" src="../images/timepicker_dropdown.png" srcset="../images/timepicker_dropdown@2x.png 2x" />
 
 ## コンテンツ

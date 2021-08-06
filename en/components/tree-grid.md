@@ -12,7 +12,7 @@ Use the Tree Grid Component to let the user browse and interact with a vast amou
 
 <img class="responsive-img" src="../images/tree_grid_demo.png" srcset="../images/tree_grid_demo@2x.png 2x" />
 
-## Detach from Symbol
+## Using the Tree Grid in Sketch
 
 Similarly to the Grid, the Tree Grid is essentially a repeater of columns and rows showing hierarchical data in a flat, tabular fashion. Therefore, the easiest way to use it is by dragging a `Tree Grid/Comfortable` to your artboard, right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu. In your layers panel under the newly appeared group, you should see the following:
 
@@ -23,6 +23,20 @@ Similarly to the Grid, the Tree Grid is essentially a repeater of columns and ro
 | Body                         | Contains all the cells in the body                                                                                                                   |
 
 After detaching, you may add the number of headers you need to show all the dimensions of your data and as many records as you want to show in your design simply by duplicating one of the existing rows of data.
+
+## Using the Tree Grid in Adobe XD
+
+In Adobe XD, after you choose one of the three [preset display density tree grid components](grid-display-density.md) and drag it to your artboard, you will notice in the layers panel that we use `Repeat Grid` for both the Header and the Body to speed configuration up. Unlike in Sketch in Adobe XD destroying the symbol is not necessary. You should see the following in your layers panel:
+
+| Layer                        | Use                                                                                                                                                  |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🚫 metadata | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
+| Header                       | Contains all header cells: the one relating to the TreeColumn body cells and the rest grouped in a Repeat Grid                                                                                                                 |
+| Body                         | Contains all body cells: the TreeColumn cells grouped in a Repeat Grid and the rest grouped in another Repeat Grid                                                                                                                  |
+
+When you select a Repeat Grid layer, you may alter the number of the repeated cells you need. Just drag the green handles at the right or bottom edge to show all the dimensions of your data and insert as many visible records as you want to show in your design. To change a particular cell type or column width, you have to select the Repeat Grid layer and click `Ungroup Grid` in the right panel. This will allow you to work the cells separately to achieve the desired design.
+
+<img class="responsive-img" src="../images/tgrid_layers_panel_adobe_xd.png" srcset="../images/tgrid_layers_panel_adobe_xd@2x.png 2x" />
 
 ## Cell Types
 
@@ -42,7 +56,7 @@ The TreeColumn cell supports three display density variants of the Tree Grid: co
 
 ## Cell Depth
 
-The Tree Grid TreeColumn cell provides a visual indication for the level of the data hierarchy via the `Level` override, which can be set to **Root Level**, Child Level or Grandchild Level.
+The Tree Grid TreeColumn cell provides a visual indication for the level of the data hierarchy via the `Level` override, which can be set to **Root Level**, Child Level or Grandchild Level. In Sketch, to switch between them can be achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm.
 
 <img class="responsive-img" src="../images/tree_grid_cell_body_root_level.png" srcset="../images/tree_grid_cell_body_root_level@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_cell_body_child_level.png" srcset="../images/tree_grid_cell_body_child_level@2x.png 2x" />
@@ -50,7 +64,7 @@ The Tree Grid TreeColumn cell provides a visual indication for the level of the 
 
 ## Styling
 
-The Tree Grid comes with styling flexibility achievable through styling the individual cell text, icons, and background colors in the various states available, as well as the hiding of right and bottom borders.
+The Tree Grid comes with styling flexibility through the options available for the individual cell text, icons, and background colors in the various states available, as well as the hiding of right and bottom borders.
 
 <img class="responsive-img" src="../images/tree_grid_styling.png" srcset="../images/tree_grid_styling@2x.png 2x" />
 

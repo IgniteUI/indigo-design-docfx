@@ -1,4 +1,3 @@
 ---
 title: Infragistics Design System
 ---
-
