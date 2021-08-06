@@ -28,7 +28,7 @@ The Tabs can be Content Fit to fill up the available horizontal space by adaptin
 
 ## Tabs Amount
 
-For most scenarios, the Tabs need to contain between two and five tabs, and if needed, you can remove a tab item. To do that in Sketch, the Tabs uses a smart layout allowing it to adjust accordingly when one or more of its tabs are set to ~No Symbol. In Adobe XD, you have to delete the unused layers instead, and the layout will adjust through the use of stacks. If your case requires more tabs, you may want to consider a fluid mode and represent only the tabs in view.
+For most scenarios, the Tabs need to contain between two and five items. To remove an item in Sketch, set its override to ~No Symbol and the smart layout will adjust the remaining ones. To achieve the same in Adobe XD, you should delete the unnecessary items and the Stack will take care to lay out the remaining ones. If your use case requires more than five tabs, you should consider the Fixed mode explained above.
 
 <img class="responsive-img" src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
