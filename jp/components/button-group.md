@@ -35,7 +35,7 @@ Button Group の各ボタンは Flat Button であり、同様のテンプレー
 
 ## スタイル設定
 
-Button Group は、境界線と背景色、各ボタンのアウトライン、背景、テキスト、アイコンの色を制御することにより柔軟にスタイル設定できます。
+Button Group は、さまざまなオプションを通じて境界線と背景色、各ボタンのアウトライン、背景、テキスト、アイコンの色を柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/button-group_styling.png" srcset="../images/button-group_styling@2x.png 2x" />
 
@@ -57,5 +57,4 @@ Button のスタイルは統一させます。同じ Button グループ内で�
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
 

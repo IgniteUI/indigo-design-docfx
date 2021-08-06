@@ -54,7 +54,7 @@ Radio Group は、明暗バリアントでわかりやすく、背景に明暗�
 
 ## スタイル設定
 
-Radio Group は、各項目のラベル スタイルや色を制御することにより柔軟にスタイル設定できます。
+Radio Group には、各項目のラベル スタイルと色のさまざまなオプションによるスタイリングの柔軟性があります。
 
 <img class="responsive-img" src="../images/radiogroup_styling.png" srcset="../images/radiogroup_styling@2x.png 2x" />
 
@@ -62,8 +62,8 @@ Radio Group は、各項目のラベル スタイルや色を制御すること�
 
 追加の項目で Radio Group を拡張するときは、それらが一貫して整列され、単一の列を形成していることを確認してください。複数の列でのレイアウトや、一度に複数の Radio 要素がオン状態になる状況は避けてください。
 
-| 良い例                                | 悪い例                               |
-| --------------------------------- | ----------------------------------- |
+| 良い例                                                                                     | 悪い例                                                                                      |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | <img class="responsive-img" src="../images/radiogroup_do1.png" srcset="../images/radiogroup_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/radiogroup_dont1.png" srcset="../images/radiogroup_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/radiogroup_do2.png" srcset="../images/radiogroup_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/radiogroup_dont2.png" srcset="../images/radiogroup_dont2@2x.png 2x" /> |
 

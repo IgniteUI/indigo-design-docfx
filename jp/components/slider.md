@@ -41,7 +41,7 @@ Slider は、**ダーク** / ライト系のテーマで分かりやすく、背
 
 ## スタイル設定
 
-Slider は、さまざまなオーバーライドでラベル背景、つまみ、トラック、ベース トラックの色を制御することにより柔軟にスタイル設定できます。
+Slider は、さまざまなオプションを通じてラベル背景、つまみ、トラック、ベース トラックの色を柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/slider_styling.png" srcset="../images/slider_styling@2x.png 2x" />
 

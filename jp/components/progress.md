@@ -52,7 +52,7 @@ Progress コンポーネントに Linear Bar レイアウト形状を使用す�
 
 ## スタイル設定
 
-Progress は、さまざまなオーバーライドでテキストおよび必要に応じて、プログレス、基本色、ストリップ、塗りつぶし、トラックの色を制御することにより柔軟にスタイル設定できます。
+Progress は、さまざまなオプションを通じてテキストおよび必要に応じて、プログレス、基本色、ストリップ、塗りつぶし、トラックの色を柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/progress_striped.png" srcset="../images/progress_striped@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_clear.png" srcset="../images/progress_clear@2x.png 2x" />

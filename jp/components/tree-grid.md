@@ -51,7 +51,7 @@ Tree Grid の TreeColumn セルは、`Level` オーバーライドを介して�
 
 ## スタイル設定
 
-Tree Grid は、さまざま状態の各セル テキスト、アイコン、背景色のスタイル設定や右および下の境界線の非表示など柔軟に変更できます。
+Tree Grid には、使用可能なさまざまな状態の各セル テキスト、アイコン、背景色に使用できるオプション、および右と下の境界線を非表示にすることにより、スタイルの柔軟性があります。
 
 <img class="responsive-img" src="../images/tree_grid_styling.png" srcset="../images/tree_grid_styling@2x.png 2x" />
 

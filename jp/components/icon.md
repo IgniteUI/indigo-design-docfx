@@ -26,7 +26,7 @@ Icon のサイズは 4 つあります。
 
 ## スタイル設定
 
-Icon は、さまざまなオーバーライドで選択可能なグラフィックとそれに適用される色を制御することにより柔軟にスタイル設定できます。
+Icon は、まざまなオプションを通じて選択可能なグラフィックとそれに適用される色を柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/icon_styling.png" srcset="../images/icon_styling@2x.png 2x" />
 

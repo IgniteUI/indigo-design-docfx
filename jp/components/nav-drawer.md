@@ -36,7 +36,7 @@ Navigation Drawer はスマート レイアウトを使用し、最大 21 個の
 
 ## スタイル設定
 
-Navigation Drawer には、ラベルやアイコンの色の変更、アクティブ / インアクティブな背景の色の変更など基本的なスタイル設定機能があります。
+Navigation Drawer は、ラベルとアイコンの色、およびアクティブ / インアクティブな背景の色で使用可能なオプションを通じて基本的なスタイリング機能を提供します。
 
 <img class="responsive-img" src="../images/nav-drawer_styling.png" srcset="../images/nav-drawer_styling@2x.png 2x" />
 

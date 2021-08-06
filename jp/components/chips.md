@@ -66,7 +66,7 @@ Chip は、prefix および suffix コンテナを介したコンテンツ テ�
 
 ## Chip のスタイル設定
 
-Chip は、さまざまなオーバーライドで境界線と背景色、テキスト、Prefix、Suffix、選択、削除したアイコン色を制御することにより柔軟にスタイル設定できます。
+Chip には、境界線と背景色のさまざまなオプション、およびテキストと Prefix、Suffix、選択、および適用可能な場合はアイコンの色の削除を通じて、スタイルの柔軟性があります。
 
 <img class="responsive-img" src="../images/chip_styling.png" srcset="../images/chip_styling@2x.png 2x" />
 
@@ -95,8 +95,9 @@ Chips Area は Chips の継承スタイルがサポートされますが、コ�
 
 Chip を使用する場合、楕円はコンテンツに合わせて自動的にサイズを変更するため、それに応じてインスタンスのサイズを調整するだけで済みます。Chip を関連コンテンツのアクション トリガーとして使用する場合、アクションが 1 つのみまたは設定で選択オプションが 1 つのみの場合は使用しないでください。
 
-| 良い例                                                                         |悪い例                                                                          |
+| 良い例                                                                         | 悪い例                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| |
 | <img class="responsive-img" src="../images/chip_do1.png" srcset="../images/chip_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/chip_dont2.png" srcset="../images/chip_dont2@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/chip_do3.png" srcset="../images/chip_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/chip_dont3.png" srcset="../images/chip_dont3@2x.png 2x" /> |
 
