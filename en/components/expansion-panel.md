@@ -22,7 +22,7 @@ The Expansion Panel's Header comes in two states - Active (Default) and Disabled
 
 ## Header Layout
 
-The Expansion Panel's Header Layout consists of 
+The Expansion Panel's Header Layout consists of Left Expansion Panel Icon, Content - Title and Description, and a Right Expansion Panel Icon. Each of the icons can be hidden by setting their state to ~No Symbol in the Overrides panel in Sketch, or hiding the layer in Adobe XD. The Left Expansion Panel Icon and the Content are in a smart layout in Sketch, or Stack in Adobe XD, meaning that if the Icon is hidden, the Content will automatically shift to the left, where the Icon was, making the layout visually appealing.
 
 ## Body
 
