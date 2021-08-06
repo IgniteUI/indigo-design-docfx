@@ -48,21 +48,15 @@ Akin to the Calendar, the Date Picker lets you pick between three selection mode
 <img class="responsive-img" src="../images/datepicker_selection.png" srcset="../images/datepicker_selection@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_range.png" srcset="../images/datepicker_range@2x.png 2x" />
 
-## Buttons
-
-The Drop-down Date Picker comes with two buttons: one for closing in and keeping the current selection, and one for navigating to today. The Button area is templatable, allowing you, for example, to hide a button. To hide a button in Sketch, you have to set its override to ~No Symbol, and through the use of a smart layout, it will adjust accordingly. While in Adobe XD, you have to delete the unused layer instead, and the layout will adjust through the use of stacks. The Dialog Date Picker comes with no buttons by default because upon selecting a date, the dialog closes automatically.
-
-<img class="responsive-img" src="../images/datepicker_buttons.png" srcset="../images/datepicker_buttons@2x.png 2x" />
-
 ## Styling
 
-The Time Picker comes with styling flexibility through the various options for header background and title colors, as well as text colors for the selected hour, minute, and meridiem (AM/PM). The Cancel and OK buttons are [Flat Buttons](button.md) and can be styled accordingly.
+The Time Picker comes with styling flexibility through the various options for header background and title colors, as well as text colors for the selected hour, minute, and meridiem (AM/PM).
 
 <img class="responsive-img" src="../images/datepicker_styling.png" srcset="../images/datepicker_styling@2x.png 2x" />
 
 ## Usage
 
-Show the Horizontal and Vertical Time Pickers as a dialog that dims the rest of the UI.
+Show the Horizontal and Vertical Dialog Date Pickers as a dialog that dims the rest of the UI.
 
 | Do                                                                                     | Don't                                                                                      |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
