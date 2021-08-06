@@ -22,7 +22,7 @@ The Linear Gauge has a Title and Subtitle whose text can be changed. In Sketch, 
 
 ## Legend
 
-The Linear Gauge comes with a Legend that can be adjusted accordingly to match the ranges shown on it and the current value. In Sketch, Legend items can be removed by setting the corresponding Series to ~No Symbol or added by finding it in the Overrides/Charts/Legend/Serie. In Adobe XD, you have to delete the unused layers instead, and the layout will adjust through the use of stacks. Also, you can change the icon type between Square, Line, or Circle.
+The Linear Gauge comes with a Legend that can be adjusted accordingly to match the ranges shown on it and the current value. In Sketch, Legend items can be removed by setting the corresponding Series to ~No Symbol or added by finding it in the Overrides/Charts/Legend/Serie. In Adobe XD, you have to delete the unused Series layers, and the layout will adjust automatically. Additionally, you can change the icon type between Square, Line, or Circle.
 
 <img class="responsive-img" src="../images/linear_gauge_legend.png" srcset="../images/linear_gauge_legend@2x.png 2x" />
 
