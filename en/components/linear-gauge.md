@@ -16,7 +16,7 @@ For scenarios where a target value is critically important for understanding and
 
 ## Title and Subtitle
 
-The Linear Gauge has a Title and Subtitle whose text can be changed. In Sketch, they can also be hidden if they are not needed by setting them to ~No Symbol, while in Adobe XD you have to delete the unused layer instead.
+The Linear Gauge has a Title and Subtitle whose text can be changed. In Sketch, they can also be hidden if they are not needed by setting them to ~No Symbol, while in Adobe XD you should delete their respective layers.
 
 <img class="responsive-img" src="../images/linear_gauge_title.png" srcset="../images/linear_gauge_title@2x.png 2x" />
 
