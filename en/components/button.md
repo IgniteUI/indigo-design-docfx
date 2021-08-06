@@ -38,7 +38,7 @@ Enabled buttons support **Rest** and Hover state. In Sketch this is achieved wit
 
 ## Layout Template
 
-Raised, Outlined, Flat and Floating Action Buttons support flexible icon and label templating achievable by setting the elements you want to hide to ~No Symbol from the overrides panel.
+Raised, Outlined, Flat, and Floating Action Buttons support flexible icon and label templates. In Sketch, the smart layout rules applied, allow the layout to adjust accordingly when you set the elements you want to hide to ~No Symbol. In Adobe XD, you achieve the same by deleting the unused layer instead. However, if you only want to change the label and icon position at design time you can simply drag one of them to the other side of the other one.
 
 <img class="responsive-img" src="../images/button_templates.png" srcset="../images/button_templates@2x.png 2x" />
 
