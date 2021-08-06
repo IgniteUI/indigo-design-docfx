@@ -23,7 +23,7 @@ The Spline Chart has a title that can be changed or hidden if not needed. In Ske
 
 ## Legend
 
-The Spline Chart comes with a Legend to show the number of series in it and what they represent. The Legend is built using a smart layout in Sketch and can be adjusted to contain the exact amount of series items by setting the overrides of those not needed to ~No Symbol. While in Adobe XD, the use of stacks lets you achieve that by deleting the unused layers instead. Legend items' shape is also configurable with built-in support for rectangle, line, and dot.
+The Spline Chart comes with a Legend to show the number of series in it and what they represent. The Legend is built using a smart layout in Sketch and can be adjusted to contain the exact amount of series items by setting the overrides of those not needed to ~No Symbol. In Adobe XD, the use of a Stack lets you achieve that by deleting the unnecessary legend item layers. Legend items' shape is also configurable with built-in support for rectangle, line, and dot.
 
 <img class="responsive-img" src="../images/spline_chart_legend.png" srcset="../images/spline_chart_legend@2x.png 2x" />
 
