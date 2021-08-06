@@ -37,7 +37,7 @@ The Time Picker supports 12 and 24-hour formats through two distinct content mod
 
 ## Buttons
 
-The Time Picker comes with two buttons: one for canceling the selection, which would revert the time to the original one, and one for confirming the selection, which would save the changes made. The Button area is templatable allowing you, for example, to hide a button by setting its override to ~No Symbol in Sketch and deleting the unused layer in Adobe XD, or assign a different action to it.
+The Time Picker comes with two buttons: one for canceling the selection, which would revert the time to the original one, and one for confirming the selection, which would save the changes made. The Button area is templatable allowing you, for example, to hide a button by setting its override to ~No Symbol in Sketch or by deleting it in Adobe XD. Unlike in Sketch, Adobe XD allows you to add more buttons, e.g. for custom actions, to the Button area from the Libraries panel. Whether you remove or add Buttons, the applied Stack will adjust the layout for you automatically.
 
 <img class="responsive-img" src="../images/timepicker_buttons.png" srcset="../images/timepicker_buttons@2x.png 2x" />
 
@@ -68,4 +68,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
