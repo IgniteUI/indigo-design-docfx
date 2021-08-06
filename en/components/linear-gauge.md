@@ -28,7 +28,7 @@ The Linear Gauge comes with a Legend that can be adjusted accordingly to match t
 
 ## Tooltip
 
-The Linear Gauge comes with a tooltip that may be hidden by setting the override to ~No Symbol in Sketch, while in Adobe XD you have to delete the unused layer instead.
+The Linear Gauge comes with a tooltip that may be hidden by setting the override to ~No Symbol in Sketch or deleting the layer for it in Adobe XD.
 
 <img class="responsive-img" src="../images/linear_gauge_tooltip-off.png" srcset="../images/linear_gauge_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_tooltip-on.png" srcset="../images/linear_gauge_tooltip-on@2x.png 2x" />
