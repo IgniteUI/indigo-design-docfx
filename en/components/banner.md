@@ -16,13 +16,19 @@ Use the Banner Component to display a prominent message and optionally actions r
 
 The Banner's Message consists of an Icon and a Text field. It uses a smart layout on Sketch and a Stack on Adobe XD, allowing it to hide one or the other when set to ~No Symbol for Sketch users, and hiding the layer's visibility on Adobe XD.
 
+<img class="responsive-img" src="../images/banner_message.png" srcset="../images/banner_message@2x.png 2x" />
+
 ## Actions
 
 The Actions consist of two Button components. If you need you can turn one or both off by setting them to ~No Symbol for Sketch or turning off the layer's visibility in Adobe XD.
 
+<img class="responsive-img" src="../images/banner_actions.png" srcset="../images/banner_actions@2x.png 2x" />
+
 ## Styling
 
 The Banner has styling flexibility with the many options for the background, border, icon, and button symbols, their background options, as well as text color.
+
+<img class="responsive-img" src="../images/banner_styling.png" srcset="../images/banner_styling@2x.png 2x" />
 
 ## Usage
 
@@ -30,7 +36,7 @@ Don’t combine buttons with different emphasis, which would promote one action 
 
 | Do                                                                             | Don't                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| <img class="responsive-img" src="../images/banner_do1.png" srcset="../images/banner_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/banner_dont1.png" srcset="../images/banner_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/banner_do.png" srcset="../images/banner_do@2x.png 2x" /> | <img class="responsive-img" src="../images/banner_dont.png" srcset="../images/banner_dont@2x.png 2x" /> <img class="responsive-img" src="../images/banner_dont2.png" srcset="../images/banner_dont2@2x.png 2x" /> |
 
 ## Additional Resources
 
