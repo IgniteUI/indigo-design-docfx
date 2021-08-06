@@ -14,19 +14,19 @@ Use the Banner Component to display a prominent message and optionally actions r
 
 ## Message
 
-The Banner's Message consists of an Icon and a Text field. It uses a smart layout on Sketch and a Stack on Adobe XD, allowing it to hide one or the other when set to ~No Symbol for Sketch users, and hiding the layer's visibility on Adobe XD.
+The Banner's Message consists of an Icon and a Text field. It uses a smart layout in Sketch to let you hide one or the other by setting it to ~No Symbol, and a Stack in Adobe XD that takes care of the layout automatically as you add or delete components..
 
 <img class="responsive-img" src="../images/banner_message.png" srcset="../images/banner_message@2x.png 2x" />
 
 ## Actions
 
-The Actions consist of two Button components. If you need you can turn one or both off by setting them to ~No Symbol for Sketch or turning off the layer's visibility in Adobe XD.
+The Actions area contains two Button components by default. If you only need one or wanth to remove both of them, set them to ~No Symbol in Sketch and the smart layout will adjust everything. In Adobe XD you can achieve the same by deleting the unnecessary button layers and rely on the Stack applied to adjust the interface, but on top of that you can even add more actions or use different components by dragging the into the Actions area from the Libraries panel.
 
 <img class="responsive-img" src="../images/banner_actions.png" srcset="../images/banner_actions@2x.png 2x" />
 
 ## Styling
 
-The Banner has styling flexibility with the many options for the background, border, icon, and button symbols, their background options, as well as text color.
+The Banner has styling flexibility with options for text, background and border colors, icon glyph and color, as well asthe types of buttons with their styling options.
 
 <img class="responsive-img" src="../images/banner_styling.png" srcset="../images/banner_styling@2x.png 2x" />
 
@@ -36,7 +36,8 @@ Don’t combine buttons with different emphasis, which would promote one action 
 
 | Do                                                                             | Don't                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| <img class="responsive-img" src="../images/banner_do.png" srcset="../images/banner_do@2x.png 2x" /> | <img class="responsive-img" src="../images/banner_dont.png" srcset="../images/banner_dont@2x.png 2x" /> <img class="responsive-img" src="../images/banner_dont2.png" srcset="../images/banner_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/banner_do.png" srcset="../images/banner_do@2x.png 2x" /> | <img class="responsive-img" src="../images/banner_dont.png" srcset="../images/banner_dont@2x.png 2x" /> | 
+| <img class="responsive-img" src="../images/banner_do.png" srcset="../images/banner_do@2x.png 2x" /> |<img class="responsive-img" src="../images/banner_dont2.png" srcset="../images/banner_dont2@2x.png 2x" /> |
 
 ## Additional Resources
 
