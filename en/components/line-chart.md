@@ -17,7 +17,7 @@ The Line Chart has Title, Legend, and Chart Area, where you may choose between I
 
 ## Title
 
-The Line Chart has a title that can be changed or hidden if not needed. In Sketch, the applied smart layout rules allow the layout to adjust accordingly when you want to hide the title and set it to ~No Symbol. In Adobe XD, the use of stacks lets you achieve that by deleting the unused layer instead.
+The Line Chart has a title that can be changed or hidden if not needed. In Sketch, the smart layout takes care to adjust the chart accordingly when you hide the title by setting it to ~No Symbol. In Adobe XD, you can achieve the same by deleting the title layer and leaving it to the Stack to update the layout accordingly.
 
 <img class="responsive-img" src="../images/line_chart_title.png" srcset="../images/line_chart_title@2x.png 2x" />
 
