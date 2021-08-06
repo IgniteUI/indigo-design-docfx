@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Expansion Panel
 
-Use the Expansion Panel Component as a 
+Use the Expansion Panel Component as a way to preserve screen-space, where you have a lot of content and would like to hide it with the title giving initial information, and when opened, the content giving more details. The Expansion Panel has two main states - Collapsed (Active and Disabled) and Expanded.
 The Expansion Panel is visually identical to the [Ignite UI for Angular Expansion Panel Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/expansion-panel.html)
 
 ## Expansion Panel Demo
@@ -15,7 +15,7 @@ The Expansion Panel is visually identical to the [Ignite UI for Angular Expansio
 
 ## Header State
 
-The Expansion Panel...
+The Expansion Panel's Header comes in two states - Active (Default) and Disabled. You can switch between them in Overrides panel in Sketch and the Component Layout in Adobe XD.
 
 ## Header Layout
 
