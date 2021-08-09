@@ -17,7 +17,10 @@ The Expansion Panel is visually identical to the [Ignite UI for Angular Expansio
 
 The Expansion Panel's Header comes in two states - Active (Default) and Disabled. You can switch between them in Overrides panel in Sketch and the Component Layout in Adobe XD.
 
+'active'
 <img class="responsive-img" src="../images/expansion_panel_active.png" srcset="../images/expansion_panel_active@2x.png 2x" />
+
+'disabled'
 <img class="responsive-img" src="../images/expansion_panel_disabled.png" srcset="../images/expansion_panel_disabled@2x.png 2x" />
 
 ## Header Layout
@@ -31,13 +34,17 @@ The Expansion Panel's Header Layout consists of Left Expansion Panel Icon, Conte
 
 The Expansion Panel's Body is the text field of the Expanded state.
 
+<img class="responsive-img" src="../images/expansion_panel_body.png" srcset="../images/expansion_panel_body@2x.png 2x" />
+
 ## Styling
 
-The Expansion Panel comes with options for changing the both the Header and Body's background colors, text colors and icons' colors.
+The Expansion Panel comes with options for changing the both the Header's and Body's background colors, text colors and icons' colors.
+
+<img class="responsive-img" src="../images/expansion_panel_styling.png" srcset="../images/expansion_panel_styling@2x.png 2x" />
 
 ## Usage
 
-When using an Expansion Panel...
+When using an Expansion Panel make sure to use icons that give the proper idea of the its usage and that there is and Body, which can be expanded.
 
 | Do                                                                             | Don't                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
