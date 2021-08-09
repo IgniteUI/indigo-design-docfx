@@ -30,7 +30,6 @@ Checkbox は、**暗い**と明るいバリエーションで分かりやすく�
 
 Checkbox は、Checkbox ラベルが Checkbox のボックス要素の前後に配置されるラベル位置をサポートします。
 
-
 <img class="responsive-img" src="../images/checkbox_label_after.png" srcset="../images/checkbox_label_after@2x.png 2x" />
 <img class="responsive-img" src="../images/checkbox_label_before.png" srcset="../images/checkbox_label_before@2x.png 2x" />
 
@@ -42,7 +41,7 @@ Checkbox は、**オン**/オフと不確定状態があります。
 
 ## スタイル設定
 
-Checkbox は、さまざまなオーバーライドでチェック、色の塗りつぶし、ラベル位置およびラベル色を制御することにより柔軟にスタイル設定できます。
+Checkbox には、チェックと塗りつぶしの色のさまざまなオプション、およびラベルの位置と色を設定するメカニズムによるスタイルの柔軟性があります。
 
 <img class="responsive-img" src="../images/checkbox_styling.png" srcset="../images/checkbox_styling@2x.png 2x" />
 

@@ -37,13 +37,13 @@ The image and body Card areas support the same collection of eleven overrides: 6
 
 ## Header
 
-The Card header, through the use of `Smart Layout` in Sketch, supports various layouts including an Avatar Thumbnail, Title, and Subtitle elements.
+The Card header supports various layouts, including an Avatar Thumbnail, Title, and Subtitle elements. In Sketch, the smart layout rules adjust the layout accordingly when you set the elements you want to hide to ~No Symbol. In Adobe XD, the use of a Stack lets you achieve the same when you delete unnecessary layers.
 
 <img class="responsive-img" src="../images/card_header.png" srcset="../images/card_header@2x.png 2x" />
 
 ## Actions
 
-The Card actions come in six distinct layouts: **Button + Icon Actions** with two Flat Buttons and three Icons and the inverse Icon + Button Actions laid the other way around, as well as their Justified~ variants, and variants with only Justified Button Actions and Justified Icon Actions. Each of the six is defined as a `Smart Layout` in Sketch letting you remove elements by setting them to ~No Symbol and have the rest automatically adjust to the desired layout.
+The Card actions come in six distinct layouts: **Button + Icon Actions** with two Flat Buttons and three Icons and the inverse Icon + Button Actions laid the other way around, as well as their Justified~ variants, and variants with only Justified Button Actions and Justified Icon Actions. Each of the six is defined as an override with a smart layout in Sketch, letting you remove elements by setting them to ~No Symbol and have the rest automatically adjust to the desired layout. In Adobe XD, the same variety is available and you may also delete unnecessary layers with a layout that adjusts automatically thanks to the use of a Stack.
 
 <img class="responsive-img" src="../images/card_actions_buttons_icons.png" srcset="../images/card_actions_buttons_icons@2x.png 2x" />
 
@@ -59,13 +59,13 @@ The Card actions come in six distinct layouts: **Button + Icon Actions** with tw
 
 ## Card Layout
 
-Through the use of `Smart Layout` in Sketch, the Card can produce various layouts by excluding certain areas or elements within one area or another to create a myriad of distinct variants starting with the same Component initially.
+Through the use of a smart layout in Sketch and a Stack in Adobe XD, the Card can produce various layouts by excluding certain areas or elements within them to support a variety of distinct cards based upon the same Component initially.
 
 <img class="responsive-img" src="../images/card_demo.png" srcset="../images/card_demo@2x.png 2x" />
 
 ## Styling
 
-The Card comes with styling flexibility through the various overrides available for image, header, body, and actions areas such as text, icons, and button colors, as well as the possibility to choose a Card background color.
+The Card comes with styling flexibility through the various options available for image, header, body, and actions areas such as text styles, icon types, and colors, as well as button colors and the possibility to choose a Card background color.
 
 <img class="responsive-img" src="../images/card_styling.png" srcset="../images/card_styling@2x.png 2x" />
 

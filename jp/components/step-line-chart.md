@@ -81,9 +81,9 @@ Step Line Chart には、Chart Area に描画される 1 つ、2 つ、および
 
 関連トピック:
 
-- [Line Chart](../line-chart.md)
-- [Spline Chart](../spline-chart.md)
-- [Column Chart](../column-chart.md)
-- [Skeleton Charts](../skeleton-charts.md)
+- [Line Chart](line-chart.md)
+- [Spline Chart](spline-chart.md)
+- [Column Chart](column-chart.md)
+- [Skeleton Charts](skeleton-charts.md)
 
 コミュニティに参加して新しいアイデアをご提案ください。

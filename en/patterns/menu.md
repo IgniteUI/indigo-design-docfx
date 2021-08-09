@@ -17,11 +17,6 @@ The Menu presets are grouped according to their orientation into Horizontal and 
 <img class="responsive-img" src="../images/menu_horizontal.png" srcset="../images/menu_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/menu_vertical.png" srcset="../images/menu_vertical@2x.png 2x" />
 
-> [!WARNING]
-> After inserting any of the Menu Patterns available, you should trigger `Detach from Symbol` to break it down to the Components that are used to create the layout in order to be able to generate it as Angular code. The individual Menu Elements together with the background must stay intact and not be detached!
-
-<img class="responsive-img" src="../images/menu_detach.png" srcset="../images/menu_detach@2x.png 2x" />
-
 ## Additional Resources
 
 Related topics:

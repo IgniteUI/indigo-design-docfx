@@ -44,7 +44,7 @@ Switch は**オン**とオフの選択状態を提供します。
 
 ## スタイル設定
 
-Switch にはスタイルの柔軟性があり、つまみとトラックの色を制御し、ラベルのテキストの色を変更できます。トラックのアルファ値は、使用されている色に関係なく半透明の外観を実現するように固定されており、Indigo.Design ライブラリの 🧩 Components ページにある `Symbol Master` を介してのみグローバルに調整できます。
+Switch には、つまみとトラックの色の利用可能なオプション、およびラベルのテキストの色の変更によるスタイリングの柔軟性があります。トラックのアルファ値は、使用されている色に関係なく半透明の外観を実現するように固定されており、Indigo.Design ライブラリの 🧩 Components ページまたはアートボードにある `Symbol Master` を介してのみグローバルに調整できます。
 
 <img class="responsive-img" src="../images/switch_styling.png" srcset="../images/switch_styling@2x.png 2x" />
 
@@ -55,6 +55,8 @@ Switch つまみとトラックに同じまたは同様の色を使用します�
 | 良い例                                                                         | 悪い例                                                                             |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/switch_do3.png" srcset="../images/switch_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/switch_dont3.png" srcset="../images/switch_dont3@2x.png 2x" /> |
+
+
 
 ## その他のリソース
 

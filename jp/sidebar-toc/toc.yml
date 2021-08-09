@@ -91,17 +91,23 @@
   href: ../sync-themes-plugin.md
 - name: スタイル設定
   href: ../style/styling-overview.md
+  updated: true
   items:
     - name: Colors
       href: ../style/colors.md
+      updated: true
     - name: Elevation
       href: ../style/elevation.md
+      updated: true
     - name: Material Icons
       href: ../style/material-icons.md
+      updated: true
     - name: Typography
       href: ../style/typography.md
+      updated: true
     - name: Illustrations
       href: ../style/illustrations.md
+      updated: true
 - name: コンポーネント
   href: ../components/components-overview.md
   items:

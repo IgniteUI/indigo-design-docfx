@@ -35,7 +35,7 @@ Avatar は、**画像**、イニシャルの文字列、アイコンなど、さ
 
 ## スタイル設定
 
-Avatar は、さまざまなオーバーライドで背景色、イニシャルやアイコン色を制御することにより柔軟にスタイル設定できます。
+Avatar は、さまざまなオプションを通じて背景色、イニシャルやアイコン色を柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/avatar_styling.png" srcset="../images/avatar_styling@2x.png 2x" />
 
@@ -105,5 +105,4 @@ DataProperty: `{profile.imageName}`
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
 

@@ -37,7 +37,7 @@ The Progress can be used in one of the following preset color combinations:
 
 ## Progress Amount
 
-When using a Determinate type of Progress, you may choose the Progress Amount between six percentage variants.
+When using a Determinate type of Progress, you may choose the Progress Amount between six percentage variants. In Sketch, this is achieved with `Symbol Overrides` to let you easily switch between them, while in Adobe XD you have to drag the desired amount from the `Libraries` panel and drop it on top of the `Progress Amount` layer to change the default value.
 
 <img class="responsive-img" src="../images/progress_circular-progress-amount.png" srcset="../images/progress_circular-progress-amount@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_linear-progress-amount.png" srcset="../images/progress_linear-progress-amount@2x.png 2x" />
@@ -50,7 +50,7 @@ When using a Linear Bar layout shape for the Progress component, it will come wi
 
 ## Styling
 
-The Progress comes with styling flexibility through the various overrides for its text, as well as changing the colors of progress, base, stripes, fill and track where applicable.
+The Progress comes with styling flexibility through the various options for its text, as well as changing the colors of progress, base, stripes, fill and track where applicable.
 
 <img class="responsive-img" src="../images/progress_striped.png" srcset="../images/progress_striped@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_clear.png" srcset="../images/progress_clear@2x.png 2x" />

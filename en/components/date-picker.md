@@ -21,7 +21,7 @@ You may insert a Date Picker Input in your forms to indicate fields for selectin
 
 ## Picker Layout
 
-The Date Picker supports Dialog layout with Horizontal and Vertical orientation, as well as a Drop-down layout to facilitate different modes of picking dates. Notice that Dialog layouts come with a Header that you may hide by setting its override to ~No Symbol, but still the shadow it casts allows to distinguish it from a Drop-down layout.
+The Date Picker supports Dialog layout with Horizontal and Vertical orientation, as well as a Drop-down layout to facilitate different modes of picking dates, casting different shadows to be more easily distinguished from each other. Notice that Dialog layouts come with a Header that you may hide in Sketch by setting its override to ~No Symbol, and through the use of a smart layout everything will adjust accordingly. In Adobe XD, you have to delete the header layer and the layout will adjust through the use of a Stack.
 
 <img class="responsive-img" src="../images/datepicker_horizontal.png" srcset="../images/datepicker_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_vertical.png" srcset="../images/datepicker_vertical@2x.png 2x" />
@@ -36,7 +36,7 @@ The start of the week can also be chosen as an option at the time of inserting a
 
 ## Week Numbers
 
-The Date Picker has the same built-in support for Week Numbers like the Calendar. If you prefer not to show this part of the UI, simply set the Week Numbers override to ~No Symbol.
+The Date Picker has the same built-in support for Week Numbers like the Calendar. If you prefer not to show this part of the UI, simply set the Week Numbers override to ~No Symbol in Sketch, and through the use of smart layout, everything will adjust accordingly. In Adobe XD you have to delete the Week Numbers layer to achieve the same and the Stack used there will adjust the layout in a similar fashion.
 
 <img class="responsive-img" src="../images/datepicker_weeknumbers.png" srcset="../images/datepicker_weeknumbers@2x.png 2x" />
 
@@ -48,21 +48,15 @@ Akin to the Calendar, the Date Picker lets you pick between three selection mode
 <img class="responsive-img" src="../images/datepicker_selection.png" srcset="../images/datepicker_selection@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_range.png" srcset="../images/datepicker_range@2x.png 2x" />
 
-## Buttons
-
-The Drop-down Date Picker comes with two buttons: one for closing in and keeping the current selection, and one for navigating to today. The Button area is templatable allowing you, for example, to hide a button by setting its override to ~No Symbol, or assign a different action to it. The Dialog Date Picker comes with no buttons by default because upon selecting a date, the dialog closes automatically.
-
-<img class="responsive-img" src="../images/datepicker_buttons.png" srcset="../images/datepicker_buttons@2x.png 2x" />
-
 ## Styling
 
-The Time Picker comes with styling flexibility through the various overrides controlling header background and title colors, as well as text colors for the selected hour, minute, and meridiem (AM/PM). The Cancel and OK buttons are Flat Buttons and can be styled accordingly.
+The Time Picker comes with styling flexibility through the various options for header background and title colors, as well as text colors for the selected hour, minute, and meridiem (AM/PM).
 
 <img class="responsive-img" src="../images/datepicker_styling.png" srcset="../images/datepicker_styling@2x.png 2x" />
 
 ## Usage
 
-Show the Horizontal and Vertical Time Pickers as a dialog that dims the rest of the UI.
+Show the Horizontal and Vertical Dialog Date Pickers as a dialog that dims the rest of the UI.
 
 | Do                                                                                     | Don't                                                                                      |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
@@ -80,5 +74,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
-

@@ -12,11 +12,6 @@ Use the Onboarding Symbols as presets for building Onboarding experience in seve
 
 The **Indigo.Design System** provides you with 7 preset versions of onboarding flows that cover some of the most common application scenarios.
 
-> [!WARNING]
-> After inserting any of the Onboarding Patterns available, you should trigger `Detach from Symbol` to break it down to the Components that are used to create the layout in order to be able to generate it as Angular code. Illustrations used in these patterns cannot be code generated and they have to be added manually afterwards. The individual Onboarding Elements together with the background must stay intact and not be detached!
-
-<img class="responsive-img" src="../images/onboarding_detach.png" srcset="../images/onboarding_detach@2x.png 2x" />
-
 ## Additional Resources
 
 Related topics:

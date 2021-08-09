@@ -47,13 +47,13 @@ The Radio Group can be used styled in **dark** and light variants to assure good
 
 ## State
 
-Each Radio element in the group supports **on** and off selection states. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. 
+Each Radio element in the group supports **on** and off selection states. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
 <img class="responsive-img" src="../images/radiogroup_demo.png" srcset="../images/radiogroup_demo@2x.png 2x" />
 
 ## Styling
 
-The Radio Group comes with styling flexibility for each item's label style and color.
+The Radio Group comes with styling flexibility through the various options for each item's label style and color.
 
 <img class="responsive-img" src="../images/radiogroup_styling.png" srcset="../images/radiogroup_styling@2x.png 2x" />
 

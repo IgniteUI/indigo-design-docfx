@@ -22,7 +22,17 @@ To use the typography system in your project, all you need to do is apply one of
 - A `Caption` and an `Overline` style that can be used for complimentary content.
 - A `BUTTON` style that is used exclusively in the Button components
 
-Use these when creating intricate layouts for articles, blog posts etc. The **Indigo.Design System** typography is meant to help you define a consistent theme and style for all the texts in your designs.
+These styles also determine the type of text element and typography class that will be generated for the related layer in the application. The following elements will be generated based on the Typography Text Style applied to a generic text layer:
+- Headlines `<h1>` to `<h6>` for the headlines typography styles.
+- Paragraph `<p>` with typography class:
+  - `igx-typography__subtitle-1`/ `igx-typography__subtitle-2` for the two subtitle typography styles.
+  - `igx-typography__body-1`/`igx-typography__body-2` for the two body typography styles.
+  - `igx-typography__caption` for the caption typography style.
+  - `igx-typography__overline` for the overline typography style.
+
+These styles can be modified further via the Sketch plugin to change the look of those elements via theming on the application level.
+
+Use these when creating intricate layouts for articles, blog posts etc. The Text Styles in the **Indigo.Design System** are meant to help you define a consistent theme and style for all the texts in your designs.
 
 > [!Warning]
 > In Sketch, there is also a collection of `Internal` text styles used within the Components for validation and special cases. These styles are not supposed to be inserted on your artboards directly but exist to assure typographic consistency for the Components within which they are used.

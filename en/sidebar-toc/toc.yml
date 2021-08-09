@@ -216,10 +216,12 @@
     - name: List
       href: ../components/list.md
       items:
+        - name: List Item
+          href: ../components/list-item.md
+        - name: Custom List Item in Sketch
+          href: ../components/list-custom.md
         - name: Skeleton List
           href: ../components/list-skeleton.md
-        - name: Custom List Item
-          href: ../components/list-custom.md
     - name: Navbar
       href: ../components/navbar.md
     - name: Navigation Drawer

@@ -66,7 +66,7 @@ Sketch で `Smart Layout` を使用することにより、Card は、ある領�
 
 ## スタイル設定
 
-Card には、画像、ヘッダー、本文、テキスト、アイコン、ボタンの色などの操作領域の制御や Card の背景色の選択などスタイル設定に柔軟性があります。
+Card には、画像、ヘッダー、本文、およびテキスト スタイル、アイコン タイプ、色などの操作領域のオプションやボタン色および Card の背景色の選択などスタイル設定に柔軟性があります。
 
 <img class="responsive-img" src="../images/card_styling.png" srcset="../images/card_styling@2x.png 2x" />
 

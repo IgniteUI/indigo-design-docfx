@@ -39,7 +39,7 @@ Bottom Navigation の項目は、デフォルトでアイコンとテキスト�
 
 ## スタイル設定
 
-Bottom Navigation は、さまざまなオーバーライドで背景色、項目ラベル、アイコン色を制御することにより柔軟にスタイル設定できます。
+Bottom Navigation は、さまざまなオプションを通じて背景色、項目ラベル、アイコン色柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/bottom-nav_styling.png" srcset="../images/bottom-nav_styling@2x.png 2x" />
 
@@ -60,5 +60,4 @@ Bottom Navigation は常にその他のコンテンツの一番上に表示さ�
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
 

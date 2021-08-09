@@ -83,6 +83,6 @@ Line Chart は、連続したデータセットがあり、一定期間の変化
 - [Spline Chart](spline-chart.md)
 - [Step Line Chart](step-line-chart.md)
 - [Column Chart](column-chart.md)
-- [Skeleton Charts](../skeleton-charts.md)
+- [Skeleton Charts](skeleton-charts.md)
 
 コミュニティに参加して新しいアイデアをご提案ください。

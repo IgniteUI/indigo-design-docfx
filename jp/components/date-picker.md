@@ -57,7 +57,7 @@ Drop-down Date Picker には 2 つのボタンがあります: 1 つは現在の
 
 ## スタイル設定
 
-Time Picker は、さまざまなオーバーライドでヘッダー背景、タイトル色、選択した時間、分、AM/PM のテキストの色の制御などスタイル設定に柔軟性があります。Cancel と OK のボタンは、Flat Buttons で状況に応じたスタイル設定が可能です。
+Time Picker は、さまざまなオプションを通じてヘッダー背景、タイトル色、選択した時間、分、AM/PM のテキストの色を柔軟にスタイル設定できます。Cancel と OK のボタンは、[Flat Buttons](button.md) で状況に応じたスタイル設定が可能です。
 
 <img class="responsive-img" src="../images/datepicker_styling.png" srcset="../images/datepicker_styling@2x.png 2x" />
 
@@ -81,5 +81,4 @@ Horizontal と Vertical Time Picker をダイアログで表示し、ダイア�
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
 

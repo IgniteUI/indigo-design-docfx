@@ -39,7 +39,7 @@ Navbar は、さまざまな単純なイベントをトリガーできる右側�
 
 ## スタイル設定
 
-Navbar には、タイトル、アイコン、境界線、背景色を変更する基本的なスタイル設定機能があります。
+Navbar には、タイトル、アイコン、境界線、および背景色に使用できるオプションを通じて、基本的なスタイルの柔軟性があります。
 
 <img class="responsive-img" src="../images/navbar_styling.png" srcset="../images/navbar_styling@2x.png 2x" />
 
@@ -62,5 +62,3 @@ Navbar の操作は、タイトルと重ならないように注意深く設定�
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
-

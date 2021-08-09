@@ -44,7 +44,7 @@ Time Picker の 2 つのボタンは、時間を元の時間に戻す選択の�
 
 ## スタイル設定
 
-Time Picker は、さまざまなオーバーライドでヘッダー背景、タイトル色、選択した時間、分、AM/PM のテキストの色の制御などスタイル設定に柔軟性があります。Cancel と OK のボタンは、Flat Buttons で状況に応じたスタイル設定が可能です。
+Time Picker は、さまざまなオプションを通じてヘッダー背景、タイトル色、選択した時間、分、AM/PM のテキストの色を柔軟にスタイル設定できます。Cancel と OK のボタンは、[Flat Buttons](button.md) で状況に応じたスタイル設定が可能です。
 
 <img class="responsive-img" src="../images/timepicker_styling.png" srcset="../images/timepicker_styling@2x.png 2x" />
 
@@ -69,5 +69,4 @@ Time Picker を Dialog として表示する場合は、UI の残りの部分を
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
 

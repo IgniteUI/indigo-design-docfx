@@ -23,7 +23,7 @@ Dialog 確認ボタンのみの警告を表示します。キャンセルや確�
 
 ## スタイル設定
 
-Dialog には、タイトルとメッセージのさまざまなオーバーライド、[Button](button.md) コンポーネントが提供するすべてのスタイリング オプションを備えた下部のボタン、および背景とエレベーションによるスタイリングの柔軟性があります。
+Dialog には、タイトルとメッセージのさまざまなオプション、[Button](button.md) コンポーネントが提供するすべてのスタイリング オプションを備えた下部のボタン、および背景とエレベーションによるスタイリングの柔軟性があります。
 
 <img class="responsive-img" src="../images/dialog_styling.png" srcset="../images/dialog_styling@2x.png 2x" />
 
