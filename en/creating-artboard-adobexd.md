@@ -70,6 +70,9 @@ Open Adobe XD and select an iPhone 12 Pro Max. This will give you a new file wit
 
 We will use the `Libraries` panel to add components from the Indigo Design Library. For some of them we will set appropriate States from the panel on the right, and apply `Colors` and `Character Styles` from the `Libraries` panel to customize their appearance. Everytime you create a new file, you have to open the `Libraries` panel and click on the back icon next to `Document Assets` to be able to select Indigo.Design and use it as a library.
 
+> [!WARNING]
+> Symbols and components designated as `_Overrides` must not be inserted on artboards as they provide component states and do not represent a complete component by itself.
+
 These are the steps to recreate the screen in the example.
 
 1.  **Add the Navbar.**
