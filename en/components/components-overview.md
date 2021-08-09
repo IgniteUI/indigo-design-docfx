@@ -20,13 +20,14 @@ In the Adobe XD library you can find the `🧩 Components` in the middle column.
 <img class="responsive-img" src="../images/components-page-xd.png" />
 
 > [!WARNING]
-> When changing an icon glyph with another one by dragging it from the `Libraries` panel in Adobe XD, sometimes its layer name will change from `🔣 Icon` to the symbol name `_Overrides/~`. When this happens you must rename it back to the original layer name before the element got swapped to assure successful code generation.
+> Detaching a component from the Sketch library makes it impossible to automatically apply updates from subsequent versions of the Design System and may impact the code generation capability of the component. The code generation services rely on specially designated `🚫 metadata` layers, containing metadata descriptions of the state, template and other properties of the component.
+>
+> Ungrouping a component or pattern from the Adobe XD library has even worse implications because it turns all nested components into groups and breaks the code generation service for the component as it cannot trace correctly its structure. You can make any state, layout and styling adjustment in Adobe XD without ungrouping a component so we kindly advise you to keep the entirety of the components on your artboards.
 
 All **Indigo.Design System** Components are built on top of rigid [styling foundations](../style/styling-overview.md) letting you leverage an elaborate mechanism for theming and branding your user interface.
 
 > [!WARNING]
-> Detaching a component from the Sketch library makes it impossible to automatically apply updates from subsequent versions of the Design System and may impact the code generation capability of the component. The code generation services rely on specially designated `🚫 metadata` layers, containing metadata descriptions of the state, template and other properties of the component.
-> Ungrouping a component or pattern from the Adobe XD library has even worse implications because it turns all nested components into groups and breaks the code generation service for the component as it cannot trace correctly its structure. You can make any state, layout and styling adjustment in Adobe XD without ungrouping a component so we kindly advise you to keep the entirety of the components on your artboards.
+> When changing an icon glyph with another one by dragging it from the `Libraries` panel in Adobe XD, sometimes its layer name will change from `🔣 Icon` to the symbol name `_Overrides/~`. When this happens you must rename it back to the original layer name before the element got swapped to assure successful code generation.
 
 ## Additional Resources
 
