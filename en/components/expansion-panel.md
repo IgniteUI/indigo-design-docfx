@@ -33,7 +33,7 @@ The Expansion Panel's Body is the text field of the Expanded state.
 
 ## Styling
 
-The Expansion Panel
+The Expansion Panel comes with options for changing the both the Header and Body's background colors, text colors and icons' colors.
 
 ## Usage
 
