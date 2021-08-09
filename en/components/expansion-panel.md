@@ -29,11 +29,11 @@ The Expansion Panel's Header Layout consists of Left Expansion Panel Icon, Conte
 
 ## Body
 
-The Expansion Panel...
+The Expansion Panel's Body is the text field of the Expanded state.
 
 ## Styling
 
-The Expansion Panel...
+The Expansion Panel
 
 ## Usage
 
