@@ -35,9 +35,9 @@ Skeleton List Item には、標準 [List](list.md) のような 2 つの異な�
 <img class="responsive-img" src="../images/list_skeleton_item_primary.png" srcset="../images/list_skeleton_item_primary@2x.png 2x" />
 <img class="responsive-img" src="../images/list_skeleton_item_secondary.png" srcset="../images/list_skeleton_item_secondary@2x.png 2x" />
 
-## List Item Primary Action (リスト項目プライマリ アクション)
+## Sketch の Primary Action
 
-以下は、標準 [List](list.md) のような 4 つの置き換え可能なList Item Primary Action です。Sketch で Smart Layout を使用しているため、不要な要素を ~No Symbol に設定して調整できます。
+There are 4 interchangeable Skeleton List Item Primary Actions like the standard [List Item](list-item.md) that are listed below available as `Symbol Overrides`. Thanks to Smart Layout, they can be adjusted further by setting unnecessary elements to ~No Symbol.
 
 |                              |                                                                                                  |                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -46,13 +46,25 @@ Skeleton List Item には、標準 [List](list.md) のような 2 つの異な�
 | Icon + Label + Desc | <img class="responsive-img" src="../images/list_skeleton_item_primary3.png" srcset="../images/list_skeleton_item_primary3@2x.png 2x" />   |                                                                                                                                            |
 | Label + Progress          | <img class="responsive-img" src="../images/list_skeleton_item_primary4.png" srcset="../images/list_skeleton_item_primary4@2x.png 2x" />   | Primary Action の Linear Progress Bar は値ラベルを持つことができないため、~No Symbol に設定され、この設定は変更しないでください。 |                                                                                                                                            |
 
-## List Item セカンダリ アクション
+## Sketch の Secondary Action
 
-Skeleton List Item の Secondary Action は、標準 [List](list.md) の相当物で可能なすべてのシナリオをサポートします。Sketch で Smart Layout を使用しているため、不要な要素を ~No Symbol に設定して調整できます。
+The Secondary Action of the Skeleton List Item covers all scenarios possible with its counterpart from the standard [List Item](list-item.md) available as `Symbol Overrides`. Thanks to Smart Layout, it can be adjusted further by setting unnecessary elements to ~No Symbol.
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Text と Icon            | <img class="responsive-img" src="../images/list_skeleton_item_secondary3.png" srcset="../images/list_skeleton_item_secondary3@2x.png 2x" /> |                                                                                                                                       |
+
+## Thumbnail in Adobe XD
+
+The Thumbnail component in the left Skeleton List Item area in Adobe XD provides 3 interchangeable options like the standard [List Item](list-item.md) via the `Component States` paradigm to let you easily switch them.
+
+<img class="responsive-img" src="../images/thumbnail_xd_skeleton.png" srcset="../images/thumbnail_xd_skeleton@2x.png 2x" />
+
+## Actions in Adobe XD
+
+The Actions component that constitutes the right Skeleton List Item area in Adobe XD covers all scenarios possible with its counterpart from the standard [List Item](list-item.md).
+
+<img class="responsive-img" src="../images/actions_xd_skeleton.png" srcset="../images/actions_xd_skeleton@2x.png 2x" />
 
 ## 使用方法
 

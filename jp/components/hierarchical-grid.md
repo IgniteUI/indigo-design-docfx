@@ -13,7 +13,7 @@ Hierarchical Grid コンポーネントを使用して、ユーザーが個別�
 
 <img class="responsive-img" src="../images/hierarchical_grid_demo.png" srcset="../images/hierarchical_grid_demo@2x.png 2x" />
 
-## Detach from Symbol (シンボルからデタッチ)
+## Using the Hierarchical Grid in Sketch
 
 グリッドと同様に、Hierarchical Grid は基本的に、視覚的な階層を形成する列、行、ネストされたグリッドのリピーターです。したがって、最も簡単な使用方法は、定義済みのグリッドの 1 つをアートボードにドラッグすることです。サポートされる 3 つの[表示密度](grid-display-density.md)に 3 つのプリセットがあります。アートボードを開いた後、その上を右-クリックし、コンテキスト メニューの下部にある `Detach from Symbol` オプションを選択すると、新しく表示されたグループの下のレイヤー パネルに次のように表示されます:
 
@@ -26,6 +26,22 @@ Hierarchical Grid コンポーネントを使用して、ユーザーが個別�
 | 🌈 Background                        | Hierarchical Grid の背景色を定義します                                                                                         |
 
 デタッチ後、既存の各グリッド内にすでに作成したデータの最初の行を複製し、デザインに表示したいレコード (数に制限がない) および多数のヘッダーを必要なだけ追加してデータのすべてのディメンションを表示できます。より多くの階層を表示する必要がある場合は、追加のグリッドを、それらが属する親グリッドの本体内にネストすることもできます。
+
+## Using the Hierarchical Grid in Adobe XD
+
+In Adobe XD, after you choose one of the three [preset display density hierarchical grid components](grid-display-density.md) and drag it to your artboard, you will notice in the layers panel that we use `Repeat Grid` for both the Header and the Body to speed configuration up. Unlike in Sketch in Adobe XD destroying the symbol is not necessary. You should see the following in your layers panel:
+
+| Layer                                | Use                                                                                                                                                  |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🚫 metadata | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
+| 🌈 Drill Indication                  | A symbol that is used for indicating the active cell and trace its belonging through the hierarchy of grids             |
+| Header                               | Contains all header cells: the CollapseAll cell and the rest grouped in a Repeat Grid Header                                                                                                 |
+| Body                                 | Contains all body cells: the Expand cells grouped in a Repeat Grid and the rest grouped in another Repeat Grid, and a nested Grid with a basic structure                                                                            |
+| 🌈 Background                        | Defines the background color of the nested Grid                                                                                                |
+
+When you select a Repeat Grid layer, you may alter the number of the repeated cells you need, which can be done within each grid. Just drag the green handles at the right or bottom edge to show all the dimensions of your data and insert as many visible records as you want to show in your design. To change a particular cell type or column width, you have to select the Repeat Grid layer and click `Ungroup Grid` in the right panel. This will allow you to work on them separately to achieve the desired design. If you need to show more of the hierarchy, you may also duplicate full grids and nest them within the body of the parent one that you want them to belong to.
+
+<img class="responsive-img" src="../images/hgrid_layers_panel_adobe_xd.png" srcset="../images/hgrid_layers_panel_adobe_xd@2x.png 2x" />
 
 ## セル タイプ
 
