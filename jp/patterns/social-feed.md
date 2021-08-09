@@ -12,11 +12,6 @@ Social Feed パターンを使用して、ニュース記事、ブログ投稿�
 <img class="responsive-img" src="../images/social_feed_articles_demo.png" srcset="../images/social_feed_articles_demo@2x.png 2x" />
 <img class="responsive-img" src="../images/social_feed_mobile_demo.png" srcset="../images/social_feed_mobile_demo@2x.png 2x" />
 
-> [!WARNING]
-> Social Feed パターンを挿入した後、パターンを Angular コードとして生成するには、`Detach from Symbol` をトリガーします。含まれるコンポーネントをデタッチしないでください。
-
-<img class="responsive-img" src="../images/social_feed_detach.png" srcset="../images/social_feed_detach@2x.png 2x" />
-
 ## その他のリソース
 
 関連トピック:

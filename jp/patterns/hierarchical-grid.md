@@ -22,6 +22,7 @@ _language: ja
 - 列非表示
 - 表示密度
 - Excel スタイル フィルタリング
+- 高度なフィルタリング
 - グループ化
 - ピン固定
 - 行選択
@@ -34,9 +35,9 @@ _language: ja
 
 
 > [!WARNING]
-> Hierarchical Grid パターンを挿入した後、Angular コードとして生成できるには、レイアウトを作成したコンポーネントおよび Grid Features に分割するために `Detach from Symbol` をトリガーします。ただし、各コンポーネントおよび Grid Features をデタッチしないでください。
-
-<img class="responsive-img" src="../images/hierarchical_grid_detach.png" srcset="../images/hierarchical_grid_detach@2x.png 2x" />
+> In Sketch, after inserting the Hierarchical Grid Pattern, you can trigger `Detach from Symbol` only if you need to alter the number of cells provided, in order to show all the dimensions of your data and insert as many visible records as you want. In case you need to show more of the hierarchy, you may also nest additional grids within the body of the parent one that they belong to. The individual Components and Features, however, must stay intact and not be detached!
+>
+> In Adobe XD you can add more cells than provided by duplicating columns and rows without ever having to ungroup the pattern itself.
 
 ## その他のリソース
 
@@ -45,5 +46,3 @@ _language: ja
 - [Hierarchical-Grid](../components/hierarchical-grid.md)
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
-

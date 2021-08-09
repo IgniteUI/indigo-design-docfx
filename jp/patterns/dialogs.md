@@ -13,11 +13,6 @@ Dialog パターンを使用して、ユーザーに警告するか、緊急の�
 
 Dialog パターンには、レイアウトを構成する Buttons、Inputs、および List 要素によって提供されるスタイルの柔軟性があります。
 
-> [!WARNING]
-> Dialog パターンを挿入した後、Angular コードとして生成するには、`Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。
-
-<img class="responsive-img" src="../images/dialogs_detach.png" srcset="../images/dialogs_detach@2x.png 2x" />
-
 ## その他のリソース
 
 関連トピック:
