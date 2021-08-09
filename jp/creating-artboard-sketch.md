@@ -77,6 +77,9 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 
 `Insert` メニューを使用して Indigo Design ライブラリからコンポーネントを追加して、右パネルでカスタマイズできます。
 
+> [!WARNING]
+> Symbols and components designated as `_Overrides` must not be inserted on artboards as they provide component states and do not represent a complete component by itself.
+
 以下は例の画面を作成する手順です。
 
 1.  **Navbar を追加します。**

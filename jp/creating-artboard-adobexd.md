@@ -71,6 +71,9 @@ Adobe XD を開き、iPhone 12 ProMax を選択します。これにより、縦
 
 `Libraries` パネルを使用して、Indigo Design ライブラリからコンポーネントを追加します。それらのいくつかについては、右側のパネルから適切な [States] を設定し、`Libraries` パネルから `Colors` と `Character Styles` を適用して外観をカスタマイズします。新しいファイルを作成するたびに、`Libraries` パネルを開き、`Document Assets` の横にある戻るアイコンをクリックして、Indigo.Design を選択し、ライブラリとして使用できるようにする必要があります。
 
+> [!WARNING]
+> Symbols and components designated as `_Overrides` must not be inserted on artboards as they provide component states and do not represent a complete component by itself.
+
 これは例の画面を作成する手順です。
 
 1.  **Navbar を追加します。**
