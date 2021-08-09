@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Expansion Panel
 
-Use the Expansion Panel Component as a way to preserve screen-space, where you have a lot of text and would like to hide it with the title in the Header giving initial information, and when opened, the Body's content giving more details. The Expansion Panel has two main states - Collapsed (Active and Disabled) and Expanded.
+Use the Expansion Panel Component as a way to preserve screen-space, where you have a lot of text and would like to hide it with the title in the Header giving initial information, and when opened, the Body's content giving more details. The Expansion Panel has two main states - Collapsed and Expanded.
 The Expansion Panel is visually identical to the [Ignite UI for Angular Expansion Panel Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/expansion-panel.html)
 
 ## Expansion Panel Demo
@@ -15,36 +15,36 @@ The Expansion Panel is visually identical to the [Ignite UI for Angular Expansio
 
 ## Header State
 
-The Expansion Panel's Header comes in two states - Active (Default) and Disabled. You can switch between them in Overrides panel in Sketch and the Component Layout in Adobe XD.
+The Expansion Panel's Header comes in **Active** and Disabled state. You can switch between them in Overrides panel in Sketch and from the States section in the right panel of Adobe XD.
 
-'active'
 <img class="responsive-img" src="../images/expansion_panel_active.png" srcset="../images/expansion_panel_active@2x.png 2x" />
+`active`
 
-'disabled'
 <img class="responsive-img" src="../images/expansion_panel_disabled.png" srcset="../images/expansion_panel_disabled@2x.png 2x" />
+`disabled`
 
 ## Header Layout
 
-The Expansion Panel's Header Layout consists of Left Expansion Panel Icon, Content - Title and Description, and a Right Expansion Panel Icon. Each of the icons can be hidden by setting their state to ~No Symbol in the Overrides panel in Sketch, or hiding the layer in Adobe XD. The Left Expansion Panel Icon and the Content are in a smart layout in Sketch, or Stack in Adobe XD, meaning that if the Icon is hidden, the Content will automatically shift to the left, where the Icon was, making the layout visually appealing.
+The Expansion Panel's Header Layout consists of Left Expansion Panel Icon, Content including Title and Description, and Right Expansion Panel Icon, which by default is set to ~No Symbol in Sketch and is hidden in Adobe XD. The Left Expansion Panel Icon and the Content are in a smart layout in Sketch and form a Stack in Adobe XD, meaning that if the Icon is hidden, the Content will automatically shift to the left. However, if you do so, remember to make the Right Expansion Panel Icon visible and set the left one to ~No Symbol in Sketch or delete it in Adobe XD.
 
 <img class="responsive-img" src="../images/expansion_panel_header1.png" srcset="../images/expansion_panel_header1@2x.png 2x" />
 <img class="responsive-img" src="../images/expansion_panel_header2.png" srcset="../images/expansion_panel_header2@2x.png 2x" />
 
 ## Body
 
-The Expansion Panel's Body is the text field of the Expanded state.
+The Expansion Panel's Body contains a text paragraph that is visible only in expanded state.
 
 <img class="responsive-img" src="../images/expansion_panel_body.png" srcset="../images/expansion_panel_body@2x.png 2x" />
 
 ## Styling
 
-The Expansion Panel comes with options for changing the both the Header's and Body's background colors, text colors and icons' colors.
+The Expansion Panel comes with options for changing the both the Header's and Body's background colors, as well as text and icon colors.
 
 <img class="responsive-img" src="../images/expansion_panel_styling.png" srcset="../images/expansion_panel_styling@2x.png 2x" />
 
 ## Usage
 
-When using an Expansion Panel make sure to use icons that give the proper idea of the its usage and that there is and Body, which can be expanded.
+When using an Expansion Panel make sure to use icons that give a proper idea of  its usage i.e. that there is more content available when the panel is expanded.
 
 | Do                                                                             | Don't                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
