@@ -37,7 +37,7 @@ Skeleton List Item には、標準 [List](list.md) のような 2 つの異な�
 
 ## Sketch の Primary Action
 
-There are 4 interchangeable Skeleton List Item Primary Actions like the standard [List Item](list-item.md) that are listed below available as `Symbol Overrides`. Thanks to Smart Layout, they can be adjusted further by setting unnecessary elements to ~No Symbol.
+標準の [List Item](list-item.md) のような 4 つの交換可能な Skeleton List Item Primary Action があり、これらは `Symbol Overrides` として以下にリストされています。Smart Layout のおかげで、不要な要素を ~No Symbol に設定することで、さらに調整することができます。
 
 |                              |                                                                                                  |                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -48,21 +48,21 @@ There are 4 interchangeable Skeleton List Item Primary Actions like the standard
 
 ## Sketch の Secondary Action
 
-The Secondary Action of the Skeleton List Item covers all scenarios possible with its counterpart from the standard [List Item](list-item.md) available as `Symbol Overrides`. Thanks to Smart Layout, it can be adjusted further by setting unnecessary elements to ~No Symbol.
+Skeleton List Item の Secondary Action は、`Symbol Overrides` として利用可能な標準の [List Item](list-item.md) からの対応物で可能なすべてのシナリオを含みます。Smart Layout のおかげで、不要な要素を ~No Symbol  に設定することで、さらに調整することができます。
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Text と Icon            | <img class="responsive-img" src="../images/list_skeleton_item_secondary3.png" srcset="../images/list_skeleton_item_secondary3@2x.png 2x" /> |                                                                                                                                       |
 
-## Thumbnail in Adobe XD
+## Adobe XD の Thumbnail (サムネイル)
 
-The Thumbnail component in the left Skeleton List Item area in Adobe XD provides 3 interchangeable options like the standard [List Item](list-item.md) via the `Component States` paradigm to let you easily switch them.
+Adobe XD の左側の Skeleton List Item 領域にあるサムネイル コンポーネントは、`Component States` パラダイムを介して、標準の [List Item](list-item.md) のような 3 つの交換可能なオプションを提供し、簡単に切り替えることができます。
 
 <img class="responsive-img" src="../images/thumbnail_xd_skeleton.png" srcset="../images/thumbnail_xd_skeleton@2x.png 2x" />
 
-## Actions in Adobe XD
+## Adobe XD の Actions
 
-The Actions component that constitutes the right Skeleton List Item area in Adobe XD covers all scenarios possible with its counterpart from the standard [List Item](list-item.md).
+Adobe XD の適切な Skeleton List Item 領域を構成するアクション コンポーネントは、標準の [List Item](list-item.md) の対応するシナリオで可能なすべてのシナリオを含みます。
 
 <img class="responsive-img" src="../images/actions_xd_skeleton.png" srcset="../images/actions_xd_skeleton@2x.png 2x" />
 

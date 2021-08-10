@@ -13,7 +13,7 @@ Hierarchical Grid コンポーネントを使用して、ユーザーが個別�
 
 <img class="responsive-img" src="../images/hierarchical_grid_demo.png" srcset="../images/hierarchical_grid_demo@2x.png 2x" />
 
-## Using the Hierarchical Grid in Sketch
+## Sketch で Hierarchical Grid を使用
 
 グリッドと同様に、Hierarchical Grid は基本的に、視覚的な階層を形成する列、行、ネストされたグリッドのリピーターです。したがって、最も簡単な使用方法は、定義済みのグリッドの 1 つをアートボードにドラッグすることです。サポートされる 3 つの[表示密度](grid-display-density.md)に 3 つのプリセットがあります。アートボードを開いた後、その上を右-クリックし、コンテキスト メニューの下部にある `Detach from Symbol` オプションを選択すると、新しく表示されたグループの下のレイヤー パネルに次のように表示されます:
 
@@ -25,21 +25,21 @@ Hierarchical Grid コンポーネントを使用して、ユーザーが個別�
 | Body                                 | 本体のすべてのセルと、基本構造のネストされたグリッドを含みます                                                                       |
 | 🌈 Background                        | Hierarchical Grid の背景色を定義します                                                                                         |
 
-デタッチ後、既存の各グリッド内にすでに作成したデータの最初の行を複製し、デザインに表示したいレコード (数に制限がない) および多数のヘッダーを必要なだけ追加してデータのすべてのディメンションを表示できます。より多くの階層を表示する必要がある場合は、追加のグリッドを、それらが属する親グリッドの本体内にネストすることもできます。
+デタッチ後、既存の各グリッド内にすでに作成したデータの最初の行を複製し、デザインに表示したいレコード (数に制限がない) およびヘッダーの数を変更してデータのすべてのディメンションを表示できます。より多くの階層を表示する必要がある場合は、追加のグリッドを、それらが属する親グリッドの本体内にネストすることもできます。
 
-## Using the Hierarchical Grid in Adobe XD
+## Adobe XD で Hierarchical Grid を使用
 
-In Adobe XD, after you choose one of the three [preset display density hierarchical grid components](grid-display-density.md) and drag it to your artboard, you will notice in the layers panel that we use `Repeat Grid` for both the Header and the Body to speed configuration up. Unlike in Sketch in Adobe XD destroying the symbol is not necessary. You should see the following in your layers panel:
+Adobe XD では、3 つの[プリセット表示密度階層グリッド コンポーネント](grid-display-density.md)のいずれかを選択してアートボードにドラッグすると、レイヤー パネルで、Header と Body の両方に `Repeat Grid` を使用して構成を高速化していることがわかります。Sketch とは異なり、Adobe XD ではシンボルを破棄する必要はありません。レイヤー パネルに次のように表示されます:
 
-| Layer                                | Use                                                                                                                                                  |
+| レイヤー                                | 使用                                                                                                                                                  |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 metadata | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| 🌈 Drill Indication                  | A symbol that is used for indicating the active cell and trace its belonging through the hierarchy of grids             |
-| Header                               | Contains all header cells: the CollapseAll cell and the rest grouped in a Repeat Grid Header                                                                                                 |
-| Body                                 | Contains all body cells: the Expand cells grouped in a Repeat Grid and the rest grouped in another Repeat Grid, and a nested Grid with a basic structure                                                                            |
-| 🌈 Background                        | Defines the background color of the nested Grid                                                                                                |
+| 🚫 metadata | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
+| 🌈 Drill Indication                  | アクティブ セルを示し、グリッドの階層を介してその所属を追跡するために使用されるシンボル。             |
+| Header                               | すべてのヘッダー セルが含まれます: CollapseAll セルと Repeat Grid Header にグループ化された残りのセル。                                                                                                 |
+| Body                                 | すべてのボディ セルが含まれます: Repeat Grid にグループ化された  Expand (展開) セルと別の Repeat Grid にグループ化された残りのセル、および基本構造を持つネストされた Grid。                                                                            |
+| 🌈 Background                        | ネストされたグリッドの背景色を定義します。                                                                                                |
 
-When you select a Repeat Grid layer, you may alter the number of the repeated cells you need, which can be done within each grid. Just drag the green handles at the right or bottom edge to show all the dimensions of your data and insert as many visible records as you want to show in your design. To change a particular cell type or column width, you have to select the Repeat Grid layer and click `Ungroup Grid` in the right panel. This will allow you to work on them separately to achieve the desired design. If you need to show more of the hierarchy, you may also duplicate full grids and nest them within the body of the parent one that you want them to belong to.
+Repeat Grid レイヤーを選択すると、必要な繰り返すセルの数を変更できます。これは、各グリッド内で実行できます。右端または下端にある緑色のハンドルをドラッグするだけで、データのすべてのディメンションが表示され、デザインに表示する必要のある数の表示可能なレコードが挿入されます。特定のセル タイプまたは列幅を変更するには、Repeat Grid レイヤーを選択し、右側のパネルで `Ungroup Grid` をクリックする必要があります。これにより、それらを個別に処理して、目的のデザインを実現できます。より多くの階層を表示する必要がある場合は、完全なグリッドを複製して、それらを所属させたい親グリッドの本体内にネストすることもできます。
 
 <img class="responsive-img" src="../images/hgrid_layers_panel_adobe_xd.png" srcset="../images/hgrid_layers_panel_adobe_xd@2x.png 2x" />
 

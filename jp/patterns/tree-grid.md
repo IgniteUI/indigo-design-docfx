@@ -35,9 +35,9 @@ _language: ja
 
 
 > [!WARNING]
-> In Sketch, after inserting the Tree Grid Pattern, you can trigger `Detach from Symbol` only if you need to alter the number of cells provided, in order to show all the dimensions of your data and insert as many visible records as you want. The individual Components and Features, however, must stay intact and not be detached!
+> Sketch では、Tree Grid パターンを挿入した後、データのすべてのディメンションを表示し、必要な数の表示可能なレコードを挿入するために、提供されたセルの数を変更する必要がある場合にのみ、`Detach from Symbol` をトリガーできます。ただし、各コンポーネントおよび機能をデタッチしないでください。
 >
-> In Adobe XD you can add more cells than provided by duplicating columns and rows without ever having to ungroup the pattern itself.
+> Adobe XD では、パターン自体のグループ化を解除することなく、列と行を複製することで提供されるよりも多くのセルを追加できます。
 
 ## その他のリソース
 

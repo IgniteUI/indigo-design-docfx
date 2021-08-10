@@ -16,7 +16,7 @@ Checkbox Group パターンは、含まれる Checkbox 要素のスタイル設�
 > [!WARNING]
 > Sketch で、提供されているよりも多くの Checkbox 項目を追加する必要がある場合にのみ、Checkbox Group パターンのインスタンスで `Detach from Symbol` をトリガーします。レイアウトの作成に使用される個々のチェックボックスをデタッチしないでください。
 >
-> In Adobe XD you can add a Checkbox item by duplicating one and it will simply line up with the others due to the applied stack.
+> Adobe XD では、Checkbox アイテムを複製することで新しい Checkbox アイテムを追加できます。スタックが適用されるため、複製されたアイテムは他のアイテムと単純に整列します。
 
 ## その他のリソース
 

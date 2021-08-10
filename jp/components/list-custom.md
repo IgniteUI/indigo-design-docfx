@@ -6,11 +6,11 @@ _language: ja
 ---
 
 > [!NOTE]
-> This topic is only relevant for users of the <b>Sketch Library</b>.
+> このトピックは、<b>Sketch ライブラリ</b>のユーザーにのみ関連します。
 
 # Custom List Item (カスタム リスト アイテム)
 
-Use the Custom List Item Component in Sketch to display the same type of information that you would in a normal List Item but with the complete freedom to arrange your layout exactly as you would like.
+Sketch の Custom List Item コンポーネントを使用して、通常の List Item と同じタイプの情報を表示しますが、レイアウトを自由に配置できます。
 
 ## Custom List Item のデモ
 
@@ -58,7 +58,7 @@ Custom List Item は、Secondary Actions のオーバーライドおよびテキ
 
 <img class="responsive-img" src="../images/list_item_custom_styling.png" srcset="../images/list_item_custom_styling@2x.png 2x" />
 
-Furthermore, additional styling is possible based on the elements that have been inserted in the Custom List Item. たとえば、テキストの色を設定して強調したり、Badge 背景や Raised Button 背景の色を変更したりできます。
+さらに、Custom List Item に挿入された要素に基づいて、追加のスタイル設定が可能です。たとえば、テキストの色を設定して強調したり、Badge 背景や Raised Button 背景の色を変更したりできます。
 
 <img class="responsive-img" src="../images/list_item_custom_layout_styled.png" srcset="../images/list_item_custom_layout_styled@2x.png 2x" />
 

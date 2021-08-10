@@ -20,31 +20,32 @@ List は、1 行項目または 2 行項目のプリセットに挿入できま�
 <img class="responsive-img" src="../images/list_one-line_item.png" srcset="../images/list_one-line_item@2x.png 2x" />
 <img class="responsive-img" src="../images/list_two-line_item.png" srcset="../images/list_two-line_item@2x.png 2x" />
 
-## Using the List in Sketch
+## Sketch で List を使用
 
-The List is essentially a repeater of rows showing data as an indexed vertical collection of items. It uses Smart Layout for its items which makes it possible to adjust the size by setting one or more of the items to ~No Symbol. If you need to design a list with more items, the easiest way to do so is by inserting any of the List types on your artboard, right-click on top of it, and select the `Detach from Symbol` at the bottom of the contextual menu. In your layers panel under the newly appeared _List/One-line Item List_ or _List/Two-line Item List_ group, you should see the following:
+List は、本来インデックス付きの垂直コレクションとしてデータを表示する行のリピーターです。
+アイテムに Smart Layout を使用しているため、1 つ以上のアイテムを ~No Symbol に設定することで、サイズを調整できます。より多くのアイテムを含むリストをデザインする必要がある場合、最も簡単な方法は、アートボードに List タイプのいずれかを挿入し、その上を右クリックして、コンテキスト メニューの下部にある `Detach from Symbol` を選択することです。新しく表示された _List/One-line Item List_ または _List/Two-line Item List_ グループの下のレイヤー パネルに、次のように表示されます:
 
 |  レイヤー         | 使用                                                                                                                                                  |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 metadata   | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| List Header   | An instance of a list header item                                                                                                                    |
-| 1 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 2 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 3 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 4 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 5 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 6 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 7 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 8 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 9 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 10 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 🌈 Background | Defines the background color of the list                                                                                                             |
+| 🚫 metadata   | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
+| List Header   | リスト ヘッダー アイテムのインスタンス                                                                                                                    |
+| 1 Item        | 1 行 / 2 行リスト アイテムのインスタンス                                                                                                                  |
+| 2 Item        | 1 行 / 2 行リスト アイテムのインスタンス                                                                                                                  |
+| 3 Item        | 1 行 / 2 行リスト アイテムのインスタンス                                                                                                                  |
+| 4 Item        | 1 行 / 2 行リスト アイテムのインスタンス                                                                                                                  |
+| 5 Item        | 1 行 / 2 行リスト アイテムのインスタンス                                                                                                                  |
+| 6 Item        | 1 行 / 2 行リスト アイテムのインスタンス                                                                                                                  |
+| 7 Item        | 1 行 / 2 行リスト アイテムのインスタンス                                                                                                                  |
+| 8 Item        | 1 行 / 2 行リスト アイテムのインスタンス                                                                                                                  |
+| 9 Item        | 1 行 / 2 行リスト アイテムのインスタンス                                                                                                                  |
+| 10 Item        | 1 行 / 2 行リスト アイテムのインスタンス                                                                                                                  |
+| 🌈 Background | リストの背景色を定義                                                                                                             |
 
-Now, you may insert additional headers or items either from the menu or simply by duplicating an existing one. Always place items and headers one after another with consistent horizontal width and alignment, making sure there are no gaps between the items.
+これで、メニューから、または単に既存のものを複製することによって、追加のヘッダーまたはアイテムを挿入できます。常にアイテムとヘッダーを同じ水平幅と配置で次々に配置し、アイテム間にギャップがないようにします。
 
-## Using the List in Adobe XD
+## Adobe XD で List を使用
 
-In Adobe XD, after you drag a List component on your artboard, you may reduce the number of items simply by deleting the unnecessary ones or increase it by duplicating one of the existing ones. The List lays out its items in a `Stack`, so when you add or remove items, they align and distribute vertically automatically. To change their position in the list, you need to drag them up or down to the desired position. Unlike Sketch, in Adobe XD destroying the symbol is not necessary.
+Adobe XD では、List コンポーネントをアートボードにドラッグした後、不要なアイテムを削除するだけでアイテムの数を減らしたり、既存のアイテムの 1 つを複製してアイテムの数を増やしたりできます。リストはアイテムを `Stack` に配置するため、アイテムを追加または削除すると、アイテムは自動的に垂直方向に整列および分散されます。リスト内の位置を変更するには、目的の位置まで上下にドラッグする必要があります。Sketch とは異なり、Adobe XD では、シンボルを破棄する必要はありません。
 
 ## スタイル設定
 

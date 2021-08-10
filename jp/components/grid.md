@@ -13,7 +13,7 @@ Grid コンポーネントは大量の複雑なデータをタブ形式で表示
 
 <img class="responsive-img" src="../images/grid_demo.png" srcset="../images/grid_demo@2x.png 2x" />
 
-## Using the Grid in Sketch
+## Sketch で Grid を使用
 
 Grid は、基本的に表形式でデータを表示する列と行のリピーターです。したがって、最も簡単な使用方法は、定義済みの Grid の 1 つをアートボードにドラッグすることです。サポートされる 3 つの[表示密度](grid-display-density.md)に 3 つのプリセットがあります。アートボードを開いた後、その上を右クリックし、コンテキスト メニューの下部にある `Detach from Symbol` オプションを選択すると、新しく表示されたグループの下のレイヤー パネルに次のように表示されます。
 
@@ -25,17 +25,17 @@ Grid は、基本的に表形式でデータを表示する列と行のリピー
 
 デタッチ後、既存のデータ行の 1 つを複製するだけで、データのすべてのディメンションを表示するために必要なヘッダーの数を変更できます。デザインに表示したい表示レコード (数に制限がない) を挿入することもできます。
 
-## Using the Grid in Adobe XD
+## Adobe XD で Grid を使用
 
-In Adobe XD, after you choose one of the three [preset display density grid components](grid-display-density.md) and drag it to your artboard, you will notice in the layers panel that we use `Repeat Grid` for both the Header and the Body to speed configuration up. Unlike in Sketch in Adobe XD destroying the symbol is not necessary. You should see the following in your layers panel:
+Adobe XD では、3 つの[プリセット表示密度グリッド コンポーネント](grid-display-density.md)のいずれかを選択してアートボードにドラッグすると、レイヤー パネルで、Header と Body の両方に `Repeat Grid` を使用して構成を高速化していることがわかります。Sketch とは異なり、Adobe XD ではシンボルを破棄する必要はありません。レイヤー パネルに次のように表示されます:
 
-| Layer                                    | Use                                                                                                                                                  |
+| レイヤー                                    | 使用                                                                                                                                                  |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 metadata | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| Header                                   | Contains all header cells grouped in a Header Repeat Grid                                                                                                         |
-| Body                                     | Contains all body cells grouped in a Body Repeat Grid                                                                                                                   |
+| 🚫 metadata | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
+| Header                                   | Header Repeat Grid にグループ化されたすべてのヘッダー セルが含まれます。                                                                                                        |
+| Body                                     | Body Repeat Grid にグループ化されたすべてのボディ セルが含まれます。                                                                                                                  |
 
-When you select the Header or Body Repeat Grid layer, you may alter the number of the repeated cells you need by dragging the green handles at the right or bottom edge to show all the dimensions of your data and insert as many visible records as you want to show in your design. To change a particular cell type or column width, you have to select the Repeat Grid layer and click `Ungroup Grid` in the right panel. This will allow you to work the cells separately to achieve the desired design.
+Header または Body Repeat Grid レイヤーを選択する場合、右端または下端にある緑色のハンドルをドラッグして、必要な繰り返しセルの数を変更できます。 このようにして、データのすべてのディメンションを表示し、デザインに表示したい数の表示可能なレコードを挿入できます。特定のセル タイプまたは列幅を変更するには、Repeat Grid レイヤーを選択し、右側のパネルで `Ungroup Grid` をクリックする必要があります。これにより、セルを個別に操作して、目的のデザインを実現できます。
 
 <img class="responsive-img" src="../images/layers_panel_adobe_xd.png" srcset="../images/layers_panel_adobe_xd@2x.png 2x" />
 

@@ -1,45 +1,45 @@
 ---
 title: List Item - デザイン システム コンポーネント
-_description: The List Item Component Symbol is used to display information and possible actions to it.
+_description: List Item コンポーネント シンボルは、情報とそれに可能なアクションを表示するために使用されます。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
-# List Item
+# List Item (リスト アイテム)
 
-Use the List Item to display a repeated piece of information in the List component with text, icons, and images and components such as Switch and Checkbox, among others, to allow users to take possible actions. The List Item is visually identical to the building blocks of the [Ignite UI for Angular List Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/list.html)
+List Item を使用して、テキスト、アイコン、画像、および Switch や Checkbox などのコンポーネントを含む List コンポーネントに繰り返し情報を表示し、ユーザーが可能なアクションを実行できるようにします。List Item は、[Ignite UI for Angular List コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/list.html)と視覚的に同じものです。
 
-## List Item Demo
+## List Item のデモ
 
 <img class="responsive-img" src="../images/list_item_demo.png" srcset="../images/list_item_demo@2x.png 2x" />
 
-## Type
+## タイプ
 
-In Sketch, the List Item comes in three preset types: Header for defining the headings of groups, One-line for shorter items with only one line of primary text, and Two-line for taller items supporting primary and secondary text. In Adobe XD with just two presets you can achieve the same and much more, so there we have only Header and Item types.
+Sketch では、List Item には次の 3 つのプリセットタイプがあります: グループの見出しを定義する Header、1 行のテキストを含む短い項目の One-line、プライマリおよびセカンダリ テキストをサポートするより高さのある項目の Two-line。プリセットが 2 つしかない Adobe XD では、同じ以上のことを実現できるため、Header と Item タイプのみがあります。
 
 <img class="responsive-img" src="../images/list_item_header.png" srcset="../images/list_item_header@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_one-line.png" srcset="../images/list_item_one-line@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_two-line.png" srcset="../images/list_item_two-line@2x.png 2x" />
 
-## State
+## 状態
 
-The Items support the following interactive states: **inactive** for the normal state and active for the selected state. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. The Header List Item is not selectable so it provides no support for such states.
+Items は、次のインタラクティブ状態をサポートします: 通常の状態では**非アクティブ**、選択した状態ではアクティブです。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Header List Item は選択できないため、そのような状態はサポートしません。
 
 <img class="responsive-img" src="../images/list_item_inactive.png" srcset="../images/list_item_inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_active.png" srcset="../images/list_item_active@2x.png 2x" />
 
-## Area
+## 領域
 
-In Sketch, the List Item has two distinct areas: Primary Action with non-interactive content such as Avatar and text, and Secondary Action with quick actions related to the List Item. Any combination of a Primary and Secondary action creates a unique list item template that should be used consistently across all items of a List.
+Sketch では、List Item には 2 つの異なる領域があります: Avatar やテキストなどの非インタラクティブ コンテンツを使用した Primary Action と、List Item に関連するクイック アクションを使用した Secondary Action。Primary Action と Secondary Action を任意に組み合わせると、リストのすべてのアイテムで一貫して使用する必要がある一意のリスト アイテム テンプレートが作成されます。
 
-In Adobe XD, the list item has a Group where non-interactive content such as Avatar, Progress bar, and text are laid out, as well as an Actions component containing actionable icons for the right side of the item. In both areas, you can drag arbitrary components from the `Libraries` panel to create the layout that you need without ever having to destroy any of the components in the template or the item itself.
+Adobe XD では、リスト アイテムには、Avatar、Progress bar、テキストなどの非インタラクティブ コンテンツが配置されたグループと、アイテムの右側にアクション可能なアイコンを含む Actions コンポーネントがあります。どちらの領域でも、`Libraries` パネルから任意のコンポーネントをドラッグして、テンプレート内のコンポーネントやアイテム自体を破棄することなく、必要なレイアウトを作成できます。
 
 <img class="responsive-img" src="../images/list_item_primary.png" srcset="../images/list_item_primary@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />
 
-## Primary Action in Sketch
+## Sketch の Primary Action
 
-There are 4 interchangeable List Item Primary Actions, available as `Symbol Overrides`. Thanks to Smart Layout, they can be adjusted further by setting unnecessary elements to ~No Symbol.
+`Symbol Overrides` として利用可能な、4 つの交換可能な List Item Primary Action があります。Smart Layout のおかげで、不要な要素を ~No Symbol に設定することで、さらに調整することができます。
 
 |                              |                                                                                                  |                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -48,9 +48,9 @@ There are 4 interchangeable List Item Primary Actions, available as `Symbol Over
 | Icon + Label + Desc | <img class="responsive-img" src="../images/list_item_primary3.png" srcset="../images/list_item_primary3@2x.png 2x" />   |                                                                                                                                            |
 | Label + Progress          | <img class="responsive-img" src="../images/list_item_primary4.png" srcset="../images/list_item_primary4@2x.png 2x" />   | Linear Progress Bar inside a List Item can not have a value label, therefore, it is set to ~No Symbol in Sketch and the value label layer is not present in Adobe XD. This setting should not be changed! |                                                                                                                                            |
 
-## Secondary Action in Sketch
+## Sketch の Secondary Action
 
-There are 4 interchangeable List Item Secondary Actions available as `Symbol Overrides`. Thanks to Smart Layout, they can be adjusted further by setting unnecessary elements to ~No Symbol.
+`Symbol Overrides` として使用可能な 4 つの交換可能な List Item Secondary Action があります。Smart Layout のおかげで、不要な要素を ~No Symbol に設定することで、さらに調整することができます。
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -59,38 +59,38 @@ There are 4 interchangeable List Item Secondary Actions available as `Symbol Ove
 | Text and Icon            | <img class="responsive-img" src="../images/list_item_secondary3.png" srcset="../images/list_item_secondary3@2x.png 2x" /> |                                                                                                                                       |
 | Toggle/Switch             | <img class="responsive-img" src="../images/list_item_secondary4.png" srcset="../images/list_item_secondary4@2x.png 2x" /> | Switch inside a List Item can not have a label, therefore, the before and after labels are set to ~ No Symbol in Sketch and the label layer is not present in Adobe XD. This setting should not be changed!   |
 
-## Thumbnail in Adobe XD
+## Adobe XD の Thumbnail (サムネイル)
 
-The Thumbnail component in the left List Item area in Adobe XD provides 3 interchangeable options via the `Component States` paradigm to let you easily switch them. This makes it possible to create a matching design for each of the Primary Actions in Sketch.
+Adobe XD の左側の List Item 領域にある Thumbnail コンポーネントは、`Component States` パラダイムを介して 3 つの交換可能なオプションを提供し、それらを簡単に切り替えることができます。これにより、Sketch の各 Primary Action に一致するデザインを作成できます。
 
 <img class="responsive-img" src="../images/thumbnail_xd.png" srcset="../images/thumbnail_xd@2x.png 2x" />
 
-## Actions in Adobe XD
+## Adobe XD の Actions
 
-The Actions component that constitutes the right List Item area in Adobe XD provides 4 interchangeable options via the `Component States` paradigm to let you easily switch them. This makes it possible to create a matching design for each of the Secondary Actions in Sketch.
+Adobe XD の適切な List Item 領域を構成する Actions コンポーネントは、`Component States` パラダイムを介して 4 つの交換可能なオプションを提供し、それらを簡単に切り替えることができます。これにより、Sketch の各 Secondary Action に一致するデザインを作成できます。
 
 <img class="responsive-img" src="../images/actions_xd.png" srcset="../images/actions_xd@2x.png 2x" />
 
-## Styling
+## スタイル設定
 
-The List Item comes with styling flexibility through the options available for the different elements used in it, such as icons, text and components like Avatar, Badge, Checkbox, Icon, Progress, Switch, etc., each with its own styling capabilities.
+List Item には、アイコン、テキスなどのさまざまな要素および Avatar、Badge、Checkbox、Icon、Progress、Switch などのコンポーネントで使用できるオプションを通じて、スタイルの柔軟性があり、それぞれに独自のスタイル機能があります。
 
 <img class="responsive-img" src="../images/list_item_styling.png" srcset="../images/list_item_styling@2x.png 2x" />
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Avatar](avatar.md)
 - [Badge](badge.md)
 - [Checkbox](checkbox.md)
 - [Icon](icon.md)
 - [List](list.md)
-- [Custom List Item in Sketch](list-custom.md)
+- [Sketch の Custom List Item](list-custom.md)
 - [Skeleton List](list-skeleton.md)
 - [Progress](progress.md)
 - [Switch](switch.md)
-- [Lists Pattern](../patterns/lists.md)
+- [Lists パターン](../patterns/lists.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。

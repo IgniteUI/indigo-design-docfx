@@ -28,9 +28,9 @@ Group of Items List パターンを使用して、グループ化されたまた
 <img class="responsive-img" src="../images/list_with_avatars.png" srcset="../images/list_with_avatars@2x.png 2x" />
 
 > [!WARNING]
-> In Sketch, after inserting any of the Lists available as a Pattern, you can trigger `Detach from Symbol` only if you need to add more items than provided. The individual List Items and Components such as Inputs, Avatars, and Navigation elements must stay intact and not be detached!
+> Sketch では、パターンとして使用可能な Lists のいずれかを挿入した後、提供されているよりも多くのアイテムを追加する必要がある場合にのみ、`Detach from Symbol` をトリガーできます。Input、Avatar、Navigation 要素などの個々の List 項目とコンポーネントをデタッチしないでください。
 >
-> In Adobe XD you can add a List Item by duplicating one of the existing ones and it will simply line up with the others due to the applied stack without ever having to ungroup the pattern itself.
+> Adobe XD では、List アイテムを複製することで新しい List アイテムを追加できます。パターン自体のグループ化を解除しなくても、スタックが適用されるため、List アイテムは他のアイテムと単純に整列します。
 
 ## その他のリソース
 

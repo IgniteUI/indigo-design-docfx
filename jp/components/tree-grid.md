@@ -13,7 +13,7 @@ Tree Grid コンポーネントを使用して、ユーザーがタブ形式で�
 
 <img class="responsive-img" src="../images/tree_grid_demo.png" srcset="../images/tree_grid_demo@2x.png 2x" />
 
-## Using the Tree Grid in Sketch
+## Sketch で Tree Grid を使用
 
 Grid と同様に、Tree Grid は、基本的にフラット、表形式で階層データを表示する列と行のリピーターです。したがって、最も簡単な使用方法は、`Tree Grid/Comfortable` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下にあるシ `Detach from Symbol` オプションを選択します。新しく表示されるグループの下のレイヤー パネルには以下があります。
 
@@ -25,17 +25,17 @@ Grid と同様に、Tree Grid は、基本的にフラット、表形式で階�
 
 デタッチ後、既存のデータ行の 1 つを複製し、デザインに表示したいレコード (数に制限がない) および多数のヘッダーを必要なだけ追加してデータのすべてのディメンションを表示できます。
 
-## Using the Tree Grid in Adobe XD
+## Adobe XD で Tree Grid を使用
 
-In Adobe XD, after you choose one of the three [preset display density tree grid components](grid-display-density.md) and drag it to your artboard, you will notice in the layers panel that we use `Repeat Grid` for both the Header and the Body to speed configuration up. Unlike in Sketch in Adobe XD destroying the symbol is not necessary. You should see the following in your layers panel:
+Adobe XD では、3 つの[プリセット表示密度ツリー グリッド コンポーネント](grid-display-density.md)のいずれかを選択してアートボードにドラッグすると、レイヤー パネルで、Header と Body の両方に `Repeat Grid` を使用して構成を高速化していることがわかります。Sketch とは異なり、Adobe XD ではシンボルを破棄する必要はありません。レイヤー パネルに次のように表示されます:
 
-| Layer                        | Use                                                                                                                                                  |
+| レイヤー                        | 使用                                                                                                                                                  |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 metadata | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| Header                       | Contains all header cells: the one relating to the TreeColumn body cells and the rest grouped in a Repeat Grid                                                                                                                 |
-| Body                         | Contains all body cells: the TreeColumn cells grouped in a Repeat Grid and the rest grouped in another Repeat Grid                                                                                                                  |
+| 🚫 metadata | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
+| Header                       | すべてのヘッダー セルが含まれます: 本文 セルと Repeat Grid  にグループ化された残りのセル。                                                                                                                 |
+| Body                         | すべてのボディ セルが含まれます: Repeat Grid にグループ化された TreeColumn セルと、別の Repeat Grid にグループ化された残りのセル。                                                                                                                  |
 
-When you select a Repeat Grid layer, you may alter the number of the repeated cells you need. Just drag the green handles at the right or bottom edge to show all the dimensions of your data and insert as many visible records as you want to show in your design. To change a particular cell type or column width, you have to select the Repeat Grid layer and click `Ungroup Grid` in the right panel. This will allow you to work the cells separately to achieve the desired design.
+Repeat Grid レイヤーを選択すると、必要な繰り返すセルの数を変更できます。右端または下端にある緑色のハンドルをドラッグするだけで、データのすべてのディメンションが表示され、デザインに表示する必要のある数の表示可能なレコードが挿入されます。特定のセル タイプまたは列幅を変更するには、Repeat Grid レイヤーを選択し、右側のパネルで `Ungroup Grid` をクリックする必要があります。これにより、セルを個別に操作して、目的のデザインを実現できます。
 
 <img class="responsive-img" src="../images/tgrid_layers_panel_adobe_xd.png" srcset="../images/tgrid_layers_panel_adobe_xd@2x.png 2x" />
 
