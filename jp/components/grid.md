@@ -74,7 +74,7 @@ Grid Body Cell は、以下のインタラクティブな状態をサポート�
 <img class="responsive-img" src="../images/grid_cell_body_cell-inactive.png" srcset="../images/grid_cell_body_cell-inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_cell-active.png" srcset="../images/grid_cell_body_cell-active@2x.png 2x" />
 
-Grid Body Cell は、ヘッダーを介して `Grid Feature` のオーバーライドによって定義されるいくつかの Grid 機能のスタイル設定サポートがあります。通常のセル、編集可能なセル、および選択した行に属するセルにスタイル設定されたセルへのアクセスを提供します。
+Grid Body Cell は、`Grid Feature` を介してヘッダーで定義された一部の Grid 機能のスタイル設定をサポートしています。通常のセル、編集可能なセル、および選択した行に属するセルには、スタイルのバリアントがあります。Sketch では、`Grid Feature` を切り替えるには、使用可能な `Symbol Overrides` を使用する必要がありますが、Adobe XD では、`Component States` の一致するリストがあります。
 
 <img class="responsive-img" src="../images/grid_cell_body_row-selected.png" srcset="../images/grid_cell_body_row-selected@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_editing_cell.png" srcset="../images/grid_cell_body_editing_cell@2x.png 2x" />
@@ -83,7 +83,7 @@ Grid Body Cell は、ヘッダーを介して `Grid Feature` のオーバーラ�
 
 ## セル タイプ
 
-Grid Header Cell は、Grid が対応する必要のある 4 つの一般的なタイプのデータのプリセットを提供します: 数値の **Number**、それぞれのデータ タイプの Text、Date、Bool を組み合わせたもの、複数の行を選択する場合に最初の列に使用される Row Selection と、グループ化されたデータ行を展開および縮小するために使用される Group By。
+In Sketch, the Grid Header Cell provides presets for the four generic types of data that the Grid needs to accommodate: **Number** for numeric values, the one combining Text,Date,Bool for the respective data types, Row Selection that is used for the first column when selection of multiple rows is desired, and Group By - used to expand and collapse grouped data rows. In Adobe XD the types are three: a standard one for data, Row Selection, and Group By, with the standard one supporting choice between numeric values and text/date/bool via `Component States`.
 
 <img class="responsive-img" src="../images/grid_cell_header_number.png" srcset="../images/grid_cell_header_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />

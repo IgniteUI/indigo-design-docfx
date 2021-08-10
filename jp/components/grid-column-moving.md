@@ -15,7 +15,7 @@ Grid 列移動は、グリッドの列が移動可能であり、Header Cell を
 
 ## Header Cell (ヘッダー セル)
 
-列が移動可能であることを示するには、デフォルト値を **Not Movable** から Movable に変更すると、列の Grid Header Cell の `Column Moving` のオーバーライドを設定します。また、コード生成には、これにより列を移動可能としてマークします。
+列が移動可能であることを示するには、デフォルト値を **Not Movable** から Movable に変更すると、Sketch の列の Grid Header Cell の `Column Moving` のオーバーライドを設定します。Adobe XD では、`Column Moving` レイヤーは `Component States` パラダイムを使用して、状態を簡単に切り替えることができます。コード生成には、これにより列を移動可能としてマークします。
 
 ## Column Moving Feature (列移動機能)
 

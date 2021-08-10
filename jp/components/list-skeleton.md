@@ -37,7 +37,7 @@ Skeleton List Item には、標準 [List](list.md) のような 2 つの異な�
 
 ## Sketch の Primary Action
 
-標準の [List Item](list-item.md) のような 4 つの交換可能な Skeleton List Item Primary Action があり、これらは `Symbol Overrides` として以下にリストされています。Smart Layout のおかげで、不要な要素を ~No Symbol に設定することで、さらに調整することができます。
+以下は標準の [List](list.md) のような 4 つの交換可能な List Item Primary Actions です。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Sketch の Smart Layout のおかげで、不要な要素を ~No Symbol に設定することで、さらに調整することができます。
 
 |                              |                                                                                                  |                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -48,7 +48,7 @@ Skeleton List Item には、標準 [List](list.md) のような 2 つの異な�
 
 ## Sketch の Secondary Action
 
-Skeleton List Item の Secondary Action は、`Symbol Overrides` として利用可能な標準の [List Item](list-item.md) からの対応物で可能なすべてのシナリオを含みます。Smart Layout のおかげで、不要な要素を ~No Symbol  に設定することで、さらに調整することができます。
+Skeleton List Item の Secondary Action は、標準の [List](list.md) からの対応物とともに、可能なすべてのシナリオをカバーします。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Sketch の Smart Layout のおかげで、不要な要素を ~No Symbol に設定することで、Secondary Action をさらに調整することができます。
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |

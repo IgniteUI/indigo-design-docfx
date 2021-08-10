@@ -36,14 +36,14 @@ Chart Type では、Line と Area を切り替えることができます。後�
 
 ## 状態
 
-Step Line Chart には、Idle と Hover の 2 つの状態があります。Hover 状態では、データ ポイントにホバーすると、このポイントでのシリーズの値に関する情報を提供するツールチップが表示されます。
+Step Line Chart には、Idle と Hover の 2 つの状態があります。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Hover 状態では、データ ポイントにホバーすると、このポイントでのシリーズの値に関する情報を提供するツールチップが表示されます。
 
 <img class="responsive-img" src="../images/step_area_chart_tooltip-off.png" srcset="../images/step_area_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/step_area_chart_tooltip-on.png" srcset="../images/step_area_chart_tooltip-on@2x.png 2x" />
 
 ## Y 軸
 
-Step Line Chart の Y 軸は、Title、Labels、および軸自体で構成されます。Title と Labels は構成可能であり、ラベルを非表示にするには、オーバーライドを ~No Symbol に設定するだけです。軸線は色を  `Transparent` に設定して非表示にすることができます。すべての要素を一度に非表示にするには、Y 軸のオーバーライドを ~No Symbol に変更します。
+Step Line Chart の Y 軸は、Title、Labels、および軸自体で構成されます。Title と Labels は構成可能であり、ラベルを非表示にするには、オーバーライドを ~No Symbol に設定するだけです。軸線は色を `Transparent` に設定して非表示にすることができます。すべての要素を一度に非表示にするには、Y 軸のオーバーライドを ~No Symbol に変更します。
 
 <img class="responsive-img" src="../images/step_line_chart_yaxis.png" srcset="../images/step_line_chart_yaxis@2x.png 2x" />
 

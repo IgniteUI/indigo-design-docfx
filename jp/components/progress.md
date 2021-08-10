@@ -39,7 +39,7 @@ Progress は、以下のプリセット カラーの組み合わせの 1 つを�
 
 ## Progress の量
 
-確定タイプの Progress を使用する場合、6 種類のパーセント値を Progress の量として選択できます。
+確定タイプの Progress を使用する場合、6 種類のパーセント値を Progress の量として選択できます。Sketch では、これは `Symbol Overrides` で簡単に切り替えることができますが、Adobe XD では、`Libraries` パネルから目的の量をドラッグし、`Progress Amount` レイヤーの上にドロップしてデフォルト値を変更する必要があります。 
 
 <img class="responsive-img" src="../images/progress_circular-progress-amount.png" srcset="../images/progress_circular-progress-amount@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_linear-progress-amount.png" srcset="../images/progress_linear-progress-amount@2x.png 2x" />

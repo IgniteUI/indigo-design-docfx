@@ -60,6 +60,7 @@ Input は、明暗バリアント (デフォルトは**暗い**) で分かりや
 <img class="responsive-img" src="../images/input_warning.png" srcset="../images/input_warning@2x.png 2x" />
 <img class="responsive-img" src="../images/input_error.png" srcset="../images/input_error@2x.png 2x" />
 
+Sketch では状態と検証状態を `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 ## レイアウト
 
 Input は、テキストとアイコンの組み合わせによってプレフィックスとサフィックスをサポートします。特定の場合、ユーザーの入力作業を軽減できます。たとえば、@email.com サフィックスは、キーストロークが少なくなり、必要なコンテンツがより明確になります。オーバーライドからそれぞれのコンテナーを ~No Symbol に設定すると、プレフィックスまたはサフィックスを削除できます。

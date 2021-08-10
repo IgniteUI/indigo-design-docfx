@@ -36,7 +36,7 @@ Chart Type は Line と Area を切り替えます。Area は、X 軸と線の�
 
 ## 状態
 
-Line Chart には、Idle と Hover の 2 つの状態があります。Hover 状態では、データ ポイントの上にホバーすると、このポイントでのシリーズ値についての情報を提供するツールチップが表示されます。
+Line Chart には、Idle と Hover の 2 つの状態があります。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Hover 状態では、データ ポイントにホバーすると、このポイントでのシリーズの値に関する情報を提供するツールチップが表示されます。
 
 <img class="responsive-img" src="../images/line_area_chart_tooltip-off.png" srcset="../images/line_area_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/line_area_chart_tooltip-on.png" srcset="../images/line_area_chart_tooltip-on@2x.png 2x" />

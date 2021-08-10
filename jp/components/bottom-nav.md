@@ -27,7 +27,7 @@ Bottom Navigation はスマート レイアウトを使用しており、1 つ�
 
 ## 項目の状態
 
-Bottom Navigation は、**Active**、Inactive、および Disabled の状態をサポートする項目で構成されています。Bottom Navigation には、常に 1 つの Active の項目と、任意の数の Inactive および Disabled の項目があります。
+Bottom Navigation は、**Active**、Inactive、および Disabled の状態をサポートする項目で構成されています。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Bottom Navigation には、常に 1 つのアクティブな項目と、任意の数の非アクティブおよび無効な項目があります。
 
 <img class="responsive-img" src="../images/bottom-nav_item_state.png" srcset="../images/bottom-nav_item_state@2x.png 2x" />
 

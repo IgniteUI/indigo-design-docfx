@@ -45,7 +45,7 @@ Tabs は、幅を調整することで使用可能な水平方向のスペース
 
 ## タブ項目の状態
 
-タブ項目は、Active、Inactive、および Disabled の状態をサポートします。Tabs には、常に 1 つの Active のタブと、任意の数の Inactive および Disabled のタブがあります。
+タブ項目は、Active、Inactive、および Disabled の状態をサポートします。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Tabs には、常に 1 つのアクティブなタブと、任意の数の非アクティブおよび無効なタブがあります。
 
 <img class="responsive-img" src="../images/tabs_state.png" srcset="../images/tabs_state@2x.png 2x" />
 

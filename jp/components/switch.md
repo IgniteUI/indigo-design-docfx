@@ -28,14 +28,14 @@ Switch は、明暗バリアントで分かりやすく、背景に明暗のコ�
 
 ## レイアウト テンプレート
 
-Switch は、Switch ラベルが Switch 要素の前後に配置されるラベル位置をサポートします。
+Sketch で Switch は、Switch 要素の前後に Switch ラベルが配置されるラベル位置のバリアントをサポートします。Adobe XD では、Stacks を使用して、スイッチのビジュアルの左または右にドラッグするだけで、デザイン時にラベルとスイッチの位置を変更できるようにしています。
 
 <img class="responsive-img" src="../images/switch_label-before.png" srcset="../images/switch_label-before@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_label-after.png" srcset="../images/switch_label-after@2x.png 2x" />
 
 ## 状態
 
-Switch は**オン**とオフの選択状態を提供します。
+Switch は**オン**とオフの選択状態を提供します。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/switch_on.png" srcset="../images/switch_on@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_on_disabled.png" srcset="../images/switch_on_disabled@2x.png 2x" />

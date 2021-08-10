@@ -15,11 +15,11 @@ _language: ja
 
 ## Header Cell (ヘッダー セル)
 
-列に Excel スタイル フィルターがアクティブであることを示すには (フィルターのオーバーレイが表示されます)、`Feature Left` または `Feature Right` のオーバーライドを `Filtering` に設定し、`Filter State` パネルで次のオーバーライドを `Filtering/Active` に設定する必要があります。列で Excel スタイル フィルタリングが有効が有効にされたことを示すため、フィルタリング条件がこの列に適用されていないことを示す `Filtering/Inactive` 状態、またはフィルタリング条件が適用され、列のオーバーレイが閉じられたことを示す `Filtering/Inactive` 状態を使用できます。
+Sketch で列に Excel スタイル フィルターがアクティブであることを示するには (フィルターのオーバーレイが表示されます)、`Feature Left` または `Feature Right` のオーバーライドを `Filtering` に設定し、`Filter State` パネルで次のオーバーライドを `Filtering/Active` に設定する必要があります。また、列で Excel スタイル フィルタリングが有効が有効にされたことを示すため、フィルタリング条件がこの列に適用されていないことを示す `Filtering/Inactive` 状態、またはフィルタリング条件が適用され、列のオーバーレイが閉じられたことを示す `Filtering/Filtered` 状態を使用できます。Adobe XD では、`Feature Left` または `Feature Right` グループのいずれかを非表示にしてから、その中に `Filtering` レイヤーだけを残すことで、少し異なる方法を使用する必要があります。必要に応じて `Filtering` レイヤーも表示にできます。次に、使用可能な `Component States` を介して、状態を `Filtered` に切り替えることができます。
 
 ## Excel Style Filter Feature (Excel スタイル フィルター機能)
 
-グリッドには、`Features` の下に3つの `Excel Style Filter` シンボルがあり、各 Display Density に 1 つずつ、影響を受ける列に表示されるオーバーレイを表します。このシンボルを追加すると、デザインに視覚的な効果があるのみですが、よりリアルになります。Excel Style Filter 機能を切り替えたい場合は、Header Cell を構成します。
+Grid には、スケッチの `Features` の下に 3 つの `Excel Style Filter` 記号があり、各表示密度に 1 つずつあり、影響を受ける列に表示されるオーバーレイを表します。Adobe XD には、`Excel Style Filter`が 1 つだけあり、使用可能な `Component States` を介して、使用可能な 3 つの表示密度を簡単に切り替えることができます。Excel Style Filter を追加すると、デザインに視覚的な効果があるのみで、よりリアルになります。Excel Style Filter 機能をオンにしたい場合は、Header Cells を構成します。
 
 <img class="responsive-img" src="../images/grid_excel_style_filter_densities.png" srcset="../images/grid_excel_style_filter_densities@2x.png 2x" />
 
