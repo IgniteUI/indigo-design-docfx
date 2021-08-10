@@ -44,7 +44,7 @@ The Expansion Panel comes with options for changing the both the Header's and Bo
 
 ## Usage
 
-When using an Expansion Panel make sure to use icons that give a proper idea of  its usage i.e. that there is more content available when the panel is expanded.
+When using an Expansion Panel, make sure to use icons that give a proper idea of its usage, i.e. that there is more content available when the panel is expanded.
 
 | Do                                                                             | Don't                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
@@ -58,4 +58,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
