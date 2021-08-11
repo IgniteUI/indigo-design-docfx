@@ -16,13 +16,12 @@ _keywords: App builder, Indigo Design, Infragistics
 * <a href="#running-the-app-locally">Running the app locally</a>
 
 
-<section class="feature__container">
-    <div class="feature">
-        <div class="feature__image">
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/DK50La2GFJ0" frameborder="0" allowfullscreen></iframe>
-            <p>Get Started with App Builder</p>
-            <br>
+<section class="video-container">
+    <div>
+        <div class="video-container__item">
+            <iframe src="https://www.youtube.com/embed/DK50La2GFJ0" frameborder="0" allowfullscreen></iframe>
         </div>
+        <p>Get Started with App Builder</p>
     </div>
 </section>
 
