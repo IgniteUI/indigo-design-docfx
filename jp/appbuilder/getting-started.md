@@ -18,13 +18,12 @@ _language: ja
 * <a href="#Running-the-app-locally">インタラクション: 開く/閉じる</a>
 
 
-<section class="feature__container">
-    <div class="feature">
-        <div class="feature__image">
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/DK50La2GFJ0" frameborder="0" allowfullscreen></iframe>
-            <p>App Builder を使用した作業の開始</p>
-            <br>
+<section class="video-container">
+    <div>
+        <div class="video-container__item">
+            <iframe src="https://www.youtube.com/embed/DK50La2GFJ0" frameborder="0" allowfullscreen></iframe>
         </div>
+        <p>App Builder を使用した作業の開始</p>
     </div>
 </section>
 
