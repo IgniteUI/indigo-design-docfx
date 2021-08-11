@@ -66,7 +66,7 @@ Chip は、prefix および suffix コンテナを介したコンテンツ テ�
 
 ## Chip のスタイル設定
 
-Chip には、境界線と背景色のさまざまなオプション、およびテキストと Prefix、Suffix、選択、および適用可能な場合はアイコンの色の削除を通じて、スタイルの柔軟性があります。
+Chip は、境界線と背景色のさまざまなオプション、およびテキストと Prefix、Suffix、選択、および適用可能な場合はアイコンの色の削除を通じて柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/chip_styling.png" srcset="../images/chip_styling@2x.png 2x" />
 
