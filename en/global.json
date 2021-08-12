@@ -14,5 +14,6 @@
     "_initialPage": "appbuilder/getting-started",
     "_toc-dir": "sidebar-toc",
     "_enableSearch": true,
-    "_useRedirects": true
+    "_useRedirects": true,
+    "_useWarningsAsErrors": true
 }

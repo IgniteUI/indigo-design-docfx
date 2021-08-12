@@ -71,7 +71,6 @@ If you used the Infragistics VS Code Extension to update your project this will 
 
 Related topics:
 
-- [Category Chart](../components/chart-category.md)
 - [Indigo.Design Code Generator for VS Code](vscode-plugin.md)
   <div class="divider--half"></div>
 
