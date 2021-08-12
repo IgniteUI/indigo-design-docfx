@@ -30,7 +30,7 @@ The Divider comes in two types: **solid** and dashed. In Sketch, you can switch 
 
 ## Styling
 
-The Divider can be styled by changing the color of the type.
+The Divider can be styled by changing the color of the line.
 
 <img class="responsive-img" src="../images/divider_styling.png" srcset="../images/divider_styling@2x.png 2x" />
 
