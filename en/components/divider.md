@@ -14,7 +14,7 @@ The Divider Component is a subtle, unobtrusive line used to separate content hor
 
 ## Orientation
 
-The Divider supports two orientations: Horizontal and Vertical used based on content layout. The horizontal divider is used for separating content vertically, and the vertical divider is used to separate content horizontally.
+The Divider supports two orientations: Horizontal and Vertical that should be used based on content layout. The horizontal divider is used for separating content vertically, and the vertical divider is used to separate content horizontally.
 
 <img class="responsive-img" src="../images/divider_horizontal.png" srcset="../images/divider_horizontal@2x.png 2x" />
 
