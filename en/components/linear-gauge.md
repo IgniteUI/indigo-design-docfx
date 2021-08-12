@@ -37,7 +37,7 @@ The Linear Gauge comes with a tooltip that may be hidden by setting the override
 
 The Linear Gauge provides various overrides that control the shape of the needle, which indicates the current value: **wide triangle**, needle, trapezoid, and triangle. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between types.
 
-<img class="responsive-img" src="../images/linear_gauge_needle.png" srcset="../images/linear_gauge_needle_type@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_needle_type.png" srcset="../images/linear_gauge_needle_type@2x.png 2x" />
 
 ## Ranges Amount
 
