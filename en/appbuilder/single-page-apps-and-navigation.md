@@ -6,13 +6,12 @@ _keywords: App builder, Indigo Design, Infragistics
 
 # Single page apps and navigation  
 
-<section class="feature__container">
-    <div class="feature">
-        <div class="feature__image">
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/5mF15w3Ww3g" frameborder="0" allowfullscreen></iframe>
-            <p>Set Up Single-Page Apps and Navigation</p>
-            <br>
+<section class="video-container">
+    <div>
+        <div class="video-container__item">
+            <iframe src="https://www.youtube.com/embed/5mF15w3Ww3g" frameborder="0" allowfullscreen></iframe>
         </div>
+        <p>Set Up Single-Page Apps and Navigation</p>
     </div>
 </section>
 
