@@ -27,7 +27,7 @@ The Select supports the same three input types typical for the [Input](input.md)
 
 ## Interaction State
 
-Each of the three Select input types can be inserted in an enabled or disabled state.
+Each of the three Select input types above can be inserted either in an enabled or a disabled state.
 
 <img class="responsive-img" src="../images/select_enabledstate.png" srcset="../images/select_enabledstate@2x.png 2x" />
 <img class="responsive-img" src="../images/select_disabledstate.png" srcset="../images/select_disabledstate@2x.png 2x" />
