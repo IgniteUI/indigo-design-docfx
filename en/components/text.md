@@ -79,18 +79,13 @@ This section describes some important overrides and how they affect code generat
 
 ### Text
 
-The Text property may contain text, [binding text](../codegen/data-binding.md), or a combination of the two, examples:
+The Text property may contain text, or a combination of the two, examples:
 
 - Settings
 - {settingsLabel}
 - Important {labelText}
 
 ## Additional Resources
-
-Related topic:
-
-- [Data Binding](../codegen/data-binding.md)
-  <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
 
