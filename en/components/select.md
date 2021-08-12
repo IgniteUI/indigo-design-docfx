@@ -90,7 +90,7 @@ The dropdown items within the Select support five different states: disabled, **
 
 ## Styling
 
-The Select comes with the combined styling flexibility of its input and dropdown pieces. There are options for the input text elements' color and bottom line style and color. For the dropdown, one may change the background color or use the options related to the items in the Select dropdown for their background and text colors.
+The Select comes with the combined styling flexibility of its input and dropdown items. There are options for the input text elements' color and bottom line style and color. For the dropdown items, one may change their background and text colors.
 
 <img class="responsive-img" src="../images/select_styling.png" srcset="../images/select_styling@2x.png 2x" />
 
