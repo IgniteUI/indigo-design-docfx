@@ -67,7 +67,7 @@ In Sketch, the states and validation states are achieved with `Symbol Overrides`
 
 The Select input has only one layout option, but this override has been preserved in Sketch to ensure consistency with the standard [Input](input.md).
 
-## Dropdown Item
+## Dropdown Items
 
 The dropdown used for the Select supports one type of item: a single select item.
 
