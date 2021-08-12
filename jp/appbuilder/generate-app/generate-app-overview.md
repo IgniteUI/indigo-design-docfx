@@ -9,13 +9,12 @@ _language: ja
 > [!NOTE]
 ><b>Indigo.Design App Builder でデザインされたアプリケーションは、ダウンロードするか、GitHub リポジトリに直接アップロードできます。 
 
-<section class="feature__container">
-    <div class="feature">
-        <div class="feature__image">
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/zxT-nIXKn7I" frameborder="0" allowfullscreen></iframe>
-            <p>コードのプレビューと生成について</p>
-            <br>
+<section class="video-container">
+    <div>
+        <div class="video-container__item">
+            <iframe src="https://www.youtube.com/embed/zxT-nIXKn7I" frameborder="0" allowfullscreen></iframe>
         </div>
+        <p>コードのプレビューと生成について</p>
     </div>
 </section>
 

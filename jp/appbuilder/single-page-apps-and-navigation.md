@@ -5,15 +5,13 @@ _keywords: App builder, Indigo Design, インフラジスティックス
 _language: ja
 ---
 
-# 単一ページアプリとナビゲーション 
-
-<section class="feature__container">
-    <div class="feature">
-        <div class="feature__image">
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/5mF15w3Ww3g" frameborder="0" allowfullscreen></iframe>
-            <p>単一ページ アプリとナビゲーションを設定する</p>
-            <br>
+# 単一ページアプリとナビゲーション
+<section class="video-container">
+    <div>
+        <div class="video-container__item">
+            <iframe src="https://www.youtube.com/embed/5mF15w3Ww3g" frameborder="0" allowfullscreen></iframe>
         </div>
+        <p>単一ページ アプリとナビゲーションを設定する</p>
     </div>
 </section>
 
