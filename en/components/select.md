@@ -10,7 +10,7 @@ Use the Select Component to let the user choose a single option from a scrollabl
 
 ## Select Demo
 
-The Select has two pieces: an input containing the current selection and a dropdown that is shown in order to select one item.
+The Select is built by combining an input containing the current selection with a dropdown that appears to let you select an item.
 
 <img class="responsive-img" src="../images/select_demo.png" srcset="../images/select_demo@2x.png 2x" />
 
