@@ -36,4 +36,4 @@ Moreover, you are skipping the hand-off where developers have to inspect the vis
 
 <div class="divider--half"></div>
 
-* [Generate App](generate-app.md)
+* [Generate App](generate-app/generate-app-overview.md)

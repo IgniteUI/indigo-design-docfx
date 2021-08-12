@@ -20,7 +20,7 @@ The Card has four distinct areas: `image` at the top to show picture or map medi
 | ------- | ---------------------------------------------------------------------------------------------- |
 | image   | <img class="responsive-img" src="../images/card_media_image.png" srcset="../images/card_media_image@2x.png 2x" /> |
 | header  | <img class="responsive-img" src="../images/card_header.png" srcset="../images/card_header@2x.png 2x" /> |
-| body    | <img class="responsive-img" src="../images/card_content_image.png" srcset="../images/card_body@2x.png 2x" /> |
+| body    | <img class="responsive-img" src="../images/card_body.png" srcset="../images/card_body@2x.png 2x" /> |
 | actions | <img class="responsive-img" src="../images/card_actions_buttons_icons.png" srcset="../images/card_actions_buttons_icons@2x.png 2x" /> |
 
 ## Image and Body

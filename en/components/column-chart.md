@@ -64,7 +64,7 @@ Use the Column Chart when you want to show the amount of change over a period of
 
 Related topic:
 
-- [Line Chart](../line-chart.md)
+- [Line Chart](line-chart.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

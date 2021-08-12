@@ -17,7 +17,7 @@ This topic describes the process of downloading and adding the Indigo Design Lib
 
 First, you will need to [Download the Indigo Design Sketch Libraries](https://cloud.indigo.design/resources) to yours drive. You will get three Sketch files:
 
-- Indigo-Styling - the library with all the styling assets such as [Colors](colors.md), [Elevation](elevation.md), [Material Icons](material-icons.md), and [Typography](typography.md). These will allow you to create your own custom themes and brand your designs in the most pleasing and aesthetic way possible.
+- Indigo-Styling - the library with all the styling assets such as [Colors](style/colors.md), [Elevation](style/elevation.md), [Material Icons](style/material-icons.md), and [Typography](style/typography.md). These will allow you to create your own custom themes and brand your designs in the most pleasing and aesthetic way possible.
 - Indigo-Components - the library containing a vast set of Components to layout your intricate design ideas and eventaully, after a few design iterations, generate code assets from. Through the overrides section you can choose from numerous presets compatible with [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular) and our code generation engine.
 - Indigo-Patterns - the library where components shape up meaningful patterns for productive application design. All you need to do, is cherry pick a few layouts and focus on designing a logical user journey and customizing the design to make it more appealing for your audience.
 
@@ -35,7 +35,7 @@ In order to add the Libraries in Sketch follow these
 
 ### Customization through Overrides
 
-The Indigo.Design UI Kit comes with massive customization flexibility built in. This was achieved in the libraries through the mechanism of nesting `Symbols` that get exposed as `Overrides` in a project consuming a Sketch library. Once you start inserting Indigo.Design Components in your project, you will immediately see the `Overrides` section in the right Sketch panel, just underneath the `Prototyping` section. On the image below you can explore the available overrides for the [Badge](badge.md) through which you can change its type from number to icon, or configure the number color and value. There are also dropdowns for selecting the border and background colors, where only valid values are made possible for selection. At the very bottom there are special properties that are used for code generation to create the necessary data bindings in the generated Angular app. Each Component has its own unique properties inside the `Overrides` panel and many of the topics in this help section explain the possible values and provide the necessary guidance on using them.
+The Indigo.Design UI Kit comes with massive customization flexibility built in. This was achieved in the libraries through the mechanism of nesting `Symbols` that get exposed as `Overrides` in a project consuming a Sketch library. Once you start inserting Indigo.Design Components in your project, you will immediately see the `Overrides` section in the right Sketch panel, just underneath the `Prototyping` section. On the image below you can explore the available overrides for the [Badge](components/badge.md) through which you can change its type from number to icon, or configure the number color and value. There are also dropdowns for selecting the border and background colors, where only valid values are made possible for selection. At the very bottom there are special properties that are used for code generation to create the necessary data bindings in the generated Angular app. Each Component has its own unique properties inside the `Overrides` panel and many of the topics in this help section explain the possible values and provide the necessary guidance on using them.
 
 <img class="responsive-img" src="images/getting-started-overrides.png" />
 
@@ -160,11 +160,11 @@ The last thing would be to select all layers for the form, including the white b
 
 Related topics:
 
-- [Button](button.md)
-- [Input](input.md)
-- [Navbar](navbar.md)
-- [Text](text.md)
-- [Styling](styling-overview.md)
+- [Button](components/button.md)
+- [Input](components/input.md)
+- [Navbar](components/navbar.md)
+- [Text](components/text.md)
+- [Styling](style/styling-overview.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
