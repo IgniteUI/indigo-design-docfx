@@ -96,7 +96,7 @@ The Select comes with the combined styling flexibility of its input and dropdown
 
 ## Usage
 
-When using the Select, its input and dropdown don't need to have the same width. Furthermore, when the Select is focused, the dropdown can be shown above the input and hide it until an item is chosen from the list, and you should always show the dropdown on top of the content that follows the Select triggering its display. The Select doesn't push content as the expansion panel does.
+When using the Select, its input and dropdown should have the same width and their left and right borders should match. When the Select is focused, the dropdown can be shown above the input and hide it until an item is chosen from the list, and you should always show the dropdown on top of other content that is on the same surface with the Select input. The Select doesn't push content as the expansion panel does.
 
 | Do                                                                           | Don't                                                                            |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
