@@ -69,7 +69,7 @@ The Select input has only one layout option, but this override has been preserve
 
 ## Dropdown Items
 
-The dropdown used for the Select supports one type of item: a single select item.
+The dropdown items used for the Select support only the single selection type.
 
 <img class="responsive-img" src="../images/select_item.png" srcset="../images/select_item@2x.png 2x" />
 
