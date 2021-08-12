@@ -20,7 +20,7 @@ The Splitter supports two orientations: **Vertical** and Horizontal. The vertica
 
 ## Nested Panes
 
-The Splitter consists of at least one bar and two panes. The panes are placeholders, and the splitter bar is between them to allow resizing by dragging its handle or expanding and collapsing by clicking the arrows. You can nest splitter components to create a more complex layout inside a splitter pane like below.
+The Splitter consists of at least one bar and two panes. The panes are placeholders, and the splitter bar is between them to allow resizing by dragging its handle or expand/collapse by clicking the arrow icons on the bar. You can nest splitter components to create more elaborate layouts in a fashion like it is shown below.
 
 <img class="responsive-img" src="../images/splitter_nested_panes.png" srcset="../images/splitter_nested_panes@2x.png 2x" />
 
