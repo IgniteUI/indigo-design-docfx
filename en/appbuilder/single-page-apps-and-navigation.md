@@ -59,5 +59,5 @@ That's it for single page apps and the navigation feature. To summarize, child v
 
 <div class="divider--half"></div>
 
-* [Preview Code and Generate App](preview-code-and-generate-app.md)
+* [Preview Code and Generate App](preview-code.md)
 * [Angular Routing](https://angular.io/start/start-routing)

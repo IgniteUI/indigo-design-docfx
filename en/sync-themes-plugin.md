@@ -15,7 +15,7 @@ The Indigo.Design Plugin is available for download from [Indigo.Design Cloud](ht
 <img class="responsive-img" src="images/Sync_themes_plugin_Download.png" srcset="images/Sync_themes_plugin_Download@2x.png 2x" />
 
 
-<img class="responsive-img" src="../images/indigo-design-resources.gif" />
+<img class="responsive-img" src="images/indigo-design-resources.gif" />
 <p style="text-align:center;">Indigo.Design resources</p>
 
 ## 2. Themes
