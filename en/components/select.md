@@ -32,9 +32,9 @@ Each of the three Select input types above can be inserted either in an enabled 
 <img class="responsive-img" src="../images/select_enabledstate.png" srcset="../images/select_enabledstate@2x.png 2x" />
 <img class="responsive-img" src="../images/select_disabledstate.png" srcset="../images/select_disabledstate@2x.png 2x" />
 
-## Variant
+## Input Variant
 
-The Select can be used styled in **dark** and light variants to ensure good readability and contrast for both lighter and darker backgrounds.
+The Select input can be used styled in **dark** and light variants to ensure good readability and contrast for both lighter and darker backgrounds.
 
 <img class="responsive-img" src="../images/select_dark.png" srcset="../images/select_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/select_light.png" srcset="../images/select_light@2x.png 2x" />
