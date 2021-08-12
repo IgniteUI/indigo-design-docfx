@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Splitter
 
-Use the Splitter Component to create dynamic layouts split into vertically or horizontally arranged panes. Panes are separated by the splitter bars that allow dragging to resize or expand and collapse the adjacent layout items. The Splitter is visually identical to the [Ignite UI for Angular Splitter Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/splitter.html).
+Use the Splitter Component to create dynamic layouts split into vertically or horizontally arranged panes. Panes are separated by the splitter bars that allow dragging to resize or expand/collapse the adjacent layout items. The Splitter is visually identical to the [Ignite UI for Angular Splitter Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/splitter.html).
 
 ## Splitter Demo
 
