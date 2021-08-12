@@ -108,9 +108,8 @@ When using the Select, its input and dropdown should have the same width and the
 Related topics:
 
 - [Combo](combo.md)
-- [Dropdown](dropdown.md)
-- [Form Pattern](../patterns/form.md)
 - [Input](input.md)
+- [Form Pattern](../patterns/form.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
