@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Divider
 
-The Divider Component is a subtle, unobtrusive line used to separate content horizontally or vertically and group it visually into sections, e.g., in lists. The Divider helps content to be comprehended more quickly. It works very well for scenarios where the layout elements cannot be separated enough by whitespace only. The Card is visually identical to the [Ignite UI for Angular Divider Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/divider.html).
+The Divider Component is a subtle, unobtrusive line used to separate content horizontally or vertically and group it visually into sections, e.g., in lists. The Divider helps content to be comprehended more quickly. It works very well for scenarios where the layout elements cannot be separated enough by whitespace only. The Divider is visually identical to the [Ignite UI for Angular Divider Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/divider.html).
 
 ## Divider Demo
 
