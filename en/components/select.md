@@ -16,7 +16,7 @@ The Select is built by combining an input containing the current selection with 
 
 ## Input Type
 
-The Select supports the same three input types typical for the [Input](input.md) component: a **line** type for a more airy style, border type for a more structured perception on solid color backgrounds, and a boxed type that is most appropriate when placed on top of a vivid image to improve readability.
+The Select supports the same three input types typical for the [Input](input.md) component: a line type for a more airy style, border type for a more structured perception on solid color backgrounds, and a boxed type that is most appropriate when placed on top of a vivid image to improve readability.
 
 <img class="responsive-img" src="../images/select_line.png" srcset="../images/select_line@2x.png 2x" />
 `line`

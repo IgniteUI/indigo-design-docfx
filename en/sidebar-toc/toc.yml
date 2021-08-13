@@ -233,7 +233,7 @@
       href: ../components/progress.md
     - name: Radio Group
       href: ../components/radio-group.md
-      - name: Select
+    - name: Select
       href: ../components/select.md
       new: true
     - name: Slider

@@ -22,7 +22,7 @@ The Divider supports two orientations: Horizontal and Vertical that should be us
 
 ## Type
 
-The Divider comes in two types: **solid** and dashed. In Sketch, you can switch between them thanks to `Symbol Overrides`, while in Adobe XD we are using the `Component States` to do that.
+The Divider comes in two types: **solid** and dashed. In Sketch, you can switch between them thanks to `Symbol Overrides`, while in Adobe XD we are using the `Component States` to achieve the same.
 
 <img class="responsive-img" src="../images/divider_solid.png" srcset="../images/divider_solid@2x.png 2x" />
 
