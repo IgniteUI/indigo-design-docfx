@@ -63,9 +63,8 @@ Every experienced designer uses constraints wisely to limit the user input and a
 
 In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
 
-## Layout
-
-The Select input has only one layout option, but this override has been preserved in Sketch to ensure consistency with the standard [Input](input.md).
+> [!NOTE]
+> The Select input has only one layout option, but this override has been preserved in Sketch to ensure consistency with the standard [Input](input.md).
 
 ## Dropdown Items
 
