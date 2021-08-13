@@ -38,13 +38,13 @@ Calendar は、主要な日付部分のそれぞれの表示を容易にする�
 
 ## ヘッダー
 
-Calendar には組み込みの Header があり、オーバーライド パネルで Header のオーバーライドを ~No Symbol に設定すると、フォームにシームレスに埋め込むことができる基本の Calendar が作成されます。
+The Calendar has a built-in Header that can be omitted. In Sketch, the use of a smart layout allows you to set the Header to ~No Symbol to achieve this, resulting in a base Calendar that you can embed more seamlessly in your forms. In Adobe XD you can achieve the same by deleting the Header layer, and the rest of the layout will adjust itself.
 
 <img class="responsive-img" src="../images/calendar_base.png" srcset="../images/calendar_base@2x.png 2x" />
 
 ## 週番号
 
-Calendar には Week Numbers のサポートも組み込まれていますが、UI のこの部分を表示したくない場合は、Week Numbers のオーバーライドを ~No Symbol に設定するだけです。
+The Calendar also has built-in support for Week Numbers, but if you prefer not to show this part of the UI, simply set the Week Numbers to ~No Symbol in Sketch or delete the layer in Adobe XD.
 
 <img class="responsive-img" src="../images/calendar_weeknum.png" srcset="../images/calendar_weeknum@2x.png 2x" />
 

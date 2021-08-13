@@ -15,7 +15,7 @@ Bottom Navigation コンポーネント は、関連ビュー間のブラウジ�
 
 ## 項目数
 
-Bottom Navigation はスマート レイアウトを使用しており、1 つ以上の項目が ~No Symbol に設定されている場合に応じて調整できます。ただし、項目の最大数は 5 つに制限されており、より多くの項目またはビューを使用してアプリケーション レベルのナビゲーションを設計する必要がある場合は、代わりに [Navigation Drawer](nav-drawer.md) の使用を検討してください。
+In Sketch, the Bottom Navigation uses a smart layout allowing it to adjust accordingly when one or more of its items are set to ~No Symbol. In Adobe XD, you can delete the unused items and the layout will adjust through the use of Stacks. Bear in mind that the maximum number of items is limited to 5 and if you need to design application-level navigation with more items or views, consider using the [Navigation Drawer](nav-drawer.md) instead.
 
 <img class="responsive-img" src="../images/bottom-nav_items2.png" srcset="../images/bottom-nav_items2@2x.png 2x" />
 
@@ -33,7 +33,7 @@ Bottom Navigation は、**Active**、Inactive、および Disabled の状態を�
 
 ## 項目コンテンツ テンプレート
 
-Bottom Navigation の項目は、デフォルトでアイコンとテキストの組み合わせとして提供されますが、項目コンテンツ テンプレートに適用されるスマート レイアウト ルールを使用すると、テキスト ラベルを削除して、アイコンのみの項目を作成できます。
+The Bottom Navigation items come as a combination of icon and text by default. In Sketch, the smart layout rules applied to the item content template lets you remove the text label and have an icon-only item when you set the label to ~No Symbol. In Adobe XD, the content is in a Stack and you can achieve the same by deleting the label layer when it is not needed.
 
 <img class="responsive-img" src="../images/bottom-nav_items3_icons.png" srcset="../images/bottom-nav_items3_icons@2x.png 2x" />
 

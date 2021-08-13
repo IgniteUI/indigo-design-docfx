@@ -15,7 +15,7 @@ Dialog コンポーネント シンボルは、メッセージや警告をユー
 
 ## タイプ
 
-Dialog 確認ボタンのみの警告を表示します。キャンセルや確認のメッセージ、あるいは直ちに対応が必要なユーザー ログインなどのコンテナーとして使用します。
+Dialog 確認ボタンのみの警告を表示します。キャンセルや確認のメッセージ、あるいは直ちに対応が必要なユーザー ログインなどのコンテナーとして使用します。Its Button area is templatable, allowing you, for example, to adjust the buttons. To hide one in Sketch, you have to set its main override to ~No Symbol, and thanks to the smart layout the area will adjust accordingly. In Adobe XD, to achieve the same, you should simply delete the unnecessary button and the Stack will adjust the area layout, however, it is also possible to insert another one unlike in Sketch.
 
 <img class="responsive-img" src="../images/dialog_alert.png" srcset="../images/dialog_alert@2x.png 2x" />
 <img class="responsive-img" src="../images/dialog_standard.png" srcset="../images/dialog_standard@2x.png 2x" />

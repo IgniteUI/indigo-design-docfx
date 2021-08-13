@@ -17,7 +17,7 @@ Column Chart は、`Title`、デフォルトで非表示の `Legend`、および
 
 ## タイトル
 
-Column Chart のタイトルは、オーバーライドを ~No Symbol に設定して変更または非表示にできます。
+The Column Chart has a title that can be changed or hidden if not needed. In Sketch, the smart layout takes care to adjust the chart accordingly when you hide the title by setting it to ~No Symbol. In Adobe XD, you can achieve the same by deleting the title layer and leaving it to the Stack to update the layout accordingly.
 
 <img class="responsive-img" src="../images/column_chart_title.png" srcset="../images/column_chart_title@2x.png 2x" />
 
@@ -30,7 +30,7 @@ Column Chart には、Idle と Hover の 2 つの状態があります。Sketch 
 
 ## Y 軸
 
-Column Chart の Y 軸は、Title、Labels、および軸自体で構成されます。Title および Labels は構成可能で、ラベルを非表示にするには、オーバーライドを ~No Symbol に設定します。色を `Transparent` に設定して軸線を非表示にできます。また、すべての要素を非表示にするには、Y 軸のオーバーライドを ~No Symbol に変更します。
+Column Chart の Y 軸は、Title、Labels、および軸自体で構成されます。The Title and the Labels are configurable and to hide a label simply set its override to ~No Symbol in Sketch or delete the layer in Adobe XD. You may hide the axis line by setting its color to `Transparent` and to hide all elements at once, change the Y-axis override to ~No Symbol in Sketch or delete its layer in Adobe XD.
 
 <img class="responsive-img" src="../images/column_chart_yaxis.png" srcset="../images/column_chart_yaxis@2x.png 2x" />
 
@@ -42,7 +42,7 @@ Column Chart には、データ ポイントを Y 軸の値に視覚的にトレ
 
 ## Data Points (テータ ポイント)
 
-Column Chart の Data Points は個々の列で、Sketch の Smart Layout を使用して Chart Area での量を調整できます。X 軸に構成可能なラベルと注釈ラベルがあります。
+Data Points for a Column Chart are the individual columns, arranged in a smart layout in Sketch or a Stack in Adobe XD, making it possible to effortlessly adjust their amount on the Chart Area. Furthermore, the columns come with configurable labels on the X-axis and annotation labels.
 
 <img class="responsive-img" src="../images/column_chart_columns.png" srcset="../images/column_chart_columns@2x.png 2x" />
 

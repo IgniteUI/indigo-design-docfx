@@ -17,19 +17,19 @@ Linear Gauge コンポーネントをデータ可視化に使用して、カラ�
 
 ## Title と Subtitle (タイトルとサブタイトル)
 
-Linear Gauge にはテキストが変更できる Title と Subtitle があります。必要がない場合は、~No Symbol に設定することで、非表示にすることもできます。
+The Linear Gauge has a Title and Subtitle whose text can be changed. In Sketch, they can also be hidden if they are not needed by setting them to ~No Symbol, while in Adobe XD you should delete their respective layers.
 
 <img class="responsive-img" src="../images/linear_gauge_title.png" srcset="../images/linear_gauge_title@2x.png 2x" />
 
 ## Legend (凡例)
 
-Linear Gauge には、表示されている範囲と現在の値に一致するように調整できる Legend が付属しています。Legend 項目は、対応するシリーズを ~No Symbol に設定することで削除するか、Overrides/Charts/Legend/Series で見つけることで追加できます。また、アイコンの種類を Square (四角形)、Line (折れ線)、または Circle (円形) の間で変更できます。
+The Linear Gauge comes with a Legend that can be adjusted accordingly to match the ranges shown on it and the current value. In Sketch, Legend items can be removed by setting the corresponding Series to ~No Symbol or added by finding it in the Overrides/Charts/Legend/Serie. In Adobe XD, you have to delete the unused Series layers, and the layout will adjust automatically. Additionally, you can change the icon type between Square, Line, or Circle.
 
 <img class="responsive-img" src="../images/linear_gauge_legend.png" srcset="../images/linear_gauge_legend@2x.png 2x" />
 
 ## ツールチップ
 
-Linear Gauge には、オーバーライドを ~No Symbol に設定することで非表示にできるツールチップが付属しています。
+The Linear Gauge comes with a tooltip that may be hidden by setting the override to ~No Symbol in Sketch or deleting the layer for it in Adobe XD.
 
 <img class="responsive-img" src="../images/linear_gauge_tooltip-off.png" srcset="../images/linear_gauge_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_tooltip-on.png" srcset="../images/linear_gauge_tooltip-on@2x.png 2x" />

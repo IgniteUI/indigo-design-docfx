@@ -63,7 +63,7 @@ Input は、明暗バリアント (デフォルトは**暗い**) で分かりや
 Sketch では状態と検証状態を `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 ## レイアウト
 
-Input は、テキストとアイコンの組み合わせによってプレフィックスとサフィックスをサポートします。特定の場合、ユーザーの入力作業を軽減できます。たとえば、@email.com サフィックスは、キーストロークが少なくなり、必要なコンテンツがより明確になります。オーバーライドからそれぞれのコンテナーを ~No Symbol に設定すると、プレフィックスまたはサフィックスを削除できます。
+Input は、テキストとアイコンの組み合わせによってプレフィックスとサフィックスをサポートします。特定の場合、ユーザーの入力作業を軽減できます。たとえば、@email.com サフィックスは、キーストロークが少なくなり、必要なコンテンツがより明確になります。In Sketch, to remove the prefix or suffix simply set their override to ~No Symbol, and the smart layout rules will adjust the input accordingly. In Adobe XD, the same can be achieved by deleting the unnecessary prefix or suffix layer and the Stack will take care to adjust the layout accordingly.
 
 <img class="responsive-img" src="../images/input_prefix.png" srcset="../images/input_prefix@2x.png 2x" />
 <img class="responsive-img" src="../images/input_suffix.png" srcset="../images/input_suffix@2x.png 2x" />

@@ -22,7 +22,7 @@ Button Group は、2 方向レイアウトをサポートし、左から右の�
 
 ## ボタン数
 
-Button Group は、スマート レイアウト オプションを使用して、必要なボタンの正確な数を選択し、オーバーライド パネルから ~No Symbol に設定することで余分なボタンを非表示にします。
+In Sketch, the Button Group uses a smart layout allowing it to adjust accordingly when you choose the exact amount of buttons you need and hide the extra ones by setting them to ~No Symbol from the overrides panel. In Adobe XD you can achieve the same by deleting the unnecessary layers with buttons, which will automatically adjust the layout for you.
 
 <img class="responsive-img" src="../images/button-group_amount.png" srcset="../images/button-group_amount@2x.png 2x" />
 

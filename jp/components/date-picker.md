@@ -22,7 +22,7 @@ Date Picker コンポーネントは、日付を視覚的に表現し、フォ�
 
 ## Picker レイアウト
 
-Date Picker は、Horizontal と Vertical 方向の Dialog レイアウト、およびドロップダウン レイアウトをサポートし、日付を選択するさまざまなモードを容易にします。Dialog レイアウトには、オーバーライドを ~No Symbol に設定することで非表示にできる Header が付属していますが、その他にも Dialog レイアウトが投影する影により、Drop-down レイアウトと区別できます。
+The Date Picker supports Dialog layout with Horizontal and Vertical orientation, as well as a Drop-down layout to facilitate different modes of picking dates, casting different shadows to be more easily distinguished from each other. Notice that Dialog layouts come with a Header that you may hide in Sketch by setting its override to ~No Symbol, and through the use of a smart layout everything will adjust accordingly. In Adobe XD, you have to delete the header layer and the layout will adjust through the use of a Stack.
 
 <img class="responsive-img" src="../images/datepicker_horizontal.png" srcset="../images/datepicker_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_vertical.png" srcset="../images/datepicker_vertical@2x.png 2x" />
@@ -37,7 +37,7 @@ Date Picker は、Horizontal と Vertical 方向の Dialog レイアウト、お
 
 ## Week Numbers (週番号)
 
-Date Picker には、Calendar と同じように Week Numbers のサポートが組み込まれています。UI のこの部分を表示したくない場合は、Week Numbers のオーバーライドを ~No Symbol に設定するだけです。
+Date Picker には、Calendar と同じように Week Numbers のサポートが組み込まれています。If you prefer not to show this part of the UI, simply set the Week Numbers override to ~No Symbol in Sketch, and through the use of smart layout, everything will adjust accordingly. In Adobe XD you have to delete the Week Numbers layer to achieve the same and the Stack used there will adjust the layout in a similar fashion.
 
 <img class="responsive-img" src="../images/datepicker_weeknumbers.png" srcset="../images/datepicker_weeknumbers@2x.png 2x" />
 
@@ -49,21 +49,15 @@ Calendar と同様に、Date Picker では 3 つの選択モードから選択�
 <img class="responsive-img" src="../images/datepicker_selection.png" srcset="../images/datepicker_selection@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_range.png" srcset="../images/datepicker_range@2x.png 2x" />
 
-## ボタン
-
-Drop-down Date Picker には 2 つのボタンがあります: 1 つは現在の選択を保持して閉じるためのもので、もう 1 つは今日に移動するためのものです。Button 領域はテンプレート化可能であり、たとえば、オーバーライドを ~No Symbol に設定してボタンを非表示にしたり、別のアクションを割り当てることができます。Dialog Date Picker には、日付を選択するとダイアログが自動的に閉じるため、デフォルトではボタンがありません。
-
-<img class="responsive-img" src="../images/datepicker_buttons.png" srcset="../images/datepicker_buttons@2x.png 2x" />
-
 ## スタイル設定
 
-Time Picker は、さまざまなオプションを通じてヘッダー背景、タイトル色、選択した時間、分、AM/PM のテキストの色を柔軟にスタイル設定できます。Cancel と OK のボタンは、[Flat Buttons](button.md) で状況に応じたスタイル設定が可能です。
+Time Picker は、さまざまなオプションを通じてヘッダー背景、タイトル色、選択した時間、分、AM/PM のテキストの色を柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/datepicker_styling.png" srcset="../images/datepicker_styling@2x.png 2x" />
 
 ## 使用方法
 
-Horizontal と Vertical Time Picker をダイアログで表示し、ダイアログ以外の UI は暗くなります。
+Horizontal と Vertical Dialog Date Picker をダイアログで表示し、ダイアログ以外の UI は暗くなります。
 
 | 良い例                                                                                     | 悪い例                                                                                      |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |

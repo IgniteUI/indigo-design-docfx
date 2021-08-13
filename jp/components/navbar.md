@@ -22,7 +22,7 @@ Navbar には、2 つの異なるタイプのバリエーションがありま�
 
 ## コンテンツのレイアウト
 
-Navbar のコンテンツは、Left Action と Title で構成される左側の領域と、さまざまな操作用の 4 つの隣接するアイコンがある右側の領域に分割されます。Left Action または右側の Icon を ~No Symbol に設定することで、Navbar のレイアウトを構成できます。
+Navbar のコンテンツは、Left Action と Title で構成される左側の領域と、さまざまな操作用の 4 つの隣接するアイコンがある右側の領域に分割されます。You can configure the Navbar layout by setting the Left Action or the Icons to the right to ~No Symbol in Sketch and thanks to the smart layout what is left will adjust automatically. In Adobe XD, the same can be achieved simply by deleting the unnecessary Components, and the layout will be adjusted automatically from the Stack. Furthermore, you may also insert additional Components from the Libraries panel in those areas unlike in Sketch, e.g. to show an Avatar at the far right.
 
 <img class="responsive-img" src="../images/navbar_left&right.png" srcset="../images/navbar_left&right@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_noright.png" srcset="../images/navbar_noright@2x.png 2x" />

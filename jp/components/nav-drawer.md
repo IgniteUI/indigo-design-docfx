@@ -22,7 +22,7 @@ Navigation Drawer は、各項目のアイコンとラベルが付いた**デフ
 
 ## 項目
 
-Navigation Drawer はスマート レイアウトを使用し、最大 21 個の項目を表示できます。正確な数は、不要な項目を ~No Symbol に設定することで構成できます。
+The Navigation Drawer can show up to 21 Items in Sketch that can be reduced by setting the unnecessary ones to ~No Symbol from the overrides panel and thanks to the smart layout the rest will adjust automatically. In Adobe XD if you need fewer items, simply delete the unnecessary ones. Unlike in Sketch, you can have more than 21 items by duplicating existing ones and even rearrange their order by dragging them around. At the end of any of these manipulations, the layout will be adjusted from the Stack applied to the collection of items.
 
 <img class="responsive-img" src="../images/nav-drawer_default.png" srcset="../images/nav-drawer_default@2x.png 2x" />
 
