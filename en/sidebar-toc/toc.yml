@@ -244,6 +244,9 @@
       href: ../components/switch.md
     - name: Tabs
       href: ../components/tabs.md
+    - name: Text Area
+      href: ../components/textarea.md
+      new: true
     - name: Time Picker
       href: ../components/time-picker.md
     - name: Toast

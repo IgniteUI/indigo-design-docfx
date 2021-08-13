@@ -87,6 +87,8 @@ Use the box type of Input when placing forms on top of an image to improve reada
 
 Related topics:
 
+- [Combo](combo.md)
+- [Select](select.md)
 - [Form Pattern](../patterns/form.md)
 - [User Profile Pattern](../patterns/user-profile.md)
   <div class="divider--half"></div>
