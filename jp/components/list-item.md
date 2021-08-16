@@ -5,7 +5,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-# List Item (リスト アイテム)
+# List Item (リスト項目)
 
 List Item を使用して、テキスト、アイコン、画像、および Switch や Checkbox などのコンポーネントを含む List コンポーネントに繰り返し情報を表示し、ユーザーが可能なアクションを実行できるようにします。List Item は、[Ignite UI for Angular List コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/list.html)と視覚的に同じものです。
 
@@ -30,9 +30,9 @@ Items は、次のインタラクティブ状態をサポートします: 通常
 
 ## 領域
 
-Sketch では、List Item には 2 つの異なる領域があります: Avatar やテキストなどの非インタラクティブ コンテンツを使用した Primary Action と、List Item に関連するクイック アクションを使用した Secondary Action。Primary Action と Secondary Action を任意に組み合わせると、リストのすべてのアイテムで一貫して使用する必要がある一意のリスト アイテム テンプレートが作成されます。
+Sketch では、List Item には 2 つの異なる領域があります: Avatar やテキストなどの非インタラクティブ コンテンツを使用した Primary Action と、List Item に関連するクイック アクションを使用した Secondary Action。Primary Action と Secondary Action を任意に組み合わせると、リストのすべての項目で一貫して使用する必要がある一意のリスト項目テンプレートが作成されます。
 
-Adobe XD では、リスト アイテムには、Avatar、Progress bar、テキストなどの非インタラクティブ コンテンツが配置されたグループと、アイテムの右側にアクション可能なアイコンを含む Actions コンポーネントがあります。どちらの領域でも、`Libraries` パネルから任意のコンポーネントをドラッグして、テンプレート内のコンポーネントやアイテム自体を破棄することなく、必要なレイアウトを作成できます。
+Adobe XD では、リスト項目には、Avatar、Progress bar、テキストなどの非インタラクティブ コンテンツが配置されたグループと、項目の右側にアクション可能なアイコンを含む Actions コンポーネントがあります。どちらの領域でも、`Libraries` パネルから任意のコンポーネントをドラッグして、テンプレート内のコンポーネントや項目自体を破棄することなく、必要なレイアウトを作成できます。
 
 <img class="responsive-img" src="../images/list_item_primary.png" srcset="../images/list_item_primary@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />

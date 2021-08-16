@@ -78,16 +78,16 @@ Combo に使用される Dropdown は、標準 [Dropdown](dropdown.md) コンポ
 
 Dropdown には、暗いバリエーションと明るいバリエーションが付属する Search Input、状態の選択、および標準の [Input](input.md) と同様のレイアウトのオプションが含まれています。
 
-## Dropdown 項目
+## Dropdown Items (項目)
 
 Combo に使用される Dropdown は、ヘッダーと複数選択項目の 2 種類の項目をサポートします。ヘッダーを介して、項目をグループに体系化できます。In Sketch, the dropdown uses a smart layout allowing it to adjust accordingly when one or more of its items are set to ~No Symbol. In Adobe XD you should delete the unnecessary ones, and the layout will adjust through the use of a Stack.
 
 <img class="responsive-img" src="../images/combo_header.png" srcset="../images/combo_header@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_multiselect_item.png" srcset="../images/combo_multiselect_item@2x.png 2x" />
 
-## Dropdown 項目状態
+## Dropdown Item の状態
 
-Combo 内の Dropdown 項目は、5 つの状態をサポートします: disabled, **idle**、focused、selected、selected&focused。
+Combo 内の Dropdown Item は、5 つの状態をサポートします: disabled、**idle**、focused、selected、selected&focused。
 
 <img class="responsive-img" src="../images/combo_item_disabled.png" srcset="../images/combo_item_disabled@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_item_idle.png" srcset="../images/combo_item_idle@2x.png 2x" />
