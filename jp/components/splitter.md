@@ -1,43 +1,43 @@
 ---
-title: Splitter - Design System Component
-_description: The Splitter Component Symbol creates layouts split into panes that may be resized, expanded, and collapsed.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+title: Splitter - デザイン システム コンポーネント
+_description: Splitter コンポーネント シンボルは、サイズ変更、展開、および縮小が可能なペインに分割されたレイアウトを作成します。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
-# Splitter
+# Splitter (スプリッター)
 
-Use the Splitter Component to create dynamic layouts split into vertically or horizontally arranged panes. Panes are separated by the splitter bars that allow dragging to resize or expand/collapse them. The Splitter is visually identical to the [Ignite UI for Angular Splitter Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/splitter.html).
+Splitter コンポーネントを使用して、垂直または水平に配置されたペインに分割された動的レイアウトを作成します。ペインはスプリッター バーで区切られているため、ドラッグしてサイズを変更したり、展開/縮小することができます。Splitter は、[Ignite UI for Angular Splitter コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/splitter.html)と視覚的に同じです。
 
-## Splitter Demo
+## Splitter のデモ
 
 <img class="responsive-img" src="../images/splitter_demo.png" srcset="../images/splitter_demo@2x.png 2x" />
 
-## Orientation
+## 方向
 
-The Splitter supports two orientations: **Vertical** and Horizontal. The vertical splitter is used to split panes horizontally, and the horizontal splitter is used to split panes vertically.
+Splitter は、**Vertical (垂直方向)** と Horizontal (水平方向) の 2 つの方向をサポートします。垂直スプリッターはペインを水平方向に分割するために使用され、水平スプリッターはペインを垂直方向に分割するために使用されます。
 
 <img class="responsive-img" src="../images/splitter_orientation.png" srcset="../images/splitter_orientation@2x.png 2x" />
 
-## Nested Panes
+## ネストされたペイン
 
-The Splitter consists of at least one bar and two panes. The panes are placeholders, and the splitter bar is between them to allow resizing by dragging its handle or expand/collapse by clicking the arrow icons on the bar. You can nest splitter components to create more elaborate layouts in a fashion like it is shown below.
+Splitter は、少なくとも 1 つのバーと 2 つのペインで構成されます。ペインはプレースホルダーであり、スプリッター バーはそれらの間にあり、ハンドルをドラッグしてサイズを変更したり、バーの矢印アイコンをクリックして展開/縮小できます。スプリッター コンポーネントをネストして、以下に示すような方法でより複雑なレイアウトを作成できます。
 
 <img class="responsive-img" src="../images/splitter_nested_panes.png" srcset="../images/splitter_nested_panes@2x.png 2x" />
 
-## Styling
+## スタイル設定
 
-The Splitter can be styled by changing the color of the icons.
+Splitter は、アイコンの色を変更することでスタイルを設定できます。
 
 <img class="responsive-img" src="../images/splitter_styling.png" srcset="../images/splitter_styling@2x.png 2x" />
 
   <div class="divider--half"></div>
 
-  ## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Icon](icon.md)
   <div class="divider--half"></div>
   
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
