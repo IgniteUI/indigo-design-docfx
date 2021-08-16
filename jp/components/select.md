@@ -1,23 +1,23 @@
 ---
-title: Select - Design System Component
-_description: The Select Component Symbol allows a single selection from a list of items placed in a dropdown.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+title: Select - デザイン システム コンポーネント
+_description: Select コンポーネントは、ドロップダウンに配置された項目のリストからの単一選択できます。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch UI キット, Sketch HTML, Sketch to HTML
 _language: ja
 ---
 
-# Select
+# Select (選択)
 
-Use the Select Component to let the user choose a single option from a scrollable list of items placed in a dropdown. The Select is a type of input for users to submit data. If your scenario requires the selection of multiple items, you should use the [Combo](combo.md) instead. The Select is visually identical to the [Ignite UI for Angular Select Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/select.html).
+Select コンポーネントを使用して、ユーザーがドロップダウンに配置された項目のスクロール可能なリストから 1 つのオプションを選択できるようにします。Select は、ユーザーがデータを送信するための入力の一種です。シナリオで複数の項目を選択する必要がある場合は、代わりに [Combo](combo.md) を使用する必要があります。Select は、[Ignite UI for Angular Select コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/select.html)と視覚的に同じものです。
 
-## Select Demo
+## Select のデモ
 
-The Select is built by combining an input containing the current selection with a dropdown that appears to let you select an item.
+Select は、現在の選択を含む入力と、項目を選択できるように表示されるドロップダウンを組み合わせて作成されます。
 
 <img class="responsive-img" src="../images/select_demo.png" srcset="../images/select_demo@2x.png 2x" />
 
-## Input Type
+## Input タイプ
 
-The Select supports the same three input types typical for the [Input](input.md) component: a line type for a more airy style, border type for a more structured perception on solid color backgrounds, and a boxed type that is most appropriate when placed on top of a vivid image to improve readability.
+[Input](input.md) コンポーネントのように Select は線タイプ (エアリー スタイル)、境界線タイプ (単色背景でよりはっきりと表示)、より読みやすくするために鮮明な画像の上に配置する際に最適なボックス タイプから選択が可能です。
 
 <img class="responsive-img" src="../images/select_line.png" srcset="../images/select_line@2x.png 2x" />
 `line`
@@ -26,23 +26,23 @@ The Select supports the same three input types typical for the [Input](input.md)
 <img class="responsive-img" src="../images/select_box.png" srcset="../images/select_box@2x.png 2x" />
 `box`
 
-## Interaction State
+## 操作状態
 
-Each of the three Select input types above can be inserted either in an enabled or a disabled state.
+3 つの Select 入力タイプはそれぞれ、有効または無効の状態で挿入できます。
 
 <img class="responsive-img" src="../images/select_enabledstate.png" srcset="../images/select_enabledstate@2x.png 2x" />
 <img class="responsive-img" src="../images/select_disabledstate.png" srcset="../images/select_disabledstate@2x.png 2x" />
 
-## Input Variant
+## 入力バリアント
 
-The Select input can be used styled in **dark** and light variants to ensure good readability and contrast for both lighter and darker backgrounds.
+Select 入力は、明暗バリアントで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます (デフォルト設定は**暗い**です)。
 
 <img class="responsive-img" src="../images/select_dark.png" srcset="../images/select_dark@2x.png 2x" />
 <img class="responsive-img" src="../images/select_light.png" srcset="../images/select_light@2x.png 2x" />
 
-## State
+## 状態
 
-When the user interacts with the Select, its input goes through various selection states: **idle** with a placeholder in the place of the content, focused when the dropdown is open, filled once the user has finished with selection and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
+ユーザーが Select を操作すると、その入力はさまざまな選択状態になります。コンテンツの代わりにプレースホルダーを使用して **idle** 状態になり、ドロップダウンが開いているときの focused 状態、ユーザーが選択を終了して次に進むときの filled 状態です。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 
 <img class="responsive-img" src="../images/select_idle.png" srcset="../images/select_idle@2x.png 2x" />
 `idle`
@@ -53,7 +53,7 @@ When the user interacts with the Select, its input goes through various selectio
 <img class="responsive-img" src="../images/select_filled.png" srcset="../images/select_filled@2x.png 2x" />
 `filled`
 
-Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Select is consistent with the standard [Input](input.md) and equipped for sophisticated designs that display success, warning, and error visuals.
+経験豊富なデザイナーは、ユーザー入力を制限して無効な状態を防止するために、検証スタイルを使用します。Select の検証スタイルには統一感のある標準 [Input](input.md) があり、success (成功)、warning (警告)、error (エラー) を表示する洗練されたデザインを提供します。
 
 <img class="responsive-img" src="../images/select_success.png" srcset="../images/select_success@2x.png 2x" />
 `success`
@@ -62,20 +62,20 @@ Every experienced designer uses constraints wisely to limit the user input and a
 <img class="responsive-img" src="../images/select_error.png" srcset="../images/select_error@2x.png 2x" />
 `error`
 
-In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
+Sketch では状態と検証状態を `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 > [!NOTE]
-> The Select input has only one layout option, but this override has been preserved in Sketch to ensure consistency with the standard [Input](input.md).
+> Select 入力はレイアウ トオプションが 1 つしかありませんが、このオーバーライドは、標準 [Input](input.md) との一貫性を確保するために Sketch で保持されています。
 
-## Dropdown Items
+## Dropdown Items (ドロップダウン項目)
 
-The dropdown items used for the Select support only the single selection type.
+Select に使用されるドロップダウン項目は、単一の選択タイプのみをサポートします。
 
 <img class="responsive-img" src="../images/select_item.png" srcset="../images/select_item@2x.png 2x" />
 
-## Dropdown Item States
+## Dropdown Item の状態
 
-The dropdown items within the Select support five different states: disabled, **idle**, focused, selected, and selected&focused. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
+Select 内の Dropdown Item は、5 つの状態をサポートします: disabled、**idle**、focused、selected、focused&selected。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/select_item_disabled.png" srcset="../images/select_item_disabled@2x.png 2x" />
 `disabled`
@@ -88,28 +88,28 @@ The dropdown items within the Select support five different states: disabled, **
 <img class="responsive-img" src="../images/select_item_selected_focused.png" srcset="../images/select_item_selected_focused@2x.png 2x" />
 `selected&focused`
 
-## Styling
+## スタイル設定
 
-The Select comes with the combined styling flexibility of its input and dropdown items. There are options for the input text elements' color and bottom line style and color. For the dropdown items, one may change their background and text colors.
+Select は入力とドロップダウン項目でスタイルの組み合わせに柔軟性があります。入力テキスト要素の色と最終的な行のスタイルと色にはオプションがあります。ドロップダウン項目の場合、背景とテキストの色を変更できます。
 
 <img class="responsive-img" src="../images/select_styling.png" srcset="../images/select_styling@2x.png 2x" />
 
-## Usage
+## 使用方法
 
-When using the Select, its input and dropdown should have the same width and their left and right borders should match. When the Select is focused, the dropdown can be shown above the input and hide it until an item is chosen from the list, and you should always show the dropdown on top of other content that is on the same surface with the Select input. The Select doesn't push content as the expansion panel does.
+Select を使用する際に入力とドロップダウンは同じ幅で左右の境界線が一致する必要があります。Select がフォーカスされている場合、ドロップダウンは入力の上に表示され、リストから項目が選択されるまで非表示になります。ドロップダウンは、選択入力と同じ表面にある他のコンテンツの上に常に表示する必要があります。Select は、展開パネルのようにコンテンツをプッシュしません。
 
-| Do                                                                           | Don't                                                                            |
+| 良い例                                                                           | 悪い例                                                                            |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/select_do1.png" srcset="../images/select_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/select_dont1.png" srcset="../images/select_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/select_do2.png" srcset="../images/select_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/select_dont2.png" srcset="../images/select_dont2@2x.png 2x" /> |
 
-## Additional Resources
+## その他のリソース
 
-Related topics:
+関連トピック:
 
 - [Combo](combo.md)
 - [Input](input.md)
-- [Form Pattern](../patterns/form.md)
+- [Form パターン](../patterns/form.md)
   <div class="divider--half"></div>
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。

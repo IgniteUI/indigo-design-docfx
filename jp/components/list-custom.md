@@ -8,7 +8,7 @@ _language: ja
 > [!NOTE]
 > このトピックは、<b>Sketch ライブラリ</b>のユーザーにのみ関連します。
 
-# Custom List Item (カスタム リスト アイテム)
+# Custom List Item (カスタム リスト項目)
 
 Sketch の Custom List Item コンポーネントを使用して、通常の List Item と同じタイプの情報を表示しますが、レイアウトを自由に配置できます。
 
@@ -23,7 +23,7 @@ Custom List Item はオーバライドとして以下のインアクティブ状
 <img class="responsive-img" src="../images/list_item_custom_inactive.png" srcset="../images/list_item_custom_inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_custom_active.png" srcset="../images/list_item_custom_active@2x.png 2x" />
 
-## Using the Custom List Item
+## Custom List Item の使用
 
 List Item レイアウトをカスタマイズするには、`List/Custom/Item` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下の方にある `Detach from Symbol` オプションを選択します。新しく表示される `List/Custom/Item` グループの下のレイヤー パネルには以下があります。
 
