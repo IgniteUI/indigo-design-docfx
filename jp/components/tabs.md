@@ -29,7 +29,8 @@ Tabs は、幅を調整することで使用可能な水平方向のスペース
 
 ## Tabs の量
 
-For most scenarios, the Tabs need to contain between two and five items. To remove an item in Sketch, set its override to ~No Symbol and the smart layout will adjust the remaining ones. To achieve the same in Adobe XD, you should delete the unnecessary items and the Stack will take care to lay out the remaining ones. If your use case requires more than five tabs, you should consider the Fixed mode explained above.
+ほとんどのケースでは、Tabs に 2 つ ~ 5 つ の項目を含める必要があります。
+Sketch で項目を削除するには、オーバーライドを ~No Symbol に設定し、スマート レイアウトは残りの項目を調整します。Adobe XD で同じことを実行するには、不要な項目を削除し、Stack は残りの項目を配置します。ユースケースで 5 つ以上のタブが必要な場合、上記で説明した Fixed モードを検討してください。
 
 <img class="responsive-img" src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
@@ -38,7 +39,7 @@ For most scenarios, the Tabs need to contain between two and five items. To remo
 
 ## 短いバー コンテンツ
 
-The short bar comes with text content by default. If you want to show an icon instead, you have to assign a Material Icon to the `🔣 Icon` override and set the `🏷️ Label` to ~No Symbol in Sketch for every tab in the bar. To achieve a similar result in Adobe XD make sure that either `🔣 Icon` or `🏷️ Label` layer exists and is visible, and the other one has been deleted for every tab in the bar.
+短いバーにはデフォルトでテキスト コンテンツが含まれます。代わりにアイコンを表示する場合は、マテリアル アイコンを `🔣 Icon` オーバーライドに割り当て、バーのすべてのタブで `🏷️ Label` を ~No Symbol に設定する必要があります。Adobe XD で同様の結果を得るには、`🔣 Icon` または `🏷️ Label` レイヤーが存在し、表示されていることと、バーのすべてのタブでもう 1 つが削除されていることを確認してください。
 
 <img class="responsive-img" src="../images/tabs_text.png" srcset="../images/tabs_text@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_icons.png" srcset="../images/tabs_icons@2x.png 2x" />

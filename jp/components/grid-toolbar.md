@@ -15,7 +15,7 @@ Grid ツールバーは、グリッド全体の外観と動作に影響するア
 
 ## レイアウト
 
-Grid ツールバーは Sketch の Smart Layout を使用し、交換可能なデフォルト操作とカスタム操作を備えているため、コンテンツとレイアウトを完全に自由に変更できます。If you want to hide an action, you have to set it to ~No Symbol. To do so in Adobe XD, you have to delete the unnecessary actions, and the layout will adjust thanks to the use of a Stack.
+Grid ツールバーは Sketch のスマート レイアウトを使用し、交換可能なデフォルト操作とカスタム操作を備えているため、コンテンツとレイアウトを完全に自由に変更できます。操作を非表示にするには、~No Symbol に設定する必要があります。Adobe XD でこれを行うには、不要な操作を削除する必要があり、Stack を使用することでレイアウトが調整されます。
 
 <img class="responsive-img" src="../images/grid_toolbar_layout.png" srcset="../images/grid_toolbar_layout@2x.png 2x" />
 

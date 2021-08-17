@@ -33,7 +33,7 @@ Skeleton Card は、標準の [Card](card.md) の `image` (画像)、`header` (�
 
 ## 操作
 
-スケルトン操作には、標準の [Card](card.md) と同じ 6 つのレイアウトがあります。They are also defined with a smart layout in Sketch, letting you remove elements by setting them to ~No Symbol and have the rest automatically adjust to the desired layout. In Adobe XD, the use of a Stack lets you achieve the same when you remove unnecessary components.
+スケルトン操作には、標準の [Card](card.md) と同じ 6 つのレイアウトがあります。スケルトン操作には、標準の [Card](card.md) と同じ 6 つのレイアウトがあります。これらは Sketch の Smart Layout で定義されており、要素を ~No Symbol に設定して削除し、残りを目的のレイアウトに自動的に調整できます。Adobe XD では、Stack を使用して不要なコンポーネントを削除する場合も同様です。
 
 <img class="responsive-img" src="../images/card_skeleton_actions_buttons_icons.png" srcset="../images/card_skeleton_actions_buttons_icons@2x.png 2x" />
 
@@ -49,7 +49,7 @@ Skeleton Card は、標準の [Card](card.md) の `image` (画像)、`header` (�
 
 ## Skeleton Card のレイアウト
 
-Through the use of a smart layout in Sketch and a Stack in Adobe XD, the Skeleton Card can produce various layouts by excluding certain areas or elements to allow the creation of a variety of cards based upon the same Component initially in a similar way like the standard [Card](card.md) does.
+Sketch のスマート レイアウト とAdobe XD の Stack を使用することで、Skeleton Card は特定の領域または要素を除外してさまざまなレイアウトを作成し、最初は同じコンポーネントに基づいてさまざまなカードを作成できます (標準の [Card](card.md) と同様の方法で)。
 
 <img class="responsive-img" src="../images/card_skeleton_demo.png" srcset="../images/card_skeleton_demo@2x.png 2x" />
 

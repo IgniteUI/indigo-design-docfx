@@ -21,7 +21,7 @@ Banner の Message は、Icon (アイコン) と Text (テキスト) フィー�
 
 ## Actions (アクション)
 
-Actions 領域には、デフォルトで 2 つの Button コンポーネントが含まれています。1 つだけが必要な場合、または両方を削除する場合は、Sketch で ~No Symbol に設定すると、スマート レイアウトですべてが調整されます。Adobe XD では、不要なボタン レイヤーを削除し、適用された Stack に依存してインターフェイスを調整することで、同じことを実現できます。 さらに、[Libraries] パネルから [Actions] 領域にドラッグすることで、アクションを追加したり、さまざまなコンポーネントを使用したりすることもできます。
+Actions 領域には、デフォルトで 2 つの Button コンポーネントが含まれています。1 つだけが必要な場合、または両方を削除する場合は、Sketch で ~No Symbol に設定すると、スマート レイアウトですべてが調整されます。Adobe XD では、不要なボタン レイヤーを削除し、適用された Stack に依存してインターフェイスを調整することで、同じことを実現できます。さらに、[Libraries] パネルから [Actions] 領域にドラッグすることで、アクションを追加したり、さまざまなコンポーネントを使用したりすることもできます。
 
 <img class="responsive-img" src="../images/banner_actions.png" srcset="../images/banner_actions@2x.png 2x" />
 

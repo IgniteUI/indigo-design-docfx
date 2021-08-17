@@ -37,27 +37,29 @@ Chip は 3 つの密度バリアントがサポートされます。
 
 ## Chip の選択
 
-When a Chip is selected, a special check icon will appear at the far left to indicate this. The `🔣 Selection Icon` override provides the means to trigger this functionality in Sketch. The smart layout rules applied to the Chip adjust its layout accordingly. 
-In Adobe XD, the `🔣 Selection Icon` layer has to be made visible to achieve the same and the Stack on the Chip will adjust its layout in a similar way. If you don't want the Chip to be selected, simply delete the `🔣 Selection Icon` layer. 
+Chip を選択すると、これを示す特別なチェック アイコンが左端に表示されます。
+`🔣 Selection Icon` オーバーライドは、この機能を Sketch でトリガーする手段を提供します。
+Chip に適用されるスマート レイアウト ルールはレイアウトを調整します。
+Adobe XD では、`🔣 Selection Icon` レイヤーを表示する必要があり、Chip の Stack も同様にレイアウトを調整します。Chip を選択したくない場合は、`🔣 Selection Icon` レイヤーを削除します。
 
 <img class="responsive-img" src="../images/chip_idle_selected.png" srcset="../images/chip_idle_selected@2x.png 2x" />
 
 ## Chip の削除
 
-When a chip can be removed, a special cancel icon will appear at the far right to indicate this. The `🔣 Remove Icon` override provides the means to trigger this functionality in Sketch. The smart layout rules applied to the Chip adjust its layout accordingly. 
+Chip を削除することが可能であると、これを示す特別なキャンセル アイコンが右端に表示されます。`🔣 Remove Icon` オーバーライドは、この機能を Sketch でトリガーする手段を提供します。Chip に適用されるスマート レイアウト ルールはレイアウトを調整します。
 
-In Adobe XD, the `🔣 Remove Icon` layer has to be made visible to achieve the same and the Stack on the Chip will adjust its layout in a similar way. If you don't want the Chip to be removable, simply delete the `🔣 Remove Icon` layer.
+Adobe XD では、`🔣 Remove Icon` レイヤーを表示する必要があり、Chip の Stack も同様にレイアウトを調整します。Chip を削除可能にしたくない場合は、`🔣 Remove Icon` レイヤーを削除します。
 
 <img class="responsive-img" src="../images/chip_idle_removable.png" srcset="../images/chip_idle_removable@2x.png 2x" />
 `idle and removable`
 
 ## Chip コンテンツ
 
-The Chip has rich support for content templating via the prefix and suffix containers allowing to insert icons and text before and after the main label. 
+Chip は、prefix および suffix コンテナーを介したコンテンツ テンプレートをサポートしており、Chip のメイン ラベルの前後にアイコンとテキストを挿入できます。
 
-In Sketch, prefix and suffix containers can be added by finding them in the Overrides/Input/Prefix/Container and Overrides/Input/Suffix/Container or removed by setting them to ~No Symbol, upon which the layout will adjust accordingly. 
+Sketch では、Overrides/Input/Prefix/Container および Overrides/Input/Suffix Container でプレフィックスおよびサフィックス コンテナーを追加するか、~No Symbol に設定して削除できます。
 
-In Adobe XD, you have to make the desired layers visible and delete the unnecessary elements from them. If you want to remove a prefix or suffix all at once, simply delete it altogether. In the end, the layout will adjust thanks to the Stack that is being used.
+Adobe XD では、目的のレイヤーを表示し、不要な要素を削除する必要があります。プレフィックスまたはサフィックスを一度に削除するには、削除します。最終的に、使用されている Stack によってレイアウトが調整されます。
 
 <img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
 `Text`
