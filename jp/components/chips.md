@@ -37,9 +37,8 @@ Chip は 3 つの密度バリアントがサポートされます。
 
 ## Chip の選択
 
-Chip を選択すると、これを示す特別なチェック アイコンが左端に表示されます。
-`🔣 Selection Icon` オーバーライドは、この機能を Sketch でトリガーする手段を提供します。
-Chip に適用されるスマート レイアウト ルールはレイアウトを調整します。
+Chip を選択すると、これを示す特別なチェック アイコンが左端に表示されます。`🔣 Selection Icon` オーバーライドは、この機能を Sketch でトリガーする手段を提供します。Chip に適用されるスマート レイアウト ルールはレイアウトを調整します。
+
 Adobe XD では、`🔣 Selection Icon` レイヤーを表示する必要があり、Chip の Stack も同様にレイアウトを調整します。Chip を選択したくない場合は、`🔣 Selection Icon` レイヤーを削除します。
 
 <img class="responsive-img" src="../images/chip_idle_selected.png" srcset="../images/chip_idle_selected@2x.png 2x" />
@@ -57,7 +56,7 @@ Adobe XD では、`🔣 Remove Icon` レイヤーを表示する必要があり�
 
 Chip は、prefix および suffix コンテナーを介したコンテンツ テンプレートをサポートしており、Chip のメイン ラベルの前後にアイコンとテキストを挿入できます。
 
-Sketch では、Overrides/Input/Prefix/Container および Overrides/Input/Suffix Container でプレフィックスおよびサフィックス コンテナーを追加するか、~No Symbol に設定して削除できます。
+Sketch では、Overrides/Input/Prefix/Container および Overrides/Input/Suffix/Container でプレフィックスおよびサフィックス コンテナーを追加するか、~No Symbol に設定して削除できます。
 
 Adobe XD では、目的のレイヤーを表示し、不要な要素を削除する必要があります。プレフィックスまたはサフィックスを一度に削除するには、削除します。最終的に、使用されている Stack によってレイアウトが調整されます。
 

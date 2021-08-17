@@ -29,8 +29,7 @@ Tabs は、幅を調整することで使用可能な水平方向のスペース
 
 ## Tabs の量
 
-ほとんどのケースでは、Tabs に 2 つ ~ 5 つ の項目を含める必要があります。
-Sketch で項目を削除するには、オーバーライドを ~No Symbol に設定し、スマート レイアウトは残りの項目を調整します。Adobe XD で同じことを実行するには、不要な項目を削除し、Stack は残りの項目を配置します。ユースケースで 5 つ以上のタブが必要な場合、上記で説明した Fixed モードを検討してください。
+ほとんどのケースでは、Tabs に 2 つ ~ 5 つ の項目を含める必要があります。Sketch で項目を削除するには、オーバーライドを ~No Symbol に設定し、スマート レイアウトは残りの項目を調整します。Adobe XD で同じことを実行するには、不要な項目を削除し、Stack は残りの項目を配置します。ユースケースで 5 つ以上のタブが必要な場合、上記で説明した Fixed モードを検討してください。
 
 <img class="responsive-img" src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
