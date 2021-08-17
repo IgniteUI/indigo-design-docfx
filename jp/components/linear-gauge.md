@@ -17,32 +17,32 @@ Linear Gauge コンポーネントをデータ可視化に使用して、カラ�
 
 ## Title と Subtitle (タイトルとサブタイトル)
 
-Linear Gauge にはテキストが変更できる Title と Subtitle があります。必要がない場合は、~No Symbol に設定することで、非表示にすることもできます。
+Linear Gauge にはテキストが変更できる Title と Subtitle があります。Sketch では、~No Symbol に設定して不要な場合は非表示にできますが、Adobe XD では各レイヤーを削除します。
 
 <img class="responsive-img" src="../images/linear_gauge_title.png" srcset="../images/linear_gauge_title@2x.png 2x" />
 
 ## Legend (凡例)
 
-Linear Gauge には、表示されている範囲と現在の値に一致するように調整できる Legend が付属しています。Legend 項目は、対応するシリーズを ~No Symbol に設定することで削除するか、Overrides/Charts/Legend/Series で見つけることで追加できます。また、アイコンの種類を Square (四角形)、Line (折れ線)、または Circle (円形) の間で変更できます。
+Linear Gauge には、表示されている範囲と現在の値に一致するように調整できる凡例が付属しています。Sketch で凡例項目は、対応するシリーズを ~No Symbol に設定することで削除するか、Overrides/Charts/Legend/Series で見つけることで追加できます。Adobe XD では、未使用の Series レイヤーを削除する必要があり、レイアウトは自動的に調整されます。また、アイコンの種類を Square、Line、または Circle の間で変更できます。
 
 <img class="responsive-img" src="../images/linear_gauge_legend.png" srcset="../images/linear_gauge_legend@2x.png 2x" />
 
 ## ツールチップ
 
-Linear Gauge には、オーバーライドを ~No Symbol に設定することで非表示にできるツールチップが付属しています。
+Linear Gauge のツールチップは Sketch でオーバーライドを ~No Symbol に設定するか、Adobe XD でレイヤーを削除すると非表示になります。
 
 <img class="responsive-img" src="../images/linear_gauge_tooltip-off.png" srcset="../images/linear_gauge_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_tooltip-on.png" srcset="../images/linear_gauge_tooltip-on@2x.png 2x" />
 
 ## 針のタイプ
 
-Linear Gauge は、現在の値を示す針の形 (**wide triangle**、needle、trapezoid、および triangle) を制御するさまざまなオーバライドをサポートします。
+Linear Gauge は、現在の値を示す針の形 (**wide triangle**、needle、trapezoid、および triangle) を制御するさまざまなオーバライドをサポートします。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単にタイプを切り替えることができます。
 
 <img class="responsive-img" src="../images/linear_gauge_needle_type.png" srcset="../images/linear_gauge_needle_type@2x.png 2x" />
 
 ## 範囲のサイズ
 
-Linear Gauge は、リニア済みの 3 つの範囲 (2 つ、**3 つ**、4 つ) 設定があります。
+Linear Gauge は、リニア済みの 3 つの範囲 (2 つ、**3 つ**、4 つ) 設定があります。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に範囲を切り替えることができます。
 
 <img class="responsive-img" src="../images/linear_gauge_two_ranges.png" srcset="../images/linear_gauge_two_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />

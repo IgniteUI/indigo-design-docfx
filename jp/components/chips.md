@@ -27,7 +27,7 @@ Chip は 3 つの密度バリアントがサポートされます。
 
 ## Chip 状態
 
-ユーザーが Chip を操作すると、デフォルトの**アイドル**状態からフォーカスに、またはその逆に変化します。これには、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
+ユーザーが Chip を操作すると、デフォルトの**アイドル**状態からフォーカスに、またはその逆に変化します。これには、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
 `idle`
@@ -37,20 +37,28 @@ Chip は 3 つの密度バリアントがサポートされます。
 
 ## Chip の選択
 
-Chip を選択すると、これを示す特別なチェック アイコンが左端に表示されます。`🔣 Selection Icon` オーバーライドは、この機能をトリガーする手段を提供します。
+Chip を選択すると、これを示す特別なチェック アイコンが左端に表示されます。`🔣 Selection Icon` オーバーライドは、この機能を Sketch でトリガーする手段を提供します。Chip に適用されるスマート レイアウト ルールはレイアウトを調整します。
+
+Adobe XD では、`🔣 Selection Icon` レイヤーを表示する必要があり、Chip の Stack も同様にレイアウトを調整します。Chip を選択したくない場合は、`🔣 Selection Icon` レイヤーを削除します。
 
 <img class="responsive-img" src="../images/chip_idle_selected.png" srcset="../images/chip_idle_selected@2x.png 2x" />
 
 ## Chip の削除
 
-Chip を削除することが可能であると、これを示す特別なキャンセル アイコンが右端に表示されます。`🔣 Remove Icon` オーバーライドは、この機能をトリガーする手段を提供します。
+Chip を削除することが可能であると、これを示す特別なキャンセル アイコンが右端に表示されます。`🔣 Remove Icon` オーバーライドは、この機能を Sketch でトリガーする手段を提供します。Chip に適用されるスマート レイアウト ルールはレイアウトを調整します。
+
+Adobe XD では、`🔣 Remove Icon` レイヤーを表示する必要があり、Chip の Stack も同様にレイアウトを調整します。Chip を削除可能にしたくない場合は、`🔣 Remove Icon` レイヤーを削除します。
 
 <img class="responsive-img" src="../images/chip_idle_removable.png" srcset="../images/chip_idle_removable@2x.png 2x" />
 `idle and removable`
 
 ## Chip コンテンツ
 
-Chip は、prefix および suffix コンテナを介したコンテンツ テンプレートをサポートしており、Chip のメイン テキスト コンテンツの前後にアイコンとテキストを挿入できます。
+Chip は、prefix および suffix コンテナーを介したコンテンツ テンプレートをサポートしており、Chip のメイン ラベルの前後にアイコンとテキストを挿入できます。
+
+Sketch では、Overrides/Input/Prefix/Container および Overrides/Input/Suffix/Container でプレフィックスおよびサフィックス コンテナーを追加するか、~No Symbol に設定して削除できます。
+
+Adobe XD では、目的のレイヤーを表示し、不要な要素を削除する必要があります。プレフィックスまたはサフィックスを一度に削除するには、削除します。最終的に、使用されている Stack によってレイアウトが調整されます。
 
 <img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
 `Text`
@@ -66,7 +74,7 @@ Chip は、prefix および suffix コンテナを介したコンテンツ テ�
 
 ## Chip のスタイル設定
 
-Chip には、境界線と背景色のさまざまなオプション、およびテキストと Prefix、Suffix、選択、および適用可能な場合はアイコンの色の削除を通じて、スタイルの柔軟性があります。
+Chip は、境界線と背景色のさまざまなオプション、およびテキストと Prefix、Suffix、選択、および適用可能な場合はアイコンの色の削除を通じて柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/chip_styling.png" srcset="../images/chip_styling@2x.png 2x" />
 

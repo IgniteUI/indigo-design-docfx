@@ -17,26 +17,26 @@ Bullet Graph コンポーネントをデータ可視化に使用し、カラー�
 
 ## Title と Subtitle (タイトルとサブタイトル)
 
-Bullet Graph には、テキストを変更できる Title および Subtitle があります。~No Symbol に設定して不要な場合は非表示にできます。
+Bullet Graph には、テキストを変更できる Title および Subtitle があります。Sketch では、~No Symbol に設定して不要な場合は非表示にできますが、Adobe XD では各レイヤーを削除します。
 
 <img class="responsive-img" src="../images/bullet_graph_title.png" srcset="../images/bullet_graph_title@2x.png 2x" />
 
 ## Legend (凡例)
 
-Bullet Graph には Legend があり、選択した Series Amount に合わせて調整できます。Legend 項目は、対応する Series を ~No Symbol に設定して削除、または Overrides/Charts/Legend/Series で検索して追加できます。また、アイコンのタイプを Square (四角)、Line (線)、または Circle (円) の間で変更できます。
+Bullet Graph には凡例があり、選択した Series Amount に合わせて調整できます。Sketch で凡例項目は、対応するシリーズを ~No Symbol に設定することで削除するか、Overrides/Charts/Legend/Series で見つけることで追加できます。Adobe XD では、未使用の Series レイヤーを削除する必要があり、レイアウトは自動的に調整されます。また、アイコンの種類を Square、Line、または Circle の間で変更できます。
 
 <img class="responsive-img" src="../images/bullet_graph_legend.png" srcset="../images/bullet_graph_legend@2x.png 2x" />
 
 ## ツールチップ
 
-Bullet Graph のツールチップは、オーバーライドを ~No Symbol に設定すると非表示になります。
+Bullet Graph のツールチップは Sketch でオーバーライドを ~No Symbol に設定するか、Adobe XD でレイヤーを削除すると非表示になります。
 
 <img class="responsive-img" src="../images/bullet_graph_tooltip-off.png" srcset="../images/bullet_graph_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_tooltip-on.png" srcset="../images/bullet_graph_tooltip-on@2x.png 2x" />
 
 ## 範囲のサイズ
 
-Bullet Graph は、定義済みの 3 つの範囲 (**2 つ**、3 つ、4 つ) 設定があります。
+Bullet Graph は、定義済みの 3 つの範囲 (**2 つ**、3 つ、4 つ) 設定があります。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/bullet_graph_two_ranges.png" srcset="../images/bullet_graph_two_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />

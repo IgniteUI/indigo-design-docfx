@@ -61,6 +61,8 @@ Combo Input は、明暗バリアントで分かりやすく、背景に明暗�
 <img class="responsive-img" src="../images/combo_warning.png" srcset="../images/combo_warning@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_error.png" srcset="../images/combo_error@2x.png 2x" />
 
+Sketch では状態と検証状態を `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+
 ## レイアウト
 
 Combo Input にはレイアウト オプションが 1 つのみですが標準 [Input](input.md) と統一させてオーバーライドが保存されます。
@@ -76,16 +78,16 @@ Combo に使用される Dropdown は、標準 [Dropdown](dropdown.md) コンポ
 
 Dropdown には、暗いバリエーションと明るいバリエーションが付属する Search Input、状態の選択、および標準の [Input](input.md) と同様のレイアウトのオプションが含まれています。
 
-## Dropdown 項目
+## Dropdown Items (項目)
 
-Combo に使用される Dropdown は、ヘッダーと複数選択項目の 2 種類の項目をサポートします。ヘッダーを介して、項目をグループに体系化できます。
+Combo に使用される Dropdown は、ヘッダーと複数選択項目の 2 種類の項目をサポートします。ヘッダーを介して、項目をグループに体系化できます。Sketch で Dropdown はスマート レイアウトを使用しており、1 つ以上の項目が ~No Symbol に設定されている場合に応じて調整できます。Adobe XD では、不要なものを削除し、Stack を使用してレイアウトを調整します。
 
 <img class="responsive-img" src="../images/combo_header.png" srcset="../images/combo_header@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_multiselect_item.png" srcset="../images/combo_multiselect_item@2x.png 2x" />
 
-## Dropdown 項目状態
+## Dropdown Item の状態
 
-Combo 内の Dropdown 項目は、5 つの状態をサポートします: disabled, **idle**、focused、selected、selected&focused。
+Combo 内の Dropdown Item は、5 つの状態をサポートします: disabled、**idle**、focused、selected、selected&focused。
 
 <img class="responsive-img" src="../images/combo_item_disabled.png" srcset="../images/combo_item_disabled@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_item_idle.png" srcset="../images/combo_item_idle@2x.png 2x" />

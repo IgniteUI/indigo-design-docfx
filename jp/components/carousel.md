@@ -15,7 +15,7 @@ Carousel コンポーネント シンボルは、横矢印キーを使用して�
 
 ## インジケーターとスライド
 
-Carousel では、最大 10 個のスライドを定義できます。各スライドには、一致するインジケーター点があり、ユーザーはそれぞれのスライドに移動できます。
+Carousel では、最大 10 個のスライドを定義できます。各スライドには、一致するインジケーター点があり、ユーザーはそれぞれのスライドに移動できます。Sketch では、インジケーターの状態は `Symbol Overrides` で実現され、不要なインジケーターを ~No Symbol に設定することで量を調整できます。適用されたスマート レイアウトルールに応じてレイアウトを調整できます。Adobe XD では、`Component States` パラダイムを使用して簡単に切り替えることができ、不要なインジケーターのレイヤーを削除するだけで量を調整できます。適用されたスタックはそれに応じてレイアウトを調整します。
 
 <img class="responsive-img" src="../images/carousel_indicators&slides.png" srcset="../images/carousel_indicators&slides@2x.png 2x" />
 

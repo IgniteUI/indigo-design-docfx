@@ -13,7 +13,7 @@ Grid コンポーネントは大量の複雑なデータをタブ形式で表示
 
 <img class="responsive-img" src="../images/grid_demo.png" srcset="../images/grid_demo@2x.png 2x" />
 
-## Detach from Symbol (シンボルからデタッチ)
+## Sketch で Grid を使用
 
 Grid は、基本的に表形式でデータを表示する列と行のリピーターです。したがって、最も簡単な使用方法は、定義済みの Grid の 1 つをアートボードにドラッグすることです。サポートされる 3 つの[表示密度](grid-display-density.md)に 3 つのプリセットがあります。アートボードを開いた後、その上を右クリックし、コンテキスト メニューの下部にある `Detach from Symbol` オプションを選択すると、新しく表示されたグループの下のレイヤー パネルに次のように表示されます。
 
@@ -24,6 +24,20 @@ Grid は、基本的に表形式でデータを表示する列と行のリピー
 | Body                                     | 本体のすべてのセルを含みます                                                                                                                 |
 
 デタッチ後、既存のデータ行の 1 つを複製するだけで、データのすべてのディメンションを表示するために必要なヘッダーの数を変更できます。デザインに表示したい表示レコード (数に制限がない) を挿入することもできます。
+
+## Adobe XD で Grid を使用
+
+Adobe XD では、3 つの[プリセット表示密度グリッド コンポーネント](grid-display-density.md)のいずれかを選択してアートボードにドラッグすると、レイヤー パネルで、Header と Body の両方に `Repeat Grid` を使用して構成を高速化していることがわかります。Sketch とは異なり、Adobe XD ではシンボルを破棄する必要はありません。レイヤー パネルに次のように表示されます:
+
+| レイヤー                                    | 使用                                                                                                                                                  |
+| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🚫 metadata | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
+| Header                                   | Header Repeat Grid にグループ化されたすべてのヘッダー セルが含まれます。                                                                                                        |
+| Body                                     | Body Repeat Grid にグループ化されたすべてのボディ セルが含まれます。                                                                                                                  |
+
+Header または Body Repeat Grid レイヤーを選択する場合、右端または下端にある緑色のハンドルをドラッグして、必要な繰り返しセルの数を変更できます。 このようにして、データのすべてのディメンションを表示し、デザインに表示したい数の表示可能なレコードを挿入できます。特定のセル タイプまたは列幅を変更するには、Repeat Grid レイヤーを選択し、右側のパネルで `Ungroup Grid` をクリックする必要があります。これにより、セルを個別に操作して、目的のデザインを実現できます。
+
+<img class="responsive-img" src="../images/layers_panel_adobe_xd.png" srcset="../images/layers_panel_adobe_xd@2x.png 2x" />
 
 ## セル タイプ
 
@@ -60,7 +74,7 @@ Grid Body Cell は、以下のインタラクティブな状態をサポート�
 <img class="responsive-img" src="../images/grid_cell_body_cell-inactive.png" srcset="../images/grid_cell_body_cell-inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_cell-active.png" srcset="../images/grid_cell_body_cell-active@2x.png 2x" />
 
-Grid Body Cell は、ヘッダーを介して `Grid Feature` のオーバーライドによって定義されるいくつかの Grid 機能のスタイル設定サポートがあります。通常のセル、編集可能なセル、および選択した行に属するセルにスタイル設定されたセルへのアクセスを提供します。
+Grid Body Cell は、`Grid Feature` を介してヘッダーで定義された一部の Grid 機能のスタイル設定をサポートしています。通常のセル、編集可能なセル、および選択した行に属するセルには、スタイルのバリアントがあります。Sketch では、`Grid Feature` を切り替えるには、使用可能な `Symbol Overrides` を使用する必要がありますが、Adobe XD では、`Component States` の一致するリストがあります。
 
 <img class="responsive-img" src="../images/grid_cell_body_row-selected.png" srcset="../images/grid_cell_body_row-selected@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_editing_cell.png" srcset="../images/grid_cell_body_editing_cell@2x.png 2x" />
@@ -69,7 +83,7 @@ Grid Body Cell は、ヘッダーを介して `Grid Feature` のオーバーラ�
 
 ## セル タイプ
 
-Grid Header Cell は、Grid が対応する必要のある 4 つの一般的なタイプのデータのプリセットを提供します: 数値の **Number**、それぞれのデータ タイプの Text、Date、Bool を組み合わせたもの、複数の行を選択する場合に最初の列に使用される Row Selection と、グループ化されたデータ行を展開および縮小するために使用される Group By。
+In Sketch, the Grid Header Cell provides presets for the four generic types of data that the Grid needs to accommodate: **Number** for numeric values, the one combining Text,Date,Bool for the respective data types, Row Selection that is used for the first column when selection of multiple rows is desired, and Group By - used to expand and collapse grouped data rows. In Adobe XD the types are three: a standard one for data, Row Selection, and Group By, with the standard one supporting choice between numeric values and text/date/bool via `Component States`.
 
 <img class="responsive-img" src="../images/grid_cell_header_number.png" srcset="../images/grid_cell_header_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />

@@ -115,6 +115,9 @@
       href: ../components/avatar.md
     - name: Badge
       href: ../components/badge.md
+    - name: Banner
+      href: ../components/banner.md
+      new: true
     - name: Bottom Navigation
       href: ../components/bottom-nav.md
     - name: Button Group
@@ -161,8 +164,14 @@
       href: ../components/date-picker.md
     - name: Dialog
       href: ../components/dialog.md
+    - name: Divider
+      href: ../components/divider.md
+      new: true
     - name: Dropdown
       href: ../components/dropdown.md
+    - name: Expansion Panel
+      href: ../components/expansion-panel.md
+      new: true
     - name: Grid
       href: ../components/grid.md
       items:
@@ -216,10 +225,12 @@
     - name: List
       href: ../components/list.md
       items:
+        - name: List Item
+          href: ../components/list-item.md
+        - name: Sketch の Custom List Item
+          href: ../components/list-custom.md
         - name: Skeleton List
           href: ../components/list-skeleton.md
-        - name: Custom List Item
-          href: ../components/list-custom.md
     - name: Navbar
       href: ../components/navbar.md
     - name: Navigation Drawer
@@ -228,10 +239,16 @@
       href: ../components/progress.md
     - name: Radio Group
       href: ../components/radio-group.md
+    - name: Select
+      href: ../components/select.md
+      new: true
     - name: Slider
       href: ../components/slider.md
     - name: Snackbar
       href: ../components/snackbar.md
+    - name: Splitter
+      href: ../components/splitter.md
+      new: true
     - name: Switch
       href: ../components/switch.md
     - name: Tabs

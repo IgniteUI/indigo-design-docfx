@@ -19,11 +19,6 @@ Image Manipulation パターンは 1 ～ 2 Flat Button または Icon Button を
 
 <img class="responsive-img" src="../images/image-manip_layout.png" srcset="../images/image-manip_layout@2x.png 2x" />
 
-> [!WARNING]
-> Image Manipulation パターンを挿入した後、Angular コードとして生成するには、`Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。
-
-<img class="responsive-img" src="../images/image_manipulation_detach.png" srcset="../images/image_manipulation_detach@2x.png 2x" />
-
 ## その他のリソース
 
 関連トピック:

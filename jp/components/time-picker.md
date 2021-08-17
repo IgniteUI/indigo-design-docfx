@@ -22,7 +22,7 @@ Time Picker コンポーネントを使用して、日付の時間部分 (時間
 
 ## Picker レイアウト
 
-Time Picker は、Horizontal 方向と Vertical 方向の Dialog レイアウト、および時間を選択するさまざまなモードを容易にするドロップダウン レイアウトをサポートしています。Dialog レイアウトには、オーバーライドを ~No Symbol に設定することで非表示にできる Header が付属していますが、それでも、ダイアログ レイアウトが投影する影により、ドロップダウン レイアウトと区別できることに注意してください。
+Time Picker は、水平および垂直方向の Dialog レイアウトおよび Dropdown レイアウトをサポートしており、さまざまなシャドウを表示して互いに区別しやすくすることで、さまざまな時間の選択モードを容易にします。Dialog レイアウトには Header があり、Sketch でオーバーライドを ~No Symbol に設定して非表示にできます。スマート レイアウトを使用すると、すべてがそれに応じて調整されます。Adobe XD では、ヘッダー レイヤーを削除する必要があり、Stack を使用してレイアウトが調整されます。
 
 <img class="responsive-img" src="../images/timepicker_horizontal.png" srcset="../images/timepicker_horizontal@2x.png 2x" />         
 <img class="responsive-img" src="../images/timepicker_vertical.png" srcset="../images/timepicker_vertical@2x.png 2x" />
@@ -38,7 +38,7 @@ Time Picker は、2 種類のコンテンツ モードで 12 時間と 24 時間
 
 ## ボタン
 
-Time Picker の 2 つのボタンは、時間を元の時間に戻す選択のキャンセルおよび変更を保存するための選択の確認にそれぞれ使用します。Button 領域はテンプレート化可能であり、たとえば、オーバーライドを ~No Symbol に設定してボタンを非表示にしたり、別のアクションを割り当てることができます。
+Time Picker の 2 つのボタンは、時間を元の時間に戻す選択のキャンセルおよび変更を保存するための選択の確認にそれぞれ使用します。Button 領域はテンプレート化可能で、たとえば Sketch でオーバーライドを ~No Symbol に設定したり、Adobe XD で削除したりしてボタンを非表示にできます。Sketch とは異なり、Adobe XD では、Libraries パネルから Button 領域にカスタム操作などのボタンを追加できます。Button の削除または追加に関係なく、適用された Stack はレイアウトを自動的に調整します。
 
 <img class="responsive-img" src="../images/timepicker_buttons.png" srcset="../images/timepicker_buttons@2x.png 2x" />
 

@@ -29,7 +29,7 @@ Tabs は、幅を調整することで使用可能な水平方向のスペース
 
 ## Tabs の量
 
-多くのケースで Tabs に 2 つ ～ 5 つのタブが必要になります。タブ項目を ~No Symbol に設定して削除できます。さらにタブが必要な場合は、流動モードを検討し、表示されているタブのみを表すことをお勧めします。
+ほとんどのケースでは、Tabs に 2 つ ~ 5 つ の項目を含める必要があります。Sketch で項目を削除するには、オーバーライドを ~No Symbol に設定し、スマート レイアウトは残りの項目を調整します。Adobe XD で同じことを実行するには、不要な項目を削除し、Stack は残りの項目を配置します。ユースケースで 5 つ以上のタブが必要な場合、上記で説明した Fixed モードを検討してください。
 
 <img class="responsive-img" src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
@@ -38,14 +38,14 @@ Tabs は、幅を調整することで使用可能な水平方向のスペース
 
 ## 短いバー コンテンツ
 
-短いバーにはデフォルトでテキスト コンテンツが付属しており、代わりにアイコンを表示する場合は、Material Icon を `🔣 Icon` オーバーライドに割り当て、バーのすべてのタブで `🏷️ Label` を ~No Symbol に設定する必要があります。
+短いバーにはデフォルトでテキスト コンテンツが含まれます。代わりにアイコンを表示する場合は、マテリアル アイコンを `🔣 Icon` オーバーライドに割り当て、バーのすべてのタブで `🏷️ Label` を ~No Symbol に設定する必要があります。Adobe XD で同様の結果を得るには、`🔣 Icon` または `🏷️ Label` レイヤーが存在し、表示されていることと、バーのすべてのタブでもう 1 つが削除されていることを確認してください。
 
 <img class="responsive-img" src="../images/tabs_text.png" srcset="../images/tabs_text@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_icons.png" srcset="../images/tabs_icons@2x.png 2x" />
 
 ## タブ項目の状態
 
-タブ項目は、Active、Inactive、および Disabled の状態をサポートします。Tabs には、常に 1 つの Active のタブと、任意の数の Inactive および Disabled のタブがあります。
+タブ項目は、Active、Inactive、および Disabled の状態をサポートします。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Tabs には、常に 1 つのアクティブなタブと、任意の数の非アクティブおよび無効なタブがあります。
 
 <img class="responsive-img" src="../images/tabs_state.png" srcset="../images/tabs_state@2x.png 2x" />
 

@@ -22,13 +22,13 @@ Navigation Drawer は、各項目のアイコンとラベルが付いた**デフ
 
 ## 項目
 
-Navigation Drawer はスマート レイアウトを使用し、最大 21 個の項目を表示できます。正確な数は、不要な項目を ~No Symbol に設定することで構成できます。
+Navigation Drawer は Sketch で最大 21 項目を表示できますが、不要な項目をオーバーライド パネルで ~No Symbol に設定すると削減できます。Adobe XD で少ない項目が必要な場合は、不要な項目を削除します。Sketch とは異なり、既存の項目を複製することで 21 を超える項目を持つことができ、ドラッグして順序を並べ替えることもできます。これらの操作の最後で、レイアウトは項目のコレクションに適用される Stack から調整されます。
 
 <img class="responsive-img" src="../images/nav-drawer_default.png" srcset="../images/nav-drawer_default@2x.png 2x" />
 
 ## 項目の状態
 
-すべての Navigation Drawer 項目には、Active、Inactive、または Hover の状態があります。Navigation Drawer では、画面の残りの部分に表示されるビューを示すために、一度に 1 つの項目のみを Active にすることができます。
+すべての Navigation Drawer 項目には、Active、Inactive、または Hover の状態があります。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Navigation Drawer では、画面の残りの部分に表示されるビューを示すために、一度に 1 つの項目のみをアクティブにすることができます。
 
 <img class="responsive-img" src="../images/nav-drawer_active.png" srcset="../images/nav-drawer_active@2x.png 2x" />
 <img class="responsive-img" src="../images/nav-drawer_inactive.png" srcset="../images/nav-drawer_inactive@2x.png 2x" />

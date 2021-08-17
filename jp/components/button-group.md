@@ -22,7 +22,7 @@ Button Group は、2 方向レイアウトをサポートし、左から右の�
 
 ## ボタン数
 
-Button Group は、スマート レイアウト オプションを使用して、必要なボタンの正確な数を選択し、オーバーライド パネルから ~No Symbol に設定することで余分なボタンを非表示にします。
+Sketch の Button Group はスマート レイアウトを使用して、必要なボタンの正確な数を選択し、オーバーライド パネルから ~No Symbol に設定することで追加のボタンを非表示にします。Adobe XD では、ボタンを使用して不要なレイヤーを削除するとレイアウトが自動的に調整されます。
 
 <img class="responsive-img" src="../images/button-group_amount.png" srcset="../images/button-group_amount@2x.png 2x" />
 

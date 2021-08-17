@@ -18,13 +18,14 @@ Line Chart には、Title、Legend、Chart Area があり、Idle 状態と Hover
 
 ## タイトル
 
-Line Chart にはタイトルがあり、不要な場合はオーバーライドを ~No Symbol に設定して削除できます。
+Line Chart のタイトルは、必要に応じて変更または非表示にできます。Sketch では、スマート レイアウトは ~No Symbol に設定してタイトルを非表示にしたときにチャートを調整します。Adobe XD では、タイトル レイヤーを削除することで同じことができます。Stack はそれに応じてレイアウトを更新します。
 
 <img class="responsive-img" src="../images/line_chart_title.png" srcset="../images/line_chart_title@2x.png 2x" />
 
 ## Legend (凡例)
 
-Line Chart には、シリーズの数とそれらが表すものを示す Legend があります。Legend は Sketch の Smart Layout を使用して作成され、必要のない項目のオーバーライドを ~No Symbol に設定することでシリーズ項目の正確な量を含むように調整できます。Legend の項目の形状は、rectangle、line、および dot の組み込みサポートで構成することもできます。
+Line Chart には、シリーズの数とそれらが表すものを示す Legend があります。Legend は Sketch の Smart Layout を使用して作成され、必要のない項目のオーバーライドを ~No Symbol に設定することでシリーズ項目の正確な量を含むように調整できます。Adobe XD では、Stack を使用して凡例項目レイヤーを削除できます。Legend の項目の形状も、rectangle (四角形)、line (線)、および dot (点) の組み込みサポートを使用して構成できます。
+
 
 <img class="responsive-img" src="../images/line_chart_legend.png" srcset="../images/line_chart_legend@2x.png 2x" />
 
@@ -36,14 +37,14 @@ Chart Type は Line と Area を切り替えます。Area は、X 軸と線の�
 
 ## 状態
 
-Line Chart には、Idle と Hover の 2 つの状態があります。Hover 状態では、データ ポイントの上にホバーすると、このポイントでのシリーズ値についての情報を提供するツールチップが表示されます。
+Line Chart には、Idle と Hover の 2 つの状態があります。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Hover 状態では、データ ポイントにホバーすると、このポイントでのシリーズの値に関する情報を提供するツールチップが表示されます。
 
 <img class="responsive-img" src="../images/line_area_chart_tooltip-off.png" srcset="../images/line_area_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/line_area_chart_tooltip-on.png" srcset="../images/line_area_chart_tooltip-on@2x.png 2x" />
 
 ## Y 軸
 
-Line Chart の Y 軸は、Title、Labels、および軸自体で構成されます。Title および Labels は構成可能で、ラベルを非表示にするには、オーバーライドを ~No Symbol に設定します。色を `Transparent` に設定して軸線を非表示にできます。また、すべての要素を非表示にするには、Y 軸のオーバーライドを ~No Symbol に変更します。
+Line Chart の Y 軸は、Title (タイトル)、Labels (ラベル)、および軸自体で構成されます。Title と Labels は構成可能であり、ラベルを非表示にするには、Sketch でオーバーライドを ~No Symbol に設定するか、Adobe XD でレイヤーを削除します。軸線の色を `Transparent` に設定してすべての要素を非表示にするには、Sketch で Y 軸のオーバーライドを ~No Symbol に変更するか、Adobe XD でレイヤーを削除します。
 
 <img class="responsive-img" src="../images/line_chart_yaxis.png" srcset="../images/line_chart_yaxis@2x.png 2x" />
 

@@ -29,7 +29,7 @@ Dropdown は、項目ヘッダーと項目の 2 つのタイプをサポート�
 
 ## 項目の状態
 
-Dropdown 項目は、5 つの状態をサポートします: Disabled, **Idle**、Focused、Selected、Selected&focused。
+Dropdown 項目は、5 つの状態をサポートします: Disabled、**Idle**、Focused、Selected、Selected&focused。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
@@ -39,7 +39,7 @@ Dropdown 項目は、5 つの状態をサポートします: Disabled, **Idle**�
 
 ## 項目レイアウト テンプレート
 
-Dropdown 項目は、オーバーライド パネルから非表示にする要素を ~No Symbol に設定することで、柔軟なアイコンとラベルのテンプレートをサポートします。デフォルトでは、この方法でアイコンは非表示になります。
+Dropdown Item は柔軟なアイコンとラベルのテンプレートをサポートします。Sketch でアイコンを表示するには、オーバーライドを Icon/Medium に設定し、スマート レイアウト ルールが項目レイアウトを自動的に調整します。Adobe XD では、アイコン レイヤーを表示し、Stack に配置してレイアウトを自動的に調整することで同じことが可能ですが、コンテンツにアイコンのある項目が必要ない場合は、アイコン レイヤーを削除します。
 
 <img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_icon.png" srcset="../images/dropdown_item_icon@2x.png 2x" /> 

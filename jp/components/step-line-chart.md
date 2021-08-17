@@ -18,13 +18,13 @@ Step Line Chart には、Title、Legend、および Chart Area があり、Idle 
 
 ## タイトル
 
-Step Line Chart のタイトルは不要な場合はオーバーライドを ~No Symbol に設定することで削除できます。
+Step Line Chart のタイトルは、必要に応じて変更または非表示にできます。Sketch では、スマート レイアウトは ~No Symbol に設定してタイトルを非表示にしたときにチャートを調整します。Adobe XD では、タイトル レイヤーを削除することで同じことができます。Stack はそれに応じてレイアウトを更新します。
 
 <img class="responsive-img" src="../images/step_line_chart_title.png" srcset="../images/step_line_chart_title@2x.png 2x" />
 
 ## Legend (凡例)
 
-Step Line Chart には、その中のシリーズの数とそれらが何を表すかを示す Legend が付属しています。Legend は、Sketch の Smart Layout を使用して構築されており、不要な項目のオーバーライドを ~No Symbol に設定することで、シリーズ項目の正確な量を含むように調整できます。Legend の項目の形状も、rectangle (四角形)、line (線)、および dot (点) の組み込みサポートを使用して構成できます。
+Step Line Chart には、その中のシリーズの数とそれらが何を表すかを示す Legend が付属しています。Legend は、Sketch のスマート レイアウトを使用して構築されており、不要な項目のオーバーライドを ~No Symbol に設定することで、シリーズ項目の正確な量を含むように調整できます。Adobe XD では、Stack を使用して凡例項目レイヤーを削除できます。Legend の項目の形状も、rectangle (四角形)、line (線)、および dot (点) の組み込みサポートを使用して構成できます。
 
 <img class="responsive-img" src="../images/step_line_chart_legend.png" srcset="../images/step_line_chart_legend@2x.png 2x" />
 
@@ -36,14 +36,14 @@ Chart Type では、Line と Area を切り替えることができます。後�
 
 ## 状態
 
-Step Line Chart には、Idle と Hover の 2 つの状態があります。Hover 状態では、データ ポイントにホバーすると、このポイントでのシリーズの値に関する情報を提供するツールチップが表示されます。
+Step Line Chart には、Idle と Hover の 2 つの状態があります。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Hover 状態では、データ ポイントにホバーすると、このポイントでのシリーズの値に関する情報を提供するツールチップが表示されます。
 
 <img class="responsive-img" src="../images/step_area_chart_tooltip-off.png" srcset="../images/step_area_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/step_area_chart_tooltip-on.png" srcset="../images/step_area_chart_tooltip-on@2x.png 2x" />
 
 ## Y 軸
 
-Step Line Chart の Y 軸は、Title、Labels、および軸自体で構成されます。Title と Labels は構成可能であり、ラベルを非表示にするには、オーバーライドを ~No Symbol に設定するだけです。軸線は色を  `Transparent` に設定して非表示にすることができます。すべての要素を一度に非表示にするには、Y 軸のオーバーライドを ~No Symbol に変更します。
+Step Line Chart の Y 軸は、Title、Labels、および軸自体で構成されます。Title と Labels は構成可能であり、ラベルを非表示にするには、Sketch でオーバーライドを ~No Symbol に設定するか、Adobe XD でレイヤーを削除します。軸線の色を `Transparent` に設定してすべての要素を非表示にするには、Sketch で Y 軸のオーバーライドを ~No Symbol に変更するか、Adobe XD でレイヤーを削除します。
 
 <img class="responsive-img" src="../images/step_line_chart_yaxis.png" srcset="../images/step_line_chart_yaxis@2x.png 2x" />
 

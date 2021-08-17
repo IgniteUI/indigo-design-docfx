@@ -35,9 +35,9 @@ Skeleton List Item には、標準 [List](list.md) のような 2 つの異な�
 <img class="responsive-img" src="../images/list_skeleton_item_primary.png" srcset="../images/list_skeleton_item_primary@2x.png 2x" />
 <img class="responsive-img" src="../images/list_skeleton_item_secondary.png" srcset="../images/list_skeleton_item_secondary@2x.png 2x" />
 
-## List Item Primary Action (リスト項目プライマリ アクション)
+## Sketch の Primary Action
 
-以下は、標準 [List](list.md) のような 4 つの置き換え可能なList Item Primary Action です。Sketch で Smart Layout を使用しているため、不要な要素を ~No Symbol に設定して調整できます。
+以下は標準の [List](list.md) のような 4 つの交換可能な List Item Primary Actions です。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Sketch の Smart Layout のおかげで、不要な要素を ~No Symbol に設定することで、さらに調整することができます。
 
 |                              |                                                                                                  |                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -46,13 +46,25 @@ Skeleton List Item には、標準 [List](list.md) のような 2 つの異な�
 | Icon + Label + Desc | <img class="responsive-img" src="../images/list_skeleton_item_primary3.png" srcset="../images/list_skeleton_item_primary3@2x.png 2x" />   |                                                                                                                                            |
 | Label + Progress          | <img class="responsive-img" src="../images/list_skeleton_item_primary4.png" srcset="../images/list_skeleton_item_primary4@2x.png 2x" />   | Primary Action の Linear Progress Bar は値ラベルを持つことができないため、~No Symbol に設定され、この設定は変更しないでください。 |                                                                                                                                            |
 
-## List Item セカンダリ アクション
+## Sketch の Secondary Action
 
-Skeleton List Item の Secondary Action は、標準 [List](list.md) の相当物で可能なすべてのシナリオをサポートします。Sketch で Smart Layout を使用しているため、不要な要素を ~No Symbol に設定して調整できます。
+Skeleton List Item の Secondary Action は、標準の [List](list.md) からの対応物とともに、可能なすべてのシナリオをカバーします。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Sketch の Smart Layout のおかげで、不要な要素を ~No Symbol に設定することで、Secondary Action をさらに調整することができます。
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Text と Icon            | <img class="responsive-img" src="../images/list_skeleton_item_secondary3.png" srcset="../images/list_skeleton_item_secondary3@2x.png 2x" /> |                                                                                                                                       |
+
+## Adobe XD の Thumbnail (サムネイル)
+
+Adobe XD の左側の Skeleton List Item 領域にあるサムネイル コンポーネントは、`Component States` パラダイムを介して、標準の [List Item](list-item.md) のような 3 つの交換可能なオプションを提供し、簡単に切り替えることができます。
+
+<img class="responsive-img" src="../images/thumbnail_xd_skeleton.png" srcset="../images/thumbnail_xd_skeleton@2x.png 2x" />
+
+## Adobe XD の Actions
+
+Adobe XD の適切な Skeleton List Item 領域を構成するアクション コンポーネントは、標準の [List Item](list-item.md) の対応するシナリオで可能なすべてのシナリオを含みます。
+
+<img class="responsive-img" src="../images/actions_xd_skeleton.png" srcset="../images/actions_xd_skeleton@2x.png 2x" />
 
 ## 使用方法
 
