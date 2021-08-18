@@ -63,9 +63,8 @@ Combo Input は、明暗バリアントで分かりやすく、背景に明暗�
 
 Sketch では状態と検証状態を `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
-## レイアウト
-
-Combo Input にはレイアウト オプションが 1 つのみですが標準 [Input](input.md) と統一させてオーバーライドが保存されます。
+> [!Note]
+> Combo 入力はレイアウト オプションが 1 つしかありませんが、このオーバーライドは、標準 [Input](input.md) との一貫性を確保するために Sketch で保持されています。
 
 ## Dropdown タイプ
 
