@@ -1,6 +1,6 @@
 ---
 title: Linear Gauge - デザイン システム コンポーネント
-_description: Linear Gauge Component Symbol はデータ可視化で特定のコンテキストの値を表示します。
+_description: Linear Gauge コンポーネント シンボルはデータ可視化で特定のコンテキストの値を表示します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---

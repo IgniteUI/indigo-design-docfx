@@ -87,6 +87,8 @@ Input のボックス タイプを使用して画像上にフォームを配置�
 
 関連トピック:
 
+- [Combo](combo.md)
+- [Select](select.md)
 - [Form パターン](../patterns/form.md)
 - [User Profile パターン](../patterns/user-profile.md)
   <div class="divider--half"></div>
