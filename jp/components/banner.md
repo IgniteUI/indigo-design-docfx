@@ -38,7 +38,7 @@ Banner は、テキスト、背景と境界線の色、アイコンのグリフ�
 | 良い例                                                                             | 悪い例                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/banner_do1.png" srcset="../images/banner_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/banner_dont1.png" srcset="../images/banner_dont1@2x.png 2x" /> | 
-| <img class="responsive-img" src="../images/banner_do2.png" srcset="../images/banner_do2@2x.png 2x" /> |<img class="responsive-img" src="../images/banner_dont2.png" srcset="../images/banner_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/banner_do2x.png" srcset="../images/banner_do2@2x.png 2x" /> |<img class="responsive-img" src="../images/banner_dont2.png" srcset="../images/banner_dont2@2x.png 2x" /> |
 
 ## その他のリソース
 
