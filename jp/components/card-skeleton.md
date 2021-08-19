@@ -33,7 +33,7 @@ Skeleton Card は、標準の [Card](card.md) の `image` (画像)、`header` (�
 
 ## 操作
 
-スケルトン操作には、標準の [Card](card.md) と同じ 6 つのレイアウトがあります。スケルトン操作には、標準の [Card](card.md) と同じ 6 つのレイアウトがあります。これらは Sketch の Smart Layout で定義されており、要素を ~No Symbol に設定して削除し、残りを目的のレイアウトに自動的に調整できます。Adobe XD では、Stack を使用して不要なコンポーネントを削除する場合も同様です。
+スケルトン操作には、標準の [Card](card.md) と同じ 6 つのレイアウトがあります。これらは Sketch の Smart Layout で定義されており、要素を ~No Symbol に設定して削除し、残りを目的のレイアウトに自動的に調整できます。Adobe XD では、Stack を使用して不要なコンポーネントを削除する場合も同様です。
 
 <img class="responsive-img" src="../images/card_skeleton_actions_buttons_icons.png" srcset="../images/card_skeleton_actions_buttons_icons@2x.png 2x" />
 
