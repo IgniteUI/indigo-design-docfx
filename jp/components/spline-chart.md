@@ -24,7 +24,7 @@ Spline Chart のタイトルは、必要に応じて変更または非表示に�
 
 ## Legend (凡例)
 
-Spline Chart には、その中のシリーズの数とそれらが何を表すかを示す Legend が付属しています。Legend は、Sketch の Smart Layout を使用して構築されており、不要な項目のオーバーライドを ~No Symbol に設定することで、シリーズ項目の正確な量を含むように調整できます。Adobe XD では、Stack を使用して凡例項目レイヤーを削除できます。Legend の項目の形状も、rectangle (四角形)、line (線)、および dot (点) の組み込みサポートを使用して構成できます。
+Spline Chart には、その中のシリーズの数とそれらが何を表すかを示す Legend が付属しています。Legend は、Sketch のスマート レイアウトを使用して構築されており、不要な項目のオーバーライドを ~No Symbol に設定することで、シリーズ項目の正確な量を含むように調整できます。Adobe XD では、Stack を使用して凡例項目レイヤーを削除できます。Legend の項目の形状も、rectangle (四角形)、line (線)、および dot (点) の組み込みサポートを使用して構成できます。
 
 <img class="responsive-img" src="../images/spline_chart_legend.png" srcset="../images/spline_chart_legend@2x.png 2x" />
 
@@ -55,7 +55,7 @@ Spline Chart には Gridlines が組み込まれているため、データ ポ�
 
 ## Series Amount (シリーズ量)
 
-Spline Chart は Chart Area に描画するシリーズの数を １，２，または **３** から選択することができます。これは Area タイプにも当てはまります。
+Spline Chart は Chart Area に描画するシリーズの数を １ つ、２ つ、または **３ つ** から選択することができます。これは Area タイプにも当てはまります。
 
 <img class="responsive-img" src="../images/spline_chart_one_series.png" srcset="../images/spline_chart_one_series@2x.png 2x" />
 <img class="responsive-img" src="../images/spline_chart_two_series.png" srcset="../images/spline_chart_two_series@2x.png 2x" />

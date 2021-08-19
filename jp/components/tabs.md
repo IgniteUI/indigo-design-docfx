@@ -38,7 +38,7 @@ Tabs は、幅を調整することで使用可能な水平方向のスペース
 
 ## 短いバー コンテンツ
 
-短いバーにはデフォルトでテキスト コンテンツが含まれます。代わりにアイコンを表示する場合は、マテリアル アイコンを `🔣 Icon` オーバーライドに割り当て、バーのすべてのタブで `🏷️ Label` を ~No Symbol に設定する必要があります。Adobe XD で同様の結果を得るには、`🔣 Icon` または `🏷️ Label` レイヤーが存在し、表示されていることと、バーのすべてのタブでもう 1 つが削除されていることを確認してください。
+短いバーにはデフォルトでテキスト コンテンツが含まれます。代わりにアイコンを表示する場合は、Material Icon を `🔣 Icon` オーバーライドに割り当て、バーのすべてのタブで `🏷️ Label` を ~No Symbol に設定する必要があります。Adobe XD で同様の結果を得るには、`🔣 Icon` または `🏷️ Label` レイヤーが存在し、表示されていることと、バーのすべてのタブでもう 1 つが削除されていることを確認してください。
 
 <img class="responsive-img" src="../images/tabs_text.png" srcset="../images/tabs_text@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_icons.png" srcset="../images/tabs_icons@2x.png 2x" />
