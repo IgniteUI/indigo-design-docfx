@@ -83,7 +83,7 @@ Grid Body Cell は、`Grid Feature` を介してヘッダーで定義された�
 
 ## セル タイプ
 
-In Sketch, the Grid Header Cell provides presets for the four generic types of data that the Grid needs to accommodate: **Number** for numeric values, the one combining Text,Date,Bool for the respective data types, Row Selection that is used for the first column when selection of multiple rows is desired, and Group By - used to expand and collapse grouped data rows. In Adobe XD the types are three: a standard one for data, Row Selection, and Group By, with the standard one supporting choice between numeric values and text/date/bool via `Component States`.
+Sketch の Grid Header Cell は、Grid が対応する必要のある 4 つの一般的なタイプのデータのプリセットを提供します: 数値の **Number**、それぞれのデータ タイプのテキスト、日付、ブールを組み合わせたもの、複数の行を選択する場合に最初の列に使用される Row Selection と、グループ化されたデータ行を展開および縮小するために使用される Group By です。Adobe XD では、3 つのタイプがあります。データに標準のもの、Row Selection、Group By の標準タイプで、標準のタイプは `Component States` を介した数値とテキスト/日付/ブール値の選択をサポートしています。
 
 <img class="responsive-img" src="../images/grid_cell_header_number.png" srcset="../images/grid_cell_header_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />

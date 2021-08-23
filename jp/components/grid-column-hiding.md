@@ -15,7 +15,7 @@ Grid 列非表示は、グリッドから特定の列を非表示にするため
 
 ## Toolbar と Header Cell (ツールバーとヘッダー セル)
 
-Grid の列非表示は、グリッド全体の機能を有効にする Column Hiding アクションの Toolbar を追加することで実現できます。ただし、特定の列を非表示としてマークするには、Sketch の各列の Grid Header Cell で `Column Hiding` のオーバーライドを設定し、非表示に設定する必要があります。Adobe XD では、`Column Hiding` レイヤーは `Component States` パラダイムを使用して、状態を簡単に切り替えることができます。デフォルト値は **Visible** です。
+Grid の列非表示は、グリッド全体の機能を有効にする Column Hiding アクションの Toolbar を追加することで実現できます。ただし、特定の列を非表示としてマークするには、Sketch の各列の Grid Header Cell で `Column Hiding` のオーバーライドを設定し、Hidden に設定する必要があります。Adobe XD では、`Column Hiding` レイヤーは `Component States` パラダイムを使用して、状態を簡単に切り替えることができます。デフォルト値は **Visible** です。
 
 ## その他のリソース
 
