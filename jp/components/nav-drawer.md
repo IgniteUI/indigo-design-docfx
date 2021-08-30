@@ -60,4 +60,3 @@ Navigation Drawer は、アプリの主要ナビゲーションに使用する�
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-

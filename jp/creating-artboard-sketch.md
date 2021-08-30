@@ -22,16 +22,16 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 
 ## 詳細手順
 
-### 1.**Indigo.Design System** をライブラリとして追加
+### 1.**Indigo.Design システム**をライブラリとして追加
 
-1.  [**Indigo.Design System**](https://cloud.indigo.design/home) をダウンロードします。
+1.  [**Indigo.Design システム**](https://cloud.indigo.design/home)をダウンロードします。
 
     Pages セクションに 26 ページの Sketch ファイルが 1 つあり、3 つのアイコン タイプで区別されます:
 
     - **🎨 ~** スタイリング ページ: Material Icons、Colors、Typography、Elevation、Illustrations などのすべてのスタイリング アセットは、上部の 5 ページにあります。
 
     - **🧩 Components** ページ: デザインを構築するコンポーネントのセット。
-      [Insert] メニューで利用できるさまざまなプリセットと、Sketch UI の右側のパネルで構成する状態とレイアウトのオーバーライドを通じて、Ignite UI for Angular およびコード生成エンジンと互換性のあるレイアウトを作成できます。
+      `Insert` メニューで利用できるさまざまなプリセットと、Sketch UI の右側のパネルで構成する状態とレイアウトのオーバーライドを通じて、Ignite UI for Angular およびコード生成エンジンと互換性のあるレイアウトを作成できます。
 
     - **🌆 ~** パターン ページ: コンポーネントには、残りのページに展開するアプリケーション レイアウトをガイドするパターンが含まれます。
 

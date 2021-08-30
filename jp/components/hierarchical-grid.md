@@ -54,7 +54,7 @@ Hierarchical Grid は、3種類の通常のグリッド セル Header、Body お
 
 ## セル表示密度
 
-CollapseAll セルと Expand セルは、Hierarchical Grid の 3 つの表示密度バリアント (comfortable、cosy、compact) をサポートします。以下の CollapseAll Header セルに見られるように、それぞれに個別の記号が付いています:
+CollapseAll セルと Expand セルは、Hierarchical Grid の 3 つの表示密度バリアント (comfortable、cosy、compact) をサポートします。以下の CollapseAll Header セルに見られるように、それぞれに個別のシンボルが付いています:
 
 <img class="responsive-img" src="../images/hierarchical_grid_cell_header_comfortable.png" srcset="../images/hierarchical_grid_cell_header_comfortable@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_cell_header_cosy.png" srcset="../images/hierarchical_grid_cell_header_cosy@2x.png 2x" />

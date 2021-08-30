@@ -15,7 +15,7 @@ Grid 高度なフィルターを使用すると、Grid 上に表示されるダ�
 
 ## 高度なフィルター機能
 
-グリッドには、`Features` の下に 3 つの `Advanced Filtering` 記号があり、各表示密度に 1 つずつ、グリッド上に表示されるオーバーレイを表します。Adobe XD では、`Component States` を使用して表示密度を切り替えることができます。
+グリッドには、`Features` の下に 3 つの `Advanced Filtering` シンボルがあり、各表示密度に 1 つずつ、グリッド上に表示されるオーバーレイを表します。Adobe XD では、`Component States` を使用して表示密度を切り替えることができます。
 
 <img class="responsive-img" src="../images/grid_advanced_filter_display_density.png" srcset="../images/grid_advanced_filter_display_density@2x.png 2x" />
 

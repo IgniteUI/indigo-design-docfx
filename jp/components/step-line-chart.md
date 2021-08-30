@@ -56,7 +56,7 @@ Step Line Chart には 縦と横の Gridlines が組み込まれているため�
 
 ## Series Amount (シリーズ量)
 
-Step Line Chart には、Chart Area に描画される 1 つ、2 つ、および **3** つのシリーズの選択が付属しています。これは Area タイプにも当てはまります。
+Step Line Chart には、Chart Area に描画される 1 つ、2 つ、および **3 つ**のシリーズの選択が付属しています。これは Area タイプにも当てはまります。
 
 <img class="responsive-img" src="../images/step_line_chart_one_series.png" srcset="../images/step_line_chart_one_series@2x.png 2x" />
 <img class="responsive-img" src="../images/step_line_chart_two_series.png" srcset="../images/step_line_chart_two_series@2x.png 2x" />

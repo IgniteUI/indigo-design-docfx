@@ -30,7 +30,6 @@ Progress は、以下のプリセット カラーの組み合わせの 1 つを�
 - success: `success` テーマの色を使用して進行状況を表示します。
 - warn: `warn` テーマの色を使用して進行状況を表示します。
 
-
 <img class="responsive-img" src="../images/progress_default.png" srcset="../images/progress_default@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_error.png" srcset="../images/progress_error@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_info.png" srcset="../images/progress_info@2x.png 2x" />

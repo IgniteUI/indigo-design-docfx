@@ -19,7 +19,7 @@ Sketch で列に Excel スタイル フィルターがアクティブである�
 
 ## Excel Style Filter Feature (Excel スタイル フィルター機能)
 
-Grid には、スケッチの `Features` の下に 3 つの `Excel Style Filter` 記号があり、各表示密度に 1 つずつあり、影響を受ける列に表示されるオーバーレイを表します。Adobe XD には、`Excel Style Filter`が 1 つだけあり、使用可能な `Component States` を介して、使用可能な 3 つの表示密度を簡単に切り替えることができます。Excel Style Filter を追加すると、デザインに視覚的な効果があるのみで、よりリアルになります。Excel Style Filter 機能をオンにしたい場合は、Header Cells を構成します。
+Grid には、スケッチの `Features` の下に 3 つの `Excel Style Filter` シンボルがあり、各表示密度に 1 つずつあり、影響を受ける列に表示されるオーバーレイを表します。Adobe XD には、`Excel Style Filter`が 1 つだけあり、使用可能な `Component States` を介して、使用可能な 3 つの表示密度を簡単に切り替えることができます。Excel Style Filter を追加すると、デザインに視覚的な効果があるのみで、よりリアルになります。Excel Style Filter 機能をオンにしたい場合は、Header Cells を構成します。
 
 <img class="responsive-img" src="../images/grid_excel_style_filter_densities.png" srcset="../images/grid_excel_style_filter_densities@2x.png 2x" />
 

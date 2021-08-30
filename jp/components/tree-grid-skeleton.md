@@ -19,7 +19,7 @@ Skeleton Tree Grid は、Header、Body、Summary の 3 種類のスケルトン 
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_column_cell.png" srcset="../images/tree_grid_skeleton_column_cell@2x.png 2x" />
 
-## セル 表示密度
+## セルの表示密度
 
 Skeleton Tree Grid の TreeColumn セルは、標準の [Tree Grid](tree-grid.md) と同じ 3 つの表示密度バリアント (comfortable、cosy、compact) をサポートします。
 
@@ -27,7 +27,7 @@ Skeleton Tree Grid の TreeColumn セルは、標準の [Tree Grid](tree-grid.md
 <img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_cosy.png" srcset="../images/tree_grid_skeleton_column_cell_cosy@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_compact.png" srcset="../images/tree_grid_skeleton_column_cell_compact@2x.png 2x" />
 
-## Cell の深さ
+## セルの深さ
 
 Skeleton Tree Grid の TreeColumn セルは、データ階層のレベルについて、標準の [Tree Grid](tree-grid.md) と同じ視覚的表示をサポートします。これは、Root Level、Child Level、または Grandchild Level です。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して状態を切り替えることができます。
 
@@ -37,7 +37,7 @@ Skeleton Tree Grid の TreeColumn セルは、データ階層のレベルにつ�
 
 ## Grid タイプ
 
-Skeleton Tree Grid は、3 つの表示密度をサポートし、データの読み込み状態に関してそれぞれのバリエーションを提供します: TreeGrid がデータを読み込むとき、拡張されたルート レベルの行がない場合に表示される Initial と、ルート レベルが展開され、その子のデータの読み込みを開始すると表示される Expand。
+Skeleton Tree Grid は、3 つの表示密度をサポートし、データの読み込み状態に関してそれぞれのバリエーションを提供します: Tree Grid がデータを読み込むとき、拡張されたルート レベルの行がない場合に表示される Initial と、ルート レベルが展開され、その子のデータの読み込みを開始すると表示される Expand。
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_initial.png" srcset="../images/tree_grid_skeleton_initial@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_skeleton_expand.png" srcset="../images/tree_grid_skeleton_expand@2x.png 2x" />
