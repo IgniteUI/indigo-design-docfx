@@ -19,7 +19,7 @@ Grid が Row Filter でフィルタリング可能であることを示すため
 
 ## Filter State (フィルター状態)
 
-Row Filter Header Cell に `Filter State` のオーバーライドが設定せれます。このオーバーライドは Filtered に設定された場合、特定の列にフィルター条件があるかないか構成できます。フィルター条件が設定されない場合、デフォールト状態である **Empty** と一致します。
+Row Filter Header Cells には、Sketch の `Filter State` オーバーライドが付属しており、特定の列にフィルター条件が適用されているかどうかを構成できます。デフォルトでは **Empty** と表示されますが、Filtered に設定し、含まれている [Chip](chips.md) で条件を指定できます。Adobe XD では、`Component States` パラダイムを使用して状態を簡単に切り替えることができる `Filter State` レイヤーを介して、同じような方法で編成されます。
 
 ## その他のリソース
 
@@ -27,6 +27,7 @@ Row Filter Header Cell に `Filter State` のオーバーライドが設定せ�
 
 - [Grid](grid.md)
 - [Grid Excel スタイル フィルター](grid-excel-style-filter.md)
+- [Grid 高度なフィルター](grid-advanced-filter.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

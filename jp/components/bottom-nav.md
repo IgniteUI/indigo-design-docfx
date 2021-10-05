@@ -15,7 +15,7 @@ Bottom Navigation コンポーネント は、関連ビュー間のブラウジ�
 
 ## 項目数
 
-Bottom Navigation はスマート レイアウトを使用しており、1 つ以上の項目が ~No Symbol に設定されている場合に応じて調整できます。ただし、項目の最大数は 5 つに制限されており、より多くの項目またはビューを使用してアプリケーション レベルのナビゲーションを設計する必要がある場合は、代わりに [Navigation Drawer](nav-drawer.md) の使用を検討してください。
+Sketch で Bottom Navigation はスマート レイアウトを使用しており、1 つ以上の項目が ~No Symbol に設定されていても、それに対応して調整できます。Adobe XD では、未使用の項目を削除でき、Stacks を使用してレイアウトが調整されます。ただし、項目の最大数は 5 つに制限されており、より多くの項目またはビューを使用してアプリケーション レベルのナビゲーションを設計する必要がある場合は、代わりに [Navigation Drawer](nav-drawer.md) の使用を検討してください。
 
 <img class="responsive-img" src="../images/bottom-nav_items2.png" srcset="../images/bottom-nav_items2@2x.png 2x" />
 
@@ -27,19 +27,19 @@ Bottom Navigation はスマート レイアウトを使用しており、1 つ�
 
 ## 項目の状態
 
-Bottom Navigation は、**Active**、Inactive、および Disabled の状態をサポートする項目で構成されています。Bottom Navigation には、常に 1 つの Active の項目と、任意の数の Inactive および Disabled の項目があります。
+Bottom Navigation は、**Active**、Inactive、および Disabled の状態をサポートする項目で構成されています。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Bottom Navigation には、常に 1 つのアクティブな項目と、任意の数の非アクティブおよび無効な項目があります。
 
 <img class="responsive-img" src="../images/bottom-nav_item_state.png" srcset="../images/bottom-nav_item_state@2x.png 2x" />
 
 ## 項目コンテンツ テンプレート
 
-Bottom Navigation の項目は、デフォルトでアイコンとテキストの組み合わせとして提供されますが、項目コンテンツ テンプレートに適用されるスマート レイアウト ルールを使用すると、テキスト ラベルを削除して、アイコンのみの項目を作成できます。
+Bottom Navigation 項目はデフォルトでアイコンとテキストの組み合わせとして提供されます。Sketch では、項目コンテンツ テンプレートにスマート レイアウト ルールを適用すると、ラベルを ~No Symbol に設定したときにテキスト ラベルを削除し、アイコンのみの項目を作成できます。Adobe XD では、コンテンツは Stack にありますが、ラベル レイヤーが不要な場合は削除して同じ結果を実現できます。
 
 <img class="responsive-img" src="../images/bottom-nav_items3_icons.png" srcset="../images/bottom-nav_items3_icons@2x.png 2x" />
 
 ## スタイル設定
 
-Bottom Navigation は、さまざまなオーバーライドで背景色、項目ラベル、アイコン色を制御することにより柔軟にスタイル設定できます。
+Bottom Navigation は、さまざまなオプションを通じて背景色、項目ラベル、アイコンの色を柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/bottom-nav_styling.png" srcset="../images/bottom-nav_styling@2x.png 2x" />
 
@@ -60,5 +60,4 @@ Bottom Navigation は常にその他のコンテンツの一番上に表示さ�
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
 

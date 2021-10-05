@@ -13,11 +13,6 @@ Data Visualizations パターンを使用して、Area、Column、Line、Spline 
 
 Data Visualizations パターンは、含まれる Chart コンポーネント、Input および Text 要素により、スタイル設定に柔軟性があります。
 
-> [!WARNING]
-> Data Visualizations パターンを挿入した後、Angular コードとして生成できるには、レイアウトを作成した個別コンポーネントに分割するために `Detach from Symbol` をトリガーします。ただし、Chart と Dropdown をデタッチしないでください。
-
-<img class="responsive-img" src="../images/data_visualizations_detach.png"  srcset="../images/data_visualizations_detach@2x.png 2x" />
-
 ## その他のリソース
 
 関連トピック:

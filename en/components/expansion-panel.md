@@ -1,108 +1,60 @@
 ---
-title: Avatar - Design System Component
-_description: The Avatar Component Symbol is a graphical representation of personal information. 
+title: Expansion Panel - Design System Component
+_description: The Expansion Panel Component provides a summary-details view with built-in functionality to show and hide the details. 
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
-# Avatar
+# Expansion Panel
 
-Use the Avatar Component as a graphical representation of a person through a profile picture or image, an icon, or a string with initials. The Avatar is visually identical to the [Ignite UI for Angular Avatar Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/avatar.html)
+Use the Expansion Panel Component as a way to preserve screen-space, where you have a lot of text and would like to hide it with the title in the Header giving initial information, and when opened, the Body's content giving more details. The Expansion Panel has two main states - Collapsed and Expanded.
+The Expansion Panel is visually identical to the [Ignite UI for Angular Expansion Panel Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/expansion-panel.html)
 
-## Avatar Demo
+## Expansion Panel Demo
 
-<img class="responsive-img" src="../images/avatar_demo.png" srcset="../images/avatar_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/expansion_panel_demo.png" srcset="../images/expansion_panel_demo@2x.png 2x" />
 
-## Size
+## Header State
 
-The Avatar comes in three different sizes:
+The Expansion Panel's Header comes in **Active** and Disabled state. You can switch between them in Overrides panel in Sketch and from the States section in the right panel of Adobe XD.
 
-- Large - Suitable for profile pages
-- Medium - Appropriate for custom menus and visualizations
-- Small - Easily embedded in a contact list and similar repetitive scenarios
+<img class="responsive-img" src="../images/expansion_panel_active.png" srcset="../images/expansion_panel_active@2x.png 2x" />
+`active`
 
-<img class="responsive-img" src="../images/avatar_sizes.png" srcset="../images/avatar_sizes@2x.png 2x" />
+<img class="responsive-img" src="../images/expansion_panel_disabled.png" srcset="../images/expansion_panel_disabled@2x.png 2x" />
+`disabled`
 
-## Type
+## Header Layout
 
-The Avatar can carry different types of content such as an **image**, a string with initials, or an icon.
+The Expansion Panel's Header Layout consists of Left Expansion Panel Icon, Content including Title and Description, and Right Expansion Panel Icon, which by default is set to ~No Symbol in Sketch and is hidden in Adobe XD. The Left Expansion Panel Icon and the Content are in a smart layout in Sketch and form a Stack in Adobe XD, meaning that if the Icon is hidden, the Content will automatically shift to the left. However, if you do so, remember to make the Right Expansion Panel Icon visible and set the left one to ~No Symbol in Sketch or delete it in Adobe XD.
 
-<img class="responsive-img" src="../images/avatar_content.png" srcset="../images/avatar_content@2x.png 2x" />
+<img class="responsive-img" src="../images/expansion_panel_header1.png" srcset="../images/expansion_panel_header1@2x.png 2x" />
+<img class="responsive-img" src="../images/expansion_panel_header2.png" srcset="../images/expansion_panel_header2@2x.png 2x" />
 
-The avatar comes in two distinct types determined by its shape: a **round** and a square form.
+## Body
 
-<img class="responsive-img" src="../images/avatar_type.png" srcset="../images/avatar_type@2x.png 2x" />
+The Expansion Panel's Body contains a text paragraph that is visible only in expanded state.
+
+<img class="responsive-img" src="../images/expansion_panel_body.png" srcset="../images/expansion_panel_body@2x.png 2x" />
 
 ## Styling
 
-The Avatar comes with styling flexibility through the various overrides controlling the background color, as well as initials and icon colors, where applicable.
+The Expansion Panel comes with options for changing the both the Header's and Body's background colors, as well as text and icon colors.
 
-<img class="responsive-img" src="../images/avatar_styling.png" srcset="../images/avatar_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/expansion_panel_styling.png" srcset="../images/expansion_panel_styling@2x.png 2x" />
 
 ## Usage
 
-When using an Avatar with initials or icons, pick their colors carefully to assure good contrast with the Avatar background color. Avoid colors with poor contrast like similar shades of the same color or combinations that create chromatic aberrations.
+When using an Expansion Panel, make sure to use icons that give a proper idea of its usage, i.e. that there is more content available when the panel is expanded.
 
 | Do                                                                             | Don't                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| <img class="responsive-img" src="../images/avatar_do1.png" srcset="../images/avatar_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/avatar_dont1.png" srcset="../images/avatar_dont1@2x.png 2x" /> |
-
-## Code Generation
-
-When colors or fonts are specified for the Avatar, the Avatar HTML element will be wrapped in div. This is required by browsers to style a nested component (a component within another component).
-
-> [!WARNING]
-> Triggering `Detach from Symbol` on an instance of the Avatar in your design is very likely to result in loss of code generation capability for the Avatar.
-
-### Data Bindings
-
-Data bindings are specified by using curly brace syntax, example: {isAdmin}. Data bindings can be non-nested or nested. If the target property is a nested property, include the nested property chain, but don’t include the model object name. Examples:
-
-#### Not Nested
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty would be: `{imageName}`
-
-#### Nested
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty would be: `{profile.imageName}`
-
-### Event Property
-
-When supplied, this property is used to create a method in the component TypeScript and add an Angular click signature in the HTML. When supplied the event must be specified using the curly braces format: {onEventName}
-
-### Data Property
-
-| Avatar Type     | `🕹️DataProperty`                                                                                                                                                                                                                                                                                         |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Picture Avatar  | When supplied, this property can be used to data bind the image source. When provided, it will be the name of the property on the data object specified by the model object name provided during code generation.                                                                                     |
-| Icon Avatar     | This property is ignored.                                                                                                                                                                                                                                                                                |
-| Initials Avatar | When supplied, this property is used to databind the initials property. When provided, it will be the name of the property on the data object specified by the model object name provided during code generation. The Avatar initials only renders two characters, this is a limitation of Ignite UI. |
+| <img class="responsive-img" src="../images/expansion_panel_do1.png" srcset="../images/expansion_panel_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/expansion_panel_dont1.png" srcset="../images/expansion_panel_dont1@2x.png 2x" /> |
 
 ## Additional Resources
 
 Related topics:
 
-- [Avatar + Badge](../patterns/avatar-badge.md)
-- [Card](card.md)
-- [File Upload](../patterns/file-upload.md)
-- [User Profile](../patterns/user-profile.md)
+- [Icon](icon.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
-

@@ -60,9 +60,10 @@ Every experienced designer uses constraints wisely to limit the user input and a
 <img class="responsive-img" src="../images/combo_warning.png" srcset="../images/combo_warning@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_error.png" srcset="../images/combo_error@2x.png 2x" />
 
-## Layout
+In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
 
-The Combo input has only one layout option but to assure consistency with the standard [Input](input.md) this override has been preserved.
+> [!Note]
+> The Combo input has only one layout option, but this override has been preserved in Sketch to ensure consistency with the standard [Input](input.md).
 
 ## Dropdown Type
 
@@ -77,7 +78,7 @@ The dropdown contains a Search Input that comes with dark and light variants, a 
 
 ## Dropdown Items
 
-The dropdown used for the Combo supports two types of items: header and multi select item. Through headers, it is possible to organize items in groups.
+The dropdown used for the Combo supports two types of items: header and multi-select item. Through headers, it is possible to organize items in groups. In Sketch, the dropdown uses a smart layout allowing it to adjust accordingly when one or more of its items are set to ~No Symbol. In Adobe XD you should delete the unnecessary ones, and the layout will adjust through the use of a Stack.
 
 <img class="responsive-img" src="../images/combo_header.png" srcset="../images/combo_header@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_multiselect_item.png" srcset="../images/combo_multiselect_item@2x.png 2x" />
@@ -94,7 +95,7 @@ The dropdown items within the Combo support five different states: disabled, **i
 
 ## Styling
 
-The Combo comes with the combined styling flexibility of its input and dropdown pieces. There are overrides controlling the input text elements' color and bottom line style and color. For the dropdown one may change the background color, or use the various overrides related to the items in the Combo dropdown, such as the search input and the items with their background and text colors.
+The Combo comes with the combined styling flexibility of its input and dropdown pieces. There are options for the input text elements' color and bottom line style and color. For the dropdown one may change the background color, or use the various options related to the items in the Combo dropdown, such as the search input and the items with their background and text colors.
 
 <img class="responsive-img" src="../images/combo_styling.png" srcset="../images/combo_styling@2x.png 2x" />
 
@@ -117,4 +118,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
