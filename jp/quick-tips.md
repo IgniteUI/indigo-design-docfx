@@ -43,8 +43,8 @@ Create interactive prototypes with Indigo.Design and perform remote user testing
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/tips4.png" srcset="images/tips4@2x.png 2x" />
 <div class="divider--half"></div>
-### Import Sketch designs.
-You can start your project by importing your Sketch and XD file directly into the App Builder via plugins. Get that WYSIWYG design time experience to continue editing your Sketch artboards and turn them into enterprise-ready Angular code. 
+### Publish your designs as a web app.
+Use the “Create app” option in your plugin to translate all the UI kit components in your design into code components, and publish your app. Continue to extend the app using our web-based WYSIWYG App Builder and your development team will be able to generate enterprise-ready Angular code.
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
