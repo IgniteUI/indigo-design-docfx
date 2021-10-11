@@ -1,10 +1,11 @@
 ---
-title: Tips for Indigo.Design
-_description: Quickly discover all the aspects of the design-to-code story with Indigo.Design
-_keywords: Ignite UI for Angular, Angular, Native Angular Components Suite, Native Angular Controls, Native Angular Components, Native Angular Components Library, Angular Grid, Angular Data Grid, Angular Grid Control, Angular Grid Component, code generation, prototyping, usability, videos, analytics
+title: Indigo.Design のヒント
+_description: Indigo.Design を使用して、デザインからコード作成へのストーリーのすべての側面をすばやく発見します
+_keywords: Ignite UI for Angular, Angular, ネイティブ Angular コンポーネント スイート, ネイティブ Angular コントロール, ネイティブ Angular コンポーネント, ネイティブ Angular コンポーネント ライブラリ, Angular グリッド, Angular データグリッド, Angular グリッドコントロール, Angular グリッドコンポーネント, コード生成, プロトタイピング, ユーザビリティ, ビデオ, 分析
+_language: ja
 ---
 
-# Tips 
+# ヒント 
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -13,8 +14,8 @@ _keywords: Ignite UI for Angular, Angular, Native Angular Components Suite, Nati
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/tips1.png" srcset="images/tips1@2x.png 2x" />
 <div class="divider--half"></div>
-### Well-crafted UI Kits for Sketch and Adobe XD.
-Do you know that with Indigo.Design UI kit for Sketch and Adobe XD, everything you create uses a design system? All styling specs and themes match real Angular components. You get 400+ icons, special colors palettes, 17 customizable illustrations, etc.
+### Sketch および Adobe XD 用の洗練された UI キット。
+Sketch および Adobe XD 用の Indigo.Design UI キットでは、作成するものすべてがデザイン システムを使用していることをご存知ですか? すべてのスタイル設定の仕様およびテーマは、実際の Angular コンポーネントと一致します。400 個以上のアイコン、特別なカラー パレット、17 種類ののカスタマイズ可能なイラストなどがあります。
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -23,8 +24,8 @@ Do you know that with Indigo.Design UI kit for Sketch and Adobe XD, everything y
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/tips2.png" srcset="images/tips2@2x.png 2x" />
 <div class="divider--half"></div>
-### Endless theming options and styling.
-Use our 6 pre-built themes based on Material, Bootstrap & Fluent with a dark and light version. Or switch to Indigo Theme - inspired by our own design language. If those don't match your app or corporate branding, the theming and styling options let you create a custom theme.
+### 無限のテーマ オプションとスタイル設定。
+Material、Bootstrap、Fluent に基づいた 6 つのビルド済みテーマを使用し、ダークとライトのバージョンを用意しました。または、独自のデザイン言語に基づいて構築された Indigo テーマに切り替えます。アプリまたは企業のブランディングと一致しない場合は、テーマとスタイル設定オプションでカスタム テーマを作成できます。
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -33,8 +34,9 @@ Use our 6 pre-built themes based on Material, Bootstrap & Fluent with a dark and
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/tips3.png" srcset="images/tips3@2x.png 2x" />
 <div class="divider--half"></div>
-### With interactive prototyping and user testing functionality. 
-Create interactive prototypes with Indigo.Design and perform remote user testing with real users on any device or platform. Get user insights, simplified collaboration with stakeholders, in-depth analytics on users’ behavior, and video and audio recordings of the user testing journey.
+### インタラクティブ プロトタイプとユーザー テスト機能。 
+Indigo.Design でインタラクティブ プロトタイプを作成し、任意のデバイスまたはプラットフォームで実際のユーザーとリモート ユーザー テストを実行できます。ユーザー インサイト、関係者とのシンプルなコラボレーション、ユーザーの行動に関する詳細な分析、ユーザー テストのビデオ録画とオーディオ録音
+を取得します。
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -43,8 +45,8 @@ Create interactive prototypes with Indigo.Design and perform remote user testing
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/tips4.png" srcset="images/tips4@2x.png 2x" />
 <div class="divider--half"></div>
-### Publish your designs as a web app.
-Use the “Create app” option in your plugin to translate all the UI kit components in your design into code components, and publish your app. Continue to extend the app using our web-based WYSIWYG App Builder and your development team will be able to generate enterprise-ready Angular code.
+### デザインを Web アプリとして公開します。
+プラグインの [アプリの作成] オプションを使用して、デザインのすべての UI キットコンポーネントをコード コンポーネントに変換し、アプリを公開します。Web ベースの WYSIWYG App Builder を使用してアプリの拡張すると、開発チームはエンタープライズ対応の Angular コードを生成できます。
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -53,8 +55,8 @@ Use the “Create app” option in your plugin to translate all the UI kit compo
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/tips5.png" srcset="images/tips5@2x.png 2x" />
 <div class="divider--half"></div>
-### Got an external data source?
-Indigo.Design App Builder arrives with data source options that let you connect to any REST data source or upload a JSON file. Just go and connect it in the Data Source panel.
+### 外部データ ソースをお持ちですか?
+Indigo.Design App Builder には、任意の REST データ ソースへの接続や JSON ファイルのアップロードを可能にするデータ ソース オプションがあります。そのためには、データ ソース パネルに接続します。
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -63,8 +65,8 @@ Indigo.Design App Builder arrives with data source options that let you connect 
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/tips6.png" srcset="images/tips6@2x.png 2x" />
 <div class="divider--half"></div>
-### Don't start building your app from scratch.
-Start with a pre-made Sketch/XD file or download our application samples and make them your own, using a toolbox of 60+ UI controls. Then, with one click, you generate high-quality HTML, CSS, and Angular code right from your design.
+### アプリをゼロから作成する必要はありません。
+作成済みの Sketch/XD ファイルから開始するか、60 以上の UI コントロールのツールボックスを使用してアプリケーション サンプルをダウンロードします。ワンクリックでデザインから高品質の HTML、CSS、Angular コードを生成できます。
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -73,8 +75,8 @@ Start with a pre-made Sketch/XD file or download our application samples and mak
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/tips7.png" srcset="images/tips7@2x.png 2x" />
 <div class="divider--half"></div>
-### Do you know that Indigo.Design App Builder uses Flexbox?
-We offer Flex as one of the approaches to create layouts for your web app. It is available as a row or column layout component in the toolbox. Cross-browser compatibility and app adaptability to any screen size is guaranteed.
+### Indigo.Design App Builder が Flexbox を使用していることをご存知ですか?
+Web アプリケーションのレイアウトを作成する方法の 1 つとして Flex を提供します。ツールボックスの行または列のレイアウト ンポーネントとして利用できます。ブラウザー間の互換性と、あらゆる画面サイズへの適応性が保証されています。
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -83,5 +85,5 @@ We offer Flex as one of the approaches to create layouts for your web app. It is
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/tips8.png" srcset="images/tips8@2x.png 2x" />
 <div class="divider--half"></div>
-### Design → User testing → Instant app preview.
-As a full design-to-code solution, it covers and streamlines the entire process, letting you and your colleagues use a single working environment, build apps 10x faster, and get to pixel-perfect solutions before even writing any code!
+### デザイン → ユーザー テスト → アプリのプレビュー。
+デザインからコードまでのソリューションは、プロセス全体をカバーして効率化します。単一の作業環境でアプリケーションを 10 倍のスピードで開発し、コードを記述する前に完璧なピクセルのソリューションを実現できます。
