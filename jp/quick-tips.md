@@ -35,8 +35,7 @@ Material、Bootstrap、Fluent に基づいた 6 つのビルド済みテーマ�
 <img class="responsive-img" src="images/tips3.png" srcset="images/tips3@2x.png 2x" />
 <div class="divider--half"></div>
 ### インタラクティブ プロトタイプとユーザー テスト機能。 
-Indigo.Design でインタラクティブ プロトタイプを作成し、任意のデバイスまたはプラットフォームで実際のユーザーとリモート ユーザー テストを実行できます。ユーザー インサイト、関係者とのシンプルなコラボレーション、ユーザーの行動に関する詳細な分析、ユーザー テストのビデオ録画とオーディオ録音
-を取得します。
+Indigo.Design でインタラクティブ プロトタイプを作成し、任意のデバイスまたはプラットフォームで実際のユーザーとリモート ユーザー テストを実行できます。ユーザー インサイト、関係者とのシンプルなコラボレーション、ユーザーの行動に関する詳細な分析、ユーザー テストのビデオ録画とオーディオ録音を取得します。
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
