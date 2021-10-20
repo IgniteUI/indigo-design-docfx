@@ -74,7 +74,7 @@ Start with a pre-made Sketch/XD file or download our application samples and mak
 <img class="responsive-img" src="images/tips7.png" srcset="images/tips7@2x.png 2x" />
 <div class="divider--half"></div>
 ### Do you know that Indigo.Design App Builder uses Flexbox?
-We offer Flex as one of the approaches to create layouts for your web app. It is available as a row or column layout component in the toolbox. Cross-browser compatibility and app adaptability to any screen size is guaranteed. [Read more...](../appbuilder/flex-layouts/flex-layouts.md)]
+We offer Flex as one of the approaches to create layouts for your web app. It is available as a row or column layout component in the toolbox. Cross-browser compatibility and app adaptability to any screen size is guaranteed. [Read more...](../appbuilder/flex-layouts/flex-layouts.md)
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
