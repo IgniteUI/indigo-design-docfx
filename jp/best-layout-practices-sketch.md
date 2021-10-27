@@ -1,5 +1,5 @@
 ---
-title: レイアウトのベスト プラクティス - デザイン システム
+title: Sketch レイアウトのベスト プラクティス - デザイン システム
 _description: Sketch でレイアウトの作成のベスト プラクティスおよび Sketch とコード生成後の Angular アプリでレスポンシブ動作の結果になるサイズ変更構成のベスト プラクティス。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch UI キット
 _language: ja

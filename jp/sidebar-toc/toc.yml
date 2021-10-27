@@ -298,8 +298,11 @@
       href: ../patterns/tree-grid.md
     - name: User Profile
       href: ../patterns/user-profile.md
-- name: レスポンシブ レイアウト
-  href: ../best-layout-practices.md
+- name: Sketch のレスポンシブ レイアウト
+  href: ../best-layout-practices-sketch.md
+- name: Adobe XD のレスポンシブ レイアウト
+  href: ../best-layout-practices-xd.md
+  new: true
 
 - name: プロトタイプとユーザビリティ テスト
   header: true
