@@ -15,7 +15,7 @@ _keywords: App Builder themes, Indigo Design, Infragistics
     </div>
 </section>
 
-The [Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) adopts a design systems approach to UI creation and you can apply themes at the app-level. With a single selection of a theme, the theme is globally applied to the whole application immediately. Having global theme avoids the need to create local styles that are difficult to maintain.  
+The [Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/appbuilder) adopts a design systems approach to UI creation and you can apply themes at the app-level. With a single selection of a theme, the theme is globally applied to the whole application immediately. Having global theme avoids the need to create local styles that are difficult to maintain.  
 
 ## Switching App Builder themes 
 

@@ -16,7 +16,7 @@ _language: ja
     </div>
 </section>
 
-[Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) は、UI 作成にデザイン システム アプローチを採用しており、アプリ レベルでテーマを適用できます。テーマを 1 回選択するだけで、そのテーマはアプリケーション全体に即座にグローバルに適用されます。これにより、メンテナンスが難しいローカル スタイルを作成する必要がなくなります。  
+[Indigo Design App Builder]({environment:infragisticsBaseUrl}/products/appbuilder) は、UI 作成にデザイン システム アプローチを採用しており、アプリ レベルでテーマを適用できます。テーマを 1 回選択するだけで、そのテーマはアプリケーション全体に即座にグローバルに適用されます。これにより、メンテナンスが難しいローカル スタイルを作成する必要がなくなります。  
 
 ## App Builder テーマを切り替える
 
