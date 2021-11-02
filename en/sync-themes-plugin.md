@@ -123,7 +123,7 @@ Instead of publishing a new prototype, you may want to update an existing one by
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Replace_prototype.png" srcset="images/Sync_themes_plugin_Replace_prototype@2x.png 2x" />
 
-### 3. Prototype publish is completed
+### Prototype publish is completed
 
 Once the prototype is successfully published to the cloud, you will be handed the link to it plus options to:
 
