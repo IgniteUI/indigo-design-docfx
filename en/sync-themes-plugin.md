@@ -6,7 +6,15 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Indigo.Design Plugin
 
-The Indigo.Design Sketch Plugin allows users to create new themes and edit existing ones when using the Indigo.Design UI Kit for Sketch. Users can adjust the `primary`, `secondary`, `error`, `success`, `warn`, and `info` colors, as well as properties of the Typography according to their brand characteristics. The plugin also lets users effortlessly publish their projects to the Indigo.Design Cloud and sync them up regularly thereafter, when making changes and updates.
+The Indigo.Design Sketch Plugin allows to create and edit themes over your designs, and quickly create and publish apps and prototypes in Indigo.Cloud from these designs.
+
+Once a design in Sketch is created with the Indigo.Design System, use the plugin to:
+
+-  quickly create an app in Indigo.Design AppBuilder. This app follows the structure of the Sketch design, mapping any symbol from the Indigo.Design UI kit to the corresponding component from Ignite UI. The plugin also takes the images used in the Sketch and upload them in the Assets library under AppBuilder, benefiting from [`Assets` support](https://www.infragistics.com/community/blogs/b/jason_beres/posts/indigo-design-app-builder-october-release-with-assets-support).  
+
+- create new themes and edit existing ones when using the Indigo.Design UI Kit for Sketch. Users can adjust the `primary`, `secondary`, `error`, `success`, `warn`, and `info` colors, as well as properties of the Typography according to their brand characteristics. The themes you have created will be there in the Indigo.Design AppBuilder, if you go and create an app from your design!
+
+- effortlessly publish prototypes to the Indigo.Design Cloud and sync them up regularly thereafter, when making changes and updates.
 
 ## 1. Installing the Indigo.Design plugin
 
@@ -18,7 +26,14 @@ The Indigo.Design Plugin is available for download from [Indigo.Design Cloud](ht
 <img class="responsive-img" src="images/indigo-design-resources.gif" />
 <p style="text-align:center;">Indigo.Design resources</p>
 
-## 2. Themes
+## 2. Create an application in AppBuilder
+Take your designs and create interactive, responsive apps with real UI components and styling. Use the `Create App` tab and the plugin will transform your Sketch design into a real application under the AppBuilder, allowing access to the images and themes that you have used in Sketch - all of this directly in the cloud.
+
+The plugin allows you to choose a name and resolution for your app, as well as to select the Indigo.Design Cloud workspace, where the app will be created.
+
+<img class="responsive-img" src="images/create-from-sketch.gif" srcset="images/create-from-sketch.gif 2x" />
+
+## 3. Themes
 
 This section provides guidance and shows some best practices regarding the creation and application of themes in Sketch projects created with the Indigo.Design UI Kit. By sticking to the recommendations below you will be able to apply your brand assets, such as typography and colors, to your project and libraries. The result of this small effort is that all UI Components will consistently represent your brand in one or more projects.
 
@@ -75,13 +90,13 @@ If you choose to tweak an existing theme before applying it, you may configure o
 >
 > <img class="responsive-img" src="images/Sync_themes_plugin_difference.png" srcset="images/Sync_themes_plugin_difference@2x.png 2x" />
 
-## 3. Publish and sync prototypes to the cloud
+## 4. Publish and sync prototypes to the cloud
 
 When you are ready to publish your work as a prototype to the Indigo.Design Cloud, navigate to the `Plugins` menu in Sketch, select `Indigo.Design`, and then `Publish Prototype`. The first time you run the cloud integration functionality of the plugin, you will be asked to log in with your Indigo.Design account. Next, you will encounter the first step of publishing a prototype: selecting whether to create new or replace an existing one.
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Publish.png" srcset="images/Sync_themes_plugin_Publish@2x.png 2x" />
 
-### 1. Publishing new prototype
+### Publishing new prototype
 
 You have a Sketch project that you feel is robust enough to share with others. You can publish it to the Indigo.Design Cloud and share for some early feedback to begin with. This is achievable in the `New prototype` tab, where you may:
 
@@ -97,7 +112,7 @@ Once you click the Publish button, the project is uploaded to the Indigo.Design 
 
 <img class="responsive-img" src="images/Sync_themes_plugin_New_prototype.png" srcset="images/Sync_themes_plugin_New_prototype@2x.png 2x" />
 
-### 2. Update an existing prototype
+### Update an existing prototype
 
 Instead of publishing a new prototype, you may want to update an existing one by replacing its screens in the cloud with more recent ones. To achieve this, you should navigate to the `Replace prototype` tab. Here you may search and filter prototypes e.g. by their belonging to your personal or to a team wrokspace. You may also alter the prototype configurations that were defined at the time of creation:
 
@@ -123,7 +138,7 @@ Once you click on Done the plugin dialog will close and you can continue designi
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Published_prototype.png" srcset="images/Sync_themes_plugin_Published_prototype@2x.png 2x" />
 
-### 4. Syncing a prototype
+### Syncing a prototype
 
 After the initial publish of a prototype, while your creative process continue to flow, you will likely want to tweak some things push some pixels and keep your published prototype in sync. To achieve this, select `Sync Prototype` from the plugin menu instead.
 
