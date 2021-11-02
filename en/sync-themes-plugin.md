@@ -126,8 +126,6 @@ Instead of publishing a new prototype, you may want to update an existing one by
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Replace_prototype.png" srcset="images/Sync_themes_plugin_Replace_prototype@2x.png 2x" />
 
-### 3. Prototype publish is completed
-
 Once the prototype is successfully published to the cloud, you will be handed the link to it plus options to:
 
 - view it in the workspace it belongs to, which will open it up in a browser window
@@ -138,7 +136,7 @@ Once you click on Done the plugin dialog will close and you can continue designi
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Published_prototype.png" srcset="images/Sync_themes_plugin_Published_prototype@2x.png 2x" />
 
-### 4. Syncing a prototype
+### Syncing a prototype
 
 After the initial publish of a prototype, while your creative process continue to flow, you will likely want to tweak some things push some pixels and keep your published prototype in sync. To achieve this, select `Sync Prototype` from the plugin menu instead.
 
