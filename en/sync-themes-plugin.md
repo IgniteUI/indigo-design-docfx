@@ -91,14 +91,7 @@ When you are ready to publish your work as a prototype to the Indigo.Design Clou
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Publish.png" srcset="images/Sync_themes_plugin_Publish@2x.png 2x" />
 
-### 1. Create an application in AppBuilder
-Take your designs and get interactive, responsive app with real UI components and styling. Use the `Create App` tab and the plugin will transform your Sketch design into a real application under the AppBuilder, allowing access to the images and themes that you have used in Sketch - all of this directly in the cloud.
-
-The plugin allows you to choose a name and resolution for your app, as well as choosing your Indigo.Cloud workspace, where to have the app created.
-
-<img class="responsive-img" src="images/create-from-sketch.gif" srcset="images/create-from-sketch.gif 2x" />
-
-### 2. Publishing new prototype
+### Publishing new prototype
 
 You have a Sketch project that you feel is robust enough to share with others. You can publish it to the Indigo.Design Cloud and share for some early feedback to begin with. This is achievable in the `New prototype` tab, where you may:
 
