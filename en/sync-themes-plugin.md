@@ -26,7 +26,12 @@ The Indigo.Design Plugin is available for download from [Indigo.Design Cloud](ht
 <img class="responsive-img" src="images/indigo-design-resources.gif" />
 <p style="text-align:center;">Indigo.Design resources</p>
 
-## 2.
+## 2. Create an application in AppBuilder
+Take your designs and create interactive, responsive apps with real UI components and styling. Use the `Create App` tab and the plugin will transform your Sketch design into a real application under the AppBuilder, allowing access to the images and themes that you have used in Sketch - all of this directly in the cloud.
+
+The plugin allows you to choose a name and resolution for your app, as well as to select the Indigo.Design Cloud workspace, where the app will be created.
+
+<img class="responsive-img" src="images/create-from-sketch.gif" srcset="images/create-from-sketch.gif 2x" />
 
 ## 3. Themes
 
