@@ -26,7 +26,9 @@ The Indigo.Design Plugin is available for download from [Indigo.Design Cloud](ht
 <img class="responsive-img" src="images/indigo-design-resources.gif" />
 <p style="text-align:center;">Indigo.Design resources</p>
 
-## 2. Themes
+## 2.
+
+## 3. Themes
 
 This section provides guidance and shows some best practices regarding the creation and application of themes in Sketch projects created with the Indigo.Design UI Kit. By sticking to the recommendations below you will be able to apply your brand assets, such as typography and colors, to your project and libraries. The result of this small effort is that all UI Components will consistently represent your brand in one or more projects.
 
