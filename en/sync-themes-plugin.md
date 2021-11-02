@@ -85,7 +85,7 @@ If you choose to tweak an existing theme before applying it, you may configure o
 >
 > <img class="responsive-img" src="images/Sync_themes_plugin_difference.png" srcset="images/Sync_themes_plugin_difference@2x.png 2x" />
 
-## 3. Publish and sync prototypes to the cloud
+## 4. Publish and sync prototypes to the cloud
 
 When you are ready to publish your work as a prototype to the Indigo.Design Cloud, navigate to the `Plugins` menu in Sketch, select `Indigo.Design`, and then `Publish Prototype`. The first time you run the cloud integration functionality of the plugin, you will be asked to log in with your Indigo.Design account. Next, you will encounter the first step of publishing a prototype: selecting whether to create new or replace an existing one.
 
