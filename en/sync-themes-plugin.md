@@ -20,9 +20,6 @@ Once a design in Sketch is created with the Indigo.Design System, use the plugin
 
 The Indigo.Design Plugin is available for download from [Indigo.Design Cloud](https://cloud.indigo.design) after signing in from the `Design System` tab of the dialog that shows upon clicking the `Getting Started` button in the header. Once you download the archive and open it, double click on the Sketch plugin file and the Indigo.Design plugin will be installed.
 
-<img class="responsive-img" src="images/Sync_themes_plugin_Download.png" srcset="images/Sync_themes_plugin_Download@2x.png 2x" />
-
-
 <img class="responsive-img" src="images/indigo-design-resources.gif" />
 <p style="text-align:center;">Indigo.Design resources</p>
 
@@ -126,7 +123,7 @@ Instead of publishing a new prototype, you may want to update an existing one by
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Replace_prototype.png" srcset="images/Sync_themes_plugin_Replace_prototype@2x.png 2x" />
 
-### 3. Prototype publish is completed
+### Prototype publish is completed
 
 Once the prototype is successfully published to the cloud, you will be handed the link to it plus options to:
 
