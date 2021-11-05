@@ -26,7 +26,14 @@ The Indigo.Design Plugin is available for download from [Indigo.Design Cloud](ht
 <img class="responsive-img" src="images/indigo-design-resources.gif" />
 <p style="text-align:center;">Indigo.Design resources</p>
 
-## 2. Themes
+## 2. Create an application in AppBuilder
+Take your designs and create interactive, responsive apps with real UI components and styling. Use the `Create App` tab and the plugin will transform your Sketch design into a real application under the AppBuilder, allowing access to the images and themes that you have used in Sketch - all of this directly in the cloud.
+
+The plugin allows you to choose a name and resolution for your app, as well as to select the Indigo.Design Cloud workspace, where the app will be created.
+
+<img class="responsive-img" src="images/create-from-sketch.gif" srcset="images/create-from-sketch.gif 2x" />
+
+## 3. Themes
 
 This section provides guidance and shows some best practices regarding the creation and application of themes in Sketch projects created with the Indigo.Design UI Kit. By sticking to the recommendations below you will be able to apply your brand assets, such as typography and colors, to your project and libraries. The result of this small effort is that all UI Components will consistently represent your brand in one or more projects.
 
@@ -83,20 +90,13 @@ If you choose to tweak an existing theme before applying it, you may configure o
 >
 > <img class="responsive-img" src="images/Sync_themes_plugin_difference.png" srcset="images/Sync_themes_plugin_difference@2x.png 2x" />
 
-## 3. Publish and sync prototypes to the cloud
+## 4. Publish and sync prototypes to the cloud
 
 When you are ready to publish your work as a prototype to the Indigo.Design Cloud, navigate to the `Plugins` menu in Sketch, select `Indigo.Design`, and then `Publish Prototype`. The first time you run the cloud integration functionality of the plugin, you will be asked to log in with your Indigo.Design account. Next, you will encounter the first step of publishing a prototype: selecting whether to create new or replace an existing one.
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Publish.png" srcset="images/Sync_themes_plugin_Publish@2x.png 2x" />
 
-### 1. Create an application in AppBuilder
-Take your designs and get interactive, responsive app with real UI components and styling. Use the `Create App` tab and the plugin will transform your Sketch design into a real application under the AppBuilder, allowing access to the images and themes that you have used in Sketch - all of this directly in the cloud.
-
-The plugin allows you to choose a name and resolution for your app, as well as choosing your Indigo.Cloud workspace, where to have the app created.
-
-<img class="responsive-img" src="images/create-from-sketch.gif" srcset="images/create-from-sketch.gif 2x" />
-
-### 2. Publishing new prototype
+### Publishing new prototype
 
 You have a Sketch project that you feel is robust enough to share with others. You can publish it to the Indigo.Design Cloud and share for some early feedback to begin with. This is achievable in the `New prototype` tab, where you may:
 
@@ -112,7 +112,7 @@ Once you click the Publish button, the project is uploaded to the Indigo.Design 
 
 <img class="responsive-img" src="images/Sync_themes_plugin_New_prototype.png" srcset="images/Sync_themes_plugin_New_prototype@2x.png 2x" />
 
-### 3. Update an existing prototype
+### Update an existing prototype
 
 Instead of publishing a new prototype, you may want to update an existing one by replacing its screens in the cloud with more recent ones. To achieve this, you should navigate to the `Replace prototype` tab. Here you may search and filter prototypes e.g. by their belonging to your personal or to a team wrokspace. You may also alter the prototype configurations that were defined at the time of creation:
 
@@ -126,7 +126,7 @@ Instead of publishing a new prototype, you may want to update an existing one by
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Replace_prototype.png" srcset="images/Sync_themes_plugin_Replace_prototype@2x.png 2x" />
 
-### 3. Prototype publish is completed
+### Prototype publish is completed
 
 Once the prototype is successfully published to the cloud, you will be handed the link to it plus options to:
 
@@ -138,7 +138,7 @@ Once you click on Done the plugin dialog will close and you can continue designi
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Published_prototype.png" srcset="images/Sync_themes_plugin_Published_prototype@2x.png 2x" />
 
-### 4. Syncing a prototype
+### Syncing a prototype
 
 After the initial publish of a prototype, while your creative process continue to flow, you will likely want to tweak some things push some pixels and keep your published prototype in sync. To achieve this, select `Sync Prototype` from the plugin menu instead.
 
