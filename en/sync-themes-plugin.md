@@ -10,7 +10,7 @@ The Indigo.Design Sketch Plugin allows to create and edit themes over your desig
 
 Once a design in Sketch is created with the Indigo.Design System, use the plugin to:
 
--  quickly create an app in Indigo.Design AppBuilder. This app follows the structure of the Sketch design, mapping any symbol from the Indigo.Design UI kit to the corresponding component from Ignite UI. The plugin also takes the images used in the Sketch and upload them in the Assets library under AppBuilder, benefiting from [`Assets` support](https://www.infragistics.com/community/blogs/b/jason_beres/posts/indigo-design-app-builder-october-release-with-assets-support).  
+-  quickly create an app in Indigo.Design AppBuilder. This app follows the structure of the Sketch design, mapping any symbol from the Indigo.Design UI kit to the corresponding component from Ignite UI. The plugin also takes the images used in Sketch and uploads them in the Assets library under AppBuilder, benefiting from [`Assets` support](https://www.infragistics.com/community/blogs/b/jason_beres/posts/indigo-design-app-builder-october-release-with-assets-support).  
 
 - create new themes and edit existing ones when using the Indigo.Design UI Kit for Sketch. Users can adjust the `primary`, `secondary`, `error`, `success`, `warn`, and `info` colors, as well as properties of the Typography according to their brand characteristics. The themes you have created will be there in the Indigo.Design AppBuilder, if you go and create an app from your design!
 
@@ -19,9 +19,6 @@ Once a design in Sketch is created with the Indigo.Design System, use the plugin
 ## 1. Installing the Indigo.Design plugin
 
 The Indigo.Design Plugin is available for download from [Indigo.Design Cloud](https://cloud.indigo.design) after signing in from the `Design System` tab of the dialog that shows upon clicking the `Getting Started` button in the header. Once you download the archive and open it, double click on the Sketch plugin file and the Indigo.Design plugin will be installed.
-
-<img class="responsive-img" src="images/Sync_themes_plugin_Download.png" srcset="images/Sync_themes_plugin_Download@2x.png 2x" />
-
 
 <img class="responsive-img" src="images/indigo-design-resources.gif" />
 <p style="text-align:center;">Indigo.Design resources</p>
