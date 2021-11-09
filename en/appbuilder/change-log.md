@@ -6,7 +6,52 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # Indigo Design App Builder - Change Log 
 
 > [!NOTE]
-><b>Latest update was made on July 12th, 2021.
+><b>Latest update was made on October 22th, 2021.
+
+## October 2021 Release
+### Features
+ - **Upload your images** to Assets library and share it across all apps in the same Workspace
+ - **Download uploaded images** used in the app when you publish or download app source code
+ - **Create app** directly from Sketch plugin
+
+### Improvements
+ - **Include REST endpoint URL** in the generated app instead of hard-coded JSON data
+ - **Extract images** available in your Sketch file and add it to Workspace assets library
+ - Added context menu for **Document outline** elements
+ - Show outermost container (View) as the root-level element in the **Document outline**
+ - Added tooltip explanations for **Image fit** and **Layout position** options
+
+### MAINTENANCE UPDATES & BUG FIXES
+ - General bug fixes and maintenance updates
+
+## September 2021 Release
+
+### Features
+ - Added more features to the **Grid** component part of the toolbox.
+ - 10+ new features including Sorting, Filtering, Cell/Row editing, Paging, Selection, GroupBy and more.
+ - Added **Snackbar** to the component toolbox.
+ - Onboarding experience improvements:
+  - Quick tips - The quick-tips feature aims to gradually educate users about the concepts and accelerators available. The quick-tips are triggered when the user completes a certain action in the App Builder, like resize a component or add a new child view.
+  - The sample apps show new visual thumbs with descriptions.
+- GitHub Actions Integration - GitHub Publish now adds a workflow doing a clean install of node dependencies, cache/restore them, build the source code and run tests across different versions of node.
+
+### Improvements
+
+ - Reduced loading time on app download an Publish to GitHub
+ - "Generate app" button is now "Publish to GitHub".
+ - "Create new app" Dialog is now with two sizes. One for larger displays, and one for smaller displays. New section to get assets for Sketch or XD.
+ - All sample apps are with updated meaningful thumbnails representing actual screenshots and with a brief text description of the app upon hover.
+ - Improved loading of theming when uploading .sketch file for app generation.
+ - Adobe XD files support (will be available when the Adobe XD Plugin is ready).
+
+### MAINTENANCE UPDATES & BUG FIXES
+
+ - Improved load times for apps and general performance tweaks when using the app builder.
+ - General bug fixes.
+ - Fixed errors with data repeated elements.
+ - Data source list population fix for bindable elements.
+
+[LEARN MORE](https://www.infragistics.com/community/blogs/b/infragistics/posts/indigo-design-app-builder-september-release)
 
 ## July 12, 2021 Release
 
