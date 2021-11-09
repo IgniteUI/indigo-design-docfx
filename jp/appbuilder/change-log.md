@@ -7,7 +7,52 @@ _language: ja
 # Indigo Design App Builder - 変更ログ
 
 > [!NOTE]
-><b>最新の更新は 2021 年 7 月 12 日に行われました。
+><b>最新の更新は 2021 年 10 月 22 日に行われました。
+
+## 2021 年 10 月 リリース
+### 機能
+ - **画像をアセット ライブラリにアップロードし**、同じワークスペース内のすべてのアプリで共有します。
+ - アプリのソース コードを公開またはダウンロードするときにアプリで使用される**アップロードされた画像をダウンロードします**。
+ - Sketch プラグインから直接**アプリを作成します**。
+
+### 機能改善
+ - ハード コーディングされた JSON データの代わりに、生成されたアプリに **REST エンドポイント URL を含めます**。
+ - Sketch ファイルで利用可能な**画像を抽出し**、ワークスペース アセット ライブラリに追加します。
+ - **ドキュメントのアウトライン**要素のコンテキスト メニューを追加しました。
+ - **ドキュメントのアウトライン**のルート レベルの要素として最も外側のコンテナ (ビュー) を表示します。
+ - **画像フィット**および**レイアウト位置**オプションのツールチップの説明を追加しました。
+
+### メンテナンスの更新とバグ修正
+ - 一般的なバグ修正とメンテナンス アップデート。
+
+## 2021 年 9 月 リリース
+
+### 機能
+ - Added more features to the **Grid** component part of the toolbox.
+ - 10+ new features including Sorting, Filtering, Cell/Row editing, Paging, Selection, GroupBy and more.
+ - コンポーネント ツールボックスに **Snackbar** を追加しました。
+ - Onboarding experience improvements:
+  - Quick tips - The quick-tips feature aims to gradually educate users about the concepts and accelerators available. The quick-tips are triggered when the user completes a certain action in the App Builder, like resize a component or add a new child view.
+  - The sample apps show new visual thumbs with descriptions.
+- GitHub Actions Integration - GitHub Publish now adds a workflow doing a clean install of node dependencies, cache/restore them, build the source code and run tests across different versions of node.
+
+### 機能改善
+
+ - Reduced loading time on app download an Publish to GitHub
+ - [アプリの生成] ボタンが [GitHub に公開] になりました。
+ - "Create new app" Dialog is now with two sizes. One for larger displays, and one for smaller displays. New section to get assets for Sketch or XD.
+ - All sample apps are with updated meaningful thumbnails representing actual screenshots and with a brief text description of the app upon hover.
+ - Improved loading of theming when uploading .sketch file for app generation.
+ - Adobe XD files support (will be available when the Adobe XD Plugin is ready).
+
+### メンテナンスの更新とバグ修正
+
+ - アプリの読み込み時間の改善と、アプリ ビルダーを使用する際の一般的なパフォーマンスの調整。
+ - 一般的なバグ修正。
+ - データが繰り返される要素のエラーを修正しました。
+ - Data source list population fix for bindable elements.
+
+[詳細情報 (英語)](https://www.infragistics.com/community/blogs/b/infragistics/posts/indigo-design-app-builder-september-release)
 
 ## 2021 年 7 月 12 日リリース
 
