@@ -7,31 +7,31 @@ _language: ja
 
 # Indigo.Design プラグイン
 
-The Indigo.Design Sketch Plugin allows to create and edit themes over your designs, and quickly create and publish apps and prototypes in Indigo.Cloud from these designs.
+Indigo.Design Sketch プラグインを使用すると、デザインのテーマを作成および編集し、これらのデザインから Indigo.Cloud でアプリやプロトタイプをすばやく作成して公開できます。
 
-Once a design in Sketch is created with the Indigo.Design System, use the plugin to:
+Indigo.Design System を使用して Sketch のデザインを作成したら、プラグインを使用して次の操作を行います。
 
--  quickly create an app in Indigo.Design AppBuilder. This app follows the structure of the Sketch design, mapping any symbol from the Indigo.Design UI Kit to the corresponding component from Ignite UI. The plugin also takes the images used in the Sketch and upload them in the Assets library under AppBuilder, benefiting from [`Assets` support](https://www.infragistics.com/community/blogs/b/jason_beres/posts/indigo-design-app-builder-october-release-with-assets-support).  
+-  Indigo.Design AppBuilder でアプリをすばやく作成します。このアプリは、Sketch デザインの構造に従い、Indigo.Design UI  Kit のシンボルを Ignite UI の対応するコンポーネントにマッピングします。プラグインはまた、Sketch で使用されている画像を取得し、[`Assets` サポート (英語)](https://www.infragistics.com/community/blogs/b/jason_beres/posts/indigo-design-app-builder-october-release-with-assets-support) を使用して App Builder の下の Assets ライブラリにアップロードします。 
 
-- create new themes and edit existing ones when using the Indigo.Design UI Kit for Sketch. Users can adjust the `primary`, `secondary`, `error`, `success`, `warn`, and `info` colors, as well as properties of the Typography according to their brand characteristics. The themes you have created will be there in the Indigo.Design AppBuilder, if you go and create an app from your design!
+- Indigo.Design UI Kit for Sketch を使用する場合は、新しいテーマを作成し、既存のテーマを編集します。ユーザーは、ブランドの特性に応じて、`primary`、`secondary`、`error`、`success`、`warn`、`info` の色およびタイポグラフィのプロパティを調整できます。作成したテーマは、デザインからアプリを作成すると、Indigo.Design App Builder に表示されます。
 
-- effortlessly publish prototypes to the Indigo.Design Cloud and sync them up regularly thereafter, when making changes and updates.
+- プロトタイプを Indigo.Design Cloud に簡単に公開し、その後、変更や更新を行うときに定期的に同期します。
 
-## 1. Installing the Indigo.Design plugin
+## 1. Indigo.Design プラグインのインストール
 
-The Indigo.Design Plugin is available for download from [Indigo.Design Cloud](https://cloud.indigo.design) after signing in from the `Design System` tab of the dialog that shows upon clicking the `Getting Started` button in the header. Once you download the archive and open it, double click on the Sketch plugin file and the Indigo.Design plugin will be installed.
+Indigo.Design プラグインは、ヘッダーの `作業の開始` ボタンをクリックすると表示されるダイアログの `Design System` タブからサインインした後に [Indigo.Design Cloud](https://cloud.indigo.design) からダウンロードできます。アーカイブをダウンロードして開き、Sketch プラグイン ファイルをダブルクリックすると、Indigo.Design プラグインがインストールされます。
 
 <img class="responsive-img" src="images/indigo-design-resources.gif" />
 <p style="text-align:center;">Indigo.Design リソース</p>
 
-## 2. Create an application in AppBuilder
-Take your designs and create interactive, responsive apps with real UI components and styling. Use the `Create App` tab and the plugin will transform your Sketch design into a real application under the AppBuilder, allowing access to the images and themes that you have used in Sketch - all of this directly in the cloud.
+## 2. App Builder でアプリケーションを作成します
+デザインを取り入れて、実際の UI コンポーネントとスタイル設定を備えたインタラクティブでレスポンシブなアプリを作成します。`Create App` タブを使用すると、プラグインが Sketch デザインを App Builder の下の実際のアプリケーションに変換し、Sketch で使用した画像やテーマにアクセスできるようにします。これらはすべてクラウドで直接行われます。
 
-The plugin allows you to choose a name and resolution for your app, as well as to select the Indigo.Design Cloud workspace, where the app will be created.
+プラグインを使用すると、アプリの名前と解像度を選択したり、アプリが作成される Indigo.Design Cloud ワークスペースを選択したりできます。
 
 <img class="responsive-img" src="images/create-from-sketch.gif" srcset="images/create-from-sketch.gif 2x" />
 
-## 3. Themes
+## 3. テーマ
 
 このセクションでは、Indigo.Design UI Kit で作成した Sketch プロジェクトでテーマを作成する際のベスト プラクティスについて説明します。以下の方法に従ってタイポグラフィや色などブランディング アセットをプロジェクトやライブラリに適用できます。複数のプロジェクト内のすべての UI コンポーネントで統一したブランディングを表現できます。
 
