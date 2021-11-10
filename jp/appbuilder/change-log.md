@@ -28,29 +28,29 @@ _language: ja
 ## 2021 年 9 月 リリース
 
 ### 機能
- - Added more features to the **Grid** component part of the toolbox.
- - 10+ new features including Sorting, Filtering, Cell/Row editing, Paging, Selection, GroupBy and more.
+ - ツールボックスの **Grid** コンポーネント部分に機能を追加しました。
+ - 並べ替え、フィルタリング、セル/行の編集、ページング、選択、GroupBy などの 10 以上の新機能。
  - コンポーネント ツールボックスに **Snackbar** を追加しました。
- - Onboarding experience improvements:
-  - Quick tips - The quick-tips feature aims to gradually educate users about the concepts and accelerators available. The quick-tips are triggered when the user completes a certain action in the App Builder, like resize a component or add a new child view.
-  - The sample apps show new visual thumbs with descriptions.
-- GitHub Actions Integration - GitHub Publish now adds a workflow doing a clean install of node dependencies, cache/restore them, build the source code and run tests across different versions of node.
+ - オンボーディング エクスペリエンスの改善:
+  - クイック ヒント - クイック ヒント機能は、利用可能な概念とアクセラレーターについてユーザーを徐々に教育することを目的としています。クイック ヒントは、コンポーネントのサイズ変更や新しい子ビューの追加など、ユーザーが App Builder で特定のアクションを完了するとトリガーされます。
+  - サンプル アプリは、説明付きの新しい視覚的なつまみを表示します。
+- GitHub アクションの統合 - GitHub Publish は、ノードの依存関係のクリーン インストール、キャッシュ/復元、ソース コードのビルド、ノードのさまざまなバージョンでのテストの実行を行うワークフローを追加するようになりました。
 
 ### 機能改善
 
- - Reduced loading time on app download an Publish to GitHub
+ - アプリのダウンロードと GitHub への公開の読み込み時間を短縮
  - [アプリの生成] ボタンが [GitHub に公開] になりました。
- - "Create new app" Dialog is now with two sizes. One for larger displays, and one for smaller displays. New section to get assets for Sketch or XD.
- - All sample apps are with updated meaningful thumbnails representing actual screenshots and with a brief text description of the app upon hover.
- - Improved loading of theming when uploading .sketch file for app generation.
- - Adobe XD files support (will be available when the Adobe XD Plugin is ready).
+ - [新しいアプリケーションの作成] ダイアログが 2 つのサイズになりました。1 つは大型のディスプレイ用、もう 1 つは小型のディスプレイ用です。Sketch または XD のアセットを取得するための新しいセクション。
+ - すべてのサンプル アプリには、実際のスクリーンショットを表す更新された意味のあるサムネイルと、ホバーしたときのアプリの簡単なテキスト説明が含まれています。
+ - アプリ生成用に .sketch ファイルをアップロードする際のテーマの読み込みが改善されました。
+ - Adobe XD ファイルのサポート (Adobe XD プラグインの準備ができたら利用可能になります)。
 
 ### メンテナンスの更新とバグ修正
 
  - アプリの読み込み時間の改善と、アプリ ビルダーを使用する際の一般的なパフォーマンスの調整。
  - 一般的なバグ修正。
  - データが繰り返される要素のエラーを修正しました。
- - Data source list population fix for bindable elements.
+ - バインド可能な要素のデータ ソース リストの母集団の修正。
 
 [詳細情報 (英語)](https://www.infragistics.com/community/blogs/b/infragistics/posts/indigo-design-app-builder-september-release)
 
