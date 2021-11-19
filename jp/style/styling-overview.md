@@ -7,7 +7,7 @@ _language: ja
 
 # スタイル設定の概要
 
-**Indigo.Design システム**は、Ignite UI for Angular コントロールにもマップされる 60 以上のすべての UI コンポーネントをスタイリングする精巧な手段を提供します。Angular 製品のテーマ エンジンは数行のコードで同様に製品全体のスタイルを変更できるカスタム カラー テーマを作成できます。[**Indigo.Design App Builder**](../appbuilder/app-builder-overview.md) もこれらのテーマ設定メカニズムを実装しており、ユーザーは数回クリックするだけでアプリの完全な外観を変更できます。
+**Indigo.Design システム**は、Ignite UI for Angular コントロールにもマップされる 60 以上のすべての UI コンポーネントをスタイリングする精巧な手段を提供します。Angular 製品のテーマ エンジンは数行のコードで同様に製品全体のスタイルを変更できるカスタム カラー テーマを作成できます。[**App Builder**](https://www.jp.infragistics.com/products/appbuilder/docs/app-builder-overview) もこれらのテーマ設定メカニズムを実装しており、ユーザーは数回クリックするだけでアプリの完全な外観を変更できます。
 
 <img class="responsive-img" src="../images/theme_overview_default.png" />
 

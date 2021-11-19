@@ -50,7 +50,7 @@ Indigo.Design はデザインから開発までのワークフローをサポー
 App Builder モジュールを使用すると、デザイン ファイル (Sketch または Adobe XD) を使用してシングル ページ アプリケーションをデザインしたり、最初から作成したりできます。App Builder には一連の主要な機能が含まれており、ユーザーは実際の UI コンポーネント、グローバル テーマ、外部データ ソースを使用できます。
 
 関連トピック:
-[App Builder でアプリケーションを作成](appbuilder.md)
+[App Builder でアプリケーションを作成](https://www.jp.infragistics.com/products/appbuilder/docs/app-builder-overview)
 
 
 ### 4. Angular アプリケーションのコードを生成
@@ -61,5 +61,5 @@ Indigo.Design クラウドで公開されたプロトタイプから直接 Angul
 
 関連トピック:
 
-[Indigo.Design App Builder のアプリケーションからコードを生成](appbuilder/generate-app/generate-app-overview.md)
+[Indigo.Design App Builder のアプリケーションからコードを生成](https://www.jp.infragistics.com/products/appbuilder/docs/generate-app/generate-app-overview)
 [プロトタイプからコードを生成](codegen/installing-vs-code-extension.md)

@@ -49,7 +49,7 @@ Learn more:
 The App Builder module lets you design a single page application using a design file (Sketch or Adobe XD) as a starting point or create it from skratch. The App Builder includes a set of major features, enabling users to use real UI components, global themeing, external data sources.
 
 Learn more:
-[Build an application in the App Builder](appbuilder/app-builder-overview.md)
+[Build an application in the App Builder](https://www.infragistics.com/products/appbuilder/docs/app-builder-overview)
 
 
 ### 4. Generate Code for Angular Apps
@@ -60,5 +60,5 @@ You can also generate code for Angular apps directly from published prototypes i
 
 Learn more:
 
-[Generating code from an application in Indigo.Design App Builder](appbuilder/generate-app/generate-app-overview.md)
+[Generating code from an application in Indigo.Design App Builder](https://www.infragistics.com/products/appbuilder/docs/generate-app/generate-app-overview)
 [Generating code from prototypes](codegen/installing-vs-code-extension.md)
