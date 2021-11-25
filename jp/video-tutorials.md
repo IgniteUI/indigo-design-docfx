@@ -16,7 +16,7 @@ _language: ja
 
 ## Indigo Design App Builder
 
-Additional tutorials for App Builder can be found in [App Builder Video Tutorials](https://www.jp.infragistics.com/products/appbuilder/help/video-tutorials)
+Additional tutorials for App Builder can be found in [App Builder Video Tutorials](https://jp.infragistics.com/products/appbuilder/help/video-tutorials)
 
 ## デザイン システムの使用
 <section class="video-container">
