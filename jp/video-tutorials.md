@@ -15,47 +15,8 @@ _language: ja
 </section>
 
 ## Indigo Design App Builder
-<section class="video-container">
-    <div>
-        <div class="video-container__item">
-            <iframe src="https://www.youtube.com/embed/DK50La2GFJ0" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <p>App Builder を使用した作業の開始 (英語)</p>
-    </div>
-    <div>
-        <div class="video-container__item">
-            <iframe src="https://www.youtube.com/embed/MUq3MGm9YlU" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <p> アプリ レイアウトの作成 (英語)</p>
-    </div>
-    <div>
-        <div class="video-container__item">
-            <iframe src="https://www.youtube.com/embed/omlSzOuvFlM" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <p>Indigo.Design コンポーネントの使用 (英語)</p>
-    </div>
-</section>
 
-<section class="video-container">
-    <div>
-        <div class="video-container__item">
-            <iframe src="https://www.youtube.com/embed/tuTELBXDKYA" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <p>アプリ テーマのカスタマイズ (英語)</p>
-    </div>
-    <div>
-        <div class="video-container__item">
-            <iframe src="https://www.youtube.com/embed/5mF15w3Ww3g" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <p>単一ページ アプリとナビゲーションの設定 (英語)</p>
-    </div>
-    <div>
-        <div class="video-container__item">
-            <iframe src="https://www.youtube.com/embed/zxT-nIXKn7I" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <p>アプリ コードのプレビューと生成 (英語)</p>
-    </div>
-</section>
+Additional tutorials for App Builder can be found in [App Builder Video Tutorials](https://www.jp.infragistics.com/products/appbuilder/help/video-tutorials)
 
 ## デザイン システムの使用
 <section class="video-container">
