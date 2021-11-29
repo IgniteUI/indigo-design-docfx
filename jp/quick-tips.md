@@ -45,7 +45,7 @@ Indigo.Design でインタラクティブ プロトタイプを作成し、任�
 <img class="responsive-img" src="images/tips4.png" srcset="images/tips4@2x.png 2x" />
 <div class="divider--half"></div>
 ### デザインを Web アプリとして公開します。
-プラグインの [アプリの作成] オプションを使用して、デザインのすべての UI キットコンポーネントをコード コンポーネントに変換し、アプリを公開します。Web ベースの WYSIWYG App Builder を使用してアプリの拡張すると、開発チームはエンタープライズ対応の Angular コードを生成できます。[詳細はこちらをご覧ください](appbuilder/app-builder-overview.md)
+プラグインの [アプリの作成] オプションを使用して、デザインのすべての UI キットコンポーネントをコード コンポーネントに変換し、アプリを公開します。Web ベースの WYSIWYG App Builder を使用してアプリの拡張すると、開発チームはエンタープライズ対応の Angular コードを生成できます。[詳細はこちらをご覧ください](https://www.jp.infragistics.com/products/appbuilder/docs/app-builder-overview)
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -55,7 +55,7 @@ Indigo.Design でインタラクティブ プロトタイプを作成し、任�
 <img class="responsive-img" src="images/tips5.png" srcset="images/tips5@2x.png 2x" />
 <div class="divider--half"></div>
 ### 外部データ ソースをお持ちですか?
-Indigo.Design App Builder には、任意の REST データ ソースへの接続や JSON ファイルのアップロードを可能にするデータ ソース オプションがあります。そのためには、データ ソース パネルに接続します。[詳細はこちらをご覧ください](appbuilder/using-data-in-your-app.md)
+Indigo.Design App Builder には、任意の REST データ ソースへの接続や JSON ファイルのアップロードを可能にするデータ ソース オプションがあります。そのためには、データ ソース パネルに接続します。[詳細はこちらをご覧ください](https://www.infragistics.com/products/appbuilder/docs/using-data-in-your-app)
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
