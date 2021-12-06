@@ -245,8 +245,11 @@
       href: ../patterns/tree-grid.md
     - name: User Profile
       href: ../patterns/user-profile.md
-- name: Responsive layouts
-  href: ../best-layout-practices.md
+- name: Responsive layouts in Sketch
+  href: ../best-layout-practices-sketch.md
+- name: Responsive layouts in AdobeXD
+  href: ../best-layout-practices-xd.md
+  new: true
 
 - name: Prototypes & Usability Studies
   header: true
