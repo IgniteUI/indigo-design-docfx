@@ -6,7 +6,7 @@
   href: ../video-tutorials.md
 - name: Quick Tips
   href: ../quick-tips.md
-
+  new: true
 - name: Using the Design System
   header: true
 - name: Creating An Artboard in Sketch

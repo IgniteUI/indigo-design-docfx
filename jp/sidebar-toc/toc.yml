@@ -6,7 +6,7 @@
   href: ../video-tutorials.md
 - name: クイック ヒント
   href: ../quick-tips.md
-
+  new: true
 - name: デザイン システムの使用
   header: true
 - name: Sketch でアートボードを作成
