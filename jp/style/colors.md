@@ -1,21 +1,19 @@
 ---
 title: Colors - デザイン システム スタイリング
-_description: カラー スタイルを使用すると、Indigo.Design システムのテーマの基礎としてパレットと特別なカラーを設定できます。
+_description: Colors ライブラリ ページは、Indigo.Design システムのテーマを設定できます。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
 # Colors (カラー)
 
-**Indigo.Design システム** には、 `primary`、`secondary`、`grays` にそれぞれ 10 カラーのバリエーションを持つ 5 つのパレット、2 つのチャート `series` カラー、および `success`、`warn`、`error`、`info`、 `surface` などの特別なカラーがあります。これにより、数回クリックするだけで、ライブラリとそれを使用するすべてのプロジェクトの完全な外観を変更できます。Colors の設定方法は、[Ignite UI for Angular テーマ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes.html)と同じです。
+**Indigo.Design システム**の `🎨 Colors` ページには、ライブラリを一度にブランディンできる `primary`、`secondary`、`success`、`warn`、`error`、`info`、`grays`、`series` カラーのコレクションがあります。Colors の設定方法は、[Ignite UI for Angular テーマ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes.html)と同じです。
 
 <img class="responsive-img" src="../images/colors_palette.png" />
 
-Sketch では、これらは `🎨 Colors` という名前の別のページにあり、任意の図形要素に適用できる `Layer Styles` として利用できます。Adobe XD では、ライブラリ ファイルの左側の列にある同じ名前のアートボードに配置され、コンポーネントやパターン全体で使用される `Colors` として存在します。
+**Indigo.Design システム**のバージョン 3 は、さまざまなデータ可視化シナリオに最適化された 10 カラーの 2 つのコレクションを持つシリーズ パレットの概念を紹介します。両方のパレットは、ゲージの範囲を色付けする場合などに使用できるように、隣接するシリーズ カラーの間のコントラストを確保します。パレットの 1 つは完全に包括的になるように最適化されており、カラーを識別できない読者でも簡単に理解できるようになっています。 
 
-**Indigo.Design システム** は、さまざまなデータ視覚化シナリオ用に最適化された特別なカラー パレットを備えています。どちらも隣接するシリーズ カラー間の良好なコントラストを保証するため、パレットを使用して、たとえばゲージの範囲にカラーを付けすることができます。パレットの 1 つは完全に包括的になるように最適化されており、色覚異常のある人がでも簡単に理解できるようになっています。
-
-## Sketch でのパレット生成
+## パレット生成
 
 Sketch でプライマリ パレットを変更するには、Indigo.Design ライブラリ ファイルを開き、`View` / `Components` を選択します。Sketch メニューで 4 つのボタンのグループがあります。右側のボタンはパントーン ガイドのアイコンで、`Show Color Variables` を表します。
 
@@ -29,21 +27,7 @@ Sketch でプライマリ パレットを変更するには、Indigo.Design ラ�
 
 ライブラリで `secondary` カラーや特別な意味を持つ他のカラーにも同じ手順を実行できます。
 
-## Adobe XD でのパレット生成
-
-Adobe XD のプライマリ パレットを変更するには、Indigo.Design ライブラリ ファイルを開き、`Libraries` パネルを表示します。次に、`primary.500` を右クリックし、表示されるコンテキスト メニューから `Edit` を選択して、別のカラーを指定します。これにより、`🎨 Colors` アートボードのパレットが更新されますが、`Libraries` パネルの `primary.500` カラーのみが変更を反映します。
-
-<img class="responsive-img" src="../images/colors-palette-xd1.png" srcset="../images/colors-palette-xd1@2x.png 2x"/>
-
-`Libraries` パネルの残りのカラーは手動で更新する必要があります。これを実現するには、長方形を描画し、アイドロッパー ツールを使用して、`🎨 Colors` アートボードのパレットからカラー バリエーションを選択して塗りつぶしを設定します。次に、hex 値を使用して、`Libraries` パネルでそれぞれのカラーを編集します。パレット全体が更新されるまで、このプロセスに従います。
-
-<img class="responsive-img" src="../images/colors-palette-xd2.png" srcset="../images/colors-palette-xd2@2x.png 2x"/>
-
-ライブラリで `secondary` カラーや特別な意味を持つ他のカラーにも同じ手順を実行できます。これは、コンポーネントとパターンに自動的に伝達します。
-
-<img class="responsive-img" src="../images/colors-palette-xd3.png" srcset="../images/colors-palette-xd3@2x.png 2x"/>
-
-## Sketch でカスタム カラーを作成
+## カスタム カラーの作成
 
 利用可能なカラーよりも多くのカラーが必要な場合があります。スコープが異なるカスタム カラーを作成するには、2 つの方法があります。
 
@@ -70,26 +54,6 @@ Adobe XD のプライマリ パレットを変更するには、Indigo.Design �
     <img class="responsive-img" src="../images/colors_custom5.png"/>
 
 5.  これでカスタム カラーがカラー変数として表示され、コンポーネントおよびパターンのオーバーライドに表示されます。
-
-## Adobe XD でカスタム カラーを作成
-
-利用可能なカラーよりも多くのカラーが必要な場合があります。スコープが異なるカスタム カラーを作成するには、2 つの方法があります。
-
-ライブラリを使用するすべてのプロジェクトで追加したカラーを使用したい場合、ライブラリの `Colors` アートボードに移動し、`series` パレットの下の空の `Custom` セクションにズームします。
-
-<img class="responsive-img" src="../images/colors_custom6.png" srcset="../images/colors_custom6@2x.png 2x"/>
-
-プロセスを完了するには以下の手順に従ってください。現在のプロジェクトのスコープ内でのみ追加したカラーにアクセスできるようにするには、プロジェクト内のどこからでも以下の手順に従います。
-
-1.  四角形を描画し、塗りつぶしを任意のカラーに設定します。 
-
-    <img class="responsive-img" src="../images/colors_custom7.png" srcset="../images/colors_custom7@2x.png 2x"/>
-
-2.  次に、`Libraries` パネルで、`Colors` の右側にある `+` アイコンをクリックしてスタイルを作成し、適切な名前を付けます。
-
-    <img class="responsive-img" src="../images/colors_custom8.png" srcset="../images/colors_custom8@2x.png 2x"/>
-
-3.  これですべての設定が完了し、カスタム カラーが `Libraries`パネルに `Color` として表示され、コンポーネントやパターンで他のカラーと同じように使用できます。
 
 ## その他のリソース
 

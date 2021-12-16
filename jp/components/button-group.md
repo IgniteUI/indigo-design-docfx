@@ -22,7 +22,7 @@ Button Group は、2 方向レイアウトをサポートし、左から右の�
 
 ## ボタン数
 
-Sketch の Button Group はスマート レイアウトを使用して、必要なボタンの正確な数を選択し、オーバーライド パネルから ~No Symbol に設定することで追加のボタンを非表示にします。Adobe XD では、ボタンを使用して不要なレイヤーを削除するとレイアウトが自動的に調整されます。
+Button Group は、スマート レイアウト オプションを使用して、必要なボタンの正確な数を選択し、オーバーライド パネルから ~No Symbol に設定することで余分なボタンを非表示にします。
 
 <img class="responsive-img" src="../images/button-group_amount.png" srcset="../images/button-group_amount@2x.png 2x" />
 
@@ -35,7 +35,7 @@ Button Group の各ボタンは Flat Button であり、同様のテンプレー
 
 ## スタイル設定
 
-Button Group は、さまざまなオプションを通じて境界線と背景色、各ボタンのアウトライン、背景、テキスト、アイコンの色を柔軟にスタイル設定できます。
+Button Group は、境界線と背景色、各ボタンのアウトライン、背景、テキスト、アイコンの色を制御することにより柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/button-group_styling.png" srcset="../images/button-group_styling@2x.png 2x" />
 
@@ -57,4 +57,5 @@ Button のスタイルは統一させます。同じ Button グループ内で�
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
+
 

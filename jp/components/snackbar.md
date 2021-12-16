@@ -15,7 +15,7 @@ Snackbar コンポーネント シンボルは、短い通知の表示やリス�
 
 ## スタイル設定
 
-Snackbar には、メッセージのテキストの色、操作ボタン、背景色に使用できるオプションを通じて、スタイルの柔軟性があります。
+Snackbar にはスタイルの柔軟性があり、メッセージのテキストの色、操作ボタン、背景色を変更できます。
 
 <img class="responsive-img" src="../images/snackbar_styling.png" srcset="../images/snackbar_styling@2x.png 2x" />
 

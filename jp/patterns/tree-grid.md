@@ -22,7 +22,6 @@ _language: ja
 - 列非表示
 - 表示密度
 - Excel スタイル フィルタリング
-- 高度なフィルタリング
 - グループ化
 - ピン固定
 - 行選択
@@ -35,9 +34,9 @@ _language: ja
 
 
 > [!WARNING]
-> Sketch では、Tree Grid パターンを挿入した後、データのすべてのディメンションを表示し、必要な数の表示可能なレコードを挿入するために、提供されたセルの数を変更する必要がある場合にのみ、`Detach from Symbol` をトリガーできます。ただし、各コンポーネントおよび機能をデタッチしないでください。
->
-> Adobe XD では、パターン自体のグループ化を解除することなく、列と行を複製することで提供されるよりも多くのセルを追加できます。
+> Tree Grid パターンを挿入した後、Angular コードとして生成できるには、レイアウトを作成したコンポーネントおよび Grid Features に分割するために `Detach from Symbol` をトリガーします。ただし、各コンポーネントおよび Grid Features をデタッチしないでください。
+
+<img class="responsive-img" src="../images/tree_grid_detach.png" srcset="../images/tree_grid_detach@2x.png 2x" />
 
 ## その他のリソース
 
@@ -46,3 +45,5 @@ _language: ja
 - [Tree Grid](../components/tree-grid.md)
 
 コミュニティに参加して新しいアイデアをご提案ください。
+
+

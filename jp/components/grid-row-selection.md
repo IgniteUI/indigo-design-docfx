@@ -22,7 +22,7 @@ Grid 行選択は、最初の列の左側に追加の列を作成し、その He
 
 ## Row Selection Cell (行選択セル)
 
-グリッドは、`Grid Feature` を介して利用可能な選択された行に特別なタイプの Body セルを提供します。`RowSelected/Cell` に設定すると、選択した行に属するセルを示す区別可能なスタイルが適用されます。Sketch では、`Grid Feature` は必要な `Symbol Overrides` を提供しますが、Adobe XD では、`Component States` パラダイムを使用して状態を簡単に切り替えることができるレイヤーとして提供されます。
+グリッドは、`Grid Feature` オーバーライドを介して利用可能な選択された行に特別なタイプの Body セルを提供します。`RowSelected/Cell` に設定すると、選択した行に属するセルを示す区別可能なスタイルが適用されます。
 
 ## その他のリソース
 

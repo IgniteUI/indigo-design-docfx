@@ -10,6 +10,12 @@ Use the Scheduler Pattern as a preset to display a scheduler as part of project 
 
 <img class="responsive-img" src="../images/scheduler.png" srcset="../images/scheduler@2x.png 2x" />
 
+
+> [!WARNING]
+> After inserting the Scheduler Pattern you should trigger `Detach from Symbol` in order to be able to generate the Pattern as Angular code. The various Components that lay it out must stay intact and not be detached!
+
+<img class="responsive-img" src="../images/scheduler_detach.png" srcset="../images/scheduler_detach@2x.png 2x" />
+
 ## Additional Resources
 
 Related topics:

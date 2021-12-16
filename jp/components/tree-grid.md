@@ -13,7 +13,7 @@ Tree Grid コンポーネントを使用して、ユーザーがタブ形式で�
 
 <img class="responsive-img" src="../images/tree_grid_demo.png" srcset="../images/tree_grid_demo@2x.png 2x" />
 
-## Sketch で Tree Grid を使用
+## Detach from Symbol (シンボルからデタッチ)
 
 Grid と同様に、Tree Grid は、基本的にフラット、表形式で階層データを表示する列と行のリピーターです。したがって、最も簡単な使用方法は、`Tree Grid/Comfortable` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下にあるシ `Detach from Symbol` オプションを選択します。新しく表示されるグループの下のレイヤー パネルには以下があります。
 
@@ -25,23 +25,9 @@ Grid と同様に、Tree Grid は、基本的にフラット、表形式で階�
 
 デタッチ後、既存のデータ行の 1 つを複製し、デザインに表示したいレコード (数に制限がない) および多数のヘッダーを必要なだけ追加してデータのすべてのディメンションを表示できます。
 
-## Adobe XD で Tree Grid を使用
-
-Adobe XD では、3 つの[プリセット表示密度ツリー グリッド コンポーネント](grid-display-density.md)のいずれかを選択してアートボードにドラッグすると、レイヤー パネルで、Header と Body の両方に `Repeat Grid` を使用して構成を高速化していることがわかります。Sketch とは異なり、Adobe XD ではシンボルを破棄する必要はありません。レイヤー パネルに次のように表示されます:
-
-| レイヤー                        | 使用                                                                                                                                                  |
-| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 metadata | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
-| Header                       | すべてのヘッダー セルが含まれます: 本文 セルと Repeat Grid  にグループ化された残りのセル。                                                                                                                 |
-| Body                         | すべてのボディ セルが含まれます: Repeat Grid にグループ化された TreeColumn セルと、別の Repeat Grid にグループ化された残りのセル。                                                                                                                  |
-
-Repeat Grid レイヤーを選択すると、必要な繰り返すセルの数を変更できます。右端または下端にある緑色のハンドルをドラッグするだけで、データのすべてのディメンションが表示され、デザインに表示する必要のある数の表示可能なレコードが挿入されます。特定のセル タイプまたは列幅を変更するには、Repeat Grid レイヤーを選択し、右側のパネルで `Ungroup Grid` をクリックする必要があります。これにより、セルを個別に操作して、目的のデザインを実現できます。
-
-<img class="responsive-img" src="../images/tgrid_layers_panel_adobe_xd.png" srcset="../images/tgrid_layers_panel_adobe_xd@2x.png 2x" />
-
 ## セル タイプ
 
-Tree Grid は、3 種類の通常のグリッド セル Header、Body および Summary を、階層を整理するために使用される TreeColumn Cell で拡張します。これは常にすべての行の最初の Body Cell として使用され、行を折りたたむ/展開するための定義済みのアイコンとアクションが付属しています。
+Tree Grid は、3種類の通常のグリッド セル Header、Body および Summary を、階層を整理するために使用される TreeColumn Cell で拡張します。これは常にすべての行の最初の Body Cell として使用され、行を折りたたむ/展開するための定義済みのアイコンとアクションが付属しています。
 
 <img class="responsive-img" src="../images/tree_grid_column_cell.png" srcset="../images/tree_grid_column_cell@2x.png 2x" />
 
@@ -57,7 +43,7 @@ TreeColumn セルは、Tree Grid の 3 つの表示密度バリアント (comfor
 
 ## Cell の深さ
 
-Tree Grid の TreeColumn セルは、`Level` オーバーライドを介してデータ階層のレベルを視覚的に示します。これは、**Root Level**、Child Level、または Grandchild Level に設定できます。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+Tree Grid の TreeColumn セルは、`Level` オーバーライドを介してデータ階層のレベルを視覚的に示します。これは、**Root Level**、Child Level、または Grandchild Level に設定できます。
 
 <img class="responsive-img" src="../images/tree_grid_cell_body_root_level.png" srcset="../images/tree_grid_cell_body_root_level@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_cell_body_child_level.png" srcset="../images/tree_grid_cell_body_child_level@2x.png 2x" />
@@ -65,7 +51,7 @@ Tree Grid の TreeColumn セルは、`Level` オーバーライドを介して�
 
 ## スタイル設定
 
-Tree Grid には、使用可能なさまざまな状態の各セル テキスト、アイコン、背景色に使用できるオプション、および右と下の境界線を非表示にすることにより、スタイルの柔軟性があります。
+Tree Grid は、さまざま状態の各セル テキスト、アイコン、背景色のスタイル設定や右および下の境界線の非表示など柔軟に変更できます。
 
 <img class="responsive-img" src="../images/tree_grid_styling.png" srcset="../images/tree_grid_styling@2x.png 2x" />
 

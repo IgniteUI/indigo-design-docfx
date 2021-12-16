@@ -11,6 +11,12 @@ Pricing Table パターンを使用して、製品またはサブスクリプシ
 
 <img class="responsive-img" src="../images/pricing_plan.png" srcset="../images/pricing_plan@2x.png 2x" />
 
+
+> [!WARNING]
+> 利用可能な任意の Pricing Table をパターンとして挿入後、Angular コードとして生成できるには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。各 Pricing Table の要素と背景はデタッチしないでください。
+
+<img class="responsive-img" src="../images/pricing_plan_detach.png" srcset="../images/pricing_plan_detach@2x.png 2x" />
+
 ## その他のリソース
 
 関連トピック:

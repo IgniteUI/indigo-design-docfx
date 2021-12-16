@@ -11,6 +11,12 @@ Scheduler パターンをプリセットとして使用して、プロジェク�
 
 <img class="responsive-img" src="../images/scheduler.png" srcset="../images/scheduler@2x.png 2x" />
 
+
+> [!WARNING]
+> Scheduler パターンを挿入した後、パターンを Angular コードとして生成するには、`Detach from Symbol` をトリガーします。含まれるコンポーネントをデタッチしないでください。
+
+<img class="responsive-img" src="../images/scheduler_detach.png" srcset="../images/scheduler_detach@2x.png 2x" />
+
 ## その他のリソース
 
 関連トピック:

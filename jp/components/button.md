@@ -27,7 +27,7 @@ Button コンポーネント シンボルは、シンプルなユーザー操作
 
 ## 操作状態
 
-これらのボタンはすべて、有効なバリアントと無効なバリアントの両方をサポートしているため、無効な状態で挿入することもできます。Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+これらのボタンはすべて、有効なバリアントと無効なバリアントの両方をサポートしているため、無効な状態で挿入することもできます。
 
 <img class="responsive-img" src="../images/button_disabled.png" srcset="../images/button_disabled@2x.png 2x" />
 
@@ -39,13 +39,13 @@ Button コンポーネント シンボルは、シンプルなユーザー操作
 
 ## レイアウト テンプレート
 
-Raised、Outlined、Flat、および Floating Action ボタンは、柔軟なアイコンおよびラベルのテンプレートをサポートします。Sketch では、スマート レイアウト ルールが適用されるため、非表示にする要素を ~No Symbol に設定すると、レイアウトを調整できます。Adobe XD では、代わりに未使用レイヤーを削除します。ただし、デザイン時にラベルとアイコンの位置のみを変更する場合は、一方を他方の側にドラッグできます。
+Raised、Outlined、Flat、Floating Action ボタンは、オーバーライド パネルから非表示にする要素を ~No Symbol に設定することで、柔軟なアイコンとラベルのテンプレートをサポートします。
 
 <img class="responsive-img" src="../images/button_templates.png" srcset="../images/button_templates@2x.png 2x" />
 
 ## スタイル設定
 
-Button は、さまざまなオプションを通じて背景色、ラベル、アイコンの色を柔軟にスタイル設定できます。
+Button は、さまざまなオーバーライドで背景色、ラベル、アイコン色を制御することにより柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/button_styling.png" srcset="../images/button_styling@2x.png 2x" />
 
@@ -74,4 +74,5 @@ Button のコンテンツにラベルを含む場合、大文字を太文字 (Me
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
+
 

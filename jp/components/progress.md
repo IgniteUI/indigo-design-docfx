@@ -30,6 +30,7 @@ Progress は、以下のプリセット カラーの組み合わせの 1 つを�
 - success: `success` テーマの色を使用して進行状況を表示します。
 - warn: `warn` テーマの色を使用して進行状況を表示します。
 
+
 <img class="responsive-img" src="../images/progress_default.png" srcset="../images/progress_default@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_error.png" srcset="../images/progress_error@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_info.png" srcset="../images/progress_info@2x.png 2x" />
@@ -38,7 +39,7 @@ Progress は、以下のプリセット カラーの組み合わせの 1 つを�
 
 ## Progress の量
 
-確定タイプの Progress を使用する場合、6 種類のパーセント値を Progress の量として選択できます。Sketch では、これは `Symbol Overrides` で簡単に切り替えることができますが、Adobe XD では、`Libraries` パネルから目的の量をドラッグし、`Progress Amount` レイヤーの上にドロップしてデフォルト値を変更する必要があります。 
+確定タイプの Progress を使用する場合、6 種類のパーセント値を Progress の量として選択できます。
 
 <img class="responsive-img" src="../images/progress_circular-progress-amount.png" srcset="../images/progress_circular-progress-amount@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_linear-progress-amount.png" srcset="../images/progress_linear-progress-amount@2x.png 2x" />
@@ -51,7 +52,7 @@ Progress コンポーネントに Linear Bar レイアウト形状を使用す�
 
 ## スタイル設定
 
-Progress は、さまざまなオプションを通じてテキストおよび必要に応じて、プログレス、基本色、ストリップ、塗りつぶし、トラックの色を柔軟にスタイル設定できます。
+Progress は、さまざまなオーバーライドでテキストおよび必要に応じて、プログレス、基本色、ストリップ、塗りつぶし、トラックの色を制御することにより柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/progress_striped.png" srcset="../images/progress_striped@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_clear.png" srcset="../images/progress_clear@2x.png 2x" />

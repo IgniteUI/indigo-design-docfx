@@ -37,7 +37,7 @@ Avatar のサイズは 3 つあります。
 
 ## スタイル設定
 
-Avatar は、さまざまなオプションを通じて背景色、イニシャルとそのテキスト スタイル、アイコンとその色を柔軟にスタイル設定できます。
+Avatar は、さまざまなオーバーライドで背景色、イニシャルとそのテキスト スタイル、アイコンとその色を制御することにより柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/avatar_styling.png" srcset="../images/avatar_styling@2x.png 2x" />
 
@@ -60,3 +60,4 @@ Avatar でイニシャルやアイコンを使用する場合に Avatar 背景�
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
+

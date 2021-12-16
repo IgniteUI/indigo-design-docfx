@@ -37,6 +37,8 @@ In order to add the Libraries in Sketch follow these
 
 The Indigo.Design UI Kit comes with massive customization flexibility built in. This was achieved in the libraries through the mechanism of nesting `Symbols` that get exposed as `Overrides` in a project consuming a Sketch library. Once you start inserting Indigo.Design Components in your project, you will immediately see the `Overrides` section in the right Sketch panel, just underneath the `Prototyping` section. On the image below you can explore the available overrides for the [Badge](components/badge.md) through which you can change its type from number to icon, or configure the number color and value. There are also dropdowns for selecting the border and background colors, where only valid values are made possible for selection. At the very bottom there are special properties that are used for code generation to create the necessary data bindings in the generated Angular app. Each Component has its own unique properties inside the `Overrides` panel and many of the topics in this help section explain the possible values and provide the necessary guidance on using them.
 
+<img class="responsive-img" src="images/getting-started-overrides.png" />
+
 ### Creating your First Indigo Design Artboard
 
 Now that you have added the Indigo Design Libraries, you are all set to start crafting amazing experiences. Our first design will be for a simple registration screen with a Navbar, and a beautiful image for background on top of which we will design a simple form consisting of a little bit of Text, a few Inputs and a Button to submit the user details. So, let's find out what a productivity boost the Indigo Design system brings to the table.
@@ -51,6 +53,7 @@ Now that you have added the Indigo Design Libraries, you are all set to start cr
     | &nbsp;&nbsp; Colors/primary.100 | The background color |
 
   <div class="divider--half"></div>
+  <img class="responsive-img" src="images/getting-started1.png" srcset="images/getting-started1@2x.png 2x" />
   <div class="divider--half"></div>
   <div class="divider--half"></div>
   <div class="divider--half"></div>
@@ -60,6 +63,7 @@ Now that you have added the Indigo Design Libraries, you are all set to start cr
 3.  From the insert menu, select `Indigo-Styling`, then `Colors/white` and place the white rectangle on top of the background, sizing it to 280 by 398, and putting it in the exact center of the artboard to serve as a surface on top of which our form will be laid out.
 
   <div class="divider--half"></div>
+  <img class="responsive-img" src="images/getting-started2.png" srcset="images/getting-started2@2x.png 2x" />
   <div class="divider--half"></div>
   <div class="divider--half"></div>
   <div class="divider--half"></div>
@@ -76,6 +80,7 @@ Now that you have added the Indigo Design Libraries, you are all set to start cr
     | &nbsp;&nbsp; Colors/primary.100 | The background color |
 
   <div class="divider--half"></div>
+  <img class="responsive-img" src="images/getting-started3.png" srcset="images/getting-started3@2x.png 2x" />
   <div class="divider--half"></div>
   <div class="divider--half"></div>
   <div class="divider--half"></div>
@@ -85,6 +90,7 @@ Now that you have added the Indigo Design Libraries, you are all set to start cr
 5.  From the insert menu, select `Indigo-Components`, then `Inputs/Input` and `Line` positioning it below the title both in the canvas and in the layers panel. Leave 16px on the left, 16px from the Title at the top and set its width to 116px. Now duplicate this input, positioning the second one to the right of the first one, which will provide a 16px spacing between the two and on the right of the second one. Select both Inputs and change the State override to ~Dark/Filled. Then, with the left Input selected provide "First Name" for its label and "Eliza" for the Input Text. Do the same for the right one with "Last Name" and "Morales" and you should get something similar to this:
 
   <div class="divider--half"></div>
+  <img class="responsive-img" src="images/getting-started4.png" srcset="images/getting-started4@2x.png 2x" />
   <div class="divider--half"></div>
   <div class="divider--half"></div>
   <div class="divider--half"></div>
@@ -105,6 +111,7 @@ Now that you have added the Indigo Design Libraries, you are all set to start cr
     | &nbsp;&nbsp; Colors/primary.100 | The background color |
 
   <div class="divider--half"></div>
+  <img class="responsive-img" src="images/getting-started5.png" srcset="images/getting-started5@2x.png 2x" />
   <div class="divider--half"></div>
   <div class="divider--half"></div>
   <div class="divider--half"></div>
@@ -114,6 +121,7 @@ Now that you have added the Indigo Design Libraries, you are all set to start cr
 7.  From the insert menu, select `Indigo-Components`, then `Buttons` and `Raised` positioning the Button below the form we have created. Leave 16px on the left, 16px from the Inputs at the top and 16px on the right. Update the Text to "SIGN UP" and set the Background to Colors/info.
 
   <div class="divider--half"></div>
+  <img class="responsive-img" src="images/getting-started6.png" srcset="images/getting-started6@2x.png 2x" />
   <div class="divider--half"></div>
   <div class="divider--half"></div>
   <div class="divider--half"></div>
@@ -136,6 +144,7 @@ Now that you have added the Indigo Design Libraries, you are all set to start cr
     | &nbsp;&nbsp; Colors/primary.100 | The background color |
 
   <div class="divider--half"></div>
+  <img class="responsive-img" src="images/getting-started7.png" srcset="images/getting-started7@2x.png 2x" />
   <div class="divider--half"></div>
   <div class="divider--half"></div>
   <div class="divider--half"></div>

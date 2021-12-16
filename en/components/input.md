@@ -59,11 +59,9 @@ Every experienced designer uses constraints wisely to limit the user input and a
 <img class="responsive-img" src="../images/input_warning.png" srcset="../images/input_warning@2x.png 2x" />
 <img class="responsive-img" src="../images/input_error.png" srcset="../images/input_error@2x.png 2x" />
 
-In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
-
 ## Layout
 
-The Input has rich support for prefix and suffix through a combination of text and icons that can, in certain cases, reduce the input effort for the user: e.g. an @email.com suffix means both fewer keystrokes and more clarity of expected content. In Sketch, to remove the prefix or suffix simply set their override to ~No Symbol, and the smart layout rules will adjust the input accordingly. In Adobe XD, the same can be achieved by deleting the unnecessary prefix or suffix layer and the Stack will take care to adjust the layout accordingly.
+The Input has rich support for prefix and suffix through a combination of text and icons that can, in certain cases, reduce the input effort for the user: e.g. an @email.com suffix means both fewer keystrokes and more clarity of expected content. You can remove the prefix or suffix by setting the respective container to ~No Symbol from the overrides.
 
 <img class="responsive-img" src="../images/input_prefix.png" srcset="../images/input_prefix@2x.png 2x" />
 <img class="responsive-img" src="../images/input_suffix.png" srcset="../images/input_suffix@2x.png 2x" />
@@ -87,8 +85,6 @@ Use the box type of Input when placing forms on top of an image to improve reada
 
 Related topics:
 
-- [Combo](combo.md)
-- [Select](select.md)
 - [Form Pattern](../patterns/form.md)
 - [User Profile Pattern](../patterns/user-profile.md)
   <div class="divider--half"></div>

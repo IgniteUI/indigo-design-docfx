@@ -13,6 +13,11 @@ Chat パターンを使用して、ソーシャル ネットワーク、eコマ�
 
 <img class="responsive-img" src="../images/chat_desktop_demo.png" srcset="../images/chat_desktop_demo@2x.png 2x" />
 
+> [!WARNING]
+> Chat パターンを挿入した後、パターンを Angular コードとして生成するには、`Detach from Symbol` をトリガーします。含まれるコンポーネントをデタッチしないでください。
+
+<img class="responsive-img" src="../images/chat_detach.png" srcset="../images/chat_detach@2x.png 2x" />
+
 ## その他のリソース
 
 関連トピック:

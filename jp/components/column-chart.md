@@ -17,20 +17,20 @@ Column Chart は、`Title`、デフォルトで非表示の `Legend`、および
 
 ## タイトル
 
-Column Chart のタイトルは、必要に応じて変更または非表示にできます。Sketch では、スマート レイアウトは ~No Symbol に設定してタイトルを非表示にしたときにチャートを調整します。Adobe XD では、タイトル レイヤーを削除することで同じことができます。Stack はそれに応じてレイアウトを更新します。
+Column Chart のタイトルは、オーバーライドを ~No Symbol に設定して変更または非表示にできます。
 
 <img class="responsive-img" src="../images/column_chart_title.png" srcset="../images/column_chart_title@2x.png 2x" />
 
 ## 状態
 
-Column Chart には、Idle と Hover の 2 つの状態があります。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。 Hover 状態では、データ ポイントの上にホバーするとツールチップが表示され、フォーカスされて他の列がグレーアウトされます。
+Column Chart には、Idle と Hover の 2 つの状態があります。Hover 状態では、データ ポイントの上にホバーするとツールチップが表示され、フォーカスされて他の列がグレーアウトされます。
 
 <img class="responsive-img" src="../images/column_chart_tooltip-off.png" srcset="../images/column_chart_tooltip-off@2x .png 2x" />
 <img class="responsive-img" src="../images/column_chart_tooltip-on.png" srcset="../images/column_chart_tooltip-on@2x.png 2x" />
 
 ## Y 軸
 
-Column Chart の Y 軸は、Title、Labels、および軸自体で構成されます。Title と Labels は構成可能であり、ラベルを非表示にするには、Sketch でオーバーライドを ~No Symbol に設定するか、Adobe XD でレイヤーを削除します。軸線の色を `Transparent` に設定してすべての要素を非表示にするには、Sketch で Y 軸のオーバーライドを ~No Symbol に変更するか、Adobe XD でレイヤーを削除します。
+Column Chart の Y 軸は、Title、Labels、および軸自体で構成されます。Title および Labels は構成可能で、ラベルを非表示にするには、オーバーライドを ~No Symbol に設定します。色を `Transparent` に設定して軸線を非表示にできます。また、すべての要素を非表示にするには、Y 軸のオーバーライドを ~No Symbol に変更します。
 
 <img class="responsive-img" src="../images/column_chart_yaxis.png" srcset="../images/column_chart_yaxis@2x.png 2x" />
 
@@ -42,7 +42,7 @@ Column Chart には、データ ポイントを Y 軸の値に視覚的にトレ
 
 ## Data Points (テータ ポイント)
 
-Column Chart のデータ ポイントは個々の縦棒で、Sketch のスマート レイアウトまたは Adobe XD の Stack に配置され、チャート領域で簡単にデータ量を調整できます。さらに、列には X 軸の構成可能なラベルと注釈ラベルが含まれています。
+Column Chart の Data Points は個々の列で、Sketch の Smart Layout を使用して Chart Area での量を調整できます。X 軸に構成可能なラベルと注釈ラベルがあります。
 
 <img class="responsive-img" src="../images/column_chart_columns.png" srcset="../images/column_chart_columns@2x.png 2x" />
 
@@ -65,10 +65,7 @@ Column Chart では、シリーズの色を変更できます。Series.1、serie
 
 関連トピック:
 
-- [Line Chart](line-chart.md)
-- [Spline Chart](spline-chart.md)
-- [Step Line Chart](step-line-chart.md)
-- [Skeleton Charts](skeleton-charts.md)
+- [Line Chart](../line-chart.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

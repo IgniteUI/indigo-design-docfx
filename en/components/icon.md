@@ -25,7 +25,7 @@ The Icon comes in four different sizes:
 
 ## Styling
 
-The Icon comes with styling flexibility through the options for selectable graphic and the color applied to it.
+The Icon comes with styling flexibility through the overrides for selectable graphic and the color applied to it.
 
 <img class="responsive-img" src="../images/icon_styling.png" srcset="../images/icon_styling@2x.png 2x" />
 

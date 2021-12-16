@@ -21,7 +21,6 @@ List of all the Grid functionality:
 - Column Hiding
 - Display Density
 - Excel Style Filtering
-- Advanced Filtering
 - GroupBy
 - Pinning
 - Row Selection
@@ -34,9 +33,9 @@ All Grid features are applicable to each child and parent Grid.
 
 
 > [!WARNING]
-> In Sketch, after inserting the Hierarchical Grid Pattern, you can trigger `Detach from Symbol` only if you need to alter the number of cells provided, in order to show all the dimensions of your data and insert as many visible records as you want. In case you need to show more of the hierarchy, you may also nest additional grids within the body of the parent one that they belong to. The individual Components and Features, however, must stay intact and not be detached!
->
-> In Adobe XD you can add more cells than provided by duplicating columns and rows without ever having to ungroup the pattern itself.
+> After inserting the Hierarchical Grid Pattern, you should trigger `Detach from Symbol` to break it down to the Components and Grid Features that are used to create the layout in order to be able to generate it as Angular code. The individual Components and Features, however, must stay intact and not be detached!
+
+<img class="responsive-img" src="../images/hierarchical_grid_detach.png" srcset="../images/hierarchical_grid_detach@2x.png 2x" />
 
 ## Additional Resources
 
@@ -45,3 +44,5 @@ Related topics:
 - [Hierarchical-Grid](../components/hierarchical-grid.md)
 
 Our community is active and always welcoming to new ideas.
+
+

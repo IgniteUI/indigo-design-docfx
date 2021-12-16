@@ -15,7 +15,7 @@ Grid ページングを使用して、ユーザーに現在の位置 (ユーザ�
 
 ## スタイル設定
 
-Grid ページングは、さまざまなオプションを通じてラベルや背景色などを柔軟にスタイル設定ができ、ナビゲーションに使用する Icon Buttons もスタイル設定できます。
+Grid ページングは、さまざまなオーバーライドでラベルや背景色などのスタイル設定に柔軟性があり、ナビゲーションに使用する Icon Buttons のスタイル設定も可能です。
 
 <img class="responsive-img" src="../images/grid_paging_styling.png" srcset="../images/grid_paging_styling@2x.png 2x" />
 

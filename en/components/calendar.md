@@ -37,13 +37,13 @@ The start of the week can also be chosen as an option at the time of inserting a
 
 ## Header
 
-The Calendar has a built-in Header that can be omitted. In Sketch, the use of a smart layout allows you to set the Header to ~No Symbol to achieve this, resulting in a base Calendar that you can embed more seamlessly in your forms. In Adobe XD you can achieve the same by deleting the Header layer, and the rest of the layout will adjust itself.
+The Calendar has a built-in Header that can be removed by setting the Header override to ~No Symbol in the overrides panel resulting in a base Calendar that you can embed more seamlessly in your forms.
 
 <img class="responsive-img" src="../images/calendar_base.png" srcset="../images/calendar_base@2x.png 2x" />
 
 ## Week Numbers
 
-The Calendar also has built-in support for Week Numbers, but if you prefer not to show this part of the UI, simply set the Week Numbers to ~No Symbol in Sketch or delete the layer in Adobe XD.
+The Calendar also has built-in support for Week Numbers, but if you prefer not to show this part of the UI, simply set the Week Numbers override to ~No Symbol.
 
 <img class="responsive-img" src="../images/calendar_weeknum.png" srcset="../images/calendar_weeknum@2x.png 2x" />
 
@@ -57,7 +57,7 @@ The Calendar lets you pick between three selection modes: **Single Day** limitin
 
 ## Styling
 
-The Calendar comes with styling flexibility through the various options for the background, header background, title colors, and content month and year picker items, as well as text and background colors for the selected day, month, or year. These are applied according to the rest of your configurations.
+The Calendar comes with styling flexibility through the various overrides controlling the background, header background, title colors, and content month and year picker items, as well as text and background colors for the selected day, month, or year. These are applicable according to the rest of your configurations.
 
 <img class="responsive-img" src="../images/calendar_styling.png" srcset="../images/calendar_styling@2x.png 2x" />
 
@@ -78,3 +78,4 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
+

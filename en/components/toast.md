@@ -22,7 +22,7 @@ The Toast should be relatively positioned towards the bottom, center, or top of 
 
 ## Styling
 
-The Toast comes with styling flexibility through the options available for the background color and message text style. However, it is recommended to use `white` or `grays.900`(`Active`) for the message text, to assure optimal contrast with the background and legibility.
+The Toast comes with styling flexibility for background color and message text style. However, it is recommended to use `white` or `active` for the message text, to assure optimal contrast with the background and legibility.
 
 <img class="responsive-img" src="../images/toast_styling.png" srcset="../images/toast_styling@2x.png 2x" />
 

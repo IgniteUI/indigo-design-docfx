@@ -27,14 +27,14 @@ The Switch can be used styled in **dark** and light variants to assure good read
 
 ## Layout Template
 
-In Sketch, the Switch supports label position variants where the Switch label is placed after or before the Switch element. In Adobe XD, we are using Stacks to allow you to change the label and switch positions at design time simply by dragging it to the left or right of the switch visual.
+The Switch supports a label position where the Switch label is placed before or after the Switch element.
 
 <img class="responsive-img" src="../images/switch_label-before.png" srcset="../images/switch_label-before@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_label-after.png" srcset="../images/switch_label-after@2x.png 2x" />
 
 ## State
 
-The Switch provides **on** and off selection states. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
+The Switch provides **on** and off selection states.
 
 <img class="responsive-img" src="../images/switch_on.png" srcset="../images/switch_on@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_on_disabled.png" srcset="../images/switch_on_disabled@2x.png 2x" />
@@ -43,7 +43,7 @@ The Switch provides **on** and off selection states. In Sketch this is achieved 
 
 ## Styling
 
-The Switch comes with styling flexibility through the available options for the thumb and track colors, as well as changing the label text color. The alpha value of the track is fixed to achieve a semi-transparent look no matter what color is used and can only be adjusted globally through the `Symbol Master` that can be found on the 🧩 Components page or artboard in the Indigo.Design library.
+The Switch comes with styling flexibility, allowing control over the thumb and track colors, as well as changing the label text color. The alpha value of the track is fixed to achieve a semi-transparent look no matter what color is used and can only be adjusted globally through the `Symbol Master` that can be found on the 🧩 Components page in the Indigo.Design library.
 
 <img class="responsive-img" src="../images/switch_styling.png" srcset="../images/switch_styling@2x.png 2x" />
 

@@ -18,6 +18,11 @@ The Image Manipulation Pattern supports both standard images and Avatars that co
 
 <img class="responsive-img" src="../images/image-manip_layout.png" srcset="../images/image-manip_layout@2x.png 2x" />
 
+> [!WARNING]
+> After inserting an Image Manipulation Pattern you should trigger `Detach from Symbol` in order to be able to generate Angular code. The individual Components, however, must stay intact and not be detached!
+
+<img class="responsive-img" src="../images/image_manipulation_detach.png" srcset="../images/image_manipulation_detach@2x.png 2x" />
+
 ## Additional Resources
 
 Related topics:

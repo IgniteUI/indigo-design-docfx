@@ -12,6 +12,11 @@ Use the Dialog Patterns to alert the users or give them relevant information for
 
 The Dialog Patterns come with the styling flexibility provided by the Buttons, Inputs, and List elements that constitute their layout.
 
+> [!WARNING]
+> After inserting a Dialog Pattern, you should trigger `Detach from Symbol` in order to be able to generate it as Angular code. The individual Components, however, must stay intact and not be detached!
+
+<img class="responsive-img" src="../images/dialogs_detach.png" srcset="../images/dialogs_detach@2x.png 2x" />
+
 ## Additional Resources
 
 Related topics:

@@ -19,13 +19,6 @@ The Dropdown comes in the appropriate sizing for desktop and mobile usage.
 <img class="responsive-img" src="../images/dropdown_desktop.png" srcset="../images/dropdown_desktop@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_mobile.png" srcset="../images/dropdown_mobile@2x.png 2x" />
 
-## Variant
-
-The Dropdown can be styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
-
-<img class="responsive-img" src="../images/dropdown_dark.png" srcset="../images/dropdown_dark@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_light.png" srcset="../images/dropdown_light@2x.png 2x" />
-
 ## Items
 
 The Dropdown supports two types of items header and item. Through headers it is possible to organize the other items in groups.
@@ -35,7 +28,7 @@ The Dropdown supports two types of items header and item. Through headers it is 
 
 ## Item States
 
-The Dropdown items support five different states: Disabled, **Idle**, Focused, Selected, and Selected&focused. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
+The Dropdown items support five different states: Disabled, **Idle**, Focused, Selected, and Selected&focused.
 
 <img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
@@ -45,14 +38,14 @@ The Dropdown items support five different states: Disabled, **Idle**, Focused, S
 
 ## Item Layout Template
 
-The Dropdown Item supports flexible icon and label templating. In Sketch, to show the icon you have to set its override to Icon/Medium and the smart layout rules will adjust the item layout automatically. In Adobe XD, the same is possible by making the icon layer visible and leaving it to the Stack to adjust the layout automatically, however, if you don't need items with icons in the content, simply delete the icon layer.
+The Dropdown Item supports flexible icon and label templating achievable by setting the elements you want to hide to ~No Symbol from the overrides panel. By default, the icon is hidden with this approach.
 
 <img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_icon.png" srcset="../images/dropdown_item_icon@2x.png 2x" /> 
 
 ## Styling
 
-The Dropdown comes with styling flexibility for its background color, as well as various options related to the elements it contains such as item and header background and text colors.
+The Dropdown comes with styling flexibility through an override controlling the background color, as well as various overrides related to the items it contains such as item and header background and text colors.
 
 <img class="responsive-img" src="../images/dropdown_styling.png" srcset="../images/dropdown_styling@2x.png 2x" />
 
@@ -69,7 +62,6 @@ When using the Dropdown you should always show it on top of the content that fol
 Related topics:
 
 - [Combo](combo.md)
-- [Select](select.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
