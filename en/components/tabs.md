@@ -21,14 +21,14 @@ The Tabs are available in two sizes tall, showing icons with text, and short, co
 
 ## Responsive
 
-The Tabs can be fixed to fill up the available horizontal space by adapting their width, or fluid with scrolling buttons to navigate a large number of tab items. This allows fitting more content than what is normally possible with the other mode in the same total space.
+The Tabs can be Content Fit to fill up the available horizontal space by adapting their width, or Fixed with scrolling buttons to navigate a large number of tab items. This allows fitting more content than what is normally possible with the other mode in the same total space.
 
+<img class="responsive-img" src="../images/tabs_content_fit.png" srcset="../images/tabs_content_fit@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_fixed.png" srcset="../images/tabs_fixed@2x.png 2x" />
-<img class="responsive-img" src="../images/tabs_fluid.png" srcset="../images/tabs_fluid@2x.png 2x" />
 
 ## Tabs Amount
 
-For the majority of scenarios, the Tabs need to contain between two and five tabs. You can remove a tab item by setting it to ~No Symbol. If your case requires more tabs, you may want to consider a fluid mode and represent only the tabs in view.
+For most scenarios, the Tabs need to contain between two and five items. To remove an item in Sketch, set its override to ~No Symbol and the smart layout will adjust the remaining ones. To achieve the same in Adobe XD, you should delete the unnecessary items and the Stack will take care to lay out the remaining ones. If your use case requires more than five tabs, you should consider the Fixed mode explained above.
 
 <img class="responsive-img" src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
@@ -37,20 +37,20 @@ For the majority of scenarios, the Tabs need to contain between two and five tab
 
 ## Short Bar Content
 
-The short bar comes with text content by default and if you want to show an icon instead, you have to assign a Material Icon to the `🔣 Icon` override and set the `🏷️ Label` to ~No Symbol for every tab in the bar.
+The short bar comes with text content by default. If you want to show an icon instead, you have to assign a Material Icon to the `🔣 Icon` override and set the `🏷️ Label` to ~No Symbol in Sketch for every tab in the bar. To achieve a similar result in Adobe XD make sure that either `🔣 Icon` or `🏷️ Label` layer exists and is visible, and the other one has been deleted for every tab in the bar.
 
 <img class="responsive-img" src="../images/tabs_text.png" srcset="../images/tabs_text@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_icons.png" srcset="../images/tabs_icons@2x.png 2x" />
 
 ## Tab Item State
 
-Tab items support Active, Inactive and Disabled states. In Tabs there is always one Active tab and an arbitrary number of Inactive and Disabled ones.
+Tab items support Active, Inactive and Disabled states. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In Tabs there is always one Active tab and an arbitrary number of Inactive and Disabled ones.
 
 <img class="responsive-img" src="../images/tabs_state.png" srcset="../images/tabs_state@2x.png 2x" />
 
 ## Styling
 
-The Tabs provide basic styling capabilities achievable through changing the text and icon colors, the indicator color that marks the current selection, as well as the active/inactive background colors.
+The Tabs provide basic styling flexibility through the options available for text and icon colors, the indicator color that marks the current selection, as well as the active/inactive background colors.
 
 <img class="responsive-img" src="../images/tabs_styling.png" srcset="../images/tabs_styling@2x.png 2x" />
 

@@ -1,6 +1,6 @@
 ---
 title: Column Chart - Design System Component
-_description: The Column Chart Component Symbol is used to quickly compare frequency, count, total, or average of data in different categories with data encoded by vertical bars with equal width and differing lengths..
+_description: The Column Chart Component Symbol is used to quickly compare frequency, count, total, or average of data in different categories with data encoded by vertical bars with equal width and differing lengths.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
@@ -16,20 +16,20 @@ The Column Chart comprises of `Title`, a `Legend` that is hidden by default, and
 
 ## Title
 
-The Column Chart has a title that can be changed or hidden if not needed by setting its override to ~No Symbol.
+The Column Chart has a title that can be changed or hidden if not needed. In Sketch, the smart layout takes care to adjust the chart accordingly when you hide the title by setting it to ~No Symbol. In Adobe XD, you can achieve the same by deleting the title layer and leaving it to the Stack to update the layout accordingly.
 
 <img class="responsive-img" src="../images/column_chart_title.png" srcset="../images/column_chart_title@2x.png 2x" />
 
 ## State
 
-The Column Chart has two states - Idle and Hover. In the Hover state a tooltip is shown upon hovering over a data point, which is then focused and the other columns are dimmed out.
+The Column Chart has two states - Idle and Hover. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In the Hover state a tooltip is shown upon hovering over a data point, which is then focused and the other columns are dimmed out.
 
 <img class="responsive-img" src="../images/column_chart_tooltip-off.png" srcset="../images/column_chart_tooltip-off@2x .png 2x" />
 <img class="responsive-img" src="../images/column_chart_tooltip-on.png" srcset="../images/column_chart_tooltip-on@2x.png 2x" />
 
 ## Y-Axis
 
-The Y-axis of the column chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and to hide a label simply set its override to ~No Symbol. You may hide the axis line by setting its color to `Transparent` and to hide all elements at once, change the Y-axis override to ~No Symbol.
+The Y-axis of the column chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and to hide a label simply set its override to ~No Symbol in Sketch or delete the layer in Adobe XD. You may hide the axis line by setting its color to `Transparent` and to hide all elements at once, change the Y-axis override to ~No Symbol in Sketch or delete its layer in Adobe XD.
 
 <img class="responsive-img" src="../images/column_chart_yaxis.png" srcset="../images/column_chart_yaxis@2x.png 2x" />
 
@@ -41,7 +41,7 @@ The Column Chart has built-in Gridlines to make it easier to visually trace a da
 
 ## Data Points
 
-Data Points for a Column Chart are the individual columns, which use a Smart Layout in Sketch making it possible to adjust their amount on the Chart Area. They come with configurable labels on the X-axis and annotation labels.
+Data Points for a Column Chart are the individual columns, arranged in a smart layout in Sketch or a Stack in Adobe XD, making it possible to effortlessly adjust their amount on the Chart Area. Furthermore, the columns come with configurable labels on the X-axis and annotation labels.
 
 <img class="responsive-img" src="../images/column_chart_columns.png" srcset="../images/column_chart_columns@2x.png 2x" />
 
@@ -65,6 +65,9 @@ Use the Column Chart when you want to show the amount of change over a period of
 Related topic:
 
 - [Line Chart](line-chart.md)
+- [Spline Chart](spline-chart.md)
+- [Step Line Chart](step-line-chart.md)
+- [Skeleton Charts](skeleton-charts.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

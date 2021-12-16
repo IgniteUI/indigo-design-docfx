@@ -14,11 +14,11 @@ Use the Grid Excel Style Filter to let the user specify a set of Grid features o
 
 ## Header Cell
 
-In order to indicate that a column has an active Excel Style Filter (the overlay for it is visible) you first need to set the `Feature Left` or `Feature Right` override to `Filtering` and then configure the next override in the panel `Filter State` to `Filtering/Active`. If you want to indicate that a column has Excel Style Filtering enabled you can use either the `Filtering/Inactive` state indicating that no filtering conditions are applied on this column, or the `Filtering/Filtered` state indicating that filtering conditions have been applied and the overlay for the column has been closed.
+In order to indicate that a column has an active Excel Style Filter in Sketch (the overlay for it is visible) you first need to set the `Feature Left` or `Feature Right` override to `Filtering` and then configure the next override in the panel `Filter State` to `Filtering/Active`. Furthermore, if you want to indicate that a column has Excel Style Filtering enabled you can use either the `Filtering/Inactive` state indicating that no filtering conditions are applied on this column, or the `Filtering/Filtered` state indicating that filtering conditions have been applied and the overlay for the column has been closed. In Adobe XD you have to take a slightly different path by unhiding either the `Feature Left` or the `Feature Right` group and then leaving just the `Filtering` layer inside it, which should also be unhidden if necessary. Then via the available `Component States`, you will be able to switch the state to `Filtered`.
 
 ## Excel Style Filter Feature
 
-The Grid has three `Excel Style Filter` symbols under `Features`, one for each Display Density, that represent the overlay shown for the affected column. Adding this symbol has only a visual effect on your design to make it more realistic, if you want to switch the Excel Style Filter feature, configure the Header Cells accordingly.
+The Grid has three `Excel Style Filter` symbols under `Features` in Sketch, one for each Display Density, that represent the overlay shown for the affected column. In Adobe XD, there is just one `Excel Style Filter`, and via the `Component States` available you can easily switch between the three display densities available. Adding the Excel Style Filter has only a visual effect on your design to make it more realistic, if you want to turn the Excel Style Filter feature on, configure the Header Cells accordingly.
 
 <img class="responsive-img" src="../images/grid_excel_style_filter_densities.png" srcset="../images/grid_excel_style_filter_densities@2x.png 2x" />
 
@@ -31,7 +31,7 @@ The Excel Style Filter overlay lets you configure the Column name to reflect the
 
 ### Sorting, Moving, Hiding and Pinning
 
-The Excel Style Filter interface provides additional functionality besides filtering such as Sorting, Column Moving, Column Hiding, and Column Pinning. There are no overrides for these features, therefore they are not configurable. If any of them are enabled on the column via the Header Cell (see how to enable them in their respective topic) the user interface elements for the feature will be shown in the Excel Style Filter interface according to the Grid Display Density that is being applied.
+The Excel Style Filter interface provides additional functionality besides filtering such as Sorting, Column Moving, Column Hiding, and Column Pinning that are not configurable. If any of them is enabled on the column via the Header Cell (see how to enable them in their respective topic) the user interface elements for the feature will be shown in the Excel Style Filter interface according to the Grid Display Density that is being applied.
 
 ## Additional Resources
 
@@ -39,6 +39,7 @@ Related topics:
 
 - [Grid](grid.md)
 - [Grid Row Filter](grid-row-filter.md)
+- [Grid Advanced Filter](grid-advanced-filter.md)
 - [Grid Display Density](grid-display-density.md)
 - [Grid Sorting](grid-sorting.md)
 - [Grid Column Moving](grid-column-moving.md)

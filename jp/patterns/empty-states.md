@@ -13,11 +13,6 @@ Empty State パターンを使用して、システム エラーが原因で表�
 
 Empty State パターンには、レイアウトを構成する Navbar、Illustration、および Button によって提供されるスタイリングの柔軟性があります。
 
-> [!WARNING]
-> Empty State パターンを挿入した後、Angular コードとして生成するには、`Detach from Symbol` をトリガーします。パターン内にネストされた図はコード生成できず、図自体を手動で挿入する必要があります。各コンポーネントをデタッチしないでください。
-
-<img class="responsive-img" src="../images/empty-states_detach.png" srcset="../images/empty-states_detach@2x.png 2x" />
-
 ## その他のリソース
 
 関連トピック:

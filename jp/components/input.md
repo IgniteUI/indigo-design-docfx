@@ -7,7 +7,7 @@ _language: ja
 
 # Input (入力)
 
-Input コンポーネントを使用して、文字列、さまざまなコンテキストに適した数値、日付、その他の値 (メールやパスワードなど) のユーザー データを収集します。Input は、[Ignite UI for Angular Input Group](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/input_group.html) コンポーネントと視覚的に同じものです。
+Input コンポーネントを使用して、文字列、さまざまなコンテキストに適した数値、日付、その他の値 (メールやパスワードなど) のユーザー データを収集します。Input は、[Ignite UI for Angular Input Group コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/input_group.html)と視覚的に同じものです。
 
 ## Input のデモ
 
@@ -43,7 +43,7 @@ Input は、明暗バリアント (デフォルトは**暗い**) で分かりや
 
 ## 状態
 
-ユーザーが Input とインタラクティブに操作する際にさまざまな状態を経由します。コンテンツの代わりにプレースホルダーがある**アイドル**状態、ユーザーが入力中のフォーカス状態、ユーザーがコンテンツの追加を完了して次に進むときの塗りつぶし状態。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
+ユーザーが Input とインタラクティブに操作する際にさまざまな状態を経由します。コンテンツの代わりにプレースホルダーがある **idle** (アイドル状態)、ユーザーが入力中の focused (フォーカス状態)、ユーザーがコンテンツの追加を完了して次に進むとき filled (塗りつぶし状態)。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 
 <img class="responsive-img" src="../images/input_idle.png" srcset="../images/input_idle@2x.png 2x" />
 `idle`
@@ -54,15 +54,17 @@ Input は、明暗バリアント (デフォルトは**暗い**) で分かりや
 <img class="responsive-img" src="../images/input_filled.png" srcset="../images/input_filled@2x.png 2x" />
 `filled`
 
-経験豊富なデザイナーは、ユーザー入力を制限して無効な状態を防止するために、検証スタイルを使用します。検証スタイルは、Input で成功、警告、エラーを表示する洗練されたデザインを提供します。
+経験豊富なデザイナーは、ユーザー入力を制限して無効な状態を防止するために、検証スタイルを使用します。検証スタイルは、Input で success (成功)、warning (警告)、error (エラー) を表示する洗練されたデザインを提供します。
 
 <img class="responsive-img" src="../images/input_success.png" srcset="../images/input_success@2x.png 2x" />
 <img class="responsive-img" src="../images/input_warning.png" srcset="../images/input_warning@2x.png 2x" />
 <img class="responsive-img" src="../images/input_error.png" srcset="../images/input_error@2x.png 2x" />
 
+Sketch では状態と検証状態を `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+
 ## レイアウト
 
-Input は、テキストとアイコンの組み合わせによってプレフィックスとサフィックスをサポートします。特定の場合、ユーザーの入力作業を軽減できます。たとえば、@email.com サフィックスは、キーストロークが少なくなり、必要なコンテンツがより明確になります。オーバーライドからそれぞれのコンテナーを ~No Symbol に設定すると、プレフィックスまたはサフィックスを削除できます。
+Input には特定の場合に入力 (@email.com サフィックス) を軽減するテキストのプレフィックス/サフィックスやアイコンをサポートします。これによりキーストロークを減らし、予期されるコンテンツを明確にすることができます。Sketch でプレフィックスまたはサフィックスを削除するには、オーバーライドを ~No Symbol に設定し、スマート レイアウト ルールはそれに応じて入力を調整します。Adobe XD では、不要なプレフィックスまたはサフィックス レイヤーを削除しても同じことができ、Stack はそれに応じてレイアウトを調整します。
 
 <img class="responsive-img" src="../images/input_prefix.png" srcset="../images/input_prefix@2x.png 2x" />
 <img class="responsive-img" src="../images/input_suffix.png" srcset="../images/input_suffix@2x.png 2x" />
@@ -86,6 +88,8 @@ Input のボックス タイプを使用して画像上にフォームを配置�
 
 関連トピック:
 
+- [Combo](combo.md)
+- [Select](select.md)
 - [Form パターン](../patterns/form.md)
 - [User Profile パターン](../patterns/user-profile.md)
   <div class="divider--half"></div>
