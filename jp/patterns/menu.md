@@ -9,6 +9,7 @@ _language: ja
 
 Menu シンボルは、ロゴ、メニュー項目、検索、さまざまなアクション、アカウント設定などの要素を含むアプリケーションまたは Web ページのナビゲーション バーを開発するためのプリセットとして使用します。
 
+
 <img class="responsive-img" src="../images/menu.png" srcset="../images/menu@2x.png 2x" />
 
 ## 方向
@@ -17,6 +18,12 @@ Menu シンボルは、ロゴ、メニュー項目、検索、さまざまなア
 
 <img class="responsive-img" src="../images/menu_horizontal.png" srcset="../images/menu_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/menu_vertical.png" srcset="../images/menu_vertical@2x.png 2x" />
+
+
+> [!WARNING]
+> 利用可能な任意の Menu パターンを挿入した後、Angular コードとして生成できるには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。各メニュー要素および背景はデタッチしないでください。
+
+<img class="responsive-img" src="../images/menu_detach.png" srcset="../images/menu_detach@2x.png 2x" />
 
 ## その他のリソース
 

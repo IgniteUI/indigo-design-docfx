@@ -78,6 +78,11 @@ There is an Email form that is suitable for sending an email to multiple address
 <img class="responsive-img" src="../images/form_email.png" srcset="../images/form_email@2x.png 2x" />
 <img class="responsive-img" src="../images/form_appointment.png" srcset="../images/form_appointment@2x.png 2x" />
 
+> [!WARNING]
+> After inserting any of the Form Patterns available, you should trigger `Detach from Symbol` in order to be able to generate it as Angular code. The individual components, however, must stay intact and not be detached! Illustrations nested inside the Pattern Symbols cannot be code generated and the Illustration itself has to be inserted in the produced code manually.
+
+<img class="responsive-img" src="../images/form_detach.png" srcset="../images/form_detach@2x.png 2x" />
+
 ## Additional Resources
 
 Related topics:

@@ -11,13 +11,13 @@ Grid 編集は、ユーザーが特定の値をセルごとまたは一度に 1 
 
 ## セルの編集
 
-Grid セルの編集はセルごとに行われ、Sketch の `Grid Feature` オーバーライドで編集モードに表示する Body Cell で構成されます。Adobe XD では、`Grid Feature` レイヤーは `Component States` パラダイムを使用して同様のメカニズムを提供します。`Grid Feature` を `Cell Feature/Cell Editing` に設定すると、このモードに遵守する編集可能なグリッドが作成されます。
+Grid セルの編集はセルごとに行われ、`Grid Features` のオーバーライドで編集モードに表示する Body Cell で構成されます。`Cell Feature/Cell Editing` に設定すると、このモードに遵守する編集可能なグリッドが作成されます。
 
 <img class="responsive-img" src="../images/grid_cell_edit.png" srcset="../images/grid_cell_edit@2x.png 2x" />
 
 ## 行の編集
 
-Grid 行編集は一度に 1 行ずつ行われ、`Grid Features` のオーバーライドを `Cell Feature/Row Editing` に設定すると、編集された行に属する Body Cell で構成されます。Sketch では、2 番目のオーバーライド `Editing State` を導入し、`Focus Cell` に設定することで、フォーカスされるセルを指定できます。この行の他のすべてのセルを `Rest Cell` に設定する必要があることに注意してください。Adobe XD では、上記の両方が `Grid Feature` レイヤーの `Component States` として使用できます。
+Grid 行編集は一度に 1 行ずつ行われ、`Grid Features` のオーバーライドを `Cell Feature/Row Editing` に設定すると、編集された行に属する Body Cell で構成されます。これにより、2 番目のオーバーライド `Editing State` が導入され、`Focus Cell` に設定することで、フォーカスされるセルを指定できます。この行の他のすべてのセルを `Rest Cell` に設定する必要があることにご注意ください。
 
 <img class="responsive-img" src="../images/grid_row_edit.png" srcset="../images/grid_row_edit@2x.png 2x" />
 

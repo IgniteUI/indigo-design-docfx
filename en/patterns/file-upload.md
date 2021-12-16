@@ -24,6 +24,11 @@ The File Upload Pattern of type Document supports the most common types of conte
 
 <img class="responsive-img" src="../images/file-upload_content.png" srcset="../images/file-upload_content@2x.png 2x" />
 
+> [!WARNING]
+> After inserting a File Upload Pattern you should trigger `Detach from Symbol` in order to be able to generate it as Angular code. The individual Components, however, must stay intact and not be detached!
+
+<img class="responsive-img" src="../images/file_upload_detach.png" srcset="../images/file_upload_detach@2x.png 2x" />
+
 ## Additional Resources
 
 Related topics:

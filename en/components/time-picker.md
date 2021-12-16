@@ -21,29 +21,28 @@ You may insert a Time Picker Input in your forms to indicate fields for selectin
 
 ## Picker Layout
 
-The Time Picker supports Dialog layout with Horizontal and Vertical orientation, as well as a Drop-down layout to facilitate different modes of picking time, casting different shadows to be more easily distinguished from each other. Notice that Dialog layouts come with a Header that you may hide in Sketch by setting its override to ~No Symbol, and through the use of a smart layout everything will adjust accordingly. In Adobe XD, you have to delete the header layer and the layout will adjust through the use of a Stack.
+The Time Picker supports Dialog layout with Horizontal and Vertical orientation, as well as a Drop-down layout to facilitate different modes of picking time. Notice that Dialog layouts come with a Header that you may hide by setting its override to ~No Symbol, but still the shadow it casts allows to distinguish it from a Drop-down layout.
 
-<img class="responsive-img" src="../images/timepicker_horizontal.png" srcset="../images/timepicker_horizontal@2x.png 2x" />         
+<img class="responsive-img" src="../images/timepicker_horizontal.png" srcset="../images/timepicker_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/timepicker_vertical.png" srcset="../images/timepicker_vertical@2x.png 2x" />
-
 <img class="responsive-img" src="../images/timepicker_dropdown.png" srcset="../images/timepicker_dropdown@2x.png 2x" />
 
 ## Content
 
-The Time Picker supports 12 and 24-hour formats through two distinct content modes. Besides the hour and minute portion, the 12-hour content mode provides a meridiem portion, where selection between AM and PM is possible. 
+The Time Picker supports 12 and 24 hour formats through two distinct content modes. Besides the hour and minute portion, the 12-hour content mode provides a meridiem portion, where selection between AM and PM is possible.
 
 <img class="responsive-img" src="../images/timepicker_dropdown.png" srcset="../images/timepicker_dropdown@2x.png 2x" />
 <img class="responsive-img" src="../images/timepicker_24mode.png" srcset="../images/timepicker_24mode@2x.png 2x" />
 
 ## Buttons
 
-The Time Picker comes with two buttons: one for canceling the selection, which would revert the time to the original one, and one for confirming the selection, which would save the changes made. The Button area is templatable allowing you, for example, to hide a button by setting its override to ~No Symbol in Sketch or by deleting it in Adobe XD. Unlike in Sketch, Adobe XD allows you to add more buttons, e.g. for custom actions, to the Button area from the Libraries panel. Whether you remove or add Buttons, the applied Stack will adjust the layout for you automatically.
+The Time Picker comes with two buttons: one for canceling the selection, which would revert the time to the original one, and one for confirming the selection, which would save the changes made. The Button area is templatable allowing you, for example, to hide a button by setting its override to ~No Symbol, or assign a different action to it.
 
 <img class="responsive-img" src="../images/timepicker_buttons.png" srcset="../images/timepicker_buttons@2x.png 2x" />
 
 ## Styling
 
-The Time Picker comes with styling flexibility through the various options for header background and title colors, as well as text colors for the selected hour, minute, and meridiem (AM/PM). The Cancel and OK buttons are [Flat Buttons](button.md) and can be styled accordingly.
+The Time Picker comes with styling flexibility through the various overrides controlling header background and title colors, as well as text colors for the selected hour, minute, and meridiem (AM/PM). The Cancel and OK buttons are Flat Buttons and can be styled accordingly.
 
 <img class="responsive-img" src="../images/timepicker_styling.png" srcset="../images/timepicker_styling@2x.png 2x" />
 
@@ -68,3 +67,5 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
+
+

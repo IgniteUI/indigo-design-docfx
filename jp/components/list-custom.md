@@ -1,16 +1,13 @@
 ﻿---
-title: Sketch の Custom List Item - デザイン システム コンポーネント
+title: Custom List Item - デザイン システム コンポーネント
 _description: List Items コレクションは、完全なカスタマイズ可能な Custom レイアウトを作成する List Item を含みます。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
-> [!NOTE]
-> このトピックは、<b>Sketch ライブラリ</b>のユーザーにのみ関連します。
+# Custom List Item (カスタム リスト アイテム)
 
-# Custom List Item (カスタム リスト項目)
-
-Sketch の Custom List Item コンポーネントを使用して、通常の List Item と同じタイプの情報を表示しますが、レイアウトを自由に配置できます。
+Custom List Item シンボルは、通常の List Item と同じタイプの情報を表示しますが、レイアウトを自由に変更できます。Custom List Item は、[Ignite UI for Angular List コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/list.html)のレイアウトにカスタム コードを使用します。
 
 ## Custom List Item のデモ
 
@@ -18,12 +15,12 @@ Sketch の Custom List Item コンポーネントを使用して、通常の Lis
 
 ## 状態
 
-Custom List Item はオーバライドとして以下のインアクティブ状態をサポートします: 標準状態の **inactive** と選択状態の active です。
+Custom List Item はインアクティブ状態 (**標準状態**のインアクティブと選択状態のアクティブ) をサポートします。
 
 <img class="responsive-img" src="../images/list_item_custom_inactive.png" srcset="../images/list_item_custom_inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_custom_active.png" srcset="../images/list_item_custom_active@2x.png 2x" />
 
-## Custom List Item の使用
+## Detach from Symbol (シンボルからデタッチ)
 
 List Item レイアウトをカスタマイズするには、`List/Custom/Item` をアートボードにドラッグして一番上を右クリックし、コンテキスト メニューの下の方にある `Detach from Symbol` オプションを選択します。新しく表示される `List/Custom/Item` グループの下のレイヤー パネルには以下があります。
 
@@ -33,6 +30,12 @@ List Item レイアウトをカスタマイズするには、`List/Custom/Item` 
 | 💡Primary Action Group   | Primary Action レイアウト要素をグループ化                                                                                      |
 | 💡Secondary Action Group | Secondary Action レイアウト要素をグループ化                                                                                    |
 | 💡State                  | 項目の Background を含み、List Item がアクティブまたは非アクティブな状態にあるかどうかを定義します。                           |
+
+### スタイル設定
+
+Custom List Item は、Secondary Actions のオーバーライドおよびテキスト、アイコン、ボタン色の制御の一般的な List Item 同様にスタイル設定に高い柔軟性があります。各 List Item 同様にオーバーライドで Item 背景色を指定できます。
+
+<img class="responsive-img" src="../images/list_item_custom_styling.png" srcset="../images/list_item_custom_styling@2x.png 2x" />
 
 ### レイアウト
 
@@ -52,13 +55,9 @@ List Item レイアウトをカスタマイズするには、`List/Custom/Item` 
 
     <img class="responsive-img" src="../images/list_item_custom_layout3.png" srcset="../images/list_item_custom_layout3@2x.png 2x" />
 
-## スタイル設定
+### 追加のスタイル
 
-Custom List Item は、Secondary Actions のオーバーライドおよびテキスト、アイコン、ボタン色の制御の一般的な List Item 同様にスタイル設定に高い柔軟性があります。各 List Item 同様にオーバーライドで Item 背景色を指定できます。
-
-<img class="responsive-img" src="../images/list_item_custom_styling.png" srcset="../images/list_item_custom_styling@2x.png 2x" />
-
-さらに、Custom List Item に挿入された要素に基づいて、追加のスタイル設定が可能です。たとえば、テキストの色を設定して強調したり、Badge 背景や Raised Button 背景の色を変更したりできます。
+List Item レイアウトでは、挿入されている要素に基づいてさまざまなスタイルを追加することが可能になります。たとえば、テキストの色を設定して強調したり、Badge 背景や Raised Button 背景の色を変更したりできます。
 
 <img class="responsive-img" src="../images/list_item_custom_layout_styled.png" srcset="../images/list_item_custom_layout_styled@2x.png 2x" />
 
@@ -66,11 +65,10 @@ Custom List Item は、Secondary Actions のオーバーライドおよびテキ
 
 関連トピック:
 
+- [List](list.md)
+- [Lists パターン](../patterns/lists.md)
 - [Badge](badge.md)
 - [Button](button.md)
-- [List](list.md)
-- [List Item](list-item.md)
-- [Lists パターン](../patterns/lists.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

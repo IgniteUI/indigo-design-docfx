@@ -14,13 +14,13 @@ Use the Grid Toolbar to define actions that affect the appearance and behavior o
 
 ## Layout
 
-The Grid Toolbar uses smart layout in Sketch and has interchangeable default and custom actions, which gives absolute freedom to change its content and layout. If you want to hide an action, you have to set it to ~No Symbol. To do so in Adobe XD, you have to delete the unnecessary actions, and the layout will adjust thanks to the use of a Stack.
+The Grid Toolbar uses Smart Layout in Sketch and has interchangeable default and custom actions, which gives absolute freedom to change its content and layout.
 
 <img class="responsive-img" src="../images/grid_toolbar_layout.png" srcset="../images/grid_toolbar_layout@2x.png 2x" />
 
 ## Styling
 
-The Grid Toolbar comes with styling flexibility through the various options for its Actions, as well as its title style and background color.
+The Grid Toolbar comes with styling flexibility through the various overrides for its Actions, as well as its title style and background color.
 
 <img class="responsive-img" src="../images/grid_toolbar_styling.png" srcset="../images/grid_toolbar_styling@2x.png 2x" />
 

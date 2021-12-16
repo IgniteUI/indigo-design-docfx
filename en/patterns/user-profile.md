@@ -15,6 +15,12 @@ An editable variant of the User Profile Pattern, nicely laid out with the approp
 
 <img class="responsive-img" src="../images/edit_profile_demo.png" srcset="../images/edit_profile_demo@2x.png 2x" />
 
+> [!WARNING]
+> After inserting any of the User Profile Patterns you should trigger `Detach from Symbol` in order to be able to generate the Pattern as Angular code. The various Components that lay it out must stay intact and not be detached!
+
+<img class="responsive-img" src="../images/profile_detach.png" srcset="../images/profile_detach@2x.png 2x" />
+<img class="responsive-img" src="../images/edit_profile_detach.png" srcset="../images/edit_profile_detach@2x.png 2x" />
+
 ## Additional Resources
 
 Related topics:

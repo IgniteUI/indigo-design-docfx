@@ -7,15 +7,7 @@ _language: ja
 
 # スタイル設定の概要
 
-**Indigo.Design システム**は、Ignite UI for Angular コントロールにもマップされる 60 以上のすべての UI コンポーネントをスタイリングする精巧な手段を提供します。Angular 製品のテーマ エンジンは数行のコードで同様に製品全体のスタイルを変更できるカスタム カラー テーマを作成できます。[**App Builder**](https://www.jp.infragistics.com/products/appbuilder/docs/app-builder-overview) もこれらのテーマ設定メカニズムを実装しており、ユーザーは数回クリックするだけでアプリの完全な外観を変更できます。
-
-<img class="responsive-img" src="../images/theme_overview_default.png" />
-
-<img class="responsive-img" src="../images/theme_overview_dark.png" />
-
-<img class="responsive-img" src="../images/theme_overview_vibrant.png" />
-
-## Sketch でのスタイル設定
+**Indigo.Design システム**は、Ignite UI for Angular コントロールにもマップされる 60 以上のすべての UI コンポーネントをスタイリングする精巧な手段を提供します。Angular 製品のテーマ エンジンは数行のコードで同様に製品全体のスタイルを変更できるカスタム カラー テーマを作成できます。
 
 Sketch ライブラリには、アセットを提供する  絵文字とライブラリの残りの部分を構築する強力なスタイリング インフラストラクチャを含むページがあります。
 
@@ -25,19 +17,13 @@ Sketch ライブラリには、アセットを提供する  絵文字とライ�
 - 🎨 Elevation (エレベーション)
 - 🎨 Illustrations (イラストレーション)
 
-カラーとエレベーションは `Layer Styles` として存在し、タイポグラフィは `Text Styles` として定義されます。これにより、**Indigo.Design システム**で作成したデザインのテーマをすばやく変更できます。
+Sketch では、カラーとエレベーションは `Layer Styles` として存在し、タイポグラフィは `Text Styles` として定義されます。これにより、**Indigo.Design システム**で作成したデザインのテーマをすばやく変更できます。
 
-## Adobe XD でのスタイル設定
+<img class="responsive-img" src="../images/theme_overview_default.png" />
 
-Adobe XD ライブラリには、ライブラリの残りの部分が構築されている強力なスタイリング インフラストラクチャを紹介する 🎨 絵文字が前に付いたアートボードがいくつかあります。
+<img class="responsive-img" src="../images/theme_overview_dark.png" />
 
-- 🎨 Material Icons
-- 🎨 Colors
-- 🎨 Typography
-- 🎨 Elevation
-- 🎨 Illustrations
-
-カラーは `Colors` として定義され、タイポグラフィは `Character Styles` として定義され、アイコン、エレベーション、イラストレーションは `Components` として存在します。これにより、**Indigo.Design システム**で作成した特定のデザインのテーマをすばやく変更できます。
+<img class="responsive-img" src="../images/theme_overview_vibrant.png" />
 
 詳細情報:
 

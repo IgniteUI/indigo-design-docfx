@@ -14,7 +14,7 @@ Use the Grid Summaries Component to show aggregated values calculated over all t
 
 ## State
 
-The Grid Summary Cell supports the following interactive states: **available** which shows a summary Label and Number and unavailable which is used to fill the gaps when one column has fewer Summaries than another. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
+The Grid Summary Cell supports the following interactive states: **available** which shows a summary Label and Number and unavailable which is used to fill the gaps when one column has fewer Summaries than another.
 
 <img class="responsive-img" src="../images/grid_cell_summary_active.png" srcset="../images/grid_cell_summary_active@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_summary_unavailable.png" srcset="../images/grid_cell_summary_unavailable@2x.png 2x" />
@@ -28,7 +28,7 @@ The Grid Summary Cell provides presets for the two generic types of data aggrega
 
 ## Styling
 
-The Grid Summary Cell comes with basic styling flexibility through the various options for its label and number text colors, as well as the cell background color.
+The Grid Summary Cell comes with basic styling flexibility through the various overrides controlling its label and number text colors, as well as the cell background color.
 
 <img class="responsive-img" src="../images/grid_summaries_styling.png" srcset="../images/grid_summaries_styling@2x.png 2x" />
 
@@ -40,4 +40,5 @@ Related topic:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
+
 

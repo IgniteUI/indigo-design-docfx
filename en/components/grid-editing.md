@@ -10,13 +10,13 @@ Use Grid Editing to allow the user to update certain values either cell by cell 
 
 ## Cell Editing
 
-The Grid Cell Editing happens cell by cell and is configured via the Body Cell that one wants to display in edit mode via the `Grid Feature` override in Sketch. In Adobe XD, the `Grid Feature` layer uses the `Component States` paradigm to provide a similar mechanism. Once you set the `Grid Feature` to `Cell Feature/Cell Editing`, you will have an editable Grid that respects this mode.
+The Grid Cell Editing happens cell by cell and is configured via the Body Cell that one wants to display in edit mode via the `Grid Feature` override. Once you set it to `Cell Feature/Cell Editing`, you will have an editable Grid that respects this mode.
 
 <img class="responsive-img" src="../images/grid_cell_edit.png" srcset="../images/grid_cell_edit@2x.png 2x" />
 
 ## Row Editing
 
-The Grid Row Editing happens one row at a time and is configured via the Body Cells that belong to the edited row by setting their `Grid Feature` to `Cell Feature/Row Editing`. In Sketch, we introduce a second override `Editing State` allowing you to specify the cell in focus by setting it to `Focus Cell`, bear in mind that you should set all other cells on this row to `Rest Cell`. In Adobe XD both the above are available as `Component States` on the `Grid Feature` layer.
+The Grid Row Editing happens one row at a time and is configured via the Body Cells that belong to the edited row by setting their `Grid Feature` override to `Cell Feature/Row Editing`. This will introduce a second override `Editing State` allowing you to specify the cell in focus by setting it to `Focus Cell`, bear in mind that you should set all other cells on this row to `Rest Cell`.
 
 <img class="responsive-img" src="../images/grid_row_edit.png" srcset="../images/grid_row_edit@2x.png 2x" />
 

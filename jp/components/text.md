@@ -32,14 +32,15 @@ Text には、Titles と Paragraphs のためのバリアントがあります�
 <img class="responsive-img" src="../images/text_h6.png" srcset="../images/text_h6@2x.png 2x" />
 
 Title の挿入後、そのサイズに基づいて高さを設定してください。
+
 | サイズ | ピクセル単位の高さ |
-| -- | ----- |
-| H1 | 170px |
-| H2 | 85px |
-| H3 | 68px |
-| H4 | 42px |
-| H5 | 36px |
-| H6 | 31px |
+| ------ | ------------------ |
+| H1     | 170px              |
+| H2     | 85px               |
+| H3     | 68px               |
+| H4     | 42px               |
+| H5     | 36px               |
+| H6     | 31px               |
 
 ## 段落サイズ
 
@@ -51,15 +52,15 @@ Title の挿入後、そのサイズに基づいて高さを設定してくだ�
 
 Paragraph の挿入後、そのサイズおよびテキスト コンテンツの長さに基づいて高さを設定してください。Paragraph が複数行にまたがる場合、以下の表の値を行数でかけ算します。
 
-| サイズ | ピクセル単位の高さ |
-| ------- | ------------ |
-| Body 1 | 24px |
-| Body 2 | 21px |
-| Caption | 19px |
+| サイズ  | ピクセル単位の高さ |
+| ------- | ------------------ |
+| Body 1  | 24px               |
+| Body 2  | 21px               |
+| Caption | 19px               |
 
 ## スタイル設定
 
-Titles と Paragraphs は、オプションを通じて制限されたスタイル設定の柔軟性があり、Styling ライブラリの Typography 部分で使用可能なテキストウェイトや色のプリセットからのみ選択できます。
+Titles と Paragraphs は、Styling ライブラリの Typography 部分で使用できるテキスト ウェイトや色プリセットのみから選択できます。
 
 <img class="responsive-img" src="../images/text_styling.png" srcset="../images/text_styling@2x.png 2x" />
 

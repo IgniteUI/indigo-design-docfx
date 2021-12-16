@@ -14,7 +14,7 @@ Use the Grid Column Pinning as a mechanism to fix the first few columns of a scr
 
 ## Header Cell Feature
 
-To indicate a column as pinnable, use the `Column Pinning` override of the Grid Header Cell for that column in Sketch and change the default value from **Not Pinned** to Pinned. In Adobe XD, the `Column Pinning` layer uses the `Component States` paradigm to let you easily switch between states. This is what marks the column as pinnable as far as code generation is concerned.
+To indicate a column as pinnable, use the `Column Pinning` override of the Grid Header Cell for that column and change the default value from **Not Pinned** to Pinned. This is what marks the column as pinnable as far as code generation is concerned.
 
 The Built-In Column Pinning can be used through the Grid's toolbar which by default contains a button (combined with a combo dropdown) that lets you configure the pin state of the columns for the whole grid.
 

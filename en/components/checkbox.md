@@ -26,21 +26,21 @@ The Checkbox can be used styled in **dark** and light variants to assure good re
 <img class="responsive-img" src="../images/checkbox_light.png" srcset="../images/checkbox_light@2x.png 2x" />
 
 ## Layout Template
- 
-In Sketch, the Checkbox supports label position variants where the Checkbox label is placed after or before the Checkbox element. In Adobe XD, we are using Stacks to allow you to change the label and checkbox positions at design time simply by dragging it to the left or right of the checkbox visual.
+
+The checkbox supports a label position where the Checkbox label is placed after or before the Checkbox box element.
 
 <img class="responsive-img" src="../images/checkbox_label_after.png" srcset="../images/checkbox_label_after@2x.png 2x" />
 <img class="responsive-img" src="../images/checkbox_label_before.png" srcset="../images/checkbox_label_before@2x.png 2x" />
 
 ## State
 
-The Checkbox provides **on**, off, and indeterminate selection states. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
+The Checkbox provides **on**, off, and indeterminate selection states.
 
 <img class="responsive-img" src="../images/checkbox_selection.png" srcset="../images/checkbox_selection@2x.png 2x" />
 
 ## Styling
 
-The Checkbox comes with styling flexibility through the various options for its check and fill colors, as well as mechanisms to set a label position and color.
+The Checkbox comes with styling flexibility through the various overrides controlling its check and fill colors, as well as the label position and its color.
 
 <img class="responsive-img" src="../images/checkbox_styling.png" srcset="../images/checkbox_styling@2x.png 2x" />
 
