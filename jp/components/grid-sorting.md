@@ -15,7 +15,7 @@ Grid 並べ替えを使用して、特定の列内の値に従って昇順およ
 
 ## Header Cell Feature (ヘッダー セルの機能)
 
-列を並べ替え可能として示すには、`Feature Left` または `Feature Right` のオーバーライドを使用して、`Sorting ` に設定します。次に、`Sorting State` を Ascending、Descending、または **Unsorted** に設定して、ソート順を示します。選択した順序を反映するように列の値を操作することをお勧めします。
+Sketch で列をソート可能として示すには、`Feature Left` または `Feature Right` のオーバーライドを使用して、`Sorting` に設定します。次に、`Sorting State` を Ascending (昇順)、Descending (降順)、または **Unsorted (ソートなし)** に設定して、ソート順を示します。Adobe XD では、`Feature Left` または `Feature Right` グループのいずれかを非表示にしてから、その中に `Sorting` レイヤーだけを残すことで、少し異なる方法を使用する必要があります。必要に応じて `Sorting` レイヤーも表示にできます。次に、使用可能な `Component States` を介して、状態を `Ascending` または `Descending` に切り替えることができます。選択した順序を反映するように列の値を操作することをお勧めします。
 
 ## その他のリソース
 

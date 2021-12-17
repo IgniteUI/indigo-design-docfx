@@ -16,13 +16,13 @@ For scenarios where a target value is critically important for understanding and
 
 ## Needle Type
 
-The Radial Gauge provides various overrides that control the shape of the needle, which indicates the current value: **needle**, trapezoid, and triangle.
+The Radial Gauge provides various overrides that control the shape of the needle, which indicates the current value: **needle**, trapezoid, and triangle. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between types.
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_needle@2x.png 2x" />
 
 ## Ticks Type
 
-The ticks of the Radial Gauge can be placed **outside** or inside, with two inside variants for thick and thin range areas.
+The ticks of the Radial Gauge can be placed **outside** or inside, with two inside variants for thick and thin range areas. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between types.
 
 <img class="responsive-img" src="../images/radial_gauge_inside.png" srcset="../images/radial_gauge_inside@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_outside.png" srcset="../images/radial_gauge_outside@2x.png 2x" />
@@ -30,7 +30,7 @@ The ticks of the Radial Gauge can be placed **outside** or inside, with two insi
 
 ## Ranges
 
-The Radial Gauge provides various overrides that control the ranges on the dial: **full**, half, and quarter.
+The Radial Gauge provides various overrides that control the ranges on the dial: **full**, half, and quarter. In Sketch, to switch between ranges you should use the `Symbol Overrides`, while in Adobe XD separate variants of the Radial Gauge exist for the options above.
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_half.png" srcset="../images/radial_gauge_half@2x.png 2x" />
@@ -38,14 +38,14 @@ The Radial Gauge provides various overrides that control the ranges on the dial:
 
 ## Series Thickness
 
-The Radial Gauge comes with two kinds of Series Thickness: **Thick** and Thin.
+The Radial Gauge comes with two kinds of Series Thickness: **Thick** and Thin. In Sketch, to switch between series thicknesses you should use the `Symbol Overrides`, while in Adobe XD separate variants of the Radial Gauge exist for the options above.
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_full-thin.png" srcset="../images/radial_gauge_full-thin@2x.png 2x" />
 
 ## Ranges Amount
 
-The Radial Gauge comes with three preset range configurations: **two**, three, and four ranges.
+The Radial Gauge comes with three preset range configurations: **two**, three, and four ranges. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between ranges amounts.
 
 <img class="responsive-img" src="../images/radial_gauge_two_ranges.png" srcset="../images/radial_gauge_two_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
@@ -53,7 +53,7 @@ The Radial Gauge comes with three preset range configurations: **two**, three, a
 
 ## Styling
 
-The Radial Gauge comes with styling flexibility through the various overrides controlling the background color and a selection of brushes including Needle Brush, a collection of Range Brushes, as well as Tick Brush and Minor Tick Brush that are available only for inside and outside dial types.
+The Radial Gauge comes with styling flexibility through the various options for background color and a selection of brushes including Needle Brush, a collection of Range Brushes, as well as Tick Brush and Minor Tick Brush that are available only for inside and outside dial types.
 
 <img class="responsive-img" src="../images/radial_gauge_styling.png" srcset="../images/radial_gauge_styling@2x.png 2x" />
 

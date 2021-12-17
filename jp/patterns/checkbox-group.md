@@ -14,9 +14,9 @@ Checkbox Group パターンを使用すると、Checkbox 要素のコレクシ�
 Checkbox Group パターンは、含まれる Checkbox 要素のスタイル設定をカスタマイズできます。
 
 > [!WARNING]
-> 提供されているよりも多くの Checkbox 項目を追加する必要がある場合にのみ、Checkbox Group パターンのインスタンスで `Detach from Symbol` をトリガーします。レイアウトの作成に使用される個々のチェックボックスをデタッチしないでください。
-
-<img class="responsive-img" src="../images/checkbox_group_detach.png" srcset="../images/checkbox_group_detach@2x.png 2x" />
+> Sketch で、提供されているよりも多くの Checkbox 項目を追加する必要がある場合にのみ、Checkbox Group パターンのインスタンスで `Detach from Symbol` をトリガーします。レイアウトの作成に使用される個々のチェックボックスをデタッチしないでください。
+>
+> Adobe XD では、Checkbox 項目を複製することで新しい Checkbox 項目を追加できます。スタックが適用されるため、複製された項目は他の項目と単純に整列します。
 
 ## その他のリソース
 

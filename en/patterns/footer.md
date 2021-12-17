@@ -12,11 +12,6 @@ Use the Footer Pattern to display a website's complementary content such as site
 
 <img class="responsive-img" src="../images/footer_mobile_demo.png" srcset="../images/footer_mobile_demo@2x.png 2x" />
 
-> [!WARNING]
-> After inserting any of the Footer Patterns you should trigger `Detach from Symbol` in order to be able to generate the Pattern as Angular code. The various Components that lay it out must stay intact and not be detached!
-
-<img class="responsive-img" src="../images/footer_detach.png" srcset="../images/footer_detach@2x.png 2x" />
-
 ## Additional Resources
 
 Related topics:

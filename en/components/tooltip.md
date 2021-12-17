@@ -28,7 +28,7 @@ The Tooltip has a **dark** variant, suitable for lighter interfaces underneath, 
 
 ## Styling
 
-The Tooltip comes with styling flexibility for background color and message text style. However, for the message text, it is recommended to use `white` with the dark variant and `active` with the light variant, to assure optimal text legibility.
+The Tooltip comes with styling flexibility through the options available for the background color and message text style. However, for the message text, it is recommended to use `white` with the dark variant and `grays.900`(`Active`) with the light variant, to assure optimal text legibility.
 
 <img class="responsive-img" src="../images/tooltip_styling.png" srcset="../images/tooltip_styling@2x.png 2x" />
 

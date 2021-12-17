@@ -16,12 +16,6 @@ User Profile パターンの編集可能なバリアントもあります。User
 
 <img class="responsive-img" src="../images/edit_profile_demo.png" srcset="../images/edit_profile_demo@2x.png 2x" />
 
-> [!WARNING]
-> 利用可能な User Profile パターン を挿入した後、パターンを Angular コードとして生成するには、`Detach from Symbol` をトリガーします。含まれるコンポーネントをデタッチしないでください。
-
-<img class="responsive-img" src="../images/profile_detach.png" srcset="../images/profile_detach@2x.png 2x" />
-<img class="responsive-img" src="../images/edit_profile_detach.png" srcset="../images/edit_profile_detach@2x.png 2x" />
-
 ## その他のリソース
 
 関連トピック:

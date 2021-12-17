@@ -1,109 +1,62 @@
 ---
-title: Avatar - デザイン システム コンポーネント
-_description: Avatar コンポーネント シンボルは、個人情報を画像で表します。 
+title: Expansion Panel - デザイン システム コンポーネント
+_description: Expansion Panel コンポーネントは、詳細を表示および非表示にする組み込み機能を備えた概要ビューを提供します。 
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
-# Avatar (アバター)
+# Expansion Panel (展開パネル)
 
-Avatar コンポーネント は、プロファイル写真や画像、アイコン、イニシャル (文字列) で人をグラフィックで表現するために使用します。Avatar は、[Ignite UI for Angular Avatar コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/avatar.html) と視覚的に同じものです。
+画面スペースを維持する方法として、Expansion Panel コンポーネントを使用します。たとえば、テキストがたくさんあり、Header のタイトルで初期情報を表示してテキストを非表示にしたい場合や、開いたときに Body のコンテンツで詳細を表示したい場合です。 
+Expansion Panel には、Collapsed (縮小) 状態と Expanded (展開) の 2 つの主要な状態があります。
+Expansion Panel は、[Ignite UI for Angular Expansion Panel コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/expansion-panel.html)と視覚的に同じです。
 
-## Avatar のデモ
+## Expansion Panel のデモ
 
-<img class="responsive-img" src="../images/avatar_demo.png" srcset="../images/avatar_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/expansion_panel_demo.png" srcset="../images/expansion_panel_demo@2x.png 2x" />
 
-## サイズ
+## Header State (ヘッダーの状態)
 
-Avatar のサイズは 3 つあります。
+Expansion Panel のヘッダーは、**Active (有効)** および Disabled (無効) 状態になります。これらは、Sketch の [Overrides] パネルと Adobe XD の右側のパネルの [States] セクションで切り替えることができます。
 
-- ラージ - プロフィール ページに適しています。
-- ミディアム - カスタム メニューや可視化に適しています。
-- スモール - コンタクト リストや繰り返しのシナリオに簡単に組み込めます。
+<img class="responsive-img" src="../images/expansion_panel_active.png" srcset="../images/expansion_panel_active@2x.png 2x" />
+`active`
 
-<img class="responsive-img" src="../images/avatar_sizes.png" srcset="../images/avatar_sizes@2x.png 2x" />
+<img class="responsive-img" src="../images/expansion_panel_disabled.png" srcset="../images/expansion_panel_disabled@2x.png 2x" />
+`disabled`
 
-## タイプ
+## Header Layout (ヘッダーのレイアウト)
 
-Avatar は、**画像**、イニシャルの文字列、アイコンなど、さまざまなタイプのコンテンツを使用できます。
+Expansion Panel の Header Layout は、Left Expansion Panel Icon (左側の拡張パネル アイコン)、Title (タイトル) と Description (説明) を含む Content (コンテンツ)、および Right Expansion Panel Icon (右側の拡張パネル アイコン) で構成されます。デフォルトでは、Sketch では ~No Symbol に設定されており、Adobe XD では非表示になっています。Left Expansion Panel Icon と Content は、Sketch ではスマートなレイアウトになっており、Adobe XD では Stack を形成します。つまり、Icon が非表示になっている場合、Content は自動的に左に移動します。ただし、そうする場合は、Right Expansion Panel Icon を表示し、左側のアイコンを Sketch で ~No Symbol に設定するか、Adobe XD で削除することを忘れないでください。
 
-<img class="responsive-img" src="../images/avatar_content.png" srcset="../images/avatar_content@2x.png 2x" />
+<img class="responsive-img" src="../images/expansion_panel_header1.png" srcset="../images/expansion_panel_header1@2x.png 2x" />
+<img class="responsive-img" src="../images/expansion_panel_header2.png" srcset="../images/expansion_panel_header2@2x.png 2x" />
 
-アバターは、**円形**と四角形の異なる 2 つの図形があります。
+## Body (本体)
 
-<img class="responsive-img" src="../images/avatar_type.png" srcset="../images/avatar_type@2x.png 2x" />
+Expansion Panel の Body には、展開状態でのみ表示されるテキスト段落が含まれています。
+
+<img class="responsive-img" src="../images/expansion_panel_body.png" srcset="../images/expansion_panel_body@2x.png 2x" />
 
 ## スタイル設定
 
-Avatar は、さまざまなオーバーライドで背景色、イニシャルやアイコン色を制御することにより柔軟にスタイル設定できます。
+Expansion Panel には、Header と Body の両方の背景色、およびテキストとアイコンの色を変更するためのオプションが付属しています。
 
-<img class="responsive-img" src="../images/avatar_styling.png" srcset="../images/avatar_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/expansion_panel_styling.png" srcset="../images/expansion_panel_styling@2x.png 2x" />
 
 ## 使用方法
 
-Avatar でイニシャルやアイコンを使用する場合に Avatar 背景色とのコントラストの高い色を選択します。同色の同様の色合いや色収差を生じる組み合わせなど、コントラストの低い色は避けるようにします。
+Expansion Panel を使用するときは、その使用法を適切に理解できるアイコンを使用してください。つまり、パネルを拡張すると、より多くのコンテンツを利用できるようになります。
 
-| 良い例                                                                             |悪い例                                                                              |
+| 良い例                                                                             | 悪い例                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| <img class="responsive-img" src="../images/avatar_do1.png" srcset="../images/avatar_do1@2x.png 2x" />|<img class="responsive-img" src="../images/avatar_dont1.png" srcset="../images/avatar_dont1@2x.png 2x" /> |
-
-## コードの生成
-
-Avatar の色またはフォントを指定した場合、Avatar HTML 要素は div でラップされます。これはネスト コンポーネント (他のコンポーネント内のコンポーネント) をスタイル設定する際にブラウザーによって要求されます。
-
-> [!WARNING]
-> デザインの Avatar のインスタンスで `Detach from Symbol` をトリガーすると、ほとんどの場合で Avatar のためのコード生成機能が失われます。
-
-### データ バインディング
-
-データ バインディングは波括弧構文によって指定されます。例: {isAdmin}。データ バインディングはネストまたはネストなしが可能です。ターゲット プロパティがネストされたプロパティの場合、ネストされたプロパティ チェーンを含みますがモデル オブジェクト名は含みません。例:
-
-#### ネストなし
-
-```typescript
-Customer {
-  imageName: String;
-}
-```
-
-DataProperty: `{imageName}`
-
-#### ネストあり
-
-```typescript
-Profile {
-  imageName: String;
-}
-
-Customer {
-  profile: Profile;
-}
-```
-
-DataProperty: `{profile.imageName}`
-
-### Event プロパティ
-
-このプロパティはコンポーネント TypeScript のメソッドを作成するために使用し、HTML に Angular クリック シグネチャーを追加します。波括弧構文 ({onEventName}) を使用してイベントを指定する必要があります。
-
-### データ プロパティ
-
-| Avatar タイプ     |`🕹️DataProperty`                                                                                                                                                                                                                                                                                         |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 写真アバター|このプロパティは、画像ソースにデータバインドするために使用できます。コード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名になります。                                                                                     |
-| アイコン アバター     |このプロパティは無視されます。                                                                                                                                                                                                                                                                                |
-| イニシャル アバター|このプロパティは初期プロパティのバインドに使用します。コード生成で提供されるモデル オブジェクト名で指定されたデータ オブジェクトでプロパティ名になります。Avatar イニシャルは 2 文字のみ描画します。これは Ignite UI の制限です。 |
+| <img class="responsive-img" src="../images/expansion_panel_do1.png" srcset="../images/expansion_panel_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/expansion_panel_dont1.png" srcset="../images/expansion_panel_dont1@2x.png 2x" /> |
 
 ## その他のリソース
 
 関連トピック:
 
-- [Avatar + Badge](../patterns/avatar-badge.md)
-- [Card](card.md)
-- [File Upload](../patterns/file-upload.md)
-- [User Profile](../patterns/user-profile.md)
+- [Icon](icon.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
-
