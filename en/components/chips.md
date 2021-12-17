@@ -26,7 +26,7 @@ The Chip comes in three density variants:
 
 ## Chip State
 
-When the user interacts with the Chip, it may change from the default **idle** state to focus and vice versa. This affords a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
+When the user interacts with the Chip, it may change from the default **idle** state to focus and vice versa. This affords a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
 <img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
 `idle`
@@ -36,20 +36,27 @@ When the user interacts with the Chip, it may change from the default **idle** s
 
 ## Chip Selection
 
-When a chip is selected a special check icon will appear at the far left to indicate this. The `🔣 Selection Icon` override provides the means to trigger this functionality.
+When a Chip is selected, a special check icon will appear at the far left to indicate this. The `🔣 Selection Icon` override provides the means to trigger this functionality in Sketch. The smart layout rules applied to the Chip adjust its layout accordingly. 
+In Adobe XD, the `🔣 Selection Icon` layer has to be made visible to achieve the same and the Stack on the Chip will adjust its layout in a similar way. If you don't want the Chip to be selected, simply delete the `🔣 Selection Icon` layer. 
 
 <img class="responsive-img" src="../images/chip_idle_selected.png" srcset="../images/chip_idle_selected@2x.png 2x" />
 
 ## Remove Chip
 
-When a chip can be removed a special cancel icon will appear at the far right to indicate this. The `🔣 Remove Icon` override provides the means to trigger this functionality.
+When a chip can be removed, a special cancel icon will appear at the far right to indicate this. The `🔣 Remove Icon` override provides the means to trigger this functionality in Sketch. The smart layout rules applied to the Chip adjust its layout accordingly. 
+
+In Adobe XD, the `🔣 Remove Icon` layer has to be made visible to achieve the same and the Stack on the Chip will adjust its layout in a similar way. If you don't want the Chip to be removable, simply delete the `🔣 Remove Icon` layer.
 
 <img class="responsive-img" src="../images/chip_idle_removable.png" srcset="../images/chip_idle_removable@2x.png 2x" />
 `idle and removable`
 
 ## Chip Content
 
-The Chip has rich support for content templating via the prefix and suffix containers allowing to insert icons and text before and after the chip main text content.
+The Chip has rich support for content templating via the prefix and suffix containers allowing to insert icons and text before and after the main label. 
+
+In Sketch, prefix and suffix containers can be added by finding them in the Overrides/Input/Prefix/Container and Overrides/Input/Suffix/Container or removed by setting them to ~No Symbol, upon which the layout will adjust accordingly. 
+
+In Adobe XD, you have to make the desired layers visible and delete the unnecessary elements from them. If you want to remove a prefix or suffix all at once, simply delete it altogether. In the end, the layout will adjust thanks to the Stack that is being used.
 
 <img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
 `Text`
@@ -65,7 +72,7 @@ The Chip has rich support for content templating via the prefix and suffix conta
 
 ## Chip Styling
 
-The Chip comes with styling flexibility through the various overrides controlling the border and background colors, as well as the text and prefix, suffix, selection and remove icon colors, where applicable.
+The Chip comes with styling flexibility through the various options for the border and background colors, as well as the text and prefix, suffix, selection, and remove icon colors, where applicable.
 
 <img class="responsive-img" src="../images/chip_styling.png" srcset="../images/chip_styling@2x.png 2x" />
 

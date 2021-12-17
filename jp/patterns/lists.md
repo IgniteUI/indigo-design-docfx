@@ -28,10 +28,9 @@ Group of Items List パターンを使用して、グループ化されたまた
 <img class="responsive-img" src="../images/list_with_avatars.png" srcset="../images/list_with_avatars@2x.png 2x" />
 
 > [!WARNING]
-> 利用可能な任意の List パターンを挿入後、Angular コードとして生成するには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。これらのパターンの一部で使用されているイラストレーションは、生成されたコードには表示されません。その後、イラストレーション自体を手動で追加する必要があります。Input、Avatar、Navigation 要素などの個々の List 項目とコンポーネントをデタッチしないでください。
-
-<img class="responsive-img" src="../images/lists_detach.png" srcset="../images/lists_detach@2x.png 2x" />
-<img class="responsive-img" src="../images/lists_horizontal_vertical_detach.png" srcset="../images/lists_horizontal_vertical_detach@2x.png 2x" />
+> Sketch では、パターンとして使用可能な Lists のいずれかを挿入した後、提供されているよりも多くの項目を追加する必要がある場合にのみ、`Detach from Symbol` をトリガーできます。Input、Avatar、Navigation 要素などの個々の List 項目とコンポーネントをデタッチしないでください。
+>
+> Adobe XD では、List 項目を複製することで新しい List 項目を追加できます。パターン自体のグループ化を解除しなくても、スタックが適用されるため、List 項目は他の項目と単純に整列します。
 
 ## その他のリソース
 
@@ -45,5 +44,3 @@ Group of Items List パターンを使用して、グループ化されたまた
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
-

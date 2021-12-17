@@ -21,13 +21,13 @@ The Navigation Drawer supports a **default** type with icon and label for each i
 
 ## Items
 
-The Navigation Drawer uses a smart layouting and can show up to 21 Items. The exact amount can be configured by setting the Items that will not be needed to ~No Symbol.
+The Navigation Drawer can show up to 21 Items in Sketch that can be reduced by setting the unnecessary ones to ~No Symbol from the overrides panel and thanks to the smart layout the rest will adjust automatically. In Adobe XD if you need fewer items, simply delete the unnecessary ones. Unlike in Sketch, you can have more than 21 items by duplicating existing ones and even rearrange their order by dragging them around. At the end of any of these manipulations, the layout will be adjusted from the Stack applied to the collection of items.
 
 <img class="responsive-img" src="../images/nav-drawer_default.png" srcset="../images/nav-drawer_default@2x.png 2x" />
 
 ## Item State
 
-Every Navigation Drawer Item comes with a State which can be Active, Inactive, or Hover. In a Navigation Drawer only one Item can be Active at a time to indicate the view that will be shown on the rest of the screen.
+Every Navigation Drawer Item comes with a State which can be Active, Inactive or Hover. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In a Navigation Drawer, only one Item can be Active to indicate the view that will be shown on the rest of the screen.
 
 <img class="responsive-img" src="../images/nav-drawer_active.png" srcset="../images/nav-drawer_active@2x.png 2x" />
 <img class="responsive-img" src="../images/nav-drawer_inactive.png" srcset="../images/nav-drawer_inactive@2x.png 2x" />
@@ -35,7 +35,7 @@ Every Navigation Drawer Item comes with a State which can be Active, Inactive, o
 
 ## Styling
 
-The Navigation Drawer provides basic styling capabilities achievable through changing the label and icon colors, as well as the active/inactive background colors.
+The Navigation Drawer provides basic styling capabilities achievable through the options available for the label and icon colors, as well as the active/inactive background colors.
 
 <img class="responsive-img" src="../images/nav-drawer_styling.png" srcset="../images/nav-drawer_styling@2x.png 2x" />
 
@@ -59,4 +59,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-

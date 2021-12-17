@@ -14,7 +14,7 @@ Use Grid Paging to inform the user about his current position (on which Grid pag
 
 ## Styling
 
-The Grid Paging comes with styling flexibility through the various overrides controlling its label and background colors, as well as the available styling for the Icon Buttons used for navigation.
+The Grid Paging comes with styling flexibility through the various options for its label and background colors, as well as the available styling for the [Icon Buttons](button.md) used for navigation.
 
 <img class="responsive-img" src="../images/grid_paging_styling.png" srcset="../images/grid_paging_styling@2x.png 2x" />
 

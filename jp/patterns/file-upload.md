@@ -25,11 +25,6 @@ Document 型の File Upload パターンは、アップロードまたは Docume
 
 <img class="responsive-img" src="../images/file-upload_content.png" srcset="../images/file-upload_content@2x.png 2x" />
 
-> [!WARNING]
-> File Upload パターンを挿入した後、Angular コードとして生成するには、`Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。
-
-<img class="responsive-img" src="../images/file_upload_detach.png" srcset="../images/file_upload_detach@2x.png 2x" />
-
 ## その他のリソース
 
 関連トピック:

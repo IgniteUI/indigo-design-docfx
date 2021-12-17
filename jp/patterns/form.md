@@ -79,11 +79,6 @@ Subscription フォームは、会社や製品に関心のあるユーザーの�
 <img class="responsive-img" src="../images/form_email.png" srcset="../images/form_email@2x.png 2x" />
 <img class="responsive-img" src="../images/form_appointment.png" srcset="../images/form_appointment@2x.png 2x" />
 
-> [!WARNING]
-> 利用可能なフォーム パターンを挿入した後、Angular コードとして生成するには、`Detach from Symbol` をトリガーします。ただし、各コンポーネントをデタッチしないでください。パターン シンボル内にネストされたイラストレーションはコード生成できず、イラストレーション自体を手動で挿入する必要があります。
-
-<img class="responsive-img" src="../images/form_detach.png" srcset="../images/form_detach@2x.png 2x" />
-
 ## その他のリソース
 
 関連トピック:

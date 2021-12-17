@@ -15,7 +15,7 @@ Dialog コンポーネント シンボルは、メッセージや警告をユー
 
 ## タイプ
 
-Dialog 確認ボタンのみの警告を表示します。キャンセルや確認のメッセージ、あるいは直ちに対応が必要なユーザー ログインなどのコンテナーとして使用します。
+Dialog 確認ボタンのみの警告を表示します。キャンセルや確認のメッセージ、あるいは直ちに対応が必要なユーザー ログインなどのコンテナーとして使用します。Button 領域はテンプレート化可能で、ボタンなどを調整できます。Sketch で非表示にするには、メイン オーバーライドを ~No Symbol に設定する必要があります。スマート レイアウトのおかげで領域はそれに応じて調整されます。Adobe XD で同様の操作を行うには、不要なボタンを削除します。Stack は領域レイアウトを調整しますが、Sketch とは異なり別のボタンを挿入することもできます。
 
 <img class="responsive-img" src="../images/dialog_alert.png" srcset="../images/dialog_alert@2x.png 2x" />
 <img class="responsive-img" src="../images/dialog_standard.png" srcset="../images/dialog_standard@2x.png 2x" />
@@ -23,7 +23,7 @@ Dialog 確認ボタンのみの警告を表示します。キャンセルや確�
 
 ## スタイル設定
 
-Dialog には、タイトルとメッセージのさまざまなオーバーライド、[Button](button.md) コンポーネントが提供するすべてのスタイリング オプションを備えた下部のボタン、および背景とエレベーションによるスタイリングの柔軟性があります。
+Dialog には、タイトルとメッセージのさまざまなオプション、[Button](button.md) コンポーネントが提供するすべてのスタイリング オプションを備えた下部のボタン、および背景とエレベーションによるスタイリングの柔軟性があります。
 
 <img class="responsive-img" src="../images/dialog_styling.png" srcset="../images/dialog_styling@2x.png 2x" />
 

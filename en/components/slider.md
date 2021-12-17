@@ -26,7 +26,7 @@ The Slider offers a variant with one thumb for selecting a single value and with
 
 ## State
 
-The Slider supports **enabled** and disabled states, reflecting the possibility to change the value(s).
+The Slider supports **enabled** and disabled states, reflecting the possibility to change the value(s). In Sketch, we have different symbols for the different states, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
 <img class="responsive-img" src="../images/slider_enabled.png" srcset="../images/slider_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/slider_disabled.png" srcset="../images/slider_disabled@2x.png 2x" />
@@ -40,7 +40,7 @@ The Slider can be used styled in **dark** or light theme to assure good readabil
 
 ## Styling
 
-The Slider comes with styling flexibility through the overrides for the label background, thumb, track, and base track colors.
+The Slider comes with styling flexibility through the options available for the label background, thumb, track, and base track colors.
 
 <img class="responsive-img" src="../images/slider_styling.png" srcset="../images/slider_styling@2x.png 2x" />
 
@@ -54,4 +54,3 @@ The Slider track color should always have a higher emphasis than the track base 
 | <img class="responsive-img" src="../images/slider_do2.png" srcset="../images/slider_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/slider_dont2.png" srcset="../images/slider_dont2@2x.png 2x" /> |
 
 Our community is active and always welcoming to new ideas.
-

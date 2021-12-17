@@ -21,6 +21,7 @@ List of all the Grid functionality:
 - Column Hiding
 - Display Density
 - Excel Style Filtering
+- Advanced Filtering
 - GroupBy
 - Pinning
 - Row Selection
@@ -33,9 +34,9 @@ All Grid features are applicable to the Tree Grid Pattern.
 
 
 > [!WARNING]
-> After inserting the Tree Grid Pattern, you should trigger `Detach from Symbol` to break it down to the Components and Grid Features that are used to create the layout in order to be able to generate it as Angular code. The individual Components and Features, however, must stay intact and not be detached!
-
-<img class="responsive-img" src="../images/tree_grid_detach.png" srcset="../images/tree_grid_detach@2x.png 2x" />
+> In Sketch, after inserting the Tree Grid Pattern, you can trigger `Detach from Symbol` only if you need to alter the number of cells provided, in order to show all the dimensions of your data and insert as many visible records as you want. The individual Components and Features, however, must stay intact and not be detached!
+>
+> In Adobe XD you can add more cells than provided by duplicating columns and rows without ever having to ungroup the pattern itself.
 
 ## Additional Resources
 
@@ -44,5 +45,3 @@ Related topics:
 - [Tree Grid](../components/tree-grid.md)
 
 Our community is active and always welcoming to new ideas.
-
-
