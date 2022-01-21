@@ -18,17 +18,20 @@ Once a design in Sketch is created with the Indigo.Design System, use the plugin
 
 ## 1. Installing the Indigo.Design plugin
 
-The Indigo.Design Plugin is available for download from [Indigo.Design Cloud](https://cloud.indigo.design) after signing in from the `Design System` tab of the dialog that shows upon clicking the `Getting Started` button in the header. Once you download the archive and open it, double click on the Sketch plugin file and the Indigo.Design plugin will be installed.
+The Indigo.Design Plugin is available after signing in to the [Indigo.Design Cloud](https://cloud.indigo.design). Go to the `Getting Started` menu and click the `GET INDIGO.DESIGN SYSTEM` button to open the assets dialog. Under the Sketch tab you may download the plugin archive, open it, double click on the Sketch plugin file and the Indigo.Design plugin will be installed. Under the Adobe XD tab you will be able to land on the Adobe Exchange page of Indigo.Design from where you can easily get the plugin. 
 
 <img class="responsive-img" src="images/indigo-design-resources.gif" />
-<p style="text-align:center;">Indigo.Design resources</p>
 
 ## 2. Create an application in AppBuilder
-Take your designs and create interactive, responsive apps with real UI components and styling. Use the `Create App` tab and the plugin will transform your Sketch design into a real application under the AppBuilder, allowing access to the images and themes that you have used in Sketch - all of this directly in the cloud.
+Take your designs and create interactive, responsive apps with real UI components and styling. Use the `Create New App` feature of the plugin to transform your Sketch and Adobe XD designs into a real applications under the AppBuilder, allowing access to the images and themes - all of this directly in the cloud.
 
 The plugin allows you to choose a name and resolution for your app, as well as to select the Indigo.Design Cloud workspace, where the app will be created.
 
-<img class="responsive-img" src="images/create-from-sketch.gif" srcset="images/create-from-sketch.gif 2x" />
+<img class="responsive-img" src="images/create-from-sketch.gif" />
+
+In Adobe XD app creation is the only feature available in the plugin for now.
+
+<img class="responsive-img" src="images/create-from-xd.gif" />
 
 ## 3. Themes
 
@@ -42,7 +45,7 @@ Navigate to the `Plugins` menu in Sketch and under `Indigo.Design` select `Theme
 
 ### Creating a new theme
 
-If you, want to build a theme from your brand and add it to your theme collection, select `New Theme` and adjust the colors and typographies to match your needs. The default values you will see initially match the [default theme](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes/examples.html#default-theme) in [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular).
+If you, want to build a theme for your brand and add it to your theme collection, select `New Theme` and adjust the colors and typographies to match your needs. The default values you will see initially match the Material Light Theme in [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes).
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Start_New_Theme.png" srcset="images/Sync_themes_plugin_Start_New_Theme@2x.png 2x" />
 
@@ -54,7 +57,7 @@ Before you edit the Colors and Typography properties don't forget to specify the
 
 #### 2. Choosing brand and special colors
 
-In order to specify the two palettes at the top you are allowed to set only their base values: `Primary 500` and `Secondary 500` since the rest of the shades will be generated automatically for you. Most of the time you will use these palettes with your brand colors. As to `Error`, `Success`, `Warning`, and `Info` colors we strongly recommend to take in mind the users' perception of the application for displaying errors, success messages, warnings, and informative content. The default colors provided, are found to be meaningful and appropriate for the majority of these cases. Colors are easily adjustable by clicking on them and providing either a HEX/RGB value or picking the color manually.
+Start by choosing whether your theme will be light or dark, which affects the `Surface` and `Gray` colors. Then, to specify the two palettes at the top you are allowed to set only their base values: `Primary 500` and `Secondary 500` since the rest of the shades will be generated automatically for you. Most of the time you will use these palettes with your brand colors. As to `Error`, `Success`, `Warning`, and `Info` colors we strongly recommend to take in mind the users' perception of the application for displaying errors, success messages, warnings, and informative content. The default colors provided, are found to be meaningful and appropriate for the majority of these cases. Colors are easily adjustable by clicking on them and providing either a HEX/RGB value or picking the color manually.
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Specify_colors.png" srcset="images/Sync_themes_plugin_Specify_colors@2x.png 2x" />
 
@@ -66,19 +69,19 @@ Typeface properties can be adjusted from the `Typography` tab. A limited set of 
 
 #### 4. Saving and applying your theme
 
-Оnce you click Save and Apply, your theme will be saved and appear in the list of predefined themes. Also, your libraries will be updated and styles will propagate to your current project, a process that usually takes a few seconds to complete, depending on the libraries and size of the Sketch file opened.
+Оnce you click Save and Apply, your theme will be saved and appear in the list of predefined themes. Also, your libraries will be updated and styles will propagate to your current project, a process that usually takes a few seconds to complete, depending on the libraries and size of the Sketch file opened. The only thing left for you is to open the notification and accept the changes in your design.
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Saving_and_Applying_New_Theme.png" srcset="images/Sync_themes_plugin_Saving_and_Applying_New_Theme@2x.png 2x" />
 
 ### Using an existing theme
 
-If creating a theme is that easy, it is even easier to use and reuse one of the existing themes: default provided by us or custom added by you if you have played around with the plugin a bit already. Besides one-click theme utilization, you are also able to tweak a theme before applying it, or in order to clean up the collection in your plugin - delete it.
+If creating a theme is that easy, it is even easier to use and reuse one of the existing themes: default provided by us or custom added by you if you have played around with the plugin a bit already. Besides easy theme utilization, you are also able to duplicate any of the predefined themes to tweak them before applying, or delete some of those you have created once but will not be of any use in the future.
 
 <img class="responsive-img" src="images/Sync_themes_plugin_existing_theme.png" srcset="images/Sync_themes_plugin_existing_theme@2x.png 2x" />
 
 #### Editing a theme
 
-If you choose to tweak an existing theme before applying it, you may configure one or more of the entities described in the theme creation section above according to your needs.
+If you choose to tweak an existing theme before applying it, you have to duplicate it first and then configure one or more of the entities described in the theme creation section above according to your needs.
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Editing_theme_name_colors_typography.png" srcset="images/Sync_themes_plugin_Editing_theme_name_colors_typography@2x.png 2x" />
 
