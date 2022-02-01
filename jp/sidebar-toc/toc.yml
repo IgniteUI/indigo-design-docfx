@@ -14,7 +14,7 @@
 - name: Adobe XD でアートボードを作成
   href: ../creating-artboard-adobexd.md
   new: true
-- name: 同期とテーマ プラグイン
+- name: プラグイン
   href: ../sync-themes-plugin.md
 - name: スタイル設定
   href: ../style/styling-overview.md
