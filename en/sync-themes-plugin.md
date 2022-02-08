@@ -12,7 +12,7 @@ Once a design in Sketch is created with the Indigo.Design System, use the plugin
 
 -  quickly create an app in Indigo.Design AppBuilder. This app follows the structure of the Sketch design, mapping any symbol from the Indigo.Design UI kit to the corresponding component from Ignite UI. The plugin also takes the images used in Sketch and uploads them in the Assets library under AppBuilder, benefiting from [`Assets` support](https://www.infragistics.com/community/blogs/b/jason_beres/posts/indigo-design-app-builder-october-release-with-assets-support).  
 
-- create new themes and edit existing ones when using the Indigo.Design UI Kit for Sketch. Users can adjust the `primary`, `secondary`, `error`, `success`, `warn`, and `info` colors, as well as properties of the Typography according to their brand characteristics. The themes you have created will be there in the Indigo.Design AppBuilder, if you go and create an app from your design!
+- create new themes and edit existing ones when using the Indigo.Design UI Kit for Sketch. Users can adjust the `primary`, `secondary`, `error`, `success`, `warn`, `info` and `surface` colors, as well as properties of the Typography according to their brand characteristics. The themes you have created will be there in the Indigo.Design AppBuilder, if you go and create an app from your design!
 
 - effortlessly publish prototypes to the Indigo.Design Cloud and sync them up regularly thereafter, when making changes and updates.
 
