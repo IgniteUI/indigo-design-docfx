@@ -14,7 +14,7 @@
 - name: Creating An Artboard in AdobeXD
   href: ../creating-artboard-adobexd.md
   new: true
-- name: Sync and Themes Plugin
+- name: Plugin
   href: ../sync-themes-plugin.md
 - name: Styling
   href: ../style/styling-overview.md
