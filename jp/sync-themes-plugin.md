@@ -19,17 +19,21 @@ Indigo.Design System を使用して Sketch のデザインを作成したら、
 
 ## 1. Indigo.Design プラグインのインストール
 
-Indigo.Design プラグインは、ヘッダーの `作業の開始` ボタンをクリックすると表示されるダイアログの `Design System` タブからサインインした後に [Indigo.Design Cloud](https://cloud.indigo.design) からダウンロードできます。アーカイブをダウンロードして開き、Sketch プラグイン ファイルをダブルクリックすると、Indigo.Design プラグインがインストールされます。
+Indigo.Design プラグインは、[Indigo.Design Cloud](https://cloud.indigo.design) にサインインすると利用可能になります。[作業の開始] メニューに移動し、[Indigo.Design システムを入手する] ボタンをクリックしてアセット ダイアログを開きます。[Sketch] タブで、プラグイン アーカイブをダウンロードして開き、Sketch プラグイン ファイルをダブルクリックすると、Indigo.Design プラグインがインストールされます。[Adobe XD] タブで、プラグインを簡単に入手できる Indigo.Design の Adobe Exchange ページにアクセスできます。
 
 <img class="responsive-img" src="images/indigo-design-resources.gif" />
 <p style="text-align:center;">Indigo.Design リソース</p>
 
 ## 2. App Builder でアプリケーションを作成します
-デザインを取り入れて、実際の UI コンポーネントとスタイル設定を備えたインタラクティブでレスポンシブなアプリを作成します。`Create App` タブを使用すると、プラグインが Sketch デザインを App Builder の下の実際のアプリケーションに変換し、Sketch で使用した画像やテーマにアクセスできるようにします。これらはすべてクラウドで直接行われます。
+デザインを取り入れて、実際の UI コンポーネントとスタイル設定を備えたインタラクティブでレスポンシブなアプリを作成します。プラグインの [新しいアプリの作成] 機能を使用して、App Builder で Sketch および Adobe XD デザインを 実際のアプリケーションに変換し、画像やテーマに直接アクセスできるようにします。これらはすべてクラウドで直接行われます。
 
 プラグインを使用すると、アプリの名前と解像度を選択したり、アプリが作成される Indigo.Design Cloud ワークスペースを選択したりできます。
 
-<img class="responsive-img" src="images/create-from-sketch.gif" srcset="images/create-from-sketch.gif 2x" />
+<img class="responsive-img" src="images/create-from-sketch.gif" />
+
+Adobe XD では、アプリの作成は現在プラグインで利用できる唯一の機能です。
+
+<img class="responsive-img" src="images/create-from-xd.gif" />
 
 ## 3. テーマ
 
@@ -43,7 +47,7 @@ Sketch の `Plugins` メニューの `Indigo.Design` から `Themes` を選択�
 
 ### テーマの新規作成
 
-ブランディングに基づいてテーマをビルドし、テーマ コレクションに追加する場合は、`新しい テーマ`を選択して色やタイポグラフィを必要に応じて調整します。デフォルトの値は、[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) の [デフォルトのテーマ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes/examples.html#デフォルト-テーマ)と同じです。
+ブランディングに基づいてテーマをビルドし、テーマ コレクションに追加する場合は、`[新しいテーマ]` を選択して色やタイポグラフィを必要に応じて調整します。デフォルトの値は、[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes) の Material Light テーマと同じです。
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Start_New_Theme.png" srcset="images/Sync_themes_plugin_Start_New_Theme@2x.png 2x" />
 
@@ -55,7 +59,7 @@ Colors や Typography プロパティを編集する前にテーマの名前を�
 
 #### 2. ブランディングと色の選択
 
-上部にある 2 つのパレットを指定する場合、残りのシェードが自動的に生成されるためベース値 `Primary 500` と `Secondary 500` のみ設定できます。ほとんどの場合、ブランディング カラーのパレットを使用します。`Error`、`Success`、`Warning`、`Info` の色に関しては、アプリケーションに対するユーザーの知覚を考慮することをお勧めします。デフォルトの色は、ほとんどのケースにマッチする色になっています。テーマをクリックし、HEX/RGB 値を入力、または色を選択して簡単に調整できます。
+テーマにライトかダークを選択します。これは、`Surface` と `Gray` の色に影響します。次に、上部にある 2 つのパレットを指定する場合、残りのシェードが自動的に生成されるためベース値 `Primary 500` と `Secondary 500` のみ設定できます。ほとんどの場合、ブランディング カラーのパレットを使用します。`Error`、`Success`、`Warning`、`Info` の色に関しては、アプリケーションに対するユーザーの知覚を考慮することをお勧めします。デフォルトの色は、ほとんどのケースにマッチする色になっています。テーマをクリックし、HEX/RGB 値を入力、または色を選択して簡単に調整できます。
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Specify_colors.png" srcset="images/Sync_themes_plugin_Specify_colors@2x.png 2x" />
 
@@ -67,19 +71,19 @@ Typeface プロパティは、`タイポグラフィ`タブで設定できます
 
 #### 4. テーマの保存と適用
 
-[保存] をクリックするとテーマが保存され、定義済みテーマの一覧に表示されます。ライブラリが更新されてスタイルが現在のプロジェクトにプロパゲートされると、ライブラリと Sketch ファイルのサイズにもよりますが処理は通常数秒で終わります。
+[保存] をクリックするとテーマが保存され、定義済みテーマの一覧に表示されます。ライブラリが更新されてスタイルが現在のプロジェクトにプロパゲートされると、ライブラリと Sketch ファイルのサイズにもよりますが処理は通常数秒で終わります。最後に、通知を開いてデザインの変更を受け入れるだけです。
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Saving_and_Applying_New_Theme.png" srcset="images/Sync_themes_plugin_Saving_and_Applying_New_Theme@2x.png 2x" />
 
 ### 既存のテーマの使用
 
-テーマの作成は簡単ですが、既存テーマ (デフォルトまたはカスタム) の再利用はより簡単です。テーマは 1 クリックで選択できる以外に適用する前に調整することも可能です。あるいはプラグインのコレクションをクリーンアップするために削除することもできます。
+テーマの作成は簡単ですが、既存テーマ (デフォルトまたはカスタム) の再利用はより簡単です。テーマを簡単に利用できる以外に、事前定義されたテーマを複製して、適用する前に微調整したり、一度作成したが将来は使用しないテーマを削除したりすることもできます。
 
 <img class="responsive-img" src="images/Sync_themes_plugin_existing_theme.png" srcset="images/Sync_themes_plugin_existing_theme@2x.png 2x" />
 
 #### テーマの編集
 
-既存のテーマを適用する前に調整する場合は、上記のテーマの作成セクションで説明したエントリをいくつか設定できます。
+既存のテーマを適用する前に調整する場合は、最初にそれを複製してから、上記『テーマの新規作成』セクションで説明したエントリをいくつか設定できます。
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Editing_theme_name_colors_typography.png" srcset="images/Sync_themes_plugin_Editing_theme_name_colors_typography@2x.png 2x" />
 
