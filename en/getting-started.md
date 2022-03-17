@@ -28,6 +28,8 @@ The design system is a set of libraries for Sketch and Adobe XD, containing vari
 
 Indigo.Design for Sketch now offers not one but four library files to its users: one for each of the design languages we support - Material, Bootstrap, Fluent UI, and our very own Indigo. All four libraries support seamless switching between light and dark mode via the [Indigo.Design plugin](sync-themes-plugin.md) and work with any of the predefined or custom color palettes it provides. With this improvement, Sketch users are able to enjoy 100% native look and feel of their components and patterns for the design language of their choice.
 
+<img class="responsive-img" src="./images/four-themes.png" />
+
 If you are brand new to Indigo.Design learn more about how to create your first artboard with it:
 * [Create your first Sketch artboard](creating-artboard-sketch.md)
 * [Create your first Adobe XD artboard](creating-artboard-adobexd.md)
