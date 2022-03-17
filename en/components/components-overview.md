@@ -11,7 +11,7 @@ The **Indigo.Design System** empowers your design workflow with 60+ UI Component
 > [!WARNING]
 > Symbols and components designated as `_Overrides` in Sketch and Adobe XD libraries must not be inserted on artboards as they provide component states and do not represent a complete component by itself.
 
-The Sketch libraries have a `🧩 Components` page containing all Components and symbols related to them. When selecting a Symbol instance, through the Override section in the right panel, one can change the content inside e.g. enabled/disabled states, light/dark variants, icons, colors, etc. Below is a small part of showing some of the Components and symbols such as the different types of [Buttons](button.md), [Button Group](button-group.md) and form elements like [Checkbox](checkbox.md), [Switch](switch.md), and [Radio Group](radio-group.md).
+The Sketch libraries have a `🧩 Components` page containing all Components and symbols related to them. When selecting a Symbol instance, through the Override section in the right panel, one can change the content inside e.g. enabled/disabled states, icons, colors, etc. Below is a small part of showing some of the Components and symbols such as the different types of [Buttons](button.md), [Button Group](button-group.md) and form elements like [Checkbox](checkbox.md), [Switch](switch.md), and [Radio Group](radio-group.md).
 
 <img class="responsive-img" src="../images/components-page.png" />
 
