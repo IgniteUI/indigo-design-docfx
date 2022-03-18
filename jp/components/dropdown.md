@@ -20,13 +20,6 @@ Dropdown は、デスクトップとモバイルで使用時に適切なサイ�
 <img class="responsive-img" src="../images/dropdown_desktop.png" srcset="../images/dropdown_desktop@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_mobile.png" srcset="../images/dropdown_mobile@2x.png 2x" />
 
-## バリアント
-
-Dropdown は、明暗バリアント (デフォルトは**暗い**) で分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
-
-<img class="responsive-img" src="../images/dropdown_dark.png" srcset="../images/dropdown_dark@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_light.png" srcset="../images/dropdown_light@2x.png 2x" />
-
 ## 項目
 
 Dropdown は、項目ヘッダーと項目の 2 つのタイプをサポートします。ヘッダーでグループの他の項目を体系化できます。
