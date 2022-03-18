@@ -19,8 +19,8 @@ The Sketch libraries have a `🧩 Components` page containing all Components and
 
 ## Adobe XD
 
-In the Adobe XD library you can find the `🧩 Components` in the middle column. Here, the various states of a component can be switched from the right panel. Also, we have used the `Stack` and `Padding` to align and distribute elements vertically or horizontally and change their position. When you want to swap a nested component with another one, you can simply drag it from the `Libraries` panel and drop it on top of the current one to replace it. You will also notice that some components, such as the Grid, for example, use a `Repeat Grid` to speed configuration up.
-> Detaching a component from the libraries in Sketch makes it impossible to automatically apply updates from subsequent versions of the Design System and may impact the code generation capability of the component. The code generation services rely on specially designated `🚫 metadata` layers, containing metadata descriptions of the state, template and other properties of the component.
+In the Adobe XD library you can find the `🧩 Components` in the middle column. Here, the various states of a component can be switched from the right panel. Also, we have used the `Stack` and `Padding` to align and distribute elements vertically or horizontally and change their position. When you want to swap a nested component with another one, you can simply drag it from the `Libraries` panel and drop it on top of the current one to replace it. You will also notice that some components, such as the Grid, for example, use a `Repeat Grid` to speed configuration up. Below you may find some of the Components like different types of [Buttons](button.md), [Button Group](button-group.md) and form elements such as [Checkbox](checkbox.md), [Switch](switch.md), and [Radio Group](radio-group.md).
+
 <img class="responsive-img" src="../images/components-page-xd.png" />
 
 > [!WARNING]
