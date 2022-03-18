@@ -19,13 +19,6 @@ The Dropdown comes in the appropriate sizing for desktop and mobile usage.
 <img class="responsive-img" src="../images/dropdown_desktop.png" srcset="../images/dropdown_desktop@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_mobile.png" srcset="../images/dropdown_mobile@2x.png 2x" />
 
-## Variant
-
-The Dropdown can be styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
-
-<img class="responsive-img" src="../images/dropdown_dark.png" srcset="../images/dropdown_dark@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_light.png" srcset="../images/dropdown_light@2x.png 2x" />
-
 ## Items
 
 The Dropdown supports two types of items header and item. Through headers it is possible to organize the other items in groups.

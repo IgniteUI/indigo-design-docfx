@@ -31,13 +31,6 @@ The Slider supports **enabled** and disabled states, reflecting the possibility 
 <img class="responsive-img" src="../images/slider_enabled.png" srcset="../images/slider_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/slider_disabled.png" srcset="../images/slider_disabled@2x.png 2x" />
 
-## Theme
-
-The Slider can be used styled in **dark** or light theme to assure good readability and contrast for both lighter and darker backgrounds.
-
-<img class="responsive-img" src="../images/slider_dark.png" srcset="../images/slider_dark@2x.png 2x" />
-<img class="responsive-img" src="../images/slider_light.png" srcset="../images/slider_light@2x.png 2x" />
-
 ## Styling
 
 The Slider comes with styling flexibility through the options available for the label background, thumb, track, and base track colors.

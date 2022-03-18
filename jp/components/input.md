@@ -34,13 +34,6 @@ Input では、3 つのオプション (プリセット) からプリセット�
 <img class="responsive-img" src="../images/input_enabled.png" srcset="../images/input_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/input_disabled.png" srcset="../images/input_disabled@2x.png 2x" />
 
-## バリアント
-
-Input は、明暗バリアント (デフォルトは**暗い**) で分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
-
-<img class="responsive-img" src="../images/input_dark.png" srcset="../images/input_dark@2x.png 2x" />
-<img class="responsive-img" src="../images/input_light.png" srcset="../images/input_light@2x.png 2x" />
-
 ## 状態
 
 ユーザーが Input とインタラクティブに操作する際にさまざまな状態を経由します。コンテンツの代わりにプレースホルダーがある **idle** (アイドル状態)、ユーザーが入力中の focused (フォーカス状態)、ユーザーがコンテンツの追加を完了して次に進むとき filled (塗りつぶし状態)。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
