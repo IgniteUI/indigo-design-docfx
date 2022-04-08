@@ -108,7 +108,7 @@ You have a Sketch project that you feel is robust enough to share with others. Y
 - choose to highlight hotspots and interactions
 - allow comments on the design
 
-Once you click the Publish button, the project is uploaded to the Indigo.Design Cloud and you will get a link to it, which you may share for feedback or use to [generate code](codegen/vscode-plugin.md).
+Once you click the Publish button, the project is uploaded to the Indigo.Design Cloud and you will get a link to it, which you may share for feedback or use to generate code.
 
 <img class="responsive-img" src="images/Sync_themes_plugin_New_prototype.png" srcset="images/Sync_themes_plugin_New_prototype@2x.png 2x" />
 
