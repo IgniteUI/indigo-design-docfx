@@ -234,7 +234,7 @@
     - name: Onboarding
       href: ../patterns/onboarding.md
     - name: Pricing Table
-      href: ../patterns/pricing-plan.md
+      href: ../patterns/pricing-table.md
     - name: Scheduler
       href: ../patterns/scheduler.md
     - name: Social Feed
