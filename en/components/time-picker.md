@@ -30,7 +30,7 @@ The Time Picker supports Dialog layout with Horizontal and Vertical orientation,
 
 ## Content
 
-The Time Picker supports 12 and 24-hour formats through two distinct content modes. Besides the hour, minutes, and the seconds' portion, the 12-hour content mode provides a meridiem portion, where selection between AM and PM is possible. 
+The Time Picker supports 12 and 24-hour formats through two distinct content modes. Besides the hour, minutes, and the seconds portion, the 12-hour content mode provides a meridiem portion, where selection between AM and PM is possible. 
 
 <img class="responsive-img" src="../images/timepicker_dropdown.png" srcset="../images/timepicker_dropdown@2x.png 2x" />
 <img class="responsive-img" src="../images/timepicker_24mode.png" srcset="../images/timepicker_24mode@2x.png 2x" />
