@@ -12,11 +12,21 @@ Use the Badge Component Symbol to draw attention to another interface element or
 
 <img class="responsive-img" src="../images/badge_demo.png" srcset="../images/badge_demo@2x.png 2x" />
 
-## Type
+## Content
 
 The Badge can carry different types of content such as a number or an icon.
 
 <img class="responsive-img" src="../images/badge_type.png" srcset="../images/badge_type@2x.png 2x" />
+
+## Type
+
+The Badge can be used in one of the following preset color combinations to draw attention: **default**, info, success, warn, and error.
+
+<img class="responsive-img" src="../images/badge_default.png" srcset="../images/badge_default@2x.png 2x" />
+<img class="responsive-img" src="../images/badge_info.png" srcset="../images/badge_info@2x.png 2x" />
+<img class="responsive-img" src="../images/badge_success.png" srcset="../images/badge_success@2x.png 2x" />
+<img class="responsive-img" src="../images/badge_warn.png" srcset="../images/badge_warn@2x.png 2x" />
+<img class="responsive-img" src="../images/badge_error.png" srcset="../images/badge_error@2x.png 2x" />
 
 ## Styling
 
