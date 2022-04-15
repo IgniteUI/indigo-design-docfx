@@ -20,22 +20,18 @@ Navbar には、2 つの異なるタイプのバリエーションがありま�
 <img class="responsive-img" src="../images/navbar_elevated.png" srcset="../images/navbar_elevated@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_outlined.png" srcset="../images/navbar_outlined@2x.png 2x" />
 
+どちらも 2 つのアクション バリアントがあります: Icon Actions および Icon Button Actions です。
+
+<img class="responsive-img" src="../images/navbar_icon.png" srcset="../images/navbar_icon@2x.png 2x" />
+<img class="responsive-img" src="../images/navbar_iconbutton.png" srcset="../images/navbar_iconbutton@2x.png 2x" />
+
 ## コンテンツのレイアウト
 
-Navbar のコンテンツは、Left Action と Title で構成される左側の領域と、さまざまな操作用の 4 つの隣接するアイコンがある右側の領域に分割されます。Navbar レイアウトを設定するには、Left Action または右側のアイコンを ~No Symbol に設定し、スマート レイアウトにより、左側のレイアウトが自動的に調整されます。Adobe XD では、不要なコンポーネントを削除するだけで同じことができ、レイアウトは Stack から自動的に調整されます。さらに、Sketch とは異なり、Libraries パネルから追加のコンポーネントを挿入できます。たとえば、右端に Avatar を表示できます。
+Navbar のコンテンツは、Left Action と Title で構成される左側の領域と、シンプルなイベントをトリガーする用の 最大 4 つの隣接するアイコン (またはアイコン ボタン) がある右側の領域に分割されます。Navbar のアクションのいずれかを Sketch で ~No Symbol に設定すると、スマート レイアウトにより、左側のレイアウトが自動的に調整されます。Adobe XD では、不要なコンポーネントを削除するだけで同じことができ、レイアウトは Stack から自動的に調整されます。さらに、Sketch とは異なり、Libraries パネルから追加のコンポーネントを挿入できます。たとえば、右端に Avatar を表示できます。
 
 <img class="responsive-img" src="../images/navbar_left&right.png" srcset="../images/navbar_left&right@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_noright.png" srcset="../images/navbar_noright@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_noleft.png" srcset="../images/navbar_noleft@2x.png 2x" />
-
-## アクション アイコン
-
-Navbar は、さまざまな単純なイベントをトリガーできる右側の最大 4 つの操作アイコンをサポートできます。
-
-<img class="responsive-img" src="../images/navbar_icon4.png" srcset="../images/navbar_icon4@2x.png 2x" />
-<img class="responsive-img" src="../images/navbar_icon3.png" srcset="../images/navbar_icon3@2x.png 2x" />
-<img class="responsive-img" src="../images/navbar_icon2.png" srcset="../images/navbar_icon2@2x.png 2x" />
-<img class="responsive-img" src="../images/navbar_icon1.png" srcset="../images/navbar_icon1@2x.png 2x" />
 
 ## スタイル設定
 

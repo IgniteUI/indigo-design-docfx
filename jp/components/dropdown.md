@@ -13,12 +13,13 @@ Dropdown コンポーネントでは、ユーザーがスクロール可能な�
 
 <img class="responsive-img" src="../images/dropdown_demo.png" srcset="../images/dropdown_demo@2x.png 2x" />
 
-## タイプ
+## 表示密度
 
-Dropdown は、デスクトップとモバイルで使用時に適切なサイズで提供されます。
+Dropdown には 3 つの表示密度の選択肢があります: comfortable、cosy および compact です。
 
-<img class="responsive-img" src="../images/dropdown_desktop.png" srcset="../images/dropdown_desktop@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_mobile.png" srcset="../images/dropdown_mobile@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_comfortable.png" srcset="../images/dropdown_comfortable@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_cosy.png" srcset="../images/dropdown_cosy@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_compact.png" srcset="../images/dropdown_compact@2x.png 2x" />
 
 ## 項目
 
@@ -41,7 +42,7 @@ Dropdown 項目は、5 つの状態をサポートします: Disabled、**Idle**
 
 Dropdown Item は柔軟なアイコンとラベルのテンプレートをサポートします。Sketch でアイコンを表示するには、オーバーライドを Icon/Medium に設定し、スマート レイアウト ルールが項目レイアウトを自動的に調整します。Adobe XD では、アイコン レイヤーを表示し、Stack に配置してレイアウトを自動的に調整することで同じことが可能ですが、コンテンツにアイコンのある項目が必要ない場合は、アイコン レイヤーを削除します。
 
-<img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_label.png" srcset="../images/dropdown_item_label@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_icon.png" srcset="../images/dropdown_item_icon@2x.png 2x" /> 
 
 ## スタイル設定
