@@ -87,11 +87,7 @@ The Chip comes with styling flexibility through the various options for the bord
 
 Use the Chips Area Component to organize a collection of Chips. The Chips Area is identical to the container area used in Ignite UI for Angular, which is explained at length in the [Ignite UI for Angular Chip Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/chip.html) help topic.
 
-### Chips Area Demo
-
 <img class="responsive-img" src="../images/chips_area_demo.png" srcset="../images/chips_area_demo@2x.png 2x" />
-
-### Chips Area Styling
 
 The Chips Area comes with the inherent styling flexibility of the Chips.
 
