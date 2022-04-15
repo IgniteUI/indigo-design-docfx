@@ -24,22 +24,29 @@ The Chip comes in three density variants:
 <img class="responsive-img" src="../images/chip_cosy.png" srcset="../images/chip_cosy@2x.png 2x" />
 <img class="responsive-img" src="../images/chip_compact.png" srcset="../images/chip_compact@2x.png 2x" />
 
+## Chip Types
+
+The Chip provides two type variants: Default and Primary.
+
+<img class="responsive-img" src="../images/chip_default.png" srcset="../images/chip_default@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_primary.png" srcset="../images/chip_primary@2x.png 2x" />
+
+## Interaction State
+
+The Chip can be inserted in an enabled or disabled state. In Adobe XD we are using the Component States paradigm to let you easily switch between them.
+
+<img class="responsive-img" src="../images/chip_enabled.png" srcset="../images/chip_enabled@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_disabled.png" srcset="../images/chip_disabled@2x.png 2x" />
+
 ## Chip State
 
-When the user interacts with the Chip, it may change from the default **idle** state to focus and vice versa. This affords a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
+When the user interacts with the Chip, it may change from the default **idle** state to hover, focus, selected, and templated. This affords a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
-<img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
-`idle`
-
+<img class="responsive-img" src="../images/chip_idle.png" srcset="../images/chip_idle@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_hover.png" srcset="../images/chip_hover@2x.png 2x" />
 <img class="responsive-img" src="../images/chip_focus.png" srcset="../images/chip_focus@2x.png 2x" />
-`focus`
-
-## Chip Selection
-
-When a Chip is selected, a special check icon will appear at the far left to indicate this. The `🔣 Selection Icon` override provides the means to trigger this functionality in Sketch. The smart layout rules applied to the Chip adjust its layout accordingly. 
-In Adobe XD, the `🔣 Selection Icon` layer has to be made visible to achieve the same and the Stack on the Chip will adjust its layout in a similar way. If you don't want the Chip to be selected, simply delete the `🔣 Selection Icon` layer. 
-
-<img class="responsive-img" src="../images/chip_idle_selected.png" srcset="../images/chip_idle_selected@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_selected.png" srcset="../images/chip_selected@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_templated.png" srcset="../images/chip_templated@2x.png 2x" />
 
 ## Remove Chip
 
@@ -84,16 +91,9 @@ Use the Chips Area Component to organize a collection of Chips. The Chips Area i
 
 <img class="responsive-img" src="../images/chips_area_demo.png" srcset="../images/chips_area_demo@2x.png 2x" />
 
-### Chips Area Type
-
-The Chips Area is available in two distinct types: Chips, where the Chip collection is not related, and Connected Chips, where Chips appear in a predefined sequence.
-
-<img class="responsive-img" src="../images/chips_area_standard.png" srcset="../images/chips_area_standard@2x.png 2x" />
-<img class="responsive-img" src="../images/chips_area_connected.png" srcset="../images/chips_area_connected@2x.png 2x" />
-
 ### Chips Area Styling
 
-The Chips Area comes with the inherent styling flexibility of the Chips, but, where applicable, also allows changing the color and glyph of the connector icon.
+The Chips Area comes with the inherent styling flexibility of the Chips.
 
 <img class="responsive-img" src="../images/chips_area_styling.png" srcset="../images/chips_area_styling@2x.png 2x" />
 
@@ -106,12 +106,6 @@ When using a Chip, the obround will automatically size itself to fit the content
 | |
 | <img class="responsive-img" src="../images/chip_do1.png" srcset="../images/chip_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/chip_dont2.png" srcset="../images/chip_dont2@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/chip_do3.png" srcset="../images/chip_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/chip_dont3.png" srcset="../images/chip_dont3@2x.png 2x" /> |
-
-When using the Chips Area follow the suggestions for the individual Chip components above and when using a connected Chips Area don't configure the individual chips as actions, they are supposed to be entitites related in some way e.g. an ordered list of people.
-
-| Do                                                                                     | Don't                                                                                      |
-| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| <img class="responsive-img" src="../images/chips_area_do1.png" srcset="../images/chips_area_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/chips_area_dont1.png" srcset="../images/chips_area_dont1@2x.png 2x" /> |
 
 
 
