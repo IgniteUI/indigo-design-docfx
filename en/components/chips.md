@@ -38,7 +38,7 @@ The Chip can be inserted in an enabled or disabled state. In Adobe XD we are usi
 <img class="responsive-img" src="../images/chip_enabled.png" srcset="../images/chip_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/chip_disabled.png" srcset="../images/chip_disabled@2x.png 2x" />
 
-## Chip State
+## State
 
 When the user interacts with the Chip, it may change from the default **idle** state to hover, focus, selected, and templated. This affords a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
