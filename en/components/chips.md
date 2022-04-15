@@ -46,6 +46,9 @@ When the user interacts with the Chip, it may change from the default **idle** s
 <img class="responsive-img" src="../images/chip_hover.png" srcset="../images/chip_hover@2x.png 2x" />
 <img class="responsive-img" src="../images/chip_focus.png" srcset="../images/chip_focus@2x.png 2x" />
 <img class="responsive-img" src="../images/chip_selected.png" srcset="../images/chip_selected@2x.png 2x" />
+
+You will also notice one more state named templated, which is used internally in the [Grid Advanced Filter](grid-advanced-filter.md) interface.
+
 <img class="responsive-img" src="../images/chip_templated.png" srcset="../images/chip_templated@2x.png 2x" />
 
 ## Remove Chip
