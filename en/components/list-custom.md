@@ -39,7 +39,7 @@ So, let's see how we can create an intricate layout for the product List Item ab
 
 <img class="responsive-img" src="../images/list_item_custom_layout0.png" srcset="../images/list_item_custom_layout0@2x.png 2x" />
 
-1.  First, we have to remove the paragraph and footer. Then we will reuse the Header from the Primary Action Group but resize it to fit in the right half only and update the strings for the Title and Subtitle Text. In the Secondary Action Group, we will add a Raised Button, position it near the bottom right corner, updating its text and resize it accordingly to fit the new value. Lastly, let's remove the default Secondary Action, as we will not be needing Icons for our target custom layout.
+1.  First, we have to remove the paragraph and footer. Then we will reuse the Header from the Primary Action Group but resize it to fit in the right half only and update the strings for the Title and Subtitle Text. In the Secondary Action Group, we will add a Contained Button, position it near the bottom right corner, updating its text and resize it accordingly to fit the new value. Lastly, let's remove the default Secondary Action, as we will not be needing Icons for our target custom layout.
 
     <img class="responsive-img" src="../images/list_item_custom_layout1.png" srcset="../images/list_item_custom_layout1@2x.png 2x" />
 
@@ -47,7 +47,7 @@ So, let's see how we can create an intricate layout for the product List Item ab
 
     <img class="responsive-img" src="../images/list_item_custom_layout2.png" srcset="../images/list_item_custom_layout2@2x.png 2x" />
 
-3.  In the last step, we will add a couple of Text/Title elements to the Primary Action Group: a larger H3 to display the price of the product and a smaller Body 1 to its right for complimentary text. After positioning them in the empty space between the Header and the Raised Button, we can make a final alignment adjustment to the Raised Button with which our target layout is complete.
+3.  In the last step, we will add a couple of Text/Title elements to the Primary Action Group: a larger H3 to display the price of the product and a smaller Body 1 to its right for complimentary text. After positioning them in the empty space between the Header and the Contained Button, we can make a final alignment adjustment to the Button with which our target layout is complete.
 
     <img class="responsive-img" src="../images/list_item_custom_layout3.png" srcset="../images/list_item_custom_layout3@2x.png 2x" />
 
@@ -57,7 +57,7 @@ The Custom List Item has high-level styling flexibility similar to the normal Li
 
 <img class="responsive-img" src="../images/list_item_custom_styling.png" srcset="../images/list_item_custom_styling@2x.png 2x" />
 
-Furthermore, additional styling is possible based on the elements that have been inserted in the Custom List Item. For example, we can set a color for the text of the pricing to emphasize it and change the Badge background and Raised Button background colors.
+Furthermore, additional styling is possible based on the elements that have been inserted in the Custom List Item. For example, we can set a color for the text of the pricing to emphasize it and change the Badge background and Button background colors.
 
 <img class="responsive-img" src="../images/list_item_custom_layout_styled.png" srcset="../images/list_item_custom_layout_styled@2x.png 2x" />
 
