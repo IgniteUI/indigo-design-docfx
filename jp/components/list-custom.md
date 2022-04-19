@@ -40,7 +40,7 @@ List Item レイアウトをカスタマイズするには、`List/Custom/Item` 
 
 <img class="responsive-img" src="../images/list_item_custom_layout0.png" srcset="../images/list_item_custom_layout0@2x.png 2x" />
 
-1.  最初に、段落とフッターを削除する必要があります。次に、Primary Action Group の Header を再利用しますが右半分のみに合わせてサイズ変更し、Title と Subtitle Text の文字列を更新します。Secondary Action Group で Raised Button 配置を右下近くに追加します。テキストを更新して新しい値に合わせてサイズ変更します。テキストの更新して新しい値に合わせてサイズ変更します。ターゲット カスタム レイアウトに Icons は必要ないため、最後にデフォルト Secondary Action を削除します。
+1.  最初に、段落とフッターを削除する必要があります。次に、Primary Action Group の Header を再利用しますが右半分のみに合わせてサイズ変更し、Title と Subtitle Text の文字列を更新します。Secondary Action Group で Contained Button 配置を右下近くに追加します。テキストを更新して新しい値に合わせてサイズ変更します。テキストの更新して新しい値に合わせてサイズ変更します。ターゲット カスタム レイアウトに Icons は必要ないため、最後にデフォルト Secondary Action を削除します。
 
     <img class="responsive-img" src="../images/list_item_custom_layout1.png" srcset="../images/list_item_custom_layout1@2x.png 2x" />
 
@@ -48,7 +48,7 @@ List Item レイアウトをカスタマイズするには、`List/Custom/Item` 
 
     <img class="responsive-img" src="../images/list_item_custom_layout2.png" srcset="../images/list_item_custom_layout2@2x.png 2x" />
 
-3.  前のステップでは Text/Title 要素を Primary Action Group に追加します。H3 で製品価格を表示し、その右に Body 1 で追加のテキストを表示します。Header と Raised Button 間の空スペースに配置後、ターゲット レイアウトが完了した Raised Button の最終的な配置を調整できます。
+3.  前のステップでは Text/Title 要素を Primary Action Group に追加します。H3 で製品価格を表示し、その右に Body 1 で追加のテキストを表示します。Header と Contained Button 間の空スペースに配置後、ターゲット レイアウトが完了した Button の最終的な配置を調整できます。
 
     <img class="responsive-img" src="../images/list_item_custom_layout3.png" srcset="../images/list_item_custom_layout3@2x.png 2x" />
 
@@ -58,7 +58,7 @@ Custom List Item は、Secondary Actions のオーバーライドおよびテキ
 
 <img class="responsive-img" src="../images/list_item_custom_styling.png" srcset="../images/list_item_custom_styling@2x.png 2x" />
 
-さらに、Custom List Item に挿入された要素に基づいて、追加のスタイル設定が可能です。たとえば、テキストの色を設定して強調したり、Badge 背景や Raised Button 背景の色を変更したりできます。
+さらに、Custom List Item に挿入された要素に基づいて、追加のスタイル設定が可能です。たとえば、テキストの色を設定して強調したり、Badge 背景や Contained Button 背景の色を変更したりできます。
 
 <img class="responsive-img" src="../images/list_item_custom_layout_styled.png" srcset="../images/list_item_custom_layout_styled@2x.png 2x" />
 
