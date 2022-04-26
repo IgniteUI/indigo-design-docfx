@@ -279,5 +279,7 @@
 
 - name: More Resources
   header: true
+- name: What's new
+  href: ../whats-new.md
 - name: Known Issues
   href: ../known-issues.md
