@@ -65,4 +65,3 @@ You can also generate code for Angular apps directly from published prototypes i
 Learn more:
 
 - [Generating code from an application in Indigo.Design App Builder](https://www.infragistics.com/products/appbuilder/help/generate-app/generate-app-overview)
-- [Generating code from prototypes](codegen/installing-vs-code-extension.md)

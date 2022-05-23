@@ -268,12 +268,6 @@
 
 - name: Code Generation
   header: true
-- name: Installing the VS Code Extension
-  href: ../codegen/installing-vs-code-extension.md
-- name: Using the Code Generator Plugin
-  href: ../codegen/vscode-plugin.md
-- name: After Code Generation
-  href: ../codegen/after-codegen.md
 - name: Layout Generation
   href: ../codegen/layout-codegen.md
 
