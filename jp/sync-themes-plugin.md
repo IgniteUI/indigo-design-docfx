@@ -110,7 +110,7 @@ Indigo.Design クラウドにプロトタイプを公開する準備ができた
 - ホットスポットとインタラクションの強調表示を選択
 - デザインにコメントを許可
 
-[公開] ボタンをクリックするとプロジェクトが Indigo.Design Cloud へアップロードされます。これによりフィードバックをもらったり[コードを生成](codegen/vscode-plugin.md)したりすることができます。
+[公開] ボタンをクリックするとプロジェクトが Indigo.Design Cloud へアップロードされます。これによりフィードバックをもらうことができます。
 
 <img class="responsive-img" src="images/Sync_themes_plugin_New_prototype.png" srcset="images/Sync_themes_plugin_New_prototype@2x.png 2x" />
 
