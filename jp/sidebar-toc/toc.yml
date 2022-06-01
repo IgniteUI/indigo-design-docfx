@@ -268,12 +268,6 @@
 
 - name: コード生成
   header: true
-- name: VS Code 拡張機能のインストール
-  href: ../codegen/installing-vs-code-extension.md
-- name: コード ジェネレーター プラグインの使用
-  href: ../codegen/vscode-plugin.md
-- name: コード生成後の手順
-  href: ../codegen/after-codegen.md
 - name: レイアウトの生成
   href: ../codegen/layout-codegen.md
 
