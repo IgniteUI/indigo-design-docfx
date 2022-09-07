@@ -4,82 +4,9 @@
   href: ../getting-started.md
 - name: Video Tutorials
   href: ../video-tutorials.md
-
-- name: App Builder Overview
-  href: ../appbuilder/app-builder-overview.md
-  header: true
-- name: Getting Started
-  href: ../appbuilder/getting-started.md
+- name: Quick Tips
+  href: ../quick-tips.md
   new: true
-- name: Interface Overview
-  href: ../appbuilder/interface-overview.md
-  new: true
-- name: Flex Layouts
-  href: ../appbuilder/flex-layouts/flex-layouts.md
-  # items:
-  #   - name: Row and column layout
-  #     href: ../appbuilder/flex-layouts/row-and-column-layout.md
-  #   - name: Fluid resizing & wrapping
-  #     href: ../appbuilder/flex-layouts/fluid-resizing-and-wrapping.md
-  #   - name: Add to layout via context menu
-  #     href: ../appbuilder/flex-layouts/add-to-layout-via-context-menu.md
-  #   - name: Additional resources to learn about web-layouts
-  #     href: ../appbuilder/flex-layouts/additional-resources-to-learn-about-web-layouts.md
-- name: UI Components
-  href: ../appbuilder/indigo-design-app-builder-components.md
-  # items:
-  #   - name: Quick add components
-  #     href: ../appbuilder/indigo-design-components/quick-add-components.md
-  #   - name: Configuring components
-  #     href: ../appbuilder/indigo-design-components/configuring-components.md
-  
-- name: Interactions
-  href: ../appbuilder/interactions.md
-  # items:
-  #   - name: Quick add components
-  #     href: ../appbuilder/indigo-design-components/quick-add-components.md
-  #   - name: Configuring components
-  #     href: ../appbuilder/indigo-design-components/configuring-components.md
-
-- name: Using data in your app
-  href: ../appbuilder/using-data-in-your-app.md
-
-- name: App Themes
-  href: ../appbuilder/app-themes/app-themes.md
-  # items:
-  #   - name: Switching app themes
-  #     href: ../appbuilder/app-themes/switching-app-themes.md
-  #   - name: Material vs. Fluent vs Bootstrap 
-  #     href: ../appbuilder/app-themes/material-vs-fluent-vs-bootstrap.md
-  #   - name: Customize & apply theme 
-  #     href: ../appbuilder/app-themes/customize-and-apply-theme.md
-- name: Single Page Apps and Navigation
-  href: ../appbuilder/single-page-apps-and-navigation.md
-  # items:
-  #   - name: Master view vs. Child views
-  #     href: ../appbuilder/spa-and-navigation/master-view-vs-child-views.md
-  #   - name: Add navigations (routing)
-  #     href: ../appbuilder/spa-and-navigation/add-navigations-routing.md
-- name: Preview Code
-  href: ../appbuilder/preview-code.md
-  # items:
-  #   - name: Preview code
-  #     href: ../appbuilder/preview-code-and-genrate-app/preview-code.md
-  #   - name: Compile and Run the app
-  #     href: ../appbuilder/preview-code-and-genrate-app/compile-and-run-the-app.md
-- name: Generate App
-  href: ../appbuilder/generate-app/generate-app-overview.md
-  new: true
-  items:
-    - name: Upload application to Github
-      href: ../appbuilder/generate-app/upload-application-to-github.md
-    - name: Run Application Locally
-      href: ../appbuilder/generate-app/run-application-locally.md
-  
-- name: Change Log
-  href: ../appbuilder/change-log.md
-  new: true
-
 - name: Using the Design System
   header: true
 - name: Creating An Artboard in Sketch
@@ -87,7 +14,7 @@
 - name: Creating An Artboard in AdobeXD
   href: ../creating-artboard-adobexd.md
   new: true
-- name: Sync and Themes Plugin
+- name: Plugin
   href: ../sync-themes-plugin.md
 - name: Styling
   href: ../style/styling-overview.md
@@ -115,6 +42,9 @@
       href: ../components/avatar.md
     - name: Badge
       href: ../components/badge.md
+    - name: Banner
+      href: ../components/banner.md
+      new: true
     - name: Bottom Navigation
       href: ../components/bottom-nav.md
     - name: Button Group
@@ -161,8 +91,14 @@
       href: ../components/date-picker.md
     - name: Dialog
       href: ../components/dialog.md
+    - name: Divider
+      href: ../components/divider.md
+      new: true
     - name: Dropdown
       href: ../components/dropdown.md
+    - name: Expansion Panel
+      href: ../components/expansion-panel.md
+      new: true
     - name: Grid
       href: ../components/grid.md
       items:
@@ -230,14 +166,23 @@
       href: ../components/progress.md
     - name: Radio Group
       href: ../components/radio-group.md
+    - name: Select
+      href: ../components/select.md
+      new: true
     - name: Slider
       href: ../components/slider.md
     - name: Snackbar
       href: ../components/snackbar.md
+    - name: Splitter
+      href: ../components/splitter.md
+      new: true
     - name: Switch
       href: ../components/switch.md
     - name: Tabs
       href: ../components/tabs.md
+    - name: Text Area
+      href: ../components/textarea.md
+      new: true
     - name: Time Picker
       href: ../components/time-picker.md
     - name: Toast
@@ -289,7 +234,7 @@
     - name: Onboarding
       href: ../patterns/onboarding.md
     - name: Pricing Table
-      href: ../patterns/pricing-plan.md
+      href: ../patterns/pricing-table.md
     - name: Scheduler
       href: ../patterns/scheduler.md
     - name: Social Feed
@@ -300,8 +245,11 @@
       href: ../patterns/tree-grid.md
     - name: User Profile
       href: ../patterns/user-profile.md
-- name: Responsive layouts
-  href: ../best-layout-practices.md
+- name: Responsive layouts in Sketch
+  href: ../best-layout-practices-sketch.md
+- name: Responsive layouts in AdobeXD
+  href: ../best-layout-practices-xd.md
+  new: true
 
 - name: Prototypes & Usability Studies
   header: true
@@ -320,12 +268,6 @@
 
 - name: Code Generation
   header: true
-- name: Installing the VS Code Extension
-  href: ../codegen/installing-vs-code-extension.md
-- name: Using the Code Generator Plugin
-  href: ../codegen/vscode-plugin.md
-- name: After Code Generation
-  href: ../codegen/after-codegen.md
 - name: Layout Generation
   href: ../codegen/layout-codegen.md
 

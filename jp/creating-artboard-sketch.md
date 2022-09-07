@@ -22,16 +22,16 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 
 ## 詳細手順
 
-### 1.**Indigo.Design System** をライブラリとして追加
+### 1.**Indigo.Design システム**をライブラリとして追加
 
-1.  [**Indigo.Design System**](https://cloud.indigo.design/home) をダウンロードします。
+1.  [**Indigo.Design システム**](https://cloud.indigo.design/home)をダウンロードします。
 
     Pages セクションに 26 ページの Sketch ファイルが 1 つあり、3 つのアイコン タイプで区別されます:
 
     - **🎨 ~** スタイリング ページ: Material Icons、Colors、Typography、Elevation、Illustrations などのすべてのスタイリング アセットは、上部の 5 ページにあります。
 
     - **🧩 Components** ページ: デザインを構築するコンポーネントのセット。
-      [Insert] メニューで利用できるさまざまなプリセットと、Sketch UI の右側のパネルで構成する状態とレイアウトのオーバーライドを通じて、Ignite UI for Angular およびコード生成エンジンと互換性のあるレイアウトを作成できます。
+      `Insert` メニューで利用できるさまざまなプリセットと、Sketch UI の右側のパネルで構成する状態とレイアウトのオーバーライドを通じて、Ignite UI for Angular およびコード生成エンジンと互換性のあるレイアウトを作成できます。
 
     - **🌆 ~** パターン ページ: コンポーネントには、残りのページに展開するアプリケーション レイアウトをガイドするパターンが含まれます。
 
@@ -76,6 +76,9 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 ### 3.コンポーネントを追加してカスタマイズ
 
 `Insert` メニューを使用して Indigo Design ライブラリからコンポーネントを追加して、右パネルでカスタマイズできます。
+
+> [!WARNING]
+> `_Overrides` として指定されたシンボルとコンポーネントは、コンポーネントの状態を提供し、それ自体で完全なコンポーネントを表すものではないため、アートボードに挿入しないでください。
 
 以下は例の画面を作成する手順です。
 
@@ -171,7 +174,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 
 7.  **サインアップ ボタンを追加します。**
 
-    1.  `Insert` メニューから Symbols / Indigo.Design / Button / Raised / Enabled を選択します。
+    1.  `Insert` メニューから Symbols / Indigo.Design / Button / Contained / Enabled を選択します。
     2.  入力の下に配置し、上の入力から左右に 16px スペースを設定して全幅に引き伸ばします。
     3.  [Overrides] セクションで [Before Icon] と [After Icon] を ~No Symbol に設定します。
     4.  [Text] を「SIGN UP」に設定し、[Style] を ~White に更新します。

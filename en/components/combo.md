@@ -34,13 +34,6 @@ Each of the three Combo input types can be inserted in an enabled or disabled st
 <img class="responsive-img" src="../images/combo_enabledstate.png" srcset="../images/combo_enabledstate@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_disabledstate.png" srcset="../images/combo_disabledstate@2x.png 2x" />
 
-## Input Variant
-
-The Combo input can be used styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
-
-<img class="responsive-img" src="../images/combo_demo.png" srcset="../images/combo_demo@2x.png 2x" />
-<img class="responsive-img" src="../images/combo_light.png" srcset="../images/combo_light@2x.png 2x" />
-
 ## State
 
 When the user interacts with the Combo, its input goes through various selection states: **idle** with a placeholder in the place of the content, focused when the dropdown is open, filled once the user has finished with selection and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
@@ -62,9 +55,8 @@ Every experienced designer uses constraints wisely to limit the user input and a
 
 In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
 
-## Layout
-
-The Combo input has only one layout option but to assure consistency with the standard [Input](input.md) this override has been preserved.
+> [!Note]
+> The Combo input has only one layout option, but this override has been preserved in Sketch to ensure consistency with the standard [Input](input.md).
 
 ## Dropdown Type
 
@@ -75,11 +67,11 @@ The dropdown used for the Combo comes with the appropriate sizing for desktop an
 
 ## Dropdown Search Input
 
-The dropdown contains a Search Input that comes with dark and light variants, a selection of states, and options for layout akin to the standard [Input](input.md).
+The dropdown contains a Search Input that comes with a selection of states and options for layout akin to the standard [Input](input.md).
 
 ## Dropdown Items
 
-The dropdown used for the Combo supports two types of items: header and multi select item. Through headers, it is possible to organize items in groups.
+The dropdown used for the Combo supports two types of items: header and multi-select item. Through headers, it is possible to organize items in groups. In Sketch, the dropdown uses a smart layout allowing it to adjust accordingly when one or more of its items are set to ~No Symbol. In Adobe XD you should delete the unnecessary ones, and the layout will adjust through the use of a Stack.
 
 <img class="responsive-img" src="../images/combo_header.png" srcset="../images/combo_header@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_multiselect_item.png" srcset="../images/combo_multiselect_item@2x.png 2x" />

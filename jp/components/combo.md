@@ -35,16 +35,9 @@ Combo Input は線タイプ (エアリー スタイル)、境界線タイプ (�
 <img class="responsive-img" src="../images/combo_enabledstate.png" srcset="../images/combo_enabledstate@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_disabledstate.png" srcset="../images/combo_disabledstate@2x.png 2x" />
 
-## Input バリアント
-
-Combo Input は、明暗バリアントで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
-
-<img class="responsive-img" src="../images/combo_demo.png" srcset="../images/combo_demo@2x.png 2x" />
-<img class="responsive-img" src="../images/combo_light.png" srcset="../images/combo_light@2x.png 2x" />
-
 ## 状態
 
-ユーザーが Combo とインタラクティブに操作する際に入力はさまざまな選択状態を経由します。コンテンツの代わりにプレースホルダーがある**アイドル**状態、ドロップダウンが開いているときのフォーカス状態、ユーザーが選択を完了して次に進むときの塗りつぶし状態。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
+ユーザーが Combo とインタラクティブに操作する際に入力はさまざまな選択状態を経由します。コンテンツの代わりにプレースホルダーがある **idle (アイドル状態)**、ドロップダウンが開いているときの focused (フォーカス状態)、ユーザーが選択を完了して次に進むときの filled (塗りつぶし状態)。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 
 <img class="responsive-img" src="../images/combo_idle.png" srcset="../images/combo_idle@2x.png 2x" />
 `idle`
@@ -55,15 +48,16 @@ Combo Input は、明暗バリアントで分かりやすく、背景に明暗�
 <img class="responsive-img" src="../images/combo_filled.png" srcset="../images/combo_filled@2x.png 2x" />
 `filled`
 
-経験豊富なデザイナーは、ユーザー入力を制限して無効な状態を防止するために、検証スタイルを使用します。Combo の検証スタイルには統一感のある標準 [Input](input.md) があり、成功、警告、エラーを表示する洗練されたデザインを提供します。
+経験豊富なデザイナーは、ユーザー入力を制限して無効な状態を防止するために、検証スタイルを使用します。Combo の検証スタイルには統一感のある標準 [Input](input.md) があり、success (成功)、warning (警告)、error (エラー) を表示する洗練されたデザインを提供します。
 
 <img class="responsive-img" src="../images/combo_success.png" srcset="../images/combo_success@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_warning.png" srcset="../images/combo_warning@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_error.png" srcset="../images/combo_error@2x.png 2x" />
 
-## レイアウト
+Sketch では状態と検証状態を `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
-Combo Input にはレイアウト オプションが 1 つのみですが標準 [Input](input.md) と統一させてオーバーライドが保存されます。
+> [!Note]
+> Combo 入力はレイアウト オプションが 1 つしかありませんが、このオーバーライドは、標準 [Input](input.md) との一貫性を確保するために Sketch で保持されています。
 
 ## Dropdown タイプ
 
@@ -74,18 +68,18 @@ Combo に使用される Dropdown は、標準 [Dropdown](dropdown.md) コンポ
 
 ## Dropdown Search Input (検索入力)
 
-Dropdown には、暗いバリエーションと明るいバリエーションが付属する Search Input、状態の選択、および標準の [Input](input.md) と同様のレイアウトのオプションが含まれています。
+Dropdown には、標準の [Input](input.md) と同様に、状態の選択とレイアウトのオプションが付属する Search Input が含まれています。
 
-## Dropdown 項目
+## Dropdown Items (項目)
 
-Combo に使用される Dropdown は、ヘッダーと複数選択項目の 2 種類の項目をサポートします。ヘッダーを介して、項目をグループに体系化できます。
+Combo に使用される Dropdown は、ヘッダーと複数選択項目の 2 種類の項目をサポートします。ヘッダーを介して、項目をグループに体系化できます。Sketch で Dropdown はスマート レイアウトを使用しており、1 つ以上の項目が ~No Symbol に設定されている場合に応じて調整できます。Adobe XD では、不要なものを削除し、Stack を使用してレイアウトを調整します。
 
 <img class="responsive-img" src="../images/combo_header.png" srcset="../images/combo_header@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_multiselect_item.png" srcset="../images/combo_multiselect_item@2x.png 2x" />
 
-## Dropdown 項目状態
+## Dropdown Item の状態
 
-Combo 内の Dropdown 項目は、5 つの状態をサポートします: disabled, **idle**、focused、selected、selected&focused。
+Combo 内の Dropdown Item は、5 つの状態をサポートします: disabled、**idle**、focused、selected、selected&focused。
 
 <img class="responsive-img" src="../images/combo_item_disabled.png" srcset="../images/combo_item_disabled@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_item_idle.png" srcset="../images/combo_item_idle@2x.png 2x" />
@@ -95,7 +89,7 @@ Combo 内の Dropdown 項目は、5 つの状態をサポートします: disabl
 
 ## スタイル設定
 
-Combo は入力とドロップダウン部分でスタイルの組み合わせに柔軟性があります。入力テキスト要素の色と下線のスタイルと色を制御するオーバーライドがあります。Dropdown の場合、背景色を変更するか、検索入力や背景色とテキスト色の項目など、Combo Dropdown の項目に関連するさまざまなオーバーライドを使用できます。
+Combo は入力とドロップダウン部分でスタイルの組み合わせに柔軟性があります。入力テキスト要素の色と下線のスタイルと色のオプションがあります。Dropdown の場合、背景色を変更するか、検索入力や背景色とテキスト色の項目など、Combo Dropdown の項目に関連するさまざまなオプションを使用できます。
 
 <img class="responsive-img" src="../images/combo_styling.png" srcset="../images/combo_styling@2x.png 2x" />
 
@@ -118,4 +112,3 @@ Combo を使用する際に入力とドロップダウンは同じ幅で左右�
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-

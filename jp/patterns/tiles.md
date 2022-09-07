@@ -11,12 +11,6 @@ Tiles パターンをプリセットとして使用して、画像や製品名�
 
 <img class="responsive-img" src="../images/tiles.png" srcset="../images/tiles@2x.png 2x" />
 
-
-> [!WARNING]
-> 利用可能な Tiles をパターンとして挿入後、Angular コードとして生成するには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。各 Avatar、Button、およびその他のコンポーネントは、背景レイヤーと一緒にデタッチしないでください。
-
-<img class="responsive-img" src="../images/tiles_detach.png" srcset="../images/tiles_detach@2x.png 2x" />
-
 ## その他のリソース
 
 関連トピック:

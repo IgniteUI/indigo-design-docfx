@@ -7,7 +7,7 @@ _language: ja
 
 # Typography (タイポグラフィ)
 
-**Indigo.Design システム**には、タイポグラフィを構成し、テーマの書体を設定できる 12 のテキスト （文字） スタイルがあります。デフォルトで [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) を使用していますが、すべてのデザイナーがアプリケーションを柔軟にカスタマイズできるようにする必要があります。Indigo.Design は、[マテリアル タイプ システム](https://material.io/design/typography/the-type-system.html#type-scale)でタイポグラフィが定義されている方法に従い、[Ignite UI for Angular タイポグラフィ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes/typography)の実装に準拠しています。
+**Indigo.Design システム**には、タイポグラフィを構成し、テーマの書体を設定できる 12 のテキスト (文字) スタイルがあります。デフォルトで [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) を使用していますが、すべてのデザイナーがアプリケーションを柔軟にカスタマイズできるようにする必要があります。Indigo.Design は、[マテリアル タイプ システム](https://material.io/design/typography/the-type-system.html#type-scale)でタイポグラフィが定義されている方法に従い、[Ignite UI for Angular タイポグラフィ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes/typography)の実装に準拠しています。
 
 <img class="responsive-img" src="../images/typography_default.png" srcset="../images/typography_default@2x.png 2x" />
 
@@ -77,7 +77,7 @@ Adobe XD で書体を Titillium Web から別の書体に変更するには、In
 さまざまなユーザー インターフェイスをデザインするには、タイポグラフィのさまざまなスタイルで十分です。ただし、特別なユース ケースのために追加のスタイルを作成する必要がある場合があります。すべてのプロジェクトに対してグローバルに定義する場合は、Indigo.Designライブラリで定義します。現在のプロジェクトの範囲内でのみ意味のあるものである場合は、代わりにプロジェクト ファイルで実行してください。
 
 ### Sketch で
-新しい `Text` レイヤーを挿入することから始めて、`Appearance` パネルを介してライブラリから供給された既存のものから最も近い  `TextStyle` をそれに割り当てます。
+新しい `Text` レイヤーを挿入することから始めて、`Appearance` パネルを介してライブラリから供給された既存のものから最も近い `TextStyle` をそれに割り当てます。
 
 <img class="responsive-img" src="../images/typography_custom1.png" srcset="../images/typography_custom1@2x.png 2x"/>
 

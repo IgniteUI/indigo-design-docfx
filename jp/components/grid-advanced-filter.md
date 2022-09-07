@@ -15,13 +15,13 @@ Grid 高度なフィルターを使用すると、Grid 上に表示されるダ�
 
 ## 高度なフィルター機能
 
-グリッドには、`Features` の下に 3 つの `Advanced Filtering` 記号があり、各表示密度に 1 つずつ、グリッド上に表示されるオーバーレイを表します。
+グリッドには、`Features` の下に 3 つの `Advanced Filtering` シンボルがあり、各表示密度に 1 つずつ、グリッド上に表示されるオーバーレイを表します。Adobe XD では、`Component States` を使用して表示密度を切り替えることができます。
 
 <img class="responsive-img" src="../images/grid_advanced_filter_display_density.png" srcset="../images/grid_advanced_filter_display_density@2x.png 2x" />
 
 ## フィルター式状態
 
-高度なフィルター機能には、デフォルトで **Empty Filter** 式があり、必要に応じて Applied Filter に変更し、さらにカスタマイズして必要なフィルター条件を指定できます。
+高度なフィルター機能には、デフォルトで **Empty Filter** 式があり、必要に応じて Applied Filter に変更できます。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。これを設定したら、必要なフィルタリング基準を指定してさらにカスタマイズできます。
 
 <img class="responsive-img" src="../images/grid_advanced_filter_expression.png" srcset="../images/grid_advanced_filter_expression@2x.png 2x" />
 

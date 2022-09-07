@@ -11,11 +11,11 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 <img class="responsive-img" src="../images/Illustrations_Avatar.png" srcset="../images/Illustrations_Avatar@2x.png 2x" />
 <img class="responsive-img" src="../images/Illustrations_Cannot_Find.png" srcset="../images/Illustrations_Cannot_Find@2x.png 2x" />
 <img class="responsive-img" src="../images/Illustrations_Empty_State.png" srcset="../images/Illustrations_Empty_State@2x.png 2x" />
-<img class="responsive-img" src="../images/Illustrations_Error_404.png.png" srcset="../images/Illustrations_Error_404@2x.png 2x" />
+<img class="responsive-img" src="../images/Illustrations_Error_404.png" srcset="../images/Illustrations_Error_404@2x.png 2x" />
 <img class="responsive-img" src="../images/Illustrations_Onboarding.png" srcset="../images/Illustrations_Onboarding@2x.png 2x" />
 <img class="responsive-img" src="../images/Illustrations_Payment.png" srcset="../images/Illustrations_Payment@2x.png 2x" />
 
-In the Sketch library, these graphics are on a separate page named `🎨 Illustrations`, while in Adobe XD they are placed on an Artboard with the same name at the bottom of the left column of the library file.
+In the Sketch libraries, these graphics are on a separate page named `🎨 Illustrations`, while in Adobe XD they are placed on an Artboard with the same name at the bottom of the left column of the library file.
 
 ## Changing Colors
 

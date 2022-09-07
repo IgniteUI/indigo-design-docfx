@@ -25,32 +25,48 @@ Chip は 3 つの密度バリアントがサポートされます。
 <img class="responsive-img" src="../images/chip_cosy.png" srcset="../images/chip_cosy@2x.png 2x" />
 <img class="responsive-img" src="../images/chip_compact.png" srcset="../images/chip_compact@2x.png 2x" />
 
-## Chip 状態
+## Chip タイプ
 
-ユーザーが Chip を操作すると、デフォルトの**アイドル**状態からフォーカスに、またはその逆に変化します。これには、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
+チップには 2 つのタイプのバリエーションがあります: Default と Primary です。
 
-<img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
-`idle`
+<img class="responsive-img" src="../images/chip_default.png" srcset="../images/chip_default@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_primary.png" srcset="../images/chip_primary@2x.png 2x" />
 
+## 操作状態
+
+Chip は、有効または無効の状態で挿入できます。Adobe XD では ン Component States パラダイムを使用して簡単に状態を切り替えることができます。
+
+<img class="responsive-img" src="../images/chip_enabled.png" srcset="../images/chip_enabled@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_disabled.png" srcset="../images/chip_disabled@2x.png 2x" />
+
+## 状態
+
+ユーザーが Chip を操作すると、デフォルトの **idle (アイドル)**状態から hover (ホバー)、focused (フォーカス)、または selected (選択) に変化します。これには、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+
+<img class="responsive-img" src="../images/chip_idle.png" srcset="../images/chip_idle@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_hover.png" srcset="../images/chip_hover@2x.png 2x" />
 <img class="responsive-img" src="../images/chip_focus.png" srcset="../images/chip_focus@2x.png 2x" />
-`focus`
+<img class="responsive-img" src="../images/chip_selected.png" srcset="../images/chip_selected@2x.png 2x" />
 
-## Chip の選択
+Templated という名前のもう 1 つの状態があります。これは、[Grid Advanced Filter](grid-advanced-filter.md) インターフェイスで内部的に使用されます。
 
-Chip を選択すると、これを示す特別なチェック アイコンが左端に表示されます。`🔣 Selection Icon` オーバーライドは、この機能をトリガーする手段を提供します。
-
-<img class="responsive-img" src="../images/chip_idle_selected.png" srcset="../images/chip_idle_selected@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_templated.png" srcset="../images/chip_templated@2x.png 2x" />
 
 ## Chip の削除
 
-Chip を削除することが可能であると、これを示す特別なキャンセル アイコンが右端に表示されます。`🔣 Remove Icon` オーバーライドは、この機能をトリガーする手段を提供します。
+Chip を削除することが可能であると、これを示す特別なキャンセル アイコンが右端に表示されます。`🔣 Remove Icon` オーバーライドは、この機能を Sketch でトリガーする手段を提供します。Chip に適用されるスマート レイアウト ルールはレイアウトを調整します。
+
+Adobe XD では、`🔣 Remove Icon` レイヤーを表示する必要があり、Chip の Stack も同様にレイアウトを調整します。Chip を削除可能にしたくない場合は、`🔣 Remove Icon` レイヤーを削除します。
 
 <img class="responsive-img" src="../images/chip_idle_removable.png" srcset="../images/chip_idle_removable@2x.png 2x" />
-`idle and removable`
 
 ## Chip コンテンツ
 
-Chip は、prefix および suffix コンテナを介したコンテンツ テンプレートをサポートしており、Chip のメイン テキスト コンテンツの前後にアイコンとテキストを挿入できます。
+Chip は、prefix および suffix コンテナーを介したコンテンツ テンプレートをサポートしており、Chip のメイン ラベルの前後にアイコンとテキストを挿入できます。
+
+Sketch では、Overrides/Input/Prefix/Container および Overrides/Input/Suffix/Container でプレフィックスおよびサフィックス コンテナーを追加するか、~No Symbol に設定して削除できます。
+
+Adobe XD では、目的のレイヤーを表示し、不要な要素を削除する必要があります。プレフィックスまたはサフィックスを一度に削除するには、削除します。最終的に、使用されている Stack によってレイアウトが調整されます。
 
 <img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
 `Text`
@@ -66,7 +82,7 @@ Chip は、prefix および suffix コンテナを介したコンテンツ テ�
 
 ## Chip のスタイル設定
 
-Chip は、さまざまなオーバーライドで境界線と背景色、テキスト、Prefix、Suffix、選択、削除したアイコン色を制御することにより柔軟にスタイル設定できます。
+Chip は、境界線と背景色のさまざまなオプション、およびテキストと Prefix、Suffix、選択、および適用可能な場合はアイコンの色の削除を通じて柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/chip_styling.png" srcset="../images/chip_styling@2x.png 2x" />
 
@@ -74,20 +90,9 @@ Chip は、さまざまなオーバーライドで境界線と背景色、テキ
 
 Chips Area コンポーネントを使用して Chips のコレクションを体系化します。Chips Area は Ignite UI for Angular で使用されるコンテナ領域と同一でヘルプの [Ignite UI for Angular Chip コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/chip.html) トピックで説明します。
 
-### Chips Area のデモ
-
 <img class="responsive-img" src="../images/chips_area_demo.png" srcset="../images/chips_area_demo@2x.png 2x" />
 
-### Chips Area のタイプ
-
-Chips 領域には、次の 2 つの異なるタイプがあります: Chip コレクションが関連していない Chip、および Chip が事前定義された順序で表示される接続した Chip。
-
-<img class="responsive-img" src="../images/chips_area_standard.png" srcset="../images/chips_area_standard@2x.png 2x" />
-<img class="responsive-img" src="../images/chips_area_connected.png" srcset="../images/chips_area_connected@2x.png 2x" />
-
-### Chips Area のスタイル設定
-
-Chips Area は Chips の継承スタイルがサポートされますが、コネクター アイコンの色とグリフも変更できます。
+Chips Area は Chips の継承スタイルがサポートされます。
 
 <img class="responsive-img" src="../images/chips_area_styling.png" srcset="../images/chips_area_styling@2x.png 2x" />
 
@@ -95,16 +100,11 @@ Chips Area は Chips の継承スタイルがサポートされますが、コ�
 
 Chip を使用する場合、楕円はコンテンツに合わせて自動的にサイズを変更するため、それに応じてインスタンスのサイズを調整するだけで済みます。Chip を関連コンテンツのアクション トリガーとして使用する場合、アクションが 1 つのみまたは設定で選択オプションが 1 つのみの場合は使用しないでください。
 
-| 良い例                                                                         |悪い例                                                                          |
+| 良い例                                                                         | 悪い例                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| |
 | <img class="responsive-img" src="../images/chip_do1.png" srcset="../images/chip_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/chip_dont2.png" srcset="../images/chip_dont2@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/chip_do3.png" srcset="../images/chip_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/chip_dont3.png" srcset="../images/chip_dont3@2x.png 2x" /> |
-
-Chips Area を使用する場合は、上記の各 Chip コンポーネントの提案に従ってください。また、接続した Chips Area を使用する場合、各チップはアクションとして設定せずに、関連するエンティティ (人の順序付きリストなど) にする必要があります。
-
-| 良い例                                                                                     |悪い例                                                                                      |
-| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| <img class="responsive-img" src="../images/chips_area_do1.png" srcset="../images/chips_area_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/chips_area_dont1.png" srcset="../images/chips_area_dont1@2x.png 2x" /> |
 
 
 

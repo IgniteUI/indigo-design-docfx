@@ -11,8 +11,9 @@
     "_gitHubBtnLbl": "View page on ",
     "_themeUsage": false,
     "_demosBaseUrlVar": "{environment:demosBaseUrl}",
-    "_initialPage": "appbuilder/getting-started",
+    "_initialPage": "getting-started",
     "_toc-dir": "sidebar-toc",
     "_enableSearch": true,
-    "_useRedirects": true
+    "_useRedirects": true,
+    "_useWarningsAsErrors": true
 }

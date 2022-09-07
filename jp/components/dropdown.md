@@ -13,12 +13,13 @@ Dropdown コンポーネントでは、ユーザーがスクロール可能な�
 
 <img class="responsive-img" src="../images/dropdown_demo.png" srcset="../images/dropdown_demo@2x.png 2x" />
 
-## タイプ
+## 表示密度
 
-Dropdown は、デスクトップとモバイルで使用時に適切なサイズで提供されます。
+Dropdown には 3 つの表示密度の選択肢があります: comfortable、cosy および compact です。
 
-<img class="responsive-img" src="../images/dropdown_desktop.png" srcset="../images/dropdown_desktop@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_mobile.png" srcset="../images/dropdown_mobile@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_comfortable.png" srcset="../images/dropdown_comfortable@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_cosy.png" srcset="../images/dropdown_cosy@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_compact.png" srcset="../images/dropdown_compact@2x.png 2x" />
 
 ## 項目
 
@@ -29,7 +30,7 @@ Dropdown は、項目ヘッダーと項目の 2 つのタイプをサポート�
 
 ## 項目の状態
 
-Dropdown 項目は、5 つの状態をサポートします: Disabled, **Idle**、Focused、Selected、Selected&focused。
+Dropdown 項目は、5 つの状態をサポートします: Disabled、**Idle**、Focused、Selected、Selected&focused。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
@@ -39,14 +40,14 @@ Dropdown 項目は、5 つの状態をサポートします: Disabled, **Idle**�
 
 ## 項目レイアウト テンプレート
 
-Dropdown 項目は、オーバーライド パネルから非表示にする要素を ~No Symbol に設定することで、柔軟なアイコンとラベルのテンプレートをサポートします。デフォルトでは、この方法でアイコンは非表示になります。
+Dropdown Item は柔軟なアイコンとラベルのテンプレートをサポートします。Sketch でアイコンを表示するには、オーバーライドを Icon/Medium に設定し、スマート レイアウト ルールが項目レイアウトを自動的に調整します。Adobe XD では、アイコン レイヤーを表示し、Stack に配置してレイアウトを自動的に調整することで同じことが可能ですが、コンテンツにアイコンのある項目が必要ない場合は、アイコン レイヤーを削除します。
 
-<img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_label.png" srcset="../images/dropdown_item_label@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_icon.png" srcset="../images/dropdown_item_icon@2x.png 2x" /> 
 
 ## スタイル設定
 
-Dropdown は、背景色を制御するオーバーライドによるスタイル設定、項目やヘッダー背景、テキスト色を含む項目に関連するさなざまなオーバーライドに高い柔軟性があります。
+Dropdown には、背景色のスタイルの柔軟性に加えて、項目やヘッダーの背景色やテキストの色など、含まれる要素に関連するさまざまなオプションがあります。
 
 <img class="responsive-img" src="../images/dropdown_styling.png" srcset="../images/dropdown_styling@2x.png 2x" />
 
@@ -54,7 +55,7 @@ Dropdown は、背景色を制御するオーバーライドによるスタイ�
 
 Dropdown 使用時は、表示をトリガーする項目に従ってコンテンツの最上部に表示する必要があります。ドロップダウンは、展開パネルのようにコンテンツをプッシュしません。
 
-| 良い例                                                                                 |悪い例                                                                                  |
+| 良い例                                                                                 | 悪い例                                                                                  |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/dropdown_do1.png" srcset="../images/dropdown_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/dropdown_dont1.png" srcset="../images/dropdown_dont1@2x.png 2x" /> |
 
@@ -63,6 +64,7 @@ Dropdown 使用時は、表示をトリガーする項目に従ってコンテ�
 関連トピック:
 
 - [Combo](combo.md)
+- [Select](select.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

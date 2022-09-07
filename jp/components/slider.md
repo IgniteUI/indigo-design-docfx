@@ -27,21 +27,14 @@ Slider は、単一値の選択につまみと範囲を指定するための 2 �
 
 ## 状態
 
-Slider は、値の変更が可能かどうかを設定する**有効** / 無効の状態をサポートします。
+Slider は、値の変更が可能かどうかを設定する**有効**/無効の状態をサポートします。Sketch では、状態ごとに異なるシンボルがありますが、Adobe XD では、状態を簡単に切り替えることができるように `Component States` パラダイムを使用します。
 
 <img class="responsive-img" src="../images/slider_enabled.png" srcset="../images/slider_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/slider_disabled.png" srcset="../images/slider_disabled@2x.png 2x" />
 
-## テーマ
-
-Slider は、**ダーク** / ライト系のテーマで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
-
-<img class="responsive-img" src="../images/slider_dark.png" srcset="../images/slider_dark@2x.png 2x" />
-<img class="responsive-img" src="../images/slider_light.png" srcset="../images/slider_light@2x.png 2x" />
-
 ## スタイル設定
 
-Slider は、さまざまなオーバーライドでラベル背景、つまみ、トラック、ベース トラックの色を制御することにより柔軟にスタイル設定できます。
+Slider は、さまざまなオプションを通じてラベル背景、つまみ、トラック、ベース トラックの色を柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/slider_styling.png" srcset="../images/slider_styling@2x.png 2x" />
 

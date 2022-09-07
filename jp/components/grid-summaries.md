@@ -9,14 +9,13 @@ _language: ja
 
 Grid 集計のコンポーネントは、各グリッド列のすべてのデータで算出された集計値を示すために使用します。グリッドの下にある特定のセル集計を挿入して表領域をグリッド構造と一致させますが、含まれる Label と Number は集計値の情報を含みます。Grid 集計は、[Ignite UI for Angular Grid 集計機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/summaries.html)と視覚的に同じものです。
 
-
 ## Grid 集計のデモ
 
 <img class="responsive-img" src="../images/grid_summaries_demo.png" srcset="../images/grid_summaries_demo@2x.png 2x" />
 
 ## 状態
 
-Grid Summary Cell は、次のインタラクティブな状態をサポートします。**available** は Label および Number を示します。unavailable は、1 つの列に他の列より集計が少ない場合にギャップを埋めます。
+Grid Summary Cell は、次のインタラクティブな状態をサポートします。**available** は Label および Number を示します。unavailable は、1 つの列に他の列より集計が少ない場合にギャップを埋めます。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/grid_cell_summary_active.png" srcset="../images/grid_cell_summary_active@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_summary_unavailable.png" srcset="../images/grid_cell_summary_unavailable@2x.png 2x" />
@@ -30,7 +29,7 @@ Grid Summary Cell には一般的なタイプのプリセットが 2 タイプ�
 
 ## スタイル設定
 
-Grid Summary Cell は、さまざまなオーバーライドでラベル、数値テキスト色、セルの背景色を制御することにより柔軟にスタイル設定できます。
+Grid Summary Cell は、さまざまなオプションを通じてラベル、数値テキスト色、セルの背景色を柔軟にスタイル設定できます。
 
 <img class="responsive-img" src="../images/grid_summaries_styling.png" srcset="../images/grid_summaries_styling@2x.png 2x" />
 
@@ -42,5 +41,4 @@ Grid Summary Cell は、さまざまなオーバーライドでラベル、数�
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
 

@@ -19,23 +19,16 @@ Switch は、有効または無効の状態で挿入できます。
 
 <img class="responsive-img" src="../images/switch_enabled&disabled-state.png" srcset="../images/switch_enabled&disabled-state@2x.png 2x" />
 
-## テーマ
-
-Switch は、明暗バリアントで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
-
-<img class="responsive-img" src="../images/switch_dark.png" srcset="../images/switch_dark@2x.png 2x" />
-<img class="responsive-img" src="../images/switch_light.png" srcset="../images/switch_light@2x.png 2x" />
-
 ## レイアウト テンプレート
 
-Switch は、Switch ラベルが Switch 要素の前後に配置されるラベル位置をサポートします。
+Sketch で Switch は、Switch 要素の前後に Switch ラベルが配置されるラベル位置のバリアントをサポートします。Adobe XD では、Stacks を使用して、スイッチのビジュアルの左または右にドラッグするだけで、デザイン時にラベルとスイッチの位置を変更できるようにしています。
 
 <img class="responsive-img" src="../images/switch_label-before.png" srcset="../images/switch_label-before@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_label-after.png" srcset="../images/switch_label-after@2x.png 2x" />
 
 ## 状態
 
-Switch は**オン**とオフの選択状態を提供します。
+Switch は**オン**とオフの選択状態を提供します。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/switch_on.png" srcset="../images/switch_on@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_on_disabled.png" srcset="../images/switch_on_disabled@2x.png 2x" />
@@ -44,7 +37,7 @@ Switch は**オン**とオフの選択状態を提供します。
 
 ## スタイル設定
 
-Switch にはスタイルの柔軟性があり、つまみとトラックの色を制御し、ラベルのテキストの色を変更できます。トラックのアルファ値は、使用されている色に関係なく半透明の外観を実現するように固定されており、Indigo.Design ライブラリの 🧩 Components ページにある `Symbol Master` を介してのみグローバルに調整できます。
+Switch には、つまみとトラックの色の利用可能なオプション、およびラベルのテキストの色の変更によるスタイリングの柔軟性があります。トラックのアルファ値は、使用されている色に関係なく半透明の外観を実現するように固定されており、Indigo.Design ライブラリの 🧩 Components ページまたはアートボードにある `Symbol Master` を介してのみグローバルに調整できます。
 
 <img class="responsive-img" src="../images/switch_styling.png" srcset="../images/switch_styling@2x.png 2x" />
 
@@ -55,6 +48,8 @@ Switch つまみとトラックに同じまたは同様の色を使用します�
 | 良い例                                                                         | 悪い例                                                                             |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/switch_do3.png" srcset="../images/switch_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/switch_dont3.png" srcset="../images/switch_dont3@2x.png 2x" /> |
+
+
 
 ## その他のリソース
 

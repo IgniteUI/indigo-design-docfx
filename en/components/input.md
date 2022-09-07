@@ -33,13 +33,6 @@ Each of these presets can be inserted in an enabled or disabled state.
 <img class="responsive-img" src="../images/input_enabled.png" srcset="../images/input_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/input_disabled.png" srcset="../images/input_disabled@2x.png 2x" />
 
-## Variant
-
-The Input can be styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
-
-<img class="responsive-img" src="../images/input_dark.png" srcset="../images/input_dark@2x.png 2x" />
-<img class="responsive-img" src="../images/input_light.png" srcset="../images/input_light@2x.png 2x" />
-
 ## State
 
 When the user interacts with the Input, it goes through various states: **idle** with a placeholder in the place of the content, focused while the user is typing in it, and filled once the user has finished adding content and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
@@ -63,7 +56,7 @@ In Sketch, the states and validation states are achieved with `Symbol Overrides`
 
 ## Layout
 
-The Input has rich support for prefix and suffix through a combination of text and icons that can, in certain cases, reduce the input effort for the user: e.g. an @email.com suffix means both fewer keystrokes and more clarity of expected content. You can remove the prefix or suffix by setting the respective container to ~No Symbol from the overrides.
+The Input has rich support for prefix and suffix through a combination of text and icons that can, in certain cases, reduce the input effort for the user: e.g. an @email.com suffix means both fewer keystrokes and more clarity of expected content. In Sketch, to remove the prefix or suffix simply set their override to ~No Symbol, and the smart layout rules will adjust the input accordingly. In Adobe XD, the same can be achieved by deleting the unnecessary prefix or suffix layer and the Stack will take care to adjust the layout accordingly.
 
 <img class="responsive-img" src="../images/input_prefix.png" srcset="../images/input_prefix@2x.png 2x" />
 <img class="responsive-img" src="../images/input_suffix.png" srcset="../images/input_suffix@2x.png 2x" />
@@ -87,6 +80,8 @@ Use the box type of Input when placing forms on top of an image to improve reada
 
 Related topics:
 
+- [Combo](combo.md)
+- [Select](select.md)
 - [Form Pattern](../patterns/form.md)
 - [User Profile Pattern](../patterns/user-profile.md)
   <div class="divider--half"></div>

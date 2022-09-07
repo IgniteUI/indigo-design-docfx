@@ -38,13 +38,13 @@ Card には 4 つの異なる領域があります: 画像またはマップ メ
 
 ## ヘッダー
 
-Card ヘッダーは、Sketch の `Smart Layout` を使用して、Avatar Thumbnail、Title、Subtitle の要素を含むさまざまなレイアウトをサポートします。
+Card ヘッダーは、Avatar Thumbnail、Title、および Subtitle 要素を含むさまざまなレイアウトをサポートします。Sketch では、非表示にする要素を ~No Symbol に設定すると、スマート レイアウト ルールによってレイアウトが調整されます。Adobe XD では、Stack を使用することで、不要なレイヤーを削除するときに同じ結果を実現できます。
 
 <img class="responsive-img" src="../images/card_header.png" srcset="../images/card_header@2x.png 2x" />
 
 ## 操作
 
-Card 操作には、6 つの異なるレイアウトがあります: 2 つの Flat Button と 3 つの Icon を備えた **Button + Icon Actions**、その逆に配置された逆 Icon + Button Actions、それらの Justified~ バリアントおよび Justified Button Actions と Justified Icon Actions のみを備えたバリアントです。6 つはそれぞれ Sketch の `Smart Layout` として定義されており、要素を ~No Symbol に設定して要素を削除し、残りを自動的に目的のレイアウトに調整できます。
+Card 操作には、6 つの異なるレイアウトがあります: 2 つの Flat Button と 3 つの Icon を備えた **Button + Icon Actions**、その逆に配置された逆 Icon + Button Actions、それらの Justified~ バリアントおよび Justified Button Actions と Justified Icon Actions のみを備えたバリアントです。6 つはそれぞれ Sketch の Smart Layout でオーバーライドとして定義されており、要素を ~No Symbol に設定して要素を削除し、残りを自動的に目的のレイアウトに調整できます。Adobe XD でも同様の機能が利用でき、Stack を使用することでレイアウトが自動的に調整されるため、不要なレイヤーを削除することもできます。
 
 <img class="responsive-img" src="../images/card_actions_buttons_icons.png" srcset="../images/card_actions_buttons_icons@2x.png 2x" />
 
@@ -60,13 +60,13 @@ Card 操作には、6 つの異なるレイアウトがあります: 2 つの Fl
 
 ## Card レイアウト
 
-Sketch で `Smart Layout` を使用することにより、Card は、ある領域または別の領域内の特定の領域または要素を除外して、最初に同じコンポーネントで始まる無数の異なるバリエーションを作成することにより、さまざまなレイアウトを作成できます。
+Sketch のスマート レイアウトおよび Adobe XD の Stack を使用することにより、Card は特定の領域または要素を除外してさまざまなレイアウトを作成し、最初は同じコンポーネントに基づいてさまざまな異なるカードをサポートできます。
 
 <img class="responsive-img" src="../images/card_demo.png" srcset="../images/card_demo@2x.png 2x" />
 
 ## スタイル設定
 
-Card には、画像、ヘッダー、本文、テキスト、アイコン、ボタンの色などの操作領域の制御や Card の背景色の選択などスタイル設定に柔軟性があります。
+Card には、画像、ヘッダー、本文、およびテキスト スタイル、アイコン タイプ、色などの操作領域のオプションやボタン色および Card の背景色の選択などスタイル設定に柔軟性があります。
 
 <img class="responsive-img" src="../images/card_styling.png" srcset="../images/card_styling@2x.png 2x" />
 

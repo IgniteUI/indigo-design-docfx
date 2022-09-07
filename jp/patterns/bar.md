@@ -13,12 +13,6 @@ Bar パターンを使用して、製品バージョンの更新、新しいリ�
 
 Bar パターンには、ページの上部と下部に配置するための 2 つのバージョンがあります。
 
-
-> [!WARNING]
-> 利用可能な任意の Bar をパターンとして挿入後、Angular コードとして生成できるには、レイアウトを作成したコンポーネントに分割するために `Detach from Symbol` をトリガーします。ただし、ボタンをデタッチしないでください。
-
-<img class="responsive-img" src="../images/bar_detach.png" srcset="../images/bar_detach@2x.png 2x" />
-
 ## その他のリソース
 
 関連トピック:

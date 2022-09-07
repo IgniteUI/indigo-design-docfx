@@ -32,11 +32,6 @@ Badge は Avatar の 4 つ角のいずれかに配置できます。
 
 <img class="responsive-img" src="../images/avatar_badge_positions.png" srcset="../images/avatar_badge_positions@2x.png 2x" />
 
-> [!WARNING]
-> Avatar + Badge パターンを挿入した後、`Detach from Symbol` をトリガーします。Angular コードとして生成するには、パターンを作成したコンポーネントに分割します。ただし、Badge および Avatar をデタッチしないでください。
-
-<img class="responsive-img" src="../images/avatar_badge_detach.png" srcset="../images/avatar_badge_detach@2x.png 2x" />
-
 ## その他のリソース
 
 関連トピック:

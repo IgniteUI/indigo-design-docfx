@@ -13,15 +13,25 @@ Badge コンポーネント シンボルを使用して他のインターフェ�
 
 <img class="responsive-img" src="../images/badge_demo.png" srcset="../images/badge_demo@2x.png 2x" />
 
-## タイプ
+## コンテンツ
 
 Badge は、数字やアイコンなど、さまざまなタイプのコンテンツを使用できます。
 
 <img class="responsive-img" src="../images/badge_type.png" srcset="../images/badge_type@2x.png 2x" />
 
+## タイプ
+
+Badge は、以下のプリセット カラーの組み合わせのいずれかで使用することで、注意を引くことができます: **default**、info、success、warn および error です。
+
+<img class="responsive-img" src="../images/badge_default.png" srcset="../images/badge_default@2x.png 2x" />
+<img class="responsive-img" src="../images/badge_info.png" srcset="../images/badge_info@2x.png 2x" />
+<img class="responsive-img" src="../images/badge_success.png" srcset="../images/badge_success@2x.png 2x" />
+<img class="responsive-img" src="../images/badge_warn.png" srcset="../images/badge_warn@2x.png 2x" />
+<img class="responsive-img" src="../images/badge_error.png" srcset="../images/badge_error@2x.png 2x" />
+
 ## スタイル設定
 
-Badge は、さまざまなオーバーライドで背景色や境界線の色を制御することで柔軟にスタイル設定できます。適用可能な場合はアイコンの色、テキストのスタイル、基本のインターフェイス要素に影を落とすことも設定できます。
+Badge は、さまざまなオプションを通じて背景色や境界線の色を柔軟にスタイル設定できます。適用可能な場合はアイコンの色、テキストのスタイル、基本のインターフェイス要素に影を落とすことも設定できます。
 
 <img class="responsive-img" src="../images/badge_styling.png" srcset="../images/badge_styling@2x.png 2x" />
 
@@ -41,4 +51,3 @@ Badge を使用して Avatar やテキスト タイトルなどのその他の U
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-

@@ -12,12 +12,13 @@ Use the Dropdown Component to let the user select an item from a collection that
 
 <img class="responsive-img" src="../images/dropdown_demo.png" srcset="../images/dropdown_demo@2x.png 2x" />
 
-## Type
+## Display Density
 
-The Dropdown comes in the appropriate sizing for desktop and mobile usage.
+The Dropdown comes in three display density variants: comfortable, cosy, and compact.
 
-<img class="responsive-img" src="../images/dropdown_desktop.png" srcset="../images/dropdown_desktop@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_mobile.png" srcset="../images/dropdown_mobile@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_comfortable.png" srcset="../images/dropdown_comfortable@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_cosy.png" srcset="../images/dropdown_cosy@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_compact.png" srcset="../images/dropdown_compact@2x.png 2x" />
 
 ## Items
 
@@ -38,9 +39,9 @@ The Dropdown items support five different states: Disabled, **Idle**, Focused, S
 
 ## Item Layout Template
 
-The Dropdown Item supports flexible icon and label templating achievable by setting the elements you want to hide to ~No Symbol from the overrides panel. By default, the icon is hidden with this approach.
+The Dropdown Item supports flexible icon and label templating. In Sketch, to show the icon you have to set its override to Icon/Medium and the smart layout rules will adjust the item layout automatically. In Adobe XD, the same is possible by making the icon layer visible and leaving it to the Stack to adjust the layout automatically, however, if you don't need items with icons in the content, simply delete the icon layer.
 
-<img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_label.png" srcset="../images/dropdown_item_label@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_icon.png" srcset="../images/dropdown_item_icon@2x.png 2x" /> 
 
 ## Styling
@@ -62,6 +63,7 @@ When using the Dropdown you should always show it on top of the content that fol
 Related topics:
 
 - [Combo](combo.md)
+- [Select](select.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.

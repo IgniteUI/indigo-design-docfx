@@ -19,30 +19,22 @@ Checkbox は、有効または無効の状態で挿入できます。
 
 <img class="responsive-img" src="../images/checkbox_interaction_state.png" srcset="../images/checkbox_interaction_state@2x.png 2x" />
 
-## テーマ
-
-Checkbox は、**暗い**と明るいバリエーションで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
-
-<img class="responsive-img" src="../images/checkbox_dark.png" srcset="../images/checkbox_dark@2x.png 2x" />
-<img class="responsive-img" src="../images/checkbox_light.png" srcset="../images/checkbox_light@2x.png 2x" />
-
 ## レイアウト テンプレート
 
-Checkbox は、Checkbox ラベルが Checkbox のボックス要素の前後に配置されるラベル位置をサポートします。
-
+Sketch で Checkbox は、Checkbox 要素の前後に Checkbox ラベルが配置されるラベル位置のバリアントをサポートします。Adobe XD では、Stacks を使用して、チェックボックスのビジュアルの左または右にドラッグするだけで、デザイン時にラベルとチェックボックスの位置を変更できるようにしています。
 
 <img class="responsive-img" src="../images/checkbox_label_after.png" srcset="../images/checkbox_label_after@2x.png 2x" />
 <img class="responsive-img" src="../images/checkbox_label_before.png" srcset="../images/checkbox_label_before@2x.png 2x" />
 
 ## 状態
 
-Checkbox は、**オン**/オフと不確定状態があります。
+Checkbox は、**オン**/オフと不確定状態があります。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/checkbox_selection.png" srcset="../images/checkbox_selection@2x.png 2x" />
 
 ## スタイル設定
 
-Checkbox は、さまざまなオーバーライドでチェック、色の塗りつぶし、ラベル位置およびラベル色を制御することにより柔軟にスタイル設定できます。
+Checkbox には、チェックと塗りつぶしの色のさまざまなオプション、およびラベルの位置と色を設定するメカニズムによるスタイルの柔軟性があります。
 
 <img class="responsive-img" src="../images/checkbox_styling.png" srcset="../images/checkbox_styling@2x.png 2x" />
 

@@ -18,13 +18,6 @@ The Switch can be inserted in an enabled or disabled state.
 
 <img class="responsive-img" src="../images/switch_enabled&disabled-state.png" srcset="../images/switch_enabled&disabled-state@2x.png 2x" />
 
-## Theme
-
-The Switch can be used styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
-
-<img class="responsive-img" src="../images/switch_dark.png" srcset="../images/switch_dark@2x.png 2x" />
-<img class="responsive-img" src="../images/switch_light.png" srcset="../images/switch_light@2x.png 2x" />
-
 ## Layout Template
 
 In Sketch, the Switch supports label position variants where the Switch label is placed after or before the Switch element. In Adobe XD, we are using Stacks to allow you to change the label and switch positions at design time simply by dragging it to the left or right of the switch visual.
