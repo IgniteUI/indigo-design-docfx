@@ -60,8 +60,6 @@ Learn more:
 
 Once ready with the design of your application in Indigo.Design App Builder, you can easily generate Angular code from it. The generated code can be directly uploaded to a repository in GitHub or downloaded locally as a file package. The components used in the generated application are powered by[Ignite UI for Angular UI framework](https://www.infragistics.com/products/ignite-ui-angular)
 
-You can also generate code for Angular apps directly from published prototypes in Indigo.Design cloud. To do this, you will need a share URL for the prototype, and use the Indigo.Design code generator. The code generator is available as an extension for VS code, and it generate code using the [Ignite UI for Angular UI framework](https://www.infragistics.com/products/ignite-ui-angular).
-
 Learn more:
 
 - [Generating code from an application in Indigo.Design App Builder](https://www.infragistics.com/products/appbuilder/help/generate-app/generate-app-overview)
