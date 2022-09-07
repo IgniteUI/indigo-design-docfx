@@ -23,37 +23,35 @@ _language: ja
 
 ## 詳細手順
 
-### 1. Adobe XD に **Indigo.Design システム**を追加します。
+### 1. Adobe XD に **Indigo.Design システム**を使用します。
 
-1.  [**Indigo.Design システム**](https://cloud.indigo.design/home)をダウンロードします。
+1.  [**Indigo.Design システム**](https://shared-assets.adobe.com/link/c1a672c5-49e6-4df1-4d32-1c37fa234f1e) をライブラリに追加します。
 
-    これには、63 個のアートボードが 3 列に編成された Adobe XD ファイルが含まれています。
+    <div class="divider--half"></div>
+    <img class="responsive-img" src="images/Creating_An_Artboard_XD.png" srcset="images/Creating_An_Artboard_XD@2x.png 2x" />
+    <div class="divider--half"></div>
+    <div class="divider--half"></div>
+    <div class="divider--half"></div>
+    <div class="divider--half"></div>
+    <div class="divider--half"></div>
 
-    - 左側には、スタイリングに関連する 🎨 絵文字が前に付いた 5 つのアートボードがあります。アイコン、色、カラー パレット、タイポグラフィ、エレベーション、イラストレーションなどのアセットが含まれています。
+2.  新しいファイルを開き、Libraries パネルを切り替えます。次に、`DOCUMENT ASSETS` の隣にある戻る矢印をクリックし、`LIBRARIES` の下の **Indigo.Design** を選択します。以下のすべてのスタイルとコンポーネントが表示されます:
 
-    - その中には、🧩 絵文字が前に付いた 39 のアートボードがあり、デザインのアイデアをレイアウトするための 50 を超えるコンポーネントがあります。Adobe XD の `Components` として利用可能なさまざまなプリセットと、キャンバス内のレイヤー上にドラッグアンドドロップできるオーバーライドを使用して、たとえば、コンポーネントのバリアントを暗い色から明るい色に変更することで、Ignite UI for Angular と互換性のあるレイアウトを作成できます。さらに、Adobe XD でネイティブにサポートされている `Component States` と `Stacks` を使用することで、インタラクションの感覚を追加し、Ignite UI for Angular でも利用できるテンプレートの程度を実現できます。
+     - パレットと特別なカラーを含む `Colors`。
+     - 見出し、字幕、本文、その他のテキストのタイポグラフィを含む `Character Styles`。
+     - スタイルに関連して 🎨 絵文字を先頭に 4 つのグループを含む `Components` の後にそれぞれ独自のグループの多数のコンポーネントがあります。最後に重要なこととして、アプリのデザイン プロセスを合理化するために、コンポーネントから数百のパターンが配置された、🌆 絵文字が前に付いたいくつかのグループがあります。
 
-    - 右側には、🌆 絵文字が前に付いた 19 個のアートボードがあり、アプリのデザイン プロセスを効率化するために、コンポーネントから数百のパターンがレイアウトされています。
+    <div class="divider--half"></div>
+    <img class="responsive-img" src="images/Creating_An_Artboard_XD2.png" srcset="images/Creating_An_Artboard_XD2@2x.png 2x" />
+    <div class="divider--half"></div>
+    <div class="divider--half"></div>
+    <div class="divider--half"></div>
+    <div class="divider--half"></div>
+    <div class="divider--half"></div>
 
-2.  [Libraries] パネルを切り替えると、上記で概説したすべてのスタイルとコンポーネントが `Document Assets` として表示されます。
+    Adobe XD でスタイルとコンポーネントを初めて使用する場合は、アプリケーションの左下にあるアイコン メニューから `Libraries` と `Layers` を切り替えることができます。
 
-<div class="divider--half"></div>
-<img class="responsive-img" src="images/Creating_An_Artboard_XD2.png" srcset="images/Creating_An_Artboard_XD2@2x.png 2x" />
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-
-Adobe XD でスタイルとコンポーネントを初めて使用する場合は、アプリケーションの左下にあるアイコン メニューから `Libraries` と `Layers` を切り替えることができます。
-
-<img class="responsive-img" src="images/Creating_An_Artboard_XD1.png" srcset="images/Creating_An_Artboard_XD1@2x.png 2x" />
-
-3.  `Document Assets` のタイトルの右側に、`Publish as a Library` ダイアログに移動するアップロードのようなアイコンが表示されます。
-
-<img class="responsive-img" src="images/Creating_An_Artboard_XD3.png" srcset="images/Creating_An_Artboard_XD3@2x.png 2x" />
-
-4.  `Current File` の下に Indigo.Design が表示され、右側の **[Publish]** ボタンをクリックするだけです。準備したすべての良いもののためにこのプロセスが完了するまでにはしばらく時間がかかりますが、待つことには価値があります。
+    <img class="responsive-img" src="images/Creating_An_Artboard_XD1.png" srcset="images/Creating_An_Artboard_XD1@2x.png 2x" />
 
 ### 2．アートボードを作成します。
 
@@ -168,7 +166,7 @@ Adobe XD を開き、iPhone 12 Pro Max を選択します。これにより、�
 
 7.  **サインアップ ボタンを追加します。**
 
-    1.  左側のパネルを `Libraries` に変更し、Raised Button を探します。
+    1.  左側のパネルを `Libraries` に変更し、Contained Button を探します。
     2.  入力の下にドラッグし、接頭辞が _Overrides のコンポーネントではなく、正しいコンポーネントを選択していることを確認し、それを全幅に伸ばして、左、右、および上の入力から 16px を残します。
     3.  `Layers` に戻り、コンポーネントを展開し、アイコンを削除して、ラベルを「SIGN UP」に設定します。
     4.  [Label] をラップしている [Group] を選択し、Button の中央に配置します。

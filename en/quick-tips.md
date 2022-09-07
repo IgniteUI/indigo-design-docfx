@@ -44,7 +44,7 @@ Create interactive prototypes with Indigo.Design and perform remote user testing
 <img class="responsive-img" src="images/tips4.png" srcset="images/tips4@2x.png 2x" />
 <div class="divider--half"></div>
 ### Publish your designs as a web app.
-Use the “Create app” option in your plugin to translate all the UI kit components in your design into code components, and publish your app. Continue to extend the app using our web-based WYSIWYG App Builder and your development team will be able to generate enterprise-ready Angular code. [Read more...](appbuilder/app-builder-overview.md)
+Use the “Create app” option in your plugin to translate all the UI kit components in your design into code components, and publish your app. Continue to extend the app using our web-based WYSIWYG App Builder and your development team will be able to generate enterprise-ready Angular code. [Read more...](https://www.infragistics.com/products/appbuilder/docs/app-builder-overview)
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -54,7 +54,7 @@ Use the “Create app” option in your plugin to translate all the UI kit compo
 <img class="responsive-img" src="images/tips5.png" srcset="images/tips5@2x.png 2x" />
 <div class="divider--half"></div>
 ### Got an external data source?
-Indigo.Design App Builder arrives with data source options that let you connect to any REST data source or upload a JSON file. Just go and connect it in the Data Source panel. [Read more...](appbuilder/using-data-in-your-app.md)
+Indigo.Design App Builder arrives with data source options that let you connect to any REST data source or upload a JSON file. Just go and connect it in the Data Source panel. [Read more...](https://www.infragistics.com/products/appbuilder/docs/using-data-in-your-app)
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -74,7 +74,7 @@ Start with a pre-made Sketch/XD file or download our application samples and mak
 <img class="responsive-img" src="images/tips7.png" srcset="images/tips7@2x.png 2x" />
 <div class="divider--half"></div>
 ### Do you know that Indigo.Design App Builder uses Flexbox?
-We offer Flex as one of the approaches to create layouts for your web app. It is available as a row or column layout component in the toolbox. Cross-browser compatibility and app adaptability to any screen size is guaranteed. [Read more...](appbuilder/flex-layouts/flex-layouts.md)
+We offer Flex as one of the approaches to create layouts for your web app. It is available as a row or column layout component in the toolbox. Cross-browser compatibility and app adaptability to any screen size is guaranteed. [Read more...](https://www.infragistics.com/products/appbuilder/docs/flex-layouts/flex-layouts)
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>

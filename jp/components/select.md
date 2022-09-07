@@ -33,13 +33,6 @@ Select は、現在の選択を含む入力と、項目を選択できるよう�
 <img class="responsive-img" src="../images/select_enabledstate.png" srcset="../images/select_enabledstate@2x.png 2x" />
 <img class="responsive-img" src="../images/select_disabledstate.png" srcset="../images/select_disabledstate@2x.png 2x" />
 
-## 入力バリアント
-
-Select 入力は、明暗バリアントで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます (デフォルト設定は**暗い**です)。
-
-<img class="responsive-img" src="../images/select_dark.png" srcset="../images/select_dark@2x.png 2x" />
-<img class="responsive-img" src="../images/select_light.png" srcset="../images/select_light@2x.png 2x" />
-
 ## 状態
 
 ユーザーが Select を操作すると、その入力はさまざまな選択状態になります。コンテンツの代わりにプレースホルダーを使用して **idle** 状態になり、ドロップダウンが開いているときの focused 状態、ユーザーが選択を終了して次に進むときの filled 状態です。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。

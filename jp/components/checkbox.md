@@ -19,13 +19,6 @@ Checkbox は、有効または無効の状態で挿入できます。
 
 <img class="responsive-img" src="../images/checkbox_interaction_state.png" srcset="../images/checkbox_interaction_state@2x.png 2x" />
 
-## テーマ
-
-Checkbox は、**暗い**と明るいバリエーションで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
-
-<img class="responsive-img" src="../images/checkbox_dark.png" srcset="../images/checkbox_dark@2x.png 2x" />
-<img class="responsive-img" src="../images/checkbox_light.png" srcset="../images/checkbox_light@2x.png 2x" />
-
 ## レイアウト テンプレート
 
 Sketch で Checkbox は、Checkbox 要素の前後に Checkbox ラベルが配置されるラベル位置のバリアントをサポートします。Adobe XD では、Stacks を使用して、チェックボックスのビジュアルの左または右にドラッグするだけで、デザイン時にラベルとチェックボックスの位置を変更できるようにしています。

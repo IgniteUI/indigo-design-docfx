@@ -6,82 +6,7 @@
   href: ../video-tutorials.md
 - name: クイック ヒント
   href: ../quick-tips.md
-
-- name: App Builder の概要
-  href: ../appbuilder/app-builder-overview.md
-  header: true
-- name: はじめに
-  href: ../appbuilder/getting-started.md
   new: true
-- name: インターフェイスの概要
-  href: ../appbuilder/interface-overview.md
-  new: true
-- name: Flex レイアウト
-  href: ../appbuilder/flex-layouts/flex-layouts.md
-  # items:
-  #   - name: 行と列のレイアウト
-  #     href: ../appbuilder/flex-layouts/row-and-column-layout.md
-  #   - name: Fluid resizing & wrapping
-  #     href: ../appbuilder/flex-layouts/fluid-resizing-and-wrapping.md
-  #   - name: Add to layout via context menu
-  #     href: ../appbuilder/flex-layouts/add-to-layout-via-context-menu.md
-  #   - name: その他のリソース to learn about web-layouts
-  #     href: ../appbuilder/flex-layouts/additional-resources-to-learn-about-web-layouts.md
-- name: UI コンポーネント
-  href: ../appbuilder/indigo-design-app-builder-components.md
-  # items:
-  #   - name: Quick add components
-  #     href: ../appbuilder/indigo-design-components/quick-add-components.md
-  #   - name: Configuring components
-  #     href: ../appbuilder/indigo-design-components/configuring-components.md
-  
-- name: インタラクション
-  href: ../appbuilder/interactions.md
-  # items:
-  #   - name: Quick add components
-  #     href: ../appbuilder/indigo-design-components/quick-add-components.md
-  #   - name: Configuring components
-  #     href: ../appbuilder/indigo-design-components/configuring-components.md
-
-- name: アプリでデータを使用する
-  href: ../appbuilder/using-data-in-your-app.md
-
-- name: テーマ
-  href: ../appbuilder/app-themes/app-themes.md
-  # items:
-  #   - name: Switching app themes
-  #     href: ../appbuilder/app-themes/switching-app-themes.md
-  #   - name: Material vs. Fluent vs Bootstrap 
-  #     href: ../appbuilder/app-themes/material-vs-fluent-vs-bootstrap.md
-  #   - name: Customize & apply theme 
-  #     href: ../appbuilder/app-themes/customize-and-apply-theme.md
-- name: 単一ページアプリとナビゲーション
-  href: ../appbuilder/single-page-apps-and-navigation.md
-  # items:
-  #   - name: Master view vs. Child views
-  #     href: ../appbuilder/spa-and-navigation/master-view-vs-child-views.md
-  #   - name: Add navigations (routing)
-  #     href: ../appbuilder/spa-and-navigation/add-navigations-routing.md
-- name: コードのプレビュー
-  href: ../appbuilder/preview-code.md
-  # items:
-  #   - name: Preview code
-  #     href: ../appbuilder/preview-code-and-genrate-app/preview-code.md
-  #   - name: Compile and Run the app
-  #     href: ../appbuilder/preview-code-and-genrate-app/compile-and-run-the-app.md
-- name: アプリの生成
-  href: ../appbuilder/generate-app/generate-app-overview.md
-  new: true
-  items:
-    - name: アプリケーションを Github にアップロード
-      href: ../appbuilder/generate-app/upload-application-to-github.md
-    - name: アプリケーションをローカルで実行
-      href: ../appbuilder/generate-app/run-application-locally.md
-
-- name: 変更ログ
-  href: ../appbuilder/change-log.md
-  new: true
-
 - name: デザイン システムの使用
   header: true
 - name: Sketch でアートボードを作成
@@ -89,7 +14,7 @@
 - name: Adobe XD でアートボードを作成
   href: ../creating-artboard-adobexd.md
   new: true
-- name: 同期とテーマ プラグイン
+- name: プラグイン
   href: ../sync-themes-plugin.md
 - name: スタイル設定
   href: ../style/styling-overview.md
@@ -309,7 +234,7 @@
     - name: Onboarding
       href: ../patterns/onboarding.md
     - name: Pricing Table
-      href: ../patterns/pricing-plan.md
+      href: ../patterns/pricing-table.md
     - name: Scheduler
       href: ../patterns/scheduler.md
     - name: Social Feed
@@ -320,8 +245,11 @@
       href: ../patterns/tree-grid.md
     - name: User Profile
       href: ../patterns/user-profile.md
-- name: レスポンシブ レイアウト
-  href: ../best-layout-practices.md
+- name: Sketch のレスポンシブ レイアウト
+  href: ../best-layout-practices-sketch.md
+- name: Adobe XD のレスポンシブ レイアウト
+  href: ../best-layout-practices-xd.md
+  new: true
 
 - name: プロトタイプとユーザビリティ テスト
   header: true
@@ -340,12 +268,6 @@
 
 - name: コード生成
   header: true
-- name: VS Code 拡張機能のインストール
-  href: ../codegen/installing-vs-code-extension.md
-- name: コード ジェネレーター プラグインの使用
-  href: ../codegen/vscode-plugin.md
-- name: コード生成後の手順
-  href: ../codegen/after-codegen.md
 - name: レイアウトの生成
   href: ../codegen/layout-codegen.md
 

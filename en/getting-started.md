@@ -24,9 +24,13 @@ Indigo.Design offers three key capabilities to support the design to development
 
 ### 1. Indigo.Design System
 
-The design system is a library for Sketch and Adobe XD that contains various assets, styles, components, and patterns. Тhe UI components allow you to create intricate user interfaces providing you with the flexibility to use various states and templates. To customize their appearance you may leverage the pre-made palettes, typographies, shadows, icons, and illustrations. And finally, with the provided collection of patterns, such as product details layouts, various forms, and pricing tables among others, you are able to streamline app design assuring the application of best practices in UI and interaction design.
+The design system is a set of libraries for Sketch and Adobe XD, containing various assets, styles, components, and patterns. Тhe UI components allow you to create intricate user interfaces providing you with the flexibility to use various states and templates. To customize their appearance you may leverage the pre-made palettes, typographies, shadows, icons, and illustrations. And finally, with the provided collection of patterns, such as product details layouts, various forms, and pricing tables among others, you are able to streamline app design assuring the application of best practices in UI and interaction design.
 
-Learn more:
+Indigo.Design for Sketch now offers not one but four library files to its users: one for each of the design languages we support - Material, Bootstrap, Fluent UI, and our very own Indigo. All four libraries support seamless switching between light and dark mode via the [Indigo.Design plugin](sync-themes-plugin.md) and work with any of the predefined or custom color palettes it provides. With this improvement, Sketch users are able to enjoy 100% native look and feel of their components and patterns for the design language of their choice.
+
+<img class="responsive-img" src="./images/four-themes.png" />
+
+If you are brand new to Indigo.Design learn more about how to create your first artboard with it:
 * [Create your first Sketch artboard](creating-artboard-sketch.md)
 * [Create your first Adobe XD artboard](creating-artboard-adobexd.md)
 
@@ -49,7 +53,7 @@ Learn more:
 The App Builder module lets you design a single page application using a design file (Sketch or Adobe XD) as a starting point or create it from skratch. The App Builder includes a set of major features, enabling users to use real UI components, global themeing, external data sources.
 
 Learn more:
-[Build an application in the App Builder](appbuilder/app-builder-overview.md)
+[Build an application in the App Builder](https://www.infragistics.com/products/appbuilder/docs/app-builder-overview)
 
 
 ### 4. Generate Code for Angular Apps
@@ -60,5 +64,4 @@ You can also generate code for Angular apps directly from published prototypes i
 
 Learn more:
 
-[Generating code from an application in Indigo.Design App Builder](appbuilder/generate-app/generate-app-overview.md)
-[Generating code from prototypes](codegen/installing-vs-code-extension.md)
+- [Generating code from an application in Indigo.Design App Builder](https://www.infragistics.com/products/appbuilder/help/generate-app/generate-app-overview)

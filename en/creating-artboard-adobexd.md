@@ -22,37 +22,35 @@ If the [Titillium Web Font][1] isn't installed on your computer, please do it be
 
 ## Step by step
 
-### 1. Add the **Indigo.Design System** in Adobe XD.
+### 1. Use the **Indigo.Design System** in Adobe XD.
 
-1.  Download the [**Indigo.Design System**](https://cloud.indigo.design/home).
+1.  Аdd the [**Indigo.Design System**](https://shared-assets.adobe.com/link/c1a672c5-49e6-4df1-4d32-1c37fa234f1e) to your libraries.
 
-    It contains an Adobe XD file with 63 Artboards organized in three columns:
+    <div class="divider--half"></div>
+    <img class="responsive-img" src="images/Creating_An_Artboard_XD.png" srcset="images/Creating_An_Artboard_XD@2x.png 2x" />
+    <div class="divider--half"></div>
+    <div class="divider--half"></div>
+    <div class="divider--half"></div>
+    <div class="divider--half"></div>
+    <div class="divider--half"></div>
 
-    - To the left you will find 5 artboards, prefixed with a 🎨 emoji, related to styling. They contain assets such as icons, colors and color palettes, typographies, elevations, and illustrations.
+2.  Open a new file and toggle the Libraries panel. Now click on the back arrow next to `DOCUMENT ASSETS` and select **Indigo.Design** under `LIBRARIES`. You should be able to see all the styles and components among which are:
 
-    - In the middle you will find 39 artboards, prefixed with a 🧩 emoji, with more than 50 components to layout your design ideas. Through various presets available as `Components` in Adobe XD and overrides that you can drag and drop over layers in your canvas, e.g. to change the variant of a component from dark to light, you can create layouts compatible with Ignite UI for Angular. Furthermore, through the use of `Component States` and `Stacks` natively supported in Adobe XD you can add a sense of interaction and achieve the degree of templating also available in Ignite UI for Angular.
+     - `Colors` containing palettes and special colors.
+     - `Character Styles` containing typographies for headings, subtitles, body and other texts.
+     - `Components` containing 4 groups prefixed with a 🎨 emoji, related to styling, followed by numerous components each in its own group, and last but not least you will find a few groups prefixed with a 🌆 emoji, with a couple of hundred patterns laid out from the components to streamline your app design process.
 
-    - To the right you will find 19 artboards, prefixed with a 🌆 emoji, with a couple of hundred patterns laid out from the components to streamline your app design process.
+    <div class="divider--half"></div>
+    <img class="responsive-img" src="images/Creating_An_Artboard_XD2.png" srcset="images/Creating_An_Artboard_XD2@2x.png 2x" />
+    <div class="divider--half"></div>
+    <div class="divider--half"></div>
+    <div class="divider--half"></div>
+    <div class="divider--half"></div>
+    <div class="divider--half"></div>
 
-2.  Upon toggling the Libraries panel you will notice that all the styles and components outlined above will appear as `Document Assets`.
+    If this is the first time you are using styles and components in Adobe XD, you can switch between `Libraries` and `Layers` from the icon menu at the bottom left of the application.
 
-<div class="divider--half"></div>
-<img class="responsive-img" src="images/Creating_An_Artboard_XD2.png" srcset="images/Creating_An_Artboard_XD2@2x.png 2x" />
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-
-If this is the first time you are using styles and components in Adobe XD, you can switch between `Libraries` and `Layers` from the icon menu at the bottom left of the application.
-
-<img class="responsive-img" src="images/Creating_An_Artboard_XD1.png" srcset="images/Creating_An_Artboard_XD1@2x.png 2x" />
-
-3.  To the right of the `Document Assets` title you will notice an upload-like icon that takes you to the `Publish as a Library` dialog.
-
-<img class="responsive-img" src="images/Creating_An_Artboard_XD3.png" srcset="images/Creating_An_Artboard_XD3@2x.png 2x" />
-
-4.  Under `Current File` you will see Indigo.Design and all you need to do is click on the **Publish** button to the right. It takes a while for this process to complete for all the goodies we have prepared for you, but the wait will be totally worth it.
+    <img class="responsive-img" src="images/Creating_An_Artboard_XD1.png" srcset="images/Creating_An_Artboard_XD1@2x.png 2x" />
 
 ### 2. Create an artboard.
 

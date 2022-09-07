@@ -35,13 +35,6 @@ Combo Input は線タイプ (エアリー スタイル)、境界線タイプ (�
 <img class="responsive-img" src="../images/combo_enabledstate.png" srcset="../images/combo_enabledstate@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_disabledstate.png" srcset="../images/combo_disabledstate@2x.png 2x" />
 
-## Input バリアント
-
-Combo Input は、明暗バリアントで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
-
-<img class="responsive-img" src="../images/combo_demo.png" srcset="../images/combo_demo@2x.png 2x" />
-<img class="responsive-img" src="../images/combo_light.png" srcset="../images/combo_light@2x.png 2x" />
-
 ## 状態
 
 ユーザーが Combo とインタラクティブに操作する際に入力はさまざまな選択状態を経由します。コンテンツの代わりにプレースホルダーがある **idle (アイドル状態)**、ドロップダウンが開いているときの focused (フォーカス状態)、ユーザーが選択を完了して次に進むときの filled (塗りつぶし状態)。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
@@ -75,7 +68,7 @@ Combo に使用される Dropdown は、標準 [Dropdown](dropdown.md) コンポ
 
 ## Dropdown Search Input (検索入力)
 
-Dropdown には、暗いバリエーションと明るいバリエーションが付属する Search Input、状態の選択、および標準の [Input](input.md) と同様のレイアウトのオプションが含まれています。
+Dropdown には、標準の [Input](input.md) と同様に、状態の選択とレイアウトのオプションが付属する Search Input が含まれています。
 
 ## Dropdown Items (項目)
 

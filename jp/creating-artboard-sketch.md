@@ -174,7 +174,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 
 7.  **サインアップ ボタンを追加します。**
 
-    1.  `Insert` メニューから Symbols / Indigo.Design / Button / Raised / Enabled を選択します。
+    1.  `Insert` メニューから Symbols / Indigo.Design / Button / Contained / Enabled を選択します。
     2.  入力の下に配置し、上の入力から左右に 16px スペースを設定して全幅に引き伸ばします。
     3.  [Overrides] セクションで [Before Icon] と [After Icon] を ~No Symbol に設定します。
     4.  [Text] を「SIGN UP」に設定し、[Style] を ~White に更新します。

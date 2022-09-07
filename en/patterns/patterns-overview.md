@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Patterns Overview
 
-The **Indigo.Design System** boosts your productivity with 180+ UI Patterns assembled from Indigo.Design Components. They are enhanced with the same responsive web design behavior and theming capabilities. The UI Patterns can be found spread across separate pages of the Sketch library, while in the Adobe XD library they can be found in the right column of the library file:
+The **Indigo.Design System** boosts your productivity with 180+ UI Patterns assembled from Indigo.Design Components. They are enhanced with the same responsive web design behavior and theming capabilities. The UI Patterns can be found spread across separate pages of the library in Sketch, while in Adobe XD they are arranged as a column at the right end of the library file:
 
 - 🌆 AV Player
 - 🌆 Avatar + Badge

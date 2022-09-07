@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Styling Overview
 
-The **Indigo.Design System** provides elaborate means for styling all 60+ UI components that also map to Ignite UI for Angular controls. The theming engine in our Angular product allows for creating custom color themes that can restyle the whole product in just a few lines of code in a similar fashion. The [**Indigo.Design App Builder**](../appbuilder/app-builder-overview.md) also implements these theming mechanisms to let users change the complete look of their apps with just a few clicks.
+The **Indigo.Design System** provides elaborate means for styling all 60+ UI components that also map to Ignite UI for Angular controls. The theming engine in our Angular product allows for creating custom color themes that can restyle the whole product in just a few lines of code in a similar fashion. The [**App Builder**](https://www.infragistics.com/products/appbuilder/docs/app-builder-overview) also implements these theming mechanisms to let users change the complete look of their apps with just a few clicks.
 
 <img class="responsive-img" src="../images/theme_overview_default.png" />
 
@@ -16,7 +16,7 @@ The **Indigo.Design System** provides elaborate means for styling all 60+ UI com
 
 ## Styling in Sketch
 
-The Sketch library has a few pages prefixed with a 🎨 emoji that provide assets and a powerful styling infrastructure upon which the rest of the library is built:
+Each of the four Sketch libraries, `Indigo.Design for Material`, `Indigo.Design for Bootstrap`, `Indigo.Design for Fluent`, and `Indigo.Design for Indigo Theme`, has the same structure of pages prefixed with a 🎨 emoji that provide assets and a powerful styling infrastructure upon which the rest of the library is built. So after you pick your variant based on the design language you prefer, head to the following pages to further customize the appearance of your library:
 
 - 🎨 Material Icons
 - 🎨 Colors
