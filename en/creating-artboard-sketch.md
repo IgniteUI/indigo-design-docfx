@@ -174,7 +174,7 @@ These are the steps to recreate the screen in the example.
 
 7.  **Add the sign up button.**
 
-    1.  From the `Insert` menu, select Symbols / Indigo.Design / Button / Raised / Enabled.
+    1.  From the `Insert` menu, select Symbols / Indigo.Design / Button / Contained / Enabled.
     2.  Place it below the inputs, stretch it across the full width leaving 16px on the left, right, and from the inputs above.
     3.  In the Overrides section, set the Before Icon and the After Icon to ~No Symbol.
     4. Set the Text to "SIGN UP" and update its Style to ~White.
