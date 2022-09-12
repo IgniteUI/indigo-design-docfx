@@ -16,7 +16,7 @@ Indigo.Design は、ビジュアル デザイン、UX プロトタイプ、コ�
 
 Indigo.Design はデザインから開発までのワークフローをサポートする 3 つの機能を提供します。
 
-<img class="responsive-img" src="../images/indigo_design_how_it_works.png" srcset="../images/indigo_design_how_it_works@2x.png 2x" />
+<img class="responsive-img" src="images/indigo_design_how_it_works.png" srcset="images/indigo_design_how_it_works@2x.png 2x" />
 
 1.  Sketch または Adobe XD で `Indigo.Design システム` を使用してデザインを作成
 2.  プロトタイプを共有し、`cloud.indigo.design` でユーザーとテストしてコラボレーション
@@ -25,9 +25,12 @@ Indigo.Design はデザインから開発までのワークフローをサポー
 
 ### 1. Indigo.Design システム
 
-デザイン システムは、さまざまなアセット、スタイル、コンポーネント、およびパターンを含む Sketch および Adobe XD 用のライブラリです。UI コンポーネントを使用すると、複雑なユーザー インターフェイスを作成して、さまざまな状態やテンプレートを柔軟に使用できます。それらの外観をカスタマイズするには、事前に作成されたパレット、タイポグラフィ、シャドウ、アイコン、およびイラストを活用できます。そして最後に、製品の詳細レイアウト、さまざまなフォーム、価格表などの提供されたパターンのコレクションを使用して、アプリのデザインを効率化し、UI とインタラクション デザインのベスト プラクティスの適用を保証できます。
+デザイン システムは Sketch および Adobe XD のライブラリ セットで、さまざまなアセット、スタイル、コンポーネント、パターンが含まれています。UI コンポーネントを使用すると、複雑なユーザー インターフェイスを作成して、さまざまな状態やテンプレートを柔軟に使用できます。それらの外観をカスタマイズするには、事前に作成されたパレット、タイポグラフィ、シャドウ、アイコン、およびイラストを活用できます。そして最後に、製品の詳細レイアウト、さまざまなフォーム、価格表などの提供されたパターンのコレクションを使用して、アプリのデザインを効率化し、UI とインタラクション デザインのベスト プラクティスの適用を保証できます。
+Indigo.Design for Sketch は、サポートするデザイン言語 (Material、Bootstrap、Fluent UI、および Indigo) ごとのライブラリ ファイルを提供するようになりました。4つ のライブラリはすべて、[Indigo.Design プラグイン](sync-themes-plugin.md)を介してライトとダーク モードのシームレスな切り替えをサポートし、定義済みまたはカスタムのカラー パレットで動作します。この改善により、Sketch ユーザーはコンポーネントおよびパターンのネイティブなルックアンドフィールを選択したデザイン言語で使用できます。
 
-関連トピック:
+<img class="responsive-img" src="./images/four-themes.png" />
+
+Indigo.Design を初めて使用する場合は、最初のアートボードを作成する方法を参照してください。
 * [はじめての Sketch アートボードの作成](creating-artboard-sketch.md)
 * [はじめての Adobe XD アートボードの作成](creating-artboard-adobexd.md)
 
@@ -50,7 +53,7 @@ Indigo.Design はデザインから開発までのワークフローをサポー
 App Builder モジュールを使用すると、デザイン ファイル (Sketch または Adobe XD) を使用してシングル ページ アプリケーションをデザインしたり、最初から作成したりできます。App Builder には一連の主要な機能が含まれており、ユーザーは実際の UI コンポーネント、グローバル テーマ、外部データ ソースを使用できます。
 
 関連トピック:
-[App Builder でアプリケーションを作成](https://www.jp.infragistics.com/products/appbuilder/docs/app-builder-overview)
+[App Builder でアプリケーションを作成](https://jp.infragistics.com/products/appbuilder/help/app-builder-overview)
 
 
 ### 4. Angular アプリケーションのコードを生成
@@ -61,5 +64,4 @@ Indigo.Design クラウドで公開されたプロトタイプから直接 Angul
 
 関連トピック:
 
-[Indigo.Design App Builder のアプリケーションからコードを生成](https://www.jp.infragistics.com/products/appbuilder/docs/generate-app/generate-app-overview)
-[プロトタイプからコードを生成](codegen/installing-vs-code-extension.md)
+- [Indigo.Design App Builder のアプリケーションからコードを生成](https://jp.infragistics.com/products/appbuilder/help/generate-app/generate-app-overview)

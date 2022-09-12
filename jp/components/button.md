@@ -17,7 +17,7 @@ Button コンポーネント シンボルは、シンプルなユーザー操作
 
 5 つの Button タイプがあります。
 
-- 塗りつぶしや影付きの Raised Button は、操作を強調します。
+- 塗りつぶしや影付きの Contained Button は、操作を強調します。
 - アウトライン付きの Outlined Button は、ほとんどのアクションに適しています。
 - Flat Button は、通常あまり重要でない操作に使用します。
 - Icon Button は、操作をアイコンでのみ表されます。
@@ -39,7 +39,7 @@ Button コンポーネント シンボルは、シンプルなユーザー操作
 
 ## レイアウト テンプレート
 
-Raised、Outlined、Flat、および Floating Action ボタンは、柔軟なアイコンおよびラベルのテンプレートをサポートします。Sketch では、スマート レイアウト ルールが適用されるため、非表示にする要素を ~No Symbol に設定すると、レイアウトを調整できます。Adobe XD では、代わりに未使用レイヤーを削除します。ただし、デザイン時にラベルとアイコンの位置のみを変更する場合は、一方を他方の側にドラッグできます。
+Contained、Outlined、Flat、および Floating Action ボタンは、柔軟なアイコンおよびラベルのテンプレートをサポートします。Sketch では、スマート レイアウト ルールが適用されるため、非表示にする要素を ~No Symbol に設定すると、レイアウトを調整できます。Adobe XD では、代わりに未使用レイヤーを削除します。ただし、デザイン時にラベルとアイコンの位置のみを変更する場合は、一方を他方の側にドラッグできます。
 
 <img class="responsive-img" src="../images/button_templates.png" srcset="../images/button_templates@2x.png 2x" />
 

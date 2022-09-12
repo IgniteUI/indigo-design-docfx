@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Time Picker
 
-Use the Time Picker Component to represent a date's time portion (hours and minutes) visually and provide appropriate means for its display in forms and selection from a drop-down or dialog. The Time Picker is visually identical to the [Ignite UI for Angular Time Picker Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/time_picker.html)
+Use the Time Picker Component to represent a date's time portion (hour, minutes, and seconds) visually and provide appropriate means for its display in forms and selection from a drop-down or dialog. The Time Picker is visually identical to the [Ignite UI for Angular Time Picker Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/time_picker.html)
 
 ## Time Picker Demo
 
@@ -30,7 +30,7 @@ The Time Picker supports Dialog layout with Horizontal and Vertical orientation,
 
 ## Content
 
-The Time Picker supports 12 and 24-hour formats through two distinct content modes. Besides the hour and minute portion, the 12-hour content mode provides a meridiem portion, where selection between AM and PM is possible. 
+The Time Picker supports 12 and 24-hour formats through two distinct content modes. Besides the hour, minutes, and the seconds portion, the 12-hour content mode provides a meridiem portion, where selection between AM and PM is possible. 
 
 <img class="responsive-img" src="../images/timepicker_dropdown.png" srcset="../images/timepicker_dropdown@2x.png 2x" />
 <img class="responsive-img" src="../images/timepicker_24mode.png" srcset="../images/timepicker_24mode@2x.png 2x" />
@@ -43,7 +43,7 @@ The Time Picker comes with two buttons: one for canceling the selection, which w
 
 ## Styling
 
-The Time Picker comes with styling flexibility through the various options for header background and title colors, as well as text colors for the selected hour, minute, and meridiem (AM/PM). The Cancel and OK buttons are [Flat Buttons](button.md) and can be styled accordingly.
+The Time Picker comes with styling flexibility through the various options for header background and title colors, as well as text colors for the selected hour, minutes, seconds, and meridiem (AM/PM). The Cancel and OK buttons are [Flat Buttons](button.md) and can be styled accordingly.
 
 <img class="responsive-img" src="../images/timepicker_styling.png" srcset="../images/timepicker_styling@2x.png 2x" />
 

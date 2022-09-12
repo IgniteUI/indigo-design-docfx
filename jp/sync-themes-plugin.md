@@ -13,13 +13,13 @@ Indigo.Design System を使用して Sketch のデザインを作成したら、
 
 -  Indigo.Design AppBuilder でアプリをすばやく作成します。このアプリは、Sketch デザインの構造に従い、Indigo.Design UI  Kit のシンボルを Ignite UI の対応するコンポーネントにマッピングします。プラグインはまた、Sketch で使用されている画像を取得し、[`Assets` サポート (英語)](https://www.infragistics.com/community/blogs/b/jason_beres/posts/indigo-design-app-builder-october-release-with-assets-support) を使用して App Builder の下の Assets ライブラリにアップロードします。 
 
-- Indigo.Design UI Kit for Sketch を使用する場合は、新しいテーマを作成し、既存のテーマを編集します。ユーザーは、ブランドの特性に応じて、`primary`、`secondary`、`error`、`success`、`warn`、`info` の色およびタイポグラフィのプロパティを調整できます。作成したテーマは、デザインからアプリを作成すると、Indigo.Design App Builder に表示されます。
+- Indigo.Design UI Kit for Sketch を使用する場合は、新しいテーマを作成し、既存のテーマを編集します。ユーザーは、ブランドの特性に応じて、`primary`、`secondary`、`error`、`success`、`warn`、`info` および `surface` の色およびタイポグラフィのプロパティを調整できます。作成したテーマは、デザインからアプリを作成すると、Indigo.Design App Builder に表示されます。
 
 - プロトタイプを Indigo.Design Cloud に簡単に公開し、その後、変更や更新を行うときに定期的に同期します。
 
 ## 1. Indigo.Design プラグインのインストール
 
-Indigo.Design プラグインは、[Indigo.Design Cloud](https://cloud.indigo.design) にサインインすると利用可能になります。[作業の開始] メニューに移動し、[Indigo.Design システムを入手する] ボタンをクリックしてアセット ダイアログを開きます。[Sketch] タブで、プラグイン アーカイブをダウンロードして開き、Sketch プラグイン ファイルをダブルクリックすると、Indigo.Design プラグインがインストールされます。[Adobe XD] タブで、プラグインを簡単に入手できる Indigo.Design の Adobe Exchange ページにアクセスできます。
+Indigo.Design プラグインは、[Indigo.Design Cloud](https://cloud.indigo.design) にサインインすると利用可能になります。`[作業の開始]` メニューに移動し、`[Indigo.Design システムを入手する]` ボタンをクリックしてアセット ダイアログを開きます。[Sketch] タブで、プラグイン アーカイブをダウンロードして開き、Sketch プラグイン ファイルをダブルクリックすると、Indigo.Design プラグインがインストールされます。[Adobe XD] タブで、プラグインを簡単に入手できる Indigo.Design の Adobe Exchange ページにアクセスできます。
 
 <img class="responsive-img" src="images/indigo-design-resources.gif" />
 <p style="text-align:center;">Indigo.Design リソース</p>
@@ -110,7 +110,7 @@ Indigo.Design クラウドにプロトタイプを公開する準備ができた
 - ホットスポットとインタラクションの強調表示を選択
 - デザインにコメントを許可
 
-[公開] ボタンをクリックするとプロジェクトが Indigo.Design Cloud へアップロードされます。これによりフィードバックをもらったり[コードを生成](codegen/vscode-plugin.md)したりすることができます。
+[公開] ボタンをクリックするとプロジェクトが Indigo.Design Cloud へアップロードされます。これによりフィードバックをもらうことができます。
 
 <img class="responsive-img" src="images/Sync_themes_plugin_New_prototype.png" srcset="images/Sync_themes_plugin_New_prototype@2x.png 2x" />
 
