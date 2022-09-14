@@ -19,16 +19,9 @@ The Tooltip comes in appropriate sizing for desktop and mobile usage.
 <img class="responsive-img" src="../images/tooltip_desktop.png" srcset="../images/tooltip_desktop@2x.png 2x" />
 <img class="responsive-img" src="../images/tooltip_mobile.png" srcset="../images/tooltip_mobile@2x.png 2x" />
 
-## Variant
-
-The Tooltip has a **dark** variant, suitable for lighter interfaces underneath, and a light variant that is more appropriate for dark UI.
-
-<img class="responsive-img" src="../images/tooltip_dark.png" srcset="../images/tooltip_dark@2x.png 2x" />
-<img class="responsive-img" src="../images/tooltip_light.png" srcset="../images/tooltip_light@2x.png 2x" />
-
 ## Styling
 
-The Tooltip comes with styling flexibility through the options available for the background color and message text style. However, for the message text, it is recommended to use `white` with the dark variant and `grays.900`(`Active`) with the light variant, to assure optimal text legibility.
+The Tooltip comes with styling flexibility through the options available for the background color and message text style. However, for the message text, it is recommended to use `white` or `grays.900`(`Active`) bassed on the theme lightness, to assure optimal text legibility.
 
 <img class="responsive-img" src="../images/tooltip_styling.png" srcset="../images/tooltip_styling@2x.png 2x" />
 

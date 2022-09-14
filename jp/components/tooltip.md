@@ -20,16 +20,9 @@ Tooltip は、デスクトップとモバイルで使用時に適切なサイズ
 <img class="responsive-img" src="../images/tooltip_desktop.png" srcset="../images/tooltip_desktop@2x.png 2x" />
 <img class="responsive-img" src="../images/tooltip_mobile.png" srcset="../images/tooltip_mobile@2x.png 2x" />
 
-## バリアント
-
-Tooltip には、下方に明るいインターフェイスに適した**暗い**バリアントと、暗い UI に適した明るいバリアントがあります。
-
-<img class="responsive-img" src="../images/tooltip_dark.png" srcset="../images/tooltip_dark@2x.png 2x" />
-<img class="responsive-img" src="../images/tooltip_light.png" srcset="../images/tooltip_light@2x.png 2x" />
-
 ## スタイル設定
 
-Tooltip には、背景色とメッセージ テキスト スタイルで使用できるオプションによるスタイル設定の柔軟性があります。ただし、メッセージ テキストの場合、最適なテキストの読みやすさを確保するために、暗いバリアントでは `white` を使用し、明るいバリアントでは `grays.900`(`Active`) を使用することをお勧めします。
+Tooltip には、背景色とメッセージ テキスト スタイルで使用できるオプションによるスタイル設定の柔軟性があります。ただし、メッセージ テキストの場合、最適なテキストの読みやすさを確保するために、テーマの明るさに応じて `white` または `grays.900`(`Active`) を使用することをお勧めします。
 
 <img class="responsive-img" src="../images/tooltip_styling.png" srcset="../images/tooltip_styling@2x.png 2x" />
 

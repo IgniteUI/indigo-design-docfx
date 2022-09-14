@@ -7,7 +7,7 @@ _language: ja
 
 # スタイル設定の概要
 
-**Indigo.Design システム**は、Ignite UI for Angular コントロールにもマップされる 60 以上のすべての UI コンポーネントをスタイリングする精巧な手段を提供します。Angular 製品のテーマ エンジンは数行のコードで同様に製品全体のスタイルを変更できるカスタム カラー テーマを作成できます。[**App Builder**](https://www.jp.infragistics.com/products/appbuilder/docs/app-builder-overview) もこれらのテーマ設定メカニズムを実装しており、ユーザーは数回クリックするだけでアプリの完全な外観を変更できます。
+**Indigo.Design システム**は、Ignite UI for Angular コントロールにもマップされる 60 以上のすべての UI コンポーネントをスタイリングする精巧な手段を提供します。Angular 製品のテーマ エンジンは数行のコードで同様に製品全体のスタイルを変更できるカスタム カラー テーマを作成できます。[**App Builder**](https://jp.infragistics.com/products/appbuilder/help/app-builder-overview) もこれらのテーマ設定メカニズムを実装しており、ユーザーは数回クリックするだけでアプリの完全な外観を変更できます。
 
 <img class="responsive-img" src="../images/theme_overview_default.png" />
 
@@ -17,7 +17,7 @@ _language: ja
 
 ## Sketch でのスタイル設定
 
-Sketch ライブラリには、アセットを提供する  絵文字とライブラリの残りの部分を構築する強力なスタイリング インフラストラクチャを含むページがあります。
+4 つの Sketch ライブラリ (`Indigo.Design for Material`、`Indigo.Design for Bootstrap`、`Indigo.Design for Fluent`、および `Indigo.Design for Indigo Theme`) はそれぞれ、アセットと、ライブラリの残りの部分が構築される強力なスタイリング インフラストラクチャを提供する 🎨 絵文字で始まるページの同じ構造を持っています。好みのデザイン言語に基づいてバリアントを選択した後、ライブラリの外観をカスタマイズするために以下のページに移動してください:
 
 - 🎨 Material Icons (マテリアル アイコン)
 - 🎨 Colors (カラー)

@@ -35,6 +35,7 @@ There is a set of 160+ Material Icons already available in the **Indigo.Design S
 - editor
 - wb
 - hardware
+- places
 
 There is also a set of 360+ additional Material Icons that our team has crafted as an extention to the original Material set for the following categories:
 

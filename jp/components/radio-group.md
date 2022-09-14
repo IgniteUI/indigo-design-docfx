@@ -39,13 +39,6 @@ Radio Group は、有効または無効の状態で挿入できます。
 
 <img class="responsive-img" src="../images/radiogroup_states.png" srcset="../images/radiogroup_states@2x.png 2x" />
 
-## テーマ
-
-Radio Group は、明暗バリアントでわかりやすく、背景に明暗のコントラストを付けてスタイル設定できます。すべての Radios を同じテーマに設定してださい。
-
-<img class="responsive-img" src="../images/radiogroup_dark.png" srcset="../images/radiogroup_dark@2x.png 2x" />
-<img class="responsive-img" src="../images/radiogroup_light.png" srcset="../images/radiogroup_light@2x.png 2x" />
-
 ## 状態
 
 グループ内の各ラジオ要素は、**オン**およびオフの選択状態をサポートします。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
