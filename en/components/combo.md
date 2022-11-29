@@ -34,13 +34,6 @@ Each of the three Combo input types can be inserted in an enabled or disabled st
 <img class="responsive-img" src="../images/combo_enabledstate.png" srcset="../images/combo_enabledstate@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_disabledstate.png" srcset="../images/combo_disabledstate@2x.png 2x" />
 
-## Input Variant
-
-The Combo input can be used styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
-
-<img class="responsive-img" src="../images/combo_demo.png" srcset="../images/combo_demo@2x.png 2x" />
-<img class="responsive-img" src="../images/combo_light.png" srcset="../images/combo_light@2x.png 2x" />
-
 ## State
 
 When the user interacts with the Combo, its input goes through various selection states: **idle** with a placeholder in the place of the content, focused when the dropdown is open, filled once the user has finished with selection and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
@@ -74,7 +67,7 @@ The dropdown used for the Combo comes with the appropriate sizing for desktop an
 
 ## Dropdown Search Input
 
-The dropdown contains a Search Input that comes with dark and light variants, a selection of states, and options for layout akin to the standard [Input](input.md).
+The dropdown contains a Search Input that comes with a selection of states and options for layout akin to the standard [Input](input.md).
 
 ## Dropdown Items
 

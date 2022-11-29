@@ -36,6 +36,7 @@ Sketch では、これらのグラフィックは `🎨 Material Icons` とい�
 - editor
 - wb
 - hardware
+- places
 
 以下のカテゴリのために、元のマテリアル セットの拡張としてチームが作成した 360 以上の Material Icon のセットもあります。
 

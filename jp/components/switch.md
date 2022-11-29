@@ -19,13 +19,6 @@ Switch は、有効または無効の状態で挿入できます。
 
 <img class="responsive-img" src="../images/switch_enabled&disabled-state.png" srcset="../images/switch_enabled&disabled-state@2x.png 2x" />
 
-## テーマ
-
-Switch は、明暗バリアントで分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
-
-<img class="responsive-img" src="../images/switch_dark.png" srcset="../images/switch_dark@2x.png 2x" />
-<img class="responsive-img" src="../images/switch_light.png" srcset="../images/switch_light@2x.png 2x" />
-
 ## レイアウト テンプレート
 
 Sketch で Switch は、Switch 要素の前後に Switch ラベルが配置されるラベル位置のバリアントをサポートします。Adobe XD では、Stacks を使用して、スイッチのビジュアルの左または右にドラッグするだけで、デザイン時にラベルとスイッチの位置を変更できるようにしています。

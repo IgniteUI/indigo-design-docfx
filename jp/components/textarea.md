@@ -20,13 +20,6 @@ Text Area は、有効または無効の状態で挿入できます。
 <img class="responsive-img" src="../images/textarea_enabled.png" srcset="../images/textarea_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/textarea_disabled.png" srcset="../images/textarea_disabled@2x.png 2x" />
 
-## バリアント
-
-Text Area は、明暗バリアント (デフォルトは**暗い**) で分かりやすく、背景に明暗のコントラストを付けてスタイル設定できます。
-
-<img class="responsive-img" src="../images/textarea_dark.png" srcset="../images/textarea_dark@2x.png 2x" />
-<img class="responsive-img" src="../images/textarea_light.png" srcset="../images/textarea_light@2x.png 2x" />
-
 ## 状態
 
 ユーザーが Text Area とインタラクティブに操作する際にさまざまな状態を経由します。コンテンツの代わりにプレースホルダーがある **idle (アイドル状態)**、ユーザーが入力中の focused (フォーカス状態)、ユーザーがコンテンツの追加を完了して次に進むときの filled (塗りつぶし状態)。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。

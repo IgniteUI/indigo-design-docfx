@@ -19,13 +19,6 @@ The Text Area can be inserted in an enabled or disabled state.
 <img class="responsive-img" src="../images/textarea_enabled.png" srcset="../images/textarea_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/textarea_disabled.png" srcset="../images/textarea_disabled@2x.png 2x" />
 
-## Variant
-
-The Text Area can be styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
-
-<img class="responsive-img" src="../images/textarea_dark.png" srcset="../images/textarea_dark@2x.png 2x" />
-<img class="responsive-img" src="../images/textarea_light.png" srcset="../images/textarea_light@2x.png 2x" />
-
 ## State
 
 When the user interacts with the Text Area, it goes through various states: **idle** with a placeholder in the place of the content, focused while the user is typing in it, and filled once the user has finished adding content and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.

@@ -165,7 +165,7 @@ These are the steps to recreate the screen in the example.
 
 7.  **Add the sign up button.**
 
-    1.  Change the left panel to `Libraries` and look for a Raised Button.
+    1.  Change the left panel to `Libraries` and look for a Contained Button.
     2.  Drag it below the inputs, making sure you pick the right component, not the one prefixed with _Overrides, and stretch it across the full width leaving 16px on the left, right, and from the inputs above.
     3.  Switching back to `Layers`, expand the component, delete its icon and set the Label to "SIGN UP".
     4.  Select the Group wrapping the Label and position it in the middle of the Button.

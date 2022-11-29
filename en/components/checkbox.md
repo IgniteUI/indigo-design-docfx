@@ -18,13 +18,6 @@ The checkbox can be inserted in an enabled or disabled state.
 
 <img class="responsive-img" src="../images/checkbox_interaction_state.png" srcset="../images/checkbox_interaction_state@2x.png 2x" />
 
-## Theme
-
-The Checkbox can be used styled in **dark** and light variants to assure good readability and contrast for both lighter and darker backgrounds.
-
-<img class="responsive-img" src="../images/checkbox_dark.png" srcset="../images/checkbox_dark@2x.png 2x" />
-<img class="responsive-img" src="../images/checkbox_light.png" srcset="../images/checkbox_light@2x.png 2x" />
-
 ## Layout Template
  
 In Sketch, the Checkbox supports label position variants where the Checkbox label is placed after or before the Checkbox element. In Adobe XD, we are using Stacks to allow you to change the label and checkbox positions at design time simply by dragging it to the left or right of the checkbox visual.
