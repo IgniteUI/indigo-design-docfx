@@ -54,8 +54,9 @@ Indigo.Design でインタラクティブ プロトタイプを作成し、任�
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/tips5.png" srcset="images/tips5@2x.png 2x" />
 <div class="divider--half"></div>
+
 ### 外部データ ソースをお持ちですか?
-Indigo.Design App Builder には、任意の REST データ ソースへの接続や JSON ファイルのアップロードを可能にするデータ ソース オプションがあります。そのためには、データ ソース パネルに接続します。[詳細はこちらをご覧ください](https://jp.infragistics.com/products/appbuilder/help/using-data-in-your-app)
+Ignite UI App Builder には、任意の REST データ ソースへの接続や JSON ファイルのアップロードを可能にするデータ ソース オプションがあります。そのためには、データ ソース パネルに接続します。[詳細はこちらをご覧ください](https://jp.infragistics.com/products/appbuilder/help/using-data-in-your-app)
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -74,7 +75,8 @@ Indigo.Design App Builder には、任意の REST データ ソースへの接�
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/tips7.png" srcset="images/tips7@2x.png 2x" />
 <div class="divider--half"></div>
-### Indigo.Design App Builder が Flexbox を使用していることをご存知ですか?
+
+### Ignite UI App Builder が Flexbox を使用していることをご存知ですか?
 Web アプリケーションのレイアウトを作成する方法の 1 つとして Flex を提供します。ツールボックスの行または列のレイアウト ンポーネントとして利用できます。ブラウザー間の互換性と、あらゆる画面サイズへの適応性が保証されています。[詳細はこちらをご覧ください](appbuilder/flex-layouts/flex-layouts.md)
 
 <div class="divider--half"></div>

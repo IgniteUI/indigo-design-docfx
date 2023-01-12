@@ -21,7 +21,7 @@ Indigo.Design はデザインから開発までのワークフローをサポー
 1.  Sketch または Adobe XD で `Indigo.Design システム` を使用してデザインを作成
 2.  プロトタイプを共有し、`cloud.indigo.design` でユーザーとテストしてコラボレーション
 3. Sketch または Adobe XD ファイルを使用するか、ビジュアル アプリケーション ビルダーを直接使用して、`Indigo.Design AppBuilder` でアプリをデザインします。
-4. `Code Generation` サービスを使用して、Indigo.Design App Builder でアプリケーションを実行します。 
+4. `Code Generation` サービスを使用して、Ignite UI App Builder でアプリケーションを実行します。 
 
 ### 1. Indigo.Design システム
 
@@ -48,7 +48,7 @@ Indigo.Design を初めて使用する場合は、最初のアートボードを
 [ユーザー テストの作成](prototyping/set-up-a-user-test.md)
 
 
-### 3. Indigo.Design App Builder でアプリケーションからコードをデザインおよび生成します。
+### 3. Ignite UI App Builder でアプリケーションからコードをデザインおよび生成します。
 
 App Builder モジュールを使用すると、デザイン ファイル (Sketch または Adobe XD) を使用してシングル ページ アプリケーションをデザインしたり、最初から作成したりできます。App Builder には一連の主要な機能が含まれており、ユーザーは実際の UI コンポーネント、グローバル テーマ、外部データ ソースを使用できます。
 
@@ -58,10 +58,10 @@ App Builder モジュールを使用すると、デザイン ファイル (Sketc
 
 ### 4. Angular アプリケーションのコードを生成
 
-Indigo.Design App Builder でアプリケーションのデザインの準備ができたら、そこから Angular コードを簡単に生成できます。生成されたコードは、GitHub のリポジトリに直接アップロードすることも、ファイル パッケージとしてローカルにダウンロードすることもできます。生成されたアプリケーションで使用されるコンポーネントは、[Ignite UI for Angular UI フレームワーク](https://jp.infragistics.com/products/ignite-ui-angular)を利用しています。
+Ignite UI App Builder でアプリケーションのデザインの準備ができたら、そこから Angular コードを簡単に生成できます。生成されたコードは、GitHub のリポジトリに直接アップロードすることも、ファイル パッケージとしてローカルにダウンロードすることもできます。生成されたアプリケーションで使用されるコンポーネントは、[Ignite UI for Angular UI フレームワーク](https://jp.infragistics.com/products/ignite-ui-angular)を利用しています。
 
 Indigo.Design クラウドで公開されたプロトタイプから直接 Angular アプリのコードを生成することもできます。これを行うには、プロトタイプの共有 URL が必要であり、Indigo.Design コード ジェネレーターを使用します。コード ジェネレーターは VS Code の拡張機能として利用でき、[Ignite UI for Angular UI フレームワーク](https://jp.infragistics.com/products/ignite-ui-angular)を使用してコードを生成します。
 
 関連トピック:
 
-- [Indigo.Design App Builder のアプリケーションからコードを生成](https://jp.infragistics.com/products/appbuilder/help/generate-app/generate-app-overview)
+- [Ignite UI App Builder のアプリケーションからコードを生成](https://jp.infragistics.com/products/appbuilder/help/generate-app/generate-app-overview)
