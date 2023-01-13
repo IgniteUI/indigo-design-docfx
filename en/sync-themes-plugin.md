@@ -23,7 +23,7 @@ The Indigo.Design Plugin is available after signing in to the [Indigo.Design Clo
 <img class="responsive-img" src="images/indigo-design-resources.gif" />
 
 ## 2. Create an application in AppBuilder
-Take your designs and create interactive, responsive apps with real UI components and styling. Use the `Create New App` feature of the plugin to transform your Sketch and Adobe XD designs into a real applications under the AppBuilder, allowing access to the images and themes - all of this directly in the cloud.
+Take your designs and create interactive, responsive apps with real UI components and styling. Use the `Create New App` feature of the plugin to transform your Figma, Sketch and Adobe XD designs into a real applications under the AppBuilder, allowing access to the images and themes - all of this directly in the cloud.
 
 The plugin allows you to choose a name and resolution for your app, as well as to select the Indigo.Design Cloud workspace, where the app will be created.
 

@@ -13,8 +13,9 @@ _keywords: Ignite UI for Angular, Angular, Native Angular Components Suite, Nati
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/tips1.png" srcset="images/tips1@2x.png 2x" />
 <div class="divider--half"></div>
-### Well-crafted UI Kits for Sketch and Adobe XD.
-Do you know that with Indigo.Design UI kit for Sketch and Adobe XD, everything you create uses a design system? All styling specs and themes match real Angular components. You get 400+ icons, special colors palettes, 17 customizable illustrations, etc. [Read more](style/styling-overview.md)
+
+### Well-crafted UI Kits for Figma, Sketch and Adobe XD.
+Do you know that with Indigo.Design UI kit for Figma, Sketch and Adobe XD, everything you create uses a design system? All styling specs and themes match real Angular components. You get 400+ icons, special colors palettes, 17 customizable illustrations, etc. [Read more](style/styling-overview.md)
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -53,8 +54,9 @@ Use the “Create app” option in your plugin to translate all the UI kit compo
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/tips5.png" srcset="images/tips5@2x.png 2x" />
 <div class="divider--half"></div>
+
 ### Got an external data source?
-Indigo.Design App Builder arrives with data source options that let you connect to any REST data source or upload a JSON file. Just go and connect it in the Data Source panel. [Read more...](https://www.infragistics.com/products/appbuilder/docs/using-data-in-your-app)
+Ignite UI App Builder arrives with data source options that let you connect to any REST data source or upload a JSON file. Just go and connect it in the Data Source panel. [Read more...](https://www.infragistics.com/products/appbuilder/docs/using-data-in-your-app)
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -73,7 +75,8 @@ Start with a pre-made Sketch/XD file or download our application samples and mak
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/tips7.png" srcset="images/tips7@2x.png 2x" />
 <div class="divider--half"></div>
-### Do you know that Indigo.Design App Builder uses Flexbox?
+
+### Do you know that Ignite UI App Builder uses Flexbox?
 We offer Flex as one of the approaches to create layouts for your web app. It is available as a row or column layout component in the toolbox. Cross-browser compatibility and app adaptability to any screen size is guaranteed. [Read more...](https://www.infragistics.com/products/appbuilder/docs/flex-layouts/flex-layouts)
 
 <div class="divider--half"></div>
