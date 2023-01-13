@@ -5,9 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ update-vNext-with-latest, master, vNext ]
+    branches: [ master, vNext ]
   pull_request:
-    branches: [ update-vNext-with-latest, master, vNext ]
+    branches: [ master, vNext ]
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x, 16.x]
+        node-version: [16.x]
 
     steps:
     - run: choco install docfx --version 2.47 --force
