@@ -9,59 +9,110 @@ _language: ja
 
 Indigo.Design は、ビジュアル デザイン、UX プロトタイプ、コード生成、アプリケーション開発のためのプラットフォームです。UX にフォーカスしてアプリケーションをすばやく公開したいデザインチームと開発チームに最適な製品です。
 
-> [!NOTE]
-><b>Indigo.Design プラットフォームは、プロトタイプ、ユーサビリティ テスト、App Builder の 3 つの主要モジュールで構成されています。プロトタイプとユーサビリティ テストは、製品または機能のユーザー エクスペリエンスの測定と改善に役立ちますが、App Builder を使用すると、ユーザーは Web 環境で独自のシングル ページ アプリケーションを構築し、そこから Angular コードを生成できます。
+<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="images/platform-workflow.jpg" />
+<p style="width: 100%; text-align:center;">Design to development workflow</p>
+
+Indigo.Design platform consists of three main modules - **UI Kits**, **Prototypes/Usability Studies** and **App Builder**. **The UI Kits (Sketch, Figma, XD)** map to real UI controls and components, with tooling that delivers productivity. Each **UI Kit** implements and follows strictly - Colors, Typography, Sizes and etc. While **Prototypes and Usability Studies** help you measure and improve the user experience of a product or feature. **The App Builder** enables users build their own applications in a web environment and generate **Angular, React, Blazor or Web Components** code from it.
 
 ## 手順
 
-Indigo.Design はデザインから開発までのワークフローをサポートする 3 つの機能を提供します。
+Indigo.Design offers key capabilities to support the design-to-development workflow:
 
-<img class="responsive-img" src="images/indigo_design_how_it_works.png" srcset="images/indigo_design_how_it_works@2x.png 2x" />
+1. Figma、Sketch または Adobe XD で `Indigo.Design システム` を使用してデザインを作成
+2. プロトタイプを共有し、`cloud.indigo.design` でユーザーとテストしてコラボレーション
+3. Design your app in `Ignite UI App Builder` using a Figma, Sketch or Adobe XD file and import it via the Plugin or directly use the [Ignite UI App Builder](https://appbuilder.indigo.design/).
+4. Generate Angular, Blazor, React or Web components code from your application in the [Ignite UI App Builder](https://appbuilder.indigo.design/), using the its `Code Generation` service. 
 
-1.  Sketch または Adobe XD で `Indigo.Design システム` を使用してデザインを作成
-2.  プロトタイプを共有し、`cloud.indigo.design` でユーザーとテストしてコラボレーション
-3. Sketch または Adobe XD ファイルを使用するか、ビジュアル アプリケーション ビルダーを直接使用して、`Indigo.Design AppBuilder` でアプリをデザインします。
-4. `Code Generation` サービスを使用して、Ignite UI App Builder でアプリケーションを実行します。 
+## Indigo.Design システム
 
-### 1. Indigo.Design システム
+デザイン システムは Figma、Sketch および Adobe XD のライブラリ セットで、さまざまなアセット、スタイル、コンポーネント、パターンが含まれています。UI コンポーネントを使用すると、複雑なユーザー インターフェイスを作成して、さまざまな状態やテンプレートを柔軟に使用できます。それらの外観をカスタマイズするには、事前に作成されたパレット、タイポグラフィ、シャドウ、アイコン、およびイラストを活用できます。そして最後に、製品の詳細レイアウト、さまざまなフォーム、価格表などの提供されたパターンのコレクションを使用して、アプリのデザインを効率化し、UI とインタラクション デザインのベスト プラクティスの適用を保証できます。
 
-デザイン システムは Sketch および Adobe XD のライブラリ セットで、さまざまなアセット、スタイル、コンポーネント、パターンが含まれています。UI コンポーネントを使用すると、複雑なユーザー インターフェイスを作成して、さまざまな状態やテンプレートを柔軟に使用できます。それらの外観をカスタマイズするには、事前に作成されたパレット、タイポグラフィ、シャドウ、アイコン、およびイラストを活用できます。そして最後に、製品の詳細レイアウト、さまざまなフォーム、価格表などの提供されたパターンのコレクションを使用して、アプリのデザインを効率化し、UI とインタラクション デザインのベスト プラクティスの適用を保証できます。
-Indigo.Design for Sketch は、サポートするデザイン言語 (Material、Bootstrap、Fluent UI、および Indigo) ごとのライブラリ ファイルを提供するようになりました。4つ のライブラリはすべて、[Indigo.Design プラグイン](sync-themes-plugin.md)を介してライトとダーク モードのシームレスな切り替えをサポートし、定義済みまたはカスタムのカラー パレットで動作します。この改善により、Sketch ユーザーはコンポーネントおよびパターンのネイティブなルックアンドフィールを選択したデザイン言語で使用できます。
+<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="images/indigo-design-ui-kit.png" />
+<p style="width: 100%; text-align:center;">Figma UI Kit for Material</p>
 
-<img class="responsive-img" src="./images/four-themes.png" />
+### Figma UI Kit
+The brand-new Figma Indigo.Design UI Kit for Material maps to our Ignite UI for Angular, Blazor and Web Components UI toolset to completely redefine design-development processes. You now get a robust set of components, patterns, styling, and customization options, enabling you to import prototypes or any type of screen designed in Figma and transform it clean code. The best part is that all static designs become interactive, responsive apps with real UI components, branding, and styling – in a single click.
 
-Indigo.Design を初めて使用する場合は、最初のアートボードを作成する方法を参照してください。
-* [はじめての Sketch アートボードの作成](creating-artboard-sketch.md)
-* [はじめての Adobe XD アートボードの作成](creating-artboard-adobexd.md)
+<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="images/figma-ui-kit.gif" />
+<p style="width: 100%; text-align:center;">Figma UI Kit</p>
 
-### 2. プロトタイプおよびユーザビリティ テスト
+You can download the Figma Plugin, UI kit and sample apps from the [Download Assets page.](https://cloud.indigo.design/resources/figma)
+
+Or through the direct links below:
+- [Figma UI Kit](https://www.figma.com/@infragistics)
+- [Plugin for Figma](https://www.figma.com/community/plugin/1170035114372031474) 
+- [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
+
+> [!Note]
+> There is a difference when using the kit as a free Figma user or Pro user - [topic](https://www.infragistics.com/products/appbuilder/help/ui-kits/figma#using-the-kit-as-a-free-figma-user-vs-pro-user)
+
+### Sketch UI Kit
+Indigo.Design for Sketch offers not one but four library files to its users: one for each of the design languages we support - Material, Bootstrap, Fluent UI, and our very own Indigo. All four libraries support seamless switching between light and dark mode via the [Indigo.Design plugin](sync-themes-plugin.md) and work with any of the predefined or custom color palettes it provides. With this improvement, Sketch users are able to enjoy 100% native look and feel of their components and patterns for the design language of their choice.
+
+<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/four-themes.png" />
+<p style="width: 100%; text-align:center;">Sketch UI Kit Four themes</p>
+
+You can download the Sketch Plugin, UI kit and sample apps from the [Download Assets page.](https://cloud.indigo.design/resources/sketch).
+
+Or through the direct links below:
+- [Sketch UI Kit](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip)
+- [Plugin for Sketch](https://dl.infragistics.com/products/Infragistics/Indigo.Design/9EB45F5BB4B3442F8B4CECB3EB403063/Infragistics_IndigoDesign_Sketch_Plugin.zip)
+- [Sample apps](https://dl.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps.zip)
+
+### Adobe XD UI Kit
+
+Crafted from the ground-up to equip designers with a modern and easy-to-use arsenal of tools which allow them to design wireframes and apps, Adobe XD is one of the popular vector graphic design platforms in the market today. Along with wireframe features, designers can create hi-fidelity prototypes, collaborate across teams through the design process, configure animations and collect feedback.
+
+> [!NOTE]
+> Download [Adobe XD UI Kit](https://assets.adobe.com/public/c1a672c5-49e6-4df1-4d32-1c37fa234f1e), [Plugin for Adobe XD](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/92c7dec5) and [Sample apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_XD.zip)
+
+<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="images/app-is-ready-xd.png" />
+<p style="width: 100%; text-align:center;">Adobe XD Plugin</p>
+
+## プロトタイプおよびユーザビリティ テスト
 
 デザインのフィードバックは、cloud.indigo.design で Sketch ドキュメントをインポートし、インタラクティブなプロトタイプとして共有します。関係者が任意のデバイスでプロトタイプを表示し、コメントによってフィードバックを送信できます。
 
-関連トピック:
+詳細にたついてはこのトピックをご覧ください:
 
 [クラウドでプロトタイプの作成](prototyping/creating-a-prototype.md)
 
 公開したプロトタイプを使用してユーザビリティ テストを作成します。ユーザーがプロトタイプを使用して特定のタスクを実行する方法を表示し、タスクの時間および完了比率などのメトリックを取得できます。
 
-関連トピック:
+詳細にたついてはこのトピックをご覧ください:
 [ユーザー テストの作成](prototyping/set-up-a-user-test.md)
 
+## Design apps with App Builder
 
-### 3. Ignite UI App Builder でアプリケーションからコードをデザインおよび生成します。
+The App Builder module lets you design a single page application using a design file (Figma, Sketch or Adobe XD) as a starting point or create it from scratch. The App Builder includes a set of major features, enabling users to use real UI components, global theming, external data sources.
 
-App Builder モジュールを使用すると、デザイン ファイル (Sketch または Adobe XD) を使用してシングル ページ アプリケーションをデザインしたり、最初から作成したりできます。App Builder には一連の主要な機能が含まれており、ユーザーは実際の UI コンポーネント、グローバル テーマ、外部データ ソースを使用できます。
+<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="images/app-builder-canvas.png" />
+<p style="width: 100%; text-align:center;">Design canvas</p>
 
-関連トピック:
-[App Builder でアプリケーションを作成](https://jp.infragistics.com/products/appbuilder/help/app-builder-overview)
+Learn more:
+- [Build an application in the App Builder - Getting started](https://www.infragistics.com/products/appbuilder/help/getting-started).
+- [App Builder interface overview](https://www.infragistics.com/products/appbuilder/help/interface-overview).
+- [Flex layouts](https://www.infragistics.com/products/appbuilder/help/flex-layouts/flex-layouts).
+- [Components](https://www.infragistics.com/products/appbuilder/help/indigo-design-app-builder-components).
+- [Interactions](https://www.infragistics.com/products/appbuilder/help/interactions).
+- [SPA and navigation](https://www.infragistics.com/products/appbuilder/help/single-page-apps-and-navigation).
+- [Share and preview apps](https://www.infragistics.com/products/appbuilder/help/share-preview-edit-app).
 
+Create app from sample application:
 
-### 4. Angular アプリケーションのコードを生成
+<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="images/app-builder-sample-apps.png" />
+<p style="width: 100%; text-align:center;">Sample apps</p>
 
-Ignite UI App Builder でアプリケーションのデザインの準備ができたら、そこから Angular コードを簡単に生成できます。生成されたコードは、GitHub のリポジトリに直接アップロードすることも、ファイル パッケージとしてローカルにダウンロードすることもできます。生成されたアプリケーションで使用されるコンポーネントは、[Ignite UI for Angular UI フレームワーク](https://jp.infragistics.com/products/ignite-ui-angular)を利用しています。
+## Generate Code
 
-Indigo.Design クラウドで公開されたプロトタイプから直接 Angular アプリのコードを生成することもできます。これを行うには、プロトタイプの共有 URL が必要であり、Indigo.Design コード ジェネレーターを使用します。コード ジェネレーターは VS Code の拡張機能として利用でき、[Ignite UI for Angular UI フレームワーク](https://jp.infragistics.com/products/ignite-ui-angular)を使用してコードを生成します。
+Once ready with the design of your application in Ignite UI App Builder, you can easily generate Angular, Blazor or Web Components code from it. The generated code can be directly uploaded to a repository in GitHub or downloaded locally as a file package. The components used in the generated application are powered by [Ignite UI for Angular UI framework](https://www.infragistics.com/products/ignite-ui-angular)
 
-関連トピック:
+Learn more:
 
-- [Ignite UI App Builder のアプリケーションからコードを生成](https://jp.infragistics.com/products/appbuilder/help/generate-app/generate-app-overview)
+- [Generating code from an application in Ignite UI App Builder](https://www.infragistics.com/products/appbuilder/help/generate-app/generate-app-overview)
+- [Blazor code generation](https://www.infragistics.com/products/appbuilder/help/blazor-support)
+- [Web Components code generation](https://www.infragistics.com/products/appbuilder/help/web-components-support)
+
+If you are brand new to Indigo.Design learn more about how to create your first artboard with it:
+* [Create your first Sketch artboard](creating-artboard-sketch.md)
+* [Create your first Adobe XD artboard](creating-artboard-adobexd.md)

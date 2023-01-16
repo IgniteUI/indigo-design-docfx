@@ -14,8 +14,9 @@ _language: ja
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/tips1.png" srcset="images/tips1@2x.png 2x" />
 <div class="divider--half"></div>
-### Sketch および Adobe XD 用の洗練された UI キット。
-Sketch および Adobe XD 用の Indigo.Design UI キットでは、作成するものすべてがデザイン システムを使用していることをご存知ですか? すべてのスタイル設定の仕様およびテーマは、実際の Angular コンポーネントと一致します。400 個以上のアイコン、特別なカラー パレット、17 種類ののカスタマイズ可能なイラストなどがあります。[詳細はこちらをご覧ください](style/styling-overview.md)
+
+### Figma、Sketch および Adobe XD 用の洗練された UI キット。
+Figma、Sketch および Adobe XD 用の Indigo.Design UI キットでは、作成するものすべてがデザイン システムを使用していることをご存知ですか? すべてのスタイル設定の仕様およびテーマは、実際の Angular コンポーネントと一致します。400 個以上のアイコン、特別なカラー パレット、17 種類ののカスタマイズ可能なイラストなどがあります。[詳細はこちらをご覧ください](style/styling-overview.md)
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
