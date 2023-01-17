@@ -73,13 +73,13 @@ Crafted from the ground-up to equip designers with a modern and easy-to-use arse
 
 デザインのフィードバックは、cloud.indigo.design で Sketch ドキュメントをインポートし、インタラクティブなプロトタイプとして共有します。関係者が任意のデバイスでプロトタイプを表示し、コメントによってフィードバックを送信できます。
 
-詳細にたついてはこのトピックをご覧ください:
+詳細についてはこのトピックをご覧ください:
 
 [クラウドでプロトタイプの作成](prototyping/creating-a-prototype.md)
 
 公開したプロトタイプを使用してユーザビリティ テストを作成します。ユーザーがプロトタイプを使用して特定のタスクを実行する方法を表示し、タスクの時間および完了比率などのメトリックを取得できます。
 
-詳細にたついてはこのトピックをご覧ください:
+詳細についてはこのトピックをご覧ください:
 [ユーザー テストの作成](prototyping/set-up-a-user-test.md)
 
 ## Design apps with App Builder
