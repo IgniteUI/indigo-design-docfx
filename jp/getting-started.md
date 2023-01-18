@@ -18,8 +18,8 @@ Indigo.Design プラットフォームは、**UI キット**、**プロトタイ
 
 Indigo.Design は、デザインから開発までのワークフローをサポートする主要な機能を提供します。
 
-1. Figma、Sketch または Adobe XD で `Indigo.Design システム` を使用してデザインを作成
-2. プロトタイプを共有し、`cloud.indigo.design` でユーザーとテストしてコラボレーション
+1. Figma、Sketch または Adobe XD で `Indigo.Design システム` を使用してデザインを作成します。
+2. プロトタイプを共有し、`cloud.indigo.design` でユーザーとテストしてコラボレーションします。
 3. Figma、Sketch、または Adobe XD ファイルを使用して Ignite UI App Builder でアプリをデザインし、プラグインを介してインポートするか、[Ignite UI App Builder](https://appbuilder.indigo.design/) を直接使用します。
 4. `Code Generation` (コード生成) サービスを使用して、[Ignite UI App Builder](https://appbuilder.indigo.design/) でアプリケーションから Angular、Blazor、React、または Web コンポーネント コードを生成します。
 
@@ -44,10 +44,10 @@ Figma 用のプラグイン、UI キット、サンプル アプリは[アセッ
 - [サンプル アプリ](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
 
 > [!Note]
-> キットを無料の Figma ユーザーまたは Pro ユーザーとして使用する場合の違いについては、この[トピック](https://jp.infragistics.com/products/appbuilder/help/ui-kits/figma#ｆigma-スターター-ユーザーと-Figma-プロフェッショナル-ユーザーとしてのキットの使用)をご覧ください。
+> キットを無料の Figma ユーザーまたは Pro ユーザーとして使用する場合の違いについては、この[トピック](https://jp.infragistics.com/products/appbuilder/help/ui-kits/figma#figma-スターター-ユーザーと-figma-プロフェッショナル-ユーザーとしてのキットの使用)をご覧ください。
 
 ### Sketch UI キット
-Indigo.Design for Sketch は、サポートするデザイン言語 (Material、Bootstrap、Fluent ui- Indigo) ごとのライブラリ ファイルを提供します。4つのライブラリはすべて、[Indigo.Design プラグイン](sync-themes-plugin.md)を介してライトとダーク モードのシームレスな切り替えをサポートし、定義済みまたはカスタムのカラー パレットで動作します。この改善により、Sketch ユーザーは選択したデザイン言語でコンポーネントやパターンのネイティブなルックアンドフィールを使用できます。
+Indigo.Design for Sketch は、サポートするデザイン言語 (Material、Bootstrap、Fluent UI、Indigo) ごとのライブラリ ファイルを提供します。4つのライブラリはすべて、[Indigo.Design プラグイン](sync-themes-plugin.md)を介してライトとダーク モードのシームレスな切り替えをサポートし、定義済みまたはカスタムのカラー パレットで動作します。この改善により、Sketch ユーザーは選択したデザイン言語でコンポーネントやパターンのネイティブなルックアンドフィールを使用できます。
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/four-themes.png" />
 <p style="width: 100%; text-align:center;">Sketch UI キットの 4 つのテーマ</p>
@@ -74,7 +74,6 @@ Adobe XD は、デザイナーがワイヤーフレームやアプリをデザ�
 デザインのフィードバックは、cloud.indigo.design で Sketch ドキュメントをインポートし、インタラクティブなプロトタイプとして共有します。関係者が任意のデバイスでプロトタイプを表示し、コメントによってフィードバックを送信できます。
 
 詳細についてはこのトピックをご覧ください:
-
 [クラウドでプロトタイプの作成](prototyping/creating-a-prototype.md)
 
 公開したプロトタイプを使用してユーザビリティ テストを作成します。ユーザーがプロトタイプを使用して特定のタスクを実行する方法を表示し、タスクの時間および完了比率などのメトリックを取得できます。
@@ -90,13 +89,13 @@ App Builder モジュールを使用すると、デザイン ファイル (Figma
 <p style="width: 100%; text-align:center;">デザイン キャンバス</p>
 
 関連トピック:
-- [App Builder でアプリケーションを構築する - はじめに](https://www.infragistics.com/products/appbuilder/help/getting-started)
-- [App Builder インターフェイスの概要](https://www.infragistics.com/products/appbuilder/help/interface-overview)
-- [Flex レイアウト](https://www.infragistics.com/products/appbuilder/help/flex-layouts/flex-layouts)
-- [コンポーネント](https://www.infragistics.com/products/appbuilder/help/indigo-design-app-builder-components)
-- [インタラクション](https://www.infragistics.com/products/appbuilder/help/interactions)
-- [SPA とナビゲーション](https://www.infragistics.com/products/appbuilder/help/single-page-apps-and-navigation)
-- [アプリの共有とプレビュー](https://www.infragistics.com/products/appbuilder/help/share-preview-edit-app)
+- [App Builder でアプリケーションを構築する - はじめに](https://jp.infragistics.com/products/appbuilder/help/getting-started)
+- [App Builder インターフェイスの概要](https://jp.infragistics.com/products/appbuilder/help/interface-overview)
+- [Flex レイアウト](https://jp.infragistics.com/products/appbuilder/help/flex-layouts/flex-layouts)
+- [コンポーネント](https://jp.infragistics.com/products/appbuilder/help/indigo-design-app-builder-components)
+- [インタラクション](https://jp.infragistics.com/products/appbuilder/help/interactions)
+- [SPA とナビゲーション](https://jp.infragistics.com/products/appbuilder/help/single-page-apps-and-navigation)
+- [アプリの共有とプレビュー](https://jp.infragistics.com/products/appbuilder/help/share-preview-edit-app)
 
 サンプル アプリケーションからアプリを作成します:
 
