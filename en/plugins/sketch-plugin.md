@@ -18,20 +18,15 @@ Once a design in Sketch is created with the Indigo.Design System, use the plugin
 
 ## 1. Installing the Indigo.Design plugin
 
-The Indigo.Design Plugin is available after signing in to the [Indigo.Design Cloud](https://cloud.indigo.design). Go to the `Getting Started` menu and click the `GET INDIGO.DESIGN SYSTEM` button to open the assets dialog. Under the Sketch tab you may download the plugin archive, open it, double click on the Sketch plugin file and the Indigo.Design plugin will be installed. Under the Adobe XD tab you will be able to land on the Adobe Exchange page of Indigo.Design from where you can easily get the plugin. 
+The Indigo.Design Plugin is available after signing in to the [Indigo.Design Cloud](https://cloud.indigo.design). Go to the `Getting Started` menu and click the `GET INDIGO.DESIGN SYSTEM` button to open the assets dialog. Under the Sketch tab you may download the plugin archive, open it, double click on the Sketch plugin file and the Indigo.Design plugin will be installed. 
 
 <img class="responsive-img" src="images/indigo-design-resources.gif" />
 
 ## 2. Create an application in AppBuilder
-Take your designs and create interactive, responsive apps with real UI components and styling. Use the `Create New App` feature of the plugin to transform your Figma, Sketch and Adobe XD designs into a real applications under the AppBuilder, allowing access to the images and themes - all of this directly in the cloud.
 
-The plugin allows you to choose a name and resolution for your app, as well as to select the Indigo.Design Cloud workspace, where the app will be created.
+Once you're ready with the design you can create an app from it using the plugin:
 
 <img class="responsive-img" src="images/create-from-sketch.gif" />
-
-In Adobe XD app creation is the only feature available in the plugin for now.
-
-<img class="responsive-img" src="images/create-from-xd.gif" />
 
 ## 3. Themes
 

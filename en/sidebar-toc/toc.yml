@@ -14,8 +14,15 @@
 - name: Creating An Artboard in AdobeXD
   href: ../creating-artboard-adobexd.md
   new: true
-- name: Plugin
-  href: ../sync-themes-plugin.md
+- name: Plugins
+  href: ../plugins/overview-plugins.md
+  items:
+    - name: Figma
+      href: ../plugins/figma-plugin.md
+    - name: Sketch
+      href: ../plugins/sketch-plugin.md
+    - name: AdobeXD
+      href: ../plugins/xd-plugin.md
 - name: Styling
   href: ../style/styling-overview.md
   updated: true
