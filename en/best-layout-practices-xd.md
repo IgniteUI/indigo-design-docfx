@@ -30,9 +30,6 @@ Column layout will  generate `flex-direction: column` for the group:
 
 Note that paddings and margins can also be specified for the group and those will also be generated as css for the related element in the DOM.
 
-## Justification & Alignment
-Same rules as with Sketch apply. More detailed information can be found [here](./best-layout-practices-sketch.md#justification--alignment).
-
 ## Sizing
 
 This section determines the elements' sizing.
