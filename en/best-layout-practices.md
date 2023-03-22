@@ -13,22 +13,22 @@ Each design tool (Figma, Sketch, XD) provides a unique way of configuring the po
 
 In general these tools allow you to specify either a:
 
-- Absolute layout design
+## Absolute layout design
 
   This is a design where all elements are ordered with absolute position on the view and have no additional positioning or sizing information. Their purpose is to show a design in a particular resolution only.
 
   For such designs it is harder to determine a meaningful responsive layout as the designer's intent on how elements should react to resize of the view is not always clear.
 
-  The Design to Code algorithm will still attempt to build a responsive design based on the absolute layout positions as best as it can. For the specific rules and guidelines on the absolute to responsive layout refer to the [Absolute Layout Best Practices](./best-layout-practices.md) section.
+  The Design to Code algorithm will still attempt to build a responsive design based on the absolute layout positions as best as it can. For the specific rules and guidelines on the absolute to responsive layout refer to the [Absolute Layout Best Practices](./best-layout-practices.md#layout) section.
   
-- Responsive layout design
+## Responsive layout design
 
-  - This is a design that utilizes the specific tool's ability to mark layers as responsive to size changes and determine the responsive rules those layouts and their children should follow.
+  This is a design that utilizes the specific tool's ability to mark layers as responsive to size changes and determine the responsive rules those layouts and their children should follow.
     It is specific to each tool and you can find more information in their related topics:
 
-    - [Responsive layouts in Figma](./best-layout-practices-figma.md)
-    - [Responsive layouts in Sketch](./best-layout-practices-sketch.md)
-    - [Responsive layouts in XD](./best-layout-practices-xd.md)
+  - [Responsive layouts in Figma](./best-layout-practices-figma.md)
+  - [Responsive layouts in Sketch](./best-layout-practices-sketch.md)
+  - [Responsive layouts in XD](./best-layout-practices-xd.md)
   
   As with this approach there's more available information from the design on how things should react to resize it would always give generation results closer to the original design in the App builder. 
   Due to this it's recommended to utilize the specific tool's responsive layouting option to get better results.

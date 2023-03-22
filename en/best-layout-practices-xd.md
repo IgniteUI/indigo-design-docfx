@@ -11,7 +11,7 @@ This topic provides design guidance regarding the positioning of Components in y
 
 ## Layout
 This section provides guidance on how to group your elements in AdobeXD for best results. 
-For the most part the same rules as with Sketch apply. More detailed information can be found [here](./best-layout-practices-sketch.md#layout).
+For the most part Absolute layout rules apply. More detailed information can be found [here](./best-layout-practices.md#layout).
 
 ### Stacks
 
