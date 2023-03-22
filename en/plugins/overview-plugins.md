@@ -12,9 +12,18 @@ Take your designs and create interactive, responsive apps with real UI component
 
 The plugins allow you to choose a name and resolution for your app, as well as to select the Indigo.Design Cloud workspace, where the app will be created.
 
-<img class="responsive-img" src="images/create-from-common.png" />
+<img class="responsive-img" src="../images/create-from-common.png" />
 
 There's a plugin for each design tool you can refer to:
 - [Figma](../plugins/figma-plugin.md)
 - [Sketch](../plugins/sketch-plugin.md)
 - [Adobe XD](../plugins/xd-plugin.md)
+
+## Additional Resources
+
+Related topics:
+
+- [Colors](../style/colors.md)
+- [Typography](../style/typography.md)
+
+Our community is active and always welcoming to new ideas.
