@@ -26,6 +26,24 @@ Once you're ready with the design you can create an app from it using the plugin
 
 <img class="responsive-img" src="../images/create-from-figma.gif" />
 
+## 3. Themes
+
+### Setting global theme
+
+The global theme in Indigo.Design System for Figma could be either dark or light. The Indigo.Design Figma Plugin sets the default theme based on the `Dark Mode` variation of the Indigo.Design library components.
+
+<img class="responsive-img" style="width:100%" src="../images/dark-mode-variation.png" />
+
+It is applied with the help of heuristic which calculates the count of the components in the Figma file with dark and light variations. If more components have `Dark Mode` enabled then a dark theme is set.
+
+### Color handling
+
+Indigo.Design UI kit for Figma contains five palettes with 10 color variations for each of the `primary`, `secondary`, `grays`, and two chart `series` colors, as well as special colors such as `success`, `warn`, `info` and `surface`. All those colors can be applied either as a Fill or a Stroke color. 
+If a color is mentioned in the table below, then the App Builder will show it with its name (e.g. `primary-900`). All other colors will show as HEX/RGB value.
+
+| Primary | Secondary |  Gray   | Surface | Error | Success | Warn  | Info  |
+| :-----: | :-------: | :-----: | :-----: | :---: | :-----: | :---: | :---: |
+| 100-900 |  100-900  | 100-900 |   500   |  500  |   500   |  500  |  500  |
 
 ## Additional Resources
 
