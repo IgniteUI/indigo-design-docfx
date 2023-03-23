@@ -27,6 +27,37 @@ Once you're ready with the design you can create an app from it using the plugin
 <img class="responsive-img" src="../images/create-from-figma.gif" />
 
 
+## Assets
+
+Any images or illustrations used in a design are send as assets to the App Builder and will appear in the related Assets tab of the generated application.
+
+There are 2 type of images, either simple flat image or a more complex vector based illustration.
+
+### Image
+
+A simple flat image in Figma is typically added as a rectangle shape with image fill:
+
+<img class="responsive-img" src="../images/figma_image_asset.png" />
+
+
+This will either be interpreted as an `<img>` element with reference to the related image asset, or a group (`div`) with `background-image`, in case it was used as a background for other elements in the design.
+
+### Illustration
+
+Designers often use custom vector and shapes to build an illustration image with the intention of providing it as an image asset.
+
+These can have a complex structure consisting of many groups and vectors:
+
+<img class="responsive-img" src="../images/figma_illustration_asset.png" />
+
+The designer can specify the exported image type of the illustration via the Export tab in Figma:
+
+<img class="responsive-img" src="../images/figma_export_asset.png" />
+
+It can be PNG, JPG or SVG.
+
+In case the layer's export option is not specified the plugin will export the illustration as SVGs in the App Builder.
+
 ## Additional Resources
 
 Related topics:
