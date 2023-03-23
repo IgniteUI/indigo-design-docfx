@@ -9,7 +9,7 @@ The Indigo.Design Figma Plugin allows users to quickly create and publish apps i
 
 Once you have created your design using the Indigo.Design UI kit library component, which can be downloaded from [here](https://www.figma.com/@infragistics) you can then export your design using the plugin.
 
-It allows you to quickly create an app in Indigo.Design AppBuilder. This app follows the structure of the Figma design, mapping any symbol from the Indigo.Design UI kit to the corresponding component from Ignite UI. The plugin also takes the images used in XD and uploads them in the Assets library under AppBuilder, benefiting from [`Assets` support](https://www.infragistics.com/community/blogs/b/jason_beres/posts/indigo-design-app-builder-october-release-with-assets-support).  
+It allows you to quickly create an app in Indigo.Design AppBuilder. This app follows the structure of the Figma design, mapping any symbol from the Indigo.Design UI kit to the corresponding component from Ignite UI. The plugin also takes the images used in Figma and uploads them in the Assets library under AppBuilder, benefiting from [`Assets` support](https://www.infragistics.com/community/blogs/b/jason_beres/posts/indigo-design-app-builder-october-release-with-assets-support).  
 
 ## 1. Installing the Indigo.Design Figma plugin
 
