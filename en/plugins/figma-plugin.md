@@ -13,7 +13,11 @@ It allows you to quickly create an app in Indigo.Design AppBuilder. This app fol
 
 ## 1. Installing the Indigo.Design Figma plugin
 
-The Indigo.Design Plugin is available after signing in to the [Indigo.Design Cloud](https://cloud.indigo.design). Go to the `Getting Started` menu and click the `GET INDIGO.DESIGN SYSTEM` button to open the assets dialog. Under the Figma tab you will be able to land on the Figma's Indigo.Design plugin page from where you can easily get the plugin. Or you can directly access it [here](https://www.figma.com/community/plugin/1170035114372031474).
+The Indigo.Design Figma Plugin is available from Figma's community Plugin's list. 
+
+<img class="responsive-img" src="../images/figma-plugin.gif"/>
+
+ You can also find it [here](https://www.figma.com/community/plugin/1170035114372031474).
 
 
 ## 2. Create an application in AppBuilder

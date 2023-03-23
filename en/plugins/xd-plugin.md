@@ -14,7 +14,12 @@ It allows you to quickly create an app in Indigo.Design AppBuilder. This app fol
 
 ## 1. Installing the Indigo.Design plugin
 
-The Indigo.Design Plugin is available after signing in to the [Indigo.Design Cloud](https://cloud.indigo.design). Go to the `Getting Started` menu and click the `GET INDIGO.DESIGN SYSTEM` button to open the assets dialog. Under the Adobe XD tab you will be able to land on the Adobe Exchange page of Indigo.Design from where you can easily get the plugin. Or you can directly access it [here](https://exchange.adobe.com/apps/cc/92c7dec5).
+The Indigo.Design Plugin is available from Adobe's market place. You can add it from your XD's Plugins menu:
+
+<img class="responsive-img" src="../images/xd-plugin.gif"/>
+
+
+Or you can directly access it [here](https://exchange.adobe.com/apps/cc/92c7dec5).
 
 ## 2. Create an application in AppBuilder
 
