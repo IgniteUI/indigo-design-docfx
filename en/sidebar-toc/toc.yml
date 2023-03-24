@@ -245,7 +245,7 @@
       href: ../patterns/tree-grid.md
     - name: User Profile
       href: ../patterns/user-profile.md
-- name: Responsive layouts generation
+- name: Layouts Best Practices
   href: ../best-layout-practices.md
   items:
     - name: Responsive layouts in Figma
