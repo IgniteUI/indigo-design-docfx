@@ -38,7 +38,6 @@ In general these tools allow you to specify either a:
 This section provides design guidance regarding the positioning of Components in your app layouts. By sticking to the recommendations below, you will be able to generate an app effortlessly with the responsive behavior.
 
 ## Layout
-This section provides guidance on how to group your elements for best results.
 
 The code generation algorithm starts by creating the layout horizontally. It forms the rows first. If your design is column oriented, then you should take advantage of the groups in Sketch for better results. For the following design, there are six buttons and no groups:
 
