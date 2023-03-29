@@ -17,7 +17,7 @@ In Figma you can either use absolute positioned frames/groups, in which case lay
 
 Auto-layout is an unique Figma feature that allows structuring containers (such as Frames, Components, Groups) so that they have a more responsive layout that adapts according to the screen size. It allows setting rules on how the content should flow, how it should be positioned, sized and how it should spread within its container. As such it is very similar in concept as flexbox  in web.
 
-Auto-layout option can be set by the designed via Figma's UI:
+Auto-layout option can be set by the designer via Figma's UI:
 
 <img class="responsive-img" src="./images/figma-auto-layout.png" />
 
