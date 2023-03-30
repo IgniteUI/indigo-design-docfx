@@ -45,6 +45,39 @@ If a color is mentioned in the table below, then the App Builder will show it wi
 | :-----: | :-------: | :-----: | :-----: | :---: | :-----: | :---: | :---: |
 | 100-900 |  100-900  | 100-900 |   500   |  500  |   500   |  500  |  500  |
 
+## Assets
+
+Any images or illustrations used in a design are send as assets to the App Builder and will appear in the related Assets tab of the generated application.
+
+There are 2 type of images, either simple flat image or a more complex vector based illustration.
+
+### Image
+
+A simple flat image in Figma is typically added as a rectangle shape with image fill:
+
+<img class="responsive-img" src="../images/figma_image_asset.png" />
+
+
+This will either be interpreted as an `<img>` element with reference to the related image asset, or a group (`div`) with `background-image`, in case it was used as a background for other elements in the design.
+
+### Illustration
+
+Designers often use custom vector and shapes to build an illustration image with the intention of providing it as an image asset.
+
+These can have a complex structure consisting of many groups and vectors:
+
+<img class="responsive-img" src="../images/figma_illustration_asset.png" />
+
+The designer can specify the exported image type of the illustration via the Export tab in Figma:
+
+<img class="responsive-img" src="../images/figma_export_asset.png" />
+
+It can be PNG, JPG or SVG.
+
+In case no export option is specified but there are vectors detected on the page the plugin will attempt to determine the most probable layer from which the illustration starts. It will attempt to find the closest parent that contains image-like elements only (Vectors, Shapes etc.) and will stop if it find anything that is not an image element (like Text, Component Instances etc.). Once the bounds of the illustration are determined, its content will be exported as in SVG format.
+
+Note that this might not be optimal way to group the vectors so it's always best to mark complex illustrations for export using the Export options in Figma.
+
 ## Additional Resources
 
 Related topics:
