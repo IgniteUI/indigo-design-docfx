@@ -56,7 +56,9 @@ The designer can specify the exported image type of the illustration via the Exp
 
 It can be PNG, JPG or SVG.
 
-In case the layer's export option is not specified the plugin will export the illustration as SVGs in the App Builder.
+In case no export option is specified but there are vectors detected on the page the plugin will attempt to determine the most probable layer from which the illustration starts. It will attempt to find the closest parent that contains image-like elements only (Vectors, Shapes etc.) and will stop if it find anything that is not an image element (like Text, Component Instances etc.). Once the bounds of the illustration are determined, its content will be exported as in SVG format.
+
+Note that this might not be optimal way to group the vectors so it's always best to mark complex illustrations for export using the Export options in Figma.
 
 ## Additional Resources
 
