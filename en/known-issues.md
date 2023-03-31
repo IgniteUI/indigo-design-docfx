@@ -20,6 +20,10 @@ When using nested symbols to customize the look and feel of a Component, we have
 
 If you run in such a situation, just make sure that you pick the correct value for each on the underlying overrides and leave the Component in a valid state. Otherwise, it will not only reflect an impossible configuration, but will be impossible to comprehend by our code generation engine.
 
+## User input in components
+
+User input values of components which change per scenario are not generated. Some examples of these components would be checkbox (checked state), radio group (selected state), switch, etc.
+
 ## Change of Layer Name in Adobe XD
 
 When using nested symbols to customize the look and feel of a Component, we have discovered that sometimes after dragging an alternative symbol to replace the default one, Adobe XD may also change its name e.g. from `🔣 Icon` to `_Overrides/Material Icons/action/account_circle`.
@@ -42,6 +46,9 @@ Images that were created using the second method above and are used as backgroun
 > [!Note]
 > A future release will feature an Image Component that will generate code for responsive images.
 
+#### Crop image size in Figma
+As you already know images are retrieved from the design application as assets. The size of the image is determined in the Figma design. At the moment `CROP` size is not supported.
+
 ## Illustrations and Code Generation
 
 At the moment we support Illustrations only at design time and once you proceed to generate Angular code from your design, they will be skipped. However, if you still want to have the key visual as a code asset, you may export it as a PNG and insert it in your design file as an image.
@@ -51,21 +58,53 @@ At the moment we support Illustrations only at design time and once you proceed 
 
 ## Currently Not Supported
 
-The following Sketch components are not implemented for code generation yet:
+### Sketch
+  The following Sketch components are not implemented for code generation yet:
 
-- Shapes
-  - Line
-  - Arrow
-  - Star
-  - Polygon
-  - Triangle
-- Vector
-- Pencil
-- Mask
-- Elevation
+  - Shapes
+    - Line
+    - Arrow
+    - Star
+    - Polygon
+    - Triangle
+  - Vector
+  - Pencil
+  - Mask
+  - Elevation
+
+### Figma
+The following Figma components are not implemented for code generation yet:
+
+  - Shapes
+    - Line
+    - Arrow
+    - Polygon
+    - Star
+  - Pen
+  - Pencil
 
 > [!Note]
 > Future releases will include these components.
+
+#### Not supported styles
+
+##### Stroke styles
+Currently not supported stroke styles are:
+- Corner radius
+- Stroke per side
+- Dashed style settings
+  - Dash
+  - Gap
+  - Cap type
+- Join type
+- Mitter angle
+
+##### Effects styles
+Currently not supported effects styles are:
+- Inner shadow
+- Layer blur
+- Background blur
+
 
 ## Non-resizable components
 
