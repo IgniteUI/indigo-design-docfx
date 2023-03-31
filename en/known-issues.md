@@ -8,30 +8,29 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 This topic describes the issues and limitations we have run into or observed when using the Indigo Design Sketch Libraries. Where applicable we will be providing the necessary guidance to avoid the occurence of issues or recover from them once they occur.
 
+## Main Components
+### Figma
+Currently Main Components are skipped by the parser, you can copy a Main Component in the page to make it an instance and now it will be read by the parsers. Using Main Components in your design might occur if you copy directly components from the UI Kit and not load the library and take them from the assets panel.
+
 ## Detached Symbols
 
 As you may have already seen in the other topics detaching or ungrouping symbols usually results in the loss of capability for code generation. However, a few components like the List and the Grid are basically repeaters of items and cells and come in a more generic form that is supposed to be detached to allow you to create the number of items, rows and columns that you would need. As we enhance individual items with functionality in the upcoming versions of the libraries, such updates should propagate easily, however enhancements made to the collection of items i.e. `List/One-line Item List` or `Grid/Comfortable`, for example, will not propagate to the detached instances of these components.
 
-While `Detach from Symbol` is something you may eventually resort to in Sketch, with Adobe XD remember that you can even add/remove layers in instances of a symbol. This is especially useful when content is templatable e.g. in a list item you may want to add a Chip, which is not there in any of the template options.
+While `Detach from Symbol` is something you may eventually resort to in Sketch, with Adobe XD remember that you can even add/remove layers in instances of a symbol. This is especially useful when content is templatable e.g. in a list item you may want to add a Chip, which is not there in any of the template options. And in Figma detaching is less needed and its possible to modify the inner content.
 
-## Getting Invalid Overrides in Sketch
+> [!Note]
+> When detaching component, that component won't receive updates, if the UI Kit is updated or when a library is swapped.
 
-When using nested symbols to customize the look and feel of a Component, we have discovered that sometimes after tweaking overrides deep in the nesting hierarchy and then changing an override above with a different underlying structure, Sketch gets confused and assigns values to this structure that are by no means appropriate for or matching it.
-
-If you run in such a situation, just make sure that you pick the correct value for each on the underlying overrides and leave the Component in a valid state. Otherwise, it will not only reflect an impossible configuration, but will be impossible to comprehend by our code generation engine.
+## Colors
+### Figma
+The UI Kit provides `surface-light` and `surface-dark` colors, and importing these colors in AppBuilder will result in single `Surface` color, which might be light or dark depending on the chosen theme.
 
 ## User input in components
 
 User input values of components which change per scenario are not generated. Some examples of these components would be checkbox (checked state), radio group (selected state), switch, etc.
 
-## Change of Layer Name in Adobe XD
-
-When using nested symbols to customize the look and feel of a Component, we have discovered that sometimes after dragging an alternative symbol to replace the default one, Adobe XD may also change its name e.g. from `🔣 Icon` to `_Overrides/Material Icons/action/account_circle`.
-
-If you run into this type of situation, just make sure to use the original name of the layer to make sure it does not get skipped by the code generation engine.
-
 ## Images and Code Generation
-
+### Sketch
 In Sketch, there are two ways to insert images:
 
 1.  Drag & drop an image onto an artboard
@@ -46,6 +45,7 @@ Images that were created using the second method above and are used as backgroun
 > [!Note]
 > A future release will feature an Image Component that will generate code for responsive images.
 
+### Figma
 #### Crop image size in Figma
 As you already know images are retrieved from the design application as assets. The size of the image is determined in the Figma design. At the moment `CROP` size is not supported.
 
@@ -54,7 +54,7 @@ As you already know images are retrieved from the design application as assets. 
 At the moment we support Illustrations only at design time and once you proceed to generate Angular code from your design, they will be skipped. However, if you still want to have the key visual as a code asset, you may export it as a PNG and insert it in your design file as an image.
 
 > [!Note]
-> A future release will handle Illustrations as SVG files in order to render them correclty with the colors applied as a theme.
+> A future release will handle Illustrations as SVG files in order to render them correctly with the colors applied as a theme.
 
 ## Currently Not Supported
 
@@ -105,7 +105,6 @@ Currently not supported effects styles are:
 - Layer blur
 - Background blur
 
-
 ## Non-resizable components
 
 Some components apply limitation on what size they or their direct children can take.
@@ -126,3 +125,15 @@ Components that are non-resizable include:
   Those items are determined by the parent size and cannot be individually resized.
 
 Our community is active and always welcoming to new ideas.
+
+## Change of Layer Name in Adobe XD
+
+When using nested symbols to customize the look and feel of a Component, we have discovered that sometimes after dragging an alternative symbol to replace the default one, Adobe XD may also change its name e.g. from `🔣 Icon` to `_Overrides/Material Icons/action/account_circle`.
+
+If you run into this type of situation, just make sure to use the original name of the layer to make sure it does not get skipped by the code generation engine.
+
+## Getting Invalid Overrides in Sketch
+
+When using nested symbols to customize the look and feel of a Component, we have discovered that sometimes after tweaking overrides deep in the nesting hierarchy and then changing an override above with a different underlying structure, Sketch gets confused and assigns values to this structure that are by no means appropriate for or matching it.
+
+If you run in such a situation, just make sure that you pick the correct value for each on the underlying overrides and leave the Component in a valid state. Otherwise, it will not only reflect an impossible configuration, but will be impossible to comprehend by our code generation engine.
