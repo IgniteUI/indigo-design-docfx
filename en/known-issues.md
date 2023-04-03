@@ -14,7 +14,7 @@ This topic describes the issues and limitations we have run into or observed whe
 
 As you may have already seen in the other topics detaching or ungrouping symbols usually results in the loss of capability for code generation. However, a few components like the List and the Grid are basically repeaters of items and cells and come in a more generic form that is supposed to be detached to allow you to create the number of items, rows and columns that you would need. As we enhance individual items with functionality in the upcoming versions of the libraries, such updates should propagate easily, however enhancements made to the collection of items i.e. `List/One-line Item List` or `Grid/Comfortable`, for example, will not propagate to the detached instances of these components.
 
-While `Detach from Symbol` is something you may eventually resort to in Sketch, with Adobe XD remember that you can even add/remove layers in instances of a symbol. This is especially useful when content is templatable e.g. in a list item you may want to add a Chip, which is not there in any of the template options. And in Figma detaching is less needed and its possible to modify the inner content.
+While `Detach from Symbol` is something you may eventually resort to in Figma and Sketch, with Adobe XD remember that you can even add/remove layers in instances of a symbol. This is especially useful when content is templatable e.g. in a list item you may want to add a Chip, which is not there in any of the template options.
 
 > [!Note]
 > When detaching component, that component won't receive updates, if the UI Kit is updated or when a library is swapped.
@@ -106,7 +106,8 @@ At the moment we support Illustrations only at design time and once you proceed 
 > A future release will handle Illustrations as SVG files in order to render them correctly with the colors applied as a theme.
 
 #### Not supported elements
-  The following Sketch components are not implemented for code generation yet:
+
+The following Sketch components are not implemented for code generation yet:
   - Shapes
     - Line
     - Arrow
@@ -117,7 +118,9 @@ At the moment we support Illustrations only at design time and once you proceed 
   - Pencil
   - Mask
   - Elevation
+
 #### Getting Invalid Overrides
+
 When using nested symbols to customize the look and feel of a Component, we have discovered that sometimes after tweaking overrides deep in the nesting hierarchy and then changing an override above with a different underlying structure, Sketch gets confused and assigns values to this structure that are by no means appropriate for or matching it.
 
 If you run in such a situation, just make sure that you pick the correct value for each on the underlying overrides and leave the Component in a valid state. Otherwise, it will not only reflect an impossible configuration, but will be impossible to comprehend by our code generation engine.

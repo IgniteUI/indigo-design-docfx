@@ -129,7 +129,7 @@ For example `Grid Features/Column Moving` can be placed on top of a grid to colu
 
 <img class="responsive-img" src="../images/layout_codegen_ext_comps.png" />
 
-Not that all of these grid features cannot be used separately and require a grid to have effect. The same applies to the TimePicker/DatePicker, it needs TimePicker/DatePicker Input in order for it to add features to the related component.(If you'd like to have only DatePicker or TimePicker as a separate component, you may want to use the Calendar)
+Note that all of these grid features cannot be used separately and require a grid to have effect. The same applies to the TimePicker/DatePicker, it needs TimePicker/DatePicker Input in order for it to add features to the related component.(If you'd like to have only DatePicker or TimePicker as a separate component, you may want to use the Calendar)
 
 
 ## Limitations
