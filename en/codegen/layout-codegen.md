@@ -123,6 +123,15 @@ Padding and margin are applied based on the resolved justification type as follo
 When elements have fixed height and or a fixed width, those fixed size values will be added to the generated component CSS.
 Normally the parent of Angular components is responsible for their sizing or resizing at runtime. However, there are design scenarios where the designer wants the component to be a fixed size element when added to the Angular application. Code Generation supports this design scenario.
 
+### Feature components
+In some cases the related component may be outside of the current layer (not necessarily a sibling) and needs to intersects the current layer.
+For example `Grid Features/Column Moving` can be placed on top of a grid to column moving for that grid, as shown bellow:
+
+<img class="responsive-img" src="../images/layout_codegen_ext_comps.png" />
+
+Note that all of these grid features cannot be used separately and require a grid to have effect. The same applies to the TimePicker/DatePicker, it needs TimePicker/DatePicker Input in order for it to add features to the related component.(If you'd like to have only DatePicker or TimePicker as a separate component, you may want to use the Calendar)
+
+
 ## Limitations
 
 ### Sketch
