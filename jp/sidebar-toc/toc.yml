@@ -16,6 +16,13 @@
   new: true
 - name: プラグイン
   href: ../plugins/overview-plugins.md
+  items:
+    - name: Figma
+      href: ../plugins/figma-plugin.md
+    - name: Sketch
+      href: ../plugins/sketch-plugin.md
+    - name: AdobeXD
+      href: ../plugins/xd-plugin.md
 - name: スタイル設定
   href: ../style/styling-overview.md
   updated: true
@@ -245,11 +252,15 @@
       href: ../patterns/tree-grid.md
     - name: User Profile
       href: ../patterns/user-profile.md
-- name: Sketch のレスポンシブ レイアウト
-  href: ../best-layout-practices-sketch.md
-- name: Adobe XD のレスポンシブ レイアウト
-  href: ../best-layout-practices-xd.md
-  new: true
+- name: レイアウトのベスト プラクティス
+  href: ../best-layout-practices.md
+  items:
+    - name: Figma のレスポンシブ レイアウト
+      href: ../best-layout-practices-figma.md
+    - name: Sketch のレスポンシブ レイアウト
+      href: ../best-layout-practices-sketch.md
+    - name: Adobe XD のレスポンシブ レイアウト
+      href: ../best-layout-practices-xd.md
 
 - name: プロトタイプとユーザビリティ テスト
   header: true
