@@ -46,7 +46,7 @@ Or through the direct links below:
 > There is a difference when using the kit as a free Figma user or Pro user - [topic](https://www.infragistics.com/products/appbuilder/help/ui-kits/figma#using-the-kit-as-a-free-figma-user-vs-pro-user)
 
 ### Sketch UI Kit
-Indigo.Design for Sketch offers not one but four library files to its users: one for each of the design languages we support - Material, Bootstrap, Fluent UI, and our very own Indigo. All four libraries support seamless switching between light and dark mode via the [Indigo.Design plugin](sync-themes-plugin.md) and work with any of the predefined or custom color palettes it provides. With this improvement, Sketch users are able to enjoy 100% native look and feel of their components and patterns for the design language of their choice.
+Indigo.Design for Sketch offers not one but four library files to its users: one for each of the design languages we support - Material, Bootstrap, Fluent UI, and our very own Indigo. All four libraries support seamless switching between light and dark mode via the [Indigo.Design plugin](./plugins/sketch-plugin.md) and work with any of the predefined or custom color palettes it provides. With this improvement, Sketch users are able to enjoy 100% native look and feel of their components and patterns for the design language of their choice.
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/four-themes.png" />
 <p style="width: 100%; text-align:center;">Sketch UI Kit Four themes</p>

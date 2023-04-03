@@ -25,7 +25,7 @@ Do you know that with Indigo.Design UI kit for Figma, Sketch and Adobe XD, every
 <img class="responsive-img" src="images/tips2.png" srcset="images/tips2@2x.png 2x" />
 <div class="divider--half"></div>
 ### Endless theming options and styling.
-Use our 6 pre-built themes based on Material, Bootstrap & Fluent with a dark and light version. Or switch to Indigo Theme - inspired by our own design language. If those don't match your app or corporate branding, the theming and styling options let you create a custom theme. [Read more...](sync-themes-plugin.md)
+Use our 6 pre-built themes based on Material, Bootstrap & Fluent with a dark and light version. Or switch to Indigo Theme - inspired by our own design language. If those don't match your app or corporate branding, the theming and styling options let you create a custom theme. [Read more...](./plugins/sketch-plugin.md)
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>

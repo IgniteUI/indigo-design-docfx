@@ -26,7 +26,7 @@ Figma、Sketch および Adobe XD 用の Indigo.Design UI キットでは、作�
 <img class="responsive-img" src="images/tips2.png" srcset="images/tips2@2x.png 2x" />
 <div class="divider--half"></div>
 ### 無限のテーマ オプションとスタイル設定。
-Material、Bootstrap、Fluent に基づいた 6 つのビルド済みテーマを使用し、ダークとライトのバージョンを用意しました。または、独自のデザイン言語に基づいて構築された Indigo テーマに切り替えます。アプリまたは企業のブランディングと一致しない場合は、テーマとスタイル設定オプションでカスタム テーマを作成できます。[詳細はこちらをご覧ください](sync-themes-plugin.md)。
+Material、Bootstrap、Fluent に基づいた 6 つのビルド済みテーマを使用し、ダークとライトのバージョンを用意しました。または、独自のデザイン言語に基づいて構築された Indigo テーマに切り替えます。アプリまたは企業のブランディングと一致しない場合は、テーマとスタイル設定オプションでカスタム テーマを作成できます。[詳細はこちらをご覧ください](./plugins/sketch-plugin.md)。
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
