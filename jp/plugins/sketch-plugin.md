@@ -11,7 +11,7 @@ Indigo.Design Sketch プラグインを使用すると、デザインのテー�
 
 Indigo.Design System を使用して Sketch のデザインを作成したら、プラグインを使用して次の操作を行います。
 
--  Indigo.Design AppBuilder でアプリをすばやく作成します。このアプリは、Sketch デザインの構造に従い、Indigo.Design UI キットのシンボルを Ignite UI の対応するコンポーネントにマッピングします。またこのプラグインは、Figma で使用されている画像を取得し、[`Assets` サポート (英語)](https://www.infragistics.com/community/blogs/b/jason_beres/posts/indigo-design-app-builder-october-release-with-assets-support) を使用して App Builder の下の Assets ライブラリにアップロードします。  
+-  Indigo.Design App Builder でアプリをすばやく作成します。このアプリは、Sketch デザインの構造に従い、Indigo.Design UI キットのシンボルを Ignite UI の対応するコンポーネントにマッピングします。またこのプラグインは、Figma で使用されている画像を取得し、[`Assets` サポート (英語)](https://www.infragistics.com/community/blogs/b/jason_beres/posts/indigo-design-app-builder-october-release-with-assets-support) を使用して App Builder の下の Assets ライブラリにアップロードします。  
 
 - Indigo.Design UI Kit for Sketch を使用する場合は、新しいテーマを作成し、既存のテーマを編集します。`primary`、`secondary`、`error`、`success`、`warn`、`info` および `surface` の配色やブランディングに合わせたタイポグラフィのプロパティの調整ができます。作成したテーマは、デザインからアプリを作成すると、Indigo.Design App Builder に表示されます。
 
@@ -41,7 +41,7 @@ Sketch の `Plugins` メニューの `Indigo.Design` から `Themes` を選択�
 
 ### テーマの新規作成
 
-ブランディングに基づいてテーマをビルドし、テーマ コレクションに追加するには、`[新しいテーマ]` を選択し、カラーやタイポグラフィを必要に応じて調整します。デフォルトの値は、[Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes) の Material Light テーマと同じです。
+ブランディングに基づいてテーマをビルドし、テーマ コレクションに追加するには、`[新しいテーマ]` を選択し、カラーやタイポグラフィを必要に応じて調整します。デフォルトの値は、[Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes) の Material Light テーマと同じです。
 
 <img class="responsive-img" src="../images/Sync_themes_plugin_Start_New_Theme.png" srcset="../images/Sync_themes_plugin_Start_New_Theme@2x.png 2x" />
 

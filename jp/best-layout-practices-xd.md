@@ -1,7 +1,7 @@
 ---
 title: Adobe XD レイアウトのベスト プラクティス - デザイン システム
 _description: Adobe XD でレイアウトの作成のベスト プラクティスおよび Adobe XD とコード生成後の Angular アプリでレスポンシブ動作の結果になるサイズ変更構成のベスト プラクティス。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, AdobeXD to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Adobe XD to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 

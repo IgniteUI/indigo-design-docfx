@@ -1,7 +1,7 @@
 ---
 title: レイアウトの生成 
-_description: Sketch のレイアウトやサイズ変更が生成されるコードと動作に変換される方法について説明します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_description: レイアウトやサイズ変更が生成されるコードと動作に変換される方法について説明します。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Figma, XD, Ignite UI for Angular, Sketch to Angular, Figma to Angular, XD to Angular, Angular デザイン システム, Sketch からのコードのエクスポート, Figma からのコードのエクスポート, エクスポートXD からのコード, Angular 用のデザイン キット, Sketch HTML, Figma to HTML, XD to HTML, Sketch UI キット, Figma UI キット, XD UI キット
 _language: ja
 ---
 

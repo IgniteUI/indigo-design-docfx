@@ -21,7 +21,7 @@
       href: ../plugins/figma-plugin.md
     - name: Sketch
       href: ../plugins/sketch-plugin.md
-    - name: AdobeXD
+    - name: Adobe XD
       href: ../plugins/xd-plugin.md
 - name: スタイル設定
   href: ../style/styling-overview.md
