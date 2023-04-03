@@ -13,12 +13,13 @@
   href: ../creating-artboard-sketch.md
 - name: Creating An Artboard in AdobeXD
   href: ../creating-artboard-adobexd.md
-  new: true
 - name: Plugins
   href: ../plugins/overview-plugins.md
+  new: true
   items:
     - name: Figma
       href: ../plugins/figma-plugin.md
+      new: true
     - name: Sketch
       href: ../plugins/sketch-plugin.md
     - name: AdobeXD
@@ -254,9 +255,11 @@
       href: ../patterns/user-profile.md
 - name: Layouts Best Practices
   href: ../best-layout-practices.md
+  new: true
   items:
     - name: Responsive layouts in Figma
       href: ../best-layout-practices-figma.md
+      new: true
     - name: Responsive layouts in Sketch
       href: ../best-layout-practices-sketch.md
     - name: Responsive layouts in AdobeXD
@@ -281,8 +284,10 @@
   header: true
 - name: Layout Generation
   href: ../codegen/layout-codegen.md
+  updated: true
 
 - name: More Resources
   header: true
 - name: Known Issues
   href: ../known-issues.md
+  updated: true
