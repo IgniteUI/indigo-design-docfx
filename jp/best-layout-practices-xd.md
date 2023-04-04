@@ -1,7 +1,7 @@
 ---
 title: Adobe XD レイアウトのベスト プラクティス - デザイン システム
 _description: Adobe XD でレイアウトの作成のベスト プラクティスおよび Adobe XD とコード生成後の Angular アプリでレスポンシブ動作の結果になるサイズ変更構成のベスト プラクティス。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, AdobeXD to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Adobe XD to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
@@ -12,7 +12,7 @@ _language: ja
 
 ## レイアウト
 このセクションでは、Adobe XD で要素をグループ化して最適な結果を得る方法についてのガイダンスを提供します。 
-Sketch の場合とほとんど同じルールが適用されます。詳細については、[こちら](./best-layout-practices-sketch.md#レイアウト)を参照してください。
+ほとんどの場合、絶対レイアウト規則が適用されます。詳細については、[こちら](./best-layout-practices.md#レイアウト)を参照してください。
 
 ### スタック
 
@@ -30,9 +30,6 @@ Adobe XD が Sketch に提供する追加機能の 1 つに、スタックを使
 <img class="responsive-img" src="./images/stack-column-xd.png" />
 
 パディングとマージンもグループに指定でき、DOM の関連要素の CSS としても生成されます。
-
-## 両端揃えと配置
-Sketch と同じルールが適用されます。詳細については、[こちら](./best-layout-practices-sketch.md#両端揃えと配置)を参照してください。
 
 ## サイズ変更
 

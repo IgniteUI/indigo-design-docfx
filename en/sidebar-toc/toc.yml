@@ -264,7 +264,9 @@
       href: ../best-layout-practices-sketch.md
     - name: Responsive layouts in AdobeXD
       href: ../best-layout-practices-xd.md
-
+- name: How to swap libraries
+  href: ../how-to-swap-libraries.md
+  new: true
 - name: Prototypes & Usability Studies
   header: true
 - name: Creating Your First Prototype
