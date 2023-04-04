@@ -8,6 +8,7 @@
                     "appbuilder/**.md",
                     "components/**.md",
                     "patterns/**.md",
+                    "plugins/**.md",
                     "style/**.md",
                     "sidebar-toc/toc.yml",
                     "toc.yml",

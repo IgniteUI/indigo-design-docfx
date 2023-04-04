@@ -11,7 +11,7 @@ Indigo.Design Sketch プラグインを使用すると、デザインのテー�
 
 Indigo.Design System を使用して Sketch のデザインを作成したら、プラグインを使用して次の操作を行います。
 
--  Indigo.Design AppBuilder でアプリをすばやく作成します。このアプリは、Sketch デザインの構造に従い、Indigo.Design UI  Kit のシンボルを Ignite UI の対応するコンポーネントにマッピングします。プラグインはまた、Sketch で使用されている画像を取得し、[`Assets` サポート (英語)](https://www.infragistics.com/community/blogs/b/jason_beres/posts/indigo-design-app-builder-october-release-with-assets-support) を使用して App Builder の下の Assets ライブラリにアップロードします。 
+-  Indigo.Design AppBuilder でアプリをすばやく作成します。このアプリは、Sketch デザインの構造に従い、Indigo.Design UI キットのシンボルを Ignite UI の対応するコンポーネントにマッピングします。プラグインはまた、Sketch で使用されている画像を取得し、[`Assets` サポート (英語)](https://www.infragistics.com/community/blogs/b/jason_beres/posts/indigo-design-app-builder-october-release-with-assets-support) を使用して App Builder の下の Assets ライブラリにアップロードします。 
 
 - Indigo.Design UI Kit for Sketch を使用する場合は、新しいテーマを作成し、既存のテーマを編集します。ユーザーは、ブランドの特性に応じて、`primary`、`secondary`、`error`、`success`、`warn`、`info` および `surface` の色およびタイポグラフィのプロパティを調整できます。作成したテーマは、デザインからアプリを作成すると、Ignite UI App Builder に表示されます。
 

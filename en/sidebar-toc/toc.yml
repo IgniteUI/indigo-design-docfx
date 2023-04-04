@@ -13,12 +13,13 @@
   href: ../creating-artboard-sketch.md
 - name: Creating An Artboard in AdobeXD
   href: ../creating-artboard-adobexd.md
-  new: true
 - name: Plugins
   href: ../plugins/overview-plugins.md
+  new: true
   items:
     - name: Figma
       href: ../plugins/figma-plugin.md
+      new: true
     - name: Sketch
       href: ../plugins/sketch-plugin.md
     - name: AdobeXD
@@ -252,16 +253,20 @@
       href: ../patterns/tree-grid.md
     - name: User Profile
       href: ../patterns/user-profile.md
-- name: Responsive layouts generation
+- name: Layouts Best Practices
   href: ../best-layout-practices.md
+  new: true
   items:
     - name: Responsive layouts in Figma
       href: ../best-layout-practices-figma.md
+      new: true
     - name: Responsive layouts in Sketch
       href: ../best-layout-practices-sketch.md
     - name: Responsive layouts in AdobeXD
       href: ../best-layout-practices-xd.md
-
+- name: How to swap libraries
+  href: ../how-to-swap-libraries.md
+  new: true
 - name: Prototypes & Usability Studies
   header: true
 - name: Creating Your First Prototype
@@ -281,8 +286,10 @@
   header: true
 - name: Layout Generation
   href: ../codegen/layout-codegen.md
+  updated: true
 
 - name: More Resources
   header: true
 - name: Known Issues
   href: ../known-issues.md
+  updated: true
