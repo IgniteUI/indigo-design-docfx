@@ -1,6 +1,6 @@
 # Indigo Design Documentation
 
-This project uses Node.js, DocFX and Gulp to generate a documentation for Indigo Design.
+This project uses Node.js, DocFX and Gulp to generate a documentation for Indigo.Design.
 
 ## Prerequisites
 
@@ -30,10 +30,6 @@ If you are using yarn, run:
 ```bash
 yarn install
 ```
-
-## Command-Line Shell Permissions
-
-Start your command-line shell (CMD, PowerShell, Bash, etc.) with elevated permissions ("Run As Administrator" in Windows). This is required by Chocolatey, for further information read point 1 from [here](https://chocolatey.org/security#overall).
 
 ## Starting the Development Server
 
