@@ -1,6 +1,6 @@
 # Indigo Design Documentation
 
-This project uses Node.js, DocFX and Gulp to generate a documentation for Indigo Design.
+This project uses Node.js, DocFX and Gulp to generate a documentation for Indigo.Design.
 
 ## Prerequisites
 
@@ -11,41 +11,25 @@ This project uses Node.js, DocFX and Gulp to generate a documentation for Indigo
 
 ### Installing DocFX
 
-In macOS You can use _brew_ to install the latest version of DocFX:
+To install docfx restore it as a dotnet tool:
 
-```
-brew install docfx
-```
-
-If _brew_ is missing on your environment, go ahead and install it with:
-
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-```
-
-For Windows based platforms use [_chocolatey_](https://chocolatey.org/):
-
-```
-choco install docfx
+```bash
+dotnet tool restore
 ```
 
 ### Installing the Node.js dependencies:
 
 If you are using npm, run:
 
-```
+```bash
 npm install
 ```
 
 If you are using yarn, run:
 
-```
+```bash
 yarn install
 ```
-
-## Command-Line Shell Permissions
-
-Start your command-line shell (CMD, PowerShell, Bash, etc.) with elevated permissions ("Run As Administrator" in Windows). This is required by Chocolatey, for further information read point 1 from [here](https://chocolatey.org/security#overall).
 
 ## Starting the Development Server
 
@@ -63,13 +47,13 @@ To start the server, run:
 
 for English:
 
-```
+```bash
 npm start -- --lang en
 ```
 
 for Japansese:
 
-```
+```bash
 npm start -- --lang jp
 ```
 
@@ -81,13 +65,13 @@ Note: if you get an error when starting the server, it could be related to this 
 
 For instance, for English:
 
-```
+```bash
 npm run build -- --lang en
 ```
 
 For the Japanese version:
 
-```
+```bash
 npm run build -- --lang jp
 ```
 
@@ -98,12 +82,12 @@ For instance, for English, the static site lives under `en/_site`;
 
 The build command is very similar to the beforementioned step. To build the site for staging, run:
 
-```
+```bash
 npm run build-staging --lang en
 ```
 
 The build command for staging is:
 
-```
+```bash
 npm run build-production --lang jp
 ```

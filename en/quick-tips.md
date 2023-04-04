@@ -15,7 +15,7 @@ _keywords: Ignite UI for Angular, Angular, Native Angular Components Suite, Nati
 <div class="divider--half"></div>
 
 ### Well-crafted UI Kits for Figma, Sketch and Adobe XD.
-Do you know that with Indigo.Design UI kit for Figma, Sketch and Adobe XD, everything you create uses a design system? All styling specs and themes match real Angular components. You get 400+ icons, special colors palettes, 17 customizable illustrations, etc. [Read more](style/styling-overview.md)
+Do you know that with Indigo.Design UI kit for Figma, Sketch and Adobe XD, everything you create uses a design system? All styling specs and themes match real Angular components. You get 400+ icons, special colors palettes, 17 customizable illustrations, etc. [Read more](./style/styling-overview.md)
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -24,6 +24,7 @@ Do you know that with Indigo.Design UI kit for Figma, Sketch and Adobe XD, every
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/tips2.png" srcset="images/tips2@2x.png 2x" />
 <div class="divider--half"></div>
+
 ### Endless theming options and styling.
 Use our 6 pre-built themes based on Material, Bootstrap & Fluent with a dark and light version. Or switch to Indigo Theme - inspired by our own design language. If those don't match your app or corporate branding, the theming and styling options let you create a custom theme. [Read more...](./plugins/sketch-plugin.md)
 
@@ -34,6 +35,7 @@ Use our 6 pre-built themes based on Material, Bootstrap & Fluent with a dark and
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/tips3.png" srcset="images/tips3@2x.png 2x" />
 <div class="divider--half"></div>
+
 ### With interactive prototyping and user testing functionality. 
 Create interactive prototypes with Indigo.Design and perform remote user testing with real users on any device or platform. Get user insights, simplified collaboration with stakeholders, in-depth analytics on users’ behavior, and video and audio recordings of the user testing journey. [Read more...](prototyping/creating-a-prototype.md)
 
@@ -44,6 +46,7 @@ Create interactive prototypes with Indigo.Design and perform remote user testing
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/tips4.png" srcset="images/tips4@2x.png 2x" />
 <div class="divider--half"></div>
+
 ### Publish your designs as a web app.
 Use the “Create app” option in your plugin to translate all the UI kit components in your design into code components, and publish your app. Continue to extend the app using our web-based WYSIWYG App Builder and your development team will be able to generate enterprise-ready Angular code. [Read more...](https://www.infragistics.com/products/appbuilder/docs/app-builder-overview)
 
