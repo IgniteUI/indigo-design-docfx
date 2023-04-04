@@ -13,6 +13,9 @@
   href: ../creating-artboard-sketch.md
 - name: Creating An Artboard in AdobeXD
   href: ../creating-artboard-adobexd.md
+- name: Creating A Frame in Figma
+  href: ../creating-a-frame-in-figma.md
+  new: true
 - name: Plugins
   href: ../plugins/overview-plugins.md
   new: true
