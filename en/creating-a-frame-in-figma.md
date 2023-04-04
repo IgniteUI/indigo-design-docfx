@@ -6,7 +6,7 @@ _keywords: Design Systems, UI Kits, Figma
 
 # Creating Your First Frame in Figma
 
-At the end of this topic, you'll have a Figma Frame for a registration screen using the Indigo.Design System. If you use Adobe XD for design, then jump to [this topic](creating-artboard-adobexd). If you use Sketch for design, then jump to [this topic](creating-artboard-sketch).
+At the end of this topic, you'll have a Figma Frame for a registration screen using the Indigo.Design System. If you use Adobe XD for design, then jump to [this topic](creating-artboard-adobexd.md). If you use Sketch for design, then jump to [this topic](creating-artboard-sketch.md).
 
 ![Getting Started](images/figma/getting-started-figma1.png)
 <p style="text-align:center;">Getting Started with Figma</p>
