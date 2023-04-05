@@ -1,12 +1,12 @@
 ---
 title: Creating An Artboard in Sketch
-_description: How to Sketch Artboard for a registration screen using Indigo Design Libraries.
+_description: How to create a Sketch Artboard for a registration screen using Indigo Design Libraries.
 _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 # Creating Your First Artboard in Sketch
 
-At the end of this topic you'll have a Sketch Artboard for a registration screen using the **Indigo.Design System**. If you use Adobe XD for design then jump to [this topic](creating-artboard-adobexd.md).
+At the end of this topic you'll have a Sketch Artboard for a registration screen using the **Indigo.Design System**. If you use Adobe XD for design, then jump to [this topic](creating-artboard-adobexd.md). If you use Figma for design, then jump to [this topic](creating-a-frame-in-figma.md).
 
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/getting-started-sketch7.png" srcset="images/getting-started-sketch7@2x.png 2x" />
