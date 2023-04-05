@@ -1,10 +1,10 @@
 ---
-title: Creating Your First Frame in Figma
-_description: How to create a frame in Figma.
-_keywords: Design Systems, UI Kits, Figma
+title: Creating а Frame in Figma
+_description: How to create a Figma Frame for a registration screen using Indigo Design Libraries.
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
-# Creating Your First Frame in Figma
+# Creating а Frame in Figma
 
 At the end of this topic, you'll have a Figma Frame for a registration screen using the Indigo.Design System. If you use Adobe XD for design, then jump to [this topic](creating-artboard-adobexd.md). If you use Sketch for design, then jump to [this topic](creating-artboard-sketch.md).
 
