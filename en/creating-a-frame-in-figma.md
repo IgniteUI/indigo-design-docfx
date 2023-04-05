@@ -1,6 +1,6 @@
 ---
 title: Creating Your First Frame in Figma
-_description: How to create a frame with Figma UI Tool.
+_description: How to create a frame in Figma.
 _keywords: Design Systems, UI Kits, Figma
 ---
 
