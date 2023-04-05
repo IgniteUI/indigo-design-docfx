@@ -211,6 +211,7 @@ These are the steps to recreate the screen in the example.
 
 Related topics:
 
+- [Creating A Frame in Figma](creating-a-frame-in-figma.md)
 - [Creating Your First Artboard in Adobe XD](creating-artboard-adobexd.md)
 - [Button](components/button.md)
 - [Input](components/input.md)

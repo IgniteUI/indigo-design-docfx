@@ -201,6 +201,7 @@ Select the text layers, inputs, button and white rectangle, and group them. The 
 
 Related topics:
 
+- [Creating A Frame in Figma](creating-a-frame-in-figma.md)
 - [Creating Your First Artboard in Sketch](creating-artboard-sketch.md)
 - [Button](components/button.md)
 - [Input](components/input.md)
