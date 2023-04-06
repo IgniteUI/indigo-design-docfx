@@ -20,7 +20,7 @@ The Badge can carry different types of content such as a number or an icon.
 
 ## States
 
-The Badge can be used in one of the following preset color combinations to draw attention: **Default**, Info, Success, Warn, and Error.
+The Badge can be used in one of the following preset color combinations to draw attention: **Idle**, Info, Success, Warn, and Error.
 
 <img class="responsive-img" src="../images/badge_default.png" srcset="../images/badge_default@2x.png 2x" />
 <img class="responsive-img" src="../images/badge_info.png" srcset="../images/badge_info@2x.png 2x" />
