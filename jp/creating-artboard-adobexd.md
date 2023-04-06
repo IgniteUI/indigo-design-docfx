@@ -5,9 +5,9 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-# Adobe XD で最初のアートボードを作成する
+# Adobe XD ではじめてのアートボードを作成
 
-このトピックの最後に、**Indigo.Design システム**を使用した登録画面用の Adobe XD アートボードがあります。デザインに Sketch を使用する場合は、[このトピック](creating-artboard-sketch.md)をご覧ください。
+このトピックの最後に、**Indigo.Design システム**を使用した登録画面用の Adobe XD アートボードがあります。デザインに Sketch を使用する場合は、[このトピック](creating-artboard-sketch.md)をご覧ください。デザインに Figma を使用している場合は、[このトピック](creating-a-frame-in-figma.md)をご覧ください。
 
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/getting-startedxd7.png" srcset="images/getting-startedxd7@2x.png 2x" />
@@ -202,6 +202,7 @@ Adobe XD を開き、iPhone 12 Pro Max を選択します。これにより、�
 
 関連トピック:
 
+- [Figma でフレームを作成](creating-a-frame-in-figma.md)
 - [Sketch ではじめてのアートボードを作成](creating-artboard-sketch.md)
 - [Button](components/button.md)
 - [Input](components/input.md)

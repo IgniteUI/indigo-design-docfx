@@ -9,16 +9,20 @@
   new: true
 - name: デザイン システムの使用
   header: true
+- name: Figma でフレームを作成
+  href: ../creating-a-frame-in-figma.md
+  new: true
 - name: Sketch でアートボードを作成
   href: ../creating-artboard-sketch.md
 - name: Adobe XD でアートボードを作成
   href: ../creating-artboard-adobexd.md
-  new: true
 - name: プラグイン
   href: ../plugins/overview-plugins.md
+  new: true
   items:
     - name: Figma
       href: ../plugins/figma-plugin.md
+      new: true
     - name: Sketch
       href: ../plugins/sketch-plugin.md
     - name: Adobe XD
@@ -254,14 +258,18 @@
       href: ../patterns/user-profile.md
 - name: レイアウトのベスト プラクティス
   href: ../best-layout-practices.md
+  new: true
   items:
     - name: Figma のレスポンシブ レイアウト
       href: ../best-layout-practices-figma.md
+      new: true
     - name: Sketch のレスポンシブ レイアウト
       href: ../best-layout-practices-sketch.md
     - name: Adobe XD のレスポンシブ レイアウト
       href: ../best-layout-practices-xd.md
-
+- name: ライブラリを入れ替える方法
+  href: ../how-to-swap-libraries.md
+  new: true
 - name: プロトタイプとユーザビリティ テスト
   header: true
 - name: はじめてのプロトタイプ作成
@@ -281,8 +289,10 @@
   header: true
 - name: レイアウトの生成
   href: ../codegen/layout-codegen.md
+  updated: true
 
 - name: その他のリソース
   header: true
 - name: 既知の問題
   href: ../known-issues.md
+  updated: true
