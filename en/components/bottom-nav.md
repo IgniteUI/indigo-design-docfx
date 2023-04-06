@@ -14,7 +14,7 @@ Use the Bottom Navigation Component to implement application-level navigation by
 
 ## Items Amount
 
-In Figma, the Bottom Navigation uses auto layout allowing it to adjust accordingly when one or more of its items are hidden from the layers panel. In Sketch, the Bottom Navigation uses a smart layout allowing it to adjust accordingly when one or more of its items are set to ~No Symbol. In Adobe XD, you can delete the unused items and the layout will adjust through the use of Stacks.  Bear in mind that the maximum number of items is limited to 5 and if you need to design application-level navigation with more items or views, consider using the [Navigation Drawer](nav-drawer.md) instead.
+In Figma, the Bottom Navigation uses auto layout allowing it to adjust accordingly when one or more of its items are hidden from the layers panel. In Sketch, the Bottom Navigation uses a smart layout allowing it to adjust accordingly when one or more of its items are set to ~No Symbol. In Adobe XD, you can delete the unused items and the layout will adjust through the use of Stacks. Bear in mind that the maximum number of items is limited to 5 and if you need to design application-level navigation with more items or views, consider using the [Navigation Drawer](nav-drawer.md) instead.
 
 <img class="responsive-img" src="../images/bottom-nav_items2.png" srcset="../images/bottom-nav_items2@2x.png 2x" />
 
