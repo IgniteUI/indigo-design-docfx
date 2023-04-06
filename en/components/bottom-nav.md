@@ -26,7 +26,7 @@ In Figma, the Bottom Navigation uses auto layout allowing it to adjust according
 
 ## Item State
 
-The Bottom Navigation consists of items that support **Active**, Inactive and Disabled states. In Figma, the items are nested .Base components inside the main Bottom Navigation component. To make changes, you have to select one or more items and modify them through the properties panel. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.  the  In a Bottom Navigation there is always one Active item, and an arbitrary number of Inactive and Disabled ones.
+The Bottom Navigation consists of items that support **Active**, Inactive and Disabled states. In Figma, these items are nested .Base components inside the main Bottom Navigation component. To make changes, you have to select one or more items and modify their State through the Properties panel. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In a Bottom Navigation there is always one Active item, and an arbitrary number of Inactive and Disabled ones.
 
 <img class="responsive-img" src="../images/bottom-nav_item_state.png" srcset="../images/bottom-nav_item_state@2x.png 2x" />
 
