@@ -6,7 +6,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 
 # Sketch ではじめてのアートボードを作成
 
-このトピックは、**Indigo.Design システム**を使用して登録画面の Sketch アートボードを作成する方法を紹介します。デザインに Adobe XD を使用している場合は、[このトピック](creating-artboard-adobexd.md)をご覧ください。
+このトピックは、**Indigo.Design システム**を使用して登録画面の Sketch アートボードを作成する方法を紹介します。デザインに Adobe XD を使用している場合は、[このトピック](creating-artboard-adobexd.md)をご覧ください。デザインに Figma を使用している場合は、[このトピック](creating-a-frame-in-figma.md)をご覧ください。
 
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/getting-started-sketch7.png" srcset="images/getting-started-sketch7@2x.png 2x" />
@@ -211,6 +211,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 
 関連トピック:
 
+- [Figma でフレームを作成](creating-a-frame-in-figma.md)
 - [Adobe XD ではじめてのアートボードを作成](creating-artboard-adobexd.md)
 - [Button](components/button.md)
 - [Input](components/input.md)
