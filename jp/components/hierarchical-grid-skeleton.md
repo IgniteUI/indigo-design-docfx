@@ -7,7 +7,7 @@ _language: ja
 
 # Skeleton Hierarchical Grid (スケルトン階層グリッド)
 
-Skeleton Hierarchical Grid を使用して、標準の情報と同じタイプの情報をレイアウトしますが、現時点でデータが存在しない場合のアプリケーションの状態も示します。 たとえば、データがリモート データ ソースから読み込まれる際、接続が不足しているか、時間がかかる場合などです。Skeleton Hierarchical Grid は、既知のレイアウトの [Hierarchical Grid](hierarchical-grid.md) を視覚的に表したものですが、表示するデータはありません。
+Skeleton Hierarchical Grid を使用して、標準の情報と同じタイプの情報をレイアウトしますが、現時点でデータが存在しない場合のアプリケーションの状態も示します。たとえば、データがリモート データ ソースから読み込まれる際、接続が不足しているか、時間がかかる場合などです。Skeleton Hierarchical Grid は、既知のレイアウトの [Hierarchical Grid](hierarchical-grid.md) を視覚的に表したものですが、表示するデータはありません。
 
 ## Skeleton Hierarchical Grid のデモ
 
