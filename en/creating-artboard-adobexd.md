@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Adobe XD, Ignite UI for An
 
 # Creating Your First Artboard in Adobe XD
 
-At the end of this topic you'll have an Adobe XD Artboard for a registration screen using the **Indigo.Design System**. If you use Sketch for design then jump to [this topic](creating-artboard-sketch.md).
+At the end of this topic you'll have an Adobe XD Artboard for a registration screen using the **Indigo.Design System**. If you use Sketch for design, then jump to [this topic](creating-artboard-sketch.md). If you use Figma for design, then jump to [this topic](creating-a-frame-in-figma.md).
 
 <div class="divider--half"></div>
 <img class="responsive-img" src="images/getting-startedxd7.png" srcset="images/getting-startedxd7@2x.png 2x" />
@@ -201,6 +201,7 @@ Select the text layers, inputs, button and white rectangle, and group them. The 
 
 Related topics:
 
+- [Creating A Frame in Figma](creating-a-frame-in-figma.md)
 - [Creating Your First Artboard in Sketch](creating-artboard-sketch.md)
 - [Button](components/button.md)
 - [Input](components/input.md)
