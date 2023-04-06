@@ -41,8 +41,6 @@ You can create a `.env` file under the root of the project and set `NODE_ENV`, f
 NODE_ENV=development
 ```
 
-Additionally, you can configure the URLs for all three environments `development`, `staging`, and `production` by editing the 'node_modules/igniteui-docfx-template/post-processors/PostProcessors/EnvironmentVariables/preconfig.json' file and setting the respective URLs in the variables object.
-
 To start the server, run:
 
 for English:
@@ -58,8 +56,6 @@ npm start -- --lang jp
 ```
 
 The command takes an adittional argument --lang [ en | jp ] to serve either the English or Japanese version.
-
-Note: if you get an error when starting the server, it could be related to this [bug](https://github.com/IgniteUI/igniteui-docfx/issues/735). Please run `choco install docfx --version 2.26.4.0 --force` for a working project.
 
 ## Building the Static Site
 
