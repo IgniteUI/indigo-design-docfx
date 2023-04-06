@@ -26,13 +26,13 @@ In Figma, the Bottom Navigation uses auto layout allowing it to adjust according
 
 ## Item State
 
-The Bottom Navigation consists of items that support **Active**, Inactive and Disabled states. In Figma, these items are nested .Base components inside the main Bottom Navigation component. To make changes, you have to select one or more items and modify their State through the Properties panel. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In a Bottom Navigation there is always one Active item, and an arbitrary number of Inactive and Disabled ones.
+The Bottom Navigation consists of items that support **Active**, Inactive and Disabled states. In Figma, these items are nested '.Base components' inside the main Bottom Navigation component. To make changes, you have to select one or more items and modify their 'State' through the Properties panel. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In a Bottom Navigation there is always one Active item, and an arbitrary number of Inactive and Disabled ones.
 
 <img class="responsive-img" src="../images/bottom-nav_item_state.png" srcset="../images/bottom-nav_item_state@2x.png 2x" />
 
 ## Item Content Template
 
-The Bottom Navigation items come as a combination of icon and text by default. In Figma, you can switch on/off the label using the boolean operation from the properties panel, once one or multiple items are selected. In Sketch, the smart layout rules applied to the item content template lets you remove the text label and have an icon-only item when you set the label to ~No Symbol. In Adobe XD, the content is in a Stack and you can achieve the same by deleting the label layer when it is not needed. 
+The Bottom Navigation items come as a combination of icon and text by default. In Figma, you can switch on/off the label using the boolean operation from the Properties panel, once one or multiple items are selected. In Sketch, the smart layout rules applied to the item content template lets you remove the text label and have an icon-only item when you set the label to ~No Symbol. In Adobe XD, the content is in a Stack and you can achieve the same by deleting the label layer when it is not needed. 
 
 <img class="responsive-img" src="../images/bottom-nav_items3_icons.png" srcset="../images/bottom-nav_items3_icons@2x.png 2x" />
 
