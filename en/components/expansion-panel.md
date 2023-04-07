@@ -15,17 +15,17 @@ The Expansion Panel is visually identical to the [Ignite UI for Angular Expansio
 
 ## Header State
 
-The Expansion Panel's Header comes in **Active** and Disabled state. You can switch between them in Overrides panel in Sketch and from the States section in the right panel of Adobe XD.
+The Expansion Panel's Header comes in **Active** and Disabled state. You can switch between them using the Disabled boolean operation in Figma, using the Overrides panel in Sketch and from the States section in the right panel of Adobe XD.
 
 <img class="responsive-img" src="../images/expansion_panel_active.png" srcset="../images/expansion_panel_active@2x.png 2x" />
-`active`
+`Active`
 
 <img class="responsive-img" src="../images/expansion_panel_disabled.png" srcset="../images/expansion_panel_disabled@2x.png 2x" />
-`disabled`
+`Disabled`
 
 ## Header Layout
 
-The Expansion Panel's Header Layout consists of Left Expansion Panel Icon, Content including Title and Description, and Right Expansion Panel Icon, which by default is set to ~No Symbol in Sketch and is hidden in Adobe XD. The Left Expansion Panel Icon and the Content are in a smart layout in Sketch and form a Stack in Adobe XD, meaning that if the Icon is hidden, the Content will automatically shift to the left. However, if you do so, remember to make the Right Expansion Panel Icon visible and set the left one to ~No Symbol in Sketch or delete it in Adobe XD.
+The Expansion Panel's Header Layout consists of Left Expansion Panel Icon, Content including Title and Description, and Right Expansion Panel Icon. In Figma there are Icon and Description properties, which let you modify the layout. By default the Right Expansion Panel Icon is set to ~No Symbol in Sketch and is hidden in Adobe XD. The Left Expansion Panel Icon and the Content are in a smart layout in Sketch and form a Stack in Adobe XD, meaning that if the Icon is hidden, the Content will automatically shift to the left. However, if you do so, remember to make the Right Expansion Panel Icon visible and set the left one to ~No Symbol in Sketch or delete it in Adobe XD.
 
 <img class="responsive-img" src="../images/expansion_panel_header1.png" srcset="../images/expansion_panel_header1@2x.png 2x" />
 <img class="responsive-img" src="../images/expansion_panel_header2.png" srcset="../images/expansion_panel_header2@2x.png 2x" />
