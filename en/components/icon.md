@@ -1,12 +1,12 @@
 ---
 title: Icon - Design System Component
 _description: The Icon Component Symbol is used to provide subtle graphical indications to the user that also may trigger an interaction. 
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
 ---
 
 # Icon
 
-Use the Icon Component to provide subtle graphical information to the user that, in some cases, may also trigger simple interactions such as liking a product, saving an article for later, etc. You may choose between the already provided [Material Icons](../style/material-icons.md) or add the ones you need to the `🎨 Material Icons` page in the **Indigo.Design System**. The Icon is visually identical to the [Ignite UI for Angular Icon Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/icon.html)
+Use the Icon Component to provide subtle graphical information to the user that, in some cases, may also trigger simple interactions such as liking a product, saving an article for later, etc. You may choose between the already provided [Material Icons](../style/material-icons.md) or add the ones you need to the `Icons` page in Figma or `🎨 Material Icons` page in Sketch in the **Indigo.Design System** and the only condition here to see your icon is that it needs to be a component or symbol. We highly recommend being cautious when selecting an icon to add to the kit, try to be consistent to provide best visual coherence between them. The Icon is visually identical to the [Ignite UI for Angular Icon Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/icon.html)
 
 ## Icon Demo
 
