@@ -21,7 +21,7 @@ The Button Group supports two layout directions: horizontal, where items are lai
 
 ## Buttons Amount
 
-In Figma, you should hide the unnecessary nested buttons from the layers panel, which will automatically adjust the layout for you. In Sketch, the Button Group uses a smart layout allowing it to adjust accordingly when you choose the exact amount of buttons you need and hide the extra ones by setting them to ~No Symbol from the overrides panel. In Adobe XD you can achieve the same by deleting the unnecessary layers with buttons, which will automatically adjust the layout for you. 
+In Figma, the Button Group uses an auto layout allowing it to adjust accordingly when you choose the exact amount of buttons you need and hide the extra nested ones in the layers panel. In Sketch, the Button Group uses a smart layout similar to Figma and you can hide the unnecessary buttons by setting them to ~No Symbol from the overrides panel. In Adobe XD you can achieve the same by deleting the unnecessary layers with buttons, which will automatically adjust the layout for you. 
 
 <img class="responsive-img" src="../images/button-group_amount.png" srcset="../images/button-group_amount@2x.png 2x" />
 
