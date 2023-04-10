@@ -14,20 +14,20 @@ Use the Navigation Drawer Component to implement application-level navigation by
 
 ## Type
 
-The Navigation Drawer supports a **default** type with icon and label for each item and a mini type with icons only. If your design contains five or less items/views, you may want to consider using a [Bottom Navigation](bottom-nav.md) instead.
+The Navigation Drawer supports a **Default** type with icon and label for each item and a Mini type with icons only. If your design contains five or less items/views, you may want to consider using a [Bottom Navigation](bottom-nav.md) instead.
 
 <img class="responsive-img" src="../images/nav-drawer_default.png" srcset="../images/nav-drawer_default@2x.png 2x" />
 <img class="responsive-img" src="../images/nav-drawer_mini.png" srcset="../images/nav-drawer_mini@2x.png 2x" />
 
 ## Items
 
-The Navigation Drawer can show up to 21 Items in Sketch that can be reduced by setting the unnecessary ones to ~No Symbol from the overrides panel and thanks to the smart layout the rest will adjust automatically. In Adobe XD if you need fewer items, simply delete the unnecessary ones. Unlike in Sketch, you can have more than 21 items by duplicating existing ones and even rearrange their order by dragging them around. At the end of any of these manipulations, the layout will be adjusted from the Stack applied to the collection of items.
+The Navigation Drawer can show up to 21 Items. In Figma, you can reduce the amount of visible items by hiding them from the layers panel and the layout will adjust itself accordingly thanks to the added auto layout. In Sketch that can be achieved by setting the unnecessary ones to ~No Symbol from the overrides panel and thanks to the smart layout the rest will adjust automatically. In Adobe XD if you need fewer items, simply delete the unnecessary ones. Unlike in Figma and Sketch, where you need to detach the component and duplicate one or more existing items, in Adobe XD you can have more than 21 items by duplicating existing ones and even rearrange their order by dragging them around. At the end of any of these manipulations, the layout will be adjusted from the Stack applied to the collection of items.
 
 <img class="responsive-img" src="../images/nav-drawer_default.png" srcset="../images/nav-drawer_default@2x.png 2x" />
 
 ## Item State
 
-Every Navigation Drawer Item comes with a State which can be Active, Inactive or Hover. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In a Navigation Drawer, only one Item can be Active to indicate the view that will be shown on the rest of the screen.
+Every Navigation Drawer Item comes with a State which can be Active, Inactive or Hover. In Figma, you can go into the nested Navigation Drawer Items and choose the desired state from the State property. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In a Navigation Drawer, only one Item can be Active to indicate the view that will be shown on the rest of the screen.
 
 <img class="responsive-img" src="../images/nav-drawer_active.png" srcset="../images/nav-drawer_active@2x.png 2x" />
 <img class="responsive-img" src="../images/nav-drawer_inactive.png" srcset="../images/nav-drawer_inactive@2x.png 2x" />
