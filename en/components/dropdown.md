@@ -1,7 +1,7 @@
 ---
 title: Dropdown - Design System Component
 _description: The Dropdown Component Symbol allows selection of a single item from a collection.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
 ---
 
 # Dropdown
@@ -14,7 +14,7 @@ Use the Dropdown Component to let the user select an item from a collection that
 
 ## Display Density
 
-The Dropdown comes in three display density variants: comfortable, cosy, and compact.
+The Dropdown comes in three display density variants: Comfortable, Cosy, and Compact.
 
 <img class="responsive-img" src="../images/dropdown_comfortable.png" srcset="../images/dropdown_comfortable@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_cosy.png" srcset="../images/dropdown_cosy@2x.png 2x" />
@@ -29,13 +29,14 @@ The Dropdown supports two types of items header and item. Through headers it is 
 
 ## Item States
 
-The Dropdown items support five different states: Disabled, **Idle**, Focused, Selected, and Selected&focused. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
+The Dropdown items support six different states: **Idle**, Disabled, Focused, Selected, Selected&Focused and Selected&Disabled. In Figma the states are different variants that can be changed from the `State` property. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
-<img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_focused.png" srcset="../images/dropdown_item_focused@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_selected_disabled.png" srcset="../images/dropdown_item_selected_disabled@2x.png 2x" />
 
 ## Item Layout Template
 
