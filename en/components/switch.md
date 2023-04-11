@@ -1,7 +1,7 @@
 ---
 title: Switch - Design System Component
 _description: The Switch Component Symbol is used to allow the user to mark a selection.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
 ---
 
 # Switch
@@ -20,14 +20,14 @@ The Switch can be inserted in an enabled or disabled state.
 
 ## Layout Template
 
-In Sketch, the Switch supports label position variants where the Switch label is placed after or before the Switch element. In Adobe XD, we are using Stacks to allow you to change the label and switch positions at design time simply by dragging it to the left or right of the switch visual.
+In Figma and Sketch, the Switch supports label position variants where the Switch label is placed after or before the Switch element. In Adobe XD, we are using Stacks to allow you to change the label and switch positions at design time simply by dragging it to the left or right of the switch visual.
 
 <img class="responsive-img" src="../images/switch_label-before.png" srcset="../images/switch_label-before@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_label-after.png" srcset="../images/switch_label-after@2x.png 2x" />
 
 ## State
 
-The Switch provides **on** and off selection states. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
+The Switch provides **on** and **off** selection states. In Figma, you can select the properties from the right sidebar. In Sketch, this is achieved with `Symbol Overrides,` while in Adobe XD, we are using the `Component States` paradigm to let you easily switch between states.
 
 <img class="responsive-img" src="../images/switch_on.png" srcset="../images/switch_on@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_on_disabled.png" srcset="../images/switch_on_disabled@2x.png 2x" />
@@ -36,13 +36,13 @@ The Switch provides **on** and off selection states. In Sketch this is achieved 
 
 ## Styling
 
-The Switch comes with styling flexibility through the available options for the thumb and track colors, as well as changing the label text color. The alpha value of the track is fixed to achieve a semi-transparent look no matter what color is used and can only be adjusted globally through the `Symbol Master` that can be found on the 🧩 Components page or artboard in the Indigo.Design library.
+The Switch comes with styling flexibility through the available options for the Thumb and Track colors, as well as changing the Label text color.
 
 <img class="responsive-img" src="../images/switch_styling.png" srcset="../images/switch_styling@2x.png 2x" />
 
 ## Usage
 
-Use the same or very similar colors for the Switch thumb and track.
+Use the same or very similar colors for the Switch Thumb and Track.
 
 | Do                                                                             | Don't                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
