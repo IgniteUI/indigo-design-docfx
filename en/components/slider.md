@@ -26,7 +26,7 @@ The Slider offers a variant with one thumb for selecting a single value and with
 
 ## State
 
-The Slider supports **enabled** and disabled states, reflecting the possibility to change the value(s). In Sketch, we have different symbols for the different states, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
+The Slider supports **Enabled** and Disabled states, reflecting the possibility to change the value(s). In Figma, you can switch between the two using the Disabled boolean property in the properties panel on the right. In Sketch, we have different symbols for the different states. In Adobe XD, we are using the `Component States` paradigm to let you easily switch between states.
 
 <img class="responsive-img" src="../images/slider_enabled.png" srcset="../images/slider_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/slider_disabled.png" srcset="../images/slider_disabled@2x.png 2x" />
@@ -39,7 +39,7 @@ The Slider comes with styling flexibility through the options available for the 
 
 ## Usage
 
-The Slider track color should always have a higher emphasis than the track base color. Both single value and range Sliders should be consistently styled i.e. the label background should match the thumb and track color.
+The Slider track color should always have a higher emphasis than the track base color. Both single value and range Sliders should be consistently styled i.e. the thumb color should match the track color.
 
 | Do                            | Don't                           |
 | ----------------------------- | ------------------------------- |
