@@ -14,37 +14,36 @@ Use the Input component to collect user data such as strings, numbers fitting va
 
 ## Types
 
-The Input lets you choose a preset from three options: simple, hint which comes with a helper text, and searchbar.
+The Input Component can utilize the function of a input text field, where the user inserts information related to the specific case in order to complete a task or a searchbar. While in Figma you can pick either a simple input or a searchbar, in Adobe XD and Sketch, the Input lets you choose a preset from three options: simple input, hint which is an input with a helper text, and searchbar. In Figma, the hint option is perceived as a property, not a separate input type.
 
 <img class="responsive-img" src="../images/input_simple.png" srcset="../images/input_simple@2x.png 2x" />
 <img class="responsive-img" src="../images/input_hint.png" srcset="../images/input_hint@2x.png 2x" />
 <img class="responsive-img" src="../images/input_searchbar.png" srcset="../images/input_searchbar@2x.png 2x" />
 
-The hint and simple presets offer choice between three distinct types: line style for a more airy look, border style for a more structured perception on solid color backgrounds, and boxed style which is most appropriate when the Input is placed on top of a vivid image to improve the readability of its content.
+The hint and simple presets (considered the same input type in Figma) offer choice between two distinct types: border style for a more structured perception on solid color backgrounds, and boxed style which is most appropriate when the Input is placed on top of a vivid image to improve the readability of its content.
 
-<img class="responsive-img" src="../images/input_simple.png" srcset="../images/input_simple@2x.png 2x" />
 <img class="responsive-img" src="../images/input_border.png" srcset="../images/input_border@2x.png 2x" />
 <img class="responsive-img" src="../images/input_box.png" srcset="../images/input_box@2x.png 2x" />
 
-## Interaction State
+## Enabled and Disabled States
 
-Each of these presets can be inserted in an enabled or disabled state.
+In Sketch and Adobe Xd, each of these presets can be inserted in an enabled or disabled state. In Figma on the other hand, by default the input types are always enabled and they can be switched to disable state form the property panel. 
 
 <img class="responsive-img" src="../images/input_enabled.png" srcset="../images/input_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/input_disabled.png" srcset="../images/input_disabled@2x.png 2x" />
 
-## State
+## States
 
-When the user interacts with the Input, it goes through various states: **idle** with a placeholder in the place of the content, focused while the user is typing in it, and filled once the user has finished adding content and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
+When the user interacts with the Input, it goes through various states: **Idle** with a placeholder in the place of the content,**Hover** which indicates once the user place the cursur over the input, that the input is enabled and the user can interact with it, **Filled** that shows once the user has finished adding content and moved on, **Focused** with a visual indication that the user is currently inserting a value. 
+
 
 <img class="responsive-img" src="../images/input_idle.png" srcset="../images/input_idle@2x.png 2x" />
-`idle`
 
-<img class="responsive-img" src="../images/input_focused.png" srcset="../images/input_focused@2x.png 2x" />
-`focused`
+<img class="responsive-img" src="../images/input_hover.png" srcset="../images/input_hover@2x.png 2x" />
 
 <img class="responsive-img" src="../images/input_filled.png" srcset="../images/input_filled@2x.png 2x" />
-`filled`
+
+<img class="responsive-img" src="../images/input_focused.png" srcset="../images/input_focused@2x.png 2x" />
 
 Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Input is equipped for sophisticated designs that display success, warning, and error visuals.
 
@@ -52,18 +51,18 @@ Every experienced designer uses constraints wisely to limit the user input and a
 <img class="responsive-img" src="../images/input_warning.png" srcset="../images/input_warning@2x.png 2x" />
 <img class="responsive-img" src="../images/input_error.png" srcset="../images/input_error@2x.png 2x" />
 
-In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
+In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Figma and Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
 
 ## Layout
 
-The Input has rich support for prefix and suffix through a combination of text and icons that can, in certain cases, reduce the input effort for the user: e.g. an @email.com suffix means both fewer keystrokes and more clarity of expected content. In Sketch, to remove the prefix or suffix simply set their override to ~No Symbol, and the smart layout rules will adjust the input accordingly. In Adobe XD, the same can be achieved by deleting the unnecessary prefix or suffix layer and the Stack will take care to adjust the layout accordingly.
+The Input has rich support for prefix and suffix through a combination of text and icons that can, in certain cases, reduce the input effort for the user: e.g. an @email.com suffix means both fewer keystrokes and more clarity of expected content.In Figma, removing either the prefix or the suffix can be achieved from the property panel by switching them on and off. In Sketch, to remove the prefix or suffix simply set their override to ~No Symbol, and the smart layout rules will adjust the input accordingly. In Adobe XD, the same can be achieved by deleting the unnecessary prefix or suffix layer and the Stack will take care to adjust the layout accordingly.
 
 <img class="responsive-img" src="../images/input_prefix.png" srcset="../images/input_prefix@2x.png 2x" />
 <img class="responsive-img" src="../images/input_suffix.png" srcset="../images/input_suffix@2x.png 2x" />
 
 ## Styling
 
-The Input comes with styling flexibility through the colors of its background and bottom line, as well as icon color and text styles of its prefix, suffix, and main areas of content. To change the validation styles, it is recommended to update the respective color variables in the Indigo.Design library. 
+The Input comes with styling flexibility through the colors of its background and border/bottom line, as well as icon color and text styles of its prefix, suffix, and main areas of content. To change the validation styles, it is recommended to update the respective color variables in the Indigo.Design library. 
 
 <img class="responsive-img" src="../images/input_styling.png" srcset="../images/input_styling@2x.png 2x" />
 
