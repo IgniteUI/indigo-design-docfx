@@ -36,7 +36,7 @@ We support the two most common scenarios for first day of the week: Sunday and M
 
 ## Week Numbers
 
-The Date Picker has the same built-in support for Week Numbers like the Calendar. If you prefer not to show this part of the UI, simply hide the Week Numbers frame from the layers panel in Figma and the layout will adjust itself accordingly thanks to the added auto layout. To achieve the same in Sketch, set the Week Numbers override to ~No Symbol, and through the use of smart layout, everything will adjust accordingly. In Adobe XD you have to delete the Week Numbers layer to achieve the same and the Stack used there will adjust the layout in a similar fashion.
+The Date Picker has the same built-in support for Week Numbers like the Calendar. If you prefer not to show this part of the UI, simply set the Week Numbers override to ~No Symbol in Sketch, and through the use of smart layout, everything will adjust accordingly. In Adobe XD you have to delete the Week Numbers layer to achieve the same and the Stack used there will adjust the layout in a similar fashion.
 
 <img class="responsive-img" src="../images/datepicker_weeknumbers.png" srcset="../images/datepicker_weeknumbers@2x.png 2x" />
 
