@@ -23,14 +23,14 @@ The Combo provides selection between a border type for a more structured percept
 
 <img class="responsive-img" src="../images/combo_box.png" srcset="../images/combo_box@2x.png 2x" />
 
-## Interaction State
+## Enabled and Disabled States
 
 Each of the two Combo input types can be inserted in an enabled or disabled state. In Figma the input can be disabled from the property panel.
 
 <img class="responsive-img" src="../images/combo_enabledstate.png" srcset="../images/combo_enabledstate@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_disabledstate.png" srcset="../images/combo_disabledstate@2x.png 2x" />
 
-## State
+## States
 
 When the user interacts with the Combo, its input goes through various selection states: **Idle** with a placeholder in the place of the content, **Focused** when the drop down is open, **Filled** once the user has finished with selection and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
 
