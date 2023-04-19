@@ -21,7 +21,7 @@ The Button Group supports two layout directions: horizontal, where items are lai
 
 ## Buttons Amount
 
-In Sketch, the Button Group uses a smart layout allowing it to adjust accordingly when you choose the exact amount of buttons you need and hide the extra ones by setting them to ~No Symbol from the overrides panel. In Adobe XD you can achieve the same by deleting the unnecessary layers with buttons, which will automatically adjust the layout for you.
+In Figma, the Button Group uses an auto layout allowing it to adjust accordingly when you choose the exact amount of buttons you need and hide the extra nested ones in the layers panel. In Sketch, the Button Group uses a smart layout similar to Figma and you can hide the unnecessary buttons by setting them to ~No Symbol from the overrides panel. In Adobe XD you can achieve the same by deleting the unnecessary layers with buttons, which will automatically adjust the layout for you. 
 
 <img class="responsive-img" src="../images/button-group_amount.png" srcset="../images/button-group_amount@2x.png 2x" />
 
@@ -40,7 +40,7 @@ The Button Group comes with styling flexibility through the various options for 
 
 ## Usage
 
-Always use Buttons with consistent style and avoid combining text Buttons with icon Buttons within the same Button Group. Size the Button Group according to its content to avoid leaving too much empty space in the Buttons. Use the Button Group only to display simple and related actions, as it is not suitable for even simple navigation. If you're looking beyond these actions, [Tabs](tabs.md) are much more appropriate.
+Always use Buttons with consistent style and avoid combining Text Buttons with Icon Buttons within the same Button Group. Size the Button Group according to its content to avoid leaving too much empty space in the Buttons. Use the Button Group only to display simple and related actions, as it is not suitable for even simple navigation. If you're looking beyond these actions, [Tabs](tabs.md) are much more appropriate.
 
 | Do                                  | Don't                                 |
 | ----------------------------------- | ------------------------------------- |
