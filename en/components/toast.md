@@ -1,7 +1,7 @@
 ---
 title: Toast - Design System Component
 _description: The Toast Component Symbol is used to show a non-interactive information message or notification.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
 ---
 
 # Toast
@@ -22,7 +22,7 @@ The Toast should be relatively positioned towards the bottom, center, or top of 
 
 ## Styling
 
-The Toast comes with styling flexibility through the options available for the background color and message text style. However, it is recommended to use `white` or `grays.900`(`Active`) for the message text, to assure optimal contrast with the background and legibility.
+The Toast comes with styling flexibility through the options available for the background color and message text style. However, it is recommended to use the predefined colors to assure optimal contrast with the background and legibility.
 
 <img class="responsive-img" src="../images/toast_styling.png" srcset="../images/toast_styling@2x.png 2x" />
 
