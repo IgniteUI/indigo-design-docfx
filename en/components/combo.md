@@ -51,7 +51,7 @@ In Sketch, the states and validation states are achieved with `Symbol Overrides`
 > [!Note]
 > The Combo input has only one layout option, but this override has been preserved in Sketch to ensure consistency with the standard [Input](input.md).
 
-## Dropdown Type
+## Drop down Type
 
 The dropdown used for the Combo comes with the appropriate sizing for desktop and mobile use similarly to the normal [Dropdown](dropdown.md) component.
 
@@ -62,7 +62,7 @@ The dropdown used for the Combo comes with the appropriate sizing for desktop an
 
 The dropdown contains a Search Input that comes with a selection of states and options for layout akin to the standard [Input](input.md).
 
-## Dropdown Items
+## Drop down Items
 
 The dropdown used for the Combo supports two types of items: header and multi-select item. Through headers, it is possible to organize items in groups. In Figma, the Drop down utilizes the auto layout option, which makes sure all items are placed accordingly one to another, once you hide or add one or more items. In Sketch, the dropdown uses a smart layout allowing it to adjust accordingly when one or more of its items are set to ~No Symbol. In Adobe XD you should delete the unnecessary ones, and the layout will adjust through the use of a Stack.
 
