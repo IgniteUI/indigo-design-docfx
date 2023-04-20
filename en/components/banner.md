@@ -14,7 +14,7 @@ Use the Banner Component to display a prominent message and optionally actions r
 
 ## Message
 
-The Banner's Message consists of an Icon and a Text field. It uses a smart layout in Sketch to let you hide one or the other by setting it to ~No Symbol, and a Stack in Adobe XD that takes care of the layout automatically as you add or delete components. In Figma, if you want to make any changes to the default Banner design, you need to detach the Banner component. Then the changes have to be done manualy. The auto layout will be integarted in the next version of the Figma UI Kit.
+The Banner's Message consists of an Icon and a Text field. It uses a smart layout in Sketch to let you hide one or the other by setting it to ~No Symbol, and a Stack in Adobe XD that takes care of the layout automatically as you add or delete components. In Figma, if you want to make any changes to the default Banner design, you need to detach the Banner component. Then the changes have to be done manually. The auto layout will be integrated in the next version of the Figma UI Kit.
 
 <img class="responsive-img" src="../images/banner_message.png" srcset="../images/banner_message@2x.png 2x" />
 
