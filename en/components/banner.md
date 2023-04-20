@@ -14,13 +14,13 @@ Use the Banner Component to display a prominent message and optionally actions r
 
 ## Message
 
-The Banner's Message consists of an Icon and a Text field. It uses a smart layout in Sketch to let you hide one or the other by setting it to ~No Symbol, and a Stack in Adobe XD that takes care of the layout automatically as you add or delete components. In Figma is utilized the auto layout feature, akin to Adobe XD stacking, the auto layout repositions the elements in the right order, based on which of them you decide to hide or unhide.
+The Banner's Message consists of an Icon and a Text field. It uses a smart layout in Sketch to let you hide one or the other by setting it to ~No Symbol, and a Stack in Adobe XD that takes care of the layout automatically as you add or delete components. In Figma, if you want to make any changes to the default Banner design, you need to detach the Banner component. Then the changes have to be done manualy. The auto layout will be integarted in the next version of the Figma UI Kit.
 
 <img class="responsive-img" src="../images/banner_message.png" srcset="../images/banner_message@2x.png 2x" />
 
 ## Actions
 
-The Actions area contains two Button components by default. If you only need one or want to remove both of them, set them to ~No Symbol in Sketch and the smart layout will adjust everything. In Adobe XD you can achieve the same by deleting the unnecessary button layers and rely on the Stack applied to adjust the interface, but on top of that you can even add more actions or use different components by dragging them into the Actions area from the Libraries panel. In Figma, you need to decide, which of the actions you need to keep and simply hide the other from the layers panel. You can hide the whole action group, named "Actions", in case you do not need any actions displayed, which will adjust the size of the Banner accordingly.
+The Actions area contains two Button components by default. If you only need one or want to remove both of them, set them to ~No Symbol in Sketch and the smart layout will adjust everything. In Adobe XD you can achieve the same by deleting the unnecessary button layers and rely on the Stack applied to adjust the interface, but on top of that you can even add more actions or use different components by dragging them into the Actions area from the Libraries panel. In Figma, you need to decide, which of the actions you need to keep and simply hide the other from the layers panel. You can hide the whole action group, named "Actions", in case you do not need any actions displayed. The Banner design then has to be ajusted manualy. The auto layout will be integarted in the next version of the Figma UI Kit. 
 
 <img class="responsive-img" src="../images/banner_actions.png" srcset="../images/banner_actions@2x.png 2x" />
 
