@@ -1,7 +1,7 @@
 ---
 title: List - Design System Component
 _description: The List Component provides means to browse and interact with a vertical collection of rows of data.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
 ---
 
 # List
@@ -14,10 +14,14 @@ Use the List Component to let the user browse and interact with a continuous, ve
 
 ## Type
 
-The List can be inserted in a preset with one-line items or with two-line items, both initially containing ten items.
+The List can be inserted in a preset with One-line Item List or with Two-line Item List, both initially containing ten items.
 
 <img class="responsive-img" src="../images/list_one-line_item.png" srcset="../images/list_one-line_item@2x.png 2x" />
 <img class="responsive-img" src="../images/list_two-line_item.png" srcset="../images/list_two-line_item@2x.png 2x" />
+
+## Using the List in Figma
+
+
 
 ## Using the List in Sketch
 
