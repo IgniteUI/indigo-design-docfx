@@ -1,7 +1,7 @@
 ---
 title: Checkbox - Design System Component
 _description: The Checkbox Component Symbol is used to allow the user to mark a selection. 
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Checkbox
@@ -14,20 +14,20 @@ Use the Checkbox Component to allow the user make a selection, which most often 
 
 ## Interaction State
 
-The checkbox can be inserted in an enabled or disabled state.
+The checkbox can be in an Enabled or Disabled state. In Figma you can switch between the two using the "Disabled" boolean operation, while in Sketch and Adobe XD you should choose the state prior to inserting the component.
 
 <img class="responsive-img" src="../images/checkbox_interaction_state.png" srcset="../images/checkbox_interaction_state@2x.png 2x" />
 
 ## Layout Template
  
-In Sketch, the Checkbox supports label position variants where the Checkbox label is placed after or before the Checkbox element. In Adobe XD, we are using Stacks to allow you to change the label and checkbox positions at design time simply by dragging it to the left or right of the checkbox visual.
+In Figma, you can change the label's position by using the "Label Position" property. In Sketch, the Checkbox supports label position variants and in Adobe XD, we are using Stacks to allow you to change the label and checkbox positions at design time simply by dragging it to the left or right of the checkbox visual.
 
 <img class="responsive-img" src="../images/checkbox_label_after.png" srcset="../images/checkbox_label_after@2x.png 2x" />
 <img class="responsive-img" src="../images/checkbox_label_before.png" srcset="../images/checkbox_label_before@2x.png 2x" />
 
 ## State
 
-The Checkbox provides **on**, off, and indeterminate selection states. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
+The Checkbox provides **On**, Off, and Indeterminate selection states. In Figma, you can switch the selection state using the "State" property from the `Properties Panel`. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
 <img class="responsive-img" src="../images/checkbox_selection.png" srcset="../images/checkbox_selection@2x.png 2x" />
 
