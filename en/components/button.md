@@ -32,7 +32,7 @@ You may also insert each button in a disabled state because they all support bot
 
 ## States
 
-Enabled buttons support **Rest** and Hover state. In Figma you can change them from the State property. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
+Enabled buttons support **Rest** and Hover state. In Figma, you can switch between these states by changing the State property. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
 <img class="responsive-img" src="../images/button_states.png" srcset="../images/button_states@2x.png 2x" />
 
