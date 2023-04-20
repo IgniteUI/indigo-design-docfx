@@ -38,7 +38,7 @@ Enabled buttons support **Rest** and Hover state. In Figma, you can switch betwe
 
 ## Layout Template
 
-Contained, Outlined, Flat, and Floating Action Buttons support flexible icon and label templates. In Figma you can show/hide the icons using the Left Icon and Right Icon boolean properties or you can set the Content property to Icon, if you want an Icon Button. In Sketch, the smart layout rules applied, allow the layout to adjust accordingly when you set the elements you want to hide to ~No Symbol. In Adobe XD, you achieve the same by deleting the unused layer instead. However, if you only want to change the label and icon position at design time you can simply drag one of them to the other side of the other one.
+Contained, Outlined, Flat, and Floating Action Buttons support flexible icon and label templates. In Figma, to show or hide the icons, you can use the Left Icon and Right Icon boolean properties. If you want to have an Icon Button, you can set the Content property to Icon. In Sketch, the smart layout rules applied, allow the layout to adjust accordingly when you set the elements you want to hide to ~No Symbol. In Adobe XD, you achieve the same by deleting the unused layer instead. However, if you only want to change the label and icon position at design time you can simply drag one of them to the other side of the other one.
 
 <img class="responsive-img" src="../images/button_templates.png" srcset="../images/button_templates@2x.png 2x" />
 
