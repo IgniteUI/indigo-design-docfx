@@ -14,7 +14,7 @@ Use the Checkbox Component to allow the user make a selection, which most often 
 
 ## Interaction State
 
-The checkbox can be in an Enabled or Disabled state. In Figma you can switch between the two using the "Disabled" boolean operation, while in Sketch and Adobe XD you should choose the state prior to inserting the component.
+The checkbox can be inserted in an Enabled or Disabled state. In Sketch and Adobe XD you should select the state prior to inserting the component. In Figma, however, we've added more states such as Enabled & Invalid, Enabled & Hover, Enabled Hover & Invalid, Enabled & Focused, and Enabled Focused & Invalid, which can be switched in the properties panel. 
 
 <img class="responsive-img" src="../images/checkbox_interaction_state.png" srcset="../images/checkbox_interaction_state@2x.png 2x" />
 
