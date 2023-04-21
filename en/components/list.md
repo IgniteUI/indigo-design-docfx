@@ -14,14 +14,30 @@ Use the List Component to let the user browse and interact with a continuous, ve
 
 ## Type
 
-The List can be inserted in a preset with One-line Item List or with Two-line Item List, both initially containing ten items.
+The List can be inserted in a preset with One-line Item List or with Two-line Item List, both initially containing **ten** items.
 
 <img class="responsive-img" src="../images/list_one-line_item.png" srcset="../images/list_one-line_item@2x.png 2x" />
 <img class="responsive-img" src="../images/list_two-line_item.png" srcset="../images/list_two-line_item@2x.png 2x" />
 
 ## Using the List in Figma
 
+Lists are a continuous group of rows showing information containing primary data and secondary actions, represented by text and icons. In Figma, Auto Layout is used to create the list, which automatically adjusts the layout and spacing based on the content. If a list requires fewer items, the unnecessary items should be deleted, or their visibility can be toggled on and off from the Layers panel. To design a list with more items, the List component needs to be detached by selecting `Detach Instance` from the contextual menu and then increasing the list items by duplicating an existing one. Always place List Items under their relative Headers with consistent horizontal width and alignment, and make sure there are no gaps between the items.
 
+| Layer         | Use                                                                                                                                                  |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🚫 componentVersion   | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
+| 🚫 metadata   | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
+| List Header   | An instance of a list header item                                                                                                                    |
+| 1 Item        | An instance of a one-line/two-line list item                                                                                                                  |
+| 2 Item        | An instance of a one-line/two-line list item                                                                                                                  |
+| 3 Item        | An instance of a one-line/two-line list item                                                                                                                  |
+| 4 Item        | An instance of a one-line/two-line list item                                                                                                                  |
+| 5 Item        | An instance of a one-line/two-line list item                                                                                                                  |
+| 6 Item        | An instance of a one-line/two-line list item                                                                                                                  |
+| 7 Item        | An instance of a one-line/two-line list item                                                                                                                  |
+| 8 Item        | An instance of a one-line/two-line list item                                                                                                                  |
+| 9 Item        | An instance of a one-line/two-line list item                                                                                                                  |
+| 10 Item       | An instance of a one-line/two-line list item                                                                                                                  |
 
 ## Using the List in Sketch
 
