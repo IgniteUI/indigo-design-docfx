@@ -20,14 +20,14 @@ The checkbox can be in an Enabled or Disabled state. In Figma you can switch bet
 
 ## Layout Template
  
-In Figma, you can change the label's position by using the "Label Position" property. In Sketch, the Checkbox supports label position variants and in Adobe XD, we are using Stacks to allow you to change the label and checkbox positions at design time simply by dragging it to the left or right of the checkbox visual.
+In Sketch, the Checkbox supports label position variants where the Checkbox label is placed after or before the Checkbox element. In Figma, you can change the label's position by using the "Label Position" property. In Adobe XD, we are using Stacks to allow you to change the label and checkbox positions at design time simply by dragging it to the left or right of the checkbox visual.
 
 <img class="responsive-img" src="../images/checkbox_label_after.png" srcset="../images/checkbox_label_after@2x.png 2x" />
 <img class="responsive-img" src="../images/checkbox_label_before.png" srcset="../images/checkbox_label_before@2x.png 2x" />
 
 ## State
 
-The Checkbox provides **On**, Off, and Indeterminate selection states. In Figma, you can switch the selection state using the "State" property from the `Properties Panel`. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
+The Checkbox provides **On**, Off, and Indeterminate selection states. In Figma, you can switch the selection state using the "State" property from the properties panel. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
 <img class="responsive-img" src="../images/checkbox_selection.png" srcset="../images/checkbox_selection@2x.png 2x" />
 
