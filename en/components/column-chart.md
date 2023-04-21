@@ -35,7 +35,7 @@ The Y-axis of the column chart comprises of a Title, Labels, and the Axis itself
 
 ## Gridlines
 
-The Column Chart has built-in Gridlines to make it easier to visually trace a data point to a value on the Y-axis. In Figma you can show/hide them by selecting the nested Chart Area component and using the boolean operation "Gridlines". To hide them in Sketch and Adobe XD just set their color to `Transparent`.
+The Column Chart has built-in Gridlines to make it easier to visually trace a data point to a value on the Y-axis. In Figma you can show/hide them by selecting the nested Chart Area component and switching on/off the boolean property "Gridlines" from the properties panel. To hide them in Sketch and Adobe XD just set their color to `Transparent`.
 
 <img class="responsive-img" src="../images/column_chart_gridlines.png" srcset="../images/column_chart_gridlines@2x.png 2x" />
 
