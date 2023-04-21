@@ -21,7 +21,7 @@ The Tooltip comes in appropriate sizing for desktop and mobile usage.
 
 ## Styling
 
-The Tooltip comes with styling flexibility through the options available for the background color and message text style. However, it is recommended to use the predefined colors to assure optimal contrast with the background and legibility.
+The Tooltip comes with styling flexibility through the options available for the background color and message text style. However, it is recommended to use the predefined colors to assure optimal contrast with the background and legibility of the tooltip message.
 
 <img class="responsive-img" src="../images/tooltip_styling.png" srcset="../images/tooltip_styling@2x.png 2x" />
 
