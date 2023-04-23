@@ -36,9 +36,9 @@ In Adobe XD, the list item has a Group where non-interactive content such as Ava
 <img class="responsive-img" src="../images/list_item_primary.png" srcset="../images/list_item_primary@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />
 
-## Primary Action in Figma
+## Primary Action in Figma and Sketch
 
-There are 5 interchangeable List Item Primary Actions available under `Type` component property in the right sidebar.
+There are 5 interchangeable List Item Primary Actions available under `Type` property in Figma and 4 available as `Symbol Overrides` in Sketch. Thanks to the Smart Layout in Sketch, List Items can be adjusted further by setting unnecessary elements to ~No Symbol.
 
 |                              |                                                                                                  |                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -48,29 +48,16 @@ There are 5 interchangeable List Item Primary Actions available under `Type` com
 | Label + Progress          | <img class="responsive-img" src="../images/list_item_primary4.png" srcset="../images/list_item_primary4@2x.png 2x" />   | Linear Progress Bar inside a List Item can not have a value label, therefore, it is set to ~No Symbol in Sketch and the value label layer is not present in Adobe XD. This setting should not be changed! |                                    
 | Label | <img class="responsive-img" src="../images/list_item_primary5.png" srcset="../images/list_item_primary5@2x.png 2x" />     |                                                                                                                                            |
 
-## Secondary Action in Figma
+## Secondary Action in Figma and Sketch
 
-## Primary Action in Sketch
-
-There are 4 interchangeable List Item Primary Actions, available as `Symbol Overrides`. Thanks to Smart Layout, they can be adjusted further by setting unnecessary elements to ~No Symbol.
-
-|                              |                                                                                                  |                                                                                                                                            |
-| ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Avatar + Label + Description | <img class="responsive-img" src="../images/list_item_primary1.png" srcset="../images/list_item_primary1@2x.png 2x" />     |                                                                                                                                            |
-| Checkbox + Label               | <img class="responsive-img" src="../images/list_item_primary2.png" srcset="../images/list_item_primary2@2x.png 2x" />   |  Checkbox inside a List Item can not have its own label, therefore, the before and after labels are set to ~No Symbol in Sketch and the label layer is not present in Adobe XD. This setting should not be changed! |
-| Icon + Label + Desc | <img class="responsive-img" src="../images/list_item_primary3.png" srcset="../images/list_item_primary3@2x.png 2x" />   |                                                                                                                                            |
-| Label + Progress          | <img class="responsive-img" src="../images/list_item_primary4.png" srcset="../images/list_item_primary4@2x.png 2x" />   | Linear Progress Bar inside a List Item can not have a value label, therefore, it is set to ~No Symbol in Sketch and the value label layer is not present in Adobe XD. This setting should not be changed! |                                                                                                                                            |
-
-## Secondary Action in Sketch
-
-There are 4 interchangeable List Item Secondary Actions available as `Symbol Overrides`. Thanks to Smart Layout, they can be adjusted further by setting unnecessary elements to ~No Symbol.
+There are 4 interchangeable List Item Secondary Actions in Figma and Sketch. In Figma, they are available under the `Secondary Action` component properties where they can be switched and turned on and off, depending on the case and needs. The used Auto Layout in Figma will automatically adjust the component based on the selected properties. In Sketch, they are available as `Symbol Overrides` and thanks to the Smart Layout, they can be adjusted further by setting unnecessary elements to ~No Symbol.
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Badge            | <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />   |                                                                                                                                       |
-| Checkbox         | <img class="responsive-img" src="../images/list_item_secondary2.png" srcset="../images/list_item_secondary2@2x.png 2x" /> | Checkbox inside a List Item can not have a label, therefore, the before and after labels are set to ~No Symbol in Sketch and the label layer is not present in Adobe XD. This setting should not be changed! |
-| Text and Icon            | <img class="responsive-img" src="../images/list_item_secondary3.png" srcset="../images/list_item_secondary3@2x.png 2x" /> |                                                                                                                                       |
-| Toggle/Switch             | <img class="responsive-img" src="../images/list_item_secondary4.png" srcset="../images/list_item_secondary4@2x.png 2x" /> | Switch inside a List Item can not have a label, therefore, the before and after labels are set to ~ No Symbol in Sketch and the label layer is not present in Adobe XD. This setting should not be changed!   |
+| Checkbox         | <img class="responsive-img" src="../images/list_item_secondary2.png" srcset="../images/list_item_secondary2@2x.png 2x" /> | Checkbox inside a List Item can not have a label, therefore, the before and after labels are hidden in Figma, set to ~No Symbol in Sketch and the label layer is not present in Adobe XD. This setting should not be changed! |
+| Text and Icon            | <img class="responsive-img" src="../images/list_item_secondary3.png" srcset="../images/list_item_secondary3@2x.png 2x" /> | Text and Icons could be used independently. In Figma, you can turn on and off the Text Container and hide one or both icons, in Sketch, set to ~No Symbol will hide them.                                                                                                                                     |
+| Toggle/Switch             | <img class="responsive-img" src="../images/list_item_secondary4.png" srcset="../images/list_item_secondary4@2x.png 2x" /> | Switch inside a List Item can not have a label, therefore, the before and after labels are hidden in Figma, set to ~ No Symbol in Sketch and the label layer is not present in Adobe XD. This setting should not be changed!   |                                                                                                                                          |
 
 ## Thumbnail in Adobe XD
 

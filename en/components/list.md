@@ -41,25 +41,9 @@ Lists are a continuous group of rows showing information containing primary data
 
 ## Using the List in Sketch
 
-The List is essentially a repeater of rows showing data as an indexed vertical collection of items. It uses Smart Layout for its items which makes it possible to adjust the size by setting one or more of the items to ~No Symbol. If you need to design a list with more items, the easiest way to do so is by inserting any of the List types on your artboard, right-click on top of it, and select the `Detach from Symbol` at the bottom of the contextual menu. In your layers panel under the newly appeared _List/One-line Item List_ or _List/Two-line Item List_ group, you should see the following:
+The List is essentially a repeater of rows showing data as an indexed vertical collection of items. It uses Smart Layout for its items which makes it possible to adjust the size by setting one or more of the items to ~No Symbol. If you need to design a list with more items, the easiest way to do so is by inserting any of the List types on your artboard, right-click on top of it, and select the `Detach from Symbol` at the bottom of the contextual menu. In your layers panel under the newly appeared _List/One-line Item List_ or _List/Two-line Item List_ group, you should see almost the same layer structure like in Figma (_check the table above_). The two differences will be: seeing one additional layer at the bottom for `🌈 Background` and you will not see the `🚫 componentVersion` layer at the top.
 
-| Layer         | Use                                                                                                                                                  |
-| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 metadata   | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| List Header   | An instance of a list header item                                                                                                                    |
-| 1 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 2 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 3 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 4 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 5 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 6 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 7 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 8 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 9 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 10 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 🌈 Background | Defines the background color of the list                                                                                                             |
-
-Now, you may insert additional headers or items either from the menu or simply by duplicating an existing one. Always place items and headers one after another with consistent horizontal width and alignment, making sure there are no gaps between the items.
+Now, after detaching, you may insert additional headers or items either from the menu or simply by duplicating an existing one. Always place items and headers one after another with consistent horizontal width and alignment, making sure there are no gaps between the items.
 
 ## Using the List in Adobe XD
 
