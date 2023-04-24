@@ -54,7 +54,7 @@ When a chip can be removed, a special cancel icon will appear at the far right t
 
 The Chip has rich support for content templating via the prefix and suffix containers allowing to insert icons and text before and after the main label. 
 
-In Figma, you can show/hide the prefix and suffix icons using the "Prefix Icon" and "Suffix Icon" properties from the properties panel and the layout will adjust itself accordingly.
+In Figma, you can show or hide the prefix and suffix icons by using the "Prefix Icon" and "Suffix Icon" properties in the properties panel and the layout will adjust itself accordingly.
 
 In Sketch, prefix and suffix containers can be added by finding them in the Overrides/Input/Prefix/Container and Overrides/Input/Suffix/Container or removed by setting them to ~No Symbol, upon which the layout will adjust accordingly. 
 
