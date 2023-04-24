@@ -20,32 +20,25 @@ The Chip comes in three density variants:
 - Cosy - Appropriate for short areas such as the recipient field of an email message composer
 - Compact - Best for data-dense scenarios such as the values for a cell in the Grid
 
-<img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
-<img class="responsive-img" src="../images/chip_cosy.png" srcset="../images/chip_cosy@2x.png 2x" />
-<img class="responsive-img" src="../images/chip_compact.png" srcset="../images/chip_compact@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_density.png" srcset="../images/chip_density@2x.png 2x" />
 
 ## Chip Types
 
 The Chip provides two type variants: Default and Primary.
 
-<img class="responsive-img" src="../images/chip_default.png" srcset="../images/chip_default@2x.png 2x" />
-<img class="responsive-img" src="../images/chip_primary.png" srcset="../images/chip_primary@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_type.png" srcset="../images/chip_type@2x.png 2x" />
 
 ## Interaction State
 
 The Chip can be in an Enabled or Disabled state. In Figma, you can change the state using the Disabled boolean operation from the properties panel. In Sketch, you should choose the state prior to inserting the component. In Adobe XD we are using the Component States paradigm to let you easily switch between them.
 
-<img class="responsive-img" src="../images/chip_enabled.png" srcset="../images/chip_enabled@2x.png 2x" />
-<img class="responsive-img" src="../images/chip_disabled.png" srcset="../images/chip_disabled@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_interaction.png" srcset="../images/chip_interaction@2x.png 2x" />
 
 ## State
 
 When the user interacts with the Chip, it may change from the default **Idle** state to Hover, Focused, and Selected. This affords a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping. In Figma these can be selected from the State property in the properties panel. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
-<img class="responsive-img" src="../images/chip_idle.png" srcset="../images/chip_idle@2x.png 2x" />
-<img class="responsive-img" src="../images/chip_hover.png" srcset="../images/chip_hover@2x.png 2x" />
-<img class="responsive-img" src="../images/chip_focus.png" srcset="../images/chip_focus@2x.png 2x" />
-<img class="responsive-img" src="../images/chip_selected.png" srcset="../images/chip_selected@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_state.png" srcset="../images/chip_state@2x.png 2x" />
 
 You will also notice one more state named Templated, which is used internally in the [Grid Advanced Filter](grid-advanced-filter.md) interface. In Figma, the Chip Templated is a separate component, while in Sketch and Adobe XD it can be selected as a State from the main Chip component.
 
@@ -102,8 +95,8 @@ When using a Chip, the obround will automatically size itself to fit the content
 | Do                                                                         | Don't                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | |
-| <img class="responsive-img" src="../images/chip_do1.png" srcset="../images/chip_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/chip_dont2.png" srcset="../images/chip_dont2@2x.png 2x" /> |
-| <img class="responsive-img" src="../images/chip_do3.png" srcset="../images/chip_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/chip_dont3.png" srcset="../images/chip_dont3@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/chip_do1.png" srcset="../images/chip_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/chip_dont1.png" srcset="../images/chip_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/chip_do2.png" srcset="../images/chip_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/chip_dont2.png" srcset="../images/chip_dont2@2x.png 2x" /> |
 
 
 
