@@ -24,13 +24,13 @@ The Text Area can be inserted in an enabled or disabled state.
 When the user interacts with the Text Area, it goes through various states: Idle with a placeholder in the place of the content, Focused while the user is typing in it, and Filled once the user has finished adding content and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
 
 <img class="responsive-img" src="../images/textarea_idle.png" srcset="../images/textarea_idle@2x.png 2x" />
+`idle`
 
 <img class="responsive-img" src="../images/textarea_focused.png" srcset="../images/textarea_focused@2x.png 2x" />
+`focused`
 
 <img class="responsive-img" src="../images/textarea_filled.png" srcset="../images/textarea_filled@2x.png 2x" />
-
-<div class="divider--half"></div>
-<div class="divider--half"></div>
+`filled`
 
 Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Text Area is equipped for sophisticated designs that display Success, Warning, and Error visuals.
 
