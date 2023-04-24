@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, E
 
 # Icon
 
-Use the Icon Component to provide subtle graphical information to the user that, in some cases, may also trigger simple interactions such as liking a product, saving an article for later, etc. You may choose between the already provided [Material Icons](../style/material-icons.md) or add the ones you need to the `Icons` page in Figma or `🎨 Material Icons` page in Sketch in the **Indigo.Design System** and the only condition here to see your icon is that it needs to be a component or symbol. We highly recommend being cautious when selecting an icon to add to the kit, try to be consistent to provide best visual coherence between them. The Icon is visually identical to the [Ignite UI for Angular Icon Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/icon.html)
+Use the Icon Component to provide subtle graphical information to the user that, in some cases, may also trigger simple interactions such as liking a product, saving an article for later, etc. You may choose between the already provided [Material Icons](../style/material-icons.md) or add the ones you need to the `Icons` page in Figma or `🎨 Material Icons` page in Sketch in the **Indigo.Design System** and the only condition here to use your icon is that it needs to be a component or symbol. We highly recommend exercising caution when selecting icons to add to the kit. It is important to maintain consistency in order to ensure the best visual coherence between them. The Icon is visually identical to the [Ignite UI for Angular Icon Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/icon.html)
 
 ## Icon Demo
 
