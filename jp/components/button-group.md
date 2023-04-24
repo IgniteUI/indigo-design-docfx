@@ -22,7 +22,7 @@ Button Group は、2 方向レイアウトをサポートし、左から右の�
 
 ## ボタン数
 
-Sketch の Button Group はスマート レイアウトを使用して、必要なボタンの正確な数を選択し、オーバーライド パネルから ~No Symbol に設定することで追加のボタンを非表示にします。Adobe XD では、ボタンを使用して不要なレイヤーを削除するとレイアウトが自動的に調整されます。
+In Figma, the Button Group uses an auto layout allowing it to adjust accordingly when you choose the exact amount of buttons you need and hide the extra nested ones in the layers panel. In Sketch, the Button Group uses a smart layout similar to Figma and you can hide the unnecessary buttons by setting them to ~No Symbol from the overrides panel. Adobe XD では、ボタンを使用して不要なレイヤーを削除するとレイアウトが自動的に調整されます。
 
 <img class="responsive-img" src="../images/button-group_amount.png" srcset="../images/button-group_amount@2x.png 2x" />
 

@@ -1,7 +1,7 @@
 ---
 title: Divider - デザイン システム コンポーネント
 _description: Divider コンポーネント シンボルは、コンテンツを水平方向または垂直方向に区切る微妙な線です。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -23,7 +23,7 @@ Divider は、次の 2 つの方向をサポートしています: コンテン�
 
 ## タイプ
 
-Divider には、**実線**と破線の 2 つのタイプがあります。Sketch では、`Symbol Overrides` のおかげでそれらを切り替えることができます。Adobe XD では、`Component States` を使用して同じことを実現しています。
+Divider には、**実線**と破線の 2 つのタイプがあります。In **Figma**, you can easily switch between the two from the Type property under the Design tab in the right sidebar. In **Sketch**, you can also switch between them thanks to `Symbol Overrides`, while in **Adobe XD** we are using the `Component States` to achieve the same.
 
 <img class="responsive-img" src="../images/divider_solid.png" srcset="../images/divider_solid@2x.png 2x" />
 

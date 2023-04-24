@@ -1,7 +1,7 @@
 ---
 title: ツールチップ - デザイン システム コンポーネント
 _description: Tooltip コンポーネント シンボルは、ユーザー インタラクションによって追加情報をテキストで表示します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
@@ -22,7 +22,7 @@ Tooltip は、デスクトップとモバイルで使用時に適切なサイズ
 
 ## スタイル設定
 
-Tooltip には、背景色とメッセージ テキスト スタイルで使用できるオプションによるスタイル設定の柔軟性があります。ただし、メッセージ テキストの場合、最適なテキストの読みやすさを確保するために、テーマの明るさに応じて `white` または `grays.900`(`Active`) を使用することをお勧めします。
+Tooltip には、背景色とメッセージ テキスト スタイルで使用できるオプションによるスタイル設定の柔軟性があります。However, it is recommended to use the predefined colors to assure optimal contrast with the background and legibility of the tooltip message.
 
 <img class="responsive-img" src="../images/tooltip_styling.png" srcset="../images/tooltip_styling@2x.png 2x" />
 
