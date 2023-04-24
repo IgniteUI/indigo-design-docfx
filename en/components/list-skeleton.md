@@ -46,9 +46,9 @@ There are 5 interchangeable Skeleton List Item Primary Actions available in Figm
 | Label + Progress          | <img class="responsive-img" src="../images/list_skeleton_item_primary4.png" srcset="../images/list_skeleton_item_primary4@2x.png 2x" />   | Linear Progress Bar in a Primary Action can not have a value label, therefore, it is set to ~No Symbol and this setting should not be changed |                                                                                                                                            |
 | Label | <img class="responsive-img" src="../images/list_skeleton_item_primary5.png" srcset="../images/list_skeleton_item_primary5@2x.png 2x" />     |                                                                                                                                            |
 
-## Secondary Action in Sketch
+## Secondary Action in Figma and Sketch
 
-The Secondary Action of the Skeleton List Item covers all scenarios possible with its counterpart from the standard [List Item](list-item.md).
+The Secondary Action of the Skeleton List Item covers all scenarios possible with its counterpart from the standard [List Item](list-item.md). In Figma all the actions will be added soon. In Sketch, they are available as `Symbol Overrides` and thanks to the Smart Layout, they can be adjusted further by setting unnecessary elements to ~No Symbol.
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
