@@ -84,6 +84,9 @@
         - name: Skeleton Charts
           href: ../components/skeleton-charts.md
           new: true
+        - name: Pie Chart
+          href: ../components/pie-chart.md
+          new: true
     - name: Gauges
       items:
         - name: Bullet Graph

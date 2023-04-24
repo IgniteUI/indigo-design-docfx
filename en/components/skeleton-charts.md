@@ -14,11 +14,12 @@ Use the Skeleton Charts to display the same type of information that you would i
 
 ## Charts
 
-Besides the Column Chart, we also have Skeleton variants for Line, Spline, and Step Line. 
+Besides the Column Chart, we also have Skeleton variants for Line, Spline, Step Line and Pie Chart. 
 
 <img class="responsive-img" src="../images/skeleton_charts_line.png" srcset="../images/skeleton_charts_line@2x.png 2x" />
 <img class="responsive-img" src="../images/skeleton_charts_spline.png" srcset="../images/skeleton_charts_spline@2x.png 2x" />
 <img class="responsive-img" src="../images/skeleton_charts_step.png" srcset="../images/skeleton_charts_step@2x.png 2x" />
+<img class="responsive-img" src="../images/skeleton_charts_pie.png" srcset="../images/skeleton_charts_pie@2x.png 2x" />
 
 ## Title
 
