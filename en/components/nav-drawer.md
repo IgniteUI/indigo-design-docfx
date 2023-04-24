@@ -21,7 +21,7 @@ The Navigation Drawer supports a **Default** type with icon and label for each i
 
 ## Items
 
-The Navigation Drawer can show up to 21 Items. In Figma, you can reduce the amount of visible items by hiding them from the layers panel and the layout will adjust itself accordingly thanks to the added auto layout. In Sketch that can be achieved by setting the unnecessary ones to ~No Symbol from the overrides panel and thanks to the smart layout the rest will adjust automatically. In Adobe XD if you need fewer items, simply delete the unnecessary ones. Unlike in Figma and Sketch, where you need to detach the component and duplicate one or more existing items, in Adobe XD you can have more than 21 items by duplicating existing ones and even rearrange their order by dragging them around. At the end of any of these manipulations, the layout will be adjusted from the Stack applied to the collection of items.
+The Navigation Drawer can show up to 21 Items in Sketch and Figma. If you have more items than necessary, you can reduce their number by setting the ones you don't need to "~No Symbol" from the overrides panel in Sketch, or by hiding them from the layers panel in Figma. Thanks to the smart layout in Sketch and the auto layout in Figma the rest will adjust automatically. In Adobe XD, you ca reduce the number of items by simply deleting the unnecessary ones. Unlike in Sketch and Figma, you can have more than 21 items by duplicating existing ones and even rearranging their order by dragging them around. At the end of any of these manipulations, the layout will be adjusted from the Stack applied to the collection of items.
 
 <img class="responsive-img" src="../images/nav-drawer_default.png" srcset="../images/nav-drawer_default@2x.png 2x" />
 
