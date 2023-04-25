@@ -16,8 +16,8 @@ Use the Progress component to establish clarity and expectancy about the progres
 
 Progress indicators inform users about the status of ongoing processes, such as loading an app, submitting a form, or saving updates. The Progress supports two layout shapes to fit the variety of use cases and layout requirements: a **Circular Bar** and a **Linear Bar**. Each of these layouts comes with an additional selection of the type of progression: **Determinate** and **Indeterminate**.
 
-- **Determinate** indicators display how long an operation will take.
-- **Indeterminate** indicators visualize an unspecified wait time.
+- **Determinate** indicators show the progress of a task or process that has a known duration or expected completion time.
+- **Indeterminate** indicators show that a process is underway but the exact amount of time or progress is unknown.
 
 <img class="responsive-img" src="../images/progress_circular_determinate.png" srcset="../images/progress_circular_determinate@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_linear_determinate.png" srcset="../images/progress_linear_determinate@2x.png 2x" />
