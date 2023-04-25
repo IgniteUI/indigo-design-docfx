@@ -15,7 +15,7 @@ Bottom Navigation コンポーネント は、関連ビュー間のブラウジ�
 
 ## 項目数
 
-In Figma, the Bottom Navigation uses auto layout allowing it to adjust accordingly when one or more of its items are hidden from the layers panel. Sketch で Bottom Navigation はスマート レイアウトを使用しており、1 つ以上の項目が ~No Symbol に設定されていても、それに対応して調整できます。Adobe XD では、未使用の項目を削除でき、Stacks を使用してレイアウトが調整されます。ただし、項目の最大数は 5 つに制限されており、より多くの項目またはビューを使用してアプリケーション レベルのナビゲーションを設計する必要がある場合は、代わりに [Navigation Drawer](nav-drawer.md) の使用を検討してください。
+Figma では、Bottom Navigation は自動レイアウトを使用しており、1 つ以上の項目がレイヤー パネルから非表示になっていると、それに応じて調整することができます。Sketch で Bottom Navigation はスマート レイアウトを使用しており、1 つ以上の項目が ~No Symbol に設定されていても、それに対応して調整できます。Adobe XD では、未使用の項目を削除でき、Stacks を使用してレイアウトが調整されます。ただし、項目の最大数は 5 つに制限されており、より多くの項目またはビューを使用してアプリケーション レベルのナビゲーションを設計する必要がある場合は、代わりに [Navigation Drawer](nav-drawer.md) の使用を検討してください。
 
 <img class="responsive-img" src="../images/bottom-nav_items2.png" srcset="../images/bottom-nav_items2@2x.png 2x" />
 
@@ -27,13 +27,13 @@ In Figma, the Bottom Navigation uses auto layout allowing it to adjust according
 
 ## 項目の状態
 
-Bottom Navigation は、**Active**、Inactive、および Disabled の状態をサポートする項目で構成されています。In Figma, these items are nested `.Base components` inside the main Bottom Navigation component. To make changes, you have to select one or more items and modify their `State` through the Properties panel. Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Bottom Navigation には、常に 1 つのアクティブな項目と、任意の数の非アクティブおよび無効な項目があります。
+Bottom Navigation は、**Active**、Inactive、および Disabled の状態をサポートする項目で構成されています。Figma では、これらの項目はメインの Bottom Navigation コンポーネント内にネストされた `.Base components` です。 変更するには、1 つまたは複数の項目を選択し、[プロパティ] パネルでそれらの `State` を変更する必要があります。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Bottom Navigation には、常に 1 つのアクティブな項目と、任意の数の非アクティブおよび無効な項目があります。
 
 <img class="responsive-img" src="../images/bottom-nav_item_state.png" srcset="../images/bottom-nav_item_state@2x.png 2x" />
 
 ## 項目コンテンツ テンプレート
 
-Bottom Navigation 項目はデフォルトでアイコンとテキストの組み合わせとして提供されます。In Figma, you can switch on/off the label using the boolean operation from the Properties panel, once one or multiple items are selected. Sketch では、項目コンテンツ テンプレートにスマート レイアウト ルールを適用すると、ラベルを ~No Symbol に設定したときにテキスト ラベルを削除し、アイコンのみの項目を作成できます。Adobe XD では、コンテンツは Stack にありますが、ラベル レイヤーが不要な場合は削除して同じ結果を実現できます。
+Bottom Navigation 項目はデフォルトでアイコンとテキストの組み合わせとして提供されます。Figma では、これらの項目はメインの Bottom Navigation コンポーネント内にネストされた `.Base components` です。 変更するには、1 つまたは複数の項目を選択し、[プロパティ] パネルでそれらの `State` を変更する必要があります。Sketch では、項目コンテンツ テンプレートにスマート レイアウト ルールを適用すると、ラベルを ~No Symbol に設定したときにテキスト ラベルを削除し、アイコンのみの項目を作成できます。Adobe XD では、コンテンツは Stack にありますが、ラベル レイヤーが不要な場合は削除して同じ結果を実現できます。
 
 <img class="responsive-img" src="../images/bottom-nav_items3_icons.png" srcset="../images/bottom-nav_items3_icons@2x.png 2x" />
 

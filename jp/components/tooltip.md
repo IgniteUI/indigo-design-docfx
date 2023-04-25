@@ -22,7 +22,7 @@ Tooltip は、デスクトップとモバイルで使用時に適切なサイズ
 
 ## スタイル設定
 
-Tooltip には、背景色とメッセージ テキスト スタイルで使用できるオプションによるスタイル設定の柔軟性があります。However, it is recommended to use the predefined colors to assure optimal contrast with the background and legibility of the tooltip message.
+Tooltip には、背景色とメッセージ テキスト スタイルで使用できるオプションによるスタイル設定の柔軟性があります。ただし、背景との最適なコントラストとツールヒント メッセージの読みやすさを維持するために、事前定義された色を使用することをお勧めします。
 
 <img class="responsive-img" src="../images/tooltip_styling.png" srcset="../images/tooltip_styling@2x.png 2x" />
 

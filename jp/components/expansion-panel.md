@@ -1,7 +1,7 @@
 ---
 title: Expansion Panel - デザイン システム コンポーネント
 _description: Expansion Panel コンポーネントは、詳細を表示および非表示にする組み込み機能を備えた概要ビューを提供します。 
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -17,17 +17,17 @@ Expansion Panel は、[Ignite UI for Angular Expansion Panel コンポーネン�
 
 ## Header State (ヘッダーの状態)
 
-Expansion Panel のヘッダーは、**Active (有効)** および Disabled (無効) 状態になります。これらは、Sketch の [Overrides] パネルと Adobe XD の右側のパネルの [States] セクションで切り替えることができます。
+Expansion Panel のヘッダーは、**Active (有効)** および Disabled (無効) 状態になります。You can switch between them using the Disabled boolean operation in Figma, using the Overrides panel in Sketch and from the States section in the right panel of Adobe XD.
 
 <img class="responsive-img" src="../images/expansion_panel_active.png" srcset="../images/expansion_panel_active@2x.png 2x" />
-`active`
+`Active`
 
 <img class="responsive-img" src="../images/expansion_panel_disabled.png" srcset="../images/expansion_panel_disabled@2x.png 2x" />
-`disabled`
+`Disabled`
 
 ## Header Layout (ヘッダーのレイアウト)
 
-Expansion Panel の Header Layout は、Left Expansion Panel Icon (左側の拡張パネル アイコン)、Title (タイトル) と Description (説明) を含む Content (コンテンツ)、および Right Expansion Panel Icon (右側の拡張パネル アイコン) で構成されます。デフォルトでは、Sketch では ~No Symbol に設定されており、Adobe XD では非表示になっています。Left Expansion Panel Icon と Content は、Sketch ではスマートなレイアウトになっており、Adobe XD では Stack を形成します。つまり、Icon が非表示になっている場合、Content は自動的に左に移動します。ただし、そうする場合は、Right Expansion Panel Icon を表示し、左側のアイコンを Sketch で ~No Symbol に設定するか、Adobe XD で削除することを忘れないでください。
+Expansion Panel の Header Layout は、Left Expansion Panel Icon (左側の拡張パネル アイコン)、Title (タイトル) と Description (説明) を含む Content (コンテンツ)、および Right Expansion Panel Icon (右側の拡張パネル アイコン) で構成されます。In Figma there are Icon and Description properties, which let you modify the layout. By default the Right Expansion Panel Icon is set to ~No Symbol in Sketch and is hidden in Adobe XD. Left Expansion Panel Icon と Content は、Sketch ではスマートなレイアウトになっており、Adobe XD では Stack を形成します。つまり、Icon が非表示になっている場合、Content は自動的に左に移動します。ただし、そうする場合は、Right Expansion Panel Icon を表示し、左側のアイコンを Sketch で ~No Symbol に設定するか、Adobe XD で削除することを忘れないでください。
 
 <img class="responsive-img" src="../images/expansion_panel_header1.png" srcset="../images/expansion_panel_header1@2x.png 2x" />
 <img class="responsive-img" src="../images/expansion_panel_header2.png" srcset="../images/expansion_panel_header2@2x.png 2x" />

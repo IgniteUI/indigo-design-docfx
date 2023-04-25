@@ -15,13 +15,13 @@ Banner コンポーネントを使用して、目立つメッセージとそれ�
 
 ## Message (メッセージ)
 
-Banner の Message は、Icon (アイコン) と Text (テキスト) フィールドで構成されています。Sketch のスマート レイアウトを使用して、~No Symbol に設定することでどちらか一方を非表示にし、Adobe XD の Stack を使用して、コンポーネントを追加または削除するときにレイアウトを自動的に処理します。In Figma, if you want to make any changes to the default Banner design, you need to detach the Banner component. Then the changes have to be done manually. The auto layout will be integrated in the next version of the Figma UI Kit.
+Banner の Message は、Icon (アイコン) と Text (テキスト) フィールドで構成されています。Sketch のスマート レイアウトを使用して、~No Symbol に設定することでどちらか一方を非表示にし、Adobe XD の Stack を使用して、コンポーネントを追加または削除するときにレイアウトを自動的に処理します。Figma では、デフォルトのバナー デザインに変更を加えたい場合は、バナー コンポーネントを切り離す必要があります。その後、変更を手動で行う必要があります。自動レイアウトは、次のバージョンの Figma UI キットで統合される予定です。
 
 <img class="responsive-img" src="../images/banner_message.png" srcset="../images/banner_message@2x.png 2x" />
 
 ## Actions (アクション)
 
-Actions 領域には、デフォルトで 2 つの Button コンポーネントが含まれています。1 つだけが必要な場合、または両方を削除する場合は、Sketch で ~No Symbol に設定すると、スマート レイアウトですべてが調整されます。Adobe XD では、不要なボタン レイヤーを削除し、適用された Stack に依存してインターフェイスを調整することで、同じことを実現できます。さらに、[Libraries] パネルから [Actions] 領域にドラッグすることで、アクションを追加したり、さまざまなコンポーネントを使用したりすることもできます。In Figma, to manage the actions displayed in the Banner, you can choose which one to keep and hide the other from the layers panel. If you don't need any actions, you can hide the entire "Actions" group, and then the design has to be adjusted manually. The auto layout will be integrated in the next version of the Figma UI Kit.
+Actions 領域には、デフォルトで 2 つの Button コンポーネントが含まれています。1 つだけが必要な場合、または両方を削除する場合は、Sketch で ~No Symbol に設定すると、スマート レイアウトですべてが調整されます。Adobe XD では、不要なボタン レイヤーを削除し、適用された Stack に依存してインターフェイスを調整することで、同じことを実現できます。さらに、[Libraries] パネルから [Actions] 領域にドラッグすることで、アクションを追加したり、さまざまなコンポーネントを使用したりすることもできます。Figma では、バナーに表示されるアクションを管理するために、いずれを残しいずれを非表示にするかをレイヤー パネルから選択できます。アクションが必要ない場合は、「Actions」グループ全体を非表示にしてから、デザインを手動で調整する必要があります。自動レイアウトは、次のバージョンの Figma UI キットに統合されます。
 
 <img class="responsive-img" src="../images/banner_actions.png" srcset="../images/banner_actions@2x.png 2x" />
 

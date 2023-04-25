@@ -23,7 +23,7 @@ Divider は、次の 2 つの方向をサポートしています: コンテン�
 
 ## タイプ
 
-Divider には、**実線**と破線の 2 つのタイプがあります。In **Figma**, you can easily switch between the two from the Type property under the Design tab in the right sidebar. In **Sketch**, you can also switch between them thanks to `Symbol Overrides`, while in **Adobe XD** we are using the `Component States` to achieve the same.
+Divider には、**実線**と破線の 2 つのタイプがあります。**Figma** では、右側のサイドバーの [Design] タブの下にある [Type] プロパティから、簡単に切り替えることができます。**Sketch** では、`Symbol Overrides` によってそれらを切り替えることもできますが、**Adobe XD** では `Component States` を使用して同じことを実現しています。
 
 <img class="responsive-img" src="../images/divider_solid.png" srcset="../images/divider_solid@2x.png 2x" />
 

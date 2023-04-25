@@ -25,7 +25,7 @@ URL オーバーライドを介してクリックしたときにハイパーリ�
 
 ## スタイル設定
 
-The Hyperlink can be styled by changing the default blue color of the text from the Hyperlink main component in the **Figma** Indigo.Design UI Kit. **Sketch** では、Indigo.Design ライブラリの 🧩 Components ページにある `Symbol Master` からデフォルトの色を変更できます。
+ハイパーリンクは、**Figma** Indigo.Design UI キットのハイパーリンク メイン コンポーネントからテキストのデフォルトの青色を変更することでスタイルを設定できます。**Sketch** では、Indigo.Design ライブラリの 🧩 Components ページにある `Symbol Master` からデフォルトの色を変更できます。
 
 <img class="responsive-img" src="../images/hyperlink_styling.png" srcset="../images/hyperlink_styling@2x.png 2x" />
 

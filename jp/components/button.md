@@ -27,19 +27,19 @@ Button コンポーネント シンボルは、シンプルなユーザー操作
 
 ## 操作状態
 
-これらのボタンはすべて、有効なバリアントと無効なバリアントの両方をサポートしているため、無効な状態で挿入することもできます。In Figma you can switch between the two using a boolean operation from the properties panel. Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+これらのボタンはすべて、有効なバリアントと無効なバリアントの両方をサポートしているため、無効な状態で挿入することもできます。Figma では、プロパティ パネルからブール演算を使用して切り替えることができます。Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/button_disabled.png" srcset="../images/button_disabled@2x.png 2x" />
 
 ## 状態
 
-有効なボタンは、**Rest** と Hover 状態をサポートします。In Figma, we've added additional Focused state, which can be switched between by changing the State property. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
+有効なボタンは、**Rest** と Hover 状態をサポートします。Figma では、State プロパティを変更することで切り替えることができるフォーカス状態を追加しました。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/button_states.png" srcset="../images/button_states@2x.png 2x" />
 
 ## レイアウト テンプレート
 
-Contained、Outlined、Flat、および Floating Action ボタンは、柔軟なアイコンおよびラベルのテンプレートをサポートします。In Figma, to show or hide the icons, you can use the Left Icon and Right Icon boolean properties. If you want to have an Icon Button, you can set the Content property to Icon. Sketch では、スマート レイアウト ルールが適用されるため、非表示にする要素を ~No Symbol に設定すると、レイアウトを調整できます。Adobe XD では、代わりに未使用レイヤーを削除します。ただし、デザイン時にラベルとアイコンの位置のみを変更する場合は、一方を他方の側にドラッグできます。
+Contained、Outlined、Flat、および Floating Action ボタンは、柔軟なアイコンおよびラベルのテンプレートをサポートします。Figma では、アイコンを表示または非表示にするには、Left Icon および Right Icon ブール プロパティを使用できます。アイコン ボタンが必要な場合は、Content プロパティを Icon に設定できます。Sketch では、スマート レイアウト ルールが適用されるため、非表示にする要素を ~No Symbol に設定すると、レイアウトを調整できます。Adobe XD では、代わりに未使用レイヤーを削除します。ただし、デザイン時にラベルとアイコンの位置のみを変更する場合は、一方を他方の側にドラッグできます。
 
 <img class="responsive-img" src="../images/button_templates.png" srcset="../images/button_templates@2x.png 2x" />
 
