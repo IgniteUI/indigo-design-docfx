@@ -1,26 +1,40 @@
 ---
 title: Grid - Design System Component
 _description: The Grid Component provides means to display and interact with high-quantities of data structured in a tabular fashion.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
 ---
 
 # Grid
 
-Use the Grid Component to let the user browse and interact with a vast amount of complex data that is visually represented in tabular fashion and provide means for filtering, sorting, paging, and much more. The Grid is visually identical to the [Ignite UI for Angular Grid Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid.html)
+Use the Grid Component to let the user browse and interact with a vast amount of complex data that is visually represented in tabular layout and provide means for filtering, sorting, paging, and much more. The Grid is visually identical to the [Ignite UI for Angular Grid Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid.html)
 
 ## Grid Demo
 
 <img class="responsive-img" src="../images/grid_demo.png" srcset="../images/grid_demo@2x.png 2x" />
 
-## Using the Grid in Sketch
+## Using the Grid in Figma
 
-The Grid is essentially a repeater of columns and rows showing data in a tabular fashion. Therefore, the easiest way to use it is by dragging one of the predefined grids to your artboard - there are three presets available for the three [display densities](grid-display-density.md) supported. Once in your artboard, by right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu you should see the following in your layers panel under the newly appeared group:
+The Grid is essentially a repeater of columns and rows showing data in a tabular layout. Therefore, the easiest way to use it is by dragging one of the predefined grids to your frame - there are three presets available for the three [display densities](grid-display-density.md) supported. Please note, that in Figma the Grid Component has a structure based on columns, which means you can delete or hide instantly an entire column, but not an entire row. Once you insert the grid, you can instantly start editing the header and body cells or resize the overall width of the grid. However in case you would like to make any further adjustments to the grid structure, such as removing columns or rows, or changing the columns' width, you have to right-click over the grid and use the `Detach instance` option near the bottom of the contextual menu. Even before you use the `Detach instance` option, you should see the following structure under the component's name:
 
 | Layer                                    | Use                                                                                                                                                  |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 🚫 metadata | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
+| Column (number)                                 | Contains the Header and Body cells inside the specific column                                                                                                                 |
+| Header                                   | Contains a specific header cell                                                                                                                 |
+| Body (number)                                    | Contains a specific body cell                                                                                                                    |
+
+After detaching, you may increase the number of columns inside the grid, by duplicating any of the existing columns. In order to increase the number of body cells, you should use the `Detach instance` option first over the specific column and then again by duplicating any of the body cells that already exist inside the column. After you increase or decrease the number of columns or cells, you should manually adjust the size of the Grid Component.
+
+## Using the Grid in Sketch
+
+To use the Grid Component in Sketch you can drag one of the predefined grids to your artboard - there are three presets available for the three [display densities](grid-display-density.md) supported. Once in your artboard, by right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu you should see the following in your layers panel under the newly appeared group:
+
+| Layer                                    | Use                                                                                                                                                  |
+| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🚫 metadata | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
+| Column (number)                          | Contains the Header and Body cells inside the specific column
 | Header                                   | Contains all the cells in the header                                                                                                                 |
-| Body                                     | Contains all the cells in the body                                                                                                                   |
+| Body (number)                                    | Contains a specific body cell                                                                                                                    |
 
 After detaching, you may alter the number of headers you need, in order to show all the dimensions of your data and insert as many visible records as you want to show in your design simply by duplicating one of the rows of data that you already have.
 
@@ -52,7 +66,10 @@ There is also one special sub-type of Header Cell, the Row Filter Header Cell th
 
 ## Cell Display Density
 
-Header, Body, and Summary Cells support three display density variants of the Grid: comfortable, cosy, and compact. Each of them come with distinct symbols as can be seen for the Header Cells below:
+Header, Body, and Summary Cells support three display density variants of the Grid Component: comfortable, cosy, and compact. In Sketch, each of them come with distinct symbols, whereas in Figma, the cells density and the content inside are properties that can be changed seperately from the property panel:
+
+> [!NOTE]
+> We advise you not to change the display density of the grid cells, once you've selected a Grid Component with a certain density.
 
 <img class="responsive-img" src="../images/grid_cell_header_comfortable.png" srcset="../images/grid_cell_header_comfortable@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_cosy.png" srcset="../images/grid_cell_header_cosy@2x.png 2x" />
@@ -60,7 +77,7 @@ Header, Body, and Summary Cells support three display density variants of the Gr
 
 ## Items and Features (Header Cell)
 
-The Grid Header Cell supports various layout combinations through the `Items` override and different feature configurations via the `Feature Left` and `Feature Right` overrides. Moreover there are a number of additional overrides that are not visible but enable different column features on the Grid, such as [Editing](grid-editing.md), [Moving](grid-column-moving.md), [Resizing](grid-column-resizing.md), [Hiding](grid-column-hiding.md), and [Pinning](grid-column-pinning.md).
+The Grid Header Cell supports various layout combinations through the `Items` override/instance and different feature configurations via the `Feature Left` and `Feature Right` overrides/instances. Moreover there are a number of additional overrides/instances that are not visible but enable different column features on the Grid, such as [Editing](grid-editing.md), [Moving](grid-column-moving.md), [Resizing](grid-column-resizing.md), [Hiding](grid-column-hiding.md), and [Pinning](grid-column-pinning.md).
 
 <img class="responsive-img" src="../images/grid_cell_header_no-icon.png" srcset="../images/grid_cell_header_no-icon@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_icon.png" srcset="../images/grid_cell_header_icon@2x.png 2x" />
@@ -73,23 +90,24 @@ The Grid Body Cell supports the following interactive states: **inactive** for t
 <img class="responsive-img" src="../images/grid_cell_body_cell-inactive.png" srcset="../images/grid_cell_body_cell-inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_cell-active.png" srcset="../images/grid_cell_body_cell-active@2x.png 2x" />
 
-The Grid Body Cell has styling support for some of the Grid features defined in the headers via their `Grid Feature`. There are style variants for regular cells, editable cells, and cells that belong to a selected row. In Sketch, to switch between `Grid Feature`-s you should use the available `Symbol Overrides`, while in Adobe XD there is a matching list of `Component States`.
+The Grid Body Cell has styling support for some of the Grid features defined in the headers via their `Grid Feature`. There are style variants for regular cells, editable cells, and cells that belong to a selected row. In Figma switching between the different body cell states is achieved through the `State property` in the property panel. In Sketch, to switch between `Grid Feature`-s you should use the available `Symbol Overrides`, while in Adobe XD there is a matching list of `Component States`.
 
 <img class="responsive-img" src="../images/grid_cell_body_row-selected.png" srcset="../images/grid_cell_body_row-selected@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_editing_cell.png" srcset="../images/grid_cell_body_editing_cell@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_body_multirow_layout.png" srcset="../images/grid_cell_body_multirow_layout@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_row-editing-nofocus.png" srcset="../images/grid_cell_body_row-editing-nofocus@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_row-editing-focus.png" srcset="../images/grid_cell_body_row-editing-focus@2x.png 2x" />
 
 ## Cell Type
 
-In Sketch, the Grid Header Cell provides presets for the four generic types of data that the Grid needs to accommodate: **Number** for numeric values, the one combining Text,Date,Bool for the respective data types, Row Selection that is used for the first column when selection of multiple rows is desired, and Group By - used to expand and collapse grouped data rows. In Adobe XD the types are three: a standard one for data, Row Selection, and Group By, with the standard one supporting choice between numeric values and text/date/bool via `Component States`.
+In Figma the Grid Header Cell supports six different types: **Numeric** for metric values, **Text,Date,Bool** for the respective data types, **Row Selection** that is used for the first column when selection of multiple rows is desired, **Group By** - used to expand and collapse grouped data rows, **Row Filter Empty** and **Row Filter Filled**, when the user can activate specific filtering options, related to the content inside the body cells. In Sketch, the Grid Header Cell provides the same types, in a form of overrides. In Adobe XD the types are three: a standard one for **Data**, **Row Selection**, and **Group By**, with the standard one supporting choice between **Numeric** values and **Text,Date,Bool** via `Component States`.
 
 <img class="responsive-img" src="../images/grid_cell_header_number.png" srcset="../images/grid_cell_header_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_checkbox.png" srcset="../images/grid_cell_header_checkbox@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_groupby.png" srcset="../images/grid_cell_header_groupby@2x.png 2x" />
 
-The Grid Body Cell provides presets for the same generic types of data like the Header Cell with an additional icon type to visualize simple graphics.
+The Grid Body Cell provides presets for the same generic types of data like the Header Cell with an additional icon type to visualize simple graphics and spacer type, used so the body cell can be left empty.
 
 <img class="responsive-img" src="../images/grid_cell_body_number.png" srcset="../images/grid_cell_body_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_text.png" srcset="../images/grid_cell_body_text@2x.png 2x" />
@@ -98,7 +116,7 @@ The Grid Body Cell provides presets for the same generic types of data like the 
 
 ## Grid Horizontal Scrolling
 
-One way to achieve certain Grid dimensions, either as an absolute width or in relation to a parent group/container, is by adding a mask within the main group for the Grid. Simply insert a rectangle without any style and set its dimensions according to your needs, in the image below we have a Grid that is always exactly 800px wide.
+In order to achieve horizontal scrolling in Figma, you need to add the Grid inside a frame with a size smaller than the actual grid width and activate the clipping option from the property panel. Then you need to go to the `Prototype` tab at the top of the property panel and set the scrolling to horizontal. Another option for achieving the same result is by detaching the Grid Component and them reducing the frame size and activating the clipping option from the property panel. Then again you have to go to the `Prototype` tab at the top of the property panel and set the scrolling to horizontal. In Sketch and Adobe Xd, one way to achieve certain Grid dimensions, either as an absolute width or in relation to a parent group/container, is by adding a mask within the main group for the Grid. Simply insert a rectangle without any style and set its dimensions according to your needs, in the image below we have a Grid that is always exactly 800px wide.
 
 <img class="responsive-img" src="../images/grid_horizontal_scroll_rect.png" srcset="../images/grid_horizontal_scroll_rect@2x.png 2x" />
 
