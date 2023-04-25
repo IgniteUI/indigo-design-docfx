@@ -38,7 +38,7 @@ Every experienced designer uses constraints wisely to limit the user input and a
 <img class="responsive-img" src="../images/textarea_warning.png" srcset="../images/textarea_warning@2x.png 2x" />
 <img class="responsive-img" src="../images/textarea_error.png" srcset="../images/textarea_error@2x.png 2x" />
 
-In Figma, states can be easily switched from `State` property in the right sidebar. In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
+In Figma, states can be easily switched from the `State` property in the right sidebar. In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
 
 ## Resizing
 
