@@ -6,6 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, E
 
 # Rating
 
+The Rating component enable users to apply a rating to an item or experience, such as a product, service, page, other entity, and more. The Rating displays a single user's, or an aggregate, start rating and it's used to let users set their own star rating.
 
 ## Rating Demo
 
