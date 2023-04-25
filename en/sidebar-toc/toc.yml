@@ -200,6 +200,9 @@
       href: ../components/toast.md
     - name: Tooltip
       href: ../components/tooltip.md
+    - name: Tree
+      href: ../components/tree.md
+      new: true
     - name: Tree Grid
       href: ../components/tree-grid.md
       items:
