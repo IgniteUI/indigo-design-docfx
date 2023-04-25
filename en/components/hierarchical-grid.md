@@ -1,7 +1,7 @@
 ---
 title: Hierarchical Grid - Design System Component
 _description: The Hierarchical Grid Component provides means to display and interact with hierarchically related sets of tabular data.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Hierarchical Grid
@@ -12,9 +12,23 @@ Use the Hierarchical Grid Component to let the user browse and interact with a v
 
 <img class="responsive-img" src="../images/hierarchical_grid_demo.png" srcset="../images/hierarchical_grid_demo@2x.png 2x" />
 
+## Using the Hierarchical Grid in Figma
+Similarly to the Grid, the Hierarchical Grid is essentially a repeater of columns, rows, and nested grids forming a visual hierarchy. To use the Hirerarchical Grid component simply search for it on the Recourses panel and instert an instance. If needed, you can change the display density by using the "Display Density" property from the properties panel. In the layers panel you'll see the following structure: 
+
+| Layer                                | Use                                                                                                                                                  |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🚫componentVersion  &nbsp; &nbsp; | A special locked layer starting with a prohibited icon. This layer containts information about the current version of the component and you should avoid deleting or modifying it. |
+| 🚫 metadata | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
+| Drill Indication                  | A symbol that is used for indicating the active cell/cell in focus                                                                                                       |
+| Grid 2                               | Contains all the columns and cells of the bottom grid header                                                                                                                 |
+| Background                                 | Defines the background color of the second grid                                                                            |
+| Grid 1              | Contains all the columns and cells of the top grid                                                                                      |
+
+If you'd like to alter the number of columns or cell, you can simply hide the unnecessary ones from the layers panel. In case you want to add more, you'll need to select the Hierarchical Grid component, right click on it and select "Detach instance" from the contextual menu. You can then duplicate some of the existing columns until you achieve the desired look of the Grid. If you want to show more of the hierarchy, you can also duplicate one of the two Grid frames.
+
 ## Using the Hierarchical Grid in Sketch
 
-Similarly to the Grid, the Hierarchical Grid is essentially a repeater of columns, rows, and nested grids forming a visual hierarchy. Therefore, the easiest way to use it is by dragging one of the predefined grids to your artboard - there are three presets available for the three [display densities](grid-display-density.md) supported. Once in your artboard, by right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu you should see the following in your layers panel under the newly appeared group:
+The easiest way to use the Hierarchical Grid in Sketch is by dragging one of the predefined grids to your artboard - there are three presets available for the three [display densities](grid-display-density.md) supported. Once in your artboard, by right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu you should see the following in your layers panel under the newly appeared group:
 
 | Layer                                | Use                                                                                                                                                  |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -53,7 +67,7 @@ To understand how regular Header, Body and Summary cells can be used for differe
 
 ## Cell Display Density
 
-The CollapseAll and Expand cells support three display density variants of the Hierarchical Grid: comfortable, cosy, and compact. Each of them come with distinct symbols as can be seen for the CollapseAll Header cells below:
+The CollapseAll and Expand cells support three display density variants of the Hierarchical Grid: Comfortable, Cosy, and Compact. Each of them come with distinct symbols as can be seen for the CollapseAll Header cells below:
 
 <img class="responsive-img" src="../images/hierarchical_grid_cell_header_comfortable.png" srcset="../images/hierarchical_grid_cell_header_comfortable@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_cell_header_cosy.png" srcset="../images/hierarchical_grid_cell_header_cosy@2x.png 2x" />
