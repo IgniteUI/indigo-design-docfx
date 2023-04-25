@@ -11,5 +11,11 @@ The Rating component enable users to apply a rating to an item or experience, su
 ## Rating Demo
 
 
+## Interaction States
+
+## Styling
+
+## Usage
+
 
 Our community is active and always welcoming to new ideas.
