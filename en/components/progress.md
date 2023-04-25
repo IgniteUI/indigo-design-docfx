@@ -49,7 +49,7 @@ When using a Determinate type of Progress, you may choose the Progress Amount be
 
 ## Stripes
 
-When using a Linear Bar layout shape for the Progress component, it will come with an additional option for Stripes over the Fill area. To remove the Stripes simply set the `Stripes` layer color to `transparent`.
+When using a Linear Bar layout shape for the Progress component, it will come with an additional option for Stripes over the Fill area. To remove the Stripes, simply set the `🌈 Stripes` color override (in Sketch) or layer color (in Figma) to `transparent`.
 
 <img class="responsive-img" src="../images/progress_linearstripes.png" srcset="../images/progress_linearstripes@2x.png 2x" />
 
