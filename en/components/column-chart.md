@@ -29,7 +29,7 @@ The Column Chart has two states - Idle and Hover. In Figma you can switch betwee
 
 ## Y-Axis
 
-The Y-axis of the column chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and to hide a label, simply hide it from the layers panel in Figma or set its override to ~No Symbol in Sketch. In Adobe XD you shoul delete the layer. You may hide the axis line by setting its color to `Transparent` and to hide all elements at once, hide the nested Y axis component from the layers panel in Figma, change the Y-axis override to ~No Symbol in Sketch or delete its layer in Adobe XD.
+The Y-axis of the column chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and you can hide a label by simply selecting and hiding it from the layers panel in Figma, or setting its override to ~No Symbol in Sketch. In Adobe XD you should delete the layer. You may hide the axis line by setting its color to `Transparent` and to hide all elements at once, hide the nested Y axis component from the layers panel in Figma, change the Y-axis override to ~No Symbol in Sketch or delete its layer in Adobe XD.
 
 <img class="responsive-img" src="../images/column_chart_yaxis.png" srcset="../images/column_chart_yaxis@2x.png 2x" />
 
