@@ -55,7 +55,7 @@ When using a Linear Bar layout shape for the Progress component, it will come wi
 
 ## Styling
 
-The Progress comes with styling flexibility through the various options for its text, like color, weight, and position, as well as changing the colors of Progress, Base, Stripes, Fill, and Track where applicable.
+The Progress comes with styling flexibility through the various options for its text - like color, weight, and position, as well as changing the colors of Progress, Base, Stripes, Fill, and Track where applicable.
 
 <img class="responsive-img" src="../images/progress_striped.png" srcset="../images/progress_striped@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_clear.png" srcset="../images/progress_clear@2x.png 2x" />
