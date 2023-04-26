@@ -39,7 +39,7 @@ The Slider comes with styling flexibility through the options available for the 
 
 ## Usage
 
-The Slider track color should always have a higher emphasis than the track base color. Both single value and range Sliders should be consistently styled i.e. the thumb color should match the track color.
+The Slider track color should always have a higher emphasis than the track base color and both single value and range Sliders should be consistently styled.
 
 | Do                            | Don't                           |
 | ----------------------------- | ------------------------------- |
