@@ -42,7 +42,7 @@ In order to increase or decrese the number of rating icons, you should use the `
 ## Using the Rating in Adobe XD
 
 > [!NOTE]
-> To be added
+> WIP: Currently, we don't support the Rating component in Adobe XD.
 
 ## Interaction States
 
