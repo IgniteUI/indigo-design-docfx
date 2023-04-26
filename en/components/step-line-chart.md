@@ -23,7 +23,7 @@ The Step Line Chart has a title that can be changed or hidden if not needed. In 
 
 ## Legend
 
-The Step Line Chart comes with a Legend to show the number of series in it and what they represent.  The Legend in Figma is built using auto layout, meaning you can show/hide series items from the layers panel and the content will adjust itself accordingly. In Sketch it is built using a smart layout and can be adjusted to contain the exact amount of series items by setting the overrides of those not needed to ~No Symbol. In Adobe XD, the use of a Stack lets you achieve that by deleting the unnecessary legend item layers. Legend items' shape is also configurable with built-in support for rectangle, line, and dot.
+The Step Line Chart comes with a Legend to show the number of series in it and what they represent. The Legend in Figma is built using auto layout, meaning you can show/hide series items from the layers panel and the content will adjust itself accordingly. In Sketch it is built using a smart layout and can be adjusted to contain the exact amount of series items by setting the overrides of those not needed to ~No Symbol. In Adobe XD, the use of a Stack lets you achieve that by deleting the unnecessary legend item layers. Legend items' shape is also configurable with built-in support for rectangle, line, and dot.
 
 <img class="responsive-img" src="../images/step_line_chart_legend.png" srcset="../images/step_line_chart_legend@2x.png 2x" />
 
