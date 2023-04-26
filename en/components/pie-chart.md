@@ -33,7 +33,7 @@ The Labels on the Pie Chart have corresponding Leaders. You can choose from thre
 
 First and foremost, the Pie Chart lets you change the colors of the series. It is recommended to use only colors from the palette for data visualizations with nuances named series.1, series.2 and so on till series.10. You may also change the colors of the Leaders, but they should match the corresponding series's colors. The Labels are also customizable via the available text styles in the **Indigo.Design System**.
 
-<<img class="responsive-img" src="../images/pie_chart_styling.png" srcset="../images/pie_chart_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/pie_chart_styling.png" srcset="../images/pie_chart_styling@2x.png 2x" />
 
 ## Usage
 
