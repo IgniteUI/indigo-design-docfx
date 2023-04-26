@@ -27,13 +27,13 @@ Figma では、Bottom Navigation は自動レイアウトを使用しており�
 
 ## 項目の状態
 
-Bottom Navigation は、**Active**、Inactive、および Disabled の状態をサポートする項目で構成されています。Figma では、これらの項目はメインの Bottom Navigation コンポーネント内にネストされた `.Base components` です。 変更するには、1 つまたは複数の項目を選択し、[プロパティ] パネルでそれらの `State` を変更する必要があります。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Bottom Navigation には、常に 1 つのアクティブな項目と、任意の数の非アクティブおよび無効な項目があります。
+Bottom Navigation は、**Active**、Inactive、および Disabled の状態をサポートする項目で構成されています。Figma では、これらの項目はメインの Bottom Navigation コンポーネント内にネストされた `.Base components` です。変更するには、1 つまたは複数の項目を選択し、[プロパティ] パネルでそれらの `State` を変更する必要があります。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Bottom Navigation には、常に 1 つのアクティブな項目と、任意の数の非アクティブおよび無効な項目があります。
 
 <img class="responsive-img" src="../images/bottom-nav_item_state.png" srcset="../images/bottom-nav_item_state@2x.png 2x" />
 
 ## 項目コンテンツ テンプレート
 
-Bottom Navigation 項目はデフォルトでアイコンとテキストの組み合わせとして提供されます。Figma では、これらの項目はメインの Bottom Navigation コンポーネント内にネストされた `.Base components` です。 変更するには、1 つまたは複数の項目を選択し、[プロパティ] パネルでそれらの `State` を変更する必要があります。Sketch では、項目コンテンツ テンプレートにスマート レイアウト ルールを適用すると、ラベルを ~No Symbol に設定したときにテキスト ラベルを削除し、アイコンのみの項目を作成できます。Adobe XD では、コンテンツは Stack にありますが、ラベル レイヤーが不要な場合は削除して同じ結果を実現できます。
+Bottom Navigation 項目はデフォルトでアイコンとテキストの組み合わせとして提供されます。Figma では、これらの項目はメインの Bottom Navigation コンポーネント内にネストされた `.Base components` です。変更するには、1 つまたは複数の項目を選択し、[プロパティ] パネルでそれらの `State` を変更する必要があります。Sketch では、項目コンテンツ テンプレートにスマート レイアウト ルールを適用すると、ラベルを ~No Symbol に設定したときにテキスト ラベルを削除し、アイコンのみの項目を作成できます。Adobe XD では、コンテンツは Stack にありますが、ラベル レイヤーが不要な場合は削除して同じ結果を実現できます。
 
 <img class="responsive-img" src="../images/bottom-nav_items3_icons.png" srcset="../images/bottom-nav_items3_icons@2x.png 2x" />
 
