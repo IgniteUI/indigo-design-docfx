@@ -5,7 +5,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 ---
 
 # Pie Chart 
-The Pie Chart is a circular graphic, which is divided into slices to illustrate how categories (parts) of a data set add up to a total (whole) value. Each section, or pie slice, has an arc length, proportional to its underlying data value. Categories are shown in proportion to other categories based on their value percentage to the total value being analyzed, as parts of 100 or 100%. The Pie Charts are appropriate for small data sets and are easy to read at a glance.
+The Pie Chart is a circular graphic, which is divided into slices or segments to illustrate how categories (parts) of a data set add up to a total (whole) value. Each section, or pie slice, has an arc length, proportional to its underlying data value. Categories are shown in proportion to other categories based on their value percentage to the total value being analyzed, as parts of 100 or 100%. The Pie Charts are appropriate for small data sets and are easy to read and understand at a glance.
 
 ## Pie Chart Demo
 
@@ -37,7 +37,7 @@ First and foremost, the Pie Chart lets you change the colors of the series. It i
 
 ## Usage
 
-Use the Pie Chart to to visualize how categories (parts) of a data set add up to a total (whole) value. You shouldn't use the same color for two or more categories. It also recommended to stick to a series amount between 3 and 5, in order to keep the Pie Chart easy to read and analyse. Instead of assigning a slice for all of your categories, consider using a category "Others", which represents the total percentage of all smaller values.
+Use the Pie Chart to visualize how categories (parts) of a data set add up to a total (whole) value. You shouldn't use the same color for two or more categories to avoid confusion and misinterpretation of the data. It's also recommended to stick to a series amount between 3 and 5, in order to keep the Pie Chart easy to read and understand. To reduce chart clutter and make it easier to focus on larger, more significant values or categories, consider using an "Others" category slice or segment to represent the total percentage of all smaller values.
 
 | Do                                                                         | Don't                                                                          |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
