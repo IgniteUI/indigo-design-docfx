@@ -19,19 +19,19 @@ The **Indigo.Design System** empowers your design workflow with 60+ UI Component
 
 Within the Figma libraries, there is a page named `🧩 Components`, under which is a list of all the components included in the kit. Each component has its page, where all the relevant base components are located. Once you make a library available in your design file, you can easily access its assets from the sidebars and drag components into the canvas from the Assets panel in the left sidebar. After placing a component in the workspace and selecting it, you can view its available properties in the right sidebar, and even swap instances directly from there. Below you may see some of the Components such as the different types of [Buttons](button.md), [Button Group](button-group.md) and form elements like [Checkbox](checkbox.md), [Switch](switch.md), and [Radio Group](radio-group.md).
 
-<img class="responsive-img" src="../images/components-page-figma.png" />
+<img class="responsive-img" src="../images/components-page-figma.png" srcset="../images/components-page-figma@2x.png 2x" />
 
 ## Sketch
 
 The Sketch libraries have a `🧩 Components` page containing all Components and symbols related to them. When selecting a Symbol instance, through the Override section in the right panel, one can change the content inside e.g. enabled/disabled states, icons, colors, etc. Below is a small part of showing some of the Components and symbols such as the different types of [Buttons](button.md), [Button Group](button-group.md) and form elements like [Checkbox](checkbox.md), [Switch](switch.md), and [Radio Group](radio-group.md).
 
-<img class="responsive-img" src="../images/components-page.png" />
+<img class="responsive-img" src="../images/components-page-sketch.png" srcset="../images/components-page-sketch@2x.png 2x" />
 
 ## Adobe XD
 
 In the Adobe XD library you can find the `🧩 Components` in the middle column. Here, the various states of a component can be switched from the right panel. Also, we have used the `Stack` and `Padding` to align and distribute elements vertically or horizontally and change their position. When you want to swap a nested component with another one, you can simply drag it from the `Libraries` panel and drop it on top of the current one to replace it. You will also notice that some components, such as the Grid, for example, use a `Repeat Grid` to speed configuration up. Below you may find some of the Components like different types of [Buttons](button.md), [Button Group](button-group.md) and form elements such as [Checkbox](checkbox.md), [Switch](switch.md), and [Radio Group](radio-group.md).
 
-<img class="responsive-img" src="../images/components-page-xd.png" />
+<img class="responsive-img" src="../images/components-page-xd.png" srcset="../images/components-page-xd@2x.png 2x" />
 
 > [!WARNING]
 > Detaching a component from the library in Sketch makes it impossible to automatically apply updates from subsequent versions of the Design System and may impact the code generation capability of the component. The code generation services rely on specially designated `🚫 metadata` layers containing metadata descriptions of the state, template, and other properties of the component. In Figma libraries, there is one additional layer placed in every component named `🚫 componentVersion` containing the version, which helps for successful code generation.
