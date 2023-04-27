@@ -44,7 +44,7 @@ Calendar には組み込み可能な Header があり、省略できます。Fig
 
 ## 週番号
 
-Calendar には週番号のサポートも組み込まれていますが、UI のこの部分を表示したくない場合は、 Figma のレイヤー パネルから Week Numbers フレームを非表示にするか、Sketch で Week Numbers を ~No Symbol に設定するか、Adobe XD でレイヤーを削除します。
+Calendar には週番号のサポートも組み込まれていますが、UI のこの部分を表示したくない場合は、Figma のレイヤー パネルから Week Numbers フレームを非表示にするか、Sketch で Week Numbers を ~No Symbol に設定するか、Adobe XD でレイヤーを削除します。
 
 <img class="responsive-img" src="../images/calendar_weeknum.png" srcset="../images/calendar_weeknum@2x.png 2x" />
 

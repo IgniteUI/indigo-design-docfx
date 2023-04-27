@@ -1,7 +1,7 @@
 ﻿---
 title: Icon - デザイン システム コンポーネント
 _description: Icon コンポーネント シンボルは、グラフィック インジケーターをユーザーに表示し、インタラクションをトリガーすることもできます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 

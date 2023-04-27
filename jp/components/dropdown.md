@@ -1,7 +1,7 @@
 ---
 title: Dropdown - デザイン システム コンポーネント
 _description: Dropdown コンポーネント シンボルは、コレクションから単一項目を選択できます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 向けデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -38,6 +38,7 @@ Dropdown は、項目ヘッダーと項目の 2 つのタイプをサポート�
 <img class="responsive-img" src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_selected_disabled.png" srcset="../images/dropdown_item_selected_disabled@2x.png 2x" />
+
 ## 項目レイアウト テンプレート
 
 Dropdown Item は柔軟なアイコンとラベルのテンプレートをサポートします。現在、Figma ではプレフィックス アイコンはサポートされていませんが、間もなく追加される予定です。Sketch でアイコンを表示するには、オーバーライドを Icon/Medium に設定し、スマート レイアウト ルールが項目レイアウトを自動的に調整します。Adobe XD では、アイコン レイヤーを表示し、Stack に配置してレイアウトを自動的に調整することで同じことが可能ですが、コンテンツにアイコンのある項目が必要ない場合は、アイコン レイヤーを削除します。

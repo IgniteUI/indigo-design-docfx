@@ -31,18 +31,18 @@ Chip は 3 つの密度バリアントがサポートされます。
 
 ## 操作状態
 
-Chip は、Enabled (有効) または Disabled (無効) の状態で挿入できます。Figma では、プロパティ パネルから Disabled ブール演算を使用して状態を変更できます。Sketch では、コンポーネントを挿入する前に状態を選択する必要があります。Adobe XD では ン Component States パラダイムを使用して簡単に状態を切り替えることができます。
+Chip は、Enabled (有効) または Disabled (無効) の状態で挿入できます。Figma では、プロパティ パネルから Disabled ブール演算を使用して状態を変更できます。Sketch では、コンポーネントを挿入する前に状態を選択する必要があります。Adobe XD では Component States パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/chip_interaction.png" srcset="../images/chip_interaction@2x.png 2x" />
 
 ## 状態
 
-ユーザーが Chip を操作すると、デフォルトの **Idle (アイドル)**状態から Hover (ホバー)、Focused (フォーカス)、または Selected (選択) に変化します。これには、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
+ユーザーが Chip を操作すると、デフォルトの **Idle (アイドル)** 状態から Hover (ホバー)、Focused (フォーカス)、または Selected (選択) に変化します。これには、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 Figma では、これらはプロパティ パネルの State プロパティから選択できます。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/chip_state.png" srcset="../images/chip_state@2x.png 2x" />
 
-emplated という名前のもう 1 つの状態があります。これは、[Grid Advanced Filter](grid-advanced-filter.md) インターフェイスで内部的に使用されます。Figma では、Chip Templated は別のコンポーネントですが、Sketch および Adobe XD では、メインの Chip コンポーネントから State として選択できます。
+Templated という名前のもう 1 つの状態があります。これは、[Grid Advanced Filter](grid-advanced-filter.md) インターフェイスで内部的に使用されます。Figma では、Chip Templated は別のコンポーネントですが、Sketch および Adobe XD では、メインの Chip コンポーネントから State として選択できます。
 
 <img class="responsive-img" src="../images/chip_templated.png" srcset="../images/chip_templated@2x.png 2x" />
 

@@ -1,7 +1,7 @@
 ﻿---
 title: Progress - デザイン システム コンポーネント
 _description: Progress コンポーネント シンボルは、タスクの状態、進捗、完了をビジュアルで示すインジケーターです。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 向けデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -30,10 +30,10 @@ Progress コンポーネントは、タスクの進行状況について明確�
 Progress は、以下のプリセット カラーの組み合わせの 1 つを使用できます。
 
 - **Default**: デフォルトで基本原色を利用します。
-- Error: `Error` テーマ カラーを使用して進行状況を表示
-- Info: `Info` テーマ カラーを使用して進行状況を表示
-- Success: `Success` テーマの色を使用して進行状況を表示します。
-- Warn: `Warn` テーマの色を使用して進行状況を表示します。
+- **Error**: `Error` テーマ カラーを使用して進行状況を表示
+- **Info**: `Info` テーマ カラーを使用して進行状況を表示
+- **Success**: `Success` テーマの色を使用して進行状況を表示します。
+- **Warn**: `Warn` テーマの色を使用して進行状況を表示します。
 
 <img class="responsive-img" src="../images/progress_default.png" srcset="../images/progress_default@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_info.png" srcset="../images/progress_info@2x.png 2x" />
@@ -50,7 +50,7 @@ Progress は、以下のプリセット カラーの組み合わせの 1 つを�
 
 ## ストライプ
 
-Progress コンポーネントに Linear Bar レイアウト形状を使用する場合、Fill 領域のストライプの追加オプションが付属します。Stripes を削除するには、`🌈 Stripes` 色オーバーライド (Sketch) または Stripes レイヤー 色 (Figma) を `transparent` に設定するだけです。
+Progress コンポーネントに Linear Bar レイアウト形状を使用する場合、Fill 領域のストライプの追加オプションが付属します。Stripes を削除するには、`🌈 Stripes` 色オーバーライド (Sketch) または Stripes レイヤー色 (Figma) を `transparent` に設定するだけです。
 
 <img class="responsive-img" src="../images/progress_linearstripes.png" srcset="../images/progress_linearstripes@2x.png 2x" />
 

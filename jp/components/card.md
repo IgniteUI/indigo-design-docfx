@@ -1,7 +1,7 @@
 ﻿---
 title: Card - デザイン システム コンポーネント
 _description: Card コンポーネント シンボルは、シングル オブジェクトを説明するための関連操作で拡張した画像とテキストを含みます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 向けデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -15,7 +15,7 @@ Card コンポーネントを使用して、画像、マップ、その他のメ
 
 ## 領域
 
-Card には 4 つの異なる領域があります: 画像またはマップ メディアを表示する上部の `image` 、サムネイル Avatar、Title、Subtitle の組み合わせを保持する `header`、テキスト段落と Card の詳細を示す画像配列を保持する `content`、および Card に関連するクイック操作を備えたツールバーとして機能する `actions` です。
+Card には 4 つの異なる領域があります: 画像またはマップ メディアを表示する上部の `image`、サムネイル Avatar、Title、Subtitle の組み合わせを保持する `header`、テキスト段落と Card の詳細を示す画像配列を保持する `content`、および Card に関連するクイック操作を備えたツールバーとして機能する `actions` です。
 
 |         |                                                                                                |
 | ------- | ---------------------------------------------------------------------------------------------- |
