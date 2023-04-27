@@ -12,7 +12,7 @@ For scenarios where a target value is critically important for understanding and
 
 ## Linear Gauge Demo
 
-<img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_three_ranges_demo.png" srcset="../images/linear_gauge_three_ranges_demo@2x.png 2x" />
 
 ## Title and Subtitle
 
