@@ -1,7 +1,7 @@
 ---
 title: Grid Column Moving - Grid Feature
 _description: The Grid Column Moving is a mechanism to rearrange the columns of the Grid.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
 ---
 
 # Grid Column Moving
@@ -14,11 +14,11 @@ Use the Grid Column Moving to indicate that the columns of the Grid are movable 
 
 ## Header Cell
 
-In order to indicate that a column is movable, configure the `Column Moving` override of the Grid Header Cell for the column in Sketch by changing the default value from **Not Movable** to Movable. In Adobe XD, the `Column Moving` layer uses the `Component States` paradigm to let you easily switch between states. This is what marks the column as movable as far as code generation is concerned.
+In order to indicate that a column is movable, configure the `Column Moving` override of the Grid Header Cell for the column in Sketch by changing the default value from **Not Movable** to **Movable**. In Figma, you can achieve this by changing the property of the `Column Moving` component inside the Grid Header Cell layer, from **Not Movable** to **Movable**. In Adobe XD, the `Column Moving` layer uses the `Component States` paradigm to let you easily switch between states. This is what marks the column as movable as far as code generation is concerned.
 
 ## Column Moving Feature
 
-The Grid has a `Column Moving` symbol under `Features` that represents the ghost Header Cell shown for the dragged column. It comes with presets for numeric and text columns. Adding this symbol has only a visual effect on your design to make it more realistic, if you want to switch the Column Moving feature, configure the Header Cells accordingly.
+The Grid has a `Column Moving` symbol/component under `Features` that represents the ghost Header Cell shown for the dragged column. It comes with presets for numeric and text columns. Adding this symbol/component has only a visual effect on your design to make it more realistic, if you want to switch the Column Moving feature, configure the Header Cells accordingly.
 
 ## Additional Resources
 
