@@ -67,6 +67,7 @@ Related topic:
 - [Line Chart](line-chart.md)
 - [Spline Chart](spline-chart.md)
 - [Step Line Chart](step-line-chart.md)
+- [Pie Chart](pie-chart.md)
 - [Skeleton Charts](skeleton-charts.md)
   <div class="divider--half"></div>
 

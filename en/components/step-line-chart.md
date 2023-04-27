@@ -42,7 +42,7 @@ The Step Line Chart has two states - Idle and Hover. In Figma you can switch bet
 
 ## Y-Axis
 
-The Y-axis of the Step Line Chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and to hide a label simply hide it from the layers panel in Figma or set its override to ~No Symbol in Sketch. In Adobe XD you can achieve this by deleting the layer. You may hide the axis line by setting its color to `Transparent` and to hide all elements at once, hide the nested Y axis component from the layers panel in Figma, change the Y-axis override to ~No Symbol in Sketch or delete its layer in Adobe XD.
+The Y-axis of the Step Line Chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and to hide a label simply hide it from the layers panel in Figma or set its override to ~No Symbol in Sketch. In Adobe XD you can achieve this by deleting the layer. By default, the Y-axis is hidden in Figma and Adobe XD and set to `Transparent` in Sketch. To make it visible in Figma and Adobe XD, go to the layers panel, right click on the Y-axis layer and select "Show/Hide". The same can be achieved in Sketch by choosing a different layer style for the Y-axis. If you want to hide all elements at once, hide the nested Y-axis component from the layers panel in Figma, change the Y-axis override to ~No Symbol in Sketch or delete its layer in Adobe XD.
 
 <img class="responsive-img" src="../images/step_line_chart_yaxis.png" srcset="../images/step_line_chart_yaxis@2x.png 2x" />
 
@@ -83,6 +83,7 @@ Related topic:
 - [Line Chart](line-chart.md)
 - [Spline Chart](spline-chart.md)
 - [Column Chart](column-chart.md)
+- [Pie Chart](pie-chart.md)
 - [Skeleton Charts](skeleton-charts.md)
 
 Our community is active and always welcoming to new ideas.

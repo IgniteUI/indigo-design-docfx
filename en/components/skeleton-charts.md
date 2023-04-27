@@ -58,6 +58,7 @@ Related topics:
 - [Spline Chart](spline-chart.md)
 - [Step Line Chart](step-line-chart.md)
 - [Column Chart](column-chart.md)
+- [Pie Chart](pie-chart.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
