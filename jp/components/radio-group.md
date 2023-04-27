@@ -1,7 +1,7 @@
 ﻿---
 title: Radio Group -  デザイン システム コンポーネント
 _description: Radio Group コンポーネント シンボルは、一連のオプションで排他的な選択のメカニズムを提供します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 向けデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -15,11 +15,11 @@ Radio Group コンポーネント シンボルは、グループ項目で排他�
 
 ## ラベル位置
 
-Sketch で Radio Group は、Radio button 要素の前後に Radio button ラベルが配置されるラベル位置のバリアントをサポートします。
+Figma と Sketch で Radio Group は、Radio button 要素の前後に Radio button ラベルが配置されるラベル位置のバリアントをサポートします。
 Adobe XD では、Stacks を使用して、デザイン時にラベルとラジオの位置を変更できます。また、必要な数のラジオ ボタンを追加して、設定したいグループに完全に合わせることができます。
 
 <img class="responsive-img" src="../images/radiogroup_enabled_state.png" srcset="../images/radiogroup_enabled_state@2x.png 2x" />          
-<img class="responsive-img" src="../images/radiogroup_labels_before.png" srcset="../images/radiogroup_labels_before@2x.png 2x" />
+<img class="responsive-img" src="../images/radiogroup_enabled_labels_before.png" srcset="../images/radiogroup_enabled_labels_before@2x.png 2x" />
 
 ## 方向
 
@@ -34,6 +34,9 @@ Radio Group は、有効または無効の状態で挿入できます。
 
 <img class="responsive-img" src="../images/radiogroup_enabled_state.png" srcset="../images/radiogroup_enabled_state@2x.png 2x" />          
 <img class="responsive-img" src="../images/radiogroup_disabled_state.png" srcset="../images/radiogroup_disabled_state@2x.png 2x" />
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
 
 グループ内のラジオ ボタンの状態を無効に設定して、ユーザーによる操作を禁止することもできます。
 
@@ -41,7 +44,7 @@ Radio Group は、有効または無効の状態で挿入できます。
 
 ## 状態
 
-グループ内の各ラジオ要素は、**オン**およびオフの選択状態をサポートします。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+グループ内の各ラジオ要素は、**オン**およびオフの選択状態をサポートします。Figma では、右側のサイドバーの `State` プロパティから状態を選択できます。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/radiogroup_demo.png" srcset="../images/radiogroup_demo@2x.png 2x" />
 
