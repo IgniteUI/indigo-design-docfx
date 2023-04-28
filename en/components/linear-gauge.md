@@ -77,6 +77,5 @@ Related topics:
 - [Bullet Graph](bullet-graph.md)
 - [Line Chart](line-chart.md)
 - [Column Chart](column-chart.md)
-  <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
