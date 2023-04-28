@@ -38,7 +38,7 @@ The Radial Gauge provides various overrides that control the ranges on the dial:
 
 ## Series Thickness
 
-The Radial Gauge comes with two kinds of Series Thickness: Thick and Thin. In Figma use the right sidebar properties and select between the two Series Tickness options. In Sketch, to switch between series thicknesses you should use the `Symbol Overrides`, while in Adobe XD separate variants of the Radial Gauge exist for the options above.
+The Radial Gauge comes with two kinds of Series Thickness: Thick and Thin. In Figma use the right sidebar properties and select between the two Series Thickness options. In Sketch, to switch between series thicknesses you should use the `Symbol Overrides`, while in Adobe XD separate variants of the Radial Gauge exist for the options above.
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_full-thin.png" srcset="../images/radial_gauge_full-thin@2x.png 2x" />
@@ -74,6 +74,5 @@ Related topics:
 - [Linear Gauge](linear-gauge.md)
 - [Line Chart](line-chart.md)
 - [Column Chart](column-chart.md)
-  <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
