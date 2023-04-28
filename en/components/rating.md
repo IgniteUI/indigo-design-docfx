@@ -20,7 +20,7 @@ The Rating is built from Label and Value, where the Value is the number of the r
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 🚫 componentVersion | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
 | 🚫 metadata         | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| Label              |                                                                                                                 |
+| Label              | Text layer that can be changed or hidden if not needed                                                                                                              |
 | Value              | Contains all the rating icons                                                                                                                 |
 
 After detaching, you may increase the number of the rating icons by duplicating any of the existing ones nested in the `Value` frame, and the size will be adjusted thanks to the Auto Layout.
@@ -34,7 +34,7 @@ The Raiting component in Sketch has almost the same building elements like in Fi
 | Layer                        | Use                                                                                                                                                  |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 🚫 metadata        | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it.  |
-| Label              |                                                                                                                                                       |
+| Label              | Text layer that can be changed or hidden if not needed                                                                                                                                                      |
 | Value              | Contains all the rating icons                                                                                                                         |
 
 In order to increase or decrese the number of rating icons, you should use the `Detach from Sybmol` option again over the `Value` symbol and then by duplicating or deleting any of the rating icons that already exist you will be able to achive the desired amount of icons.
