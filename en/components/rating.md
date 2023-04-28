@@ -29,7 +29,7 @@ To decrease the number of the rating icons, there is no need to detach the compo
 
 ## Using the Rating in Sketch
 
-The Raiting component in Sketch has almost the same building elements like in Figma. There are Label and Value and the component comes with five rating icons by default. In case that there is need for more rating icons the component needs to be detached by right-clicking on the component and selecting `Detach from Symbol` from the contextual menu. After detaching you should see the following detached layers:
+The Raiting component in Sketch has almost the same building elements like in Figma. There are Label and Value and the component comes with five rating icons by default. In case that there is need for more rating icons, the component needs to be detached by right-clicking on the component and selecting `Detach from Symbol` from the contextual menu. After detaching you should see the following detached layers:
 
 | Layer                        | Use                                                                                                                                                  |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -61,7 +61,7 @@ The Rating component has an `Empty State` and it can be switched on and off from
 
 ## Size
 
-The Rating is available in tree sizes - Small, Medium and Large.
+The Rating is available in three sizes - Small, Medium and Large.
 
 <img class="responsive-img" src="../images/rating_small.png" srcset="../images/rating_small@2x.png 2x" />
 <img class="responsive-img" src="../images/rating_medium.png" srcset="../images/rating_medium@2x.png 2x" />
