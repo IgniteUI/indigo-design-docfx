@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, E
 
 # Rating
 
-The Rating component enables users to apply a rating to an item or experience, such as a product, service, page, other entity, and more. The Rating can display a single user's, or an aggregate, star rating and it's used to let users set their own star rating.
+The Rating component enables users to apply a rating to an item or experience, such as a product, service, page, other entity, and more. The Rating can display a single user's, or an aggregate, star rating and it's used to let users set their own star rating. The Rating is visually identical to the [Ignite UI for Angular Rating Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/rating)
 
 ## Rating Demo
 
