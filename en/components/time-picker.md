@@ -37,7 +37,9 @@ The Time Picker supports 12 and 24-hour formats through two distinct content mod
 
 ## Buttons
 
-The Time Picker comes with two buttons: one for canceling the selection, which would revert the time to the original one, and one for confirming the selection, which would save the changes made. The Button area is templatable allowing you, for example, to hide a button by hiding the Button instance from the layers panel in Figma. In Sketch you can achieve this by setting its override to ~No Symbol and in Adobe XD you can do it by deleting the unnecessary button. Unlike in Sketch and Figma, Adobe XD allows you to add more buttons, e.g. for custom actions, to the Button area from the Libraries panel. Whether you remove or add Buttons, the applied Stack will adjust the layout for you automatically. To achieve this in Figma and Sketch, you should first detach the component instance and then apply the desired changes.
+The Time Picker comes with two buttons: one for canceling the selection, which would revert the time to the original one, and one for confirming the selection, which would save the changes made. 
+
+The Button area can be templated, making it easy to hide buttons as needed. In Figma, you can simply hide a button by hiding its instance from the layers panel. Similarly, in Sketch, you can set the button's override to ~No Symbol to hide it. In Adobe XD, you can delete unnecessary buttons altogether. Unlike in Sketch and Figma, Adobe XD allows you to add more buttons, e.g. for custom actions, to the Button area from the Libraries panel. Whether you remove or add Buttons, the applied Stack will adjust the layout for you automatically. To achieve this in Figma and Sketch, you should first detach the component instance and then apply the desired changes.
 
 <img class="responsive-img" src="../images/timepicker_buttons.png" srcset="../images/timepicker_buttons@2x.png 2x" />
 
