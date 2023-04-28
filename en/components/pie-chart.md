@@ -26,8 +26,11 @@ The Pie Chart component comes with 3, 4 and 5 series amounts. In Figma you can s
 The Labels on the Pie Chart have corresponding Leaders. You can choose from three Labels Positions - Center, InsideEnd and OutsideEnd. In Figma you can change the position simply by selecting the nested Labels Position component and changing the value of the "Position" property from the properties panel, while in Sketch it is achieved with `Symbol Overrides`. You can also hide the Leaders on the OutsideEnd type by switching off the boolean property "Leaders" from the properties panel in Figma. In Sketch you can achieve this by setting them to ~No Symbol.
 
 <img class="responsive-img" src="../images/pie_chart_labels_center.png" srcset="../images/pie_chart_labels_center@2x.png 2x" />
+`Center`
 <img class="responsive-img" src="../images/pie_chart_labels_insideend.png" srcset="../images/pie_chart_labels_insideend@2x.png 2x" />
+`InsideEnd`
 <img class="responsive-img" src="../images/pie_chart_labels_outsideend.png" srcset="../images/pie_chart_labels_outsideend@2x.png 2x" />
+`OutsideEnd`
 
 ## Styling 
 
