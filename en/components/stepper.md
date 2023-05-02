@@ -14,7 +14,7 @@ Use the Stepper Component to allow the user to visualize content as a process, w
 
 ## Type
 
-The Stepper component supports two types - Linear and Non Linear. In Figma you can switch between the two using the "Type" property from the properties panel. Non Linear type is used to prevent the users from proceeding with the next step, without firstly completing the previous, non-optional ones.
+The Stepper component supports two types - Linear and Non Linear. In Figma you can switch between the two using the "Type" property from the properties panel. Linear type is used to prevent the users from proceeding with the next step, without firstly completing the previous, non-optional ones.
 
 <img class="responsive-img" src="../images/stepper_demo.png" srcset="../images/stepper_demo@2x.png 2x" />
 <img class="responsive-img" src="../images/stepper_non-linear.png" srcset="../images/stepper_non-linear@2x.png 2x" />
@@ -40,7 +40,7 @@ Each Step consists of Indicator and Information. The Indicator comes with two ty
 <img class="responsive-img" src="../images/step_number.png" srcset="../images/step_number@2x.png 2x" />
 <img class="responsive-img" src="../images/step_icon.png" srcset="../images/step_icon@2x.png 2x" />
 
-We also provide a number of states for the Step, which should cover all use case scenarios. These include: Complete, Incomplete, Disabled, Optional, Error and Current. These can be switched from the "State" property on the properties panel. We also provide two additional states: Hover and Focused, which can be used by switching on/off the boolean properties "Hover" and "Focused". 
+We also provide a number of states for the Step, which should cover all use case scenarios. These include: Complete, Incomplete, Disabled, Optional, Invalid and Active. These can be switched from the "State" property on the properties panel. We also provide two additional states: Hover and Focused, which can be used by switching on/off the boolean properties "Hover" and "Focused". 
 
 <img class="responsive-img" src="../images/step_state.png" srcset="../images/step_state@2x.png 2x" />
 <img class="responsive-img" src="../images/step_state2.png" srcset="../images/step_state2@2x.png 2x" />
@@ -52,7 +52,7 @@ We also provide two types of Progress Lines - Active and Inactive. These can be 
 
 ## Content
 
-As mentioned above, When a Step is set to "Current" state, a frame called "Content" is displayed underneath the current Step on the vertical Stepper and underneath all steps on the horizontal Stepper. By default, the Content comes with a simple text layer, where you can add information about the current step. If you'd like to cusomize it in some way, you'll need to detach the component by right-clicking on it and selecting "Detach instance". You can also fully hide it by using the "Content" property on the horizontal Stepper or by going into the nested Step component and switching off the boolean property "Body" on the vertical Stepper.
+As mentioned above, When a Step is set to "Active" state, a frame called "Content" is displayed underneath the Header of the active Step on the vertical Stepper and underneath all steps on the horizontal Stepper. By default, the Content comes with a simple text layer, where you can add information about the active step. If you'd like to cusomize it in some way, you'll need to detach the component by right-clicking on it and selecting "Detach instance". You can also fully hide it by using the "Content" property on the horizontal Stepper or by going into the nested Step component and switching off the boolean property "Body" on the vertical Stepper.
 
 <img class="responsive-img" src="../images/stepper_non-linear.png" srcset="../images/stepper_non-linear@2x.png 2x" />
 
@@ -64,7 +64,7 @@ The Stepper comes with styling flexibility through the various options for its i
 
 ## Usage 
 
-When using the linear Stepper, make sure you set the incompleted steps to "Disabled" state, as well as the progress lines to "Inactive" in order to tell the user he may not proceed with the next steps, until the previos ones are complete. You should avoid combining indicators with icons and indicators with numbers. Keep the current step promiment, in order to give the user adequate feedback on where he is within the process. 
+When using the linear Stepper, make sure you set the incompleted steps to "Disabled" state, as well as the progress lines to "Inactive" in order to clearly communicate to the users that they may not proceed with the next steps, until the previous ones are complete. You should avoid combining indicators with icons and indicators with numbers. Keep the active step promiment, in order to give the user adequate feedback on where he is within the process. 
 
 | Do                                                                                 | Don't                                                                                  |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
