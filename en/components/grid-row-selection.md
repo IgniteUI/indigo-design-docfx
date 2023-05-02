@@ -1,7 +1,7 @@
 ---
 title: Grid Row Selection - Grid Feature
 _description: The Grid Row Selection provides a mechanism for selecting a full record shown in the Grid.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
 ---
 
 # Grid Row Selection
@@ -21,7 +21,7 @@ The Grid Row Selection can be achieved through the creation of an additional col
 
 ## Row Selection Cells
 
-The Grid provides a special type of Body Cells for selected rows available via the `Grid Feature`. Once you set it to `RowSelected/Cell` a distinguishable style will be applied to indicate that the cell belongs to a selected row. In Sketch, `Grid Feature` provides the necessary `Symbol Overrides`, while in Adobe XD it comes as a layer that uses the `Component States` paradigm to let you easily switch between states.
+The Grid provides a special type of Body Cells for selected rows available via the `Grid Feature`. Once you set it to `RowSelected/Cell` a distinguishable style will be applied to indicate that the cell belongs to a selected row. In Figma, the `Grid Feature` component comes with the necessary states in the property panel. In Sketch, `Grid Feature` provides the necessary `Symbol Overrides`, while in Adobe XD it comes as a layer that uses the `Component States` paradigm to let you easily switch between states.
 
 ## Additional Resources
 
