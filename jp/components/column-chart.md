@@ -1,7 +1,7 @@
 ---
 title: Column Chart - デザイン システム コンポーネント
 _description: Column Chart コンポーネント シンボルは、さまざまなカテゴリのデータの頻度、カウント、合計、平均を、幅が等しく長さが異なる垂直バーでエンコードされたデータとすばやく比較するために使用されます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -23,26 +23,26 @@ Column Chart のタイトルは、必要に応じて変更または非表示に�
 
 ## 状態
 
-Column Chart には、Idle と Hover の 2 つの状態があります。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Hover 状態では、データ ポイントの上にホバーするとツールチップが表示され、フォーカスされて他の列がグレーアウトされます。
+Column Chart には、Idle と Hover の 2 つの状態があります。In Figma you can switch between the two states by selecting the nested Chart Area component from the layers panel and switching on/off the boolean operation "Hover Tooltip" from the properties panel.Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Hover 状態では、データ ポイントの上にホバーするとツールチップが表示され、フォーカスされて他の列がグレーアウトされます。
 
 <img class="responsive-img" src="../images/column_chart_tooltip-off.png" srcset="../images/column_chart_tooltip-off@2x .png 2x" />
 <img class="responsive-img" src="../images/column_chart_tooltip-on.png" srcset="../images/column_chart_tooltip-on@2x.png 2x" />
 
 ## Y 軸
 
-Column Chart の Y 軸は、Title、Labels、および軸自体で構成されます。Title と Labels は構成可能であり、ラベルを非表示にするには、Sketch でオーバーライドを ~No Symbol に設定するか、Adobe XD でレイヤーを削除します。軸線の色を `Transparent` に設定してすべての要素を非表示にするには、Sketch で Y 軸のオーバーライドを ~No Symbol に変更するか、Adobe XD でレイヤーを削除します。
+Column Chart の Y 軸は、Title、Labels、および軸自体で構成されます。The Title and the Labels are configurable and you can hide a label by simply selecting and hiding it from the layers panel in Figma, or setting its override to ~No Symbol in Sketch. In Adobe XD you should delete the layer. You may hide the axis line by setting its color to `Transparent` and to hide all elements at once, hide the nested Y axis component from the layers panel in Figma, change the Y-axis override to ~No Symbol in Sketch or delete its layer in Adobe XD.
 
 <img class="responsive-img" src="../images/column_chart_yaxis.png" srcset="../images/column_chart_yaxis@2x.png 2x" />
 
 ## Gridlines (グリッド線)
 
-Column Chart には、データ ポイントを Y 軸の値に視覚的にトレースしやすくするための組み込みの Gridlines があります。非表示にするには、色を `Transparent` に設定します。
+Column Chart には、データ ポイントを Y 軸の値に視覚的にトレースしやすくするための組み込みの Gridlines があります。In Figma you can show/hide them by selecting the nested Chart Area component and switching on/off the boolean property "Gridlines" from the properties panel. To hide them in Sketch and Adobe XD just set their color to `Transparent`.
 
 <img class="responsive-img" src="../images/column_chart_gridlines.png" srcset="../images/column_chart_gridlines@2x.png 2x" />
 
 ## Data Points (テータ ポイント)
 
-Column Chart のデータ ポイントは個々の縦棒で、Sketch のスマート レイアウトまたは Adobe XD の Stack に配置され、チャート領域で簡単にデータ量を調整できます。さらに、列には X 軸の構成可能なラベルと注釈ラベルが含まれています。
+Column Chart のデータ ポイントは個々の縦棒で、Figma の自動レイアウト、Sketch のスマート レイアウトまたは Adobe XD の Stack に配置され、チャート領域で簡単にデータ量を調整できます。さらに、列には X 軸の構成可能なラベルと注釈ラベルが含まれています。
 
 <img class="responsive-img" src="../images/column_chart_columns.png" srcset="../images/column_chart_columns@2x.png 2x" />
 
@@ -68,6 +68,7 @@ Column Chart では、シリーズの色を変更できます。Series.1、serie
 - [Line Chart](line-chart.md)
 - [Spline Chart](spline-chart.md)
 - [Step Line Chart](step-line-chart.md)
+- [Pie Chart](pie-chart.md)
 - [Skeleton Charts](skeleton-charts.md)
   <div class="divider--half"></div>
 

@@ -15,11 +15,12 @@ Skeleton Charts を使用して、標準の情報と同じタイプの情報を�
 
 ## チャート
 
-Column Chart の他に、Line、Spline、および Step Line の Skeleton バリアントがあります。
+Column Chart の他に、Line、Spline、Step Line および Pie Chart の Skeleton バリアントがあります。
 
 <img class="responsive-img" src="../images/skeleton_charts_line.png" srcset="../images/skeleton_charts_line@2x.png 2x" />
 <img class="responsive-img" src="../images/skeleton_charts_spline.png" srcset="../images/skeleton_charts_spline@2x.png 2x" />
 <img class="responsive-img" src="../images/skeleton_charts_step.png" srcset="../images/skeleton_charts_step@2x.png 2x" />
+<img class="responsive-img" src="../images/skeleton_charts_pie.png" srcset="../images/skeleton_charts_pie@2x.png 2x" />
 
 ## Title (タイトル)
 
@@ -58,6 +59,7 @@ Skeleton Line、Spline、および Step チャートには、データバイン�
 - [Spline Chart](spline-chart.md)
 - [Step Line Chart](step-line-chart.md)
 - [Column Chart](column-chart.md)
+- [Pie Chart](pie-chart.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

@@ -1,7 +1,7 @@
 ---
 title: Linear Gauge - デザイン システム コンポーネント
 _description: Linear Gauge コンポーネント シンボルはデータ可視化で特定のコンテキストの値を表示します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -13,36 +13,36 @@ Linear Gauge コンポーネントをデータ可視化に使用して、カラ�
 
 ## Linear Gauge のデモ
 
-<img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
+<img class="responsive-img" src="../images/linear_gauge_three_ranges_demo.png" srcset="../images/linear_gauge_three_ranges_demo@2x.png 2x" />
 
 ## Title と Subtitle (タイトルとサブタイトル)
 
-Linear Gauge にはテキストが変更できる Title と Subtitle があります。Sketch では、~No Symbol に設定して不要な場合は非表示にできますが、Adobe XD では各レイヤーを削除します。
+Linear Gauge にはテキストが変更できる Title と Subtitle があります。In Figma you can toggle on and off the Title and Subtitle layers visibility in the Layers panel. Sketch では、~No Symbol に設定して不要な場合は非表示にできますが、Adobe XD では各レイヤーを削除します。
 
 <img class="responsive-img" src="../images/linear_gauge_title.png" srcset="../images/linear_gauge_title@2x.png 2x" />
 
 ## Legend (凡例)
 
-Linear Gauge には、表示されている範囲と現在の値に一致するように調整できる凡例が付属しています。Sketch で凡例項目は、対応するシリーズを ~No Symbol に設定することで削除するか、Overrides/Charts/Legend/Series で見つけることで追加できます。Adobe XD では、未使用の Series レイヤーを削除する必要があり、レイアウトは自動的に調整されます。また、アイコンの種類を Square、Line、または Circle の間で変更できます。
+Linear Gauge には、表示されている範囲と現在の値に一致するように調整できる凡例が付属しています。In Figma you can toggle on and off the `Legend` instance visibility in the Layers panel. Sketch で凡例項目は、対応するシリーズを ~No Symbol に設定することで削除するか、Overrides/Charts/Legend/Series で見つけることで追加できます。Adobe XD では、未使用の Series レイヤーを削除する必要があります。また、アイコンの種類を Square、Line、または Circle の間で変更できます。
 
 <img class="responsive-img" src="../images/linear_gauge_legend.png" srcset="../images/linear_gauge_legend@2x.png 2x" />
 
 ## ツールチップ
 
-Linear Gauge のツールチップは Sketch でオーバーライドを ~No Symbol に設定するか、Adobe XD でレイヤーを削除すると非表示になります。
+Linear Gauge のツールチップは Sketch でオーバーライドを ~No Symbol に設定するか、Adobe XD でレイヤーを削除すると非表示になります。The Linear Gauge comes with a tooltip that may be hidden by deleting the layer for it in Figma and Adobe XD, and by setting the override to ~No Symbol in Sketch.
 
 <img class="responsive-img" src="../images/linear_gauge_tooltip-off.png" srcset="../images/linear_gauge_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_tooltip-on.png" srcset="../images/linear_gauge_tooltip-on@2x.png 2x" />
 
 ## 針のタイプ
 
-Linear Gauge は、現在の値を示す針の形 (**wide triangle**、needle、trapezoid、および triangle) を制御するさまざまなオーバライドをサポートします。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単にタイプを切り替えることができます。
+Linear Gauge は、現在の値を示す針の形 (Wide Triangle、Needle、Trapezoid、および Triangle) を制御するさまざまなオーバライドをサポートします。In Figma, you can select the shape of the needle by selecting the `Needle Type` instance and then choosing the type from the right sidebar. Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では、`Component States` パラダイムを使用して簡単にタイプを切り替えることができます。
 
 <img class="responsive-img" src="../images/linear_gauge_needle_type.png" srcset="../images/linear_gauge_needle_type@2x.png 2x" />
 
 ## 範囲のサイズ
 
-Linear Gauge は、リニア済みの 3 つの範囲 (2 つ、**3 つ**、4 つ) 設定があります。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に範囲を切り替えることができます。
+Linear Gauge は、リニア済みの 3 つの範囲 (2 つ、**3 つ**、4 つ) 設定があります。In Figma you can change the series amount by selecting the `Series Amount` instance from the layers panel and then choosing from the properties in the right sidebar. Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では、`Component States` パラダイムを使用して簡単に範囲を切り替えることができます。
 
 <img class="responsive-img" src="../images/linear_gauge_two_ranges.png" srcset="../images/linear_gauge_two_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
@@ -74,9 +74,9 @@ Linear Gauge には、Value Brush、Target Value Brush、Tick Brush、Minor Tick
 
 関連トピック:
 
+- [Radial Gauge](radial-gauge.md)
 - [Bullet Graph](bullet-graph.md)
 - [Line Chart](line-chart.md)
 - [Column Chart](column-chart.md)
-- [Radial Gauge](radial-gauge.md)
 
 コミュニティに参加して新しいアイデアをご提案ください。

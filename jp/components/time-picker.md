@@ -1,7 +1,7 @@
 ---
 title: Time Picker - デザイン システム コンポーネント
 _description: Time Picker コンポーネント シンボルは、時間選択に必要なメカニズムを提供する時間のビジュアル表現として使用します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -38,7 +38,9 @@ Time Picker は、2 種類のコンテンツ モードで 12 時間と 24 時間
 
 ## ボタン
 
-Time Picker の 2 つのボタンは、時間を元の時間に戻す選択のキャンセルおよび変更を保存するための選択の確認にそれぞれ使用します。Button 領域はテンプレート化可能で、たとえば Sketch でオーバーライドを ~No Symbol に設定したり、Adobe XD で削除したりしてボタンを非表示にできます。Sketch とは異なり、Adobe XD では、Libraries パネルから Button 領域にカスタム操作などのボタンを追加できます。Button の削除または追加に関係なく、適用された Stack はレイアウトを自動的に調整します。
+Time Picker の 2 つのボタンは、時間を元の時間に戻す選択のキャンセルおよび変更を保存するための選択の確認にそれぞれ使用します。
+
+The Button area can be templated, making it easy to hide buttons as needed. In Figma, you can simply hide a button by hiding its instance from the layers panel. Similarly, in Sketch, you can set the button's override to ~No Symbol to hide it. In Adobe XD, you can delete unnecessary buttons altogether. Unlike in Sketch and Figma, Adobe XD allows you to add more buttons, e.g. for custom actions, to the Button area from the Libraries panel. Whether you remove or add Buttons, the applied Stack will adjust the layout for you automatically. To achieve this in Figma and Sketch, you should first detach the component instance and then apply the desired changes.
 
 <img class="responsive-img" src="../images/timepicker_buttons.png" srcset="../images/timepicker_buttons@2x.png 2x" />
 
