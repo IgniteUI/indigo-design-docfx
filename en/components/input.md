@@ -20,7 +20,7 @@ In Sketch and Adobe XD the Input lets you choose a preset from three options: si
 <img class="responsive-img" src="../images/input_hint.png" srcset="../images/input_hint@2x.png 2x" />
 <img class="responsive-img" src="../images/input_searchbar.png" srcset="../images/input_searchbar@2x.png 2x" />
 
-The hint and simple presets (considered the same input type in Figma) offer choice between two distinct types: border style for a more structured perception on solid color backgrounds, and boxed style which is most appropriate when the Input is placed on top of a vivid image to improve the readability of its content.
+The hint and simple presets in Sketch and Adobe XD offer choice between three distinct types: line style for a more airy look, border style for a more structured perception on solid color backgrounds, and boxed style which is most appropriate when the Input is placed on top of a vivid image to improve the readability of its content. Since we are deprecating the line style, in Figma we have only the border and box types available.
 
 <img class="responsive-img" src="../images/input_border.png" srcset="../images/input_border@2x.png 2x" />
 <img class="responsive-img" src="../images/input_box.png" srcset="../images/input_box@2x.png 2x" />
