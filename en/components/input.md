@@ -14,7 +14,7 @@ Use the Input component to collect user data such as strings, numbers fitting va
 
 ## Types
 
-The Input Component can utilize the function of a input text field, where the user inserts information related to the specific case in order to complete a task or a searchbar. While in Figma you can pick either a simple input or a searchbar, in Adobe XD and Sketch, the Input lets you choose a preset from three options: simple input, hint which is an input with a helper text, and searchbar. In Figma, the hint option is perceived as a property, not a separate input type.
+In Sketch and Adobe XD the Input lets you choose a preset from three options: simple, hint which comes with a helper text, and searchbar. In Figma we offer a choice between a simple input with or without a hint (boolean property), and a searchbar.
 
 <img class="responsive-img" src="../images/input_simple.png" srcset="../images/input_simple@2x.png 2x" />
 <img class="responsive-img" src="../images/input_hint.png" srcset="../images/input_hint@2x.png 2x" />
