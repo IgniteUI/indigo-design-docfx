@@ -14,7 +14,7 @@ The Accordion component allows users to reveal content in a vertical stack progr
 
 ## Using the Accordion in Figma and Sketch
 
-The Accordion comes with 5 panels. Each panel consists of top and bottom margins, which can be turned on/off with the boolean operations. By going into the nested Expansiоn Panels, you can modify their contents. If you need to design an Accordion with more Expansion Panels, the easiest way to do it is by detaching the component. To detach the component, you need to place it in your workspace (Frame or Artboard), right-clicking on it will open a contextual menu where `Detach Instance` (`Detach from Symbol` in Sketch) should be selected.
+The Accordion comes with 5 panels. Each panel consists of top and bottom margins, which can be turned on/off with the boolean operations. By going into the nested Expansiоn Panels, you can modify their contents. If you need to design an Accordion with more Expansion Panels, the easiest way to do it is by detaching the component. To detach the component, you need to place it in your workspace (Frame or Artboard). Right-clicking on it will open a contextual menu where `Detach Instance` (`Detach from Symbol` in Sketch) should be selected.
 
 After detaching the component, you will be able to add your additional Expansion Panels by duplicating any of the existing ones. In Figma, the size will be adjusted automatically thanks to the Auto Layout. In Sketch, you should manually adjust the additionally added Expansion Panels' position.
 
@@ -54,5 +54,6 @@ Additionally, avoid using accordions for small amounts of content that can be ea
 Related topics:
 
 - [Expansion Panel](expansion-panel.md)
+- [Icon](icon.md)
 
 Our community is active and always welcoming to new ideas.
