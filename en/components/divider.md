@@ -1,7 +1,7 @@
 ---
 title: Divider - Design System Component
 _description: The Divider Component Symbol is a subtle line that separates content horizontally or vertically.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
 ---
 
 # Divider
@@ -22,7 +22,7 @@ The Divider supports two orientations: Horizontal and Vertical that should be us
 
 ## Type
 
-The Divider comes in two types: **solid** and dashed. In Sketch, you can switch between them thanks to `Symbol Overrides`, while in Adobe XD we are using the `Component States` to achieve the same.
+The Divider comes in two types: **solid** and dashed. In **Figma**, you can easily switch between the two from the Type property under the Design tab in the right sidebar. In **Sketch**, you can also switch between them thanks to `Symbol Overrides`, while in **Adobe XD** we are using the `Component States` to achieve the same.
 
 <img class="responsive-img" src="../images/divider_solid.png" srcset="../images/divider_solid@2x.png 2x" />
 

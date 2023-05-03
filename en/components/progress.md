@@ -1,7 +1,7 @@
 ---
 title: Progress - Design System Component
 _description: The Progress Component Symbol is used to provide a visual indication regarding the status, progress or completion of a task. 
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
 ---
 
 # Progress
@@ -14,43 +14,48 @@ Use the Progress component to establish clarity and expectancy about the progres
 
 ## Shape and Type
 
-The Progress supports two layout shapes to fit the variety of use cases and layout requirements: a Circular Bar and a Linear Bar. Each of these layouts comes with an additional selection of the type of progression: Determinate and Indeterminate.
+Progress indicators inform users about the status of ongoing processes, such as loading an app, submitting a form, or saving updates. The Progress supports two layout shapes to fit the variety of use cases and layout requirements: a **Circular Bar** and a **Linear Bar**. Each of these layouts comes with an additional selection of the type of progression: **Determinate** and **Indeterminate**.
 
-<img class="responsive-img" src="../images/progress_circular.png" srcset="../images/progress_circular@2x.png 2x" />
-<img class="responsive-img" src="../images/progress_linear.png" srcset="../images/progress_linear@2x.png 2x" />
+- **Determinate** indicators show the progress of a task or process that has a known duration or expected completion time.
+- **Indeterminate** indicators show that a process is underway but the exact amount of time or progress is unknown.
+
+<img class="responsive-img" src="../images/progress_circular_determinate.png" srcset="../images/progress_circular_determinate@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_linear_determinate.png" srcset="../images/progress_linear_determinate@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_circular_indeterminate.png" srcset="../images/progress_circular_indeterminate@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_linear_indeterminate.png" srcset="../images/progress_linear_indeterminate@2x.png 2x" />
 
 ## State
 
 The Progress can be used in one of the following preset color combinations:
 
-- **default**: utilizing the base primary color by default
-- error: utilizing the `error` theme color to show the progress
-- info: utilizing the `info` theme color to show the progress
-- success: utilizing the `success` theme color to show the progress
-- warn: utilizing the `warn` theme color to show the progress
+- **Default**: utilizing the base primary color by default
+- **Info**: utilizing the `info` theme color to show the progress
+- **Success**: utilizing the `success` theme color to show the progress
+- **Warn**: utilizing the `warn` theme color to show the progress
+- **Error**: utilizing the `error` theme color to show the progress
 
 <img class="responsive-img" src="../images/progress_default.png" srcset="../images/progress_default@2x.png 2x" />
-<img class="responsive-img" src="../images/progress_error.png" srcset="../images/progress_error@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_info.png" srcset="../images/progress_info@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_success.png" srcset="../images/progress_success@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_warn.png" srcset="../images/progress_warn@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_error.png" srcset="../images/progress_error@2x.png 2x" />
 
 ## Progress Amount
 
-When using a Determinate type of Progress, you may choose the Progress Amount between six percentage variants. In Sketch, this is achieved with `Symbol Overrides` to let you easily switch between them, while in Adobe XD you have to drag the desired amount from the `Libraries` panel and drop it on top of the `Progress Amount` layer to change the default value.
+When using a Determinate type of Progress, you may choose the Progress Amount between six percentage variants. In Figma you can select between the variants from `Progress Amount` property in the right sidebar. In Sketch, this is achieved with `Symbol Overrides` to let you easily switch between them, while in Adobe XD you have to drag the desired amount from the `Libraries` panel and drop it on top of the `Progress Amount` layer to change the default value.
 
 <img class="responsive-img" src="../images/progress_circular-progress-amount.png" srcset="../images/progress_circular-progress-amount@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_linear-progress-amount.png" srcset="../images/progress_linear-progress-amount@2x.png 2x" />
 
 ## Stripes
 
-When using a Linear Bar layout shape for the Progress component, it will come with an additional option for Stripes over the Fill area. To remove the Stripes, simply set the `🌈 Stripes` color override to `transparent`.
+When using a Linear Bar layout shape for the Progress component, it will come with an additional option for Stripes over the Fill area. To remove the Stripes, simply set the `🌈 Stripes` color override (in Sketch) or Stripes layer color (in Figma) to `transparent`.
 
 <img class="responsive-img" src="../images/progress_linearstripes.png" srcset="../images/progress_linearstripes@2x.png 2x" />
 
 ## Styling
 
-The Progress comes with styling flexibility through the various options for its text, as well as changing the colors of progress, base, stripes, fill and track where applicable.
+The Progress component offers a high degree of styling flexibility, with various options for customizing the text color, weight, and position. Additionally, the colors of the Progress, Base, Stripes, Fill, and Track can be adjusted as needed, allowing for seamless integration into any design scheme.
 
 <img class="responsive-img" src="../images/progress_striped.png" srcset="../images/progress_striped@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_clear.png" srcset="../images/progress_clear@2x.png 2x" />

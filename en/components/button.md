@@ -1,7 +1,7 @@
 ---
 title: Button - Design System Component
 _description: The Button Component Symbol is used to represent a simple action. 
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Button
@@ -20,25 +20,25 @@ Five types of Buttons are supported:
 - A less prominent Outlined Button with color outline appropriate for the majority of actions.
 - A very subtle Flat Button that is typically used for the least important actions.
 - An Icon Button for actions that are represented only with an icon.
-- A very prominent Floating Action Button (fab) with color fill and shadow that is used once per screen to strongly emphasize the main action.
+- A very prominent Floating Action Button (Fab) with color fill and shadow that is used once per screen to strongly emphasize the main action.
 
 <img class="responsive-img" src="../images/button_types.png" srcset="../images/button_types@2x.png 2x" />
 
 ## Interaction States
 
-You may also insert each button in a disabled state because they all support both enabled and disabled variants. In Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
+You may also insert each button in a disabled state because they all support both Enabled and Disabled variants. In Figma you can switch between the two using a boolean operation from the properties panel. In Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
 
 <img class="responsive-img" src="../images/button_disabled.png" srcset="../images/button_disabled@2x.png 2x" />
 
 ## States
 
-Enabled buttons support **Rest** and Hover state. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
+Enabled buttons support **Rest** and Hover state. In Figma, we've added additional Focused state, which can be switched between by changing the State property. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
 <img class="responsive-img" src="../images/button_states.png" srcset="../images/button_states@2x.png 2x" />
 
 ## Layout Template
 
-Contained, Outlined, Flat, and Floating Action Buttons support flexible icon and label templates. In Sketch, the smart layout rules applied, allow the layout to adjust accordingly when you set the elements you want to hide to ~No Symbol. In Adobe XD, you achieve the same by deleting the unused layer instead. However, if you only want to change the label and icon position at design time you can simply drag one of them to the other side of the other one.
+Contained, Outlined, Flat, and Floating Action Buttons support flexible icon and label templates. In Figma, to show or hide the icons, you can use the Left Icon and Right Icon boolean properties. If you want to have an Icon Button, you can set the Content property to Icon. In Sketch, the smart layout rules applied, allow the layout to adjust accordingly when you set the elements you want to hide to ~No Symbol. In Adobe XD, you achieve the same by deleting the unused layer instead. However, if you only want to change the label and icon position at design time you can simply drag one of them to the other side of the other one.
 
 <img class="responsive-img" src="../images/button_templates.png" srcset="../images/button_templates@2x.png 2x" />
 

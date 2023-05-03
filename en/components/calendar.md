@@ -1,7 +1,7 @@
 ---
 title: Calendar - Design System Component
 _description: The Calendar Component Symbol is used as a visual representation of a date providing the necessary mechanisms to navigate day, month and year part of it.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Calendar
@@ -14,7 +14,7 @@ Use the Calendar Component to visually represent a date and provide consistent m
 
 ## Layout
 
-The Calendar comes in Horizontal or Vertical layout suited to display one month at a time, but also supports a Multiview option for showing two months side by side.
+The Calendar comes in Horizontal or Vertical layout suited to display one month at a time, but also supports a Multiview option for showing two months side by side. In Figma you can switch them using the "Orientation" property and the "Multiview" boolean property, while in Sketch and Adobe XD the orientation and the view should be choosen when inserting the component.
 
 <img class="responsive-img" src="../images/calendar_horizontal.png" srcset="../images/calendar_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
@@ -22,7 +22,7 @@ The Calendar comes in Horizontal or Vertical layout suited to display one month 
 
 ## Content
 
-The Calendar can be inserted in day, month or year view to facilitate display of each of the major date portions.
+To facilitate display of each of the major date portions, there's a "Type" property in Figma, which lets you choose between Day, Month or Year view, while in Sketch and Adobe XD this should be chosen prior to insterting the component.
 
 <img class="responsive-img" src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_months.png" srcset="../images/calendar_months@2x.png 2x" />
@@ -30,20 +30,20 @@ The Calendar can be inserted in day, month or year view to facilitate display of
 
 ## Week Start
 
-The start of the week can also be chosen as an option at the time of inserting a Calendar between the two most common scenarios for first day of the week: Sunday and Monday.
+In Figma the start of the week can be chosen from the "Week Start" property, which supports the two most common scenarios for first day of the week: Sunday and Monday. In Sketch and Adobe XD this is displayed as an option at the time of inserting a Calendar.
 
 <img class="responsive-img" src="../images/calendar_sun.png" srcset="../images/calendar_sun@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
 
 ## Header
 
-The Calendar has a built-in Header that can be omitted. In Sketch, the use of a smart layout allows you to set the Header to ~No Symbol to achieve this, resulting in a base Calendar that you can embed more seamlessly in your forms. In Adobe XD you can achieve the same by deleting the Header layer, and the rest of the layout will adjust itself.
+The Calendar has a built-in Header that can be omitted. In Figma, this can be achieved using the "Show Header" boolean property. In Sketch, the use of a smart layout allows you to set the Header to ~No Symbol to achieve this, resulting in a base Calendar that you can embed more seamlessly in your forms. In Adobe XD you can achieve it by deleting the Header layer, and the rest of the layout will adjust itself.
 
 <img class="responsive-img" src="../images/calendar_base.png" srcset="../images/calendar_base@2x.png 2x" />
 
 ## Week Numbers
 
-The Calendar also has built-in support for Week Numbers, but if you prefer not to show this part of the UI, simply set the Week Numbers to ~No Symbol in Sketch or delete the layer in Adobe XD.
+The Calendar also has built-in support for Week Numbers, but if you prefer not to show this part of the UI, simply hide the Week Numbers frame from the layers panel in Figma, set the Week Numbers to ~No Symbol in Sketch or delete the layer in Adobe XD.
 
 <img class="responsive-img" src="../images/calendar_weeknum.png" srcset="../images/calendar_weeknum@2x.png 2x" />
 
