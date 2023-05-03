@@ -21,7 +21,7 @@ After detaching the component, you will be able to add your additional Expansion
 ## Using the Accordion in Adobe XD
 
 > [!NOTE]
-> WIP: Currently, we don't support the Accordion component in Adobe XD, but you can also combine multiple `Expansion Panels` into a similar Accordion component behavior.
+> WIP: Currently, we don't support the Accordion component in Adobe XD, but you can also combine multiple `Expansion Panels` into a similar Accordion component behavior. However, this will not generate appropriately in the App Builder.
 
 ## Interaction States
 
