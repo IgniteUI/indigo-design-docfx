@@ -50,7 +50,7 @@ There are 5 interchangeable List Item Primary Actions available under `Type` pro
 
 ## Secondary Action in Figma and Sketch
 
-There are 4 interchangeable List Item Secondary Actions in Figma and Sketch. In Figma, they are available under the `Secondary Action` component properties where they can be switched and turned on and off, depending on the case and needs. The used Auto Layout in Figma will automatically adjust the component based on the selected properties. In Sketch, they are available as `Symbol Overrides` and thanks to the Smart Layout, they can be adjusted further by setting unnecessary elements to ~No Symbol.
+There are 4 interchangeable List Item Secondary Actions in Figma and Sketch. In Figma, they are available under the `Secondary Action` base component properties where they can be switched and turned on and off, depending on the case and needs. The auto layout in Figma will automatically adjust the component based on the selected properties. In Sketch, the Secondary Actions are available as `Symbol Overrides` and thanks to the Smart Layout, they can be adjusted further by setting unnecessary elements to ~No Symbol.
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
