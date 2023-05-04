@@ -14,7 +14,7 @@ Use the List Item to display a repeated piece of information in the List compone
 
 ## Type
 
-In Figma the List Item comes in three preset types under Lines property. In Sketch, the List Item presets comes the same as in Figma. The presets are: Header for defining the headings of groups, One-line for shorter items with only one line of primary text, and Two-line for taller items supporting primary and secondary text. In Adobe XD with just two presets you can achieve the same and much more, so there we have only Header and Item types.
+In Sketch and Figma the List Item comes in three preset types: Header for defining the headings of groups, One-line for shorter items with only one line of primary text, and Two-line for taller items supporting primary and secondary text. In Adobe XD with just two presets you can achieve the same and much more, so there we have only Header and Item types.
 
 <img class="responsive-img" src="../images/list_item_header.png" srcset="../images/list_item_header@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_one-line.png" srcset="../images/list_item_one-line@2x.png 2x" />
