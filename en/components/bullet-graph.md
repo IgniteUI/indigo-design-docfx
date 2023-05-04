@@ -1,7 +1,7 @@
 ---
 title: Bullet Graph - Design System Component
 _description: The Bullet Graph Component Symbol is a data visualization that displays contextual progress of a value to a target value.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
 ---
 
 # Bullet Graph
@@ -12,30 +12,30 @@ For scenarios where no target value exists or is irrelevant you should use the [
 
 ## Bullet Graph Demo
 
-<img class="responsive-img" src="../images/bullet_graph_three_ranges-2.png" srcset="../images/bullet_graph_three_ranges-2@2x.png 2x" />
+<img class="responsive-img" src="../images/bullet_graph_three_ranges_demo.png" srcset="../images/bullet_graph_three_ranges_demo@2x.png 2x" />
 
 ## Title and Subtitle
 
-The Bullet Graph has a Title and Subtitle whose text can be changed. In Sketch, they can also be hidden if they are not needed by setting them to ~No Symbol, while in Adobe XD you should delete their respective layers.
+The Bullet Graph has a Title and Subtitle whose text can be changed. In Figma you can toggle on and off the Title and Subtitle layers visibility in the Layers panel. In Sketch, they can also be hidden if they are not needed by setting them to ~No Symbol, while in Adobe XD you should delete their respective layers.
 
 <img class="responsive-img" src="../images/bullet_graph_title.png" srcset="../images/bullet_graph_title@2x.png 2x" />
 
 ## Legend
 
-The Bullet Graph comes with a Legend that can be adjusted accordingly to match the selected Series Amount. In Sketch, Legend items can be removed by setting the corresponding Series to ~No Symbol or added by finding it in the Overrides/Charts/Legend/Serie. In Adobe XD, you have to delete the unused Series layers, and the layout will adjust automatically. Additionally, you can change the icon type between Square, Line, or Circle.
+The Bullet Graph comes with a Legend that can be adjusted accordingly to match the selected Series Amount. In Figma you can toggle on and off the `Legend` instance visibility in the Layers panel. In Sketch, Legend items can be removed by setting the corresponding Series to ~No Symbol or added by finding it in the Overrides/Charts/Legend/Serie. In Adobe XD, you have to delete the unused Series layers. Additionally, you can change the icon type between Square, Line, or Circle.
 
 <img class="responsive-img" src="../images/bullet_graph_legend.png" srcset="../images/bullet_graph_legend@2x.png 2x" />
 
 ## Tooltip
 
-The Bullet Graph comes with a tooltip that may be hidden by setting the override to ~No Symbol in Sketch or deleting the layer for it in Adobe XD.
+The Bullet Graph comes with a tooltip that may be hidden by deleting the layer for it in Figma and Adobe XD, and by setting the override to ~No Symbol in Sketch.
 
 <img class="responsive-img" src="../images/bullet_graph_tooltip-off.png" srcset="../images/bullet_graph_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_tooltip-on.png" srcset="../images/bullet_graph_tooltip-on@2x.png 2x" />
 
 ## Ranges Amount
 
-The Bullet Graph comes with three preset range configurations: **two**, three, and four ranges. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
+The Bullet Graph comes with three preset range configurations: two, three, and four. In Figma you can change the series amount by selecting the `Series Amount` instance from the layers panel and then choosing from the properties in the right sidebar. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD, we use the `Component States` paradigm to let you easily switch between them.
 
 <img class="responsive-img" src="../images/bullet_graph_two_ranges.png" srcset="../images/bullet_graph_two_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />
@@ -66,6 +66,7 @@ When creating data visualizations and information dashboards pick carefully betw
 Related topics:
 
 - [Linear Gauge](linear-gauge.md)
+- [Radial Gauge](radial-gauge.md)
 - [Line Chart](line-chart.md)
 - [Column Chart](column-chart.md)
   <div class="divider--half"></div>

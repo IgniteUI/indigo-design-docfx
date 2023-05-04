@@ -1,7 +1,7 @@
 ---
 title: Tooltip - Design System Component
 _description: The Tooltip Component Symbol displays additional informative text upon user interaction with a component.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 # Tooltip
@@ -21,7 +21,7 @@ The Tooltip comes in appropriate sizing for desktop and mobile usage.
 
 ## Styling
 
-The Tooltip comes with styling flexibility through the options available for the background color and message text style. However, for the message text, it is recommended to use `white` or `grays.900`(`Active`) bassed on the theme lightness, to assure optimal text legibility.
+The Tooltip comes with styling flexibility through the options available for the background color and message text style. However, it is recommended to use the predefined colors to assure optimal contrast with the background and legibility of the tooltip message.
 
 <img class="responsive-img" src="../images/tooltip_styling.png" srcset="../images/tooltip_styling@2x.png 2x" />
 

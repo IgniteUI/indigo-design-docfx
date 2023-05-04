@@ -1,7 +1,7 @@
 ---
 title: Date Picker - Design System Component
 _description: The Date Picker Component Symbol is used as a visual representation of calendar dates providing the necessary mechanisms for date picking.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Date Picker
@@ -29,7 +29,7 @@ The Date Picker supports Dialog layout with Horizontal and Vertical orientation,
 
 ## Week Start
 
-The start of the week can also be chosen as an option at the time of inserting a Date Picker between the two most common scenarios for first day of the week: Sunday and Monday.
+We support the two most common scenarios for first day of the week: Sunday and Monday. In Figma you can select the start of the week from the Starts On property. In Sketch and Adobe XD the starting day should be chosen as an option at the time of inserting a Date Picker.
 
 <img class="responsive-img" src="../images/datepicker_dropdown.png" srcset="../images/datepicker_dropdown@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_monday.png" srcset="../images/datepicker_monday@2x.png 2x" />
@@ -50,7 +50,7 @@ Akin to the Calendar, the Date Picker lets you pick between three selection mode
 
 ## Styling
 
-The Time Picker comes with styling flexibility through the various options for header background and title colors, as well as text colors for the selected hour, minute, and meridiem (AM/PM).
+The Date Picker comes with styling flexibility through the various options for header background and title colors, as well as text colors for the selected date, current date etc.
 
 <img class="responsive-img" src="../images/datepicker_styling.png" srcset="../images/datepicker_styling@2x.png 2x" />
 

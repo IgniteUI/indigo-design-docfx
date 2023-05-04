@@ -1,7 +1,7 @@
 ---
 title: Dialog - Design System Component
 _description: The Dialog Component Symbol is used to show a message or alert to the user in a modal fashion. 
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Dialog
@@ -14,7 +14,7 @@ Use the Dialog Component to show a message or alert to the user, allowing him to
 
 ## Types
 
-The Dialog can be used to show an alert with only a confirming button, a message with cancellation and confirmation, or as a container for action that needs immediate attention, such as a user logging into his account. Its Button area is templatable, allowing you, for example, to adjust the buttons. To hide one in Sketch, you have to set its main override to ~No Symbol, and thanks to the smart layout the area will adjust accordingly. In Adobe XD, to achieve the same, you should simply delete the unnecessary button and the Stack will adjust the area layout, however, it is also possible to insert another one unlike in Sketch.
+The Dialog can be used to show an alert with only a confirming button, a message with cancellation and confirmation, or as a container for action that needs immediate attention, such as a user logging into his account. Its Button area is templatable, allowing you, for example, to adjust the buttons. To hide one in Sketch, you have to set its main override to ~No Symbol, and thanks to the smart layout the area will adjust accordingly. In Adobe XD, to achieve the same, you should simply delete the unnecessary button and the Stack will adjust the area layout, however, it is also possible to insert another one unlike in Sketch. In Figma, in order to hide one of the two action buttons, you need to do that from the layers panel and the auto layout will adjust the area automatically.
 
 <img class="responsive-img" src="../images/dialog_alert.png" srcset="../images/dialog_alert@2x.png 2x" />
 <img class="responsive-img" src="../images/dialog_standard.png" srcset="../images/dialog_standard@2x.png 2x" />
