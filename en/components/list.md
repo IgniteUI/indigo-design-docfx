@@ -25,7 +25,7 @@ Lists are a continuous group of rows showing information containing primary data
 
 | Layer         | Use                                                                                                                                                  |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 componentVersion   | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
+| 🚫 componentVersion &nbsp;  | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
 | 🚫 metadata   | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
 | List Header   | An instance of a list header item                                                                                                                    |
 | 1 Item        | An instance of a one-line/two-line list item                                                                                                                  |
