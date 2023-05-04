@@ -52,7 +52,7 @@ When using an Avatar with initials or icons, pick their colors carefully to assu
 
 Related topics:
 
-- [Persona](../patterns/persona.md)
+- [Avatar + Badge](../patterns/avatar-badge.md)
 - [Card](card.md)
 - [File Upload](../patterns/file-upload.md)
 - [User Profile](../patterns/user-profile.md)

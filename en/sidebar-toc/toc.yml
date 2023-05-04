@@ -213,6 +213,8 @@
   items:
     - name: Audio / Video
       href: ../patterns/av.md
+    - name: Avatar + Badge
+      href: ../patterns/avatar-badge.md
     - name: Bar
       href: ../patterns/bar.md
     - name: Chat
@@ -245,9 +247,6 @@
       href: ../patterns/menu.md
     - name: Onboarding
       href: ../patterns/onboarding.md
-    - name: Persona
-      href: ../patterns/persona.md
-      updated: true
     - name: Pricing Table
       href: ../patterns/pricing-table.md
     - name: Scheduler
