@@ -41,7 +41,7 @@ In Sketch and Adobe XD, each of these presets can be inserted in an Enabled or a
 
 ## State
 
-The Input component goes through different states as the user interacts with it:**Idle**, which displays the placeholder in the place of the content; **Hover**, indicating that the input is active when the user hovers over it; **Filled**, which appears after the user has entered content and moved on from the input; and **Focused**, which provides a visual cue that the user is actively typing in the input.
+The Input component goes through different states as the user interacts with it: **Idle**, which displays the placeholder in the place of the content; **Hover**, indicating that the input is active when the user hovers over it; **Filled**, which appears after the user has entered content and moved on from the input; and **Focused**, which provides a visual cue that the user is actively typing in the input.
 
 
 <img class="responsive-img" src="../images/input_idle.png" srcset="../images/input_idle@2x.png 2x" />
@@ -62,11 +62,11 @@ Every experienced designer uses constraints wisely to limit the user input and a
 <img class="responsive-img" src="../images/input_error.png" srcset="../images/input_error@2x.png 2x" />
 `error`
 
-In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Figma you can switch between states using the "State" property from the properties panel. In Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
+In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Figma you can switch between them using the "State" property in the properties panel on the right. In Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
 
 ## Layout
 
-The Input has rich support for prefix and suffix through a combination of text and icons that can, in certain cases, reduce the input effort for the user: e.g. an @email.com suffix means both fewer keystrokes and more clarity of expected content. In Figma, removing the prefix or the suffix can be achieved from the properties panel by switching them on and off. In Sketch, to remove the prefix or suffix simply set their override to ~No Symbol, and the smart layout rules will adjust the input accordingly. In Adobe XD, the same can be achieved by deleting the unnecessary prefix or suffix layer and the Stack will take care to adjust the layout accordingly.
+The Input has rich support for Prefix and Suffix through a combination of text and icons that can, in certain cases, reduce the input effort for the user: e.g. an @email.com Suffix means both fewer keystrokes and more clarity of expected content. In Figma, removing the Prefix or Suffix can be achieved from the properties panel by switching them on and off. In Sketch, to remove the Prefix or Suffix simply set their override to ~No Symbol, and the smart layout rules will adjust the input accordingly. In Adobe XD, the same can be achieved by deleting the unnecessary Prefix or Suffix layer and the Stack will take care to adjust the layout accordingly.
 
 <img class="responsive-img" src="../images/input_prefix.png" srcset="../images/input_prefix@2x.png 2x" />
 <img class="responsive-img" src="../images/input_suffix.png" srcset="../images/input_suffix@2x.png 2x" />
