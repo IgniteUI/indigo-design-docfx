@@ -32,7 +32,7 @@ The hint and simple presets in Sketch and Adobe XD offer choice between three di
 
 ## Interaction State
 
-In Sketch and Adobe XD, each of these presets can be inserted in an enabled or disabled state. In Figma, the input is in an enabled state by default and can be switched to disabled state from the properties panel on the right.
+In Sketch and Adobe XD, each of these presets can be inserted in an Enabled or a Disabled state. In Figma, the Input is in an Enabled state by default and can be switched to a Disabled state from the properties panel on the right.
 
 <img class="responsive-img" src="../images/input_enabled.png" srcset="../images/input_enabled@2x.png 2x" />
 `enabled`
