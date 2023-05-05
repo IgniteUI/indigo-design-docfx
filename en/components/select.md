@@ -61,17 +61,17 @@ In Sketch, the states and validation states are achieved with `Symbol Overrides`
 > [!NOTE]
 > The Select input has only one layout option, but this override has been preserved in Sketch to ensure consistency with the standard [Input](input.md).
 
-## Dropdown Items
+## Drop Down Items
 
-The dropdown used for the Select supports two types of items: header and single selection type. Through headers, it is possible to organize items in groups. In Figma, the Drop down utilizes the auto layout option, which makes sure all items are placed accordingly, once you hide or add one or more items. In Sketch, the dropdown uses a smart layout allowing it to adjust accordingly when one or more of its items are set to ~No Symbol. In Adobe XD you should delete the unnecessary ones, and the layout will adjust through the use of a Stack.
+The drop down used for the Select supports two types of items: header and single selection type. Through headers, it is possible to organize items in groups. In Figma, the Drop Down component utilizes the auto layout option, which makes sure all items are placed accordingly, once you hide or add one or more items. In Sketch, the Drop Down uses a smart layout allowing it to adjust accordingly when one or more of its items are set to ~No Symbol. In Adobe XD you should delete the unnecessary ones, and the layout will adjust through the use of a Stack.
 
 <img class="responsive-img" src="../images/select_item.png" srcset="../images/select_item@2x.png 2x" />
 
 <img class="responsive-img" src="../images/select_header.png" srcset="../images/select_header@2x.png 2x" />
 
-## Dropdown Item States
+## Drop Down Item States
 
-The dropdown items within the Select support six different states: **Idle**, **Disabled**, **Selected**, **Selected & Disabled**, **Selected & Focused**, **Focused**
+The Drop Down Items within the Select support six different states: **Idle**, **Disabled**, **Selected**, **Selected & Disabled**, **Selected & Focused**, **Focused**
 
 <img class="responsive-img" src="../images/select_item_idle.png" srcset="../images/select_item_idle@2x.png 2x" />
 <img class="responsive-img" src="../images/select_item_disabled.png" srcset="../images/select_item_disabled@2x.png 2x" />
