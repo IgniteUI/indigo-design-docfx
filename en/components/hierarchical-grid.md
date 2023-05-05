@@ -13,7 +13,7 @@ Use the Hierarchical Grid Component to let the user browse and interact with a v
 <img class="responsive-img" src="../images/hierarchical_grid_demo.png" srcset="../images/hierarchical_grid_demo@2x.png 2x" />
 
 ## Using the Hierarchical Grid in Figma
-Similarly to the Grid, the Hierarchical Grid is essentially a repeater of columns, rows, and nested grids forming a visual hierarchy. To use the Hirerarchical Grid component simply search for it on the Recourses panel and instert an instance. If needed, you can change the display density by using the "Display Density" property from the properties panel. In the layers panel you'll see the following structure: 
+Similarly to the Grid, the Hierarchical Grid is essentially a repeater of columns, rows, and nested grids forming a visual hierarchy. To use the Hierarchical Grid component simply search for it in the Resources panel and insert an instance. If needed, you can change the display density by using the "Display Density" property from the properties panel. In the layers panel you'll see the following structure: 
 
 | Layer                                | Use                                                                                                                                                  |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -24,7 +24,7 @@ Similarly to the Grid, the Hierarchical Grid is essentially a repeater of column
 | Background                                 | Defines the background color of the second grid                                                                            |
 | Grid 1              | Contains all the columns and cells of the top grid                                                                                      |
 
-If you'd like to alter the number of columns or cell, you can simply hide the unnecessary ones from the layers panel. In case you want to add more, you'll need to select the Hierarchical Grid component, right click on it and select "Detach instance" from the contextual menu. You can then duplicate some of the existing columns until you achieve the desired look of the Grid. If you want to show more of the hierarchy, you can also duplicate one of the two Grid frames.
+If you'd like to alter the number of columns or cells, you can simply hide the unnecessary ones from the layers panel. In case you want to add more, you'll need to select the Hierarchical Grid component, right click on it and select "Detach instance" from the contextual menu. You can then duplicate some of the existing columns until you achieve the desired look of the Grid. If you want to show more of the hierarchy, you can also duplicate one of the two Grid frames.
 
 ## Using the Hierarchical Grid in Sketch
 
