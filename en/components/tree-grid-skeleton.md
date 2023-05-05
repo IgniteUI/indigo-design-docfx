@@ -28,7 +28,7 @@ The Skeleton Tree Grid TreeColumn cell supports the same three display density v
 
 ## Cell Depth
 
-The Skeleton Tree Grid TreeColumn cell supports the same visual indication for the level of the data hierarchy as the standard [Tree Grid](tree-grid.md): Root Level, Child Level, or Grandchild Level. In Figma this can be achieved with the `Level` property, while in Sketch, can be achieved with `Symbol Overrides`. In Adobe XD we are using the `Component States` paradigm.
+The Skeleton Tree Grid TreeColumn cell supports the same visual indication for the level of the data hierarchy as the standard [Tree Grid](tree-grid.md): Root Level, Child Level, or Grandchild Level. To switch between them in Figma once you select a Cell from Column 1 go to the Level base component inside it in the layers panel and use the `Level` property. In Sketch, to switch between them can be achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm.
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_cell_body_root_level.png" srcset="../images/tree_grid_skeleton_cell_body_root_level@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_skeleton_cell_body_child_level.png" srcset="../images/tree_grid_skeleton_cell_body_child_level@2x.png 2x" />
