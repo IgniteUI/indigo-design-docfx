@@ -10,7 +10,7 @@ The Accordion component allows users to reveal content in a vertical stack progr
 
 ## Accordion Demo
 
-<img class="responsive-img" src="../images/accordion_demo.png" srcset="../images/accordion_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/accordion_expanded_panel_demo.png" srcset="../images/accordion_expanded_panel_demo@2x.png 2x" />
 
 ## Using the Accordion in Figma and Sketch
 
@@ -28,10 +28,11 @@ After detaching the component, you will be able to add your additional Expansion
 The Expansion Panel has `Disabled` and `Expanded` states, which can be toggled on and off for the selected Expansion Panel. Check [Expansion Panels](expansion-panel.md)
 
 <img class="responsive-img" src="../images/accordion_disabled-panel.png" srcset="../images/accordion_disabled-panel@2x.png 2x" />
+<div class="divider--half"></div>
 
 In Figma, the `Expanded` property gives you the ability to configure the states of the panel as per your requirement. Additionally, based on the panel hierarchy in the Layers panel and which panel is expanded, you can activate the top and bottom margins from boolean properties, adding more space to your designs. In Sketch, there is a predefined symbol, `Single Branch Expanded,` covering the expanded state of the panel and its margins.
 
-<img class="responsive-img" src="../images/accordion_expanded-panel.png" srcset="../images/accordion_expanded-panel@2x.png 2x" />
+<img class="responsive-img" src="../images/accordion_expanded_panel_demo.png" srcset="../images/accordion_expanded_panel_demo@2x.png 2x" />
 
 ## Styling
 
