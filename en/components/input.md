@@ -66,7 +66,7 @@ In Sketch, the states and validation states are achieved with `Symbol Overrides`
 
 ## Layout
 
-The Input has rich support for Prefix and Suffix through a combination of text and icons that can, in certain cases, reduce the input effort for the user: e.g. an @email.com Suffix means both fewer keystrokes and more clarity of expected content. In Figma, removing the Prefix or Suffix can be achieved from the properties panel by switching them on and off. In Sketch, to remove the Prefix or Suffix simply set their override to ~No Symbol, and the smart layout rules will adjust the input accordingly. In Adobe XD, the same can be achieved by deleting the unnecessary Prefix or Suffix layer and the Stack will take care to adjust the layout accordingly.
+The Input has rich support for Prefix and Suffix through a combination of text and icons that can, in certain cases, reduce the input effort for the user: e.g. an @email.com Suffix means both fewer keystrokes and more clarity of expected content. In Figma, removing the Prefix or Suffix can be achieved in the properties panel by switching them on or off. In Sketch, to remove the Prefix or Suffix simply set their override to ~No Symbol, and the smart layout rules will adjust the input accordingly. In Adobe XD, the same can be achieved by deleting the unnecessary Prefix or Suffix layer and the Stack will take care to adjust the layout accordingly.
 
 <img class="responsive-img" src="../images/input_prefix.png" srcset="../images/input_prefix@2x.png 2x" />
 <img class="responsive-img" src="../images/input_suffix.png" srcset="../images/input_suffix@2x.png 2x" />
