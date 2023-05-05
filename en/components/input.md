@@ -39,9 +39,9 @@ In Sketch and Adobe XD, each of these presets can be inserted in an Enabled or a
 <img class="responsive-img" src="../images/input_disabled.png" srcset="../images/input_disabled@2x.png 2x" />
 `disabled`
 
-## States
+## State
 
-When the user interacts with the Input, it goes through various states: **Idle** with a placeholder in the place of the content, **Hover** which indicates the input is enabled, once the user places their cursor over it, **Filled** that shows once the user has finished adding content and moved on, **Focused** with a visual indication that the user is currently inserting a value. 
+The Input component goes through different states as the user interacts with it:**Idle**, which displays the placeholder in the place of the content; **Hover**, indicating that the input is active when the user hovers over it; **Filled**, which appears after the user has entered content and moved on from the input; and **Focused**, which provides a visual cue that the user is actively typing in the input.
 
 
 <img class="responsive-img" src="../images/input_idle.png" srcset="../images/input_idle@2x.png 2x" />
