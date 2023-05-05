@@ -17,7 +17,7 @@ Similarly to the Grid, the Hierarchical Grid is essentially a repeater of column
 
 | Layer                                | Use                                                                                                                                                  |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫componentVersion  &nbsp; &nbsp; | A special locked layer starting with a prohibited icon. This layer containts information about the current version of the component and you should avoid deleting or modifying it. |
+| 🚫 componentVersion  &nbsp;  | A special locked layer starting with a prohibited icon. This layer containts information about the current version of the component and you should avoid deleting or modifying it. |
 | 🚫 metadata | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
 | Drill Indication                  | A symbol that is used for indicating the active cell/cell in focus                                                                                                       |
 | Grid 2                               | Contains all the columns and cells of the bottom grid header                                                                                                                 |
