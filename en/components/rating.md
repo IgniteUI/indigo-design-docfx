@@ -46,7 +46,7 @@ In order to increase or decrese the number of rating icons, you should use the `
 
 ## Interaction States
 
-In Figma, when inserted the Rating component is always enabled by default, and in order to disable it you can do that from the property panel, while in Sketch, the Rating can be inserted in an enabled or disabled state.
+In Figma, when inserted, the Rating component is always enabled by default. You can disable it from the properties panel, while in Sketch, the Rating can be inserted in an enabled or disabled state.
 
 <img class="responsive-img" src="../images/rating_enabled_empty-state.png" srcset="../images/rating_enabled_empty-state@2x.png 2x" />
 <img class="responsive-img" src="../images/rating_disabled_empty-state.png" srcset="../images/rating_disabled_empty-state@2x.png 2x" />
