@@ -6,10 +6,10 @@ _keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Ang
 
 # Stepper 
 
-Use the Stepper Component to allow the user to visualize content as a process, which shows its progress by dividing the content into successive steps. The Stepper is visually identical to the [Ignite UI for Angular Stepper Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/stepper.html)
+The Stepper component is a useful UI element that can be used to display a process or workflow in a step-by-step manner, allowing the user to easily understand where they are in the process and what steps are remaining. The Stepper typically consists of a horizontal or vertical bar with numbered steps, with the current step highlighted and any completed steps shown as filled. The Stepper can be used for a wide range of applications, from a checkout process in an e-commerce website to a multi-step form in a web application. The Stepper is visually identical to the [Ignite UI for Angular Stepper Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/stepper.html)
 
 > [!NOTE]
-> WIP: Currently, we don't support the Accordion component in Sketch and Adobe XD, but it will be added in the near future.
+> WIP: Currently, we support the Stepper component only in Figma. In Sketch it will be added in the near future.
 
 ## Stepper Demo
 
