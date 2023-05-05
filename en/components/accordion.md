@@ -23,9 +23,9 @@ After detaching the component, you will be able to add your additional Expansion
 > [!NOTE]
 > WIP: Currently, we don't support the Accordion component in Adobe XD, but you can also combine multiple `Expansion Panels` into a similar Accordion component behavior. However, this will not generate appropriately in the App Builder.
 
-## Interaction States
+## Expansion Panel States
 
-The Accordion doesn't have interaction states, but its panels have `Disabled` and `Expanded,` which can be toggled on and off for the selected Expansion Panel. Check [Expansion Panels](expansion-panel.md)
+The Expansion Panel have `Disabled` and `Expanded,` which can be toggled on and off for the selected Expansion Panel. Check [Expansion Panels](expansion-panel.md)
 
 <img class="responsive-img" src="../images/accordion_disabled-panel.png" srcset="../images/accordion_disabled-panel@2x.png 2x" />
 
@@ -35,7 +35,7 @@ In Figma, the `Expanded` property gives you the ability to configure the states 
 
 ## Styling
 
-The Accordion component offers styling flexibility, with various options for customization. You can choose the colors of both the Header's and Body's background, as well as the text color and weight. Additionally, you can customize the icon color and type.
+The Accordion component offers styling flexibility, with various options for customization. You can choose the colors of both the Headers' and Bodys' backgrounds, as well as the text color and weight. Additionally, you can customize the icon color and type.
 
 <img class="responsive-img" src="../images/accordion_styling.png" srcset="../images/accordion_styling@2x.png 2x" />
 
