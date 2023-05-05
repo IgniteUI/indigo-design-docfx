@@ -44,32 +44,31 @@ There are four presets for Booking Forms: Dates + People, which is rather generi
 
 ## New Forms
 
-There are two types of New Forms: Budget for filling the information necessary to allocate a new budget and Expense for filling the information necessary to create a new expense.
+There are two types of New Forms: Budget for filling in the information necessary to allocate a new budget and Expense for filling in the information necessary to create a new expense.
 
 <img class="responsive-img" src="../images/form_new.png" srcset="../images/form_new@2x.png 2x" />
 
 ## E-commerce Forms
 
-There is an Address form, a Size Selection form, Simple and Advanced Search forms, a Shipping form, and a few types of Payment forms: some for Card payments and some for Transfers, like when you wire money through your online banking. The Transfer Form provides four different layouts: Currency Exchange, which has the necessary fields for currency conversion; Donation, which is suitable for charities; Between Accounts, which is usually the case for people holding multiple accounts in the same bank; and Between Banks, which is the common scenario for transferring money to another account under your or someone else's name.
+There is an Address form, a Size Selection form, Simple and Advanced Search forms, and a few types of Payment forms: some for Card payments and some for Transfers, like when you wire money through your online banking. The Transfer Form provides four different layouts: Currency Exchange, which has the necessary fields for currency conversion; Donation, which is suitable for charities; Between Accounts, which is usually the case for people holding multiple accounts in the same bank; and Between Banks, which is the common scenario for transferring money to another account under your or someone else's name.
 
-<img class="responsive-img" src="../images/form_card.png" srcset="../images/form_card@2x.png 2x" />
-<img class="responsive-img" src="../images/form_donation.png" srcset="../images/form_donation@2x.png 2x" />
-<img class="responsive-img" src="../images/form_money_transfer.png" srcset="../images/form_money_transfer@2x.png 2x" />
-<div class="divider--half"></div>
 <img class="responsive-img" src="../images/form_address.png" srcset="../images/form_address@2x.png 2x" />
 <img class="responsive-img" src="../images/form_search.png" srcset="../images/form_search@2x.png 2x" />
+<img class="responsive-img" src="../images/form_donation.png" srcset="../images/form_donation@2x.png 2x" />
+<img class="responsive-img" src="../images/form_money_transfer.png" srcset="../images/form_money_transfer@2x.png 2x" />
+<img class="responsive-img" src="../images/form_card.png" srcset="../images/form_card@2x.png 2x" />
 <img class="responsive-img" src="../images/form_illustrated_card.png" srcset="../images/form_illustrated_card@2x.png 2x" />
 
 ## Feedback and Contact Forms
 
-There is a Feedback form for when you want to obtain certain information from your customers to improve your products or services and a Contact form for when you like to show that your business is easily reachable but don't want to expose an email address directly.
+There is a Feedback form for when you want to obtain certain information from your customers to improve your products or services and a Contact form for when you like to show that your business is easily reachable but want to keep an email address private.
 
 <img class="responsive-img" src="../images/form_feedback.png" srcset="../images/form_feedback@2x.png 2x" />
 <img class="responsive-img" src="../images/form_contacts.png" srcset="../images/form_contacts@2x.png 2x" />
 
 ## Subscription and Free Trial Forms
 
-A Subscription form is suitable for generating leads by legally gathering email addresses of users that have an interest in your company and products. There is also a Free Trial form for when you want to help your visitors in signing up for a free trial of your service or product.
+A Subscription form is suitable for generating leads by legally gathering email addresses of users interested in your company and products. There is also a Free Trial form for when you want to help your visitors in signing up for a free trial of your service or product.
 
 <img class="responsive-img" src="../images/form_subscription.png" srcset="../images/form_subscription@2x.png 2x" />
 <img class="responsive-img" src="../images/form_free_trial.png" srcset="../images/form_free_trial@2x.png 2x" />
