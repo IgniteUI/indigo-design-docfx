@@ -71,6 +71,10 @@ The Input has rich support for prefix and suffix through a combination of text a
 <img class="responsive-img" src="../images/input_prefix.png" srcset="../images/input_prefix@2x.png 2x" />
 <img class="responsive-img" src="../images/input_suffix.png" srcset="../images/input_suffix@2x.png 2x" />
 
+## Content Type
+
+Within each Input component lies a `Content Type` layer that specifies the nature of the information being inserted. This `Content Type` can be anything from text, email, password, phone number, to date. After entering the data into the input field, it's crucial to set the `Content Type` appropriately to ensure that your design is transferable to the `App Builder` and the information is accurately parsed.
+
 ## Styling
 
 The Input comes with styling flexibility through the colors of its background and border/bottom line, as well as icon color and text styles of its prefix, suffix, and main areas of content. To change the validation styles, it is recommended to update the respective color variables in the Indigo.Design library. 
@@ -79,7 +83,7 @@ The Input comes with styling flexibility through the colors of its background an
 
 ## Usage
 
-Use the box type of Input when placing forms on top of an image to improve readability. When using an Input in warning or error state in your designs, choose a preset with helper text and use the opportunity to provide guidance to the user.
+Use the box type of Input when placing forms on top of an image to improve readability. When using an Input in warn or error state in your designs, choose a preset with helper text and use the opportunity to provide guidance to the user.
 
 | Do                                                                           | Don't                                                                            |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
