@@ -73,7 +73,7 @@ The Input has rich support for Prefix and Suffix through a combination of text a
 
 ## Content Type
 
-Within each Input component lies a `Content Type` layer that specifies the nature of the information being inserted. This `Content Type` can be anything from text, email, password, phone number, to date. After entering the data into the input field, it's crucial to set the `Content Type` appropriately to ensure that your design is transferable to the `App Builder` and the information is accurately parsed.
+Each Input component includes a `Content Type` layer that specifies the type of information being inserted, such as text, email, password, phone number, or date. After entering data into the input field, it's important to set the `Content Type` accordingly to ensure that your design is correctly parsed into App Builder.
 
 ## Styling
 
