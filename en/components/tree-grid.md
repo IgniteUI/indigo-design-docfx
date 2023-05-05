@@ -18,7 +18,7 @@ Similarly to the Grid, the Tree Grid is essentially a repeater of columns and ro
 
 | Layer                        | Use                                                                                                                                                  |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 componentVersion | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
+| 🚫 componentVersion &nbsp; | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
 | 🚫 metadata | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
 | Column 1                       | Contains all the cells in the column - Header and Body Cells                                                                                                                |
 | ...                            | Columns between Column 1 and Column 7                                             |
@@ -68,7 +68,7 @@ The TreeColumn cell supports three display density variants of the Tree Grid: Co
 
 ## Cell Depth
 
-The Tree Grid TreeColumn cell provides a visual indication for the level of the data hierarchy via the `Level` property, which can be set to Root Level, Child Level or Grandchild Level. In Figma this can be achieved with the `Level` property, while in Sketch, can be achieved with `Symbol Overrides`. In Adobe XD we are using the `Component States` paradigm.
+The Tree Grid TreeColumn cell provides a visual indication for the level of the data hierarchy via the `Level` property (override), which can be set to Root Level, Child Level or Grandchild Level. In Figma you can switch between them using the `Level` property once you have selected a Cell from Column 1 and have gone to the Level base component inside it in the layers panel. In Sketch, this can be achieved with `Symbol Overrides`. In Adobe XD we are using the `Component States` paradigm.
 
 <img class="responsive-img" src="../images/tree_grid_cell_body_root_level.png" srcset="../images/tree_grid_cell_body_root_level@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_cell_body_child_level.png" srcset="../images/tree_grid_cell_body_child_level@2x.png 2x" />
