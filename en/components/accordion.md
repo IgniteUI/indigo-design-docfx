@@ -25,7 +25,7 @@ After detaching the component, you will be able to add your additional Expansion
 
 ## Expansion Panel States
 
-The Expansion Panel have `Disabled` and `Expanded,` which can be toggled on and off for the selected Expansion Panel. Check [Expansion Panels](expansion-panel.md)
+The Expansion Panel has `Disabled` and `Expanded` states, which can be toggled on and off for the selected Expansion Panel. Check [Expansion Panels](expansion-panel.md)
 
 <img class="responsive-img" src="../images/accordion_disabled-panel.png" srcset="../images/accordion_disabled-panel@2x.png 2x" />
 
