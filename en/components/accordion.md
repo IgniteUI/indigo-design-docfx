@@ -36,7 +36,7 @@ In Figma, the `Expanded` property gives you the ability to configure the states 
 
 ## Styling
 
-The Accordion component offers styling flexibility, with various options for customization. You can choose the colors of both the Headers' and Bodys' backgrounds, as well as the text color and weight. Additionally, you can customize the icon color and type.
+The Accordion component offers styling flexibility, with various options for customization. You can have different background colors for the Header and Body, and change the color and weight of the text. Additionally, you can customize the icon color and type.
 
 <img class="responsive-img" src="../images/accordion_styling.png" srcset="../images/accordion_styling@2x.png 2x" />
 
