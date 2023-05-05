@@ -1,12 +1,15 @@
 ---
 title: Stepper - Design System Component
 _description: The Stepper Component Symbol conveys progress through numbered steps.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Stepper 
 
 Use the Stepper Component to allow the user to visualize content as a process, which shows its progress by dividing the content into successive steps. The Stepper is visually identical to the [Ignite UI for Angular Stepper Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/stepper.html)
+
+> [!NOTE]
+> WIP: Currently, we don't support the Accordion component in Sketch and Adobe XD, but it will be added in the near future.
 
 ## Stepper Demo
 
