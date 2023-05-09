@@ -32,7 +32,7 @@ A list of all the Grid functionalities can be found on the [Grid](../components/
 - [Grid Skeleton](../components/grid-skeleton.md)
 
 > [!WARNING]
-> In **Figma**, after inserting any of the Lists Patterns, in case you need more items than provided, you need to detach it from the `Detach Component` option after right-clicking on the component. After detaching, you will be able to increase the columns, and you will need to adjust their position manually. We highly recommend not detaching any other components nested in the Tree Grid because this might cause problems when generating the components in the App Builder.
+> In **Figma**,
 >
 > In **Sketch**, after inserting the Tree Grid Pattern, you can trigger `Detach from Symbol` only if you need to alter the number of cells provided, in order to show all the dimensions of your data and insert as many visible records as you want. The individual Components and Features, however, must stay intact and not be detached!
 >
