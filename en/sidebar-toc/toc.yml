@@ -49,6 +49,9 @@
 - name: Components
   href: ../components/components-overview.md
   items:
+    - name: Accordion
+      href: ../components/accordion.md
+      new: true
     - name: Avatar
       href: ../components/avatar.md
     - name: Badge
@@ -81,6 +84,9 @@
           href: ../components/spline-chart.md
         - name: Step Line Chart
           href: ../components/step-line-chart.md
+        - name: Pie Chart
+          href: ../components/pie-chart.md
+          new: true
         - name: Skeleton Charts
           href: ../components/skeleton-charts.md
           new: true

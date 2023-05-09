@@ -1,7 +1,7 @@
 ---
 title: Radio Group - Design System Component
 _description: The Radio Group Component Symbol is used to provide a mechanism for exclusive selection from a set of available options. 
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
 ---
 
 # Radio Group
@@ -14,11 +14,11 @@ Use the Radio Group Component to allow exclusive selection for one item in a gro
 
 ## Label Position
 
-In Sketch, the Radio Group supports label position variants where the Radio button label is placed after or before the Radio button element. 
+In Figma and Sketch, the Radio Group supports label position variants where the Radio button label is placed after or before the Radio button element. 
 In Adobe XD, we are using Stacks to allow you to change the label and radio position at design time, as well as to enable adding as many radio buttons as necessary to align perfectly in the group you want to establish.
 
 <img class="responsive-img" src="../images/radiogroup_enabled_state.png" srcset="../images/radiogroup_enabled_state@2x.png 2x" />          
-<img class="responsive-img" src="../images/radiogroup_labels_before.png" srcset="../images/radiogroup_labels_before@2x.png 2x" />
+<img class="responsive-img" src="../images/radiogroup_enabled_labels_before.png" srcset="../images/radiogroup_enabled_labels_before@2x.png 2x" />
 
 ## Orientation
 
@@ -32,7 +32,10 @@ The Radio Group comes in a Vertical and Horizontal orientation.
 The Radio Group can be inserted in an enabled or disabled state.
 
 <img class="responsive-img" src="../images/radiogroup_enabled_state.png" srcset="../images/radiogroup_enabled_state@2x.png 2x" />          
-<img class="responsive-img" src="../images/radiogroup_disabled_state.png" srcset="../images/radiogroup_disabled_state@2x.png 2x" /> 
+<img class="responsive-img" src="../images/radiogroup_disabled_state.png" srcset="../images/radiogroup_disabled_state@2x.png 2x" />
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
 
 You may also set the state of a radio button in the group to disabled to disallow user interaction with it.
 
@@ -40,7 +43,7 @@ You may also set the state of a radio button in the group to disabled to disallo
 
 ## State
 
-Each Radio element in the group supports **on** and off selection states. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
+Each Radio element in the group supports **on** and off selection states. In Figma you can select the state from the `State` property in the right sidebar. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
 <img class="responsive-img" src="../images/radiogroup_demo.png" srcset="../images/radiogroup_demo@2x.png 2x" />
 
