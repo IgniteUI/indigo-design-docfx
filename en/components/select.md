@@ -88,7 +88,7 @@ The Select comes with the combined styling flexibility of its input and dropdown
 
 ## Usage
 
-When using the Select, its input and drop down should have the same width and their left and right borders should match. When the Select is focused, the drop down is shown above or below the input, never over the input, since the user should always be informed about the current selection. Once an item from the list is selected the drop down gets hidden. The drop down on the other hand should be on top of other content that is on the same surface as the Select input. The Select doesn't push content as the expansion panel does.
+When using the Select, its input and drop down should have the same width and their left and right borders should match. When the Select is focused, the drop down is shown above or below the input, never over the input, since the user should always be informed about the current selection. Once an item from the list is selected, the drop down gets hidden. The drop down on the other hand should be on top of other content that is on the same surface as the Select input. The Select doesn't push content as the expansion panel does.
 
 | Do                                                                           | Don't                                                                            |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
