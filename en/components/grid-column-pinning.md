@@ -14,7 +14,7 @@ Use the Grid Column Pinning as a mechanism to fix the first few columns of a scr
 
 ## Header Cell Feature
 
-To indicate a column as pinnable, use the `Column Pinning` override of the Grid Header Cell for that column in Sketch and change the default value from **Not Pinned** to **Pinned**. In Figma to do the same, you need to go to the Header Cell layers and select the `Column Pinning` layer and then from the property panel to set the `Feature` to **Pinned**. In Adobe XD, the `Column Pinning` layer uses the `Component States` paradigm to let you easily switch between states. This is what marks the column as pinnable as far as code generation is concerned.
+To indicate a column as pinnable, use the `Column Pinning` override of the Grid Header Cell for that column in Sketch and change the default value from **Not Pinned** to **Pinned**. To achieve the same in Figma, you need to go to the Header cell, select the `Column Pinning` layer from the layers panel and then set the `Feature` property to **Pinned** on the properties panel. In Adobe XD, the `Column Pinning` layer uses the `Component States` paradigm to let you easily switch between states. This is what marks the column as pinnable as far as code generation is concerned.
 
 The Built-In Column Pinning can be used through the Grid's toolbar which by default contains a button (combined with a combo dropdown) that lets you configure the pin state of the columns for the whole grid.
 
@@ -22,7 +22,7 @@ The Built-In Column Pinning can be used through the Grid's toolbar which by defa
 
 ## Custom Column Pinning
 
-In Sketch it is also possible to add a custom pining action in the Grid Header Cell by using either the `Feature Left` or `Feature Right` overrides and setting it to `Icon Template`. This way an icon will appear to indicate the column is pinned and you can change its state from pin to unpin icon from Icon override. In Figma the method is identical, you need to go to the Header Cell layers and from there use either the `Feature Left` or `Feature Right` layer and change its `Type` property from `None` to `Icon Template`. Of course, you would probably also want to rearrange the column order so that the pinned ones come first when looking left to right.
+It is also possible to add a custom pinning action in the Grid Header Cell. In Sketch this can be achieved by using either the `Feature Left` or `Feature Right` overrides and setting it to `Icon Template`. This way an icon will appear to indicate the column is pinned and you can change its state from pin to unpin icon from Icon override. In Figma the method is identical, you need to go to the Header Cell layer, select either the `Feature Left` or `Feature Right` layer and change its `Type` property from `None` to `Icon Template`. Of course, you would probably also want to rearrange the column order so that the pinned ones come first when looking left to right.
 
 ## Cell Right Border
 
