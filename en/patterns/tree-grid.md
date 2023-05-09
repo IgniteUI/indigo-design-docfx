@@ -11,7 +11,25 @@ The Tree Grid Pattern can be used as an alternative starting point when designin
 <img class="responsive-img" src="../images/tree_grid.png" srcset="../images/tree_grid@2x.png 2x" />
 <div class="divider--half"></div>
 
-A list of all the Grid functionalities can be found on the [Grid](../components/grid.md) component page, and they are all applicable to the Tree Grid Pattern.
+A list of all the Grid functionalities can be found on the [Grid](../components/grid.md) component page, and they are all applicable to the Tree Grid Pattern. The applicable features are the following:
+
+- [Grid Toolbar](../components/grid-toolbar.md)
+- [Grid Export](../components/grid-export.md)
+- [Grid Group By](../components/grid-grouping.md)
+- [Grid Column Pinning](../components/grid-column-pinning.md)
+- [Grid Column Hiding](../components/grid-column-hiding.md)
+- [Grid Column Moving](../components/grid-column-moving.md)
+- [Grid Column Resizing](../components/grid-column-resizing.md)
+- [Grid Sorting](../components/grid-sorting.md)
+- [Grid Row Filter](../components/grid-row-filter.md)
+- [Grid Excel Style Filtering](../components/grid-excel-style-filter.md)
+- [Grid Advanced Filtering](../components/grid-advanced-filter.md)
+- [Grid Row Selection](../components/grid-row-selection.md)
+- [Grid Editing](../components/grid-editing.md)
+- [Grid Display Density](../components/grid-display-density.md)
+- [Grid Paging](../components/grid-paging.md)
+- [Grid Summaries](../components/grid-summaries.md)
+- [Grid Skeleton](../components/grid-skeleton.md)
 
 > [!WARNING]
 > In **Figma**, 
