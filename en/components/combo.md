@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, E
 
 # Combo
 
-Use the Combo Component to to allow users to select an option from a predefined list of choices or enter their own value. When the user clicks on the drop-down arrow, a drop down list of options is displayed, and they can either select one of the options or type their own value into the text box. The Combo is visually identical to the [ Ignite UI for Angular Combobox Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/combo.html)
+Use the Combo component to allow users to select an option from a predefined list of choices or enter their own value. When the user clicks on the drop-down arrow, a drop down list of options is displayed, and they can either select one of the options or type their own value into the text box. The Combo is visually identical to the [ Ignite UI for Angular Combobox Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/combo.html)
 
 ## Combo Demo
 
@@ -24,14 +24,14 @@ The Combo provides selection between a border type for a more structured percept
 <img class="responsive-img" src="../images/combo_box.png" srcset="../images/combo_box@2x.png 2x" />
 `box`
 
-## Enabled and Disabled States
+## Interaction State
 
 Both Combo input types can be inserted in an enabled or disabled state. In Figma the input can be disabled from the properties panel.
 
 <img class="responsive-img" src="../images/combo_enabledstate.png" srcset="../images/combo_enabledstate@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_disabledstate.png" srcset="../images/combo_disabledstate@2x.png 2x" />
 
-## States
+## State
 
 When the user interacts with the Combo, its input goes through various selection states: **Idle** with a placeholder in the place of the content, **Focused** when the drop down is open, **Filled** once the user has finished with selection and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
 
