@@ -1,12 +1,12 @@
 ---
 title: Grid - Design System Pattern
 _description: The Grid Pattern Symbol represents a full-blown Grid Component.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Grid
 
-Use any of the Grid Pattern symbols as an alternative starting point when designing a tabular data layout. They provide a full-blown contentwise and stylewise Grid Component, on which all the Grid functionality, provided in the Components Library can be applied.
+Use any of the Grid Pattern symbols/components as an alternative starting point when designing a tabular data layout. They provide a full-blown contentwise and stylewise Grid Component, on which all the Grid functionality, provided in the Components Library can be applied.
 
 The Grid Pattern with Column Moving, Summaries and Paging is shown below:
 
