@@ -24,7 +24,7 @@ Step Line Chart のタイトルは、必要に応じて変更または非表示�
 
 ## Legend (凡例)
 
-Step Line Chart には、その中のシリーズの数とそれらが何を表すかを示す Legend が付属しています。The Legend in Figma is built using auto layout, meaning you can show/hide series items from the layers panel and the content will adjust itself accordingly. In Sketch it is built using a smart layout and can be adjusted to contain the exact amount of series items by setting the overrides of those not needed to ~No Symbol. Adobe XD では、Stack を使用して凡例項目レイヤーを削除できます。Legend の項目の形状も、rectangle (四角形)、line (線)、および dot (点) の組み込みサポートを使用して構成できます。
+Step Line Chart には、その中のシリーズの数とそれらが何を表すかを示す Legend が付属しています。Figma の Legend は自動レイアウトを使用して構築されています。つまり、レイヤー パネルからシリーズ項目を表示 / 非表示にすることができ、それに応じてコンテンツが自動的に調整されます。Sketch では、スマート レイアウトを使用して構築されており、不要な項目のオーバーライドを ~No Symbol に設定することで、正確な量のシリーズ項目を含むように調整できます。Adobe XD では、Stack を使用して凡例項目レイヤーを削除できます。Legend の項目の形状も、rectangle (四角形)、line (線)、および dot (点) の組み込みサポートを使用して構成できます。
 
 <img class="responsive-img" src="../images/step_line_chart_legend.png" srcset="../images/step_line_chart_legend@2x.png 2x" />
 
@@ -36,20 +36,20 @@ Chart Type では、Line と Area を切り替えることができます。後�
 
 ## 状態
 
-Step Line Chart には、Idle と Hover の 2 つの状態があります。In Figma you can switch between the two using the boolean operation "Hover Tooltip" from the properties panel, once you select the nested Chart Type component, while in Sketch this is achieved with `Symbol Overrides`. Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Hover 状態では、データ ポイントにホバーすると、このポイントでのシリーズの値に関する情報を提供するツールチップが表示されます。
+Step Line Chart には、Idle と Hover の 2 つの状態があります。Figma では、ネストされた Chart Type コンポーネントを選択すると、プロパティ パネルからブール演算「Hover Tooltip」を使用して 2 つを切り替えることができますが、Sketch では、これは `Symbol Overrides` で実現されます。Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Hover 状態では、データ ポイントにホバーすると、このポイントでのシリーズの値に関する情報を提供するツールチップが表示されます。
 
 <img class="responsive-img" src="../images/step_area_chart_tooltip-off.png" srcset="../images/step_area_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/step_area_chart_tooltip-on.png" srcset="../images/step_area_chart_tooltip-on@2x.png 2x" />
 
 ## Y 軸
 
-Step Line Chart の Y 軸は、Title、Labels、および軸自体で構成されます。The Title and the Labels are configurable and to hide a label simply hide it from the layers panel in Figma or set its override to ~No Symbol in Sketch. In Adobe XD you can achieve this by deleting the layer. By default, the Y-axis is hidden in Figma and Adobe XD and set to `Transparent` in Sketch. To make it visible in Figma and Adobe XD, go to the layers panel, right click on the Y-axis layer and select "Show/Hide". The same can be achieved in Sketch by choosing a different layer style for the Y-axis. If you want to hide all elements at once, hide the nested Y-axis component from the layers panel in Figma, change the Y-axis override to ~No Symbol in Sketch or delete its layer in Adobe XD.
+Step Line Chart の Y 軸は、Title、Labels、および軸自体で構成されます。Title と Labels は設定可能で、ラベルを非表示にするには、Figma のレイヤー パネルからラベルを非表示にするか、そのオーバーライドを Sketch で ~No Symbol に設定します。Adobe XD では、レイヤーを削除することでこれを実現できます。デフォルトでは、Y 軸は Figma と Adobe XD では非表示で、Sketch では `Transparent` に設定されています。Figma と Adobe XD で表示するには、レイヤー パネルに移動し、Y 軸レイヤーを右クリックして「Show/Hide」(表示/非表示) を選択します。Y 軸に別のレイヤー スタイルを選択することで、Sketch でも同じことが実現できます。すべての要素を一度に非表示にする場合は、ネストされた Y 軸コンポーネントを Figma のレイヤー パネルから非表示にし、Sketch で Y 軸のオーバーライドを ~No Symbol に変更するか、Adobe XD でそのレイヤーを削除します。
 
 <img class="responsive-img" src="../images/step_line_chart_yaxis.png" srcset="../images/step_line_chart_yaxis@2x.png 2x" />
 
 ## Gridlines (グリッド線)
 
-Step Line Chart には 縦と横の Gridlines が組み込まれているため、データ ポイントを X と Y 軸で視覚的にトレースすることができます。Both are configurable individually and to hide any or both of them in Figma you'll need to select the nested Chart Type component from the layers panel and switch on/off any or both of the properties called "Vertical Gridlines" and "Horizontal Gridlines". In Sketch and Adobe XD you can achieve this by setting the gridlines' color to `Transparent`.
+Step Line Chart には 縦と横の Gridlines が組み込まれているため、データ ポイントを X と Y 軸で視覚的にトレースすることができます。両方とも個別に設定可能で、Figma でそれらのいずれかまたは両方を非表示にするには、レイヤー パネルからネストされた Chart Type コンポーネントを選択し、「Vertical Gridlines」および「Horizontal Gridlines」と呼ばれるプロパティのいずれかまたは両方をオン / オフに切り替える必要があります。Sketch と Adobe XD では、グリッド線の色を `Transparent` に設定することでこれを実現できます。
 
 <img class="responsive-img" src="../images/step_line_chart_gridlines1.png" srcset="../images/step_line_chart_gridlines1@2x.png 2x" />
 <img class="responsive-img" src="../images/step_line_chart_gridlines2.png" srcset="../images/step_line_chart_gridlines2@2x.png 2x" />

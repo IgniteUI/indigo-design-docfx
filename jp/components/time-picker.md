@@ -40,7 +40,7 @@ Time Picker は、2 種類のコンテンツ モードで 12 時間と 24 時間
 
 Time Picker の 2 つのボタンは、時間を元の時間に戻す選択のキャンセルおよび変更を保存するための選択の確認にそれぞれ使用します。
 
-The Button area can be templated, making it easy to hide buttons as needed. In Figma, you can simply hide a button by hiding its instance from the layers panel. Similarly, in Sketch, you can set the button's override to ~No Symbol to hide it. In Adobe XD, you can delete unnecessary buttons altogether. Unlike in Sketch and Figma, Adobe XD allows you to add more buttons, e.g. for custom actions, to the Button area from the Libraries panel. Whether you remove or add Buttons, the applied Stack will adjust the layout for you automatically. To achieve this in Figma and Sketch, you should first detach the component instance and then apply the desired changes.
+Button area はテンプレート化できるため、必要に応じてボタンを簡単に非表示にできます。Figma では、ボタンのインスタンスをレイヤー パネルから非表示にすることで、単純にボタンを非表示にすることができます。同様に、Sketch では、ボタンのオーバーライドを ~No Symbol に設定して非表示にすることができます。 Adobe XD では、不要なボタンをまとめて削除できます。Sketch や Figma とは異なり、Adobe XD ではボタンを追加できます。カスタム アクションの場合は、[Libraries] パネルの Button area にボタンを追加できます。Button の削除または追加に関係なく、適用された Stack はレイアウトを自動的に調整します。Figma と Sketch でこれを実現するには、まずコンポーネント インスタンスをデタッチしてから、必要な変更を適用する必要があります。
 
 <img class="responsive-img" src="../images/timepicker_buttons.png" srcset="../images/timepicker_buttons@2x.png 2x" />
 

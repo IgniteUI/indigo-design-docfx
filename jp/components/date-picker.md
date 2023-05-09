@@ -30,7 +30,7 @@ Date Picker は、水平および垂直方向の Dialog レイアウトおよび
 
 ## 週のはじめ
 
-We support the two most common scenarios for first day of the week: Sunday and Monday. In Figma you can select the start of the week from the Starts On property. In Sketch and Adobe XD the starting day should be chosen as an option at the time of inserting a Date Picker.
+週の最初の曜日として、最も一般的な 2 つのシナリオ (日曜日と月曜日) をサポートしています。 Figma では、[Starts On] プロパティから週の開始を選択できます。Sketch および Adobe XD では、日付ピッカーを挿入するときにオプションとして開始日を選択する必要があります。
 
 <img class="responsive-img" src="../images/datepicker_dropdown.png" srcset="../images/datepicker_dropdown@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_monday.png" srcset="../images/datepicker_monday@2x.png 2x" />
