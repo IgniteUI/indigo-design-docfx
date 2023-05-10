@@ -84,14 +84,6 @@
         - name: Skeleton Charts
           href: ../components/skeleton-charts.md
           new: true
-    - name: Gauges
-      items:
-        - name: Bullet Graph
-          href: ../components/bullet-graph.md
-        - name: Linear Gauge
-          href: ../components/linear-gauge.md
-        - name: Radial Gauge
-          href: ../components/radial-gauge.md
     - name: Checkbox
       href: ../components/checkbox.md
     - name: Chip and Chips Area
@@ -110,6 +102,14 @@
     - name: Expansion Panel
       href: ../components/expansion-panel.md
       new: true
+    - name: Gauges
+      items:
+        - name: Bullet Graph
+          href: ../components/bullet-graph.md
+        - name: Linear Gauge
+          href: ../components/linear-gauge.md
+        - name: Radial Gauge
+          href: ../components/radial-gauge.md
     - name: Grid
       href: ../components/grid.md
       items:
