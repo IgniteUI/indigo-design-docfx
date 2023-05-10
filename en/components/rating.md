@@ -18,18 +18,18 @@ The Rating is built from Label and Value, where the Value is the number of the r
 
 | Layer                        | Use                                                                                                                                                  |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 componentVersion | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
+| 🚫 componentVersion @nbsp; | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
 | 🚫 metadata         | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
 | Label              | Text layer that can be changed or hidden, if not needed                                                                                                              |
 | Value              | Contains all the rating icons                                                                                                                 |
 
-After detaching, you may increase the number of the rating icons by duplicating any of the existing ones, nested in the `Value` frame, and the size will be adjusted, thanks to the Auto layout.
+After detaching, you may increase the number of the rating icons by duplicating any of the existing ones, nested in the `Value` frame, and the size will be adjusted, thanks to the auto layout.
 
-To decrease the number of the rating icons, there is no need to detach the component, you should hide the not needed one from the Layers panel.
+To reduce the number of rating icons, there is no need to detach the component. You can simply hide the unnecessary icons from the Layers panel.
 
 ## Using the Rating in Sketch
 
-The Rating component in Sketch has almost the same building elements like in Figma. There are Label and Value and the component comes with five rating icons by default. In case that there is need for more rating icons, the component needs to be detached by right-clicking on it and selecting `Detach from Symbol` from the contextual menu. After detaching, you should see the following detached layers:
+The Rating component in Sketch shares almost the same building elements as in Figma, including a Label and Value section, and comes with five rating icons by default. If more rating icons are needed, the component needs to be detached by right-clicking on it and selecting `Detach from Symbol` from the contextual menu. Once detached, you should see the following layers:
 
 | Layer                        | Use                                                                                                                                                  |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -37,7 +37,7 @@ The Rating component in Sketch has almost the same building elements like in Fig
 | Label              | Text layer that can be changed or hidden if not needed                                                                                                                                                      |
 | Value              | Contains all the rating icons                                                                                                                         |
 
-In order to increase or decrese the number of rating icons, you should use the `Detach from Sybmol` option again over the `Value` symbol and then by duplicating or deleting any of the rating icons, that already exist, you will be able to achive the desired amount of icons.
+In order to increase or decrese the number of rating icons, you should use the `Detach from Symbol` option again over the `Value` symbol and then by duplicating or deleting any of the rating icons, that already exist, you will be able to achive the desired amount of icons.
 
 ## Using the Rating in Adobe XD
 
