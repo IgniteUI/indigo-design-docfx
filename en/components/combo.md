@@ -57,7 +57,7 @@ Every experienced designer uses constraints wisely to limit the user input and a
 In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them. In Figma changing the states is achieved via the properties panel.
 
 > [!Note]
-> The Combo input has only one layout option, but this override has been preserved in Sketch to ensure consistency with the standard [Input](input.md). In Figma on the other hand we have a separate base component called `.Combo Input`, which is used explicitly on the Combo component.
+> The Combo input has only one layout option, but this override has been preserved in Sketch to ensure consistency with the standard [Input](input.md). In Figma on the other hand we have a separate base component called `.Combo Input`, which is used explicitly in the Combo component.
 
 ## Drop down Type
 
