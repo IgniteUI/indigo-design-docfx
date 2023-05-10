@@ -51,7 +51,8 @@ Every experienced designer uses constraints wisely to limit the user input and a
 <img class="responsive-img" src="../images/combo_error.png" srcset="../images/combo_error@2x.png 2x" />
 `error`
 
-  <div class="divider--full"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
 
 In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them. In Figma changing the states is achieved via the properties panel.
 
