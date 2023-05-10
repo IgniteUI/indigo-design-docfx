@@ -1,13 +1,13 @@
 ---
 title: Text Area - デザイン システム コンポーネント
 _description: Text Area コンポーネント シンボルを使用すると、長いテキスト ユーザー データを収集して複数行に表示できます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
 # Text Area (テキスト領域)
 
-Text Area コンポーネントを使用して、ユーザーが複数行に表示される長いテキスト データを入力して編集できるようにします。Text Area を使用すると、ユーザーはドラッグ インジケーターによって領域のサイズを水平方向および垂直方向に変更できます。ユーザーは、[Ignite UI for Angular Input Group コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/input_group.html)をテキストとして装飾することで、Text Area コンポーネントを作成できます。  
+Text Area コンポーネントを使用して、ユーザーが複数行に表示される長いテキスト データを入力して編集できるようにします。Text Area を使用すると、ユーザーはドラッグ インジケーターによって領域のサイズを水平方向および垂直方向に変更できます。ユーザーは、[Ignite UI for Angular Input Group コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/input_group.html)をテキストとして装飾することで、Text Area コンポーネントを作成できます。
 
 ## Text Area のデモ
 
@@ -22,7 +22,7 @@ Text Area は、有効または無効の状態で挿入できます。
 
 ## 状態
 
-ユーザーが Text Area とインタラクティブに操作する際にさまざまな状態を経由します。コンテンツの代わりにプレースホルダーがある **idle (アイドル状態)**、ユーザーが入力中の focused (フォーカス状態)、ユーザーがコンテンツの追加を完了して次に進むときの filled (塗りつぶし状態)。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
+ユーザーが Text Area とインタラクティブに操作する際にさまざまな状態を経由します。コンテンツの代わりにプレースホルダーがある Idle (アイドル状態)、ユーザーが入力中の Focused (フォーカス状態)、ユーザーがコンテンツの追加を完了して次に進むときの Filled (塗りつぶし状態)。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 
 <img class="responsive-img" src="../images/textarea_idle.png" srcset="../images/textarea_idle@2x.png 2x" />
 `idle`
@@ -33,13 +33,13 @@ Text Area は、有効または無効の状態で挿入できます。
 <img class="responsive-img" src="../images/textarea_filled.png" srcset="../images/textarea_filled@2x.png 2x" />
 `filled`
 
-経験豊富なデザイナーは、ユーザー入力を制限して無効な状態を防止するために、検証スタイルを使用します。検証スタイルは、Text Area で成功、警告、エラーを表示する洗練されたデザインを提供します。
+経験豊富なデザイナーは、ユーザー入力を制限して無効な状態を防止するために、検証スタイルを使用します。検証スタイルは、Text Area で Success、Warning、Error を表示する洗練されたデザインを提供します。
 
 <img class="responsive-img" src="../images/textarea_success.png" srcset="../images/textarea_success@2x.png 2x" />
 <img class="responsive-img" src="../images/textarea_warning.png" srcset="../images/textarea_warning@2x.png 2x" />
 <img class="responsive-img" src="../images/textarea_error.png" srcset="../images/textarea_error@2x.png 2x" />
 
-Sketch では状態と検証状態を `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+Figma では、右側のサイドバーにある `State` プロパティから簡単に状態を切り替えることができます。Sketch では状態と検証状態を `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 ## サイズ変更
 
@@ -49,7 +49,7 @@ Text Area を使用すると、ユーザーは、新しい制約に合わせて�
 
 ## スタイル設定
 
-Text Area には、背景、ドラッグ インジケーター、境界線、およびテキストの色によるスタイル設定の柔軟性があります。検証スタイルを変更するには、Indigo.Design ライブラリのそれぞれの色変数を更新することをお勧めします。
+Text Area には、Background、Drag Indicator、Border、および Text の色によるスタイル設定の柔軟性があります。検証スタイルを変更するには、Indigo.Design ライブラリのそれぞれの色変数を更新することをお勧めします。
 
 <img class="responsive-img" src="../images/textarea_styling.png" srcset="../images/textarea_styling@2x.png 2x" />
 

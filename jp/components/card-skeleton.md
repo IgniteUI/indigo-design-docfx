@@ -1,7 +1,7 @@
 ﻿---
 title: Skeleton Card - デザイン システム コンポーネント
 _description: Skeleton Card は、カードのコレクションにコンテンツを提供するためにデータがバックグラウンドで読み込まれているときに表示される Card コンポーネントです。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -15,15 +15,13 @@ Skeleton Card コンポーネントを使用して、標準の情報と同じタ
 
 ## 領域
 
-Skeleton Card は、標準の [Card](card.md) の `image` (画像)、`header` (ヘッダー)、`body` (本文)、および `actions` (操作) など、同じ 4 つの領域をサポートしています。  
+Skeleton Card は、標準の [Card](card.md) の `image` (画像)、`header` (ヘッダー)、`content` (コンテンツ)、および `actions` (操作) など、同じ 4 つの領域をサポートしています。  
 
-## 画像と本文
+## 画像
 
-スケルトン画像と本文領域は、ショートカットの配列、標準の [Card](card.md) で使用可能なマップもカバーする画像、または段落のいずれかのオーバーライドをサポートします。
+スケルトン画像領域は画像をサポートし、標準の [Card](card.md) で利用可能なマップをカバーします。
 
 <img class="responsive-img" src="../images/card_skeleton_media.png" srcset="../images/card_skeleton_media@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_skeleton_body.png" srcset="../images/card_skeleton_body@2x.png 2x" />
 
 ## ヘッダー
 
@@ -31,9 +29,16 @@ Skeleton Card は、標準の [Card](card.md) の `image` (画像)、`header` (�
 
 <img class="responsive-img" src="../images/card_skeleton_header.png" srcset="../images/card_skeleton_header@2x.png 2x" />
 
+## コンテンツ
+
+コンテンツ領域は、短い説明テキストの Paragraph (段落) と、Contacts (連絡先) などのショートカットの Array をサポートしています。
+
+<img class="responsive-img" src="../images/card_skeleton_content_paragraph.png" srcset="../images/card_skeleton_content_paragraph@2x.png 2x" />
+<img class="responsive-img" src="../images/card_skeleton_content_array.png" srcset="../images/card_skeleton_content_array@2x.png 2x" />
+
 ## 操作
 
-スケルトン操作には、標準の [Card](card.md) と同じ 6 つのレイアウトがあります。これらは Sketch の Smart Layout で定義されており、要素を ~No Symbol に設定して削除し、残りを目的のレイアウトに自動的に調整できます。Adobe XD では、Stack を使用して不要なコンポーネントを削除する場合も同様です。
+スケルトン操作には、標準の [Card](card.md) と同じ 6 つのレイアウトがあります。また、Figma の自動レイアウトで定義されているため、右側のサイドバーの [Design] タブからタイプを選択できます。Sketch では、それらはスマート レイアウトで定義されており、要素を ~No Symbol に設定することで要素を削除し、残りを目的のレイアウトに自動的に調整できます。Adobe XD では、Stack を使用して不要なコンポーネントを削除する場合も同様です。
 
 <img class="responsive-img" src="../images/card_skeleton_actions_buttons_icons.png" srcset="../images/card_skeleton_actions_buttons_icons@2x.png 2x" />
 
@@ -49,7 +54,7 @@ Skeleton Card は、標準の [Card](card.md) の `image` (画像)、`header` (�
 
 ## Skeleton Card のレイアウト
 
-Sketch のスマート レイアウト とAdobe XD の Stack を使用することで、Skeleton Card は特定の領域または要素を除外してさまざまなレイアウトを作成し、最初は同じコンポーネントに基づいてさまざまなカードを作成できます (標準の [Card](card.md) と同様の方法で)。
+Sketch のスマート レイアウト、Figma の自動レイアウト、および Adobe XD の Stack を使用することで、Skeleton Card は特定の領域または要素を除外してさまざまなレイアウトを作成し、同じコンポーネントに基づいたさまざまなカードを最初に作成できます (標準の [Card](card.md) と同様の方法で)。
 
 <img class="responsive-img" src="../images/card_skeleton_demo.png" srcset="../images/card_skeleton_demo@2x.png 2x" />
 

@@ -1,7 +1,7 @@
 ﻿---
 title: Switch - デザイン システム コンポーネント
 _description: Switch コンポーネント シンボルは、ユーザーが選択にマークできる機能を提供します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -21,14 +21,14 @@ Switch は、有効または無効の状態で挿入できます。
 
 ## レイアウト テンプレート
 
-Sketch で Switch は、Switch 要素の前後に Switch ラベルが配置されるラベル位置のバリアントをサポートします。Adobe XD では、Stacks を使用して、スイッチのビジュアルの左または右にドラッグするだけで、デザイン時にラベルとスイッチの位置を変更できるようにしています。
+Figma と Sketch で Switch は、Switch 要素の前後に Switch ラベルが配置されるラベル位置のバリアントをサポートします。Adobe XD では、Stacks を使用して、スイッチのビジュアルの左または右にドラッグするだけで、デザイン時にラベルとスイッチの位置を変更できるようにしています。
 
 <img class="responsive-img" src="../images/switch_label-before.png" srcset="../images/switch_label-before@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_label-after.png" srcset="../images/switch_label-after@2x.png 2x" />
 
 ## 状態
 
-Switch は**オン**とオフの選択状態を提供します。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+Switch は**オン**と**オフ**の選択状態を提供します。Figma では、右側のサイドバーからプロパティを選択できます。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/switch_on.png" srcset="../images/switch_on@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_on_disabled.png" srcset="../images/switch_on_disabled@2x.png 2x" />
@@ -37,13 +37,13 @@ Switch は**オン**とオフの選択状態を提供します。Sketch では�
 
 ## スタイル設定
 
-Switch には、つまみとトラックの色の利用可能なオプション、およびラベルのテキストの色の変更によるスタイリングの柔軟性があります。トラックのアルファ値は、使用されている色に関係なく半透明の外観を実現するように固定されており、Indigo.Design ライブラリの 🧩 Components ページまたはアートボードにある `Symbol Master` を介してのみグローバルに調整できます。
+Switch には、Thumb と Track の色の利用可能なオプション、および Label のテキストの色の変更を通じて、スタイルの柔軟性が備わっています。
 
 <img class="responsive-img" src="../images/switch_styling.png" srcset="../images/switch_styling@2x.png 2x" />
 
 ## 使用方法
 
-Switch つまみとトラックに同じまたは同様の色を使用します。
+Switch の Thumb と Track に同じまたは同様の色を使用します。
 
 | 良い例                                                                         | 悪い例                                                                             |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |

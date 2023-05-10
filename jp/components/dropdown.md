@@ -1,7 +1,7 @@
 ---
 title: Dropdown - デザイン システム コンポーネント
 _description: Dropdown コンポーネント シンボルは、コレクションから単一項目を選択できます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -15,7 +15,7 @@ Dropdown コンポーネントでは、ユーザーがスクロール可能な�
 
 ## 表示密度
 
-Dropdown には 3 つの表示密度の選択肢があります: comfortable、cosy および compact です。
+Dropdown には 3 つの表示密度の選択肢があります: Comfortable、Cosy および Compact です。
 
 <img class="responsive-img" src="../images/dropdown_comfortable.png" srcset="../images/dropdown_comfortable@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_cosy.png" srcset="../images/dropdown_cosy@2x.png 2x" />
@@ -30,17 +30,18 @@ Dropdown は、項目ヘッダーと項目の 2 つのタイプをサポート�
 
 ## 項目の状態
 
-Dropdown 項目は、5 つの状態をサポートします: Disabled、**Idle**、Focused、Selected、Selected&focused。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+ドロップダウン項目は、**Idle**、Disabled、Focused、Selected、Selected&Focused、Selected&Disabled の 6 つの異なる状態をサポートしています。Figma では、状態は `State` プロパティから変更できるさまざまなバリアントです。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
-<img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_focused.png" srcset="../images/dropdown_item_focused@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_selected_disabled.png" srcset="../images/dropdown_item_selected_disabled@2x.png 2x" />
 
 ## 項目レイアウト テンプレート
 
-Dropdown Item は柔軟なアイコンとラベルのテンプレートをサポートします。Sketch でアイコンを表示するには、オーバーライドを Icon/Medium に設定し、スマート レイアウト ルールが項目レイアウトを自動的に調整します。Adobe XD では、アイコン レイヤーを表示し、Stack に配置してレイアウトを自動的に調整することで同じことが可能ですが、コンテンツにアイコンのある項目が必要ない場合は、アイコン レイヤーを削除します。
+Dropdown Item は柔軟なアイコンとラベルのテンプレートをサポートします。現在、Figma ではプレフィックス アイコンはサポートされていませんが、間もなく追加される予定です。Sketch でアイコンを表示するには、オーバーライドを Icon/Medium に設定し、スマート レイアウト ルールが項目レイアウトを自動的に調整します。Adobe XD では、アイコン レイヤーを表示し、Stack に配置してレイアウトを自動的に調整することで同じことが可能ですが、コンテンツにアイコンのある項目が必要ない場合は、アイコン レイヤーを削除します。
 
 <img class="responsive-img" src="../images/dropdown_item_label.png" srcset="../images/dropdown_item_label@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_icon.png" srcset="../images/dropdown_item_icon@2x.png 2x" /> 
