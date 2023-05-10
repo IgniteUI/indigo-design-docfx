@@ -18,6 +18,9 @@ The Grid Toolbar uses smart layout in Sketch and auto layout in Figma and. It ha
 
 <img class="responsive-img" src="../images/grid_toolbar_layout.png" srcset="../images/grid_toolbar_layout@2x.png 2x" />
 
+  <div class="divider--half"></div>
+    <div class="divider--half"></div>
+
 ## Styling
 
 The Grid Toolbar comes with styling flexibility through the various options for its Actions, as well as its title style and background color.
