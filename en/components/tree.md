@@ -73,7 +73,7 @@ The Tree comes with styling flexibility through the available options for the Ex
 
 ## Usage
 
-Make sure you switch the state of the Expand Icon to "Expanded" when you have expanded Тree Nodes. If some of the children (but not all) of a Tree Node are selected, make sure to switch the state of the Checkbox of the parent node to indeterminate state.
+Make sure you switch the state of the Expand Icon to "Expanded" when you have expanded Тree Nodes. If some of the children (but not all) of a Tree Node are selected, make sure to switch the state of the Checkbox of the parent node to an indeterminate state.
 
 | Do                                                                             | Don't                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
