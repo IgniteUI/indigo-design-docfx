@@ -193,6 +193,9 @@
     - name: Splitter
       href: ../components/splitter.md
       new: true
+    - name: Stepper
+      href: ../components/stepper.md
+      new: true  
     - name: Switch
       href: ../components/switch.md
     - name: Tabs
