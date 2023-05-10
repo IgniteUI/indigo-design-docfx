@@ -183,6 +183,9 @@
       href: ../components/progress.md
     - name: Radio Group
       href: ../components/radio-group.md
+    - name: Rating
+      href: ../components/rating.md
+      new: true
     - name: Select
       href: ../components/select.md
       new: true
