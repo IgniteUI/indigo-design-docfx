@@ -5,8 +5,8 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 ---
 
 ## Tree
-The Tree component is used as a visual representation of the hierarchical reletaionship between categories, presented in a list structure.
-Tree is visually identical to the [Ignite UI for Angular Tree Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/tree.html)
+The Tree component is used as a visual representation of the hierarchical relationship between categories, presented in a list structure.
+The Tree component is visually identical to the [Ignite UI for Angular Tree Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/tree.html)
 
 ## Tree Demo
 
@@ -46,13 +46,13 @@ We also support two states of the Expand Icon - Collapsed and Expanded. In Figma
 
 ## Tree Node Level
 
-In order to represent the hierarchical releationship between the nodes, the Tree Node supports three Level types: Root, Child and Grandchild. In Figma you can switch to a different level using the "Level" property from the properties panel, while in Sketch this is achieved with `Symbol Overrides`. 
+In order to represent the hierarchical relationship between the nodes, the Tree Node supports three Level types: Root, Child and Grandchild. In Figma you can switch to a different level using the "Level" property from the properties panel, while in Sketch this is achieved with `Symbol Overrides`. 
 
 <img class="responsive-img" src="../images/tree_demo.png" srcset="../images/tree_demo@2x.png 2x" />
 
 ## Tree Node State
 
-The Tree Node comes with the two primary states - Idle and Disabled. You can also choose from a variety of interaction states. In Figma this can be achieved by changing the value of the "State" property from the properties panel, while in Sketch it's achieved with `Symbol Overrides`.
+The Tree Node comes with two primary states - Idle and Disabled. You can also choose from a variety of interaction states. In Figma this can be achieved by changing the value of the "State" property from the properties panel, while in Sketch it's achieved with `Symbol Overrides`.
 
 <img class="responsive-img" src="../images/tree-node_basic.png" srcset="../images/tree-node_basic@2x.png 2x" />
 <img class="responsive-img" src="../images/tree-node_disabled.png" srcset="../images/tree-node_disabled@2x.png 2x" />
