@@ -63,7 +63,7 @@ In Sketch, the states and validation states are achieved with `Symbol Overrides`
 
 ## Drop Down Items
 
-The drop down used for the Select supports two types of items: header and single selection type. Through headers, it is possible to organize items in groups. In Figma, the Drop Down component utilizes the auto layout option, which makes sure all items are placed accordingly, once you hide or add one or more items. In Sketch, the Drop Down uses a smart layout allowing it to adjust accordingly when one or more of its items are set to ~No Symbol. In Adobe XD you should delete the unnecessary ones, and the layout will adjust through the use of a Stack.
+The drop down used for the Select supports two types of items: header and single selection type. Through headers, it is possible to organize items in groups. In Figma, the Drop Down component utilizes the auto layout option, which makes sure all items are placed accordingly, once you hide or add one or more items. In Sketch, the Drop Down uses a Smart Layout allowing it to adjust accordingly when one or more of its items are set to ~No Symbol. In Adobe XD you should delete the unnecessary ones, and the layout will adjust through the use of a Stack.
 
 <img class="responsive-img" src="../images/select_item.png" srcset="../images/select_item@2x.png 2x" />
 
@@ -71,7 +71,7 @@ The drop down used for the Select supports two types of items: header and single
 
 ## Drop Down Item States
 
-The Drop Down Items within the Select support six different states: **Idle**, **Disabled**, **Selected**, **Selected & Disabled**, **Selected & Focused**, **Focused**
+The dropdown items within the Select support five different states: Disabled, **Idle**, Focused, Selected, and Selected & Focused. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In Figma, an additional state has been added, making it six states in total: **Selected & Disabled**
 
 <img class="responsive-img" src="../images/select_item_idle.png" srcset="../images/select_item_idle@2x.png 2x" />
 <img class="responsive-img" src="../images/select_item_disabled.png" srcset="../images/select_item_disabled@2x.png 2x" />
