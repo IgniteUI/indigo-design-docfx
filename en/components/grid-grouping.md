@@ -18,7 +18,7 @@ The Grid has a `Group Area` symbol under `Grid Features` in Sketch that specifie
 
 ## GroupBy Row
 
-The Grid has a `GroupBy Row` symbol/component under `Grid Features` that represents a special row in the Grid that is like a heading preceding the grouped records with some summary information about their amount within the group. Adding this symbol/component has only a visual effect on your design to make it more realistic. To switch the GroupBy feature on in Sketch, insert and configure a `Group Area`. In Figma and Adobe Xd you can simply insert the `GroupBy Row` component.
+The Grid has a `GroupBy Row` symbol/component under `Grid Features` that represents a special row in the Grid that is like a heading preceding the grouped records with some summary information about their amount within the group. Adding this symbol/component has only a visual effect on your design to make it more realistic. To switch the GroupBy feature on in Sketch, insert and configure a `Group Area`. In Adobe XD you can simply insert the `GroupBy Row` component. In Figma, you need to detach the Grid first and then insert the `GroupBy Row` component.
 
 ## Additional Resources
 
