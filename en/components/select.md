@@ -73,12 +73,18 @@ The drop down used for the Select supports two types of items: header and single
 
 The dropdown items within the Select support five different states: Disabled, **Idle**, Focused, Selected, and Selected & Focused. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In Figma, an additional state has been added, making it six states in total: **Selected & Disabled**
 
-<img class="responsive-img" src="../images/select_item_idle.png" srcset="../images/select_item_idle@2x.png 2x" /> `idle`
-<img class="responsive-img" src="../images/select_item_disabled.png" srcset="../images/select_item_disabled@2x.png 2x" /> `disabled`
-<img class="responsive-img" src="../images/select_item_selected.png" srcset="../images/select_item_selected@2x.png 2x" /> `selected`
-<img class="responsive-img" src="../images/select_item_selected_disabled.png" srcset="../images/select_item_selected_disabled@2x.png 2x" /> `selected & disabled`
-<img class="responsive-img" src="../images/select_item_selected_focused.png" srcset="../images/select_item_selected_focused@2x.png 2x" /> `selected & focused`
-<img class="responsive-img" src="../images/select_item_focused.png" srcset="../images/select_item_focused@2x.png 2x" /> `focused`
+<img class="responsive-img" src="../images/select_item_idle.png" srcset="../images/select_item_idle@2x.png 2x" />
+`idle`
+<img class="responsive-img" src="../images/select_item_disabled.png" srcset="../images/select_item_disabled@2x.png 2x" />
+`disabled`
+<img class="responsive-img" src="../images/select_item_selected.png" srcset="../images/select_item_selected@2x.png 2x" />
+`selected`
+<img class="responsive-img" src="../images/select_item_selected_disabled.png" srcset="../images/select_item_selected_disabled@2x.png 2x" />
+`selected & disabled`
+<img class="responsive-img" src="../images/select_item_selected_focused.png" srcset="../images/select_item_selected_focused@2x.png 2x" />
+`selected & focused`
+<img class="responsive-img" src="../images/select_item_focused.png" srcset="../images/select_item_focused@2x.png 2x" />
+`focused`
 
 ## Styling
 
