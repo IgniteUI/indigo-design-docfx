@@ -16,7 +16,7 @@ The Combo has two pieces: an input containing the current selection and a drop d
 
 ## Combo Input Type
 
-The Combo provides selection between a border type for a more structured perception on solid color backgrounds and a boxed type that is most appropriate when placed on top of a vivid image to improve readability.
+The Combo input provides selection between a line type for a more airy style, border type for a more structured perception on solid color backgrounds, and a boxed type that is most appropriate when placed on top of a vivid image to improve readability. Since we are deprecating the line style, in Figma we have only the border and box types available.
 
 
 <img class="responsive-img" src="../images/combo_border.png" srcset="../images/combo_border@2x.png 2x" />
