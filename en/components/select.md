@@ -16,7 +16,7 @@ The Select is built by combining an input containing the current selection with 
 
 ## Input Type
 
-The Select supports the same two input types typical for the [Input](input.md) component: border type for a more structured perception on solid color backgrounds, and a boxed type that is most appropriate when placed on top of a vivid image to improve readability.
+The Select supports the same three input types typical for the [Input](input.md) component: a line type for a more airy style, border type for a more structured perception on solid color backgrounds, and a boxed type that is most appropriate when placed on top of a vivid image to improve readability. Since we are deprecating the line style, in Figma we have only the border and box types available.
 
 
 <img class="responsive-img" src="../images/select_border.png" srcset="../images/select_border@2x.png 2x" />
@@ -24,18 +24,18 @@ The Select supports the same two input types typical for the [Input](input.md) c
 <img class="responsive-img" src="../images/select_box.png" srcset="../images/select_box@2x.png 2x" />
 `box`
 
-## Enabled and Disabled States
+## Interaction State
 
-In Sketch and Adobe Xd, each of these presets can be inserted in an enabled or disabled state. In Figma on the other hand, by default the input types are always enabled and they can be switched to disabled state form the properties panel. 
+In Sketch and Adobe XD each of the three Select input types can be inserted either in an enabled or a disabled state. Since we are deprecating the line style, in Figma we have only the border and box types available and they can be switched to a disabled state from the properties panel.
 
 <img class="responsive-img" src="../images/select_enabledstate.png" srcset="../images/select_enabledstate@2x.png 2x" />
 `enabled state`
 <img class="responsive-img" src="../images/select_disabledstate.png" srcset="../images/select_disabledstate@2x.png 2x" />
 `disabled state`
 
-## States
+## State
 
-When the user interacts with the Select, its input goes through various selection states: **Idle** with a placeholder in the place of the content, **Filled** that shows once the user has finished adding content and moved on, **Focused** with a visual indication that the user is currently inserting a value.
+When the user interacts with the Select, its input goes through various selection states: **Idle** with a placeholder in the place of the content; **Focused** when the drop down is open; and **Filled** once the user has finished with selection and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
 
 
 <img class="responsive-img" src="../images/select_idle.png" srcset="../images/select_idle@2x.png 2x" />
