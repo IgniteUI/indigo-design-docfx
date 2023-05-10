@@ -75,11 +75,7 @@ The Rating comes with styling flexibility through the available options for the 
 
 ## Usage
 
-The star is a very recognizable ranking symbol and people may not associate other symbols with a rating scale. If you replace the star with a custom symbol, make sure that its purpose is clear. 
-
-Be cautious when deciding about the rating system scale and align it to the best and most common practices:
-- The 1–5 stars rating system relies on a 1–5 stars rating scale, where one-star signals ‘terrible’, while five stars signal an 'excellent’ experience/product. This rating system is commonly used in eCommerce.
-- The 1–10 stars rating system relies on a 1–10 stars rating scale. It allows users to provide a more specific rating of a product/service.
+The star is a very recognizable ranking symbol, and people may not associate other symbols with a rating scale. If you replace the star with a custom symbol, make sure that its purpose is clear. Avoid colors with poor contrast, like similar shades of the same color or combinations that create chromatic aberrations. The Icons selections should be emphasized and should have a good visual distinct appearance.
 
 | Do                                                                           | Don't                                                                            |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
