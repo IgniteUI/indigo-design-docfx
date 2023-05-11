@@ -31,7 +31,6 @@ The Skeleton Header, Body, and Summary Cells support the same three display dens
 ## Items and Features (Header Cell)
 
 The Skeleton Grid supports the same feature configurations via the `Feature Left` and `Feature Right` overrides as the standard [Grid](grid.md).
-Currently, we don't support the Rating component in Figma.
 
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_no-icon.png" srcset="../images/grid_skeleton_cell_header_no-icon@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_icon.png" srcset="../images/grid_skeleton_cell_header_icon@2x.png 2x" />
