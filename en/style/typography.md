@@ -6,15 +6,19 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, E
 
 # Typography
 
-There are 12 text (character) styles in the **Indigo.Design System** that constitute its typography and let you set up your theme's typeface. Although we are using [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) as a default, we really want to give every designer the flexibility to craft his applications with style. Indigo.Design follows the way typography is defined in the [Material Type System](https://material.io/design/typography/the-type-system.html#type-scale) and complies with the implementation of the [Ignite UI for Angular Typography](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes/typography).
+There are 13 text (character) styles in the **Indigo.Design System** that constitute its typography and let you set up your theme's typeface. Although we are using [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) as a default, we really want to give every designer the flexibility to craft his applications with style. Indigo.Design follows the way typography is defined in the [Material Type System](https://material.io/design/typography/the-type-system.html#type-scale) and complies with the implementation of the [Ignite UI for Angular Typography](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes/typography).
 
 <img class="responsive-img" src="../images/typography_default.png" srcset="../images/typography_default@2x.png 2x" />
+<div class="divider--half"></div>
+<div class="divider--half"></div>
 
-In Sketch, these can be found on a separate page named `🎨 Typography` and are available as `Text Styles` that can be applied to any text element. In Adobe XD they are placed on an Artboard with the same name in the left column of the library file and exist as `Character Styles` that are used across components and patterns.
+- In **Figma**, all text styles can be found on a separate page named `↳ Typography` which is part of the **Indigo.Design Sytem** `🧱 Foundation`. The text styles are available as `Text Styles` that can be applied to any text element.
+- In **Sketch**, these can be found on a separate page named `🎨 Typography` and are available as `Text Styles` that can be applied to any text element.
+- In **Adobe XD** they are placed on an Artboard with the same name in the left column of the library file and exist as `Character Styles` that are used across components and patterns.
 
 ## Typography Styles
 
-To use the typography system in your project, all you need to do is apply one of the text (character) styles defined in the library to a native text element. Sketch offers a vast selection of type presets with different sizes, colors, and alignments, while Adobe XD defines only the size and lets you adjust the alignment and apply a color style.
+To use the typography system in your project, all you need to do is apply one of the text (character) styles defined in the library to a native text element. Sketch offers a vast selection of type presets with different sizes, colors, and alignments. Figma defines the Size, Weight, Line height, and Ratio (Letter spacing) and lets you adjust the alignment and apply a color style. While in Adobe XD, the text styles come only with predefined size and let you adjust the alignment and apply a color style.
 
 - 6 Headlines from `H1` to `H6` for titles.
 - 2 `Subtitle` sizes.
@@ -35,19 +39,19 @@ These styles can be modified further via the Sketch plugin to change the look of
 Use these when creating intricate layouts for articles, blog posts etc. The Text Styles in the **Indigo.Design System** are meant to help you define a consistent theme and style for all the texts in your designs.
 
 > [!Warning]
-> In Sketch, there is also a collection of `Internal` text styles used within the Components for validation and special cases. These styles are not supposed to be inserted on your artboards directly but exist to assure typographic consistency for the Components within which they are used.
+> In Figma and Sketch, there is also a collection of `Internal` text styles used within the Components for validation and special cases. These styles are not supposed to be inserted on your artboards directly but exist to assure typographic consistency for the Components within which they are used.
 
 ## Component Specific Typography
 
 Components, such as [Avatar](../components/avatar.md), [Button](../components/button.md), [Grid](../components/grid.md), [Slider](../components/slider.md) and [Tooltip](../components/tooltip.md) use component-specific Typography to accommodate the specifics of the styling used by the respective component e.g. the Avatar with initials and Button use an all caps style. Below you can find the text styles defined for the Avatar in Sketch to allow more versatile usage of font colors.
 
-<img class="responsive-img" src="../images/typography_colors.png"/>
+<img class="responsive-img" src="../images/typography_colors.png" srcset="../images/typography_colors@2x.png 2x"/>
 
 ## Typography Color Variants in Sketch
 
 In Sketch, the text styles include the text color, thus each one comes in multiple preset colors, such as `active` corresponding to `grays.900`, `inactive` corresponding to `grays.700`, `disabled` corresponding to `grays.500`, `white` and `secondary`. There are also scales with special colors for strings that need to be in `success`, `warn`, and `error` colors, as well as some additional nuances used by the Indigo.Design Components.
 
-<img class="responsive-img" src="../images/typography_base_colors.png"/>
+<img class="responsive-img" src="../images/typography_base_colors.png" srcset="../images/typography_base_colors@2x.png 2x"/>
 
 ## Changing the Typeface in Sketch
 
@@ -107,6 +111,5 @@ Related topics:
 - [Grid](../components/grid.md)
 - [Slider](../components/slider.md)
 - [Tooltip](../components/tooltip.md)
-  <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
