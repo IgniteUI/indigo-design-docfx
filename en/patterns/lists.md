@@ -19,7 +19,7 @@ Use the Empty State List Pattern to illustrate search with no available results.
 <img class="responsive-img" src="../images/list_search_cannotfind.png" srcset="../images/list_search_cannotfind@2x.png 2x" />
 
 > [!WARNING]
-> In **Figma**, after inserting any of the Lists Patterns, in case you need more items than provided, you need to detach it from the `Detach Component` option, after right-clicking on the component. In some cases you will need to detach again the nested lists to reuse the applied Auto Layout. In others, you will need to adjust the additional item's position manually. We highly recommend not detaching any other component nested in the List because this might cause problems when generating the components in the App Builder.
+> In **Figma**, after inserting any of the Lists Patterns, in case you need more items than provided, you need to detach it from the `Detach Component` option, after right-clicking on the component. In some cases you will need to detach again the nested lists to reuse the applied auto layout. In others, you will need to adjust the additional item's position manually. We highly recommend not detaching any other component nested in the List.
 >
 > In **Sketch**, after inserting any of the Lists available as a Pattern, you can trigger `Detach from Symbol` only if you need to add more items than provided. The individual List Items and Components such as Inputs, Avatars, and Navigation elements must stay intact and not be detached!
 >
