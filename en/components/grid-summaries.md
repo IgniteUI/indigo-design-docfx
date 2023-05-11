@@ -14,7 +14,7 @@ Use the Grid Summaries Component to show aggregated values calculated over all t
 
 ## State
 
-The Grid Summary Cell supports the following interactive states: **available** which shows a summary Label and Number and unavailable which is used to fill the gaps when one column has fewer Summaries than another. In Sketch this is achieved with `Symbol Overrides`, while in Figma and Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
+The Grid Summary Cell supports the following interactive states: **available** which shows a summary Label and Number and **unavailable** which is used to fill the gaps when one column has fewer Summaries than another. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In Figma to switch the state you need to use the dedicated property, located inside the properties panel. 
 
 <img class="responsive-img" src="../images/grid_cell_summary_active.png" srcset="../images/grid_cell_summary_active@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_summary_unavailable.png" srcset="../images/grid_cell_summary_unavailable@2x.png 2x" />
