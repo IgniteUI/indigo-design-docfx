@@ -79,7 +79,7 @@ Header, Body, and Summary Cells support three display density variants for the a
 
 ## Items and Features (Header Cell)
 
-The Grid Header Cell supports various layout combinations through the `Items` override/instance and different feature configurations via the `Feature Left` and `Feature Right` overrides/instances. Moreover there are a number of additional overrides/instances that don't visually alter the cells, but enable different column features on the Grid during the code-generation process, such as [Editing](grid-editing.md), [Moving](grid-column-moving.md), [Resizing](grid-column-resizing.md), [Hiding](grid-column-hiding.md), and [Pinning](grid-column-pinning.md).
+The Grid Header Cell supports various layout combinations through the `Items` override/instance and different feature configurations via the `Feature Left` and `Feature Right` overrides/instances. Moreover there are a number of additional overrides/instances that don't visually alter the cells, but enable different column features on the Grid, such as [Editing](grid-editing.md), [Moving](grid-column-moving.md), [Resizing](grid-column-resizing.md), [Hiding](grid-column-hiding.md), and [Pinning](grid-column-pinning.md).
 
 <img class="responsive-img" src="../images/grid_cell_header_no-icon.png" srcset="../images/grid_cell_header_no-icon@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_icon.png" srcset="../images/grid_cell_header_icon@2x.png 2x" />
