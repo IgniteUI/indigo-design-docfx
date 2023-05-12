@@ -19,7 +19,7 @@ In the Sketch libraries, these graphics are on a separate page named `🎨 Illus
 
 ## Changing Colors
 
-Each illustration provides means for customization by letting you apply different colors to certain elements. It is also possible to hide an element by setting its color to transparent. In Sketch certain elements are purposefully not customizable, such as the color of a sheet of paper, however, one can still change it globally by opening the library and choosing a different one. In Figma there is a full flexibility in terms of changing colors of any vector shape. You can switch the colors from the listed color styles, located inside the properties panel. 
+Each illustration provides means for customization by letting you apply different colors to certain elements. It is also possible to hide an element by setting its color to transparent. In Sketch, certain elements are purposefully not customizable, such as the color of a sheet of paper, however, one can still change it globally by opening the library and choosing a different one. In Figma there is a full flexibility in terms of changing colors of any vector shape. You can switch the colors from the listed color styles, located inside the properties panel. 
 
 <img class="responsive-img" src="../images/illustrations_colored.png" srcset="../images/illustrations_colored@2x.png 2x" />
 
