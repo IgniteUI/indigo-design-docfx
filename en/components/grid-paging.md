@@ -24,6 +24,7 @@ Related topics:
 
 - [Button](button.md)
 - [Grid](grid.md)
-  <div class="divider--half"></div>
+- [Select](select.md)
+<div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
