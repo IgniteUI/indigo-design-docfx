@@ -65,7 +65,7 @@ If your styles are published to a team library, you need to edit the style in th
 <img class="responsive-img" src="../images/typography_text_styles.png" srcset="../images/typography_text_styles@2x.png 2x"/>
 <div class="divider--half"></div>
 
-Click on the Edit style icon will open popover. In the Properties section is a dropdown, allowing you to choose another font family. Note that you have to perform the same steps for every style individually to amend this change for all of your typography.
+Clicking on the Edit style icon will open a popover. In the properties section you'll see a dropdown, which allows you to choose another font family. Note that you have to perform the same steps for every style individually to amend this change for all of your typography.
 
 <img class="responsive-img" src="../images/typography_font_change.png" srcset="../images/typography_font_change@2x.png 2x"/>
 <div class="divider--half"></div>
