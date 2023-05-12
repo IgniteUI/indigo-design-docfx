@@ -17,7 +17,13 @@ Use the Grid Row Selection to select complete rows at once via a special selecti
 The Grid Row Selection can be achieved through the creation of an additional column to the left of the first one and configuring the `Type` of its Header and Body cells to `Row Selection`. For selected rows, the state of the row checkbox has to be set to `On` and the state of the header checkbox has to be set to `Indeterminate`. If all rows are selected, the state of row checkbox and the header have to be set to `On`.
 
 <img class="responsive-img" src="../images/grid_row_selection.png" srcset="../images/grid_row_selection@2x.png 2x" />
+  <div class="divider--half"></div>
+    <div class="divider--half"></div>
+      <div class="divider--half"></div>
+        <div class="divider--half"></div>
 <img class="responsive-img" src="../images/grid_row_selection_all.png" srcset="../images/grid_row_selection_all@2x.png 2x" />
+  <div class="divider--half"></div>
+    <div class="divider--half"></div>
 
 ## Row Selection Cells
 
