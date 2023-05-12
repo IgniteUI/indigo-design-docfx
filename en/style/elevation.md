@@ -19,7 +19,7 @@ In Figma, the Elevations are placed on a separate page called `↳ Elevation`. M
 > [!Note]
 > Changing the Elevation in a Component by changing its style is possible in Sketch and Figma and will produce the expected outcome, but the same will not be achievable with Ignite UI for Angular yet.
 
-## Use of Standalone Elevations in Sketch
+## Use of Standalone Elevations in Figma 
 
 To use an Elevation on its own e.g. to lift one part of the content and draw more focus to it than the rest, simply apply it either to a separate background layer as an effect style or if you're using frames inside your project, you can directly apply it to the frame, but make sure you also apply a fill color to it, in order to make the elevation visible.
 
