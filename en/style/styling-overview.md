@@ -25,7 +25,7 @@ The `Indigo.Design for Material` library in Figma, has the following structure o
 - ↳ Elevation
 - ↳ Illustrations
 
-The listed pages are located under the `🧱 Foundation` page. Тhe Colors and Elevations exist as `Color Styles` and `Effect Styles`, while Typography is defined as `Text Styles`, which allows you to quickly change the theme for any given design we have created with the **Indigo.Design System**.
+The listed pages are located under the `🧱 Foundation` page. Тhe Colors and Elevations exist as `Color styles` and `Effect styles`, while Typography is defined as `Text styles`, which allows you to quickly change the theme for any given design we have created with the **Indigo.Design System**.
 
 ## Styling in Sketch
 
