@@ -34,7 +34,7 @@ These styles also determine the type of text element and typography class that w
   - `igx-typography__caption` for the caption typography style.
   - `igx-typography__overline` for the overline typography style.
 
-These styles can be modified further via the Sketch plugin to change the look of those elements via theming on the application level.
+These styles can be modified further via the **Indigo.Design** plugin to change the look of those elements via theming on the application level.
 
 Use these when creating intricate layouts for articles, blog posts etc. The Text Styles in the **Indigo.Design System** are meant to help you define a consistent theme and style for all the texts in your designs.
 
@@ -47,29 +47,51 @@ Components, such as [Avatar](../components/avatar.md), [Button](../components/bu
 
 <img class="responsive-img" src="../images/typography_colors.png" srcset="../images/typography_colors@2x.png 2x"/>
 
-## Typography Color Variants in Sketch
+## Typography Color Variants
 
-In Sketch, the text styles include the text color, thus each one comes in multiple preset colors, such as `active` corresponding to `grays.900`, `inactive` corresponding to `grays.700`, `disabled` corresponding to `grays.500`, `white` and `secondary`. There are also scales with special colors for strings that need to be in `success`, `warn`, and `error` colors, as well as some additional nuances used by the Indigo.Design Components.
+- In **Sketch**, the text styles include the text color, thus each one comes in multiple preset colors, such as `active` corresponding to `grays.900`, `inactive` corresponding to `grays.700`, `disabled` corresponding to `grays.500`, `white` and `secondary`. There are also scales with special colors for strings that need to be in `success`, `warn`, and `error` colors, as well as some additional nuances used by the Indigo.Design Components.
 
 <img class="responsive-img" src="../images/typography_base_colors.png" srcset="../images/typography_base_colors@2x.png 2x"/>
+<div class="divider--half"></div>
 
-## Changing the Typeface in Sketch
+- In **Figma** and **Adobe XD** the text styles do not include the text color, and you can adjust it based on the design needs. However, the Text styles applied in all the Indigo.Design system library components are aligned to these color variants mentioned above.
+
+## Changing the Typeface
+
+### Figma
+
+If your styles are published to a team library, you need to edit the style in the library file. You'll need edit access to the library file to make any changes. To change the typeface from Titillium Web to another one, open the **Indigo.Design System** library file and select the `↳ Typography` page. Then you will be able to see all the Text styles in the right sidebar of Figma.
+
+<img class="responsive-img" src="../images/typography_text_styles.png" srcset="../images/typography_text_styles@2x.png 2x"/>
+<div class="divider--half"></div>
+
+Click on the Edit style icon will open popover. In the Properties section is a dropdown, allowing you to choose another font family. Note that you have to perform the same steps for every style individually to amend this change for all of your typography.
+
+<img class="responsive-img" src="../images/typography_font_change.png" srcset="../images/typography_font_change@2x.png 2x"/>
+<div class="divider--half"></div>
+
+After that, you'll need to publish these changes as an update to your library. To see these changes in subscribed files, you must review and accept the changes.
+
+### Sketch
 
 To change the typeface from Titillium Web to another one in Sketch, open the Indigo.Design library file and select `View` -> `Components`. Then in the Sketch menu, you will notice a group of four buttons, where the second one is a character icon and stands for `Show Text Styles`.
 
 <img class="responsive-img" src="../images/text_layers.png" srcset="../images/text_layers@2x.png 2x"/>
+<div class="divider--half"></div>
 
 After selecting it you will be able to browse all text styles that the **Indigo.Design System** defines. In the panel on the left make sure you have `All Text Styles` chosen and select all styles appearing in the middle area of Sketch by clicking on one of them and pressing `command` + `A`.
 
 <img class="responsive-img" src="../images/typography_left.png" srcset="../images/typography_left@2x.png 2x"/>
+<div class="divider--half"></div>
 
 Now, in the panel on the right there is a dropdown allowing you to choose another typeface for all the `Text Styles`. With that you are all set, the changes will not only update all `Text Styles`, but also propagate to all Components and Patterns automatically.
 
 <img class="responsive-img" src="../images/typography_right.png" srcset="../images/typography_right@2x.png 2x"/>
+<div class="divider--half"></div>
 
 The `Text Styles` in Sketch use color variables to define the color property of the text. Thus, if you were to change the `primary` color as per the steps outlined in the [colors topic](colors.md), all your primary `Text Styles` will be automatically updated. 
 
-## Changing the Typeface in Adobe XD
+### Adobe XD
 
 To change the typeface from Titillium Web to another one in Adobe XD open the Indigo.Design library file and select the `Libraries` panel. Then scroll to `Character Styles` right-click on one of them, and from the contextual menu that appears, choose `Edit`. In the popover, there is a dropdown at the top, allowing you to choose another font family. Note that you have to perform the same steps for every style individually to amend this change for all of your typography.
 
@@ -79,27 +101,48 @@ To change the typeface from Titillium Web to another one in Adobe XD open the In
 
 The typographic variety of styles should be more than sufficient to let you design various user interfaces. However, you may occasionally need to create an extra style for a special use case. If you want to define it globally for all your projects, do it in the Indigo.Design library. If it is something meaningful only within the scope of your current project, do it in the project file instead.
 
-### In Sketch
-Start by inserting a new `Text` layer and assign to it the closest `Text Style` from the existing ones fed from the library via the `Appearance` panel.
+### Figma
+
+Create a new type layer with the Text tool (T) and make all the adjustments you need. Then click on the Style icon in the Text properties. Text properties can be found in the right sidebar - in the Type settings panel.
 
 <img class="responsive-img" src="../images/typography_custom1.png" srcset="../images/typography_custom1@2x.png 2x"/>
+<div class="divider--half"></div>
+
+When all the adjustments to the type layer are done, click on the Style icon and then select the Create style icon (+). Click on the Create style icon to open popover where you can give a new Text style name, description, and change the type layer properties if needed.
+
+<img class="responsive-img" src="../images/typography_custom2.png" srcset="../images/typography_custom2@2x.png 2x"/>
+<img class="responsive-img" src="../images/typography_custom3.png" srcset="../images/typography_custom3@2x.png 2x"/>
+<div class="divider--half"></div>
+
+Then, click the Create style button. That will list your new Text style in the Text styles in the right sidebar. Last, you can adjust the Text style position and align it to a specific section if needed or create a new one.
+
+<img class="responsive-img" src="../images/typography_custom4.png" srcset="../images/typography_custom4@2x.png 2x"/>
+<div class="divider--half"></div>
+
+### Sketch
+Start by inserting a new `Text` layer and assign to it the closest `Text Style` from the existing ones fed from the library via the `Appearance` panel.
+
+<img class="responsive-img" src="../images/typography_custom5.png" srcset="../images/typography_custom5@2x.png 2x"/>
+<div class="divider--half"></div>
 
 Next, make the adjustments like changing the text color to a different color variables, for example.
 
-<img class="responsive-img" src="../images/typography_custom2.png" srcset="../images/typography_custom2@2x.png 2x"/>
+<img class="responsive-img" src="../images/typography_custom6.png" srcset="../images/typography_custom6@2x.png 2x"/>
+<div class="divider--half"></div>
 
 Last, click the Create button and give the new style an appropriate name and you are all set.
 
-<img class="responsive-img" src="../images/typography_custom3.png" srcset="../images/typography_custom3@2x.png 2x"/>
+<img class="responsive-img" src="../images/typography_custom7.png" srcset="../images/typography_custom7@2x.png 2x"/>
 
-### In Adobe XD
+### Adobe XD
 Start by inserting a new `Text` layer and adjust its properties on the right panel under `Text`. For example, choose a different font, size, alignment, and set an all lower case style.
 
-<img class="responsive-img" src="../images/typography_custom4.png" srcset="../images/typography_custom4@2x.png 2x"/>
+<img class="responsive-img" src="../images/typography_custom8.png" srcset="../images/typography_custom8@2x.png 2x"/>
+<div class="divider--half"></div>
 
 Then, in the `Libraries` panel, click on the `+` icon to the right of `Character Styles` to create the style and give it an appropriate name.
 
-<img class="responsive-img" src="../images/typography_custom5.png" srcset="../images/typography_custom5@2x.png 2x"/>
+<img class="responsive-img" src="../images/typography_custom9.png" srcset="../images/typography_custom9@2x.png 2x"/>
 
 ## Additional Resources
 
