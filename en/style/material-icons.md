@@ -11,8 +11,8 @@ The material icons that come with the **Indigo.Design System** contain 160+ icon
 <img class="responsive-img" src="../images/icons_demo.png" srcset="../images/icons_demo@2x.png 2x" />
 <div class="divider--half"></div>
 
-- In **Figma**, you can access all the icons on a dedicated page labeled `Icons`. The icons' appearance can be customized using predefined `Color Styles`, enabling you to adjust their colors to suit your design needs.
-- In **Sketch**, these graphics are on a separate page named `🎨 Material Icons`, and their colors are defined via the `Layer Styles`, letting you customize the appearance of an icon in the designs that you are crafting.
+- In **Figma**, you can access all the icons on a dedicated page labeled `Icons`. The icons' appearance can be customized using predefined `Color styles`, enabling you to adjust their colors to suit your design needs.
+- In **Sketch**, these graphics are on a separate page named `🎨 Material Icons`, and their colors are defined via the `Layer styles`, letting you customize the appearance of an icon in the designs that you are crafting.
 - In **Adobe XD** they are placed on an Artboard with the same name at the bottom of the left column of the library file, and customization can be achieved with the `Colors` from the Libraries panel on the left.
 
 > [!Note]
@@ -83,9 +83,11 @@ With the preset collection of icons, you can design beautiful apps and pick the 
     <img class="responsive-img" src="../images/icons_add4.png" srcset="../images/icons_add4@2x.png 2x" />
     <div class="divider--half"></div>
 
-5.  After updating the Icon component name accordingly, you need to swap it with the component in the duplicated one, and we are all set to use this icon just like any other one.
+5.  After updating the Icon component name accordingly, you need to swap it with the component in the duplicated one.
 
     <img class="responsive-img" src="../images/icons_add5.png" srcset="../images/icons_add5@2x.png 2x" />
+
+6. Last, you'll need to publish the change as an update to your library. To see these changes in subscribed files, you must review and accept the changes.
 
 ### In Sketch
 
