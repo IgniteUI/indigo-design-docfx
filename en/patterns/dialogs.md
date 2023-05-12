@@ -1,7 +1,7 @@
 ---
 title: Dialogs - Design System Pattern
 _description: The Dialog Patterns are used to direct the user's attention toward important information and/or action they need to take.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Dialogs
@@ -10,7 +10,7 @@ Use the Dialog Patterns to alert the users or give them relevant information for
 
 <img class="responsive-img" src="../images/dialogs_demo.png" srcset="../images/dialogs_demo@2x.png 2x" />
 
-The Dialog Patterns come with the styling flexibility provided by the Buttons, Inputs, and List elements that constitute their layout.
+The Dialog Patterns come with the styling flexibility provided by the Buttons, Inputs, Switches, and List elements that constitute their layout.
 
 ## Additional Resources
 
@@ -18,6 +18,7 @@ Related topics:
 
 - [Button](../components/button.md)
 - [Input](../components/input.md)
+- [Switch](../components/switch.md)
 - [List](../components/list.md)
   <div class="divider--half"></div>
 
