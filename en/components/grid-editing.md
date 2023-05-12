@@ -16,7 +16,7 @@ The Grid Cell Editing happens cell by cell and is configured via the Body Cell t
 
 ## Row Editing
 
-The Grid Row Editing happens one row at a time and is configured via the Body Cells that belong to the edited row by setting their `Grid Feature` to `Cell Feature/Row Editing`. In Sketch, we introduce a second override `Editing State` allowing you to specify the cell in focus by setting it to `Focus Cell`, bear in mind that you should set all other cells on this row to `Rest Cell`. In Adobe XD both the above are available as `Component States` on the `Grid Feature` layer.
+The Grid Row Editing happens one row at a time and is configured via the Body Cells that belong to the edited row by setting their `Grid Feature` to `Cell Feature/Row Editing`. In Sketch, we introduce a second override `Editing State` allowing you to specify the cell in focus by setting it to `Focus Cell`, bear in mind that you should set all other cells on this row to `Rest Cell`. In Adobe XD both the above are available as `Component States` on the `Grid Feature` layer. In Figma to indicate that a row is in editing state, you have to change the `Variant` property of all cells in that row. You can do this by selecting the `Grid Feature` layer in the layers panel under each body cell and changing the variant to `Row Editing Rest`.Change the variant to `Row Editing Focused` for the cell you want to present as focused.
 
 <img class="responsive-img" src="../images/grid_row_edit.png" srcset="../images/grid_row_edit@2x.png 2x" />
 
