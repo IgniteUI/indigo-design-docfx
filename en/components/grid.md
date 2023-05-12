@@ -18,7 +18,7 @@ The Grid is essentially a repeater of columns and rows, showing data in a tabula
 
 | Layer                                    | Use                                                                                                                                                  |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 componentVersion | A special locked layer starting with a prohibited icon. This layer is required by the code generation and holds information about the component's version. You should avoid deleting or modifying it. |
+| 🚫 componentVersion &nbsp; | A special locked layer starting with a prohibited icon. This layer is required by the code generation and holds information about the component's version. You should avoid deleting or modifying it. |
 | 🚫 metadata | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
 | Column (number)                                 | Contains the Header and Body cells inside the specific column                                                                                                                 |
 | Header                                   | Contains a specific header cell                                                                                                                 |
