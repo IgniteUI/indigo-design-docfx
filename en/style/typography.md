@@ -103,12 +103,12 @@ The typographic variety of styles should be more than sufficient to let you desi
 
 ### Figma
 
-Create a new type layer with the Text tool (T) and make all the adjustments you need. Then click on the Style icon in the Text properties. Text properties can be found in the right sidebar - in the Type settings panel.
+Create a new type layer with the Text tool (T) and make all the adjustments you need, then click on the Style icon in the Text properties. Text properties can be found in the right sidebar - in the Type settings panel.
 
 <img class="responsive-img" src="../images/typography_custom1.png" srcset="../images/typography_custom1@2x.png 2x"/>
 <div class="divider--half"></div>
 
-When all the adjustments to the type layer are done, click on the Style icon and then select the Create style icon (+). Click on the Create style icon to open popover where you can give a new Text style name, description, and change the type layer properties if needed.
+When you're done with all the adjustments to the layer, click on the Style icon and then select the Create style icon (+). This will open a popover, where you can give the new text style a name and description. You can also apply additional changes to the style, if needed.
 
 <img class="responsive-img" src="../images/typography_custom2.png" srcset="../images/typography_custom2@2x.png 2x"/>
 <img class="responsive-img" src="../images/typography_custom3.png" srcset="../images/typography_custom3@2x.png 2x"/>
