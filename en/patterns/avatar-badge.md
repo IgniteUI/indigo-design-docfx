@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, E
 
 # Avatar + Badge
 
-The Avatar + Badge Pattern is a commonly used in many digital platforms to represent users and their accomplishments or roles. An avatar is a small graphical representation of a user, often a profile picture or icon, while a badge is a small visual element that is used with a short subtle message or indication to represent an achievement, alert or a status.
+The Avatar + Badge Pattern is commonly used in many digital platforms to represent users and their accomplishments or roles. An Avatar is a small graphical representation of a user, often a profile picture or icon, while a Badge is a small visual element that is used with a short subtle message or indication to represent an achievement, alert or a status.
 
 <img class="responsive-img" src="../images/avatar_badge_demo.png" srcset="../images/avatar_badge_demo@2x.png 2x" />
 
@@ -14,7 +14,7 @@ The Avatar + Badge Pattern comes with the styling flexibility provided by the Av
 
 ## Size
 
-The Avatar + Badge Pattern supports the same sizes that the Avatar does:
+The Avatar + Badge Pattern supports the same sizes the Avatar does:
 
 - Large - Suitable for profile pages
 - Medium - Appropriate for custom menus and visualizations
@@ -37,7 +37,7 @@ The Badge comes positioned in one of the four corners of the Avatar as shown bel
 
 ## Details
 
-The Avatar + Badge Pattern offers varying levels of details based on the size of the avatar being used.
+The Avatar + Badge Pattern offers varying levels of details based on the size of the Avatar being used.
 
 <img class="responsive-img" src="../images/avatar_badge_details_large.png" srcset="../images/avatar_badge_details_large@2x.png 2x" />
 <img class="responsive-img" src="../images/avatar_badge_details_medium.png" srcset="../images/avatar_badge_details_medium@2x.png 2x" />
@@ -45,7 +45,7 @@ The Avatar + Badge Pattern offers varying levels of details based on the size of
 
 ## Facepile
 
-Facepile is a widely used design element in digital platforms that visually represents a group of users or people. It typically displays a set of Avatar component in a compact and aesthetically pleasing format. Notably, Facepile supports the same sizes that the Avatar does: Large, Medium and Small.
+Facepile is a widely used design element in digital platforms that visually represents a group of users or people. It typically displays a set of Avatar components in a compact and aesthetically pleasing format. Notably, Facepile supports the same sizes the Avatar does: Large, Medium and Small.
 
 <img class="responsive-img" src="../images/avatar_facepile_large.png" srcset="../images/avatar_facepile_large@2x.png 2x" />
 <img class="responsive-img" src="../images/avatar_facepile_medium.png" srcset="../images/avatar_facepile_medium@2x.png 2x" />
