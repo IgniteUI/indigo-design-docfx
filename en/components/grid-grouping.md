@@ -1,7 +1,7 @@
 ---
 title: Grid Group By - Grid Feature
 _description: The Grid Group By allows a hierarchical organization of the Grid records according to common values for a selected column.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
 ---
 
 # Grid Group By
@@ -14,11 +14,11 @@ Use Grid Group By to organize data records in a hierarchical collection of group
 
 ## Group Area
 
-The Grid has a `Group Area` symbol under `Features` in Sketch that specifies the columns that are used to establish the hierarchical grouping of records and the order in which these groups will be nested. Once you insert it in Sketch, you may perform `Detach from Symbol`, and inside you will find a [Chips Area](chips.md) that can be configured in a way that defines how Group By is applied on the Grid. In Adobe XD, there is a matching component, that upon insertion can be edited directly without the need to be broken down.
+The Grid has a `Group Area` symbol under `Grid Features` in Sketch that specifies the columns that are used to establish the hierarchical grouping of records and the order in which these groups will be nested. Once you insert it in Sketch, you may perform `Detach from Symbol`, and inside you will find a [Chips Area](chips.md) that can be configured in a way that defines how Group By is applied on the Grid. In Figma the `Group Area` component can be found under `Grid Features`and inserted from the assets panel inside the Grid Component, once the Grid Component is detached. You can directly modify the [Chips Area](chips.md) inside the `Group Area`, without detaching. In Adobe XD, there is a matching component, that upon insertion can be edited directly without the need to be broken down.
 
 ## GroupBy Row
 
-The Grid has a `GroupBy Row` symbol under `Features` that represents a special row in the Grid that is like a heading preceding the grouped records with some summary information about their amount within the group. Adding this symbol has only a visual effect on your design to make it more realistic. To switch the GroupBy feature on, insert and configure a `Group Area`.
+The Grid has a `GroupBy Row` symbol/component under `Grid Features` that represents a special row in the Grid that is like a heading preceding the grouped records with some summary information about their amount within the group. Adding this symbol/component has only a visual effect on your design to make it more realistic. To switch the GroupBy feature on in Sketch, insert and configure a `Group Area`. In Adobe XD you can simply insert the `GroupBy Row` component. In Figma, you need to detach the Grid first and then insert the `GroupBy Row` component.
 
 ## Additional Resources
 
