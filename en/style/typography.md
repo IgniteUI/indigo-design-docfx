@@ -60,7 +60,7 @@ Components, such as [Avatar](../components/avatar.md), [Button](../components/bu
 
 ### Figma
 
-If your styles are published to a team library, you need to edit the style in the library file. You'll need edit access to the library file to make any changes. To change the typeface from Titillium Web to another one, open the **Indigo.Design System** library file and select the `↳ Typography` page. Then you will be able to see all the Text styles in the right sidebar of Figma.
+If your styles are published to a team library, you need to edit the style in the library file. You'll need editing permissions for the library file to make any changes. To change the typeface from Titillium Web to another one, open the **Indigo.Design System** library file and select the `↳ Typography` page. Then you will be able to see all the Text styles in the right sidebar of Figma.
 
 <img class="responsive-img" src="../images/typography_text_styles.png" srcset="../images/typography_text_styles@2x.png 2x"/>
 <div class="divider--half"></div>
