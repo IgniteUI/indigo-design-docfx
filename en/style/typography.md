@@ -18,7 +18,7 @@ There are 13 text (character) styles in the **Indigo.Design System** that consti
 
 ## Typography Styles
 
-To use the typography system in your project, all you need to do is apply one of the text (character) styles defined in the library to a native text element. Sketch offers a vast selection of type presets with different sizes, colors, and alignments. Figma defines the Size, Weight, Line height, and Ratio (Letter spacing) and lets you adjust the alignment and apply a color style. While in Adobe XD, the text styles come only with predefined size and let you adjust the alignment and apply a color style.
+To use the typography system in your project, all you need to do is apply one of the text (character) styles defined in the library to a native text element. Sketch offers a vast selection of type presets with different sizes, colors, and alignments. Figma defines the Size, Weight, Line height, and Ratio (Letter spacing) and lets you adjust the alignment and apply a color style, while in Adobe XD, the text styles come only with predefined size and let you adjust the alignment and apply a color style.
 
 - 6 Headlines from `H1` to `H6` for titles.
 - 2 `Subtitle` sizes.
