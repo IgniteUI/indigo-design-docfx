@@ -1,7 +1,7 @@
 ﻿---
 title: Grid 列ピン固定 - グリッド機能
 _description: Grid 列ピン固定は、スクロール可能なグリッドで選択された列をピン固定するための構造です。 
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -15,7 +15,7 @@ Grid 列ピン固定は、スクロール可能なグリッドで最初の数列
 
 ## ヘッダー セル機能
 
-列をピン固定可能として示すには、Sketch でその列の Grid Header Cell の `Column Pinning` オーバーライドを使用し、デフォルト値を **Not Pinned** (ピン固定されていない) から Pinned (ピン固定されている) に変更します。Adobe XD では、`Column Pinning` レイヤーは `Component States` パラダイムを使用して、状態を簡単に切り替えることができます。コード生成には、これにより列をピン固定可能としてマークします。
+列をピン固定可能として示すには、Sketch でその列の Grid Header Cell の `Column Pinning` オーバーライドを使用し、デフォルト値を **Not Pinned** (ピン固定されていない) から **Pinned** (ピン固定されている) に変更します。To achieve the same in Figma, you need to go to the Header cell, select the `Column Pinning` layer from the layers panel and then set the `Feature` property to **Pinned** in the properties panel. Adobe XD では、`Column Pinning` レイヤーは `Component States` パラダイムを使用して、状態を簡単に切り替えることができます。コード生成には、これにより列をピン固定可能としてマークします。
 
 組み込みの列の固定は、Grid のツールバーから使用できます。このツールバーには、デフォルトで、グリッド全体の列のピン固定状態を構成できるボタン (コンボ ドロップダウンと組み合わせて) が含まれています。
 
@@ -23,7 +23,7 @@ Grid 列ピン固定は、スクロール可能なグリッドで最初の数列
 
 ## カスタム列ピン固定
 
-`Feature Left` または `Feature Right` オーバーライドを使用して `Icon Template` に設定することにより、Grid Header Cell にカスタムピン固定操作を追加することもできます。このようにして、列がピン固定されていることを示すアイコンが表示され、Icon のオーバーライドからアイコンのピン固定を解除できます。もちろん、左から右に見るときにピン固定されたものが最初に来るように、列の順序を並べ替えることもできます。
+Grid Header Cell にカスタムピン固定操作を追加することもできます。In Sketch this can be achieved by using either the `Feature Left` or `Feature Right` overrides and setting it to `Icon Template`. このようにして、列がピン固定されていることを示すアイコンが表示され、Icon のオーバーライドからアイコンのピン固定を解除できます。In Figma the method is identical, you need to go to the Header Cell layer, select either the `Feature Left` or `Feature Right` layer and change its `Type` property from `None` to `Icon Template`. もちろん、左から右に見るときにピン固定されたものが最初に来るように、列の順序を並べ替えることもできます。
 
 ## セルの右境界線
 

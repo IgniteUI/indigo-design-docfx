@@ -1,7 +1,7 @@
 ---
 title: Grid 列非表示 - グリッド機能
 _description: Grid 列非表示はグリッドの列を非表示または表示するための構造です。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -15,7 +15,7 @@ Grid 列非表示は、グリッドから特定の列を非表示にするため
 
 ## Toolbar と Header Cell (ツールバーとヘッダー セル)
 
-Grid の列非表示は、グリッド全体の機能を有効にする Column Hiding アクションの Toolbar を追加することで実現できます。ただし、特定の列を非表示としてマークするには、Sketch の各列の Grid Header Cell で `Column Hiding` のオーバーライドを設定し、Hidden に設定する必要があります。Adobe XD では、`Column Hiding` レイヤーは `Component States` パラダイムを使用して、状態を簡単に切り替えることができます。デフォルト値は **Visible** です。
+Grid の列非表示は、グリッド全体の機能を有効にする Column Hiding アクションの Toolbar を追加することで実現できます。ただし、特定の列を非表示としてマークするには、Sketch の各列の Grid Header Cell で `Column Hiding` のオーバーライドを設定し、Hidden に設定する必要があります。In Figma, you need to open the Grid Header Cell of a certain column and set the `Feature` property of the nested `Column Hiding` component to `Hidden`. By default, the state is set to **Visible**. Adobe XD では、`Column Hiding` レイヤーは `Component States` パラダイムを使用して、状態を簡単に切り替えることができます。デフォルト値は **Visible** です。
 
 ## その他のリソース
 

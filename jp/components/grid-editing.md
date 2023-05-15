@@ -1,7 +1,7 @@
 ---
 title: Grid 編集 - グリッド機能
 _description: Grid 編集は、グリッドに表示されるレコードの値を更新できます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -11,19 +11,19 @@ Grid 編集は、ユーザーが特定の値をセルごとまたは一度に 1 
 
 ## セルの編集
 
-Grid セルの編集はセルごとに行われ、Sketch の `Grid Feature` オーバーライドで編集モードに表示する Body Cell で構成されます。Adobe XD では、`Grid Feature` レイヤーは `Component States` パラダイムを使用して同様のメカニズムを提供します。`Grid Feature` を `Cell Feature/Cell Editing` に設定すると、このモードに遵守する編集可能なグリッドが作成されます。
+Grid セルの編集はセルごとに行われ、Sketch の `Grid Feature` オーバーライド、または Figma のプロパティ パネルの `Grid Feature` コンポーネントのプロパティで編集モードに表示する Body Cell で構成されます。Adobe XD では、`Grid Feature` レイヤーは `Component States` パラダイムを使用して同様のメカニズムを提供します。`Grid Feature` を `Cell Feature/Cell Editing` に設定すると、このモードに遵守する編集可能なグリッドが作成されます。
 
 <img class="responsive-img" src="../images/grid_cell_edit.png" srcset="../images/grid_cell_edit@2x.png 2x" />
 
 ## 行の編集
 
-Grid 行編集は一度に 1 行ずつ行われ、`Grid Features` のオーバーライドを `Cell Feature/Row Editing` に設定すると、編集された行に属する Body Cell で構成されます。Sketch では、2 番目のオーバーライド `Editing State` を導入し、`Focus Cell` に設定することで、フォーカスされるセルを指定できます。この行の他のすべてのセルを `Rest Cell` に設定する必要があることに注意してください。Adobe XD では、上記の両方が `Grid Feature` レイヤーの `Component States` として使用できます。
+Grid 行編集は一度に 1 行ずつ行われ、`Grid Features` のオーバーライドを `Cell Feature/Row Editing` に設定すると、編集された行に属する Body Cell で構成されます。Sketch では、2 番目のオーバーライド `Editing State` を導入し、`Focus Cell` に設定することで、フォーカスされるセルを指定できます。この行の他のすべてのセルを `Rest Cell` に設定する必要があることに注意してください。Adobe XD では、上記の両方が `Grid Feature` レイヤーの `Component States` として使用できます。In Figma to indicate that a row is in editing state, you have to change the `Variant` property of all cells in that row. You can do this by selecting the `Grid Feature` layer in the layers panel under each body cell and changing the variant to `Row Editing Rest`.Change the variant to `Row Editing Focused` for the cell you want to present as focused.
 
 <img class="responsive-img" src="../images/grid_row_edit.png" srcset="../images/grid_row_edit@2x.png 2x" />
 
 ## Row Banner の編集
 
-グリッドの `Features` の下には、集計領域を表す `Editing Row Banner` シンボルがあります。この集計領域は行で行われた編集の数と行で行われた編集をキャンセルおよび確認するための一組のアクションを含みます。このシンボルを追加すると、デザインに視覚的な効果があるのみで、よりリアルになります。行編集機能を切り替えたい場合は、行のセルを構成します。
+グリッドの `Features` の下には、集計領域を表す `Editing Row Banner` シンボルがあります。この集計領域は行で行われた編集の数と行で行われた編集をキャンセルおよび確認するための一組のアクションを含みます。このシンボル / コンポーネントを追加すると、デザインに視覚的な効果があるのみで、よりリアルになります。行編集機能を切り替えたい場合は、行のセルを構成します。
 
 ## その他のリソース
 

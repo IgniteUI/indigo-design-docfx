@@ -1,7 +1,7 @@
 ---
 title: Grid 並べ替え - グリッド機能
 _description: Grid 並べ替えを使用すると、列の値に基づいてレコードを並べ替えることができます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -15,7 +15,7 @@ Grid 並べ替えを使用して、特定の列内の値に従って昇順およ
 
 ## Header Cell Feature (ヘッダー セルの機能)
 
-Sketch で列をソート可能として示すには、`Feature Left` または `Feature Right` のオーバーライドを使用して、`Sorting` に設定します。次に、`Sorting State` を Ascending (昇順)、Descending (降順)、または **Unsorted (ソートなし)** に設定して、ソート順を示します。Adobe XD では、`Feature Left` または `Feature Right` グループのいずれかを非表示にしてから、その中に `Sorting` レイヤーだけを残すことで、少し異なる方法を使用する必要があります。必要に応じて `Sorting` レイヤーも表示にできます。次に、使用可能な `Component States` を介して、状態を `Ascending` または `Descending` に切り替えることができます。選択した順序を反映するように列の値を操作することをお勧めします。
+Sketch で列をソート可能として示すには、`Feature Left` または `Feature Right` のオーバーライドを使用して、`Sorting` に設定します。次に、`Sorting State` を Ascending (昇順)、Descending (降順)、または **Unsorted (ソートなし)** に設定して、ソート順を示します。In Figma, to indicate a column as sortable, use either the `Feature Left` or `Feature Right` component instance, located inside the Grid Header Cell layer, and set the `Type` property to Ascending, Descending, or **Unsorted** to indicate the sort order. Adobe XD では、`Feature Left` または `Feature Right` グループのいずれかを非表示にしてから、その中に `Sorting` レイヤーだけを残すことで、少し異なる方法を使用する必要があります。必要に応じて `Sorting` レイヤーも表示にできます。次に、使用可能な `Component States` を介して、状態を `Ascending` または `Descending` に切り替えることができます。選択した順序を反映するように列の値を操作することをお勧めします。
 
 ## その他のリソース
 
