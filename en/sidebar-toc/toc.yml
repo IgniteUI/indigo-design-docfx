@@ -9,13 +9,13 @@
   new: true
 - name: Using the Design System
   header: true
-- name: Creating An Artboard in Sketch
-  href: ../creating-artboard-sketch.md
-- name: Creating An Artboard in AdobeXD
-  href: ../creating-artboard-adobexd.md
-- name: Creating A Frame in Figma
+- name: Creating a Frame in Figma
   href: ../creating-a-frame-in-figma.md
   new: true
+- name: Creating an Artboard in Sketch
+  href: ../creating-artboard-sketch.md
+- name: Creating an Artboard in Adobe XD
+  href: ../creating-artboard-adobexd.md
 - name: Plugins
   href: ../plugins/overview-plugins.md
   new: true
@@ -33,19 +33,14 @@
   items:
     - name: Colors
       href: ../style/colors.md
-      updated: true
     - name: Elevation
       href: ../style/elevation.md
-      updated: true
     - name: Material Icons
       href: ../style/material-icons.md
-      updated: true
     - name: Typography
       href: ../style/typography.md
-      updated: true
     - name: Illustrations
       href: ../style/illustrations.md
-      updated: true
 - name: Components
   href: ../components/components-overview.md
   items:
@@ -58,7 +53,6 @@
       href: ../components/badge.md
     - name: Banner
       href: ../components/banner.md
-      new: true
     - name: Bottom Navigation
       href: ../components/bottom-nav.md
     - name: Button Group
@@ -86,18 +80,8 @@
           href: ../components/step-line-chart.md
         - name: Pie Chart
           href: ../components/pie-chart.md
-          new: true
         - name: Skeleton Charts
           href: ../components/skeleton-charts.md
-          new: true
-    - name: Gauges
-      items:
-        - name: Bullet Graph
-          href: ../components/bullet-graph.md
-        - name: Linear Gauge
-          href: ../components/linear-gauge.md
-        - name: Radial Gauge
-          href: ../components/radial-gauge.md
     - name: Checkbox
       href: ../components/checkbox.md
     - name: Chip and Chips Area
@@ -110,18 +94,23 @@
       href: ../components/dialog.md
     - name: Divider
       href: ../components/divider.md
-      new: true
     - name: Dropdown
       href: ../components/dropdown.md
     - name: Expansion Panel
       href: ../components/expansion-panel.md
-      new: true
+    - name: Gauges
+      items:
+        - name: Bullet Graph
+          href: ../components/bullet-graph.md
+        - name: Linear Gauge
+          href: ../components/linear-gauge.md
+        - name: Radial Gauge
+          href: ../components/radial-gauge.md
     - name: Grid
       href: ../components/grid.md
       items:
         - name: Grid Toolbar
           href: ../components/grid-toolbar.md
-          updated: true
         - name: Grid Export
           href: ../components/grid-export.md
         - name: Grid Group By
@@ -142,7 +131,6 @@
           href: ../components/grid-excel-style-filter.md
         - name: Grid Advanced Filter
           href: ../components/grid-advanced-filter.md
-          new: true
         - name: Grid Row Selection
           href: ../components/grid-row-selection.md
         - name: Grid Editing
@@ -188,14 +176,12 @@
       new: true
     - name: Select
       href: ../components/select.md
-      new: true
     - name: Slider
       href: ../components/slider.md
     - name: Snackbar
       href: ../components/snackbar.md
     - name: Splitter
       href: ../components/splitter.md
-      new: true
     - name: Stepper
       href: ../components/stepper.md
       new: true  
@@ -205,7 +191,6 @@
       href: ../components/tabs.md
     - name: Text Area
       href: ../components/textarea.md
-      new: true
     - name: Time Picker
       href: ../components/time-picker.md
     - name: Toast
@@ -222,6 +207,7 @@
           href: ../components/tree-grid-skeleton.md
 - name: Patterns
   href: ../patterns/patterns-overview.md
+  updated: true
   items:
     - name: Audio / Video
       href: ../patterns/av.md
