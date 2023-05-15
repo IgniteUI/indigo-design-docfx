@@ -44,19 +44,19 @@ Stepper コンポーネントは、多数のネストされた Step および Pr
 <img class="responsive-img" src="../images/step_number.png" srcset="../images/step_number@2x.png 2x" />
 <img class="responsive-img" src="../images/step_icon.png" srcset="../images/step_icon@2x.png 2x" />
 
-また、あらゆるユース ケース シナリオをカバーできるよう、いくつかの Step 状態を提供します。以下が含まれます: Complete (完了)、Incomplete (未完了)、Disabled (無効)、Optional (オプション)、Invalid (無効)、Active (アクティブ)。これらはプロパティ パネルの 「State」 プロパティから切り替えることができます。また、Hover と Focused という 2 つの追加状態も提供します。これらは、ブール プロパティ「Hover」と「Focused」をオン/オフに切り替えることで使用できます。 
+また、あらゆるユース ケース シナリオをカバーできるよう、いくつかの Step 状態を提供します。以下が含まれます: Complete (完了)、Incomplete (未完了)、Disabled (無効)、Optional (オプション)、Invalid (無効)、Active (アクティブ)。これらはプロパティ パネルの 「State」 プロパティから切り替えることができます。また、Hover と Focused という 2 つの追加状態も提供します。これらは、ブール値プロパティ 「Hover」 と 「Focused」 をオン/オフに切り替えることで使用できます。 
 
 <img class="responsive-img" src="../images/step_state.png" srcset="../images/step_state@2x.png 2x" />
 <img class="responsive-img" src="../images/step_state2.png" srcset="../images/step_state2@2x.png 2x" />
 
-また、Active (アクティブ) と Inactive (非アクティブ) の 2 つのタイプの Progress Line も提供しています。これらは、ネストされた Progress Line コンポーネントを選択した後、プロパティ パネルからブール プロパティ「Value」を使用して切り替えできます。
+また、Active (アクティブ) と Inactive (非アクティブ) の 2 つのタイプの Progress Line も提供しています。これらは、ネストされた Progress Line コンポーネントを選択した後、プロパティ パネルからブール値プロパティ 「Value」 を使用して切り替えできます。
 
 <img class="responsive-img" src="../images/stepper_progress-line_active.png" srcset="../images/stepper_progress-line_active@2x.png 2x" />
 <img class="responsive-img" src="../images/stepper_progress-line_inactive.png" srcset="../images/stepper_progress-line_inactive@2x.png 2x" />
 
 ## コンテンツ
 
-上記のように、Step が 「Active」 状態に設定されると、垂直 Stepper ではアクティブな Step のヘッダーの下に、水平 Stepper ではすべての Step の下に 「Content」 というフレームが表示されます。デフォルトでは、Content には単純なテキスト レイヤーが付属しており、アクティブなステップに関する情報を追加できます。カスタマイズしたい場合は、コンポーネントを右クリックして [Detach instance] を選択して、コンポーネントを切り離す必要があります。水平 Stepper の 「Content」 プロパティを使用するか、ネストされた Step コンポーネントに移動して、垂直 Stepper のブール プロパティ 「Body」 をオフにすることで、完全に非表示にすることもできます。
+上記のように、Step が 「Active」 状態に設定されると、垂直 Stepper ではアクティブな Step のヘッダーの下に、水平 Stepper ではすべての Step の下に 「Content」 というフレームが表示されます。デフォルトでは、Content には単純なテキスト レイヤーが付属しており、アクティブなステップに関する情報を追加できます。カスタマイズしたい場合は、コンポーネントを右クリックして [Detach instance] を選択して、コンポーネントを切り離す必要があります。水平 Stepper の 「Content」 プロパティを使用するか、ネストされた Step コンポーネントに移動して、垂直 Stepper のブール値プロパティ 「Body」 をオフにすることで、完全に非表示にすることもできます。
 
 <img class="responsive-img" src="../images/stepper_non-linear.png" srcset="../images/stepper_non-linear@2x.png 2x" />
 

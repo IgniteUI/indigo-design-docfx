@@ -1,7 +1,7 @@
 ---
 title: Input - デザイン システム コンポーネント
 _description: Input コンポーネント シンボルは、文字列、数値、日付などユーザー データのコレクションが使用できます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 向けデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -15,7 +15,7 @@ Input コンポーネントを使用して、文字列、さまざまなコン�
 
 ## タイプ
 
-Sketch と Adobe XD の Input コンポーネントは、simple、ヘルパー テキスト付きの hint、searchbar、の 3 つのオプションからプリセットを選択できます。Figma では、hint (ブール プロパティ) の有無にかかわらず単純な入力と、searchbar のどちらかを選択できます。
+Sketch と Adobe XD の Input コンポーネントは、simple、ヘルパー テキスト付きの hint、searchbar、の 3 つのオプションからプリセットを選択できます。Figma では、hint (ブール値プロパティ) の有無にかかわらず単純な入力と、searchbar のどちらかを選択できます。
 
 <img class="responsive-img" src="../images/input_simple.png" srcset="../images/input_simple@2x.png 2x" />
 `simple`

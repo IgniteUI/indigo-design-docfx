@@ -1,7 +1,7 @@
 ---
 title: List Item - デザイン システム コンポーネント
 _description: List Item コンポーネント シンボルは、情報とそれに可能なアクションを表示するために使用されます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 向けデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -23,7 +23,7 @@ Sketch と Figma では、List Item には次の 3 つのプリセットタイ�
 
 ## 状態
 
-Items は、次のインタラクティブ状態をサポートします: 通常の状態では**非アクティブ**、選択した状態では**アクティブ**です。	Figma では、状態は右側のサイドバーの `State` プロパティの下にあります。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Header List Item は選択できないため、そのような状態はサポートしません。
+Items は、次のインタラクティブ状態をサポートします: 通常の状態では**非アクティブ**、選択した状態では**アクティブ**です。Figma では、状態は右側のサイドバーの `State` プロパティの下にあります。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Header List Item は選択できないため、そのような状態はサポートしません。
 
 <img class="responsive-img" src="../images/list_item_inactive.png" srcset="../images/list_item_inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_active.png" srcset="../images/list_item_active@2x.png 2x" />
@@ -58,7 +58,7 @@ Figma と Sketch には、交換可能な List Item Secondary Action が 4 つ�
 | Badge            | <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />   |                                                                                                                                       |
 | Checkbox         | <img class="responsive-img" src="../images/list_item_secondary2.png" srcset="../images/list_item_secondary2@2x.png 2x" /> | List Item 内の Checkbox にラベルを付けることはできません。そのため、前後のラベルは Sketch で ~No Symbol に設定され、Adobe XD ではラベル レイヤーが存在しません。この設定は変更するべきではありません。 |
 | Text and Icon            | <img class="responsive-img" src="../images/list_item_secondary3.png" srcset="../images/list_item_secondary3@2x.png 2x" /> | テキストとアイコンは独立して使用できます。Figma では、Text Container のオンとオフを切り替えて、一方または両方のアイコンを非表示にすることができます。Sketch では、アイコンを ~No Symbol に設定すると非表示になります。                                                                                                                                     |
-| Toggle/Switch             | <img class="responsive-img" src="../images/list_item_secondary4.png" srcset="../images/list_item_secondary4@2x.png 2x" /> | List Item 内の Switch にはラベルを付けることはできません。そのため前後のラベルは、Figma では非表示になり、Sketch では ~ No Symbol に設定され、Adobe XD ではラベル レイヤーが存在しません。この設定は変更するべきではありません。   |
+| Toggle/Switch             | <img class="responsive-img" src="../images/list_item_secondary4.png" srcset="../images/list_item_secondary4@2x.png 2x" /> | List Item 内の Switch にはラベルを付けることはできません。そのため前後のラベルは、Figma では非表示になり、Sketch では ~ No Symbol に設定され、Adobe XD ではラベル レイヤーが存在しません。この設定は変更するべきではありません。   |                                                                                                                                          |
 
 ## Adobe XD の Thumbnail (サムネイル)
 

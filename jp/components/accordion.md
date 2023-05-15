@@ -1,7 +1,7 @@
 ---
 title: Accordion - デザイン システム コンポーネント
 _description: 	アコーディオンは、ユーザーがコンテンツを非表示または表示できるようにするユーザー インターフェイス コンポーネントです。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 向けデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -22,7 +22,7 @@ Accordion には 5 つのパネルが付属しています。各パネルは上�
 ## Adobe XD で Accordion を使用
 
 > [!NOTE]
-> 対応状況: 現在、Adobe XD では Accordion コンポーネントはサポートされていませんが、複数の`展開パネル`を組み合わせて同様の Accordion コンポーネントの動作を行うこともできます。ただし、これは App Builder では適切に生成されません。
+> 対応状況: 現在、Adobe XD では Accordion コンポーネントはサポートされていませんが、複数の `Expansion Panel` を組み合わせて同様の Accordion コンポーネントの動作を行うこともできます。ただし、これは App Builder では適切に生成されません。
 
 ## Expansion Panel の状態
 
@@ -31,7 +31,7 @@ Accordion には 5 つのパネルが付属しています。各パネルは上�
 <img class="responsive-img" src="../images/accordion_disabled-panel.png" srcset="../images/accordion_disabled-panel@2x.png 2x" />
 <div class="divider--half"></div>
 
-Figma では、`Expanded` プロパティを使用して、要件に応じてパネルの状態を構成できます。さらに、Layers パネルのパネル階層と展開されているパネルに基づいて、ブール プロパティから上下マージンを有効にして、デザインにスペースを追加できます。Sketch には、パネルの展開状態とそのマージンをカバーする定義済みの `Single Branch Expanded` シンボルがあります。
+Figma では、`Expanded` プロパティを使用して、要件に応じてパネルの状態を構成できます。さらに、Layers パネルのパネル階層と展開されているパネルに基づいて、ブール値プロパティから上下マージンを有効にして、デザインにスペースを追加できます。Sketch には、パネルの展開状態とそのマージンをカバーする定義済みの `Single Branch Expanded` シンボルがあります。
 
 <img class="responsive-img" src="../images/accordion_expanded_panel_demo.png" srcset="../images/accordion_expanded_panel_demo@2x.png 2x" />
 

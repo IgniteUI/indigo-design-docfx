@@ -1,7 +1,7 @@
 ---
 title: Tree Grid - デザイン システム コンポーネント
 _description: Tree Grid コンポーネント は、表形式の階層データを表示および操作する手段を提供します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 向けデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -22,7 +22,7 @@ Tree Grid コンポーネントを使用して、ユーザーがタブ レイア
 | 🚫 componentVersion &nbsp; | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
 | 🚫 metadata | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください |
 | Column 1                       | Header コンポーネントに関連するすべての要素を含みます。                                                                                                                |
-| ...                            | 	Column 1 と Column 7 の間の列。                                             |
+| ...                            | Column 1 と Column 7 の間の列。                                            |
 | Column 7                       | Header コンポーネントに関連するすべての要素を含みます。                                                                                                                |
 
 デタッチ後、既存の列を複製することにより、Tree Grid 内の列の数を増やすことができます。本体セルの数を増やすには、最初に特定の列に対して `Detach instance` オプションを使用する必要があります。そうすると、以下が表示されます:
@@ -31,8 +31,8 @@ Tree Grid コンポーネントを使用して、ユーザーがタブ レイア
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 🚫 metadata | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
 | Header                      | Header コンポーネントに関連するすべての要素を含みます。                                                                                                              |
-| Body Cell 1                       | 	本体のすべてのセルを含みます。                                                                                                                   |
-| ...                               | 	Body Cell 1 と Body Cell 9 の間の列                                      |
+| Body Cell 1                       | 本体のすべてのセルを含みます。                                                                                                                   |
+| ...                               | Body Cell 1 と Body Cell 9 の間の列                                      |
 | Body Cell 9                       | 本体のすべてのセルを含みます。                                                                                                                   |
 
 次に、列内に既に存在する本体セルのいずれかを複製します。列またはセルの数を増減した後、Tree Grid コンポーネントのサイズを手動で調整する必要があります。

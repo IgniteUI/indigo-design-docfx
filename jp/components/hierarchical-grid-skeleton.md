@@ -22,7 +22,7 @@ Skeleton Hierarchical Grid は、Header、Body、Summary の 3 種類のスケ�
 
 ## セル表示密度
 
-Skeleton Collapse All セルと Expand セルは、標準の [Hierarchical Grid](hierarchical-grid.md) と同じ 3 つの表示密度のバリエーション (Comfortable、Cosy、Compact) をサポートします。
+Skeleton CollapseAll セルと Expand セルは、標準の [Hierarchical Grid](hierarchical-grid.md) と同じ 3 つの表示密度のバリエーション (Comfortable、Cosy、Compact) をサポートします。
 
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_comfortable.png" srcset="../images/hierarchical_grid_skeleton_cell_header_comfortable@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_cosy.png" srcset="../images/hierarchical_grid_skeleton_cell_header_cosy@2x.png 2x" />

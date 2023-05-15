@@ -1,7 +1,7 @@
 ﻿---
 title: List - デザイン システム コンポーネント
 _description: List コンポーネント シンボルは、データ行の垂直コレクションをブラウスおよびインタラクションする方法を提供します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 向けデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -22,7 +22,7 @@ List は、One-line Item List (1 行項目のリスト) または Two-line Item 
 
 ## Figma で List を使用
 
-リストは、プライマリ データとセカンダリ アクションを含む情報をテキストとアイコンで表す連続した行のグループです。Figmaでは、Auto Layout を使用してリストを作成します。これにより、コンテンツに基づいてレイアウトと間隔が自動的に調整されます。 リストに必要な項目を減らすには、不要な項目を手動で非表示にする必要があります。より多くの項目を含むリストを設計するには、コンテキスト メニューから `Detach Instance` を選択して List コンポーネントをデタッチし、既存の項目を複製してリスト 項目を増やす必要があります。List Item は、常に一貫した水平幅と配置で相対 Header の下に配置し、項目間に隙間がないようにする必要があります。
+リストは、プライマリ データとセカンダリ アクションを含む情報をテキストとアイコンで表す連続した行のグループです。Figma では、Auto Layout を使用してリストを作成します。これにより、コンテンツに基づいてレイアウトと間隔が自動的に調整されます。 リストに必要な項目を減らすには、不要な項目を手動で非表示にする必要があります。より多くの項目を含むリストを設計するには、コンテキスト メニューから `Detach Instance` を選択して List コンポーネントをデタッチし、既存の項目を複製してリスト 項目を増やす必要があります。List Item は、常に一貫した水平幅と配置で相対 Header の下に配置し、項目間に隙間がないようにする必要があります。
 
 |  レイヤー         | 使用                                                                                                                                                  |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |

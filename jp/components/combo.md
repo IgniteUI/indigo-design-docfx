@@ -1,13 +1,13 @@
 ---
 title: Combo - デザイン システム コンポーネント
 _description: Combo コンポーネント シンボルは、コレクションから単一項目を選択できます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 向けデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
 # Combo (コンボ)
 
-Combo コンポーネントを使用して、事前定義された選択肢のリストからオプションを選択したり、独自の値を入力したりすることができます。 ユーザーがドロップダウン矢印をクリックすると選択肢のドロップダウン リストが表示されるのでその1 つを選択するか、テキスト ボックスに独自の値を入力することができます。Combo は、[Ignite UI for Angular Combobox コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/combo.html)と視覚的に同じです。
+Combo コンポーネントを使用して、事前定義された選択肢のリストからオプションを選択したり、独自の値を入力したりすることができます。ユーザーがドロップダウン矢印をクリックすると選択肢のドロップダウン リストが表示されるのでその1 つを選択するか、テキスト ボックスに独自の値を入力することができます。Combo は、[Ignite UI for Angular Combobox コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/combo.html)と視覚的に同じです。
 
 ## Combo のデモ
 
@@ -33,7 +33,7 @@ Combo Input は線タイプ (エアリー スタイル)、境界線タイプ (�
 
 ## 状態
 
-ユーザーが Combo とインタラクティブに操作する際に入力はさまざまな選択状態を経由します。コンテンツの代わりにプレースホルダーがある **Idle (アイドル状態)**、ドロップダウンが開いているときの **Focused** (フォーカス状態)、ユーザーが選択を完了して次に進むときの **Filled** (塗りつぶし状態)。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
+ユーザーが Combo とインタラクティブに操作する際に入力はさまざまな選択状態を経由します。コンテンツの代わりにプレースホルダーがある **Idle (アイドル状態)**、ドロップダウンが開いているときの **Focused (フォーカス状態)**、ユーザーが選択を完了して次に進むときの **Filled (塗りつぶし状態)**。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 
 <img class="responsive-img" src="../images/combo_idle.png" srcset="../images/combo_idle@2x.png 2x" />
 `idle`
