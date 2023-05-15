@@ -183,6 +183,9 @@
       href: ../components/progress.md
     - name: Radio Group
       href: ../components/radio-group.md
+    - name: Rating
+      href: ../components/rating.md
+      new: true
     - name: Select
       href: ../components/select.md
       new: true
@@ -209,6 +212,9 @@
       href: ../components/toast.md
     - name: Tooltip
       href: ../components/tooltip.md
+    - name: Tree
+      href: ../components/tree.md
+      new: true
     - name: Tree Grid
       href: ../components/tree-grid.md
       items:
