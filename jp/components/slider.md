@@ -27,7 +27,7 @@ Slider は、単一値の選択につまみと範囲を指定するための 2 �
 
 ## 状態
 
-Slider は、値の変更が可能かどうかを設定する**有効**/無効の状態をサポートします。Figma では、右側のプロパティ パネルの [Disabled] ブール値プロパティを使用して、2 つを切り替えることができます。Sketch では、状態ごとに異なるシンボルがあります。Adobe XD では、状態を簡単に切り替えることができるように `Component States` パラダイムを使用します。
+Slider は、値の変更が可能かどうかを設定する**Enabled (有効)**/ Disabled (無効) の状態をサポートします。Figma では、右側のプロパティ パネルの [Disabled] ブール値プロパティを使用して、2 つを切り替えることができます。Sketch では、状態ごとに異なるシンボルがあります。Adobe XD では、状態を簡単に切り替えることができるように `Component States` パラダイムを使用します。
 
 <img class="responsive-img" src="../images/slider_enabled.png" srcset="../images/slider_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/slider_disabled.png" srcset="../images/slider_disabled@2x.png 2x" />

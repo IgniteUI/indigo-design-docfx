@@ -43,13 +43,13 @@ Step Line Chart には、Idle と Hover の 2 つの状態があります。Figm
 
 ## Y 軸
 
-Step Line Chart の Y 軸は、Title、Labels、および軸自体で構成されます。Title と Labels は設定可能で、ラベルを非表示にするには、Figma のレイヤー パネルからラベルを非表示にするか、そのオーバーライドを Sketch で ~No Symbol に設定します。Adobe XD では、レイヤーを削除することでこれを実現できます。デフォルトでは、Y 軸は Figma と Adobe XD では非表示で、Sketch では `Transparent` に設定されています。Figma と Adobe XD で表示するには、レイヤー パネルに移動し、Y 軸レイヤーを右クリックして「Show/Hide」(表示/非表示) を選択します。Y 軸に別のレイヤー スタイルを選択することで、Sketch でも同じことが実現できます。すべての要素を一度に非表示にする場合は、ネストされた Y 軸コンポーネントを Figma のレイヤー パネルから非表示にし、Sketch で Y 軸のオーバーライドを ~No Symbol に変更するか、Adobe XD でそのレイヤーを削除します。
+Step Line Chart の Y 軸は、Title、Labels、および軸自体で構成されます。Title と Labels は設定可能で、ラベルを非表示にするには、Figma のレイヤー パネルからラベルを非表示にするか、そのオーバーライドを Sketch で ~No Symbol に設定します。Adobe XD では、レイヤーを削除することでこれを実現できます。デフォルトでは、Y 軸は Figma と Adobe XD では非表示で、Sketch では `Transparent` に設定されています。Figma と Adobe XD で表示するには、レイヤー パネルに移動し、Y 軸レイヤーを右クリックして 「Show/Hide」 (表示/非表示) を選択します。Y 軸に別のレイヤー スタイルを選択することで、Sketch でも同じことが実現できます。すべての要素を一度に非表示にする場合は、ネストされた Y 軸コンポーネントを Figma のレイヤー パネルから非表示にし、Sketch で Y 軸のオーバーライドを ~No Symbol に変更するか、Adobe XD でそのレイヤーを削除します。
 
 <img class="responsive-img" src="../images/step_line_chart_yaxis.png" srcset="../images/step_line_chart_yaxis@2x.png 2x" />
 
 ## Gridlines (グリッド線)
 
-Step Line Chart には 縦と横の Gridlines が組み込まれているため、データ ポイントを X と Y 軸で視覚的にトレースすることができます。両方とも個別に設定可能で、Figma でそれらのいずれかまたは両方を非表示にするには、レイヤー パネルからネストされた Chart Type コンポーネントを選択し、「Vertical Gridlines」および「Horizontal Gridlines」と呼ばれるプロパティのいずれかまたは両方をオン / オフに切り替える必要があります。Sketch と Adobe XD では、グリッド線の色を `Transparent` に設定することでこれを実現できます。
+Step Line Chart には 縦と横の Gridlines が組み込まれているため、データ ポイントを X と Y 軸で視覚的にトレースすることができます。両方とも個別に設定可能で、Figma でそれらのいずれかまたは両方を非表示にするには、レイヤー パネルからネストされた Chart Type コンポーネントを選択し、「Vertical Gridlines」 および 「Horizontal Gridlines」 と呼ばれるプロパティのいずれかまたは両方をオン / オフに切り替える必要があります。Sketch と Adobe XD では、グリッド線の色を `Transparent` に設定することでこれを実現できます。
 
 <img class="responsive-img" src="../images/step_line_chart_gridlines1.png" srcset="../images/step_line_chart_gridlines1@2x.png 2x" />
 <img class="responsive-img" src="../images/step_line_chart_gridlines2.png" srcset="../images/step_line_chart_gridlines2@2x.png 2x" />
