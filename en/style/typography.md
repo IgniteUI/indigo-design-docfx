@@ -12,7 +12,7 @@ There are 13 text (character) styles in the **Indigo.Design System** that consti
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 
-- In **Figma**, all text styles can be found on a separate page named `↳ Typography` which is part of the **Indigo.Design Sytem** `🧱 Foundation`. The text styles are available as `Text Styles` that can be applied to any text element.
+- In **Figma**, all text styles can be found on a separate page named `↳ Typography` which is part of the **Indigo.Design Sytem** `🧱 Foundation` section. They are available as `Text Styles` that can be applied to any text element.
 - In **Sketch**, these can be found on a separate page named `🎨 Typography` and are available as `Text Styles` that can be applied to any text element.
 - In **Adobe XD** they are placed on an Artboard with the same name in the left column of the library file and exist as `Character Styles` that are used across components and patterns.
 
@@ -34,12 +34,12 @@ These styles also determine the type of text element and typography class that w
   - `igx-typography__caption` for the caption typography style.
   - `igx-typography__overline` for the overline typography style.
 
-These styles can be modified further via the **Indigo.Design** plugin to change the look of those elements via theming on the application level.
+These styles can be modified further via the Sketch plugin to change the look of those elements via theming on the application level.
 
 Use these when creating intricate layouts for articles, blog posts etc. The Text Styles in the **Indigo.Design System** are meant to help you define a consistent theme and style for all the texts in your designs.
 
 > [!Warning]
-> In Figma and Sketch, there is also a collection of `Internal` text styles used within the Components for validation and special cases. These styles are not supposed to be inserted on your artboards directly but exist to assure typographic consistency for the Components within which they are used.
+> In Sketch, there is also a collection of `Internal` text styles used within the Components for validation and special cases. These styles are not supposed to be inserted on your artboards directly but exist to assure typographic consistency for the Components within which they are used.
 
 ## Component Specific Typography
 
@@ -58,7 +58,7 @@ Components, such as [Avatar](../components/avatar.md), [Button](../components/bu
 
 ## Changing the Typeface
 
-### Figma
+### In Figma
 
 If your styles are published to a team library, you need to edit the style in the library file. You'll need editing permissions for the library file to make any changes. To change the typeface from Titillium Web to a different one, you should access the **Indigo.Design System** library file. By default, styles in Figma are visible in the properties panel, if you haven't made any selections. Alternatively, you can navigate to the `↳ Typography` page for a more comprehensive view of all typography styles and make your changes from there. The text styles will continue to appear in the properties panel, located on the right side of the canvas.
 
@@ -72,7 +72,7 @@ Clicking on the Edit style icon will open a popover. In the properties section y
 
 After that, you'll need to publish these changes as an update to your library. To see these changes in subscribed files, you must review and accept the changes.
 
-### Sketch
+### In Sketch
 
 To change the typeface from Titillium Web to another one in Sketch, open the Indigo.Design library file and select `View` -> `Components`. Then in the Sketch menu, you will notice a group of four buttons, where the second one is a character icon and stands for `Show Text Styles`.
 
@@ -91,7 +91,7 @@ Now, in the panel on the right there is a dropdown allowing you to choose anothe
 
 The `Text Styles` in Sketch use color variables to define the color property of the text. Thus, if you were to change the `primary` color as per the steps outlined in the [colors topic](colors.md), all your primary `Text Styles` will be automatically updated. 
 
-### Adobe XD
+### In Adobe XD
 
 To change the typeface from Titillium Web to another one in Adobe XD open the Indigo.Design library file and select the `Libraries` panel. Then scroll to `Character Styles` right-click on one of them, and from the contextual menu that appears, choose `Edit`. In the popover, there is a dropdown at the top, allowing you to choose another font family. Note that you have to perform the same steps for every style individually to amend this change for all of your typography.
 
@@ -101,7 +101,7 @@ To change the typeface from Titillium Web to another one in Adobe XD open the In
 
 The typographic variety of styles should be more than sufficient to let you design various user interfaces. However, you may occasionally need to create an extra style for a special use case. If you want to define it globally for all your projects, do it in the Indigo.Design library. If it is something meaningful only within the scope of your current project, do it in the project file instead.
 
-### Figma
+### In Figma
 
 Create a new type layer with the Text tool (T) and make all the adjustments you need, then click on the Style icon in the Text properties. Text properties can be found in the right sidebar - in the Type settings panel.
 
@@ -119,7 +119,7 @@ Then, click the Create style button. That will list your new Text style in the T
 <img class="responsive-img" src="../images/typography_custom4.png" srcset="../images/typography_custom4@2x.png 2x"/>
 <div class="divider--half"></div>
 
-### Sketch
+### In Sketch
 Start by inserting a new `Text` layer and assign to it the closest `Text Style` from the existing ones fed from the library via the `Appearance` panel.
 
 <img class="responsive-img" src="../images/typography_custom5.png" srcset="../images/typography_custom5@2x.png 2x"/>
@@ -134,7 +134,7 @@ Last, click the Create button and give the new style an appropriate name and you
 
 <img class="responsive-img" src="../images/typography_custom7.png" srcset="../images/typography_custom7@2x.png 2x"/>
 
-### Adobe XD
+### In Adobe XD
 Start by inserting a new `Text` layer and adjust its properties on the right panel under `Text`. For example, choose a different font, size, alignment, and set an all lower case style.
 
 <img class="responsive-img" src="../images/typography_custom8.png" srcset="../images/typography_custom8@2x.png 2x"/>
