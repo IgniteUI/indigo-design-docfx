@@ -43,13 +43,13 @@ Spline Chart には、Idle と Hover の 2 つの状態があります。Figma �
 
 ## Y 軸
 
-Spline Chart の Y 軸は、Title、Labels、および軸自体で構成されます。Title と Labels は設定可能で、ラベルを非表示にするには、Figma のレイヤー パネルからラベルを非表示にするか、そのオーバーライドを Sketch で ~No Symbol に設定します。 Adobe XD では、レイヤーを削除することでこれを実現できます。 デフォルトでは、Y 軸は Figma と Adobe XD では非表示で、Sketch では `Transparent` に設定されています。Figma と Adobe XD で表示するには、レイヤー パネルに移動し、Y 軸レイヤーを右クリックして「Show/Hide」(表示/非表示) を選択します。Y 軸に別のレイヤー スタイルを選択することで、Sketch でも同じことが実現できます。すべての要素を一度に非表示にする場合は、ネストされた Y 軸コンポーネントを Figma のレイヤー パネルから非表示にし、Sketch で Y 軸のオーバーライドを ~No Symbol に変更するか、Adobe XD でそのレイヤーを削除します。
+Spline Chart の Y 軸は、Title、Labels、および軸自体で構成されます。Title と Labels は設定可能で、ラベルを非表示にするには、Figma のレイヤー パネルからラベルを非表示にするか、そのオーバーライドを Sketch で ~No Symbol に設定します。Adobe XD では、レイヤーを削除することでこれを実現できます。デフォルトでは、Y 軸は Figma と Adobe XD では非表示で、Sketch では `Transparent` に設定されています。Figma と Adobe XD で表示するには、レイヤー パネルに移動し、Y 軸レイヤーを右クリックして 「Show/Hide」 (表示/非表示) を選択します。Y 軸に別のレイヤー スタイルを選択することで、Sketch でも同じことが実現できます。すべての要素を一度に非表示にする場合は、ネストされた Y 軸コンポーネントを Figma のレイヤー パネルから非表示にし、Sketch で Y 軸のオーバーライドを ~No Symbol に変更するか、Adobe XD でそのレイヤーを削除します。
 
 <img class="responsive-img" src="../images/spline_chart_axis.png" srcset="../images/spline_chart_axis@2x.png 2x" />
 
 ## Gridlines (グリッド線)
 
-Spline Chart には Gridlines が組み込まれているため、データ ポイントを Y 軸の値まで視覚的にトレースするのが簡単になります。Figma では、ネストされた Chart Type コンポーネントを選択し、プロパティ パネルからブール値プロパティ「Gridlines」のオン / オフを切り替えることで、それらを表示 / 非表示にすることができます。Sketch と Adobe XD でそれらを非表示にするには、色を `Transparent` に設定するだけです。
+Spline Chart には Gridlines が組み込まれているため、データ ポイントを Y 軸の値まで視覚的にトレースするのが簡単になります。Figma では、ネストされた Chart Type コンポーネントを選択し、プロパティ パネルからブール値プロパティ 「Gridlines」 のオン / オフを切り替えることで、それらを表示 / 非表示にすることができます。Sketch と Adobe XD でそれらを非表示にするには、色を `Transparent` に設定するだけです。
 
 <img class="responsive-img" src="../images/spline_chart_gridlines.png" srcset="../images/spline_chart_gridlines@2x.png 2x" />
 

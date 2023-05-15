@@ -30,7 +30,7 @@ Date Picker は、水平および垂直方向の Dialog レイアウトおよび
 
 ## 週のはじめ
 
-週の最初の曜日として、最も一般的な 2 つのシナリオ (日曜日と月曜日) をサポートしています。 Figma では、[Starts On] プロパティから週の開始を選択できます。Sketch および Adobe XD では、日付ピッカーを挿入するときにオプションとして開始日を選択する必要があります。
+週の最初の曜日として、最も一般的な 2 つのシナリオ (日曜日と月曜日) をサポートしています。Figma では、[Starts On] プロパティから週の開始を選択できます。Sketch および Adobe XD では、日付ピッカーを挿入するときにオプションとして開始日を選択する必要があります。
 
 <img class="responsive-img" src="../images/datepicker_dropdown.png" srcset="../images/datepicker_dropdown@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_monday.png" srcset="../images/datepicker_monday@2x.png 2x" />
@@ -75,4 +75,3 @@ Horizontal と Vertical Dialog Date Picker をダイアログで表示し、ダ�
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-

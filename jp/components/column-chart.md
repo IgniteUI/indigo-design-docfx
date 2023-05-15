@@ -23,20 +23,20 @@ Column Chart のタイトルは、必要に応じて変更または非表示に�
 
 ## 状態
 
-Column Chart には、Idle と Hover の 2 つの状態があります。Figma では、レイヤー パネルからネストされた Chart Area コンポーネントを選択し、プロパティ パネルからブール演算「Hover Tooltip」のオン / オフを切り替えることで、2 つの状態を切り替えることができます。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Hover 状態では、データ ポイントの上にホバーするとツールチップが表示され、フォーカスされて他の列がグレーアウトされます。
+Column Chart には、Idle と Hover の 2 つの状態があります。Figma では、レイヤー パネルからネストされた Chart Area コンポーネントを選択し、プロパティ パネルからブール演算 「Hover Tooltip」 のオン / オフを切り替えることで、2 つの状態を切り替えることができます。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Hover 状態では、データ ポイントの上にホバーするとツールチップが表示され、フォーカスされて他の列がグレーアウトされます。
 
 <img class="responsive-img" src="../images/column_chart_tooltip-off.png" srcset="../images/column_chart_tooltip-off@2x .png 2x" />
 <img class="responsive-img" src="../images/column_chart_tooltip-on.png" srcset="../images/column_chart_tooltip-on@2x.png 2x" />
 
 ## Y 軸
 
-Column Chart の Y 軸は、Title、Labels、および軸自体で構成されます。Title と Labels は構成可能であり、Figma のレイヤー パネルからラベルを選択して非表示にするか、Sketch でそのオーバーライドを ~No Symbol に設定するだけで、ラベルを非表示にすることができます。 Adobe XD では、レイヤーを削除する必要があります。色を `Transparent` に設定して軸線を非表示にし、一度にすべての要素を非表示にするには、ネストされた Y 軸コンポーネントを Figma のレイヤー パネルから非表示にし、Y 軸のオーバーライドを Sketch で ~No Symbol に変更するか、Adobe XD でレイヤーを削除します。
+Column Chart の Y 軸は、Title、Labels、および軸自体で構成されます。Title と Labels は構成可能であり、Figma のレイヤー パネルからラベルを選択して非表示にするか、Sketch でそのオーバーライドを ~No Symbol に設定するだけで、ラベルを非表示にすることができます。Adobe XD では、レイヤーを削除する必要があります。色を `Transparent` に設定して軸線を非表示にし、一度にすべての要素を非表示にするには、ネストされた Y 軸コンポーネントを Figma のレイヤー パネルから非表示にし、Y 軸のオーバーライドを Sketch で ~No Symbol に変更するか、Adobe XD でレイヤーを削除します。
 
 <img class="responsive-img" src="../images/column_chart_yaxis.png" srcset="../images/column_chart_yaxis@2x.png 2x" />
 
 ## Gridlines (グリッド線)
 
-Column Chart には、データ ポイントを Y 軸の値に視覚的にトレースしやすくするための組み込みの Gridlines があります。Figma では、ネストされた Chart Area コンポーネントを選択し、プロパティ パネルからブール値プロパティ「Gridlines」のオン / オフを切り替えることで、それらを表示 / 非表示にすることができます。Sketch と Adobe XD でそれらを非表示にするには、色を `Transparent` に設定するだけです。
+Column Chart には、データ ポイントを Y 軸の値に視覚的にトレースしやすくするための組み込みの Gridlines があります。Figma では、ネストされた Chart Area コンポーネントを選択し、プロパティ パネルからブール値プロパティ 「Gridlines」 のオン / オフを切り替えることで、それらを表示 / 非表示にすることができます。Sketch と Adobe XD でそれらを非表示にするには、色を `Transparent` に設定するだけです。
 
 <img class="responsive-img" src="../images/column_chart_gridlines.png" srcset="../images/column_chart_gridlines@2x.png 2x" />
 
