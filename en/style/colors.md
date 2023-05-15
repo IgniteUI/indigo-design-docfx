@@ -16,11 +16,11 @@ The **Indigo.Design System** features special color palettes, optimized for vari
 
 ## Palette Generation in Figma
 
-To change the primary palette in Figma, you need to open the **Indigo.Design UI kit** file. From there, on the properties panel you'll see a section called `Color styles`. The color styles are grouped in a number of expansion panels, where you'll find the different variants for each color category.
+To change the primary palette in Figma, you need to first open the **Indigo.Design UI kit** file. In the properties panel you'll see a section called `Color styles`. The color styles are organized into various categories, representing different color variants.
 
 <img class="responsive-img" src="../images/colors_color-styles_figma.png" srcset="../images/colors_color-styles_figma@2x.png 2x" />
 
-To modify a color, click on the `Edit style` icon, positioned on the right of the color's name. A new pop-up window will be displayed, from where you can specify the new color.
+To modify a color, click on the `Edit style` icon, positioned on the right of the color's name. A dialog will be displayed, where you can specify the new color.
 
 <img class="responsive-img" src="../images/colors_edit_color-styles_figma.png" srcset="../images/colors_edit_color-styles_figma@2x.png 2x" />
 
