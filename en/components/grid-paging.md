@@ -1,7 +1,7 @@
 ---
 title: Grid Paging - Grid Feature
 _description: The Grid Paging Component provides a footer that gives information about the Grid page where the user is currently on and allows navigation between pages of content for the Grid.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Paging
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
 ---
 
 # Grid Paging
@@ -24,6 +24,7 @@ Related topics:
 
 - [Button](button.md)
 - [Grid](grid.md)
-  <div class="divider--half"></div>
+- [Select](select.md)
+<div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
