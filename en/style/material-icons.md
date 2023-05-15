@@ -40,7 +40,7 @@ There is a set of 160+ Material Icons already available in the **Indigo.Design S
 - Toggle
 - WB
 
-There is also a set of 360+ additional Material Icons that our team has crafted as an extention to the original Material set for the following categories:
+There is also a set of 360+ additional Material Icons that our team has crafted as an extension to the original Material set for the following categories:
 
 - Construction
 - Content
@@ -78,7 +78,7 @@ With the preset collection of icons, you can design beautiful apps and pick the 
 
     <img class="responsive-img" src="../images/icons_add3.png" srcset="../images/icons_add3@2x.png 2x" />
 
-4.  Then, we have to select the frame `copyright_black_24dp` with the `Vector` shape within and create a component from the frame. There are two quick options to do that: right-clicking on the frame and select the `Create component` option or click on the `Create component` icon in the Figma toolbar, positioned in the center over the workspace. After that change the vector shape name to `Color` and set its color to `grays.700` from the `Selection colors` in the right sidebar.
+4.  Then, we have to select the frame `copyright_black_24dp` with the `Vector` shape within and create a component from the frame. There are two quick options to do that: right-click on the frame and select the `Create component` option or click on the `Create component` icon in the Figma toolbar, positioned in the center over the workspace. Next, change the vector shape name to `Color` and set its color to `grays.700` from the `Selection colors` in the right sidebar.
 
     <img class="responsive-img" src="../images/icons_add4.png" srcset="../images/icons_add4@2x.png 2x" />
     <div class="divider--half"></div>
