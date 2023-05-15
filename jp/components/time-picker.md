@@ -1,7 +1,7 @@
 ---
 title: Time Picker - デザイン システム コンポーネント
 _description: Time Picker コンポーネント シンボルは、時間選択に必要なメカニズムを提供する時間のビジュアル表現として使用します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -38,7 +38,9 @@ Time Picker は、2 種類のコンテンツ モードで 12 時間と 24 時間
 
 ## ボタン
 
-Time Picker の 2 つのボタンは、時間を元の時間に戻す選択のキャンセルおよび変更を保存するための選択の確認にそれぞれ使用します。Button 領域はテンプレート化可能で、たとえば Sketch でオーバーライドを ~No Symbol に設定したり、Adobe XD で削除したりしてボタンを非表示にできます。Sketch とは異なり、Adobe XD では、Libraries パネルから Button 領域にカスタム操作などのボタンを追加できます。Button の削除または追加に関係なく、適用された Stack はレイアウトを自動的に調整します。
+Time Picker の 2 つのボタンは、時間を元の時間に戻す選択のキャンセルおよび変更を保存するための選択の確認にそれぞれ使用します。
+
+Button area はテンプレート化できるため、必要に応じてボタンを簡単に非表示にできます。Figma では、ボタンのインスタンスをレイヤー パネルから非表示にすることで、単純にボタンを非表示にすることができます。同様に、Sketch では、ボタンのオーバーライドを ~No Symbol に設定して非表示にすることができます。Adobe XD では、不要なボタンをまとめて削除できます。Sketch や Figma とは異なり、Adobe XD ではボタンを追加できます。カスタム アクションの場合は、[Libraries] パネルの Button area にボタンを追加できます。Button の削除または追加に関係なく、適用された Stack はレイアウトを自動的に調整します。Figma と Sketch でこれを実現するには、まずコンポーネント インスタンスをデタッチしてから、必要な変更を適用する必要があります。
 
 <img class="responsive-img" src="../images/timepicker_buttons.png" srcset="../images/timepicker_buttons@2x.png 2x" />
 

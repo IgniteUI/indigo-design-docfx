@@ -1,7 +1,7 @@
 ﻿---
 title: Lists - デザイン システム パターン
 _description: Lists パターン シンボルは、水平および垂直レイアウトで 1 つまたは複数のレベルの情報の一般的なコレクションを体系化するためにリストを使用するさまざまなシナリオを表します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch から コードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 

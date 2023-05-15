@@ -23,7 +23,7 @@ Skeleton Grid は、標準 [Grid](grid.md) と同じ 3 種類のセル (header�
 
 ## セル表示密度
 
-Skeleton の Header、Body、および Summary Cell は、標準 [Grid](grid.md) と同じ 3 つの表示密度バリアント (comfortable、cosy、compact) をサポートします。
+Skeleton の Header、Body、および Summary Cell は、標準 [Grid](grid.md) と同じ 3 つの表示密度バリアント (Comfortable、Cosy、Compact) をサポートします。
 
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_comfortable.png" srcset="../images/grid_skeleton_cell_header_comfortable@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_cosy.png" srcset="../images/grid_skeleton_cell_header_cosy@2x.png 2x" />

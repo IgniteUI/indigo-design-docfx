@@ -18,7 +18,7 @@ Sketch の Custom List Item コンポーネントを使用して、通常の Lis
 
 ## 状態
 
-Custom List Item はオーバライドとして以下のインアクティブ状態をサポートします: 標準状態の **inactive** と選択状態の active です。
+Custom List Item はオーバライドとして以下のインアクティブ状態をサポートします: 標準状態の Inactive と選択状態の Active です。
 
 <img class="responsive-img" src="../images/list_item_custom_inactive.png" srcset="../images/list_item_custom_inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_custom_active.png" srcset="../images/list_item_custom_active@2x.png 2x" />
