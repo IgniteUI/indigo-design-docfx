@@ -36,6 +36,9 @@ The **Indigo.Design System** boosts your productivity with 180+ UI Patterns asse
 
 <img class="responsive-img" src="../images/patterns_overview.png" srcset="../images/patterns_overview@2x.png 2x" />
 
+  <div class="divider--half"></div>
+    <div class="divider--half"></div>
+
 We constantly improve our patterns by adding new ones or by upgrading their structure. You may also create your own Patterns from interface layouts that you use over and over again in your designs, extending our default set and giving your design productivity a further boost. 
 
 ## Additional Resources
