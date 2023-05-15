@@ -1,7 +1,7 @@
 ---
 title: Hierarchical Grid - デザイン システム コンポーネント
 _description: Hierarchical Grid コンポーネントは、階層的に関連する表形式データのセットを表示および操作する手段を提供します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -13,9 +13,23 @@ Hierarchical Grid コンポーネントを使用して、ユーザーが個別�
 
 <img class="responsive-img" src="../images/hierarchical_grid_demo.png" srcset="../images/hierarchical_grid_demo@2x.png 2x" />
 
+## Figma で Hierarchical Grid を使用
+Grid と同様に、Hierarchical Grid は基本的に、視覚的な階層を形成する列、行、ネストされたグリッドのリピーターです。Hierarchical Grid コンポーネントを使用するには、[Resources] パネルで検索してインスタンスを挿入するだけです。必要に応じて、プロパティ パネルの 「Display Density」 プロパティを使用して、表示密度を変更できます。レイヤー パネルには、次の構造が表示されます。 
+
+| レイヤー                                | 使用                                                                                                                                                  |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🚫 componentVersion  &nbsp;  | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーにはコンポーネントの現在のバージョンに関する情報が含まれているため、削除または変更しないでください。  |
+| 🚫 metadata | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
+| Drill Indication (ドリル インジケーター)                 | 	アクティブなセル/フォーカスされているセルを示すために使用されるシンボル。                                                                                                       |
+| Grid 2                               | 下部グリッド ヘッダーのすべての列とセルを含みます。                                                                                                                 |
+| Background                                 | 	2 番目のグリッドの背景色を定義します。                                                                            |
+| Grid 1              | 	上部グリッドのすべての列とセルを含みます。                                                                                      |
+
+列またはセルの数を変更したい場合は、レイヤー パネルから不要なものを非表示にするだけです。さらに追加したい場合は、Hierarchical Grid コンポーネントを選択して右クリックし、コンテキスト メニューから [Detach instance] を選択する必要があります。その後、必要な Grid の外観が得られるまで、既存の列の一部を複製できます。階層をさらに表示したい場合は、2 つの Grid フレームのいずれかを複製することもできます。
+
 ## Sketch で Hierarchical Grid を使用
 
-グリッドと同様に、Hierarchical Grid は基本的に、視覚的な階層を形成する列、行、ネストされたグリッドのリピーターです。したがって、最も簡単な使用方法は、定義済みのグリッドの 1 つをアートボードにドラッグすることです。サポートされる 3 つの[表示密度](grid-display-density.md)に 3 つのプリセットがあります。アートボードを開いた後、その上を右-クリックし、コンテキスト メニューの下部にある `Detach from Symbol` オプションを選択すると、新しく表示されたグループの下のレイヤー パネルに次のように表示されます:
+Sketch で Hierarchical Grid を使用する最も簡単な方法は、事前定義されたグリッドの 1 つをアートボードにドラッグすることです。サポートされる 3 つの[表示密度](grid-display-density.md)に 3 つのプリセットがあります。アートボードを開いた後、その上を右-クリックし、コンテキスト メニューの下部にある `Detach from Symbol` オプションを選択すると、新しく表示されたグループの下のレイヤー パネルに次のように表示されます:
 
 | レイヤー                                | 使用                                                                                                                                                 |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -54,7 +68,7 @@ Hierarchical Grid は、3種類の通常のグリッド セル Header、Body お
 
 ## セル表示密度
 
-CollapseAll セルと Expand セルは、Hierarchical Grid の 3 つの表示密度バリアント (comfortable、cosy、compact) をサポートします。以下の CollapseAll Header セルに見られるように、それぞれに個別のシンボルが付いています:
+CollapseAll セルと Expand セルは、Hierarchical Grid の 3 つの表示密度バリアント (Comfortable、Cosy、Compact) をサポートします。以下の CollapseAll Header セルに見られるように、それぞれに個別のシンボルが付いています:
 
 <img class="responsive-img" src="../images/hierarchical_grid_cell_header_comfortable.png" srcset="../images/hierarchical_grid_cell_header_comfortable@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_cell_header_cosy.png" srcset="../images/hierarchical_grid_cell_header_cosy@2x.png 2x" />

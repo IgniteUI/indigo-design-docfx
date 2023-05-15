@@ -1,7 +1,7 @@
 ﻿---
 title: List - デザイン システム コンポーネント
 _description: List コンポーネント シンボルは、データ行の垂直コレクションをブラウスおよびインタラクションする方法を提供します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 向けデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -15,18 +15,18 @@ List コンポーネントは、ユーザーのブラウジングやテキスト
 
 ## タイプ
 
-List は、1 行項目または 2 行項目のプリセットに挿入できます。どちらも最初は 10 項目を含みます。
+List は、One-line Item List (1 行項目のリスト) または Two-line Item List (2 行項目のリスト) のプリセットに挿入できます。どちらも最初は **10** 項目を含みます。
 
 <img class="responsive-img" src="../images/list_one-line_item.png" srcset="../images/list_one-line_item@2x.png 2x" />
 <img class="responsive-img" src="../images/list_two-line_item.png" srcset="../images/list_two-line_item@2x.png 2x" />
 
-## Sketch で List を使用
+## Figma で List を使用
 
-List は、本来インデックス付きの垂直コレクションとしてデータを表示する行のリピーターです。
-項目に Smart Layout を使用しているため、1 つ以上の項目を ~No Symbol に設定することで、サイズを調整できます。より多くの項目を含むリストをデザインする必要がある場合、最も簡単な方法は、アートボードに List タイプのいずれかを挿入し、その上を右クリックして、コンテキスト メニューの下部にある `Detach from Symbol` を選択することです。新しく表示された _List/One-line Item List_ または _List/Two-line Item List_ グループの下のレイヤー パネルに、次のように表示されます:
+リストは、プライマリ データとセカンダリ アクションを含む情報をテキストとアイコンで表す連続した行のグループです。Figmaでは、Auto Layout を使用してリストを作成します。これにより、コンテンツに基づいてレイアウトと間隔が自動的に調整されます。 リストに必要な項目を減らすには、不要な項目を手動で非表示にする必要があります。より多くの項目を含むリストを設計するには、コンテキスト メニューから `Detach Instance` を選択して List コンポーネントをデタッチし、既存の項目を複製してリスト 項目を増やす必要があります。List Item は、常に一貫した水平幅と配置で相対 Header の下に配置し、項目間に隙間がないようにする必要があります。
 
 |  レイヤー         | 使用                                                                                                                                                  |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🚫 componentVersion &nbsp;  | 禁止されたアイコンで開始する特定のロックされたレイヤー。 このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
 | 🚫 metadata   | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
 | List Header   | リスト ヘッダー 項目のインスタンス                                                                                                                    |
 | 1 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
@@ -38,10 +38,13 @@ List は、本来インデックス付きの垂直コレクションとしてデ
 | 7 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
 | 8 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
 | 9 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
-| 10 Item        | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
-| 🌈 Background | リストの背景色を定義                                                                                                             |
+| 10 Item       | 1 行 / 2 行リスト項目のインスタンス                                                                                                                  |
 
-これで、メニューから、または単に既存のものを複製することによって、追加のヘッダーまたは項目を挿入できます。常に項目とヘッダーを同じ水平幅と配置で次々に配置し、項目間にギャップがないようにします。
+## Sketch で List (リスト) を使用
+
+List は、本来インデックス付きの垂直コレクションとしてデータを表示する行のリピーターです。 項目に Smart Layout を使用しているため、1 つ以上のアイテムを ~No Symbol に設定することで、サイズを調整できます。より多くの項目を含むリストをデザインする必要がある場合、最も簡単な方法は、アートボードに List タイプのいずれかを挿入し、その上を右クリックして、コンテキスト メニューの下部にある `Detach from Symbol` を選択することです。新しく表示された _List/One-line Item List_ または _List/Two-line Item List_ グループの下のレイヤー パネルに、Figma とほぼ同じレイヤー構造が表示されるはずです (上記の表を参照)。2 つの違いは、`🌈 Background` の下部に 1 つの追加レイヤーが表示されることと、上部に `🚫 componentVersion` レイヤーが表示されないことの 2 点です。 
+
+デタッチ後、メニューから、または単に既存のものを複製することによって、追加のヘッダーまたは項目を挿入できます。常に項目とヘッダーを同じ水平幅と配置で次々に配置し、項目間にギャップがないようにします。
 
 ## Adobe XD で List を使用
 

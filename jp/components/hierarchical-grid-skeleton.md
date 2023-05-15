@@ -1,7 +1,7 @@
 ---
 title: Skeleton Hierarchical Grid - デザイン システム コンポーネント
 _description: Skeleton Hierarchical Grid は、セルにコンテンツを提供するためにデータがバックグラウンドで読み込まれているときに表示される Hierarchical Grid コンポーネントです。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -22,9 +22,9 @@ Skeleton Hierarchical Grid は、Header、Body、Summary の 3 種類のスケ�
 
 ## セル表示密度
 
-Skeleton Collapse All セルと Expand セルは、標準の [Hierarchical Grid](hierarchical-grid.md) と同じ 3 つの表示密度のバリエーション (comfortable、cosy、compact) をサポートします。
+Skeleton Collapse All セルと Expand セルは、標準の [Hierarchical Grid](hierarchical-grid.md) と同じ 3 つの表示密度のバリエーション (Comfortable、Cosy、Compact) をサポートします。
 
-<img class="responsive-img" src="../images/hierarchical_grid__skeleton_cell_header_comfortable.png" srcset="../images/hierarchical_grid__skeleton_cell_header_comfortable@2x.png 2x" />
+<img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_comfortable.png" srcset="../images/hierarchical_grid_skeleton_cell_header_comfortable@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_cosy.png" srcset="../images/hierarchical_grid_skeleton_cell_header_cosy@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_compact.png" srcset="../images/hierarchical_grid_skeleton_cell_header_compact@2x.png 2x" />
 
