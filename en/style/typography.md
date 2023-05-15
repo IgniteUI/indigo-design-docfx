@@ -60,7 +60,7 @@ Components, such as [Avatar](../components/avatar.md), [Button](../components/bu
 
 ### Figma
 
-If your styles are published to a team library, you need to edit the style in the library file. You'll need editing permissions for the library file to make any changes. To change the typeface from Titillium Web to another one, open the **Indigo.Design System** library file and select the `↳ Typography` page. Then you will be able to see all the Text styles in the right sidebar of Figma.
+If your styles are published to a team library, you need to edit the style in the library file. You'll need editing permissions for the library file to make any changes. To change the typeface from Titillium Web to a different one, you should access the **Indigo.Design System** library file. By default, styles in Figma are visible in the properties panel, if you haven't made any selections. Alternatively, you can navigate to the `↳ Typography` page for a more comprehensive view of all typography styles and make your changes from there. The text styles will continue to appear in the properties panel, located on the right side of the canvas.
 
 <img class="responsive-img" src="../images/typography_text_styles.png" srcset="../images/typography_text_styles@2x.png 2x"/>
 <div class="divider--half"></div>
