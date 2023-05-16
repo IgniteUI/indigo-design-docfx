@@ -1,86 +1,86 @@
 ---
 title: Rating - デザイン システム コンポーネント
-_description: The Rating component lets users apply a rating to an item or experience, such as an image, a forum post, an item for sale in a marketplace, and more.
+_description: Rating コンポーネントを使用すると、ユーザーは画像、フォーラムの投稿、マーケットプレイスで販売されているものなどの項目またはエクスペリエンスに評価を適用できます。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma から コードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch から コードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
-# Rating
+# Rating (レーティング)
 
-The Rating component enables users to apply a rating to an item or experience, such as a product, service, page, other entity, and more. The Rating can display a single user's, or an aggregate, star rating and it's used to let users set their own star rating. The Rating is visually identical to the [Ignite UI for Angular Rating Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/rating)
+Rating コンポーネントを使用すると、ユーザーは製品、サービス、ページ、その他のエンティティなどの項目またはエクスペリエンスに評価を適用できます。Rating には、単一ユーザーまたは集計されたスター レーティングを表示でき、ユーザーが独自のスター レーティングを設定できるようにするために使用されます。Rating は、[Ignite UI for Angular Rating コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/rating)と視覚的に同じものです。
 
-## Rating Demo
+## Rating のデモ
 
 <img class="responsive-img" src="../images/rating_demo.png" srcset="../images/rating_demo@2x.png 2x" />
 
-## Using the Rating in Figma
+## Figma での Rating の使用
 
-The Rating is built from Label and Value, where the Value is the number of the rating scale. The number of icons in the rating scale is predefined to 5 stars in total, but if you need to design a Rating with more rating icons, the easiest way to do so is by inserting the component into your workspace. After that, right-clicking on the component will open a contextual menu, where `Detach instance` should be selected, and you should see the following detached layer structure:
+Rating はラベルと値から構築されます。値はレーティングのスケールの数値です。レーティングのスケール内のアイコンの数は合計 5 つ星に事前定義されていますが、より多くのレーティングのアイコンを含む Rating をデザインする必要がある場合、最も簡単な方法は、コンポーネントをワークスペースに挿入することです。その後、コンポーネントを右クリックするとコンテキスト メニューが開き、`Detach instance` が選択され、次のデタッチされたレイヤー構造が表示されます。
 
-| Layer                        | Use                                                                                                                                                  |
+| レイヤー                        | 使用                                                                                                                                                  |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 componentVersion &nbsp; | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| 🚫 metadata         | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| Label              | Text layer that can be changed or hidden, if not needed                                                                                                              |
-| Value              | Contains all the rating icons                                                                                                                 |
+| 🚫 componentVersion &nbsp; | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
+| 🚫 metadata         | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
+| Label              | 不要な場合は変更または非表示にできるテキスト レイヤー。                                                                                                              |
+| Value              | すべてのレーティング アイコンが含まれています。                                                                                                                 |
 
-After detaching, you may increase the number of the rating icons by duplicating any of the existing ones, nested in the `Value` frame, and the size will be adjusted, thanks to the auto layout.
+デタッチした後、`Value` フレームにネストされている既存のレーティング アイコンのいずれかを複製することでレーティング アイコンの数を増やすことができ、自動レイアウトのおかげでサイズが調整されます。
 
-To reduce the number of rating icons, there is no need to detach the component. You can simply hide the unnecessary icons from the Layers panel.
+レーティング アイコンの数を減らすために、コンポーネントをデタッチする必要はありません。[レイヤー] パネルから不要なアイコンを非表示にすることができます。
 
-## Using the Rating in Sketch
+## Sketch での Rating の使用
 
-The Rating component in Sketch shares almost the same building elements as in Figma, including a Label and Value section, and comes with five rating icons by default. If more rating icons are needed, the component needs to be detached by right-clicking on it and selecting `Detach from Symbol` from the contextual menu. Once detached, you should see the following layers:
+Sketch の Rating コンポーネントは、ラベルと値セクションを含む Figma とほぼ同じ構築要素を共有し、デフォルトで 5 つのレーティング アイコンが付属しています。さらに多くのレーティング アイコンが必要な場合は、コンポーネントを右クリックし、コンテキスト メニューから `Detach from Symbol` を選択して、コンポーネントをデタッチする必要があります。デタッチすると、次のレイヤーが表示されます:
 
-| Layer                        | Use                                                                                                                                                  |
+| レイヤー                        | 使用                                                                                                                                                  |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 metadata        | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it.  |
-| Label              | Text layer that can be changed or hidden if not needed                                                                                                                                                      |
-| Value              | Contains all the rating icons                                                                                                                         |
+| 🚫 metadata        | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。  |
+| Label              | 不要な場合は変更または非表示にできるテキスト レイヤー。                                                                                                                                                      |
+| Value              | すべてのレーティング アイコンが含まれています。                                                                                                                         |
 
-In order to increase or decrese the number of rating icons, you should use the `Detach from Symbol` option again over the `Value` symbol and then by duplicating or deleting any of the rating icons, that already exist, you will be able to achive the desired amount of icons.
+レーティング アイコンの数を増減するには、`Value` シンボルの上で `Detach from Symbol` オプションを再度使用し、既存のレーティング アイコンのいずれかを複製または削除することで、アイコンの希望の数を達成できます。
 
-## Using the Rating in Adobe XD
+## Adobe XD での Rating の使用
 
 > [!NOTE]
-> WIP: Currently, we don't support the Rating component in Adobe XD.
+> WIP: 現在、Adobe XD では Rating コンポーネントはサポートされていません。
 
-## Interaction States
+## 操作状態
 
-In Figma, when inserted, the Rating component is always enabled by default. You can disable it from the properties panel, while in Sketch, the Rating can be inserted in an enabled or disabled state.
+Figma では、挿入時にRating コンポーネントがデフォルトで常に有効になります。プロパティ パネルから無効にできますが、Sketch では、Rating を有効または無効の状態で挿入できます。
 
 <img class="responsive-img" src="../images/rating_enabled_empty-state.png" srcset="../images/rating_enabled_empty-state@2x.png 2x" />
 <img class="responsive-img" src="../images/rating_disabled_empty-state.png" srcset="../images/rating_disabled_empty-state@2x.png 2x" />
 
-## State
+## 状態
 
-The Rating component has an `Empty State` and it can be switched on and off from a boolean property in Figma. In addition, there is a `Value` property in Figma, which is the opposite of the `Empty State` and allows you to select the fulfillment of the Rating Value from predefined options from 0 to 5 (supporting half star as well). In Sketch this can be achieved easily with ~Symbol Overrides.
+Rating コンポーネントには `Empty State` (空の状態) があり、Figma のブール型プロパティからオンとオフを切り替えることができます。さらに、Figma には、`Empty State` とは逆の `Value` プロパティがあり、0 ～ 5 の事前定義されたオプションから Rating 値の達成を選択できます (星半分もサポート)。Sketch では、~Symbol Overrides を使用してこれを簡単に実現できます。
 
 <img class="responsive-img" src="../images/rating_enabled_empty-state.png" srcset="../images/rating_enabled_empty-state@2x.png 2x" />
 <img class="responsive-img" src="../images/rating_value2.5.png" srcset="../images/rating_value2.5@2x.png 2x" />
 <img class="responsive-img" src="../images/rating_value5.png" srcset="../images/rating_value5@2x.png 2x" />
 
-## Size
+## サイズ
 
-The Rating is available in three sizes - Small, Medium and Large.
+Rating には、小、中、大の 3 つのサイズがあります。
 
 <img class="responsive-img" src="../images/rating_small.png" srcset="../images/rating_small@2x.png 2x" />
 <img class="responsive-img" src="../images/rating_medium.png" srcset="../images/rating_medium@2x.png 2x" />
 <img class="responsive-img" src="../images/rating_large.png" srcset="../images/rating_large@2x.png 2x" />
 
-## Styling
+## スタイル設定
 
-The Rating comes with styling flexibility through the available options for the Value icons' color and type, as well as changing the label text color. However, it is recommended to use the predefined colors and icon type, based on the theme lightness, to assure optimal text legibility.
+Rating には、値アイコンの色とタイプ、およびラベルのテキストの色の変更に使用できるオプションを通じて、スタイルを柔軟に設定できます。ただし、テキストの読みやすさを最適化するために、テーマの明度に基づいて、事前定義された色とアイコン タイプを使用することをお勧めします。
 
 <img class="responsive-img" src="../images/rating_styling.png" srcset="../images/rating_styling@2x.png 2x" />
 
-## Usage
+## 使用方法
 
-The star is a very recognizable ranking symbol, and people may not associate other symbols with a rating scale. If you replace the star with a custom symbol, make sure that its purpose is clear. Avoid colors with poor contrast, like similar shades of the same color or combinations that create chromatic aberrations. The Icons selections should be emphasized and should have a good visual distinct appearance.
+星は非常に認識しやすいランキングのシンボルであり、人々は他のシンボルをレーティング　スケールと関連付けないかもしれません。星をカスタム シンボルに置き換える場合は、その目的が明確であることを確認してください。同色の似た色合いや色収差を生じる組み合わせなど、コントラストの低い色は避けるようにします。アイコンの選択は強調され、視覚的に明確な外観を持つ必要があります。
 
-| Do                                                                           | Don't                                                                            |
+| 良い例                                                                           | 悪い例                                                                            |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/rating_do1.png" srcset="../images/rating_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/rating_dont1.png" srcset="../images/rating_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/rating_do2.png" srcset="../images/rating_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/rating_dont2.png" srcset="../images/rating_dont2@2x.png 2x" /> |
 
-Our community is active and always welcoming to new ideas.
+コミュニティに参加して新しいアイデアをご提案ください。
