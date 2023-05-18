@@ -1,7 +1,7 @@
 ---
 title: Rating - デザイン システム コンポーネント
 _description: Rating コンポーネントを使用すると、ユーザーは画像、フォーラムの投稿、マーケットプレイスで販売されているものなどの項目またはエクスペリエンスに評価を適用できます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma から コードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch から コードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 

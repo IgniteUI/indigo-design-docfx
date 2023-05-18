@@ -15,7 +15,7 @@ Grid 列サイズ変更は、グリッド列のサイズ変更が可能なでき
 
 ## Header Cell (ヘッダー セル)
 
-列がサイズが変更可能であることを示するには、デフォルト値を **Not Resizable** から **Resizable** に変更すると、Sketch で列の Grid Header Cell の `Column Resizing` のオーバーライドを設定します。To do that in Figma you need to go to the layers panel, open the Grid Header Cell layer and change the property of the `Column Resizing` component from **Not Resizable** to **Resizable**. Adobe XD では、`Column Resizing` レイヤーは `Component States` パラダイムを使用して、状態を簡単に切り替えることができます。コード生成には、これにより列をサイズ変更可能としてマークします。
+列がサイズが変更可能であることを示するには、デフォルト値を **Not Resizable** から **Resizable** に変更すると、Sketch で列の Grid Header Cell の `Column Resizing` のオーバーライドを設定します。Figma でこれを行うには、レイヤー パネルに移動し、グリッド ヘッダー セル レイヤーを開き、`Column Resizing` コンポーネントのプロパティを **Resizable** から **Not Resizable** に変更する必要があります。Adobe XD では、`Column Resizing` レイヤーは `Component States` パラダイムを使用して、状態を簡単に切り替えることができます。コード生成には、これにより列をサイズ変更可能としてマークします。
 
 ## Column Resizing Indicator Feature (列サイズ変更インジケーター機能)
 

@@ -1,7 +1,7 @@
 ﻿---
 title: Form - デザイン システム パターン
 _description: Form パターン シンボルは様々なデータ入力および表示要素を含みます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
@@ -10,6 +10,7 @@ _language: ja
 Form パターンを使用すると、複数のユーザー入力が必要なアプリケーション シナリオを実装できます。全般的なフォームでデータ入力および表示コンポーネントが使用されます。
 
 <img class="responsive-img" src="../images/form_demo.png" srcset="../images/form_demo@2x.png 2x" />
+<div class="divider--half"></div>
 
 Form パターンは Login and Registration (ログインと登録)、Booking (予約)、Address (アドレス)、Payment (支払)、Contacts (連絡先)、Feedback (フィードバック)、Search (検索)、Shipping (配送)、Subscription (サブスクリプション)、Authentication (認証) および New (新規) など、コンテンツを追加するための全般的なシナリオのフォームを提供します。このフォームのレイアウトに含まれる Input、Checkbox、Radio Group、Button および Hyperlink のスタイル設定を使用できます。
 
@@ -21,16 +22,18 @@ Log In フォームは簡易なコンテンツおよび操作を持つレイア�
 <img class="responsive-img" src="../images/form_login-social.png" srcset="../images/form_login-social@2x.png 2x" />
 <img class="responsive-img" src="../images/form_illustrated_forgot_password.png" srcset="../images/form_illustrated_forgot_password@2x.png 2x" />
 <img class="responsive-img" src="../images/form_illustrated_account_type.png" srcset="../images/form_illustrated_account_type@2x.png 2x" />
+<div class="divider--half"></div>
 
 Registration フォームは簡易なコンテンツおよび操作を持つレイアウトがあり、またはより複雑なレイアウトと追加の操作を持つソーシャル メディア プロファイルの Registration フォームがあります。
 
 <img class="responsive-img" src="../images/form_register-simple.png" srcset="../images/form_register-simple@2x.png 2x" />
 <img class="responsive-img" src="../images/form_register-social.png" srcset="../images/form_register-social@2x.png 2x" />
+<div class="divider--half"></div>
 
 Log In フォームにも水平レイアウトがあり、レイアウトの Button および Hyperlink コンテンツを更新した後に登録フォームをカスタマイズして表示できます。このレイアウトは幅が広い画面に最適です。フォームがその他のコンテンツとインラインに表示されます。
 
 <img class="responsive-img" src="../images/form_login-horizontal.png" srcset="../images/form_login-horizontal@2x.png 2x" />
-
+<div class="divider--half"></div>
 <img class="responsive-img" src="../images/form_register-horizontal.png" srcset="../images/form_register-horizontal@2x.png 2x" />
 
 ## Booking フォーム
@@ -48,19 +51,18 @@ New フォームが 2 種類があります。Budget は新しい予算の作成
 
 ## E-commerce (e コマース) フォーム
 
-Address (住所) フォーム、Size Selection (サイズ選択) フォーム、Simple (シンプル) および Advanced Search (高度な検索) フォーム、Shipping (配送) フォーム、およびいくつかのタイプの Payment (支払) フォームがあります。オンライン バンキングを介して送金する場合のように、Card (カード) 支払い用 と Transfer (転送用) があります。転送フォームは 4 つのレイアウトを提供します。Currency Exchange は為替換算のフィールドを含みます。Donation はチャリティに使用できるフォームです。Between Accounts は同じ銀行の複数アカウント間の送金に使用できます。Between Banks は他銀行への送金に使用できます。
+Address (住所) フォーム、Size Selection (サイズ選択) フォーム、Simple (シンプル) および Advanced Search (高度な検索) フォーム、およびいくつかのタイプの Payment (支払) フォームがあります。オンライン バンキングを介して送金する場合のように、Card (カード) 支払い用 と Transfer (転送用) があります。転送フォームは 4 つのレイアウトを提供します。Currency Exchange は為替換算のフィールドを含みます。Donation はチャリティに使用できるフォームです。Between Accounts は同じ銀行の複数アカウント間の送金に使用できます。Between Banks は他銀行への送金に使用できます。
 
 <img class="responsive-img" src="../images/form_address.png" srcset="../images/form_address@2x.png 2x" />
 <img class="responsive-img" src="../images/form_search.png" srcset="../images/form_search@2x.png 2x" />
-<img class="responsive-img" src="../images/form_money_transfer.png" srcset="../images/form_money_transfer@2x.png 2x" />
 <img class="responsive-img" src="../images/form_donation.png" srcset="../images/form_donation@2x.png 2x" />
-<img class="responsive-img" src="../images/form_illustrated_card.png" srcset="../images/form_illustrated_card@2x.png 2x" />
+<img class="responsive-img" src="../images/form_money_transfer.png" srcset="../images/form_money_transfer@2x.png 2x" />
 <img class="responsive-img" src="../images/form_card.png" srcset="../images/form_card@2x.png 2x" />
-
+<img class="responsive-img" src="../images/form_illustrated_card.png" srcset="../images/form_illustrated_card@2x.png 2x" />
 
 ## Feedback と Contact フォーム
 
-製品やサービスを改善するために顧客から特定の情報を入手したい場合の Feedback フォームと、ビジネスに簡単にアクセスできることを示したいが、メール アドレスを直接公開したくない場合の Contact  フォームがあります。
+製品やサービスを改善するために顧客から特定の情報を取得したい場合には Feedback フォームがあり、簡単に連絡できることを示したいが電子メール アドレスは非公開にしたい場合には Contact フォームがあります。
 
 <img class="responsive-img" src="../images/form_feedback.png" srcset="../images/form_feedback@2x.png 2x" />
 <img class="responsive-img" src="../images/form_contacts.png" srcset="../images/form_contacts@2x.png 2x" />
@@ -94,8 +96,5 @@ Subscription フォームは、会社や製品に関心のあるユーザーの�
 - [Slider](../components/slider.md)
 - [Switch](../components/switch.md)
 - [Tabs](../components/tabs.md)
-  <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
-

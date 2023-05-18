@@ -19,7 +19,7 @@ Grid が Row Filter でフィルタリング可能であることを示すため
 
 ## Filter State (フィルター状態)
 
-Row Filter Header Cells には、Sketch の `Filter State` オーバーライドが付属しており、特定の列にフィルター条件が適用されているかどうかを構成できます。デフォルトでは **Empty** と表示されますが、**Filtered** に設定し、含まれている [Chip](chips.md) で条件を指定できます。In Figma the Row Filtering is one of the Grid Header Cell types, that can be switched from the properties panel. There are two distinct types of filtering state: **Row Filter Empty** and **Row Filter Filtered**. You can easily switch between them by adjusting the `Type` property. Adobe XD では、`Component States` パラダイムを使用して状態を簡単に切り替えることができる `Filter State` レイヤーを介して、同じような方法で編成されます。
+Row Filter Header Cells には、Sketch の `Filter State` オーバーライドが付属しており、特定の列にフィルター条件が適用されているかどうかを構成できます。デフォルトでは **Empty** と表示されますが、**Filtered** に設定し、含まれている [Chip](chips.md) で条件を指定できます。Figma では、行フィルタリングは Grid Header Cell タイプの 1 つであり、プロパティ パネルから切り替えることができます。フィルター状態には、**Row Filter Empty** と **Row Filter Filtered** という 2 つの異なるタイプがあります。`Type` プロパティを調整することで、それらを簡単に切り替えることができます。Adobe XD では、`Component States` パラダイムを使用して状態を簡単に切り替えることができる `Filter State` レイヤーを介して、同じような方法で編成されます。
 
 ## その他のリソース
 

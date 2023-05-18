@@ -7,7 +7,7 @@ _language: ja
 
 # Hierarchical Grid (階層グリッド)
 
-Hierarchical Grid コンポーネントを使用して、ユーザーが個別のテーブルに編成された大量の複雑なデータ (階層的に関連する) をブラウスおよびインタラクションできるようにします。階層内の各グリッドは、データを表形式で表示し、[Grid](grid.md) と同じ機能を提供します。Hierarchical Grid は、[Ignite UI for Angular 階層グリッド コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/hierarchicalgrid/hierarchical_grid.html)と視覚的に同じものです。
+Hierarchical Grid コンポーネントを使用して、ユーザーが個別のテーブルに編成された大量の複雑なデータ (階層的に関連する) をブラウスおよびインタラクションできるようにします。階層内の各グリッドは、データを表形式で表示し、[Grid](grid.md) と同じ機能を提供します。Hierarchical Grid は、[Ignite UI for Angular Hierarchical Grid コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/hierarchicalgrid/hierarchical_grid.html)と視覚的に同じものです。
 
 ## Hierarchical Grid のデモ
 
@@ -50,7 +50,7 @@ Adobe XD では、3 つの[プリセット表示密度階層グリッド コン�
 | 🚫 metadata | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
 | 🌈 Drill Indication                  | アクティブ セルを示し、グリッドの階層を介してその所属を追跡するために使用されるシンボル。             |
 | Header                               | すべてのヘッダー セルが含まれます: CollapseAll セルと Repeat Grid Header にグループ化された残りのセル。                                                                                                 |
-| Body                                 | すべてのボディ セルが含まれます: Repeat Grid にグループ化された  Expand (展開) セルと別の Repeat Grid にグループ化された残りのセル、および基本構造を持つネストされた Grid。                                                                            |
+| Body                                 | すべての本文セルが含まれます: Repeat Grid にグループ化された  Expand (展開) セルと別の Repeat Grid にグループ化された残りのセル、および基本構造を持つネストされた Grid。                                                                            |
 | 🌈 Background                        | ネストされたグリッドの背景色を定義します。                                                                                                |
 
 Repeat Grid レイヤーを選択すると、必要な繰り返すセルの数を変更できます。これは、各グリッド内で実行できます。右端または下端にある緑色のハンドルをドラッグするだけで、データのすべてのディメンションが表示され、デザインに表示する必要のある数の表示可能なレコードが挿入されます。特定のセル タイプまたは列幅を変更するには、Repeat Grid レイヤーを選択し、右側のパネルで `Ungroup Grid` をクリックする必要があります。これにより、それらを個別に処理して、目的のデザインを実現できます。より多くの階層を表示する必要がある場合は、完全なグリッドを複製して、それらを所属させたい親グリッドの本体内にネストすることもできます。

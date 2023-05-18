@@ -17,7 +17,7 @@ Grid セルの編集はセルごとに行われ、Sketch の `Grid Feature` オ�
 
 ## 行の編集
 
-Grid 行編集は一度に 1 行ずつ行われ、`Grid Features` のオーバーライドを `Cell Feature/Row Editing` に設定すると、編集された行に属する Body Cell で構成されます。Sketch では、2 番目のオーバーライド `Editing State` を導入し、`Focus Cell` に設定することで、フォーカスされるセルを指定できます。この行の他のすべてのセルを `Rest Cell` に設定する必要があることに注意してください。Adobe XD では、上記の両方が `Grid Feature` レイヤーの `Component States` として使用できます。In Figma to indicate that a row is in editing state, you have to change the `Variant` property of all cells in that row. You can do this by selecting the `Grid Feature` layer in the layers panel under each body cell and changing the variant to `Row Editing Rest`.Change the variant to `Row Editing Focused` for the cell you want to present as focused.
+Grid 行編集は一度に 1 行ずつ行われ、`Grid Features` のオーバーライドを `Cell Feature/Row Editing` に設定すると、編集された行に属する Body Cell で構成されます。Sketch では、2 番目のオーバーライド `Editing State` を導入し、`Focus Cell` に設定することで、フォーカスされるセルを指定できます。この行の他のすべてのセルを `Rest Cell` に設定する必要があることに注意してください。Adobe XD では、上記の両方が `Grid Feature` レイヤーの `Component States` として使用できます。Figma で行が編集状態であることを示すには、その行内のすべてのセルの `Variant` プロパティを変更する必要があります。これを行うには、各本文セルの下のレイヤー パネルで `Grid Feature` レイヤーを選択し、バリアントを `Row Editing Rest` に変更します。フォーカスされたセルとして表示したいセルのバリアントを `Row Editing Focused` に変更します。
 
 <img class="responsive-img" src="../images/grid_row_edit.png" srcset="../images/grid_row_edit@2x.png 2x" />
 

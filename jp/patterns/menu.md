@@ -1,13 +1,13 @@
 ---
 title: Menu - デザイン システム パターン
 _description: Menu パターン シンボルはさまざまなコンポーネントを組み合わせ、eコマース、アプリケーション、Web サイトなどのさまざまなシナリオでナビゲーション バーを表示します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
 # Menu (メニュー)
 
-Menu シンボルは、ロゴ、メニュー項目、検索、さまざまなアクション、アカウント設定などの要素を含むアプリケーションまたは Web ページのナビゲーション バーを開発するためのプリセットとして使用します。
+Menu シンボル (コンポーネント) は、ロゴ、メニュー項目、検索、さまざまなアクション、アカウント設定などの要素を含むアプリケーションまたは Web ページのナビゲーション バーを開発するためのプリセットとして使用します。
 
 <img class="responsive-img" src="../images/menu.png" srcset="../images/menu@2x.png 2x" />
 

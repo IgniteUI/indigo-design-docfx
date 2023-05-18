@@ -1,7 +1,7 @@
 ---
 title: Data Visualizations - デザイン システム パターン
 _description: Data Visualizations パターン シンボルは、さまざまなレイアウトと表現でデータまたは情報の視覚化を提供します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -11,12 +11,13 @@ Data Visualizations パターンを使用して、Area、Column、Line、Spline 
 
 <img class="responsive-img" src="../images/data_visualizations.png" srcset="../images/data_visualizations@2x.png 2x" />
 
-Data Visualizations パターンは、含まれる Chart コンポーネント、Input および Text 要素により、スタイル設定に柔軟性があります。
+Data Visualization パターンは、含まれる Chart おとび Select コンポーネントにより、スタイル設定に柔軟性があります。
 
 ## その他のリソース
 
 関連トピック:
 
+- [Select](../components/select.md)
 - [Column Chart](../components/column-chart.md)
 - [Line Chart](../components/line-chart.md)
 - [Spline Chart](../components/spline-chart.md)
