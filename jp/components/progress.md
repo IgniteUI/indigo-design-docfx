@@ -1,7 +1,7 @@
 ﻿---
 title: Progress - デザイン システム コンポーネント
 _description: Progress コンポーネント シンボルは、タスクの状態、進捗、完了をビジュアルで示すインジケーターです。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -15,43 +15,48 @@ Progress コンポーネントは、タスクの進行状況について明確�
 
 ## 形状とタイプ
 
-Progress は、さまざまなユースケースとレイアウト要件に適合する 2 つのレイアウト形状をサポートしています: Circular Bar と Linear Bar。これらの各レイアウトには、進行のタイプの追加の選択が付属しています: Determinate および Indeterminate。
+進行状況インジケーターは、アプリの読み込み、フォームの送信、更新の保存など、進行中のプロセスのステータスをユーザーに通知します。Progress は、さまざまなユースケースとレイアウト要件に適合する 2 つのレイアウト形状をサポートしています: **Circular Bar** と **Linear Bar**。これらの各レイアウトには、進行のタイプの追加の選択が付属しています: **Determinate (確定)** および **Indeterminate (不確定)**。
 
-<img class="responsive-img" src="../images/progress_circular.png" srcset="../images/progress_circular@2x.png 2x" />
-<img class="responsive-img" src="../images/progress_linear.png" srcset="../images/progress_linear@2x.png 2x" />
+- **Determinate** インジケーターは、既知の期間または予想される完了時間を持つタスクまたはプロセスの進行状況を示します。
+- **Indeterminate** インジケーターは、プロセスが進行中であることを示しますが、正確な時間や進行状況は不明です。
+
+<img class="responsive-img" src="../images/progress_circular_determinate.png" srcset="../images/progress_circular_determinate@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_linear_determinate.png" srcset="../images/progress_linear_determinate@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_circular_indeterminate.png" srcset="../images/progress_circular_indeterminate@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_linear_indeterminate.png" srcset="../images/progress_linear_indeterminate@2x.png 2x" />
 
 ## 状態
 
 Progress は、以下のプリセット カラーの組み合わせの 1 つを使用できます。
 
-- **default**: デフォルトで基本原色を利用します。
-- error: `error` テーマ カラーを使用して進行状況を表示
-- info: `info` テーマ カラーを使用して進行状況を表示
-- success: `success` テーマの色を使用して進行状況を表示します。
-- warn: `warn` テーマの色を使用して進行状況を表示します。
+- **Default**: デフォルトで基本原色を利用します。
+- **Error**: `Error` テーマ カラーを使用して進行状況を表示
+- **Info**: `Info` テーマ カラーを使用して進行状況を表示
+- **Success**: `Success` テーマの色を使用して進行状況を表示します。
+- **Warn**: `Warn` テーマの色を使用して進行状況を表示します。
 
 <img class="responsive-img" src="../images/progress_default.png" srcset="../images/progress_default@2x.png 2x" />
-<img class="responsive-img" src="../images/progress_error.png" srcset="../images/progress_error@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_info.png" srcset="../images/progress_info@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_success.png" srcset="../images/progress_success@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_warn.png" srcset="../images/progress_warn@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_error.png" srcset="../images/progress_error@2x.png 2x" />
 
 ## Progress の量
 
-確定タイプの Progress を使用する場合、6 種類のパーセント値を Progress の量として選択できます。Sketch では、これは `Symbol Overrides` で簡単に切り替えることができますが、Adobe XD では、`Libraries` パネルから目的の量をドラッグし、`Progress Amount` レイヤーの上にドロップしてデフォルト値を変更する必要があります。 
+確定タイプの Progress を使用する場合、6 種類のパーセント値を Progress の量として選択できます。Figma では、右側のサイドバーにある `Progress Amount` プロパティからバリアントを選択できます。Sketch では、これは `Symbol Overrides` で簡単に切り替えることができますが、Adobe XD では、`Libraries` パネルから目的の量をドラッグし、`Progress Amount` レイヤーの上にドロップしてデフォルト値を変更する必要があります。 
 
 <img class="responsive-img" src="../images/progress_circular-progress-amount.png" srcset="../images/progress_circular-progress-amount@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_linear-progress-amount.png" srcset="../images/progress_linear-progress-amount@2x.png 2x" />
 
 ## ストライプ
 
-Progress コンポーネントに Linear Bar レイアウト形状を使用する場合、Fill 領域のストライプの追加オプションが付属します。Stripes を削除するには、`🌈 Stripes` 色オーバーライドを `transparent` に設定するだけです。
+Progress コンポーネントに Linear Bar レイアウト形状を使用する場合、Fill 領域のストライプの追加オプションが付属します。Stripes を削除するには、`🌈 Stripes` 色オーバーライド (Sketch) または Stripes レイヤー色 (Figma) を `transparent` に設定するだけです。
 
 <img class="responsive-img" src="../images/progress_linearstripes.png" srcset="../images/progress_linearstripes@2x.png 2x" />
 
 ## スタイル設定
 
-Progress は、さまざまなオプションを通じてテキストおよび必要に応じて、プログレス、基本色、ストリップ、塗りつぶし、トラックの色を柔軟にスタイル設定できます。
+Progress コンポーネントは、テキストの色、太さ、および位置をカスタマイズするためのさまざまなオプションがあり、高い自由度を持つスタイリングが可能です。さらに、Progress、Base、Stripes、Fill、および Track の色を必要に応じて調整できるため、あらゆるデザイン スキームにシームレスに統合できます。
 
 <img class="responsive-img" src="../images/progress_striped.png" srcset="../images/progress_striped@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_clear.png" srcset="../images/progress_clear@2x.png 2x" />

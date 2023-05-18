@@ -9,13 +9,13 @@
   new: true
 - name: デザイン システムの使用
   header: true
-- name: Figma でフレームを作成
-  href: ../creating-a-frame-in-figma.md
-  new: true
 - name: Sketch でアートボードを作成
   href: ../creating-artboard-sketch.md
 - name: Adobe XD でアートボードを作成
   href: ../creating-artboard-adobexd.md
+- name: Figma でフレームを作成
+  href: ../creating-a-frame-in-figma.md
+  new: true
 - name: プラグイン
   href: ../plugins/overview-plugins.md
   new: true
@@ -49,6 +49,9 @@
 - name: コンポーネント
   href: ../components/components-overview.md
   items:
+    - name: Accordion
+      href: ../components/accordion.md
+      new: true
     - name: Avatar
       href: ../components/avatar.md
     - name: Badge
@@ -81,6 +84,9 @@
           href: ../components/spline-chart.md
         - name: Step Line Chart
           href: ../components/step-line-chart.md
+        - name: Pie Chart
+          href: ../components/pie-chart.md
+          new: true
         - name: Skeleton Charts
           href: ../components/skeleton-charts.md
           new: true
@@ -187,6 +193,9 @@
     - name: Splitter
       href: ../components/splitter.md
       new: true
+    - name: Stepper
+      href: ../components/stepper.md
+      new: true  
     - name: Switch
       href: ../components/switch.md
     - name: Tabs

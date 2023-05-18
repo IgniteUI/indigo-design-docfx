@@ -1,7 +1,7 @@
 ---
 title: レイアウトのベスト プラクティス - デザイン システム
 _description: レイアウトの作成のベスト プラクティスおよびレスポンシブ動作の結果になるサイズ変更構成のベスト プラクティス。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Ignite UI for Angular, Angular 向けデザイン キット, HTML, HTML へのデザイン, UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Ignite UI for Angular, Angular 用のデザイン キット, HTML, HTML へのデザイン, UI キット
 _language: ja
 ---
 

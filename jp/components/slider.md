@@ -1,7 +1,7 @@
 ﻿---
 title: Slider - デザイン システム コンポーネント
 _description: Slider コンポーネント シンボルは、ユーザーの単一の値や範囲の選択をサポートします。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -27,7 +27,7 @@ Slider は、単一値の選択につまみと範囲を指定するための 2 �
 
 ## 状態
 
-Slider は、値の変更が可能かどうかを設定する**有効**/無効の状態をサポートします。Sketch では、状態ごとに異なるシンボルがありますが、Adobe XD では、状態を簡単に切り替えることができるように `Component States` パラダイムを使用します。
+Slider は、値の変更が可能かどうかを設定する**Enabled (有効)**/ Disabled (無効) の状態をサポートします。Figma では、右側のプロパティ パネルの [Disabled] ブール値プロパティを使用して、2 つを切り替えることができます。Sketch では、状態ごとに異なるシンボルがあります。Adobe XD では、状態を簡単に切り替えることができるように `Component States` パラダイムを使用します。
 
 <img class="responsive-img" src="../images/slider_enabled.png" srcset="../images/slider_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/slider_disabled.png" srcset="../images/slider_disabled@2x.png 2x" />
@@ -40,7 +40,7 @@ Slider は、さまざまなオプションを通じてラベル背景、つま�
 
 ## 使用方法
 
-Slider のトラック カラーは常にトラック ベース カラーより強調されます。単一値と範囲 Slider のスタイルを統一する必要があります (ラベル背景をつまみやトラック カラーとマッチするなど)。
+Slider トラックの色は、常にトラックのベースの色よりも強調する必要があり、単一値と範囲の両方の Sliders は一貫してスタイルを設定する必要があります。
 
 | 良い例                            | 悪い例                           |
 | ----------------------------- | ------------------------------- |
@@ -48,4 +48,3 @@ Slider のトラック カラーは常にトラック ベース カラーより�
 | <img class="responsive-img" src="../images/slider_do2.png" srcset="../images/slider_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/slider_dont2.png" srcset="../images/slider_dont2@2x.png 2x" /> |
 
 コミュニティに参加して新しいアイデアをご提案ください。
-

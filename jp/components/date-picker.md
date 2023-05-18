@@ -1,7 +1,7 @@
 ---
 title: Date Picker - デザイン システム コンポーネント
 _description: Date Picker コンポーネント シンボルは、日付選択に必要なメカニズムを提供する日付のビジュアル表現として使用します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット 
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -30,7 +30,7 @@ Date Picker は、水平および垂直方向の Dialog レイアウトおよび
 
 ## 週のはじめ
 
-週の開始日は、Date Picker の挿入時にオプションとして最も一般的なシナリオである日曜日と月曜日から選択できます。
+週の最初の曜日として、最も一般的な 2 つのシナリオ (日曜日と月曜日) をサポートしています。Figma では、[Starts On] プロパティから週の開始を選択できます。Sketch および Adobe XD では、日付ピッカーを挿入するときにオプションとして開始日を選択する必要があります。
 
 <img class="responsive-img" src="../images/datepicker_dropdown.png" srcset="../images/datepicker_dropdown@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_monday.png" srcset="../images/datepicker_monday@2x.png 2x" />
@@ -51,7 +51,7 @@ Calendar と同様に、Date Picker では 3 つの選択モードから選択�
 
 ## スタイル設定
 
-Time Picker は、さまざまなオプションでヘッダー背景、タイトル色、選択した時間、分、AM/PM のテキストの色の制御などスタイル設定に柔軟性があります。
+Date Picker は、さまざまなオプションでヘッダー背景、タイトル色、選択した日付や現在の日付などのテキストの色の制御などスタイル設定に柔軟性があります。
 
 <img class="responsive-img" src="../images/datepicker_styling.png" srcset="../images/datepicker_styling@2x.png 2x" />
 
@@ -75,4 +75,3 @@ Horizontal と Vertical Dialog Date Picker をダイアログで表示し、ダ�
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-

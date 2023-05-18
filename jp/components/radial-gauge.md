@@ -1,7 +1,7 @@
 ---
 title: Radial Gauge - デザイン システム コンポーネント
 _description: Radial Gauge コンポーネント シンボルはデータ可視化で特定のコンテキストの値を表示します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -17,13 +17,13 @@ Radial Gauge コンポーネントを円形のデータ可視化を使用し、�
 
 ## 針のタイプ
 
-Radial Gauge は、現在の値を示す針の形 (**needle**、trapezoid、triangle) を制御するさまざまなオーバライドをサポートします。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単にタイプを切り替えることができます。
+Radial Gauge は、現在の値を示す針の形 (Needle、Trapezoid、Triangle) を制御するさまざまなオーバライドをサポートします。Figma では、`Needle Shape` インスタンスを選択し、右側のサイドバーからタイプを選択することで、タイプを切り替えることができます。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単にタイプを切り替えることができます。
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_needle@2x.png 2x" />
 
 ## 目盛のタイプ
 
-Radial Gauge の目盛りは**外側**または内側に配置でき、厚い範囲と薄い範囲の領域に 2 つの内側の種類があります。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単にタイプを切り替えることができます。
+Radial Gauge の目盛りは外側または内側に配置でき、Thick 範囲と Thin 範囲の領域に 2 つの内側の種類があります。Figma では、右側のサイドバーにあるプロパティから `Ranges` と `Ticks` を選択できます。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単にタイプを切り替えることができます。
 
 <img class="responsive-img" src="../images/radial_gauge_inside.png" srcset="../images/radial_gauge_inside@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_outside.png" srcset="../images/radial_gauge_outside@2x.png 2x" />
@@ -31,7 +31,7 @@ Radial Gauge の目盛りは**外側**または内側に配置でき、厚い範
 
 ## 範囲
 
-Radial Gauge は、範囲 (**full**、half、および quarter) を表示するダイアルを制御するさまざまなオーバーライドを提供します。Sketch では、範囲を切り替えるには `Symbol Overrides` を使用する必要がありますが、Adobe XD では、上記のオプション用に Radial Gauge の個別のバリアントがあります。
+Radial Gauge は、範囲 (Full、Half、および Quarter) を表示するダイアルを制御するさまざまなオーバーライドを提供します。Figma で、右側のサイドバーから Ranges と Ticks で同じになるように `Range` プロパティを選択します。Sketch では、範囲を切り替えるには `Symbol Overrides` を使用する必要がありますが、Adobe XD では、上記のオプション用に Radial Gauge の個別のバリアントがあります。
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_half.png" srcset="../images/radial_gauge_half@2x.png 2x" />
@@ -39,14 +39,14 @@ Radial Gauge は、範囲 (**full**、half、および quarter) を表示する�
 
 ## Series Thickness (シリーズの厚さ)
 
-Radial Gauge には、**Thick** と Thin の 2 種類の Series Thickness があります。Sketch では、シリーズの厚さを切り替えるには `Symbol Overrides` を使用する必要がありますが、Adobe XD では、上記のオプション用に Radial Gauge の個別のバリアントがあります
+Radial Gauge には、**Thick** と Thin の 2 種類の Series Thickness があります。Figma では、右側のサイドバーのプロパティを使用して、2 つの Series Thickness オプションから選択します。Sketch では、シリーズの厚さを切り替えるには `Symbol Overrides` を使用する必要がありますが、Adobe XD では、上記のオプション用に Radial Gauge の個別のバリアントがあります
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_full-thin.png" srcset="../images/radial_gauge_full-thin@2x.png 2x" />
 
 ## 範囲のサイズ
 
-Radial Gauge は、定義済みの 3 つの範囲 (**2 つ**、3 つ、4 つ) 設定があります。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に範囲のサイズを切り替えることができます。
+Radial Gauge は、定義済みの 3 つの範囲 (**2 つ**、3 つ、4 つ) 設定があります。Figma では、右側のサイドバーの Ranges Amount プロパティからシリーズの量を変更できます。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に範囲のサイズを切り替えることができます。
 
 <img class="responsive-img" src="../images/radial_gauge_two_ranges.png" srcset="../images/radial_gauge_two_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
@@ -72,8 +72,8 @@ Radial Gauge のスタイル設定は高い柔軟性があり、背景色のオ�
 関連トピック:
 
 - [Bullet Graph](bullet-graph.md)
+- [Linear Gauge](linear-gauge.md)
 - [Line Chart](line-chart.md)
 - [Column Chart](column-chart.md)
-- [Linear Gauge](linear-gauge.md)
 
 コミュニティに参加して新しいアイデアをご提案ください。

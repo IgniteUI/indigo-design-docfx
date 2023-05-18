@@ -1,7 +1,7 @@
 ---
 title: Lists - Design System Pattern
-_description: The Lists Pattern Symbols depict various scenarios that use lists to organize some common collections of information on one or more levels in horizontal and vertical layout.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_description: The Lists Pattern depict various scenarios that use lists to organize some common collections of information on one or more levels in horizontal and vertical layout.
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
 ---
 
 # Lists
@@ -18,28 +18,22 @@ Use the Empty State List Pattern to illustrate search with no available results.
 
 <img class="responsive-img" src="../images/list_search_cannotfind.png" srcset="../images/list_search_cannotfind@2x.png 2x" />
 
-
-
-## Group of Items
-
-Use the Group of Items List Pattern to present grouped or organized items.
-
-<img class="responsive-img" src="../images/list_with_avatars.png" srcset="../images/list_with_avatars@2x.png 2x" />
-
 > [!WARNING]
-> In Sketch, after inserting any of the Lists available as a Pattern, you can trigger `Detach from Symbol` only if you need to add more items than provided. The individual List Items and Components such as Inputs, Avatars, and Navigation elements must stay intact and not be detached!
+> In **Figma**, after inserting any of the Lists Patterns, in case you need more items than provided, you need to detach it from the `Detach Component` option, after right-clicking on the component. In some cases you will need to detach again the nested lists to reuse the applied auto layout. In others, you will need to adjust the additional item's position manually. We highly recommend not detaching any other component nested in the List.
 >
-> In Adobe XD you can add a List Item by duplicating one of the existing ones and it will simply line up with the others due to the applied stack without ever having to ungroup the pattern itself.
+> In **Sketch**, after inserting any of the Lists available as a Pattern, you can trigger `Detach from Symbol` only if you need to add more items than provided. The individual List Items and Components such as Inputs, Avatars, and Navigation elements must stay intact and not be detached!
+>
+> In **Adobe XD** you can add a List Item by duplicating one of the existing ones and it will simply line up with the others due to the applied stack without ever having to ungroup the pattern itself.
 
 ## Additional Resources
 
 Related topics:
 
+- [Avatar](../components/avatar.md)
 - [Illustrations](../style/illustrations.md)
 - [Input](../components/input.md)
 - [List](../components/list.md)
-- [Avatar](../components/avatar.md)
 - [Navbar](../components/navbar.md)
-  <div class="divider--half"></div>
+- [Switch](../components/switch.md)
 
 Our community is active and always welcoming to new ideas.

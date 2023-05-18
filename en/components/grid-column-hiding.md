@@ -1,7 +1,7 @@
 ---
 title: Grid Column Hiding - Grid Feature
 _description: The Grid Column Hiding is a mechanism to hide and show columns of the Grid.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
 ---
 
 # Grid Column Hiding
@@ -14,7 +14,7 @@ Use the Grid Column Hiding to hide certain columns from the Grid. The easiest wa
 
 ## Toolbar and Header Cell
 
-The Grid Column Hiding can be achieved by adding a Toolbar with a Column Hiding action that enables the feature for the whole grid. However, in order to mark certain columns as hidable, you need to configure the `Column Hiding` override on the Grid Header Cell for the respective column in Sketch and set it to Hidden. In Adobe XD, the `Column Hiding` layer, uses the `Component States` paradigm to let you easily switch between states. The default value is **Visible**.
+The Grid Column Hiding can be achieved by adding a Toolbar with a Column Hiding action that enables the feature for the whole grid. However, in order to mark certain columns as hidable, you need to configure the `Column Hiding` override on the Grid Header Cell for the respective column in Sketch and set it to Hidden. In Figma, you need to open the Grid Header Cell of a certain column and set the `Feature` property of the nested `Column Hiding` component to `Hidden`. By default, the state is set to **Visible**. In Adobe XD, the `Column Hiding` layer uses the `Component States` paradigm to let you easily switch between states. The default value is **Visible**.
 
 ## Additional Resources
 
