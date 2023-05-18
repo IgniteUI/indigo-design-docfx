@@ -1,7 +1,7 @@
 ---
 title: Grid 高度なフィルター - Grid 機能
 _description: Grid 高度なフィルターは、複数の Grid 列にまたがる高度なフィルタリング条件の定義を可能にします。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -15,13 +15,13 @@ Grid 高度なフィルターを使用すると、Grid 上に表示されるダ�
 
 ## 高度なフィルター機能
 
-グリッドには、`Features` の下に 3 つの `Advanced Filtering` シンボルがあり、各表示密度に 1 つずつ、グリッド上に表示されるオーバーレイを表します。Adobe XD では、`Component States` を使用して表示密度を切り替えることができます。
+グリッドには、`Features` の下に 3 つの `Advanced Filtering` シンボルがあり、各表示密度に 1 つずつ、グリッド上に表示されるオーバーレイを表します。Figma では、プロパティ パネルの専用プロパティを使用して、さまざまな表示密度を切り替えることができます。Adobe XD では、`Component States` を使用して表示密度を切り替えることができます。
 
 <img class="responsive-img" src="../images/grid_advanced_filter_display_density.png" srcset="../images/grid_advanced_filter_display_density@2x.png 2x" />
 
 ## フィルター式状態
 
-高度なフィルター機能には、デフォルトで **Empty Filter** 式があり、必要に応じて Applied Filter に変更できます。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。これを設定したら、必要なフィルタリング基準を指定してさらにカスタマイズできます。
+高度なフィルター機能には、デフォルトで **Empty Filter** 式があり、必要に応じて Applied Filter に変更できます。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。これを設定したら、必要なフィルタリング基準を指定してさらにカスタマイズできます。Figma でデフォルトの空の状態を変更するには、レイヤー パネルで `Filter Expression State` コンポーネントを見つけて、コンポーネントのプロパティを `Empty Filter` から `Applied Filter` に切り替える必要があります。
 
 <img class="responsive-img" src="../images/grid_advanced_filter_expression.png" srcset="../images/grid_advanced_filter_expression@2x.png 2x" />
 

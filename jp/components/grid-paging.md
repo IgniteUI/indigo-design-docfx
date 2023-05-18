@@ -1,7 +1,7 @@
 ﻿---
 title: Grid ページング - グリッド機能
 _description: Grid ページング コンポーネントには、ユーザーが現在いる Grid ページの情報を提供するフッターがあり、Grid コンテンツのページ間をナビゲーションを可能にします。 
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
 _language: ja
 ---
 
@@ -25,6 +25,7 @@ Grid ページングは、さまざまなオプションを通じてラベルや
 
 - [Button](button.md)
 - [Grid](grid.md)
+- [Select](select.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

@@ -18,7 +18,7 @@ Stepper コンポーネントは、プロセスまたはワークフローを段
 
 ## タイプ
 
-Stepper コンポーネントは、Linear (リニア) と Non Linear (非リニア)の 2 つのタイプをサポートしています。Figma では、プロパティ パネルから 「Type」 プロパティを使用して切り替えることができます。Linear タイプは、ユーザーが、オプションではない前のステップを完了せずに次のステップに進むのを防ぐために使用されます。
+Stepper コンポーネントは、Linear (リニア) と Non Linear (非リニア) の 2 つのタイプをサポートしています。Figma では、プロパティ パネルから 「Type」 プロパティを使用して切り替えることができます。Linear タイプは、ユーザーが、オプションではない前のステップを完了せずに次のステップに進むのを防ぐために使用されます。
 
 <img class="responsive-img" src="../images/stepper_demo.png" srcset="../images/stepper_demo@2x.png 2x" />
 <img class="responsive-img" src="../images/stepper_non-linear.png" srcset="../images/stepper_non-linear@2x.png 2x" />
@@ -44,7 +44,7 @@ Stepper コンポーネントは、多数のネストされた Step および Pr
 <img class="responsive-img" src="../images/step_number.png" srcset="../images/step_number@2x.png 2x" />
 <img class="responsive-img" src="../images/step_icon.png" srcset="../images/step_icon@2x.png 2x" />
 
-また、あらゆるユース ケース シナリオをカバーできるよう、いくつかの Step 状態を提供します。以下が含まれます: Complete (完了)、Incomplete (未完了)、Disabled (無効)、Optional (オプション)、Invalid (無効)、Active (アクティブ)。これらはプロパティ パネルの 「State」 プロパティから切り替えることができます。また、Hover と Focused という 2 つの追加状態も提供します。これらは、ブール値プロパティ 「Hover」 と 「Focused」 をオン/オフに切り替えることで使用できます。 
+また、あらゆるユース ケース シナリオをカバーできるよう、いくつかの Step 状態を提供します。以下が含まれます: Complete (完了)、Incomplete (未完了)、Disabled (無効)、Optional (オプション)、Invalid (無効)、Active (アクティブ)。これらはプロパティ パネルの 「State」 プロパティから切り替えることができます。また、Hover と Focused という 2 つの追加状態も提供します。これらは、ブール値プロパティ 「Hover」 と 「Focused」 をオン/オフに切り替えることで使用できます。
 
 <img class="responsive-img" src="../images/step_state.png" srcset="../images/step_state@2x.png 2x" />
 <img class="responsive-img" src="../images/step_state2.png" srcset="../images/step_state2@2x.png 2x" />
@@ -56,7 +56,7 @@ Stepper コンポーネントは、多数のネストされた Step および Pr
 
 ## コンテンツ
 
-上記のように、Step が 「Active」 状態に設定されると、垂直 Stepper ではアクティブな Step のヘッダーの下に、水平 Stepper ではすべての Step の下に 「Content」 というフレームが表示されます。デフォルトでは、Content には単純なテキスト レイヤーが付属しており、アクティブなステップに関する情報を追加できます。カスタマイズしたい場合は、コンポーネントを右クリックして [Detach instance] を選択して、コンポーネントを切り離す必要があります。水平 Stepper の 「Content」 プロパティを使用するか、ネストされた Step コンポーネントに移動して、垂直 Stepper のブール値プロパティ 「Body」 をオフにすることで、完全に非表示にすることもできます。
+上記のように、Step が 「Active」 状態に設定されると、垂直 Stepper ではアクティブな Step のヘッダーの下に、水平 Stepper ではすべての Step の下に 「Content」 というフレームが表示されます。デフォルトでは、Content には単純なテキスト レイヤーが付属しており、アクティブなステップに関する情報を追加できます。カスタマイズしたい場合は、コンポーネントを右クリックして [Detach instance] を選択して、コンポーネントをデタッチする必要があります。水平 Stepper の 「Content」 プロパティを使用するか、ネストされた Step コンポーネントに移動して、垂直 Stepper のブール値プロパティ 「Body」 をオフにすることで、完全に非表示にすることもできます。
 
 <img class="responsive-img" src="../images/stepper_non-linear.png" srcset="../images/stepper_non-linear@2x.png 2x" />
 
@@ -68,7 +68,7 @@ Stepper には、インジケーター、テキスト、進行状況線の色の
 
 ## 使用方法 
 
-Linear Stepper を使用する場合、前のステップが完了するまで次のステップに進めないことをユーザーに明確に伝えるために、未完了のステップを 「Disabled」 状態に設定し、進行状況線も 「Inactive」 に設定してください。インジケーターとアイコン、およびインジケーターと数字を組み合わせることは避けてください。ユーザーがプロセス内のどの位置にいるのかについて適切なフィードバックを提供できるように、アクティブなステップを目立つようにしておきます。 
+Linear Stepper を使用する場合、前のステップが完了するまで次のステップに進めないことをユーザーに明確に伝えるために、未完了のステップを 「Disabled」 状態に設定し、進行状況線も 「Inactive」 に設定してください。インジケーターとアイコン、およびインジケーターと数字を組み合わせることは避けてください。ユーザーがプロセス内のどの位置にいるのかについて適切なフィードバックを提供できるように、アクティブなステップを目立つようにしておきます。
 
 | 良い例                                                                                 | 悪い例                                                                                  |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |

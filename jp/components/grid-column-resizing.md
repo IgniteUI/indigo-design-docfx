@@ -1,7 +1,7 @@
 ---
 title: Grid 列サイズ変更 - グリッド機能
 _description: Grid 列サイズ変更は、グリッドの列の幅を調整する構造です。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
@@ -15,11 +15,11 @@ Grid 列サイズ変更は、グリッド列のサイズ変更が可能なでき
 
 ## Header Cell (ヘッダー セル)
 
-列がサイズが変更可能であることを示するには、デフォルト値を **Not Resizable** から Resizable に変更すると、Sketch で列の Grid Header Cell の `Column Resizing` のオーバーライドを設定します。Adobe XD では、`Column Resizing` レイヤーは `Component States` パラダイムを使用して、状態を簡単に切り替えることができます。コード生成には、これにより列をサイズ変更可能としてマークします。
+列がサイズが変更可能であることを示するには、デフォルト値を **Not Resizable** から **Resizable** に変更すると、Sketch で列の Grid Header Cell の `Column Resizing` のオーバーライドを設定します。Figma でこれを行うには、レイヤー パネルに移動し、グリッド ヘッダー セル レイヤーを開き、`Column Resizing` コンポーネントのプロパティを **Resizable** から **Not Resizable** に変更する必要があります。Adobe XD では、`Column Resizing` レイヤーは `Component States` パラダイムを使用して、状態を簡単に切り替えることができます。コード生成には、これにより列をサイズ変更可能としてマークします。
 
 ## Column Resizing Indicator Feature (列サイズ変更インジケーター機能)
 
-グリッドの `Features` の下には、サイズ変更が発生する列全体の強調表示境界線を表す `Column Resizing Indicator` シンボルがあります。このシンボルを追加すると、デザインに視覚的な効果があるのみで、よりリアルになります。Column Resizing 機能を切り替えたい場合は、Header Cell を構成します。
+グリッドの `Features` の下には、サイズ変更が発生する列全体の強調表示境界線を表す `Column Resizing Indicator` シンボル / コンポーネントがあります。このシンボル / コンポーネントを追加すると、デザインに視覚的な効果があるのみで、よりリアルになります。Column Resizing 機能を切り替えたい場合は、Header Cell を構成します。
 
 ## その他のリソース
 
