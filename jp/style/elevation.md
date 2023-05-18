@@ -1,7 +1,7 @@
 ---
 title: Elevation - デザイン システム スタイリング
 _description: Elevations は、互いに積み重なったサーフェイスの相対的な位置を示すために使用されます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -15,10 +15,14 @@ Elevation は単純なロジックに従っています。Elevation の数値が
 
 <img class="responsive-img" src="../images/elevation_people.png" srcset="../images/elevation_people@2x.png 2x" />
 
-Sketch では、エレベーションは `🎨 Elevation` という名前の別のページにあり、任意の図形に適用できる Layer Styles として使用できます。それらを使用するコンポーネントでは、このスタイルを正しいレイヤーに適用しました。これは、ほとんどの場合、マスク レイヤー、または特別に指定された `Elevation` 長方形です。Adobe XD では、エレベーションはライブラリ ファイルの左側の列にある同じ名前のアートボードに配置され、コンポーネントやパターン全体で使用されるコンポーネントとして存在します。
+Figma では、エレベーションは `↳ Elevation` という別のページに配置されます。ほとんどの場合、これらはコンポーネントのフレームまたはコンポーネント構造内の背景レイヤーに適用され、プロパティ パネルで Effect スタイルとして使用できます。Sketch では、エレベーションは `🎨 Elevation` という名前の別のページにあり、任意の図形に適用できる Layer Styles として使用できます。それらを使用するコンポーネントでは、このスタイルを正しいレイヤーに適用しました。これは、ほとんどの場合、マスク レイヤー、または特別に指定された `Elevation` 長方形です。Adobe XD では、エレベーションはライブラリ ファイルの左側の列にある同じ名前のアートボードに配置され、コンポーネントやパターン全体で使用されるコンポーネントとして存在します。
 
 > [!Note]
-> コンポーネントのスタイルを変更して Elevation を変更することは Sketch で可能ですが、現在 Ignite UI for Angular では実装されていません。
+> コンポーネントのスタイルを変更して Elevation を変更することは Sketch と Figma で可能ですが、現在 Ignite UI for Angular では実装されていません。
+
+## Figma でスタンドアロン Elevation を使用
+
+エレベーションを単独で使用するには (たとえば、コンテンツの一部を持ち上げて、残りの部分よりも多くのフォーカスを描画する場合)、それを効果スタイルとして別の背景レイヤーに適用するだけです。プロジェクト内でフレームを使用している場合は、フレームに直接適用できますが、エレベーションを表示するために必ず塗りつぶしのカラーも適用してください。
 
 ## Sketch でスタンドアロン Elevation を使用
 

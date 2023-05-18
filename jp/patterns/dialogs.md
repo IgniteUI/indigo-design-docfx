@@ -1,7 +1,7 @@
 ---
 title: Dialogs - デザイン システム パターン
 _description: Dialog パターンは、ユーザーの注意を重要な情報やユーザーが実行する必要のあるアクションに向けるために使用されます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -11,7 +11,7 @@ Dialog パターンを使用して、ユーザーに警告するか、緊急の�
 
 <img class="responsive-img" src="../images/dialogs_demo.png" srcset="../images/dialogs_demo@2x.png 2x" />
 
-Dialog パターンには、レイアウトを構成する Buttons、Inputs、および List 要素によって提供されるスタイルの柔軟性があります。
+Dialog パターンには、レイアウトを構成する Button、Input、Switch および List 要素によって提供されるスタイルの柔軟性があります。
 
 ## その他のリソース
 
@@ -19,6 +19,7 @@ Dialog パターンには、レイアウトを構成する Buttons、Inputs、�
 
 - [Button](../components/button.md)
 - [Input](../components/input.md)
+- [Switch](../components/switch.md)
 - [List](../components/list.md)
   <div class="divider--half"></div>
 

@@ -9,13 +9,13 @@
   new: true
 - name: デザイン システムの使用
   header: true
+- name: Figma でフレームを作成
+  href: ../creating-a-frame-in-figma.md
+  new: true
 - name: Sketch でアートボードを作成
   href: ../creating-artboard-sketch.md
 - name: Adobe XD でアートボードを作成
   href: ../creating-artboard-adobexd.md
-- name: Figma でフレームを作成
-  href: ../creating-a-frame-in-figma.md
-  new: true
 - name: プラグイン
   href: ../plugins/overview-plugins.md
   new: true
@@ -33,19 +33,14 @@
   items:
     - name: Colors
       href: ../style/colors.md
-      updated: true
     - name: Elevation
       href: ../style/elevation.md
-      updated: true
     - name: Material Icons
       href: ../style/material-icons.md
-      updated: true
     - name: Typography
       href: ../style/typography.md
-      updated: true
     - name: Illustrations
       href: ../style/illustrations.md
-      updated: true
 - name: コンポーネント
   href: ../components/components-overview.md
   items:
@@ -58,7 +53,6 @@
       href: ../components/badge.md
     - name: Banner
       href: ../components/banner.md
-      new: true
     - name: Bottom Navigation
       href: ../components/bottom-nav.md
     - name: Button Group
@@ -86,18 +80,8 @@
           href: ../components/step-line-chart.md
         - name: Pie Chart
           href: ../components/pie-chart.md
-          new: true
         - name: Skeleton Charts
           href: ../components/skeleton-charts.md
-          new: true
-    - name: Gauges
-      items:
-        - name: Bullet Graph
-          href: ../components/bullet-graph.md
-        - name: Linear Gauge
-          href: ../components/linear-gauge.md
-        - name: Radial Gauge
-          href: ../components/radial-gauge.md
     - name: Checkbox
       href: ../components/checkbox.md
     - name: Chip と Chips Area
@@ -110,18 +94,23 @@
       href: ../components/dialog.md
     - name: Divider
       href: ../components/divider.md
-      new: true
     - name: Dropdown
       href: ../components/dropdown.md
     - name: Expansion Panel
       href: ../components/expansion-panel.md
-      new: true
+    - name: Gauges
+      items:
+        - name: Bullet Graph
+          href: ../components/bullet-graph.md
+        - name: Linear Gauge
+          href: ../components/linear-gauge.md
+        - name: Radial Gauge
+          href: ../components/radial-gauge.md
     - name: Grid
       href: ../components/grid.md
       items:
         - name: ツールバー
           href: ../components/grid-toolbar.md
-          updated: true
         - name: エクスポート
           href: ../components/grid-export.md
         - name: グループ化
@@ -142,7 +131,6 @@
           href: ../components/grid-excel-style-filter.md
         - name: Grid 高度なフィルター
           href: ../components/grid-advanced-filter.md
-          new: true
         - name: 行選択
           href: ../components/grid-row-selection.md
         - name: 編集
@@ -183,16 +171,17 @@
       href: ../components/progress.md
     - name: Radio Group
       href: ../components/radio-group.md
+    - name: Rating
+      href: ../components/rating.md
+      new: true
     - name: Select
       href: ../components/select.md
-      new: true
     - name: Slider
       href: ../components/slider.md
     - name: Snackbar
       href: ../components/snackbar.md
     - name: Splitter
       href: ../components/splitter.md
-      new: true
     - name: Stepper
       href: ../components/stepper.md
       new: true  
@@ -202,13 +191,15 @@
       href: ../components/tabs.md
     - name: Text Area
       href: ../components/textarea.md
-      new: true
     - name: Time Picker
       href: ../components/time-picker.md
     - name: Toast
       href: ../components/toast.md
     - name: Tooltip
       href: ../components/tooltip.md
+    - name: Tree
+      href: ../components/tree.md
+      new: true
     - name: Tree Grid
       href: ../components/tree-grid.md
       items:
@@ -216,6 +207,7 @@
           href: ../components/tree-grid-skeleton.md
 - name: パターン
   href: ../patterns/patterns-overview.md
+  updated: true
   items:
     - name: Audio / Video
       href: ../patterns/av.md
