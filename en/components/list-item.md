@@ -19,6 +19,12 @@ In Sketch and Figma the List Item comes in three preset types: Header for defini
 <img class="responsive-img" src="../images/list_item_header.png" srcset="../images/list_item_header@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_one-line.png" srcset="../images/list_item_one-line@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_two-line.png" srcset="../images/list_item_two-line@2x.png 2x" />
+<div class="divider--half"></div>
+
+In cases where the list item should contain three or four lines, you need to align the Avatar and Actions manually to the top because this is the expected behavior. These adjustments are currently possible and available in Figma **Indigo.Design System** UI kits.
+
+<img class="responsive-img" src="../images/list_item_three-line.png" srcset="../images/list_item_three-line@2x.png 2x" />
+<img class="responsive-img" src="../images/list_item_four-line.png" srcset="../images/list_item_four-line@2x.png 2x" />
 
 ## State
 
