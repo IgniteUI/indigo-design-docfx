@@ -52,19 +52,18 @@ The content supports a Paragraph for a short description text and an Array of sh
 
 ## Actions
 
-The Card actions come in six distinct layouts: **Button + Icon Actions** with two Flat Buttons and three Icons and the inverse **Icon + Button Actions** laid the other way around, as well as their Justified variants, and variants with only Justified Button Actions and Justified Icon Actions. Each of the six is defined as a variant with auto layout in Figma, letting you select the type from the Design tab in the right sidebar. In Sketch, Actions are defined as an override with a smart layout, letting you remove elements by setting them to ~No Symbol and have the rest automatically adjust to the desired layout. In Adobe XD, the same variety is available and you may also delete unnecessary layers with a layout that adjusts automatically thanks to the use of a Stack.
+- In **Figma**, the Card actions come in four different layouts: **Buttons+Icons**, the inverse **Icons+Buttons** both containing two Flat buttons and three Icons, and variants with **Only Buttons** and **Only Icons**. Every layout has a Justified variant which ensures that the elements are evenly spaced and are built with constraints for responsive behavior. The other four use auto layout for automatic layout adjustments. Additionally, there is a `Content Position` property that allows you to define the positions of the Buttons and Icons specifically for the **Only Buttons** and **Only Icons** variants.
 
-<img class="responsive-img" src="../images/card_actions_buttons_icons.png" srcset="../images/card_actions_buttons_icons@2x.png 2x" />
+|                   |  Justified Actions **Off**                                            |  Justified Actions **On**                                             |
+| ----------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Buttons + Icons   | <img class="responsive-img" src="../images/card_actions_buttons_icons.png" srcset="../images/card_actions_buttons_icons@2x.png 2x" /> | <img class="responsive-img" src="../images/card_actions_just_buttons_icons.png" srcset="../images/card_actions_just_buttons_icons@2x.png 2x" /> |
+| Icons + Buttons   | <img class="responsive-img" src="../images/card_actions_icons_buttons.png" srcset="../images/card_actions_icons_buttons@2x.png 2x" /> | <img class="responsive-img" src="../images/card_actions_just_icons_buttons.png" srcset="../images/card_actions_just_icons_buttons@2x.png 2x" /> |
+| Only Buttons      | <img class="responsive-img" src="../images/card_actions_buttons_right.png" srcset="../images/card_actions_buttons_right@2x.png 2x" /> <p style="width: 100%; text-align:left;">Content Position: Right</p> | <img class="responsive-img" src="../images/card_actions_just_buttons_left.png" srcset="../images/card_actions_just_buttons_left@2x.png 2x" /> <p style="width: 100%; text-align:left;">Content Position: Left</p>  |
+| Only Icons        | <img class="responsive-img" src="../images/card_actions_icons_right.png" srcset="../images/card_actions_icons_right@2x.png 2x" /> <p style="width: 100%; text-align:left;">Content Position: Right</p> | <img class="responsive-img" src="../images/card_actions_just_icons_left.png" srcset="../images/card_actions_just_icons_left@2x.png 2x" /> <p style="width: 100%; text-align:left;">Content Position: Left</p> |
 
-<img class="responsive-img" src="../images/card_actions_icons_buttons.png" srcset="../images/card_actions_icons_buttons@2x.png 2x" />
+- In **Sketch** the actions comes in six distinct layouts: **Button + Icon Actions** with two Flat Buttons and three Icons and the inverse **Icon + Button Actions** laid the other way around, as well as their Justified variants, and variants with only Justified Button Actions and Justified Icon Actions. Each of the six is defined as an override with a smart layout, letting you remove elements by setting them to ~No Symbol and have the rest automatically adjust to the desired layout.
 
-<img class="responsive-img" src="../images/card_actions_just_buttons_icons.png" srcset="../images/card_actions_just_buttons_icons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_actions_just_buttons.png" srcset="../images/card_actions_just_buttons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_actions_just_icons_buttons.png" srcset="../images/card_actions_just_icons_buttons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_actions_just_icons.png" srcset="../images/card_actions_just_icons@2x.png 2x" />
+- In **Adobe XD**, the same variety is available and you may also delete unnecessary layers with a layout that adjusts automatically thanks to the use of a Stack.
 
 ## Card Layout
 
