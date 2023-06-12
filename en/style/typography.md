@@ -23,7 +23,7 @@ To use the typography system in your project, all you need to do is apply one of
 - 6 Headlines from `H1` to `H6` for titles.
 - 2 `Subtitle` sizes.
 - 2 `Body` sizes for the paragraph content in you interface.
-- 3 `Hyperlink` sizes responding to the Body sizes and one of the Detail 1 size, for easy use the Hyperlink in texts.
+- 3 `Hyperlink` sizes corresponding to the Body sizes and the Detail 1 size, for easy use of the Hyperlink in texts.
 - 2 `Detail` sizes that are used exclusively in the Grid components.
 - A `Caption` and an `Overline` style that can be used for complimentary content.
 - A `BUTTON` style that is used exclusively in the Button components.
@@ -33,7 +33,7 @@ These styles also determine the type of text element and typography class that w
 - Paragraph `<p>` with typography class:
   - `igx-typography__subtitle-1`/ `igx-typography__subtitle-2` for the two subtitle typography styles.
   - `igx-typography__body-1`/`igx-typography__body-2` for the two body typography styles.
-  - `ig-typography__body-1 hyperlink`/`ig-typography__body-2 hyperlink` for the two of the three hyperlink typography styles.
+  - `ig-typography__body-1 hyperlink`/`ig-typography__body-2 hyperlink` for the two of the hyperlink typography styles.
   - `igx-typography__caption` for the caption typography style.
   - `igx-typography__overline` for the overline typography style.
 
