@@ -29,7 +29,7 @@ The Date Picker supports a Dialog layout with Horizontal and Vertical orientatio
 
 ## Week Start
 
-We support the two most common scenarios for the first day of the week: Sunday and Monday. In Figma you can select the start of the week from the `Week Start` property. In Sketch and Adobe XD the starting day should be chosen as an option at the time of inserting a Date Picker.
+We support the two most common scenarios for first day of the week: Sunday and Monday. In Figma you can select the start of the week from the `Week Start` property. In Sketch and Adobe XD the starting day should be chosen as an option at the time of inserting a Date Picker.
 
 <img class="responsive-img" src="../images/datepicker_dropdown.png" srcset="../images/datepicker_dropdown@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_monday.png" srcset="../images/datepicker_monday@2x.png 2x" />
