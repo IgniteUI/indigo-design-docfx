@@ -21,7 +21,7 @@ You may insert a Date Picker Input in your forms to indicate fields for selectin
 
 ## Picker Layout
 
-The Date Picker supports Dialog layout with Horizontal and Vertical orientation, as well as a Drop-down layout to facilitate different modes of picking dates, casting different shadows to be more easily distinguished from each other. Notice that Dialog layouts come with a Header that you may hide in Figma by switching off the boolean `Header` property and the layout will adjust itself accordingly thanks to the added auto layout. In Sketch you can achieve this by setting the Header's override to ~No Symbol, and through the use of a smart layout everything will adjust accordingly. In Adobe XD, you have to delete the header layer and the layout will adjust through the use of a Stack.
+The Date Picker supports a Dialog layout with Horizontal and Vertical orientation, as well as a Drop-down layout to facilitate different modes of picking dates, casting different shadows to be more easily distinguished from each other. Notice that Dialog layouts come with a Header that you may hide in Figma by switching off the boolean `Header` property and the layout will adjust itself accordingly thanks to the added auto layout. In Sketch you can achieve this by setting the Header's override to ~No Symbol, and through the use of a smart layout everything will adjust accordingly. In Adobe XD, you have to delete the header layer and the layout will adjust through the use of a Stack.
 
 <img class="responsive-img" src="../images/datepicker_horizontal.png" srcset="../images/datepicker_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_vertical.png" srcset="../images/datepicker_vertical@2x.png 2x" />
@@ -29,14 +29,14 @@ The Date Picker supports Dialog layout with Horizontal and Vertical orientation,
 
 ## Week Start
 
-We support the two most common scenarios for first day of the week: Sunday and Monday. In Figma you can select the start of the week from the `Week Start` property. In Sketch and Adobe XD the starting day should be chosen as an option at the time of inserting a Date Picker.
+We support the two most common scenarios for the first day of the week: Sunday and Monday. In Figma you can select the start of the week from the `Week Start` property. In Sketch and Adobe XD the starting day should be chosen as an option at the time of inserting a Date Picker.
 
 <img class="responsive-img" src="../images/datepicker_dropdown.png" srcset="../images/datepicker_dropdown@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_monday.png" srcset="../images/datepicker_monday@2x.png 2x" />
 
 ## Week Numbers
 
-The Date Picker has the same built-in support for Week Numbers like the Calendar. If you prefer not to show this part of the UI, simply switch off the boolean `Week Numbers` property in Figma and the layout will adjust itself accordingly thanks to the added auto layout. In Sketch this can be achieved by setting the Week Numbers override to ~No Symbol and through the use of smart layout, everything will adjust accordingly. In Adobe XD you have to delete the Week Numbers layer to achieve the same and the Stack used there will adjust the layout in a similar fashion.
+The Date Picker has the same built-in support for Week Numbers as the Calendar. If you prefer not to show this part of the UI, simply switch off the boolean `Week Numbers` property in Figma and the layout will adjust itself accordingly thanks to the added auto layout. In Sketch this can be achieved by setting the Week Numbers override to ~No Symbol and through the use of smart layout, everything will adjust accordingly. In Adobe XD you have to delete the Week Numbers layer to achieve the same and the Stack used there will adjust the layout in a similar fashion.
 
 <img class="responsive-img" src="../images/datepicker_weeknumbers.png" srcset="../images/datepicker_weeknumbers@2x.png 2x" />
 
