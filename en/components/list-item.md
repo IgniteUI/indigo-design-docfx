@@ -24,7 +24,7 @@ In Sketch and Figma the List Item comes in three preset types: Header for defini
 > [!NOTE]
 > To ensure proper alignment in cases where a list item consists of **three** or **four** lines, manual adjustment of the Avatar and Actions is required to align them to the top. This alignment is considered the expected behavior. Currently, this is possible and available in Figma **Indigo.Design System** and these adjustments are easily accessible and feasible.
 >
-> To achieve this top alignment, you should set the `State` and `Thumbnail` frames to **top left**. In rare cases where the Secondary Actions should consist text container and action icon, you should set the `Secondary Actions` frame to **top right** as well.
+> To achieve this top alignment, you should set the `State` and `Thumbnail` frames to **top left**. In rare cases where the Secondary Actions need to consist of a text container and an action icon, you should also set the `Secondary Actions` frame to **top right**.
 
 <img class="responsive-img" src="../images/list_item_three-line.png" srcset="../images/list_item_three-line@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_four-line.png" srcset="../images/list_item_four-line@2x.png 2x" />
