@@ -22,7 +22,7 @@ The Calendar comes in Horizontal or Vertical layout suited to display one month 
 
 ## Content
 
-To facilitate display of each of the major date portions, there's a "View" property in Figma, which lets you choose between Day, Month or Year view, while in Sketch and Adobe XD this should be chosen prior to insterting the component.
+To facilitate the display of each of the major date portions, there's a "View" property in Figma, which lets you choose between Day, Month, or Year view, while in Sketch and Adobe XD, this should be chosen prior to inserting the component.
 
 <img class="responsive-img" src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_months.png" srcset="../images/calendar_months@2x.png 2x" />
