@@ -35,7 +35,7 @@ The Bullet Graph comes with a tooltip that may be hidden by deleting the layer f
 
 ## Ranges Amount
 
-The Bullet Graph comes with three preset range configurations: two, three, and four. In Figma you can change the series amount by selecting the `Series Amount` instance from the layers panel and then choosing from the properties in the right sidebar. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD, we use the `Component States` paradigm to let you easily switch between them.
+The Bullet Graph comes with three preset range configurations: two, three, and four. In Figma you can change the Series amount using the `Series Amount` property in the properties panel. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD, we use the `Component States` paradigm to let you easily switch between them.
 
 <img class="responsive-img" src="../images/bullet_graph_two_ranges.png" srcset="../images/bullet_graph_two_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />
