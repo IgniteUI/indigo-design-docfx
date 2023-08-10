@@ -2,6 +2,7 @@
 title: Step Chart - デザイン システム コンポーネント
 _description: Step Chart コンポーネント シンボルは、データをステップに似ている直線で接続された一連のポイントとして表示します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_language: ja
 ---
 
 # Step Chart (ステップ チャート)
