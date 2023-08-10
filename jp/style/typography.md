@@ -7,7 +7,7 @@ _language: ja
 
 # Typography (タイポグラフィ)
 
-**Indigo.Design システム**には、タイポグラフィを構成し、テーマの書体を設定できる 13 のテキスト (文字) スタイルがあります。デフォルトで [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) を使用していますが、すべてのデザイナーがアプリケーションを柔軟にカスタマイズできるようにする必要があります。Indigo.Design は、[マテリアル タイプ システム](https://material.io/design/typography/the-type-system.html#type-scale)でタイポグラフィが定義されている方法に従い、[Ignite UI for Angular タイポグラフィ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes/typography)の実装に準拠しています。
+**Indigo.Design システム**には、タイポグラフィを構成し、テーマの書体を設定できる 18 のテキスト (文字) スタイルがあります。デフォルトで [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) を使用していますが、すべてのデザイナーがアプリケーションを柔軟にカスタマイズできるようにする必要があります。Indigo.Design は、[マテリアル タイプ システム](https://material.io/design/typography/the-type-system.html#type-scale)でタイポグラフィが定義されている方法に従い、[Ignite UI for Angular タイポグラフィ](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/themes/typography)の実装に準拠しています。
 
 <img class="responsive-img" src="../images/typography_default.png" srcset="../images/typography_default@2x.png 2x" />
 <div class="divider--half"></div>
@@ -24,6 +24,8 @@ _language: ja
 - タイトルの `H1` から `H6` までの 6 つの見出し。
 - 2 つの `Subtitle` サイズ。
 - 2 インターフェイスの段落コンテンツの `Body` サイズ。
+- 本文のサイズと詳細 1 のサイズに対応した 3 つの `Hyperlink` サイズが用意されており、テキスト内でハイパーリンクを簡単に使用できます。
+- グリッド コンポーネントでのみ使用される 2 つの `Detail` サイズ。
 - 無料のコンテンツに使用できる `Caption` と `Overline` スタイル。
 - Button コンポーネントでのみ使用される `BUTTON` スタイル。
 
@@ -32,6 +34,7 @@ _language: ja
 - タイポグラフィ クラスの段落 `<p>`:
   - 2 つの字幕タイポグラフィ スタイルの場合は、`igx-typography__subtitle-1`/`igx-typography__subtitle-2`。
   - 2 つの本体タイポグラフィ スタイルの場合は、`igx-typography__body-1`/`igx-typography__body-2`。
+  - 2 つのハイパーリンク タイポグラフィ スタイルの `ig-typography__body-1 hyperlink`/`ig-typography__body-2 hyperlink`。
   - キャプション タイポグラフィ スタイルの場合は `igx-typography__caption`。
   - オーバーライン タイポグラフィ スタイルの場合は `igx-typography__overline`。
 

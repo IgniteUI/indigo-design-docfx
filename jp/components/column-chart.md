@@ -7,7 +7,7 @@ _language: ja
 
 # Column Chart (縦棒チャート)
 
- Column Chart は、さまざまなカテゴリのデータの頻度、カウント、合計、平均を、幅が等しく高さが異なる垂直バーでエンコードされたデータとすばやく比較するために使用されるチャート タイプの 1 つです。項目の値の経時変化を示すのに理想的です。データは、チャートの下から上にデータ ポイントの値に向けて広がる矩形のコレクションよって表されます。
+ Column Chart は、さまざまなカテゴリのデータの頻度、カウント、合計、平均を、幅が等しく高さが異なる垂直バーでエンコードされたデータとすばやく比較するために使用されるチャート タイプの 1 つです。項目の値の経時変化を示すのに理想的です。データは、チャートの下から上にデータ ポイントの値に向けて広がる矩形のコレクションよって表されます。Column Chart は、[Ignite UI for Angular Column Chart コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/charts/types/column-chart.html)と視覚的に同じものです。
 
 ## Column Chart のデモ
 
@@ -17,7 +17,7 @@ Column Chart は、`Title`、デフォルトで非表示の `Legend`、および
 
 ## タイトル
 
-Column Chart のタイトルは、必要に応じて変更または非表示にできます。Sketch では、スマート レイアウトは ~No Symbol に設定してタイトルを非表示にしたときにチャートを調整します。Adobe XD では、タイトル レイヤーを削除することで同じことができます。Stack はそれに応じてレイアウトを更新します。
+Column Chart のタイトルは、必要に応じて変更または非表示にできます。Figma では、`Title` ブール値プロパティをオフに切り替えることでタイトルを非表示にすることができます。自動レイアウト機能のおかげで、チャートのレイアウトはそれに応じて自動的に調整されます。Sketch では、スマート レイアウトは ~No Symbol に設定してタイトルを非表示にしたときにチャートを調整します。Adobe XD では、タイトル レイヤーを削除することで同じことができます。Stack はそれに応じてレイアウトを更新します。
 
 <img class="responsive-img" src="../images/column_chart_title.png" srcset="../images/column_chart_title@2x.png 2x" />
 
@@ -42,7 +42,7 @@ Column Chart には、データ ポイントを Y 軸の値に視覚的にトレ
 
 ## Data Points (テータ ポイント)
 
-Column Chart のデータ ポイントは個々の縦棒で、Figma の自動レイアウト、Sketch のスマート レイアウトまたは Adobe XD の Stack に配置され、チャート領域で簡単にデータ量を調整できます。さらに、列には X 軸の構成可能なラベルと注釈ラベルが含まれています。
+Column Chart のデータ ポイントは個々の縦棒で、Figma の自動レイアウト、Sketch のスマート レイアウトまたは Adobe XD の Stack に配置され、チャート領域で簡単にデータ量を調整できます。Figma では、列の高さのフレームを選択し、プロパティ パネルから項目間の垂直方向の間隔を調整することで、列の高さを簡単に調整できます。さらに、列には X 軸の構成可能なラベルと注釈ラベルが含まれています。
 
 <img class="responsive-img" src="../images/column_chart_columns.png" srcset="../images/column_chart_columns@2x.png 2x" />
 
@@ -67,7 +67,7 @@ Column Chart では、シリーズの色を変更できます。Series.1、serie
 
 - [Line Chart](line-chart.md)
 - [Spline Chart](spline-chart.md)
-- [Step Line Chart](step-line-chart.md)
+- [Step Chart](step-chart.md)
 - [Pie Chart](pie-chart.md)
 - [Skeleton Charts](skeleton-charts.md)
   <div class="divider--half"></div>

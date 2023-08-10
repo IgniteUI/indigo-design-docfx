@@ -42,7 +42,7 @@ Linear Gauge は、現在の値を示す針の形 (Wide Triangle、Needle、Trap
 
 ## 範囲のサイズ
 
-Linear Gauge は、リニア済みの 3 つの範囲 (2 つ、**3 つ**、4 つ) 設定があります。Figma では、レイヤー パネルから `Series Amount` インスタンスを選択し、右側のサイドバーのプロパティから選択することで、シリーズの量を変更できます。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では、`Component States` パラダイムを使用して簡単に範囲を切り替えることができます。
+Linear Gauge は、リニア済みの 3 つの範囲 (2 つ、**3 つ**、4 つ) 設定があります。Figma では、プロパティ パネルの `Series Amount` プロパティを使用してシリーズの量を変更できます。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では、`Component States` パラダイムを使用して簡単に範囲を切り替えることができます。
 
 <img class="responsive-img" src="../images/linear_gauge_two_ranges.png" srcset="../images/linear_gauge_two_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
