@@ -38,19 +38,14 @@ Skeleton Card は、標準の [Card](card.md) の `image` (画像)、`header` (�
 
 ## 操作
 
-スケルトン操作には、標準の [Card](card.md) と同じ 6 つのレイアウトがあります。また、Figma の自動レイアウトで定義されているため、右側のサイドバーの [Design] タブからタイプを選択できます。Sketch では、それらはスマート レイアウトで定義されており、要素を ~No Symbol に設定することで要素を削除し、残りを目的のレイアウトに自動的に調整できます。Adobe XD では、Stack を使用して不要なコンポーネントを削除する場合も同様です。
+スケルトン操作には、標準の [Card](card.md) と同じレイアウトがあります。また、Figma の自動レイアウトで定義されているため、右側のサイドバーの [Design] タブからタイプを選択できます。Sketch では、それらはスマート レイアウトで定義されており、要素を ~No Symbol に設定することで要素を削除し、残りを目的のレイアウトに自動的に調整できます。Adobe XD では、Stack を使用して不要なコンポーネントを削除する場合も同様です。
 
-<img class="responsive-img" src="../images/card_skeleton_actions_buttons_icons.png" srcset="../images/card_skeleton_actions_buttons_icons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_skeleton_actions_icons_buttons.png" srcset="../images/card_skeleton_actions_icons_buttons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_skeleton_actions_just_buttons_icons.png" srcset="../images/card_skeleton_actions_just_buttons_icons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_skeleton_actions_just_buttons.png" srcset="../images/card_skeleton_actions_just_buttons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_skeleton_actions_just_icons_buttons.png" srcset="../images/card_skeleton_actions_just_icons_buttons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_skeleton_actions_just_icons.png" srcset="../images/card_skeleton_actions_just_icons@2x.png 2x" />
+|                   |  	両端揃えの操作**オフ**                                             |  	両端揃えの操作**オン**                                             |
+| ----------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Buttons + Icons   | <img class="responsive-img" src="../images/card_skeleton_actions_buttons_icons.png" srcset="../images/card_skeleton_actions_buttons_icons@2x.png 2x" /> | <img class="responsive-img" src="../images/card_skeleton_actions_just_buttons_icons.png" srcset="../images/card_skeleton_actions_just_buttons_icons@2x.png 2x" /> |
+| Icons + Buttons   | <img class="responsive-img" src="../images/card_skeleton_actions_icons_buttons.png" srcset="../images/card_skeleton_actions_icons_buttons@2x.png 2x" /> | <img class="responsive-img" src="../images/card_skeleton_actions_just_icons_buttons.png" srcset="../images/card_skeleton_actions_just_icons_buttons@2x.png 2x" /> |
+| Only Buttons    | <img class="responsive-img" src="../images/card_skeleton_actions_buttons_right.png" srcset="../images/card_skeleton_actions_buttons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_skeleton_actions_buttons_left.png" srcset="../images/card_skeleton_actions_buttons_left@2x.png 2x" /> | <img class="responsive-img" src="../images/card_skeleton_actions_just_buttons_right.png" srcset="../images/card_skeleton_actions_just_buttons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_skeleton_actions_just_buttons_left.png" srcset="../images/card_skeleton_actions_just_buttons_left@2x.png 2x" /> |
+| Only Icons       | <img class="responsive-img" src="../images/card_skeleton_actions_icons_right.png" srcset="../images/card_skeleton_actions_icons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_skeleton_actions_icons_left.png" srcset="../images/card_skeleton_actions_icons_left@2x.png 2x" /> | <img class="responsive-img" src="../images/card_skeleton_actions_just_icons_right.png" srcset="../images/card_skeleton_actions_just_icons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_skeleton_actions_just_icons_left.png" srcset="../images/card_skeleton_actions_just_icons_left@2x.png 2x" /> |
 
 ## Skeleton Card のレイアウト
 

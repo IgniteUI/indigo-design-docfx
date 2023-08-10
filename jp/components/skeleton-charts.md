@@ -57,7 +57,7 @@ Skeleton Line、Spline、および Step チャートには、データバイン�
 
 - [Line Chart](line-chart.md)
 - [Spline Chart](spline-chart.md)
-- [Step Line Chart](step-line-chart.md)
+- [Step Chart](step-chart.md)
 - [Column Chart](column-chart.md)
 - [Pie Chart](pie-chart.md)
   <div class="divider--half"></div>

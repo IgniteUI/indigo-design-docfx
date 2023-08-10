@@ -20,6 +20,15 @@ Sketch と Figma では、List Item には次の 3 つのプリセットタイ�
 <img class="responsive-img" src="../images/list_item_header.png" srcset="../images/list_item_header@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_one-line.png" srcset="../images/list_item_one-line@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_two-line.png" srcset="../images/list_item_two-line@2x.png 2x" />
+<div class="divider--half"></div>
+
+> [!NOTE]
+> リスト項目が **3** または **4** 行で構成されている場合に適切に配置するには、Avatar と Actions を手動で調整して先頭に配置する必要があります。この位置合わせは予期された動作とみなされます。現在、これは Figma **Indigo.Design システム**で可能であり、これらの調整は簡単にアクセスでき、実現可能です。 
+>
+> この上部の配置を実現するには、`State` フレームと `Thumbnail` フレームを **top left (左上)** に設定する必要があります。まれに、Secondary Actions をテキスト コンテナーと操作アイコンで構成する必要がある場合は、`Secondary Actions` フレームを **top right (右上)** に設定する必要もあります。 
+
+<img class="responsive-img" src="../images/list_item_three-line.png" srcset="../images/list_item_three-line@2x.png 2x" />
+<img class="responsive-img" src="../images/list_item_four-line.png" srcset="../images/list_item_four-line@2x.png 2x" />
 
 ## 状態
 

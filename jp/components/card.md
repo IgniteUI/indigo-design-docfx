@@ -50,19 +50,18 @@ Card ヘッダーは、Avatar Thumbnail、Title、および Subtitle 要素を�
 
 ## 操作
 
-Card 操作には、6 つの異なるレイアウトがあります: 2 つの Flat Button と 3 つの Icon を備えた **Button + Icon Actions**、その逆に配置された逆 **Icon + Button Actions**、それらの Justified バリアントおよび Justified Button Actions と Justified Icon Actions のみを備えたバリアントです。6 つのそれぞれは、Figma で自動レイアウトのバリアントとして定義されており、右側のサイドバーの [Design] タブからタイプを選択できます。Sketch では、Actions はスマート レイアウトの オーバーライドとして定義されており、要素を ~No Symbol に設定して要素を削除し、残りを自動的に目的のレイアウトに調整できます。Adobe XD でも同様の機能が利用でき、Stack を使用することでレイアウトが自動的に調整されるため、不要なレイヤーを削除することもできます。
+- **Figma** では、Card 操作は 4 つの異なるレイアウトで提供されます: **Buttons + Icons (ボタン + アイコン)**、両方とも 2 つのフラット ボタンと 3 つのアイコンを含む逆の **Icons + Buttons (アイコン + ボタン)**、および **Only Buttons (ボタンのみ)** と **Only Icons (アイコンのみ)** のバリアント。すべてのレイアウトには、要素が均等な間隔で配置され、応答性の高い動作のための制約が設定されて構築されることを保証する Justified バリアントがあります。その他の 4 つは自動レイアウトを使用して自動レイアウト調整を行います。さらに、**Only Buttons** および **Only Icons** のバリアントに特化して Button と Icon の位置を定義できる `Content Position` プロパティがあります。
 
-<img class="responsive-img" src="../images/card_actions_buttons_icons.png" srcset="../images/card_actions_buttons_icons@2x.png 2x" />
+|                   |  両端揃えの操作**オフ**                                            |  両端揃えの操作**オン**                                             |
+| ----------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Buttons + Icons   | <img class="responsive-img" src="../images/card_actions_buttons_icons.png" srcset="../images/card_actions_buttons_icons@2x.png 2x" /> | <img class="responsive-img" src="../images/card_actions_just_buttons_icons.png" srcset="../images/card_actions_just_buttons_icons@2x.png 2x" /> |
+| Icons + Buttons   | <img class="responsive-img" src="../images/card_actions_icons_buttons.png" srcset="../images/card_actions_icons_buttons@2x.png 2x" /> | <img class="responsive-img" src="../images/card_actions_just_icons_buttons.png" srcset="../images/card_actions_just_icons_buttons@2x.png 2x" /> |
+| Only Buttons     | <img class="responsive-img" src="../images/card_actions_buttons_right.png" srcset="../images/card_actions_buttons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_actions_buttons_left.png" srcset="../images/card_actions_buttons_left@2x.png 2x" /> | <img class="responsive-img" src="../images/card_actions_just_buttons_right.png" srcset="../images/card_actions_just_buttons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_actions_just_buttons_left.png" srcset="../images/card_actions_just_buttons_left@2x.png 2x" /> |
+| Only Icons        | <img class="responsive-img" src="../images/card_actions_icons_right.png" srcset="../images/card_actions_icons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_actions_icons_left.png" srcset="../images/card_actions_icons_left@2x.png 2x" /> | <img class="responsive-img" src="../images/card_actions_just_icons_right.png" srcset="../images/card_actions_just_icons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_actions_just_icons_left.png" srcset="../images/card_actions_just_icons_left@2x.png 2x" /> |
 
-<img class="responsive-img" src="../images/card_actions_icons_buttons.png" srcset="../images/card_actions_icons_buttons@2x.png 2x" />
+- **Sketch** では、操作は 6 つの異なるレイアウトで提供されます: 2 つの Flat Button と 3 つの Icon を備えた **Button + Icon Actions**、その逆に配置された逆 **Icon + Button Actions**、それらの Justified バリアントおよび Justified Button Actions と Justified Icon Actions のみを備えたバリアントです。6 つはそれぞれの Smart Layout でオーバーライドとして定義されており、要素を ~No Symbol に設定して要素を削除し、残りを自動的に目的のレイアウトに調整できます。
 
-<img class="responsive-img" src="../images/card_actions_just_buttons_icons.png" srcset="../images/card_actions_just_buttons_icons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_actions_just_buttons.png" srcset="../images/card_actions_just_buttons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_actions_just_icons_buttons.png" srcset="../images/card_actions_just_icons_buttons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_actions_just_icons.png" srcset="../images/card_actions_just_icons@2x.png 2x" />
+- **Adobe XD** でも同様の機能が利用でき、Stack を使用することでレイアウトが自動的に調整されるため、不要なレイヤーを削除することもできます。
 
 ## Card レイアウト
 

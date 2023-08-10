@@ -22,7 +22,7 @@ Date Picker コンポーネントは、日付を視覚的に表現し、フォ�
 
 ## Picker レイアウト
 
-Date Picker は、水平および垂直方向の Dialog レイアウトおよび Dropdown レイアウトをサポートしており、さまざまなシャドウを表示して互いに区別しやすくすることで、さまざまな日付の選択モードを容易にします。Dialog レイアウトには Header があり、Sketch でオーバーライドを ~No Symbol に設定して非表示にできます。スマート レイアウトを使用すると、すべてがそれに応じて調整されます。Adobe XD では、ヘッダー レイヤーを削除する必要があり、Stack を使用してレイアウトが調整されます。
+Date Picker は、水平および垂直方向の Dialog レイアウトおよび Dropdown レイアウトをサポートしており、さまざまなシャドウを表示して互いに区別しやすくすることで、さまざまな日付の選択モードを容易にします。Dialog レイアウトにはヘッダーが付属していることに注意してください。ブール値の `Header` プロパティをオフにすることで Figma でヘッダーを非表示にすることができ、追加された自動レイアウトのおかげでレイアウトはそれに応じて自動的に調整されます。Sketch では、Header のオーバーライドを ~No Symbol に設定することでこれを実現でき、スマート レイアウトを使用することですべてがそれに応じて調整されます。Adobe XD では、ヘッダー レイヤーを削除する必要があり、Stack を使用してレイアウトが調整されます。
 
 <img class="responsive-img" src="../images/datepicker_horizontal.png" srcset="../images/datepicker_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_vertical.png" srcset="../images/datepicker_vertical@2x.png 2x" />
@@ -30,14 +30,14 @@ Date Picker は、水平および垂直方向の Dialog レイアウトおよび
 
 ## 週のはじめ
 
-週の最初の曜日として、最も一般的な 2 つのシナリオ (日曜日と月曜日) をサポートしています。Figma では、[Starts On] プロパティから週の開始を選択できます。Sketch および Adobe XD では、日付ピッカーを挿入するときにオプションとして開始日を選択する必要があります。
+週の最初の曜日として、最も一般的な 2 つのシナリオ (日曜日と月曜日) をサポートしています。Figma では、`Week Start` プロパティから週の開始を選択できます。Sketch および Adobe XD では、日付ピッカーを挿入するときにオプションとして開始日を選択する必要があります。
 
 <img class="responsive-img" src="../images/datepicker_dropdown.png" srcset="../images/datepicker_dropdown@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_monday.png" srcset="../images/datepicker_monday@2x.png 2x" />
 
 ## Week Numbers (週番号)
 
-Date Picker には、Calendar と同じように Week Numbers のサポートが組み込まれています。UI のこの部分を表示したくない場合は、Sketch で Week Numbers オーバーライドを ~No Symbol に設定し、スマート レイアウトを使用してすべてが調整されます。Adobe XD で Week Numbers レイヤーを削除して同じことを実行し、そこで使用される Stack が同様の方法でレイアウトを調整します。
+Date Picker には、Calendar と同じように週番号のサポートが組み込まれています。 UI のこの部分を表示したくない場合は、Figma のブール値の `Week Numbers` プロパティをオフにするだけで、追加された自動レイアウトのおかげでレイアウトが自動的に調整されます。 Sketch では、Week Numbers オーバーライドを ~No Symbol に設定することでこれを実現でき、スマート レイアウトを使用することで、すべてがそれに応じて調整されます。Adobe XD で Week Numbers レイヤーを削除して同じことを実行し、そこで使用される Stack が同様の方法でレイアウトを調整します。
 
 <img class="responsive-img" src="../images/datepicker_weeknumbers.png" srcset="../images/datepicker_weeknumbers@2x.png 2x" />
 

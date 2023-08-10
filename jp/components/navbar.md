@@ -27,7 +27,7 @@ Navbar には、2 つの異なるタイプのバリエーションがありま�
 
 ## コンテンツのレイアウト
 
-Navbar のコンテンツは、Left Action と Title で構成される左側の領域と、シンプルなイベントをトリガーする用の 最大 4 つの隣接するアイコン (またはアイコン ボタン) がある右側の領域に分割されます。Figma では、ネストされた Icon および Icon Button コンポーネントに移動して、それらのアイコンを変更したり、レイヤー パネルから非表示にしたりできます。その後、コンテンツは自動レイアウトによって自動的に調整されます。Sketch では、アクションのいずれかを ~No Symbol に設定することでレイアウトを構成できます。スマート レイアウトにより、残りの要素は自動的に調整されます。Adobe XD では、不要なコンポーネントを削除するだけで同じことができ、レイアウトは Stack から自動的に調整されます。さらに、Sketch とは異なり、Libraries パネルから追加のコンポーネントを挿入できます。たとえば、右端に Avatar を表示できます。
+Navbar のコンテンツは、Left Action と Title (Figma の Left Action と Title が入った Content フレーム) で構成される左側の領域と、シンプルなイベントをトリガーする用の 最大 4 つの隣接するアイコン (またはアイコン ボタン) がある右側の領域に分割されます。Figma では、ネストされた Icon および Icon Button コンポーネントに移動して、それらのアイコンを変更したり、レイヤー パネルから非表示にしたりできます。その後、コンテンツは自動レイアウトによって自動的に調整されます。Sketch では、アクションのいずれかを ~No Symbol に設定することでレイアウトを構成できます。スマート レイアウトにより、残りの要素は自動的に調整されます。Adobe XD では、不要なコンポーネントを削除するだけで同じことができ、レイアウトは Stack から自動的に調整されます。さらに、Sketch とは異なり、Libraries パネルから追加のコンポーネントを挿入できます。たとえば、右端に Avatar を表示できます。
 
 <img class="responsive-img" src="../images/navbar_left&right.png" srcset="../images/navbar_left&right@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_noright.png" srcset="../images/navbar_noright@2x.png 2x" />

@@ -31,7 +31,7 @@ Avatar のサイズは 3 つあります。
 
 ## 図形
 
-アバターは、円形と四角形の異なる 2 つの図形があります。
+アバターは、円形と四角形の異なる 2 つの形状があります。Figma では、角丸四角形の形状もサポートしています。
 
 <img class="responsive-img" src="../images/avatar_type.png" srcset="../images/avatar_type@2x.png 2x" />
 
