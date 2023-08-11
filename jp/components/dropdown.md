@@ -41,7 +41,7 @@ Dropdown は、項目ヘッダーと項目の 2 つのタイプをサポート�
 
 ## 項目レイアウト テンプレート
 
-Dropdown Item は柔軟なアイコンとラベルのテンプレートをサポートします。現在、Figma ではプレフィックス アイコンはサポートされていませんが、間もなく追加される予定です。Sketch でアイコンを表示するには、オーバーライドを Icon/Medium に設定し、スマート レイアウト ルールが項目レイアウトを自動的に調整します。Adobe XD では、アイコン レイヤーを表示し、Stack に配置してレイアウトを自動的に調整することで同じことが可能ですが、コンテンツにアイコンのある項目が必要ない場合は、アイコン レイヤーを削除します。
+Dropdown Item は柔軟なアイコンとラベルのテンプレートをサポートします。Figma でアイコンを表示するには、ドロップダウンで 1 つまたはすべての項目を選択し、`Prefix Icon` プロパティをオンにする必要があります。Sketch でアイコンを表示するには、オーバーライドを Icon/Medium に設定し、スマート レイアウト ルールが項目レイアウトを自動的に調整します。Adobe XD では、アイコン レイヤーを表示し、Stack に配置してレイアウトを自動的に調整することで同じことが可能ですが、コンテンツにアイコンのある項目が必要ない場合は、アイコン レイヤーを削除します。
 
 <img class="responsive-img" src="../images/dropdown_item_label.png" srcset="../images/dropdown_item_label@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_icon.png" srcset="../images/dropdown_item_icon@2x.png 2x" /> 

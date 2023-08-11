@@ -37,19 +37,14 @@ The content area supports a Paragraph for a short description text and an Array 
 
 ## Actions
 
-The skeleton actions map to the same six layouts that can be found in the standard [Card](card.md). They are also defined with auto layout in Figma, letting you select the type from the Design tab in the right sidebar, with a smart layout in Sketch, letting you remove elements by setting them to ~No Symbol and have the rest automatically adjust to the desired layout. In Adobe XD, the use of a Stack lets you achieve the same when you remove unnecessary components.
+The skeleton actions map to the same layouts that can be found in the standard [Card](card.md). They are also defined with auto layout in Figma, letting you select the type from the Design tab in the right sidebar, with a smart layout in Sketch, letting you remove elements by setting them to ~No Symbol and have the rest automatically adjust to the desired layout. In Adobe XD, the use of a Stack lets you achieve the same when you remove unnecessary components.
 
-<img class="responsive-img" src="../images/card_skeleton_actions_buttons_icons.png" srcset="../images/card_skeleton_actions_buttons_icons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_skeleton_actions_icons_buttons.png" srcset="../images/card_skeleton_actions_icons_buttons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_skeleton_actions_just_buttons_icons.png" srcset="../images/card_skeleton_actions_just_buttons_icons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_skeleton_actions_just_buttons.png" srcset="../images/card_skeleton_actions_just_buttons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_skeleton_actions_just_icons_buttons.png" srcset="../images/card_skeleton_actions_just_icons_buttons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_skeleton_actions_just_icons.png" srcset="../images/card_skeleton_actions_just_icons@2x.png 2x" />
+|                   |  Justified Actions **Off**                                            |  Justified Actions **On**                                             |
+| ----------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Buttons + Icons   | <img class="responsive-img" src="../images/card_skeleton_actions_buttons_icons.png" srcset="../images/card_skeleton_actions_buttons_icons@2x.png 2x" /> | <img class="responsive-img" src="../images/card_skeleton_actions_just_buttons_icons.png" srcset="../images/card_skeleton_actions_just_buttons_icons@2x.png 2x" /> |
+| Icons + Buttons   | <img class="responsive-img" src="../images/card_skeleton_actions_icons_buttons.png" srcset="../images/card_skeleton_actions_icons_buttons@2x.png 2x" /> | <img class="responsive-img" src="../images/card_skeleton_actions_just_icons_buttons.png" srcset="../images/card_skeleton_actions_just_icons_buttons@2x.png 2x" /> |
+| Only Buttons      | <img class="responsive-img" src="../images/card_skeleton_actions_buttons_right.png" srcset="../images/card_skeleton_actions_buttons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_skeleton_actions_buttons_left.png" srcset="../images/card_skeleton_actions_buttons_left@2x.png 2x" /> | <img class="responsive-img" src="../images/card_skeleton_actions_just_buttons_right.png" srcset="../images/card_skeleton_actions_just_buttons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_skeleton_actions_just_buttons_left.png" srcset="../images/card_skeleton_actions_just_buttons_left@2x.png 2x" /> |
+| Only Icons        | <img class="responsive-img" src="../images/card_skeleton_actions_icons_right.png" srcset="../images/card_skeleton_actions_icons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_skeleton_actions_icons_left.png" srcset="../images/card_skeleton_actions_icons_left@2x.png 2x" /> | <img class="responsive-img" src="../images/card_skeleton_actions_just_icons_right.png" srcset="../images/card_skeleton_actions_just_icons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_skeleton_actions_just_icons_left.png" srcset="../images/card_skeleton_actions_just_icons_left@2x.png 2x" /> |
 
 ## Skeleton Card Layout
 

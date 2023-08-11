@@ -41,7 +41,7 @@ The Linear Gauge provides various overrides that control the shape of the needle
 
 ## Ranges Amount
 
-The Linear Gauge comes with three preset range configurations: two, three, and four ranges. In Figma you can change the series amount by selecting the `Series Amount` instance from the layers panel and then choosing from the properties in the right sidebar. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD, we use the `Component States` paradigm to let you easily switch between them.
+The Linear Gauge comes with three preset range configurations: two, three, and four ranges.In Figma you can change the Series amount using the `Series Amount` property in the properties panel. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD, we use the `Component States` paradigm to let you easily switch between them.
 
 <img class="responsive-img" src="../images/linear_gauge_two_ranges.png" srcset="../images/linear_gauge_two_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />

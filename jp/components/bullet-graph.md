@@ -36,7 +36,7 @@ Bullet Graph には、Figma および Adobe XD でレイヤーを削除し、Ske
 
 ## 範囲のサイズ
 
-Bullet Graph は、定義済みの 3 つの範囲 (**2 つ**、3 つ、4 つ) 設定があります。Figma では、レイヤー パネルから `Series Amount` インスタンスを選択し、右側のサイドバーのプロパティから選択することで、シリーズの量を変更できます。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+Bullet Graph は、定義済みの 3 つの範囲 (**2 つ**、3 つ、4 つ) 設定があります。Figma では、プロパティ パネルの `Series Amount` プロパティを使用してシリーズの量を変更できます。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/bullet_graph_two_ranges.png" srcset="../images/bullet_graph_two_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />

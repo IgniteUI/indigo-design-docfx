@@ -23,7 +23,7 @@ Calendar は、一度に 1 か月を表示するのに適した Horizontal ま�
 
 ## コンテンツ
 
-主要な日付部分のそれぞれの表示を容易にするために、Figma には「Type」プロパティがあり、Day (日)、Month (月)、または Year (年) のビューを選択できますが、Sketch および Adobe XD では、コンポーネントを挿入する前にこれを選択する必要があります。
+主要な日付部分のそれぞれの表示を容易にするために、Figma には「View」プロパティがあり、Day (日)、Month (月)、または Year (年) のビューを選択できますが、Sketch および Adobe XD では、コンポーネントを挿入する前にこれを選択する必要があります。
 
 <img class="responsive-img" src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_months.png" srcset="../images/calendar_months@2x.png 2x" />
@@ -36,15 +36,15 @@ Figma では、週の開始日を「Week Start」プロパティから選択で�
 <img class="responsive-img" src="../images/calendar_sun.png" srcset="../images/calendar_sun@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
 
-## ヘッダー
+## Header (ヘッダー)
 
-Calendar には組み込み可能な Header があり、省略できます。Figma では、これは「Show Header」ブール値プロパティを使用して実現できます。Sketch でスマート レイアウトを使用すると、Header を ~No Symbol に設定できます。これにより、フォームにシームレスに埋め込むことができる基本の Calendar が作成されます。Adobe XD では、Header レイヤーを削除することで同じことができ、残りのレイアウトは自動的に調整されます。
+Calendar には組み込み可能な Header があり、省略できます。Figma では、これは「Header」ブール値プロパティを使用して実現できます。Sketch でスマート レイアウトを使用すると、Header を ~No Symbol に設定できます。これにより、フォームにシームレスに埋め込むことができる基本の Calendar が作成されます。Adobe XD では、Header レイヤーを削除することで同じことができ、残りのレイアウトは自動的に調整されます。
 
 <img class="responsive-img" src="../images/calendar_base.png" srcset="../images/calendar_base@2x.png 2x" />
 
-## 週番号
+## Week Numbers (週番号)
 
-Calendar には週番号のサポートも組み込まれていますが、UI のこの部分を表示したくない場合は、Figma のレイヤー パネルから Week Numbers フレームを非表示にするか、Sketch で Week Numbers を ~No Symbol に設定するか、Adobe XD でレイヤーを削除します。
+Calendar には週番号のサポートも組み込まれていますが、UI のこの部分を表示したくない場合は、Figma のプロパティ パネルから「Week Numbers」ブール値プロパティをオフにするか、Sketch で Week Numbers を ~No Symbol に設定するか、Adobe XD でレイヤーを削除します。
 
 <img class="responsive-img" src="../images/calendar_weeknum.png" srcset="../images/calendar_weeknum@2x.png 2x" />
 

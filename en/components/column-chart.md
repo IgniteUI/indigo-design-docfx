@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Column Chart
 
- The Column Chart is among the most common chart types used to quickly compare frequency, count, total, or average of data in different categories with data encoded by vertical bars of equal width and differing heights. They are ideal for showing variations in the value of an item over time. Data is represented using a collection of rectangles that extend from the bottom to the top of the chart towards the values of data points.
+ The Column Chart is among the most common chart types used to quickly compare frequency, count, total, or average of data in different categories with data encoded by vertical bars of equal width and differing heights. They are ideal for showing variations in the value of an item over time. Data is represented using a collection of rectangles that extend from the bottom to the top of the chart towards the values of data points. The Column Chart is visually identical to the [Ignite UI for Angular Column Chart Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/charts/types/column-chart.html)
 
 ## Column Chart Demo
 
@@ -16,7 +16,7 @@ The Column Chart comprises of `Title`, a `Legend` that is hidden by default, and
 
 ## Title
 
-The Column Chart has a title that can be changed or hidden if not needed. In Sketch, the smart layout takes care to adjust the chart accordingly when you hide the title by setting it to ~No Symbol. In Adobe XD, you can achieve the same by deleting the title layer and leaving it to the Stack to update the layout accordingly.
+The Column Chart has a title that can be changed or hidden if not needed. In Figma you can hide the title by switching off the `Title` boolean property and thanks to the auto layout feature, the chart's layout will adjust itself accordingly. In Sketch, the smart layout takes care to adjust the chart accordingly when you hide the title by setting it to ~No Symbol. In Adobe XD, you can achieve the same by deleting the title layer and leaving it to the Stack to update the layout accordingly.
 
 <img class="responsive-img" src="../images/column_chart_title.png" srcset="../images/column_chart_title@2x.png 2x" />
 
@@ -41,7 +41,7 @@ The Column Chart has built-in Gridlines to make it easier to visually trace a da
 
 ## Data Points
 
-Data Points for a Column Chart are the individual columns, arranged in an auto layout in Figma, in smart layout in Sketch or a Stack in Adobe XD, making it possible to effortlessly adjust their amount on the Chart Area. Furthermore, the columns come with configurable labels on the X-axis and annotation labels.
+Data Points for a Column Chart are the individual columns, arranged in an auto layout in Figma, in smart layout in Sketch or a Stack in Adobe XD, making it possible to effortlessly adjust their amount on the Chart Area. In Figma you can easily ajdust the columns' height by selecting the Column height frame and adjusting the vertical spacing between the items from the properties panel. Furthermore, the columns come with configurable labels on the X-axis and annotation labels.
 
 <img class="responsive-img" src="../images/column_chart_columns.png" srcset="../images/column_chart_columns@2x.png 2x" />
 
@@ -66,7 +66,7 @@ Related topic:
 
 - [Line Chart](line-chart.md)
 - [Spline Chart](spline-chart.md)
-- [Step Line Chart](step-line-chart.md)
+- [Step Chart](step-chart.md)
 - [Pie Chart](pie-chart.md)
 - [Skeleton Charts](skeleton-charts.md)
   <div class="divider--half"></div>

@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, E
 
 # Typography
 
-There are 13 text (character) styles in the **Indigo.Design System** that constitute its typography and let you set up your theme's typeface. Although we are using [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) as a default, we really want to give every designer the flexibility to craft his applications with style. Indigo.Design follows the way typography is defined in the [Material Type System](https://material.io/design/typography/the-type-system.html#type-scale) and complies with the implementation of the [Ignite UI for Angular Typography](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes/typography).
+There are 18 text (character) styles in the **Indigo.Design System** that constitute its typography and let you set up your theme's typeface. Although we are using [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) as a default, we really want to give every designer the flexibility to craft his applications with style. Indigo.Design follows the way typography is defined in the [Material Type System](https://material.io/design/typography/the-type-system.html#type-scale) and complies with the implementation of the [Ignite UI for Angular Typography](https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes/typography).
 
 <img class="responsive-img" src="../images/typography_default.png" srcset="../images/typography_default@2x.png 2x" />
 <div class="divider--half"></div>
@@ -23,14 +23,17 @@ To use the typography system in your project, all you need to do is apply one of
 - 6 Headlines from `H1` to `H6` for titles.
 - 2 `Subtitle` sizes.
 - 2 `Body` sizes for the paragraph content in you interface.
+- 3 `Hyperlink` sizes corresponding to the Body sizes and the Detail 1 size, for easy use of the Hyperlink in texts.
+- 2 `Detail` sizes that are used exclusively in the Grid components.
 - A `Caption` and an `Overline` style that can be used for complimentary content.
-- A `BUTTON` style that is used exclusively in the Button components
+- A `BUTTON` style that is used exclusively in the Button components.
 
 These styles also determine the type of text element and typography class that will be generated for the related layer in the application. The following elements will be generated based on the Typography Text Style applied to a generic text layer:
 - Headlines `<h1>` to `<h6>` for the headlines typography styles.
 - Paragraph `<p>` with typography class:
   - `igx-typography__subtitle-1`/ `igx-typography__subtitle-2` for the two subtitle typography styles.
   - `igx-typography__body-1`/`igx-typography__body-2` for the two body typography styles.
+  - `ig-typography__body-1 hyperlink`/`ig-typography__body-2 hyperlink` for the two of the hyperlink typography styles.
   - `igx-typography__caption` for the caption typography style.
   - `igx-typography__overline` for the overline typography style.
 

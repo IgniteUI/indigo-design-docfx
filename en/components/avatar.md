@@ -30,7 +30,7 @@ The Avatar comes in three different sizes:
 
 ## Shape
 
-The avatar comes in two distinct types determined by its shape: a circle and a square form.
+The avatar comes in two distinct types, determined by its shape: a circle and a square form. In Figma we also support a rounded square shape.
 
 <img class="responsive-img" src="../images/avatar_type.png" srcset="../images/avatar_type@2x.png 2x" />
 

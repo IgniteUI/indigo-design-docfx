@@ -46,7 +46,7 @@ Radial Gauge には、**Thick** と Thin の 2 種類の Series Thickness があ
 
 ## 範囲のサイズ
 
-Radial Gauge は、定義済みの 3 つの範囲 (**2 つ**、3 つ、4 つ) 設定があります。Figma では、右側のサイドバーの Ranges Amount プロパティからシリーズの量を変更できます。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に範囲のサイズを切り替えることができます。
+Radial Gauge は、定義済みの 3 つの範囲 (**2 つ**、3 つ、4 つ) 設定があります。Figma では、プロパティ パネルの `Series Amount` プロパティを使用してシリーズの量を変更できます。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に範囲のサイズを切り替えることができます。
 
 <img class="responsive-img" src="../images/radial_gauge_two_ranges.png" srcset="../images/radial_gauge_two_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />

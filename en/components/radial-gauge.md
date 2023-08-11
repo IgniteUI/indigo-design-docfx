@@ -45,7 +45,7 @@ The Radial Gauge comes with two kinds of Series Thickness: Thick and Thin. In Fi
 
 ## Ranges Amount
 
-The Radial Gauge comes with three preset range configurations: two, three, and four ranges. In Figma you can change the series amount from the Ranges Amount property in the right sidebar. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between ranges amounts.
+The Radial Gauge comes with three preset range configurations: two, three, and four ranges. In Figma you can change the Series amount using the `Series Amount` property in the properties panel. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between ranges amounts.
 
 <img class="responsive-img" src="../images/radial_gauge_two_ranges.png" srcset="../images/radial_gauge_two_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
