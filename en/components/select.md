@@ -61,6 +61,16 @@ In Sketch, the states and validation states are achieved with `Symbol Overrides`
 > [!NOTE]
 > The Select input has only one layout option, but this override has been preserved in Sketch to ensure consistency with the standard [Input](input.md). In Figma on the other hand we have a separate base component called `.Select Input`, which is used explicitly on the Select component.
 
+## Layout
+
+The Select has rich support for Prefix and Suffix through a combination of text and icons. In Figma, removing the Prefix or Suffix can be achieved in the properties panel by switching them on or off. In Sketch, to remove the Prefix or Suffix simply set their override to ~No Symbol, and the smart layout rules will adjust the Select accordingly. In Adobe XD, the same can be achieved by switching on and off the Prefix and/or Suffix layer visibility, and the Stack will take care to adjust the layout accordingly.
+
+<img class="responsive-img" src="../images/select_prefix.png" srcset="../images/select_prefix@2x.png 2x" />
+
+<img class="responsive-img" src="../images/select_suffix.png" srcset="../images/select_suffix@2x.png 2x" />
+
+<img class="responsive-img" src="../images/select_prefix+suffix.png" srcset="../images/select_prefix+suffix@2x.png 2x" />
+
 ## Drop Down Items
 
 The drop down used for the Select supports two types of items: header and single selection type. Through headers, it is possible to organize items in groups. In Figma, the Drop Down component utilizes the auto layout option, which makes sure all items are placed accordingly, once you hide or add one or more items. In Sketch, the Drop Down uses a Smart Layout allowing it to adjust accordingly when one or more of its items are set to ~No Symbol. In Adobe XD you should delete the unnecessary ones, and the layout will adjust through the use of a Stack.
