@@ -14,7 +14,7 @@ The Rating component enables users to apply a rating to an item or experience, s
 
 ## Using the Rating in Figma
 
-The Rating is built from Label and Value, where the Value is the number of the rating scale. The number of icons in the rating scale is predefined to 5 stars in total, but if you need to design a Rating with more rating icons, the easiest way to do so is by inserting the component into your workspace. After that, right-clicking on the component will open a contextual menu, where `Detach instance` should be selected, and you should see the following detached layer structure:
+The Rating is built from Label and Value, where the Value is the number of the rating scale. The Label can be switched on/off using a boolean property. The number of icons in the rating scale is predefined to 5 stars in total, but if you need to design a Rating with more rating icons, the easiest way to do so is by inserting the component into your workspace. After that, right-clicking on the component will open a contextual menu, where `Detach instance` should be selected, and you should see the following detached layer structure:
 
 | Layer                        | Use                                                                                                                                                  |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -53,7 +53,7 @@ In Figma, when inserted, the Rating component is always enabled by default. You 
 
 ## State
 
-The Rating component has an `Empty State` and it can be switched on and off from a boolean property in Figma. In addition, there is a `Value` property in Figma, which is the opposite of the `Empty State` and allows you to select the fulfillment of the Rating Value from predefined options from 0 to 5 (supporting half star as well). In Sketch this can be achieved easily with ~Symbol Overrides.
+The Rating component has an `Empty State` and it can be switched on and off from a boolean property in Figma. In addition, there is a `Value` property in Figma, which is the opposite of the `Empty State` and allows you to select the fulfillment of the Value from predefined options from 0 to 5 (supporting half star as well). In Sketch this can be achieved easily with ~Symbol Overrides.
 
 <img class="responsive-img" src="../images/rating_enabled_empty-state.png" srcset="../images/rating_enabled_empty-state@2x.png 2x" />
 <img class="responsive-img" src="../images/rating_value2.5.png" srcset="../images/rating_value2.5@2x.png 2x" />
