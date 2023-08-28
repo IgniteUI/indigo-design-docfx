@@ -43,7 +43,7 @@ You may also set the state of a radio button in the group to disabled to disallo
 
 ## State
 
-Each Radio element in the group supports **on** and off selection states. In Figma you can select the state from the `State` property in the right sidebar. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
+Each Radio element in the group supports **on** and off selection states. In Figma you can switch the state from the `Checked` boolean property in the right sidebar. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
 <img class="responsive-img" src="../images/radiogroup_demo.png" srcset="../images/radiogroup_demo@2x.png 2x" />
 
