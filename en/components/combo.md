@@ -8,6 +8,9 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, E
 
 Use the Combo component to allow users to select an option from a predefined list of choices or enter their own value. When the user clicks on the arrow down icon, a Dropdown list of options is displayed, and they can select one of the options, search for an value, or type their own value into the text box. The Combo is visually identical to the [ Ignite UI for Angular Combobox Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/combo.html)
 
+> [!Note]
+> The Combo has two layout options: Combo with Multiple Select `(Combo)` and [Single Select Combo (Simple Combo) ](simple-combo.md)
+
 ## Combo Demo
 
 The Combo has two pieces: an Input containing the current selection and a Dropdown that is shown in order to select one or more items.
@@ -46,7 +49,7 @@ Every experienced designer uses constraints wisely to limit the user input and a
 In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them. In Figma changing the states is achieved via the properties panel.
 
 > [!Note]
-> The Combo input has only one layout option, but this override has been preserved in Sketch to ensure consistency with the standard [Input](input.md). In Figma on the other hand we have a separate base component called `.Combo Input`, which is used explicitly in the Combo component.
+> The Combo input has only one layout option, but this override has been preserved in Sketch to ensure consistency with the standard [Input](input.md). In Figma on the other hand we have a separate base component called `.Combo Input`, which is used explicitly in the Combo component. The same is used for the Simple Combo as well.
 
 ## Dropdown Type
 
@@ -58,7 +61,7 @@ The Dropdown used for the Combo comes with the appropriate sizing for desktop an
 
 ## Dropdown Search Input
 
-In Sketch the Dropdown contains a Search Input that comes with a selection of states and options for layout akin to the standard [Input](input.md).
+In Figma and Sketch the Dropdown contains a Search Input that comes with a selection of states and options for layout akin to the standard [Input](input.md).
 
 ## Dropdown Items
 
@@ -98,6 +101,7 @@ Related topics:
 - [Dropdown](dropdown.md)
 - [Form Pattern](../patterns/form.md)
 - [Input](input.md)
+- [Simple Combo](simple-combo.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
