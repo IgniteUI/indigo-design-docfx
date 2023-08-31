@@ -6,14 +6,14 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, E
 
 # Combo
 
-Use the Combo component to allow users to select an option from a predefined list of choices or enter their own value. When the user clicks on the arrow down icon, a Dropdown list of options is displayed, and they can select one of the options, search for an value, or type their own value into the text box. The Combo is visually identical to the [ Ignite UI for Angular Combobox Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/combo.html)
+Use the Combo component to allow users to select an option from a predefined list of choices or enter their own value. When the user clicks on the arrow down icon, a Dropdown list of options is displayed, and they can select one of the options, search for a value, or type their own value into the text box. The Combo is visually identical to the [ Ignite UI for Angular Combobox Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/combo.html)
 
 > [!Note]
 > The Combo has two layout options: Combo with Multiple Select `(Combo)` and [Single Select Combo (Simple Combo) ](simple-combo.md)
 
 ## Combo Demo
 
-The Combo has two pieces: an input containing the current selection and a Dropdown that is shown in order to select one or more items.
+The Combo has two pieces: an input containing the current selection or a placeholder and a Dropdown that is shown in order to select one or more items.
 
 <img class="responsive-img" src="../images/combo_demo.png" srcset="../images/combo_demo@2x.png 2x" />
 
@@ -49,11 +49,11 @@ Every experienced designer uses constraints wisely to limit the user input and a
 In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them. In Figma changing the states is achieved via the properties panel.
 
 > [!Note]
-> The Combo Input has only one layout option, but this override has been preserved in Sketch to ensure consistency with the standard [Input](input.md). In Figma on the other hand we have a separate base component called `.Combo Input`, which is used explicitly in the Combo component. The same is used for the Simple Combo as well. The Combo Input has a Prefix container which can be switched on and off.
+> The Combo Input has only one layout option, but this override has been preserved in Sketch to ensure consistency with the standard [Input](input.md). In Figma we have a separate base component called `.Combo Input`, which is explicitly used in the Combo component for both Single and Multiple selection types. The Combo Input has a Prefix container which can be switched **on** and **off**.
 
 ## Dropdown Type
 
-The Dropdown used for the Combo comes with the appropriate sizing for desktop and mobile use similarly to the normal [Dropdown](dropdown.md) component. The Dropdown can be switched **on** and **off** from a boolean property which can visually affect the input, but that it's an expected behaviour.
+The Dropdown used for the Combo comes with the appropriate sizing for desktop and mobile use similarly to the normal [Dropdown](dropdown.md) component. The Dropdown can be switched **on** and **off** from a boolean property which can visually affect the input, but this is an expected behaviour.
 
 | Desktop | Mobile |
 | ------- | ------- |
@@ -72,7 +72,7 @@ The Dropdown used for the Combo supports two types of items: header and multi-se
 
 ## Dropdown Item States
 
-The Dropdown items within the Combo support three different states: **Idle**, **Hover** and **Focused**. **Disabled** and **Selected** states can be switched on and off from a boolean properties and they are applicable for all states of the Dropdown.
+The Dropdown items within the Combo support three different states: **Idle**, **Hover** and **Focused**. **Disabled** and **Selected** states can be switched on and off from boolean properties and they are applicable for all states of the Dropdown.
 
 |  | Idle | Hover | Focused | Disabled |
 |  | ---- | ----- | ------- | -------- |

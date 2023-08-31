@@ -49,7 +49,7 @@ Every experienced designer uses constraints wisely to limit the user input and a
 In Figma changing the states is achieved via the properties panel.
 
 > [!Note]
-> In Figma we have a separate base component called `.Combo Input`, which is explicitly used in the Combo component for both Single and Multiple selection types.
+> In Figma we have a separate base component called `.Combo Input`, which is explicitly used in the Combo component for both Single and Multiple selection types. The Combo Input has a Prefix container which can be switched **on** and **off**.
 
 ## Dropdown Type
 
@@ -72,7 +72,7 @@ The Dropdown used for the Simple Combo supports two types of items: header and s
 
 ## Dropdown Item States
 
-The Dropdown items within the Simple Combo support three different states: **Idle**, **Hover** and **Focused**. **Disabled** and **Selected** states can be switched on and off from a boolean property. The states of the Simple Combo Dropdown items are visually identical to the Combo Dropdown items without the checkbox icon for multiple selection.
+The Dropdown items within the Simple Combo support three different states: **Idle**, **Hover** and **Focused**. **Disabled** and **Selected** states can be switched on and off from boolean properties. The states of the Simple Combo Dropdown items are visually identical to the Combo Dropdown items without the checkbox icon for multiple selection.
 
 |  | Idle | Hover | Focused | Disabled |
 |  | ---- | ----- | ------- | -------- |
