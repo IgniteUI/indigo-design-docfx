@@ -1,25 +1,25 @@
 ---
 title: Simple Combo - Design System Component
-_description: The Simple Combo Component allows a single selection of multiple items from a collection.
+_description: The Simple Combo Component Symbol allows a single selection of an item from a collection.
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
 ---
 
 # Simple Combo
 
-Use the Simple Combo component to allow users to select an option from a predefined list of choices or enter their own value. When the user clicks on the drop-down arrow, a drop down list of options is displayed, and they can either select one of the options or search for an value into the text box. The Combo is visually identical to the [ Ignite UI for Angular Single Select ComboBox Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/simple-combo.html)
+Use the Simple Combo component to allow users to select an option from a predefined list of choices or enter their own value. When the user clicks on the dropdown arrow, a dropdown list of options is displayed, and they can either select one of the options or search for an value into the text box. The Combo is visually identical to the [ Ignite UI for Angular Single Select ComboBox Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/simple-combo.html)
 
 > [!Note]
 > The Combo has two layout options: Combo with Single Select `(Simple Combo)` and [Combo (Multiple Select) ](combo.md)
 
 ## Simple Combo Demo
 
-The Simple Combo has two pieces: an input containing the current selection and a drop down that is shown in order to select an option from a predefined dropdown list.
+The Simple Combo has two pieces: an input containing the current selection and a dropdown that is shown in order to select an option from a predefined dropdown list.
 
 <img class="responsive-img" src="../images/simple-combo_demo.png" srcset="../images/simple-combo_demo@2x.png 2x" />
 
 ## Simple Combo Input Type
 
-The Simple Combo input provides selection between a border type for a more structured perception on solid color backgrounds, and a boxed type that is most appropriate when placed on top of a vivid image to improve readability. Since we are deprecating the line style, in Figma we have only the border and box types available.
+The Simple Combo Input provides selection between a border type for a more structured perception on solid color backgrounds, and a boxed type that is most appropriate when placed on top of a vivid image to improve readability.
 
 | Border | Box |
 | ------- | ------- |
@@ -27,7 +27,7 @@ The Simple Combo input provides selection between a border type for a more struc
 
 ## Interaction State
 
-Each of the two Simple Combo input types can be inserted in an **enabled** or **disabled** state. Since we are deprecating the line style, in Figma we have only the border and box types available and they can be switched **on** and **off** to a `Disabled` state from the properties panel. The disabled state of the Simple Combo is visually identical to the [Combo (Multiple Select) ](combo.md)
+Each of the two Simple Combo Input types can be inserted in an **enabled** or **disabled** state. In Figma we have border and box types available and they can be switched **on** and **off** to a `Disabled` state from the properties panel.
 
 <img class="responsive-img" src="../images/combo_enabled.png" srcset="../images/simple-combo_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_disabled.png" srcset="../images/simple-combo_disabled@2x.png 2x" />
@@ -49,11 +49,11 @@ Every experienced designer uses constraints wisely to limit the user input and a
 In Figma changing the states is achieved via the properties panel.
 
 > [!Note]
-> In Figma we have a separate base component called `.Combo Input`, which is used explicitly in the Simple Combo component. The same is used for the Combo as well.
+> In Figma we have a separate base component called `.Combo Input`, which is explicitly used in the Combo component for both Single and Multiple selection types.
 
 ## Dropdown Type
 
-The Dropdown used for the Simple Combo comes with the appropriate sizing for desktop and mobile use similarly to the normal [Dropdown](dropdown.md) component.
+The Dropdown used for the Simple Combo comes with the appropriate sizing for desktop and mobile use similarly to the normal [Dropdown](dropdown.md) component. The Dropdown can be switched **on** and **off** from a boolean property which can visually affect the input, but that it's an expected behaviour.
 
 | Desktop | Mobile |
 | ------- | ------- |
@@ -72,7 +72,7 @@ The Dropdown used for the Simple Combo supports two types of items: header and s
 
 ## Dropdown Item States
 
-The Dropdown items within the Simple Combo support three different states: **Idle**, **Hover** and **Focused**. **Disabled** and **Selected** states can be switched on and off from a boolean property and they are applicable for all states of the Dropdown. The states of the Simple Combo Dropdown items are visually identical to the Combo Dropdown items without the checkbox icon for multiple selection.
+The Dropdown items within the Simple Combo support three different states: **Idle**, **Hover** and **Focused**. **Disabled** and **Selected** states can be switched on and off from a boolean property. The states of the Simple Combo Dropdown items are visually identical to the Combo Dropdown items without the checkbox icon for multiple selection.
 
 |  | Idle | Hover | Focused | Disabled |
 |  | ---- | ----- | ------- | -------- |
