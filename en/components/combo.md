@@ -29,8 +29,8 @@ The Combo input provides selection between a line type for a more airy style, bo
 
 Each of the three Combo Input types can be inserted in an **enabled** or **disabled** state. Since we are deprecating the line style, in Figma we have only the border and box types available and they can be switched on and off to a disabled state from the properties panel.
 
-<img class="responsive-img" src="../images/combo_enabled.png" srcset="../images/combo_enabled@2x.png 2x" />
-<img class="responsive-img" src="../images/combo_disabled.png" srcset="../images/combo_disabled@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_enabledstate.png" srcset="../images/combo_enabledstate@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_disabledstate.png" srcset="../images/combo_disabledstate@2x.png 2x" />
 
 ## State
 
@@ -76,8 +76,8 @@ The Dropdown items within the Combo support three different states: **Idle**, **
 
 |  | Idle | Hover | Focused | Disabled |
 |  | ---- | ----- | ------- | -------- |
-|  | <img class="responsive-img" src="../images/combo_item_idle.png" srcset="../images/combo_item_idle@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_item_hover.png" srcset="../images/combo_item_hover@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_item_focused.png" srcset="../images/combo_item_focused@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_item_idle-disabled.png" srcset="../images/combo_item_idle-disabled@2x.png 2x" /> |
-| Selected | <img class="responsive-img" src="../images/combo_item_idle-selected.png" srcset="../images/combo_item_idle-selected@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_item_hover-selected.png" srcset="../images/combo_item_hover-selected@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_item_focused-selected.png" srcset="../images/combo_item_focused-selected@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_item_selected-disabled.png" srcset="../images/combo_item_selected-disabled@2x.png 2x" /> |
+|  | <img class="responsive-img" src="../images/combo_item_idle.png" srcset="../images/combo_item_idle@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_item_hover.png" srcset="../images/combo_item_hover@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_item_focused.png" srcset="../images/combo_item_focused@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_item_idle_disabled.png" srcset="../images/combo_item_idle_disabled@2x.png 2x" /> |
+| Selected | <img class="responsive-img" src="../images/combo_item_selected.png" srcset="../images/combo_item_selected@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_item_selected_hover.png" srcset="../images/combo_item_selected_hover@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_item_selected_focused.png" srcset="../images/combo_item_selected_focused@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_item_selected_disabled.png" srcset="../images/combo_item_selected_disabled@2x.png 2x" /> |
 
 ## Styling
 
