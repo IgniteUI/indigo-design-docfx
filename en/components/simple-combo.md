@@ -6,20 +6,20 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, E
 
 # Simple Combo
 
-Use the Simple Combo component to allow users to select an option from a predefined list of choices or enter their own value. When the user clicks on the dropdown arrow, a dropdown list of options is displayed, and they can either select one of the options or search for an value into the text box. The Combo is visually identical to the [ Ignite UI for Angular Single Select ComboBox Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/simple-combo.html)
+Use the Simple Combo component to allow users to select an option from a predefined list of choices or enter their own value. When the user clicks on the dropdown arrow, a dropdown list of options is displayed, and they can either select one of the options or search for a value from the input. The Single Select Combo is visually identical to the [ Ignite UI for Angular Single Select ComboBox Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/simple-combo.html)
 
 > [!Note]
 > The Combo has two layout options: Combo with Single Select `(Simple Combo)` and [Combo (Multiple Select) ](combo.md)
 
 ## Simple Combo Demo
 
-The Simple Combo has two pieces: an input containing the current selection and a dropdown that is shown in order to select an option from a predefined dropdown list.
+The Simple Combo has two pieces: an Input containing the current selection or a placeholder, and a Dropdown that is shown in order to select an option from a predefined dropdown list.
 
 <img class="responsive-img" src="../images/simple-combo_demo.png" srcset="../images/simple-combo_demo@2x.png 2x" />
 
-## Simple Combo Input Type
+## Combo Input Type
 
-The Simple Combo Input provides selection between a border type for a more structured perception on solid color backgrounds, and a boxed type that is most appropriate when placed on top of a vivid image to improve readability.
+The Combo Input provides selection between a border type for a more structured perception on solid color backgrounds, and a boxed type that is most appropriate when placed on top of a vivid image to improve readability.
 
 | Border | Box |
 | ------- | ------- |
@@ -27,7 +27,7 @@ The Simple Combo Input provides selection between a border type for a more struc
 
 ## Interaction State
 
-Each of the two Simple Combo Input types can be inserted in an **enabled** or **disabled** state. In Figma we have border and box types available and they can be switched **on** and **off** to a `Disabled` state from the properties panel.
+Each of the two Combo Input types can be inserted in an **enabled** or **disabled** state. In Figma we have border and box types available and they can be switched **on** and **off** to a `Disabled` state from the properties panel.
 
 <img class="responsive-img" src="../images/combo_enabledstate.png" srcset="../images/combo_enabledstate@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_disabledstate.png" srcset="../images/combo_disabledstate@2x.png 2x" />
@@ -40,7 +40,7 @@ When the user interacts with the Simple Combo, its input goes through various se
 | ------- | ------- | ------- |
 | <img class="responsive-img" src="../images/simple-combo_idle.png" srcset="../images/simple-combo_idle@2x.png 2x" /> | <img class="responsive-img" src="../images/simple-combo_focused.png" srcset="../images/simple-combo_focused@2x.png 2x" /> | <img class="responsive-img" src="../images/simple-combo_filled.png" srcset="../images/simple-combo_filled@2x.png 2x" /> |
 
-Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Combo is consistent with the standard [Input](input.md) and equipped for sophisticated designs that display success, warning, and error visuals.
+Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Combo Input is consistent with the standard [Input](input.md) and equipped for sophisticated designs that display success, warning, and error visuals.
 
 | Success | Warning | Error | 
 | ------- | ------- | ------- |
@@ -53,7 +53,7 @@ In Figma changing the states is achieved via the properties panel.
 
 ## Dropdown Type
 
-The Dropdown used for the Simple Combo comes with the appropriate sizing for desktop and mobile use similarly to the normal [Dropdown](dropdown.md) component. The Dropdown can be switched **on** and **off** from a boolean property which can visually affect the input, but that it's an expected behaviour.
+The Dropdown used for the Simple Combo comes with the appropriate sizing for desktop and mobile use similarly to the normal [Dropdown](dropdown.md) component. The Dropdown can be switched **on** and **off** from a boolean property which can visually affect the input, but this is an expected behaviour.
 
 | Desktop | Mobile |
 | ------- | ------- |

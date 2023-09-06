@@ -13,13 +13,13 @@ Use the Combo component to allow users to select an option from a predefined lis
 
 ## Combo Demo
 
-The Combo has two pieces: an input containing the current selection or a placeholder and a Dropdown that is shown in order to select one or more items.
+The Combo has two pieces: an Input containing the current selection or a placeholder, and a Dropdown that is shown in order to select one or more items.
 
 <img class="responsive-img" src="../images/combo_demo.png" srcset="../images/combo_demo@2x.png 2x" />
 
 ## Combo Input Type
 
-The Combo input provides selection between a line type for a more airy style, border type for a more structured perception on solid color backgrounds, and a boxed type that is most appropriate when placed on top of a vivid image to improve readability. Since we are deprecating the line style, in Figma we have only the border and box types available.
+The Combo Input provides selection between a line type for a more airy style, border type for a more structured perception on solid color backgrounds, and a boxed type that is most appropriate when placed on top of a vivid image to improve readability. Since we are deprecating the line style, in Figma we have only the border and box types available.
 
 | Border | Box |
 | ------- | ------- |
@@ -40,7 +40,7 @@ When the user interacts with the Combo, its input goes through various selection
 | ------- | ------- | ------- |
 | <img class="responsive-img" src="../images/combo_idle.png" srcset="../images/combo_idle@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_focused.png" srcset="../images/combo_focused@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_filled.png" srcset="../images/combo_filled@2x.png 2x" /> |
 
-Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Combo is consistent with the standard [Input](input.md) and equipped for sophisticated designs that display success, warning, and error visuals.
+Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Combo Inputs is consistent with the standard [Input](input.md) and equipped for sophisticated designs that display success, warning, and error visuals.
 
 | Success | Warning | Error | 
 | ------- | ------- | ------- |
