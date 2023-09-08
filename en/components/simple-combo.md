@@ -53,7 +53,7 @@ In Figma changing the states is achieved via the properties panel.
 
 ## Dropdown Type
 
-The Dropdown used for the Simple Combo comes with the appropriate sizing for desktop and mobile use similarly to the normal [Dropdown](dropdown.md) component. The Dropdown can be switched **on** and **off** from a boolean property which can visually affect the input, but this is an expected behaviour.
+The Dropdown used for the Simple Combo comes with the appropriate sizing for desktop and mobile use similarly to the normal [Dropdown](dropdown.md) component. The Dropdown can be switched **on** and **off** from a boolean property, which can visually affect the input, but this is an expected behaviour.
 
 | Desktop | Mobile |
 | ------- | ------- |
