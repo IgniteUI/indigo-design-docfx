@@ -27,7 +27,7 @@ The Combo Input provides selection between a line type for a more airy style, bo
 
 ## Interaction State
 
-Each of the three Combo Input types can be inserted in an **enabled** or **disabled** state. Since we are deprecating the line style, in Figma we have only the border and box types available and they can be switched on and off to a disabled state from the properties panel.
+Each of the three Combo Input types can be inserted in an **enabled** or **disabled** state. Since we are deprecating the line style, in Figma we have only the border and box types available and they can be switched to a disabled state from the properties panel.
 
 <img class="responsive-img" src="../images/combo_enabledstate.png" srcset="../images/combo_enabledstate@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_disabledstate.png" srcset="../images/combo_disabledstate@2x.png 2x" />
