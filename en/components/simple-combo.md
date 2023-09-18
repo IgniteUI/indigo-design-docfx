@@ -27,7 +27,7 @@ The Combo Input provides selection between a border type for a more structured p
 
 ## Interaction State
 
-Each of the two Combo Input types can be inserted in an **enabled** or **disabled** state. In Figma we have border and box types available and they can be switched **on** and **off** to a `Disabled` state from the properties panel.
+Each of the two Combo Input types can be inserted in an **enabled** or **disabled** state. In Figma we have border and box types available and they can be switched to a `Disabled` state from the properties panel.
 
 <img class="responsive-img" src="../images/combo_enabledstate.png" srcset="../images/combo_enabledstate@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_disabledstate.png" srcset="../images/combo_disabledstate@2x.png 2x" />
