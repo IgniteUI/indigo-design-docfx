@@ -42,7 +42,7 @@ The Progress can be used in one of the following preset color combinations:
 
 ## Progress Amount
 
-When using a Determinate type of Progress, you may choose the Progress Amount between six percentage variants. In Figma you can do that from the `Value` property in the right sidebar. In Sketch, this is achieved with `Symbol Overrides` to let you easily switch between them, while in Adobe XD you have to drag the desired amount from the `Libraries` panel and drop it on top of the `Progress Amount` layer to change the default value.
+When using a Determinate type of Progress, you can select the Progress Amount from six percentage options. In Figma you can do this from the `Value` property in the right sidebar. In Sketch, this is achieved with `Symbol Overrides` to let you easily switch between them, while in Adobe XD you have to drag the desired amount from the `Libraries` panel and drop it on top of the `Progress Amount` layer to change the default value.
 
 <img class="responsive-img" src="../images/progress_circular-progress-amount.png" srcset="../images/progress_circular-progress-amount@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_linear-progress-amount.png" srcset="../images/progress_linear-progress-amount@2x.png 2x" />
