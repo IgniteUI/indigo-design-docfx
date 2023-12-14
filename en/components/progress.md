@@ -32,24 +32,24 @@ The Progress can be used in one of the following preset color combinations:
 - **Info**: utilizing the `info` theme color to show the progress
 - **Success**: utilizing the `success` theme color to show the progress
 - **Warn**: utilizing the `warn` theme color to show the progress
-- **Error**: utilizing the `error` theme color to show the progress
+- **Danger**: utilizing the `error` theme color to show the progress
 
 <img class="responsive-img" src="../images/progress_default.png" srcset="../images/progress_default@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_info.png" srcset="../images/progress_info@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_success.png" srcset="../images/progress_success@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_warn.png" srcset="../images/progress_warn@2x.png 2x" />
-<img class="responsive-img" src="../images/progress_error.png" srcset="../images/progress_error@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_danger.png" srcset="../images/progress_danger@2x.png 2x" />
 
 ## Progress Amount
 
-When using a Determinate type of Progress, you may choose the Progress Amount between six percentage variants. In Figma you can select between the variants from `Progress Amount` property in the right sidebar. In Sketch, this is achieved with `Symbol Overrides` to let you easily switch between them, while in Adobe XD you have to drag the desired amount from the `Libraries` panel and drop it on top of the `Progress Amount` layer to change the default value.
+When using a Determinate type of Progress, you can select the Progress Amount from six percentage options. In Figma you can do this from the `Value` property in the right sidebar. In Sketch, this is achieved with `Symbol Overrides` to let you easily switch between them, while in Adobe XD you have to drag the desired amount from the `Libraries` panel and drop it on top of the `Progress Amount` layer to change the default value.
 
 <img class="responsive-img" src="../images/progress_circular-progress-amount.png" srcset="../images/progress_circular-progress-amount@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_linear-progress-amount.png" srcset="../images/progress_linear-progress-amount@2x.png 2x" />
 
 ## Stripes
 
-When using a Linear Bar layout shape for the Progress component, it will come with an additional option for Stripes over the Fill area. To remove the Stripes, simply set the `🌈 Stripes` color override (in Sketch) or Stripes layer color (in Figma) to `transparent`.
+When using a Linear Bar layout shape for the Progress component, it will come with an additional option for Stripes over the Fill area. To remove the Stripes, simply use the `Striped` boolean property in Figma or set the `🌈 Stripes` color override in Sketch to `transparent`.
 
 <img class="responsive-img" src="../images/progress_linearstripes.png" srcset="../images/progress_linearstripes@2x.png 2x" />
 
