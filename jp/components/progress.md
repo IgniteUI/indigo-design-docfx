@@ -30,27 +30,27 @@ Progress コンポーネントは、タスクの進行状況について明確�
 Progress は、以下のプリセット カラーの組み合わせの 1 つを使用できます。
 
 - **Default**: デフォルトで基本原色を利用します。
-- **Error**: `Error` テーマ カラーを使用して進行状況を表示
-- **Info**: `Info` テーマ カラーを使用して進行状況を表示
-- **Success**: `Success` テーマの色を使用して進行状況を表示します。
-- **Warn**: `Warn` テーマの色を使用して進行状況を表示します。
+- **Info**: `info` テーマ カラーを使用して進行状況を表示
+- **Success**: `success` テーマの色を使用して進行状況を表示します。
+- **Warn**: `warn` テーマの色を使用して進行状況を表示します。
+- **Danger**: `error` テーマ カラーを使用して進行状況を表示
 
 <img class="responsive-img" src="../images/progress_default.png" srcset="../images/progress_default@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_info.png" srcset="../images/progress_info@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_success.png" srcset="../images/progress_success@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_warn.png" srcset="../images/progress_warn@2x.png 2x" />
-<img class="responsive-img" src="../images/progress_error.png" srcset="../images/progress_error@2x.png 2x" />
+<img class="responsive-img" src="../images/progress_danger.png" srcset="../images/progress_danger@2x.png 2x" />
 
 ## Progress の量
 
-確定タイプの Progress を使用する場合、6 種類のパーセント値を Progress の量として選択できます。Figma では、右側のサイドバーにある `Progress Amount` プロパティからバリアントを選択できます。Sketch では、これは `Symbol Overrides` で簡単に切り替えることができますが、Adobe XD では、`Libraries` パネルから目的の量をドラッグし、`Progress Amount` レイヤーの上にドロップしてデフォルト値を変更する必要があります。 
+確定タイプの Progress を使用する場合、6 種類のパーセント値を Value として選択できます。Figma では、右側のサイドバーにある `Value` プロパティからバリアントを選択できます。Sketch では、これは `Symbol Overrides` で簡単に切り替えることができますが、Adobe XD では、`Libraries` パネルから目的の量をドラッグし、`Progress Amount` レイヤーの上にドロップしてデフォルト値を変更する必要があります。 
 
 <img class="responsive-img" src="../images/progress_circular-progress-amount.png" srcset="../images/progress_circular-progress-amount@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_linear-progress-amount.png" srcset="../images/progress_linear-progress-amount@2x.png 2x" />
 
 ## ストライプ
 
-Progress コンポーネントに Linear Bar レイアウト形状を使用する場合、Fill 領域のストライプの追加オプションが付属します。Stripes を削除するには、`🌈 Stripes` 色オーバーライド (Sketch) または Stripes レイヤー色 (Figma) を `transparent` に設定するだけです。
+Progress コンポーネントに Linear Bar レイアウト形状を使用する場合、Fill 領域のストライプの追加オプションが付属します。Stripes を削除するには、Figma の `Striped` ブール値プロパティを使用するか、Sketch の `🌈 Stripes` カラー オーバーライドを `transparent` に設定します。
 
 <img class="responsive-img" src="../images/progress_linearstripes.png" srcset="../images/progress_linearstripes@2x.png 2x" />
 
