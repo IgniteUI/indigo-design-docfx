@@ -44,7 +44,7 @@ Stepper コンポーネントは、多数のネストされた Step および Pr
 <img class="responsive-img" src="../images/step_number.png" srcset="../images/step_number@2x.png 2x" />
 <img class="responsive-img" src="../images/step_icon.png" srcset="../images/step_icon@2x.png 2x" />
 
-また、あらゆるユース ケース シナリオをカバーできるよう、いくつかの Step 状態を提供します。以下が含まれます: Complete (完了)、Incomplete (未完了)、Disabled (無効)、Optional (オプション)、Invalid (無効)、Active (アクティブ)。これらはプロパティ パネルの 「State」 プロパティから切り替えることができます。また、Hover と Focused という 2 つの追加状態も提供します。これらは、ブール値プロパティ 「Hover」 と 「Focused」 をオン/オフに切り替えることで使用できます。
+また、あらゆるユース ケース シナリオをカバーできるよう、いくつかの Step 状態を提供します。以下が含まれます: Complete (完了)、Incomplete (未完了)、Disabled (無効)、Invalid (無効)、Active (アクティブ) です。これらはプロパティ パネルの 「State」 プロパティから切り替えることができます。「Step」 状態に加えて、プロパティのオン/オフを切り替えることでステップをオプションまたは必須として指定できる 「Optional Step」 プロパティがあります。この 「Optional Step」 プロパティは、提供されたすべての状態でアクセスでき、各 「Step」 内のネストされたオプションとして表示されます。また、Hover と Focused という 2 つの追加状態も提供します。これらは、ブール値プロパティ 「Hover」 と 「Focused」 をオン/オフに切り替えることで使用できます。
 
 <img class="responsive-img" src="../images/step_state.png" srcset="../images/step_state@2x.png 2x" />
 <img class="responsive-img" src="../images/step_state2.png" srcset="../images/step_state2@2x.png 2x" />
