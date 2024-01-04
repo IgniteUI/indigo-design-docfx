@@ -44,7 +44,7 @@ Radio Group は、有効または無効の状態で挿入できます。
 
 ## 状態
 
-グループ内の各ラジオ要素は、**オン**およびオフの選択状態をサポートします。Figma では、右側のサイドバーの `State` プロパティから状態を選択できます。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+グループ内の各ラジオ要素は、**オン**および**オフ**の選択状態をサポートします。Figma では、右側のサイドバーの `Checked` ブール型プロパティから状態を切り替えることができます。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/radiogroup_demo.png" srcset="../images/radiogroup_demo@2x.png 2x" />
 

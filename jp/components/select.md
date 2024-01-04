@@ -62,6 +62,16 @@ Sketch では状態と検証状態を `Symbol Overrides` で実現していま�
 > [!NOTE]
 > Select 入力はレイアウ トオプションが 1 つしかありませんが、このオーバーライドは、標準 [Input](input.md) との一貫性を確保するために Sketch で保持されています。一方、Figma では、Select コンポーネントで明示的に使用される `.Select Input` と呼ばれる別の基本コンポーネントがあります。
 
+## Layout (レイアウト)
+
+Select では、テキストとアイコンの組み合わせによるプレフィックスとサフィックスが豊富にサポートされています。Figma では、Prefix または Suffix を削除するには、プロパティ パネルでオンまたはオフに切り替えます。Sketch で Prefix または Suffix を削除するには、オーバーライドを ~No Symbol に設定するだけで、スマート レイアウト ルールがそれに応じて Select を調整します。Adobe XD では、Prefix および/または Suffix レイヤーの表示をオンまたはオフに切り替えることで同じことを実現でき、Stack はそれに応じてレイアウトを調整します。
+
+<img class="responsive-img" src="../images/select_prefix.png" srcset="../images/select_prefix@2x.png 2x" />
+
+<img class="responsive-img" src="../images/select_suffix.png" srcset="../images/select_suffix@2x.png 2x" />
+
+<img class="responsive-img" src="../images/select_prefix+suffix.png" srcset="../images/select_prefix+suffix@2x.png 2x" />
+
 ## Drop Down Items (ドロップダウン項目)
 
 Select に使用されるドロップダウンは、ヘッダーと単一選択種類の 2 種類の項目をサポートします。ヘッダーを介して、項目をグループに体系化できます。Figma では、Drop Down コンポーネントは自動レイアウト オプションを利用しており、1 つ以上の項目を非表示または追加すると、すべての項目が適切に配置されます。Sketch では、Drop Down は、Smart Layout を使用しており、1 つ以上の項目が ~No Symbol に設定されていても、それに対応して調整できます。Adobe XD では、不要なものを削除し、Stack を使用してレイアウトを調整します。

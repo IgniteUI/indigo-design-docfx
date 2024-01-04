@@ -88,6 +88,10 @@
       href: ../components/chips.md
     - name: Combo
       href: ../components/combo.md
+      items:
+        - name: Simple Combo
+          href: ../components/simple-combo.md
+          new: true
     - name: Date Picker
       href: ../components/date-picker.md
     - name: Dialog
