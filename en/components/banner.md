@@ -38,7 +38,7 @@ Illustrations are used to support the message. Don't use them without a descript
 | Do                                                                             | Don't                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/banner_do1.png" srcset="../images/banner_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/banner_dont1.png" srcset="../images/banner_dont1@2x.png 2x" /> | 
-| <img class="responsive-img" src="../images/banner_do2x.png" srcset="../images/banner_do2@2x.png 2x" /> |<img class="responsive-img" src="../images/banner_dont2.png" srcset="../images/banner_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/banner_do2.png" srcset="../images/banner_do2@2x.png 2x" /> |<img class="responsive-img" src="../images/banner_dont2.png" srcset="../images/banner_dont2@2x.png 2x" /> |
 
 ## Additional Resources
 
