@@ -18,7 +18,8 @@ The Calendar comes in Horizontal or Vertical layout suited to display one month 
 
 <img class="responsive-img" src="../images/calendar_horizontal.png" srcset="../images/calendar_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
-<img class="responsive-img" src="../images/calendar_multi.png" srcset="../images/calendar_multi@2x.png 2x" />
+<img class="responsive-img" src="../images/calendar_multi_horiz.png" srcset="../images/calendar_multi_horiz@2x.png 2x" />
+<img class="responsive-img" src="../images/calendar_multi_vert.png" srcset="../images/calendar_multi_vert@2x.png 2x" />
 
 ## Content
 
