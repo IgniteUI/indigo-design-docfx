@@ -41,15 +41,17 @@ In Sketch and Adobe XD, each of these presets can be inserted in an Enabled or a
 
 ## State
 
-The Input component goes through different states as the user interacts with it: **Idle**, which displays the placeholder in the place of the content; **Hover**, indicating that the input is active when the user hovers over it; **Filled**, which appears after the user has entered content and moved on from the input; and **Focused**, which provides a visual cue that the user is actively typing in the input.
+The Input component goes through different states as the user interacts with it: **Idle**, which displays the placeholder in the place of the content; **Idle & Hover**, indicating that the input is active when the user hovers over it; **Filled**, which appears after the user has entered content and moved on from the input; **Filled & Hover**, indicating that the input is active when the user hovers over it, after the content has been entered; and **Focused**, which provides a visual cue that the user is actively typing in the input.
 
 
 <img class="responsive-img" src="../images/input_idle.png" srcset="../images/input_idle@2x.png 2x" />
 `idle`
-<img class="responsive-img" src="../images/input_hover.png" srcset="../images/input_hover@2x.png 2x" />
-`hover`
+<img class="responsive-img" src="../images/input_idle&hover.png" srcset="../images/input_idle&hover@2x.png 2x" />
+`idle & hover`
 <img class="responsive-img" src="../images/input_filled.png" srcset="../images/input_filled@2x.png 2x" />
 `filled`
+<img class="responsive-img" src="../images/input_filled&hover.png" srcset="../images/input_filled&hover@2x.png 2x" />
+`filled & hover`
 <img class="responsive-img" src="../images/input_focused.png" srcset="../images/input_focused@2x.png 2x" />
 `focused`
 
