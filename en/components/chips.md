@@ -14,7 +14,7 @@ Use the Chip Component as a compact visual shown in an obround to display tags a
 
 ## Chip Size
 
-The Chip comes in three density variants:
+The Chip comes in three sizes:
 
 - Large - Suitable for interactive scenarios e.g. action triggers
 - Medium - Appropriate for short areas such as the recipient field of an email message composer
