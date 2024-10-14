@@ -14,19 +14,14 @@ Use the Navbar Component to provide clarity on the current position in the appli
 
 ## Type
 
-The Navbar comes in two distinct type variants an Elevated one that casts a shadow on the main content area and an Outlined one which has a border instead to separate it from the rest of the content. Both variants support the same functionality inside.
-
-<img class="responsive-img" src="../images/navbar_elevated.png" srcset="../images/navbar_elevated@2x.png 2x" />
-<img class="responsive-img" src="../images/navbar_outlined.png" srcset="../images/navbar_outlined@2x.png 2x" />
-
-They both come in two action variants: Icon Actions and Icon Button Actions.
+The Navbar casts a shadow on the main content area to separate it from the rest of the content and comes in two action variants: Icon Actions and Icon Button Actions.
 
 <img class="responsive-img" src="../images/navbar_icon.png" srcset="../images/navbar_icon@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_iconbutton.png" srcset="../images/navbar_iconbutton@2x.png 2x" />
 
 ## Content Layout
 
-The Navbar content is split into a left area, consisting of a Left Action and a Title (Left Action and a Content frame with the Title inside in Figma), and a right area with up to four adjacent icons or icon buttons that can trigger different simple events. In Figma, you can go into the nested Icon and Icon Button components and change their icons or hide them from the layers panel, after which the content will adjust itself thanks to the auto layout. In Sketch, you can configure the layout by setting any of its actions to ~No Symbol and thanks to the smart layout what is left will adjust automatically. In Adobe XD, the same can be achieved simply by deleting the unnecessary Components, and the layout will be adjusted automatically from the Stack. Furthermore, you may also insert additional Components from the Libraries panel in those areas unlike in Sketch, e.g. to show an Avatar at the far right.
+The Navbar content is split into a left area, consisting of a Left Action and a Title (Left Action and a Content frame with the Title inside in Figma), and a right area with up to three adjacent icons or icon buttons that can trigger different simple events. In Figma, you can hide the Nav icon and the Actions from their boolean properties, go into the nested Icon and Icon Button components and change their icons or hide some of the actions from the layers panel, after which the content will adjust itself thanks to the auto layout. In Sketch, you can configure the layout by setting any of its actions to ~No Symbol and thanks to the smart layout what is left will adjust automatically. In Adobe XD, the same can be achieved simply by deleting the unnecessary Components, and the layout will be adjusted automatically from the Stack. Furthermore, you may also insert additional Components from the Libraries panel in those areas unlike in Sketch, e.g. to show an Avatar at the far right.
 
 <img class="responsive-img" src="../images/navbar_left&right.png" srcset="../images/navbar_left&right@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_noright.png" srcset="../images/navbar_noright@2x.png 2x" />
