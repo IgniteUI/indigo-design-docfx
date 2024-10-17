@@ -52,7 +52,7 @@ In order to represent the hierarchical relationship between the nodes, the Tree 
 
 ## Tree Node State
 
-The Tree Node comes with two primary states - Idle and Disabled. You can also choose from a variety of interaction states. In Figma this can be achieved by switching on/off a single or a combination of the following properties - Active, Hover, Focused, from the properties panel, while in Sketch it's achieved with `Symbol Overrides`. In Figma, you can also choose the state of the Chekcbox from the properties panel using the Selected and Indeterminate boolean properties.
+The Tree Node comes with two primary states - Idle and Disabled. You can also choose from a variety of interaction states. In Figma this can be achieved by switching on/off a single or a combination of the following properties - Active, Hover, Focused, from the properties panel, while in Sketch it's achieved with `Symbol Overrides`. In Figma, you can also choose the state of the Checkbox from the properties panel using the Selected and Indeterminate boolean properties.
 
 <img class="responsive-img" src="../images/tree-node_basic.png" srcset="../images/tree-node_basic@2x.png 2x" />
 <img class="responsive-img" src="../images/tree-node_disabled.png" srcset="../images/tree-node_disabled@2x.png 2x" />
