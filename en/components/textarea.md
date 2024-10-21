@@ -13,7 +13,7 @@ Use the Text Area Component to let the user input long text data displayed in mu
 <img class="responsive-img" src="../images/textarea_demo.png" srcset="../images/textarea_demo@2x.png 2x" />
 
 ## Types
-In Figma we offer a choice between text area with or without a hint (boolean property).
+In Figma we offer a choice between text area with or without a hint, which can be switched on/off through a boolean property.
 
 <img class="responsive-img" src="../images/textarea_hint.png" srcset="../images/textarea_hint@2x.png 2x" />
 `with hint`
