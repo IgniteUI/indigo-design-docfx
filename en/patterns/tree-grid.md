@@ -26,7 +26,7 @@ A list of all the Grid functionalities can be found on the [Grid](../components/
 - [Grid Advanced Filtering](../components/grid-advanced-filter.md)
 - [Grid Row Selection](../components/grid-row-selection.md)
 - [Grid Editing](../components/grid-editing.md)
-- [Grid Display Density](../components/grid-display-density.md)
+- [Grid Size](../components/grid-size.md)
 - [Grid Paging](../components/grid-paging.md)
 - [Grid Summaries](../components/grid-summaries.md)
 - [Grid Skeleton](../components/grid-skeleton.md)

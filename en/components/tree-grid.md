@@ -38,7 +38,7 @@ Then again by duplicating any of the body cells that already exist inside the co
 
 ## Using the Tree Grid in Adobe XD
 
-In Adobe XD, after you choose one of the three [preset display density tree grid components](grid-display-density.md) and drag it to your artboard, you will notice in the layers panel that we use `Repeat Grid` for both the Header and the Body to speed configuration up. Unlike in Sketch in Adobe XD destroying the symbol is not necessary. You should see the following in your layers panel:
+In Adobe XD, after you choose one of the three [preset display density tree grid components](grid-size.md) and drag it to your artboard, you will notice in the layers panel that we use `Repeat Grid` for both the Header and the Body to speed configuration up. Unlike in Sketch in Adobe XD destroying the symbol is not necessary. You should see the following in your layers panel:
 
 | Layer                        | Use                                                                                                                                                  |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -58,13 +58,13 @@ The Tree Grid extends the three types of regular Grid cells Header, Body, and Su
 
 To understand how regular Header, Body, and Summary cells can be used for different types of data and configured to enable the various Tree Grid features, please refer to the [general Grid topic](grid.md).
 
-## Cell Display Density
+## Cell Size
 
-The TreeColumn cell supports three display density variants of the Tree Grid: Comfortable, Cosy, and Compact.
+The TreeColumn cell supports three size variants of the Tree Grid: Large, Medium and Small.
 
-<img class="responsive-img" src="../images/tree_grid_column_cell_comfortable.png" srcset="../images/tree_grid_column_cell_comfortable@2x.png 2x" />
-<img class="responsive-img" src="../images/tree_grid_column_cell_cosy.png" srcset="../images/tree_grid_column_cell_cosy@2x.png 2x" />
-<img class="responsive-img" src="../images/tree_grid_column_cell_compact.png" srcset="../images/tree_grid_column_cell_compact@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_column_cell_large.png" srcset="../images/tree_grid_column_cell_large@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_column_cell_medium.png" srcset="../images/tree_grid_column_cell_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_column_cell_small.png" srcset="../images/tree_grid_column_cell_small@2x.png 2x" />
 
 ## Cell Depth
 
@@ -105,7 +105,7 @@ Related topics:
 - [Grid Excel Style Filter](grid-excel-style-filter.md)
 - [Grid Row Selection](grid-row-selection.md)
 - [Grid Editing](grid-editing.md)
-- [Grid Display Density](grid-display-density.md)
+- [Grid Size](grid-size.md)
 - [Grid Paging](grid-paging.md)
 - [Grid Summaries](grid-summaries.md)
 - [Hierarchical Grid](hierarchical-grid.md)

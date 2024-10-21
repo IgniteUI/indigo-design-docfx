@@ -18,12 +18,12 @@ In order to indicate that a column has an active Excel Style Filter in Sketch (t
 
 ## Excel Style Filter Feature
 
-The Grid has three `Excel Style Filter` symbols under `Features` in Sketch, one for each Display Density, that represent the overlay shown for the affected column. In Figma and Adobe XD, there is just one `Excel Style Filter`, and via the `Display Density` property in Figma and `Component States` in Adobe XD you can easily switch between the three display densities available. Adding the Excel Style Filter has only a visual effect on your design to make it more realistic, if you want to turn the Excel Style Filter feature on, configure the Header Cells accordingly.
+The Grid has three `Excel Style Filter` symbols under `Features` in Sketch, one for each Display Density, that represent the overlay shown for the affected column. In Figma and Adobe XD, there is just one `Excel Style Filter`, and via the `Size` property in Figma and `Component States` in Adobe XD you can easily switch between the three sizes available. Adding the Excel Style Filter has only a visual effect on your design to make it more realistic, if you want to turn the Excel Style Filter feature on, configure the Header Cells accordingly.
 
-<img class="responsive-img" src="../images/grid_excel_style_filter_densities.png" srcset="../images/grid_excel_style_filter_densities@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_excel_style_filter_size.png" srcset="../images/grid_excel_style_filter_size@2x.png 2x" />
 
 > [!Note]
-> Make sure to pick a Display Density variant for the Excel Style Filter overlay that matches the Grid Display Density since it is the one that is inherited by all features of the Grid.
+> Make sure to pick a Size variant for the Excel Style Filter overlay that matches the Grid Size since it is the one that is inherited by all features of the Grid.
 
 ### Overlay Customization
 
@@ -31,7 +31,7 @@ The Excel Style Filter overlay lets you configure the Column name to reflect the
 
 ### Sorting, Moving, Hiding and Pinning
 
-The Excel Style Filter interface provides additional functionality besides filtering such as Sorting, Column Moving, Column Hiding, and Column Pinning that are not configurable. If any of them is enabled on the column via the Header Cell (see how to enable them in their respective topic) the user interface elements for the feature will be shown in the Excel Style Filter interface according to the Grid Display Density that is being applied.
+The Excel Style Filter interface provides additional functionality besides filtering such as Sorting, Column Moving, Column Hiding, and Column Pinning that are not configurable. If any of them is enabled on the column via the Header Cell (see how to enable them in their respective topic) the user interface elements for the feature will be shown in the Excel Style Filter interface according to the Grid Size that is being applied.
 
 ## Additional Resources
 
@@ -40,7 +40,7 @@ Related topics:
 - [Grid](grid.md)
 - [Grid Row Filter](grid-row-filter.md)
 - [Grid Advanced Filter](grid-advanced-filter.md)
-- [Grid Display Density](grid-display-density.md)
+- [Grid Size](grid-size.md)
 - [Grid Sorting](grid-sorting.md)
 - [Grid Column Moving](grid-column-moving.md)
 - [Grid Column Hiding](grid-column-hiding.md)

@@ -19,13 +19,13 @@ The Skeleton Hierarchical Grid extends the three types of skeleton cells Header,
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header.png" srcset="../images/hierarchical_grid_skeleton_cell_header@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_body.png" srcset="../images/hierarchical_grid_skeleton_cell_body@2x.png 2x" />
 
-## Cell Display Density
+## Cell Size
 
-The Skeleton CollapseAll and Expand cells support the same three display density variants as the standard [Hierarchical Grid](hierarchical-grid.md): Comfortable, Cosy, and Compact.
+The Skeleton CollapseAll and Expand cells support the same three size variants as the standard [Hierarchical Grid](hierarchical-grid.md): Large, Medium and Small.
 
-<img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_comfortable.png" srcset="../images/hierarchical_grid_skeleton_cell_header_comfortable@2x.png 2x" />
-<img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_cosy.png" srcset="../images/hierarchical_grid_skeleton_cell_header_cosy@2x.png 2x" />
-<img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_compact.png" srcset="../images/hierarchical_grid_skeleton_cell_header_compact@2x.png 2x" />
+<img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_large.png" srcset="../images/hierarchical_grid_skeleton_cell_headerlargee@2x.png 2x" />
+<img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_medium.png" srcset="../images/hierarchical_grid_skeleton_cell_header_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_small.png" srcset="../images/hierarchical_grid_skeleton_cell_header_small@2x.png 2x" />
 
 ## Grid Types
 
