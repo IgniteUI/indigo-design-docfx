@@ -50,11 +50,11 @@ The Calendar also has built-in support for Week Numbers, but if you prefer not t
 
 ## Selection
 
-The Calendar lets you pick between three selection modes: **Single Day** limiting the user to be able to select only one date, Multiple Days allowing selection of random dates, and Range providing means to select all dates between a start and end date.
+The Calendar lets you pick between three selection modes: **Single Day** limiting the user to be able to select only one date, Range providing means to select all dates between a start and end date and Multiple Days allowing selection of random dates.
 
 <img class="responsive-img" src="../images/calendar_horizontal.png" srcset="../images/calendar_horizontal@2x.png 2x" />
-<img class="responsive-img" src="../images/calendar_selection.png" srcset="../images/calendar_selection@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_range.png" srcset="../images/calendar_range@2x.png 2x" />
+<img class="responsive-img" src="../images/calendar_selection.png" srcset="../images/calendar_selection@2x.png 2x" />
 
 ## Styling
 
