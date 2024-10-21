@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Date Picker
 
-Use the Date Picker Component to represent a date visually and provide appropriate means for its display in forms and selection from a drop-down or dialog. The Date Picker is visually identical to the [Ignite UI for Angular Date Picker Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/date_picker.html)
+Use the Date Picker Component to represent a date visually and provide appropriate means for its display in forms and selection from a dropdown or dialog. The Date Picker is visually identical to the [Ignite UI for Angular Date Picker Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/date_picker.html)
 
 ## Date Picker Demo
 
@@ -14,7 +14,7 @@ Use the Date Picker Component to represent a date visually and provide appropria
 
 ## Date Picker Input
 
-You may insert a Date Picker Input in your forms to indicate fields for selecting a date. It supports Enabled and Disabled interactive states, as well as variant for Dialog and Drop-down that will be shown upon user interaction.
+You may insert a Date Picker Input in your forms to indicate fields for selecting a date. It supports Enabled and Disabled interactive states, as well as variant for Dialog and Dropdown that will be shown upon user interaction.
 
 <img class="responsive-img" src="../images/datepicker_enabled.png" srcset="../images/datepicker_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_disabled.png" srcset="../images/datepicker_disabled@2x.png 2x" />
@@ -27,7 +27,7 @@ The Date Picker supports a Dialog layout with Horizontal and Vertical orientatio
 <img class="responsive-img" src="../images/datepicker_vertical.png" srcset="../images/datepicker_vertical@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_dropdown.png" srcset="../images/datepicker_dropdown@2x.png 2x" />
 
-In Figma you have also the possibility to show action buttons at the bottom of the date picker by switching on the boolean `Action Buttons` property.
+In Figma you also have the possibility to show action buttons at the bottom of the date picker by switching on the boolean `Action Buttons` property.
 
 <img class="responsive-img" src="../images/datepicker_actions.png" srcset="../images/datepicker_actions@2x.png 2x" />
 
