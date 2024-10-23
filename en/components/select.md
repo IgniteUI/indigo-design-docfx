@@ -71,28 +71,11 @@ The Select has rich support for Prefix and Suffix through a combination of text 
 
 <img class="responsive-img" src="../images/select_prefixandsuffix.png" srcset="../images/select_prefixandsuffix@2x.png 2x" />
 
-## Dropdown Items
+## Dropdown
 
-The dropdown used for the Select supports two types of items: header and single selection type. Through headers, it is possible to organize items in groups. In Figma, the Dropdown component utilizes the auto layout option, which makes sure all items are placed accordingly, once you hide or add one or more items. In Sketch, the Dropdown uses a Smart Layout allowing it to adjust accordingly when one or more of its items are set to ~No Symbol. In Adobe XD you should delete the unnecessary ones, and the layout will adjust through the use of a Stack.
+The Select utilizes the Dropdown component in its structure, in order to display available options. If you'd like to learn more about its available configurations, visit the [Dropdown](dropdown.md) page.
 
-<img class="responsive-img" src="../images/select_item.png" srcset="../images/select_item@2x.png 2x" />
-
-<img class="responsive-img" src="../images/select_header.png" srcset="../images/select_header@2x.png 2x" />
-
-## Dropdown Item States
-
-The dropdown items within the Select support five different states: **Idle**, **Disabled**, **Focused**, **Selected**, and **Selected & Focused**. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
-
-<img class="responsive-img" src="../images/select_item_idle.png" srcset="../images/select_item_idle@2x.png 2x" />
-`idle`
-<img class="responsive-img" src="../images/select_item_disabled.png" srcset="../images/select_item_disabled@2x.png 2x" />
-`disabled`
-<img class="responsive-img" src="../images/select_item_focused.png" srcset="../images/select_item_focused@2x.png 2x" />
-`focused`
-<img class="responsive-img" src="../images/select_item_selected.png" srcset="../images/select_item_selected@2x.png 2x" />
-`selected`
-<img class="responsive-img" src="../images/select_item_selected_focused.png" srcset="../images/select_item_selected_focused@2x.png 2x" />
-`selected & focused`
+<img class="responsive-img" src="../images/select_demo.png" srcset="../images/select_demo@2x.png 2x" />
 
 ## Styling
 
