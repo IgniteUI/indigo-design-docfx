@@ -12,13 +12,6 @@ Use the Tooltip Component to show additional information that describes another 
 
 <img class="responsive-img" src="../images/tooltip_demo.png" srcset="../images/tooltip_demo@2x.png 2x" />
 
-## Type
-
-The Tooltip comes in appropriate sizing for desktop and mobile usage.
-
-<img class="responsive-img" src="../images/tooltip_desktop.png" srcset="../images/tooltip_desktop@2x.png 2x" />
-<img class="responsive-img" src="../images/tooltip_mobile.png" srcset="../images/tooltip_mobile@2x.png 2x" />
-
 ## Styling
 
 The Tooltip comes with styling flexibility through the options available for the background color and message text style. However, it is recommended to use the predefined colors to assure optimal contrast with the background and legibility of the tooltip message.
