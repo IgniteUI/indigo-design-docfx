@@ -55,10 +55,10 @@
       href: ../components/banner.md
     - name: Bottom Navigation
       href: ../components/bottom-nav.md
-    - name: Button Group
-      href: ../components/button-group.md
     - name: Button
       href: ../components/button.md
+    - name: Button Group
+      href: ../components/button-group.md
     - name: Calendar
       href: ../components/calendar.md
     - name: Card
