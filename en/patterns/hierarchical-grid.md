@@ -19,7 +19,7 @@ List of all the Grid functionality:
 - Column Moving
 - Column Resizing
 - Column Hiding
-- Display Density
+- Size
 - Excel Style Filtering
 - Advanced Filtering
 - GroupBy

@@ -18,13 +18,13 @@ The Skeleton Tree Grid extends the three types of skeleton cells Header, Body, a
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_column_cell.png" srcset="../images/tree_grid_skeleton_column_cell@2x.png 2x" />
 
-## Cell Display Density
+## Cell Size
 
-The Skeleton Tree Grid TreeColumn cell supports the same three display density variants as the standard [Tree Grid](tree-grid.md): Comfortable, Cosy, and Compact.
+The Skeleton Tree Grid TreeColumn cell supports the same three size variants as the standard [Tree Grid](tree-grid.md): Large, Medium and Small.
 
-<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_comfortable.png" srcset="../images/tree_grid_skeleton_column_cell_comfortable@2x.png 2x" />
-<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_cosy.png" srcset="../images/tree_grid_skeleton_column_cell_cosy@2x.png 2x" />
-<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_compact.png" srcset="../images/tree_grid_skeleton_column_cell_compact@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_large.png" srcset="../images/tree_grid_skeleton_column_cell_large@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_medium.png" srcset="../images/tree_grid_skeleton_column_cell_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_small.png" srcset="../images/tree_grid_skeleton_column_cell_small@2x.png 2x" />
 
 ## Cell Depth
 
@@ -36,7 +36,7 @@ The Skeleton Tree Grid TreeColumn cell supports the same visual indication for t
 
 ## Grid Types
 
-The Skeleton Tree Grid supports the three display densities and offers variants for each of them with regard to the state of loading data: Initial which is shown when the Tree Grid is loading data and there are no expanded Root Level rows, and Expand which is shown when a Root Level gets expanded and starts loading data for its children.
+The Skeleton Tree Grid supports the three sizes and offers variants for each of them with regard to the state of loading data: Initial which is shown when the Tree Grid is loading data and there are no expanded Root Level rows, and Expand which is shown when a Root Level gets expanded and starts loading data for its children.
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_initial.png" srcset="../images/tree_grid_skeleton_initial@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_skeleton_expand.png" srcset="../images/tree_grid_skeleton_expand@2x.png 2x" />
