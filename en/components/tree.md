@@ -12,13 +12,13 @@ The Tree component is visually identical to the [Ignite UI for Angular Tree Comp
 
 <img class="responsive-img" src="../images/tree_demo.png" srcset="../images/tree_demo@2x.png 2x" />
 
-## Tree Density
+## Tree Sizes
 
-The Tree component supports three display densities - Comfortable, Cosy and Compact. In Figma you can switch between the three by changing the value of the "Display Density" property from the properties panel, while in Sketch you need to choose the display density prior to inserting the symbol.
+The Tree component offers three sizes: Large, Medium, and Small. In Figma, you can switch between them by adjusting the “Size” property in the properties panel. In Sketch, select the display density before inserting the symbol.
 
-<img class="responsive-img" src="../images/tree_density_comfortable.png" srcset="../images/tree_density_comfortable@2x.png 2x" />
-<img class="responsive-img" src="../images/tree_density_cosy.png" srcset="../images/tree_density_cosy@2x.png 2x" />
-<img class="responsive-img" src="../images/tree_density_compact.png" srcset="../images/tree_density_compact@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_size_large.png" srcset="../images/tree_size_large@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_size_medium.png" srcset="../images/tree_size_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_size_small.png" srcset="../images/tree_size_small@2x.png 2x" />
 
 ## Tree Type
 
@@ -34,12 +34,12 @@ The Tree component is built from a number of nested components we call Tree Node
 <img class="responsive-img" src="../images/tree-node_basic.png" srcset="../images/tree-node_basic@2x.png 2x" />
 <img class="responsive-img" src="../images/tree-node_checkbox.png" srcset="../images/tree-node_checkbox@2x.png 2x" />
 
-The Text in each node can be switched from normal to hyperlink text. In Figma this can be achieved by using the "Hyperlink Text" property from the properties panel, while in Sketch this is achieved with `Symbol Overrides`. 
+The Text in each node can be switched from normal to hyperlink text. In Figma this can be achieved by using the "Hyperlink" boolean property from the properties panel, while in Sketch this is achieved with `Symbol Overrides`. 
 
 <img class="responsive-img" src="../images/tree-node_basic.png" srcset="../images/tree-node_basic@2x.png 2x" />
 <img class="responsive-img" src="../images/tree-node_hyperlink.png" srcset="../images/tree-node_hyperlink@2x.png 2x" />
 
-We also support two states of the Expand Icon - Collapsed and Expanded. In Figma you can switch between the two using the "Expand Icon" property from the properties panel, while in Sketch this is achieved with `Symbol Overrides`.
+We also support two states of the Expand Icon - Collapsed and Expanded. In Figma you can switch between the two using the "Expanded" boolean property from the properties panel, while in Sketch this is achieved with `Symbol Overrides`.
 
 <img class="responsive-img" src="../images/tree-node_basic.png" srcset="../images/tree-node_basic@2x.png 2x" />
 <img class="responsive-img" src="../images/tree-node_expanded.png" srcset="../images/tree-node_expanded@2x.png 2x" />
@@ -52,7 +52,7 @@ In order to represent the hierarchical relationship between the nodes, the Tree 
 
 ## Tree Node State
 
-The Tree Node comes with two primary states - Idle and Disabled. You can also choose from a variety of interaction states. In Figma this can be achieved by changing the value of the "State" property from the properties panel, while in Sketch it's achieved with `Symbol Overrides`.
+The Tree Node has two primary states: Idle and Disabled, with additional interaction states available. In Figma, you can toggle the Active, Hover, and Focused properties in the properties panel to adjust these states. In Sketch, use `Symbol Overrides` to achieve similar customization. Additionally, in Figma, you can control the Checkbox state by toggling the Selected and Indeterminate boolean properties in the properties panel.
 
 <img class="responsive-img" src="../images/tree-node_basic.png" srcset="../images/tree-node_basic@2x.png 2x" />
 <img class="responsive-img" src="../images/tree-node_disabled.png" srcset="../images/tree-node_disabled@2x.png 2x" />
@@ -73,7 +73,7 @@ The Tree comes with styling flexibility through the available options for the Ex
 
 ## Usage
 
-Make sure you switch the state of the Expand Icon to "Expanded" when you have expanded Тree Nodes. If some of the children (but not all) of a Tree Node are selected, make sure to switch the state of the Checkbox of the parent node to an indeterminate state.
+Ensure the Expand Icon state is set to "Expanded" for expanded Tree Nodes. When presenting cascading selection, switch the Checkbox state of parent nodes to "Indeterminate" to reflect partial selection.
 
 | Do                                                                             | Don't                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
