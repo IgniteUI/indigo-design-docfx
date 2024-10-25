@@ -52,7 +52,7 @@ In order to represent the hierarchical relationship between the nodes, the Tree 
 
 ## Tree Node State
 
-The Tree Node comes with two primary states - Idle and Disabled. You can also choose from a variety of interaction states. In Figma this can be achieved by switching on/off a single or a combination of the following properties - Active, Hover, Focused, from the properties panel, while in Sketch it's achieved with `Symbol Overrides`. In Figma, you can also choose the state of the Checkbox from the properties panel using the Selected and Indeterminate boolean properties.
+The Tree Node has two primary states: Idle and Disabled, with additional interaction states available. In Figma, you can toggle the Active, Hover, and Focused properties in the properties panel to adjust these states. In Sketch, use `Symbol Overrides` to achieve similar customization. Additionally, in Figma, you can control the Checkbox state by toggling the Selected and Indeterminate boolean properties in the properties panel.
 
 <img class="responsive-img" src="../images/tree-node_basic.png" srcset="../images/tree-node_basic@2x.png 2x" />
 <img class="responsive-img" src="../images/tree-node_disabled.png" srcset="../images/tree-node_disabled@2x.png 2x" />
@@ -73,7 +73,7 @@ The Tree comes with styling flexibility through the available options for the Ex
 
 ## Usage
 
-Make sure you switch the state of the Expand Icon to "Expanded" when you have expanded Тree Nodes. When you are presenting cascading selection, make sure to switch the state of the Checkbox of the parent node(s) to an indeterminate state.
+Ensure the Expand Icon state is set to "Expanded" for expanded Tree Nodes. When presenting cascading selection, switch the Checkbox state of parent nodes to "Indeterminate" to reflect partial selection.
 
 | Do                                                                             | Don't                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
