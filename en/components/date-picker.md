@@ -27,7 +27,7 @@ The Date Picker supports a Dialog layout with Horizontal and Vertical orientatio
 <img class="responsive-img" src="../images/datepicker_vertical.png" srcset="../images/datepicker_vertical@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_dropdown.png" srcset="../images/datepicker_dropdown@2x.png 2x" />
 
-In Figma you also have the possibility to show action buttons at the bottom of the date picker by switching on the boolean `Action Buttons` property.
+In Figma, you can display action buttons at the bottom of the date picker by enabling the `Action Buttons` boolean property.
 
 <img class="responsive-img" src="../images/datepicker_actions.png" srcset="../images/datepicker_actions@2x.png 2x" />
 
