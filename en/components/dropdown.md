@@ -29,7 +29,7 @@ The Dropdown supports two types of items: header and item. Through headers it is
 
 ## Item States
 
-The Dropdown items support five different states: **Idle**, **Disabled**, **Focused**, **Selected** and **Selected & Focused**. In Figma the states are different variants that can be achieved by changing the `State` property and/or the boolean properties for selected and disabled. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
+The Dropdown items support five different states: **Idle**, **Disabled**, **Focused**, **Selected** and **Selected & Focused**. In Figma the states are different variants that can be achieved by changing the `State` property and/or the boolean properties for Selected and Disabled. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states.
 
 <img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
@@ -39,7 +39,7 @@ The Dropdown items support five different states: **Idle**, **Disabled**, **Focu
 
 ## Item Layout Template
 
-The Dropdown Item supports flexible icon and label templating. In Sketch, to show the icon you have to set its override to Icon/Medium and the smart layout rules will adjust the item layout automatically. In Adobe XD, the same is possible by making the icon layer visible and leaving it to the Stack to adjust the layout automatically, however, if you don't need items with icons in the content, simply delete the icon layer. In Figma, we offer prefix and suffix icons, and to show them you have to select one or all items in your Dropdown and switch on the `Prefix Icon` and/or `Suffix Icon` property.
+The Dropdown Item supports flexible icon and label templating. In Sketch, to show the icon you have to set its override to Icon/Medium and the smart layout rules will adjust the item layout automatically. In Adobe XD, the same is possible by making the icon layer visible and leaving it to the Stack to adjust the layout automatically, however, if you don't need items with icons in the content, simply delete the icon layer. In Figma, you can add prefix and suffix icons to your Dropdown by selecting one or more items and enabling the `Prefix Icon` and/or `Suffix Icon` properties.
 
 <img class="responsive-img" src="../images/dropdown_item_label.png" srcset="../images/dropdown_item_label@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_icon.png" srcset="../images/dropdown_item_icon@2x.png 2x" /> 
