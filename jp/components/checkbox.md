@@ -15,7 +15,7 @@ Checkbox コンポーネント シンボルは、設定の変更やフォーム�
 
 ## 操作状態
 
-Checkbox は、有効または無効の状態で挿入できます。Sketch および Adobe XD では、コンポーネントを挿入する前に状態を選択する必要があります。ただし、Figma では、Enabled & Invalid (有効および無効)、Enabled & Hover (有効およびホバー)、Enabled Hover & Invalid (有効なホバーおよび無効)、Enabled & Focused (有効およびフォーカス)、および Enabled Focused & Invalid (有効なフォーカスおよび無効) などの状態が追加され、プロパティ パネルで切り替えることができます。
+Checkbox は、有効または無効の状態で挿入できます。Sketch および Adobe XD では、コンポーネントを挿入する前に状態を選択する必要があります。Figma では、以下のプロパティを単独または組み合わせて適用することもできます: Hover (ホバー)、Focused (フォーカス)、Invalid (無効)。これらはプロパティ パネルで切り替えることができます。
 
 <img class="responsive-img" src="../images/checkbox_interaction_state.png" srcset="../images/checkbox_interaction_state@2x.png 2x" />
 

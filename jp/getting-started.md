@@ -9,7 +9,7 @@ _language: ja
 
 Indigo.Design は、ビジュアル デザイン、UX プロトタイプ、コード生成、アプリケーション開発のためのプラットフォームです。UX にフォーカスしてアプリケーションをすばやく公開したいデザインチームと開発チームに最適な製品です。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="images/platform-workflow.jpg" />
+<img class="responsive-img" src="images/platform-workflow.jpg" srcset="images/platform-workflow@2x.jpg 2x" />
 <p style="width: 100%; text-align:center;">デザインから開発までのワークフロー</p>
 
 Indigo.Design プラットフォームは、**UI キット**、**プロトタイプ / ユーザビリティ テスト** および **App Builder** の 3 つの主要モジュールで構成されています。**UI キット (Sketch、Figma、XD)** は、生産性を高めるツールを使用して、実際の UI コントロールとコンポーネントにマッピングされます。各 **UI キット**は、色、タイポグラフィ、サイズなどを厳密に実装および準拠しています。一方、**プロトタイプとユーザビリティ テスト**は、製品または機能のユーザー エクスペリエンスを測定および改善するのに役立ちます。**App Builder** を使用すると、ユーザーは Web 環境で独自のアプリケーションを構築し、そこから **Angular、React、Blazor、または Web コンポーネント** コードを生成できます。
