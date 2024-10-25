@@ -12,9 +12,9 @@ The Tree component is visually identical to the [Ignite UI for Angular Tree Comp
 
 <img class="responsive-img" src="../images/tree_demo.png" srcset="../images/tree_demo@2x.png 2x" />
 
-## Tree Size
+## Tree Sizes
 
-The Tree component supports three sizes - Large, Medium and Small. In Figma you can switch between the three by changing the value of the "Size" property from the properties panel, while in Sketch you need to choose the display density prior to inserting the symbol.
+The Tree component offers three sizes: Large, Medium, and Small. In Figma, you can switch between them by adjusting the “Size” property in the properties panel. In Sketch, select the display density before inserting the symbol.
 
 <img class="responsive-img" src="../images/tree_size_large.png" srcset="../images/tree_size_large@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_size_medium.png" srcset="../images/tree_size_medium@2x.png 2x" />
