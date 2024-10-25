@@ -14,9 +14,8 @@ Use the Icon Component to provide subtle graphical information to the user that,
 
 ## Size
 
-The Icon comes in four different sizes:
+The Icon comes in three different sizes:
 
-- ExtraLarge
 - Large
 - Medium
 - Small

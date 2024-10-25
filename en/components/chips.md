@@ -12,15 +12,15 @@ Use the Chip Component as a compact visual shown in an obround to display tags a
 
 <img class="responsive-img" src="../images/chip_demo.png" srcset="../images/chip_demo@2x.png 2x" />
 
-## Chip Density
+## Chip Size
 
-The Chip comes in three density variants:
+The Chip comes in three sizes:
 
-- Comfortable - Suitable for interactive scenarios e.g. action triggers
-- Cosy - Appropriate for short areas such as the recipient field of an email message composer
-- Compact - Best for data-dense scenarios such as the values for a cell in the Grid
+- Large - Suitable for interactive scenarios e.g. action triggers
+- Medium - Appropriate for short areas such as the recipient field of an email message composer
+- Small - Best for data-dense scenarios such as the values for a cell in the Grid
 
-<img class="responsive-img" src="../images/chip_density.png" srcset="../images/chip_density@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_size.png" srcset="../images/chip_size@2x.png 2x" />
 
 ## Chip Types
 
@@ -40,10 +40,6 @@ When the user interacts with the Chip, it may change from the default **Idle** s
 
 <img class="responsive-img" src="../images/chip_state.png" srcset="../images/chip_state@2x.png 2x" />
 
-You will also notice one more state named Templated, which is used internally in the [Grid Advanced Filter](grid-advanced-filter.md) interface. In Figma, the Chip Templated is a separate component, while in Sketch and Adobe XD it can be selected as a State from the main Chip component.
-
-<img class="responsive-img" src="../images/chip_templated.png" srcset="../images/chip_templated@2x.png 2x" />
-
 ## Remove Chip
 
 When a chip can be removed, a special cancel icon will appear at the far right to indicate this. In Figma, the remove icon can be shown/hidden using the Remove Icon boolean property. In Sketch the `🔣 Remove Icon` override provides the means to trigger this functionality. The smart layout rules applied to the Chip adjust its layout accordingly. In Adobe XD, the `🔣 Remove Icon` layer has to be made visible to achieve the same and the Stack on the Chip will adjust its layout in a similar way. If you don't want the Chip to be removable, simply delete the `🔣 Remove Icon` layer.
@@ -60,7 +56,7 @@ In Sketch, prefix and suffix containers can be added by finding them in the Over
 
 In Adobe XD, you have to make the desired layers visible and delete the unnecessary elements from them. If you want to remove a prefix or suffix all at once, simply delete it altogether. In the end, the layout will adjust thanks to the Stack that is being used.
 
-<img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_large.png" srcset="../images/chip_large@2x.png 2x" />
 `Text`
 
 <img class="responsive-img" src="../images/chip_prefix.png" srcset="../images/chip_prefix@2x.png 2x" />
