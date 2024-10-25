@@ -13,13 +13,6 @@ Tooltip コンポーネントを使用して追加情報を表示し、ユーザ
 
 <img class="responsive-img" src="../images/tooltip_demo.png" srcset="../images/tooltip_demo@2x.png 2x" />
 
-## タイプ
-
-Tooltip は、デスクトップとモバイルで使用時に適切なサイズで提供されます。
-
-<img class="responsive-img" src="../images/tooltip_desktop.png" srcset="../images/tooltip_desktop@2x.png 2x" />
-<img class="responsive-img" src="../images/tooltip_mobile.png" srcset="../images/tooltip_mobile@2x.png 2x" />
-
 ## スタイル設定
 
 Tooltip には、背景色とメッセージ テキスト スタイルで使用できるオプションによるスタイル設定の柔軟性があります。ただし、背景との最適なコントラストとツールヒント メッセージの読みやすさを維持するために、事前定義された色を使用することをお勧めします。

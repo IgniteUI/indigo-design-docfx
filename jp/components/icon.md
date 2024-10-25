@@ -15,9 +15,8 @@ Icon コンポーネント シンボルは、製品に「いいね」などの�
 
 ## サイズ
 
-Icon のサイズは 4 つあります。
+Icon のサイズは 3 つあります。
 
-- ExtraLarge
 - Large
 - Medium
 - Small

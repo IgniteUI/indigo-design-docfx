@@ -13,15 +13,15 @@ Chip コンポーネントは、タグや連絡先 (メール受信者など) �
 
 <img class="responsive-img" src="../images/chip_demo.png" srcset="../images/chip_demo@2x.png 2x" />
 
-## Chip 密度
+## Chip サイズ
 
-Chip は 3 つの密度バリアントがサポートされます。
+Chip は 3 つのサイズ バリアントがサポートされます。
 
-- Comfortable - インタラクティブ シナリオに適しています。e.g. アクション トリガー
-- Cosy - 電子メール作成ツールの受信者フィールドなど短い領域に適しています。
-- Compact - グリッド セルの値などデータが密集したシナリオに最適です。
+- Large - インタラクティブ シナリオに適しています。e.g. アクション トリガー
+- Medium - 電子メール作成ツールの受信者フィールドなど短い領域に適しています。
+- Small - グリッド セルの値などデータが密集したシナリオに最適です。
 
-<img class="responsive-img" src="../images/chip_density.png" srcset="../images/chip_density@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_size.png" srcset="../images/chip_size@2x.png 2x" />
 
 ## Chip タイプ
 
@@ -42,10 +42,6 @@ Figma では、これらはプロパティ パネルの State プロパティか
 
 <img class="responsive-img" src="../images/chip_state.png" srcset="../images/chip_state@2x.png 2x" />
 
-Templated という名前のもう 1 つの状態があります。これは、[Grid Advanced Filter](grid-advanced-filter.md) インターフェイスで内部的に使用されます。Figma では、Chip Templated は別のコンポーネントですが、Sketch および Adobe XD では、メインの Chip コンポーネントから State として選択できます。
-
-<img class="responsive-img" src="../images/chip_templated.png" srcset="../images/chip_templated@2x.png 2x" />
-
 ## Chip の削除
 
 Chip を削除することが可能であると、これを示す特別なキャンセル アイコンが右端に表示されます。Figma では、Remove Icon ブール値プロパティを使用して、削除アイコンを表示/非表示にできます。Figma では、`🔣 Remove Icon` オーバーライドは、この機能をトリガーする手段を提供します。Adobe XD では、`🔣 Remove Icon` レイヤーを表示する必要があり、Chip の Stack も同様にレイアウトを調整します。Chip を削除可能にしたくない場合は、`🔣 Remove Icon` レイヤーを削除します。
@@ -62,7 +58,7 @@ Sketch では、Overrides/Input/Prefix/Container および Overrides/Input/Suffi
 
 Adobe XD では、目的のレイヤーを表示し、不要な要素を削除する必要があります。プレフィックスまたはサフィックスを一度に削除するには、削除します。最終的に、使用されている Stack によってレイアウトが調整されます。
 
-<img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_large.png" srcset="../images/chip_large@2x.png 2x" />
 `Text`
 
 <img class="responsive-img" src="../images/chip_prefix.png" srcset="../images/chip_prefix@2x.png 2x" />

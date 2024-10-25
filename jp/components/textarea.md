@@ -13,6 +13,14 @@ Text Area コンポーネントを使用して、ユーザーが複数行に表�
 
 <img class="responsive-img" src="../images/textarea_demo.png" srcset="../images/textarea_demo@2x.png 2x" />
 
+## タイプ
+Figma では、ヒント付きとヒントなしのテキスト エリアの選択肢が提供されており、ブール プロパティを使用してオン/オフを切り替えることができます。
+
+<img class="responsive-img" src="../images/textarea_hint.png" srcset="../images/textarea_hint@2x.png 2x" />
+`ヒント付き`
+<img class="responsive-img" src="../images/textarea_nohint.png" srcset="../images/textarea_nohint@2x.png 2x" />
+`ヒントなし`
+
 ## 操作状態
 
 Text Area は、有効または無効の状態で挿入できます。
