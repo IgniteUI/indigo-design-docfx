@@ -27,7 +27,7 @@ The Navigation Drawer can show up to 21 Items in Sketch and Figma. If you have m
 
 ## Item State
 
-Every Navigation Drawer Item comes with a State which can be Active, Inactive, Hover or Disabled (only Figma). In Figma, you can go into the nested Navigation Drawer Items and choose the desired state from the State property. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In Figma, you can also choose to show/hide the icon using the `Icon` boolean property. In a Navigation Drawer, only one Item can be Active to indicate the view that will be shown on the rest of the screen.
+Every Navigation Drawer Item comes with a State which can be Active, Inactive or Hover. In Figma there's also an additional Disabled State. In Figma, you can go into the nested Navigation Drawer Items and choose the desired state from the State property. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In Figma, you can also choose to show/hide the icon using the `Icon` boolean property. In a Navigation Drawer, only one Item can be Active to indicate the view that will be shown on the rest of the screen.
 
 <img class="responsive-img" src="../images/nav-drawer_active.png" srcset="../images/nav-drawer_active@2x.png 2x" />
 `active`
