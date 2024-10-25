@@ -12,7 +12,7 @@ Use the Dropdown Component to let the user select an item from a collection that
 
 <img class="responsive-img" src="../images/dropdown_demo.png" srcset="../images/dropdown_demo@2x.png 2x" />
 
-## Size
+## Sizes
 
 The Dropdown comes in three sizes: Large, Medium, and Small.
 
