@@ -8,7 +8,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 Indigo.Design is a unified platform for visual design, UX prototyping, code generation and app development. It’s aimed at design and development teams looking to deliver pixel perfect apps as quickly as possible, without losing focus on UX.
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="images/platform-workflow.jpg" />
+<img class="responsive-img" src="images/platform-workflow.jpg" srcset="images/platform-workflow@2x.jpg 2x" />
 <p style="width: 100%; text-align:center;">Design to development workflow</p>
 
 Indigo.Design platform consists of three main modules - **UI Kits**, **Prototypes/Usability Studies** and **App Builder**. **The UI Kits (Sketch, Figma, XD)** map to real UI controls and components, with tooling that delivers productivity. Each **UI Kit** implements and follows strictly - Colors, Typography, Sizes and etc. While **Prototypes and Usability Studies** help you measure and improve the user experience of a product or feature. **The App Builder** enables users build their own applications in a web environment and generate **Angular, React, Blazor or Web Components** code from it.
