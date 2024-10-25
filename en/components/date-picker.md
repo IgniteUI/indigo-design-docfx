@@ -27,13 +27,13 @@ The Date Picker supports a Dialog layout with Horizontal and Vertical orientatio
 <img class="responsive-img" src="../images/datepicker_vertical.png" srcset="../images/datepicker_vertical@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_dropdown.png" srcset="../images/datepicker_dropdown@2x.png 2x" />
 
-In Figma, you can display action buttons at the bottom of the date picker by enabling the `Action Buttons` boolean property.
+In Figma, you can display action buttons at the bottom of the Date Picker by enabling the `Action Buttons` boolean property.
 
 <img class="responsive-img" src="../images/datepicker_actions.png" srcset="../images/datepicker_actions@2x.png 2x" />
 
 ## Multiview Variants
 
-The Date Picker supports a Multiview option for showing two months side by side. In Figma you can switch it on using the `Multiview` boolean property and choose between horizontal and vertical orientation from the `Orientation` property. In Sketch and Adobe XD we have only horizontal multiview, and the orientation and the view should be chosen when inserting the component.
+The Date Picker includes a Multiview option to display two months side by side. In Figma, you can enable this with the `Multiview` boolean property and select either horizontal or vertical orientation using the `Orientation` property. In Sketch and Adobe XD, only horizontal Multiview is available, and the orientation and view need to be selected when adding the component.
 
 <img class="responsive-img" src="../images/datepicker_multi_horiz.png" srcset="../images/datepicker_multi_horiz@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_multi_vert.png" srcset="../images/datepicker_multi_vert@2x.png 2x" />
