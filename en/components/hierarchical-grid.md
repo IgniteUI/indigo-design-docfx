@@ -28,7 +28,7 @@ If you'd like to alter the number of columns or cells, you can simply hide the u
 
 ## Using the Hierarchical Grid in Sketch
 
-The easiest way to use the Hierarchical Grid in Sketch is by dragging one of the predefined grids to your artboard - there are three presets available for the three [display densities](grid-size.md) supported. Once in your artboard, by right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu you should see the following in your layers panel under the newly appeared group:
+The easiest way to use the Hierarchical Grid in Sketch is by dragging one of the predefined grids to your artboard - there are three presets available for the three [display densities](grid-sizes.md) supported. Once in your artboard, by right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu you should see the following in your layers panel under the newly appeared group:
 
 | Layer                                | Use                                                                                                                                                  |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -42,7 +42,7 @@ After detaching, you may alter the number of headers you need to show all the di
 
 ## Using the Hierarchical Grid in Adobe XD
 
-In Adobe XD, after you choose one of the three [preset display density hierarchical grid components](grid-size.md) and drag it to your artboard, you will notice in the layers panel that we use `Repeat Grid` for both the Header and the Body to speed configuration up. Unlike in Sketch in Adobe XD destroying the symbol is not necessary. You should see the following in your layers panel:
+In Adobe XD, after you choose one of the three [preset display density hierarchical grid components](grid-sizes.md) and drag it to your artboard, you will notice in the layers panel that we use `Repeat Grid` for both the Header and the Body to speed configuration up. Unlike in Sketch in Adobe XD destroying the symbol is not necessary. You should see the following in your layers panel:
 
 | Layer                                | Use                                                                                                                                                  |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -104,7 +104,7 @@ Related topics:
 - [Grid Excel Style Filter](grid-excel-style-filter.md)
 - [Grid Row Selection](grid-row-selection.md)
 - [Grid Editing](grid-editing.md)
-- [Grid Size](grid-size.md)
+- [Grid Sizes](grid-sizes.md)
 - [Grid Paging](grid-paging.md)
 - [Grid Summaries](grid-summaries.md)
 - [Tree Grid](tree-grid.md)
