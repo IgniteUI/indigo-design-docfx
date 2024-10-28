@@ -28,7 +28,7 @@ After detaching, you may increase the number of columns inside the grid by dupli
 
 ## Using the Grid in Sketch
 
-To use the Grid component in Sketch you can insert one of the predefined grids to your artboard - there are three presets available for the three [display densities](grid-size.md) supported. Once in your artboard, by right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu you should see the following in your layers panel under the newly appeared group:
+To use the Grid component in Sketch you can insert one of the predefined grids to your artboard - there are three presets available for the three [display densities](grid-sizes.md) supported. Once in your artboard, by right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu you should see the following in your layers panel under the newly appeared group:
 
 | Layer                                    | Use                                                                                                                                                  |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -41,7 +41,7 @@ After detaching, you may alter the number of headers you need, in order to show 
 
 ## Using the Grid in Adobe XD
 
-In Adobe XD, after you choose one of the three [preset display density grid components](grid-size.md) and drag it to your artboard, you will notice in the layers panel that we use `Repeat Grid` for both the Header and the Body to speed configuration up. Unlike in Sketch in Adobe XD destroying the symbol is not necessary. You should see the following in your layers panel:
+In Adobe XD, after you choose one of the three [preset display density grid components](grid-sizes.md) and drag it to your artboard, you will notice in the layers panel that we use `Repeat Grid` for both the Header and the Body to speed configuration up. Unlike in Sketch in Adobe XD destroying the symbol is not necessary. You should see the following in your layers panel:
 
 | Layer                                    | Use                                                                                                                                                  |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
