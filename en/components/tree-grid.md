@@ -38,7 +38,7 @@ Then again by duplicating any of the body cells that already exist inside the co
 
 ## Using the Tree Grid in Adobe XD
 
-In Adobe XD, after you choose one of the three [preset display density tree grid components](grid-size.md) and drag it to your artboard, you will notice in the layers panel that we use `Repeat Grid` for both the Header and the Body to speed configuration up. Unlike in Sketch in Adobe XD destroying the symbol is not necessary. You should see the following in your layers panel:
+In Adobe XD, after you choose one of the three [preset display density tree grid components](grid-sizes.md) and drag it to your artboard, you will notice in the layers panel that we use `Repeat Grid` for both the Header and the Body to speed configuration up. Unlike in Sketch in Adobe XD destroying the symbol is not necessary. You should see the following in your layers panel:
 
 | Layer                        | Use                                                                                                                                                  |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -105,7 +105,7 @@ Related topics:
 - [Grid Excel Style Filter](grid-excel-style-filter.md)
 - [Grid Row Selection](grid-row-selection.md)
 - [Grid Editing](grid-editing.md)
-- [Grid Size](grid-size.md)
+- [Grid Sizes](grid-sizes.md)
 - [Grid Paging](grid-paging.md)
 - [Grid Summaries](grid-summaries.md)
 - [Hierarchical Grid](hierarchical-grid.md)
