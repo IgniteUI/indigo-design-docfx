@@ -158,7 +158,7 @@ Related topics:
 - [Grid Excel Style Filter](grid-excel-style-filter.md)
 - [Grid Row Selection](grid-row-selection.md)
 - [Grid Editing](grid-editing.md)
-- [Grid Size](grid-size.md)
+- [Grid Sizes](grid-sizes.md)
 - [Grid Paging](grid-paging.md)
 - [Grid Summaries](grid-summaries.md)
 - [Hierarchical Grid](hierarchical-grid.md)
