@@ -13,7 +13,7 @@ Use the Hierarchical Grid Component to let the user browse and interact with a v
 <img class="responsive-img" src="../images/hierarchical_grid_demo.png" srcset="../images/hierarchical_grid_demo@2x.png 2x" />
 
 ## Using the Hierarchical Grid in Figma
-Similarly to the Grid, the Hierarchical Grid is essentially a repeater of columns, rows, and nested grids forming a visual hierarchy. To use the Hierarchical Grid component simply search for it in the Resources panel and insert an instance. If needed, you can change the size by using the "Size" property from the properties panel. In the layers panel you'll see the following structure: 
+Similarly to the Grid, the Hierarchical Grid is essentially a repeater of columns, rows, and nested grids forming a visual hierarchy. To use the Hierarchical Grid component simply search for it in the Resources panel and insert an instance. If needed, you can change the size by using the `Size` property from the properties panel. In the layers panel you'll see the following structure: 
 
 | Layer                                | Use                                                                                                                                                  |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |

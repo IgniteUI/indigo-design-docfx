@@ -23,13 +23,13 @@ The Skeleton Hierarchical Grid extends the three types of skeleton cells Header,
 
 The Skeleton CollapseAll and Expand cells support the same three size variants as the standard [Hierarchical Grid](hierarchical-grid.md): Large, Medium and Small.
 
-<img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_large.png" srcset="../images/hierarchical_grid_skeleton_cell_headerlargee@2x.png 2x" />
+<img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_large.png" srcset="../images/hierarchical_grid_skeleton_cell_header_large@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_medium.png" srcset="../images/hierarchical_grid_skeleton_cell_header_medium@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_small.png" srcset="../images/hierarchical_grid_skeleton_cell_header_small@2x.png 2x" />
 
 ## Grid Types
 
-The Skeleton Hierarchical Grid supports the three display densities and offers variants for each of them with regard to the state of loading data: Initial which is shown when the Hierarchical Grid is loading data and there is no expanded row with a nested grid, and Expand which is shown when only the nested grid is loading data.
+The Skeleton Hierarchical Grid supports the three sizes and offers variants for each of them with regard to the state of loading data: Initial which is shown when the Hierarchical Grid is loading data and there is no expanded row with a nested grid, and Expand which is shown when only the nested grid is loading data.
 
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_initial.png" srcset="../images/hierarchical_grid_skeleton_initial@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_expand.png" srcset="../images/hierarchical_grid_skeleton_expand@2x.png 2x" />
