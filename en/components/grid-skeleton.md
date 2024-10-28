@@ -22,7 +22,7 @@ The Skeleton Grid supports the same three types of cells as the standard [Grid](
 
 ## Cell Size
 
-The Skeleton Header, Body, and Summary Cells support the same three size variants as the standard [Grid](grid.md): large, medium and small.
+The Skeleton Header, Body, and Summary Cells support the same three size variants as the standard [Grid](grid.md): Large, Medium and Small.
 
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_large.png" srcset="../images/grid_skeleton_cell_header_large@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_medium.png" srcset="../images/grid_skeleton_cell_header_medium@2x.png 2x" />
