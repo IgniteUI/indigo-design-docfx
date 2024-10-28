@@ -40,7 +40,7 @@ Related topics:
 - [Grid](grid.md)
 - [Grid Row Filter](grid-row-filter.md)
 - [Grid Advanced Filter](grid-advanced-filter.md)
-- [Grid Sizes](grid-size.md)
+- [Grid Sizes](grid-sizes.md)
 - [Grid Sorting](grid-sorting.md)
 - [Grid Column Moving](grid-column-moving.md)
 - [Grid Column Hiding](grid-column-hiding.md)
