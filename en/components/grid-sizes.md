@@ -1,12 +1,12 @@
 ---
-title: Grid Size - Grid Feature
-_description: The Grid Size provides denser and more airy layout variants for its various elements and content.
+title: Grid Sizes - Grid Feature
+_description: The Grid Sizes provide denser and more airy layout variants for its various elements and content.
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
 ---
 
-# Grid Size
+# Grid Sizes
 
-The Grid comes in three pre-built variants according to the three sizes supported: Large, Medium, and Small, where the first one is the airiest layout and the last one is the densest one. The Grid Size is visually identical to the [Ignite UI for Angular Grid Size Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/display_density.html).
+The Grid is available in three sizes — Large, Medium, and Small. The Large variant provides the most spacious layout, while the Small variant is the most compact. The Grid Size is visually identical to the [Ignite UI for Angular Grid Size Feature](https://www.infragistics.com/products/ignite-ui-angular/angular/components/grid/display_density.html).
 
 The more data a grid has to display, the denser its layout needs to be. This also leaves less and less whitespace in the layout of all its elements including the header and body cells, overlays and dialogs, as well as elements that are attached to the grid above or below the main content like the Toolbar and the Summaries.
 
