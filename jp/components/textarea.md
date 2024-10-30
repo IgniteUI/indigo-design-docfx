@@ -14,7 +14,7 @@ Text Area コンポーネントを使用して、ユーザーが複数行に表�
 <img class="responsive-img" src="../images/textarea_demo.png" srcset="../images/textarea_demo@2x.png 2x" />
 
 ## タイプ
-Figma では、ヒント付きとヒントなしのテキスト エリアの選択肢が提供されており、ブール プロパティを使用してオン/オフを切り替えることができます。
+Figma では、ヒント付きとヒントなしのテキスト エリアの選択肢が提供されており、ブール値プロパティを使用してオン/オフを切り替えることができます。
 
 <img class="responsive-img" src="../images/textarea_hint.png" srcset="../images/textarea_hint@2x.png 2x" />
 `ヒント付き`
@@ -30,7 +30,7 @@ Text Area は、有効または無効の状態で挿入できます。
 
 ## 状態
 
-ユーザーが Text Area とインタラクティブに操作する際にさまざまな状態を経由します。コンテンツの代わりにプレースホルダーがある Idle (アイドル状態)、ユーザーが入力中の Focused (フォーカス状態)、ユーザーがコンテンツの追加を完了して次に進むときの Filled (塗りつぶし状態)。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
+ユーザーが Text Area とインタラクティブに操作する際にさまざまな状態を経由します。コンテンツの代わりにプレースホルダーがある Idle、ユーザーが入力中の Focused、ユーザーがコンテンツの追加を完了して次に進むときの Filled。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 
 <img class="responsive-img" src="../images/textarea_idle.png" srcset="../images/textarea_idle@2x.png 2x" />
 `idle`

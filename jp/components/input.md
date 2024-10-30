@@ -41,14 +41,16 @@ Sketch と Adobe XD では、これらの各プリセットを Enabled (有効) 
 
 ## 状態
 
-Input コンポーネントは、ユーザーの操作にあわせてさまざまな状態を経ます。**Idle** (アイドル状態): コンテンツの代わりにプレースホルダーを表示します。**Hover** (ホーバー状態) は、ユーザーがカーソルを合わせたときに入力がアクティブであることを示します。**Filled** (塗りつぶし状態): ユーザーがコンテンツを入力し、入力から移動した後に表示されます。**Focused** (フォーカス状態) は、ユーザーがアクティブに入力を行っていることを視覚的に示します。
+Input コンポーネントは、ユーザーの操作にあわせてさまざまな状態を経ます。**Idle (アイドル)**: コンテンツの代わりにプレースホルダーを表示します。**Idle & Hover (アイドルおよびホバー)** は、ユーザーがカーソルを合わせたときに入力がアクティブであることを示します。**Filled (塗りつぶし済み)**: ユーザーがコンテンツを入力し、入力から移動した後に表示されます。**Filled & Hover (塗りつぶし済みおよびホバー)** - コンテンツが入力された後、ユーザーが入力の上にマウスを置いたときに入力がアクティブであることを示します。**Focused (フォーカス済み)** は、ユーザーがアクティブに入力を行っていることを視覚的に示します。
 
 <img class="responsive-img" src="../images/input_idle.png" srcset="../images/input_idle@2x.png 2x" />
 `idle`
-<img class="responsive-img" src="../images/input_hover.png" srcset="../images/input_hover@2x.png 2x" />
-`hover`
+<img class="responsive-img" src="../images/input_idle&hover.png" srcset="../images/input_idle&hover@2x.png 2x" />
+`idle & hover`
 <img class="responsive-img" src="../images/input_filled.png" srcset="../images/input_filled@2x.png 2x" />
 `filled`
+<img class="responsive-img" src="../images/input_filled&hover.png" srcset="../images/input_filled&hover@2x.png 2x" />
+`filled & hover`
 <img class="responsive-img" src="../images/input_focused.png" srcset="../images/input_focused@2x.png 2x" />
 `focused`
 

@@ -15,20 +15,20 @@ Checkbox コンポーネント シンボルは、設定の変更やフォーム�
 
 ## 操作状態
 
-Checkbox は、有効または無効の状態で挿入できます。Sketch および Adobe XD では、コンポーネントを挿入する前に状態を選択する必要があります。Figma では、以下のプロパティを単独または組み合わせて適用することもできます: Hover (ホバー)、Focused (フォーカス)、Invalid (無効)。これらはプロパティ パネルで切り替えることができます。
+Checkbox は、有効または無効の状態で挿入できます。Sketch および Adobe XD では、コンポーネントを挿入する前に状態を選択する必要があります。Figma では、以下のプロパティを単独または組み合わせて適用することもできます: Hover (ホバー)、Focused (フォーカス済み)、Invalid (無効)。これらはプロパティ パネルで切り替えることができます。
 
 <img class="responsive-img" src="../images/checkbox_interaction_state.png" srcset="../images/checkbox_interaction_state@2x.png 2x" />
 
 ## レイアウト テンプレート
 
-Sketch で Checkbox は、Checkbox 要素の前後に Checkbox ラベルが配置されるラベル位置のバリアントをサポートします。Figma では、「Label Position」プロパティを使用して、ラベルの位置を変更できます。Adobe XD では、Stacks を使用して、チェックボックスのビジュアルの左または右にドラッグするだけで、デザイン時にラベルとチェックボックスの位置を変更できるようにしています。
+Sketch で Checkbox は、Checkbox 要素の前後に Checkbox ラベルが配置されるラベル位置のバリアントをサポートします。Figma では、「Label Position」 プロパティを使用して、ラベルの位置を変更できます。Adobe XD では、Stacks を使用して、チェックボックスのビジュアルの左または右にドラッグするだけで、デザイン時にラベルとチェックボックスの位置を変更できるようにしています。
 
 <img class="responsive-img" src="../images/checkbox_label_after.png" srcset="../images/checkbox_label_after@2x.png 2x" />
 <img class="responsive-img" src="../images/checkbox_label_before.png" srcset="../images/checkbox_label_before@2x.png 2x" />
 
 ## 状態
 
-Checkbox は、**オン**/オフと不確定状態があります。Figma ではプロパティ パネルの「State」プロパティで選択状態を切り替えることができます。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+Checkbox は、**オン**/オフと不確定状態があります。Figma ではプロパティ パネルの 「State」 プロパティで選択状態を切り替えることができます。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/checkbox_selection.png" srcset="../images/checkbox_selection@2x.png 2x" />
 

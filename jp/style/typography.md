@@ -69,7 +69,7 @@ _language: ja
 <img class="responsive-img" src="../images/typography_text_styles.png" srcset="../images/typography_text_styles@2x.png 2x"/>
 <div class="divider--half"></div>
 
-「Edit style」 アイコンをクリックすると、ポップオーバーが開きます。プロパティ セクションにドロップダウンが表示され、別のフォント ファミリを選択できます。すべてのタイポグラフィでこの変更を修正するには、すべてのスタイルに対して同じ手順を個別に実行する必要があることに注意してください。
+ 「Edit style」 アイコンをクリックすると、ポップオーバーが開きます。プロパティ セクションにドロップダウンが表示され、別のフォント ファミリを選択できます。すべてのタイポグラフィでこの変更を修正するには、すべてのスタイルに対して同じ手順を個別に実行する必要があることに注意してください。
 
 <img class="responsive-img" src="../images/typography_font_change.png" srcset="../images/typography_font_change@2x.png 2x"/>
 <div class="divider--half"></div>
