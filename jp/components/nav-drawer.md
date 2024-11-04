@@ -28,11 +28,16 @@ Navigation Drawer は、Sketch と Figma で最大 21 個の項目を表示で�
 
 ## 項目の状態
 
-すべての Navigation Drawer 項目には、Active、Inactive、または Hover の状態があります。Figma では、ネストされた Navigation Drawer Items に移動し、State プロパティから目的の状態を選択できます。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Navigation Drawer では、画面の残りの部分に表示されるビューを示すために、一度に 1 つの項目のみをアクティブにすることができます。
+すべての Navigation Drawer 項目には、Active (アクティブ)、Inactive (非アクティブ)、または Hover (ホバー) の状態があります。Figma では、Disabled (無効) 状態も追加されています。Figma では、ネストされた Navigation Drawer Items に移動し、State プロパティから目的の状態を選択できます。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Figma では、`Icon` ブール値プロパティを使用してアイコンの表示/非表示を選択することもできます。Navigation Drawer では、画面の残りの部分に表示されるビューを示すために、一度に 1 つの項目のみをアクティブにすることができます。
 
 <img class="responsive-img" src="../images/nav-drawer_active.png" srcset="../images/nav-drawer_active@2x.png 2x" />
+`active`
 <img class="responsive-img" src="../images/nav-drawer_inactive.png" srcset="../images/nav-drawer_inactive@2x.png 2x" />
+`inactive`
 <img class="responsive-img" src="../images/nav-drawer_hover.png" srcset="../images/nav-drawer_hover@2x.png 2x" />
+`hover`
+<img class="responsive-img" src="../images/nav-drawer_disabled.png" srcset="../images/nav-drawer_disabled@2x.png 2x" />
+`disabled`
 
 ## スタイル設定
 

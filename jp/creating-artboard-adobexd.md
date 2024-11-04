@@ -80,7 +80,7 @@ Adobe XD を開き、iPhone 12 Pro Max を選択します。これにより、�
     2.  アートボードの上側に配置し、すべての利用可能な幅に合わせるために引き伸ばします。
     3.  次に、左側のパネルを切り替えて `Layers` を表示し、レイヤー名の左側にあるリンク アイコンをクリックしてコンポーネントを展開します。
     4.  [Left Group] の下に、削除する [Left Action] と呼ばれる別のグループがあり、[Right Group] の下の 1 | Icon、2 | Icon、および 3 | Icon に対して同じことを行います。
-    5.  [Title] を選択し、Enter キーを押して、「Sign Up」と入力します。
+    5.  [Title] を選択し、Enter キーを押して、「Sign Up」 と入力します。
 
     <div class="divider--half"></div>
     <img class="responsive-img" src="images/getting-startedxd0.png" srcset="images/getting-startedxd0@2x.png 2x" />
@@ -116,7 +116,7 @@ Adobe XD を開き、iPhone 12 Pro Max を選択します。これにより、�
 
 4.  **フォームのタイトルを追加します。**
 
-    1.  `T` キーを押して白い長方形の上にテキスト要素を追加し、「Start Budgeting」と入力します。
+    1.  `T` キーを押して白い長方形の上にテキスト要素を追加し、「Start Budgeting」 と入力します。
     2.  テキス トレイヤーを選択した状態で、`Libraries` パネルを下にスクロールして `Character Styles` を表示し、Heading H4 - 34pt をクリックします。
     3.  白い長方形の上に配置します。上に 16px スペースを設定します。
 
@@ -133,12 +133,12 @@ Adobe XD を開き、iPhone 12 Pro Max を選択します。これにより、�
     1.  検索ボックスを使用して、入力の Simple / Line / Enabled バリアントを見つけます。作成したフォームのタイトルの下にドラッグします。接頭辞が _Overrides のコンポーネントではなく、適切なコンポーネントを選択してください。
     2.  右側のパネルの `Component (Instance)` セクションから、[Filled State] を選択します。
     3.  Navbar の場合と同じようにレイヤーを展開し、[Prefix Container] と [Suffix Container] を削除します。
-    4.  [Label] を「First Name」に設定し、[Value] を「Eliza」に設定します。
+    4.  [Label] を 「First Name」 に設定し、[Value] を 「Eliza」 に設定します。
     5.  タイトルの下に配置します。左上に 16px を設定します。
     6.  幅を 116px に設定します。
     7.  この入力を複製します。
     8.  新しい入力を元の入力に配置し、その間に 16px を設定します。
-    9.  [Label] を「Last Name」に設定し、[Value] を「Morales」に設定します。
+    9.  [Label] を 「Last Name」 に設定し、[Value] を 「Morales」 に設定します。
 
     <div class="divider--half"></div>
     <img class="responsive-img" src="images/getting-startedxd4.png" srcset="images/getting-startedxd4@2x.png 2x" />
@@ -153,7 +153,7 @@ Adobe XD を開き、iPhone 12 Pro Max を選択します。これにより、�
     1.  [Name] 入力の 1 つを 2 回複製して、[Username] と [Password] の入力を作成します。
     2.  前の手順で作成したものと、お互いに 16px の垂直間隔になるように下に配置します。
     3.  幅全体に引き伸ばし、両方の側に 16px スペースを設定します。
-    4.  ラベルを「Username」と「Password」に設定し、値を「Leaellynasaura」と「\*\*\*\*\*\*\*\*\*\*\*\*」に設定します。
+    4.  ラベルを 「Username」 と 「Password」 に設定し、値を 「Leaellynasaura」 と 「\*\*\*\*\*\*\*\*\*\*\*\*」 に設定します。
     5.  [Password] 入力の非表示の [ContentType] レイヤーを選択し、その状態を Password に変更します。
 
     <div class="divider--half"></div>
@@ -168,7 +168,7 @@ Adobe XD を開き、iPhone 12 Pro Max を選択します。これにより、�
 
     1.  左側のパネルを `Libraries` に変更し、Contained Button を探します。
     2.  入力の下にドラッグし、接頭辞が _Overrides のコンポーネントではなく、正しいコンポーネントを選択していることを確認し、それを全幅に伸ばして、左、右、および上の入力から 16px を残します。
-    3.  `Layers` に戻り、コンポーネントを展開し、アイコンを削除して、ラベルを「SIGN UP」に設定します。
+    3.  `Layers` に戻り、コンポーネントを展開し、アイコンを削除して、ラベルを 「SIGN UP」 に設定します。
     4.  [Label] をラップしている [Group] を選択し、Button の中央に配置します。
     5.  再度 `Libraries` に切り替えて、ラベルに表面の色を付け、[Background] を info の色に設定します。
 
@@ -182,7 +182,7 @@ Adobe XD を開き、iPhone 12 Pro Max を選択します。これにより、�
 
 8.  **同意テキストを追加します。**
 
-    1.  `T` キーを押してボタンの下に別のテキスト要素を追加し、「By clicking on the "SIGN UP" button above, you accept our Terms of Use」と入力します。
+    1.  `T` キーを押してボタンの下に別のテキスト要素を追加し、「By clicking on the "SIGN UP" button above, you accept our Terms of Use」 と入力します。
     2.  キャプション 12pt の文字スタイルを割り当て、grays.700 の色を付けます。
     3.  右側のパネルで、[Text] を [Auto Height] に設定し、レイヤー サイズを変更して、左右と上部から 16px を残します。
 

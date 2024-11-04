@@ -108,7 +108,7 @@ Indigo Design ライブラリを追加後、デザインを開始できます。
 
   <div class="divider--half"></div>
 
-8.  `Insert` メニューから `Indigo-Components` > `Text` > `Paragraph` を選択し、ボタンの下に配置し、すべての側に 16px スペースを設定するためにサイズ変更します。`Size` オーバーライドを `Body 2` に設定し、`Style` を `~14/left/grays.700` に設定します。`Text` を「By clicking on the "SIGN UP" button above, you accept our Terms of Use」に設定します。
+8.  `Insert` メニューから `Indigo-Components` > `Text` > `Paragraph` を選択し、ボタンの下に配置し、すべての側に 16px スペースを設定するためにサイズ変更します。`Size` オーバーライドを `Body 2` に設定し、`Style` を `~14/left/grays.700` に設定します。`Text` を 「By clicking on the "SIGN UP" button above, you accept our Terms of Use」 に設定します。
 
     | レイヤー | 説明 |
     | ------------------------------ | -------------------------------------------- |

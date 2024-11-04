@@ -134,7 +134,7 @@ _language: ja
 
 <img class="responsive-img" src="../images/icons_add12.png" srcset="../images/icons_add12@2x.png 2x" />
 
-3.  このインスタンスのグループ化を解除し、2 つの新しいレイヤーから「_Overrides/Material Icons/action/copyright」という名前の新しいグループを作成します。
+3.  このインスタンスのグループ化を解除し、2 つの新しいレイヤーから 「_Overrides/Material Icons/action/copyright」 という名前の新しいグループを作成します。
 
     | レイヤー | 使用 |
     | ----------------------- | ----------------------------------------------------- |

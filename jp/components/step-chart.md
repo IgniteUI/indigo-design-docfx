@@ -36,7 +36,7 @@ Chart Type では、Line と Area を切り替えることができます。後�
 
 ## State (状態)
 
-Step Chart には、Idle (アイドル状態) と Hover (ホバー状態) の 2 つの状態があります。Figma では、ネストされたチャート タイプ コンポーネントを選択すると、プロパティ パネルからブール演算「Hover Tooltip」を使用して 2 つを切り替えることができます。一方、Sketch では、これは `Symbol Overrides` を使用して実現されます。Adobe XD では ン `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Hover 状態では、データ ポイントにホバーすると、このポイントでのシリーズの値に関する情報を提供するツールチップが表示されます。
+Step Chart には、Idle (アイドル状態) と Hover (ホバー状態) の 2 つの状態があります。Figma では、ネストされたチャート タイプ コンポーネントを選択すると、プロパティ パネルからブール演算 「Hover Tooltip」 を使用して 2 つを切り替えることができます。一方、Sketch では、これは `Symbol Overrides` を使用して実現されます。Adobe XD では ン `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Hover 状態では、データ ポイントにホバーすると、このポイントでのシリーズの値に関する情報を提供するツールチップが表示されます。
 
 <img class="responsive-img" src="../images/step_area_chart_tooltip-off.png" srcset="../images/step_area_chart_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/step_area_chart_tooltip-on.png" srcset="../images/step_area_chart_tooltip-on@2x.png 2x" />
@@ -49,7 +49,7 @@ Step Chart の Y 軸は、Title (タイトル)、Labels (ラベル)、および�
 
 ## Gridlines (グリッド線)
 
-Step Chart には 縦と横の Gridlines が組み込まれているため、データ ポイントをXとY軸で視覚的にトレースすることができます。どちらも個別に設定可能で、Figma でいずれかまたは両方を非表示にするには、レイヤー パネルからネストされたChart Type コンポーネントを選択し、「Vertical Gridlines」と「Horizontal Gridlines」と呼ばれるプロパティのいずれかまたは両方をオン/オフする必要があります。Sketch と Adobe XD では、グリッド線の色を `Transparent` に設定することでこれを実現できます。
+Step Chart には 縦と横の Gridlines が組み込まれているため、データ ポイントをXとY軸で視覚的にトレースすることができます。どちらも個別に設定可能で、Figma でいずれかまたは両方を非表示にするには、レイヤー パネルからネストされたChart Type コンポーネントを選択し、「Vertical Gridlines」 と 「Horizontal Gridlines」 と呼ばれるプロパティのいずれかまたは両方をオン/オフする必要があります。Sketch と Adobe XD では、グリッド線の色を `Transparent` に設定することでこれを実現できます。
 
 <img class="responsive-img" src="../images/step_chart_gridlines1.png" srcset="../images/step_chart_gridlines1@2x.png 2x" />
 <img class="responsive-img" src="../images/step_chart_gridlines2.png" srcset="../images/step_chart_gridlines2@2x.png 2x" />

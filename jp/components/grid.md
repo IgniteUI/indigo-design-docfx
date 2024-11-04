@@ -103,7 +103,7 @@ Grid Body Cell は、`Grid Feature` を介してヘッダーで定義された�
 
 ## セル タイプ
 
-Sketch と Figma では、Grid Header Cell は、グリッドが対応する必要があるデータの種類に対して 5 つのプリセットを提供します。数値の **Number**、それぞれのデータ タイプの **Text,Date,Bool** (テキスト、日付、ブール) を組み合わせたもの; 複数の行を選択する場合に最初の列に使用される **Row Selection**; グループ化されたデータ行を展開および縮小するために使用される Group By; ユーザーが本文セル内のコンテンツに関連する特定のフィルター オプションをアクティブ化できる場所で使用される **Row Filter** です。Figma には、**Row Filter** の 2 つのオプションがあります - Empty (空) または Filled (塗りつぶし)。Adobe XD では、3 つのタイプがあります。**Data** に標準のもの、**Row Selection**、**Group By** の標準タイプで、標準のタイプは `Component States` を介した **Numeric** 値と **Text,Date,Bool** 値の選択をサポートしています。
+Sketch と Figma では、Grid Header Cell は、グリッドが対応する必要があるデータの種類に対して 5 つのプリセットを提供します。数値の **Number**、それぞれのデータ タイプの **Text,Date,Bool** (テキスト、日付、ブール) を組み合わせたもの; 複数の行を選択する場合に最初の列に使用される **Row Selection**; グループ化されたデータ行を展開および縮小するために使用される Group By; ユーザーが本文セル内のコンテンツに関連する特定のフィルター オプションをアクティブ化できる場所で使用される **Row Filter** です。Figma には、**Row Filter** の 2 つのオプションがあります - Empty (空) または Filled (塗りつぶし済み)。Adobe XD では、3 つのタイプがあります。**Data** に標準のもの、**Row Selection**、**Group By** の標準タイプで、標準のタイプは `Component States` を介した **Numeric** 値と **Text,Date,Bool** 値の選択をサポートしています。
 
 <img class="responsive-img" src="../images/grid_cell_header_number.png" srcset="../images/grid_cell_header_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />

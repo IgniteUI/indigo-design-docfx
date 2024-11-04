@@ -33,7 +33,7 @@ Button コンポーネント シンボルは、シンプルなユーザー操作
 
 ## 状態
 
-有効なボタンは、**Idle (アイドル)** と Hover (ホバー) 状態をサポートします。Figma では、State プロパティを変更することで切り替えることができる Focused (フォーカス) Focused & Hover (フォーカスおよびホバー) 状態を追加しました。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+有効なボタンは、**Idle (アイドル)** と Hover (ホバー) 状態をサポートします。Figma では、State プロパティを変更することで切り替えることができる Focused (フォーカス済み) Focused & Hover (フォーカス済みおよびホバー) 状態を追加しました。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/button_states.png" srcset="../images/button_states@2x.png 2x" />
 

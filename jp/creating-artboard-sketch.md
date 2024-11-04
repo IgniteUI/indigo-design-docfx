@@ -87,7 +87,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
     1.  `Insert` メニューから Symbols / Indigo.Design / Navigation / Navbar / Elevated を選択します。
     2.  アートボードの上側に配置し、すべての利用可能な幅に合わせるために引き伸ばします。
     3.  右側のパネルの [Resizing] セクションで、アートボードの上部にピン固定し、高さを固定します。
-    4.  [Overrides] セクションで、[Left Action] を ~No Symbol に設定し、Title を「Sign Up」に設定します。その後、1 | Icon、2 | Icon、および 3 | Icon を ~No Symbol に設定します。
+    4.  [Overrides] セクションで、[Left Action] を ~No Symbol に設定し、Title を 「Sign Up」 に設定します。その後、1 | Icon、2 | Icon、および 3 | Icon を ~No Symbol に設定します。
 
     <div class="divider--half"></div>
     <img class="responsive-img" src="images/getting-started-sketch0.png" srcset="images/getting-started-sketch0@2x.png 2x" />
@@ -124,7 +124,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 
 4.  **フォームのタイトルを追加します。**
 
-    1.  `T` キーを押して白い長方形の上にテキスト要素を追加し、「Start Budgeting」と入力します。
+    1.  `T` キーを押して白い長方形の上にテキスト要素を追加し、「Start Budgeting」 と入力します。
     2.  以下のタイポグラフィ スタイルを上記の長方形に割り当てた方法と同様に割り当てますが、[Appearance] の下に [Text Style] ドロップダウンがあります。それを開いて Indigo.Design / H4 Headline / Centeр / Active を選択します。それを開いて Indigo.Design / H4 Headline / Center / Active を選択します。 
     3.  白い長方形の上に配置します。上に 16px スペースを設定します。
 
@@ -141,12 +141,12 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
     1.  `Insert` メニューから、Symbols / Indigo.Design / Input / Simple / Line / Enabled を選択します。
     2.  [Overrides] セクションで [State] を ~Filled に設定します。
     3.  [Prefix Container] および [Suffix Container] を ~No Symbol に設定します。
-    4.  [Label] を「First Name」に設定し、[Value] を「Eliza」に設定します。
+    4.  [Label] を 「First Name」 に設定し、[Value] を 「Eliza」 に設定します。
     5.  タイトルの下に配置します。左上に 16px を設定します。
     6.  幅を 116px に設定します。
     7.  この入力を複製します。
     8.  新しい入力を元の入力に配置し、その間に 16px を設定します。
-    9.  [Overrides] セクションで、[Label] を「Last Name」に設定し、Value を「Morales」に設定します。
+    9.  [Overrides] セクションで、[Label] を 「Last Name」 に設定し、Value を 「Morales」 に設定します。
 
     <div class="divider--half"></div>
     <img class="responsive-img" src="images/getting-started-sketch4.png" srcset="images/getting-started-sketch4@2x.png 2x" />
@@ -161,8 +161,8 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
     1.  [Name] 入力の 1 つを 2 回複製して、[Username] と [Password] の入力を作成します。
     2.  前の手順で作成したものと、お互いに 16px の垂直間隔になるように下に配置します。
     3.  幅全体に引き伸ばし、両方の側に 16px スペースを設定します。
-    4.  [Overrides] セクションで、[Label] を「Username」および「Password」に設定し、Input Text を「Leaellynasaura」および \*\*\*\*\*\*\*\*\*\*\*\* に設定します。
-    5.  その際、[Password] 入力の [Content Type] も「Password」に設定します。
+    4.  [Overrides] セクションで、[Label] を 「Username」 および 「Password」 に設定し、Input Text を 「Leaellynasaura」 および \*\*\*\*\*\*\*\*\*\*\*\* に設定します。
+    5.  その際、[Password] 入力の [Content Type] も 「Password」 に設定します。
 
     <div class="divider--half"></div>
     <img class="responsive-img" src="images/getting-started-sketch5.png" srcset="images/getting-started-sketch5@2x.png 2x" />
@@ -177,7 +177,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
     1.  `Insert` メニューから Symbols / Indigo.Design / Button / Contained / Enabled を選択します。
     2.  入力の下に配置し、上の入力から左右に 16px スペースを設定して全幅に引き伸ばします。
     3.  [Overrides] セクションで [Before Icon] と [After Icon] を ~No Symbol に設定します。
-    4.  [Text] を「SIGN UP」に設定し、[Style] を ~White に更新します。
+    4.  [Text] を 「SIGN UP」 に設定し、[Style] を ~White に更新します。
     5.  [Background] を ~info に更新します。
 
     <div class="divider--half"></div>
@@ -190,7 +190,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 
 8.  **同意テキストを追加します。**
 
-    1.  `T` キーを押してボタンの下に別のテキスト要素を追加し、「By clicking on the "SIGN UP" button above, you accept our Terms of Use」と入力します。
+    1.  `T` キーを押してボタンの下に別のテキスト要素を追加し、「By clicking on the "SIGN UP" button above, you accept our Terms of Use」 と入力します。
     2.  次のスタイルを Indigo.Design / Caption / Center / Inactive に割り当てます。
     3.  サイズを変更して、左、右、上に 16px スペースを設定します。
 
