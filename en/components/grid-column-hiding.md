@@ -14,7 +14,7 @@ Use the Grid Column Hiding to hide certain columns from the Grid. The easiest wa
 
 ## Toolbar and Header Cell
 
-The Grid Column Hiding can be achieved by adding a Toolbar with a Column Hiding action that enables the feature for the whole grid. However, in order to mark certain columns as hidable, you need to configure the `Column Hiding` override on the Grid Header Cell for the respective column in Sketch and set it to Hidden. In Figma, you need to open the Grid Header Cell of a certain column and set the `Feature` property of the nested `Column Hiding` component to `Hidden`. By default, the state is set to **Visible**. In Adobe XD, the `Column Hiding` layer uses the `Component States` paradigm to let you easily switch between states. The default value is **Visible**.
+The Grid Column Hiding can be achieved by adding a Toolbar with a Column Hiding action that enables the feature for the whole grid. However, in order to mark certain columns as hidable, you need to configure the `Column Hiding` override on the Grid Header Cell for the respective column in Sketch and set it to Hidden. In Adobe XD, the `Column Hiding` layer uses the `Component States` paradigm to let you easily switch between states. The default value is **Visible**. This feature has been deprecated in Figma and should be applied directly in AppBuilder after the code generation.
 
 ## Additional Resources
 
