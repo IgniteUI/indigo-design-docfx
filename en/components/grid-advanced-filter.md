@@ -16,7 +16,7 @@ Use the Grid Advanced Filter to specify advanced filtering criteria spanning ove
 
 The Grid has three `Advanced Filtering` symbols under `Features`, one for each Size, that represent the overlay shown over the Grid. In Figma you can switch between the different sizes via the dedicated property in the properties panel. In Adobe XD you can switch between display densities through the `Component States`.
 
-<img class="responsive-img" src="../images/grid_advanced_filter_display_density.png" srcset="../images/grid_advanced_filter_display_density@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_advanced_filter_sizes.png" srcset="../images/grid_advanced_filter_sizes@2x.png 2x" />
 
 ## Filter Expression State
 
