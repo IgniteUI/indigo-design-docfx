@@ -12,7 +12,7 @@ The Grid Pattern with Column Moving, Summaries and Paging is shown below:
 
 <img class="responsive-img" src="../images/grid.png" srcset="../images/grid@2x.png 2x" />
 
-List of all the Grid functionality:
+List of all the Grid functionalities:
 - Sorting
 - Filtering
 - Summaries

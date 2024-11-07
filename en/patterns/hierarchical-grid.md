@@ -10,7 +10,7 @@ Use the Hierarchical Grid Pattern as a starting point when designing complex Gri
 
 <img class="responsive-img" src="../images/hierarchical_grid.png" srcset="../images/hierarchical_grid@2x.png 2x" />
 
-List of all the Grid functionality:
+List of all the Grid functionalities:
 - Sorting
 - Filtering
 - Summaries
@@ -44,6 +44,6 @@ All Grid features are applicable to each child and parent Grid.
 
 Related topics:
 
-- [Hierarchical-Grid](../components/hierarchical-grid.md)
+- [Hierarchical Grid](../components/hierarchical-grid.md)
 
 Our community is active and always welcoming to new ideas.
