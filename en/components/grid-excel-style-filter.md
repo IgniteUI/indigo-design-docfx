@@ -20,7 +20,7 @@ In order to indicate that a column has an active Excel Style Filter in Sketch (t
 
 The Grid has three `Excel Style Filter` symbols under `Features` in Sketch, one for each Display Density, that represent the overlay shown for the affected column. In Figma and Adobe XD, there is just one `Excel Style Filter`, and via the `Size` property in Figma and `Component States` in Adobe XD you can easily switch between the three sizes available. Adding the Excel Style Filter has only a visual effect on your design to make it more realistic, if you want to turn the Excel Style Filter feature on, configure the Header Cells accordingly.
 
-<img class="responsive-img" src="../images/grid_excel_style_filter_size.png" srcset="../images/grid_excel_style_filter_size@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_excel_style_filter_sizes.png" srcset="../images/grid_excel_style_filter_sizes@2x.png 2x" />
 
 > [!Note]
 > Make sure to pick a Size variant for the Excel Style Filter overlay that matches the Grid Size since it is the one that is inherited by all features of the Grid.
