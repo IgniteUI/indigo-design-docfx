@@ -33,13 +33,15 @@ List of all the Grid functionality:
 - Toolbar
 
 
-Grid Pattern symbols come in six pre-made combinations of Grid features:
+Grid Pattern symbols come in eight pre-made combinations of Grid features:
+- Grid Pattern with Excel Style Filter and Sorting
 - Grid Pattern with Column Moving, Summaries and Paging
-- Grid Pattern with Editing and Filter Row
-- Grid Pattern with Excel Style Filter, Sorting and Display Density
-- Grid Pattern with Group By, Column Resizing and Summaries
 - Grid Pattern with Pinning, Row Selection and Active Cell
+- Grid Pattern with Group By, Column Resizing and Summaries
+- Grid Pattern with Editing and Filter Row
 - Grid Pattern with Toolbar, Export, Row Editing and Column Hiding
+- Grid Pattern with Toolbar, Hiding, Pinning and Export
+- Grid Pattern with Toolbar, Row Selection, Filter Row, Summaries and Paging
 
 
 > [!WARNING]
