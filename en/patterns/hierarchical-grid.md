@@ -11,24 +11,23 @@ Use the Hierarchical Grid Pattern as a starting point when designing complex Gri
 <img class="responsive-img" src="../images/hierarchical_grid.png" srcset="../images/hierarchical_grid@2x.png 2x" />
 
 List of all the Grid functionalities:
-- Sorting
-- Filtering
-- Summaries
-- Paging
-- Editing
-- Column Moving
-- Column Resizing
-- Column Hiding
-- Size
-- Excel Style Filtering
-- Advanced Filtering
-- GroupBy
-- Pinning
-- Row Selection
-- Row Editing
-- Active Cell
-- Export
-- Toolbar
+- [Grid Toolbar](../components/grid-toolbar.md)
+- [Grid Export](../components/grid-export.md)
+- [Grid Group By](../components/grid-grouping.md)
+- [Grid Column Pinning](../components/grid-column-pinning.md)
+- [Grid Column Hiding](../components/grid-column-hiding.md)
+- [Grid Column Moving](../components/grid-column-moving.md)
+- [Grid Column Resizing](../components/grid-column-resizing.md)
+- [Grid Sorting](../components/grid-sorting.md)
+- [Grid Row Filter](../components/grid-row-filter.md)
+- [Grid Excel Style Filtering](../components/grid-excel-style-filter.md)
+- [Grid Advanced Filtering](../components/grid-advanced-filter.md)
+- [Grid Row Selection](../components/grid-row-selection.md)
+- [Grid Editing](../components/grid-editing.md)
+- [Grid Sizes](../components/grid-sizes.md)
+- [Grid Paging](../components/grid-paging.md)
+- [Grid Summaries](../components/grid-summaries.md)
+- [Grid Skeleton](../components/grid-skeleton.md)
 
 All Grid features are applicable to each child and parent Grid.
 
@@ -44,6 +43,7 @@ All Grid features are applicable to each child and parent Grid.
 
 Related topics:
 
+- [Grid](../components/grid.md)
 - [Hierarchical Grid](../components/hierarchical-grid.md)
 
 Our community is active and always welcoming to new ideas.
