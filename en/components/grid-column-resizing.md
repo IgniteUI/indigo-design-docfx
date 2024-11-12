@@ -14,7 +14,7 @@ Use the Grid Column Resizing to indicate that the columns of the Grid are resiza
 
 ## Header Cell
 
-To indicate that a column is resizable, configure the `Column Resizing` override of the Grid Header Cell for the column in Sketch by changing the default value from **Not Resizable** to **Resizable**. To do that in Figma you need to go to the layers panel, open the Grid Header Cell layer and change the property of the `Column Resizing` component from **Not Resizable** to **Resizable**. In Adobe XD, the `Column Resizing` layer uses the `Component States` paradigm to let you easily switch between states. This is what marks the column as resizable as far as code generation is concerned.
+To indicate that a column is resizable, configure the `Column Resizing` override of the Grid Header Cell for the column in Sketch by changing the default value from **Not Resizable** to **Resizable**. In Adobe XD, the `Column Resizing` layer uses the `Component States` paradigm to let you easily switch between states. This is what marks the column as resizable as far as code generation is concerned. This feature has been deprecated in Figma and if you are using AppBuilder to generate your design, you should apply it directly there after the code generation.
 
 ## Column Resizing Indicator Feature
 
