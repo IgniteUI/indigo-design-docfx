@@ -20,17 +20,17 @@ Skeleton Hierarchical Grid は、Header、Body、Summary の 3 種類のスケ�
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header.png" srcset="../images/hierarchical_grid_skeleton_cell_header@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_body.png" srcset="../images/hierarchical_grid_skeleton_cell_body@2x.png 2x" />
 
-## セル表示密度
+## セル サイズ
 
-Skeleton CollapseAll セルと Expand セルは、標準の [Hierarchical Grid](hierarchical-grid.md) と同じ 3 つの表示密度のバリエーション (Comfortable、Cosy、Compact) をサポートします。
+Skeleton CollapseAll セルと Expand セルは、標準の [Hierarchical Grid](hierarchical-grid.md) と同じ 3 つのサイズ バリアント (Large、Medium、Small) をサポートします。
 
-<img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_comfortable.png" srcset="../images/hierarchical_grid_skeleton_cell_header_comfortable@2x.png 2x" />
-<img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_cosy.png" srcset="../images/hierarchical_grid_skeleton_cell_header_cosy@2x.png 2x" />
-<img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_compact.png" srcset="../images/hierarchical_grid_skeleton_cell_header_compact@2x.png 2x" />
+<img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_large.png" srcset="../images/hierarchical_grid_skeleton_cell_header_large@2x.png 2x" />
+<img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_medium.png" srcset="../images/hierarchical_grid_skeleton_cell_header_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/hierarchical_grid_skeleton_cell_header_small.png" srcset="../images/hierarchical_grid_skeleton_cell_header_small@2x.png 2x" />
 
 ## Grid タイプ
 
-Skeleton Hierarchical Grid は、3 つの表示密度をサポートし、データの読み込み状態に関してそれぞれのバリエーションを提供します: Hierarchical Grid がデータを読み込むとき、ネストされたグリッドを持つ展開された行がない場合に表示される Initial と、ネストされたグリッドのみがデータを読み込んでいるときに表示される Expand。
+Skeleton Hierarchical Grid は、3 つのサイズをサポートし、データの読み込み状態に関してそれぞれのバリエーションを提供します: Hierarchical Grid がデータを読み込むとき、ネストされたグリッドを持つ展開された行がない場合に表示される Initial と、ネストされたグリッドのみがデータを読み込んでいるときに表示される Expand。
 
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_initial.png" srcset="../images/hierarchical_grid_skeleton_initial@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_skeleton_expand.png" srcset="../images/hierarchical_grid_skeleton_expand@2x.png 2x" />

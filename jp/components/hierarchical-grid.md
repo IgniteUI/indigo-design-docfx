@@ -14,7 +14,7 @@ Hierarchical Grid コンポーネントを使用して、ユーザーが個別�
 <img class="responsive-img" src="../images/hierarchical_grid_demo.png" srcset="../images/hierarchical_grid_demo@2x.png 2x" />
 
 ## Figma で Hierarchical Grid を使用
-Grid と同様に、Hierarchical Grid は基本的に、視覚的な階層を形成する列、行、ネストされたグリッドのリピーターです。Hierarchical Grid コンポーネントを使用するには、[Resources] パネルで検索してインスタンスを挿入するだけです。必要に応じて、プロパティ パネルの 「Display Density」 プロパティを使用して、表示密度を変更できます。レイヤー パネルには、次の構造が表示されます。 
+Grid と同様に、Hierarchical Grid は基本的に、視覚的な階層を形成する列、行、ネストされたグリッドのリピーターです。Hierarchical Grid コンポーネントを使用するには、[Resources] パネルで検索してインスタンスを挿入するだけです。必要に応じて、プロパティ パネルの `Size` プロパティを使用して、サイズを変更できます。レイヤー パネルには、次の構造が表示されます。 
 
 | レイヤー                                | 使用                                                                                                                                                  |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -29,7 +29,7 @@ Grid と同様に、Hierarchical Grid は基本的に、視覚的な階層を形
 
 ## Sketch で Hierarchical Grid を使用
 
-Sketch で Hierarchical Grid を使用する最も簡単な方法は、事前定義されたグリッドの 1 つをアートボードにドラッグすることです。サポートされる 3 つの[表示密度](grid-display-density.md)に 3 つのプリセットがあります。アートボードを開いた後、その上を右-クリックし、コンテキスト メニューの下部にある `Detach from Symbol` オプションを選択すると、新しく表示されたグループの下のレイヤー パネルに次のように表示されます:
+Sketch で Hierarchical Grid を使用する最も簡単な方法は、事前定義されたグリッドの 1 つをアートボードにドラッグすることです。サポートされる 3 つの[表示密度](grid-sizes.md)に 3 つのプリセットがあります。アートボードを開いた後、その上を右-クリックし、コンテキスト メニューの下部にある `Detach from Symbol` オプションを選択すると、新しく表示されたグループの下のレイヤー パネルに次のように表示されます:
 
 | レイヤー                                | 使用                                                                                                                                                 |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -43,7 +43,7 @@ Sketch で Hierarchical Grid を使用する最も簡単な方法は、事前定
 
 ## Adobe XD で Hierarchical Grid を使用
 
-Adobe XD では、3 つの[プリセット表示密度階層グリッド コンポーネント](grid-display-density.md)のいずれかを選択してアートボードにドラッグすると、レイヤー パネルで、Header と Body の両方に `Repeat Grid` を使用して構成を高速化していることがわかります。Sketch とは異なり、Adobe XD ではシンボルを破棄する必要はありません。レイヤー パネルに次のように表示されます:
+Adobe XD では、3 つの[プリセット表示密度階層グリッド コンポーネント](grid-sizes.md)のいずれかを選択してアートボードにドラッグすると、レイヤー パネルで、Header と Body の両方に `Repeat Grid` を使用して構成を高速化していることがわかります。Sketch とは異なり、Adobe XD ではシンボルを破棄する必要はありません。レイヤー パネルに次のように表示されます:
 
 | レイヤー                                | 使用                                                                                                                                                  |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -66,13 +66,13 @@ Hierarchical Grid は、3種類の通常のグリッド セル Header、Body お
 
 通常の Header、Body、Summary セルをさまざまなタイプのデータに使用し、さまざまな Hierarchical Grid 機能を有効にするように構成する方法を理解するには、[Grid](grid.md) トピックを参照してください。
 
-## セル表示密度
+## セル サイズ
 
-CollapseAll セルと Expand セルは、Hierarchical Grid の 3 つの表示密度バリアント (Comfortable、Cosy、Compact) をサポートします。以下の CollapseAll Header セルに見られるように、それぞれに個別のシンボルが付いています:
+CollapseAll セルと Expand セルは、Hierarchical Grid の 3 つのサイズ バリアント (Large、Medium、Small) をサポートします。以下の CollapseAll Header セルに見られるように、それぞれに個別のシンボルが付いています:
 
-<img class="responsive-img" src="../images/hierarchical_grid_cell_header_comfortable.png" srcset="../images/hierarchical_grid_cell_header_comfortable@2x.png 2x" />
-<img class="responsive-img" src="../images/hierarchical_grid_cell_header_cosy.png" srcset="../images/hierarchical_grid_cell_header_cosy@2x.png 2x" />
-<img class="responsive-img" src="../images/hierarchical_grid_cell_header_compact.png" srcset="../images/hierarchical_grid_cell_header_compact@2x.png 2x" />
+<img class="responsive-img" src="../images/hierarchical_grid_cell_header_large.png" srcset="../images/hierarchical_grid_cell_header_large@2x.png 2x" />
+<img class="responsive-img" src="../images/hierarchical_grid_cell_header_medium.png" srcset="../images/hierarchical_grid_cell_header_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/hierarchical_grid_cell_header_small.png" srcset="../images/hierarchical_grid_cell_header_small@2x.png 2x" />
 
 ## スタイル設定
 
@@ -105,7 +105,7 @@ Hierarchical Grid は、さまざま状態の各セル テキスト、アイコ�
 - [Grid Excel スタイル フィルター](grid-excel-style-filter.md)
 - [Grid 行選択](grid-row-selection.md)
 - [Grid 編集](grid-editing.md)
-- [Grid 表示密度](grid-display-density.md)
+- [Grid サイズ](grid-sizes.md)
 - [Grid ページング](grid-paging.md)
 - [Grid 集計](grid-summaries.md)
 - [Tree Grid](tree-grid.md)

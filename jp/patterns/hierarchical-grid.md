@@ -12,24 +12,23 @@ _language: ja
 <img class="responsive-img" src="../images/hierarchical_grid.png" srcset="../images/hierarchical_grid@2x.png 2x" />
 
 すべてのグリッド機能のリスト:
-- 並べ替え
-- フィルタリング
-- 集計
-- ページング
-- 編集
-- 列移動
-- 列サイズ変更
-- 列非表示
-- 表示密度
-- Excel スタイル フィルタリング
-- 高度なフィルタリング
-- グループ化
-- ピン固定
-- 行選択
-- 行編集
-- アクティブ セル
-- エクスポート
-- ツールバー
+- [Grid ツールバー](../components/grid-toolbar.md)
+- [Grid エクスポート](../components/grid-export.md)
+- [Grid グループ化](../components/grid-grouping.md)
+- [Grid 列ピン固定](../components/grid-column-pinning.md)
+- [Grid 列非表示](../components/grid-column-hiding.md)
+- [Grid 列移動機能](../components/grid-column-moving.md)
+- [Grid 列サイズ変更](../components/grid-column-resizing.md)
+- [Grid 並べ替え](../components/grid-sorting.md)
+- [Grid 行フィルター](../components/grid-row-filter.md)
+- [Grid Excel スタイル フィルタリング](../components/grid-excel-style-filter.md)
+- [Grid 高度なフィルタリング](../components/grid-advanced-filter.md)
+- [Grid 行選択](../components/grid-row-selection.md)
+- [Grid 編集](../components/grid-editing.md)
+- [Grid サイズ](../components/grid-sizes.md)
+- [Grid ページング](../components/grid-paging.md)
+- [Grid 集計](../components/grid-summaries.md)
+- [Grid スケルトン](../components/grid-skeleton.md)
 
 すべての Grid 機能は、各子および親 Grid に適用できます。
 
@@ -43,6 +42,7 @@ _language: ja
 
 関連トピック:
 
-- [Hierarchical-Grid](../components/hierarchical-grid.md)
+- [Grid](../components/grid.md)
+- [Hierarchical Grid](../components/hierarchical-grid.md)
 
 コミュニティに参加して新しいアイデアをご提案ください。

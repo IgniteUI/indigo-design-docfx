@@ -28,7 +28,7 @@ Grid 行選択は、最初の列の左側に追加の列を作成し、その He
 
 ## Row Selection Cell (行選択セル)
 
-グリッドは、Sketch の `Grid Feature` オーバーライドを介して利用可能な選択された行に特別なタイプの Body セルを提供します。`RowSelected/Cell` に設定すると、選択した行に属するセルを示す区別可能なスタイルが適用されます。Figma では、グリッド セル内でネストされた `Grid Feature` コンポーネントを選択し、プロパティ パネルの `Variant` プロパティを使用して `Row Selected` に切り替えることでこれを実現できます。Adobe XD では、`Grid Feature` が `Component States` パラダイムを使用するレイヤーとして提供され、状態を簡単に切り替えることができます。
+グリッドは、Sketch の `Grid Feature` オーバーライドを介して利用可能な選択された行に特別なタイプの Body セルを提供します。`RowSelected/Cell` に設定すると、選択した行に属するセルを示す区別可能なスタイルが適用されます。Figma では、グリッド セル内でネストされた `Cell State` コンポーネントを選択し、プロパティ パネルで `Row Selected` ブール値プロパティをオンにすることでこれを実現できます。Adobe XD では、`Grid Feature` が `Component States` パラダイムを使用するレイヤーとして提供され、状態を簡単に切り替えることができます。
 
 ## その他のリソース
 

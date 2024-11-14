@@ -19,12 +19,12 @@ Sketch で列に Excel スタイル フィルターがアクティブである�
 
 ## Excel Style Filter Feature (Excel スタイル フィルター機能)
 
-Grid には、スケッチの `Features` の下に 3 つの `Excel Style Filter` シンボルがあり、各表示密度に 1 つずつあり、影響を受ける列に表示されるオーバーレイを表します。Figma と Adobe XD には、`Excel Style Filter` が 1 つだけあり、Figma の `Display Density` プロパティと Adobe XD の `Component States` プロパティを使用して、利用可能な 3 つの表示密度を簡単に切り替えることができます。Excel Style Filter を追加すると、デザインに視覚的な効果があるのみで、よりリアルになります。Excel Style Filter 機能をオンにしたい場合は、Header Cells を構成します。
+Grid には、スケッチの `Features` の下に 3 つの `Excel Style Filter` シンボルがあり、各表示密度に 1 つずつあり、影響を受ける列に表示されるオーバーレイを表します。Figma と Adobe XD には、`Excel Style Filter` が 1 つだけあり、Figma の `Size` プロパティと Adobe XD の `Component States` プロパティを使用して、利用可能な 3 つのサイズを簡単に切り替えることができます。Excel Style Filter を追加すると、デザインに視覚的な効果があるのみで、よりリアルになります。Excel Style Filter 機能をオンにしたい場合は、Header Cells を構成します。
 
-<img class="responsive-img" src="../images/grid_excel_style_filter_densities.png" srcset="../images/grid_excel_style_filter_densities@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_excel_style_filter_sizes.png" srcset="../images/grid_excel_style_filter_sizes@2x.png 2x" />
 
 > [!Note]
-> グリッドのすべての機能に継承されるため、Grid Display Density に一致する Excel スタイル フィルター オーバーレイの Display Density バリアントを選択してください。
+> グリッドのすべての機能に継承されるため、Grid Size に一致する Excel スタイル フィルター オーバーレイの Size バリアントを選択してください。
 
 ### オーバーレイのカスタマイズ
 
@@ -32,7 +32,7 @@ Excel スタイル フィルター オーバーレイを使用すると、列名
 
 ### 並べ替え、移動、非表示、ピン固定
 
-Excel スタイル フィルター インターフェイスは、フィルタリング以外に並べ替え、列移動、列非表示、列ピン固定など、構成できない追加機能を提供します。それらのいずれかが Header Cell を介して列で有効になっている場合 (それぞれのトピックで有効にする方法を参照)、機能のユーザーインターフェイス要素は適用されている Grid Display Density に従って Excel スタイル フィルター インターフェイスに表示されます 。
+Excel スタイル フィルター インターフェイスは、フィルタリング以外に並べ替え、列移動、列非表示、列ピン固定など、構成できない追加機能を提供します。それらのいずれかが Header Cell を介して列で有効になっている場合 (それぞれのトピックで有効にする方法を参照)、機能のユーザーインターフェイス要素は適用されている Grid Size に従って Excel スタイル フィルター インターフェイスに表示されます 。
 
 ## その他のリソース
 
@@ -41,7 +41,7 @@ Excel スタイル フィルター インターフェイスは、フィルタリ
 - [Grid](grid.md)
 - [Grid 行フィルター](grid-row-filter.md)
 - [Grid 高度なフィルター](grid-advanced-filter.md)
-- [Grid 表示密度](grid-display-density.md)
+- [Grid サイズ](grid-sizes.md)
 - [Grid 並べ替え](grid-sorting.md)
 - [Grid 列移動](grid-column-moving.md)
 - [Grid 列非表](grid-column-hiding.md)

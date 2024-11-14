@@ -5,7 +5,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-# Grid Advanced Filter (Grid 高度なフィルター)
+# Grid Advanced Filter (グリッド高度なフィルター)
 
 Grid 高度なフィルターを使用すると、Grid 上に表示されるダイアログで複数の Grid 列にまたがる高度なフィルター条件を指定できます。Grid 高度なフィルターは、[Ignite UI for Angular Grid 高度なフィルタリング機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/advanced-filtering.html)と視覚的に同じものです。
 
@@ -15,9 +15,9 @@ Grid 高度なフィルターを使用すると、Grid 上に表示されるダ�
 
 ## 高度なフィルター機能
 
-グリッドには、`Features` の下に 3 つの `Advanced Filtering` シンボルがあり、各表示密度に 1 つずつ、グリッド上に表示されるオーバーレイを表します。Figma では、プロパティ パネルの専用プロパティを使用して、さまざまな表示密度を切り替えることができます。Adobe XD では、`Component States` を使用して表示密度を切り替えることができます。
+グリッドには、`Features` の下に 3 つの `Advanced Filtering` シンボルがあり、各サイズに 1 つずつ、グリッド上に表示されるオーバーレイを表します。Figma では、プロパティ パネルの専用プロパティを使用して、さまざまなサイズを切り替えることができます。Adobe XD では、`Component States` を使用してサイズを切り替えることができます。
 
-<img class="responsive-img" src="../images/grid_advanced_filter_display_density.png" srcset="../images/grid_advanced_filter_display_density@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_advanced_filter_sizes.png" srcset="../images/grid_advanced_filter_sizes@2x.png 2x" />
 
 ## フィルター式状態
 

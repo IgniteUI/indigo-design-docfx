@@ -15,7 +15,7 @@ Grid 列移動は、グリッドの列が移動可能であり、Header Cell を
 
 ## Header Cell (ヘッダー セル)
 
-列が移動可能であることを示するには、デフォルト値を **Not Movable** から **Movable** に変更すると、Sketch の列の Grid Header Cell の `Column Moving` のオーバーライドを設定します。Figma では、グリッド ヘッダー セル レイヤー内の `Column Moving` コンポーネントのプロパティを **Not Movable** から **Movable** に変更することでこれを実現できます。Adobe XD では、`Column Moving` レイヤーは `Component States` パラダイムを使用して、状態を簡単に切り替えることができます。コード生成には、これにより列を移動可能としてマークします。
+列が移動可能であることを示するには、デフォルト値を **Not Movable** から **Movable** に変更すると、Sketch の列の Grid Header Cell の `Column Moving` のオーバーライドを設定します。Adobe XD では、`Column Moving` レイヤーは `Component States` パラダイムを使用して、状態を簡単に切り替えることができます。コード生成には、これにより列を移動可能としてマークします。この機能は Figma では非推奨になっており、App Builder を使用してデザインを生成する場合は、コード生成後に直接適用する必要があります。
 
 ## Column Moving Feature (列移動機能)
 

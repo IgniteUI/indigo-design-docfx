@@ -15,7 +15,7 @@ Grid コンポーネントは複雑で大規模なデータを表形式のレイ
 
 ## Figma で Grid を使用
 
-Grid は、基本的に表形式のレイアウトでデータを表示する列と行のリピーターです。したがって、最も簡単な使用方法は、定義済みのグリッドの 1 つをフレームにドラッグすることです。サポートされる 3 つの[表示密度](grid-display-density.md) に 3 つのプリセットがあります。Figma では、Grid コンポーネントは列に基づいた構造を持っていることに注意してください。つまり、行全体ではなく、列全体を即座に削除または非表示にすることができます。グリッドを挿入したら、ヘッダーと本文セルの編集を開始したり、グリッド全体の幅のサイズを変更したりできます。ただし、グリッド構造をさらに調整したい場合 (列または行の削除、列の幅の変更など) は、グリッドを右クリックし、コンテキスト メニューの下部近くにある `Detach instance` オプションを使用する必要があります。事前にデタッチしなくても、レイヤー パネルのコンポーネント名の下に次の構造が表示されます。
+Grid は、基本的に表形式のレイアウトでデータを表示する列と行のリピーターです。したがって、最も簡単な使用方法は、定義済みのグリッドの 1 つをフレームにドラッグすることです。サポートされる 3 つの[サイズ](grid-sizes.md)に 3 つのプリセットがあります。Figma では、Grid コンポーネントは列に基づいた構造を持っていることに注意してください。つまり、行全体ではなく、列全体を即座に削除または非表示にすることができます。グリッドを挿入したら、ヘッダーと本文セルの編集を開始したり、グリッド全体の幅のサイズを変更したりできます。ただし、グリッド構造をさらに調整したい場合 (列または行の削除、列の幅の変更など) は、グリッドを右クリックし、コンテキスト メニューの下部近くにある `Detach instance` オプションを使用する必要があります。事前にデタッチしなくても、レイヤー パネルのコンポーネント名の下に次の構造が表示されます。
 
 | レイヤー                                    | 使用                                                                                                                                                  |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -29,7 +29,7 @@ Grid は、基本的に表形式のレイアウトでデータを表示する列
 
 ## Sketch で Grid を使用
 
-Sketch でグリッド コンポーネントを使用するには、定義済みのグリッドの 1 つをアートボードにドラッグすることです。サポートされる 3 つの[表示密度](grid-display-density.md)に 3 つのプリセットがあります。アートボードを開いた後、その上を右クリックし、コンテキスト メニューの下部にある `Detach from Symbol` オプションを選択すると、新しく表示されたグループの下のレイヤー パネルに次のように表示されます。
+Sketch でグリッド コンポーネントを使用するには、定義済みのグリッドの 1 つをアートボードにドラッグすることです。サポートされる 3 つの[表示密度](grid-sizes.md)に 3 つのプリセットがあります。アートボードを開いた後、その上を右クリックし、コンテキスト メニューの下部にある `Detach from Symbol` オプションを選択すると、新しく表示されたグループの下のレイヤー パネルに次のように表示されます。
 
 | レイヤー                                    | 使用                                                                                                                                                  |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -42,7 +42,7 @@ Sketch でグリッド コンポーネントを使用するには、定義済み
 
 ## Adobe XD で Grid を使用
 
-Adobe XD では、3 つの[プリセット表示密度グリッド コンポーネント](grid-display-density.md)のいずれかを選択してアートボードにドラッグすると、レイヤー パネルで、Header と Body の両方に `Repeat Grid` を使用して構成を高速化していることがわかります。Sketch とは異なり、Adobe XD ではシンボルを破棄する必要はありません。レイヤー パネルに次のように表示されます:
+Adobe XD では、3 つの[プリセット表示密度グリッド コンポーネント](grid-sizes.md)のいずれかを選択してアートボードにドラッグすると、レイヤー パネルで、Header と Body の両方に `Repeat Grid` を使用して構成を高速化していることがわかります。Sketch とは異なり、Adobe XD ではシンボルを破棄する必要はありません。レイヤー パネルに次のように表示されます:
 
 | レイヤー                                    | 使用                                                                                                                                                  |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -67,20 +67,20 @@ Header Cell には、Row Filter Header Cell という特別なサブタイプが
 
 <img class="responsive-img" src="../images/grid_cell_header_filter.png" srcset="../images/grid_cell_header_filter@2x.png 2x" />
 
-## セル表示密度
+## セル サイズ
 
-Header、Body、および Summary Cell は、Grid コンポーネントの表示密度に応じて 3 つの表示密度バリアントをサポートしています: Comfortable、Cosy、および Compact。Sketch では、それぞれに個別のシンボルが付いていますが、Figma では、セルの密度と内部のコンテンツはプロパティ パネルから個別に変更できるプロパティです。
+Header、Body、および Summary Cell は、Grid コンポーネントのサイズに応じて 3 つのバリアントをサポートしています: Large、Medium、および Small。Sketch では、それぞれに個別のシンボルが付いていますが、Figma では、セルのサイズと内部のコンテンツはプロパティ パネルから個別に変更できるプロパティです。
 
 > [!NOTE]
-> 特定の密度の Grid コンポーネントを選択した後は、グリッド セルの表示密度を変更しないことをお勧めします。
+> 特定のサイズの Grid コンポーネントを選択した後は、グリッド セルのサイズを変更しないことをお勧めします。
 
-<img class="responsive-img" src="../images/grid_cell_header_comfortable.png" srcset="../images/grid_cell_header_comfortable@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_cell_header_cosy.png" srcset="../images/grid_cell_header_cosy@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_cell_header_compact.png" srcset="../images/grid_cell_header_compact@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_header_large.png" srcset="../images/grid_cell_header_large@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_header_medium.png" srcset="../images/grid_cell_header_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_header_small.png" srcset="../images/grid_cell_header_small@2x.png 2x" />
 
 ## 項目と機能 (ヘッダー セル)
 
-Grid Header Cell は、`Items` のオーバーライドでさまざまなレイアウト/インスタンスの組み合わせをサポートします。また、`Feature Left` および `Feature Right` のオーバーライド/インスタンスを介して機能の複数の構成をサポートします。さらに、[編集](grid-editing.md)、[移動](grid-column-moving.md)、[サイズ変更](grid-column-resizing.md)、[非表示](rid-column-hiding.md)、[ピン固定](grid-column-pinning.md)など、セルを視覚的に変更しないがグリッドの異なる列機能を有効にする追加のオーバーライド/インスタンスがあります。
+Grid Header Cell は、`Items` のオーバーライドでさまざまなレイアウト/インスタンスの組み合わせをサポートします。また、`Feature Left` および `Feature Right` のオーバーライド/インスタンスを介して機能の複数の構成をサポートします。さらに、[編集](grid-editing.md)、[移動](grid-column-moving.md)、[サイズ変更](grid-column-resizing.md)、[非表示](rid-column-hiding.md)、[ピン固定](grid-column-pinning.md)など、セルを視覚的に変更しないがグリッドの異なる列機能を有効にする追加のオーバーライド/インスタンスがあります。一部の機能は非推奨となるため、Figma では `Feature Left` と `Feature Right` のみをサポートします。
 
 <img class="responsive-img" src="../images/grid_cell_header_no-icon.png" srcset="../images/grid_cell_header_no-icon@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_icon.png" srcset="../images/grid_cell_header_icon@2x.png 2x" />
@@ -88,12 +88,14 @@ Grid Header Cell は、`Items` のオーバーライドでさまざまなレイ�
 
 ## 状態と Grid 機能 (本文セル)
 
-Grid Body Cell は、以下のインタラクティブな状態をサポートします: 標準状態の **Inactive**、Focused/Selected セルでは **Active** です。任意の時間に、グリッド内の 1 つのセルだけをアクティブにすることができます。
+Grid Body Cell は、以下のインタラクティブな状態をサポートします: **Inactive** (デフォルトの状態)、**Selected**、**Active** および **Focused**。任意の時間に、グリッド内の 1 つのセルだけがアクティブまたはフォーカスされます。
 
 <img class="responsive-img" src="../images/grid_cell_body_cell-inactive.png" srcset="../images/grid_cell_body_cell-inactive@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_body_cell-selected.png" srcset="../images/grid_cell_body_cell-selected@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_cell-active.png" srcset="../images/grid_cell_body_cell-active@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_body_cell-focused.png" srcset="../images/grid_cell_body_cell-focused@2x.png 2x" />
 
-Grid Body Cell は、`Grid Feature` を介してヘッダーで定義された一部の Grid 機能のスタイル設定をサポートしています。通常のセル、編集可能なセル、および選択した行に属するセルには、スタイルのバリアントがあります。Figma では、さまざまな体細胞の状態間の切り替えは、プロパティ パネルの 「State」 プロパティを通じて実現されます。Sketch では、`Grid Feature` を切り替えるには、使用可能な `Symbol Overrides` を使用する必要がありますが、Adobe XD では、`Component States` の一致するリストがあります。
+Grid Body Cell は、`Grid Feature` を介してヘッダーで定義された一部の Grid 機能のスタイル設定をサポートしています。通常のセル、編集可能なセル、および選択した行に属するセルには、スタイルのバリアントがあります。Figma では、本文セルのさまざまな状態間の切り替えは、プロパティ パネルの `Cell State`、`Row Selected`、および `Row Editing` プロパティを通じて実現されます。Sketch では、`Grid Feature` を切り替えるには、使用可能な `Symbol Overrides` を使用する必要がありますが、Adobe XD では、`Component States` の一致するリストがあります。
 
 <img class="responsive-img" src="../images/grid_cell_body_row-selected.png" srcset="../images/grid_cell_body_row-selected@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_editing_cell.png" srcset="../images/grid_cell_body_editing_cell@2x.png 2x" />
@@ -159,7 +161,7 @@ Grid の最も重要な点は、Header および Body セル内のデータの�
 - [Grid Excel スタイル フィルター](grid-excel-style-filter.md)
 - [Grid 行選択](grid-row-selection.md)
 - [Grid 編集](grid-editing.md)
-- [Grid 表示密度](grid-display-density.md)
+- [Grid サイズ](grid-sizes.md)
 - [Grid ページング](grid-paging.md)
 - [Grid 集計](grid-summaries.md)
 - [Hierarchical Grid](hierarchical-grid.md)
