@@ -15,9 +15,9 @@ Grid 集計のコンポーネントは、各グリッド列のすべてのデー
 
 ## 状態
 
-Grid Summary Cell は、次のインタラクティブな状態をサポートします。**available** は Label および Number を示します。**unavailable** は、1 つの列に他の列より集計が少ない場合にギャップを埋めます。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Figma で状態を切り替えるには、プロパティ パネル内にある専用のプロパティを使用する必要があります。
+Grid Summary Cell は、次のインタラクティブな状態をサポートします。**available** は Label および Number を示します。**unavailable** は、1 つの列に他の列より集計が少ない場合にギャップを埋めます。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Figma で状態を切り替えるには、プロパティ パネル内にある専用の `Type` プロパティを使用する必要があります。
 
-<img class="responsive-img" src="../images/grid_cell_summary_active.png" srcset="../images/grid_cell_summary_active@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_summary_available.png" srcset="../images/grid_cell_summary_available@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_summary_unavailable.png" srcset="../images/grid_cell_summary_unavailable@2x.png 2x" />
 
 ## タイプ

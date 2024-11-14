@@ -19,13 +19,13 @@ Skeleton Tree Grid は、Header、Body、Summary の 3 種類のスケルトン 
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_column_cell.png" srcset="../images/tree_grid_skeleton_column_cell@2x.png 2x" />
 
-## セルの表示密度
+## セル サイズ
 
-Skeleton Tree Grid の TreeColumn セルは、標準の [Tree Grid](tree-grid.md) と同じ 3 つの表示密度バリアント (Comfortable、Cosy、Compact) をサポートします。
+Skeleton Tree Grid の TreeColumn セルは、標準の [Tree Grid](tree-grid.md) と同じ 3 つのサイズ バリアント (Large、Medium、Small) をサポートします。
 
-<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_comfortable.png" srcset="../images/tree_grid_skeleton_column_cell_comfortable@2x.png 2x" />
-<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_cosy.png" srcset="../images/tree_grid_skeleton_column_cell_cosy@2x.png 2x" />
-<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_compact.png" srcset="../images/tree_grid_skeleton_column_cell_compact@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_large.png" srcset="../images/tree_grid_skeleton_column_cell_large@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_medium.png" srcset="../images/tree_grid_skeleton_column_cell_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_small.png" srcset="../images/tree_grid_skeleton_column_cell_small@2x.png 2x" />
 
 ## セルの深さ
 
@@ -37,7 +37,7 @@ Skeleton Tree Grid の TreeColumn セルは、データ階層のレベルにつ�
 
 ## Grid タイプ
 
-Skeleton Tree Grid は、3 つの表示密度をサポートし、データの読み込み状態に関してそれぞれのバリエーションを提供します: Tree Grid がデータを読み込むとき、拡張された Root Level の行がない場合に表示される Initial と、Root Level が展開され、その子のデータの読み込みを開始すると表示される Expand。
+Skeleton Tree Grid は、3 つのサイズをサポートし、データの読み込み状態に関してそれぞれのバリエーションを提供します: Tree Grid がデータを読み込むとき、拡張された Root Level の行がない場合に表示される Initial と、Root Level が展開され、その子のデータの読み込みを開始すると表示される Expand。
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_initial.png" srcset="../images/tree_grid_skeleton_initial@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_skeleton_expand.png" srcset="../images/tree_grid_skeleton_expand@2x.png 2x" />

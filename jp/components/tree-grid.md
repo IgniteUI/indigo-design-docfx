@@ -39,7 +39,7 @@ Tree Grid コンポーネントを使用して、ユーザーがタブ レイア
 
 ## Adobe XD で Tree Grid を使用
 
-Adobe XD では、3 つの[プリセット表示密度ツリー グリッド コンポーネント](grid-display-density.md)のいずれかを選択してアートボードにドラッグすると、レイヤー パネルで、Header と Body の両方に `Repeat Grid` を使用して構成を高速化していることがわかります。Sketch とは異なり、Adobe XD ではシンボルを破棄する必要はありません。レイヤー パネルに次のように表示されます:
+Adobe XD では、3 つの[プリセット表示密度ツリー グリッド コンポーネント](grid-sizes.md)のいずれかを選択してアートボードにドラッグすると、レイヤー パネルで、Header と Body の両方に `Repeat Grid` を使用して構成を高速化していることがわかります。Sketch とは異なり、Adobe XD ではシンボルを破棄する必要はありません。レイヤー パネルに次のように表示されます:
 
 | レイヤー                        | 使用                                                                                                                                                  |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -59,13 +59,13 @@ Tree Grid は、3 種類の通常のグリッド セル Header、Body および 
 
 通常の Header、Body、Summary セルをさまざまなタイプのデータに使用し、さまざまな Tree Grid 機能を有効にするように構成する方法を理解するには、[Grid](grid.md) トピックを参照してください。
 
-## セル表示密度
+## セル サイズ
 
-TreeColumn セルは、Tree Grid の 3 つの表示密度バリアント (Comfortable、Cosy、Compact) をサポートします。
+TreeColumn セルは、Tree Grid の 3 つのサイズ バリアント (Large、Medium、Small) をサポートします。
 
-<img class="responsive-img" src="../images/tree_grid_column_cell_comfortable.png" srcset="../images/tree_grid_column_cell_comfortable@2x.png 2x" />
-<img class="responsive-img" src="../images/tree_grid_column_cell_cosy.png" srcset="../images/tree_grid_column_cell_cosy@2x.png 2x" />
-<img class="responsive-img" src="../images/tree_grid_column_cell_compact.png" srcset="../images/tree_grid_column_cell_compact@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_column_cell_large.png" srcset="../images/tree_grid_column_cell_large@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_column_cell_medium.png" srcset="../images/tree_grid_column_cell_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_column_cell_small.png" srcset="../images/tree_grid_column_cell_small@2x.png 2x" />
 
 ## Cell の深さ
 
@@ -106,7 +106,7 @@ Grid と同様に、Tree Grid の最も重要な点は、Header および Body �
 - [Grid Excel スタイル フィルター](grid-excel-style-filter.md)
 - [Grid 行選択](grid-row-selection.md)
 - [Grid 編集](grid-editing.md)
-- [Grid 表示密度](grid-display-density.md)
+- [Grid サイズ](grid-sizes.md)
 - [Grid ページング](grid-paging.md)
 - [Grid 集計](grid-summaries.md)
 - [Hierarchical Grid](hierarchical-grid.md)
