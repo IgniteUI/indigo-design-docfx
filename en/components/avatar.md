@@ -1,7 +1,7 @@
 ---
 title: Avatar - Design System Component
 _description: The Avatar Component Symbol is a graphical representation of personal information. 
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
 ---
 
 # Avatar
@@ -30,7 +30,7 @@ The Avatar comes in three different sizes:
 
 ## Shape
 
-The avatar comes in two distinct types, determined by its shape: a circle and a square form. In Figma we also support a rounded square shape.
+The avatar comes in three distinct types, determined by its shape: a circle, a square and a rounded form.
 
 <img class="responsive-img" src="../images/avatar_type.png" srcset="../images/avatar_type@2x.png 2x" />
 
