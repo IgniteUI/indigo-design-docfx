@@ -1,12 +1,12 @@
 ---
 title: Banner - Design System Component
 _description: The Banner Component is used to show an interactive information message or notification in a prominent way. 
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Banner
 
-Use the Banner Component to display a prominent message and optionally actions related to it. The Banner is visually identical to the [Ignite UI for Angular Banner Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/banner)
+Use the Banner component to display a prominent message with optional actions. The Banner is visually identical to the [Ignite UI for Angular Banner Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/banner)
 
 ## Banner Demo
 
@@ -14,13 +14,13 @@ Use the Banner Component to display a prominent message and optionally actions r
 
 ## Message
 
-The Banner's Message consists of an Icon and a Text field. In Figma, you can use the "Icon" boolean operation from the properties panel to show/hide the Icon.
+The Banner's message section includes an Icon and a Text field. In Figma, you can toggle the Icon’s visibility using the “Icon” boolean operation from the properties panel.
 
 <img class="responsive-img" src="../images/banner_message.png" srcset="../images/banner_message@2x.png 2x" />
 
 ## Actions
 
-The Actions area contains two Button components by default. In Figma, to manage the actions displayed in the Banner, you can choose which one to keep and hide the other from the layers panel or hide the entire actions container using the "Actions" boolean operation.
+By default, the Actions section contains two Button components. In Figma, you can manage the displayed actions by keeping one button, hiding the other from the layers panel, or hiding the entire actions container using the “Actions” boolean operation.
 
 
 <img class="responsive-img" src="../images/banner_actions.png" srcset="../images/banner_actions@2x.png 2x" />
