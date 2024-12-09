@@ -1,7 +1,7 @@
 ---
 title: Avatar - Design System Component
-_description: The Avatar Component Symbol is a graphical representation of personal information. 
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
+_description: The Avatar Component Symbol serves as a graphical representation of personal information.
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Avatar
