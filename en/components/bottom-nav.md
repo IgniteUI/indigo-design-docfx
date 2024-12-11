@@ -1,7 +1,7 @@
 ---
 title: Bottom Navigation - Design System Component
 _description: The Bottom Navigation Component Symbol is used to design simple application-level navigation.
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Bottom Navigation
