@@ -1,7 +1,7 @@
 ---
 title: Skeleton Card - Design System Component
 _description: The Skeleton Card is a representation of a Card component that is shown while data is being loaded in the background to provide content for a collection of cards.
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Design Kits for Angular, Figma HTML, 
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma HTML 
 ---
 
 # Skeleton Card

@@ -1,7 +1,7 @@
 ---
 title: Card - Design System Component
 _description: The Card Component Symbol contains images and text outlining a single object, enhanced with relevant actions.
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Figma, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma HTML
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma HTML
 ---
 
 # Card
