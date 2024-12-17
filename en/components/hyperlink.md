@@ -1,7 +1,7 @@
 ---
 title: Hyperlink - Design System Component
 _description: The Hyperlink Component Symbol is used to allow the user follow a reference in a text paragraph. 
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
 ---
 
 # Hyperlink
@@ -24,7 +24,7 @@ Specify the link you want the hyperlink to open when clicked via the Url overrid
 
 ## Styling
 
-The Hyperlink can be styled by changing the default blue color of the text from the Hyperlink main component in the **Figma** Indigo.Design UI Kit. In **Sketch** the default color can be changed from the `Symbol Master` that can be found on the 🧩 Components page in the Indigo.Design library.
+The Hyperlink can be styled by changing the default blue color of the text from the Hyperlink main component in the **Figma** Indigo.Design UI Kit.
 
 <img class="responsive-img" src="../images/hyperlink_styling.png" srcset="../images/hyperlink_styling@2x.png 2x" />
 
