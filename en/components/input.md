@@ -1,7 +1,7 @@
 ---
 title: Input - Design System Component
 _description: The Input Component Symbol allows the collection of user data such as strings, numbers and dates.
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular 
 ---
 
 # Input
@@ -14,7 +14,7 @@ Use the Input component to collect user data such as strings, numbers fitting va
 
 ## Types
 
-In Sketch and Adobe XD the Input lets you choose a preset from three options: simple, hint which comes with a helper text, and searchbar. In Figma we offer a choice between a simple input with or without a hint (boolean property), and a searchbar.
+In Figma we offer a choice between a simple input with or without a hint (boolean property), and a searchbar.
 
 <img class="responsive-img" src="../images/input_simple.png" srcset="../images/input_simple@2x.png 2x" />
 `simple`
@@ -23,7 +23,7 @@ In Sketch and Adobe XD the Input lets you choose a preset from three options: si
 <img class="responsive-img" src="../images/input_searchbar.png" srcset="../images/input_searchbar@2x.png 2x" />
 `searchbar`
 
-The hint and simple presets in Sketch and Adobe XD offer choice between three distinct types: line style for a more airy look, border style for a more structured perception on solid color backgrounds, and boxed style which is most appropriate when the Input is placed on top of a vivid image to improve the readability of its content. Since we are deprecating the line style, in Figma we have only the border and box types available.
+In Figma we have two distinct types: border style for a more structured perception on solid color backgrounds and boxed style which is most appropriate when the Input is placed on top of a vivid image to improve the readability of its content.
 
 <img class="responsive-img" src="../images/input_border.png" srcset="../images/input_border@2x.png 2x" />
 `border`
@@ -32,7 +32,7 @@ The hint and simple presets in Sketch and Adobe XD offer choice between three di
 
 ## Interaction State
 
-In Sketch and Adobe XD, each of these presets can be inserted in an Enabled or a Disabled state. In Figma, the Input is in an Enabled state by default and can be switched to a Disabled state from the properties panel on the right.
+In Figma, the Input is in an Enabled state by default and can be switched to a Disabled state from the properties panel on the right.
 
 <img class="responsive-img" src="../images/input_enabled.png" srcset="../images/input_enabled@2x.png 2x" />
 `enabled`
@@ -41,7 +41,7 @@ In Sketch and Adobe XD, each of these presets can be inserted in an Enabled or a
 
 ## State
 
-The Input component goes through different states as the user interacts with it: **Idle**, which displays the placeholder in the place of the content; **Hover**, indicating that the input is active when the user hovers over it; **Filled**, which appears after the user has entered content and moved on from the input; and **Focused**, which provides a visual cue that the user is actively typing in the input.
+The Input component goes through different states as the user interacts with it: **Idle**, which displays the placeholder in the place of the content; **Idle & Hover**, indicating that the input is active when the user hovers over it; **Filled**, which appears after the user has entered content and moved on from the input, **Filled & Hover**,showing that the user hovers over the already filled input and **Focused**, which provides a visual cue that the user is actively typing in the input.
 
 
 <img class="responsive-img" src="../images/input_idle.png" srcset="../images/input_idle@2x.png 2x" />
@@ -62,18 +62,18 @@ Every experienced designer uses constraints wisely to limit the user input and a
 <img class="responsive-img" src="../images/input_error.png" srcset="../images/input_error@2x.png 2x" />
 `error`
 
-In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Figma you can switch between them using the "State" property in the properties panel on the right. In Adobe XD we are using the `Component States` paradigm to let you easily switch between them.
+In Figma you can switch between the states and the validation states using the "State" property in the properties panel on the right.
 
 ## Layout
 
-The Input has rich support for Prefix and Suffix through a combination of text and icons that can, in certain cases, reduce the input effort for the user: e.g. an @email.com Suffix means both fewer keystrokes and more clarity of expected content. In Figma, removing the Prefix or Suffix can be achieved in the properties panel by switching them on or off. In Sketch, to remove the Prefix or Suffix simply set their override to ~No Symbol, and the smart layout rules will adjust the input accordingly. In Adobe XD, the same can be achieved by deleting the unnecessary Prefix or Suffix layer and the Stack will take care to adjust the layout accordingly.
+The Input has rich support for Prefix and Suffix through a combination of text and icons that can, in certain cases, reduce the input effort for the user: e.g. an @email.com Suffix means both fewer keystrokes and more clarity of expected content. In Figma, removing the Prefix or Suffix can be achieved in the properties panel by switching them on or off.
 
 <img class="responsive-img" src="../images/input_prefix.png" srcset="../images/input_prefix@2x.png 2x" />
 <img class="responsive-img" src="../images/input_suffix.png" srcset="../images/input_suffix@2x.png 2x" />
 
 ## Content Type
 
-Each Input component includes a `Content Type` layer that specifies the type of information being inserted, such as text, email, password, phone number, or date. After entering data into the input field, it's important to set the `Content Type` accordingly to ensure that your design is correctly parsed into App Builder.
+Each Input component includes a `Content Type` layer that specifies the type of information being inserted, such as text, email, password, phone number, number or date. After entering data into the input field, it's important to set the `Content Type` accordingly to ensure that your design is correctly parsed into App Builder.
 
 ## Styling
 
