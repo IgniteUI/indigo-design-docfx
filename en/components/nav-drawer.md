@@ -1,7 +1,7 @@
 ---
 title: Navigation Drawer - Design System Component
 _description: The Navigation Drawer Component Symbol is used to design both simple and complex application-level navigations. 
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Navigation Drawer
@@ -21,13 +21,13 @@ The Navigation Drawer supports a **Default** type with icon and label for each i
 
 ## Items
 
-The Navigation Drawer can show up to 21 Items in Sketch and Figma. If you have more items than necessary, you can reduce their number by setting the ones you don't need to ~No Symbol from the overrides panel in Sketch, or by hiding them from the layers panel in Figma. Thanks to the smart layout in Sketch and the auto layout in Figma the rest will adjust automatically. In Adobe XD, you can reduce the number of items by simply deleting the unnecessary ones. Unlike in Sketch and Figma, you can have more than 21 items by duplicating existing ones and even rearranging their order by dragging them around. At the end of any of these manipulations, the layout will be adjusted from the Stack applied to the collection of items.
+The Navigation Drawer can show up to 21 Items in Figma. If you have more items than necessary, you can reduce their number by hiding the ones you don't need from the layers panel in Figma. Thanks to the auto layout in Figma the rest will adjust automatically.
 
 <img class="responsive-img" src="../images/nav-drawer_default.png" srcset="../images/nav-drawer_default@2x.png 2x" />
 
 ## Item State
 
-Every Navigation Drawer Item comes with a State which can be Active, Inactive or Hover. In Figma there's also an additional Disabled State. In Figma, you can go into the nested Navigation Drawer Items and choose the desired state from the State property. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In Figma, you can also choose to show/hide the icon using the `Icon` boolean property. In a Navigation Drawer, only one Item can be Active to indicate the view that will be shown on the rest of the screen.
+In Figma every Navigation Drawer Item comes with a State which can be Active, Inactive, Hover or Disabled. You can go into the nested Navigation Drawer Items and choose the desired state from the State property. You can also choose to show/hide the icon using the `Icon` boolean property. In a Navigation Drawer, only one Item can be Active to indicate the view that will be shown on the rest of the screen.
 
 <img class="responsive-img" src="../images/nav-drawer_active.png" srcset="../images/nav-drawer_active@2x.png 2x" />
 `active`
