@@ -1,7 +1,7 @@
 ---
 title: Progress - Design System Component
 _description: The Progress Component Symbol is used to provide a visual indication regarding the status, progress or completion of a task. 
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
 ---
 
 # Progress
@@ -42,14 +42,14 @@ The Progress can be used in one of the following preset color combinations:
 
 ## Progress Amount
 
-When using a Determinate type of Progress, you can select the Progress Amount from six percentage options. In Figma you can do this from the `Value` property in the right sidebar. In Sketch, this is achieved with `Symbol Overrides` to let you easily switch between them, while in Adobe XD you have to drag the desired amount from the `Libraries` panel and drop it on top of the `Progress Amount` layer to change the default value.
+When using a Determinate type of Progress, you can select the Progress Amount from six percentage options. In Figma you can do this from the `Value` property in the right sidebar.
 
 <img class="responsive-img" src="../images/progress_circular-progress-amount.png" srcset="../images/progress_circular-progress-amount@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_linear-progress-amount.png" srcset="../images/progress_linear-progress-amount@2x.png 2x" />
 
 ## Stripes
 
-When using a Linear Bar layout shape for the Progress component, it will come with an additional option for Stripes over the Fill area. To remove the Stripes, simply use the `Striped` boolean property in Figma or set the `🌈 Stripes` color override in Sketch to `transparent`.
+When using a Linear Bar layout shape for the Progress component, it will come with an additional option for Stripes over the Fill area. To remove the Stripes, simply use the `Striped` boolean property in Figma.
 
 <img class="responsive-img" src="../images/progress_linearstripes.png" srcset="../images/progress_linearstripes@2x.png 2x" />
 
