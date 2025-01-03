@@ -1,7 +1,7 @@
 ---
 title: Simple Combo - Design System Component
 _description: The Simple Combo Component Symbol allows a single selection of an item from a collection.
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma HTML
 ---
 
 # Simple Combo
@@ -27,7 +27,7 @@ The Combo Input provides selection between a border type for a more structured p
 
 ## Interaction State
 
-Each of the two Combo Input types can be inserted in an **enabled** or **disabled** state. In Figma we have border and box types available and they can be switched to a `Disabled` state from the properties panel.
+Each of the two Combo Input types can be inserted in an **enabled** or **disabled** state. The available border and box types in Figma can be switched to a `Disabled` state from the properties panel.
 
 <img class="responsive-img" src="../images/combo_enabledstate.png" srcset="../images/combo_enabledstate@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_disabledstate.png" srcset="../images/combo_disabledstate@2x.png 2x" />
