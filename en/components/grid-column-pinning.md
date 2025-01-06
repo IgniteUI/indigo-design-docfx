@@ -14,7 +14,7 @@ Use the Grid Column Pinning as a mechanism to fix the first few columns of a scr
 
 ## Header Cell Feature
 
-`Column Pinning` as a feature has been deprecated in Figma and if you are using AppBuilder to generate your design, you should apply it directly there after the code generation.
+The Grid Column Pinning as a header cell feature has been deprecated in Figma and if you are using AppBuilder to generate your design, you should apply it directly there after the code generation.
 
 The Built-In Column Pinning can be used through the Grid's toolbar which by default contains a button (combined with a combo dropdown) that lets you configure the pin state of the columns for the whole grid.
 
