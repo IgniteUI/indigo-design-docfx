@@ -61,7 +61,7 @@ The Grid Header Cell supports various layout combinations through the `Items` in
 
 The Grid Body Cell supports the following interactive states: **Idle** as a default state, **Selected**, **Active** and **Focused**. Only one cell in the whole grid can be active or focused at any given moment.
 
-<img class="responsive-img" src="../images/grid_cell_body_cell-inactive.png" srcset="../images/grid_cell_body_cell-inactive@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_body_cell-idle.png" srcset="../images/grid_cell_body_cell-idle@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_cell-selected.png" srcset="../images/grid_cell_body_cell-selected@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_cell-active.png" srcset="../images/grid_cell_body_cell-active@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_cell-focused.png" srcset="../images/grid_cell_body_cell-focused@2x.png 2x" />
@@ -81,6 +81,8 @@ In Figma, the Grid Header Cell provides five presets for the types of data that 
 <img class="responsive-img" src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_checkbox.png" srcset="../images/grid_cell_header_checkbox@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_groupby.png" srcset="../images/grid_cell_header_groupby@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_header_filter.png" srcset="../images/grid_cell_header_filter@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_header_filter-filtered.png" srcset="../images/grid_cell_header_filter-filtered@2x.png 2x" />
 
 The Grid Body Cell provides presets for the same generic types of data like the Header Cell with an additional icon type to visualize simple graphics and spacer type, used to display an empty body cell.
 
@@ -88,6 +90,7 @@ The Grid Body Cell provides presets for the same generic types of data like the 
 <img class="responsive-img" src="../images/grid_cell_body_text.png" srcset="../images/grid_cell_body_text@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_checkbox.png" srcset="../images/grid_cell_body_checkbox@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_icon.png" srcset="../images/grid_cell_body_icon@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_body_spacer.png" srcset="../images/grid_cell_body_spacer@2x.png 2x" />
 
 ## Grid Horizontal Scrolling
 
