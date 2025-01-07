@@ -18,7 +18,7 @@ In Figma to use the Excel Style Filtering you need to open the Grid Header Cell 
 
 ## Excel Style Filter Feature
 
-In Figma, there is an `Excel Style Filter` component, and via the `Size` property you can easily switch between the three sizes available. Adding the Excel Style Filter has only a visual effect on your design to make it look more realistic, if you want to turn the Excel Style Filter feature on, configure the Header Cells accordingly.
+In Figma, there is an `Excel Style Filter` component under `Grid Features`, and via the `Size` property you can easily switch between the three sizes available. Adding the Excel Style Filter has only a visual effect on your design to make it look more realistic, if you want to turn the Excel Style Filter feature on, configure the Header Cells accordingly.
 
 <img class="responsive-img" src="../images/grid_excel_style_filter_sizes.png" srcset="../images/grid_excel_style_filter_sizes@2x.png 2x" />
 
