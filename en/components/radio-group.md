@@ -28,23 +28,31 @@ The Radio Group comes in a Vertical and Horizontal orientation.
 
 ## Interaction State
 
-The Radio Group can be inserted in an enabled or disabled state.
+The Radio Group supports **Enabled**, **Disabled** and **Invalid** interaction states.
 
 <img class="responsive-img" src="../images/radiogroup_enabled_state.png" srcset="../images/radiogroup_enabled_state@2x.png 2x" />          
 <img class="responsive-img" src="../images/radiogroup_disabled_state.png" srcset="../images/radiogroup_disabled_state@2x.png 2x" />
+<img class="responsive-img" src="../images/radiogroup_invalid_state.png" srcset="../images/radiogroup_invalid_state@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 
-You may also set the state of a radio button in the group to disabled to disallow user interaction with it.
+You may also set the state of a radio button in the group to **Disabled** to disallow user interaction with it.
 
-<img class="responsive-img" src="../images/radiogroup_states.png" srcset="../images/radiogroup_states@2x.png 2x" />
+<img class="responsive-img" src="../images/radiogroup_states.png" srcset="../images/radiogroup_states@2x.png 2x" /> 
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+
+Along with **Enabled**, **Disabled** and **Invalid** interaction states, each radio element supports also **Hover**, **Focused** and **Hover and Focused** states.
+<div class="divider--half"></div>
+<img class="responsive-img" src="../images/radiogroup_interaction_states.png" srcset="../images/radiogroup_interaction_states@2x.png 2x" />
 
 ## State
 
 Each Radio element in the group supports **on** and **off** selection states. In Figma, you can switch between them by using the `Checked` boolean property in the right sidebar.
 
 <img class="responsive-img" src="../images/radiogroup_demo.png" srcset="../images/radiogroup_demo@2x.png 2x" />
+
 
 ## Styling
 
