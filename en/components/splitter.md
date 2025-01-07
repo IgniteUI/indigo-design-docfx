@@ -1,7 +1,7 @@
 ---
 title: Splitter - Design System Component
 _description: The Splitter Component Symbol creates layouts split into panes that may be resized, expanded, and collapsed.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Splitter
@@ -14,7 +14,7 @@ Use the Splitter Component to create dynamic layouts split into vertically or ho
 
 ## Orientation
 
-The Splitter supports two orientations: **Vertical** and Horizontal. The vertical splitter is used to split panes horizontally, and the horizontal splitter is used to split panes vertically.
+The Splitter supports two orientations: **Vertical** and **Horizontal**. The vertical splitter is used to split panes horizontally, and the horizontal splitter is used to split panes vertically.
 
 <img class="responsive-img" src="../images/splitter_orientation.png" srcset="../images/splitter_orientation@2x.png 2x" />
 
