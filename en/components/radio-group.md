@@ -41,7 +41,7 @@ You may also set the state of a radio button in the group to **Disabled** to dis
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 
-Along with **Enabled**, **Disabled** and **Invalid** interaction states, each radio element supports also **Hover**, **Focused** and **Hover and Focused** states.
+In **Enabled** and **Invalid** interaction states, each radio element also supports **Hover**, **Focused** and **Focused & Hover** states.
 <div class="divider--half"></div>
 <img class="responsive-img" src="../images/radiogroup_interaction_states.png" srcset="../images/radiogroup_interaction_states@2x.png 2x" />
 
