@@ -1,7 +1,7 @@
 ---
 title: Slider - Design System Component
-_description: The Slider Component Symbol is used to allow the user to select a single value or a range. 
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
+_description: The Slider Component is used to allow the user to select a single value or a range. 
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Slider
@@ -14,19 +14,19 @@ Use the Slider Component to allow the user to select a single value or specify a
 
 ## Type
 
-The Slider allows the user to choose from two types - continuous and discrete.
+The Slider allows the user to choose from two types - **Continuous** and **Discrete**. In Figma, you can switch between the two using the `Type` property in the properties panel on the right.
 
 <img class="responsive-img" src="../images/slider_onethumb.png" srcset="../images/slider_onethumb@2x.png 2x" />
 
 ## Thumbs
 
-The Slider offers a variant with one thumb for selecting a single value and with two thumbs for specifying a range.
+The Slider offers a variant with **One thumb** for selecting a single value and with **Two thumbs** for specifying a range. In Figma, you can switch between the two using the `Variant` property in the properties panel on the right. Further, you can specify the value for the thumbs from the `Lower Thumb` and `Upper Thumb` properties or adjust it manually on the thumb label.
 
 <img class="responsive-img" src="../images/slider_demo.png" srcset="../images/slider_demo@2x.png 2x" />
 
 ## State
 
-The Slider supports **Enabled** and Disabled states, reflecting the possibility to change the value(s). In Figma, you can switch between the two using the Disabled boolean property in the properties panel on the right. In Sketch, we have different symbols for the different states. In Adobe XD, we are using the `Component States` paradigm to let you easily switch between states.
+The Slider supports **Enabled** and **Disabled** states, reflecting the possibility to change the value(s). In Figma, you can switch between the two using the `Disabled` boolean property in the properties panel on the right.
 
 <img class="responsive-img" src="../images/slider_enabled.png" srcset="../images/slider_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/slider_disabled.png" srcset="../images/slider_disabled@2x.png 2x" />
