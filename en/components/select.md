@@ -1,7 +1,7 @@
 ---
 title: Select - Design System Component
-_description: The Select Component Symbol allows a single selection from a list of items placed in a dropdown.
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
+_description: The Select Component allows a single selection from a list of items placed in a dropdown.
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Select
@@ -16,60 +16,46 @@ The Select is built by combining an input containing the current selection with 
 
 ## Input Type
 
-The Select supports the same three input types typical for the [Input](input.md) component: a line type for a more airy style, border type for a more structured perception on solid color backgrounds, and a boxed type that is most appropriate when placed on top of a vivid image to improve readability. Since we are deprecating the line style, in Figma we have only the border and box types available.
+The Select supports the same two input types typical for the [Input](input.md) component: a border type for a more structured perception on solid color backgrounds, and a boxed type that is most appropriate when placed on top of a vivid image to improve readability.
 
-
-<img class="responsive-img" src="../images/select_border.png" srcset="../images/select_border@2x.png 2x" />
-`border`
-<img class="responsive-img" src="../images/select_box.png" srcset="../images/select_box@2x.png 2x" />
-`box`
+| Border | Box |
+| ------- | ------- |
+| <img class="responsive-img" src="../images/select_border.png" srcset="../images/select_border@2x.png 2x" /> | <img class="responsive-img" src="../images/select_box.png" srcset="../images/select_box@2x.png 2x" /> |
 
 ## Interaction State
 
-In Sketch and Adobe XD each of the three Select input types can be inserted either in an enabled or a disabled state. Since we are deprecating the line style, in Figma we have only the border and box types available and they can be switched to a disabled state from the properties panel.
+In Figma both the border and box types Select inputs can be switched to a Disabled state from the properties panel.
 
-<img class="responsive-img" src="../images/select_enabledstate.png" srcset="../images/select_enabledstate@2x.png 2x" />
-`enabled state`
-<img class="responsive-img" src="../images/select_disabledstate.png" srcset="../images/select_disabledstate@2x.png 2x" />
-`disabled state`
+| Enabled state | Disabled state |
+| ------- | ------- |
+| <img class="responsive-img" src="../images/select_enabledstate.png" srcset="../images/select_enabledstate@2x.png 2x" /> | <img class="responsive-img" src="../images/select_disabledstate.png" srcset="../images/select_disabledstate@2x.png 2x" /> |
 
 ## State
 
 When the user interacts with the Select, its input goes through various selection states: **Idle** with a placeholder in the place of the content; **Focused** when the dropdown is open; and **Filled** once the user has finished with selection and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
 
-
-<img class="responsive-img" src="../images/select_idle.png" srcset="../images/select_idle@2x.png 2x" />
-`idle`
-
-<img class="responsive-img" src="../images/select_filled.png" srcset="../images/select_filled@2x.png 2x" />
-`filled`
-
-<img class="responsive-img" src="../images/select_focused.png" srcset="../images/select_focused@2x.png 2x" />
-`focused`
+| Idle state | Focused state | Filled state |
+| ------- | ------- | ------- |
+| <img class="responsive-img" src="../images/select_idle.png" srcset="../images/select_idle@2x.png 2x" /> | <img class="responsive-img" src="../images/select_focused.png" srcset="../images/select_focused@2x.png 2x" /> | <img class="responsive-img" src="../images/select_filled.png" srcset="../images/select_filled@2x.png 2x" /> |
 
 Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Select is consistent with the standard [Input](input.md) and equipped for sophisticated designs that display success, warning, and error visuals.
 
-<img class="responsive-img" src="../images/select_success.png" srcset="../images/select_success@2x.png 2x" />
-`success`
-<img class="responsive-img" src="../images/select_warning.png" srcset="../images/select_warning@2x.png 2x" />
-`warn`
-<img class="responsive-img" src="../images/select_error.png" srcset="../images/select_error@2x.png 2x" />
-`error`
+| Success | Warn | Error |
+| ------- | ------- | ------- |
+| <img class="responsive-img" src="../images/select_success.png" srcset="../images/select_success@2x.png 2x" /> | <img class="responsive-img" src="../images/select_warning.png" srcset="../images/select_warning@2x.png 2x" /> |  <img class="responsive-img" src="../images/select_error.png" srcset="../images/select_error@2x.png 2x" /> |
 
-In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them. In Figma you can switch between them using the `State` property from the properties panel.
+In Figma you can switch between all the states using the `State` property from the properties panel.
 
 > [!NOTE]
-> The Select input has only one layout option, but this override has been preserved in Sketch to ensure consistency with the standard [Input](input.md). In Figma on the other hand we have a separate base component called `.Select Input`, which is used explicitly on the Select component.
+> In Figma we have a separate base component called `.Select Input`, which is used explicitly on the Select component.
 
 ## Layout
 
-The Select has rich support for Prefix and Suffix through a combination of text and icons. In Figma, removing the Prefix or Suffix can be achieved in the properties panel by switching them on or off. In Sketch, to remove the Prefix or Suffix simply set their override to ~No Symbol, and the smart layout rules will adjust the Select accordingly. In Adobe XD, the same can be achieved by switching on and off the Prefix and/or Suffix layer visibility, and the Stack will take care to adjust the layout accordingly.
+The Select has rich support for Prefix and Suffix through a combination of text and icons. In Figma, removing the Prefix or Suffix can be achieved in the properties panel by switching them on or off.
 
-<img class="responsive-img" src="../images/select_prefix.png" srcset="../images/select_prefix@2x.png 2x" />
-
-<img class="responsive-img" src="../images/select_suffix.png" srcset="../images/select_suffix@2x.png 2x" />
-
-<img class="responsive-img" src="../images/select_prefixandsuffix.png" srcset="../images/select_prefixandsuffix@2x.png 2x" />
+| Prefix | Suffix | Prefix and Suffix |
+| ------- | ------- | ------- |
+| <img class="responsive-img" src="../images/select_prefix.png" srcset="../images/select_prefix@2x.png 2x" /> | <img class="responsive-img" src="../images/select_suffix.png" srcset="../images/select_suffix@2x.png 2x" /> |  <img class="responsive-img" src="../images/select_prefixandsuffix.png" srcset="../images/select_prefixandsuffix@2x.png 2x" /> |
 
 ## Dropdown
 
