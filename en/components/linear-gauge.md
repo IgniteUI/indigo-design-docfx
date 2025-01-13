@@ -1,7 +1,7 @@
 ---
 title: Linear Gauge - Design System Component
 _description: The Linear Gauge Component Symbol is a data visualization that displays a value in a certain context.
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
 ---
 
 # Linear Gauge
@@ -16,32 +16,32 @@ For scenarios where a target value is critically important for understanding and
 
 ## Title and Subtitle
 
-The Linear Gauge has a Title and Subtitle whose text can be changed. In Figma you can toggle on and off the Title and Subtitle layers visibility in the Layers panel. In Sketch, they can also be hidden if they are not needed by setting them to ~No Symbol, while in Adobe XD you should delete their respective layers.
+The Linear Gauge has a Title and Subtitle which text can be changed. In Figma you can toggle on and off the Title and Subtitle layers visibility in the Layers panel. 
 
 <img class="responsive-img" src="../images/linear_gauge_title.png" srcset="../images/linear_gauge_title@2x.png 2x" />
 
 ## Legend
 
-The Linear Gauge comes with a Legend that can be adjusted accordingly to match the ranges shown on it and the current value. In Figma you can toggle on and off the `Legend` instance visibility in the Layers panel. In Sketch, Legend items can be removed by setting the corresponding Series to ~No Symbol or added by finding it in the Overrides/Charts/Legend/Serie. In Adobe XD, you have to delete the unused Series layers. Additionally, you can change the icon type between Square, Line, or Circle.
+The Linear Gauge comes with a Legend that can be adjusted accordingly to match the ranges shown on it and the current value. In Figma you can toggle on and off the `Legend` instance visibility in the Layers panel.  Additionally, for each `Serie` instance you can change the icon type between Square, Line, or Circle.
 
 <img class="responsive-img" src="../images/linear_gauge_legend.png" srcset="../images/linear_gauge_legend@2x.png 2x" />
 
 ## Tooltip
 
-The Linear Gauge comes with a tooltip that may be hidden by deleting the layer for it in Figma and Adobe XD, and by setting the override to ~No Symbol in Sketch.
+The Linear Gauge comes with a tooltip that may be hidden by toggling off the `Tooltip` instance from the Layers panel in Figma.
 
 <img class="responsive-img" src="../images/linear_gauge_tooltip-off.png" srcset="../images/linear_gauge_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_tooltip-on.png" srcset="../images/linear_gauge_tooltip-on@2x.png 2x" />
 
 ## Needle Type
 
-The Linear Gauge provides various overrides that control the shape of the needle, which indicates the current value: Wide Triangle, Needle, Trapezoid, and Triangle. In Figma, you can select the shape of the needle by selecting the `Needle Type` instance and then choosing the type from the right sidebar. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD, we are using the `Component States` paradigm to let you easily switch between types.
+The Linear Gauge provides various overrides that control the shape of the needle, which indicates the current value: Wide Triangle, Needle, Trapezoid, and Triangle. In Figma, you can select the shape of the needle by selecting the `Needle Type` instance and then choosing the type from the right sidebar.
 
 <img class="responsive-img" src="../images/linear_gauge_needle_type.png" srcset="../images/linear_gauge_needle_type@2x.png 2x" />
 
 ## Ranges Amount
 
-The Linear Gauge comes with three preset range configurations: two, three, and four ranges.In Figma you can change the Series amount using the `Series Amount` property in the properties panel. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD, we use the `Component States` paradigm to let you easily switch between them.
+The Linear Gauge comes with three preset range configurations: two, three, and four ranges.In Figma you can change the Series amount using the `Series Amount` property in the properties panel.
 
 <img class="responsive-img" src="../images/linear_gauge_two_ranges.png" srcset="../images/linear_gauge_two_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
