@@ -1,7 +1,7 @@
 ---
 title: Skeleton Tree Grid - Design System Component
 _description: The Skeleton Tree Grid is a representation of a Tree Grid component that is shown while hierarchical data is being loaded in the background to provide content for its cells in a tabular fashion.
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Skeleton Tree Grid
@@ -28,7 +28,7 @@ The Skeleton Tree Grid TreeColumn cell supports the same three size variants as 
 
 ## Cell Depth
 
-The Skeleton Tree Grid TreeColumn cell supports the same visual indication for the level of the data hierarchy as the standard [Tree Grid](tree-grid.md): Root Level, Child Level, or Grandchild Level. To switch between them in Figma once you select a Cell from Column 1 go to the Level base component inside it in the layers panel and use the `Level` property. In Sketch, to switch between them can be achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm.
+The Skeleton Tree Grid TreeColumn cell supports the same visual indication for the level of the data hierarchy as the standard [Tree Grid](tree-grid.md): Root Level, Child Level, or Grandchild Level. To switch between them in Figma once you select a Cell from Column 1 go to the Level base component inside it in the layers panel and use the `Level` property.
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_cell_body_root_level.png" srcset="../images/tree_grid_skeleton_cell_body_root_level@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_skeleton_cell_body_child_level.png" srcset="../images/tree_grid_skeleton_cell_body_child_level@2x.png 2x" />
