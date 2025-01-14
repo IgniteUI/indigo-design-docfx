@@ -14,7 +14,7 @@ Use Grid Sorting to indicate the ordering of records in ascending and descending
 
 ## Header Cell Feature
 
-In Figma, to indicate a column as sortable, use either the `Feature Left` or `Feature Right` component instance, located inside the Grid Header Cell layer, and set the `Type` property to Sorting Ascending, Sorting Descending, or **Sorting Unsorted** to indicate the sort order. Of course, you would probably want to manipulate the column values to reflect the selected ordering.
+In Figma, to indicate a column as sortable, use either the `Feature Left` or `Feature Right` component instance, located inside the Grid Header Cell layer, and set the `Type` property to **Sorting Ascending**, **Sorting Descending**, or **Sorting Unsorted** to indicate the sort order. Of course, you would probably want to manipulate the column values to reflect the selected ordering.
 
 ## Additional Resources
 
