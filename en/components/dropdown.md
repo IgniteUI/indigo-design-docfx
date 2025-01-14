@@ -29,12 +29,14 @@ The Dropdown supports two types of items: header and item. Through headers it is
 
 ## Item States
 
-The Dropdown items support five different states: **Idle**, **Hover**, **Disabled**, **Focused**, **Selected** and **Selected & Focused**. In Figma the states are different variants that can be achieved by changing the `State` property and/or the boolean properties for Selected and Disabled.
+The Dropdown items support five different states: **Idle**, **Hover**, **Disabled**, **Focused**, **Selected**, **Selected & Hover** and **Selected & Focused**. In Figma the states are different variants that can be achieved by changing the `State` property and/or the boolean properties for Selected and Disabled.
 
 <img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_focused.png" srcset="../images/dropdown_item_hover@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_focused.png" srcset="../images/dropdown_item_focused@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_hover@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" />
 
 ## Item Layout Template
