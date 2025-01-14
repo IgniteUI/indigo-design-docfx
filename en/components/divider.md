@@ -1,6 +1,6 @@
 ---
 title: Divider - Design System Component
-_description: The Divider Component Symbol is a subtle line that separates content horizontally or vertically.
+_description: The Divider Component is a subtle line that separates content horizontally or vertically.
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
 ---
 
@@ -22,7 +22,7 @@ The Divider supports two orientations: Horizontal and Vertical that should be us
 
 ## Type
 
-The Divider comes in two types: **solid** and dashed. In **Figma**, you can easily switch between the two from the Type property under the Design tab in the right sidebar.
+The Divider comes in two types: **solid** and dashed. In **Figma**, you can easily switch between the two from the `Type` property under the Design tab in the right sidebar.
 
 <img class="responsive-img" src="../images/divider_solid.png" srcset="../images/divider_solid@2x.png 2x" />
 
