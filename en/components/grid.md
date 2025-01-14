@@ -14,17 +14,29 @@ Use the Grid Component to let the user browse and interact with a vast amount of
 
 ## Using the Grid in Figma
 
-The Grid is essentially a repeater of columns and rows, showing data in a tabular layout. Therefore, the easiest way to use it is by dragging one of the predefined grids to your frame - there are three presets available for the three [sizes](grid-sizes.md) supported. Please note, that in Figma the Grid Component has a structure, based on columns, which means you can instantly delete or hide an entire column, but not an entire row. Once you insert the grid, you can then start editing the header and body cells or resize the overall width of the grid. However, in case you'd like to make any further adjustments to the grid structure, such as removing columns or rows, or changing the columns' width, you have to right-click on the grid and use the `Detach instance` option near the bottom of the contextual menu. On the layers panel you'll see the following structure under the component's name, without the need to detach it beforehand:
+The Grid is essentially a repeater of columns and rows, showing data in a tabular layout. Therefore, the easiest way to use it is by dragging one of the predefined grids to your frame - there are three presets available for the three [sizes](grid-sizes.md) supported. Please note, that in Figma the Grid Component has a structure, based on columns, which means you can instantly delete or hide an entire column, but not an entire row. Once you insert the grid, you can then start editing the header and body cells or resize the overall width of the grid. However, in case you'd like to make any further adjustments to the grid structure, such as removing columns or rows, or changing the columns' width, you have to right-click on the grid and use the `Detach instance` option from the contextual menu.
+
+On the layers panel you'll see the following structure under the component's name, without the need to detach it beforehand:
 
 | Layer                                    | Use                                                                                                                                                  |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 🚫 componentVersion &nbsp;&nbsp; | A special locked layer starting with a prohibited icon. This layer is required by the code generation and holds information about the component's version. You should avoid deleting or modifying it. |
 | 🚫 metadata | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
-| Column (number)                                 | Contains the Header and Body cells inside the specific column                                                                                                                 |
-| Header                                   | Contains a specific header cell                                                                                                                 |
-| Body (number)                                    | Contains a specific body cell                                                                                                                    |
+| Column 1                                 | Contains all the cells in the column - Header and Body Cells                                                                                                                |
+| ...                                   | Columns between 1 and 7                                                                        |
+| Column 7                                 | Contains all the cells in the column - Header and Body Cells                                                                                                                |
 
-After detaching, you may increase the number of columns inside the grid by duplicating any of the existing columns. In order to increase the number of body cells, you should first use the `Detach instance` option on the specific column and then duplicate any of the body cells that already exist inside the column. After you increase or decrease the number of columns or cells, you should manually adjust the size of the Grid component.
+After detaching, you may increase the number of columns inside the grid by duplicating any of the existing columns. On the layers panel you'll see the following structure for each Column:
+
+| Layer                                    | Use                                                                                                                                                  |
+| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🚫 metadata | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
+| Header                                 | Contains a specific header cell                                                                                                                   |
+| Body Cell 1                                 | Contains a specific body cell                                                                                                                   |
+| ...                                   | Cells between 1 and 9                                                                        |
+| Body Cell 9                                 | Contains a specific body cell                                                                                                                   |
+
+In order to increase the number of body cells, you should first use the `Detach instance` option on the specific column and then duplicate any of the body cells that already exist inside the column. After you increase or decrease the number of columns or cells, you should manually adjust the size of the Grid component.
 
 ## Cell Types
 
