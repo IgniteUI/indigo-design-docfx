@@ -38,7 +38,7 @@ The Expansion Panel's Body contains a text paragraph that is visible only in exp
 
 ## Styling
 
-The Expansion Panel comes with options for changing the both the Header's and Body's background colors, as well as text and icon colors.
+The Expansion Panel comes with options for changing both the Header's and Body's background colors, as well as text and icon colors.
 
 <img class="responsive-img" src="../images/expansion_panel_styling.png" srcset="../images/expansion_panel_styling@2x.png 2x" />
 
