@@ -1,6 +1,6 @@
 ---
 title: Dropdown - Design System Component
-_description: The Dropdown Component Symbol allows selection of a single item from a collection.
+_description: The Dropdown Component allows selection of a single item from a collection.
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
 ---
 
