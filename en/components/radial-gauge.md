@@ -1,7 +1,7 @@
 ---
 title: Radial Gauge - Design System Component
 _description: The Radial Gauge Component Symbol is a data visualization that displays a value in a certain context.
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
 ---
 
 # Radial Gauge
@@ -16,13 +16,13 @@ For scenarios where a target value is critically important for understanding and
 
 ## Needle Type
 
-The Radial Gauge provides various overrides that control the shape of the needle, which indicates the current value: Needle, Trapezoid, and Triangle. In Figma, you can switch between the type by selecting the `Needle Shape` instance and then choosing the type from the right sidebar. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD, we are using the `Component States` paradigm to let you easily switch between types.
+The Radial Gauge provides various overrides that control the shape of the needle, which indicates the current value: Needle, Trapezoid, and Triangle. In Figma, you can switch between these types by selecting the `Needle Shape` instance and then choosing the type from the right sidebar.
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_needle@2x.png 2x" />
 
 ## Ticks Type
 
-The ticks of the Radial Gauge can be placed outside or inside, with two inside variants for Thick and Thin range areas. In Figma you can select the `Ranges` and the `Ticks` from the provided properties in the right sidebar. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between types.
+The ticks of the Radial Gauge can be placed outside or inside, with two inside variants for Thick and Thin range areas. In Figma you can select the `Ranges` and the `Ticks Type` from the provided properties in the right sidebar.
 
 <img class="responsive-img" src="../images/radial_gauge_inside.png" srcset="../images/radial_gauge_inside@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_outside.png" srcset="../images/radial_gauge_outside@2x.png 2x" />
@@ -30,7 +30,7 @@ The ticks of the Radial Gauge can be placed outside or inside, with two inside v
 
 ## Ranges
 
-The Radial Gauge provides various overrides that control the ranges on the dial: Full, Half, and Quarter. In Figma select the `Range` property to be the same for Ranges and Ticks from the right sidebar. In Sketch, to switch between ranges you should use the `Symbol Overrides`, while in Adobe XD separate variants of the Radial Gauge exist for the options above.
+The Radial Gauge provides various overrides that control the ranges on the dial: Full, Half, and Quarter. In Figma select the `Range` property to be the same for Ranges and Ticks from the right sidebar.
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_half.png" srcset="../images/radial_gauge_half@2x.png 2x" />
@@ -38,14 +38,14 @@ The Radial Gauge provides various overrides that control the ranges on the dial:
 
 ## Series Thickness
 
-The Radial Gauge comes with two kinds of Series Thickness: Thick and Thin. In Figma use the right sidebar properties and select between the two Series Thickness options. In Sketch, to switch between series thicknesses you should use the `Symbol Overrides`, while in Adobe XD separate variants of the Radial Gauge exist for the options above.
+The Radial Gauge comes with two kinds of Series Thickness: Thick and Thin. In Figma use the right sidebar properties and select between the two Series Thickness options.
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_full-thin.png" srcset="../images/radial_gauge_full-thin@2x.png 2x" />
 
 ## Ranges Amount
 
-The Radial Gauge comes with three preset range configurations: two, three, and four ranges. In Figma you can change the Series amount using the `Series Amount` property in the properties panel. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between ranges amounts.
+The Radial Gauge comes with three preset range configurations: two, three, and four ranges. In Figma you can change the Ranges amount using the `Ranges Amount` property in the properties panel.
 
 <img class="responsive-img" src="../images/radial_gauge_two_ranges.png" srcset="../images/radial_gauge_two_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />

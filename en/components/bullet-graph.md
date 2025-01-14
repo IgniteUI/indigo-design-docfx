@@ -1,6 +1,6 @@
 ---
 title: Bullet Graph - Design System Component
-_description: The Bullet Graph Component Symbol is a data visualization that displays contextual progress of a value to a target value.
+_description: The Bullet Graph Component is a data visualization that displays contextual progress of a value to a target value.
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
 ---
 
