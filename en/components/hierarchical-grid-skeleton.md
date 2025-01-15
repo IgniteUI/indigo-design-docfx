@@ -1,7 +1,7 @@
 ---
 title: Skeleton Hierarchical Grid - Design System Component
 _description: The Skeleton Hierarchical Grid is a representation of a Hierarchical Grid component that is shown while data is being loaded in the background to provide content for its cells.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Skeleton Hierarchical Grid
