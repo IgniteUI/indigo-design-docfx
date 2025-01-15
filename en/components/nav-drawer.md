@@ -1,6 +1,6 @@
 ---
 title: Navigation Drawer - Design System Component
-_description: The Navigation Drawer Component Symbol is used to design both simple and complex application-level navigations. 
+_description: The Navigation Drawer Component is used to design both simple and complex application-level navigations. 
 _keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
