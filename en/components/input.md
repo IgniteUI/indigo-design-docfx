@@ -1,6 +1,6 @@
 ---
 title: Input - Design System Component
-_description: The Input Component Symbol allows the collection of user data such as strings, numbers and dates.
+_description: The Input Component allows the collection of user data such as strings, numbers and dates.
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
 ---
 
