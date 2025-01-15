@@ -38,7 +38,7 @@ The Chart Type allows switching between **Line** and **Area**, from the `Area Fi
 
 ## State
 
-The Line Chart has two states - Idle and Hover. In Figma you can switch between the two states by selecting the nested Chart Area component from the layers panel and switching on/off the boolean property `Hover Tooltip` from the properties panel. In the Hover state a tooltip, giving information about the series' values at this point, is shown upon hovering over a data point.
+The Line Chart has two states - Idle and Hover. In Figma you can switch between the two states by selecting the nested Chart Type component from the layers panel and switching on/off the boolean property `Hover Tooltip` from the properties panel. In the Hover state a tooltip, giving information about the series' values at this point, is shown upon hovering over a data point.
 
 <img class="responsive-img" src="../images/line_area_chart_tooltip-off.png" srcset="../images/line_area_chart_tooltip-off@2x.png 2x" />
 <div class="divider--half"></div>
@@ -46,7 +46,7 @@ The Line Chart has two states - Idle and Hover. In Figma you can switch between 
 
 ## Y-Axis
 
-The Y-axis of the Line Chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and to hide a label simply hide it from the layers panel in Figma. By default, the Y-axis is hidden in Figma. To make it visible go to the layers panel, find the Y-axis line and show it. If you want to hide all elements at once, hide the nested Y-axis component from the layers panel in Figma.
+The Y-axis of the Line Chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and to hide a label simply hide it from the layers panel in Figma. By default, the Y-axis is hidden. To make it visible go to the layers panel, find the Y-axis line and show it. If you want to hide all elements at once, hide the nested Y-axis component from the layers panel.
 
 <img class="responsive-img" src="../images/line_chart_yaxis.png" srcset="../images/line_chart_yaxis@2x.png 2x" />
 
