@@ -20,7 +20,7 @@ Similarly to the Grid, the Hierarchical Grid is essentially a repeater of column
 | 🚫 componentVersion  &nbsp;  | A special locked layer starting with a prohibited icon. This layer containts information about the current version of the component and you should avoid deleting or modifying it. |
 | 🚫 metadata | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
 | Drill Indication                  | A symbol that is used for indicating the active cell/cell in focus                                                                                                       |
-| Grid 2                               | Contains all the columns and cells of the bottom grid header                                                                                                                 |
+| Grid 2                               | Contains all the columns and cells of the bottom grid                                                                                                                 |
 | Background                                 | Defines the background color of the second grid                                                                            |
 | Grid 1              | Contains all the columns and cells of the top grid                                                                                      |
 
@@ -39,7 +39,7 @@ To understand how regular Header, Body and Summary cells can be used for differe
 
 ## Cell Size
 
-The CollapseAll and Expand cells support three size variants of the Hierarchical Grid: Large, Medium and Small. Each of them come with distinct symbols as can be seen for the CollapseAll Header cells below:
+The CollapseAll and Expand cells support three size variants of the Hierarchical Grid: Large, Medium and Small, which can be changed from the `Size` property in the side properties panel.
 
 <img class="responsive-img" src="../images/hierarchical_grid_cell_header_large.png" srcset="../images/hierarchical_grid_cell_header_large@2x.png 2x" />
 <img class="responsive-img" src="../images/hierarchical_grid_cell_header_medium.png" srcset="../images/hierarchical_grid_cell_header_medium@2x.png 2x" />
