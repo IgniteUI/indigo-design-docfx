@@ -29,6 +29,7 @@ In Figma the List Item comes in three preset types: Header for defining the head
 <img class="responsive-img" src="../images/list_item_three-line.png" srcset="../images/list_item_three-line@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_four-line.png" srcset="../images/list_item_four-line@2x.png 2x" />
 
+
 ## State
 
 The Items support the following interactive states: **inactive** for the normal state and **active** for the selected state. In Figma the states can be found under `State` property in the right sidebar. The Header List Item is not selectable so it provides no support for such states.
@@ -55,9 +56,9 @@ There are 5 interchangeable List Item Primary Actions available under `Type` pro
 | Label + Progress          | <img class="responsive-img" src="../images/list_item_primary4.png" srcset="../images/list_item_primary4@2x.png 2x" />   | Linear Progress Bar inside a List Item can not have a value label, therefore, the layer of the label is toggled off in the layers panel in Figma. This setting should not be changed! |                                    
 | Label | <img class="responsive-img" src="../images/list_item_primary5.png" srcset="../images/list_item_primary5@2x.png 2x" />     |                                                                                                                                            |
 
-## Secondary Action in Figma and Sketch
+## Secondary Action in Figma
 
-There are 4 interchangeable List Item Secondary Actions in Figma. In Figma, they are available under the `Secondary Action` base component properties where they can be switched and turned on and off, depending on the case and needs. The auto layout in Figma will automatically adjust the component based on the selected properties.
+There are 4 interchangeable List Item Secondary Actions in Figma. Тhey are available under the `Secondary Action` base component properties where they can be switched and turned on and off, depending on the case and needs. The auto layout in Figma will automatically adjust the component based on the selected properties.
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -66,17 +67,17 @@ There are 4 interchangeable List Item Secondary Actions in Figma. In Figma, they
 | Text and Icon            | <img class="responsive-img" src="../images/list_item_secondary3.png" srcset="../images/list_item_secondary3@2x.png 2x" /> | Text and Icons could be used independently. In Figma, you can turn on and off the Text Container and hide one or both icons.                                                                                                                                     |
 | Toggle/Switch             | <img class="responsive-img" src="../images/list_item_secondary4.png" srcset="../images/list_item_secondary4@2x.png 2x" /> | Switch inside a List Item can not have a label, therefore, the before and after labels are toggled off in the layers panel in Figma. This setting should not be changed!   |                                                                                                                                          |
 
-## Thumbnail in Adobe XD
-
-The Thumbnail component in the left List Item area in Adobe XD provides 3 interchangeable options via the `Component States` paradigm to let you easily switch them. This makes it possible to create a matching design for each of the Primary Actions in Sketch.
-
-<img class="responsive-img" src="../images/thumbnail_xd.png" srcset="../images/thumbnail_xd@2x.png 2x" />
-
 ## Styling
 
 The List Item comes with styling flexibility through the options available for the different elements used in it, such as icons, text and components like Avatar, Badge, Checkbox, Icon, Progress, Switch, etc., each with its own styling capabilities.
 
 <img class="responsive-img" src="../images/list_item_styling.png" srcset="../images/list_item_styling@2x.png 2x" />
+
+## List Custom Item Component
+
+The Custom List Item Component could display the same type of information that you would in a normal List Item but with different layout of the elements in it. The Custom List Item supports 2 interactive states: Inactive for the normal state and Active for the selected state.
+
+<img class="responsive-img" src="../images/list_custom_item_figma.png" srcset="../images/list_item_styling@2x.png 2x" />
 
 ## Additional Resources
 
