@@ -1,6 +1,6 @@
 ---
 title: Navbar - Design System Component
-_description: The Navbar Component Symbol is used to inform the user of his current position in the application and provide a mechanism for simple navigation.
+_description: The Navbar Component is used to inform the user of his current position in the application and provide a mechanism for simple navigation.
 _keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
