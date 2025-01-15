@@ -1,6 +1,6 @@
 ---
 title: Hyperlink - Design System Component
-_description: The Hyperlink Component Symbol is used to allow the user follow a reference in a text paragraph. 
+_description: The Hyperlink Component is used to allow the user follow a reference in a text paragraph. 
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
 ---
 
@@ -20,7 +20,7 @@ The Hyperlink comes in three different sizes matching the available sizes for pa
 
 ## Url
 
-Specify the link you want the hyperlink to open when clicked via the Url override. This will have no visibility in your design but will be taken into account by the code generation services.
+Specify the link you want the hyperlink to open when clicked via the "Create link" option. This will have no visibility in your design but will be taken into account by the code generation services.
 
 ## Styling
 
