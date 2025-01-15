@@ -1,7 +1,7 @@
 ---
 title: List Item - Design System Component
-_description: The List Item Component Symbol is used to display information and possible actions to it.
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
+_description: The List Item Component is used to display information and possible actions to it.
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma HTML, Figma UI kits, Sketch, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
 ---
 
 # List Item
@@ -14,7 +14,7 @@ Use the List Item to display a repeated piece of information in the List compone
 
 ## Type
 
-In Sketch and Figma the List Item comes in three preset types: Header for defining the headings of groups, One-line for shorter items with only one line of primary text, and Two-line for taller items supporting primary and secondary text. In Adobe XD with just two presets you can achieve the same and much more, so there we have only Header and Item types.
+In Figma the List Item comes in three preset types: Header for defining the headings of groups, One-line for shorter items with only one line of primary text, and Two-line for taller items supporting primary and secondary text.
 
 <img class="responsive-img" src="../images/list_item_header.png" srcset="../images/list_item_header@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_one-line.png" srcset="../images/list_item_one-line@2x.png 2x" />
@@ -31,54 +31,46 @@ In Sketch and Figma the List Item comes in three preset types: Header for defini
 
 ## State
 
-The Items support the following interactive states: **inactive** for the normal state and **active** for the selected state. In Figma the states can be found under `State` property in the right sidebar. In Sketch, this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. The Header List Item is not selectable so it provides no support for such states.
+The Items support the following interactive states: **inactive** for the normal state and **active** for the selected state. In Figma the states can be found under `State` property in the right sidebar. The Header List Item is not selectable so it provides no support for such states.
 
 <img class="responsive-img" src="../images/list_item_inactive.png" srcset="../images/list_item_inactive@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_active.png" srcset="../images/list_item_active@2x.png 2x" />
 
 ## Area
 
-In Figma and Sketch, the List Item has two distinct areas: Primary Action with non-interactive content such as Avatar and text, and Secondary Action with quick actions related to the List Item. Any combination of a Primary and Secondary action creates a unique list item template that should be used consistently across all items of a List.
-
-In Adobe XD, the list item has a Group where non-interactive content such as Avatar, Progress bar, and text are laid out, as well as an Actions component containing actionable icons for the right side of the item. In both areas, you can drag arbitrary components from the `Libraries` panel to create the layout that you need without ever having to destroy any of the components in the template or the item itself.
+In Figma the List Item has two distinct areas: Primary Action with non-interactive content such as Avatar and text, and Secondary Action with quick actions related to the List Item. Any combination of a Primary and Secondary action creates a unique list item template that should be used consistently across all items of a List.
 
 <img class="responsive-img" src="../images/list_item_primary.png" srcset="../images/list_item_primary@2x.png 2x" />
 <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />
 
-## Primary Action in Figma and Sketch
+## Primary Action in Figma
 
-There are 5 interchangeable List Item Primary Actions available under `Type` property in Figma and 4 available as `Symbol Overrides` in Sketch. Thanks to the Smart Layout in Sketch, List Items can be adjusted further by setting unnecessary elements to ~No Symbol.
+There are 5 interchangeable List Item Primary Actions available under `Type` property in Figma. The List Item supports One-line and Two-line options which can be found under `Line` property.
 
 |                              |                                                                                                  |                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Avatar + Label + Description | <img class="responsive-img" src="../images/list_item_primary1.png" srcset="../images/list_item_primary1@2x.png 2x" />     |                                                                                                                                            |
-| Checkbox + Label               | <img class="responsive-img" src="../images/list_item_primary2.png" srcset="../images/list_item_primary2@2x.png 2x" />   |  Checkbox inside a List Item can not have its own label, therefore, the before and after labels are set to ~No Symbol in Sketch and the label layer is not present in Adobe XD. This setting should not be changed! |
+| Avatar + Label + Description | <img class="responsive-img" src="../images/list_item_primary1.png" srcset="../images/list_item_primary1@2x.png 2x"   />     |                                                                                                                                            |
+| Checkbox + Label               | <img class="responsive-img" src="../images/list_item_primary2.png" srcset="../images/list_item_primary2@2x.png 2x" />   |  Checkbox inside a List Item can not have its own label, therefore, the before and after labels are toggled off in the layers panel in Figma. This setting should not be changed! |
 | Icon + Label + Desc | <img class="responsive-img" src="../images/list_item_primary3.png" srcset="../images/list_item_primary3@2x.png 2x" />   |                                                                                                                                            |
-| Label + Progress          | <img class="responsive-img" src="../images/list_item_primary4.png" srcset="../images/list_item_primary4@2x.png 2x" />   | Linear Progress Bar inside a List Item can not have a value label, therefore, it is set to ~No Symbol in Sketch and the value label layer is not present in Adobe XD. This setting should not be changed! |                                    
+| Label + Progress          | <img class="responsive-img" src="../images/list_item_primary4.png" srcset="../images/list_item_primary4@2x.png 2x" />   | Linear Progress Bar inside a List Item can not have a value label, therefore, the layer of the label is toggled off in the layers panel in Figma. This setting should not be changed! |                                    
 | Label | <img class="responsive-img" src="../images/list_item_primary5.png" srcset="../images/list_item_primary5@2x.png 2x" />     |                                                                                                                                            |
 
 ## Secondary Action in Figma and Sketch
 
-There are 4 interchangeable List Item Secondary Actions in Figma and Sketch. In Figma, they are available under the `Secondary Action` base component properties where they can be switched and turned on and off, depending on the case and needs. The auto layout in Figma will automatically adjust the component based on the selected properties. In Sketch, the Secondary Actions are available as `Symbol Overrides` and thanks to the Smart Layout, they can be adjusted further by setting unnecessary elements to ~No Symbol.
+There are 4 interchangeable List Item Secondary Actions in Figma. In Figma, they are available under the `Secondary Action` base component properties where they can be switched and turned on and off, depending on the case and needs. The auto layout in Figma will automatically adjust the component based on the selected properties.
 
 |                  |                                                                                                    |                                                                                                                                       |
 | ---------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Badge            | <img class="responsive-img" src="../images/list_item_secondary.png" srcset="../images/list_item_secondary@2x.png 2x" />   |                                                                                                                                       |
-| Checkbox         | <img class="responsive-img" src="../images/list_item_secondary2.png" srcset="../images/list_item_secondary2@2x.png 2x" /> | Checkbox inside a List Item can not have a label, therefore, the before and after labels are hidden in Figma, set to ~No Symbol in Sketch and the label layer is not present in Adobe XD. This setting should not be changed! |
-| Text and Icon            | <img class="responsive-img" src="../images/list_item_secondary3.png" srcset="../images/list_item_secondary3@2x.png 2x" /> | Text and Icons could be used independently. In Figma, you can turn on and off the Text Container and hide one or both icons, in Sketch, setting them to ~No Symbol will hide them.                                                                                                                                     |
-| Toggle/Switch             | <img class="responsive-img" src="../images/list_item_secondary4.png" srcset="../images/list_item_secondary4@2x.png 2x" /> | Switch inside a List Item can not have a label, therefore, the before and after labels are hidden in Figma, set to ~ No Symbol in Sketch and the label layer is not present in Adobe XD. This setting should not be changed!   |                                                                                                                                          |
+| Checkbox         | <img class="responsive-img" src="../images/list_item_secondary2.png" srcset="../images/list_item_secondary2@2x.png 2x" /> | Checkbox inside a List Item can not have a label, therefore, the before and after labels are toggled off in the layers panel in Figma. This setting should not be changed! |
+| Text and Icon            | <img class="responsive-img" src="../images/list_item_secondary3.png" srcset="../images/list_item_secondary3@2x.png 2x" /> | Text and Icons could be used independently. In Figma, you can turn on and off the Text Container and hide one or both icons.                                                                                                                                     |
+| Toggle/Switch             | <img class="responsive-img" src="../images/list_item_secondary4.png" srcset="../images/list_item_secondary4@2x.png 2x" /> | Switch inside a List Item can not have a label, therefore, the before and after labels are toggled off in the layers panel in Figma. This setting should not be changed!   |                                                                                                                                          |
 
 ## Thumbnail in Adobe XD
 
 The Thumbnail component in the left List Item area in Adobe XD provides 3 interchangeable options via the `Component States` paradigm to let you easily switch them. This makes it possible to create a matching design for each of the Primary Actions in Sketch.
 
 <img class="responsive-img" src="../images/thumbnail_xd.png" srcset="../images/thumbnail_xd@2x.png 2x" />
-
-## Actions in Adobe XD
-
-The Actions component that constitutes the right List Item area in Adobe XD provides 4 interchangeable options via the `Component States` paradigm to let you easily switch them. This makes it possible to create a matching design for each of the Secondary Actions in Sketch.
-
-<img class="responsive-img" src="../images/actions_xd.png" srcset="../images/actions_xd@2x.png 2x" />
 
 ## Styling
 
