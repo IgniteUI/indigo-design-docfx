@@ -24,6 +24,14 @@ The Navigation Drawer supports a **Default** type with icon and label for each i
 The Navigation Drawer can show up to 21 Items in Figma. If you have more items than necessary, you can reduce their number by hiding the ones you don't need from the layers panel in Figma. Thanks to the auto layout in Figma the rest will adjust automatically.
 
 <img class="responsive-img" src="../images/nav-drawer_default.png" srcset="../images/nav-drawer_default@2x.png 2x" />
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+
+The Navigation Drawer supports two types of items: header and item. Through headers it is possible to organize the other items in groups.
+
+<img class="responsive-img" src="../images/nav-drawer_item_and_header.png" srcset="../images/nav-drawer_default@2x.png 2x" />
+
 
 ## Item State
 
