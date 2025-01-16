@@ -50,16 +50,18 @@ The Y-axis of the Spline Chart comprises of a Title, Labels, and the Axis itself
 
 ## Gridlines
 
-The Spline Chart has built-in Gridlines to make it easier to visually trace a data point to a value on the Y-axis. In Figma you can show/hide them by selecting the nested Chart Type component and switching on/off the boolean property "Gridlines" from the properties panel. To hide them in Sketch and Adobe XD just set their color to `Transparent`.
+The Spline Chart has built-in Gridlines to make it easier to visually trace a data point to a value on the Y-axis. In Figma you can show/hide them by selecting the nested Chart Type component and switching on/off the boolean property `Gridlines` from the properties panel.
 
 <img class="responsive-img" src="../images/spline_chart_gridlines.png" srcset="../images/spline_chart_gridlines@2x.png 2x" />
 
 ## Series Amount
 
-The Spline Chart comes with a selection of one, two, and **three** series that will be rendered in the Chart Area. This is also valid for the Area type.
+The Spline Chart comes with a selection of **one**, **two**, and **three** (by default) series that will be rendered in the Chart Area. This is also valid for the Area type. You can show/hide as many series as you need by selecting the nested Chart Type component in the layers panel and switching on/off the boolean properties for the series and the series markers (e.g. `Series 3` and `Series 3 Markers`). You should also adjust the series appropriately in the legend by showing/hiding them from the layers panel.
 
 <img class="responsive-img" src="../images/spline_chart_one_series.png" srcset="../images/spline_chart_one_series@2x.png 2x" />
+<div class="divider--half"></div>
 <img class="responsive-img" src="../images/spline_chart_two_series.png" srcset="../images/spline_chart_two_series@2x.png 2x" />
+<div class="divider--half"></div>
 <img class="responsive-img" src="../images/spline_chart_three_series.png" srcset="../images/spline_chart_three_series@2x.png 2x" />
 
 ## Styling
