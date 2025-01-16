@@ -1,6 +1,6 @@
 ---
 title: Audio / Video - Design System Pattern
-_description: The AV Pattern Symbols provide the interface for control over audio and video playback. 
+_description: The AV Pattern Components provide the interface for control over audio and video playback. 
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
 ---
 
