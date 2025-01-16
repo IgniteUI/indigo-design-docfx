@@ -73,7 +73,7 @@ The List Item comes with styling flexibility through the options available for t
 
 <img class="responsive-img" src="../images/list_item_styling.png" srcset="../images/list_item_styling@2x.png 2x" />
 
-## List Custom Item Component
+## Custom List Item Component
 
 The Custom List Item Component could display the same type of information that you would in a normal List Item but with different layout of the elements in it. The Custom List Item supports 2 interactive states: Inactive for the normal state and Active for the selected state.
 
@@ -88,7 +88,6 @@ Related topics:
 - [Checkbox](checkbox.md)
 - [Icon](icon.md)
 - [List](list.md)
-- [Custom List Item in Sketch](list-custom.md)
 - [Skeleton List](list-skeleton.md)
 - [Progress](progress.md)
 - [Switch](switch.md)
