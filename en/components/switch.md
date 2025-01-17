@@ -1,6 +1,6 @@
 ---
 title: Switch - Design System Component
-_description: The Switch Component Symbol is used to allow the user to mark a selection.
+_description: The Switch Component is used to allow the user to mark a selection.
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
 ---
 
