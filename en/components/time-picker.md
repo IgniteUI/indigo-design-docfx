@@ -1,6 +1,6 @@
 ---
 title: Time Picker - Design System Component
-_description: The Time Picker Component Symbol is used as a visual representation of time providing the necessary mechanisms for time picking.
+_description: The Time Picker Component is used as a visual representation of time providing the necessary mechanisms for time picking.
 _keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
@@ -39,7 +39,7 @@ The Time Picker supports 12 and 24-hour formats through two distinct content mod
 
 The Time Picker comes with two buttons: one for canceling the selection, which would revert the time to the original one, and one for confirming the selection, which would save the changes made. 
 
-The Button area can be templated, making it easy to hide buttons as needed. In Figma, you can simply hide a button by hiding its instance from the layers panel or hide them altogether using the "Action Buttons" boolean property. To add additional buttons in Figma, you should first detach the component instance and then apply the desired changes.
+The Button area can be templated, making it easy to hide buttons as needed. In Figma, you can simply hide a button by hiding its instance from the layers panel or hide them altogether using the `Action Buttons` boolean property. To add additional buttons in Figma, you should first detach the component instance and then apply the desired changes.
 
 <img class="responsive-img" src="../images/timepicker_buttons.png" srcset="../images/timepicker_buttons@2x.png 2x" />
 
