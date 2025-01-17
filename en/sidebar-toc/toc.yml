@@ -16,17 +16,8 @@
   href: ../creating-artboard-sketch.md
 - name: Creating an Artboard in Adobe XD
   href: ../creating-artboard-adobexd.md
-- name: Plugins
-  href: ../plugins/overview-plugins.md
-  new: true
-  items:
-    - name: Figma
-      href: ../plugins/figma-plugin.md
-      new: true
-    - name: Sketch
-      href: ../plugins/sketch-plugin.md
-    - name: AdobeXD
-      href: ../plugins/xd-plugin.md
+- name: Indigo.Design Figma Plugin
+  href: ../plugins/figma-plugin.md
 - name: Styling
   href: ../style/styling-overview.md
   updated: true
