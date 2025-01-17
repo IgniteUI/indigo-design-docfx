@@ -1,6 +1,6 @@
 ---
 title: Snackbar - Design System Component
-_description: The Snackbar Component Symbol is used to show a short notification or indicate the last action performed by the user.
+_description: The Snackbar Component is used to show a short notification or indicate the last action performed by the user.
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma HTML
 ---
 
