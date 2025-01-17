@@ -44,7 +44,7 @@ Grid Pattern components come in eight pre-made combinations of Grid features:
 
 
 > [!WARNING]
-> In Figma, you can select any of the Grid Patterns, right-click on it and choose `Detach instance` only if you need to alter the number of cells provided, in order to show all the dimensions of your data and insert as many visible records as you want. The individual Components and Features, however, must stay intact and not be detached!
+> In Figma, you can insert any of the Grid Patterns from the Assets Panel, right-click on it and choose `Detach instance` only if you need to alter the number of cells provided, in order to show all the dimensions of your data and insert as many visible records as you want. The individual Components and Features, however, must stay intact and not be detached!
 >
 
 ## Additional Resources
