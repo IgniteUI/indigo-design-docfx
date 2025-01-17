@@ -1,6 +1,6 @@
 ---
 title: Progress - Design System Component
-_description: The Progress Component Symbol is used to provide a visual indication regarding the status, progress or completion of a task. 
+_description: The Progress Component is used to provide a visual indication regarding the status, progress or completion of a task. 
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
 ---
 
