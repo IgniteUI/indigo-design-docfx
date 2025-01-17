@@ -35,7 +35,7 @@ In Figma, the Switch supports label position variants where the Switch label is 
 
 ## State
 
-The Switch provides **on** and **off** selection states. In Figma, you can select the properties from the right sidebar.
+The Switch provides **on** and **off** selection states. In Figma, you can switch between them by using the `Checked` boolean property in the right sidebar.
 
 <img class="responsive-img" src="../images/switch_on.png" srcset="../images/switch_on@2x.png 2x" />
 <img class="responsive-img" src="../images/switch_on_disabled.png" srcset="../images/switch_on_disabled@2x.png 2x" />
