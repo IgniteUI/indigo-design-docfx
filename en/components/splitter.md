@@ -1,6 +1,6 @@
 ---
 title: Splitter - Design System Component
-_description: The Splitter Component Symbol creates layouts split into panes that may be resized, expanded, and collapsed.
+_description: The Splitter Component creates layouts split into panes that may be resized, expanded, and collapsed.
 _keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
