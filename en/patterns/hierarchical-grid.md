@@ -1,7 +1,7 @@
 ---
 title: Hierarchical Grid - Design System Pattern
 _description: The Hierarchical Grid Pattern represents a parent-level Grid with a nested child-Grid inside.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Hierarchical Grid
@@ -33,11 +33,8 @@ All Grid features are applicable to each child and parent Grid.
 
 
 > [!WARNING]
-> In Sketch, after inserting the Hierarchical Grid Pattern, you can trigger `Detach from Symbol` only if you need to alter the number of cells provided, in order to show all the dimensions of your data and insert as many visible records as you want. In case you need to show more of the hierarchy, you may also nest additional grids within the body of the parent one that they belong to. The individual Components and Features, however, must stay intact and not be detached!
+> In Figma, after inserting the Hierarchical Grid Pattern from the Assets panel, you can right click on the component and select `Detach instance` only if you need to alter the number of cells provided, in order to show all the dimensions of your data and insert as many visible records as you want. In case you need to show more of the hierarchy, you may also nest additional grids within the body of the parent one that they belong to. The individual Components and Features, however, must stay intact and not be detached!
 >
-> In Figma, this is achieved by right-clicking on the component and selecting `Detach instance`, after inserting the Hierarchical Grid Pattern from the Assets panel. After that you can apply the same modifications we've mentioned above.
->
-> In Adobe XD you can add more cells than provided by duplicating columns and rows without ever having to ungroup the pattern itself.
 
 ## Additional Resources
 
