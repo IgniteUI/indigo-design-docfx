@@ -44,7 +44,7 @@ The Short Bar comes with text content by default. In Figma you can show/hide the
 
 ## Tab Item State
 
-Tab Items support Active, Inactive and Disabled states. In Figma you can switch between the three using the `State` property from the properties panel. In Tabs there is always one Active tab and an arbitrary number of Inactive and Disabled ones.
+Tab Items support Active, Inactive , Active & Hover, Inactive & Hover and Disabled states. In Figma you can switch between them using the `State` property and the `Hover` boolean property from the properties panel. In Tabs there is always one Active tab and an arbitrary number of Inactive and Disabled ones.
 
 <img class="responsive-img" src="../images/tabs_state.png" srcset="../images/tabs_state@2x.png 2x" />
 
