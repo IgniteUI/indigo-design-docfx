@@ -1,7 +1,7 @@
 ---
 title: List Item - Design System Component
 _description: The List Item Component is used to display information and possible actions to it.
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma HTML, Figma UI kits, Sketch, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
 ---
 
 # List Item
@@ -77,7 +77,7 @@ The List Item comes with styling flexibility through the options available for t
 
 The Custom List Item Component could display the same type of information that you would in a normal List Item but with different layout of the elements in it. The Custom List Item supports 2 interactive states: Inactive for the normal state and Active for the selected state.
 
-<img class="responsive-img" src="../images/list_custom_item_figma.png" srcset="../images/list_item_styling@2x.png 2x" />
+<img class="responsive-img" src="../images/list_custom_item_figma.png" srcset="../images/list_custom_item_figma@2x.png 2x" />
 
 ## Additional Resources
 
