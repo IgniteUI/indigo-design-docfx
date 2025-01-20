@@ -34,7 +34,7 @@ The Skeleton List Item has two distinct areas like the standard [List](list.md):
 <img class="responsive-img" src="../images/list_skeleton_item_primary.png" srcset="../images/list_skeleton_item_primary@2x.png 2x" />
 <img class="responsive-img" src="../images/list_skeleton_item_secondary.png" srcset="../images/list_skeleton_item_secondary@2x.png 2x" />
 
-## Primary Action in Figma and Sketch
+## Primary Action
 
 There are 5 interchangeable Skeleton List Item Primary Actions available under `Type` property in Figma. The Skeleton List Item Primary Actions are like the standard [List Item](list-item.md). The List Item supports One-line and Two-line options which can be found under `Line` property.
 
