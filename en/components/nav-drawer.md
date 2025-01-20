@@ -30,7 +30,7 @@ The Navigation Drawer can show up to 21 Items in Figma. If you have more items t
 
 The Navigation Drawer supports two types of items: header and item. Through headers it is possible to organize the other items in groups.
 
-<img class="responsive-img" src="../images/nav-drawer_item_and_header.png" srcset="../images/nav-drawer_default@2x.png 2x" />
+<img class="responsive-img" src="../images/nav-drawer_item_and_header.png" srcset="../images/nav-drawer_item_and_header@2x.png 2x" />
 
 
 ## Item State
