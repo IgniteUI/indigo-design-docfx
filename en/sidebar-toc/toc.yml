@@ -163,8 +163,6 @@
       items:
         - name: List Item
           href: ../components/list-item.md
-        - name: Custom List Item in Sketch
-          href: ../components/list-custom.md
         - name: Skeleton List
           href: ../components/list-skeleton.md
     - name: Navbar
