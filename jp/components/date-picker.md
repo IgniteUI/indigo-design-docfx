@@ -28,6 +28,17 @@ Date Picker は、水平および垂直方向の Dialog レイアウトおよび
 <img class="responsive-img" src="../images/datepicker_vertical.png" srcset="../images/datepicker_vertical@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_dropdown.png" srcset="../images/datepicker_dropdown@2x.png 2x" />
 
+Figma では、`Action Buttons` ブール値プロパティを有効にすることで、Date Picker の下部にアクション ボタンを表示できます。
+
+<img class="responsive-img" src="../images/datepicker_actions.png" srcset="../images/datepicker_actions@2x.png 2x" />
+
+## マルチビューのバリエーション
+
+Date Picker には、2 か月を並べて表示する Multiview オプションが含まれています。Figma では、`Multiview` ブール値プロパティを使用してこれを有効にし、`Orientation` プロパティを使用して水平方向または垂直方向を選択できます。Sketch と Adobe XD では、水平方向のマルチビューのみが使用可能であり、コンポーネントを追加するときに方向とビューを選択する必要があります。
+
+<img class="responsive-img" src="../images/datepicker_multi_horiz.png" srcset="../images/datepicker_multi_horiz@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_multi_vert.png" srcset="../images/datepicker_multi_vert@2x.png 2x" />
+
 ## 週のはじめ
 
 週の最初の曜日として、最も一般的な 2 つのシナリオ (日曜日と月曜日) をサポートしています。Figma では、`Week Start` プロパティから週の開始を選択できます。Sketch および Adobe XD では、日付ピッカーを挿入するときにオプションとして開始日を選択する必要があります。
@@ -43,7 +54,7 @@ Date Picker には、Calendar と同じように週番号のサポートが組�
 
 ## 選択
 
-Calendar と同様に、Date Picker では 3 つの選択モードから選択できます: ユーザーが 1 つの日付のみを選択できるように制限する  **Single Day**、ランダムな複数の日付を選択できる Multiple Days、および開始から終了までのすべての日付を選択する手段を提供する Range。
+Calendar と同様に、Date Picker では 3 つの選択モードから選択できます: ユーザーが 1 つの日付のみを選択できるように制限する **Single Day**、ランダムな複数の日付を選択できる **Multiple Days**、および開始から終了までのすべての日付を選択する手段を提供する **Range**。
 
 <img class="responsive-img" src="../images/datepicker_dropdown.png" srcset="../images/datepicker_dropdown@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_selection.png" srcset="../images/datepicker_selection@2x.png 2x" />

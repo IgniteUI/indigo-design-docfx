@@ -27,7 +27,7 @@ The Grid Row Selection can be achieved through the creation of an additional col
 
 ## Row Selection Cells
 
-The Grid provides a special type of Body Cells for selected rows available via the `Grid Feature` overrides in Sketch. Once you set it to `RowSelected/Cell` a distinguishable style will be applied to indicate that the cell belongs to a selected row. In Figma, you can achieve this by selecting the nested `Grid Feature` component inside the grid cells and switch to `Row Selected` using the `Variant` property on the properties panel. In Adobe XD the `Grid Feature` comes as a layer that uses the `Component States` paradigm to let you easily switch between states.
+The Grid provides a special type of Body Cells for selected rows available via the `Grid Feature` overrides in Sketch. Once you set it to `RowSelected/Cell` a distinguishable style will be applied to indicate that the cell belongs to a selected row. In Figma, you can achieve this by selecting the nested `Cell State` component inside the grid cells and switch on the `Row Selected` boolean property on the properties panel. In Adobe XD the `Grid Feature` comes as a layer that uses the `Component States` paradigm to let you easily switch between states.
 
 ## Additional Resources
 

@@ -6,11 +6,11 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, E
 
 # Select
 
-Use the Select Component to let the user choose a single option from a scrollable list of items placed in a drop down. The Select is a type of input for users to submit data. If your scenario requires the selection of multiple items, you should use the [Combo](combo.md) instead. The Select is visually identical to the [Ignite UI for Angular Select Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/select.html).
+Use the Select Component to let the user choose a single option from a scrollable list of items placed in a dropdown. The Select is a type of input for users to submit data. If your scenario requires the selection of multiple items, you should use the [Combo](combo.md) instead. The Select is visually identical to the [Ignite UI for Angular Select Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/select.html).
 
 ## Select Demo
 
-The Select is built by combining an input containing the current selection with a drop down that appears to let you select an item.
+The Select is built by combining an input containing the current selection with a dropdown that appears to let you select an item.
 
 <img class="responsive-img" src="../images/select_demo.png" srcset="../images/select_demo@2x.png 2x" />
 
@@ -35,7 +35,7 @@ In Sketch and Adobe XD each of the three Select input types can be inserted eith
 
 ## State
 
-When the user interacts with the Select, its input goes through various selection states: **Idle** with a placeholder in the place of the content; **Focused** when the drop down is open; and **Filled** once the user has finished with selection and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
+When the user interacts with the Select, its input goes through various selection states: **Idle** with a placeholder in the place of the content; **Focused** when the dropdown is open; and **Filled** once the user has finished with selection and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
 
 
 <img class="responsive-img" src="../images/select_idle.png" srcset="../images/select_idle@2x.png 2x" />
@@ -69,32 +69,13 @@ The Select has rich support for Prefix and Suffix through a combination of text 
 
 <img class="responsive-img" src="../images/select_suffix.png" srcset="../images/select_suffix@2x.png 2x" />
 
-<img class="responsive-img" src="../images/select_prefix+suffix.png" srcset="../images/select_prefix+suffix@2x.png 2x" />
+<img class="responsive-img" src="../images/select_prefixandsuffix.png" srcset="../images/select_prefixandsuffix@2x.png 2x" />
 
-## Drop Down Items
+## Dropdown
 
-The drop down used for the Select supports two types of items: header and single selection type. Through headers, it is possible to organize items in groups. In Figma, the Drop Down component utilizes the auto layout option, which makes sure all items are placed accordingly, once you hide or add one or more items. In Sketch, the Drop Down uses a Smart Layout allowing it to adjust accordingly when one or more of its items are set to ~No Symbol. In Adobe XD you should delete the unnecessary ones, and the layout will adjust through the use of a Stack.
+The Select utilizes the Dropdown component in its structure, in order to display available options. If you'd like to learn more about its available configurations, visit the [Dropdown](dropdown.md) page.
 
-<img class="responsive-img" src="../images/select_item.png" srcset="../images/select_item@2x.png 2x" />
-
-<img class="responsive-img" src="../images/select_header.png" srcset="../images/select_header@2x.png 2x" />
-
-## Drop Down Item States
-
-The dropdown items within the Select support five different states: Disabled, **Idle**, Focused, Selected, and Selected & Focused. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In Figma, an additional state has been added, making it six states in total: **Selected & Disabled**
-
-<img class="responsive-img" src="../images/select_item_idle.png" srcset="../images/select_item_idle@2x.png 2x" />
-`idle`
-<img class="responsive-img" src="../images/select_item_disabled.png" srcset="../images/select_item_disabled@2x.png 2x" />
-`disabled`
-<img class="responsive-img" src="../images/select_item_selected.png" srcset="../images/select_item_selected@2x.png 2x" />
-`selected`
-<img class="responsive-img" src="../images/select_item_selected_disabled.png" srcset="../images/select_item_selected_disabled@2x.png 2x" />
-`selected & disabled`
-<img class="responsive-img" src="../images/select_item_selected_focused.png" srcset="../images/select_item_selected_focused@2x.png 2x" />
-`selected & focused`
-<img class="responsive-img" src="../images/select_item_focused.png" srcset="../images/select_item_focused@2x.png 2x" />
-`focused`
+<img class="responsive-img" src="../images/select_demo.png" srcset="../images/select_demo@2x.png 2x" />
 
 ## Styling
 
@@ -104,7 +85,7 @@ The Select comes with the combined styling flexibility of its input and dropdown
 
 ## Usage
 
-When using the Select, its input and drop down should have the same width and their left and right borders should match. When the Select is focused, the drop down is shown above or below the input, never over the input, since the user should always be informed about the current selection. Once an item from the list is selected, the drop down gets hidden. The drop down on the other hand should be on top of other content that is on the same surface as the Select input. The Select doesn't push content as the expansion panel does.
+When using the Select, its input and dropdown should have the same width and their left and right borders should match. When the Select is focused, the dropdown is shown above or below the input, never over the input, since the user should always be informed about the current selection. Once an item from the list is selected, the dropdown gets hidden. The dropdown on the other hand should be on top of other content that is on the same surface as the Select input. The Select doesn't push content as the expansion panel does.
 
 | Do                                                                           | Don't                                                                            |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
@@ -116,6 +97,7 @@ When using the Select, its input and drop down should have the same width and th
 Related topics:
 
 - [Combo](combo.md)
+- [Dropdown](dropdown.md)
 - [Input](input.md)
 - [Form Pattern](../patterns/form.md)
   <div class="divider--half"></div>

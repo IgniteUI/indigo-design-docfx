@@ -40,7 +40,7 @@ Time Picker は、2 種類のコンテンツ モードで 12 時間と 24 時間
 
 Time Picker の 2 つのボタンは、時間を元の時間に戻す選択のキャンセルおよび変更を保存するための選択の確認にそれぞれ使用します。
 
-Button area はテンプレート化できるため、必要に応じてボタンを簡単に非表示にできます。Figma では、ボタンのインスタンスをレイヤー パネルから非表示にすることで、単純にボタンを非表示にすることができます。同様に、Sketch では、ボタンのオーバーライドを ~No Symbol に設定して非表示にすることができます。Adobe XD では、不要なボタンをまとめて削除できます。Sketch や Figma とは異なり、Adobe XD ではボタンを追加できます。カスタム アクションの場合は、[Libraries] パネルの Button area にボタンを追加できます。Button の削除または追加に関係なく、適用された Stack はレイアウトを自動的に調整します。Figma と Sketch でこれを実現するには、まずコンポーネント インスタンスをデタッチしてから、必要な変更を適用する必要があります。
+Button Area はテンプレート化できるため、必要に応じてボタンを簡単に非表示にできます。Figma では、レイヤー パネルからインスタンスを非表示にすることでボタンを非表示にしたり、「Action Buttons」 ブール値プロパティを使用してボタン全体を非表示にしたりすることができます。同様に、Sketch では、ボタンのオーバーライドを ~No Symbol に設定して非表示にすることができます。Adobe XD では、不要なボタンをまとめて削除できます。Sketch や Figma とは異なり、Adobe XD ではボタンを追加できます。カスタム アクションの場合は、[Libraries] パネルの Button Area にボタンを追加できます。Button の削除または追加に関係なく、適用された Stack はレイアウトを自動的に調整します。Figma では、レイヤー パネルからインスタンスを非表示にすることでボタンを非表示にしたり、「Action Buttons」 ブール値プロパティを使用してボタン全体を非表示にしたりすることができます。
 
 <img class="responsive-img" src="../images/timepicker_buttons.png" srcset="../images/timepicker_buttons@2x.png 2x" />
 
@@ -52,12 +52,11 @@ Time Picker は、ヘッダー背景、タイトル色、選択した時・分�
 
 ## 使用方法
 
-Time Picker を Dialog として表示する場合は、UI の残りの部分を暗くするレイヤーを追加し、Drop-down として表示する場合は、Drop-down 構成の Time Picker 入力のすぐ下に配置します。Dialog として表示されている場合は、Time Picker のすべてのボタンを非表示にしないでください。肯定的なアクションがないと、コンポーネントの使いやすさが損なわれます。
+Time Picker を Dialog として表示する場合は、UI の残りの部分を暗くするレイヤーを追加し、Dropdown として表示する場合は、Dropdown 構成の Time Picker 入力のすぐ下に配置します。
 
 | 良い例                                                                                     |悪い例                                                                                      |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | <img class="responsive-img" src="../images/timepicker_do1.png" srcset="../images/timepicker_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/timepicker_dont1.png" srcset="../images/timepicker_dont1@2x.png 2x" /> |
-| <img class="responsive-img" src="../images/timepicker_do3.png" srcset="../images/timepicker_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/timepicker_dont3.png" srcset="../images/timepicker_dont3@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/timepicker_do2.png" srcset="../images/timepicker_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/timepicker_dont2.png" srcset="../images/timepicker_dont2@2x.png 2x" /> |
 
 ## その他のリソース

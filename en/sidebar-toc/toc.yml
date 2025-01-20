@@ -55,10 +55,10 @@
       href: ../components/banner.md
     - name: Bottom Navigation
       href: ../components/bottom-nav.md
-    - name: Button Group
-      href: ../components/button-group.md
     - name: Button
       href: ../components/button.md
+    - name: Button Group
+      href: ../components/button-group.md
     - name: Calendar
       href: ../components/calendar.md
     - name: Card
@@ -139,8 +139,8 @@
           href: ../components/grid-row-selection.md
         - name: Grid Editing
           href: ../components/grid-editing.md
-        - name: Grid Display Density
-          href: ../components/grid-display-density.md
+        - name: Grid Sizes
+          href: ../components/grid-sizes.md
         - name: Grid Paging
           href: ../components/grid-paging.md
         - name: Grid Summaries

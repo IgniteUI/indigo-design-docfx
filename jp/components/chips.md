@@ -13,15 +13,15 @@ Chip コンポーネントは、タグや連絡先 (メール受信者など) �
 
 <img class="responsive-img" src="../images/chip_demo.png" srcset="../images/chip_demo@2x.png 2x" />
 
-## Chip 密度
+## Chip サイズ
 
-Chip は 3 つの密度バリアントがサポートされます。
+Chip は 3 つのサイズ バリアントがサポートされます。
 
-- Comfortable - インタラクティブ シナリオに適しています。e.g. アクション トリガー
-- Cosy - 電子メール作成ツールの受信者フィールドなど短い領域に適しています。
-- Compact - グリッド セルの値などデータが密集したシナリオに最適です。
+- Large - インタラクティブ シナリオに適しています。e.g. アクション トリガー
+- Medium - 電子メール作成ツールの受信者フィールドなど短い領域に適しています。
+- Small - グリッド セルの値などデータが密集したシナリオに最適です。
 
-<img class="responsive-img" src="../images/chip_density.png" srcset="../images/chip_density@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_size.png" srcset="../images/chip_size@2x.png 2x" />
 
 ## Chip タイプ
 
@@ -37,14 +37,10 @@ Chip は、Enabled (有効) または Disabled (無効) の状態で挿入でき
 
 ## 状態
 
-ユーザーが Chip を操作すると、デフォルトの **Idle (アイドル)** 状態から Hover (ホバー)、Focused (フォーカス)、または Selected (選択) に変化します。これには、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
+ユーザーが Chip を操作すると、デフォルトの **Idle (アイドル)** 状態から Hover (ホバー)、Focused (フォーカス済み)、または Selected (選択済み) に変化します。これには、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 Figma では、これらはプロパティ パネルの State プロパティから選択できます。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
 
 <img class="responsive-img" src="../images/chip_state.png" srcset="../images/chip_state@2x.png 2x" />
-
-Templated という名前のもう 1 つの状態があります。これは、[Grid Advanced Filter](grid-advanced-filter.md) インターフェイスで内部的に使用されます。Figma では、Chip Templated は別のコンポーネントですが、Sketch および Adobe XD では、メインの Chip コンポーネントから State として選択できます。
-
-<img class="responsive-img" src="../images/chip_templated.png" srcset="../images/chip_templated@2x.png 2x" />
 
 ## Chip の削除
 
@@ -56,13 +52,13 @@ Chip を削除することが可能であると、これを示す特別なキャ
 
 Chip は、prefix および suffix コンテナーを介したコンテンツ テンプレートをサポートしており、Chip のメイン ラベルの前後にアイコンとテキストを挿入できます。
 
-Figma では、プロパティ パネルの「Prefix Icon」および「Suffix Icon」プロパティを使用して、プレフィックス アイコンとサフィックス アイコンを表示または非表示にすることができ、それに応じてレイアウトが自動的に調整されます。
+Figma では、プロパティ パネルの 「Prefix Icon」 および 「Suffix Icon」 プロパティを使用して、プレフィックス アイコンとサフィックス アイコンを表示または非表示にすることができ、それに応じてレイアウトが自動的に調整されます。
 
 Sketch では、Overrides/Input/Prefix/Container および Overrides/Input/Suffix/Container でプレフィックスおよびサフィックス コンテナーを追加するか、~No Symbol に設定して削除できます。
 
 Adobe XD では、目的のレイヤーを表示し、不要な要素を削除する必要があります。プレフィックスまたはサフィックスを一度に削除するには、削除します。最終的に、使用されている Stack によってレイアウトが調整されます。
 
-<img class="responsive-img" src="../images/chip_comfy.png" srcset="../images/chip_comfy@2x.png 2x" />
+<img class="responsive-img" src="../images/chip_large.png" srcset="../images/chip_large@2x.png 2x" />
 `Text`
 
 <img class="responsive-img" src="../images/chip_prefix.png" srcset="../images/chip_prefix@2x.png 2x" />

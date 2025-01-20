@@ -20,13 +20,13 @@ The Skeleton Grid supports the same three types of cells as the standard [Grid](
 <img class="responsive-img" src="../images/grid_skeleton_cell_body.png" srcset="../images/grid_skeleton_cell_body@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_summary.png" srcset="../images/grid_skeleton_cell_summary@2x.png 2x" />
 
-## Cell Display Density
+## Cell Size
 
-The Skeleton Header, Body, and Summary Cells support the same three display density variants as the standard [Grid](grid.md): comfortable, cosy, and compact.
+The Skeleton Header, Body, and Summary Cells support the same three size variants as the standard [Grid](grid.md): Large, Medium and Small.
 
-<img class="responsive-img" src="../images/grid_skeleton_cell_header_comfortable.png" srcset="../images/grid_skeleton_cell_header_comfortable@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_skeleton_cell_header_cosy.png" srcset="../images/grid_skeleton_cell_header_cosy@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_skeleton_cell_header_compact.png" srcset="../images/grid_skeleton_cell_header_compact@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_header_large.png" srcset="../images/grid_skeleton_cell_header_large@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_header_medium.png" srcset="../images/grid_skeleton_cell_header_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_header_small.png" srcset="../images/grid_skeleton_cell_header_small@2x.png 2x" />
 
 ## Items and Features (Header Cell)
 

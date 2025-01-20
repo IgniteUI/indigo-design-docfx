@@ -14,13 +14,13 @@ Use the Banner Component to display a prominent message and optionally actions r
 
 ## Message
 
-The Banner's Message consists of an Icon and a Text field. It uses a smart layout in Sketch to let you hide one or the other by setting it to ~No Symbol, and a Stack in Adobe XD that takes care of the layout automatically as you add or delete components. In Figma, if you want to make any changes to the default Banner design, you need to detach the Banner component. Then the changes have to be done manually. The auto layout will be integrated in the next version of the Figma UI Kit.
+The Banner's Message consists of an Icon and a Text field. It uses a smart layout in Sketch to let you hide the Icon by setting it to ~No Symbol, and a Stack in Adobe XD that takes care of the layout automatically as you add or delete components. In Figma, you can use the "Icon" boolean operation from the properties panel to show/hide the Icon.
 
 <img class="responsive-img" src="../images/banner_message.png" srcset="../images/banner_message@2x.png 2x" />
 
 ## Actions
 
-The Actions area contains two Button components by default. If you only need one or want to remove both of them, set them to ~No Symbol in Sketch and the smart layout will adjust everything. In Adobe XD you can achieve the same by deleting the unnecessary button layers and rely on the Stack applied to adjust the interface, but on top of that you can even add more actions or use different components by dragging them into the Actions area from the Libraries panel. In Figma, to manage the actions displayed in the Banner, you can choose which one to keep and hide the other from the layers panel. If you don't need any actions, you can hide the entire "Actions" group, and then the design has to be adjusted manually. The auto layout will be integrated in the next version of the Figma UI Kit.
+The Actions area contains two Button components by default. If you only need one or want to remove both of them, set them to ~No Symbol in Sketch and the smart layout will adjust everything. In Adobe XD you can achieve the same by deleting the unnecessary button layers and rely on the Stack applied to adjust the interface, but on top of that you can even add more actions or use different components by dragging them into the Actions area from the Libraries panel. In Figma, to manage the actions displayed in the Banner, you can choose which one to keep and hide the other from the layers panel or hide the entire actions container using the "Actions" boolean operation.
 
 
 <img class="responsive-img" src="../images/banner_actions.png" srcset="../images/banner_actions@2x.png 2x" />
@@ -33,12 +33,12 @@ The Banner has styling flexibility with options for text, background and border 
 
 ## Usage
 
-Don’t combine buttons with different emphasis, which would promote one action over the other. Illustrations are used to support the message. Don't use them without a descriptive text to promote the action.
+Illustrations are used to support the message. Don't use them without a descriptive text to promote the action. Don’t combine buttons with different emphasis, which would promote one action over the other. 
 
 | Do                                                                             | Don't                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/banner_do1.png" srcset="../images/banner_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/banner_dont1.png" srcset="../images/banner_dont1@2x.png 2x" /> | 
-| <img class="responsive-img" src="../images/banner_do2x.png" srcset="../images/banner_do2@2x.png 2x" /> |<img class="responsive-img" src="../images/banner_dont2.png" srcset="../images/banner_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/banner_do2.png" srcset="../images/banner_do2@2x.png 2x" /> |<img class="responsive-img" src="../images/banner_dont2.png" srcset="../images/banner_dont2@2x.png 2x" /> |
 
 ## Additional Resources
 

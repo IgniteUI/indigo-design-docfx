@@ -55,10 +55,10 @@
       href: ../components/banner.md
     - name: Bottom Navigation
       href: ../components/bottom-nav.md
-    - name: Button Group
-      href: ../components/button-group.md
     - name: Button
       href: ../components/button.md
+    - name: Button Group
+      href: ../components/button-group.md
     - name: Calendar
       href: ../components/calendar.md
     - name: Card
@@ -68,7 +68,7 @@
           href: ../components/card-skeleton.md
     - name: Carousel
       href: ../components/carousel.md
-    - name: Charts
+    - name: チャート
       items:
         - name: Column Chart
           href: ../components/column-chart.md
@@ -102,7 +102,7 @@
       href: ../components/dropdown.md
     - name: Expansion Panel
       href: ../components/expansion-panel.md
-    - name: Gauges
+    - name: ゲージ
       items:
         - name: Bullet Graph
           href: ../components/bullet-graph.md
@@ -139,8 +139,8 @@
           href: ../components/grid-row-selection.md
         - name: 編集
           href: ../components/grid-editing.md
-        - name: 表示密度
-          href: ../components/grid-display-density.md
+        - name: サイズ
+          href: ../components/grid-sizes.md
         - name: ページング
           href: ../components/grid-paging.md
         - name: 集計

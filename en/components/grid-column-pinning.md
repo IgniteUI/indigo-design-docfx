@@ -14,7 +14,7 @@ Use the Grid Column Pinning as a mechanism to fix the first few columns of a scr
 
 ## Header Cell Feature
 
-To indicate a column as pinnable, use the `Column Pinning` override of the Grid Header Cell for that column in Sketch and change the default value from **Not Pinned** to **Pinned**. To achieve the same in Figma, you need to go to the Header cell, select the `Column Pinning` layer from the layers panel and then set the `Feature` property to **Pinned** in the properties panel. In Adobe XD, the `Column Pinning` layer uses the `Component States` paradigm to let you easily switch between states. This is what marks the column as pinnable as far as code generation is concerned.
+To indicate a column as pinnable, use the `Column Pinning` override of the Grid Header Cell for that column in Sketch and change the default value from **Not Pinned** to **Pinned**. In Adobe XD, the `Column Pinning` layer uses the `Component States` paradigm to let you easily switch between states. This is what marks the column as pinnable as far as code generation is concerned. This feature has been deprecated in Figma and if you are using AppBuilder to generate your design, you should apply it directly there after the code generation.
 
 The Built-In Column Pinning can be used through the Grid's toolbar which by default contains a button (combined with a combo dropdown) that lets you configure the pin state of the columns for the whole grid.
 
@@ -26,7 +26,7 @@ It is also possible to add a custom pinning action in the Grid Header Cell. In S
 
 ## Cell Right Border
 
-The right-most pinned column should have its `Right Border` override to indicate `Pinned Line` both for the Header and all Body Cells of the column. This is shown on the image below for all cells of the second column since Subject is pinned.
+The right-most pinned column should have its `Right Border` override to indicate `Pinned Line` both for the Header and all Body Cells of the column. This is shown on the image below for all cells of the second column since "Status" is pinned.
 
 <img class="responsive-img" src="../images/grid_column_pinning_demo.png" srcset="../images/grid_column_pinning_demo@2x.png 2x" />
 

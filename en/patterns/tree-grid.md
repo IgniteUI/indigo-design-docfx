@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, E
 
 # Tree Grid
 
-The Tree Grid Pattern can be used as an alternative starting point when designing a tabular data layout with a parent-child relationship between the records. It provides a full-blown contentwise and stylewise Tree Grid Component, on which all the Grid functionality provided in the Components Library can be applied.
+The Tree Grid Pattern can be used as an alternative starting point when designing a tabular data layout with a parent-child relationship between the records. It provides a full-blown contentwise and stylewise Tree Grid Component, on which all the Grid functionalities provided in the Components Library can be applied.
 
 <img class="responsive-img" src="../images/tree_grid.png" srcset="../images/tree_grid@2x.png 2x" />
 <div class="divider--half"></div>
@@ -26,13 +26,13 @@ A list of all the Grid functionalities can be found on the [Grid](../components/
 - [Grid Advanced Filtering](../components/grid-advanced-filter.md)
 - [Grid Row Selection](../components/grid-row-selection.md)
 - [Grid Editing](../components/grid-editing.md)
-- [Grid Display Density](../components/grid-display-density.md)
+- [Grid Sizes](../components/grid-sizes.md)
 - [Grid Paging](../components/grid-paging.md)
 - [Grid Summaries](../components/grid-summaries.md)
 - [Grid Skeleton](../components/grid-skeleton.md)
 
 > [!WARNING]
-> In **Figma**, after inserting the Tree Grid Pattern, in case you need more items than provided, you need to detach it from the `Detach Component` option after right-clicking on the component. After detaching, you will be able to increase the columns, and you will need to adjust their position manually. We highly recommend not detaching any other components nested in the Tree Grid because this might cause problems when generating the components in the App Builder.
+> In **Figma**, after inserting the Tree Grid Pattern, in case you need more items than provided, you need to detach it from the `Detach instance` option after right-clicking on the component. After detaching, you will be able to increase the columns, and you will need to adjust their position manually. We highly recommend not detaching any other components nested in the Tree Grid because this might cause problems when generating the components in the App Builder.
 >
 > In **Sketch**, after inserting the Tree Grid Pattern, you can trigger `Detach from Symbol` only if you need to alter the number of cells provided, in order to show all the dimensions of your data and insert as many visible records as you want. The individual Components and Features, however, must stay intact and not be detached!
 >

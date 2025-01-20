@@ -21,9 +21,9 @@ Badge は、数字やアイコンなど、さまざまなタイプのコンテ�
 
 ## 状態 
 
-Badge は、以下のプリセット カラーの組み合わせのいずれかで使用することで、注意を引くことができます: **Default**、Info、Success、Warn および Error です。
+Badge は、以下のプリセット カラーの組み合わせのいずれかで使用することで、注意を引くことができます: **Primary**、Info、Success、Warn および Error です。
 
-<img class="responsive-img" src="../images/badge_default.png" srcset="../images/badge_default@2x.png 2x" />
+<img class="responsive-img" src="../images/badge_primary.png" srcset="../images/badge_primary@2x.png 2x" />
 <img class="responsive-img" src="../images/badge_info.png" srcset="../images/badge_info@2x.png 2x" />
 <img class="responsive-img" src="../images/badge_success.png" srcset="../images/badge_success@2x.png 2x" />
 <img class="responsive-img" src="../images/badge_warn.png" srcset="../images/badge_warn@2x.png 2x" />

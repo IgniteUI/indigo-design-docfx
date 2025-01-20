@@ -36,7 +36,7 @@ Sketch と Adobe XD では、3 つの Select 入力タイプはそれぞれ、�
 
 ## 状態
 
-ユーザーが Select を操作すると、その入力はさまざまな選択状態を経ます。**Idle (アイドル)** ー コンテンツの代わりにプレースホルダーがあります; ドロップダウンが開いているときの **Focused (フォーカス済み**; ユーザーが選択を終了して次に進むときの **Filled (塗りつぶし済み)** です。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
+ユーザーが Select を操作すると、その入力はさまざまな選択状態を経ます。**Idle (アイドル)** ー コンテンツの代わりにプレースホルダーがあります; ドロップダウンが開いているときの **Focused (フォーカス済み)**; ユーザーが選択を終了して次に進むときの **Filled (塗りつぶし済み)** です。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 
 
 <img class="responsive-img" src="../images/select_idle.png" srcset="../images/select_idle@2x.png 2x" />
@@ -70,32 +70,13 @@ Select では、テキストとアイコンの組み合わせによるプレフ�
 
 <img class="responsive-img" src="../images/select_suffix.png" srcset="../images/select_suffix@2x.png 2x" />
 
-<img class="responsive-img" src="../images/select_prefix+suffix.png" srcset="../images/select_prefix+suffix@2x.png 2x" />
+<img class="responsive-img" src="../images/select_prefixandsuffix.png" srcset="../images/select_prefixandsuffix@2x.png 2x" />
 
-## Drop Down Items (ドロップダウン項目)
+## Dropdown (ドロップダウン)
 
-Select に使用されるドロップダウンは、ヘッダーと単一選択種類の 2 種類の項目をサポートします。ヘッダーを介して、項目をグループに体系化できます。Figma では、Drop Down コンポーネントは自動レイアウト オプションを利用しており、1 つ以上の項目を非表示または追加すると、すべての項目が適切に配置されます。Sketch では、Drop Down は、Smart Layout を使用しており、1 つ以上の項目が ~No Symbol に設定されていても、それに対応して調整できます。Adobe XD では、不要なものを削除し、Stack を使用してレイアウトを調整します。
+Select は、利用可能なオプションを表示するために、その構造内で Dropdown コンポーネントを利用します。利用可能な構成の詳細については、[Dropdown](dropdown.md) ページをご覧ください。
 
-<img class="responsive-img" src="../images/select_item.png" srcset="../images/select_item@2x.png 2x" />
-
-<img class="responsive-img" src="../images/select_header.png" srcset="../images/select_header@2x.png 2x" />
-
-## Drop Down Item の状態
-
-Select 内のドロップダウン項目は、5 つの状態をサポートします: Disabled (無効)、**Idle (アイドル)**、Focused (フォーカス済み)、Selected (選択済み)、および Selected & Focused (選択済みおよびフォーカス済み)。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Figma では、追加の状態が追加され、合計 6 つの状態になりました: **Selected & Disabled (選択済みおよび無効)**。
-
-<img class="responsive-img" src="../images/select_item_idle.png" srcset="../images/select_item_idle@2x.png 2x" />
-`idle`
-<img class="responsive-img" src="../images/select_item_disabled.png" srcset="../images/select_item_disabled@2x.png 2x" />
-`disabled`
-<img class="responsive-img" src="../images/select_item_selected.png" srcset="../images/select_item_selected@2x.png 2x" />
-`selected`
-<img class="responsive-img" src="../images/select_item_selected_disabled.png" srcset="../images/select_item_selected_disabled@2x.png 2x" />
-`selected & disabled`
-<img class="responsive-img" src="../images/select_item_selected_focused.png" srcset="../images/select_item_selected_focused@2x.png 2x" />
-`selected & focused`
-<img class="responsive-img" src="../images/select_item_focused.png" srcset="../images/select_item_focused@2x.png 2x" />
-`focused`
+<img class="responsive-img" src="../images/select_demo.png" srcset="../images/select_demo@2x.png 2x" />
 
 ## スタイル設定
 

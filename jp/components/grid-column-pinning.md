@@ -5,7 +5,7 @@ _keywords: デザイン システム, デザイン システム UX, UI キット
 _language: ja
 ---
 
-# 列ピン固定
+# Grid Column Pinning (グリッド列ピン固定)
 
 Grid 列ピン固定は、スクロール可能なグリッドで最初の数列を左に固定するための構造として使用します。ユーザーがスクロールすると、ピン固定された列以外、すべての他の列は右や左に移動します。ピン固定列は常にスクロール可能な列の上に表示されます。Grid 列ピン固定は、[Ignite UI for Angular Grid 列ピン固定機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid_column_pinning.html)と視覚的に同じものです。
 
@@ -13,9 +13,9 @@ Grid 列ピン固定は、スクロール可能なグリッドで最初の数列
 
 <img class="responsive-img" src="../images/grid_column_pinning_demo.png" srcset="../images/grid_column_pinning_demo@2x.png 2x" />
 
-## ヘッダー セル機能
+## Header Cell Feature (ヘッダー セル機能)
 
-列をピン固定可能として示すには、Sketch でその列の Grid Header Cell の `Column Pinning` オーバーライドを使用し、デフォルト値を **Not Pinned** (ピン固定されていない) から **Pinned** (ピン固定されている) に変更します。Figma で同じことを実現するには、ヘッダー セルに移動し、レイヤー パネルから `Column Pinning` レイヤーを選択し、プロパティ パネルで `Feature` プロパティを **Pinned** に設定する必要があります。Adobe XD では、`Column Pinning` レイヤーは `Component States` パラダイムを使用して、状態を簡単に切り替えることができます。コード生成には、これにより列をピン固定可能としてマークします。
+列をピン固定可能として示すには、Sketch でその列の Grid Header Cell の `Column Pinning` オーバーライドを使用し、デフォルト値を **Not Pinned** (ピン固定されていない) から **Pinned** (ピン固定されている) に変更します。Adobe XD では、`Column Pinning` レイヤーは `Component States` パラダイムを使用して、状態を簡単に切り替えることができます。コード生成には、これにより列をピン固定可能としてマークします。この機能は Figma では非推奨になっており、App Builder を使用してデザインを生成する場合は、コード生成後に直接適用する必要があります。
 
 組み込みの列の固定は、Grid のツールバーから使用できます。このツールバーには、デフォルトで、グリッド全体の列のピン固定状態を構成できるボタン (コンボ ドロップダウンと組み合わせて) が含まれています。
 
@@ -27,7 +27,7 @@ Grid Header Cell にカスタムピン固定操作を追加することもでき
 
 ## セルの右境界線
 
-右端の列には、ヘッダーと列のすべての本文セルの両方に対して `Pinned Line` を示す `Right Border` のオーバーライドが必要です。件名列はピン固定されているため、2 行の 2 列目のすべてのセルで実行されます。これは下の画像に表示されています。
+右端の列には、ヘッダーと列のすべての本文セルの両方に対して `Pinned Line` を示す `Right Border` のオーバーライドが必要です。「Status」 はピン固定されているため、2 行の 2 列目のすべてのセルで実行されます。これは下の画像に表示されています。
 
 <img class="responsive-img" src="../images/grid_column_pinning_demo.png" srcset="../images/grid_column_pinning_demo@2x.png 2x" />
 

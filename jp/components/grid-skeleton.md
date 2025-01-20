@@ -21,13 +21,13 @@ Skeleton Grid は、標準 [Grid](grid.md) と同じ 3 種類のセル (header�
 <img class="responsive-img" src="../images/grid_skeleton_cell_body.png" srcset="../images/grid_skeleton_cell_body@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_summary.png" srcset="../images/grid_skeleton_cell_summary@2x.png 2x" />
 
-## セル表示密度
+## セル サイズ
 
-Skeleton の Header、Body、および Summary Cell は、標準 [Grid](grid.md) と同じ 3 つの表示密度バリアント (Comfortable、Cosy、Compact) をサポートします。
+Skeleton の Header、Body、および Summary Cell は、標準 [Grid](grid.md) と同じ 3 つのサイズ バリアント (Large、Medium、Small) をサポートします。
 
-<img class="responsive-img" src="../images/grid_skeleton_cell_header_comfortable.png" srcset="../images/grid_skeleton_cell_header_comfortable@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_skeleton_cell_header_cosy.png" srcset="../images/grid_skeleton_cell_header_cosy@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_skeleton_cell_header_compact.png" srcset="../images/grid_skeleton_cell_header_compact@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_header_large.png" srcset="../images/grid_skeleton_cell_header_large@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_header_medium.png" srcset="../images/grid_skeleton_cell_header_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_header_small.png" srcset="../images/grid_skeleton_cell_header_small@2x.png 2x" />
 
 ## 項目と機能 (ヘッダー セル)
 

@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angu
 
 # Date Picker
 
-Use the Date Picker Component to represent a date visually and provide appropriate means for its display in forms and selection from a drop-down or dialog. The Date Picker is visually identical to the [Ignite UI for Angular Date Picker Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/date_picker.html)
+Use the Date Picker Component to represent a date visually and provide appropriate means for its display in forms and selection from a dropdown or dialog. The Date Picker is visually identical to the [Ignite UI for Angular Date Picker Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/date_picker.html)
 
 ## Date Picker Demo
 
@@ -14,18 +14,29 @@ Use the Date Picker Component to represent a date visually and provide appropria
 
 ## Date Picker Input
 
-You may insert a Date Picker Input in your forms to indicate fields for selecting a date. It supports Enabled and Disabled interactive states, as well as variant for Dialog and Drop-down that will be shown upon user interaction.
+You may insert a Date Picker Input in your forms to indicate fields for selecting a date. It supports Enabled and Disabled interactive states, as well as variant for Dialog and Dropdown that will be shown upon user interaction.
 
 <img class="responsive-img" src="../images/datepicker_enabled.png" srcset="../images/datepicker_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_disabled.png" srcset="../images/datepicker_disabled@2x.png 2x" />
 
 ## Picker Layout
 
-The Date Picker supports a Dialog layout with Horizontal and Vertical orientation, as well as a Drop-down layout to facilitate different modes of picking dates, casting different shadows to be more easily distinguished from each other. Notice that Dialog layouts come with a Header that you may hide in Figma by switching off the boolean `Header` property and the layout will adjust itself accordingly thanks to the added auto layout. In Sketch you can achieve this by setting the Header's override to ~No Symbol, and through the use of a smart layout everything will adjust accordingly. In Adobe XD, you have to delete the header layer and the layout will adjust through the use of a Stack.
+The Date Picker supports a Dialog layout with Horizontal and Vertical orientation, as well as a Dropdown layout to facilitate different modes of picking dates, casting different shadows to be more easily distinguished from each other. Notice that Dialog layouts come with a Header that you may hide in Figma by switching off the boolean `Header` property and the layout will adjust itself accordingly thanks to the added auto layout. In Sketch you can achieve this by setting the Header's override to ~No Symbol, and through the use of a smart layout everything will adjust accordingly. In Adobe XD, you have to delete the header layer and the layout will adjust through the use of a Stack.
 
 <img class="responsive-img" src="../images/datepicker_horizontal.png" srcset="../images/datepicker_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_vertical.png" srcset="../images/datepicker_vertical@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_dropdown.png" srcset="../images/datepicker_dropdown@2x.png 2x" />
+
+In Figma, you can display action buttons at the bottom of the Date Picker by enabling the `Action Buttons` boolean property.
+
+<img class="responsive-img" src="../images/datepicker_actions.png" srcset="../images/datepicker_actions@2x.png 2x" />
+
+## Multiview Variants
+
+The Date Picker includes a Multiview option to display two months side by side. In Figma, you can enable this with the `Multiview` boolean property and select either horizontal or vertical orientation using the `Orientation` property. In Sketch and Adobe XD, only horizontal Multiview is available, and the orientation and view need to be selected when adding the component.
+
+<img class="responsive-img" src="../images/datepicker_multi_horiz.png" srcset="../images/datepicker_multi_horiz@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_multi_vert.png" srcset="../images/datepicker_multi_vert@2x.png 2x" />
 
 ## Week Start
 
@@ -42,7 +53,7 @@ The Date Picker has the same built-in support for Week Numbers as the Calendar. 
 
 ## Selection
 
-Akin to the Calendar, the Date Picker lets you pick between three selection modes: **Single Day** limiting the user to be able to select only one date, Multiple Days allowing selection of random dates, and Range providing means to select all dates between a start and end date.
+Akin to the Calendar, the Date Picker lets you pick between three selection modes: **Single Day** limiting the user to be able to select only one date, **Multiple Days** allowing selection of random dates, and **Range** providing means to select all dates between a start and end date.
 
 <img class="responsive-img" src="../images/datepicker_dropdown.png" srcset="../images/datepicker_dropdown@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_selection.png" srcset="../images/datepicker_selection@2x.png 2x" />

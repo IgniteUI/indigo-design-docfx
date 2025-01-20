@@ -77,7 +77,7 @@ The Dropdown items within the Simple Combo support three different states: **Idl
 |  | Idle | Hover | Focused | Disabled |
 |  | ---- | ----- | ------- | -------- |
 |  | <img class="responsive-img" src="../images/simple-combo_item_idle.png" srcset="../images/simple-combo_item_idle@2x.png 2x" /> | <img class="responsive-img" src="../images/simple-combo_item_hover.png" srcset="../images/simple-combo_item_hover@2x.png 2x" /> | <img class="responsive-img" src="../images/simple-combo_item_focused.png" srcset="../images/simple-combo_item_focused@2x.png 2x" /> | <img class="responsive-img" src="../images/simple-combo_item_idle_disabled.png" srcset="../images/simple-combo_item_idle_disabled@2x.png 2x" /> |
-| Selected | <img class="responsive-img" src="../images/simple-combo_item_selected.png" srcset="../images/simple-combo_item_selected@2x.png 2x" /> | <img class="responsive-img" src="../images/simple-combo_item_selected_hover.png" srcset="../images/simple-combo_item_selected_hover@2x.png 2x" /> | <img class="responsive-img" src="../images/simple-combo_item_selected_focused.png" srcset="../images/simple-combo_item_selected_focused@2x.png 2x" /> | <img class="responsive-img" src="../images/simple-combo_item_selected_disabled.png" srcset="../images/simple-combo_item_selected_disabled@2x.png 2x" /> |
+| Selected | <img class="responsive-img" src="../images/simple-combo_item_selected.png" srcset="../images/simple-combo_item_selected@2x.png 2x" /> | <img class="responsive-img" src="../images/simple-combo_item_selected_hover.png" srcset="../images/simple-combo_item_selected_hover@2x.png 2x" /> | <img class="responsive-img" src="../images/simple-combo_item_selected_focused.png" srcset="../images/simple-combo_item_selected_focused@2x.png 2x" /> |
 
 ## Styling
 

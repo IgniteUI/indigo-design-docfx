@@ -13,7 +13,7 @@ Use the Hierarchical Grid Component to let the user browse and interact with a v
 <img class="responsive-img" src="../images/hierarchical_grid_demo.png" srcset="../images/hierarchical_grid_demo@2x.png 2x" />
 
 ## Using the Hierarchical Grid in Figma
-Similarly to the Grid, the Hierarchical Grid is essentially a repeater of columns, rows, and nested grids forming a visual hierarchy. To use the Hierarchical Grid component simply search for it in the Resources panel and insert an instance. If needed, you can change the display density by using the "Display Density" property from the properties panel. In the layers panel you'll see the following structure: 
+Similarly to the Grid, the Hierarchical Grid is essentially a repeater of columns, rows, and nested grids forming a visual hierarchy. To use the Hierarchical Grid component simply search for it in the Resources panel and insert an instance. If needed, you can change the size by using the `Size` property from the properties panel. In the layers panel you'll see the following structure: 
 
 | Layer                                | Use                                                                                                                                                  |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -28,7 +28,7 @@ If you'd like to alter the number of columns or cells, you can simply hide the u
 
 ## Using the Hierarchical Grid in Sketch
 
-The easiest way to use the Hierarchical Grid in Sketch is by dragging one of the predefined grids to your artboard - there are three presets available for the three [display densities](grid-display-density.md) supported. Once in your artboard, by right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu you should see the following in your layers panel under the newly appeared group:
+The easiest way to use the Hierarchical Grid in Sketch is by dragging one of the predefined grids to your artboard - there are three presets available for the three [display densities](grid-sizes.md) supported. Once in your artboard, by right-clicking on top of it, and selecting the `Detach from Symbol` option near the bottom of the contextual menu you should see the following in your layers panel under the newly appeared group:
 
 | Layer                                | Use                                                                                                                                                  |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -42,7 +42,7 @@ After detaching, you may alter the number of headers you need to show all the di
 
 ## Using the Hierarchical Grid in Adobe XD
 
-In Adobe XD, after you choose one of the three [preset display density hierarchical grid components](grid-display-density.md) and drag it to your artboard, you will notice in the layers panel that we use `Repeat Grid` for both the Header and the Body to speed configuration up. Unlike in Sketch in Adobe XD destroying the symbol is not necessary. You should see the following in your layers panel:
+In Adobe XD, after you choose one of the three [preset display density hierarchical grid components](grid-sizes.md) and drag it to your artboard, you will notice in the layers panel that we use `Repeat Grid` for both the Header and the Body to speed configuration up. Unlike in Sketch in Adobe XD destroying the symbol is not necessary. You should see the following in your layers panel:
 
 | Layer                                | Use                                                                                                                                                  |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -65,13 +65,13 @@ The Hierarchical Grid extends the three types of regular Grid cells Header, Body
 
 To understand how regular Header, Body and Summary cells can be used for different types of data and configured to enable the various Hierarchical Grid features, please refer to the [general Grid topic](grid.md).
 
-## Cell Display Density
+## Cell Size
 
-The CollapseAll and Expand cells support three display density variants of the Hierarchical Grid: Comfortable, Cosy, and Compact. Each of them come with distinct symbols as can be seen for the CollapseAll Header cells below:
+The CollapseAll and Expand cells support three size variants of the Hierarchical Grid: Large, Medium and Small. Each of them come with distinct symbols as can be seen for the CollapseAll Header cells below:
 
-<img class="responsive-img" src="../images/hierarchical_grid_cell_header_comfortable.png" srcset="../images/hierarchical_grid_cell_header_comfortable@2x.png 2x" />
-<img class="responsive-img" src="../images/hierarchical_grid_cell_header_cosy.png" srcset="../images/hierarchical_grid_cell_header_cosy@2x.png 2x" />
-<img class="responsive-img" src="../images/hierarchical_grid_cell_header_compact.png" srcset="../images/hierarchical_grid_cell_header_compact@2x.png 2x" />
+<img class="responsive-img" src="../images/hierarchical_grid_cell_header_large.png" srcset="../images/hierarchical_grid_cell_header_large@2x.png 2x" />
+<img class="responsive-img" src="../images/hierarchical_grid_cell_header_medium.png" srcset="../images/hierarchical_grid_cell_header_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/hierarchical_grid_cell_header_small.png" srcset="../images/hierarchical_grid_cell_header_small@2x.png 2x" />
 
 ## Styling
 
@@ -104,7 +104,7 @@ Related topics:
 - [Grid Excel Style Filter](grid-excel-style-filter.md)
 - [Grid Row Selection](grid-row-selection.md)
 - [Grid Editing](grid-editing.md)
-- [Grid Display Density](grid-display-density.md)
+- [Grid Sizes](grid-sizes.md)
 - [Grid Paging](grid-paging.md)
 - [Grid Summaries](grid-summaries.md)
 - [Tree Grid](tree-grid.md)
