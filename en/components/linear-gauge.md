@@ -41,7 +41,7 @@ The Linear Gauge provides various overrides that control the shape of the needle
 
 ## Ranges Amount
 
-The Linear Gauge comes with three preset range configurations: two, three, and four ranges.In Figma you can change the Series amount using the `Series Amount` property in the properties panel.
+The Linear Gauge comes with three preset range configurations: two, three, and four ranges. In Figma you can change the Series amount using the `Series Amount` property in the properties panel.
 
 <img class="responsive-img" src="../images/linear_gauge_two_ranges.png" srcset="../images/linear_gauge_two_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/linear_gauge_three_ranges.png" srcset="../images/linear_gauge_three_ranges@2x.png 2x" />
@@ -55,7 +55,7 @@ Ticks and Values are also configurable. The two types of ticks: Ticks and Minor 
 
 ## Styling
 
-The Linear Gauge comes with styling flexibility through the various options for brushes including Value Brush, Target Value Brush, Tick Brush, Minor Tick Brush, and a collection of Range Brushes.
+The Linear Gauge comes with styling flexibility through the various options for brushes including Needle Brush, Tick Brush, Minor Tick Brush, and a collection of Range Brushes.
 
 <img class="responsive-img" src="../images/linear_gauge_styling.png" srcset="../images/linear_gauge_styling@2x.png 2x" />
 
