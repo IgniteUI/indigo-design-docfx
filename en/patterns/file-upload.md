@@ -1,7 +1,7 @@
 ---
 title: File Upload - Design System Pattern
-_description: The File Upload Pattern Symbol provides the user interface for uploading or inserting files.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
+_description: The File Upload Pattern Component provides the user interface for uploading or inserting files.
+_keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # File Upload
@@ -20,7 +20,7 @@ The File Upload Pattern provides two types of previews for the uploaded file: an
 
 ## Content
 
-The File Upload Pattern of type Document supports the most common types of content that are usually uploaded or inserted as Documents: CSV, PDF, Presentation, Spreadsheet, and Text. Additionally, an Attach preset is available to provide further flexibility for various appliction scenarios.
+The File Upload Pattern of type Document supports the most common types of content that are usually uploaded or inserted as Documents: CSV, PDF, Presentation, Spreadsheet, and Text. Additionally, an Attach preset is available to provide further flexibility for various application scenarios.
 
 <img class="responsive-img" src="../images/file-upload_content.png" srcset="../images/file-upload_content@2x.png 2x" />
 
