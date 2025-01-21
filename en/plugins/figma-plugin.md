@@ -17,7 +17,7 @@ The Indigo.Design Figma Plugin is available from Figma's community Plugin's list
 
 <img class="responsive-img" src="../images/figma-plugin.gif"/>
 
- You can also find it [here](https://www.figma.com/community/plugin/1170035114372031474).
+ You can also find it [here](https://www.figma.com/community/plugin/1462024243431691008/indigo-design-figma-plugin).
 
 
 ## 2. Create an application in App Builder
