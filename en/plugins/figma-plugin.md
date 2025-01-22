@@ -7,9 +7,9 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angul
 
 The Indigo.Design Figma Plugin allows you to quickly turn your design to a full app inside the Indigo Design App Builder.
 
-Once you have created your design using the Indigo.Design UI kit library component, which can be downloaded from [here](https://www.figma.com/@infragistics), you can then export it using the plugin.
+Once you have created your design using the Indigo.Design UI kit library, which can be downloaded from [here](https://www.figma.com/@infragistics), you can then export it using the plugin.
 
-It allows you to quickly create an app in Indigo.Design App Builder. This app follows the structure of the Figma design, mapping any component from the Indigo.Design UI kit to the corresponding component from Ignite UI. The plugin also takes the images used in Figma and uploads them in the Assets library under App Builder, benefiting from [`Assets` support](https://www.infragistics.com/community/blogs/b/jason_beres/posts/indigo-design-app-builder-october-release-with-assets-support).
+It allows you to quickly create an app in Indigo.Design App Builder. This app follows the structure of the Figma design, mapping any component from the Indigo.Design UI kit to the corresponding component from Ignite UI. The plugin also takes the images used in Figma and uploads them in the Assets library under App Builder, benefiting from [Assets support](https://www.infragistics.com/community/blogs/b/jason_beres/posts/indigo-design-app-builder-october-release-with-assets-support).
 
 ## 1. Installing the Indigo.Design Figma Plugin
 
@@ -22,7 +22,7 @@ The Indigo.Design Figma Plugin is available from Figma's community Plugin's list
 
 ## 2. Create an application in App Builder
 
-Once you're ready with the design in Figma you can create an app from it using the `Create New App` feature of the plugin. You can choose a name and a resolution for your app, as well as select the Indigo.Design Cloud workspace, where the app will be created:
+Once you're ready with your design in Figma you can create an app from it using the `Create New App` feature of the plugin. You can choose a name and a resolution for your app, as well as select the Indigo.Design Cloud workspace, where the app will be created:
 
 <img class="responsive-img" src="../images/create-from-figma.gif" />
 
