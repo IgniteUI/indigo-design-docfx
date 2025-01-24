@@ -1,7 +1,7 @@
 ---
 title: Illustrations - Design System Styling
 _description: The illustrations empower one's design process through graphics that can be used to complement interfaces created with Indigo.Design.
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Illustrations
@@ -15,11 +15,11 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, E
 <img class="responsive-img" src="../images/Illustrations_Onboarding.png" srcset="../images/Illustrations_Onboarding@2x.png 2x" />
 <img class="responsive-img" src="../images/Illustrations_Payment.png" srcset="../images/Illustrations_Payment@2x.png 2x" />
 
-In the Sketch libraries, these graphics are on a separate page named `🎨 Illustrations`, while in Adobe XD they are placed on an Artboard with the same name at the bottom of the left column of the library file. In Figma, you can find all illustrations on a page inside the layers panel under the `🧱 Foundation` category.
+ In Figma, you can find all illustrations on a page inside the layers panel under the `🧱 Foundation` category.
 
 ## Changing Colors
 
-Each illustration provides means for customization by letting you apply different colors to certain elements. It is also possible to hide an element by setting its color to transparent. In Sketch, certain elements are purposefully not customizable, such as the color of a sheet of paper, however, one can still change it globally by opening the library and choosing a different one. In Figma there is a full flexibility in terms of changing colors of any vector shape. You can switch the colors from the listed color styles, located inside the properties panel. 
+Each illustration provides means for customization by letting you apply different colors to certain elements. It is also possible to hide an element by setting its color to transparent. In Figma there is a full flexibility in terms of changing colors of any vector shape. You can switch the colors from the listed color styles, located inside the properties panel. 
 
 <img class="responsive-img" src="../images/illustrations_colored.png" srcset="../images/illustrations_colored@2x.png 2x" />
 

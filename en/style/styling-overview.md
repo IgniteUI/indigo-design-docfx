@@ -1,7 +1,7 @@
 ---
 title: Styling Overview - Design System Styling
 _description: The Indigo.Design System contains everything for you to be able to define themes for both Components and Patterns.
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Styling Overview
@@ -26,30 +26,6 @@ The `Indigo.Design for Material` library in Figma, has the following structure o
 - ↳ Illustrations
 
 The listed pages are located under the `🧱 Foundation` page. Тhe Colors and Elevations exist as `Color styles` and `Effect styles`, while Typography is defined as `Text styles`, which allows you to quickly change the theme for any given design we have created with the **Indigo.Design System**.
-
-## Styling in Sketch
-
-Each of the four Sketch libraries, `Indigo.Design for Material`, `Indigo.Design for Bootstrap`, `Indigo.Design for Fluent`, and `Indigo.Design for Indigo Theme`, has the same structure of pages prefixed with a 🎨 emoji that provide assets and a powerful styling infrastructure upon which the rest of the library is built. So after you pick your variant based on the design language you prefer, head to the following pages to further customize the appearance of your library:
-
-- 🎨 Material Icons
-- 🎨 Colors
-- 🎨 Typography
-- 🎨 Elevation
-- 🎨 Illustrations
-
-Тhe colors and elevations exist as `Layer Styles`, while typography is defined as `Text Styles`, which allows you to quickly change the theme for any given design we have created with the **Indigo.Design System**.
-
-## Styling in Adobe XD
-
-The Adobe XD library has a few Artboards prefixed with a 🎨 emoji that showcase the powerful styling infrastructure upon which the rest of the library is built:
-
-- 🎨 Material Icons
-- 🎨 Colors
-- 🎨 Typography
-- 🎨 Elevation
-- 🎨 Illustrations
-
-Тhe colors are defined as `Colors`, the typography is defined as `Character Styles`, while icons, elevation and illustrations exist as `Components`. This allows you to quickly change the theme for any given design we have created with the **Indigo.Design System**.
 
 To find more:
 
