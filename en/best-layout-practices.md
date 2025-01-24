@@ -1,7 +1,7 @@
 ---
 title: Layout Best Practices - Design System
 _description: Best practices regarding layout creation and resizing configurations that result in the desired responsive behavior after code generation. 
-_keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular,  Design Kits for Angular, HTML, Design to HTML, UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 
@@ -9,9 +9,9 @@ _keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular,  De
 
 This topic provides design guidance regarding the positioning of Components in your app layouts and the setting of resizing rules that ensure good responsive app design.
 
-Each design tool (Figma, Sketch, XD) provides a unique way of configuring the positions and sizes of elements in the view. 
+Each design tool (such as Figma) provides a unique way of configuring the positions and sizes of elements in the view. 
 
-In general these tools allow you to specify either a:
+In general these tools allow you to specify either an:
 
 ## Absolute layout design
 
@@ -23,14 +23,9 @@ In general these tools allow you to specify either a:
   
 ## Responsive layout design
 
-  This is a design that utilizes the specific tool's ability to mark layers as responsive to size changes and determine the responsive rules those layouts and their children should follow.
-    It is specific to each tool and you can find more information in their related topics:
-
-  - [Responsive layouts in Figma](./best-layout-practices-figma.md)
-  - [Responsive layouts in Sketch](./best-layout-practices-sketch.md)
-  - [Responsive layouts in XD](./best-layout-practices-xd.md)
+  This is a design that utilizes the specific tool's ability to mark layers as responsive to size changes and determine the responsive rules those layouts and their children should follow. You can find more information in the topic [Responsive layouts in Figma](./best-layout-practices-figma.md).
   
-  As with this approach there's more available information from the design on how things should react to resize it would always give generation results closer to the original design in the App builder. 
+  As with this approach there's more available information from the design on how things should react to resize it would always give generation results closer to the original design in the App Builder. 
   Due to this it's recommended to utilize the specific tool's responsive layouting option to get better results.
 
 # Absolute Layout - Best Practices
