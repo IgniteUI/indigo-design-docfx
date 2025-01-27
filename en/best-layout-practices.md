@@ -34,26 +34,30 @@ This section provides design guidance regarding the positioning of Components in
 
 ## Layout
 
-The code generation algorithm starts by creating the layout horizontally. It forms the rows first. If your design is column oriented, then you should take advantage of the groups in Sketch for better results. For the following design, there are six buttons and no groups:
+The code generation algorithm starts by creating the layout horizontally. It forms the rows first. If your design is column oriented, then you should take advantage of the groups for better results. For the following design, there are six buttons and no groups:
 
-<img class="responsive-img" src="./images/layout-rows.png" />
+<img class="responsive-img" src="./images/layout-rows.png" srcset="./images/layout-rows@2x.png 2x" />
 
 The generated app would have three rows, each of them containing two buttons.
 
-The designer can very easily organize this layout in two columns by applying groups in Sketch:
+<img class="responsive-img" src="./images/layout-rows-appbuilder.png" srcset="./images/layout-rows-appbuilder@2x.png 2x" />
 
-<img class="responsive-img" src="./images/layout-columns.png" />
+The designer can very easily organize this layout in two columns by applying groups:
+
+<img class="responsive-img" src="./images/layout-columns.png" srcset="./images/layout-columns@2x.png 2x" />
 
 The generated app from this design would contain a single row and two columns in it.
+
+<img class="responsive-img" src="./images/layout-columns-appbuilder.png" srcset="./images/layout-columns-appbuilder@2x.png 2x" />
 
 In this way the designer may control the generated result grouping. It is recommended to always group elements. This produces not only cleaner and well-organized design, but also ensures bundling the elements that are meant to be together. Note that code generation may apply additional rows or columns for elements in a group. This is done to further improve the position of elements in flex-display containers.
 
 ## Justification & Alignment
 In real world scenarios, an app designed with flex containers in mind uses `justify-content` and `align-items` to arrange its groups and elements. The generator does the same thing. It applies justification and alignment properties to the rows and columns. This determines the elements' placement in the space of those rows and columns. The generator takes into account several parameters like position, size and offset of elements to apply proper values for the `justify-content` and `align-items` CSS properties.
 
-Possible values for `justify-content` are `flex-start`, `flex-end`, `center`, `space-around`, `space-between`, `space-evenly`. Their usage is explained in the following diagram.
+Possible values for `justify-content` are `flex-start`, `flex-end`, `center`, `space-between`, `space-evenly`, `space-around`. Their usage is explained in the following diagram.
 
-<img class="responsive-img" src="./images/layout-justify-content.png" />
+<img class="responsive-img" src="./images/layout-justify-content.png" srcset="./images/layout-justify-content@2x.png 2x" />
 
 To achieve the desired responsive alignment, the designer should strive to position the elements and form the groups in one of the following configurations.
 
@@ -61,7 +65,7 @@ If there is a match, the generator applies the corresponding value. For some sce
 
 Possible values for `align-items` are `flex-start`, `flex-end`, `center`, `stretch`. Their usage is explained in the diagram below.
 
-<img class="responsive-img" src="./images/layout-align-items.png" />
+<img class="responsive-img" src="./images/layout-align-items.png" srcset="./images/layout-align-items@2x.png 2x" />
 
 Similar rules apply for `align-items`. The design should be close to either of these configurations to achieve the best responsive alignment.
 
@@ -85,5 +89,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
-
