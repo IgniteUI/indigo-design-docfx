@@ -1,7 +1,7 @@
 ---
 title: Layout Best Practices in Figma - Design System
 _description: Best practices regarding layout creation in Figma and resizing configurations that result in the desired responsive behavior both in Figma and Angular apps after code generation. 
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Layout Best Practices
@@ -19,34 +19,36 @@ Auto-layout is an unique Figma feature that allows structuring containers (such 
 
 Auto-layout option can be set by the designer via Figma's UI:
 
-<img class="responsive-img" src="./images/figma-auto-layout.png" />
+<img class="responsive-img" src="./images/figma-auto-layout.png" srcset="./images/figma-auto-layout@2x.png 2x" />
 
 
 Below you'll find more information on each specific setting.
 
 #### Layout Direction
 
-Can be either Vertical or Horizontal. Determined the direction in which elements will flow in the container.
-Will generate generate `flex-direction: row` for a horizontal layout and flex-direction: column` for a vertical layout.
+Can be either Vertical, Horizontal or Wrap and determines the direction in which elements will flow in the container.
+Will generate `flex-direction: column` for a vertical layout, `flex-direction: row` for a horizontal layout, and `flex-direction: row` and `flex-direction: column` of the nested columns for a wrap layout.
 
 #### Alignment
 
 Determines how items will be aligned within this container.
-Correlates with the `justify-content` and `align-items` css options. Note that `justify-content determines` the alignment along the main direction axis( vertical for column, horizontal for row), while align-items determines the alignment along the counter axis (horizontal for column, vertical for row). So these depend also on the Layout Direction as well.
+Correlates with the `justify-content` and `align-items` CSS options. Note that `justify-content` determines the alignment along the main direction axis (vertical for column, horizontal for row), while align-items determines the alignment along the counter axis (horizontal for column, vertical for row). So these depend also on the Layout Direction as well.
 
 #### Others
 
-You can also set spacing between items and padding via the related Space Between Items and Padding options in Figma. These will parse as `gap` and `padding` in css.
+You can also set spacing between items and padding via the related Gap Between Items and Padding options in Figma. These will parse as `gap` and `padding` in CSS.
 
 ## Sizing
 
-Figma has Horizontal and Vertical Resizing options that determine how items should resize relative to its their parent or content.
+Figma has Horizontal and Vertical Resizing options that determine how items should resize relative to their parent or content.
 
 Options are Fixed, Hug or Fill. Below you'll find what each one will generate.
 
-Fixed - Size is fixed in pixels.
-Hug - Size is based on the child content. No size is applied in this case.
-Fill - Size is based on parent. It should stretch to fill parent. Relates to `flex: 1 1 0px;` or `self-align: stretch`.
+**Fixed** - Size is fixed in pixels.
+
+**Hug** - Size is based on the child content. No size is applied in this case.
+
+**Fill** - Size is based on parent. It should stretch to fill parent. Relates to `flex: 1 1 0px;` or `self-align: stretch`.
 
 
 ## Additional Resources
@@ -60,5 +62,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
-
