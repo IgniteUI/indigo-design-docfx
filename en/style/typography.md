@@ -12,7 +12,7 @@ There are 18 text (character) styles in the **Indigo.Design System** that consti
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 
-- In **Figma**, all text styles can be found on a separate page named `↳ Typography` which is part of the **Indigo.Design Sytem** `🧱 Foundation` section. They are available as `Text Styles` that can be applied to any text element.
+- In **Figma**, all text styles can be found on a separate page named `↳ Typography` which is part of the **Indigo.Design System** `🧱 Foundation` section. They are available as `Text Styles` that can be applied to any text element.
 
 ## Typography Styles
 
@@ -20,7 +20,7 @@ To use the typography system in your project, all you need to do is apply one of
 
 - 6 Headlines from `H1` to `H6` for titles.
 - 2 `Subtitle` sizes.
-- 2 `Body` sizes for the paragraph content in you interface.
+- 2 `Body` sizes for the paragraph content in your interface.
 - 3 `Hyperlink` sizes corresponding to the Body sizes and the Detail 1 size, for easy use of the Hyperlink in texts.
 - 2 `Detail` sizes that are used exclusively in the Grid components.
 - A `Caption` and an `Overline` style that can be used for complimentary content.
@@ -29,11 +29,11 @@ To use the typography system in your project, all you need to do is apply one of
 These styles also determine the type of text element and typography class that will be generated for the related layer in the application. The following elements will be generated based on the Typography Text Style applied to a generic text layer:
 - Headlines `<h1>` to `<h6>` for the headlines typography styles.
 - Paragraph `<p>` with typography class:
-  - `igx-typography__subtitle-1`/ `igx-typography__subtitle-2` for the two subtitle typography styles.
-  - `igx-typography__body-1`/`igx-typography__body-2` for the two body typography styles.
+  - `ig-typography__subtitle-1`/ `ig-typography__subtitle-2` for the two subtitle typography styles.
+  - `ig-typography__body-1`/`ig-typography__body-2` for the two body typography styles.
   - `ig-typography__body-1 hyperlink`/`ig-typography__body-2 hyperlink` for the two of the hyperlink typography styles.
-  - `igx-typography__caption` for the caption typography style.
-  - `igx-typography__overline` for the overline typography style.
+  - `ig-typography__caption` for the caption typography style.
+  - `ig-typography__overline` for the overline typography style.
 
 
 Use these when creating intricate layouts for articles, blog posts etc. The Text Styles in the **Indigo.Design System** are meant to help you define a consistent theme and style for all the texts in your designs.
