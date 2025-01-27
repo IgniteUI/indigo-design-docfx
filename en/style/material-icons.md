@@ -29,7 +29,7 @@ There is a set of 160+ Material Icons already available in the **Indigo.Design S
 - Editor
 - File
 - Hardware
-- Images
+- Image
 - Maps
 - Navigation
 - Notification
