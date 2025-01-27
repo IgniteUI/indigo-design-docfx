@@ -27,7 +27,7 @@ The Indigo.Design UI kit comprises pages organized into four sections:
 
 **Foundation section:** This section contains all the essential styling assets, including Material Icons, Colors, Typography, Elevation, and Illustrations, organized across five dedicated pages.
 
-**Components section:** This section features an extensive collection of components for laying out your design ideas. They can be conveniently accessed through the Assets panel (see 3. below) or can be copied directly from this section. Each component comes with various properties that can be customized to fit specific use case scenarios. By utilizing these components and the Indigo.Design Figma Plugin, you can create designs that can be quickly converted into production-ready code for Angular, Blazor, React, or Web Components using the Indigo.Design App Builder.
+**Components section:** This section features an extensive collection of components for laying out your design ideas. They can be conveniently accessed through the Assets panel [see 3. below](./creating-a-frame-in-figma.md#3-add-and-customize-components) or can be copied directly from this section. Each component comes with various properties that can be customized to fit specific use case scenarios. By utilizing these components and the Indigo.Design Figma Plugin, you can create designs that can be quickly converted into production-ready code for Angular, Blazor, React, or Web Components using the Indigo.Design App Builder.
 
 **Patterns section:** This section features couple of hundred patterns laid out from the components to streamline your app design process.
 
