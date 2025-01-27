@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Ang
 
 # Styling Overview
 
-The **Indigo.Design System** provides elaborate means for styling all 60+ UI components that also map to Ignite UI for Angular controls. The theming engine in our Angular product allows for creating custom color themes that can restyle the whole product in just a few lines of code. The [**App Builder**](https://www.infragistics.com/products/appbuilder/docs/app-builder-overview) also implements these theming mechanisms to let users change the complete look of their apps with just a few clicks.
+The **Indigo.Design System** provides elaborate means for styling all 60+ UI components that also map to Ignite UI for Angular controls. The theming engine in our Angular product allows for creating custom color themes that can restyle the whole product in just a few lines of code. The [**App Builder**](https://www.appbuilder.dev/platform) also implements these theming mechanisms to let users change the complete look of their apps with just a few clicks.
 
 <img class="responsive-img" src="../images/theme_overview_default.png" srcset="../images/theme_overview_default@2x.png 2x" />
 <div class="divider--half"></div>
@@ -17,7 +17,7 @@ The **Indigo.Design System** provides elaborate means for styling all 60+ UI com
 
 ## Styling in Figma
 
-The `Indigo.Design for Material` library in Figma, has the following structure of pages:
+The `Indigo.Design for Material` library in Figma has the following structure of pages:
 
 - ↳ Icons
 - ↳ Colors
