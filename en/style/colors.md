@@ -10,8 +10,6 @@ There are five palettes with 10 color variations each for the `primary`, `second
 
 <img class="responsive-img" src="../images/colors_palette.png" srcset="../images/colors_palette@2x.png 2x" />
 
-<img class="responsive-img" src="../images/colors_palette.png" srcset="../images/colors_palette123@2x.png 2x" />
-
 In Figma, they are placed on a separate page called `↳ Colors` and can be applied to any shape element through Color styles, which are positioned under the Design tab in the right sidebar.
 
 The **Indigo.Design System** features special color palettes, optimized for various data visualization scenarios. Both ensure good contrast between adjacent series colors so that the palette can be used e.g. to colorize ranges of a gauge. One of the palettes is further optimized to be 100% inclusive and facilitate easy comprehension by people with color blindness deficiencies. 
