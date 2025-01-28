@@ -16,17 +16,17 @@ The Figma Auto-Layout is an implementation of Flexbox layouts inside of Figma. W
 
 ### Prerequsites
 
-- Designer enables Auto-Layout when creating designs in Figma, starting with setting the whole Fame as Auto-Layout.
+- Designer enables Auto-Layout when creating designs in Figma, starting with setting the whole Frame as Auto-Layout.
 - Makes use of nested Frames, also with Auto-Layout enabled within each Frame.
 
-## Figma Autolayout and App Builder
+## Figma Auto-Layout and App Builder
 
-Auto-Layouts are considered to be flex containers, with the appropriate properties. They represent DIV elements with direction, alignment and spacing between the items. All items inside an Auto-layout are treated as flex items, and should generate the appropriate flex/CSS properties.
+Auto-Layouts are considered to be flex containers, with the appropriate properties. They represent DIV elements with direction, alignment and spacing between the items. All items inside an Auto-Layout are treated as flex items, and should generate the appropriate flex/CSS properties.
 
 <img class="responsive-img" src="../images/figma_autolayout.png" srcset="../images/figma_autolayout@2x.png 2x" />
 
 - Direction: Defines if stacking of child Layers is Horizontal or Vertical
-- Alignment: Can be Top/Top-Center/Top-right/Center-Left/Center-Center/- Center-right/Bottom-left/Bottom-Center/Bottom-right; packed/space-between
+- Alignment: Can be Top/Top-center/Top-right/Center-left/Center-center/Center-right/Bottom-left/Bottom-center/Bottom-right; Packed/Space-between
 - Spacing (Gap): vertical or horizontal spacing based on direction. Defines the spacing between each child Layer
 - Padding: top & bottom, left & right, custom
 - Overflow: Clipped (boolean), essential Overflow hidden vs. visible
@@ -44,7 +44,6 @@ The following example design shows how the frames can be mapped to layouts in ap
 Related topics:
 
 - [Creating a Frame in Figma](../creating-a-frame-in-figma.md)
-- [Overview Plugins](../plugins/overview-plugins.md)
 - [Figma Plugin](../plugins/figma-plugin.md)
 - [Responsive layouts in Figma](../best-layout-practices-figma.md)
 - [Video Tutorials](../video-tutorials.md)
