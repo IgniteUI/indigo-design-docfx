@@ -13,8 +13,6 @@ Use the Checkbox Group Pattern to organize and layout a collection of Checkbox e
 The Checkbox Group Pattern comes with the styling flexibility provided by the Checkbox elements that constitute it.
 
 > [!WARNING]
-> In Sketch trigger `Detach from Symbol` on an instance of the Checkbox Group Pattern only if you need to add more Checkbox items than provided. Once it is broken down to the individual Checkboxes that are used to create the layout, make sure they stay intact and are not detached!
->
 > In Figma to add more Checkbox items than provided you should right-click on an instance of the Checkbox Group pattern and then select "Detach instance". To add more items, simply duplicate one of the existing ones and the applied auto layout will adjust the nested Checkbox components accordingly.
 >
 
