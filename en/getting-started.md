@@ -30,7 +30,7 @@ The design system is a set of libraries for Figma, containing various assets, st
 <p style="width: 100%; text-align:center;">Figma UI Kit for Material</p>
 
 ### Figma UI Kit
-The Figma Indigo.Design UI Kit for Material maps to our Ignite UI for Angular, Blazor and Web Components UI toolset to completely redefine design-development processes. You now get a robust set of components, patterns, styling, and customization options, enabling you to import prototypes or any type of screen designed in Figma and transform it into clean code. The best part is that all static designs become interactive, responsive apps with real UI components, branding, and styling – in a single click.
+The Figma Indigo.Design UI Kit for Material maps to our Ignite UI for Angular, Blazor, React and Web Components UI toolset to completely redefine design-development processes. You now get a robust set of components, patterns, styling, and customization options, enabling you to import prototypes or any type of screen designed in Figma and transform it into clean code. The best part is that all static designs become interactive, responsive apps with real UI components, branding, and styling – in a single click.
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="images/figma-ui-kit.gif" />
 <p style="width: 100%; text-align:center;">Figma UI Kit</p>
@@ -39,7 +39,7 @@ You can download the Figma Plugin, UI kit and sample apps from the [Download Ass
 
 Or through the direct links below:
 - [Figma UI Kit](https://www.figma.com/@infragistics)
-- [Plugin for Figma](https://www.figma.com/community/plugin/1170035114372031474) 
+- [Plugin for Figma](https://www.figma.com/community/plugin/1462024243431691008/indigo-design-figma-plugin) 
 - [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
 
 > [!Note]
