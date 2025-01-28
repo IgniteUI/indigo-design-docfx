@@ -1,6 +1,6 @@
 ---
 title: Data Visualizations - Design System Pattern
-_description: Data Visualizations Pattern Symbol provides visualization of data or information in various layouts and representations.
+_description: Data Visualizations Pattern Component provides visualization of data or information in various layouts and representations.
 _keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
