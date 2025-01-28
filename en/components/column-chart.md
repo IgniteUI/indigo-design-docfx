@@ -41,7 +41,7 @@ The Column Chart has built-in Gridlines to make it easier to visually trace a da
 
 ## Data Points
 
-Data Points for a Column Chart are the individual columns, arranged in an auto layout in Figma, making it possible to effortlessly adjust their amount on the Chart Area. In Figma you can easily ajdust the columns' height by selecting the Column height frame and adjusting the vertical spacing between the items from the properties panel. Furthermore, the columns come with configurable labels on the X-axis and annotation labels.
+Data Points for a Column Chart are the individual columns, arranged in an auto layout in Figma, making it possible to effortlessly adjust their amount on the Chart Area. In Figma you can easily adjust the columns' height by selecting the Column height frame and adjusting the vertical spacing between the items from the properties panel. Furthermore, the columns come with configurable labels on the X-axis and annotation labels.
 
 <img class="responsive-img" src="../images/column_chart_columns.png" srcset="../images/column_chart_columns@2x.png 2x" />
 
