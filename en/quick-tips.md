@@ -25,7 +25,7 @@ Do you know that with Indigo.Design UI kit for Figma, everything you create uses
 <img class="responsive-img" src="images/tips2.png" srcset="images/tips2@2x.png 2x" />
 <div class="divider--half"></div>
 
-### Endless theming options and styling.
+### Endless theming options and styling
 Use our 6 pre-built themes based on Material, Bootstrap & Fluent with a dark and light version. Or switch to Indigo Theme - inspired by our own design language. If those don't match your app or corporate branding, the theming and styling options let you create a custom theme. [Read more...](./plugins/figma-plugin.md)
 
 <div class="divider--half"></div>
@@ -36,7 +36,7 @@ Use our 6 pre-built themes based on Material, Bootstrap & Fluent with a dark and
 <img class="responsive-img" src="images/tips3.png" srcset="images/tips3@2x.png 2x" />
 <div class="divider--half"></div>
 
-### Publish your designs as a web app.
+### Publish your designs as a web app
 Use the “Create app” option in your plugin to translate all the UI kit components in your design into code components, and publish your app. Continue to extend the app using our web-based WYSIWYG App Builder and your development team will be able to generate enterprise-ready Angular code. [Read more...](https://www.appbuilder.dev/help/app-builder-overview)
 
 <div class="divider--half"></div>
@@ -58,7 +58,7 @@ Ignite UI App Builder arrives with data source options that let you connect to a
 <img class="responsive-img" src="images/tips6.png" srcset="images/tips6@2x.png 2x" />
 <div class="divider--half"></div>
 
-### Don't start building your app from scratch.
+### Don't start building your app from scratch
 Start with a pre-made Figma file or download our application samples and make them your own, using a toolbox of 60+ UI controls. Then, with one click, you generate high-quality HTML, CSS, and Angular code right from your design. [Read more...](components/components-overview.md)
 
 
@@ -81,5 +81,5 @@ We offer Flex as one of the approaches to create layouts for your web app. It is
 <img class="responsive-img" src="images/tips8.png" srcset="images/tips8@2x.png 2x" />
 <div class="divider--half"></div>
 
-### Design → User testing → Instant app preview.
+### Design → User testing → Instant app preview
 As a full design-to-code solution, it covers and streamlines the entire process, letting you and your colleagues use a single working environment, build apps 10x faster, and get to pixel-perfect solutions before even writing any code! [Read more...](getting-started.md)
