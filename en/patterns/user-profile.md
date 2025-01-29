@@ -1,7 +1,7 @@
 ---
 title: User Profile - Design System Pattern
-_description: The User Profile Pattern Symbols combine various components that display user-related information such as name, personal traits, contact information, etc. 
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
+_description: The User Profile Pattern Components combine various components that display user-related information such as name, personal traits, contact information, etc. 
+_keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # User Profile
