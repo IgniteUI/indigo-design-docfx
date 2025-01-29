@@ -9,7 +9,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angul
 The **Indigo.Design System** empowers your design workflow with 60+ UI Components that also map to Ignite UI for Angular controls. Most components are optimized for responsive web design and development, providing various templating capabilities through Auto Layout in Figma and resizing rules. All this streamlines application design and development allowing a huge variety of user interface scenarios to be created with the libraries and subsequently through code generation become available as Ignite UI for Angular code.
 
 > [!WARNING]
-> To ensure the proper usage of components from the **Indigo.Design System** libraries and avoid potential issues, it is recommended not to place the `Base Components` on artboards and frames in Figma.
+> To ensure the proper usage of components from the **Indigo.Design System** libraries and avoid potential issues, it is recommended not to place the `Base Components` on frames in Figma.
 > These elements do not have component states and are not considered as complete components.
 
 ## Figma
