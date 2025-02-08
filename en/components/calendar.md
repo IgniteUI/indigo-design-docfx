@@ -38,7 +38,7 @@ In Figma the start of the week can be chosen from the "Week Start" property, whi
 
 ## Header
 
-The Calendar has a built-in Header that can be omitted. In Figma, this can be achieved using the "Header" boolean property.
+The Calendar has a built-in Header that can be omitted, resulting in a base Calendar that you can embed more seamlessly in your forms. In Figma, this can be achieved using the "Header" boolean property.
 
 <img class="responsive-img" src="../images/calendar_base.png" srcset="../images/calendar_base@2x.png 2x" />
 
