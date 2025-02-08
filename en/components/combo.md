@@ -1,7 +1,7 @@
 ---
 title: Combo - Design System Component
 _description: The Combo Component Symbol allows selection of multiple items from a collection.
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma HTML
 ---
 
 # Combo
@@ -19,7 +19,7 @@ The Combo has two pieces: an Input containing the current selection or a placeho
 
 ## Combo Input Type
 
-The Combo Input provides selection between a line type for a more airy style, border type for a more structured perception on solid color backgrounds, and a boxed type that is most appropriate when placed on top of a vivid image to improve readability. Since we are deprecating the line style, in Figma we have only the border and box types available.
+The Combo Input in Figma provides selection between border type for a more structured perception on solid color backgrounds, and a boxed type that is most appropriate when placed on top of a vivid image to improve readability.
 
 | Border | Box |
 | ------- | ------- |
@@ -27,7 +27,7 @@ The Combo Input provides selection between a line type for a more airy style, bo
 
 ## Interaction State
 
-Each of the three Combo Input types can be inserted in an **enabled** or **disabled** state. Since we are deprecating the line style, in Figma we have only the border and box types available and they can be switched to a disabled state from the properties panel.
+Each of the two Combo Input types can be inserted in an **enabled** or **disabled** state. The available border and box types in Figma can be switched to a disabled state from the properties panel.
 
 <img class="responsive-img" src="../images/combo_enabledstate.png" srcset="../images/combo_enabledstate@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_disabledstate.png" srcset="../images/combo_disabledstate@2x.png 2x" />
@@ -40,16 +40,16 @@ When the user interacts with the Combo, its input goes through various selection
 | ------- | ------- | ------- |
 | <img class="responsive-img" src="../images/combo_idle.png" srcset="../images/combo_idle@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_focused.png" srcset="../images/combo_focused@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_filled.png" srcset="../images/combo_filled@2x.png 2x" /> |
 
-Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Combo Inputs is consistent with the standard [Input](input.md) and equipped for sophisticated designs that display success, warning, and error visuals.
+Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Combo Input is consistent with the standard [Input](input.md) and equipped for sophisticated designs that display success, warning, and error visuals.
 
 | Success | Warning | Error | 
 | ------- | ------- | ------- |
 | <img class="responsive-img" src="../images/combo_success.png" srcset="../images/combo_success@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_warning.png" srcset="../images/combo_warning@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_error.png" srcset="../images/combo_error@2x.png 2x" /> |
 
-In Sketch, the states and validation states are achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between them. In Figma changing the states is achieved via the properties panel.
+In Figma changing the states is achieved via the properties panel.
 
 > [!Note]
-> The Combo Input has only one layout option, but this override has been preserved in Sketch to ensure consistency with the standard [Input](input.md). In Figma we have a separate base component called `.Combo Input`, which is explicitly used in the Combo component for both Single and Multiple selection types. The Combo Input has a Prefix container which can be switched **on** and **off**.
+> In Figma we have a separate base component called `.Combo Input`, which is explicitly used in the Combo component for both Single and Multiple selection types. The Combo Input has a Prefix container which can be switched **on** and **off**.
 
 ## Dropdown Type
 
@@ -61,11 +61,11 @@ The Dropdown used for the Combo comes with the appropriate sizing for desktop an
 
 ## Dropdown Search Input
 
-In Figma and Sketch the Dropdown contains a Search Input that comes with a selection of states and options for layout akin to the standard [Input](input.md).
+In Figma the Dropdown contains a Search Input that comes with a selection of states and options for layout akin to the standard [Input](input.md).
 
 ## Dropdown Items
 
-The Dropdown used for the Combo supports two types of items: header and multi-select item. Through headers, it is possible to organize items in groups. In Figma, the Dropdown utilizes the auto layout option, which adjusts the layout, once one or more items get hidden from the layers panel. In Sketch, the Dropdown uses a smart layout allowing it to adjust accordingly when one or more of its items are set to ~No Symbol. In Adobe XD you should delete the unnecessary ones, and the layout will adjust through the use of a Stack.
+The Dropdown used for the Combo supports two types of items: header and multi-select item. Through headers, it is possible to organize items in groups. In Figma, the Dropdown utilizes the auto layout option, which adjusts the layout, once one or more items get hidden from the layers panel.
 
 <img class="responsive-img" src="../images/combo_header.png" srcset="../images/combo_header@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_multiselect_item.png" srcset="../images/combo_multiselect_item@2x.png 2x" />
