@@ -1,7 +1,7 @@
 ---
 title: Navbar - Design System Component
-_description: The Navbar Component Symbol is used to inform the user of his current position in the application and provide a mechanism for simple navigation.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
+_description: The Navbar Component is used to inform the user of his current position in the application and provide a mechanism for simple navigation.
+_keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Navbar
@@ -21,7 +21,7 @@ The Navbar casts a shadow on the main content area to separate it from the rest 
 
 ## Content Layout
 
-The Navbar content is split into a left area, consisting of a Left Action and a Title (Left Action and a Content frame with the Title inside in Figma), and a right area with up to three adjacent icons or icon buttons that can trigger different simple events. In Figma, you can toggle the visibility of the Nav Icon and Actions using their boolean properties, go into the nested Icon and Icon Button components and change their icons or hide some of the Actions from the layers panel, after which the content will adjust itself thanks to the auto layout. In Sketch, you can configure the layout by setting any of its actions to ~No Symbol and thanks to the smart layout what is left will adjust automatically. In Adobe XD, the same can be achieved simply by deleting the unnecessary Components, and the layout will be adjusted automatically from the Stack. Furthermore, you may also insert additional Components from the Libraries panel in those areas unlike in Sketch, e.g. to show an Avatar at the far right.
+The Navbar content is split into a left area, consisting of a Left Action and a Title (Left Action and a Content frame with the Title inside in Figma), and a right area with up to three adjacent icons or icon buttons that can trigger different simple events. In Figma, you can toggle the visibility of the Nav Icon and Actions using their boolean properties, go into the nested Icon and Icon Button components and change their icons or hide some of the Actions from the layers panel, after which the content will adjust itself thanks to the auto layout.
 
 <img class="responsive-img" src="../images/navbar_left&right.png" srcset="../images/navbar_left&right@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_noright.png" srcset="../images/navbar_noright@2x.png 2x" />
