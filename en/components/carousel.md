@@ -14,7 +14,7 @@ Use the Carousel Component to let the user navigate through a collection of imag
 
 ## Indicators and Slides
 
-The Carousel lets you define up to 5 slides, where for each one there is a matching indicator dot, allowing the user to navigate to that respective slide. In **Figma**, you can adjust the amount of indicators by hiding the layers, and the auto layout will adjust the layout. 
+The Carousel allows you to define up to five slides, each paired with a corresponding indicator dot for seamless navigation. In **Figma**, you can easily adjust the number of indicators by hiding layers, with the layout automatically adapting to reflect the changes.
 
 <img class="responsive-img" src="../images/carousel_indicators&slides.png" srcset="../images/carousel_indicators&slides@2x.png 2x" />
 
