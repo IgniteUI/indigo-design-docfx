@@ -22,7 +22,7 @@ The Radial Gauge provides various overrides that control the shape of the needle
 
 ## Ticks Type
 
-The ticks of the Radial Gauge can be placed outside or inside, with two inside variants for Thick and Thin range areas. In Figma you can select the `Ranges` and the `Ticks Type` from the provided properties in the right sidebar.
+The ticks of the Radial Gauge can be placed outside or inside, with two inside variants for Thick and Thin range areas. In Figma, you can select the `Ranges` and the `Ticks Type` from the provided properties in the right sidebar.
 
 <img class="responsive-img" src="../images/radial_gauge_inside.png" srcset="../images/radial_gauge_inside@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_outside.png" srcset="../images/radial_gauge_outside@2x.png 2x" />
@@ -30,7 +30,7 @@ The ticks of the Radial Gauge can be placed outside or inside, with two inside v
 
 ## Ranges
 
-The Radial Gauge provides various overrides that control the ranges on the dial: Full, Half, and Quarter. In Figma select the `Range` property to be the same for Ranges and Ticks from the right sidebar.
+The Radial Gauge provides various overrides that control the ranges on the dial: Full, Half, and Quarter. In Figma, select the `Range` property to be the same for Ranges and Ticks from the right sidebar.
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_half.png" srcset="../images/radial_gauge_half@2x.png 2x" />
@@ -38,14 +38,14 @@ The Radial Gauge provides various overrides that control the ranges on the dial:
 
 ## Series Thickness
 
-The Radial Gauge comes with two kinds of Series Thickness: Thick and Thin. In Figma use the right sidebar properties and select between the two Series Thickness options.
+The Radial Gauge comes with two kinds of Series Thickness: Thick and Thin. In Figma, use the right sidebar properties and select between the two Series Thickness options.
 
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_full-thin.png" srcset="../images/radial_gauge_full-thin@2x.png 2x" />
 
 ## Ranges Amount
 
-The Radial Gauge comes with three preset range configurations: two, three, and four ranges. In Figma you can change the Ranges amount using the `Ranges Amount` property in the properties panel.
+The Radial Gauge comes with three preset range configurations: two, three, and four ranges. In Figma, you can adjust the number of Ranges using the `Ranges Amount` property in the properties panel.
 
 <img class="responsive-img" src="../images/radial_gauge_two_ranges.png" srcset="../images/radial_gauge_two_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/radial_gauge_three_ranges.png" srcset="../images/radial_gauge_three_ranges@2x.png 2x" />
