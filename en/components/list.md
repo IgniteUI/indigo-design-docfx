@@ -1,7 +1,7 @@
 ---
 title: List - Design System Component
 _description: The List Component provides means to browse and interact with a vertical collection of rows of data.
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
 ---
 
 # List
@@ -39,16 +39,6 @@ Lists are a continuous group of rows showing information containing primary data
 | 9 Item        | An instance of a one-line/two-line list item                                                                                                                  |
 | 10 Item       | An instance of a one-line/two-line list item                                                                                                                  |
 
-## Using the List in Sketch
-
-The List is essentially a repeater of rows showing data as an indexed vertical collection of items. It uses Smart Layout for its items which makes it possible to adjust the size by setting one or more of the items to ~No Symbol. If you need to design a list with more items, the easiest way to do so is by inserting any of the List types on your artboard, right-click on top of it, and select the `Detach from Symbol` at the bottom of the contextual menu. In your layers panel under the newly appeared _List/One-line Item List_ or _List/Two-line Item List_ group, you should see almost the same layer structure like in Figma (_check the table above_). The two differences will be: seeing one additional layer at the bottom for `🌈 Background` and you will not see the `🚫 componentVersion` layer at the top.
-
-Now, after detaching, you may insert additional headers or items either from the menu or simply by duplicating an existing one. Always place items and headers one after another with consistent horizontal width and alignment, making sure there are no gaps between the items.
-
-## Using the List in Adobe XD
-
-In Adobe XD, after you drag a List component on your artboard, you may reduce the number of items simply by deleting the unnecessary ones or increase it by duplicating one of the existing ones. The List lays out its items in a `Stack`, so when you add or remove items, they align and distribute vertically automatically. To change their position in the list, you need to drag them up or down to the desired position. Unlike Sketch, in Adobe XD destroying the symbol is not necessary.
-
 ## Styling
 
 The List comes with styling flexibility through the options available for background color and the different elements used in the List Items, such as icons and text, as well as components like Avatar, Badge, Checkbox, Icon, Progress, Switch, etc. with their own styling capabilities.
@@ -72,7 +62,6 @@ Related topics:
 - [Avatar](avatar.md)
 - [Badge](badge.md)
 - [Checkbox](checkbox.md)
-- [Custom List Item in Sketch](list-custom.md)
 - [Icon](icon.md)
 - [List Item](list-item.md)
 - [Lists Pattern](../patterns/lists.md)
