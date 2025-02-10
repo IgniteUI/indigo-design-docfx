@@ -29,7 +29,7 @@ The Text Area can be switched from an enabled to disabled state from the `Disabl
 
 ## State
 
-When the user interacts with the Text Area, it goes through various states: Idle with a placeholder in the place of the content, Focused while the user is typing in it, and Filled once the user has finished adding content and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping. In Figma you can switch between the states from the `State` property on the right properties panel.
+When the user interacts with the Text Area, it goes through various states: Idle with a placeholder in the place of the content, Focused while the user is typing in it, and Filled once the user has finished adding content and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping. In Figma, you can toggle between states using the `State` property in the right properties panel.
 
 | Idle | Focused | Filled |
 | ------- | ------- |
