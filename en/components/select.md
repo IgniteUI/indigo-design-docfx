@@ -24,7 +24,7 @@ The Select supports the same two input types typical for the [Input](input.md) c
 
 ## Interaction State
 
-In Figma both the border and box types Select inputs can be switched to a Disabled state from the properties panel.
+In Figma, both the border and box type Select inputs can be set to a Disabled state using the properties panel.
 
 | Enabled state | Disabled state |
 | ------- | ------- |
