@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angul
 
 # Creating Your First Frame in Figma
 
-At the end of this topic, you'll have a Figma Frame for a registration screen using the **Indigo.Design System**.
+At the end of this topic, you'll have a Figma frame for a registration screen using the **Indigo.Design System**.
 
 <img class="responsive-img" src="images/figma-frame/getting-started-figma1.png" srcset="images/figma-frame/getting-started-figma1@2x.png 2x" />
 
@@ -17,7 +17,7 @@ If the [Titillium Web Font](https://fonts.google.com/specimen/Titillium+Web) isn
 
 ### 1. Use the Indigo.Design System in Figma.
 
-- Get the Indigo.Design UI kit for Material from the Figma Community by using the search and click on the "Open in Figma" blue button to duplicate the file. You can download the UI Kit directly from [here](https://www.figma.com/community/file/1185626590778033159/indigo-design-ui-kit-for-material-1-5) as well.
+- Get the Indigo.Design UI kit for Material from the Figma community by using the search and click on the "Open in Figma" blue button to duplicate the file. You can download the UI Kit here [here](https://www.figma.com/@infragistics) as well.
 
 The Indigo.Design UI kit comprises pages organized into four sections:
 
@@ -27,7 +27,7 @@ The Indigo.Design UI kit comprises pages organized into four sections:
 
 **Foundation section:** This section contains all the essential styling assets, including Material Icons, Colors, Typography, Elevation, and Illustrations, organized across five dedicated pages.
 
-**Components section:** This section features an extensive collection of components for laying out your design ideas. They can be conveniently accessed through the Assets panel [see 3. below](./creating-a-frame-in-figma.md#3-add-and-customize-components) or can be copied directly from this section. Each component comes with various properties that can be customized to fit specific use case scenarios. By utilizing these components and the Indigo.Design Figma Plugin, you can create designs that can be quickly converted into production-ready code for Angular, Blazor, React, or Web Components using the Indigo.Design App Builder.
+**Components section:** This section features an extensive collection of components for laying out your design ideas. They can be conveniently accessed through the Assets panel [see 3. below](./creating-a-frame-in-figma.md#3-add-and-customize-components) or can be copied directly from this section. Each component comes with various properties that can be customized to fit specific use case scenarios. By utilizing these components and the Indigo.Design Figma Plugin, you can create designs that can be quickly converted into production-ready code for Angular, Blazor, React, or Web Components using the App Builder.
 
 **Patterns section:** This section features couple of hundred patterns laid out from the components to streamline your app design process.
 
