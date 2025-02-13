@@ -252,15 +252,9 @@
       href: ../patterns/user-profile.md
 - name: Layouts Best Practices
   href: ../best-layout-practices.md
-  new: true
   items:
     - name: Responsive layouts in Figma
       href: ../best-layout-practices-figma.md
-      new: true
-    - name: Responsive layouts in Sketch
-      href: ../best-layout-practices-sketch.md
-    - name: Responsive layouts in AdobeXD
-      href: ../best-layout-practices-xd.md
 - name: How to swap libraries
   href: ../how-to-swap-libraries.md
   new: true
