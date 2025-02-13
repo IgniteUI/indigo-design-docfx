@@ -35,7 +35,7 @@ The Stepper component consists of a number of nested Step and Progress Line comp
 
 ## Steps
 
-Each Step consists of Indicator and Information. The Indicator comes with two types - Number and Icon. You can switch between the two using the `Type` property of the Step from the right properties panel in Figma. You can also choose whether you want to display only Indicator or Information. To do so, you can simply switch on/off the `Information` or `Indicator` boolean property on the right properties panel. You also have the option to show/hide the Subtitle by switching on/off the `Subtitle` boolean property of the nested Step component.
+Each Step consists of an Indicator and Information. The Indicator can be either a Number or an Icon, which you can toggle using the `Type` property in Figma’s right properties panel. You can also choose to display only the Indicator or only the Information by enabling or disabling the respective `Information` or `Indicator` boolean properties. Additionally, the Subtitle can be shown or hidden by toggling the `Subtitle` boolean property within the nested Step component.
 
 <img class="responsive-img" src="../images/step_number.png" srcset="../images/step_number@2x.png 2x" />
 <img class="responsive-img" src="../images/step_icon.png" srcset="../images/step_icon@2x.png 2x" />
