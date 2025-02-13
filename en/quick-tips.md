@@ -15,7 +15,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Ang
 <div class="divider--half"></div>
 
 ### Well-crafted UI Kits for Figma
-Do you know that with Indigo.Design UI kit for Figma, everything you create uses a design system? All styling specs and themes match real Angular components. You get 400+ icons, special colors palettes, 17 customizable illustrations, etc. [Read more](./style/styling-overview.md)
+Did you know that with our Indigo.Design UI kits for Figma, everything you create is built on a design system? All styling specs and themes align with real Angular, React, Blazor, or Web Components UI controls. You also get access to 400+ icons, custom color palettes, 17 fully customizable illustrations, and more. [Read more](./style/styling-overview.md)
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -26,7 +26,7 @@ Do you know that with Indigo.Design UI kit for Figma, everything you create uses
 <div class="divider--half"></div>
 
 ### Endless theming options and styling
-Use our 4 pre-built themes based on Material, Fluent, Bootstrap plus our own custom in-house Indigo theme in light or dark mode. If those don't match your app or corporate branding, the theming and styling options let you create a custom theme. [Read more...](./plugins/figma-plugin.md)
+Choose from our 4 pre-built themes — Material, Fluent, Bootstrap, and our custom in-house Indigo theme — available in both light and dark modes. If these don’t align with your app or corporate branding, you can fully customize the theme using our theming and styling options. [Read more...](./plugins/figma-plugin.md)
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
