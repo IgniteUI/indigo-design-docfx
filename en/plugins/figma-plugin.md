@@ -1,15 +1,15 @@
 ---
 title: Indigo.Design Figma Plugin
-_description: The Indigo.Design Figma Plugin allows users to publish their app to the Indigo.Design App Builder.
+_description: The Indigo.Design Figma Plugin allows users to publish their app to the App Builder.
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 # Indigo.Design Figma Plugin
 
-The Indigo.Design Figma Plugin allows you to quickly turn your design to a full app inside the Indigo Design App Builder.
+The Indigo.Design Figma Plugin allows you to quickly turn your design to a full app inside the App Builder.
 
 Once you have created your design using the Indigo.Design UI kit library, which can be downloaded from [here](https://www.figma.com/@infragistics), you can then export it using the plugin.
 
-It allows you to quickly create an app in Indigo.Design App Builder. This app follows the structure of the Figma design, mapping any component from the Indigo.Design UI kit to the corresponding component from Ignite UI. The plugin also takes the images used in Figma and uploads them in the Assets library under App Builder, benefiting from [Assets support](https://www.infragistics.com/community/blogs/b/jason_beres/posts/indigo-design-app-builder-october-release-with-assets-support).
+It allows you to quickly create an app in App Builder. This app follows the structure of the Figma design, mapping any component from the Indigo.Design UI kit to the corresponding component from Ignite UI. The plugin also takes the images used in Figma and uploads them in the Assets library under App Builder, benefiting from [Assets support](https://www.infragistics.com/community/blogs/b/jason_beres/posts/indigo-design-app-builder-october-release-with-assets-support).
 
 ## 1. Installing the Indigo.Design Figma Plugin
 
