@@ -26,7 +26,7 @@ Do you know that with Indigo.Design UI kit for Figma, everything you create uses
 <div class="divider--half"></div>
 
 ### Endless theming options and styling
-Use our 6 pre-built themes based on Material, Bootstrap & Fluent with a dark and light version. Or switch to Indigo Theme - inspired by our own design language. If those don't match your app or corporate branding, the theming and styling options let you create a custom theme. [Read more...](./plugins/figma-plugin.md)
+Use our 4 pre-built themes based on Material, Fluent, Bootstrap plus our own custom in-house Indigo theme in light or dark mode. If those don't match your app or corporate branding, the theming and styling options let you create a custom theme. [Read more...](./plugins/figma-plugin.md)
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -37,7 +37,7 @@ Use our 6 pre-built themes based on Material, Bootstrap & Fluent with a dark and
 <div class="divider--half"></div>
 
 ### Publish your designs as a web app
-Use the “Create app” option in your plugin to translate all the UI kit components in your design into code components, and publish your app. Continue to extend the app using our web-based WYSIWYG App Builder and your development team will be able to generate enterprise-ready Angular code. [Read more...](https://www.appbuilder.dev/help/app-builder-overview)
+Use the “Create app” option in your plugin to translate all the UI kit components in your design into code components, and publish your app. Continue to extend the app using our web-based WYSIWYG App Builder and your development team will be able to generate enterprise-ready Angular, React, Blazor or Web Components code. [Read more...](https://www.appbuilder.dev/help/app-builder-overview)
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -48,7 +48,7 @@ Use the “Create app” option in your plugin to translate all the UI kit compo
 <div class="divider--half"></div>
 
 ### Got an external data source?
-Ignite UI App Builder arrives with data source options that let you connect to any REST data source or upload a JSON file. Just go and connect it in the Data Source panel. [Read more...](https://www.appbuilder.dev/help/using-data-in-your-app)
+App Builder arrives with data source options that let you connect to any REST data source or upload a JSON file. Just go and connect it in the Data Source panel. [Read more...](https://www.appbuilder.dev/help/using-data-in-your-app)
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -59,7 +59,7 @@ Ignite UI App Builder arrives with data source options that let you connect to a
 <div class="divider--half"></div>
 
 ### Don't start building your app from scratch
-Start with a pre-made Figma file or download our application samples and make them your own, using a toolbox of 60+ UI controls. Then, with one click, you generate high-quality HTML, CSS, and Angular code right from your design. [Read more...](components/components-overview.md)
+Start with a pre-made Figma file or download our application samples and make them your own, using a toolbox of 60+ UI controls. Then, with one click, you generate high-quality code right from your design. [Read more...](components/components-overview.md)
 
 
 <div class="divider--half"></div>
@@ -70,7 +70,7 @@ Start with a pre-made Figma file or download our application samples and make th
 <img class="responsive-img" src="images/tips7.png" srcset="images/tips7@2x.png 2x" />
 <div class="divider--half"></div>
 
-### Do you know that Ignite UI App Builder uses Flexbox?
+### Do you know App Builder uses Flexbox?
 We offer Flex as one of the approaches to create layouts for your web app. It is available as a row or column layout component in the toolbox. Cross-browser compatibility and app adaptability to any screen size is guaranteed. [Read more...](https://www.appbuilder.dev/help/flex-layouts/flex-layouts)
 
 <div class="divider--half"></div>
