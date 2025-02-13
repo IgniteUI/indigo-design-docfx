@@ -11,6 +11,11 @@
   header: true
 - name: Creating a Frame in Figma
   href: ../creating-a-frame-in-figma.md
+  new: true
+- name: Creating an Artboard in Sketch
+  href: ../creating-artboard-sketch.md
+- name: Creating an Artboard in Adobe XD
+  href: ../creating-artboard-adobexd.md
 - name: Plugins
   href: ../plugins/overview-plugins.md
   new: true
