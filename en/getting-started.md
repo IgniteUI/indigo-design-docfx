@@ -19,8 +19,8 @@ Indigo.Design offers key capabilities to support the design-to-development workf
 
 1. Create designs in Figma with the `Indigo.Design System`
 2. Share as prototypes to test and collaborate with users via `cloud.indigo.design`
-3. Design your app in `Ignite UI App Builder` using a Figma file and import it via the Plugin or directly use the [Ignite UI App Builder](https://appbuilder.indigo.design/).
-4. Generate Angular, Blazor, React or Web components code from your application in the [Ignite UI App Builder](https://appbuilder.indigo.design/), using its `Code Generation` service. 
+3. Design your app in `App Builder` using a Figma file and import it via the Plugin or directly use the [App Builder](https://www.appbuilder.dev).
+4. Generate Angular, Blazor, React or Web components code from your application in the [App Builder](https://www.appbuilder.dev), using its `Code Generation` service. 
 
 ## Indigo.Design System
 
@@ -72,7 +72,7 @@ Once ready with the design of your application in Ignite UI App Builder, you can
 
 Learn more:
 
-- [Generating code from an application in Ignite UI App Builder](https://www.infragistics.com/products/appbuilder/help/generate-app/generate-app-overview)
+- [Generating code from an application in App Builder](https://www.infragistics.com/products/appbuilder/help/generate-app/generate-app-overview)
 - [Blazor code generation](https://www.infragistics.com/products/appbuilder/help/blazor-support)
 - [Web Components code generation](https://www.infragistics.com/products/appbuilder/help/web-components-support)
 
