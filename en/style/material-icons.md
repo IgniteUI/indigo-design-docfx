@@ -76,7 +76,7 @@ With the preset collection of icons, you can design beautiful apps and pick the 
 
     <img class="responsive-img" src="../images/icons_add3.png" srcset="../images/icons_add3@2x.png 2x" />
 
-4.  Then, we have to select the frame `copyright_black_24dp` with the `Vector` shape within and create a component from the frame. There are two quick options to do that: right-click on the frame and select the `Create component` option or click on the `Create component` icon , positioned in the right property panel. Next, change the vector shape name to `Color` and set its color to `grays.700` from the `Selection colors` in the right sidebar.
+4.  Then, we have to select the frame `copyright_black_24dp` with the `Vector` shape within and create a component from the frame. There are two quick options to do that: right-click on the frame and select the `Create component` option or click on the `Create component` icon located in the right property panel. Next, rename the vector shape to `Color` and set its color to `grays.700` using the `Selection colors` in the right sidebar.
 
     <img class="responsive-img" src="../images/icons_add4.png" srcset="../images/icons_add4@2x.png 2x" />
     <div class="divider--half"></div>
