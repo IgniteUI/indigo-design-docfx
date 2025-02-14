@@ -1,7 +1,7 @@
 ---
 title: Grid Row Filter - Grid Feature
 _description: The Grid Row Filter allows the definition of filtering criteria on a Grid column.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Grid Row Filter
@@ -18,7 +18,7 @@ In order to indicate that a Grid is filterable via a Row Filter, add a second He
 
 ## Filter State
 
-The Row Filter Header Cells come with a `Filter State` override in Sketch that lets you configure whether a filtering condition has been applied on a given column. By default, it shows **Empty**, but you may set it to **Filtered** and specify conditions via the [Chip](chips.md) it contains. In Figma the Row Filtering is one of the Grid Header Cell types, that can be switched from the properties panel. There are two distinct types of filtering state: **Row Filter Empty** and **Row Filter Filtered**. You can easily switch between them by adjusting the `Type` property. In Adobe XD things are organized in a similar fashion via the  `Filter State` layer that uses the `Component States` paradigm to let you easily switch between states.
+In Figma the Row Filtering is one of the Grid Header Cell types, that can be switched from the properties panel. It lets you configure whether a filtering condition has been applied on a given column. There are two distinct types of filtering state: **Row Filter Empty** and **Row Filter Filtered**. You can easily switch between them by adjusting the `Type` property. When set to **Filtered** you may also specify conditions via the [Chip](chips.md) it contains.
 
 ## Additional Resources
 
