@@ -1,13 +1,13 @@
 ﻿---
 title: Grid - デザイン システム コンポーネント
 _description: Grid コンポーネント シンボルは、表形式の大量のデータを表示し、インタラクティブに操作できます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Angular, Angular デザイン システム, Angular 用のデザイン キット
 _language: ja
 ---
 
 # Grid (グリッド)
 
-Grid コンポーネントは複雑で大規模なデータを表形式のレイアウトで表示し、ユーザーがブラウジングやインタラクティブに操作することにより、フィルタリング、並べ替え、ページングなどが可能です。Grid は、[Ignite UI for Angular Grid コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid.html)と視覚的に同じものです。
+Grid コンポーネントは複雑で大規模なデータを表形式のレイアウトで表示し、ユーザーがブラウジングやインタラクティブに操作することにより、フィルタリング、ソート、ページングなどが可能です。Grid は、[Ignite UI for Angular Grid コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid.html)と視覚的に同じものです。
 
 ## Grid のデモ
 
@@ -156,7 +156,7 @@ Grid の最も重要な点は、Header および Body セル内のデータの�
 - [Grid 列非表示](grid-column-hiding.md)
 - [Grid 列移動](grid-column-moving.md)
 - [Grid 列サイズ変更](grid-column-resizing.md)
-- [Grid 並べ替え](grid-sorting.md)
+- [Grid ソート](grid-sorting.md)
 - [Grid 行フィルター](grid-row-filter.md)
 - [Grid Excel スタイル フィルター](grid-excel-style-filter.md)
 - [Grid 行選択](grid-row-selection.md)

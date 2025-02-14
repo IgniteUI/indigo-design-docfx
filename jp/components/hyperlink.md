@@ -1,7 +1,7 @@
 ﻿---
 title: Hyperlink - デザイン システム コンポーネント
 _description: Hyperlink コンポーネント シンボルは、テキスト段落で参照を使用できます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット
 _language: ja
 ---
 
@@ -21,11 +21,11 @@ Hyperlink には段落のテキストに合わせて 3 サイズ (Body 1、Body 
 
 ## Url
 
-URL オーバーライドを介してクリックしたときにハイパーリンクを開くリンクを指定します。これはデザインに表示されませんが、コード生成サービスによって考慮されます。
+ハイパーリンクを設定するには、「Create link」 オプションで開くリンクを指定してください。これはデザインに表示されませんが、コード生成サービスによって考慮されます。
 
 ## スタイル設定
 
-ハイパーリンクは、**Figma** Indigo.Design UI キットのハイパーリンク メイン コンポーネントからテキストのデフォルトの青色を変更することでスタイルを設定できます。**Sketch** では、Indigo.Design ライブラリの 🧩 Components ページにある `Symbol Master` からデフォルトの色を変更できます。
+ハイパーリンクは、**Figma** Indigo.Design UI キットのハイパーリンク メイン コンポーネントからテキストのデフォルトの青色を変更することでスタイルを設定できます。
 
 <img class="responsive-img" src="../images/hyperlink_styling.png" srcset="../images/hyperlink_styling@2x.png 2x" />
 

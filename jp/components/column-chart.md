@@ -1,7 +1,7 @@
 ---
 title: Column Chart - デザイン システム コンポーネント
 _description: Column Chart コンポーネント シンボルは、さまざまなカテゴリのデータの頻度、カウント、合計、平均を、幅が等しく長さが異なる垂直バーでエンコードされたデータとすばやく比較するために使用されます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 

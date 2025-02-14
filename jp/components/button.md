@@ -1,7 +1,7 @@
 ﻿---
 title: Button - デザイン システム コンポーネント
 _description: Button コンポーネント シンボルはシンプルなアクションを表すために使用します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -27,19 +27,19 @@ Button コンポーネント シンボルは、シンプルなユーザー操作
 
 ## 操作状態
 
-これらのボタンはすべて、有効なバリアントと無効なバリアントの両方をサポートしているため、無効な状態で挿入することもできます。Figma では、プロパティ パネルからブール演算を使用して切り替えることができます。Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+これらのボタンはすべて、有効なバリアントと無効なバリアントの両方をサポートしているため、無効な状態で挿入することもできます。Figma では、プロパティ パネルからブール演算を使用して切り替えることができます。
 
 <img class="responsive-img" src="../images/button_disabled.png" srcset="../images/button_disabled@2x.png 2x" />
 
 ## 状態
 
-有効なボタンは、**Idle (アイドル)** と Hover (ホバー) 状態をサポートします。Figma では、State プロパティを変更することで切り替えることができる Focused (フォーカス済み) Focused & Hover (フォーカス済みおよびホバー) 状態を追加しました。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+Figma では、Enabled ボタンは **Idle (アイドル)**、Hover (ホバー)、Focused (フォーカス済み)、Focused and Hover (フォーカス済みおよびホバー) 状態をサポートしており、State プロパティを変更することで切り替えることができます。
 
 <img class="responsive-img" src="../images/button_states.png" srcset="../images/button_states@2x.png 2x" />
 
 ## レイアウト テンプレート
 
-Contained、Outlined、Flat、および Floating Action ボタンは、柔軟なアイコンおよびラベルのテンプレートをサポートします。Figma では、アイコンを表示または非表示にするには、Left Icon および Right Icon ブール値プロパティを使用できます。アイコン ボタンが必要な場合は、Content プロパティを Icon に設定できます。Sketch では、スマート レイアウト ルールが適用されるため、非表示にする要素を ~No Symbol に設定すると、レイアウトを調整できます。Adobe XD では、代わりに未使用レイヤーを削除します。ただし、デザイン時にラベルとアイコンの位置のみを変更する場合は、一方を他方の側にドラッグできます。
+Contained、Outlined、Flat、および Floating Action ボタンは、柔軟なアイコンおよびラベルのテンプレートをサポートします。Figma では、アイコンを表示または非表示にするには、Left Icon および Right Icon ブール値プロパティを使用できます。アイコン ボタンが必要な場合は、Content プロパティを Icon に設定できます。
 
 <img class="responsive-img" src="../images/button_templates.png" srcset="../images/button_templates@2x.png 2x" />
 

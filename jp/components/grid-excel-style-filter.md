@@ -1,13 +1,13 @@
 ---
 title: グリッド Excel スタイル フィルター - グリッド機能
-_description: グリッド Excel スタイル フィルターは、並べ替え、フィルタリング、列移動、非表示、ピン固定などの列操作のオーバーレイを提供します。
+_description: グリッド Excel スタイル フィルターは、ソート、フィルタリング、列移動、非表示、ピン固定などの列操作のオーバーレイを提供します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
 _language: ja
 ---
 
 # Grid Excel Style Filter (グリッド Excel スタイル フィルター)
 
-グリッド Excel スタイル フィルターは、ユーザーが列に一連のグリッド機能を指定できる機能です。一意の値または複数の条件でフィルタリング、並べ替え、列移動、列非表示、ピン固定。一度に 1 列にのみ Excel スタイル フィルターを示し、Header Filter 状態はアクティブに設定する必要があります (以下 Header Cell 参照)。このフィルターは、[Ignite UI for Angular Grid Excel スタイル フィルタリング機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/excel_style_filtering.html)と視覚的に同じものです。
+グリッド Excel スタイル フィルターは、ユーザーが列に一連のグリッド機能を指定できる機能です。一意の値または複数の条件でフィルタリング、ソート、列移動、列非表示、ピン固定。一度に 1 列にのみ Excel スタイル フィルターを示し、Header Filter 状態はアクティブに設定する必要があります (以下 Header Cell 参照)。このフィルターは、[Ignite UI for Angular Grid Excel スタイル フィルタリング機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/excel_style_filtering.html)と視覚的に同じものです。
 
 ## Excel スタイル フィルターのデモ
 
@@ -30,9 +30,9 @@ Grid には、スケッチの `Features` の下に 3 つの `Excel Style Filter`
 
 Excel スタイル フィルター オーバーレイを使用すると、列名を構成して、その列をトリガーした列および On/Off 状態と項目テキストを含む下部の一意の値のリストを反映できます。他の機能は構成できません。
 
-### 並べ替え、移動、非表示、ピン固定
+### ソート、移動、非表示、ピン固定
 
-Excel スタイル フィルター インターフェイスは、フィルタリング以外に並べ替え、列移動、列非表示、列ピン固定など、構成できない追加機能を提供します。それらのいずれかが Header Cell を介して列で有効になっている場合 (それぞれのトピックで有効にする方法を参照)、機能のユーザーインターフェイス要素は適用されている Grid Size に従って Excel スタイル フィルター インターフェイスに表示されます 。
+Excel スタイル フィルター インターフェイスは、フィルタリング以外にソート、列移動、列非表示、列ピン固定など、構成できない追加機能を提供します。それらのいずれかが Header Cell を介して列で有効になっている場合 (それぞれのトピックで有効にする方法を参照)、機能のユーザーインターフェイス要素は適用されている Grid Size に従って Excel スタイル フィルター インターフェイスに表示されます 。
 
 ## その他のリソース
 
@@ -42,7 +42,7 @@ Excel スタイル フィルター インターフェイスは、フィルタリ
 - [Grid 行フィルター](grid-row-filter.md)
 - [Grid 高度なフィルター](grid-advanced-filter.md)
 - [Grid サイズ](grid-sizes.md)
-- [Grid 並べ替え](grid-sorting.md)
+- [Grid ソート](grid-sorting.md)
 - [Grid 列移動](grid-column-moving.md)
 - [Grid 列非表](grid-column-hiding.md)
 - [Grid 列ピン固定](grid-column-pinning.md)

@@ -1,13 +1,13 @@
 ﻿---
 title: Slider - デザイン システム コンポーネント
-_description: Slider コンポーネント シンボルは、ユーザーの単一の値や範囲の選択をサポートします。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
+_description: Slider コンポーネントは、ユーザーの単一の値や範囲の選択をサポートします。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
 # Slider (スライダー)
 
-Slider コンポーネント シンボルは、単一値の選択や両値の最後を選択して値範囲の指定が可能です。Slider は、[Ignite UI for Angular Slider コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/slider/slider.html)と視覚的に同じものです。
+Slider コンポーネントは、単一値の選択や両値の最後を選択して値範囲の指定が可能です。Slider は、[Ignite UI for Angular Slider コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/slider/slider.html)と視覚的に同じものです。
 
 ## Slider のデモ
 
@@ -15,19 +15,19 @@ Slider コンポーネント シンボルは、単一値の選択や両値の最
 
 ## タイプ
 
-Slider を使用すると、ユーザーは 2 つのタイプ (連続と離散不連続) から選択できます。
+Slider を使用すると、ユーザーは 2 つのタイプ - **Continuous (連続)** と Discrete (離散不連続) - から選択できます。Figma では、右側のプロパティ パネルの `Type` プロパティを使用して切り替えることができます。
 
 <img class="responsive-img" src="../images/slider_onethumb.png" srcset="../images/slider_onethumb@2x.png 2x" />
 
 ## つまみ
 
-Slider は、単一値の選択につまみと範囲を指定するための 2 つのつまみを提供します。
+Slider は、単一値の選択に**つまみ**と範囲を指定するための **2 つのつまみ**を提供します。Figma では、右側のプロパティ パネルの `Variant` プロパティを使用して切り替えることができます。また、`Lower Thumb` プロパティと `Upper Thumb` プロパティからつまみの値を指定したり、つまみのラベルで手動で調整したりすることもできます。
 
 <img class="responsive-img" src="../images/slider_demo.png" srcset="../images/slider_demo@2x.png 2x" />
 
 ## 状態
 
-Slider は、値の変更が可能かどうかを設定する **Enabled (有効)**/Disabled (無効) の状態をサポートします。Figma では、右側のプロパティ パネルの [Disabled] ブール値プロパティを使用して、2 つを切り替えることができます。Sketch では、状態ごとに異なるシンボルがあります。Adobe XD では、状態を簡単に切り替えることができるように `Component States` パラダイムを使用します。
+Slider は、値の変更が可能かどうかを設定する **Enabled (有効)**/**Disabled (無効)** の状態をサポートします。Figma では、右側のプロパティ パネルの `Disabled` ブール値プロパティを使用して、2 つを切り替えることができます。
 
 <img class="responsive-img" src="../images/slider_enabled.png" srcset="../images/slider_enabled@2x.png 2x" />
 <img class="responsive-img" src="../images/slider_disabled.png" srcset="../images/slider_disabled@2x.png 2x" />

@@ -1,7 +1,7 @@
 ﻿---
 title: Card - デザイン システム コンポーネント
 _description: Card コンポーネント シンボルは、シングル オブジェクトを説明するための関連操作で拡張した画像とテキストを含みます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット, Figma HTML
 _language: ja
 ---
 
@@ -36,7 +36,7 @@ Card には 4 つの異なる領域があります: 画像またはマップ メ
 
 ## ヘッダー
 
-Card ヘッダーは、Avatar Thumbnail、Title、および Subtitle 要素を含むさまざまなレイアウトをサポートします。Figma では、自動レイアウトは、サイド パネルから選択された `header` 要素のプロパティに基づいてカード レイアウトを調整します。Sketch では、非表示にする要素を ~No Symbol に設定すると、スマート レイアウト ルールによってレイアウトが調整されます。Adobe XD では、Stack を使用することで、不要なレイヤーを削除するときに同じ結果を実現できます。
+Card ヘッダーは、Avatar Thumbnail、Title、および Subtitle 要素を含むさまざまなレイアウトをサポートします。Figma では、自動レイアウトは、サイド パネルから選択された `header` 要素のプロパティに基づいてカード レイアウトを調整します。
 
 <img class="responsive-img" src="../images/card_header.png" srcset="../images/card_header@2x.png 2x" />
 
@@ -59,13 +59,9 @@ Card ヘッダーは、Avatar Thumbnail、Title、および Subtitle 要素を�
 | Only Buttons     | <img class="responsive-img" src="../images/card_actions_buttons_right.png" srcset="../images/card_actions_buttons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_actions_buttons_left.png" srcset="../images/card_actions_buttons_left@2x.png 2x" /> | <img class="responsive-img" src="../images/card_actions_just_buttons_right.png" srcset="../images/card_actions_just_buttons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_actions_just_buttons_left.png" srcset="../images/card_actions_just_buttons_left@2x.png 2x" /> |
 | Only Icons        | <img class="responsive-img" src="../images/card_actions_icons_right.png" srcset="../images/card_actions_icons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_actions_icons_left.png" srcset="../images/card_actions_icons_left@2x.png 2x" /> | <img class="responsive-img" src="../images/card_actions_just_icons_right.png" srcset="../images/card_actions_just_icons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_actions_just_icons_left.png" srcset="../images/card_actions_just_icons_left@2x.png 2x" /> |
 
-- **Sketch** では、操作は 6 つの異なるレイアウトで提供されます: 2 つの Flat Button と 3 つの Icon を備えた **Button + Icon Actions**、その逆に配置された逆 **Icon + Button Actions**、それらの Justified バリアントおよび Justified Button Actions と Justified Icon Actions のみを備えたバリアントです。6 つはそれぞれの Smart Layout でオーバーライドとして定義されており、要素を ~No Symbol に設定して要素を削除し、残りを自動的に目的のレイアウトに調整できます。
-
-- **Adobe XD** でも同様の機能が利用でき、Stack を使用することでレイアウトが自動的に調整されるため、不要なレイヤーを削除することもできます。
-
 ## Card レイアウト
 
-Figma の自動レイアウト、Sketch のスマート レイアウトおよび Adobe XD の Stack を使用することにより、Card は特定の領域または要素を除外してさまざまなレイアウトを作成し、最初は同じコンポーネントに基づいてさまざまな異なるカードをサポートできます。
+Figma の自動レイアウトを使用することにより、Card は特定の領域または要素を除外してさまざまなレイアウトを作成し、最初は同じコンポーネントに基づいてさまざまな異なるカードをサポートできます。
 
 <img class="responsive-img" src="../images/card_demo.png" srcset="../images/card_demo@2x.png 2x" />
 

@@ -1,7 +1,7 @@
 ﻿---
 title: Grid 列ピン固定 - グリッド機能
 _description: Grid 列ピン固定は、スクロール可能なグリッドで選択された列をピン固定するための構造です。 
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Angular, Angular デザイン システム, Angular 用のデザイン キット
 _language: ja
 ---
 
