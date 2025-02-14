@@ -18,7 +18,7 @@ In order to indicate that a Grid is filterable via a Row Filter, add a second He
 
 ## Filter State
 
-In Figma the Row Filtering is one of the Grid Header Cell types, that can be switched from the properties panel. There are two distinct types of filtering state: **Row Filter Empty** and **Row Filter Filtered**. You can easily switch between them by adjusting the `Type` property. When set to **Filtered** you may also specify conditions via the [Chip](chips.md) it contains.
+In Figma the Row Filtering is one of the Grid Header Cell types, that can be switched from the properties panel. It lets you configure whether a filtering condition has been applied on a given column. There are two distinct types of filtering state: **Row Filter Empty** and **Row Filter Filtered**. You can easily switch between them by adjusting the `Type` property. When set to **Filtered** you may also specify conditions via the [Chip](chips.md) it contains.
 
 ## Additional Resources
 
