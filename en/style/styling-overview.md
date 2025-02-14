@@ -17,7 +17,7 @@ The **Indigo.Design System** provides elaborate means for styling all 60+ UI com
 
 ## Styling in Figma
 
-The `Indigo.Design for Material` library in Figma has the following structure of pages:
+Each of the four Figma libraries, `Indigo.Design for Material`, `Indigo.Design for Bootstrap`, `Indigo.Design for Fluent`, and `Indigo.Design for Indigo`, has the same structure of pages that provide assets and a powerful styling infrastructure upon which the rest of the library is built. So after you pick your variant based on the design language you prefer, head to the following pages to further customize the appearance of your library:
 
 - ↳ Icons
 - ↳ Colors
