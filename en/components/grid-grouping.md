@@ -14,7 +14,7 @@ Use Grid Group By to organize data records in a hierarchical collection of group
 
 ## Group Area
 
-In Figma the `Group Area` component can be found under `Grid Features` and inserted from the assets panel inside the Grid Component, once the Grid Component is detached. You can directly modify the [Chips Area](chips.md) inside the `Group Area`, without detaching.
+The Grid has a `Group Area` that specifies the columns that are used to establish the hierarchical grouping of records and the order in which these groups will be nested. In Figma the `Group Area` component can be found under `Grid Features` and inserted from the assets panel inside the Grid Component, once the Grid Component is detached. You can directly modify the [Chips Area](chips.md) inside the `Group Area`, without detaching.
 
 ## GroupBy Row
 
