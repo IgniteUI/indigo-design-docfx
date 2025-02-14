@@ -1,7 +1,7 @@
 ﻿---
 title: Progress - デザイン システム コンポーネント
 _description: Progress コンポーネント シンボルは、タスクの状態、進捗、完了をビジュアルで示すインジケーターです。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット
 _language: ja
 ---
 
@@ -43,14 +43,14 @@ Progress は、以下のプリセット カラーの組み合わせの 1 つを�
 
 ## Progress の量
 
-確定タイプの Progress を使用する場合、6 種類のパーセント値を Value として選択できます。Figma では、右側のサイドバーにある `Value` プロパティからバリアントを選択できます。Sketch では、これは `Symbol Overrides` で簡単に切り替えることができますが、Adobe XD では、`Libraries` パネルから目的の量をドラッグし、`Progress Amount` レイヤーの上にドロップしてデフォルト値を変更する必要があります。 
+確定タイプの Progress を使用する場合、6 種類のパーセント値を Value として選択できます。Figma では、右側のサイドバーにある `Value` プロパティからバリアントを選択できます。
 
 <img class="responsive-img" src="../images/progress_circular-progress-amount.png" srcset="../images/progress_circular-progress-amount@2x.png 2x" />
 <img class="responsive-img" src="../images/progress_linear-progress-amount.png" srcset="../images/progress_linear-progress-amount@2x.png 2x" />
 
 ## ストライプ
 
-Progress コンポーネントに Linear Bar レイアウト形状を使用する場合、Fill 領域のストライプの追加オプションが付属します。Stripes を削除するには、Figma の `Striped` ブール値プロパティを使用するか、Sketch の `🌈 Stripes` カラー オーバーライドを `transparent` に設定します。
+Progress コンポーネントに Linear Bar レイアウト形状を使用する場合、Fill 領域のストライプの追加オプションが付属します。Stripes を削除するには、Figma の `Striped` ブール値プロパティを使用します。
 
 <img class="responsive-img" src="../images/progress_linearstripes.png" srcset="../images/progress_linearstripes@2x.png 2x" />
 

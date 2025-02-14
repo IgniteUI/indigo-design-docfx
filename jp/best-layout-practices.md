@@ -1,7 +1,7 @@
 ---
 title: レイアウトのベスト プラクティス - デザイン システム
 _description: レイアウトの作成のベスト プラクティスおよびレスポンシブ動作の結果になるサイズ変更構成のベスト プラクティス。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Ignite UI for Angular, Angular 用のデザイン キット, HTML, HTML へのデザイン, UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -10,7 +10,7 @@ _language: ja
 
 このトピックはアプリケーション レイアウトでコンポーネントの配置およびレスポンシブ アプリ デザインを実装するためにサイズ変更ルールの設定に関連するデザイン ガイダンスを提供します。
 
-各デザイン ツール (Figma、Sketch、XD) は、ビュー内の要素の位置とサイズを構成する独自の方法を提供します。
+各デザイン ツール (Figma) は、ビュー内の要素の位置とサイズを構成する独自の方法を提供します。
 
 一般に、これらのツールを使用すると、次のいずれかを指定できます。
 
@@ -24,12 +24,7 @@ _language: ja
   
 ## レスポンシブ レイアウト デザイン
 
-  これは、特定のツールの機能を利用して、レイヤーをサイズ変更に反応するものとしてマークし、それらのレイアウトとその子が従うべき反応ルールを決定するデザインです。
-    これは各ツールに固有のものであり、関連するトピックで詳細を確認できます。
-
-  - [Figma のレスポンシブ レイアウト](./best-layout-practices-figma.md)
-  - [Sketch のレスポンシブ レイアウト](./best-layout-practices-sketch.md)
-  - [XD のレスポンシブ レイアウト](./best-layout-practices-xd.md)
+  これは、特定のツールの機能を利用して、レイヤーをサイズ変更に反応するものとしてマークし、それらのレイアウトとその子が従うべき反応ルールを決定するデザインです。詳細については、[Figma のレスポンシブ レイアウト](./best-layout-practices-figma.md)のトピックをご覧ください。
   
   このアプローチでは、サイズ変更にどのように反応するかについて、デザインから得られる情報が多くなり、常に App Builder の元のデザインにより近い生成結果が得られます。このため、より良い結果を得るには、特定のツールのレスポンシブ レイアウト オプションを利用することをお勧めします。
 
@@ -39,26 +34,30 @@ _language: ja
 
 ## レイアウト
 
-コード生成アルゴリズムは、レイアウトを水平方向に作成します。最初に行を作成します。デザインが列指向の場合、より良い結果を得るために Sketch のグループを利用できます。以下のデザインでは、6 つのボタンがあり、グループはありません。
+コード生成アルゴリズムは、レイアウトを水平方向に作成します。最初に行を作成します。デザインが列指向の場合、より良い結果を得るためにグループを利用できます。以下のデザインでは、6 つのボタンがあり、グループはありません。
 
-<img class="responsive-img" src="./images/layout-rows.png" />
+<img class="responsive-img" src="./images/layout-rows.png" srcset="./images/layout-rows@2x.png 2x" />
 
 生成されたアプリには 3 つの行があり、各行には 2 つのボタンが含まれています。
 
-デザイナーは、Sketch でグループを適用することにより、このレイアウトを 2 つの列に簡単に構成できます。
+<img class="responsive-img" src="./images/layout-rows-appbuilder.png" srcset="./images/layout-rows-appbuilder@2x.png 2x" />
 
-<img class="responsive-img" src="./images/layout-columns.png" />
+デザイナーは、グループを適用することにより、このレイアウトを 2 つの列に簡単に構成できます。
+
+<img class="responsive-img" src="./images/layout-columns.png" srcset="./images/layout-columns@2x.png 2x" />
 
 このデザインから生成されたアプリには、単一の行と 2 つの列が含まれます。
+
+<img class="responsive-img" src="./images/layout-columns-appbuilder.png" srcset="./images/layout-columns-appbuilder@2x.png 2x" />
 
 このようにして、デザイナーは生成された結果のグループ化を制御できます。要素を常にグループ化することをお勧めします。これにより、クリーンで整理されたデザインが作成されるだけでなく、要素をまとめることができます。コード生成でグループの要素に追加の行または列が適用される場合があります。これは、flex-display コンテナー内の要素の位置をさらに改善するために行われます。
 
 ## 両端揃えと配置
 実際のシナリオでは、flex コンテナーを念頭に置いて設計されたアプリは、`justify-content` と `align-items` を使用してグループと要素を配置します。ジェネレーターも同様です。両端揃えと配置のプロパティを行と列に適用します。これにより、それらの行と列のスペースでの要素の配置が決定されます。ジェネレーターは、要素の位置、サイズ、オフセットなどの複数のパラメーターを考慮して、`justify-content` および `align-items` CSS プロパティに適切な値を適用します。
 
-`justify-content` に指定できる値は `flex-start`、`flex-end`、`center`、`space-around`、`space-between`、`space-evenly` です。使用方法は次の図に示しています。
+`justify-content` に指定できる値は `flex-start`、`flex-end`、`center`、`space-between`、`space-evenly`、`space-around` です。使用方法は次の図に示しています。
 
-<img class="responsive-img" src="./images/layout-justify-content.png" />
+<img class="responsive-img" src="./images/layout-justify-content.png" srcset="./images/layout-justify-content@2x.png 2x" />
 
 レスポンシブな配置を実現するには、要素を配置し、以下の構成のいずれかでグループを形成する必要があります。
 
@@ -66,7 +65,7 @@ _language: ja
 
 `align-items` の利用可能な値は `flex-start`、`flex-end`、`center` および `stretch` です。使用方法は次の図に示しています。
 
-<img class="responsive-img" src="./images/layout-align-items.png" />
+<img class="responsive-img" src="./images/layout-align-items.png" srcset="./images/layout-align-items@2x.png 2x" />
 
 同様のルールが `align-items` にも適用されます。最高のレスポンシブな配置を実現するには、デザインをこれらの構成のいずれかに近づける必要があります。
 
@@ -90,5 +89,3 @@ _language: ja
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
-

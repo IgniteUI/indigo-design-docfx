@@ -1,13 +1,13 @@
 ---
 title: Banner - デザイン システム コンポーネント
 _description: Banner コンポーネントは、インタラクティブな情報メッセージまたは通知を目立つ方法で表示するために使用されます。 
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
 # Banner (バナー)
 
-Banner コンポーネントを使用して、目立つメッセージとそれに関連するオプションのアクションを表示します。Banner は、[Ignite UI for Angular Banner コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/banner)と視覚的に同じです。
+Banner コンポーネントを使用して、オプションのアクション付きで目立つメッセージを表示します。Banner は、[Ignite UI for Angular Banner コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/banner)と視覚的に同じです。
 
 ## Banner のデモ
 
@@ -15,13 +15,13 @@ Banner コンポーネントを使用して、目立つメッセージとそれ�
 
 ## Message (メッセージ)
 
-Banner の Message は、Icon (アイコン) と Text (テキスト) フィールドで構成されています。Sketch のスマート レイアウトを使用して、~No Symbol に設定することで Icon を非表示にし、Adobe XD の Stack を使用して、コンポーネントを追加または削除するときにレイアウトを自動的に処理します。Figma では、プロパティ パネルの 「Icon」 ブール演算を使用してアイコンを表示/非表示にすることができます。
+Banner のメッセージ セクションは、Icon (アイコン) と Text field (テキスト フィールド) が含まれています。Figma では、プロパティ パネルから 「Icon」 ブール演算を使用して、アイコンの表示/非表示を切り替えることができます。
 
 <img class="responsive-img" src="../images/banner_message.png" srcset="../images/banner_message@2x.png 2x" />
 
 ## Actions (アクション)
 
-Actions 領域には、デフォルトで 2 つの Button コンポーネントが含まれています。1 つだけが必要な場合、または両方を削除する場合は、Sketch で ~No Symbol に設定すると、スマート レイアウトですべてが調整されます。Adobe XD では、不要なボタン レイヤーを削除し、適用された Stack に依存してインターフェイスを調整することで、同じことを実現できます。さらに、[Libraries] パネルから [Actions] 領域にドラッグすることで、アクションを追加したり、さまざまなコンポーネントを使用したりすることもできます。Figmaでは、バナーに表示されるアクションを管理するために、残したいアクションを選択し、もう一方をレイヤー パネルから非表示にするか、または 「Actions」 ブール演算を使用してアクション コンテナー全体を非表示にすることができます。
+デフォルトでは、Actions セクションには 2 つのボタン コンポーネントが含まれています。Figma では、ボタンを 1 つ残し、レイヤー パネルから他のボタンを非表示にしたり、「Actions」 ブール演算を使用してアクション コンテナー全体を非表示にしたりすることで、表示されるアクションを管理できます。
 
 <img class="responsive-img" src="../images/banner_actions.png" srcset="../images/banner_actions@2x.png 2x" />
 

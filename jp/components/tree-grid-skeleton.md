@@ -1,7 +1,7 @@
 ---
 title: Skeleton Tree Grid - デザイン システム コンポーネント
 _description: Skeleton Tree Grid は、階層データがバックグラウンドで読み込まれているときに表示される Tree Grid コンポーネントであり、セルに表形式でコンテンツを提供します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -29,7 +29,7 @@ Skeleton Tree Grid の TreeColumn セルは、標準の [Tree Grid](tree-grid.md
 
 ## セルの深さ
 
-Skeleton Tree Grid の TreeColumn セルは、データ階層のレベルについて、標準の [Tree Grid](tree-grid.md) と同じ視覚的表示をサポートします。これは、Root Level、Child Level、または Grandchild Level です。Column 1 からセルを選択した後、Figma でそれらを切り替えるには、レイヤー パネルでその内部のレベル ベース コンポーネントに移動し、`Level` プロパティを使用します。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して状態を切り替えることができます。
+Skeleton Tree Grid の TreeColumn セルは、データ階層のレベルについて、標準の [Tree Grid](tree-grid.md) と同じ視覚的表示をサポートします。これは、Root Level、Child Level、または Grandchild Level です。Column 1 からセルを選択した後、Figma でそれらを切り替えるには、レイヤー パネルでその内部のレベル ベース コンポーネントに移動し、`Level` プロパティを使用します。
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_cell_body_root_level.png" srcset="../images/tree_grid_skeleton_cell_body_root_level@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_skeleton_cell_body_child_level.png" srcset="../images/tree_grid_skeleton_cell_body_child_level@2x.png 2x" />

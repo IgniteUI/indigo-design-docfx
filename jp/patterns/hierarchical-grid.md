@@ -19,7 +19,7 @@ _language: ja
 - [Grid 列非表示](../components/grid-column-hiding.md)
 - [Grid 列移動機能](../components/grid-column-moving.md)
 - [Grid 列サイズ変更](../components/grid-column-resizing.md)
-- [Grid 並べ替え](../components/grid-sorting.md)
+- [Grid ソート](../components/grid-sorting.md)
 - [Grid 行フィルター](../components/grid-row-filter.md)
 - [Grid Excel スタイル フィルタリング](../components/grid-excel-style-filter.md)
 - [Grid 高度なフィルタリング](../components/grid-advanced-filter.md)

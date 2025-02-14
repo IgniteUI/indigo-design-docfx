@@ -1,7 +1,7 @@
 ﻿---
 title: Carousel - デザイン システム コンポーネント
 _description: Carousel コンポーネント シンボルは画像コレクションの順次的なブラウジングが可能です。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット, Figma HTML
 _language: ja
 ---
 
@@ -15,7 +15,7 @@ Carousel コンポーネント シンボルは、横矢印キーを使用して�
 
 ## インジケーターとスライド
 
-Carousel では、最大 5 個のスライドを定義できます。各スライドには、一致するインジケーター点があり、ユーザーはそれぞれのスライドに移動できます。**Figma** では、レイヤーを非表示にすることでインジケーターの量を調整でき、自動レイアウトによってレイアウトが調整されます。**Sketch** では、インジケーターの状態は `Symbol Overrides` で実現され、不要なインジケーターを ~No Symbol に設定することで量を調整できます。適用されたスマート レイアウト ルールに応じてレイアウトを調整できます。**Adobe XD** では、`Component States` パラダイムを使用して簡単に切り替えることができ、不要なインジケーターのレイヤーを削除するだけで量を調整できます。適用されたスタックはそれに応じてレイアウトを調整します。
+Carousel を使用すると、最大 5 つのスライドを定義でき、各スライドには対応するインジケーター ドットがペアになって、シームレスなナビゲーションが可能になります。**Figma** では、レイヤーを非表示にすることでインジケーターの数を簡単に調整でき、レイアウトは変更を反映して自動的に適応します。
 
 <img class="responsive-img" src="../images/carousel_indicators&slides.png" srcset="../images/carousel_indicators&slides@2x.png 2x" />
 

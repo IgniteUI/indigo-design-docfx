@@ -1,7 +1,7 @@
 ---
 title: Bullet Graph - デザイン システム コンポーネント
 _description: Bullet Graph コンポーネント シンボルはある値のターゲット値への進行度を可視化します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット
 _language: ja
 ---
 
@@ -17,26 +17,26 @@ Bullet Graph コンポーネントをデータ可視化に使用し、カラー�
 
 ## Title と Subtitle (タイトルとサブタイトル)
 
-Bullet Graph には、テキストを変更できる Title および Subtitle があります。Figma では、レイヤー パネルで Title レイヤーと Subtitle レイヤーの表示のオンとオフを切り替えることができます。Sketch では、~No Symbol に設定して不要な場合は非表示にできますが、Adobe XD では各レイヤーを削除します。
+Bullet Graph には、テキストを変更できる Title および Subtitle があります。Figma では、レイヤー パネルで Title レイヤーと Subtitle レイヤーの表示のオンとオフを切り替えることができます。
 
 <img class="responsive-img" src="../images/bullet_graph_title.png" srcset="../images/bullet_graph_title@2x.png 2x" />
 
 ## Legend (凡例)
 
-Bullet Graph には凡例があり、選択した Series Amount に合わせて調整できます。Figma では、レイヤー パネルで `Legend` インスタンスの表示のオンとオフを切り替えることができます。Sketch で凡例項目は、対応するシリーズを ~No Symbol に設定することで削除するか、Overrides/Charts/Legend/Series で見つけることで追加できます。Adobe XD では、未使用の Series レイヤーを削除する必要があります。また、アイコンの種類を Square、Line、または Circle の間で変更できます。
+Bullet Graph には凡例があり、選択した Series Amount に合わせて調整できます。Figma では、レイヤー パネルで `Legend` インスタンスの表示のオンとオフを切り替えることができます。また、各 「Serie」 基本コンポーネントごとに、アイコンのタイプを Square、Line、または Circle に変更できます。
 
 <img class="responsive-img" src="../images/bullet_graph_legend.png" srcset="../images/bullet_graph_legend@2x.png 2x" />
 
-## ツールチップ
+## Tooltip (ツールチップ)
 
-Bullet Graph には、Figma および Adobe XD でレイヤーを削除し、Sketch でオーバーライドを ~No Symbol に設定することで非表示にできるツールチップが付属しています。
+Bullet Graph にはツールチップが付属していますが、Figma のレイヤー パネルから `Tooltip` ベース コンポーネントをオフにすることで非表示にすることができます。
 
 <img class="responsive-img" src="../images/bullet_graph_tooltip-off.png" srcset="../images/bullet_graph_tooltip-off@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_tooltip-on.png" srcset="../images/bullet_graph_tooltip-on@2x.png 2x" />
 
 ## 範囲のサイズ
 
-Bullet Graph は、定義済みの 3 つの範囲 (**2 つ**、3 つ、4 つ) 設定があります。Figma では、プロパティ パネルの `Series Amount` プロパティを使用してシリーズの量を変更できます。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+Bullet Graph は、定義済みの 3 つの範囲 (**2 つ**、3 つ、4 つ) 設定があります。Figma では、プロパティ パネルの `Series Amount` プロパティを使用してシリーズの量を変更できます。
 
 <img class="responsive-img" src="../images/bullet_graph_two_ranges.png" srcset="../images/bullet_graph_two_ranges@2x.png 2x" />
 <img class="responsive-img" src="../images/bullet_graph_three_ranges.png" srcset="../images/bullet_graph_three_ranges@2x.png 2x" />
@@ -44,7 +44,7 @@ Bullet Graph は、定義済みの 3 つの範囲 (**2 つ**、3 つ、4 つ) �
 
 ## Ticks と Values (目盛と値)
 
-Ticks と Values も構成できます。2 種類の目盛り: Ticks と Minor Ticks は、色を `Transparent` に設定することで非表示にできます。100 までのデフォルト Values 0、10、20 などは、必要に応じて調整できます。
+Ticks と Values も構成できます。2 種類の目盛り: Ticks と Minor Ticks は、色を Transparent に設定することで非表示にできます。100 までのデフォルト Values 0、10、20 などは、必要に応じて調整できます。
 
 <img class="responsive-img" src="../images/bullet_graph_values.png" srcset="../images/bullet_graph_values@2x.png 2x" />
 

@@ -21,7 +21,7 @@ _language: ja
 - [Grid 列非表示](../components/grid-column-hiding.md)
 - [Grid 列移動機能](../components/grid-column-moving.md)
 - [Grid 列サイズ変更](../components/grid-column-resizing.md)
-- [Grid 並べ替え](../components/grid-sorting.md)
+- [Grid ソート](../components/grid-sorting.md)
 - [Grid 行フィルター](../components/grid-row-filter.md)
 - [Grid Excel スタイル フィルタリング](../components/grid-excel-style-filter.md)
 - [Grid 高度なフィルタリング](../components/grid-advanced-filter.md)
@@ -34,7 +34,7 @@ _language: ja
 
 
 Grid パターン シンボルには、8 つの作成済み Grid 機能の組み合わせがあります。
-- Excel スタイル フィルター、並べ替えを使用した Grid パターン
+- Excel スタイル フィルター、ソートを使用した Grid パターン
 - 列移動、集計、ページングを使用した Grid パターン
 - ピン固定、行選択、アクティブ セルを使用した Grid パターン
 - グループ化、列サイズ変更、集計を使用した Grid パターン

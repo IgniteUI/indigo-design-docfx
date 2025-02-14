@@ -1,33 +1,33 @@
 ---
 title: Indigo.Design Figma プラグイン
-_description: Indigo.Design Figma プラグインを使用して、自分のアプリを Indigo.Design App Builder に公開できます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
+_description: Indigo.Design Figma プラグインを使用して、自分のアプリを App Builder に公開できます。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 # Indigo.Design Figma プラグイン
 
-Indigo.Design Figma プラグインを使用して、自分のデザインから Indigo.Cloud App Builder でアプリをすばやく作成して公開できます。
+Indigo.Design Figma プラグインを使用すると、App Builder 内でデザインを完全なアプリにすばやく変換できます。
 
-[こちら](https://www.figma.com/@infragistics)からダウンロードできる Indigo.Design UI キット ライブラリ コンポーネントを使用してデザインを作成したら、プラグインを使用してデザインをエクスポートできます。
+[こちら](https://www.figma.com/@infragistics)からダウンロードできる Indigo.Design UI キット ライブラリを使用してデザインを作成したら、プラグインを使用してデザインをエクスポートできます。
 
-Indigo.Design AppBuilder でアプリをすばやく作成できます。このアプリは、Figma デザインの構造に従い、Indigo.Design UI キットのシンボルを Ignite UI の対応するコンポーネントにマッピングします。またこのプラグインは、Figma で使用されている画像を取得し、[`Assets` サポート (英語)](https://www.infragistics.com/community/blogs/b/jason_beres/posts/indigo-design-app-builder-october-release-with-assets-support) を使用して App Builder の下の Assets ライブラリにアップロードします。  
+App Builder でアプリをすばやく作成できます。このアプリは、Figma デザインの構造に従い、Indigo.Design UI キットのコンポーネントを Ignite UI の対応するコンポーネントにマッピングします。またこのプラグインは、Figma で使用されている画像を取得し、[Assets Support (英語)](https://www.infragistics.com/community/blogs/b/jason_beres/posts/indigo-design-app-builder-october-release-with-assets-support) を使用して App Builder の下の Assets ライブラリにアップロードします。
 
-## 1.Indigo.Design Figma プラグインのインストール
+## 1. Indigo.Design Figma プラグインのインストール
 
 Indigo.Design Figma プラグインは、Figma のコミュニティ プラグインのリストから入手できます。 
 
 <img class="responsive-img" src="../images/figma-plugin.gif"/>
 
- [こちら](https://www.figma.com/community/plugin/1170035114372031474)からもご覧いただけます。
+ [こちら](https://www.figma.com/community/plugin/1462024243431691008/indigo-design-figma-plugin)からもご覧いただけます。
 
 
-## 2.App Builder でアプリケーションを作成します
+## 2. App Builder でアプリケーションを作成します
 
-デザインの準備ができたら、プラグインを使用してアプリを作成できます。
+Figma でデザインの準備ができたら、プラグインの `Create New App` 機能を使用して、そこからアプリを作成できます。アプリの名前と解像度を選択したり、アプリが作成される Indigo.Design クラウド ワークスペースを選択したりできます。
 
 <img class="responsive-img" src="../images/create-from-figma.gif" />
 
-## 3テーマ
+## 3. テーマ
 
 ### グローバル テーマの設定
 
@@ -39,7 +39,7 @@ Indigo.Design System for Figma のグローバル テーマは、ダークまた
 
 ### カラー ハンドリング
 
-Indigo.Design UI Kit for Figma には、`primary`、`secondary`、`grays`、および 2 つのチャート `series` のカラーのそれぞれに 10 のカラー バリエーションを備えた 5 つのパレットと、`success`、`warn`、`info`、`surface` などの特別なカラーが含まれています。これらのカラーはすべて、塗りまたは線のカラーとして適用できます。 
+Indigo.Design UI Kit for Figma には、`primary`、`secondary`、`grays`、および 2 つのチャート `series` のカラーのそれぞれに 10 のカラー バリエーションを備えた 5 つのパレットと、`success`、`warn`、`error`、`info`、`surface` などの特別なカラーが含まれています。これらのカラーはすべて、塗りまたは線のカラーとして適用できます。 
 下の表にカラーが記載されている場合、App Builder はそのカラーをその名前 (例: `primary-900`) と共に表示します。他のすべてのカラーは、HEX/RGB 値として表示されます。
 
 | Primary | Secondary |  Gray   | Surface | Error | Success | Warn  | Info  |
@@ -59,7 +59,7 @@ Figma の単純なフラット画像は、通常、画像塗りつぶしを含�
 <img class="responsive-img" src="../images/figma_image_asset.png" />
 
 
-これは、関連する画像アセットを参照する `<img>` 要素として解釈されるか、デザイン内の他の要素の背景として使用された場合は、`background-image` を含むグループ (`div`) として解釈されます。
+これは、関連する画像アセットを参照する `<img>` 要素として解釈されるか、デザイン内の他の要素の背景として使用された場合は、`background-image` を含むグループ (`<div>`) として解釈されます。
 
 ### イラスト
 

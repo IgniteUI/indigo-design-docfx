@@ -20,22 +20,23 @@ Figma では、絶対配置のフレーム / グループを使用できます�
 
 自動レイアウト オプションは、デザイナーが Figma の UI を介して設定できます。
 
-<img class="responsive-img" src="./images/figma-auto-layout.png" />
+<img class="responsive-img" src="./images/figma-auto-layout.png" srcset="./images/figma-auto-layout@2x.png 2x" />
 
 
 以下に、それぞれの特定の設定に関する詳細情報を示します。
 
 #### レイアウト方向
 
-Vertical (垂直) または Horizontal (水平) に設定できます。コンテナー内で要素が流れる方向を決定します。水平レイアウトの場合は `flex-direction: row` を生成し、垂直レイアウトの場合は `flex-direction: column` を生成します。
+Vertical、Horizontal、または Wrap のいずれかにすることができ、コンテナー内で要素が流れる方向を決定します。
+垂直レイアウトの場合は `flex-direction: column`、水平レイアウトの場合は `flex-direction: row`、ラップ レイアウトの場合はネストされた列の `flex-direction: row` と `flex-direction: column` を生成します。
 
 #### 配置
 
-このコンテナー内で項目をどのように配置するかを決定します。`justify-content` および `align-items` css オプションと関連付けます。`justify-content` は主方向軸 (列の場合は垂直、行の場合は水平) に沿った配置を決定するのに対し、align-items は対抗軸 (列の場合は水平、行の場合は垂直) に沿った配置を決定することに注意してください。したがって、これらはレイアウトの方向にも依存します。
+このコンテナー内で項目をどのように配置するかを決定します。`justify-content` および `align-items` CSS オプションと関連付けます。`justify-content` は主方向軸 (列の場合は垂直、行の場合は水平) に沿った配置を決定するのに対し、align-items は対抗軸 (列の場合は水平、行の場合は垂直) に沿った配置を決定することに注意してください。したがって、これらはレイアウトの方向にも依存します。
 
 #### その他
 
-Figma の Space Between Items と Padding オプションを使用して、項目間のスペースとパディングを設定することもできます。これらは css で `gap` と `padding` として解析されます。
+Figma の Gap Between Items と Padding オプションを使用して、項目間のスペースとパディングを設定することもできます。これらは CSS で `gap` と `padding` として解析されます。
 
 ## サイズ変更
 
@@ -43,9 +44,11 @@ Figma には、親またはコンテンツに対して項目のサイズを変�
 
 使用可能なオプションは、Fixed、Hug、または Fill です。以下に、それぞれが生成するものを示します。
 
-Fixed - サイズはピクセル単位で固定されています。
-Hug - サイズは子コンテンツに基づきます。この場合、サイズは適用されません。
-Fill - サイズは親に基づきます。親を埋めるために伸びる必要があります。`flex: 110px;` または `self-align: stretch` に関連します。
+**Fixed** - サイズはピクセル単位で固定されています。
+
+**Hug** - サイズは子コンテンツに基づきます。この場合、サイズは適用されません。
+
+**Fill** - サイズは親に基づきます。親を埋めるために伸びる必要があります。`flex: 110px;` または `self-align: stretch` に関連します。
 
 
 ## その他のリソース
@@ -59,5 +62,3 @@ Fill - サイズは親に基づきます。親を埋めるために伸びる必�
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
-

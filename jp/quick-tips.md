@@ -1,7 +1,7 @@
 ---
 title: Indigo.Design のヒント
-_description: Indigo.Design を使用して、デザインからコード作成へのストーリーのすべての側面をすばやく発見します
-_keywords: Ignite UI for Angular, Angular, ネイティブ Angular コンポーネント スイート, ネイティブ Angular コントロール, ネイティブ Angular コンポーネント, ネイティブ Angular コンポーネント ライブラリ, Angular グリッド, Angular データグリッド, Angular グリッドコントロール, Angular グリッドコンポーネント, コード生成, プロトタイピング, ユーザビリティ, ビデオ, 分析
+_description: Indigo.Design を使用して、デザインからコード作成へのストーリーのすべての側面をすばやく発見します。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -15,8 +15,8 @@ _language: ja
 <img class="responsive-img" src="images/tips1.png" srcset="images/tips1@2x.png 2x" />
 <div class="divider--half"></div>
 
-### Figma、Sketch および Adobe XD 用の洗練された UI キット。
-Figma、Sketch および Adobe XD 用の Indigo.Design UI キットでは、作成するものすべてがデザイン システムを使用していることをご存知ですか? すべてのスタイル設定の仕様およびテーマは、実際の Angular コンポーネントと一致します。400 個以上のアイコン、特別なカラー パレット、17 種類ののカスタマイズ可能なイラストなどがあります。[詳細はこちらをご覧ください](./style/styling-overview.md)。
+### Figma 用の洗練された Indigo.Design UI キット。
+Figma 用の Indigo.Design UI キットを使用すると、作成するものすべてがデザイン システム上に構築されることをご存知ですか? すべてのスタイル仕様とテーマは、実際の Angular、React、Blazor、または Web Components UI コントロールと一致します。また、400 個を超えるアイコン、カスタム カラー パレット、17 個の完全にカスタマイズ可能なイラストなどにもアクセスできます。[詳細はこちらをご覧ください](./style/styling-overview.md)。
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -27,7 +27,7 @@ Figma、Sketch および Adobe XD 用の Indigo.Design UI キットでは、作�
 <div class="divider--half"></div>
 
 ### 無限のテーマ オプションとスタイル設定。
-Material、Bootstrap、Fluent に基づいた 6 つのビルド済みテーマを使用し、ダークとライトのバージョンを用意しました。または、独自のデザイン言語に基づいて構築された Indigo テーマに切り替えます。アプリまたは企業のブランディングと一致しない場合は、テーマとスタイル設定オプションでカスタム テーマを作成できます。[詳細はこちらをご覧ください](./plugins/sketch-plugin.md)。
+ライト モードとダーク モードの両方で利用可能な 4 つのビルド済みテーマ (Material、Fluent、Bootstrap、およびカスタムの社内 Indigo テーマ) から選択できます。これらがアプリや企業のブランディングと一致しない場合は、テーマとスタイル設定のオプションを使用してテーマを完全にカスタマイズできます。[詳細はこちらをご覧ください](./plugins/figma-plugin.md)。
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -37,19 +37,8 @@ Material、Bootstrap、Fluent に基づいた 6 つのビルド済みテーマ�
 <img class="responsive-img" src="images/tips3.png" srcset="images/tips3@2x.png 2x" />
 <div class="divider--half"></div>
 
-### インタラクティブ プロトタイプとユーザー テスト機能。 
-Indigo.Design でインタラクティブ プロトタイプを作成し、任意のデバイスまたはプラットフォームで実際のユーザーとリモート ユーザー テストを実行できます。ユーザー インサイト、関係者とのシンプルなコラボレーション、ユーザーの行動に関する詳細な分析、ユーザー テストのビデオ録画とオーディオ録音を取得します。[詳細はこちらをご覧ください](prototyping/creating-a-prototype.md)。
-
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<div class="divider--half"></div>
-<img class="responsive-img" src="images/tips4.png" srcset="images/tips4@2x.png 2x" />
-<div class="divider--half"></div>
-
 ### デザインを Web アプリとして公開します。
-プラグインの [アプリの作成] オプションを使用して、デザインのすべての UI キットコンポーネントをコード コンポーネントに変換し、アプリを公開します。Web ベースの WYSIWYG App Builder を使用してアプリの拡張すると、開発チームはエンタープライズ対応の Angular コードを生成できます。[詳細はこちらをご覧ください](https://jp.infragistics.com/products/appbuilder/help/app-builder-overview)。
+プラグインの [アプリの作成] オプションを使用して、デザインのすべての UI キットコンポーネントをコード コンポーネントに変換し、アプリを公開します。Web ベースの WYSIWYG App Builder を使用してアプリの拡張すると、開発チームはエンタープライズ対応の Angular、React、Blazor、または Web Components コードを生成できます。[詳細はこちらをご覧ください](https://www.appbuilder.dev/ja/help/app-builder-overview)。
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -60,7 +49,7 @@ Indigo.Design でインタラクティブ プロトタイプを作成し、任�
 <div class="divider--half"></div>
 
 ### 外部データ ソースをお持ちですか?
-Ignite UI App Builder には、任意の REST データ ソースへの接続や JSON ファイルのアップロードを可能にするデータ ソース オプションがあります。そのためには、データ ソース パネルに接続します。[詳細はこちらをご覧ください](https://jp.infragistics.com/products/appbuilder/help/using-data-in-your-app)。
+App Builder には、任意の REST データ ソースへの接続や JSON ファイルのアップロードを可能にするデータ ソース オプションがあります。そのためには、データ ソース パネルに接続します。[詳細はこちらをご覧ください](https://www.appbuilder.dev/ja/help/using-data-in-your-app)。
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -71,7 +60,7 @@ Ignite UI App Builder には、任意の REST データ ソースへの接続や
 <div class="divider--half"></div>
 
 ### アプリをゼロから作成する必要はありません。
-作成済みの Sketch/XD ファイルから開始するか、60 以上の UI コントロールのツールボックスを使用してアプリケーション サンプルをダウンロードします。ワンクリックでデザインから高品質の HTML、CSS、Angular コードを生成できます。[詳細はこちらをご覧ください](components/components-overview.md)。
+作成済みの Figma ファイルから開始するか、60 以上の UI コントロールのツールボックスを使用してアプリケーション サンプルをダウンロードします。ワンクリックでデザインから高品質のコードを生成できます。[詳細はこちらをご覧ください](components/components-overview.md)。
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -81,8 +70,8 @@ Ignite UI App Builder には、任意の REST データ ソースへの接続や
 <img class="responsive-img" src="images/tips7.png" srcset="images/tips7@2x.png 2x" />
 <div class="divider--half"></div>
 
-### Ignite UI App Builder が Flexbox を使用していることをご存知ですか?
-Web アプリケーションのレイアウトを作成する方法の 1 つとして Flex を提供します。ツールボックスの行または列のレイアウト ンポーネントとして利用できます。ブラウザー間の互換性と、あらゆる画面サイズへの適応性が保証されています。[詳細はこちらをご覧ください](https://jp.infragistics.com/products/appbuilder/help/flex-layouts/flex-layouts)。
+### App Builder が Flexbox を使用していることをご存知ですか?
+Web アプリケーションのレイアウトを作成する方法の 1 つとして Flex を提供します。ツールボックスの行または列のレイアウト ンポーネントとして利用できます。ブラウザー間の互換性と、あらゆる画面サイズへの適応性が保証されています。[詳細はこちらをご覧ください](https://www.appbuilder.dev/ja/help/flex-layouts/flex-layouts)。
 
 <div class="divider--half"></div>
 <div class="divider--half"></div>
