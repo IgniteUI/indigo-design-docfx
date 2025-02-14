@@ -15,11 +15,11 @@ This topic describes the issues and limitations we have run into or observed whe
 As you may have already seen in the other topics detaching or ungrouping components usually results in the loss of capability for code generation. However, a few components like the List and the Grid are basically repeaters of items and cells and come in a more generic form that is supposed to be detached to allow you to create the number of items, rows and columns that you would need. As we enhance individual items with functionality in the upcoming versions of the libraries, such updates should propagate easily, however enhancements made to the collection of items i.e. `List/One-line Item List` or `Grid/Data Grid`, for example, will not propagate to the detached instances of these components.
 
 > [!Note]
-> When detaching component, that component won't receive updates, if the UI Kit is updated or when a library is swapped.
+> When you detach a component, it will no longer receive updates if the UI Kit is updated or when a library is swapped.
 
 #### User input in components
 
-User input values of components which change per scenario are not generated. Some examples of these components would be Checkbox (On state), Radio Group (Checked state), Switch, etc.
+User input values for components that vary by scenario are not generated. Examples include Checkbox (On state), Radio Group (Checked state), Switch, etc.
 
 
 #### Not supported Stroke styles
