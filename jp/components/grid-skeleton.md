@@ -1,7 +1,7 @@
 ---
 title: Skeleton Grid - デザイン システム コンポーネント
 _description: Skeleton Grid は、セルにコンテンツを提供するためにデータがバックグラウンドで読み込まれているときに表示される Grid コンポーネントです。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -15,7 +15,7 @@ Skeleton Grid を使用して、標準の情報と同じタイプの情報をレ
 
 ## セル タイプ
 
-Skeleton Grid は、標準 [Grid](grid.md) と同じ 3 種類のセル (header、body、summary) をサポートします。
+Skeleton Grid は、標準 [Grid](grid.md) と同じ 3 種類のセル (**Header**、**Body**、**Summary**) をサポートします。
 
 <img class="responsive-img" src="../images/grid_skeleton_cell_header.png" srcset="../images/grid_skeleton_cell_header@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_body.png" srcset="../images/grid_skeleton_cell_body@2x.png 2x" />
@@ -23,28 +23,26 @@ Skeleton Grid は、標準 [Grid](grid.md) と同じ 3 種類のセル (header�
 
 ## セル サイズ
 
-Skeleton の Header、Body、および Summary Cell は、標準 [Grid](grid.md) と同じ 3 つのサイズ バリアント (Large、Medium、Small) をサポートします。
+Skeleton の Header、Body、および Summary Cell は、標準 [Grid](grid.md) と同じ 3 つのサイズ バリアント (**Large**、**Medium**、**Small**) をサポートします。
 
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_large.png" srcset="../images/grid_skeleton_cell_header_large@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_medium.png" srcset="../images/grid_skeleton_cell_header_medium@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_small.png" srcset="../images/grid_skeleton_cell_header_small@2x.png 2x" />
-
-## 項目と機能 (ヘッダー セル)
-
-Skeleton Grid は、標準 [Grid](grid.md) と同じ機能構成を、`Feature Left` および `Feature Right` のオーバーライドを介してサポートします。
-
-<img class="responsive-img" src="../images/grid_skeleton_cell_header_no-icon.png" srcset="../images/grid_skeleton_cell_header_no-icon@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_skeleton_cell_header_icon.png" srcset="../images/grid_skeleton_cell_header_icon@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_skeleton_cell_header_icons.png" srcset="../images/grid_skeleton_cell_header_icons@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_body_large.png" srcset="../images/grid_skeleton_cell_body_large@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_body_medium.png" srcset="../images/grid_skeleton_cell_body_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_body_small.png" srcset="../images/grid_skeleton_cell_body_small@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_summary_large.png" srcset="../images/grid_skeleton_cell_summary_large@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_summary_medium.png" srcset="../images/grid_skeleton_cell_summary_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_summary_small.png" srcset="../images/grid_skeleton_cell_summary_small@2x.png 2x" />
 
 ## セル タイプ
 
-Skeleton Grid Header Cell は、標準 [Grid](grid.md) として、Number および Text、Date、Bool 型のデータのプリセットを提供します。
+Skeleton Grid Header Cell は、標準 [Grid](grid.md) として、**Number (数字)** および **Text,Date,Bool (テキスト、日付、ブール)** タイプのデータのプリセットを提供します。
 
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_number.png" srcset="../images/grid_skeleton_cell_header_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_text.png" srcset="../images/grid_skeleton_cell_header_text@2x.png 2x" />
 
-Skeleton Grid Body Cell は、Skeleton Grid Header Cell と同じデータ型のプリセットを提供し、単純なグラフィックスを視覚化する追加のアイコン タイプを含みます。
+Skeleton Grid Body Cell は、Skeleton Grid Header Cell と同じデータ タイプのプリセットを提供し、単純なグラフィックスを視覚化する追加の **Icon** タイプを含みます。
 
 <img class="responsive-img" src="../images/grid_skeleton_cell_body_number.png" srcset="../images/grid_skeleton_cell_body_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_body_text.png" srcset="../images/grid_skeleton_cell_body_text@2x.png 2x" />
