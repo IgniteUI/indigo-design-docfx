@@ -2,8 +2,6 @@
   header: true
 - name: Getting Started
   href: ../getting-started.md
-- name: Video Tutorials
-  href: ../video-tutorials.md
 - name: Quick Tips
   href: ../quick-tips.md
   new: true
@@ -12,10 +10,6 @@
 - name: Creating a Frame in Figma
   href: ../creating-a-frame-in-figma.md
   new: true
-- name: Creating an Artboard in Sketch
-  href: ../creating-artboard-sketch.md
-- name: Creating an Artboard in Adobe XD
-  href: ../creating-artboard-adobexd.md
 - name: Indigo.Design Figma Plugin
   href: ../plugins/figma-plugin.md
 - name: Styling
