@@ -2,8 +2,6 @@
   header: true
 - name: Getting Started
   href: ../getting-started.md
-- name: Video Tutorials
-  href: ../video-tutorials.md
 - name: Quick Tips
   href: ../quick-tips.md
   new: true
