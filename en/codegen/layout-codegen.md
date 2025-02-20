@@ -46,7 +46,6 @@ Related topics:
 - [Creating a Frame in Figma](../creating-a-frame-in-figma.md)
 - [Figma Plugin](../plugins/figma-plugin.md)
 - [Responsive layouts in Figma](../best-layout-practices-figma.md)
-- [Video Tutorials](../video-tutorials.md)
 - [Quick Tips](../quick-tips.md)
 
 External Links:
