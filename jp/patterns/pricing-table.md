@@ -1,7 +1,7 @@
 ---
 title: Pricing Table - デザイン システム パターン
-_description: Pricing Table パターン シンボルには、料金と利用可能な機能のリストを含む料金表が表示されます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
+_description: Pricing Table パターン コンポーネントには、料金と利用可能な機能のリストを含む料金表が表示されます。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 

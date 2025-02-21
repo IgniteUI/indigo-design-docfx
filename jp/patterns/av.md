@@ -1,7 +1,7 @@
 ﻿---
 title: Audio / Video - デザイン システム パターン
-_description: Audio / Video パターン シンボルはオーディオおよびビデオ再生を制御するインターフェイスを提供します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_description: Audio / Video パターン コンポーネントはオーディオおよびビデオ再生を制御するインターフェイスを提供します。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット
 _language: ja
 ---
 

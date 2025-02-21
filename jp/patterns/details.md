@@ -1,7 +1,7 @@
 ﻿---
 title: Details - デザイン システム パターン
-_description: Details パターン シンボルはアプリケーション シナリオ オブジェクトについての詳細情報を表示するために様々なコンポーネントを組み合わせます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_description: Details パターン コンポーネントはアプリケーション シナリオ オブジェクトについての詳細情報を表示するために様々なコンポーネントを組み合わせます。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 

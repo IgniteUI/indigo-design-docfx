@@ -2,8 +2,6 @@
   header: true
 - name: はじめに
   href: ../getting-started.md
-- name: ビデオ チュートリアル
-  href: ../video-tutorials.md
 - name: クイック ヒント
   href: ../quick-tips.md
   new: true
@@ -12,10 +10,6 @@
 - name: Figma でフレームを作成
   href: ../creating-a-frame-in-figma.md
   new: true
-- name: Sketch でアートボードを作成
-  href: ../creating-artboard-sketch.md
-- name: Adobe XD でアートボードを作成
-  href: ../creating-artboard-adobexd.md
 - name: Indigo.Design Figma プラグイン
   href: ../plugins/figma-plugin.md
 - name: スタイル設定

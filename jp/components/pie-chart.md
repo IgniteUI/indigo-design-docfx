@@ -1,7 +1,7 @@
 ---
 title: Pie Chart - デザイン システム コンポーネント
-_description: Pie Chart コンポーネント シンボルは、データ セットのカテゴリ (部分) がどのように合計 (全体) 値に構成されるかを示す部分対全体のチャートです。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット
+_description: Pie Chart コンポーネントは、データ セットのカテゴリ (部分) がどのように合計 (全体) 値に構成されるかを示す部分対全体のチャートです。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -11,27 +11,32 @@ _language: ja
 ## Pie Chart のデモ
 
 <img class="responsive-img" src="../images/pie_chart_demo.png" srcset="../images/pie_chart_demo@2x.png 2x" />
+<div class="divider--half"></div>
 
 Pie Chart は、個々のシリーズ (スライス) に分割された `Series` グループと、対応するシリーズを指す `Hairlines` (ヘアライン) 付きの `Labels` (ラベル) で構成されます。
 
 ## Series (シリーズ)
 
-円チャート コンポーネントには、3、4、および 5 シリーズ数が用意されています。Figma では、プロパティ パネルの 「Series Amount」 プロパティを使用して 3 つを切り替えることができますが、Sketch ではこれは `Symbol Overrides` で実現されます。
+円チャート コンポーネントには、3、4、および 5 シリーズ数が用意されています。Figma では、プロパティ パネルの `Series Amount` プロパティを使用して 3 つを切り替えることができます。
 
 <img class="responsive-img" src="../images/pie_chart_series3.png" srcset="../images/pie_chart_series3@2x.png 2x" />
+<div class="divider--half"></div>
 <img class="responsive-img" src="../images/pie_chart_series4.png" srcset="../images/pie_chart_series4@2x.png 2x" />
+<div class="divider--half"></div>
 <img class="responsive-img" src="../images/pie_chart_series5.png" srcset="../images/pie_chart_series5@2x.png 2x" />
 
 ## Hairlines (ヘアライン)
 
-Pie Chart のラベルには、対応するヘアラインがあります。ラベルの位置は、Center、InsideEnd、OutsideEnd の 3 つから選択できます。Figma では、ネストされた Labels Position コンポーネントを選択し、プロパティ パネルから 「Position」 プロパティの値を変更するだけで位置を変更できますが、Sketch では `Symbol Overrides` で実現されます。また、Figma のプロパティ パネルからブール値プロパティ 「Hairlines」 をオフにすることで、OutsideEnd タイプのヘアラインを非表示にすることもできます。Sketch では、~No Symbol に設定することでこれを実現できます。
+Pie Chart のラベルには、対応するヘアラインがあります。ラベルの位置は、Center、InsideEnd、OutsideEnd の 3 つから選択できます。Figma では、ネストされた Labels Position コンポーネントを選択し、プロパティ パネルから `Position` プロパティの値を変更するだけで位置を変更できます。また、Figma のプロパティ パネルからブール値プロパティ `Hairlines` をオフにすることで、OutsideEnd タイプのヘアラインを非表示にすることもできます。
 
+**Center** <br/>
 <img class="responsive-img" src="../images/pie_chart_labels_center.png" srcset="../images/pie_chart_labels_center@2x.png 2x" />
-`Center`
+
+**InsideEnd** <br/>
 <img class="responsive-img" src="../images/pie_chart_labels_insideend.png" srcset="../images/pie_chart_labels_insideend@2x.png 2x" />
-`InsideEnd`
+
+**OutsideEnd** <br/>
 <img class="responsive-img" src="../images/pie_chart_labels_outsideend.png" srcset="../images/pie_chart_labels_outsideend@2x.png 2x" />
-`OutsideEnd`
 
 ## スタイル設定 
 
