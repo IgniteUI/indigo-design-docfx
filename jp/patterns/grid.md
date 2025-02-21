@@ -1,13 +1,13 @@
 ---
 title: Grid - デザイン システム パターン
-_description: Grid パターン シンボルは完全なグリッド コンポーネントを表します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_description: Grid パターン コンポーネントは完全なグリッド コンポーネントを表します。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
 # Grid (グリッド)
 
-表形式データ レイアウトを設計する場合は、Grid パターン シンボルを代わりの開始ポイントとして使用します。すべての機能が構成された Components ライブラリで提供される完全な Grid コンポーネントを提供します。
+表形式データ レイアウトを設計する場合は、Grid パターン コンポーネントを代わりの開始ポイントとして使用します。すべての機能が構成された Components ライブラリで提供される完全な Grid コンポーネントを提供します。
 
 列移動、集計、ページングを使用した Grid パターンを以下に示します:
 
@@ -33,7 +33,7 @@ _language: ja
 - [Grid スケルトン](../components/grid-skeleton.md)
 
 
-Grid パターン シンボルには、8 つの作成済み Grid 機能の組み合わせがあります。
+Grid パターン コンポーネントには、8 つの作成済み Grid 機能の組み合わせがあります。
 - Excel スタイル フィルター、ソートを使用した Grid パターン
 - 列移動、集計、ページングを使用した Grid パターン
 - ピン固定、行選択、アクティブ セルを使用した Grid パターン
@@ -45,9 +45,7 @@ Grid パターン シンボルには、8 つの作成済み Grid 機能の組み
 
 
 > [!WARNING]
-> Sketch では、Grid パターンのいずれかを挿入した後、データのすべてのディメンションを表示し、必要な数の表示可能なレコードを挿入するために、提供されたセルの数を変更する必要がある場合にのみ、`Detach from Symbol` をトリガーできます。ただし、各コンポーネントおよび機能をデタッチしないでください。これは Figma にも適用され、グリッド パターンのいずれかを選択し、右クリックして `Detach instance` を選択する必要があります。そこから、必要な変更を加えることができます。
->
-> Adobe XD では、パターン自体のグループ化を解除することなく、列と行を複製することで提供されるよりも多くのセルを追加できます。
+> Figma では、Assets パネルから任意の Grid パターンを挿入し、それを右クリックして、提供されているセルの数を変更する必要がある場合のみ `Detach instance` を選択して、データのすべての次元を表示し、必要な数だけ表示可能なレコードを挿入できます。ただし、各コンポーネントおよび機能をデタッチしないでください。
 
 ## その他のリソース
 

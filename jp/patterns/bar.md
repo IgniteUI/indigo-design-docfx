@@ -1,7 +1,7 @@
 ---
 title: Bar - デザイン システム パターン
-_description: Bar パターン シンボルは、さまざまなコンポーネントを組み合わせて、ページの上部/下部に重要な情報または新しい情報を表示します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
+_description: Bar パターン コンポーネントは、さまざまなコンポーネントを組み合わせて、ページの上部/下部に重要な情報または新しい情報を表示します。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 

@@ -1,13 +1,13 @@
 ---
 title: Tree Grid - デザイン システム パターン
 _description: Tree Grid パターンは、サブレベルがネストされ、すぐに使用できる要素に機能が適用された Tree Grid コンポーネントを表します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
 # Tree Grid (ツリー グリッド)
 
-レコード間の親子関係を持つ表形式のデータ レイアウトを設計する場合は、代替の開始ポイントとして Tree Grid パターンを使用します。すべての機能が構成された Components ライブラリで提供される完全な Tree Grid コンポーネントを提供します。
+レコード間の親子関係を持つ表形式のデータ レイアウトを設計する場合は、代替の開始ポイントとして Tree Grid パターンを使用します。すべての機能が構成された Components ライブラリで提供される完全な `Tree Grid Component` を提供します。
 
 <img class="responsive-img" src="../images/tree_grid.png" srcset="../images/tree_grid@2x.png 2x" />
 
@@ -32,11 +32,7 @@ _language: ja
 - [Grid スケルトン](../components/grid-skeleton.md)
 
 > [!WARNING]
-> **Figma** では、Tree Grid Pattern を挿入した後、提供されているよりも多くの項目が必要な場合は、コンポーネントを右クリックした後、`Detach instance` オプションからデタッチする必要があります。デタッチした後は列を増やすことができるようになり、手動で位置を調整する必要があります。App Builder でコンポーネントを生成するときに問題が発生する可能性があるため、Tree Grid にネストされている他のコンポーネントをデタッチしないことをお勧めします。
->
-> **Sketch** では、Tree Grid パターンを挿入した後、データのすべてのディメンションを表示し、必要な数の表示可能なレコードを挿入するために、提供されたセルの数を変更する必要がある場合にのみ、`Detach from Symbol` をトリガーできます。ただし、各コンポーネントおよび機能をデタッチしないでください。
->
-> **Adobe XD** では、パターン自体のグループ化を解除することなく、列と行を複製することで提供されるよりも多くのセルを追加できます。
+> **Figma** では、Tree Grid パターンを挿入した後、提供されているよりも多くの項目が必要な場合は、コンポーネントを右クリックした後、`Detach instance` オプションからデタッチする必要があります。デタッチした後は列を増やすことができるようになり、手動で位置を調整する必要があります。App Builder でコンポーネントを生成するときに問題が発生する可能性があるため、Tree Grid にネストされている他のコンポーネントをデタッチしないことをお勧めします。
 
 ## その他のリソース
 

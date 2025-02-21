@@ -1,7 +1,7 @@
 ---
 title: Hierarchical Grid - デザイン システム パターン
 _description: Hierarchical Grid パターンは、内部にネストされた子グリッドを持つ親レベルのグリッドを表します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -34,9 +34,7 @@ _language: ja
 
 
 > [!WARNING]
-> Sketch では、Hierarchical Grid パターンを挿入した後、データのすべてのディメンションを表示し、必要な数の表示可能なレコードを挿入するために、提供されたセルの数を変更する必要がある場合にのみ、`Detach from Symbol` をトリガーできます 。より多くの階層を表示する必要がある場合は、追加のグリッドを、それらが属する親グリッドの本体内にネストすることもできます。ただし、各コンポーネントおよび機能をデタッチしないでください。
->
-> Adobe XD では、パターン自体のグループ化を解除することなく、列と行を複製することで提供されるよりも多くのセルを追加できます。
+> Figma では、Assets パネルから Hierarchical Grid パターンを挿入した後、提供されているセルの数を変更する必要がある場合のみ、コンポーネントを右クリックして `Detach instance` を選択し、データのすべてのディメンションを表示して、必要な数だけ表示可能なレコードを挿入できます。より多くの階層を表示する必要がある場合は、追加のグリッドを、それらが属する親グリッドの本体内にネストすることもできます。ただし、各コンポーネントおよび機能をデタッチしないでください。
 
 ## その他のリソース
 

@@ -47,7 +47,6 @@ Auto-Layout は、適切なプロパティを持つ flex コンテナーと見�
 - [Figma でフレームを作成](../creating-a-frame-in-figma.md)
 - [Figma プラグイン](../plugins/figma-plugin.md)
 - [Figma のレスポンシブ レイアウト](../best-layout-practices-figma.md)
-- [ビデオ チュートリアル](../video-tutorials.md)
 - [クイック ヒント](../quick-tips.md)
 
 外部のリンク:

@@ -1,7 +1,7 @@
 ﻿---
 title: Avatar + Badge - デザイン システム パターン
-_description: Avatar + Badge パターン シンボルは通知およびアラートを表示するために Avatar およびその前に Badge を使用します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_description: Avatar + Badge パターン コンポーネントは通知およびアラートを表示するために Avatar およびその前に Badge を使用します。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
