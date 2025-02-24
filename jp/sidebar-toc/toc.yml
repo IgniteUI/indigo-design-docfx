@@ -2,8 +2,6 @@
   header: true
 - name: はじめに
   href: ../getting-started.md
-- name: ビデオ チュートリアル
-  href: ../video-tutorials.md
 - name: クイック ヒント
   href: ../quick-tips.md
   new: true
@@ -12,21 +10,8 @@
 - name: Figma でフレームを作成
   href: ../creating-a-frame-in-figma.md
   new: true
-- name: Sketch でアートボードを作成
-  href: ../creating-artboard-sketch.md
-- name: Adobe XD でアートボードを作成
-  href: ../creating-artboard-adobexd.md
-- name: プラグイン
-  href: ../plugins/overview-plugins.md
-  new: true
-  items:
-    - name: Figma
-      href: ../plugins/figma-plugin.md
-      new: true
-    - name: Sketch
-      href: ../plugins/sketch-plugin.md
-    - name: Adobe XD
-      href: ../plugins/xd-plugin.md
+- name: Indigo.Design Figma プラグイン
+  href: ../plugins/figma-plugin.md
 - name: スタイル設定
   href: ../style/styling-overview.md
   updated: true
@@ -127,7 +112,7 @@
           href: ../components/grid-column-moving.md
         - name: 列サイズ変更
           href: ../components/grid-column-resizing.md
-        - name: 並べ替え
+        - name: ソート
           href: ../components/grid-sorting.md
         - name: 行フィルター
           href: ../components/grid-row-filter.md
@@ -163,8 +148,6 @@
       items:
         - name: List Item
           href: ../components/list-item.md
-        - name: Sketch の Custom List Item
-          href: ../components/list-custom.md
         - name: Skeleton List
           href: ../components/list-skeleton.md
     - name: Navbar
@@ -263,15 +246,9 @@
       href: ../patterns/user-profile.md
 - name: レイアウトのベスト プラクティス
   href: ../best-layout-practices.md
-  new: true
   items:
     - name: Figma のレスポンシブ レイアウト
       href: ../best-layout-practices-figma.md
-      new: true
-    - name: Sketch のレスポンシブ レイアウト
-      href: ../best-layout-practices-sketch.md
-    - name: Adobe XD のレスポンシブ レイアウト
-      href: ../best-layout-practices-xd.md
 - name: ライブラリを入れ替える方法
   href: ../how-to-swap-libraries.md
   new: true

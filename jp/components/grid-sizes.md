@@ -1,11 +1,11 @@
 ---
 title: Grid サイズ - グリッド機能
 _description: グリッド サイズは、さまざまな要素やコンテンツに対して、密でライトなレイアウトのバリアントを提供します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
-# Grid Size (グリッド サイズ)
+# Grid Size (グリッドのサイズ)
 
 Grid には、3 つのサイズがあります: Large、Medium、Small。Large バリアントは最も広々としたレイアウトを提供し、Small バリアントは最もコンパクトです。Grid サイズは、[Ignite UI for Angular Grid サイズ機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/display_density.html)と視覚的に同じものです。
 

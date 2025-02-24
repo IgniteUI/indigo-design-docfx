@@ -1,7 +1,7 @@
 ﻿---
 title: Skeleton Card - デザイン システム コンポーネント
 _description: Skeleton Card は、カードのコレクションにコンテンツを提供するためにデータがバックグラウンドで読み込まれているときに表示される Card コンポーネントです。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット, Figma HTML
 _language: ja
 ---
 
@@ -38,7 +38,7 @@ Skeleton Card は、標準の [Card](card.md) の `image` (画像)、`header` (�
 
 ## 操作
 
-スケルトン操作には、標準の [Card](card.md) と同じレイアウトがあります。また、Figma の自動レイアウトで定義されているため、右側のサイドバーの [Design] タブからタイプを選択できます。Sketch では、それらはスマート レイアウトで定義されており、要素を ~No Symbol に設定することで要素を削除し、残りを目的のレイアウトに自動的に調整できます。Adobe XD では、Stack を使用して不要なコンポーネントを削除する場合も同様です。
+スケルトン操作には、標準の [Card](card.md) と同じレイアウトがあります。また、Figma の自動レイアウトで定義されているため、右側のサイドバーの [Design] タブからタイプを選択できます。
 
 |                   |  	両端揃えの操作**オフ**                                             |  	両端揃えの操作**オン**                                             |
 | ----------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- |
@@ -49,7 +49,7 @@ Skeleton Card は、標準の [Card](card.md) の `image` (画像)、`header` (�
 
 ## Skeleton Card のレイアウト
 
-Sketch のスマート レイアウト、Figma の自動レイアウト、および Adobe XD の Stack を使用することで、Skeleton Card は特定の領域または要素を除外してさまざまなレイアウトを作成し、同じコンポーネントに基づいたさまざまなカードを最初に作成できます (標準の [Card](card.md) と同様の方法で)。
+Figma の自動レイアウトを使用することで、Skeleton Card は特定の領域または要素を除外してさまざまなレイアウトを作成し、同じコンポーネントに基づいたさまざまなカードを最初に作成できます (標準の [Card](card.md) と同様の方法で)。
 
 <img class="responsive-img" src="../images/card_skeleton_demo.png" srcset="../images/card_skeleton_demo@2x.png 2x" />
 

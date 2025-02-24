@@ -1,13 +1,13 @@
 ﻿---
 title: Navigation Drawer - デザイン システム コンポーネント
-_description: Navigation Drawer コンポーネント シンボルは、アプリケーション レベルでシンプルおよび複雑なナビゲーションのデザインをサポートします。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
+_description: Navigation Drawer コンポーネントは、アプリケーション レベルでシンプルおよび複雑なナビゲーションのデザインをサポートします。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
 # Navigation Drawer (ナビゲーション ドロワー)
 
-Navigation Drawer コンポーネント シンボルは、複数の項目と画面左に境界線を配置して関連ビュー間のブラウジングを可能にするアプリケーション レベル ナビゲーションを実装します。通常 [Navbar](navbar.md) と組み合わせて使用します。Navigation Drawer は、[Ignite UI for Angular Navigation Drawer コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/navdrawer.html)と視覚的に同じものです。
+Navigation Drawer コンポーネントは、複数の項目と画面左に境界線を配置して関連ビュー間のブラウジングを可能にするアプリケーション レベル ナビゲーションを実装します。通常 [Navbar](navbar.md) と組み合わせて使用します。Navigation Drawer は、[Ignite UI for Angular Navigation Drawer コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/navdrawer.html)と視覚的に同じものです。
 
 ## Navigation Drawer のデモ
 
@@ -22,13 +22,21 @@ Navigation Drawer は、各項目のアイコンとラベルが付いた **Defau
 
 ## 項目
 
-Navigation Drawer は、Sketch と Figma で最大 21 個の項目を表示できます。必要以上の項目がある場合は、Sketch のオーバーライド パネルから不要なものを ~No Symbol に設定するか、Figma のレイヤー パネルから非表示にすることで、その数を減らすことができます。Sketch のスマート レイアウトと Figma の自動レイアウトによって、残りは自動的に調整されます。Adobe XD では、不要な項目を削除するだけで、アイテムの数を減らすことができます。Sketch および Figma とは異なり、既存の項目を複製することで 21 を超える項目を持つことができ、ドラッグして順序を並べ替えることもできます。これらの操作の最後で、レイアウトは項目のコレクションに適用される Stack から調整されます。
+Navigation Drawer は、Figma で最大 21 個の項目を表示できます。必要以上の項目がある場合は、Figma のレイヤー パネルから不要な項目を非表示にして、その数を減らすことができます。Figma の自動レイアウトによって、残りは自動的に調整されます。
 
 <img class="responsive-img" src="../images/nav-drawer_default.png" srcset="../images/nav-drawer_default@2x.png 2x" />
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+
+Navigation Drawer は、ヘッダーと項目の 2 つのタイプの項目をサポートします。ヘッダーでグループの他の項目を体系化できます。
+
+<img class="responsive-img" src="../images/nav-drawer_item_and_header.png" srcset="../images/nav-drawer_item_and_header@2x.png 2x" />
+
 
 ## 項目の状態
 
-すべての Navigation Drawer 項目には、Active (アクティブ)、Inactive (非アクティブ)、または Hover (ホバー) の状態があります。Figma では、Disabled (無効) 状態も追加されています。Figma では、ネストされた Navigation Drawer Items に移動し、State プロパティから目的の状態を選択できます。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Figma では、`Icon` ブール値プロパティを使用してアイコンの表示/非表示を選択することもできます。Navigation Drawer では、画面の残りの部分に表示されるビューを示すために、一度に 1 つの項目のみをアクティブにすることができます。
+Figma では、すべての Navigation Drawer Item には、Active (アクティブ)、Inactive (非アクティブ)、Hover (ホバー)、または Disabled (無効) の状態があります。ネストされた Navigation Drawer Items に移動し、State プロパティから目的の状態を選択できます。`Icon` ブール値プロパティを使用してアイコンの表示/非表示を選択することもできます。Navigation Drawer では、画面の残りの部分に表示されるビューを示すために、一度に 1 つの項目のみをアクティブにすることができます。
 
 <img class="responsive-img" src="../images/nav-drawer_active.png" srcset="../images/nav-drawer_active@2x.png 2x" />
 `active`

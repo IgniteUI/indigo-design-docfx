@@ -1,7 +1,7 @@
 ---
 title: Navbar - デザイン システム コンポーネント
-_description: Navbar コンポーネント シンボルは、アプリケーション内のユーザーの現在の位置を通知してシンプルなナビゲーション メカニズムを提供します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
+_description: Navbar コンポーネントは、アプリケーション内のユーザーの現在の位置を通知してシンプルなナビゲーション メカニズムを提供します。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -22,7 +22,7 @@ Navbar はメイン コンテンツ領域に影を落として残りのコンテ
 
 ## コンテンツのレイアウト
 
-Navbar のコンテンツは、Left Action と Title (Figma の Left Action と Title が入った Content フレーム) で構成される左側の領域と、シンプルなイベントをトリガーする用の 最大 3 つの隣接するアイコン (またはアイコン ボタン) がある右側の領域に分割されます。Figma では、ブール値プロパティを使用して Nav Icon と Actions の表示を切り替えたり、ネストされた Icon と Icon Button コンポーネントに移動してアイコンを変更したり、レイヤー パネルから一部のアクションを非表示にしたりできます。その後、自動レイアウトによりコンテンツが自動的に調整されます。Sketch では、アクションのいずれかを ~No Symbol に設定することでレイアウトを構成できます。スマート レイアウトにより、残りの要素は自動的に調整されます。Adobe XD では、不要なコンポーネントを削除するだけで同じことができ、レイアウトは Stack から自動的に調整されます。さらに、Sketch とは異なり、Libraries パネルから追加のコンポーネントを挿入できます。たとえば、右端に Avatar を表示できます。
+Navbar のコンテンツは、Left Action と Title (Figma の Left Action と Title が入った Content フレーム) で構成される左側の領域と、シンプルなイベントをトリガーする用の 最大 3 つの隣接するアイコン (またはアイコン ボタン) がある右側の領域に分割されます。Figma では、ブール値プロパティを使用して Nav Icon と Actions の表示を切り替えたり、ネストされた Icon と Icon Button コンポーネントに移動してアイコンを変更したり、レイヤー パネルから一部のアクションを非表示にしたりできます。その後、自動レイアウトによりコンテンツが自動的に調整されます。
 
 <img class="responsive-img" src="../images/navbar_left&right.png" srcset="../images/navbar_left&right@2x.png 2x" />
 <img class="responsive-img" src="../images/navbar_noright.png" srcset="../images/navbar_noright@2x.png 2x" />

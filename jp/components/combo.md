@@ -1,7 +1,7 @@
 ---
 title: Combo - デザイン システム コンポーネント
 _description: Combo コンポーネント シンボルは、コレクションから単一項目を選択できます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット, Figma HTML
 _language: ja
 ---
 
@@ -20,7 +20,7 @@ Combo は 2 つのパーツに分かれます。現在の選択またはプレ�
 
 ## Combo Input タイプ
 
-Combo Input は線タイプ (エアリー スタイル)、境界線タイプ (単色背景でよりはっきりと表示)、より読みやすくするために鮮明な画像の上に配置する際に最適なボックス タイプから選択が可能です。Line スタイルは非推奨であるため、Figma では border と box のタイプのみを使用できます。
+Figma の Combo Input では border (枠線) タイプ (単色背景でよりはっきりと表示)と、より読みやすくするために鮮明な画像の上に配置する際に最適な box (ボックス) タイプから選択が可能です。
 
 | Border | Box |
 | ------- | ------- |
@@ -28,7 +28,7 @@ Combo Input は線タイプ (エアリー スタイル)、境界線タイプ (�
 
 ## 操作状態
 
-3 つの Combo Input タイプはそれぞれ、**有効**または**無効**の状態で挿入できます。Line スタイルは非推奨であるため、Figma では border と box のタイプのみを使用でき、プロパティ パネルから無効状態に切り替えることができます。
+2 つの Combo Input タイプはそれぞれ、**有効**または**無効**の状態で使用できます。Figma で使用可能な border と box タイプは、プロパティ パネルから無効な状態に切り替えることができます。
 
 <img class="responsive-img" src="../images/combo_enabledstate.png" srcset="../images/combo_enabledstate@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_disabledstate.png" srcset="../images/combo_disabledstate@2x.png 2x" />
@@ -47,10 +47,10 @@ Combo Input は線タイプ (エアリー スタイル)、境界線タイプ (�
 | ------- | ------- | ------- |
 | <img class="responsive-img" src="../images/combo_success.png" srcset="../images/combo_success@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_warning.png" srcset="../images/combo_warning@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_error.png" srcset="../images/combo_error@2x.png 2x" /> |
 
-Sketch では状態と検証状態を `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Figma では、状態の変更はプロパティ パネルで行います。
+Figma では、状態の変更はプロパティ パネルで行います。
 
 > [!Note]
-> Combo Input はレイアウト オプションが 1 つしかありませんが、このオーバーライドは、標準 [Input](input.md) との一貫性を確保するために Sketch で保持されています。Figma には、単一選択タイプと複数選択タイプの両方の Combo コンポーネントで明示的に使用される `.Combo Input` と呼ばれる別の基本コンポーネントがあります。Combo Input には、**オン**/**オフ**を切り替えることができる Prefix コンテナーがあります。
+> Figma には、単一選択タイプと複数選択タイプの両方の Combo コンポーネントで明示的に使用される `.Combo Input` と呼ばれる別の基本コンポーネントがあります。Combo Input には、**オン**/**オフ**を切り替えることができる Prefix コンテナーがあります。
 
 ## Dropdown タイプ
 
@@ -62,11 +62,11 @@ Combo に使用される Dropdown は、標準 [Dropdown](dropdown.md) コンポ
 
 ## Dropdown Search Input (ドロップダウン検索入力)
 
-Figma と Sketch では、Dropdown には、標準の [Input](input.md) と同様に、状態の選択とレイアウトのオプションが付属する Search Input が含まれています。
+Figma では、Dropdown には、標準の [Input](input.md) と同様に、状態の選択とレイアウトのオプションが付属する Search Input が含まれています。
 
 ## Dropdown Items (ドロップダウン項目)
 
-Combo に使用される Dropdown は、ヘッダーと複数選択項目の 2 種類の項目をサポートします。ヘッダーを介して、項目をグループに体系化できます。Figma では、Dropdown は、1 つまたは複数の項目がレイヤー パネルから非表示になると、レイアウトを調整する自動レイアウト オプションを利用します。Sketch で Dropdown はスマート レイアウトを使用しており、1 つ以上の項目が ~No Symbol に設定されている場合に応じて調整できます。Adobe XD では、不要なものを削除し、Stack を使用してレイアウトを調整します。
+Combo に使用される Dropdown は、ヘッダーと複数選択項目の 2 種類の項目をサポートします。ヘッダーを介して、項目をグループに体系化できます。Figma では、Dropdown は、1 つまたは複数の項目がレイヤー パネルから非表示になると、レイアウトを調整する自動レイアウト オプションを利用します。
 
 <img class="responsive-img" src="../images/combo_header.png" srcset="../images/combo_header@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_multiselect_item.png" srcset="../images/combo_multiselect_item@2x.png 2x" />

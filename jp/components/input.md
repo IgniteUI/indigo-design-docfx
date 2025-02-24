@@ -1,7 +1,7 @@
 ---
 title: Input - デザイン システム コンポーネント
-_description: Input コンポーネント シンボルは、文字列、数値、日付などユーザー データのコレクションが使用できます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Adobe XD, Adobe XD to Angular, Adobe XD からコードをエクスポート, Adobe XD to HTML, Adobe XD UI キット
+_description: Input コンポーネントは、文字列、数値、日付などユーザー データのコレクションが使用できます。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット
 _language: ja
 ---
 
@@ -15,7 +15,7 @@ Input コンポーネントを使用して、文字列、さまざまなコン�
 
 ## タイプ
 
-Sketch と Adobe XD の Input コンポーネントは、simple、ヘルパー テキスト付きの hint、searchbar、の 3 つのオプションからプリセットを選択できます。Figma では、hint (ブール値プロパティ) の有無にかかわらず単純な入力と、searchbar のどちらかを選択できます。
+Figma では、hint (ブール値プロパティ) の有無にかかわらず単純な入力と、searchbar のどちらかを選択できます。
 
 <img class="responsive-img" src="../images/input_simple.png" srcset="../images/input_simple@2x.png 2x" />
 `simple`
@@ -24,7 +24,7 @@ Sketch と Adobe XD の Input コンポーネントは、simple、ヘルパー �
 <img class="responsive-img" src="../images/input_searchbar.png" srcset="../images/input_searchbar@2x.png 2x" />
 `searchbar`
 
-Sketch と Adobe XD の hint と simple プリセットでは、3 つの異なるタイプから選択できます: より風通しの良い外観の line スタイル、無地の背景でより構造化された認識の border スタイル、および入力を鮮やかな画像の上に配置して、コンテンツの読みやすさを向上させる場合に最も適した boxed スタイルです。Line スタイルは非推奨であるため、Figma では border と box のタイプのみを使用できます。
+Figma では、3 つの異なるタイプから選択できます: 無地の背景でより構造化された認識の border スタイル、および入力を鮮やかな画像の上に配置して、コンテンツの読みやすさを向上させる場合に最も適した boxed スタイルです。
 
 <img class="responsive-img" src="../images/input_simple.png" srcset="../images/input_simple@2x.png 2x" />
 <img class="responsive-img" src="../images/input_border.png" srcset="../images/input_border@2x.png 2x" />
@@ -32,7 +32,7 @@ Sketch と Adobe XD の hint と simple プリセットでは、3 つの異な�
 
 ## 操作状態
 
-Sketch と Adobe XD では、これらの各プリセットを Enabled (有効) または Disabled (無効) の状態で挿入できます。Figma では、Input はデフォルトで Enabled 状態にあり、右側のプロパティ パネルから Disabled 状態に切り替えることができます。
+Figma では、Input はデフォルトで Enabled 状態にあり、右側のプロパティ パネルから Disabled 状態に切り替えることができます。
 
 <img class="responsive-img" src="../images/input_enabled.png" srcset="../images/input_enabled@2x.png 2x" />
 `enabled`
@@ -63,18 +63,18 @@ Input コンポーネントは、ユーザーの操作にあわせてさまざ�
 <img class="responsive-img" src="../images/input_error.png" srcset="../images/input_error@2x.png 2x" />
 `error`
 
-Sketch では、状態と検証状態は `Symbol Overrides` で達成されますが、Figma では、右側のプロパティ パネルの 「State」 プロパティを使用してそれらを切り替えることができます。Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+Figma では、右側のプロパティ パネルの 「State」 プロパティを使用して、状態とバリデーション状態を切り替えることができます。
 
 ## レイアウト
 
-Input には特定の場合に入力 (@email.com サフィックス) を軽減するテキストの Prefix/Suffix やアイコンをサポートします。これによりキーストロークを減らし、予期されるコンテンツを明確にすることができます。Figma では、Prefix または Suffix を削除するには、プロパティ パネルでオンまたはオフに切り替えます。Sketch で Prefix または Suffix を削除するには、オーバーライドを ~No Symbol に設定するだけで、スマート レイアウト ルールがそれに応じて入力を調整します。Adobe XD では、不要な Prefix または Suffix レイヤーを削除しても同じことができ、Stack はそれに応じてレイアウトを調整します。
+Input には特定の場合に入力 (@email.com サフィックス) を軽減するテキストの Prefix/Suffix やアイコンをサポートします。これによりキーストロークを減らし、予期されるコンテンツを明確にすることができます。Figma では、Prefix または Suffix を削除するには、プロパティ パネルでオンまたはオフに切り替えます。
 
 <img class="responsive-img" src="../images/input_prefix.png" srcset="../images/input_prefix@2x.png 2x" />
 <img class="responsive-img" src="../images/input_suffix.png" srcset="../images/input_suffix@2x.png 2x" />
 
 ## コンテンツ タイプ
 
-各 Input コンポーネントには、テキスト、電子メール、パスワード、電話番号、日付など、挿入される情報のタイプを指定する `Content Type` レイヤーが含まれています。入力フィールドにデータを入力後、対応する `Content Type` を設定して、デザインが正しく App Builder に解析されるようにすることが重要です。
+各 Input コンポーネントには、テキスト、電子メール、パスワード、電話番号、数値、日付など、挿入される情報のタイプを指定する `Content Type` レイヤーが含まれています。入力フィールドにデータを入力後、対応する `Content Type` を設定して、デザインが正しく App Builder に解析されるようにすることが重要です。
 
 ## スタイル設定
 

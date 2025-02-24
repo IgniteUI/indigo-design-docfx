@@ -1,7 +1,7 @@
 ---
 title: Calendar - デザイン システム コンポーネント
 _description: Calendar コンポーネント シンボルは、日付のビジュアル表現として使用され、日付の日、月、年の部分をナビゲートするために必要なメカニズムを提供します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -15,7 +15,7 @@ Calendar コンポーネントは、日付を視覚的に表示し、年と月�
 
 ## レイアウト
 
-Calendar は、一度に 1 か月を表示するのに適した Horizontal または Vertical のレイアウトで提供されますが、2 か月を並べて表示するための Multiview オプションもサポートしています。Figma では、「Orientation」 プロパティと 「Multiview」 ブール値プロパティ を使用してそれらの値を切り替えることができますが、Sketch と Adobe XD では、コンポーネントを挿入するときに方向とビューを選択する必要があります。
+Calendar は、一度に 1 か月を表示するのに適した Horizontal または Vertical のレイアウトで提供されますが、2 か月を並べて表示するための Multiview オプションもサポートしています。Figma では、「Orientation」 プロパティと 「Multiview」 ブール値プロパティ を使用してそれらの値を切り替えることができます。
 
 <img class="responsive-img" src="../images/calendar_horizontal.png" srcset="../images/calendar_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
@@ -24,7 +24,7 @@ Calendar は、一度に 1 か月を表示するのに適した Horizontal ま�
 
 ## コンテンツ
 
-主要な日付部分のそれぞれの表示を容易にするために、Figma には 「View」 プロパティがあり、Day (日)、Month (月)、または Year (年) のビューを選択できますが、Sketch および Adobe XD では、コンポーネントを挿入する前にこれを選択する必要があります。
+主要な日付部分のそれぞれの表示を容易にするために、Figma には 「View」 プロパティがあり、Day (日)、Month (月)、または Year (年) のビューを選択できます。
 
 <img class="responsive-img" src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_months.png" srcset="../images/calendar_months@2x.png 2x" />
@@ -32,20 +32,20 @@ Calendar は、一度に 1 か月を表示するのに適した Horizontal ま�
 
 ## 週のはじめ
 
-Figma では、週の開始日を 「Week Start」 プロパティから選択できます。これは、週の最初の曜日の最も一般的な 2 つのシナリオをサポートしています: 日曜日と月曜日。Sketch および Adobe XD では、これはカレンダーの挿入時にオプションとして表示されます。
+Figma では、週の開始日を 「Week Start」 プロパティから選択できます。これは、週の最初の曜日の最も一般的な 2 つのシナリオをサポートしています: 日曜日と月曜日。
 
 <img class="responsive-img" src="../images/calendar_sun.png" srcset="../images/calendar_sun@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
 
 ## Header (ヘッダー)
 
-Calendar には組み込み可能な Header があり、省略できます。Figma では、これは 「Header」 ブール値プロパティを使用して実現できます。Sketch でスマート レイアウトを使用すると、Header を ~No Symbol に設定できます。これにより、フォームにシームレスに埋め込むことができる基本の Calendar が作成されます。Adobe XD では、Header レイヤーを削除することで同じことができ、残りのレイアウトは自動的に調整されます。
+Calendar には組み込みヘッダーがあり、これを省略すると、シームレスにフォームへ埋め込むことができる基本カレンダーが作成されます。Figma では、これは 「Header」 ブール値プロパティを使用して実現できます。
 
 <img class="responsive-img" src="../images/calendar_base.png" srcset="../images/calendar_base@2x.png 2x" />
 
 ## Week Numbers (週番号)
 
-Calendar には週番号のサポートも組み込まれていますが、UI のこの部分を表示したくない場合は、Figma のプロパティ パネルから 「Week Numbers」 ブール値プロパティをオフにするか、Sketch で Week Numbers を ~No Symbol に設定するか、Adobe XD でレイヤーを削除します。
+Calendar には週番号のサポートも組み込まれていますが、UI のこの部分を表示したくない場合は、Figma のプロパティ パネルから 「Week Numbers」 ブール値プロパティをオフにします。
 
 <img class="responsive-img" src="../images/calendar_weeknum.png" srcset="../images/calendar_weeknum@2x.png 2x" />
 
