@@ -1,7 +1,7 @@
 ---
 title: Tabs - Design System Component
-_description: The Tabs Component Symbol is used to organize or switch between information.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_description: The Tabs Component is used to organize or switch between information.
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Tabs
@@ -14,21 +14,21 @@ Use the Tabs Component to organize different views of the same information or sw
 
 ## Size
 
-The Tabs are available in two sizes tall, showing icons with text, and short, containing either text or icons but not both at the same time.
+The Tabs are available in two sizes - Short, showing only text by default, with the option to have prefix and suffix icons, and Tall, which also has an additional third icon on top of the text. In Figma you can switch between the two sizes from the `Type` property on the right properties panel.
 
 <img class="responsive-img" src="../images/tabs_short.png" srcset="../images/tabs_short@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_tall.png" srcset="../images/tabs_tall@2x.png 2x" />
 
 ## Responsive
 
-The Tabs can be Content Fit to fill up the available horizontal space by adapting their width, or Fixed with scrolling buttons to navigate a large number of tab items. This allows fitting more content than what is normally possible with the other mode in the same total space.
+The Tabs can be Content Fit to fill up the available horizontal space by adapting their width, or Fixed with scrolling buttons to navigate a large number of tab items. This allows fitting more content than what is normally possible with the other mode in the same total space. In Figma you can switch between the two modes from the `Content` property on the right properties panel.
 
 <img class="responsive-img" src="../images/tabs_content_fit.png" srcset="../images/tabs_content_fit@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_fixed.png" srcset="../images/tabs_fixed@2x.png 2x" />
 
 ## Tabs Amount
 
-For most scenarios, the Tabs need to contain between two and five items. To remove an item in Sketch, set its override to ~No Symbol and the smart layout will adjust the remaining ones. To achieve the same in Adobe XD, you should delete the unnecessary items and the Stack will take care to lay out the remaining ones. If your use case requires more than five tabs, you should consider the Fixed mode explained above.
+For most scenarios, the Tabs need to contain between two and five items. To remove an item in Figma simply hide the nested Tab Item component from the layers panel and the added auto layout will adjust the content appropriately. If your use case requires more than five tabs, you should consider the Fixed mode explained above.
 
 <img class="responsive-img" src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
@@ -37,14 +37,14 @@ For most scenarios, the Tabs need to contain between two and five items. To remo
 
 ## Short Bar Content
 
-The short bar comes with text content by default. If you want to show an icon instead, you have to assign a Material Icon to the `🔣 Icon` override and set the `🏷️ Label` to ~No Symbol in Sketch for every tab in the bar. To achieve a similar result in Adobe XD make sure that either `🔣 Icon` or `🏷️ Label` layer exists and is visible, and the other one has been deleted for every tab in the bar.
+The Short Bar comes with text content by default. In Figma you can show/hide the label and the two icons by selecting all of the nested Tab Items and switching on/off the boolen properties `Label`, `Prefix Icon` and `Suffix Icon` from the properties panel.
 
 <img class="responsive-img" src="../images/tabs_text.png" srcset="../images/tabs_text@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_icons.png" srcset="../images/tabs_icons@2x.png 2x" />
 
 ## Tab Item State
 
-Tab items support Active, Inactive and Disabled states. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In Tabs there is always one Active tab and an arbitrary number of Inactive and Disabled ones.
+Tab Items support Active, Inactive , Active & Hover, Inactive & Hover and Disabled states. In Figma you can switch between them using the `State` property and the `Hover` boolean property from the properties panel. In Tabs there is always one Active tab and an arbitrary number of Inactive and Disabled ones.
 
 <img class="responsive-img" src="../images/tabs_state.png" srcset="../images/tabs_state@2x.png 2x" />
 

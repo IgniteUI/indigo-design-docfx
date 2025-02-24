@@ -1,7 +1,7 @@
 ﻿---
 title: User Profile - デザイン システム パターン
-_description: User Profile パターン シンボルは名前、属性、連絡先の情報などのユーザーに関連する情報を表示するコンポーネントを組み合わせます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_description: User Profile パターン コンポーネントは名前、属性、連絡先の情報などのユーザーに関連する情報を表示するコンポーネントを組み合わせます。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 

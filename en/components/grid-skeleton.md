@@ -1,7 +1,7 @@
 ---
 title: Skeleton Grid - Design System Component
 _description: The Skeleton Grid is a representation of a Grid component that is shown while data is being loaded in the background to provide content for its cells.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Skeleton Grid
@@ -14,36 +14,34 @@ Use the Skeleton Grid to layout the same type of information that you would in t
 
 ## Cell Types
 
-The Skeleton Grid supports the same three types of cells as the standard [Grid](grid.md): header, body, and summary.
+The Skeleton Grid supports the same three types of cells as the standard [Grid](grid.md): **Header**, **Body**, and **Summary**.
 
 <img class="responsive-img" src="../images/grid_skeleton_cell_header.png" srcset="../images/grid_skeleton_cell_header@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_body.png" srcset="../images/grid_skeleton_cell_body@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_summary.png" srcset="../images/grid_skeleton_cell_summary@2x.png 2x" />
 
-## Cell Display Density
+## Cell Size
 
-The Skeleton Header, Body, and Summary Cells support the same three display density variants as the standard [Grid](grid.md): comfortable, cosy, and compact.
+The Skeleton Header, Body, and Summary Cells support the same three size variants as the standard [Grid](grid.md): **Large**, **Medium** and **Small**.
 
-<img class="responsive-img" src="../images/grid_skeleton_cell_header_comfortable.png" srcset="../images/grid_skeleton_cell_header_comfortable@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_skeleton_cell_header_cosy.png" srcset="../images/grid_skeleton_cell_header_cosy@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_skeleton_cell_header_compact.png" srcset="../images/grid_skeleton_cell_header_compact@2x.png 2x" />
-
-## Items and Features (Header Cell)
-
-The Skeleton Grid supports the same feature configurations via the `Feature Left` and `Feature Right` overrides as the standard [Grid](grid.md).
-
-<img class="responsive-img" src="../images/grid_skeleton_cell_header_no-icon.png" srcset="../images/grid_skeleton_cell_header_no-icon@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_skeleton_cell_header_icon.png" srcset="../images/grid_skeleton_cell_header_icon@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_skeleton_cell_header_icons.png" srcset="../images/grid_skeleton_cell_header_icons@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_header_large.png" srcset="../images/grid_skeleton_cell_header_large@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_header_medium.png" srcset="../images/grid_skeleton_cell_header_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_header_small.png" srcset="../images/grid_skeleton_cell_header_small@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_body_large.png" srcset="../images/grid_skeleton_cell_body_large@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_body_medium.png" srcset="../images/grid_skeleton_cell_body_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_body_small.png" srcset="../images/grid_skeleton_cell_body_small@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_summary_large.png" srcset="../images/grid_skeleton_cell_summary_large@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_summary_medium.png" srcset="../images/grid_skeleton_cell_summary_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_skeleton_cell_summary_small.png" srcset="../images/grid_skeleton_cell_summary_small@2x.png 2x" />
 
 ## Cell Type
 
-The Skeleton Grid Header Cell provides presets for the Number and Text,Date,Bool types of data as the standard [Grid](grid.md).
+The Skeleton Grid Header Cell provides presets for the **Number** and **Text,Date,Bool** types of data as the standard [Grid](grid.md).
 
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_number.png" srcset="../images/grid_skeleton_cell_header_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_header_text.png" srcset="../images/grid_skeleton_cell_header_text@2x.png 2x" />
 
-The Skeleton Grid Body Cell provides presets for the same types of data like the Skeleton Grid Header Cell with an additional icon type to visualize simple graphics.
+The Skeleton Grid Body Cell provides presets for the same types of data like the Skeleton Grid Header Cell with an additional **Icon** type to visualize simple graphics.
 
 <img class="responsive-img" src="../images/grid_skeleton_cell_body_number.png" srcset="../images/grid_skeleton_cell_body_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_skeleton_cell_body_text.png" srcset="../images/grid_skeleton_cell_body_text@2x.png 2x" />

@@ -1,22 +1,29 @@
 ---
 title: Menu - デザイン システム パターン
-_description: Menu パターン シンボルはさまざまなコンポーネントを組み合わせ、eコマース、アプリケーション、Web サイトなどのさまざまなシナリオでナビゲーション バーを表示します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch から コードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_description: Menu パターン コンポーネントはさまざまなコンポーネントを組み合わせ、eコマース、アプリケーション、Web サイトなどのさまざまなシナリオでナビゲーション バーを表示します。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
 # Menu (メニュー)
 
-Menu シンボルは、ロゴ、メニュー項目、検索、さまざまなアクション、アカウント設定などの要素を含むアプリケーションまたは Web ページのナビゲーション バーを開発するためのプリセットとして使用します。
+Menu シンボル (コンポーネント) は、ロゴ、メニュー項目、検索、さまざまなアクション、アカウント設定などの要素を含むアプリケーションまたは Web ページのナビゲーション バーを開発するためのプリセットとして使用します。
 
 <img class="responsive-img" src="../images/menu.png" srcset="../images/menu@2x.png 2x" />
 
-## 方向
+## メニューのタイプ
 
-メニュー プリセットは、方向に従って Horizontal と Vertical にグループ化されます。
+メニューには、方向に応じて Horizontal (水平) と Vertical (垂直) の 2 つのタイプがあります。
 
 <img class="responsive-img" src="../images/menu_horizontal.png" srcset="../images/menu_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/menu_vertical.png" srcset="../images/menu_vertical@2x.png 2x" />
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+
+さらに、メニュー パターンには、Navigation Drawer コンポーネントと Bottom Navigation コンポーネントに基づくバリエーションも用意されています。
+
+<img class="responsive-img" src="../images/menu_1.png" srcset="../images/menu_1@2x.png 2x" />
 
 ## その他のリソース
 

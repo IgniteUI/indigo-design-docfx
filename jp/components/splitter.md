@@ -1,7 +1,7 @@
 ---
 title: Splitter - デザイン システム コンポーネント
-_description: Splitter コンポーネント シンボルは、サイズ変更、展開、および縮小が可能なペインに分割されたレイアウトを作成します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_description: Splitter コンポーネントは、サイズ変更、展開、および縮小が可能なペインに分割されたレイアウトを作成します。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -15,7 +15,7 @@ Splitter コンポーネントを使用して、垂直または水平に配置�
 
 ## 方向
 
-Splitter は、**Vertical (垂直方向)** と Horizontal (水平方向) の 2 つの方向をサポートします。垂直スプリッターはペインを水平方向に分割するために使用され、水平スプリッターはペインを垂直方向に分割するために使用されます。
+Splitter は、**Vertical (垂直方向)** と **Horizontal (水平方向)** の 2 つの方向をサポートします。垂直スプリッターはペインを水平方向に分割するために使用され、水平スプリッターはペインを垂直方向に分割するために使用されます。
 
 <img class="responsive-img" src="../images/splitter_orientation.png" srcset="../images/splitter_orientation@2x.png 2x" />
 

@@ -1,7 +1,7 @@
 ---
 title: Dropdown - デザイン システム コンポーネント
-_description: Dropdown コンポーネント シンボルは、コレクションから単一項目を選択できます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_description: Dropdown コンポーネントは、コレクションから単一項目を選択できます。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット
 _language: ja
 ---
 
@@ -13,37 +13,40 @@ Dropdown コンポーネントでは、ユーザーがスクロール可能な�
 
 <img class="responsive-img" src="../images/dropdown_demo.png" srcset="../images/dropdown_demo@2x.png 2x" />
 
-## 表示密度
+## サイズ
 
-Dropdown には 3 つの表示密度の選択肢があります: comfortable、cosy および compact です。
+Dropdown には 3 つのサイズがあります: Large、Medium および Small です。
 
-<img class="responsive-img" src="../images/dropdown_comfortable.png" srcset="../images/dropdown_comfortable@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_cosy.png" srcset="../images/dropdown_cosy@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_compact.png" srcset="../images/dropdown_compact@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_large.png" srcset="../images/dropdown_large@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_medium.png" srcset="../images/dropdown_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_small.png" srcset="../images/dropdown_small@2x.png 2x" />
 
 ## 項目
 
-Dropdown は、項目ヘッダーと項目の 2 つのタイプをサポートします。ヘッダーでグループの他の項目を体系化できます。
+Dropdown は、2 つのタイプをサポートします: header と item。ヘッダーでグループの他の項目を体系化できます。
 
 <img class="responsive-img" src="../images/dropdown_header.png" srcset="../images/dropdown_header@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item.png" srcset="../images/dropdown_item@2x.png 2x" />
 
 ## 項目の状態
 
-Dropdown 項目は、5 つの状態をサポートします: Disabled、**Idle**、Focused、Selected、Selected&focused。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+ドロップダウン項目は、**Idle (アイドル)**、**Hover (ホバー)**、**Disabled (無効)**、**Focused (フォーカス済み)**、**Selected (選択済み)**、**Selected & Hover (選択済みおよびホバー)**、**Selected & Focused (選択済みおよびフォーカス済み)** の 7 つの異なる状態をサポートしています。Figma では、状態は `State` プロパティおよび/または Selected と Disabled のブール値プロパティを変更することで異なるバリアントを実現できます。
 
-<img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_hover.png" srcset="../images/dropdown_item_hover@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_focused.png" srcset="../images/dropdown_item_focused@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_item_selected_hover.png" srcset="../images/dropdown_item_selected_hover@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" />
 
 ## 項目レイアウト テンプレート
 
-Dropdown Item は柔軟なアイコンとラベルのテンプレートをサポートします。Sketch でアイコンを表示するには、オーバーライドを Icon/Medium に設定し、スマート レイアウト ルールが項目レイアウトを自動的に調整します。Adobe XD では、アイコン レイヤーを表示し、Stack に配置してレイアウトを自動的に調整することで同じことが可能ですが、コンテンツにアイコンのある項目が必要ない場合は、アイコン レイヤーを削除します。
+Dropdown Item は柔軟なアイコンとラベルのテンプレートをサポートします。Figma では、1 つ以上の項目を選択し、`Prefix Icon` および/または `Suffix Icon` プロパティを有効にすることで、Dropdown にプレフィックス アイコンとサフィックス アイコンを追加できます。
 
 <img class="responsive-img" src="../images/dropdown_item_label.png" srcset="../images/dropdown_item_label@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item_icon.png" srcset="../images/dropdown_item_icon@2x.png 2x" /> 
+<img class="responsive-img" src="../images/dropdown_item_two_icons.png" srcset="../images/dropdown_item_two_icons@2x.png 2x" /> 
 
 ## スタイル設定
 

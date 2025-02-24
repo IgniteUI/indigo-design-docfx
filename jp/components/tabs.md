@@ -1,7 +1,7 @@
 ---
 title: Tabs - デザイン システム コンポーネント
-_description: Tabs コンポーネント シンボルは、情報の体系化や切り替えに使用されます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_description: Tabs コンポーネントは、情報の体系化や切り替えに使用されます。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -15,21 +15,21 @@ Tabs コンポーネントは、同じ情報を異なるビューに体系化、
 
 ## サイズ
 
-Tabs には 2 つのサイズがあります: 高さのあるテキストを使用したアイコン、または短いテキストやアイコンを含みますが、同時に両方を含むことはないサイズです。
+Tabs には 2 つのサイズがあります。Short はデフォルトでテキストのみを表示し、オプションでプレフィックス アイコンとサフィックス アイコンを表示できます。Tall はさらに、テキストの上に 3 つ目のアイコンを追加できます。Figma では、右側のプロパティ パネルの `Type` プロパティから 2 つのサイズを切り替えることができます。
 
 <img class="responsive-img" src="../images/tabs_short.png" srcset="../images/tabs_short@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_tall.png" srcset="../images/tabs_tall@2x.png 2x" />
 
 ## レスポンシブ
 
-Tabs は、幅を調整することで使用可能な水平方向のスペースを埋めるために Content Fit にすることも、スクロール ボタンを使用して多数のタブ項目をナビゲートすることで固定することもできます。これにより、同じ合計スペースで他のモードで通常可能なコンテンツよりも多くのコンテンツを入れることができます。
+Tabs は、幅を調整することで使用可能な水平方向のスペースを埋めるために Content Fit にすることも、スクロール ボタンを使用して多数のタブ項目をナビゲートすることで固定することもできます。これにより、同じ合計スペースで他のモードで通常可能なコンテンツよりも多くのコンテンツを入れることができます。Figma では、右側のプロパティ パネルの `Content` プロパティから 2 つのモードを切り替えることができます。
 
 <img class="responsive-img" src="../images/tabs_content_fit.png" srcset="../images/tabs_content_fit@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_fixed.png" srcset="../images/tabs_fixed@2x.png 2x" />
 
 ## Tabs の量
 
-ほとんどのケースでは、Tabs に 2 つ ~ 5 つ の項目を含める必要があります。Sketch で項目を削除するには、オーバーライドを ~No Symbol に設定し、スマート レイアウトは残りの項目を調整します。Adobe XD で同じことを実行するには、不要な項目を削除し、Stack は残りの項目を配置します。ユースケースで 5 つ以上のタブが必要な場合、上記で説明した Fixed モードを検討してください。
+ほとんどのケースでは、Tabs に 2 つ ~ 5 つ の項目を含める必要があります。Figma で項目を削除するには、ネストされた Tab 項目 コンポーネントをレイヤー パネルから非表示にするだけで、追加された自動レイアウトによってコンテンツが適切に調整されます。ユースケースで 5 つ以上のタブが必要な場合、上記で説明した Fixed モードを検討してください。
 
 <img class="responsive-img" src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
@@ -38,14 +38,14 @@ Tabs は、幅を調整することで使用可能な水平方向のスペース
 
 ## 短いバー コンテンツ
 
-短いバーにはデフォルトでテキスト コンテンツが含まれます。代わりにアイコンを表示する場合は、Material Icon を `🔣 Icon` オーバーライドに割り当て、バーのすべてのタブで `🏷️ Label` を ~No Symbol に設定する必要があります。Adobe XD で同様の結果を得るには、`🔣 Icon` または `🏷️ Label` レイヤーが存在し、表示されていることと、バーのすべてのタブでもう 1 つが削除されていることを確認してください。
+Short Bar にはデフォルトでテキスト コンテンツが含まれます。Figma では、ネストされたタブ項目をすべて選択し、プロパティ パネルからブール値プロパティ `Label`、`Prefix Icon`、`Suffix Icon` をオン/オフすることで、ラベルと 2 つのアイコンを表示/非表示にすることができます。
 
 <img class="responsive-img" src="../images/tabs_text.png" srcset="../images/tabs_text@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_icons.png" srcset="../images/tabs_icons@2x.png 2x" />
 
 ## タブ項目の状態
 
-タブ項目は、Active、Inactive、および Disabled の状態をサポートします。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。Tabs には、常に 1 つのアクティブなタブと、任意の数の非アクティブおよび無効なタブがあります。
+タブ項目は、Active (アクティブ)、Inactive (非アクティブ)、Active & Hover (アクティブおよびホバー)、Inactive & Hover (非アクティブおよびホバー)、Disabled (無効) の状態をサポートします。Figma では、プロパティ パネルの `State` プロパティと `Hover` ブール値プロパティを使用して、これらの状態を切り替えることができます。Tabs には、常に 1 つのアクティブなタブと、任意の数の非アクティブおよび無効なタブがあります。
 
 <img class="responsive-img" src="../images/tabs_state.png" srcset="../images/tabs_state@2x.png 2x" />
 

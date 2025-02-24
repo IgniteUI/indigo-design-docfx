@@ -2,8 +2,6 @@
   header: true
 - name: はじめに
   href: ../getting-started.md
-- name: ビデオ チュートリアル
-  href: ../video-tutorials.md
 - name: クイック ヒント
   href: ../quick-tips.md
   new: true
@@ -12,56 +10,40 @@
 - name: Figma でフレームを作成
   href: ../creating-a-frame-in-figma.md
   new: true
-- name: Sketch でアートボードを作成
-  href: ../creating-artboard-sketch.md
-- name: Adobe XD でアートボードを作成
-  href: ../creating-artboard-adobexd.md
-- name: プラグイン
-  href: ../plugins/overview-plugins.md
-  new: true
-  items:
-    - name: Figma
-      href: ../plugins/figma-plugin.md
-      new: true
-    - name: Sketch
-      href: ../plugins/sketch-plugin.md
-    - name: Adobe XD
-      href: ../plugins/xd-plugin.md
+- name: Indigo.Design Figma プラグイン
+  href: ../plugins/figma-plugin.md
 - name: スタイル設定
   href: ../style/styling-overview.md
   updated: true
   items:
     - name: Colors
       href: ../style/colors.md
-      updated: true
     - name: Elevation
       href: ../style/elevation.md
-      updated: true
     - name: Material Icons
       href: ../style/material-icons.md
-      updated: true
     - name: Typography
       href: ../style/typography.md
-      updated: true
     - name: Illustrations
       href: ../style/illustrations.md
-      updated: true
 - name: コンポーネント
   href: ../components/components-overview.md
   items:
+    - name: Accordion
+      href: ../components/accordion.md
+      new: true
     - name: Avatar
       href: ../components/avatar.md
     - name: Badge
       href: ../components/badge.md
     - name: Banner
       href: ../components/banner.md
-      new: true
     - name: Bottom Navigation
       href: ../components/bottom-nav.md
-    - name: Button Group
-      href: ../components/button-group.md
     - name: Button
       href: ../components/button.md
+    - name: Button Group
+      href: ../components/button-group.md
     - name: Calendar
       href: ../components/calendar.md
     - name: Card
@@ -71,7 +53,7 @@
           href: ../components/card-skeleton.md
     - name: Carousel
       href: ../components/carousel.md
-    - name: Charts
+    - name: チャート
       items:
         - name: Column Chart
           href: ../components/column-chart.md
@@ -79,12 +61,33 @@
           href: ../components/line-chart.md
         - name: Spline Chart
           href: ../components/spline-chart.md
-        - name: Step Line Chart
-          href: ../components/step-line-chart.md
+        - name: Step Chart
+          href: ../components/step-chart.md
+        - name: Pie Chart
+          href: ../components/pie-chart.md
         - name: Skeleton Charts
           href: ../components/skeleton-charts.md
+    - name: Checkbox
+      href: ../components/checkbox.md
+    - name: Chip と Chips Area
+      href: ../components/chips.md
+    - name: Combo
+      href: ../components/combo.md
+      items:
+        - name: Simple Combo
+          href: ../components/simple-combo.md
           new: true
-    - name: Gauges
+    - name: Date Picker
+      href: ../components/date-picker.md
+    - name: Dialog
+      href: ../components/dialog.md
+    - name: Divider
+      href: ../components/divider.md
+    - name: Dropdown
+      href: ../components/dropdown.md
+    - name: Expansion Panel
+      href: ../components/expansion-panel.md
+    - name: ゲージ
       items:
         - name: Bullet Graph
           href: ../components/bullet-graph.md
@@ -92,30 +95,11 @@
           href: ../components/linear-gauge.md
         - name: Radial Gauge
           href: ../components/radial-gauge.md
-    - name: Checkbox
-      href: ../components/checkbox.md
-    - name: Chip と Chips Area
-      href: ../components/chips.md
-    - name: Combo
-      href: ../components/combo.md
-    - name: Date Picker
-      href: ../components/date-picker.md
-    - name: Dialog
-      href: ../components/dialog.md
-    - name: Divider
-      href: ../components/divider.md
-      new: true
-    - name: Dropdown
-      href: ../components/dropdown.md
-    - name: Expansion Panel
-      href: ../components/expansion-panel.md
-      new: true
     - name: Grid
       href: ../components/grid.md
       items:
         - name: ツールバー
           href: ../components/grid-toolbar.md
-          updated: true
         - name: エクスポート
           href: ../components/grid-export.md
         - name: グループ化
@@ -128,7 +112,7 @@
           href: ../components/grid-column-moving.md
         - name: 列サイズ変更
           href: ../components/grid-column-resizing.md
-        - name: 並べ替え
+        - name: ソート
           href: ../components/grid-sorting.md
         - name: 行フィルター
           href: ../components/grid-row-filter.md
@@ -136,13 +120,12 @@
           href: ../components/grid-excel-style-filter.md
         - name: Grid 高度なフィルター
           href: ../components/grid-advanced-filter.md
-          new: true
         - name: 行選択
           href: ../components/grid-row-selection.md
         - name: 編集
           href: ../components/grid-editing.md
-        - name: 表示密度
-          href: ../components/grid-display-density.md
+        - name: サイズ
+          href: ../components/grid-sizes.md
         - name: ページング
           href: ../components/grid-paging.md
         - name: 集計
@@ -165,8 +148,6 @@
       items:
         - name: List Item
           href: ../components/list-item.md
-        - name: Sketch の Custom List Item
-          href: ../components/list-custom.md
         - name: Skeleton List
           href: ../components/list-skeleton.md
     - name: Navbar
@@ -177,29 +158,35 @@
       href: ../components/progress.md
     - name: Radio Group
       href: ../components/radio-group.md
+    - name: Rating
+      href: ../components/rating.md
+      new: true
     - name: Select
       href: ../components/select.md
-      new: true
     - name: Slider
       href: ../components/slider.md
     - name: Snackbar
       href: ../components/snackbar.md
     - name: Splitter
       href: ../components/splitter.md
-      new: true
+    - name: Stepper
+      href: ../components/stepper.md
+      new: true  
     - name: Switch
       href: ../components/switch.md
     - name: Tabs
       href: ../components/tabs.md
     - name: Text Area
       href: ../components/textarea.md
-      new: true
     - name: Time Picker
       href: ../components/time-picker.md
     - name: Toast
       href: ../components/toast.md
     - name: Tooltip
       href: ../components/tooltip.md
+    - name: Tree
+      href: ../components/tree.md
+      new: true
     - name: Tree Grid
       href: ../components/tree-grid.md
       items:
@@ -207,6 +194,7 @@
           href: ../components/tree-grid-skeleton.md
 - name: パターン
   href: ../patterns/patterns-overview.md
+  updated: true
   items:
     - name: Audio / Video
       href: ../patterns/av.md
@@ -258,15 +246,9 @@
       href: ../patterns/user-profile.md
 - name: レイアウトのベスト プラクティス
   href: ../best-layout-practices.md
-  new: true
   items:
     - name: Figma のレスポンシブ レイアウト
       href: ../best-layout-practices-figma.md
-      new: true
-    - name: Sketch のレスポンシブ レイアウト
-      href: ../best-layout-practices-sketch.md
-    - name: Adobe XD のレスポンシブ レイアウト
-      href: ../best-layout-practices-xd.md
 - name: ライブラリを入れ替える方法
   href: ../how-to-swap-libraries.md
   new: true

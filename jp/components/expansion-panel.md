@@ -1,7 +1,7 @@
 ---
 title: Expansion Panel - デザイン システム コンポーネント
 _description: Expansion Panel コンポーネントは、詳細を表示および非表示にする組み込み機能を備えた概要ビューを提供します。 
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -17,7 +17,7 @@ Expansion Panel は、[Ignite UI for Angular Expansion Panel コンポーネン�
 
 ## Header State (ヘッダーの状態)
 
-Expansion Panel のヘッダーは、**Active (有効)** および Disabled (無効) 状態になります。Figma の Disabled ブール演算、Sketch の Overrides (オーバーライド) パネル、および Adobe XD の右パネルの States (状態) セクションを使用して、それらを切り替えることができます。
+Expansion Panel のヘッダーは、**Active (有効)** および Disabled (無効) 状態になります。Figma の Disabled ブール演算を使用して、それらを切り替えることができます。
 
 <img class="responsive-img" src="../images/expansion_panel_active.png" srcset="../images/expansion_panel_active@2x.png 2x" />
 `Active`
@@ -27,7 +27,7 @@ Expansion Panel のヘッダーは、**Active (有効)** および Disabled (無
 
 ## Header Layout (ヘッダーのレイアウト)
 
-Expansion Panel の Header Layout は、Left Expansion Panel Icon (左側の拡張パネル アイコン)、Title (タイトル) と Description (説明) を含む Content (コンテンツ)、および Right Expansion Panel Icon (右側の拡張パネル アイコン) で構成されます。Figma には、レイアウトを変更できる Icon プロパティと Description プロパティがあります。デフォルトでは、Right Expansion Panel アイコンは Sketch で ~No Symbol に設定されており、Adobe XD では非表示になっています。Left Expansion Panel Icon と Content は、Sketch ではスマートなレイアウトになっており、Adobe XD では Stack を形成します。つまり、Icon が非表示になっている場合、Content は自動的に左に移動します。ただし、そうする場合は、Right Expansion Panel Icon を表示し、左側のアイコンを Sketch で ~No Symbol に設定するか、Adobe XD で削除することを忘れないでください。
+Expansion Panel の Header Layout は、Left Expansion Panel Icon (左側の拡張パネル アイコン)、Title (タイトル) と Description (説明) を含む Content (コンテンツ)、および Right Expansion Panel Icon (右側の拡張パネル アイコン) で構成されます。Figma には、レイアウトを変更できる Icon プロパティと Description プロパティがあります。
 
 <img class="responsive-img" src="../images/expansion_panel_header1.png" srcset="../images/expansion_panel_header1@2x.png 2x" />
 <img class="responsive-img" src="../images/expansion_panel_header2.png" srcset="../images/expansion_panel_header2@2x.png 2x" />

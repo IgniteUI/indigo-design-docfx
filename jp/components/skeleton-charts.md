@@ -1,7 +1,7 @@
 ---
 title: Skeleton Charts - デザイン システム コンポーネント
 _description: Skeleton Charts は、シリーズのコンテンツを提供するためにデータがバックグラウンドで読み込まれているときに表示されるさまざまな Chart コンポーネントの表現です。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch から コードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -15,11 +15,15 @@ Skeleton Charts を使用して、標準の情報と同じタイプの情報を�
 
 ## チャート
 
-Column Chart の他に、Line、Spline、および Step Line の Skeleton バリアントがあります。
+Column Chart の他に、Line、Spline、Step Line および Pie Chart の Skeleton バリアントがあります。
 
 <img class="responsive-img" src="../images/skeleton_charts_line.png" srcset="../images/skeleton_charts_line@2x.png 2x" />
+<div class="divider--half"></div>
 <img class="responsive-img" src="../images/skeleton_charts_spline.png" srcset="../images/skeleton_charts_spline@2x.png 2x" />
+<div class="divider--half"></div>
 <img class="responsive-img" src="../images/skeleton_charts_step.png" srcset="../images/skeleton_charts_step@2x.png 2x" />
+<div class="divider--half"></div>
+<img class="responsive-img" src="../images/skeleton_charts_pie.png" srcset="../images/skeleton_charts_pie@2x.png 2x" />
 
 ## Title (タイトル)
 
@@ -38,7 +42,9 @@ Skeleton Charts には、シリーズの量が最初は利用できないため�
 Skeleton Line、Spline、および Step チャートには、データバインドのチャートと同様に、折れ線の代わりに領域を表示するオプションがあります。
 
 <img class="responsive-img" src="../images/skeleton_charts_linearea.png" srcset="../images/skeleton_charts_linearea@2x.png 2x" />
+<div class="divider--half"></div>
 <img class="responsive-img" src="../images/skeleton_charts_splinearea.png" srcset="../images/skeleton_charts_splinearea@2x.png 2x" />
+<div class="divider--half"></div>
 <img class="responsive-img" src="../images/skeleton_charts_steparea.png" srcset="../images/skeleton_charts_steparea@2x.png 2x" />
 
 ## 使用方法
@@ -56,8 +62,9 @@ Skeleton Line、Spline、および Step チャートには、データバイン�
 
 - [Line Chart](line-chart.md)
 - [Spline Chart](spline-chart.md)
-- [Step Line Chart](step-line-chart.md)
+- [Step Chart](step-chart.md)
 - [Column Chart](column-chart.md)
+- [Pie Chart](pie-chart.md)
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。

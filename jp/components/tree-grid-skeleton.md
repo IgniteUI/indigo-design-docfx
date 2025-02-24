@@ -1,7 +1,7 @@
 ---
 title: Skeleton Tree Grid - デザイン システム コンポーネント
 _description: Skeleton Tree Grid は、階層データがバックグラウンドで読み込まれているときに表示される Tree Grid コンポーネントであり、セルに表形式でコンテンツを提供します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -19,17 +19,17 @@ Skeleton Tree Grid は、Header、Body、Summary の 3 種類のスケルトン 
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_column_cell.png" srcset="../images/tree_grid_skeleton_column_cell@2x.png 2x" />
 
-## セルの表示密度
+## セル サイズ
 
-Skeleton Tree Grid の TreeColumn セルは、標準の [Tree Grid](tree-grid.md) と同じ 3 つの表示密度バリアント (comfortable、cosy、compact) をサポートします。
+Skeleton Tree Grid の TreeColumn セルは、標準の [Tree Grid](tree-grid.md) と同じ 3 つのサイズ バリアント (Large、Medium、Small) をサポートします。
 
-<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_comfortable.png" srcset="../images/tree_grid_skeleton_column_cell_comfortable@2x.png 2x" />
-<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_cosy.png" srcset="../images/tree_grid_skeleton_column_cell_cosy@2x.png 2x" />
-<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_compact.png" srcset="../images/tree_grid_skeleton_column_cell_compact@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_large.png" srcset="../images/tree_grid_skeleton_column_cell_large@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_medium.png" srcset="../images/tree_grid_skeleton_column_cell_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_small.png" srcset="../images/tree_grid_skeleton_column_cell_small@2x.png 2x" />
 
 ## セルの深さ
 
-Skeleton Tree Grid の TreeColumn セルは、データ階層のレベルについて、標準の [Tree Grid](tree-grid.md) と同じ視覚的表示をサポートします。これは、Root Level、Child Level、または Grandchild Level です。Sketch ではこれを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して状態を切り替えることができます。
+Skeleton Tree Grid の TreeColumn セルは、データ階層のレベルについて、標準の [Tree Grid](tree-grid.md) と同じ視覚的表示をサポートします。これは、Root Level、Child Level、または Grandchild Level です。Column 1 からセルを選択した後、Figma でそれらを切り替えるには、レイヤー パネルでその内部のレベル ベース コンポーネントに移動し、`Level` プロパティを使用します。
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_cell_body_root_level.png" srcset="../images/tree_grid_skeleton_cell_body_root_level@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_skeleton_cell_body_child_level.png" srcset="../images/tree_grid_skeleton_cell_body_child_level@2x.png 2x" />
@@ -37,14 +37,14 @@ Skeleton Tree Grid の TreeColumn セルは、データ階層のレベルにつ�
 
 ## Grid タイプ
 
-Skeleton Tree Grid は、3 つの表示密度をサポートし、データの読み込み状態に関してそれぞれのバリエーションを提供します: Tree Grid がデータを読み込むとき、拡張されたルート レベルの行がない場合に表示される Initial と、ルート レベルが展開され、その子のデータの読み込みを開始すると表示される Expand。
+Skeleton Tree Grid は、3 つのサイズをサポートし、データの読み込み状態に関してそれぞれのバリエーションを提供します: Tree Grid がデータを読み込むとき、拡張された Root Level の行がない場合に表示される Initial と、Root Level が展開され、その子のデータの読み込みを開始すると表示される Expand。
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_initial.png" srcset="../images/tree_grid_skeleton_initial@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_skeleton_expand.png" srcset="../images/tree_grid_skeleton_expand@2x.png 2x" />
 
 ## 使用方法
 
-ツリー グリッドを作成するときは、同じ階層レベル内で標準セルとスケルトン セルを組み合わせないでください。データは、特定のレベルのすべての行とセルに存在するか、いずれにも存在しません。標準セルとスケルトン セルの組み合わせは、上記で説明したプリセットなど、非常に限られたユース ケースのセットでのみ適切です。
+Tree Grid を作成するときは、同じ階層レベル内で標準セルとスケルトン セルを組み合わせないでください。データは、特定のレベルのすべての行とセルに存在するか、いずれにも存在しません。標準セルとスケルトン セルの組み合わせは、上記で説明したプリセットなど、非常に限られたユース ケースのセットでのみ適切です。
 
 | 良い例                                                                                                | 悪い例                                                                                                 |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |

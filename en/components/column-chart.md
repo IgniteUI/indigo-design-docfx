@@ -1,47 +1,47 @@
 ---
 title: Column Chart - Design System Component
-_description: The Column Chart Component Symbol is used to quickly compare frequency, count, total, or average of data in different categories with data encoded by vertical bars with equal width and differing lengths.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
+_description: The Column Chart Component is used to quickly compare frequency, count, total, or average of data in different categories with data encoded by vertical bars with equal width and differing lengths.
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Column Chart
 
- The Column Chart is among the most common chart types used to quickly compare frequency, count, total, or average of data in different categories with data encoded by vertical bars of equal width and differing heights. They are ideal for showing variations in the value of an item over time. Data is represented using a collection of rectangles that extend from the bottom to the top of the chart towards the values of data points.
+ The Column Chart is among the most common chart types used to quickly compare frequency, count, total, or average of data in different categories with data encoded by vertical bars of equal width and differing heights. They are ideal for showing variations in the value of an item over time. Data is represented using a collection of rectangles that extend from the bottom to the top of the chart towards the values of data points. The Column Chart is visually identical to the [Ignite UI for Angular Column Chart Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/charts/types/column-chart.html)
 
 ## Column Chart Demo
 
 <img class="responsive-img" src="../images/column_chart_demo.png" srcset="../images/column_chart_demo@2x.png 2x" />
 
-The Column Chart comprises of `Title`, a `Legend` that is hidden by default, and `Chart Area` available in Idle and Hover states.
+The Column Chart comprises of a `Title`, a `Legend` that is hidden by default, and a `Chart Area` available in Idle and Hover states.
 
 ## Title
 
-The Column Chart has a title that can be changed or hidden if not needed. In Sketch, the smart layout takes care to adjust the chart accordingly when you hide the title by setting it to ~No Symbol. In Adobe XD, you can achieve the same by deleting the title layer and leaving it to the Stack to update the layout accordingly.
+The Column Chart has a title that can be changed or hidden if not needed. In Figma you can hide the title by switching off the `Title` boolean property and thanks to the auto layout feature, the chart's layout will adjust itself accordingly.
 
-<img class="responsive-img" src="../images/column_chart_title.png" srcset="../images/column_chart_title@2x.png 2x" />
+<img class="responsive-img" src="../images/column_chart_no_title.png" srcset="../images/column_chart_no_title@2x.png 2x" />
 
 ## State
 
-The Column Chart has two states - Idle and Hover. In Figma you can switch between the two states by selecting the nested Chart Area component from the layers panel and switching on/off the boolean operation "Hover Tooltip" from the properties panel. In Sketch this is achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm to let you easily switch between states. In the Hover state a tooltip is shown upon hovering over a data point, which is then focused and the other columns are dimmed out.
+The Column Chart has two states - Idle and Hover. In Figma you can switch between the two states by selecting the nested Chart Area component from the layers panel and switching on/off the boolean property `Hover Tooltip` from the properties panel. In the Hover state a tooltip is shown upon hovering over a data point, which is then focused and the other columns are dimmed out.
 
 <img class="responsive-img" src="../images/column_chart_tooltip-off.png" srcset="../images/column_chart_tooltip-off@2x .png 2x" />
 <img class="responsive-img" src="../images/column_chart_tooltip-on.png" srcset="../images/column_chart_tooltip-on@2x.png 2x" />
 
 ## Y-Axis
 
-The Y-axis of the column chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and you can hide a label by simply selecting and hiding it from the layers panel in Figma, or setting its override to ~No Symbol in Sketch. In Adobe XD you should delete the layer. You may hide the axis line by setting its color to `Transparent` and to hide all elements at once, hide the nested Y axis component from the layers panel in Figma, change the Y-axis override to ~No Symbol in Sketch or delete its layer in Adobe XD.
+The Y-axis of the column chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and you can hide a label by simply selecting and hiding it from the layers panel in Figma. You may hide the axis line by setting its color to `Transparent`, and to hide all elements at once, hide the nested Y axis component from the layers panel in Figma.
 
 <img class="responsive-img" src="../images/column_chart_yaxis.png" srcset="../images/column_chart_yaxis@2x.png 2x" />
 
 ## Gridlines
 
-The Column Chart has built-in Gridlines to make it easier to visually trace a data point to a value on the Y-axis. In Figma you can show/hide them by selecting the nested Chart Area component and switching on/off the boolean property "Gridlines" from the properties panel. To hide them in Sketch and Adobe XD just set their color to `Transparent`.
+The Column Chart has built-in Gridlines to make it easier to visually trace a data point to a value on the Y-axis. In Figma you can show/hide them by selecting the nested Chart Area component and switching on/off the boolean property `Gridlines` from the properties panel.
 
 <img class="responsive-img" src="../images/column_chart_gridlines.png" srcset="../images/column_chart_gridlines@2x.png 2x" />
 
 ## Data Points
 
-Data Points for a Column Chart are the individual columns, arranged in an auto layout in Figma, in smart layout in Sketch or a Stack in Adobe XD, making it possible to effortlessly adjust their amount on the Chart Area. Furthermore, the columns come with configurable labels on the X-axis and annotation labels.
+Data Points for a Column Chart are the individual columns, arranged in an auto layout in Figma, making it possible to effortlessly adjust their amount on the Chart Area. In Figma you can easily adjust the columns' height by selecting the Column height frame and adjusting the vertical spacing between the items from the properties panel. Furthermore, the columns come with configurable labels on the X-axis and annotation labels.
 
 <img class="responsive-img" src="../images/column_chart_columns.png" srcset="../images/column_chart_columns@2x.png 2x" />
 
@@ -66,7 +66,7 @@ Related topic:
 
 - [Line Chart](line-chart.md)
 - [Spline Chart](spline-chart.md)
-- [Step Line Chart](step-line-chart.md)
+- [Step Chart](step-chart.md)
 - [Pie Chart](pie-chart.md)
 - [Skeleton Charts](skeleton-charts.md)
   <div class="divider--half"></div>

@@ -1,7 +1,7 @@
 ---
 title: Tooltip - Design System Component
-_description: The Tooltip Component Symbol displays additional informative text upon user interaction with a component.
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_description: The Tooltip Component displays additional informative text upon user interaction with a component.
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
 ---
 
 # Tooltip
@@ -11,13 +11,6 @@ Use the Tooltip Component to show additional information that describes another 
 ## Tooltip Demo
 
 <img class="responsive-img" src="../images/tooltip_demo.png" srcset="../images/tooltip_demo@2x.png 2x" />
-
-## Type
-
-The Tooltip comes in appropriate sizing for desktop and mobile usage.
-
-<img class="responsive-img" src="../images/tooltip_desktop.png" srcset="../images/tooltip_desktop@2x.png 2x" />
-<img class="responsive-img" src="../images/tooltip_mobile.png" srcset="../images/tooltip_mobile@2x.png 2x" />
 
 ## Styling
 

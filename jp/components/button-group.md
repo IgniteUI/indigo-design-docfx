@@ -1,7 +1,7 @@
 ﻿---
 title: Button Group - デザイン システム コンポーネント
 _description: Button Group コンポーネント シンボルは、同じコンセプトに属しているシンプルな操作を表すために使用します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -22,7 +22,7 @@ Button Group は、2 方向レイアウトをサポートし、左から右の�
 
 ## ボタン数
 
-Figma では、ボタン グループは自動レイアウトを使用しているため、必要なボタンの正確な数を選択し、レイヤー パネルでネストされた余分なボタンを非表示にすると、それに応じて調整されます。Sketch では、ボタン グループは Figma に似たスマート レイアウトを使用しているため、オーバーライド パネルから ~No Symbol に設定することで不要なボタンを非表示にすることができます。Adobe XD では、ボタンを使用して不要なレイヤーを削除するとレイアウトが自動的に調整されます。
+Figma では、ボタン グループは自動レイアウトを使用しているため、必要なボタンの正確な数を選択し、レイヤー パネルでネストされた余分なボタンを非表示にすると、それに応じて調整されます。
 
 <img class="responsive-img" src="../images/button-group_amount.png" srcset="../images/button-group_amount@2x.png 2x" />
 

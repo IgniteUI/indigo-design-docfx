@@ -1,7 +1,7 @@
 ---
 title: Card - Design System Component
 _description: The Card Component Symbol contains images and text outlining a single object, enhanced with relevant actions.
-_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits, Adobe XD, Adobe XD to Angular, Export code from Adobe XD, Adobe XD to HTML, Adobe XD UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma HTML
 ---
 
 # Card
@@ -37,8 +37,6 @@ The image area supports collection of nine variants: 6 continent maps for the po
 
 The Card header supports various layouts, including an Avatar Thumbnail, Title, and Subtitle elements.
 In Figma, the auto layout adjusts the card layout based on the selected properties for the `header` element from the side panel.
-In Sketch, the smart layout rules adjust the layout accordingly when you set the elements you want to hide to ~No Symbol.
-In Adobe XD, the use of a Stack lets you achieve the same when you delete unnecessary layers.
 
 <img class="responsive-img" src="../images/card_header.png" srcset="../images/card_header@2x.png 2x" />
 
@@ -52,23 +50,19 @@ The content supports a Paragraph for a short description text and an Array of sh
 
 ## Actions
 
-The Card actions come in six distinct layouts: **Button + Icon Actions** with two Flat Buttons and three Icons and the inverse **Icon + Button Actions** laid the other way around, as well as their Justified variants, and variants with only Justified Button Actions and Justified Icon Actions. Each of the six is defined as a variant with auto layout in Figma, letting you select the type from the Design tab in the right sidebar. In Sketch, Actions are defined as an override with a smart layout, letting you remove elements by setting them to ~No Symbol and have the rest automatically adjust to the desired layout. In Adobe XD, the same variety is available and you may also delete unnecessary layers with a layout that adjusts automatically thanks to the use of a Stack.
+- In **Figma**, the Card actions come in four different layouts: **Buttons+Icons**, the inverse **Icons+Buttons** both containing two Flat buttons and three Icons, and variants with **Only Buttons** and **Only Icons**. Every layout has a Justified variant which ensures that the elements are evenly spaced and are built with constraints for responsive behavior. The other four use auto layout for automatic layout adjustments. Additionally, there is a `Content Position` property that allows you to define the positions of the Buttons and Icons specifically for the **Only Buttons** and **Only Icons** variants.
 
-<img class="responsive-img" src="../images/card_actions_buttons_icons.png" srcset="../images/card_actions_buttons_icons@2x.png 2x" />
+|                   |  Justified Actions **Off**                                            |  Justified Actions **On**                                             |
+| ----------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Buttons + Icons   | <img class="responsive-img" src="../images/card_actions_buttons_icons.png" srcset="../images/card_actions_buttons_icons@2x.png 2x" /> | <img class="responsive-img" src="../images/card_actions_just_buttons_icons.png" srcset="../images/card_actions_just_buttons_icons@2x.png 2x" /> |
+| Icons + Buttons   | <img class="responsive-img" src="../images/card_actions_icons_buttons.png" srcset="../images/card_actions_icons_buttons@2x.png 2x" /> | <img class="responsive-img" src="../images/card_actions_just_icons_buttons.png" srcset="../images/card_actions_just_icons_buttons@2x.png 2x" /> |
+| Only Buttons      | <img class="responsive-img" src="../images/card_actions_buttons_right.png" srcset="../images/card_actions_buttons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_actions_buttons_left.png" srcset="../images/card_actions_buttons_left@2x.png 2x" /> | <img class="responsive-img" src="../images/card_actions_just_buttons_right.png" srcset="../images/card_actions_just_buttons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_actions_just_buttons_left.png" srcset="../images/card_actions_just_buttons_left@2x.png 2x" /> |
+| Only Icons        | <img class="responsive-img" src="../images/card_actions_icons_right.png" srcset="../images/card_actions_icons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_actions_icons_left.png" srcset="../images/card_actions_icons_left@2x.png 2x" /> | <img class="responsive-img" src="../images/card_actions_just_icons_right.png" srcset="../images/card_actions_just_icons_right@2x.png 2x" /> <div class="divider--half"></div> <img class="responsive-img" src="../images/card_actions_just_icons_left.png" srcset="../images/card_actions_just_icons_left@2x.png 2x" /> |
 
-<img class="responsive-img" src="../images/card_actions_icons_buttons.png" srcset="../images/card_actions_icons_buttons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_actions_just_buttons_icons.png" srcset="../images/card_actions_just_buttons_icons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_actions_just_buttons.png" srcset="../images/card_actions_just_buttons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_actions_just_icons_buttons.png" srcset="../images/card_actions_just_icons_buttons@2x.png 2x" />
-
-<img class="responsive-img" src="../images/card_actions_just_icons.png" srcset="../images/card_actions_just_icons@2x.png 2x" />
 
 ## Card Layout
 
-Through the use of auto layout in Figma, a smart layout in Sketch and a Stack in Adobe XD, the Card can produce various layouts by excluding certain areas or elements within them to support a variety of distinct cards based upon the same Component initially.
+Through the use of auto layout in Figma, the Card can produce various layouts by excluding certain areas or elements within them to support a variety of distinct cards based upon the same Component initially.
 
 <img class="responsive-img" src="../images/card_demo.png" srcset="../images/card_demo@2x.png 2x" />
 

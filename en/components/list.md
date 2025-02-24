@@ -1,7 +1,7 @@
 ---
 title: List - Design System Component
 _description: The List Component provides means to browse and interact with a vertical collection of rows of data.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
 ---
 
 # List
@@ -14,17 +14,18 @@ Use the List Component to let the user browse and interact with a continuous, ve
 
 ## Type
 
-The List can be inserted in a preset with one-line items or with two-line items, both initially containing ten items.
+The List can be inserted in a preset with One-line Item List or with Two-line Item List, both initially containing **ten** items.
 
 <img class="responsive-img" src="../images/list_one-line_item.png" srcset="../images/list_one-line_item@2x.png 2x" />
 <img class="responsive-img" src="../images/list_two-line_item.png" srcset="../images/list_two-line_item@2x.png 2x" />
 
-## Using the List in Sketch
+## Using the List in Figma
 
-The List is essentially a repeater of rows showing data as an indexed vertical collection of items. It uses Smart Layout for its items which makes it possible to adjust the size by setting one or more of the items to ~No Symbol. If you need to design a list with more items, the easiest way to do so is by inserting any of the List types on your artboard, right-click on top of it, and select the `Detach from Symbol` at the bottom of the contextual menu. In your layers panel under the newly appeared _List/One-line Item List_ or _List/Two-line Item List_ group, you should see the following:
+Lists are a continuous group of rows showing information containing primary data and secondary actions, represented by text and icons. In Figma, Auto Layout is used to create the list, which automatically adjusts the layout and spacing based on the content. If a list requires fewer items, the unnecessary items should be hidden manually. To design a list with more items, the List component needs to be detached by selecting `Detach Instance` from the contextual menu and then increasing the list items by duplicating an existing one. Always place List Items under their relative Headers with consistent horizontal width and alignment, and make sure there are no gaps between the items.
 
 | Layer         | Use                                                                                                                                                  |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🚫 componentVersion &nbsp;  | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
 | 🚫 metadata   | A special locked layer starting with a prohibited icon. This layer is required by the code generation and you should avoid deleting or modifying it. |
 | List Header   | An instance of a list header item                                                                                                                    |
 | 1 Item        | An instance of a one-line/two-line list item                                                                                                                  |
@@ -36,14 +37,7 @@ The List is essentially a repeater of rows showing data as an indexed vertical c
 | 7 Item        | An instance of a one-line/two-line list item                                                                                                                  |
 | 8 Item        | An instance of a one-line/two-line list item                                                                                                                  |
 | 9 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 10 Item        | An instance of a one-line/two-line list item                                                                                                                  |
-| 🌈 Background | Defines the background color of the list                                                                                                             |
-
-Now, you may insert additional headers or items either from the menu or simply by duplicating an existing one. Always place items and headers one after another with consistent horizontal width and alignment, making sure there are no gaps between the items.
-
-## Using the List in Adobe XD
-
-In Adobe XD, after you drag a List component on your artboard, you may reduce the number of items simply by deleting the unnecessary ones or increase it by duplicating one of the existing ones. The List lays out its items in a `Stack`, so when you add or remove items, they align and distribute vertically automatically. To change their position in the list, you need to drag them up or down to the desired position. Unlike Sketch, in Adobe XD destroying the symbol is not necessary.
+| 10 Item       | An instance of a one-line/two-line list item                                                                                                                  |
 
 ## Styling
 
@@ -68,7 +62,6 @@ Related topics:
 - [Avatar](avatar.md)
 - [Badge](badge.md)
 - [Checkbox](checkbox.md)
-- [Custom List Item in Sketch](list-custom.md)
 - [Icon](icon.md)
 - [List Item](list-item.md)
 - [Lists Pattern](../patterns/lists.md)

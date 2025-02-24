@@ -1,7 +1,7 @@
 ---
 title: Input - デザイン システム コンポーネント
-_description: Input コンポーネント シンボルは、文字列、数値、日付などユーザー データのコレクションが使用できます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_description: Input コンポーネントは、文字列、数値、日付などユーザー データのコレクションが使用できます。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット
 _language: ja
 ---
 
@@ -15,13 +15,16 @@ Input コンポーネントを使用して、文字列、さまざまなコン�
 
 ## タイプ
 
-Input では、3 つのオプション (プリセット) からプリセットを選択できます: 単純、ヘルパー テキストを含むヒント、および検索バー。
+Figma では、hint (ブール値プロパティ) の有無にかかわらず単純な入力と、searchbar のどちらかを選択できます。
 
 <img class="responsive-img" src="../images/input_simple.png" srcset="../images/input_simple@2x.png 2x" />
+`simple`
 <img class="responsive-img" src="../images/input_hint.png" srcset="../images/input_hint@2x.png 2x" />
+`hint`
 <img class="responsive-img" src="../images/input_searchbar.png" srcset="../images/input_searchbar@2x.png 2x" />
+`searchbar`
 
-ヒントとシンプルなプリセットは、3 つの異なるタイプから選択できます: 軽快な印象の外観を実現する線スタイル、単色背景でよりはっきりと表示する境界線スタイル、より読みやすくするために鮮明な画像の上に配置する際に最適なボックス スタイルです。
+Figma では、3 つの異なるタイプから選択できます: 無地の背景でより構造化された認識の border スタイル、および入力を鮮やかな画像の上に配置して、コンテンツの読みやすさを向上させる場合に最も適した boxed スタイルです。
 
 <img class="responsive-img" src="../images/input_simple.png" srcset="../images/input_simple@2x.png 2x" />
 <img class="responsive-img" src="../images/input_border.png" srcset="../images/input_border@2x.png 2x" />
@@ -29,42 +32,53 @@ Input では、3 つのオプション (プリセット) からプリセット�
 
 ## 操作状態
 
-各プリセットは、有効または無効の状態で挿入できます。
+Figma では、Input はデフォルトで Enabled 状態にあり、右側のプロパティ パネルから Disabled 状態に切り替えることができます。
 
 <img class="responsive-img" src="../images/input_enabled.png" srcset="../images/input_enabled@2x.png 2x" />
+`enabled`
 <img class="responsive-img" src="../images/input_disabled.png" srcset="../images/input_disabled@2x.png 2x" />
+`disabled`
 
 ## 状態
 
-ユーザーが Input とインタラクティブに操作する際にさまざまな状態を経由します。コンテンツの代わりにプレースホルダーがある **idle** (アイドル状態)、ユーザーが入力中の focused (フォーカス状態)、ユーザーがコンテンツの追加を完了して次に進むとき filled (塗りつぶし状態)。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
+Input コンポーネントは、ユーザーの操作にあわせてさまざまな状態を経ます。**Idle (アイドル)**: コンテンツの代わりにプレースホルダーを表示します。**Idle & Hover (アイドルおよびホバー)** は、ユーザーがカーソルを合わせたときに入力がアクティブであることを示します。**Filled (塗りつぶし済み)**: ユーザーがコンテンツを入力し、入力から移動した後に表示されます。**Filled & Hover (塗りつぶし済みおよびホバー)** - コンテンツが入力された後、ユーザーが入力の上にマウスを置いたときに入力がアクティブであることを示します。**Focused (フォーカス済み)** は、ユーザーがアクティブに入力を行っていることを視覚的に示します。
 
 <img class="responsive-img" src="../images/input_idle.png" srcset="../images/input_idle@2x.png 2x" />
 `idle`
-
+<img class="responsive-img" src="../images/input_idle&hover.png" srcset="../images/input_idle&hover@2x.png 2x" />
+`idle & hover`
+<img class="responsive-img" src="../images/input_filled.png" srcset="../images/input_filled@2x.png 2x" />
+`filled`
+<img class="responsive-img" src="../images/input_filled&hover.png" srcset="../images/input_filled&hover@2x.png 2x" />
+`filled & hover`
 <img class="responsive-img" src="../images/input_focused.png" srcset="../images/input_focused@2x.png 2x" />
 `focused`
 
-<img class="responsive-img" src="../images/input_filled.png" srcset="../images/input_filled@2x.png 2x" />
-`filled`
-
-経験豊富なデザイナーは、ユーザー入力を制限して無効な状態を防止するために、検証スタイルを使用します。検証スタイルは、Input で success (成功)、warning (警告)、error (エラー) を表示する洗練されたデザインを提供します。
+経験豊富なデザイナーは、ユーザー入力を制限して無効な状態を防止するために、検証スタイルを使用します。検証スタイルは、Input で Success (成功)、Warn (警告)、Error (エラー) を表示する洗練されたデザインを提供します。
 
 <img class="responsive-img" src="../images/input_success.png" srcset="../images/input_success@2x.png 2x" />
+`success`
 <img class="responsive-img" src="../images/input_warning.png" srcset="../images/input_warning@2x.png 2x" />
+`warn`
 <img class="responsive-img" src="../images/input_error.png" srcset="../images/input_error@2x.png 2x" />
+`error`
 
-Sketch では状態と検証状態を `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+Figma では、右側のプロパティ パネルの 「State」 プロパティを使用して、状態とバリデーション状態を切り替えることができます。
 
 ## レイアウト
 
-Input には特定の場合に入力 (@email.com サフィックス) を軽減するテキストのプレフィックス/サフィックスやアイコンをサポートします。これによりキーストロークを減らし、予期されるコンテンツを明確にすることができます。Sketch でプレフィックスまたはサフィックスを削除するには、オーバーライドを ~No Symbol に設定し、スマート レイアウト ルールはそれに応じて入力を調整します。Adobe XD では、不要なプレフィックスまたはサフィックス レイヤーを削除しても同じことができ、Stack はそれに応じてレイアウトを調整します。
+Input には特定の場合に入力 (@email.com サフィックス) を軽減するテキストの Prefix/Suffix やアイコンをサポートします。これによりキーストロークを減らし、予期されるコンテンツを明確にすることができます。Figma では、Prefix または Suffix を削除するには、プロパティ パネルでオンまたはオフに切り替えます。
 
 <img class="responsive-img" src="../images/input_prefix.png" srcset="../images/input_prefix@2x.png 2x" />
 <img class="responsive-img" src="../images/input_suffix.png" srcset="../images/input_suffix@2x.png 2x" />
 
+## コンテンツ タイプ
+
+各 Input コンポーネントには、テキスト、電子メール、パスワード、電話番号、数値、日付など、挿入される情報のタイプを指定する `Content Type` レイヤーが含まれています。入力フィールドにデータを入力後、対応する `Content Type` を設定して、デザインが正しく App Builder に解析されるようにすることが重要です。
+
 ## スタイル設定
 
-Input は、背景色や最終行の色、プレフィックス、サフィックス、コンテンツのメイン領域のアイコンの色やテキストのスタイルなど、スタイル設定に柔軟性があります。検証スタイルを変更するには、Indigo.Design ライブラリの各色変数を更新することをお勧めします。 
+Input には、背景と境界線/下線の色、およびコンテンツのプレフィックス、サフィックス、およびメイン領域のアイコンの色とテキスト スタイルによるスタイリングの柔軟性が備わっています。検証スタイルを変更するには、Indigo.Design ライブラリの各色変数を更新することをお勧めします。 
 
 <img class="responsive-img" src="../images/input_styling.png" srcset="../images/input_styling@2x.png 2x" />
 

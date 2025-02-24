@@ -1,23 +1,26 @@
 ---
-title: Grid ツール バー - グリッド機能
-_description: TGrid ツールバー シンボルは、グリッド全体に影響するアクションを持つヘッダーを提供します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+title: Grid Toolbar - グリッド機能
+_description: Grid Toolbar コンポーネントは、グリッド全体に影響するアクションを持つヘッダーを提供します。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
-# ツールバー
+# Grid Toolbar (グリッド ツールバー)
 
-Grid ツールバーは、グリッド全体の外観と動作に影響するアクションを定義するために使用します。デフォルトでは、ツールバーに列の表示/非表示、ピン固定/ピン固定解除、および Grid コンテンツをさまざまな形式でエクスポートするためのアクションが含まれます。Grid ツールバーは、[Ignite UI for Angular Grid ツールバー機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html)と視覚的に同じものです。
+Grid Toolbar は、グリッド全体の外観と動作に影響するアクションを定義するために使用します。デフォルトでは、ツールバーに列の表示/非表示、ピン固定/ピン固定解除、および Grid コンテンツをさまざまな形式でエクスポートするためのアクションが含まれます。Grid ツールバーは、[Ignite UI for Angular Grid ツールバー機能](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid/toolbar.html)と視覚的に同じものです。
 
-## Grid ツールバーのデモ
+## Grid Toolbar のデモ
 
 <img class="responsive-img" src="../images/grid_toolbar_demo.png" srcset="../images/grid_toolbar_demo@2x.png 2x" />
 
 ## レイアウト
 
-Grid ツールバーは Sketch のスマート レイアウトを使用し、交換可能なデフォルト操作とカスタム操作を備えているため、コンテンツとレイアウトを完全に自由に変更できます。操作を非表示にするには、~No Symbol に設定する必要があります。Adobe XD でこれを行うには、不要な操作を削除する必要があり、Stack を使用することでレイアウトが調整されます。
+Grid Toolbar は、Figma の自動レイアウトを使用し、交換可能なデフォルト操作とカスタム操作を備えているため、コンテンツとレイアウトを完全に自由に変更できます。アクションが必要ない場合は、レイヤー パネルからアクションを非表示にするだけで、レイアウトが適切に調整されます。
 
 <img class="responsive-img" src="../images/grid_toolbar_layout.png" srcset="../images/grid_toolbar_layout@2x.png 2x" />
+
+  <div class="divider--half"></div>
+    <div class="divider--half"></div>
 
 ## スタイル設定
 

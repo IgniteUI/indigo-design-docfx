@@ -1,7 +1,7 @@
 ﻿---
 title: Toast - デザイン システム コンポーネント
-_description: Toast コンポーネント シンボルは、非インタラクティブな情報メッセージや通知に使用します。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_description: Toast コンポーネントは、非インタラクティブな情報メッセージや通知に使用します。
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット
 _language: ja
 ---
 
@@ -23,7 +23,7 @@ Toast は、通知するコンテンツの下部、中央、または上部に�
 
 ## スタイル設定
 
-Toast には、背景色とメッセージ テキスト スタイルで使用できるオプションによるスタイル設定の柔軟性があります。ただし、背景との最適なコントラストと読みやすさを確保するために、メッセージ テキストには `white` または `grays.900`(`Active`) を使用することをお勧めします。
+Toast には、背景色とメッセージ テキスト スタイルで使用できるオプションによるスタイル設定の柔軟性があります。ただし、背景との最適なコントラストと読みやすさを維持するために、事前定義された色を使用することをお勧めします。
 
 <img class="responsive-img" src="../images/toast_styling.png" srcset="../images/toast_styling@2x.png 2x" />
 

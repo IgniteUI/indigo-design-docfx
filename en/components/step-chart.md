@@ -1,0 +1,95 @@
+---
+title: Step Chart - Design System Component
+_description: The Step Chart Component shows data as a series of points connected by straight lines, resembling steps.
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
+---
+
+# Step Chart
+
+Step Chart belongs to a group of category charts and it is rendered using a collection of points connected by continuous vertical and horizontal lines forming a step-like progression. Values are represented on the Y-axis while the X-Axis (labels at the bottom) shows a time-series or comparison category. The Step series emphasize the amount of change over a period of time or compares multiple items. The Step Chart is identical to the Step Area Chart in all aspects except that the area below the step lines is not filled in. The Step Chart is useful when showing changes that occur at irregular intervals. You can include one or more data sets to compare, which would render as multiple lines in the chart. The Step Chart is visually identical to the [Ignite UI for Angular Step Chart Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/charts/types/step-chart.html)
+
+
+## Step Chart Demo
+
+<img class="responsive-img" src="../images/step_chart_demo.png" srcset="../images/step_chart_demo@2x.png 2x" />
+
+The Step Chart has Title, Legend, and Chart Area, where you may choose between two states Idle and Hover. It also supports two chart types: Line and Area with a number of Series Amount configurations and allows to adjust the Legend accordingly.
+
+## Title
+
+The Step Chart has a title that can be changed or hidden if not needed. In Figma you can hide the title by switching off the `Title` boolean property and thanks to the auto layout feature, the chart's layout will adjust itself accordingly.
+
+<img class="responsive-img" src="../images/step_chart_no_title.png" srcset="../images/step_chart_no_title@2x.png 2x" />
+
+## Legend
+
+The Step Chart comes with a Legend to show the number of series in it and what they represent. The Legend in Figma is built using auto layout, meaning you can show/hide series items from the layers panel and the content will adjust itself accordingly. You can also fully hide it by switching off the boolean property `Legend`. Legend items' shape is also configurable via the `Icon Type` property of the Series and can be set to Square, Circle or Line.
+
+<img class="responsive-img" src="../images/step_chart_legend_square.png" srcset="../images/step_chart_legend_square@2x.png 2x" />
+<img class="responsive-img" src="../images/step_chart_legend_circle.png" srcset="../images/step_chart_legend_circle@2x.png 2x" />
+<img class="responsive-img" src="../images/step_chart_legend_line.png" srcset="../images/step_chart_legend_line@2x.png 2x" />
+
+## Chart Type
+
+The Chart Type allows switching between **Line** and **Area** from the `Area Fill` boolean property. The latter one has the area between the X-axis and the Step Line filled with the series' color. Area charts are used to represent how big of a change there is and what the trend is over time.
+
+<img class="responsive-img" src="../images/step_area_chart_three_series.png" srcset="../images/step_area_chart_three_series@2x.png 2x" />
+
+## State
+
+The Step Chart has two states - Idle and Hover. In Figma you can switch between the two states by selecting the nested Chart Type component from the layers panel and switching on/off the boolean property `Hover Tooltip` from the properties panel. In the Hover state a tooltip, giving information about the series' values at this point, is shown upon hovering over a data point.
+
+<img class="responsive-img" src="../images/step_area_chart_tooltip-off.png" srcset="../images/step_area_chart_tooltip-off@2x.png 2x" />
+<div class="divider--half"></div>
+<img class="responsive-img" src="../images/step_area_chart_tooltip-on.png" srcset="../images/step_area_chart_tooltip-on@2x.png 2x" />
+
+## Y-Axis
+
+The Y-axis of the Step Chart comprises of a Title, Labels, and the Axis itself. The Title and the Labels are configurable and to hide a label simply hide it from the layers panel in Figma. By default, the Y-axis is hidden. To make it visible go to the layers panel, find the Y-axis line and show it. If you want to hide all elements at once, hide the nested Y-axis component from the layers panel.
+
+<img class="responsive-img" src="../images/step_chart_yaxis.png" srcset="../images/step_chart_yaxis@2x.png 2x" />
+
+## Gridlines
+
+The Step Chart has vertical and horizontal built-in Gridlines to make it easier to visually trace a data point to the X and Y-axis. Both are configurable individually and to hide any or both of them in Figma you'll need to select the nested Chart Type component from the layers panel and switch on/off any or both of the boolean properties called `Vertical Gridlines` and `Horizontal Gridlines`.
+
+<img class="responsive-img" src="../images/step_chart_gridlines1.png" srcset="../images/step_chart_gridlines1@2x.png 2x" />
+<div class="divider--half"></div>
+<img class="responsive-img" src="../images/step_chart_gridlines2.png" srcset="../images/step_chart_gridlines2@2x.png 2x" />
+
+## Series Amount
+
+The Step Chart comes with a selection of **one**, **two**, and **three** (by default) series that will be rendered in the Chart Area. This is also valid for the Area type. You can show/hide as many series as you need by selecting the nested Chart Type component in the layers panel and switching on/off the boolean properties for the series and the series markers (e.g. `Series 3` and `Series 3 Markers`). You should also adjust the series appropriately in the legend by showing/hiding them from the layers panel.
+
+<img class="responsive-img" src="../images/step_chart_one_series.png" srcset="../images/step_chart_one_series@2x.png 2x" />
+<div class="divider--half"></div>
+<img class="responsive-img" src="../images/step_chart_two_series.png" srcset="../images/step_chart_two_series@2x.png 2x" />
+<div class="divider--half"></div>
+<img class="responsive-img" src="../images/step_chart_three_series.png" srcset="../images/step_chart_three_series@2x.png 2x" />
+
+## Styling
+
+First and foremost, the Step Chart lets you change the color of the series. It is recommended to use only colors from the palette for data visualizations with nuances named series.1, series.2 and so on till series.10. You may also change the colors of the vertical and horizontal axis, the gridlines, as well as the chart area background and border colors. Titles, labels, annotation values etc. are also customizable via the available text styles in the **Indigo.Design System**.
+
+<img class="responsive-img" src="../images/step_chart_styling.png" srcset="../images/step_chart_styling@2x.png 2x" />
+
+## Usage
+
+Use the Step Chart when you have a continuous data set and want to see the amount of change over a period of time. If you use time to represent the change in the category you should always set it on the horizontal axis. Always start the Y-Axis at 0 so data comparison is accurate and order time-series data from left to right. Use proper aspect ratio to minimize dramatic slope drops. When there is more than one series in the chart they should use different colors to be distinguishable. Using a legend to signify what they represent is considered to be best practice.
+
+
+| Do                                                                                             | Don't                                                                                              |
+| ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| <img class="responsive-img" src="../images/step_chart_do1.png" srcset="../images/step_chart_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/step_chart_dont1.png" srcset="../images/step_chart_dont1@2x.png 2x" /> | 
+
+## Additional Resources
+
+Related topic:
+
+- [Line Chart](line-chart.md)
+- [Spline Chart](spline-chart.md)
+- [Column Chart](column-chart.md)
+- [Pie Chart](pie-chart.md)
+- [Skeleton Charts](skeleton-charts.md)
+
+Our community is active and always welcoming to new ideas.

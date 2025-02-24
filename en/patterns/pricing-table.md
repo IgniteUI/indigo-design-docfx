@@ -1,7 +1,8 @@
 ---
 title: Pricing Table - Design System Pattern
-_description: The Pricing Table Pattern Symbols display a Pricing table with price and list of features available.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_description: The Pricing Table Pattern Components display a Pricing table with price and list of features available.
+_keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
+
 ---
 
 # Pricing Table

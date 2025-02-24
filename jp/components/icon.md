@@ -1,13 +1,13 @@
 ﻿---
 title: Icon - デザイン システム コンポーネント
 _description: Icon コンポーネント シンボルは、グラフィック インジケーターをユーザーに表示し、インタラクションをトリガーすることもできます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット
 _language: ja
 ---
 
 # Icon (アイコン)
 
-Icon コンポーネント シンボルは、製品に「いいね」などのシンプルなインタラクションをトリガーしてユーザーに情報をグラフィックで表示します。すでに提供されている [Material Icons](../style/material-icons.md) から選択するか、**Indigo.Design System** の `🎨 Material Icons` ページに必要なものを追加することができます。Icon は、[Ignite UI for Angular Icon コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/icon.html)と視覚的に同じです。
+Icon コンポーネント シンボルは、製品に 「いいね」 などのシンプルなインタラクションをトリガーしてユーザーに情報をグラフィックで表示します。既に提供されている [Material Icons](../style/material-icons.md) の中から選択するか、必要なものを Figma の `Icons` ページに追加することができます。そしてこちらで唯一の条件です アイコンを使用するには、それがコンポーネントである必要があります。キットに追加するアイコンを選択する際は、十分に注意することを強くお勧めします。それらの間で最高の視覚的一貫性を確保するために、一貫性を維持することが重要です。Icon は、[Ignite UI for Angular Icon コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/icon.html)と視覚的に同じです。
 
 ## Icon のデモ
 
@@ -15,9 +15,8 @@ Icon コンポーネント シンボルは、製品に「いいね」などの�
 
 ## サイズ
 
-Icon のサイズは 4 つあります。
+Icon のサイズは 3 つあります。
 
-- ExtraLarge
 - Large
 - Medium
 - Small

@@ -1,7 +1,7 @@
 ---
 title: Select - デザイン システム コンポーネント
 _description: Select コンポーネントは、ドロップダウンに配置された項目のリストからの単一選択できます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch UI キット, Sketch HTML, Sketch to HTML
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キットデザイン システム, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
@@ -17,69 +17,52 @@ Select は、現在の選択を含む入力と、項目を選択できるよう�
 
 ## Input タイプ
 
-[Input](input.md) コンポーネントのように Select は線タイプ (エアリー スタイル)、境界線タイプ (単色背景でよりはっきりと表示)、より読みやすくするために鮮明な画像の上に配置する際に最適なボックス タイプから選択が可能です。
+[Input](input.md) コンポーネントのように Select は border タイプ (単色背景でよりはっきりと表示)、より読みやすくするために鮮明な画像の上に配置する際に最適な box タイプから選択が可能です。
 
-<img class="responsive-img" src="../images/select_line.png" srcset="../images/select_line@2x.png 2x" />
-`line`
-<img class="responsive-img" src="../images/select_border.png" srcset="../images/select_border@2x.png 2x" />
-`border`
-<img class="responsive-img" src="../images/select_box.png" srcset="../images/select_box@2x.png 2x" />
-`box`
+| Border | Box |
+| ------- | ------- |
+| <img class="responsive-img" src="../images/select_border.png" srcset="../images/select_border@2x.png 2x" /> | <img class="responsive-img" src="../images/select_box.png" srcset="../images/select_box@2x.png 2x" /> |
 
 ## 操作状態
 
-3 つの Select 入力タイプはそれぞれ、有効または無効の状態で挿入できます。
+Figma では、プロパティ パネルを使用して、border と box タイプの Select Input の両方を Disabled (無効) 状態に設定できます。
 
-<img class="responsive-img" src="../images/select_enabledstate.png" srcset="../images/select_enabledstate@2x.png 2x" />
-<img class="responsive-img" src="../images/select_disabledstate.png" srcset="../images/select_disabledstate@2x.png 2x" />
+| Enabled 状態 | Disabled 状態 |
+| ------- | ------- |
+| <img class="responsive-img" src="../images/select_enabledstate.png" srcset="../images/select_enabledstate@2x.png 2x" /> | <img class="responsive-img" src="../images/select_disabledstate.png" srcset="../images/select_disabledstate@2x.png 2x" /> |
 
 ## 状態
 
-ユーザーが Select を操作すると、その入力はさまざまな選択状態になります。コンテンツの代わりにプレースホルダーを使用して **idle** 状態になり、ドロップダウンが開いているときの focused 状態、ユーザーが選択を終了して次に進むときの filled 状態です。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
+ユーザーが Select を操作すると、その入力はさまざまな選択状態を経ます。**Idle (アイドル)** ー コンテンツの代わりにプレースホルダーがあります; ドロップダウンが開いているときの **Focused (フォーカス済み)**; ユーザーが選択を終了して次に進むときの **Filled (塗りつぶし済み)** です。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 
-<img class="responsive-img" src="../images/select_idle.png" srcset="../images/select_idle@2x.png 2x" />
-`idle`
-
-<img class="responsive-img" src="../images/select_focused.png" srcset="../images/select_focused@2x.png 2x" />
-`focused`
-
-<img class="responsive-img" src="../images/select_filled.png" srcset="../images/select_filled@2x.png 2x" />
-`filled`
+| Idle 状態 | Focused 状態 | Filled 状態 |
+| ------- | ------- | ------- |
+| <img class="responsive-img" src="../images/select_idle.png" srcset="../images/select_idle@2x.png 2x" /> | <img class="responsive-img" src="../images/select_focused.png" srcset="../images/select_focused@2x.png 2x" /> | <img class="responsive-img" src="../images/select_filled.png" srcset="../images/select_filled@2x.png 2x" /> |
 
 経験豊富なデザイナーは、ユーザー入力を制限して無効な状態を防止するために、検証スタイルを使用します。Select の検証スタイルには統一感のある標準 [Input](input.md) があり、success (成功)、warning (警告)、error (エラー) を表示する洗練されたデザインを提供します。
 
-<img class="responsive-img" src="../images/select_success.png" srcset="../images/select_success@2x.png 2x" />
-`success`
-<img class="responsive-img" src="../images/select_warning.png" srcset="../images/select_warning@2x.png 2x" />
-`warning`
-<img class="responsive-img" src="../images/select_error.png" srcset="../images/select_error@2x.png 2x" />
-`error`
+| Success | Warn | Error |
+| ------- | ------- | ------- |
+| <img class="responsive-img" src="../images/select_success.png" srcset="../images/select_success@2x.png 2x" /> | <img class="responsive-img" src="../images/select_warning.png" srcset="../images/select_warning@2x.png 2x" /> |  <img class="responsive-img" src="../images/select_error.png" srcset="../images/select_error@2x.png 2x" /> |
 
-Sketch では状態と検証状態を `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+Figma では、プロパティ パネルの `State` プロパティを使用して、すべての状態を切り替えることができます。
 
 > [!NOTE]
-> Select 入力はレイアウ トオプションが 1 つしかありませんが、このオーバーライドは、標準 [Input](input.md) との一貫性を確保するために Sketch で保持されています。
+> Figma では、Select コンポーネントで明示的に使用される `.Select Input` と呼ばれる別の基本コンポーネントがあります。
 
-## Dropdown Items (ドロップダウン項目)
+## Layout (レイアウト)
 
-Select に使用されるドロップダウン項目は、単一の選択タイプのみをサポートします。
+Select では、テキストとアイコンの組み合わせによるプレフィックスとサフィックスが豊富にサポートされています。Figma では、Prefix または Suffix を削除するには、プロパティ パネルでオンまたはオフに切り替えます。
 
-<img class="responsive-img" src="../images/select_item.png" srcset="../images/select_item@2x.png 2x" />
+| Prefix | Suffix | Prefix and Suffix |
+| ------- | ------- | ------- |
+| <img class="responsive-img" src="../images/select_prefix.png" srcset="../images/select_prefix@2x.png 2x" /> | <img class="responsive-img" src="../images/select_suffix.png" srcset="../images/select_suffix@2x.png 2x" /> |  <img class="responsive-img" src="../images/select_prefixandsuffix.png" srcset="../images/select_prefixandsuffix@2x.png 2x" /> |
 
-## Dropdown Item の状態
+## Dropdown (ドロップダウン)
 
-Select 内の Dropdown Item は、5 つの状態をサポートします: disabled、**idle**、focused、selected、focused&selected。Sketch では、これを `Symbol Overrides` で実現していますが、Adobe XD では `Component States` パラダイムを使用して簡単に状態を切り替えることができます。
+Select は、利用可能なオプションを表示するために、その構造内で Dropdown コンポーネントを利用します。利用可能な構成の詳細については、[Dropdown](dropdown.md) ページをご覧ください。
 
-<img class="responsive-img" src="../images/select_item_disabled.png" srcset="../images/select_item_disabled@2x.png 2x" />
-`disabled`
-<img class="responsive-img" src="../images/select_item_idle.png" srcset="../images/select_item_idle@2x.png 2x" />
-`idle`
-<img class="responsive-img" src="../images/select_item_focused.png" srcset="../images/select_item_focused@2x.png 2x" />
-`focused`
-<img class="responsive-img" src="../images/select_item_selected.png" srcset="../images/select_item_selected@2x.png 2x" />
-`selected`
-<img class="responsive-img" src="../images/select_item_selected_focused.png" srcset="../images/select_item_selected_focused@2x.png 2x" />
-`selected&focused`
+<img class="responsive-img" src="../images/select_demo.png" srcset="../images/select_demo@2x.png 2x" />
 
 ## スタイル設定
 
@@ -89,7 +72,7 @@ Select は入力とドロップダウン項目でスタイルの組み合わせ�
 
 ## 使用方法
 
-Select を使用する際に入力とドロップダウンは同じ幅で左右の境界線が一致する必要があります。Select がフォーカスされている場合、ドロップダウンは入力の上に表示され、リストから項目が選択されるまで非表示になります。ドロップダウンは、選択入力と同じ表面にある他のコンテンツの上に常に表示する必要があります。Select は、展開パネルのようにコンテンツをプッシュしません。
+Select を使用する際に入力とドロップダウンは同じ幅で左右の境界線が一致する必要があります。Select がフォーカスされている場合、ユーザーには現在の選択内容が常に通知される必要があるため、ドロップダウンは入力の上または下に表示されますが、入力の上には決して表示されません。リストから項目を選択すると、ドロップダウンが非表示になります。一方、ドロップダウンは、Select 入力と同じ面にある他のコンテンツの上に配置する必要があります。Select は、展開パネルのようにコンテンツをプッシュしません。
 
 | 良い例                                                                           | 悪い例                                                                            |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |

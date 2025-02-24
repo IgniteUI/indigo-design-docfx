@@ -1,21 +1,28 @@
 ---
 title: Menu - Design System Pattern
-_description: The Menu Pattern Symbols combine various components to display navigation bar in different scenarios, such as e-commerce, application or website.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_description: The Menu Pattern Components combine various components to display navigation bar in different scenarios, such as e-commerce, application or website.
+_keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Menu
 
-Use the Menu Symbols as presets for building navigation bars for applications or webpages containing elements such as a logo, menu items, a search, various actions, and account settings among others.
+Use the Menu Components as presets for building navigation bars for applications or webpages containing elements such as a logo, menu items, a search, various actions, and account settings among others.
 
 <img class="responsive-img" src="../images/menu.png" srcset="../images/menu@2x.png 2x" />
 
-## Orientation
+## Types of Menus
 
-The Menu presets are grouped according to their orientation into Horizontal and Vertical.
+There are two types of menus according to their orientation - Horizontal and Vertical.
 
 <img class="responsive-img" src="../images/menu_horizontal.png" srcset="../images/menu_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/menu_vertical.png" srcset="../images/menu_vertical@2x.png 2x" />
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+<div class="divider--half"></div>
+
+Additionally, the menu patterns also offer variants based on the Navigation Drawer component and the Bottom Navigation Component.
+
+<img class="responsive-img" src="../images/menu_1.png" srcset="../images/menu_1@2x.png 2x" />
 
 ## Additional Resources
 

@@ -1,7 +1,7 @@
 ---
 title: Skeleton Charts - Design System Component
 _description: The Skeleton Charts are representations of the various Chart components that are shown while data is being loaded in the background to provide content for its series.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Skeleton Charts
@@ -17,8 +17,11 @@ Use the Skeleton Charts to display the same type of information that you would i
 Besides the Column Chart, we also have Skeleton variants for Line, Spline, Step Line and Pie Chart. 
 
 <img class="responsive-img" src="../images/skeleton_charts_line.png" srcset="../images/skeleton_charts_line@2x.png 2x" />
+<div class="divider--half"></div>
 <img class="responsive-img" src="../images/skeleton_charts_spline.png" srcset="../images/skeleton_charts_spline@2x.png 2x" />
+<div class="divider--half"></div>
 <img class="responsive-img" src="../images/skeleton_charts_step.png" srcset="../images/skeleton_charts_step@2x.png 2x" />
+<div class="divider--half"></div>
 <img class="responsive-img" src="../images/skeleton_charts_pie.png" srcset="../images/skeleton_charts_pie@2x.png 2x" />
 
 ## Title
@@ -38,7 +41,9 @@ Skeleton Charts come with a Legend which is also in Skeleton state since the amo
 The Skeleton Line, Spline, and Step Charts come with the option to show area instead of a line, similarly to their data-bound counterparts.
 
 <img class="responsive-img" src="../images/skeleton_charts_linearea.png" srcset="../images/skeleton_charts_linearea@2x.png 2x" />
+<div class="divider--half"></div>
 <img class="responsive-img" src="../images/skeleton_charts_splinearea.png" srcset="../images/skeleton_charts_splinearea@2x.png 2x" />
+<div class="divider--half"></div>
 <img class="responsive-img" src="../images/skeleton_charts_steparea.png" srcset="../images/skeleton_charts_steparea@2x.png 2x" />
 
 ## Usage
@@ -56,7 +61,7 @@ Related topics:
 
 - [Line Chart](line-chart.md)
 - [Spline Chart](spline-chart.md)
-- [Step Line Chart](step-line-chart.md)
+- [Step Chart](step-chart.md)
 - [Column Chart](column-chart.md)
 - [Pie Chart](pie-chart.md)
   <div class="divider--half"></div>

@@ -1,7 +1,7 @@
 ---
 title: Skeleton Tree Grid - Design System Component
 _description: The Skeleton Tree Grid is a representation of a Tree Grid component that is shown while hierarchical data is being loaded in the background to provide content for its cells in a tabular fashion.
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Skeleton Tree Grid
@@ -18,17 +18,17 @@ The Skeleton Tree Grid extends the three types of skeleton cells Header, Body, a
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_column_cell.png" srcset="../images/tree_grid_skeleton_column_cell@2x.png 2x" />
 
-## Cell Display Density
+## Cell Size
 
-The Skeleton Tree Grid TreeColumn cell supports the same three display density variants as the standard [Tree Grid](tree-grid.md): comfortable, cosy, and compact.
+The Skeleton Tree Grid TreeColumn cell supports the same three size variants as the standard [Tree Grid](tree-grid.md): Large, Medium and Small.
 
-<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_comfortable.png" srcset="../images/tree_grid_skeleton_column_cell_comfortable@2x.png 2x" />
-<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_cosy.png" srcset="../images/tree_grid_skeleton_column_cell_cosy@2x.png 2x" />
-<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_compact.png" srcset="../images/tree_grid_skeleton_column_cell_compact@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_large.png" srcset="../images/tree_grid_skeleton_column_cell_large@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_medium.png" srcset="../images/tree_grid_skeleton_column_cell_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/tree_grid_skeleton_column_cell_small.png" srcset="../images/tree_grid_skeleton_column_cell_small@2x.png 2x" />
 
 ## Cell Depth
 
-The Skeleton Tree Grid TreeColumn cell supports the same visual indication for the level of the data hierarchy as the standard [Tree Grid](tree-grid.md): Root Level, Child Level, or Grandchild Level. In Sketch, to switch between them can be achieved with `Symbol Overrides`, while in Adobe XD we are using the `Component States` paradigm.
+The Skeleton Tree Grid TreeColumn cell supports the same visual indication for the level of the data hierarchy as the standard [Tree Grid](tree-grid.md): Root Level, Child Level, or Grandchild Level. To switch between them in Figma once you select a Cell from Column 1 go to the Level base component inside it in the layers panel and use the `Level` property.
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_cell_body_root_level.png" srcset="../images/tree_grid_skeleton_cell_body_root_level@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_skeleton_cell_body_child_level.png" srcset="../images/tree_grid_skeleton_cell_body_child_level@2x.png 2x" />
@@ -36,14 +36,14 @@ The Skeleton Tree Grid TreeColumn cell supports the same visual indication for t
 
 ## Grid Types
 
-The Skeleton Tree Grid supports the three display densities and offers variants for each of them with regard to the state of loading data: Initial which is shown when the Tree Grid is loading data and there are no expanded root-level rows, and Expand which is shown when a root level gets expanded and starts loading data for its children.
+The Skeleton Tree Grid supports the three sizes and offers variants for each of them with regard to the state of loading data: Initial which is shown when the Tree Grid is loading data and there are no expanded Root Level rows, and Expand which is shown when a Root Level gets expanded and starts loading data for its children.
 
 <img class="responsive-img" src="../images/tree_grid_skeleton_initial.png" srcset="../images/tree_grid_skeleton_initial@2x.png 2x" />
 <img class="responsive-img" src="../images/tree_grid_skeleton_expand.png" srcset="../images/tree_grid_skeleton_expand@2x.png 2x" />
 
 ## Usage
 
-When creating tree grids, avoid combining standard and skeleton cells within the same hierarchy level. Data is either present for all rows and cells on a given level, or for none of them. Combining standard and skeleton cells is appropriate only in a very limited set of use cases such as the presets explained above.
+When creating Tree Grid, avoid combining standard and skeleton cells within the same hierarchy level. Data is either present for all rows and cells on a given level, or for none of them. Combining standard and skeleton cells is appropriate only in a very limited set of use cases such as the presets explained above.
 
 | Do                                                                                                | Don't                                                                                                 |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |

@@ -1,43 +1,43 @@
 ﻿---
 title: Grid - デザイン システム コンポーネント
 _description: Grid コンポーネント シンボルは、表形式の大量のデータを表示し、インタラクティブに操作できます。
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
 # Grid (グリッド)
 
-Grid コンポーネントは大量の複雑なデータをタブ形式で表示し、ユーザーがブラウジングやインタラクティブに操作することにより、フィルタリング、並べ替え、ページングなどが可能です。Grid は、[Ignite UI for Angular Grid コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid.html)と視覚的に同じものです。
+Grid コンポーネントは複雑で大規模なデータを表形式のレイアウトで表示し、ユーザーがブラウジングやインタラクティブに操作することにより、フィルタリング、ソート、ページングなどが可能です。Grid は、[Ignite UI for Angular Grid コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/grid.html)と視覚的に同じものです。
 
 ## Grid のデモ
 
 <img class="responsive-img" src="../images/grid_demo.png" srcset="../images/grid_demo@2x.png 2x" />
 
-## Sketch で Grid を使用
+## Figma で Grid を使用
 
-Grid は、基本的に表形式でデータを表示する列と行のリピーターです。したがって、最も簡単な使用方法は、定義済みの Grid の 1 つをアートボードにドラッグすることです。サポートされる 3 つの[表示密度](grid-display-density.md)に 3 つのプリセットがあります。アートボードを開いた後、その上を右クリックし、コンテキスト メニューの下部にある `Detach from Symbol` オプションを選択すると、新しく表示されたグループの下のレイヤー パネルに次のように表示されます。
+Grid は、基本的に表形式のレイアウトでデータを表示する列と行のリピーターです。したがって、最も簡単な使用方法は、定義済みのグリッドの 1 つをフレームにドラッグすることです。サポートされる 3 つの[サイズ](grid-sizes.md)に 3 つのプリセットがあります。Figma では、Grid コンポーネントは列に基づいた構造を持っていることに注意してください。つまり、行全体ではなく、列全体を即座に削除または非表示にすることができます。グリッドを挿入したら、ヘッダーと本文セルの編集を開始したり、グリッド全体の幅のサイズを変更したりできます。ただし、グリッド構造をさらに調整したい場合 (列または行の削除、列の幅の変更など) は、グリッドを右クリックし、コンテキスト メニューの `Detach instance` オプションを使用する必要があります。
+
+事前にデタッチしなくても、レイヤー パネルのコンポーネント名の下に次の構造が表示されます。
+
+| レイヤー                                    | 使用                                                                                                                                                  |
+| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🚫 componentVersion &nbsp;&nbsp; | 禁止されたアイコンで開始する特定のロックされたレイヤー。禁止されたアイコンで開始する特定のロックされたレイヤー。この層はコード生成に必要であり、コンポーネントのバージョンに関する情報を保持します。削除や変更は避けてください。|
+| 🚫 metadata | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。|
+| Column 1                                 | 列のすべてのセルが含まれます - Header と Body Cell                                                                                                                 |
+| ...                                   | 1 と 7 の間の列                                                                        |
+| Column 7                                 | 列のすべてのセルが含まれます - Header と Body Cell                                                                                                                 |
+
+デタッチ後、既存の列を複製することにより、グリッド内の列の数を増やすことができます。レイヤー パネルには、各 Column の次の構造が表示されます。
 
 | レイヤー                                    | 使用                                                                                                                                                  |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 🚫 metadata | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください |
-| Header                                   | ヘッダーのすべてのセルを取得します                                                                                                             |
-| Body                                     | 本体のすべてのセルを含みます                                                                                                                 |
+| Header                                 | 特定のヘッダー セルを含みます。                                                                                                                   |
+| Body Cell 1                                 | 特定の本文セルを含みます。                                                                                                                   |
+| ...                                   | 1 と 9 の間のセル                                                                        |
+| Body Cell 9                                 | 特定の本文セルを含みます。                                                                                                                   |
 
-デタッチ後、既存のデータ行の 1 つを複製するだけで、データのすべてのディメンションを表示するために必要なヘッダーの数を変更できます。デザインに表示したい表示レコード (数に制限がない) を挿入することもできます。
-
-## Adobe XD で Grid を使用
-
-Adobe XD では、3 つの[プリセット表示密度グリッド コンポーネント](grid-display-density.md)のいずれかを選択してアートボードにドラッグすると、レイヤー パネルで、Header と Body の両方に `Repeat Grid` を使用して構成を高速化していることがわかります。Sketch とは異なり、Adobe XD ではシンボルを破棄する必要はありません。レイヤー パネルに次のように表示されます:
-
-| レイヤー                                    | 使用                                                                                                                                                  |
-| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🚫 metadata | 禁止されたアイコンで開始する特定のロックされたレイヤー。このレイヤーはコード生成に必要なため、削除または変更しないでください。 |
-| Header                                   | Header Repeat Grid にグループ化されたすべてのヘッダー セルが含まれます。                                                                                                        |
-| Body                                     | Body Repeat Grid にグループ化されたすべてのボディ セルが含まれます。                                                                                                                  |
-
-Header または Body Repeat Grid レイヤーを選択する場合、右端または下端にある緑色のハンドルをドラッグして、必要な繰り返しセルの数を変更できます。 このようにして、データのすべてのディメンションを表示し、デザインに表示したい数の表示可能なレコードを挿入できます。特定のセル タイプまたは列幅を変更するには、Repeat Grid レイヤーを選択し、右側のパネルで `Ungroup Grid` をクリックする必要があります。これにより、セルを個別に操作して、目的のデザインを実現できます。
-
-<img class="responsive-img" src="../images/layers_panel_adobe_xd.png" srcset="../images/layers_panel_adobe_xd@2x.png 2x" />
+本文セルの数を増やすには、まず特定の列で `Detach instance` オプションを使用してから、列内にすでに存在する本文セルを複製する必要があります。列またはセルの数を増減した後、Grid コンポーネントのサイズを手動で調整する必要があります。
 
 ## セル タイプ
 
@@ -51,30 +51,35 @@ Header Cell には、Row Filter Header Cell という特別なサブタイプが
 
 <img class="responsive-img" src="../images/grid_cell_header_filter.png" srcset="../images/grid_cell_header_filter@2x.png 2x" />
 
-## セル表示密度
+## セル サイズ
 
-Header、Body、および Summary セルは、Grid の 3 つの表示密度バリアントをサポートします: comfortable、cosy、および compact。以下のヘッダー セルに見られるように、それぞれに異なるシンボルが付いています:
+Header、Body、および Summary Cell は、Grid コンポーネントのサイズに応じて 3 つのバリアントをサポートしています: Large、Medium、および Small。Figma では、セルのサイズと内部のコンテンツはプロパティ パネルから個別に変更できるプロパティです。
 
-<img class="responsive-img" src="../images/grid_cell_header_comfortable.png" srcset="../images/grid_cell_header_comfortable@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_cell_header_cosy.png" srcset="../images/grid_cell_header_cosy@2x.png 2x" />
-<img class="responsive-img" src="../images/grid_cell_header_compact.png" srcset="../images/grid_cell_header_compact@2x.png 2x" />
+> [!NOTE]
+> 特定のサイズの Grid コンポーネントを選択した後は、グリッド セルのサイズを変更しないことをお勧めします。
+
+<img class="responsive-img" src="../images/grid_cell_header_large.png" srcset="../images/grid_cell_header_large@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_header_medium.png" srcset="../images/grid_cell_header_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_header_small.png" srcset="../images/grid_cell_header_small@2x.png 2x" />
 
 ## 項目と機能 (ヘッダー セル)
 
-Grid Header Cell は、`Items` のオーバーライドでさまざまなレイアウトの組み合わせをサポートします。また、`Feature Left` および `Feature Right` のオーバーライドを介して機能の複数の構成をサポートします。さらに、[編集](grid-editing.md)、[移動](grid-column-moving.md)、[サイズ変更](grid-column-resizing.md)、[ピン固定](grid-column-pinning.md)など、表示されていないが Grid の異なる列機能を有効にする追加のオーバーライドがあります。
+グリッド ヘッダー セルは、`Items` インスタンスでさまざまなレイアウトの組み合わせをサポートし、`Feature Left`、`Feature Right`、`Right Border` でさまざまな機能構成をサポートします。
 
 <img class="responsive-img" src="../images/grid_cell_header_no-icon.png" srcset="../images/grid_cell_header_no-icon@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_icon.png" srcset="../images/grid_cell_header_icon@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_icons.png" srcset="../images/grid_cell_header_icons@2x.png 2x" />
 
-## 状態と Grid 機能 (本体セル)
+## 状態と Grid 機能 (本文セル)
 
-Grid Body Cell は、以下のインタラクティブな状態をサポートします: 標準状態の **Inactive**、フォーカスのある/選択されたセルでは Active です。任意の時間に、グリッド内の 1 つのセルだけをアクティブにすることができます。
+Grid Body Cell は、以下のインタラクティブな状態をサポートします: **Idle (アイドル)** (デフォルトの状態)、**Selected (選択済み)**、**Active (アクティブ)** および **Focused (フォーカス済み)**。任意の時間に、グリッド内の 1 つのセルだけがアクティブまたはフォーカスされます。
 
-<img class="responsive-img" src="../images/grid_cell_body_cell-inactive.png" srcset="../images/grid_cell_body_cell-inactive@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_body_cell-idle.png" srcset="../images/grid_cell_body_cell-idle@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_body_cell-selected.png" srcset="../images/grid_cell_body_cell-selected@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_cell-active.png" srcset="../images/grid_cell_body_cell-active@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_body_cell-focused.png" srcset="../images/grid_cell_body_cell-focused@2x.png 2x" />
 
-Grid Body Cell は、`Grid Feature` を介してヘッダーで定義された一部の Grid 機能のスタイル設定をサポートしています。通常のセル、編集可能なセル、および選択した行に属するセルには、スタイルのバリアントがあります。Sketch では、`Grid Feature` を切り替えるには、使用可能な `Symbol Overrides` を使用する必要がありますが、Adobe XD では、`Component States` の一致するリストがあります。
+Grid Body Cell は、ヘッダーで定義された一部の Grid 機能のスタイル設定をサポートしています。通常のセル、編集可能なセル、および選択した行に属するセルには、スタイルのバリアントがあります。Figma では、本文セルのさまざまな状態間の切り替えは、プロパティ パネルの `Cell State`、`Row Selected`、および `Row Editing` プロパティを通じて実現されます。
 
 <img class="responsive-img" src="../images/grid_cell_body_row-selected.png" srcset="../images/grid_cell_body_row-selected@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_editing_cell.png" srcset="../images/grid_cell_body_editing_cell@2x.png 2x" />
@@ -83,31 +88,28 @@ Grid Body Cell は、`Grid Feature` を介してヘッダーで定義された�
 
 ## セル タイプ
 
-Sketch の Grid Header Cell は、Grid が対応する必要のある 4 つの一般的なタイプのデータのプリセットを提供します: 数値の **Number**、それぞれのデータ タイプのテキスト、日付、ブールを組み合わせたもの、複数の行を選択する場合に最初の列に使用される Row Selection と、グループ化されたデータ行を展開および縮小するために使用される Group By です。Adobe XD では、3 つのタイプがあります。データに標準のもの、Row Selection、Group By の標準タイプで、標準のタイプは `Component States` を介した数値とテキスト/日付/ブール値の選択をサポートしています。
+Figma では、Grid Header Cell は、グリッドが対応する必要があるデータの種類に対して 5 つのプリセットを提供します。数値の **Number**、それぞれのデータ タイプの **Text,Date,Bool** (テキスト、日付、ブール) を組み合わせたもの; 複数の行を選択する場合に最初の列に使用される **Row Selection**; グループ化されたデータ行を展開および縮小するために使用される Group By; ユーザーが本文セル内のコンテンツに関連する特定のフィルター オプションをアクティブ化できる場所で使用される **Row Filter** の 2 つのオプション (Empty または Filtered) です。
 
 <img class="responsive-img" src="../images/grid_cell_header_number.png" srcset="../images/grid_cell_header_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_text.png" srcset="../images/grid_cell_header_text@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_checkbox.png" srcset="../images/grid_cell_header_checkbox@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_header_groupby.png" srcset="../images/grid_cell_header_groupby@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_header_filter.png" srcset="../images/grid_cell_header_filter@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_header_filter-filtered.png" srcset="../images/grid_cell_header_filter-filtered@2x.png 2x" />
 
-Grid Body Cell は、Header Cell の同じ一般的なデータ型のプリセットを提供し、単純なグラフィックスを視覚化する追加のアイコン タイプを含みます。
+Grid Body Cell には、単純なグラフィックスを視覚化する追加のアイコン タイプと、空の本文セルを表示するために使用されるスペーサー タイプを備えた Header Cell のような、同じ汎用タイプのデータのプリセットが提供されます。
 
 <img class="responsive-img" src="../images/grid_cell_body_number.png" srcset="../images/grid_cell_body_number@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_text.png" srcset="../images/grid_cell_body_text@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_checkbox.png" srcset="../images/grid_cell_body_checkbox@2x.png 2x" />
 <img class="responsive-img" src="../images/grid_cell_body_icon.png" srcset="../images/grid_cell_body_icon@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_cell_body_spacer.png" srcset="../images/grid_cell_body_spacer@2x.png 2x" />
 
 ## Grid の水平スクロール
 
-絶対幅として、または親グループ/コンテナに関連する特定の Grid ディメンションを達成する 1 つの方法は、Grid のメイン グループ内にマスクを追加することです。スタイル設定なしで長方形を挿入し、必要に応じてそのサイズを設定します。下の画像では、常に正確に 800px 幅の Grid があります。
-
-<img class="responsive-img" src="../images/grid_horizontal_scroll_rect.png" srcset="../images/grid_horizontal_scroll_rect@2x.png 2x" />
-
-長方形の幅と高さを固定し、名前を `Mask` に変更し、レイヤー パネルの下部に配置します。次に、長方形の上を右クリックし、コンテキスト メニューの下部にある `Mask` オプションを選択します。
+Figma で水平スクロールを実現するには、実際のグリッド幅より小さいサイズでフレーム内に Grid を追加し、プロパティ パネルからクリッピング オプションを有効にする必要があります。次に、プロパティ パネルの上部にある `Prototype` タブに移動し、スクロールを水平に設定する必要があります。同じ結果を達成するためのもう 1 つのオプションは、グリッド コンポーネントをデタッチすることです。その後、フレーム サイズを縮小し、プロパティ パネルからクリッピング オプションを有効にする必要があります。マスクを追加することもできます。塗りつぶし付きの四角形を挿入し、必要に応じてディメンションを設定し、Layers パネルのグリッドの下に配置するだけです。次に、グリッドと四角形の両方を選択し、右クリックしてコンテキスト メニューから `Use as mask` オプションを選択します。
 
 <img class="responsive-img" src="../images/grid_horizontal_scroll_masked.png" srcset="../images/grid_horizontal_scroll_masked@2x.png 2x" />
-
-これで Grid のグループが Mask のディメンションを取得し、水平スクロールなしで Grid を使用することと同じ方法でレイアウトで使用できます。このコンポーネントのコードが生成されると、Grid のディメンションとしてマスクのディメンションを基準とする水平スクロールバーが自動的に追加されます。
 
 ## スタイル設定
 
@@ -134,12 +136,12 @@ Grid の最も重要な点は、Header および Body セル内のデータの�
 - [Grid 列非表示](grid-column-hiding.md)
 - [Grid 列移動](grid-column-moving.md)
 - [Grid 列サイズ変更](grid-column-resizing.md)
-- [Grid 並べ替え](grid-sorting.md)
+- [Grid ソート](grid-sorting.md)
 - [Grid 行フィルター](grid-row-filter.md)
 - [Grid Excel スタイル フィルター](grid-excel-style-filter.md)
 - [Grid 行選択](grid-row-selection.md)
 - [Grid 編集](grid-editing.md)
-- [Grid 表示密度](grid-display-density.md)
+- [Grid サイズ](grid-sizes.md)
 - [Grid ページング](grid-paging.md)
 - [Grid 集計](grid-summaries.md)
 - [Hierarchical Grid](hierarchical-grid.md)

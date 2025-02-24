@@ -1,13 +1,13 @@
 ---
 title: Banner - デザイン システム コンポーネント
 _description: Banner コンポーネントは、インタラクティブな情報メッセージまたは通知を目立つ方法で表示するために使用されます。 
-_keywords: デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch からコードをエクスポート, Angular 用のデザイン キット, Sketch HTML, Sketch to HTML, Sketch UI キット
+_keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
 # Banner (バナー)
 
-Banner コンポーネントを使用して、目立つメッセージとそれに関連するオプションのアクションを表示します。Banner は、[Ignite UI for Angular Banner コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/banner)と視覚的に同じです。
+Banner コンポーネントを使用して、オプションのアクション付きで目立つメッセージを表示します。Banner は、[Ignite UI for Angular Banner コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/banner)と視覚的に同じです。
 
 ## Banner のデモ
 
@@ -15,13 +15,13 @@ Banner コンポーネントを使用して、目立つメッセージとそれ�
 
 ## Message (メッセージ)
 
-Banner の Message は、Icon (アイコン) と Text (テキスト) フィールドで構成されています。Sketch のスマート レイアウトを使用して、~No Symbol に設定することでどちらか一方を非表示にし、Adobe XD の Stack を使用して、コンポーネントを追加または削除するときにレイアウトを自動的に処理します。Figma では、デフォルトのバナー デザインに変更を加えたい場合は、バナー コンポーネントを切り離す必要があります。その後、変更を手動で行う必要があります。自動レイアウトは、次のバージョンの Figma UI キットで統合される予定です。
+Banner のメッセージ セクションは、Icon (アイコン) と Text field (テキスト フィールド) が含まれています。Figma では、プロパティ パネルから 「Icon」 ブール演算を使用して、アイコンの表示/非表示を切り替えることができます。
 
 <img class="responsive-img" src="../images/banner_message.png" srcset="../images/banner_message@2x.png 2x" />
 
 ## Actions (アクション)
 
-Actions 領域には、デフォルトで 2 つの Button コンポーネントが含まれています。1 つだけが必要な場合、または両方を削除する場合は、Sketch で ~No Symbol に設定すると、スマート レイアウトですべてが調整されます。Adobe XD では、不要なボタン レイヤーを削除し、適用された Stack に依存してインターフェイスを調整することで、同じことを実現できます。さらに、[Libraries] パネルから [Actions] 領域にドラッグすることで、アクションを追加したり、さまざまなコンポーネントを使用したりすることもできます。Figma では、バナーに表示されるアクションを管理するために、いずれを残しいずれを非表示にするかをレイヤー パネルから選択できます。アクションが必要ない場合は、「Actions」グループ全体を非表示にしてから、デザインを手動で調整する必要があります。自動レイアウトは、次のバージョンの Figma UI キットに統合されます。
+デフォルトでは、Actions セクションには 2 つのボタン コンポーネントが含まれています。Figma では、ボタンを 1 つ残し、レイヤー パネルから他のボタンを非表示にしたり、「Actions」 ブール演算を使用してアクション コンテナー全体を非表示にしたりすることで、表示されるアクションを管理できます。
 
 <img class="responsive-img" src="../images/banner_actions.png" srcset="../images/banner_actions@2x.png 2x" />
 
@@ -33,12 +33,12 @@ Banner は、テキスト、背景と境界線の色、アイコンのグリフ�
 
 ## 使用方法
 
-強調の異なるボタンを組み合わせないでください。これにより、あるアクションが他のアクションよりも促進されます。イラストレーションはメッセージをサポートするために使用されます。アクションを宣伝するために説明文なしでそれらを使用しないでください。
+イラストレーションはメッセージをサポートするために使用されます。アクションを宣伝するために説明文なしでそれらを使用しないでください。強調の異なるボタンを組み合わせないでください。これにより、あるアクションが他のアクションよりも促進されます。
 
 | 良い例                                                                             | 悪い例                                                                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/banner_do1.png" srcset="../images/banner_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/banner_dont1.png" srcset="../images/banner_dont1@2x.png 2x" /> | 
-| <img class="responsive-img" src="../images/banner_do2x.png" srcset="../images/banner_do2@2x.png 2x" /> |<img class="responsive-img" src="../images/banner_dont2.png" srcset="../images/banner_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/banner_do2.png" srcset="../images/banner_do2@2x.png 2x" /> |<img class="responsive-img" src="../images/banner_dont2.png" srcset="../images/banner_dont2@2x.png 2x" /> |
 
 ## その他のリソース
 
