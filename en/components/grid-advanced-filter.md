@@ -10,6 +10,8 @@ Use the Grid Advanced Filter to specify advanced filtering criteria spanning ove
 
 ## Grid Advanced Filter Demo
 
+test
+
 <img class="responsive-img" src="../images/grid_advanced_filter_demo.png" srcset="../images/grid_advanced_filter_demo@2x.png 2x" />
 
 ## Advanced Filter Feature
