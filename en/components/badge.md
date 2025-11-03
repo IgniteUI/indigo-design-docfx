@@ -12,9 +12,11 @@ Use the Badge Component to draw attention to another interface element or to dis
 
 <img class="responsive-img" src="../images/badge_demo.png" srcset="../images/badge_demo@2x.png 2x" />
 
-## Content Type
+## Type and Shape
 
-The Badge can carry different types of content such as a number or an icon.
+The Badge can carry different types of content such as a number or an icon. Additionally, a dot type badge variant is available for use.
+
+The badge supports 2 shapes — Rounded and Square. Each Badge type also includes outlined variants.
 
 <img class="responsive-img" src="../images/badge_type.png" srcset="../images/badge_type@2x.png 2x" />
 
