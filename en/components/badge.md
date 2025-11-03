@@ -1,12 +1,12 @@
 ---
 title: Badge - Design System Component
-_description: The Badge Component Symbol is a small complimentary element that gives a subtle hint for additional information available. 
-_keywords: Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch HTML, Sketch to HTML, Sketch UI kits
+_description: The Badge Component is a small complimentary element that gives a subtle hint for additional information available. 
+_keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Badge
 
-Use the Badge Component Symbol to draw attention to another interface element or to display a notification. It enhances the component to which it is attached with additional information, disclosed to the user upon interacting with it. The Badge is visually identical to the [Ignite UI for Angular Badge Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/badge.html)
+Use the Badge Component to draw attention to another interface element or to display a notification. It enhances the component to which it is attached with additional information, disclosed to the user upon interacting with it. The Badge is visually identical to the [Ignite UI for Angular Badge Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/badge.html)
 
 ## Badge Demo
 
