@@ -1,6 +1,6 @@
 ---
 title: Button Group - Design System Component
-_description: The Button Group Component Symbol is used to represent a few simple actions that conceptually belong together. 
+_description: The Button Group Component is used to represent a few simple actions that conceptually belong together. 
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
