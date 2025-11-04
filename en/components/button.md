@@ -24,9 +24,12 @@ Five types of Buttons are supported:
 
 <img class="responsive-img" src="../images/button_types.png" srcset="../images/button_types@2x.png 2x" />
 
-## Sizes
+## Size
 
-All Button types are available in three sizes: Large, Medium and Small.
+All Button types are available in three sizes:
+- Large
+- Medium
+- Small
 
 <img class="responsive-img" src="../images/button_sizes.png" srcset="../images/button_sizes@2x.png 2x" />
 
