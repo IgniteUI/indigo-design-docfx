@@ -22,10 +22,9 @@ The Dropdown comes in three sizes: Large, Medium, and Small.
 
 ## Items
 
-The Dropdown supports two types of items: header and item. Through headers it is possible to organize the other items in groups.
+The Dropdown supports two types of items: header and item, which are available in three sizes: Large, Medium and Small. Through headers it is possible to organize the other items in groups.
 
-<img class="responsive-img" src="../images/dropdown_header.png" srcset="../images/dropdown_header@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_item.png" srcset="../images/dropdown_item@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_header_item.png" srcset="../images/dropdown_header_item@2x.png 2x" />
 
 ## Item States
 
