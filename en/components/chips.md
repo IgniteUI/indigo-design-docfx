@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angul
 
 # Chip
 
-THIS IS MY TESTUse the Chip Component as a compact visual shown in an obround to display tags and people information e.g. for the recipients of an email. The Chip is visually identical to the [Ignite UI for Angular Chip Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/chip.html)
+ Use the Chip Component as a compact visual shown in an obround to display tags and people information e.g. for the recipients of an email. The Chip is visually identical to the [Ignite UI for Angular Chip Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/chip.html)
 
 ## Chip Demo
 
@@ -48,7 +48,7 @@ When a chip can be removed, a special cancel icon will appear at the far right t
 
 ## Chip Content
 
-The Chip has rich support for content templating via the prefix and suffix containers allowing to insert icons and text before and after the main label. 
+The Chip has rich support for content templating via the prefix and suffix containers allowing to insert icons and text before and after the main label. The icons used in the chip come also in three sizes: Small, Medium, and Large. 
 
 In Figma, you can show or hide the prefix and suffix icons by using the "Prefix Icon" and "Suffix Icon" properties in the properties panel and the layout will adjust itself accordingly.
  
