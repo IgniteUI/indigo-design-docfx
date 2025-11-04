@@ -12,13 +12,27 @@ Use the Badge Component to draw attention to another interface element or to dis
 
 <img class="responsive-img" src="../images/badge_demo.png" srcset="../images/badge_demo@2x.png 2x" />
 
-## Type and Shape
+## Type 
 
-The Badge can carry different types of content such as a number or an icon. Additionally, a dot type badge variant is available for use.
-
-The badge supports 2 shapes — Rounded and Square. Each Badge type also includes outlined variants.
+The Badge can carry different types of content such as a number or an icon. Additionally, a dot type badge variant is available for use. The dot type badge is usually used in user interfaces to draw attention and to indicate a status or a notification.
 
 <img class="responsive-img" src="../images/badge_type.png" srcset="../images/badge_type@2x.png 2x" />
+
+## Size 
+
+The Badge comes in three different sizes:
+
+- Large
+- Medium
+- Small
+
+<img class="responsive-img" src="../images/badge_size.png" srcset="../images/badge_size@2x.png 2x" />
+
+## Shape 
+
+The Badge component is available in two shapes: rounded and square.
+
+<img class="responsive-img" src="../images/badge_shape.png" srcset="../images/badge_shape@2x.png 2x" />
 
 ## States
 
@@ -32,7 +46,7 @@ The Badge can be used in one of the following preset color combinations to draw 
 
 ## Styling
 
-The Badge comes with styling flexibility through the various options for the background and border colors, the icon with its color, and the text with its style where applicable, as well as the presence of a shadow that is cast on the underlying interface element.
+The Badge offers styling flexibility with options to customize the background, the icon and its color, and the text with its color and style where applicable. Since all badge types and shapes also support outline variants, users can experiment with border colors as well.
 
 <img class="responsive-img" src="../images/badge_styling.png" srcset="../images/badge_styling@2x.png 2x" />
 
