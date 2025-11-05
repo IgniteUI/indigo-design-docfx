@@ -33,7 +33,7 @@ Each button from the Button Group component supports both Enabled and Disabled v
 
 ## States
 
-In Figma the Enabled buttons in the Button Group component support Idle, Hover and Focused states which can be switched between by changing the State property. Disabled and Selected states can be switched on/off from a boolean properties and are applicable for all states of the buttons.
+In Figma the Enabled buttons in the Button Group component support Idle, Hover and Focused states which can be switched between by changing the State property.
 
 <img class="responsive-img" src="../images/button-group_states.png" srcset="../images/button-group_states@2x.png 2x" />
 
