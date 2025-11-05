@@ -1,6 +1,6 @@
 ---
 title: Calendar - Design System Component
-_description: The Calendar Component Symbol is used as a visual representation of a date providing the necessary mechanisms to navigate day, month and year part of it.
+_description: The Calendar Component is used as a visual representation of a date providing the necessary mechanisms to navigate day, month and year part of it.
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
@@ -14,16 +14,29 @@ Use the Calendar Component to visually represent a date and provide consistent m
 
 ## Layout
 
-The Calendar comes in Horizontal or Vertical layout suited to display one month at a time, but also supports a Multiview option for showing two months side by side. In Figma you can switch them using the "Orientation" property and the "Multiview" boolean property.
+The Calendar comes in Horizontal or Vertical layout suited to display one month at a time, but also supports a Multiview option for showing two months side by side. In Figma you can switch them using the `Orientation` property and the `Multiview` boolean property.
 
 <img class="responsive-img" src="../images/calendar_horizontal.png" srcset="../images/calendar_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_multi_horiz.png" srcset="../images/calendar_multi_horiz@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_multi_vert.png" srcset="../images/calendar_multi_vert@2x.png 2x" />
 
+## Size
+
+The Calendar is available in three sizes:
+- Large
+- Medium
+- Small
+
+Horizontal layout:
+<img class="responsive-img" src="../images/calendar_horizontal_sizes.png" srcset="../images/calendar_horizontal_sizes@2x.png 2x" />
+
+Vertical layout:
+<img class="responsive-img" src="../images/calendar_vertical_sizes.png" srcset="../images/calendar_vertical_sizes@2x.png 2x" />
+
 ## Content
 
-To facilitate the display of each of the major date portions, there's a "View" property in Figma, which lets you choose between Day, Month, or Year view.
+To facilitate the display of each of the major date portions, there's a `View` property in Figma, which lets you choose between Day, Month, or Year view.
 
 <img class="responsive-img" src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_months.png" srcset="../images/calendar_months@2x.png 2x" />
@@ -31,26 +44,26 @@ To facilitate the display of each of the major date portions, there's a "View" p
 
 ## Week Start
 
-In Figma the start of the week can be chosen from the "Week Start" property, which supports the two most common scenarios for first day of the week: Sunday and Monday.
+In Figma the start of the week can be chosen from the `Week Start` property, which supports the two most common scenarios for first day of the week: Sunday and Monday.
 
 <img class="responsive-img" src="../images/calendar_sun.png" srcset="../images/calendar_sun@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
 
 ## Header
 
-The Calendar has a built-in Header that can be omitted, resulting in a base Calendar that you can embed more seamlessly in your forms. In Figma, this can be achieved using the "Header" boolean property.
+The Calendar has a built-in Header that can be omitted, resulting in a base Calendar that you can embed more seamlessly in your forms. In Figma, this can be achieved using the `Header` boolean property.
 
 <img class="responsive-img" src="../images/calendar_base.png" srcset="../images/calendar_base@2x.png 2x" />
 
 ## Week Numbers
 
-The Calendar also has built-in support for Week Numbers, but if you prefer not to show this part of the UI, simply switch off the "Week Numbers" boolean property from the properties panel in Figma.
+The Calendar also has built-in support for Week Numbers, but if you prefer not to show this part of the UI, simply switch off the `Week Numbers` boolean property from the properties panel in Figma.
 
 <img class="responsive-img" src="../images/calendar_weeknum.png" srcset="../images/calendar_weeknum@2x.png 2x" />
 
 ## Selection
 
-The Calendar lets you pick between three selection modes: **Single Day** limiting the user to be able to select only one date, Range providing means to select all dates between a start and end date and Multiple Days allowing selection of random dates.
+The Calendar lets you pick between three selection modes: **Single Day** limiting the user to be able to select only one date, **Range** providing means to select all dates between a start and end date and **Multiple Days** allowing selection of random dates.
 
 <img class="responsive-img" src="../images/calendar_horizontal.png" srcset="../images/calendar_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_range.png" srcset="../images/calendar_range@2x.png 2x" />
