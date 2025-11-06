@@ -1,6 +1,6 @@
 ---
 title: Combo - Design System Component
-_description: The Combo Component Symbol allows selection of multiple items from a collection.
+_description: The Combo Component allows selection of multiple items from a collection.
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma HTML
 ---
 

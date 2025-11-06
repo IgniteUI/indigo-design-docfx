@@ -1,6 +1,6 @@
 ---
 title: Simple Combo - Design System Component
-_description: The Simple Combo Component Symbol allows a single selection of an item from a collection.
+_description: The Simple Combo Component allows a single selection of an item from a collection.
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma HTML
 ---
 
