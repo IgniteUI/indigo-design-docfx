@@ -12,15 +12,6 @@ Use the Calendar Component to visually represent a date and provide consistent m
 
 <img class="responsive-img" src="../images/calendar_demo.png" srcset="../images/calendar_demo@2x.png 2x" />
 
-## Layout
-
-The Calendar comes in Horizontal or Vertical layout suited to display one month at a time, but also supports a Multiview option for showing two months side by side. In Figma you can switch them using the `Orientation` property and the `Multiview` boolean property.
-
-<img class="responsive-img" src="../images/calendar_horizontal.png" srcset="../images/calendar_horizontal@2x.png 2x" />
-<img class="responsive-img" src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
-<img class="responsive-img" src="../images/calendar_multi_horiz.png" srcset="../images/calendar_multi_horiz@2x.png 2x" />
-<img class="responsive-img" src="../images/calendar_multi_vert.png" srcset="../images/calendar_multi_vert@2x.png 2x" />
-
 ## Size
 
 The Calendar is available in three sizes:
@@ -33,6 +24,15 @@ Horizontal layout:
 
 Vertical layout:
 <img class="responsive-img" src="../images/calendar_vertical_sizes.png" srcset="../images/calendar_vertical_sizes@2x.png 2x" />
+
+## Layout
+
+The Calendar comes in Horizontal or Vertical layout suited to display one month at a time, but also supports a Multiview option for showing two months side by side. In Figma you can switch them using the `Orientation` property and the `Multiview` boolean property.
+
+<img class="responsive-img" src="../images/calendar_horizontal.png" srcset="../images/calendar_horizontal@2x.png 2x" />
+<img class="responsive-img" src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
+<img class="responsive-img" src="../images/calendar_multi_horiz.png" srcset="../images/calendar_multi_horiz@2x.png 2x" />
+<img class="responsive-img" src="../images/calendar_multi_vert.png" srcset="../images/calendar_multi_vert@2x.png 2x" />
 
 ## Content
 
