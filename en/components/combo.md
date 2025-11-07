@@ -60,6 +60,7 @@ When the user interacts with the Combo, its input goes through various selection
 | Idle | Hover | Focused | Filled | 
 | ------- | ------- | ------- | ------- |
 | <img class="responsive-img" src="../images/combo_idle.png" srcset="../images/combo_idle@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_hover.png" srcset="../images/combo_hover@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_focused.png" srcset="../images/combo_focused@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_filled.png" srcset="../images/combo_filled@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/combo_box_idle.png" srcset="../images/combo_box_idle@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_box_hover.png" srcset="../images/combo_box_hover@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_box_focused.png" srcset="../images/combo_box_focused@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_box_filled.png" srcset="../images/combo_box_filled@2x.png 2x" /> |
 
 Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Combo Input is consistent with the standard [Input](input.md) and equipped for sophisticated designs that display success, warning, and error visuals.
 
