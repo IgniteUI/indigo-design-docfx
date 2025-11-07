@@ -25,6 +25,16 @@ The Combo Input in Figma provides selection between border type for a more struc
 | ------- | ------- |
 | <img class="responsive-img" src="../images/combo_border.png" srcset="../images/combo_border@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_box.png" srcset="../images/combo_box@2x.png 2x" /> |
 
+## Size
+
+Both, the Combo input and the Combo dropdown are available in three sizes:
+- Large
+- Medium
+- Small
+
+<img class="responsive-img" src="../images/combo_border_sizes.png" srcset="../images/combo_border_sizes@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_box_sizes.png" srcset="../images/combo_box_sizes@2x.png 2x" />
+
 ## Interaction State
 
 Each of the two Combo Input types can be inserted in an **enabled** or **disabled** state. The available border and box types in Figma can be switched to a disabled state from the properties panel.
