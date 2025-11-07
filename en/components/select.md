@@ -26,28 +26,19 @@ The Select supports the same two input types typical for the [Input](input.md) c
 
 In Figma, both the border and box type Select inputs can be set to a Disabled state using the properties panel.
 
-| Enabled state | Disabled state |
-| ------- | ------- |
-| <img class="responsive-img" src="../images/select_enabledstate.png" srcset="../images/select_enabledstate@2x.png 2x" /> | <img class="responsive-img" src="../images/select_disabledstate.png" srcset="../images/select_disabledstate@2x.png 2x" /> |
+<img class="responsive-img" src="../images/select_interaction.png" srcset="../images/select_interaction@2x.png 2x" /> 
 
 ## State
 
-When the user interacts with the Select, its input goes through various selection states: **Idle** with a placeholder in the place of the content; **Focused** when the dropdown is open; and **Filled** once the user has finished with selection and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
+The Select component supports five states for the enabled variants: **Idle**, **Idle & Hover**, **Filled**, **Filled & Hover** and **Focused**, as well as three validation states: **Success**, **Warn**, and **Error**. From the properties panel, you can easily change the Select’s state and toggle the Dropdown’s visibility, while within the nested Dropdown component, you can further customize its content. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
 
-| Idle state | Focused state | Filled state |
-| ------- | ------- | ------- |
-| <img class="responsive-img" src="../images/select_idle.png" srcset="../images/select_idle@2x.png 2x" /> | <img class="responsive-img" src="../images/select_focused.png" srcset="../images/select_focused@2x.png 2x" /> | <img class="responsive-img" src="../images/select_filled.png" srcset="../images/select_filled@2x.png 2x" /> |
+<img class="responsive-img" src="../images/select_states.png" srcset="../images/select_states@2x.png 2x" /> 
 
 Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Select is consistent with the standard [Input](input.md) and equipped for sophisticated designs that display success, warning, and error visuals.
 
-| Success | Warn | Error |
-| ------- | ------- | ------- |
-| <img class="responsive-img" src="../images/select_success.png" srcset="../images/select_success@2x.png 2x" /> | <img class="responsive-img" src="../images/select_warning.png" srcset="../images/select_warning@2x.png 2x" /> |  <img class="responsive-img" src="../images/select_error.png" srcset="../images/select_error@2x.png 2x" /> |
+<img class="responsive-img" src="../images/select_validation.png" srcset="../images/select_validation@2x.png 2x" /> 
 
 In Figma you can switch between all the states using the `State` property from the properties panel.
-
-> [!NOTE]
-> In Figma we have a separate base component called `.Select Input`, which is used explicitly on the Select component.
 
 ## Layout
 
