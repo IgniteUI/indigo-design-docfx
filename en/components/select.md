@@ -36,7 +36,7 @@ The Dropdown automatically adjusts its dimensions to match the selected size var
 
 ## Interaction State
 
-In Figma, both the border and box type Select inputs can be set to a Disabled state using the properties panel.
+In Figma, both border and box type Select inputs can be set to a Disabled state using the properties panel.
 
 <img class="responsive-img" src="../images/select_interaction.png" srcset="../images/select_interaction@2x.png 2x" /> 
 
@@ -68,7 +68,7 @@ The Select utilizes the Dropdown component in its structure, in order to display
 
 ## Styling
 
-The Select comes with the combined styling flexibility of its input and dropdown items. There are options for the input text elements' color and bottom line style and color. For the dropdown items, one may change their background and text colors.
+The Select comes with the combined styling flexibility of its input and dropdown items. The user can experiment with different styles and colors for the text and for the input. For the dropdown items, one may change their background and text colors.
 
 <img class="responsive-img" src="../images/select_styling.png" srcset="../images/select_styling@2x.png 2x" />
 
