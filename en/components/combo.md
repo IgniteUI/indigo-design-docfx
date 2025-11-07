@@ -27,10 +27,12 @@ The Combo Input in Figma provides selection between border type for a more struc
 
 ## Size
 
-Both, the Combo input and the Combo dropdown are available in three sizes:
+The Combo is available in three sizes:
 - Large
 - Medium
 - Small
+
+The Dropdown automatically adjusts its dimensions to match the selected size variant.
 
 <img class="responsive-img" src="../images/combo_border_sizes.png" srcset="../images/combo_border_sizes@2x.png 2x" />
 <img class="responsive-img" src="../images/combo_box_sizes.png" srcset="../images/combo_box_sizes@2x.png 2x" />
