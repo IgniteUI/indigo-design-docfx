@@ -22,6 +22,18 @@ The Select supports the same two input types typical for the [Input](input.md) c
 | ------- | ------- |
 | <img class="responsive-img" src="../images/select_border.png" srcset="../images/select_border@2x.png 2x" /> | <img class="responsive-img" src="../images/select_box.png" srcset="../images/select_box@2x.png 2x" /> |
 
+## Size
+
+The Select component is available in three sizes:
+- Large 
+- Medium 
+- Small
+
+The Dropdown automatically adjusts its dimensions to match the selected size variant.
+
+<img class="responsive-img" src="../images/select_sizeborder.png" srcset="../images/select_sizeborder@2x.png 2x" />
+<img class="responsive-img" src="../images/select_sizebox.png" srcset="../images/select_sizebox@2x.png 2x" />
+
 ## Interaction State
 
 In Figma, both the border and box type Select inputs can be set to a Disabled state using the properties panel.
