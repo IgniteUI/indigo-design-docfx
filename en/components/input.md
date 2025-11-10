@@ -30,6 +30,22 @@ In Figma we offer a choice between a simple input with or without a hint (boolea
 <img class="responsive-img" src="../images/input_box.png" srcset="../images/input_box@2x.png 2x" />
 `box`
 
+## Size
+
+The Input comes in three different sizes:
+
+- Large
+- Medium
+- Small
+
+<img class="responsive-img" src="../images/input_large.png" srcset="../images/input_large@2x.png 2x" />
+<img class="responsive-img" src="../images/input_medium.png" srcset="../images/input_medium@2x.png 2x" />
+<img class="responsive-img" src="../images/input_small.png" srcset="../images/input_small@2x.png 2x" />
+
+<img class="responsive-img" src="../images/input_large_box.png" srcset="../images/input_large_box@2x.png 2x" />
+<img class="responsive-img" src="../images/input_medium_box.png" srcset="../images/input_medium_box@2x.png 2x" />
+<img class="responsive-img" src="../images/input_small_box.png" srcset="../images/input_small_box@2x.png 2x" />
+
 ## Interaction State
 
 In Figma, the Input is in an Enabled state by default and can be switched to a Disabled state from the properties panel on the right.
@@ -85,12 +101,15 @@ The Input comes with styling flexibility through the colors of its background an
 
 ## Usage
 
-Use the box type of Input when placing forms on top of an image to improve readability. When using an Input in warn or error state in your designs, choose a preset with helper text and use the opportunity to provide guidance to the user.
+Use the box type of Input when placing forms on top of an image to improve readability. 
+Use only one of the types within a form. Do not use both types.
+When using an Input in warn or error state in your designs, choose a preset with helper text and use the opportunity to provide guidance to the user.
 
 | Do                                                                           | Don't                                                                            |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/input_do1.png" srcset="../images/input_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/input_dont1.png" srcset="../images/input_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/input_do2.png" srcset="../images/input_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/input_dont2.png" srcset="../images/input_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/input_do3.png" srcset="../images/input_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/input_dont3.png" srcset="../images/input_dont3@2x.png 2x" /> |
 
 ## Additional Resources
 
