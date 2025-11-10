@@ -19,11 +19,30 @@ The Simple Combo has two pieces: an Input containing the current selection or a 
 
 ## Combo Input Type
 
-The Combo Input provides selection between a border type for a more structured perception on solid color backgrounds, and a boxed type that is most appropriate when placed on top of a vivid image to improve readability.
+The Combo Input in Figma provides selection between a border type for a more structured perception on solid color backgrounds, and a boxed type that is most appropriate when placed on top of a vivid image to improve readability.
 
 | Border | Box |
 | ------- | ------- |
 | <img class="responsive-img" src="../images/simple-combo_border.png" srcset="../images/simple-combo_border@2x.png 2x" /> | <img class="responsive-img" src="../images/simple-combo_box.png" srcset="../images/simple-combo_box@2x.png 2x" /> |
+
+The Combo Input has a Prefix container which can be switched **on** and **off** through the `Prefix Container` boolean property. Label and Hint could also be switched **on** or **off** through their boolean properties.
+
+| With Prefix | With Label | With Hint | 
+| ------- | ------- | ------- |
+| <img class="responsive-img" src="../images/simple-combo_border_with_prefix.png" srcset="../images/simple-combo_border_with_prefix@2x.png 2x" /> | <img class="responsive-img" src="../images/simple-combo_border_with_label.png" srcset="../images/simple-combo_border_with_label@2x.png 2x" /> | <img class="responsive-img" src="../images/simple-combo_border_with_hint.png" srcset="../images/simple-combo_border_with_hint@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/simple-combo_box_with_prefix.png" srcset="../images/simple-combo_box_with_prefix@2x.png 2x" /> | <img class="responsive-img" src="../images/simple-combo_box_with_label.png" srcset="../images/simple-combo_box_with_label@2x.png 2x" /> | <img class="responsive-img" src="../images/simple-combo_box_with_hint.png" srcset="../images/simple-combo_box_with_hint@2x.png 2x" /> |
+
+## Size
+
+The Simple Combo is available in three sizes:
+- Large
+- Medium
+- Small
+
+The Dropdown automatically adjusts its dimensions to match the selected size variant.
+
+<img class="responsive-img" src="../images/simple-combo_border_sizes.png" srcset="../images/simple-combo_border_sizes@2x.png 2x" />
+<img class="responsive-img" src="../images/simple-combo_box_sizes.png" srcset="../images/simple-combo_box_sizes@2x.png 2x" />
 
 ## Interaction State
 
