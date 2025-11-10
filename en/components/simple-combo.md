@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, E
 
 # Simple Combo
 
-Use the Simple Combo component to allow users to select an option from a predefined list of choices or enter their own value. When the user clicks on the dropdown arrow, a dropdown list of options is displayed, and they can either select one of the options or search for a value from the input. The Single Select Combo is visually identical to the [ Ignite UI for Angular Single Select ComboBox Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/simple-combo.html)
+Use the Simple Combo component to allow users to select an option from a predefined list of choices or enter their own value. The user can search for a value typing in the Combo Input or click on the dropdown arrow and select one of the options from the displayed dropdown list. The Single Select Combo is visually identical to the [ Ignite UI for Angular Single Select ComboBox Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/simple-combo.html)
 
 > [!Note]
 > The Combo has two layout options: Combo with Single Select `(Simple Combo)` and [Combo (Multiple Select) ](combo.md)
@@ -99,7 +99,7 @@ The Dropdown items within the Simple Combo support three different states: **Idl
 
 ## Styling
 
-The Simple Combo comes with the combined styling flexibility of its input and dropdown pieces. There are options for the input text elements' color and bottom line style and color. For the dropdown one may change the background color, or use the various options related to the items in the Simple Combo Dropdown, such as the search input and the items with their background and text colors.
+The Simple Combo comes with the combined styling flexibility of its input and dropdown pieces. There are options for the input text elements' color, border style and color. For the dropdown one may change the background color, or use the various options related to the items in the Simple Combo Dropdown with their background and text colors.
 
 <img class="responsive-img" src="../images/simple-combo_styling.png" srcset="../images/simple-combo_styling@2x.png 2x" />
 

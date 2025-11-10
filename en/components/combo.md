@@ -99,7 +99,7 @@ The Dropdown items within the Combo support three different states: **Idle**, **
 
 ## Styling
 
-The Combo comes with the combined styling flexibility of its input and dropdown pieces. There are options for the input text elements' color and bottom line style and color. For the dropdown one may change the background color, or use the various options related to the items in the Combo Dropdown, such as the Search Input and the items with their background and text colors.
+The Combo comes with the combined styling flexibility of its input and dropdown pieces. There are options for the input text elements' color, border style and color. For the dropdown one may change the background color, or use the various options related to the items in the Combo Dropdown, such as the Search Input and the items with their background and text colors.
 
 <img class="responsive-img" src="../images/combo_styling.png" srcset="../images/combo_styling@2x.png 2x" />
 
@@ -116,10 +116,10 @@ When using the Combo, its input and dropdown should have the same width and thei
 
 Related topics:
 
+- [Simple Combo](simple-combo.md)
 - [Dropdown](dropdown.md)
 - [Form Pattern](../patterns/form.md)
 - [Input](input.md)
-- [Simple Combo](simple-combo.md)
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
