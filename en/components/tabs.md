@@ -29,12 +29,10 @@ The Tabs can be Content Fit to fill up the available horizontal space by adaptin
 
 ## Tabs Amount
 
-For most scenarios, the Tabs need to contain between two and four items. To remove an item in Figma simply hide the nested Tab Item component from the layers panel and the added auto layout will adjust the content appropriately. If your use case requires more than four tabs, you should consider the Fixed mode explained above.
+For most scenarios, the Tabs need to contain between two and five items. To remove an item in Figma simply hide the nested Tab Item component from the layers panel and the added auto layout will adjust the content appropriately. If your use case requires more than five tabs, you should consider the Fixed mode explained above.
 
-<img class="responsive-img" src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" />
-<img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
-<img class="responsive-img" src="../images/tabs_4.png" srcset="../images/tabs_4@2x.png 2x" />
-<img class="responsive-img" src="../images/tabs_4.png" srcset="../images/tabs_fixed2@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" /><img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" /><img class="responsive-img" src="../images/tabs_4.png" srcset="../images/tabs_4@2x.png 2x" /><img class="responsive-img" src="../images/tabs_5.png" srcset="../images/tabs_5@2x.png 2x" /><img class="responsive-img" src="../images/tabs_fixed2.png" srcset="../images/tabs_fixed2@2x.png 2x" />
+
 
 
 ## Short Bar Content
