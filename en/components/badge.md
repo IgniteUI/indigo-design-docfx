@@ -34,6 +34,12 @@ The Badge component is available in two shapes: rounded and square.
 
 <img class="responsive-img" src="../images/badge_shape.png" srcset="../images/badge_shape@2x.png 2x" />
 
+## Outlined Variants 
+
+Outlined variants are available for all badge types and shapes and can be enabled from the `Outlined` boolean property from the properties panel.
+
+<img class="responsive-img" src="../images/badge_outlined.png" srcset="../images/badge_outlined@2x.png 2x" />
+
 ## States
 
 The Badge can be used in one of the following preset color combinations to draw attention: **Primary**, Info, Success, Warn, and Error.
