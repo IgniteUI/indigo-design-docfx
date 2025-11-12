@@ -30,7 +30,7 @@ The Radio Group comes in a Vertical and Horizontal orientation.
 
 The Radio Group supports **Enabled**, **Disabled** and **Invalid** interaction states.
 
-<img class="responsive-img" src="../images/radiogroup_interaction_states.png" srcset="../images/radiogroup_interaction_states@2x.png 2x" />          
+<img class="responsive-img" src="../images/radiogroup_interaction_states1.png" srcset="../images/radiogroup_interaction_states1@2x.png 2x" />          
 <div class="divider--half"></div>
 <div class="divider--half"></div>
 <div class="divider--half"></div>
