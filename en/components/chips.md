@@ -1,6 +1,6 @@
 ---
 title: Chip and Chips Area - Design System Component
-_description: The Chip Component Symbol is an interactive and compact visual shown in an obround. The Chips Area Component Symbol represents a collection of Chip Components.
+_description: The Chip Component is an interactive and compact visual shown in an obround. The Chips Area Component represents a collection of Chip Components.
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
