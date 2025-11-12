@@ -52,7 +52,7 @@ When the user interacts with the Text Area, it goes through various states: Idle
 | ------- | ------- |
 | <img class="responsive-img" src="../images/textarea_filled.png" srcset="../images/textarea_filled@2x.png 2x" /> | <img class="responsive-img" src="../images/textarea_filled&hover.png" srcset="../images/textarea_filled&hover@2x.png 2x" /> | <img class="responsive-img" src="../images/textarea_filled&disabled.png" srcset="../images/textarea_filled&disabled@2x.png 2x" /> |
 
-| Focus |
+| Focused |
 | ------- | ------- |
 | <img class="responsive-img" src="../images/textarea_focused.png" srcset="../images/textarea_focused@2x.png 2x" />|
 
