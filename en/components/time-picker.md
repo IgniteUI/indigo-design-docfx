@@ -40,7 +40,7 @@ The Time Picker Input supports Enabled and Disabled interactive states, as well 
 
 ## Time Picker Input Type
 
-In Figma the user can choose between two distinct Time Picket Input types: border style for a more structured perception on solid color backgrounds and boxed style which is most appropriate when the component is placed on top of a vivid image to improve the readability of its content.
+In Figma the user can choose between two distinct Time Picker Input types: border style for a more structured perception on solid color backgrounds and boxed style which is most appropriate when the component is placed on top of a vivid image to improve the readability of its content.
 
 <img class="responsive-img" src="../images/timepicker_border.png" srcset="../images/timepicker_border@2x.png 2x" />
 <img class="responsive-img" src="../images/timepicker_box.png" srcset="../images/timepicker_box@2x.png 2x" />
