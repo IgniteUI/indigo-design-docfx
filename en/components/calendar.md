@@ -27,10 +27,15 @@ Vertical layout:
 
 ## Layout
 
-The Calendar comes in Horizontal or Vertical layout suited to display one month at a time, but also supports a Multiview option for showing two months side by side. In Figma you can switch them using the `Orientation` property and the `Multiview` boolean property.
+The Calendar supports Horizontal or Vertical layout. In Figma you can switch them using the `Orientation` property.
 
 <img class="responsive-img" src="../images/calendar_horizontal.png" srcset="../images/calendar_horizontal@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_vertical.png" srcset="../images/calendar_vertical@2x.png 2x" />
+
+## Multiview Variants
+
+The Calendar includes also a Multiview option to display two months side by side. In Figma, you can enable this with the `Multiview` boolean property and select either Horizontal or Vertical orientation using the `Orientation` property.
+
 <img class="responsive-img" src="../images/calendar_multi_horiz.png" srcset="../images/calendar_multi_horiz@2x.png 2x" />
 <img class="responsive-img" src="../images/calendar_multi_vert.png" srcset="../images/calendar_multi_vert@2x.png 2x" />
 
