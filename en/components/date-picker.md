@@ -73,6 +73,14 @@ The Date Picker includes a Multiview option to display two months side by side. 
 <img class="responsive-img" src="../images/datepicker_multi_horiz.png" srcset="../images/datepicker_multi_horiz@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_multi_vert.png" srcset="../images/datepicker_multi_vert@2x.png 2x" />
 
+## Content
+
+In Figma the Date Picker offers a `View` property that allows you to switch between Day, Month, or Year views, making it easier to display each major date segment.
+
+<img class="responsive-img" src="../images/datepicker_vertical.png" srcset="../images/datepicker_vertical@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_month.png" srcset="../images/datepicker_month@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_year.png" srcset="../images/datepicker_year@2x.png 2x" />
+
 ## Week Start
 
 We support the two most common scenarios for first day of the week: Sunday and Monday. In Figma you can select the start of the week from the `Week Start` property.
@@ -96,7 +104,7 @@ Akin to the Calendar, the Date Picker lets you pick between three selection mode
 
 ## Styling
 
-The Date Picker comes with styling flexibility through the various options for header background and title colors, as well as text colors for the selected date, current date etc.
+The Date Picker comes with styling flexibility through the various options for header background and title colors, as well as text colors for the selected and current date, month or year.
 
 <img class="responsive-img" src="../images/datepicker_styling.png" srcset="../images/datepicker_styling@2x.png 2x" />
 
