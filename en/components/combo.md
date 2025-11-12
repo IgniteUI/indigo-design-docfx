@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, E
 
 # Combo
 
-Use the Combo component to allow users to select an option from a predefined list of choices or enter their own value. When the user clicks on the arrow down icon, a Dropdown list of options is displayed, and they can select one or more of the options, search for a value, or type their own value into the text box. The Combo is visually identical to the [ Ignite UI for Angular Combobox Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/combo.html)
+Use the Combo component to allow users to select an option from a predefined list of choices or enter their own value. When the user clicks on the arrow down icon, a Dropdown list of options is displayed, and the user can select one or more of the options, search for a value, or type their own value into the text box. The Combo is visually identical to the [ Ignite UI for Angular Combobox Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/combo.html)
 
 > [!Note]
 > The Combo has two layout options: Combo with Multiple Select `(Combo)` and [Single Select Combo (Simple Combo) ](simple-combo.md)
