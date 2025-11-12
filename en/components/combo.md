@@ -46,30 +46,24 @@ The Dropdown automatically adjusts its dimensions to match the selected size var
 
 ## Interaction State
 
-Each of the two Combo Input types can be inserted in an **enabled** or **disabled** state. The available border and box types in Figma can be switched to a disabled state from the properties panel.
+In Figma, both border and box type Combos can be set to a Disabled state using the properties panel.
 
-<img class="responsive-img" src="../images/combo_border_enabledstate.png" srcset="../images/combo_border_enabledstate@2x.png 2x" />
-<img class="responsive-img" src="../images/combo_border_disabledstate.png" srcset="../images/combo_border_disabledstate@2x.png 2x" />
-<img class="responsive-img" src="../images/combo_enabledstate.png" srcset="../images/combo_enabledstate@2x.png 2x" />
-<img class="responsive-img" src="../images/combo_disabledstate.png" srcset="../images/combo_disabledstate@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_interaction.png" srcset="../images/combo_interaction@2x.png 2x" />
 
 ## State
 
-When the user interacts with the Combo, its input goes through various selection states: **Idle** with a placeholder in the place of the content, **Hover** which changes visually on mouse over,  **Focused** when the Dropdown is open and the Search is **Focused**, **Filled** once the user has finished with selection and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
+The Combo component supports five states for the enabled variants: **Idle**, **Idle & Hover**, **Filled**, **Filled & Hover** and **Focused**, as well as three validation states: **Success**, **Warn**, and **Error**. From the properties panel, the user can easily change the Combo's state and toggle the Dropdown’s visibility, while within the nested Dropdown component, the user can further customize its content. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping.
 
-| Idle | Hover | Focused | Filled | 
-| ------- | ------- | ------- | ------- |
-| <img class="responsive-img" src="../images/combo_idle.png" srcset="../images/combo_idle@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_hover.png" srcset="../images/combo_hover@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_focused.png" srcset="../images/combo_focused@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_filled.png" srcset="../images/combo_filled@2x.png 2x" /> |
-| <img class="responsive-img" src="../images/combo_box_idle.png" srcset="../images/combo_box_idle@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_box_hover.png" srcset="../images/combo_box_hover@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_box_focused.png" srcset="../images/combo_box_focused@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_box_filled.png" srcset="../images/combo_box_filled@2x.png 2x" /> |
+<img class="responsive-img" src="../images/combo_states.png" srcset="../images/combo_states@2x.png 2x" />
 
 Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Combo Input is consistent with the standard [Input](input.md) and equipped for sophisticated designs that display success, warning, and error visuals.
 
-| Success | Warning | Error | 
+| Success | Warn | Error | 
 | ------- | ------- | ------- |
 | <img class="responsive-img" src="../images/combo_success.png" srcset="../images/combo_success@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_warning.png" srcset="../images/combo_warning@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_error.png" srcset="../images/combo_error@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/combo_box_success.png" srcset="../images/combo_box_success@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_box_warning.png" srcset="../images/combo_box_warning@2x.png 2x" /> | <img class="responsive-img" src="../images/combo_box_error.png" srcset="../images/combo_box_error@2x.png 2x" /> |
 
-In Figma changing the states is achieved via the properties panel.
+In Figma changing the states is achieved via the `State` property from the properties panel.
 
 ## Dropdown Size
 
@@ -81,12 +75,14 @@ The Dropdown used for the Combo comes with the appropriate sizing for Large, Med
 
 In Figma the Dropdown contains a Search Input that comes with a selection of states and options for layout akin to the standard [Input](input.md).
 
+<img class="responsive-img" src="../images/combo_dropdown_search_input_states.png" srcset="../images/combo_dropdown_search_input_states@2x.png 2x" />
+
 ## Dropdown Items
 
 The Dropdown used for the Combo supports two types of items: header and multi-select item. Both are available in Large, Medium and Small sizes. Through headers, it is possible to organize items in groups. In Figma, the Dropdown utilizes the auto layout option, which adjusts the layout, once one or more items get hidden from the layers panel.
 
-<img class="responsive-img" src="../images/combo_header.png" srcset="../images/combo_header@2x.png 2x" />
-<img class="responsive-img" src="../images/combo_multiselect_item.png" srcset="../images/combo_multiselect_item@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_header_sizes.png" srcset="../images/combo_header_sizes@2x.png 2x" />
+<img class="responsive-img" src="../images/combo_multiselect_item_sizes.png" srcset="../images/combo_multiselect_item_sizes@2x.png 2x" />
 
 ## Dropdown Item States
 
