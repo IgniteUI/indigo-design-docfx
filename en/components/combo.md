@@ -56,7 +56,7 @@ The Combo component supports five states for the enabled variants: **Idle**, **I
 
 <img class="responsive-img" src="../images/combo_states.png" srcset="../images/combo_states@2x.png 2x" />
 
-Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Combo Input is consistent with the standard [Input](input.md) and equipped for sophisticated designs that display success, warning, and error visuals.
+Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Combo Input is consistent with the standard [Input](input.md) and equipped for sophisticated designs that display success, warn, and error visuals.
 
 | Success | Warn | Error | 
 | ------- | ------- | ------- |
