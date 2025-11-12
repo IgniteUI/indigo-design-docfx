@@ -34,7 +34,7 @@ You may insert a Date Picker Input in your forms to indicate fields for selectin
 
 ## Date Picker Input Type
 
- In Figma the user can choose between two distinct Date Picket Input types: border style for a more structured perception on solid color backgrounds and boxed style which is most appropriate when the component is placed on top of a vivid image to improve the readability of its content.
+ In Figma the user can choose between two distinct Date Picker Input types: border style for a more structured perception on solid color backgrounds and boxed style which is most appropriate when the component is placed on top of a vivid image to improve the readability of its content.
 
 <img class="responsive-img" src="../images/datepicker_border.png" srcset="../images/datepicker_border@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_box.png" srcset="../images/datepicker_box@2x.png 2x" />
