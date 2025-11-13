@@ -34,33 +34,23 @@ In Figma we offer a choice between text area with or without a hint, which can b
 
 We offer choice between two distinct types: border style and boxed style.
 
-<img class="responsive-img" src="../images/textarea_filled.png" srcset="../images/textarea_filled@2x.png 2x" /><img class="responsive-img" src="../images/textarea_filled_box.png" srcset="../images/textarea_filled_box@2x.png 2x" />
+<img class="responsive-img" src="../images/textarea_filled_both_types.png" srcset="../images/textarea_filled_both_types@2x.png 2x" />
 
 ## Interaction State
 
 The Text Area can be switched from an enabled to disabled state from the `Disabled` boolean property.
 
-| Enabled | Disabled |
-| ------- | ------- |
-| <img class="responsive-img" src="../images/textarea_enabled.png" srcset="../images/textarea_enabled@2x.png 2x" /> | <img class="responsive-img" src="../images/textarea_disabled.png" srcset="../images/textarea_disabled@2x.png 2x" /> |
+<img class="responsive-img" src="../images/textarea_interaction.png" srcset="../images/textarea_interaction@2x.png 2x" /> 
 
 ## State
 
 When the user interacts with the Text Area, it goes through various states: Idle with a placeholder in the place of the content, Focused while the user is typing in it, and Filled once the user has finished adding content and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping. In Figma, you can toggle between states using the `State` property in the right properties panel.
 
-
-<img class="responsive-img" src="../images/textarea_interaction.png" srcset="../images/textarea_interaction@2x.png 2x" /> 
-
-
-| Focused |
-| ------- | ------- |
-| <img class="responsive-img" src="../images/textarea_focused.png" srcset="../images/textarea_focused@2x.png 2x" />|
+<img class="responsive-img" src="../images/textarea_states.png" srcset="../images/textarea_states@2x.png 2x" /> 
 
 Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hen ce the availability of validation styles. Through the available validation styles, the Text Area is equipped for sophisticated designs that display Success, Warning, and Error visuals.
 
-| Success | Warn | Error |
-| ------- | ------- |
-| <img class="responsive-img" src="../images/textarea_success.png" srcset="../images/textarea_success@2x.png 2x" /> | <img class="responsive-img" src="../images/textarea_warning.png" srcset="../images/textarea_warning@2x.png 2x" /> | <img class="responsive-img" src="../images/textarea_error.png" srcset="../images/textarea_error@2x.png 2x" /> |
+<img class="responsive-img" src="../images/textarea_validation.png" srcset="../images/textarea_validation@2x.png 2x" /> 
 
 In Figma, states can be easily switched from the `State` property on the right properties panel.
 
