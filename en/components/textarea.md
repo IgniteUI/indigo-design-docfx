@@ -34,7 +34,7 @@ In Figma we offer a choice between text area with or without a hint, which can b
 
 We offer choice between two distinct types: border style and boxed style.
 
-<img class="responsive-img" src="../images/textarea_filled_both_types.png" srcset="../images/textarea_filled_both_types@2x.png 2x" />
+<img class="responsive-img" src="../images/textarea_filled.png" srcset="../images/textarea_filled@2x.png 2x" /><img class="responsive-img" src="../images/textarea_filled_box.png" srcset="../images/textarea_filled_box@2x.png 2x" />
 
 ## Interaction State
 
