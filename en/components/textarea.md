@@ -48,13 +48,9 @@ The Text Area can be switched from an enabled to disabled state from the `Disabl
 
 When the user interacts with the Text Area, it goes through various states: Idle with a placeholder in the place of the content, Focused while the user is typing in it, and Filled once the user has finished adding content and moved on. These flexibility enhancements afford a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping. In Figma, you can toggle between states using the `State` property in the right properties panel.
 
-| Idle | Idle & Hover | Idle & Disabled |
-| ------- | ------- |
-| <img class="responsive-img" src="../images/textarea_idle.png" srcset="../images/textarea_idle@2x.png 2x" /> | <img class="responsive-img" src="../images/textarea_idle&hover.png" srcset="../images/textarea_idle&hover@2x.png 2x" /> | <img class="responsive-img" src="../images/textarea_idle&disabled.png" srcset="../images/textarea_idle&disabled@2x.png 2x" /> |
 
-| Filled | Filled & Hover | Filled & Disabled |
-| ------- | ------- |
-| <img class="responsive-img" src="../images/textarea_filled.png" srcset="../images/textarea_filled@2x.png 2x" /> | <img class="responsive-img" src="../images/textarea_filled&hover.png" srcset="../images/textarea_filled&hover@2x.png 2x" /> | <img class="responsive-img" src="../images/textarea_filled&disabled.png" srcset="../images/textarea_filled&disabled@2x.png 2x" /> |
+<img class="responsive-img" src="../images/textarea_interaction.png" srcset="../images/textarea_interaction@2x.png 2x" /> 
+
 
 | Focused |
 | ------- | ------- |
