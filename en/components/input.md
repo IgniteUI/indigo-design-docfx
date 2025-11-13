@@ -50,10 +50,7 @@ The Input comes in three different sizes:
 
 In Figma, the Input is in an Enabled state by default and can be switched to a Disabled state from the properties panel on the right.
 
-<img class="responsive-img" src="../images/input_enabled.png" srcset="../images/input_enabled@2x.png 2x" />
-`enabled`
-<img class="responsive-img" src="../images/input_disabled.png" srcset="../images/input_disabled@2x.png 2x" />
-`disabled`
+<img class="responsive-img" src="../images/input_interaction.png" srcset="../images/input_interaction@2x.png 2x" />
 
 ## State
 
