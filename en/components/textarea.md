@@ -26,7 +26,7 @@ The Text Area comes in three different sizes:
 
 
 ## Types
-In Figma we offer offer choice between two distinct types: border style and box style.
+In Figma we offer choice between two distinct types: border style and box style.
 
 | Border | Box|
 | ------- | ------- |
