@@ -33,7 +33,7 @@ The Dropdown items support seven different states: **Idle**, **Hover**, **Disabl
 |  | Idle | Hover | Focused | Disabled |
 |  | ---- | ----- | ------- | -------- |
 |  | <img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" /> | <img class="responsive-img" src="../images/dropdown_item_hover.png" srcset="../images/dropdown_item_hover@2x.png 2x" /> | <img class="responsive-img" src="../images/dropdown_item_focused.png" srcset="../images/dropdown_item_focused@2x.png 2x" /> | <img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" /> |
-| Selected | <img class="responsive-img" src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" /> | <img class="responsive-img" src="../images/dropdown_item_selected_hover.png" srcset="../images/dropdown_item_selected_hover@2x.png 2x" /> | <img class="responsive-img" src="../images/cdropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" /> |
+| Selected | <img class="responsive-img" src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" /> | <img class="responsive-img" src="../images/dropdown_item_selected_hover.png" srcset="../images/dropdown_item_selected_hover@2x.png 2x" /> | <img class="responsive-img" src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" /> |
 
 
 ## Item Layout Template
