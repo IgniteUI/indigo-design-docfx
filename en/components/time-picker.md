@@ -16,8 +16,7 @@ Use the Time Picker Component to represent a date's time portion (hour, minutes,
 
 In Figma the user has the option to select either a dialog or a dropdown Time Picker via the `Type` property in the property panel.
 
-<img class="responsive-img" src="../images/timepicker_horizontal.png" srcset="../images/timepicker_horizontal@2x.png 2x" /> 
-<img class="responsive-img" src="../images/timepicker_dropdown.png" srcset="../images/timepicker_dropdown@2x.png 2x" />
+<img class="responsive-img" src="../images/timepicker_type.png" srcset="../images/timepicker_type@2x.png 2x" />
 
 
 ## Size
