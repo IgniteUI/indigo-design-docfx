@@ -38,13 +38,7 @@ The Input comes in three different sizes:
 - Medium
 - Small
 
-<img class="responsive-img" src="../images/input_large.png" srcset="../images/input_large@2x.png 2x" />
-<img class="responsive-img" src="../images/input_medium.png" srcset="../images/input_medium@2x.png 2x" />
-<img class="responsive-img" src="../images/input_small.png" srcset="../images/input_small@2x.png 2x" />
-
-<img class="responsive-img" src="../images/input_large_box.png" srcset="../images/input_large_box@2x.png 2x" />
-<img class="responsive-img" src="../images/input_medium_box.png" srcset="../images/input_medium_box@2x.png 2x" />
-<img class="responsive-img" src="../images/input_small_box.png" srcset="../images/input_small_box@2x.png 2x" />
+<img class="responsive-img" src="../images/input_sizes.png" srcset="../images/input_sizes@2x.png 2x" />
 
 ## Interaction State
 
