@@ -53,7 +53,7 @@ In Figma, states can be easily switched from the `State` property on the right p
 
 ## Styling
 
-The Text Area comes with styling flexibility through the colors of its Background, Drag Indicator, Border, and Text. To change the validation styles, it is recommended to update the respective color styles in the Indigo.Design library. 
+The Text Area comes with styling flexibility through the colors of its Background, Border, and Text. To change the validation styles, it is recommended to update the respective color styles in the Indigo.Design library. 
 
 <img class="responsive-img" src="../images/textarea_styling.png" srcset="../images/textarea_styling@2x.png 2x" />
 
