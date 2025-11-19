@@ -51,25 +51,11 @@ In Figma, the Input is in an Enabled state by default and can be switched to a D
 The Input component goes through different states as the user interacts with it: **Idle**, which displays the placeholder in the place of the content; **Idle & Hover**, indicating that the input is active when the user hovers over it; **Filled**, which appears after the user has entered content and moved on from the input; **Filled & Hover**, indicating that the input is active when the user hovers over it, after the content has been entered; and **Focused**, which provides a visual cue that the user is actively typing in the input.
 
 
-<img class="responsive-img" src="../images/input_idle.png" srcset="../images/input_idle@2x.png 2x" />
-`idle`
-<img class="responsive-img" src="../images/input_idle&hover.png" srcset="../images/input_idle&hover@2x.png 2x" />
-`idle & hover`
-<img class="responsive-img" src="../images/input_filled.png" srcset="../images/input_filled@2x.png 2x" />
-`filled`
-<img class="responsive-img" src="../images/input_filled&hover.png" srcset="../images/input_filled&hover@2x.png 2x" />
-`filled & hover`
-<img class="responsive-img" src="../images/input_focused.png" srcset="../images/input_focused@2x.png 2x" />
-`focused`
+<img class="responsive-img" src="../images/input_states.png" srcset="../images/input_states@2x.png 2x" /><img class="responsive-img" src="../images/input_states_box.png" srcset="../images/input_states_box@2x.png 2x" />
 
 Every experienced designer uses constraints wisely to limit the user input and avoid invalid states, hence the availability of validation styles. Through the available validation styles, the Input is equipped for sophisticated designs that display Success, Warn, and Error visuals.
 
-<img class="responsive-img" src="../images/input_success.png" srcset="../images/input_success@2x.png 2x" />
-`success`
-<img class="responsive-img" src="../images/input_warning.png" srcset="../images/input_warning@2x.png 2x" />
-`warn`
-<img class="responsive-img" src="../images/input_error.png" srcset="../images/input_error@2x.png 2x" />
-`error`
+<img class="responsive-img" src="../images/input_validation.png" srcset="../images/input_validation@2x.png 2x" />
 
 In Figma you can switch between states and validation states using the "State" property in the properties panel on the right. 
 
