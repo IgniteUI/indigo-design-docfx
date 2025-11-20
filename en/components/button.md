@@ -1,12 +1,12 @@
 ---
 title: Button - Design System Component
-_description: The Button Component Symbol is used to represent a simple action. 
+_description: The Button Component is used to represent a simple action. 
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Button
 
-Use the Button Component to represent the trigger for a simple action that user can take. Buttons are used in cards, dialogs, forms, and many other components and patterns. The Button is visually identical to the [Ignite UI for Angular Button Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/button.html)
+Use the Button Component to represent the trigger for a simple action that the user can take. Buttons are used in cards, dialogs, forms, and many other components and patterns. The Button is visually identical to the [Ignite UI for Angular Button Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/button.html)
 
 ## Button Demo
 
@@ -16,13 +16,22 @@ Use the Button Component to represent the trigger for a simple action that user 
 
 Five types of Buttons are supported:
 
-- A more prominent Contained Button with color fill and shadow that emphasizes an action.
-- A less prominent Outlined Button with color outline appropriate for the majority of actions.
-- A very subtle Flat Button that is typically used for the least important actions.
-- An Icon Button for actions that are represented only with an icon.
-- A very prominent Floating Action Button (Fab) with color fill and shadow that is used once per screen to strongly emphasize the main action.
+- A more prominent **Contained Button** with color fill and shadow that emphasizes an action.
+- A less prominent **Outlined Button** with color outline appropriate for the majority of actions.
+- A very subtle **Flat Button** that is typically used for the least important actions.
+- A very prominent **Floating Action Button (Fab)** with color fill and shadow that is used once per screen to strongly emphasize the main action.
+- An **Icon Button** for actions that are represented only with an icon. Icon Buttons can also be Contained, Outlined, Flat and Fab type.
 
 <img class="responsive-img" src="../images/button_types.png" srcset="../images/button_types@2x.png 2x" />
+
+## Size
+
+All Button types are available in three sizes:
+- Large
+- Medium
+- Small
+
+<img class="responsive-img" src="../images/button_sizes.png" srcset="../images/button_sizes@2x.png 2x" />
 
 ## Interaction States
 
@@ -32,13 +41,13 @@ You may also insert each button in a disabled state because they all support bot
 
 ## States
 
-In Figma the Enabled buttons support **Idle**, Hover, Focused and Focused and Hover states which can be switched between by changing the State property.
+In Figma the Enabled buttons support **Idle**, Hover, Focused and Focused & Hover states which can be switched between by changing the `State` property.
 
 <img class="responsive-img" src="../images/button_states.png" srcset="../images/button_states@2x.png 2x" />
 
 ## Layout Template
 
-Contained, Outlined, Flat, and Floating Action Buttons support flexible icon and label templates. In Figma, to show or hide the icons, you can use the Left Icon and Right Icon boolean properties. If you want to have an Icon Button, you can set the Content property to Icon.
+Contained, Outlined, Flat, and Floating Action Buttons support flexible icon and label templates. In Figma, to show or hide the icons, you can use the `Left Icon` and `Right Icon` boolean properties. If you want to have an Icon Button, you can set the `Content` property to Icon.
 
 <img class="responsive-img" src="../images/button_templates.png" srcset="../images/button_templates@2x.png 2x" />
 
