@@ -1,6 +1,6 @@
 ---
 title: Checkbox - Design System Component
-_description: The Checkbox Component Symbol is used to allow the user to mark a selection. 
+_description: The Checkbox Component is used to allow the user to mark a selection. 
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
