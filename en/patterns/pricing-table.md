@@ -7,7 +7,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Ang
 
 # Pricing Table
 
-Use the Pricing Table Pattern to display an offering for a product or a subscription. It comes in Featured and Not Featured presets including header, price, list of features included or not included and call-to-action button.
+Use the Pricing Table Pattern to display an offering for a product or a subscription. It comes in **Featured** and **Not Featured** presets including header, price, list of features included or not included and call-to-action button.
 
 <img class="responsive-img" src="../images/pricing_plan.png" srcset="../images/pricing_plan@2x.png 2x" />
 
