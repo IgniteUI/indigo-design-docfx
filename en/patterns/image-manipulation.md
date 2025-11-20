@@ -18,7 +18,7 @@ The Image Manipulation Pattern supports both standard images and Avatars that co
 
 <img class="responsive-img" src="../images/image-manip_layout.png" srcset="../images/image-manip_layout@2x.png 2x" />
 
-## Additional Resources
+## Additional Resources 
 
 Related topics:
 
