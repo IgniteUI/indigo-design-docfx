@@ -20,12 +20,14 @@ The Tooltip comes with styling flexibility through the options available for the
 
 ## Usage
 
-When displaying Tooltip for a given element it is important how the tooltip is positioned. In most cases, both elements should be centrally aligned in relation to each other. The only exception is when such an alignment would cause part of the Tooltip to be cut off, then the positioning should be such that the whole Tooltip fits in the visible area.
+When displaying a Tooltip for a given element, proper positioning is essential. The Tooltip should appear close to the element it describes, without obstructing the interface or distracting the user. Its position should ensure maximum visibility and remain fully within the screen. By default, the Tooltip appears centered just below the element; however, if this placement would cause any part of it to be cut off, it should be repositioned so that the entire Tooltip stays visible.
+Tooltips should not be used to convey critical information.
 
 | Do                                                                               | Don't                                                                                |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | <img class="responsive-img" src="../images/tooltip_do1.png" srcset="../images/tooltip_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/tooltip_dont1.png" srcset="../images/tooltip_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/tooltip_do2.png" srcset="../images/tooltip_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/tooltip_dont2.png" srcset="../images/tooltip_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/tooltip_do3.png" srcset="../images/tooltip_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/tooltip_dont3.png" srcset="../images/tooltip_dont3@2x.png 2x" /> |
 
 ## Additional Resources
 
