@@ -13,7 +13,11 @@ Use the Onboarding Patterns as presets for building Onboarding experience in sev
 The **Indigo.Design System** provides 7 preset versions of onboarding flows that cover some of the most common application scenarios. However, consider the selection based on the complexity of the information being presented and the user needs.
 
 <img class="responsive-img" src="../images/onboarding2.png" srcset="../images/onboarding2@2x.png 2x" />
+<img class="responsive-img" src="../images/onboarding4.png" srcset="../images/onboarding4@2x.png 2x" />
+<img class="responsive-img" src="../images/onboarding5.png" srcset="../images/onboarding5@2x.png 2x" />
 <img class="responsive-img" src="../images/onboarding3.png" srcset="../images/onboarding3@2x.png 2x" />
+<img class="responsive-img" src="../images/onboarding6.png" srcset="../images/onboarding6@2x.png 2x" />
+<img class="responsive-img" src="../images/onboarding7.png" srcset="../images/onboarding7@2x.png 2x" />
 
 ## Additional Resources
 
