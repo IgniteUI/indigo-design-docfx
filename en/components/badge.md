@@ -36,7 +36,7 @@ The Badge component is available in two shapes: rounded and square.
 
 ## Outlined Variants 
 
-Outlined variants are available for all badge types and shapes and can be enabled from the `Outlined` boolean property from the properties panel.
+Outlined variants are available for all badge types and shapes and can be enabled using the `Outlined` boolean property in the properties panel.
 
 <img class="responsive-img" src="../images/badge_outlined.png" srcset="../images/badge_outlined@2x.png 2x" />
 
@@ -52,7 +52,7 @@ The Badge can be used in one of the following preset color combinations to draw 
 
 ## Styling
 
-The Badge offers styling flexibility with options to customize the background, the icon and its color, and the text with its color and style where applicable. Since all badge types and shapes also support outline variants, users can experiment with border colors as well.
+The Badge provides extensive styling flexibility, allowing customization of the background, icon and its color, as well as the text, its color, and style where applicable. Since all badge types and shapes also support outlined variants, users can further refine the appearance by adjusting the border colors.
 
 <img class="responsive-img" src="../images/badge_styling.png" srcset="../images/badge_styling@2x.png 2x" />
 
