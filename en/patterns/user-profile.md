@@ -9,6 +9,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Ang
 Use the User Profile Pattern to display user-related information, either as a full-screen detailed page or as a small indication that can be inserted in headers and toolbars.
 
 <img class="responsive-img" src="../images/profile_demo.png" srcset="../images/profile_demo@2x.png 2x" style="margin-right:30px"/>
+ <div class="divider--half"></div>
 <img class="responsive-img" src="../images/profile_small.png" srcset="../images/profile_small@2x.png 2x" />
 
 An editable variant of the User Profile Pattern, nicely laid out with the appropriate Inputs, is also provided. The User Profile Pattern comes with the styling flexibility provided by the Avatar and Inputs that constitute its layout.
