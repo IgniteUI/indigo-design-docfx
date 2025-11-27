@@ -1,6 +1,6 @@
 ---
 title: Dialog - Design System Component
-_description: The Dialog Component Symbol is used to show a message or alert to the user in a modal fashion. 
+_description: The Dialog Component is used to show a message or alert to the user in a modal fashion. 
 _keywords: Design Systems, Design Systems UX, UI kit, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular, Figma, Figma to Angular, Export code from Figma, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
