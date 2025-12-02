@@ -53,7 +53,7 @@ Tree コンポーネントは、ツリー ノードと呼ばれる多数のネ�
 
 ## Tree Node (ツリー ノード) 状態
 
-Tree Node には、Idle (アイドル) と Disabled (無効) の 2 つの主要な状態があり、追加の操作状態も利用できます。Figma では、プロパティ パネルで Active (アクティブ)、Hover (ホバー)、Focused (フォーカス済み) のプロパティを切り替えて、これらの状態を調整できます。また、プロパティ値パネルで `Selected` および `Indeterminate` ブール値プロパティを切り替えることで、Checkbox の状態を制御できます。
+Tree Node には、Idle (アイドル) と Disabled (無効) の 2 つの主要な状態があり、追加のインタラクション状態も利用できます。Figma では、プロパティ パネルで Active (アクティブ)、Hover (ホバー)、Focused (フォーカス済み) のプロパティを切り替えて、これらの状態を調整できます。また、プロパティ値パネルで `Selected` および `Indeterminate` ブール値プロパティを切り替えることで、Checkbox の状態を制御できます。
 
 <img class="responsive-img" src="../images/tree-node_basic.png" srcset="../images/tree-node_basic@2x.png 2x" />
 <img class="responsive-img" src="../images/tree-node_disabled.png" srcset="../images/tree-node_disabled@2x.png 2x" />
@@ -80,7 +80,6 @@ Tree には、Expand Icon (展開アイコン)、Checkbox (チェックボック
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/tree_do1.png" srcset="../images/tree_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/tree_dont1.png" srcset="../images/tree_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/tree_do2.png" srcset="../images/tree_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/tree_dont2.png" srcset="../images/tree_dont2@2x.png 2x" /> |
-
 
 # その他のリソース
 

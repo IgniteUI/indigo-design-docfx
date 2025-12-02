@@ -16,6 +16,7 @@ Menu シンボル (コンポーネント) は、ロゴ、メニュー項目、�
 メニューには、方向に応じて Horizontal (水平) と Vertical (垂直) の 2 つのタイプがあります。
 
 <img class="responsive-img" src="../images/menu_horizontal.png" srcset="../images/menu_horizontal@2x.png 2x" />
+<div class="divider--half"></div>
 <img class="responsive-img" src="../images/menu_vertical.png" srcset="../images/menu_vertical@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -41,5 +42,3 @@ Menu シンボル (コンポーネント) は、ロゴ、メニュー項目、�
   <div class="divider--half"></div>
 
 コミュニティに参加して新しいアイデアをご提案ください。
-
-

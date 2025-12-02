@@ -9,7 +9,8 @@ _language: ja
 
 User Profile パターンを使用すると、全画面表示の詳細ページまたはヘッダーまたはツールバーに挿入する小さいインジケーターでユーザーに関連する情報を表示します。
 
-<img class="responsive-img" src="../images/profile_demo.png" srcset="../images/profile_demo@2x.png 2x" />
+<img class="responsive-img" src="../images/profile_demo.png" srcset="../images/profile_demo@2x.png 2x" style="margin-right:30px"/>
+ <div class="divider--half"></div>
 <img class="responsive-img" src="../images/profile_small.png" srcset="../images/profile_small@2x.png 2x" />
 
 User Profile パターンの編集可能なバリアントもあります。User Profile パターンは、レイアウトに含まれる Avatar および Input のスタイル設定をカスタマイズできます。

@@ -1,6 +1,6 @@
 ---
 title: Bottom Navigation - デザイン システム コンポーネント
-_description: Bottom Navigation コンポーネント シンボルは、シンプルなアプリケーション レベルのナビゲーションのデザインに使用します。
+_description: Bottom Navigation コンポーネントは、シンプルなアプリケーション レベルのナビゲーションのデザインに使用します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---

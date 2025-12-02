@@ -1,6 +1,6 @@
 ﻿---
 title: Button Group - デザイン システム コンポーネント
-_description: Button Group コンポーネント シンボルは、同じコンセプトに属しているシンプルな操作を表すために使用します。
+_description: Button Group コンポーネントは、同じコンセプトに属しているシンプルな操作を表すために使用します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
@@ -26,9 +26,21 @@ Figma では、ボタン グループは自動レイアウトを使用してい�
 
 <img class="responsive-img" src="../images/button-group_amount.png" srcset="../images/button-group_amount@2x.png 2x" />
 
-## ボタン レイアウト テンプレート
+## インタラクション状態
 
-Button Group の各ボタンは Flat Button であり、同様のテンプレートを作成できます。
+Button Group コンポーネント内の各ボタンは Enabled と Disabled の両方のバリアントをサポートしており、さらに Selected かどうかを切り替えることができます。Figma ではプロパティ パネルのブール操作を使用して、Enabled と Disabled、Selected と Not Selected を切り替えることができます。
+
+<img class="responsive-img" src="../images/button-group_interaction.png" srcset="../images/button-group_interaction@2x.png 2x" />
+
+## 状態
+
+Figma では、Button Group コンポーネント内の Enabled ボタンは Idle (アイドル)、Hover (ホバー)、Focused (フォーカス済み) の状態をサポートしており、State プロパティを変更することで切り替えることができます。
+
+<img class="responsive-img" src="../images/button-group_states.png" srcset="../images/button-group_states@2x.png 2x" />
+
+## Button Group レイアウト テンプレート
+
+ボタン グループの各ボタンは、柔軟なアイコンとラベル テンプレートをサポートします。Figma では、Text & Icon Content タイプを選択し、Left Icon と Right Icon のブール値プロパティを使用することでアイコンの表示と非表示を切り替えられます。Icon Button を使用する場合は Content プロパティを Icon に設定します。
 
 <img class="responsive-img" src="../images/button-group_text.png" srcset="../images/button-group_text@2x.png 2x" />
 <img class="responsive-img" src="../images/button-group_icon.png" srcset="../images/button-group_icon@2x.png 2x" />

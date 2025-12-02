@@ -1,13 +1,13 @@
 ﻿---
 title: Hyperlink - デザイン システム コンポーネント
-_description: Hyperlink コンポーネント シンボルは、テキスト段落で参照を使用できます。
+_description: Hyperlink コンポーネントは、テキスト段落で参照を使用できます。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット
 _language: ja
 ---
 
 # Hyperlink (ハイパーリンク)
 
-Hyperlink コンポーネント シンボルは、利用規約やプライバシー ポリシーなど段落のテキスト部分のスタイルに関する追加情報へのアクセスを提供します。
+Hyperlink コンポーネントは、利用規約やプライバシー ポリシーなど段落のテキスト部分のスタイルに関する追加情報へのアクセスを提供します。
 
 ## Hyperlink のデモ
 

@@ -1,6 +1,6 @@
 ﻿---
 title: Avatar - デザイン システム コンポーネント
-_description: Avatar コンポーネント シンボルは、個人情報を画像で表します。
+_description: Avatar コンポーネントは、個人情報を画像で表します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---

@@ -1,6 +1,6 @@
 ---
 title: List Item - デザイン システム コンポーネント
-_description: List Item コンポーネント シンボルは、情報とそれに可能なアクションを表示するために使用されます。
+_description: List Item コンポーネントは、情報とそれに可能なアクションを表示するために使用されます。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット
 _language: ja
 ---

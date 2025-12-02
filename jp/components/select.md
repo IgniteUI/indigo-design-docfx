@@ -23,32 +23,36 @@ Select は、現在の選択を含む入力と、項目を選択できるよう�
 | ------- | ------- |
 | <img class="responsive-img" src="../images/select_border.png" srcset="../images/select_border@2x.png 2x" /> | <img class="responsive-img" src="../images/select_box.png" srcset="../images/select_box@2x.png 2x" /> |
 
-## 操作状態
+## サイズ
+
+Select コンポーネントには、次の 3 つのサイズがあります。
+
+- Large 
+- Medium 
+- Small
+
+Dropdown は選択されたサイズ バリアントに合わせて自動的に寸法が調整されます。
+
+<img class="responsive-img" src="../images/select_sizeborder.png" srcset="../images/select_sizeborder@2x.png 2x" />
+<img class="responsive-img" src="../images/select_sizebox.png" srcset="../images/select_sizebox@2x.png 2x" />
+
+## インタラクション状態
 
 Figma では、プロパティ パネルを使用して、border と box タイプの Select Input の両方を Disabled (無効) 状態に設定できます。
 
-| Enabled 状態 | Disabled 状態 |
-| ------- | ------- |
-| <img class="responsive-img" src="../images/select_enabledstate.png" srcset="../images/select_enabledstate@2x.png 2x" /> | <img class="responsive-img" src="../images/select_disabledstate.png" srcset="../images/select_disabledstate@2x.png 2x" /> |
+<img class="responsive-img" src="../images/select_interaction.png" srcset="../images/select_interaction@2x.png 2x" />
 
 ## 状態
 
-ユーザーが Select を操作すると、その入力はさまざまな選択状態を経ます。**Idle (アイドル)** ー コンテンツの代わりにプレースホルダーがあります; ドロップダウンが開いているときの **Focused (フォーカス済み)**; ユーザーが選択を終了して次に進むときの **Filled (塗りつぶし済み)** です。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
+Select コンポーネントは Enabled バリアントに対して 5 つの状態 (**Idle**、**Idle & Hover**、**Filled**、**Filled & Hover**、**Focused**) と、3 つのバリデーション状態 (**Success**、**Warn**、**Error**) をサポートします。プロパティ パネルから Select の状態変更や Dropdown の表示切り替えが容易に行え、ネストされた Dropdown コンポーネントではコンテンツのさらに細かな調整が可能です。柔軟性が向上したことにより、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。
 
-| Idle 状態 | Focused 状態 | Filled 状態 |
-| ------- | ------- | ------- |
-| <img class="responsive-img" src="../images/select_idle.png" srcset="../images/select_idle@2x.png 2x" /> | <img class="responsive-img" src="../images/select_focused.png" srcset="../images/select_focused@2x.png 2x" /> | <img class="responsive-img" src="../images/select_filled.png" srcset="../images/select_filled@2x.png 2x" /> |
+<img class="responsive-img" src="../images/select_states.png" srcset="../images/select_states@2x.png 2x" /> 
 
 経験豊富なデザイナーは、ユーザー入力を制限して無効な状態を防止するために、検証スタイルを使用します。Select の検証スタイルには統一感のある標準 [Input](input.md) があり、success (成功)、warning (警告)、error (エラー) を表示する洗練されたデザインを提供します。
 
-| Success | Warn | Error |
-| ------- | ------- | ------- |
-| <img class="responsive-img" src="../images/select_success.png" srcset="../images/select_success@2x.png 2x" /> | <img class="responsive-img" src="../images/select_warning.png" srcset="../images/select_warning@2x.png 2x" /> |  <img class="responsive-img" src="../images/select_error.png" srcset="../images/select_error@2x.png 2x" /> |
+<img class="responsive-img" src="../images/select_validation.png" srcset="../images/select_validation@2x.png 2x" /> 
 
 Figma では、プロパティ パネルの `State` プロパティを使用して、すべての状態を切り替えることができます。
-
-> [!NOTE]
-> Figma では、Select コンポーネントで明示的に使用される `.Select Input` と呼ばれる別の基本コンポーネントがあります。
 
 ## Layout (レイアウト)
 
@@ -66,7 +70,7 @@ Select は、利用可能なオプションを表示するために、その構�
 
 ## スタイル設定
 
-Select は入力とドロップダウン項目でスタイルの組み合わせに柔軟性があります。入力テキスト要素の色と最終的な行のスタイルと色にはオプションがあります。ドロップダウン項目の場合、背景とテキストの色を変更できます。
+Select は入力とドロップダウン項目でスタイルの組み合わせに柔軟性があります。テキストと入力に対してさまざまなスタイルと色を試すことができます。ドロップダウン項目の場合、背景とテキストの色を変更できます。
 
 <img class="responsive-img" src="../images/select_styling.png" srcset="../images/select_styling@2x.png 2x" />
 
@@ -84,6 +88,7 @@ Select を使用する際に入力とドロップダウンは同じ幅で左右�
 関連トピック:
 
 - [Combo](combo.md)
+- [Dropdown](dropdown.md)
 - [Input](input.md)
 - [Form パターン](../patterns/form.md)
   <div class="divider--half"></div>

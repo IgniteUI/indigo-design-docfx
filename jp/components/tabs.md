@@ -18,6 +18,7 @@ Tabs コンポーネントは、同じ情報を異なるビューに体系化、
 Tabs には 2 つのサイズがあります。Short はデフォルトでテキストのみを表示し、オプションでプレフィックス アイコンとサフィックス アイコンを表示できます。Tall はさらに、テキストの上に 3 つ目のアイコンを追加できます。Figma では、右側のプロパティ パネルの `Type` プロパティから 2 つのサイズを切り替えることができます。
 
 <img class="responsive-img" src="../images/tabs_short.png" srcset="../images/tabs_short@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_content_fit_with_prefix.png" srcset="../images/tabs_content_fit_with_prefix@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_tall.png" srcset="../images/tabs_tall@2x.png 2x" />
 
 ## レスポンシブ
@@ -31,10 +32,7 @@ Tabs は、幅を調整することで使用可能な水平方向のスペース
 
 ほとんどのケースでは、Tabs に 2 つ ~ 5 つ の項目を含める必要があります。Figma で項目を削除するには、ネストされた Tab 項目 コンポーネントをレイヤー パネルから非表示にするだけで、追加された自動レイアウトによってコンテンツが適切に調整されます。ユースケースで 5 つ以上のタブが必要な場合、上記で説明した Fixed モードを検討してください。
 
-<img class="responsive-img" src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" />
-<img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
-<img class="responsive-img" src="../images/tabs_4.png" srcset="../images/tabs_4@2x.png 2x" />
-<img class="responsive-img" src="../images/tabs_5.png" srcset="../images/tabs_5@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" /><img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" /><img class="responsive-img" src="../images/tabs_4.png" srcset="../images/tabs_4@2x.png 2x" /><img class="responsive-img" src="../images/tabs_5.png" srcset="../images/tabs_5@2x.png 2x" /><img class="responsive-img" src="../images/tabs_fixed2.png" srcset="../images/tabs_fixed2@2x.png 2x" />
 
 ## 短いバー コンテンツ
 

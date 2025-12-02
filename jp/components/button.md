@@ -1,13 +1,13 @@
 ﻿---
 title: Button - デザイン システム コンポーネント
-_description: Button コンポーネント シンボルはシンプルなアクションを表すために使用します。
+_description: Button コンポーネントはシンプルなアクションを表すために使用します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
 # Button (ボタン)
 
-Button コンポーネント シンボルは、シンプルなユーザー操作のためのトリガーを表します。Buttons は、カード、ダイアログ、フォーム、その他コンポーネントやパターンに使用します。Button は、[Ignite UI for Angular Button コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/button.html)と視覚的に同じものです。
+Button コンポーネントは、シンプルなユーザー操作のためのトリガーを表します。Buttons は、カード、ダイアログ、フォーム、その他コンポーネントやパターンに使用します。Button は、[Ignite UI for Angular Button コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/button.html)と視覚的に同じものです。
 
 ## Button のデモ
 
@@ -17,15 +17,25 @@ Button コンポーネント シンボルは、シンプルなユーザー操作
 
 5 つの Button タイプがあります。
 
-- 塗りつぶしや影付きの Contained Button は、操作を強調します。
-- アウトライン付きの Outlined Button は、ほとんどのアクションに適しています。
-- Flat Button は、通常あまり重要でない操作に使用します。
-- Icon Button は、操作をアイコンでのみ表されます。
-- Floating Action Button (Fab) の塗りつぶしと影は、画面ごとに 1 回使用してメインの操作を強調します。
+- 塗りつぶしや影付きの **Contained Button** は、操作を強調します。
+- アウトライン付きの **Outlined Button** は、ほとんどのアクションに適しています。
+- **Flat Button** は、通常あまり重要でない操作に使用します。
+- **Floating Action Button (Fab)** の塗りつぶしと影は、画面ごとに 1 回使用してメインの操作を強調します。
+- **Icon Button** は、操作をアイコンでのみ表されます。Icon Button は、Contained、Outlined、Flat、Fab の各タイプにすることもできます。
 
 <img class="responsive-img" src="../images/button_types.png" srcset="../images/button_types@2x.png 2x" />
 
-## 操作状態
+## サイズ
+
+すべての Button タイプには、次の 3 つのサイズがあります。
+
+- Large (大)
+- Medium (中)
+- Small (小)
+
+<img class="responsive-img" src="../images/button_sizes.png" srcset="../images/button_sizes@2x.png 2x" />
+
+## インタラクション状態
 
 これらのボタンはすべて、有効なバリアントと無効なバリアントの両方をサポートしているため、無効な状態で挿入することもできます。Figma では、プロパティ パネルからブール演算を使用して切り替えることができます。
 
@@ -33,13 +43,13 @@ Button コンポーネント シンボルは、シンプルなユーザー操作
 
 ## 状態
 
-Figma では、Enabled ボタンは **Idle (アイドル)**、Hover (ホバー)、Focused (フォーカス済み)、Focused and Hover (フォーカス済みおよびホバー) 状態をサポートしており、State プロパティを変更することで切り替えることができます。
+Figma では、Enabled ボタンは **Idle (アイドル)**、Hover (ホバー)、Focused (フォーカス済み)、Focused and Hover (フォーカス済みおよびホバー) 状態をサポートしており、`State` プロパティを変更することで切り替えることができます。
 
 <img class="responsive-img" src="../images/button_states.png" srcset="../images/button_states@2x.png 2x" />
 
 ## レイアウト テンプレート
 
-Contained、Outlined、Flat、および Floating Action ボタンは、柔軟なアイコンおよびラベルのテンプレートをサポートします。Figma では、アイコンを表示または非表示にするには、Left Icon および Right Icon ブール値プロパティを使用できます。アイコン ボタンが必要な場合は、Content プロパティを Icon に設定できます。
+Contained、Outlined、Flat、および Floating Action ボタンは、柔軟なアイコンおよびラベルのテンプレートをサポートします。Figma では、アイコンを表示または非表示にするには、`Left Icon` および `Right Icon` ブール値プロパティを使用できます。アイコン ボタンが必要な場合は、`Content` プロパティを Icon に設定できます。
 
 <img class="responsive-img" src="../images/button_templates.png" srcset="../images/button_templates@2x.png 2x" />
 

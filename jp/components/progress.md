@@ -1,6 +1,6 @@
 ﻿---
 title: Progress - デザイン システム コンポーネント
-_description: Progress コンポーネント シンボルは、タスクの状態、進捗、完了をビジュアルで示すインジケーターです。
+_description: Progress コンポーネントは、タスクの状態、進捗、完了をビジュアルで示すインジケーターです。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット
 _language: ja
 ---
