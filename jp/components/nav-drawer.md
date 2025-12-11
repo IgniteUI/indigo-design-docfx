@@ -39,13 +39,10 @@ Navigation Drawer は、ヘッダーと項目の 2 つのタイプの項目を�
 Figma では、すべての Navigation Drawer Item には、Active (アクティブ)、Inactive (非アクティブ)、Hover (ホバー)、または Disabled (無効) の状態があります。ネストされた Navigation Drawer Items に移動し、State プロパティから目的の状態を選択できます。`Icon` ブール値プロパティを使用してアイコンの表示/非表示を選択することもできます。Navigation Drawer では、画面の残りの部分に表示されるビューを示すために、一度に 1 つの項目のみをアクティブにすることができます。
 
 <img class="responsive-img" src="../images/nav-drawer_active.png" srcset="../images/nav-drawer_active@2x.png 2x" />
-`active`
 <img class="responsive-img" src="../images/nav-drawer_inactive.png" srcset="../images/nav-drawer_inactive@2x.png 2x" />
-`inactive`
+
 <img class="responsive-img" src="../images/nav-drawer_hover.png" srcset="../images/nav-drawer_hover@2x.png 2x" />
-`hover`
 <img class="responsive-img" src="../images/nav-drawer_disabled.png" srcset="../images/nav-drawer_disabled@2x.png 2x" />
-`disabled`
 
 ## スタイル設定
 

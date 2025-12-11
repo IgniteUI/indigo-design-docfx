@@ -1,6 +1,6 @@
 ---
 title: Date Picker - デザイン システム コンポーネント
-_description: Date Picker コンポーネント シンボルは、日付選択に必要なメカニズムを提供する日付のビジュアル表現として使用します。
+_description: Date Picker コンポーネントは、日付選択に必要なメカニズムを提供する日付のビジュアル表現として使用します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
@@ -13,14 +13,51 @@ Date Picker コンポーネントは、日付を視覚的に表現し、フォ�
 
 <img class="responsive-img" src="../images/datepicker_demo.png" srcset="../images/datepicker_demo@2x.png 2x" />
 
+## Date Picker タイプ
+
+Figma では、プロパティ パネルの `Type` プロパティで dialog または dropdown の Date Picker を選択できます。
+
+<img class="responsive-img" src="../images/datepicker_type.png" srcset="../images/datepicker_type@2x.png 2x" />
+
+## Date Picker サイズ
+
+すべての Date Picker タイプは、次の 3 つのサイズで使用できます。
+
+- Large (大)
+- Medium (中)
+- Small (小)
+
+<img class="responsive-img" src="../images/datepicker_dialogsize.png" srcset="../images/datepicker_dialogsize@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_dropdownsize.png" srcset="../images/datepicker_dropdownsize@2x.png 2x" />
+
 ## Date Picker Input (日付ピッカー入力)
 
-フォームに Date Picker Input を挿入して、日付を選択するためのフィールドを示すことができます。Enabled および Disabled の操作状態、およびユーザーの操作時に表示されるダイアログとドロップダウンのバリアントをサポートします。
+フォームに Date Picker Input を挿入して、日付を選択するためのフィールドを示すことができます。Dialog と Dropdown のバリエーションがあり、ユーザーの操作に応じて表示されます。
 
-<img class="responsive-img" src="../images/datepicker_enabled.png" srcset="../images/datepicker_enabled@2x.png 2x" />
-<img class="responsive-img" src="../images/datepicker_disabled.png" srcset="../images/datepicker_disabled@2x.png 2x" />
+## Date Picker Input タイプ
 
-## Picker レイアウト
+Figma では、ユーザーは 2 つのタイプの Date Picker Input を選択できます。1 つは無地の背景上でより構造的に見える border スタイル、もう 1 つは鮮やかな画像の上に配置した際に内容の可読性を高めるのに最適な box スタイルです。
+
+<img class="responsive-img" src="../images/datepicker_border.png" srcset="../images/datepicker_border@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_box.png" srcset="../images/datepicker_box@2x.png 2x" />
+
+## Date Picker Input サイズ
+
+すべての Date Picker 入力タイプには、Date Picker コンポーネントの対応するサイズに合わせて 3 つのサイズがあります。
+
+- Large (大)
+- Medium (中)
+- Small (小)
+
+<img class="responsive-img" src="../images/datepicker_inputsize.png" srcset="../images/datepicker_inputsize@2x.png 2x" />
+
+## Date Picker Input 状態
+
+Date Picker の入力は 7 つのインタラクション状態 (**Idle**、**Idle & Hover**、**Idle & Disabled**、**Filled**、**Filled & Hover**、**Filled & Disabled**、**Focused**) と、3 つのバリデーション状態 (**Success**、**Warn**、**Error**) をサポートします。
+
+<img class="responsive-img" src="../images/datepicker_states.png" srcset="../images/datepicker_states@2x.png 2x" />
+
+## Date Picker レイアウト
 
 Date Picker は、水平および垂直方向の Dialog レイアウトおよび Dropdown レイアウトをサポートしており、さまざまなシャドウを表示して互いに区別しやすくすることで、さまざまな日付の選択モードを容易にします。Dialog レイアウトにはヘッダーが付属していることに注意してください。ブール値の `Header` プロパティをオフにすることで Figma でヘッダーを非表示にすることができ、追加された自動レイアウトのおかげでレイアウトはそれに応じて自動的に調整されます。
 
@@ -38,6 +75,14 @@ Date Picker には、2 か月を並べて表示する Multiview オプション�
 
 <img class="responsive-img" src="../images/datepicker_multi_horiz.png" srcset="../images/datepicker_multi_horiz@2x.png 2x" />
 <img class="responsive-img" src="../images/datepicker_multi_vert.png" srcset="../images/datepicker_multi_vert@2x.png 2x" />
+
+## コンテンツ
+
+Figma では `View` プロパティで Day、Month、Year のビューを切り替えて、主要な日付区分を表示しやすくできます。
+
+<img class="responsive-img" src="../images/datepicker_vertical.png" srcset="../images/datepicker_vertical@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_month.png" srcset="../images/datepicker_month@2x.png 2x" />
+<img class="responsive-img" src="../images/datepicker_year.png" srcset="../images/datepicker_year@2x.png 2x" />
 
 ## 週のはじめ
 
@@ -62,13 +107,13 @@ Calendar と同様に、Date Picker では 3 つの選択モードから選択�
 
 ## スタイル設定
 
-Date Picker は、さまざまなオプションでヘッダー背景、タイトル色、選択した日付や現在の日付などのテキストの色の制御などスタイル設定に柔軟性があります。
+Date Picker は、ヘッダーの背景やタイトルの色、選択日や現在の日付・月・年のテキスト色など、さまざまなスタイリングの選択肢を備えています。
 
 <img class="responsive-img" src="../images/datepicker_styling.png" srcset="../images/datepicker_styling@2x.png 2x" />
 
 ## 使用方法
 
-Horizontal と Vertical Dialog Date Picker をダイアログで表示し、ダイアログ以外の UI は暗くなります。
+Dialog タイプの Date Picker を使用する場合のみ、UI の他の部分を暗くすることが推奨されます。
 
 | 良い例                                                                                     | 悪い例                                                                                      |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |

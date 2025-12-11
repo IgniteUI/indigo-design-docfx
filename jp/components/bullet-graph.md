@@ -1,6 +1,6 @@
 ---
 title: Bullet Graph - デザイン システム コンポーネント
-_description: Bullet Graph コンポーネント シンボルはある値のターゲット値への進行度を可視化します。
+_description: Bullet Graph コンポーネントはある値のターゲット値への進行度を可視化します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット
 _language: ja
 ---

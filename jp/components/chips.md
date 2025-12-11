@@ -1,6 +1,6 @@
 ---
 title: Chip と Chips Area - Design System コンポーネント
-_description: Chip Component シンボルはインタラクティブでコンパクトな表示です。Chips Area コンポーネント シンボルを使用して Chips のコンポーネントのコレクションを表します。
+_description: Chip コンポーネントはインタラクティブでコンパクトな表示です。Chips Area コンポーネントを使用して Chips のコンポーネントのコレクションを表します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI kits
 _language: ja
 ---
@@ -29,7 +29,7 @@ Chip は 3 つのサイズ バリアントがサポートされます。
 
 <img class="responsive-img" src="../images/chip_type.png" srcset="../images/chip_type@2x.png 2x" />
 
-## 操作状態
+## インタラクション状態
 
 Chip は、Enabled (有効) または Disabled (無効) の状態で挿入できます。Figma では、プロパティ パネルから Disabled ブール演算を使用して状態を変更できます。
 
@@ -37,7 +37,7 @@ Chip は、Enabled (有効) または Disabled (無効) の状態で挿入でき
 
 ## 状態
 
-ユーザーが Chip を操作すると、デフォルトの **Idle (アイドル)** 状態から Hover (ホバー)、Focused (フォーカス済み)、または Selected (選択済み) に変化します。これには、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。Figma では、これらはプロパティ パネルの State プロパティから選択できます。
+ユーザーが Chip を操作すると、デフォルトの **Idle (アイドル)** 状態から Hover (ホバー)、Focused (フォーカス済み)、または Selected (選択済み) に変化します。これには、Hi-Fi プロトタイプへシームレスにフローする動的なインタラクション デザインの作成が可能です。Figma では、プロパティ パネルの 'State' プロパティおよび 'Selected' ブール値プロパティから選択できます。
 
 <img class="responsive-img" src="../images/chip_state.png" srcset="../images/chip_state@2x.png 2x" />
 
@@ -49,7 +49,7 @@ Chip を削除することが可能であると、これを示す特別なキャ
 
 ## Chip コンテンツ
 
-Chip は、prefix および suffix コンテナーを介したコンテンツ テンプレートをサポートしており、Chip のメイン ラベルの前後にアイコンとテキストを挿入できます。
+Chip は、prefix および suffix コンテナーを介したコンテンツ テンプレートをサポートしており、Chip のメイン ラベルの前後にアイコンとテキストを挿入できます。チップ内で使用されるアイコンも Large、Medium、Small の 3 つのサイズがあります。
 
 Figma では、プロパティ パネルの 「Prefix Icon」 および 「Suffix Icon」 プロパティを使用して、プレフィックス アイコンとサフィックス アイコンを表示または非表示にすることができ、それに応じてレイアウトが自動的に調整されます。
 

@@ -1,13 +1,13 @@
 ﻿---
 title: Carousel - デザイン システム コンポーネント
-_description: Carousel コンポーネント シンボルは画像コレクションの順次的なブラウジングが可能です。
+_description: Carousel コンポーネントは画像コレクションの順次的なブラウジングが可能です。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット, Figma HTML
 _language: ja
 ---
 
 # Carousel (カルーセル)
 
-Carousel コンポーネント シンボルは、横矢印キーを使用して画像コレクションの前や次の画像に順次的にナビゲーションできます。Carousel は、[Ignite UI for Angular Carousel コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/carousel.html)と視覚的に同じものです。
+Carousel コンポーネントは、横矢印キーを使用して画像コレクションの前や次の画像に順次的にナビゲーションできます。Carousel は、[Ignite UI for Angular Carousel コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/carousel.html)と視覚的に同じものです。
 
 ## Carousel のデモ
 

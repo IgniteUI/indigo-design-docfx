@@ -1,6 +1,6 @@
 ﻿---
 title: List - デザイン システム コンポーネント
-_description: List コンポーネント シンボルは、データ行の垂直コレクションをブラウスおよびインタラクションする方法を提供します。
+_description: List コンポーネントは、データ行の垂直コレクションをブラウスおよびインタラクションする方法を提供します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット
 _language: ja
 ---

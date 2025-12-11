@@ -23,7 +23,7 @@ Dropdown には 3 つのサイズがあります: Large、Medium および Small
 
 ## 項目
 
-Dropdown は、2 つのタイプをサポートします: header と item。ヘッダーでグループの他の項目を体系化できます。
+Dropdown は 2 つの項目タイプ (header と item) をサポートし、Large、Medium、Small の 3 つのサイズで利用できます。ヘッダーでグループの他の項目を体系化できます。
 
 <img class="responsive-img" src="../images/dropdown_header.png" srcset="../images/dropdown_header@2x.png 2x" />
 <img class="responsive-img" src="../images/dropdown_item.png" srcset="../images/dropdown_item@2x.png 2x" />
@@ -32,13 +32,10 @@ Dropdown は、2 つのタイプをサポートします: header と item。ヘ�
 
 ドロップダウン項目は、**Idle (アイドル)**、**Hover (ホバー)**、**Disabled (無効)**、**Focused (フォーカス済み)**、**Selected (選択済み)**、**Selected & Hover (選択済みおよびホバー)**、**Selected & Focused (選択済みおよびフォーカス済み)** の 7 つの異なる状態をサポートしています。Figma では、状態は `State` プロパティおよび/または Selected と Disabled のブール値プロパティを変更することで異なるバリアントを実現できます。
 
-<img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_item_hover.png" srcset="../images/dropdown_item_hover@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_item_focused.png" srcset="../images/dropdown_item_focused@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_item_selected_hover.png" srcset="../images/dropdown_item_selected_hover@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" />
+|  | Idle | Hover | Focused | Disabled |
+|  | ---- | ----- | ------- | -------- |
+|  | <img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" /> | <img class="responsive-img" src="../images/dropdown_item_hover.png" srcset="../images/dropdown_item_hover@2x.png 2x" /> | <img class="responsive-img" src="../images/dropdown_item_focused.png" srcset="../images/dropdown_item_focused@2x.png 2x" /> | <img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" /> |
+| 選択済み | <img class="responsive-img" src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" /> | <img class="responsive-img" src="../images/dropdown_item_selected_hover.png" srcset="../images/dropdown_item_selected_hover@2x.png 2x" /> | <img class="responsive-img" src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" /> |
 
 ## 項目レイアウト テンプレート
 

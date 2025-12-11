@@ -13,7 +13,7 @@ Switch コンポーネントは、ユーザーが設定一覧でオン/オフす
 
 <img class="responsive-img" src="../images/switch_demo.png" srcset="../images/switch_demo@2x.png 2x" />
 
-## 操作状態
+## インタラクション状態
 
 Switch は、**Enabled (有効)** または **Disabled (無効)** の状態で挿入できます。
 

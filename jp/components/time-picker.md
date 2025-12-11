@@ -9,18 +9,59 @@ _language: ja
 
 Time Picker コンポーネントを使用して、日付の時間部分 (時、分、秒) を視覚的に表し、フォームに表示することおよびドロップダウンまたはダイアログから選択することのための適切な手段を提供します。Time Picker は、[Ignite UI for Angular Time Picker コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/time_picker.html)と視覚的に同じものです。
 
-## Time Picker のデモ
+## デモ
 
 <img class="responsive-img" src="../images/timepicker_demo.png" srcset="../images/timepicker_demo@2x.png 2x" />
 
+## タイプ
+
+Figma ではプロパティ パネルの `Type` プロパティで dialog または dropdown の Time Picker を選択できます。
+
+<img class="responsive-img" src="../images/timepicker_type.png" srcset="../images/timepicker_type@2x.png 2x" />
+
+
+## サイズ
+
+すべての Time Picker タイプは、次の 3 つのサイズで利用できます。
+
+- Large (大)
+- Medium (中)
+- Small (小)
+
+<img class="responsive-img" src="../images/timepicker_dialog_sizes.png" srcset="../images/timepicker_dialog_sizes@2x.png 2x" />
+
+<img class="responsive-img" src="../images/timepicker_dropdown_sizes.png" srcset="../images/timepicker_dropdown_sizes@2x.png 2x" />
+
 ## Time Picker の入力
 
-フォームに Time Picker 入力を挿入して、日付の時間部分のみを選択するためのフィールドを示すことができます。Enabled および Disabled のインアクティブ状態、およびユーザーの操作時に表示される Dialog と Drop-down のバリアントをサポートします。
+Time Picker Input は Enabled と Disabled のインタラクション状態をサポートし、Dialog と Dropdown のバリエーションもユーザー操作に応じて表示されます。
 
-<img class="responsive-img" src="../images/timepicker_enabled.png" srcset="../images/timepicker_enabled@2x.png 2x" />
-<img class="responsive-img" src="../images/timepicker_disabled.png" srcset="../images/timepicker_disabled@2x.png 2x" />
 
-## Picker レイアウト
+## Time Picker Input タイプ
+
+Figma では、ユーザーは 2 つのタイプの Time  Picker Input を選択できます。1 つは無地の背景上でより構造的に見える border スタイル、もう 1 つは鮮やかな画像の上に配置した際に内容の可読性を高めるのに最適な box スタイルです。
+
+<img class="responsive-img" src="../images/timepicker_border.png" srcset="../images/timepicker_border@2x.png 2x" />
+<img class="responsive-img" src="../images/timepicker_box.png" srcset="../images/timepicker_box@2x.png 2x" />
+
+
+## Time Picker Input サイズ
+
+すべての Time Picker 入力タイプには、Time Picker コンポーネントの対応するサイズに合わせて 3 つのサイズがあります。
+
+- Large (大)
+- Medium (中)
+- Small (小)
+
+<img class="responsive-img" src="../images/timepicker_input_sizes.png" srcset="../images/timepicker_input_sizes@2x.png 2x" />
+
+## Time Picker Input 状態
+
+Time Picker の入力は 7 つのインタラクション状態 (**Idle**、**Idle & Hover**、**Idle & Disabled**、**Filled**、**Filled & Hover**、**Filled & Disabled**、**Focused**) と、3 つのバリデーション状態 (**Success**、**Warn**、**Error**) をサポートします。
+
+<img class="responsive-img" src="../images/timepicker_states.png" srcset="../images/timepicker_states@2x.png 2x" />
+
+## レイアウト
 
 Time Picker は、水平および垂直方向の Dialog レイアウトおよび Drop-down レイアウトをサポートしており、さまざまなシャドウを表示して互いに区別しやすくすることで、さまざまな時間の選択モードを容易にします。Dialog レイアウトにはヘッダーが付属していることに注意してください。ブール値の `Header` プロパティをオフにすることで Figma でヘッダーを非表示にすることができ、追加された自動レイアウトのおかげでレイアウトはそれに応じて自動的に調整されます。
 
@@ -28,6 +69,7 @@ Time Picker は、水平および垂直方向の Dialog レイアウトおよび
 <img class="responsive-img" src="../images/timepicker_vertical.png" srcset="../images/timepicker_vertical@2x.png 2x" />
 
 <img class="responsive-img" src="../images/timepicker_dropdown.png" srcset="../images/timepicker_dropdown@2x.png 2x" />
+
 
 ## コンテンツ
 
@@ -43,6 +85,7 @@ Time Picker の 2 つのボタンは、時間を元の時間に戻す選択の�
 Button Area はテンプレート化できるため、必要に応じてボタンを簡単に非表示にできます。Figma では、レイヤー パネルからインスタンスを非表示にすることでボタンを非表示にしたり、`Action Buttons` ブール値プロパティを使用してボタン全体を非表示にしたりすることができます。Figma でボタンを追加するには、まずコンポーネント インスタンスをデタッチしてから、必要な変更を適用する必要があります。
 
 <img class="responsive-img" src="../images/timepicker_buttons.png" srcset="../images/timepicker_buttons@2x.png 2x" />
+
 
 ## スタイル設定
 
