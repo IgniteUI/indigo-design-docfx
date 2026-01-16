@@ -13,6 +13,13 @@ Onboarding シンボルをプリセットとして使用して、いくつかの
 
 **Indigo.Design システム**は、最も一般的なアプリケーション シナリオのいくつかをカバーするオンボーディング フローの 7 つのプリセット バージョンを提供します。
 
+<img class="responsive-img" src="../images/onboarding2.png" srcset="../images/onboarding2@2x.png 2x" />
+<img class="responsive-img" src="../images/onboarding4.png" srcset="../images/onboarding4@2x.png 2x" />
+<img class="responsive-img" src="../images/onboarding5.png" srcset="../images/onboarding5@2x.png 2x" />
+<img class="responsive-img" src="../images/onboarding3.png" srcset="../images/onboarding3@2x.png 2x" />
+<img class="responsive-img" src="../images/onboarding6.png" srcset="../images/onboarding6@2x.png 2x" />
+<img class="responsive-img" src="../images/onboarding7.png" srcset="../images/onboarding7@2x.png 2x" />
+
 ## その他のリソース
 
 関連トピック:

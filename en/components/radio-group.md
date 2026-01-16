@@ -1,6 +1,6 @@
 ---
 title: Radio Group - Design System Component
-_description: The Radio Group Component Symbol is used to provide a mechanism for exclusive selection from a set of available options. 
+_description: The Radio Group Component is used to provide a mechanism for exclusive selection from a set of available options. 
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Figma to Angular, Export code from Figma, Figma to HTML, Figma HTML, Figma UI kits, Ignite UI for Angular, Angular, Angular Design System, Design Kits for Angular
 ---
 

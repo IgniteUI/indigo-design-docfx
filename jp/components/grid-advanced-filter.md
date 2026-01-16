@@ -15,9 +15,9 @@ Grid Advanced Filter を使用すると、Grid 上に表示されるダイアロ
 
 ## 高度なフィルター機能
 
-グリッドには、`Features` の下に 3 つの `Advanced Filtering` コンポーネントがあり、各サイズに 1 つずつ、グリッド上に表示されるオーバーレイを表します。Figma では、プロパティ パネルの専用 `Size` プロパティを使用して、さまざまなサイズを切り替えることができます。
+`Grid Features` の `Advanced Filtering` コンポーネントは 1 つのサイズで提供され、Grid の上にオーバーレイとして表示されます。
 
-<img class="responsive-img" src="../images/grid_advanced_filter_sizes.png" srcset="../images/grid_advanced_filter_sizes@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_advanced_filter.png" srcset="../images/grid_advanced_filter@2x.png 2x" />
 
 ## フィルター式状態
 

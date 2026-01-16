@@ -1,6 +1,6 @@
 ---
 title: Stepper - デザイン システム コンポーネント
-_description: Stepper Component Symbol は、番号付きのステップの進行状況を示します。
+_description: Stepper コンポーネントは、番号付きのステップの進行状況を示します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット, Figma からコードをエクスポート, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
@@ -41,9 +41,12 @@ Stepper コンポーネントは、多数のネストされた Step および Pr
 <img class="responsive-img" src="../images/step_number.png" srcset="../images/step_number@2x.png 2x" />
 <img class="responsive-img" src="../images/step_icon.png" srcset="../images/step_icon@2x.png 2x" />
 
-また、あらゆるユース ケース シナリオをカバーできるよう、いくつかの Step 状態を提供します。以下が含まれます: Complete (完了)、Incomplete (未完了)、Disabled (無効)、Invalid (無効状態)、Active (アクティブ) です。これらは右側のプロパティ パネルの `State` プロパティから切り替えることができます。Step 状態に加えて、ブール値プロパティのオン/オフを切り替えることでステップをオプションまたは必須として指定できる `Optional Step` プロパティがあります。この `Optional Step` プロパティは、提供されたすべての状態でアクセスでき、各 Step 内のネストされたオプションとして表示されます。また、Hover と Focused という 2 つの追加状態も提供します。これらは、ブール値プロパティ `Hover` と `Focused` をオン/オフに切り替えることで使用できます。
+また、あらゆるユース ケース シナリオをカバーできるよう、いくつかの Step 状態を提供します。以下が含まれます: Complete (完了)、Incomplete (未完了)、Disabled (無効)、Invalid (無効状態)、Active (アクティブ) です。これらは右側のプロパティ パネルの `State` プロパティから切り替えることができます。Step 状態に加えて、ブール値プロパティのオン/オフを切り替えることでステップをオプションまたは必須として指定できる `Optional Step` プロパティがあります。この `Optional Step` プロパティは、提供されたすべての状態でアクセスでき、各 Step 内のネストされたオプションとして表示されます。
 
 <img class="responsive-img" src="../images/step_state.png" srcset="../images/step_state@2x.png 2x" />
+
+また、Hover と Focused という 2 つの追加状態も提供します。これらは、ブール値プロパティ `Hover` と `Focused` をオン/オフに切り替えることで使用できます。
+
 <img class="responsive-img" src="../images/step_state2.png" srcset="../images/step_state2@2x.png 2x" />
 
 また、Active (アクティブ) と Inactive (非アクティブ) の 2 つのタイプの Progress Line も提供しています。これらは、ネストされた Progress Line コンポーネントを選択した後、プロパティ パネルから `State` プロパティを使用して切り替えできます。

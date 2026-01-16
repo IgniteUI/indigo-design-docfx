@@ -22,22 +22,19 @@ The Dropdown comes in three sizes: Large, Medium, and Small.
 
 ## Items
 
-The Dropdown supports two types of items: header and item. Through headers it is possible to organize the other items in groups.
+The Dropdown supports two types of items: header and item, which are available in three sizes: Large, Medium and Small. Through headers it is possible to organize the other items in groups.
 
-<img class="responsive-img" src="../images/dropdown_header.png" srcset="../images/dropdown_header@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_item.png" srcset="../images/dropdown_item@2x.png 2x" />
+<img class="responsive-img" src="../images/dropdown_header_item.png" srcset="../images/dropdown_header_item@2x.png 2x" />
 
 ## Item States
 
 The Dropdown items support seven different states: **Idle**, **Hover**, **Disabled**, **Focused**, **Selected**, **Selected & Hover** and **Selected & Focused**. In Figma the states are different variants that can be achieved by changing the `State` property and/or the boolean properties for Selected and Disabled.
 
-<img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_item_hover.png" srcset="../images/dropdown_item_hover@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_item_focused.png" srcset="../images/dropdown_item_focused@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_item_selected_hover.png" srcset="../images/dropdown_item_selected_hover@2x.png 2x" />
-<img class="responsive-img" src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" />
+|  | Idle | Hover | Focused | Disabled |
+|  | ---- | ----- | ------- | -------- |
+|  | <img class="responsive-img" src="../images/dropdown_item_idle.png" srcset="../images/dropdown_item_idle@2x.png 2x" /> | <img class="responsive-img" src="../images/dropdown_item_hover.png" srcset="../images/dropdown_item_hover@2x.png 2x" /> | <img class="responsive-img" src="../images/dropdown_item_focused.png" srcset="../images/dropdown_item_focused@2x.png 2x" /> | <img class="responsive-img" src="../images/dropdown_item_disabled.png" srcset="../images/dropdown_item_disabled@2x.png 2x" /> |
+| Selected | <img class="responsive-img" src="../images/dropdown_item_selected.png" srcset="../images/dropdown_item_selected@2x.png 2x" /> | <img class="responsive-img" src="../images/dropdown_item_selected_hover.png" srcset="../images/dropdown_item_selected_hover@2x.png 2x" /> | <img class="responsive-img" src="../images/dropdown_item_selected_focused.png" srcset="../images/dropdown_item_selected_focused@2x.png 2x" /> |
+
 
 ## Item Layout Template
 

@@ -26,42 +26,36 @@ Figma では、hint (ブール値プロパティ) の有無にかかわらず単
 
 Figma では、3 つの異なるタイプから選択できます: 無地の背景でより構造化された認識の border スタイル、および入力を鮮やかな画像の上に配置して、コンテンツの読みやすさを向上させる場合に最も適した boxed スタイルです。
 
-<img class="responsive-img" src="../images/input_simple.png" srcset="../images/input_simple@2x.png 2x" />
 <img class="responsive-img" src="../images/input_border.png" srcset="../images/input_border@2x.png 2x" />
+`border`
 <img class="responsive-img" src="../images/input_box.png" srcset="../images/input_box@2x.png 2x" />
+`box`
 
-## 操作状態
+## サイズ
+
+Input のサイズは 3 つあります。
+
+- Large (大)
+- Medium (中)
+- Small (小)
+
+<img class="responsive-img" src="../images/input_sizes.png" srcset="../images/input_sizes@2x.png 2x" />
+
+## インタラクション状態
 
 Figma では、Input はデフォルトで Enabled 状態にあり、右側のプロパティ パネルから Disabled 状態に切り替えることができます。
 
-<img class="responsive-img" src="../images/input_enabled.png" srcset="../images/input_enabled@2x.png 2x" />
-`enabled`
-<img class="responsive-img" src="../images/input_disabled.png" srcset="../images/input_disabled@2x.png 2x" />
-`disabled`
+<img class="responsive-img" src="../images/input_interaction.png" srcset="../images/input_interaction@2x.png 2x" />
 
 ## 状態
 
 Input コンポーネントは、ユーザーの操作にあわせてさまざまな状態を経ます。**Idle (アイドル)**: コンテンツの代わりにプレースホルダーを表示します。**Idle & Hover (アイドルおよびホバー)** は、ユーザーがカーソルを合わせたときに入力がアクティブであることを示します。**Filled (塗りつぶし済み)**: ユーザーがコンテンツを入力し、入力から移動した後に表示されます。**Filled & Hover (塗りつぶし済みおよびホバー)** - コンテンツが入力された後、ユーザーが入力の上にマウスを置いたときに入力がアクティブであることを示します。**Focused (フォーカス済み)** は、ユーザーがアクティブに入力を行っていることを視覚的に示します。
 
-<img class="responsive-img" src="../images/input_idle.png" srcset="../images/input_idle@2x.png 2x" />
-`idle`
-<img class="responsive-img" src="../images/input_idle&hover.png" srcset="../images/input_idle&hover@2x.png 2x" />
-`idle & hover`
-<img class="responsive-img" src="../images/input_filled.png" srcset="../images/input_filled@2x.png 2x" />
-`filled`
-<img class="responsive-img" src="../images/input_filled&hover.png" srcset="../images/input_filled&hover@2x.png 2x" />
-`filled & hover`
-<img class="responsive-img" src="../images/input_focused.png" srcset="../images/input_focused@2x.png 2x" />
-`focused`
+<img class="responsive-img" src="../images/input_states.png" srcset="../images/input_states@2x.png 2x" /><img class="responsive-img" src="../images/input_states_box.png" srcset="../images/input_states_box@2x.png 2x" />
 
 経験豊富なデザイナーは、ユーザー入力を制限して無効な状態を防止するために、検証スタイルを使用します。検証スタイルは、Input で Success (成功)、Warn (警告)、Error (エラー) を表示する洗練されたデザインを提供します。
 
-<img class="responsive-img" src="../images/input_success.png" srcset="../images/input_success@2x.png 2x" />
-`success`
-<img class="responsive-img" src="../images/input_warning.png" srcset="../images/input_warning@2x.png 2x" />
-`warn`
-<img class="responsive-img" src="../images/input_error.png" srcset="../images/input_error@2x.png 2x" />
-`error`
+<img class="responsive-img" src="../images/input_validation.png" srcset="../images/input_validation@2x.png 2x" />
 
 Figma では、右側のプロパティ パネルの 「State」 プロパティを使用して、状態とバリデーション状態を切り替えることができます。
 
@@ -84,12 +78,15 @@ Input には、背景と境界線/下線の色、およびコンテンツのプ�
 
 ## 使用方法
 
-Input のボックス タイプを使用して画像上にフォームを配置して読みやすくします。デザインの警告やエラー状態で Input を使用する際にヘルパー テキストを使用してユーザーにガイダンスを提供します。
+Input のボックス タイプを使用して画像上にフォームを配置して読みやすくします。
+フォーム内では 1 つのタイプのみ使用してください。
+デザインの警告やエラー状態で Input を使用する際にヘルパー テキストを使用してユーザーにガイダンスを提供します。
 
 | 良い例                                                                           | 悪い例                                                                            |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | <img class="responsive-img" src="../images/input_do1.png" srcset="../images/input_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/input_dont1.png" srcset="../images/input_dont1@2x.png 2x" /> |
 | <img class="responsive-img" src="../images/input_do2.png" srcset="../images/input_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/input_dont2.png" srcset="../images/input_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/input_do3.png" srcset="../images/input_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/input_dont3.png" srcset="../images/input_dont3@2x.png 2x" /> |
 
 ## その他のリソース
 

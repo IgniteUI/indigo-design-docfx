@@ -1,6 +1,6 @@
 ---
 title: Divider - デザイン システム コンポーネント
-_description: Divider コンポーネント シンボルは、コンテンツを水平方向または垂直方向に区切る微妙な線です。
+_description: Divider コンポーネントは、コンテンツを水平方向または垂直方向に区切る微妙な線です。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット
 _language: ja
 ---

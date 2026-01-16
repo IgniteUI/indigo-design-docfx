@@ -1,12 +1,12 @@
 ---
 title: Chip and Chips Area - Design System Component
-_description: The Chip Component Symbol is an interactive and compact visual shown in an obround. The Chips Area Component Symbol represents a collection of Chip Components.
+_description: The Chip Component is an interactive and compact visual shown in an obround. The Chips Area Component represents a collection of Chip Components.
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
 # Chip
 
-Use the Chip Component as a compact visual shown in an obround to display tags and people information e.g. for the recipients of an email. The Chip is visually identical to the [Ignite UI for Angular Chip Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/chip.html)
+ Use the Chip Component as a compact visual shown in an obround to display tags and people information e.g. for the recipients of an email. The Chip is visually identical to the [Ignite UI for Angular Chip Component](https://www.infragistics.com/products/ignite-ui-angular/angular/components/chip.html)
 
 ## Chip Demo
 
@@ -36,7 +36,7 @@ The Chip can be in an Enabled or Disabled state. In Figma, you can change the st
 
 ## State
 
-When the user interacts with the Chip, it may change from the default **Idle** state to Hover, Focused, and Selected. This affords a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping. In Figma these can be selected from the State property in the properties panel.
+When the user interacts with the Chip, it may change from the default **Idle** state to Hover, Focused, and Selected. This affords a more dynamic interaction design that can seamlessly flow into high-fidelity prototyping. In Figma these can be selected from the 'State' property and/or the 'Selected' boolean property in the properties panel.
 
 <img class="responsive-img" src="../images/chip_state.png" srcset="../images/chip_state@2x.png 2x" />
 
@@ -48,7 +48,7 @@ When a chip can be removed, a special cancel icon will appear at the far right t
 
 ## Chip Content
 
-The Chip has rich support for content templating via the prefix and suffix containers allowing to insert icons and text before and after the main label. 
+The Chip has rich support for content templating via the prefix and suffix containers allowing to insert icons and text before and after the main label. The icons used in the chip come also in three sizes: Large, Medium and Small.
 
 In Figma, you can show or hide the prefix and suffix icons by using the "Prefix Icon" and "Suffix Icon" properties in the properties panel and the layout will adjust itself accordingly.
  

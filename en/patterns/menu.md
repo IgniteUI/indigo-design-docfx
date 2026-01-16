@@ -15,6 +15,7 @@ Use the Menu Components as presets for building navigation bars for applications
 There are two types of menus according to their orientation - Horizontal and Vertical.
 
 <img class="responsive-img" src="../images/menu_horizontal.png" srcset="../images/menu_horizontal@2x.png 2x" />
+<div class="divider--half"></div>
 <img class="responsive-img" src="../images/menu_vertical.png" srcset="../images/menu_vertical@2x.png 2x" />
 <div class="divider--half"></div>
 <div class="divider--half"></div>
@@ -40,5 +41,3 @@ Related topics:
   <div class="divider--half"></div>
 
 Our community is active and always welcoming to new ideas.
-
-

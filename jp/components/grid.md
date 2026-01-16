@@ -1,6 +1,6 @@
 ﻿---
 title: Grid - デザイン システム コンポーネント
-_description: Grid コンポーネント シンボルは、表形式の大量のデータを表示し、インタラクティブに操作できます。
+_description: Grid コンポーネントは、表形式の大量のデータを表示し、インタラクティブに操作できます。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---

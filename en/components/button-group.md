@@ -1,6 +1,6 @@
 ---
 title: Button Group - Design System Component
-_description: The Button Group Component Symbol is used to represent a few simple actions that conceptually belong together. 
+_description: The Button Group Component is used to represent a few simple actions that conceptually belong together. 
 _keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angular, Figma to Angular, Angular, Angular Design System, Export code from Figma, Design Kits for Angular, Figma HTML, Figma to HTML, Figma UI kits
 ---
 
@@ -25,9 +25,21 @@ In Figma, the Button Group uses an auto layout allowing it to adjust accordingly
 
 <img class="responsive-img" src="../images/button-group_amount.png" srcset="../images/button-group_amount@2x.png 2x" />
 
-## Button Layout Template
+## Interaction States
 
-Each Button in the Button Group is a Flat Button and allows for the same degree of templating.
+Each button from the Button Group component supports both Enabled and Disabled variants that can also be Selected or not. In Figma you can switch between Enabled and Disabled and between Selected and not Selected variants using boolean operations from the properties panel.
+
+<img class="responsive-img" src="../images/button-group_interaction.png" srcset="../images/button-group_interaction@2x.png 2x" />
+
+## States
+
+In Figma the Enabled buttons in the Button Group component support Idle, Hover and Focused states which can be switched between by changing the State property.
+
+<img class="responsive-img" src="../images/button-group_states.png" srcset="../images/button-group_states@2x.png 2x" />
+
+## Button Group Layout Template
+
+Each button from the button group supports flexible icon and label templates. In Figma, to show or hide an icon, you should select the Text & Icon Content type from the property panel and then use the Left Icon and Right Icon boolean properties. If you want to have an Icon Button, you can set the Content property to Icon.
 
 <img class="responsive-img" src="../images/button-group_text.png" srcset="../images/button-group_text@2x.png 2x" />
 <img class="responsive-img" src="../images/button-group_icon.png" srcset="../images/button-group_icon@2x.png 2x" />

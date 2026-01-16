@@ -1,13 +1,13 @@
 ﻿---
 title: Radio Group -  デザイン システム コンポーネント
-_description: Radio Group コンポーネント シンボルは、一連のオプションで排他的な選択のメカニズムを提供します。
+_description: Radio Group コンポーネントは、一連のオプションで排他的な選択のメカニズムを提供します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Figma to Angular, Figma からコードをエクスポート, Figma to HTML, Figma HTML, Figma UI キット, Ignite UI for Angular, Angular, Angular デザイン システム, Angular 用のデザイン キット
 _language: ja
 ---
 
 # Radio Group (ラジオ グループ)
 
-Radio Group コンポーネント シンボルは、グループ項目で排他的な選択をサポートします。グループ内の項目は、1 つの列に次々に配置されます。Radio Group は、[Ignite UI for Angular Radio Button コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/radio_button.html)と視覚的に同じものです。
+Radio Group コンポーネントは、グループ項目で排他的な選択をサポートします。グループ内の項目は、1 つの列に次々に配置されます。Radio Group は、[Ignite UI for Angular Radio Button コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/radio_button.html)と視覚的に同じものです。
 
 ## Radio Group のデモ
 
@@ -27,7 +27,7 @@ Radio Group には Vertical および Horizontal 方向があります。
 <img class="responsive-img" src="../images/radiogroup_enabled_state.png" srcset="../images/radiogroup_enabled_state@2x.png 2x" />          
 <img class="responsive-img" src="../images/radiogroup_horizontal.png" srcset="../images/radiogroup_horizontal@2x.png 2x" />
 
-## 操作状態
+## インタラクション状態
 
 Radio Group は、**Enabled (有効)**、**Disabled (無効)**、および **Invalid (無効状態)** のインタラクション状態をサポートします。
 

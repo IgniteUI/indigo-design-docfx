@@ -14,9 +14,9 @@ Use the Grid Advanced Filter to specify advanced filtering criteria spanning ove
 
 ## Advanced Filter Feature
 
-The Grid has three `Advanced Filtering` components under `Grid Features`, one for each Size, that represent the overlay shown over the Grid. In Figma you can switch between the different sizes via the dedicated `Size` property in the properties panel.
+The Grid `Advanced Filtering` component under `Grid Features` has one size and represents an overlay shown over the Grid.
 
-<img class="responsive-img" src="../images/grid_advanced_filter_sizes.png" srcset="../images/grid_advanced_filter_sizes@2x.png 2x" />
+<img class="responsive-img" src="../images/grid_advanced_filter.png" srcset="../images/grid_advanced_filter@2x.png 2x" />
 
 ## Filter Expression State
 

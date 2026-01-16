@@ -57,7 +57,7 @@ Hierarchical Grid は、さまざま状態の各セル テキスト、アイコ�
 
 | 良い例                                                                                                | 悪い例                                                                                                |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| <img class="responsive-img" src="../images/grid_do1.png" srcset="../images/grid_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/grid_dont1.png" srcset="../images/grid_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/hierarchical_grid_do1.png" srcset="../images/hierarchical_grid_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/hierarchical_grid_dont1.png" srcset="../images/hierarchical_grid_dont1@2x.png 2x" /> |
 
 ## その他のリソース
 

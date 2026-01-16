@@ -1,19 +1,19 @@
 ﻿---
 title: Checkbox - デザイン システム コンポーネント
-_description: Checkbox コンポーネント シンボルは、ユーザーが選択にマークできる機能を提供します。
+_description: Checkbox コンポーネントは、ユーザーが選択にマークできる機能を提供します。
 _keywords: デザイン システム, デザイン システム UX, UI キット, Figma, Ignite UI for Angular, Angular, Angular デザイン システム, Figma からコードをエクスポート, Angular 用のデザイン キット, Figma HTML, Figma to HTML, Figma UI キット
 _language: ja
 ---
 
 # Checkbox (チェックボックス)
 
-Checkbox コンポーネント シンボルは、設定の変更やフォームでの同意などに最もよく利用されます。Checkbox は、[Ignite UI for Angular Checkbox コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/checkbox.html)と視覚的に同じものです。
+Checkbox コンポーネントは、設定の変更やフォームでの同意などに最もよく利用されます。Checkbox は、[Ignite UI for Angular Checkbox コンポーネント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/checkbox.html)と視覚的に同じものです。
 
 ## Checkbox のデモ
 
 <img class="responsive-img" src="../images/checkbox_demo.png" srcset="../images/checkbox_demo@2x.png 2x" />
 
-## 操作状態
+## インタラクション状態
 
 Checkbox は、有効または無効の状態で挿入できます。Figma では、以下のプロパティを単独または組み合わせて適用することもできます: Hover (ホバー)、Focused (フォーカス済み)、Invalid (無効状態)。これらはプロパティ パネルで切り替えることができます。
 

@@ -17,6 +17,7 @@ Use the Tabs Component to organize different views of the same information or sw
 The Tabs are available in two sizes - Short, showing only text by default, with the option to have prefix and suffix icons, and Tall, which also has an additional third icon on top of the text. In Figma you can switch between the two sizes from the `Type` property on the right properties panel.
 
 <img class="responsive-img" src="../images/tabs_short.png" srcset="../images/tabs_short@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_content_fit_with_prefix.png" srcset="../images/tabs_content_fit_with_prefix@2x.png 2x" />
 <img class="responsive-img" src="../images/tabs_tall.png" srcset="../images/tabs_tall@2x.png 2x" />
 
 ## Responsive
@@ -30,10 +31,9 @@ The Tabs can be Content Fit to fill up the available horizontal space by adaptin
 
 For most scenarios, the Tabs need to contain between two and five items. To remove an item in Figma simply hide the nested Tab Item component from the layers panel and the added auto layout will adjust the content appropriately. If your use case requires more than five tabs, you should consider the Fixed mode explained above.
 
-<img class="responsive-img" src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" />
-<img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" />
-<img class="responsive-img" src="../images/tabs_4.png" srcset="../images/tabs_4@2x.png 2x" />
-<img class="responsive-img" src="../images/tabs_5.png" srcset="../images/tabs_5@2x.png 2x" />
+<img class="responsive-img" src="../images/tabs_2.png" srcset="../images/tabs_2@2x.png 2x" /><img class="responsive-img" src="../images/tabs_3.png" srcset="../images/tabs_3@2x.png 2x" /><img class="responsive-img" src="../images/tabs_4.png" srcset="../images/tabs_4@2x.png 2x" /><img class="responsive-img" src="../images/tabs_5.png" srcset="../images/tabs_5@2x.png 2x" /><img class="responsive-img" src="../images/tabs_fixed2.png" srcset="../images/tabs_fixed2@2x.png 2x" />
+
+
 
 ## Short Bar Content
 

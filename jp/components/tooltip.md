@@ -21,12 +21,14 @@ Tooltip には、背景色とメッセージ テキスト スタイルで使用�
 
 ## 使用方法
 
-要素に Tooltip を表示する際の位置は大変重要です。ほとんどの場合、要素は相互的な関連によって配置されます。例外として配置によって Tooltip の一部が切れる場合があり、Tooltip 全体が表示されるよう配置します。
+特定の要素に対して Tooltip を表示する場合、適切な位置の選択が重要です。Tooltip は説明対象の要素の近くに表示されるべきであり、インターフェイスを妨げたりユーザーの注意をそらしたりしてはなりません。その位置は最大限の視認性を確保し、画面内に完全に収まる必要があります。デフォルトでは Tooltip は要素のすぐ下の中央に表示されますが、その位置では Tooltip の一部が画面外に出てしまう場合、Tooltip 全体が表示されるように位置を調整する必要があります。
+Tooltip は重要な情報を伝える目的で使用するべきではありません。
 
 | 良い例                                                                               |悪い例                                                                                |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| <img class="responsive-img" src="../images/tooltip_do1.png" srcset="../images/tooltip_do1@2x.png 2x" />|<img class="responsive-img" src="../images/tooltip_dont1.png" srcset="../images/tooltip_dont1@2x.png 2x" /> |
-| <img class="responsive-img" src="../images/tooltip_do2.png" srcset="../images/tooltip_do2@2x.png 2x" />|<img class="responsive-img" src="../images/tooltip_dont2.png" srcset="../images/tooltip_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/tooltip_do1.png" srcset="../images/tooltip_do1@2x.png 2x" /> | <img class="responsive-img" src="../images/tooltip_dont1.png" srcset="../images/tooltip_dont1@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/tooltip_do2.png" srcset="../images/tooltip_do2@2x.png 2x" /> | <img class="responsive-img" src="../images/tooltip_dont2.png" srcset="../images/tooltip_dont2@2x.png 2x" /> |
+| <img class="responsive-img" src="../images/tooltip_do3.png" srcset="../images/tooltip_do3@2x.png 2x" /> | <img class="responsive-img" src="../images/tooltip_dont3.png" srcset="../images/tooltip_dont3@2x.png 2x" /> |
 
 ## その他のリソース
 

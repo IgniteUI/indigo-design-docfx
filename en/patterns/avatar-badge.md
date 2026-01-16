@@ -6,7 +6,7 @@ _keywords: Design Systems, Design Systems UX, UI kit, Figma, Ignite UI for Angul
 
 # Avatar + Badge
 
-The Avatar + Badge Pattern is commonly used in many digital platforms to represent users and their accomplishments or roles. An Avatar is a small graphical representation of a user, often a profile picture or icon, while a Badge is a small visual element that is used with a short subtle message or indication to represent an achievement, alert or a status.
+The Avatar + Badge Pattern is commonly used in many digital platforms to represent users and their accomplishments or roles. An Avatar is a small graphical representation of a user, often a profile picture or an icon, while a Badge is a small visual element that is used with a short subtle message or indication to represent an achievement, alert or a status.
 
 <img class="responsive-img" src="../images/avatar_badge_demo.png" srcset="../images/avatar_badge_demo@2x.png 2x" />
 

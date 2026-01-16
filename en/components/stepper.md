@@ -40,9 +40,12 @@ Each Step consists of an Indicator and Information. The Indicator can be either 
 <img class="responsive-img" src="../images/step_number.png" srcset="../images/step_number@2x.png 2x" />
 <img class="responsive-img" src="../images/step_icon.png" srcset="../images/step_icon@2x.png 2x" />
 
-We also provide a number of states for the Step, which should cover all use case scenarios. These include: Complete, Incomplete, Disabled, Invalid and Active. These can be switched from the `State` property on the right properties panel. In addition to the Step state, there is an `Optional Step` property that enables you to designate a step as either optional or required by switching on/off the boolean property. This `Optional Step` property is accessible for all provided states and is presented as a nested option within each Step. We also provide two additional states: Hover and Focused, which can be used by switching on/off the boolean properties `Hover` and `Focused`.
+We also provide a number of states for the Step, which should cover all use case scenarios. These include: Complete, Incomplete, Disabled, Invalid and Active. These can be switched from the `State` property on the right properties panel. In addition to the Step state, there is an `Optional Step` property that enables you to designate a step as either optional or required by switching on/off the boolean property. This `Optional Step` property is accessible for all provided states and is presented as a nested option within each Step.
 
 <img class="responsive-img" src="../images/step_state.png" srcset="../images/step_state@2x.png 2x" />
+
+ We also provide two additional states: Hover and Focused, which can be used by switching on/off the boolean properties `Hover` and `Focused`.
+ 
 <img class="responsive-img" src="../images/step_state2.png" srcset="../images/step_state2@2x.png 2x" />
 
 We also provide two types of Progress Lines - Active and Inactive. These can be swapped by using the property `State` from the properties panel, after selecting the nested Progress Line component.

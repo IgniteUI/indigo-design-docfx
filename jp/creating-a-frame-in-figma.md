@@ -16,7 +16,7 @@ _language: ja
 
 ## 詳細手順
 
-### 1. Figma で Indigo.Design システムを使用します。
+### 1. Figma で **Indigo.Design システム**を使用します。
 
 - 検索を使用して Figma コミュニティから Indigo.Design UI Kit for Material を取得し、「Open in Figma」 青いボタンをクリックしてファイルを複製します。UI キットは[こちらから](https://www.figma.com/@infragistics)ダウンロードすることもできます。
 
