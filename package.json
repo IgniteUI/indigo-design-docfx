@@ -13,16 +13,16 @@
   "author": "Infragistics",
   "license": "ISC",
   "dependencies": {
-    "igniteui-docfx-template": "^3.5.1",
+    "igniteui-docfx-template": "^3.12.1",
     "natives": "^1.1.6",
     "require-or-import": "0.1.1",
-    "yargs": "^10.0.3"
+    "yargs": "^18.0.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.27.7",
+    "browser-sync": "^3.0.4",
     "del": "^5.1.0",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
+    "gulp": "^5.0.1",
+    "gulp-autoprefixer": "^10.0.0",
     "gulp-dart-sass": "^1.0.2",
     "gulp-file-include": "^2.1.1",
     "gulp-replace": "^1.1.3",
