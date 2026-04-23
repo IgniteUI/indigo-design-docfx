@@ -27,10 +27,21 @@ steps:
       PUSH_AFTER: ${{ github.event.after }}
     run: |
       mkdir -p /tmp/gh-aw/agent
+      : > /tmp/gh-aw/agent/changed-en-files.txt
       if [ "$PUSH_BEFORE" = "0000000000000000000000000000000000000000" ]; then
-        git diff --name-only HEAD~1 HEAD -- en/ > /tmp/gh-aw/agent/changed-en-files.txt 2>/dev/null || echo "" > /tmp/gh-aw/agent/changed-en-files.txt
+        EMPTY_TREE="$(git hash-object -t tree /dev/null)"
+        if ! git rev-parse --verify --quiet "$PUSH_AFTER^{commit}" >/dev/null; then
+          git fetch --no-tags --depth=1 origin "$PUSH_AFTER"
+        fi
+        git diff --name-only --diff-filter=AMCR "$EMPTY_TREE" "$PUSH_AFTER" -- en/ > /tmp/gh-aw/agent/changed-en-files.txt
       else
-        git diff --name-only "$PUSH_BEFORE" "$PUSH_AFTER" -- en/ > /tmp/gh-aw/agent/changed-en-files.txt
+        if ! git rev-parse --verify --quiet "$PUSH_BEFORE^{commit}" >/dev/null; then
+          git fetch --no-tags --depth=1 origin "$PUSH_BEFORE"
+        fi
+        if ! git rev-parse --verify --quiet "$PUSH_AFTER^{commit}" >/dev/null; then
+          git fetch --no-tags --depth=1 origin "$PUSH_AFTER"
+        fi
+        git diff --name-only --diff-filter=AMCR "$PUSH_BEFORE" "$PUSH_AFTER" -- en/ > /tmp/gh-aw/agent/changed-en-files.txt
       fi
       echo "Changed English files:"
       cat /tmp/gh-aw/agent/changed-en-files.txt

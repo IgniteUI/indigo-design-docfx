@@ -1,4 +1,4 @@
-# gh-aw-metadata: {"schema_version":"v3","frontmatter_hash":"d8205d313f26e1510a02c0db023407d24079d85b65341033913f199f37cf5357","compiler_version":"v0.68.1","strict":true,"agent_id":"copilot"}
+# gh-aw-metadata: {"schema_version":"v3","frontmatter_hash":"1f9e4ac40d6240a6082165936f34ab981e2d9a53cb238b4b12b5cc6daecb538c","compiler_version":"v0.68.1","strict":true,"agent_id":"copilot"}
 # gh-aw-manifest: {"version":1,"secrets":["COPILOT_GITHUB_TOKEN","GH_AW_CI_TRIGGER_TOKEN","GH_AW_GITHUB_MCP_SERVER_TOKEN","GH_AW_GITHUB_TOKEN","GITHUB_TOKEN"],"actions":[{"repo":"actions/checkout","sha":"de0fac2e4500dabe0009e67214ff5f5447ce83dd","version":"v6.0.2"},{"repo":"actions/download-artifact","sha":"3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c","version":"v8.0.1"},{"repo":"actions/github-script","sha":"373c709c69115d41ff229c7e5df9f8788daa9553","version":"v9"},{"repo":"actions/github-script","sha":"3a2844b7e9c422d3c10d287c895573f7108da1b3","version":"v9"},{"repo":"actions/upload-artifact","sha":"bbbca2ddaa5d8feaa63e36b76fdaad77386f024f","version":"v7"},{"repo":"github/gh-aw-actions/setup","sha":"2fe53acc038ba01c3bbdc767d4b25df31ca5bdfc","version":"v0.68.1"}]}
 #    ___                   _   _      
 #   / _ \                 | | (_)     
@@ -156,19 +156,19 @@ jobs:
         run: |
           bash "${RUNNER_TEMP}/gh-aw/actions/create_prompt_first.sh"
           {
-          cat << 'GH_AW_PROMPT_7703d0e4b0ab319f_EOF'
+          cat << 'GH_AW_PROMPT_34cc0083cb3a05aa_EOF'
           <system>
-          GH_AW_PROMPT_7703d0e4b0ab319f_EOF
+          GH_AW_PROMPT_34cc0083cb3a05aa_EOF
           cat "${RUNNER_TEMP}/gh-aw/prompts/xpia.md"
           cat "${RUNNER_TEMP}/gh-aw/prompts/temp_folder_prompt.md"
           cat "${RUNNER_TEMP}/gh-aw/prompts/markdown.md"
           cat "${RUNNER_TEMP}/gh-aw/prompts/safe_outputs_prompt.md"
-          cat << 'GH_AW_PROMPT_7703d0e4b0ab319f_EOF'
+          cat << 'GH_AW_PROMPT_34cc0083cb3a05aa_EOF'
           <safe-output-tools>
           Tools: create_pull_request, missing_tool, missing_data, noop
-          GH_AW_PROMPT_7703d0e4b0ab319f_EOF
+          GH_AW_PROMPT_34cc0083cb3a05aa_EOF
           cat "${RUNNER_TEMP}/gh-aw/prompts/safe_outputs_create_pull_request.md"
-          cat << 'GH_AW_PROMPT_7703d0e4b0ab319f_EOF'
+          cat << 'GH_AW_PROMPT_34cc0083cb3a05aa_EOF'
           </safe-output-tools>
           <github-context>
           The following GitHub context information is available for this workflow:
@@ -198,12 +198,12 @@ jobs:
           {{/if}}
           </github-context>
           
-          GH_AW_PROMPT_7703d0e4b0ab319f_EOF
+          GH_AW_PROMPT_34cc0083cb3a05aa_EOF
           cat "${RUNNER_TEMP}/gh-aw/prompts/github_mcp_tools_with_safeoutputs_prompt.md"
-          cat << 'GH_AW_PROMPT_7703d0e4b0ab319f_EOF'
+          cat << 'GH_AW_PROMPT_34cc0083cb3a05aa_EOF'
           </system>
           {{#runtime-import .github/workflows/sync-jp-docs.md}}
-          GH_AW_PROMPT_7703d0e4b0ab319f_EOF
+          GH_AW_PROMPT_34cc0083cb3a05aa_EOF
           } > "$GH_AW_PROMPT"
       - name: Interpolate variables and render templates
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9
@@ -324,7 +324,7 @@ jobs:
           PUSH_AFTER: ${{ github.event.after }}
           PUSH_BEFORE: ${{ github.event.before }}
         name: Detect changed English files
-        run: "mkdir -p /tmp/gh-aw/agent\nif [ \"$PUSH_BEFORE\" = \"0000000000000000000000000000000000000000\" ]; then\n  git diff --name-only HEAD~1 HEAD -- en/ > /tmp/gh-aw/agent/changed-en-files.txt 2>/dev/null || echo \"\" > /tmp/gh-aw/agent/changed-en-files.txt\nelse\n  git diff --name-only \"$PUSH_BEFORE\" \"$PUSH_AFTER\" -- en/ > /tmp/gh-aw/agent/changed-en-files.txt\nfi\necho \"Changed English files:\"\ncat /tmp/gh-aw/agent/changed-en-files.txt\n"
+        run: "mkdir -p /tmp/gh-aw/agent\n: > /tmp/gh-aw/agent/changed-en-files.txt\nif [ \"$PUSH_BEFORE\" = \"0000000000000000000000000000000000000000\" ]; then\n  EMPTY_TREE=\"$(git hash-object -t tree /dev/null)\"\n  if ! git rev-parse --verify --quiet \"$PUSH_AFTER^{commit}\" >/dev/null; then\n    git fetch --no-tags --depth=1 origin \"$PUSH_AFTER\"\n  fi\n  git diff --name-only --diff-filter=AMCR \"$EMPTY_TREE\" \"$PUSH_AFTER\" -- en/ > /tmp/gh-aw/agent/changed-en-files.txt\nelse\n  if ! git rev-parse --verify --quiet \"$PUSH_BEFORE^{commit}\" >/dev/null; then\n    git fetch --no-tags --depth=1 origin \"$PUSH_BEFORE\"\n  fi\n  if ! git rev-parse --verify --quiet \"$PUSH_AFTER^{commit}\" >/dev/null; then\n    git fetch --no-tags --depth=1 origin \"$PUSH_AFTER\"\n  fi\n  git diff --name-only --diff-filter=AMCR \"$PUSH_BEFORE\" \"$PUSH_AFTER\" -- en/ > /tmp/gh-aw/agent/changed-en-files.txt\nfi\necho \"Changed English files:\"\ncat /tmp/gh-aw/agent/changed-en-files.txt\n"
 
       - name: Configure Git credentials
         env:
@@ -376,9 +376,9 @@ jobs:
           mkdir -p "${RUNNER_TEMP}/gh-aw/safeoutputs"
           mkdir -p /tmp/gh-aw/safeoutputs
           mkdir -p /tmp/gh-aw/mcp-logs/safeoutputs
-          cat > "${RUNNER_TEMP}/gh-aw/safeoutputs/config.json" << 'GH_AW_SAFE_OUTPUTS_CONFIG_c3081c18a94831e6_EOF'
+          cat > "${RUNNER_TEMP}/gh-aw/safeoutputs/config.json" << 'GH_AW_SAFE_OUTPUTS_CONFIG_5b910ed9217a8ac2_EOF'
           {"create_pull_request":{"max":1,"max_patch_size":1024,"protected_files":["package.json","bun.lockb","bunfig.toml","deno.json","deno.jsonc","deno.lock","global.json","NuGet.Config","Directory.Packages.props","mix.exs","mix.lock","go.mod","go.sum","stack.yaml","stack.yaml.lock","pom.xml","build.gradle","build.gradle.kts","settings.gradle","settings.gradle.kts","gradle.properties","package-lock.json","yarn.lock","pnpm-lock.yaml","npm-shrinkwrap.json","requirements.txt","Pipfile","Pipfile.lock","pyproject.toml","setup.py","setup.cfg","Gemfile","Gemfile.lock","uv.lock","CODEOWNERS"],"protected_path_prefixes":[".github/",".agents/"]},"create_report_incomplete_issue":{},"missing_data":{},"missing_tool":{},"noop":{"max":1,"report-as-issue":"true"},"report_incomplete":{}}
-          GH_AW_SAFE_OUTPUTS_CONFIG_c3081c18a94831e6_EOF
+          GH_AW_SAFE_OUTPUTS_CONFIG_5b910ed9217a8ac2_EOF
       - name: Write Safe Outputs Tools
         env:
           GH_AW_TOOLS_META_JSON: |
@@ -576,7 +576,7 @@ jobs:
           export MCP_GATEWAY_DOCKER_COMMAND='docker run -i --rm --network host -v /var/run/docker.sock:/var/run/docker.sock -e MCP_GATEWAY_PORT -e MCP_GATEWAY_DOMAIN -e MCP_GATEWAY_API_KEY -e MCP_GATEWAY_PAYLOAD_DIR -e MCP_GATEWAY_PAYLOAD_SIZE_THRESHOLD -e DEBUG -e MCP_GATEWAY_LOG_DIR -e GH_AW_MCP_LOG_DIR -e GH_AW_SAFE_OUTPUTS -e GH_AW_SAFE_OUTPUTS_CONFIG_PATH -e GH_AW_SAFE_OUTPUTS_TOOLS_PATH -e GH_AW_ASSETS_BRANCH -e GH_AW_ASSETS_MAX_SIZE_KB -e GH_AW_ASSETS_ALLOWED_EXTS -e DEFAULT_BRANCH -e GITHUB_MCP_SERVER_TOKEN -e GITHUB_MCP_GUARD_MIN_INTEGRITY -e GITHUB_MCP_GUARD_REPOS -e GITHUB_REPOSITORY -e GITHUB_SERVER_URL -e GITHUB_SHA -e GITHUB_WORKSPACE -e GITHUB_TOKEN -e GITHUB_RUN_ID -e GITHUB_RUN_NUMBER -e GITHUB_RUN_ATTEMPT -e GITHUB_JOB -e GITHUB_ACTION -e GITHUB_EVENT_NAME -e GITHUB_EVENT_PATH -e GITHUB_ACTOR -e GITHUB_ACTOR_ID -e GITHUB_TRIGGERING_ACTOR -e GITHUB_WORKFLOW -e GITHUB_WORKFLOW_REF -e GITHUB_WORKFLOW_SHA -e GITHUB_REF -e GITHUB_REF_NAME -e GITHUB_REF_TYPE -e GITHUB_HEAD_REF -e GITHUB_BASE_REF -e GH_AW_SAFE_OUTPUTS_PORT -e GH_AW_SAFE_OUTPUTS_API_KEY -v /tmp/gh-aw/mcp-payloads:/tmp/gh-aw/mcp-payloads:rw -v /opt:/opt:ro -v /tmp:/tmp:rw -v '"${GITHUB_WORKSPACE}"':'"${GITHUB_WORKSPACE}"':rw ghcr.io/github/gh-aw-mcpg:v0.2.17'
           
           mkdir -p /home/runner/.copilot
-          cat << GH_AW_MCP_CONFIG_20d4b6e55aae8adf_EOF | bash "${RUNNER_TEMP}/gh-aw/actions/start_mcp_gateway.sh"
+          cat << GH_AW_MCP_CONFIG_620a934f0c3af0ab_EOF | bash "${RUNNER_TEMP}/gh-aw/actions/start_mcp_gateway.sh"
           {
             "mcpServers": {
               "github": {
@@ -617,7 +617,7 @@ jobs:
               "payloadDir": "${MCP_GATEWAY_PAYLOAD_DIR}"
             }
           }
-          GH_AW_MCP_CONFIG_20d4b6e55aae8adf_EOF
+          GH_AW_MCP_CONFIG_620a934f0c3af0ab_EOF
       - name: Download activation artifact
         uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
